@@ -1,0 +1,1515 @@
+3 November 2022
+===============
+
+*(10.11 am)*
+
+Mr Jeremy Folkes
+----------------
+
+*MR JEREMY FOLKES (continued).*
+
+**Sir Wyn Williams**: Thank you.
+
+**Mr Beer**: Good morning, sir, to you and your assessors.
+
+Mr Folkes, good morning to you.  Can I ask you a question, please, picking up on something that you said yesterday.  You told us, when I showed you the EPOSS task force report, that you didn't know about the EPOSS task force at the time but that, after, I think, you left the company, you spoke to people who were involved, you spoke to them informally over a pint --
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: -- and they said that Pathway ploughed as many people as they could find into the EPOSS system to try and get it to be fixed or fix the issues in it?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: And the feedback that you got from them was that that process was introducing as many issues as were being fixed.  I'm summarising, not quoting verbatim from the transcript.  Can you tell us who you spoke to, please?
+
+**Mr Jeremy Folkes**: I suppose I have spoken to a number of people.  The world of account automation is fairly small, so people who worked there I have come up since.
+
+There are people who I have worked with within Escher who formerly worked back in Fujitsu.  I believe as one gentleman called Dai Jones who I spoke to.  There was another gentleman called Nick Wright and there may have been others.
+
+**Mr Beer**: Certainly Dai Jones and Nick Wright?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: Thank you very much.  Can I turn to the fifth role that you undertook as part of this programme, namely the live trials and acceptance phase.  You tell us in your witness statement, and it is `WITN05970100 <https://www.postofficehorizoninquiry.org.uk/evidence/jeremy-folkes-2-and-3-november-2022>`_, at page 47 -- you are here dealing with the live trial process in 1999 and, at paragraph 141 at the bottom, you say:
+
+"I have been asked to describe my understanding of the nature, cause and severity of Acceptance Incidents identified during the Live Trial.  I remember the Live Trial exposed many issues with Horizon as supported by", and you refer to a pack of AI forms:
+
+"These become visible to us via Acceptance Incidents (AIs).  These spanned a variety of areas, from training and helpdesk, through to accounting in EPOSS down to the underlying system stability, and included the interface to the POCL backend system TIP."
+
+As you say, the issues that were being raised in the course of the live trial became visible to you via Acceptance Incidents forms, AIs, yes?  Can we just look at an example of one of those, please, POL00028357, and look at page 57, please.
+
+This is a AI form.  It is, in fact, for AI376 in which the Inquiry is interested.  Can you help us, on what system were these AIs kept?
+
+**Mr Jeremy Folkes**: I believe it was a system owned by Post Office or run by the programme.  I don't actually know whether this was a formal system or whether these were maybe Word documents on a server.  Whatever it was, I didn't have direct access to them but I saw many of them, they were emailed out, or whatever, to people.
+
+**Mr Beer**: So, to your knowledge, there wasn't necessarily a system or an application which operated the AI forms, you got sent them or presumably were shown paper copies of them?
+
+**Mr Jeremy Folkes**: There was an acceptance team who managed them.  I don't know what tools they used to manage them.
+
+**Mr Beer**: Was there any way for you to look at all and any AIs or could you only look at those that were sent to you?
+
+**Mr Jeremy Folkes**: I believe only those that were sent.
+
+**Mr Beer**: Could you make changes to the text within them?
+
+**Mr Jeremy Folkes**: Not directly but I believe we could contribute changes further down the form.  There were various AI meetings, et cetera, and the outcome of some of these meetings would have been recorded.  They wouldn't have been recorded directly by myself but the people managing the AI process would have then gone back and updated them.
+
+**Mr Beer**: If we look at the foot of the page, there seems to be a requirement at the foot of the page for them to be signed off by a witness or reviewer.  The witness or reviewer, can you help us as to which organisation that person might come from?
+
+**Mr Jeremy Folkes**: I presume the witness or reviewer would have been the person who witnessed the test and, therefore, witnessed the failure of the test, given it would be a failure that caused the AI.
+
+**Mr Beer**: So that could be either POCL or ICL Pathway?
+
+**Mr Jeremy Folkes**: Potentially, yes.
+
+**Mr Beer**: Then "Horizon Acceptance Test Manager", was that --
+
+**Mr Jeremy Folkes**: It would have been POCL, I believe.
+
+**Mr Beer**: That would have been in POCL?
+
+**Mr Jeremy Folkes**: I couldn't give a name to it but that would have been a person from Horizon, ie at that point POCL, who was running that acceptance test.
+
+**Mr Beer**: Pathway is obvious.  Then "AIM", can you help us as to what that is?
+
+**Mr Jeremy Folkes**: I can't.  I can make a guess it was the AI manager maybe but that would be a guess.
+
+**Mr Beer**: We see that there are some now irrelevant issues, a DSS acceptance manager at the foot of the page.  Then "POCL Business Assurance".  Who would that have been?
+
+**Mr Jeremy Folkes**: That I presume would have been somebody within John Meagher's team or the relevant business person in the relevant business area.  So if this was talking to -- this one is related to the link to TIP, I believe, so it may have been a relevant person within the TIP team.
+
+**Mr Beer**: As a matter of practice, were these, in fact, signed and completed?  The ones we have got aren't.
+
+**Mr Jeremy Folkes**: I can't remember seeing any that were signed but, you know, what I remember seeing was many iterations of them, in that an AI would be raised and then it would be updated with progress and discussions and whatever and, therefore, every time it was printed out -- it wouldn't be resigned every time it was printed out.
+
+**Mr Beer**: These forms cross refer to PinICLs quite often?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: Did you have access to records of PinICLs?
+
+**Mr Jeremy Folkes**: No.
+
+**Mr Beer**: Did, to your knowledge, anyone within POCL have access to PinICLs?
+
+**Mr Jeremy Folkes**: To my knowledge, at this point, middle of 1999, no, we didn't have access to PinICLs.
+
+**Mr Beer**: On what system were PinICLs kept?
+
+**Mr Jeremy Folkes**: PinICLs was an internal ICL or Pathway tool.  I believe it was something wholly within the Pathway internal systems, and probably only, therefore, accessible within Pathway's own internal networks.
+
+**Mr Beer**: Do you know the system on which they were kept or not because it was in ICL Pathway?
+
+**Mr Jeremy Folkes**: No.  There were a number of internal systems that any software provider would have and a fault management system would be one of those.  But as to what server it would go on, something internal to them.
+
+**Mr Beer**: These AIs sometimes refer to information coming in from helpdesks?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: What access to Helpdesk records did you, within POCL, have?
+
+**Mr Jeremy Folkes**: Within POCL, I remember we had initially no direct access to information.  In the middle of 1999 there was something called the "problem management system" running on a problem management database web server that Pathway introduced.  This wasn't direct access to the Helpdesk system, it was something derived from it.  I remember we were given access to that and it is actually mentioned in POL28397.  It is probably not relevant to bring it up but that document confirms we had access to this drive system.  We found that wasn't satisfactory, it didn't provide enough detail and I was then asked by Bruce McNiven to draft a letter that he could send to John Bennett, that I did on 13 July of that year asking for full access to HSH.
+
+**Mr Beer**: Were you given full access to HSH?
+
+**Mr Jeremy Folkes**: I believe at some point after that we probably were. I didn't personally see it.  The problem that we had was that this drive system, this problem management system we were given, which was running on this separate web server, I remember when we looked at it, in the letter I wrote to John Bennett for Bruce, it said "the system appears to be incomplete", it only contained 14 problems when we looked at it.  Well, 14 problems as of July 1999, to me, was not a credible or accurate extract.  So what we were being shown at that point was some kind of extract.  We didn't know how it came from there but we commented it was incomplete and it didn't appear to be in its original form, so we pushed that we needed the access to the real HSH logs to be able to understand what was happening in the field.
+
+**Mr Beer**: Can we go back to your witness statement please, `WITN05970100 <https://www.postofficehorizoninquiry.org.uk/evidence/jeremy-folkes-2-and-3-november-2022>`_ at page 48.  It is paragraph 143 of your witness statement.  You say:
+
+"My view was that these incidents ..."
+
+These are the incidents that you spoke about as depicted on the AIs:
+
+"... were of significant severity, especially those which rendered the system unstable and by nature 'encouraged' the user to reboot."
+
+Why were they of significant severity?
+
+**Mr Jeremy Folkes**: Well, this one in particular, 298, which I think I was given to run with internally, the system in front of the counter clerk and subpostmaster, would lock-up or run very slowly and it was unusual, they couldn't serve with it.  When this happened they could either try and wait -- if you have got a Post Office full of people that's not awfully satisfactory -- or you reboot.  The process of rebooting a PC, back in that side of technology and what you had to go through, might have taken 15 minutes.  So 15 minutes with a PC being down, again with a queue out of the door, was also unsatisfactory and deeply annoying.
+
+What we found, in the next paragraph, it states what I argued here, we felt it was likely -- and by talking to people, we believed this to be the case -- that if the system locked up they wouldn't try and ring the Helpdesk and say "What do I do", or wouldn't always do that because it might take them a significant amount of time to get through to the Helpdesk and the Helpdesk would then go through the whole process of what's gone wrong and ask them their details, to then be told to reboot.  So what we felt was, if the system was locking up, that what would happen is that, as a matter of course, many people would say "Well, the last five times I rang the Helpdesk, they told me to reboot.  I am going to reboot".  And as with any system, if you keep rebooting it is not be very -- it's not a satisfactory experience and it is also potentially going to lead to the danger of things going wrong.
+
+**Mr Beer**: Thank you.  Can we turn forward to page 50 please. Paragraph 149 of your witness statement.  You say:
+
+"I have been asked for my assessment of ICL's Pathway rectification plans and whether my assessment changed over time.  I remember it seemed that Pathway were more interested in talking down severity of AIs, rather than actually trying to engage to resolve issues, in what [I] felt was a war of attrition."
+
+I think that's meant to read, yes?
+
+**Mr Jeremy Folkes**: What it felt, yes.
+
+**Mr Beer**: You say there that Pathway seemed more interested in talking down the severity of AIs.  Was that based on rumour or personal experience?
+
+**Mr Jeremy Folkes**: Personal experience in the AI workshops.
+
+**Mr Beer**: Over what period?
+
+**Mr Jeremy Folkes**: Over the, I think, August/September time probably, in particular, in 1999.  What I mean by that is a category one or "A" was potentially a show stopper, there was a threshold of any one.  A category "B" they were allowed, in the weakened contract that we signed up for, twenty.  So, there was a massive incentive, I would suggest, on behalf of Pathway to avoid anything being a category one.
+
+Our view was that a system which had to be -- required a large number of reboots in the field was, therefore, unstable but that was enough for it to be a category one.  Especially with the effect that that would have both upon the operation of the Post Office and trying to serve end customers but also the whole experience of the subpostmaster.
+
+**Mr Beer**: Can we go forward please to page 66 of your witness statement, to paragraph 202.
+
+You are addressing here "Looking back", so some retrospection at the fitness for purpose of the system at rollout.  In the third line you say:
+
+"Looking back, given the somewhat chequered history of the development of Horizon, including the problems of Assurance, the withdrawal of the Benefits Agency, the number of Acceptance Incidents, the number of late changes to AIs and the need for the Suspension of the Rollout to get remediations completed, it would be hard to argue that the system or Pathway's overall service would have magically become 'fit for purpose', for a full national rollout and immediate switch to Business as Usual."
+
+That appears to be an answer to a question: given all the issues that you identify there, why was it rolled out nationally?  Yes?
+
+**Mr Jeremy Folkes**: That, I believe, was the question, yes.
+
+**Mr Beer**: You identify a series of answers.  In paragraph 203, you say:
+
+"... the expectation was ... there would be extensive monitoring/handholding during the rollout and first national running."
+
+Where did that expectation come from?
+
+**Mr Jeremy Folkes**: I think -- a general view -- okay, the view was that, up to that point, there had been maybe 200 offices and then the number went up a little bit but that the only way the system was going to be proven was by putting it out into a larger number.  I think there was a step of 2,000.  Ideally, it would have been proven through all the assurance processes and everything else that we discussed in detail over the past 24 hours.  We didn't manage those and, I think, the view generally was we have got to get this thing out there to try it.  But I don't think anybody had the view it was going to be perfect.
+
+I don't know what happened during 2000, if that view changed, but the view was we put it out there and it would need extensive monitoring and handholding by -- it would have been Business Service Management, because it was live, at that point, who would have done it, but there would need to be monitoring going on to test it during that larger rollout.
+
+**Mr Beer**: You give a second answer at 204:
+
+"I do believe there was also a general view in POCL that they had to get this system into a real live operation in a representative number of offices to really see how it operated ..."
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: It might be suggested that that means that you needed to increase the number of guinea pigs.  What would you say to that suggestion?
+
+**Mr Jeremy Folkes**: I think I hear where you are coming from with the statement of that.  I think the view, with any system that needs to be incrementally trialled, what you would need to do -- that would be the case with, I think, any IT system -- the important thing is that you know when to stop and, if it turns out not to be working, that you pull back.  You certainly don't roll it out any further. You monitor it.
+
+What it does require is openness from the provider and everybody as to what the state of the system is so you go into that in an open mind.  Bear in mind that when the decision was taken to do that rollout, in theory, the Acceptance Incidents had been fixed or mitigated, or there were -- so the known bugs had been addressed.
+
+**Mr Beer**: I think that's the third answer you give, just looking on in 205:
+
+"From a Contractual point of view, I am not sure whether POCL could have prevented rollout once Pathway had completed the AI remedial actions", ie from the contractual point of view there was no choice to be had?
+
+**Mr Jeremy Folkes**: Yes, and I think the problem we had here, if you like, was the case of the known unknowns and the unknown unknowns, or whatever.  I was certainly well aware that the system had gone through what I think I referred to here as a very chequered upbringing or development.  It was not a good place to start from but the Acceptance Incidents which had been raised during acceptance had been cleared or mitigations had been put in place and the contract, therefore, said that it needed to go forward.
+
+**Mr Beer**: Thank you.
+
+My last set of questions.  Your time came to an end at POCL in February 2000.  You moved to another company and you tell us in your witness statement that, in the last few weeks, you wrote what you described as a "brain dump paper".  I wonder whether we could look at that, please.  It is `WITN05970123 <https://www.postofficehorizoninquiry.org.uk/evidence/robert-booth-15-november-2022>`_.  It has a grander title than "brain dump:
+
+"A Reflection on the Past Five Years: Lessons Issues and Key Points."
+
+You authored this document?
+
+**Mr Jeremy Folkes**: I did.
+
+**Mr Beer**: You can see that the date underneath your name is February 2000 and then, at the foot of the page, it says "Braindump 2000" and then "Updated 2022".  What changes, if any, were made in 2022?
+
+**Mr Jeremy Folkes**: When I printed it out there was one statement I believed was incorrect in it and so I updated it and struck it through but it is still within the document -- and when I disclosed that when I disclosed it -- just because I didn't want it to be a distraction.  But the words that I had at that point and there is a -- are still in the document.
+
+**Mr Beer**: So we can see it, it is transparently there and it is scored through?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: Thank you.  Can we look at page 2 and read the introduction together.  You explain that:
+
+"During the last five years ... there has been a considerable turnover of staff ... leading at times to a lack of continuity and certainly a loss of key knowledge and accumulated wisdom.  This loss naturally leads to a reduction of the amount of reliable information on which to base decisions, the growth of unsubstantiated rumour about many aspects of Horizon, and a severe risk of wheel reinvention."
+
+Your document was:
+
+"... intended to help mitigate the effect of the loss of a further batch of staff.  It evolved from a concept of producing a general 'brain-dump' document ..."
+
+You say:
+
+"[It] has been produced for Dave Miller, the Managing Director of Post Office Network Unit ..."
+
+Did anyone actually commission this or was it your initiative?
+
+**Mr Jeremy Folkes**: I believe in discussion with Dave Miller I said I would like to create a kind of brain dump or reflection. I felt there were a number of -- we had gone through a tough five years and there were a number of things that I felt that I wanted to be able to write down to -- should anybody try to do this thing again, to avoid some of the problems.
+
+So I said, as part of my wind down, to Dave Miller that I would write this and I did send it to him at the end of my tenure.  I don't believe I had any discussions on its content with him.
+
+**Mr Beer**: Understood.  So it was sent to Mr Miller.  Who else was it sent to, if anyone?
+
+**Mr Jeremy Folkes**: I can't remember who else.  It may have been shared with other people from the assurance team at that point or what had been the assurance team.  Bear in mind, at this point, the programme was effectively being wound down or had been wound down and this is the usual functions of taking over running the system.  So a number of the people who would have been around who I might have been copying things to before were no longer around.
+
+**Mr Beer**: This document is, essentially, a contemporaneous view, from your perspective, of the state of Horizon as at February 2000?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: You had intimate knowledge of the project, as we have seen, over the proceeding five years at this point, in a variety of team leader and management roles?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: What did you expect, if anything, to be done with the document?
+
+**Mr Jeremy Folkes**: I hoped people would at least read it and anybody new brought in, maybe at a senior level, would be given it to read.  There are a number of comments in it that relate to how the procurement were done or unrealistic expectations in the procurement.  Those things would probably not be relevant, unless we were going to be doing another procurement.
+
+**Mr Beer**: It is a 32-page document --
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: -- and it speaks for itself.  I'm not going to go through it in any detail.
+
+**Mr Jeremy Folkes**: But it does cover -- it kind of covered the five-year period and was -- as it sort of said, it was a dump of my view of what had happened over those years and what we got right and didn't get right.
+
+**Mr Beer**: I just want to look at one part of it which may be of particular relevance to us, on page 21 onwards, please. So page 21, please, under the heading "Some technical capability still to be proven".  You say:
+
+"This section outlines a number of technical areas which it would be relies to 'watch', although they are not the subject of any outstanding [AIs]."
+
+Why were you suggesting to the Post Office that there should be technical areas that should be watched, even though they are not the subject of outstanding AIs?
+
+**Mr Jeremy Folkes**: I guess from my experience and professional view, these were potential weaknesses.  We had not -- as discussed, we had been able to go through the assurance process that we might have wanted but these were areas that didn't seem strong and what I was trying to do is point out here, maybe to people who weren't so techie, that these were not things that were going to go wrong, because if we knew they were going to go wrong we should have done something about it, but areas where the solution or Pathway's ability to manage appeared weak, in my view.
+
+**Mr Beer**: Thank you.  You outline seven areas.  The first is "Software Distribution", and you say:
+
+"The distribution of new versions of software to the field is an area which ICL Pathway have been shown to have some difficulty in the past ..."
+
+The second issue --
+
+**Mr Jeremy Folkes**: Can I just say on that, that was a case where there was a AI, AI372, which I think I was the technical expert, or whatever the word was, within the programme.  The AI was cleared to our satisfaction and they had done a successful release.  Obviously, this is a sort of scalability type issue, in that releasing a new version of software to 20,000 offices or 40,000 terminals spread around the country over the network, as it then existed, was going to be challenge to anybody, and I felt it was one that we should be continuing to watch.  So they had proven it at whatever few hundred or a thousand -- or whatever number of offices we were up to at that point -- but it was one that I -- that we should be continuing to watch, and when there was a next big release of software, we shouldn't be blasé about it.
+
+**Mr Beer**: Thank you.  The second is the "Effect of replication delays/failures", and we can see what we say there.
+
+Over the page, please, the third issue was "Communications Failure/Poll Failure".  The fourth issue was "Integrity during failure conditions".  Then this is the passage that you struck through, the example?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Mr Beer**: The fifth issue was "Scalability".  Reading on, the sixth issue was "Performance over time", warning that we should be aware that the performance of computer systems can degrade over time, and the seventh issue was "System Management", where you say:
+
+"... Pathway's ability to detect and manage certain failures in the system is as yet somewhat unproven ..."
+
+Was that a complete list of the issues as you understood them, that were risk areas for the Post Office as at February 2000?
+
+**Mr Jeremy Folkes**: They were the ones that jumped out at me in the areas I'd looked at, at that point.
+
+**Mr Beer**: Just two other questions that are unrelated to this.
+
+We can take that down, please.  Thank you.
+
+You mentioned in your witness statement, hostile testing and proposal that you made.  You wrote a document proposing hostile testing.  What prompted you to write that document or make the proposal?
+
+**Mr Jeremy Folkes**: My concern was that the testing that the Post Office themselves were doing was all very much functional testing, as far as I understood it, for instance model office testing, having an office, putting in transactions, making sure the right numbers came out at the end.
+
+There was technical testing that had gone on in other areas, I know, and were done by Pathway.  But I was concerned that it comes down to this issue of failure conditions and failure analysis.  I was concerned that not enough appeared to have been done or we had not had enough visibility of it, as to how the system would behave in cases of failure.
+
+Again, 40,000 end points spread across the country and all sorts of communications or hardware going down, whatever, things would go wrong: cables would drop out, people would push the wrong buttons, power will go off at the wrong points.
+
+**Mr Beer**: What happened as a result of your proposal?
+
+**Mr Jeremy Folkes**: I'm not aware that anything was done with it.
+
+**Mr Beer**: You are aware of the reasons why your proposal was not accepted?
+
+**Mr Jeremy Folkes**: I'm not.
+
+**Mr Beer**: The second issue is that we have seen a number of references in contemporaneous materials over problems with reference data and the reference data system.  Who out of ICL Pathway and POCL were responsible for the provision of reference data?
+
+**Mr Jeremy Folkes**: Okay, there was a reference data management system that POCL has, this is standard, every Post Office would have it, somewhere where they would master the reference data of their products and services.
+
+The intention was that that system would feed Pathway and Pathway would then do whatever was needed with that data to drive what was happening down at the counter.
+
+**Mr Beer**: Yes.
+
+**Mr Jeremy Folkes**: Obviously, that system in POCL probably drove a number of other systems, presumably it drove the existing ECCO and APT systems and probably the backend systems. I believe there was a requirement that said that Pathway should robustly integrate or robustly import, or whatever, but the view was it was -- a feed would be made available to Pathway and it was then their job to take that feed and do whatever they needed to it to be able to run the counter system.
+
+**Mr Beer**: I can understand that it would be POCL's responsibility for provision of reference data, ie to say that the price of a First Class stamp has increased from 16p to 17p, or whatever.  You are telling us as well that the reference data system was a POCL system?
+
+**Mr Jeremy Folkes**: I believe so.  So the person in POCL who said the price of a stamp is going to go up from 16 to 17 -- those were the days -- 16 to 17 pence on this date would be somebody sitting within POCL at a POCL system.
+
+**Mr Beer**: What was the system called, can you remember?
+
+**Mr Jeremy Folkes**: I think it was just known as RDM or RDMC, reference data management, but I didn't really have visibility of what that system was, I do not think I ever saw it.
+
+**Mr Beer**: Who within the Post Office, not name but organisational unit title, was responsible for the operation and management of it?
+
+**Mr Jeremy Folkes**: I don't know, sorry.
+
+**Mr Beer**: On that note, Mr Folkes they are the only questions that I have of you.  If you wait there, there may be some other questions?
+
+**Mr Jeremy Folkes**: Thank you.
+
+**Mr Jacobs**: Good morning, I have some questions.
+
+Mr Folkes, good morning, I ask questions on behalf of 153 Core Participants, subpostmasters, who are represented by Howe+Co.
+
+I want to ask you about POCL's reliance on the Benefits Agency revenue stream and you have dealt with that at paragraph 26 of your statement.  Perhaps if we could call that up.  It is WITN -- it is there already. That's very good.
+
+So you say that:
+
+"POCL were scared that the BA would take their business elsewhere, (as they eventually did, into the banking system) which would dramatically reduce POCL's revenue stream, and that this would threaten the whole future of POCL (and in particular the role of POCL as the front office of government).  So for POCL the success of the overall Benefits Payment Service was as important as the other, POCL-centric, services."
+
+The question I have for you, Mr Folkes, is: do you agree that the aims and objectives of the Benefits Agency and POCL were misaligned from the very beginning because the Benefits Agency always preferred automated banking to the Horizon product and, we say, that was quite well known?
+
+**Mr Jeremy Folkes**: I think between the two organisations at top level they obviously had a different view of it because, I think, BA were a less -- or DSS were less keen on this than POCL.  POCL were incredibly keen.  I think when it came down to the people within the programme itself, and the people that I would have worked with on a day-to-day basis from BA, the objectives were more aligned because we were all there to do the job.  But at the corporate level, maybe, yes; but at the worker level, we are all doing the job.
+
+**Mr Jacobs**: Thank you.  Do you accept, because of this issue with the Benefits Agency, that Horizon was, from a financial point of view, always going to be precarious because of the revenue stream that could be lost with the Benefits Agency potentially withdrawing?
+
+**Mr Jeremy Folkes**: I do not think I really considered it from that point of view.  I'm from a software engineering point of view, not a corporate finance point of view.
+
+**Mr Jacobs**: Is that something that you were aware of though?
+
+**Mr Jeremy Folkes**: Certainly we were very aware that the Benefits Agency part of this was incredibly important to Post Office and that if Benefits Agency pulled out of it it was going to cause problems.
+
+If Benefits Agency pulled out of paying through post offices, it was going to cause problems to Post Office. Obviously, all the -- from the procurement point of view, they were trying to go for the best value solution.  So money is always important in a public sector procurement.
+
+**Mr Jacobs**: Our clients have told the Inquiry, in their evidence in February and through to May this year, that the Post Office ruthlessly pursued them for large sums of money without properly investigating whether these sums were actually due and the question I have to ask you is: this financial uncertainty, do you agree that that contributed to the stance that Post Office took towards the subpostmasters, this need to recover money that had been lost?
+
+**Mr Jeremy Folkes**: I can't comment on that.  I think what happened was dreadful but I have no basis to say what happened five years after I left the Post Office with -- due to them trying to make a profit out of it or what else.
+
+**Mr Jacobs**: Can I ask you to -- can I then ask you about what you have said about POCL oversight and assurance issues and if we go to paragraph 89 of your witness statement and that's at WITN05 -- we have it already here.  So you say -- you have been asked to what extent did POCL have adequate oversight of design of the Horizon IT system. And this formed quite a large feature of your evidence yesterday and you say that:
+
+"POCL had very limited over sight of the application design of the system; formally [you] had access to very few documents; informally to specific versions (not maintained) of a small number of ... documents and otherwise we had rather bitty information that we managed to obtain from specific activities or if we had raised specific risks in the evaluation (where a paper might be provided)."
+
+If we could go also to paragraph 196 of your statement.
+
+I have the reference for that.  It is `WITN05970100 <https://www.postofficehorizoninquiry.org.uk/evidence/jeremy-folkes-2-and-3-november-2022>`_, 54 and 55 of 75.  Thank you.
+
+It is the same point that you make here.  Sorry, 196.  My fault.  Wrong reference.  I can read it. Page 65 and 75.  We have it there.  You say:
+
+"We had a Service Provider who largely blocked and dismissed our attempts at Assurance, and the nature of the contract prevented POCL from having adequate visibility of the problems it seems Pathway were having in development.  The Assurance Team ... consistently flagged the problems with Assurance to the PDA and subsequently POCL Horizon management, and worked persistently and doggedly to get what they could from Pathway, but sadly it appeared that we were constrained by the Contract and no long-term solutions were found."
+
+You said yesterday afternoon that you told Project Mentors that there was a suspicion that the right level of documentation hadn't been developed?
+
+**Mr Jeremy Folkes**: I don't know if I told Project Mentors but I certainly believed that.
+
+**Mr Jacobs**: Right.  In your evidence yesterday morning you said that in a population of 40,000 terminals, if it can go wrong it will.
+
+So terminals were obviously going to go wrong and POCL didn't know what Pathway was going to do about it, is that right?
+
+**Mr Jeremy Folkes**: Put very simply, yes.  I would characterise it as: things were going to go wrong in the network -- the network of post offices, including your clients obviously -- that would be everything from the wide area network not working, to local area network not working, to PCs going wrong and to all the rest.  And 40,000 is a big enough system that yes, if it can go wrong it will over the next ten years.  And my point was that what we wanted in the assurance process was to understand how the Pathway solution would cope with those failures. And to make sure that Pathway had considered those failures.
+
+So, it wasn't so much we wanted the nitty-gritty of exactly what's going to happen but had they thought it through, had they got the solution or were they, as I indicate in here, giving us the impression that it is not going to happen anyway, it is dismissing the concern rather than showing us that they have addressed the concern.
+
+**Mr Jacobs**: Yes.  So do you accept, then, that under the PFI arrangement the position of subpostmasters, who were on the ground to operate the system, wasn't really protected because of this disconnect?
+
+**Mr Jeremy Folkes**: I think it was -- I think POCL and the subpostmasters were exposed because of the way in which the service provider operated.  My view, as I think I say elsewhere here, is that I don't believe that PFI was a particularly appropriate way for getting a highly complex, bespoke service.  PFI, my understanding was, had been used for more off the shelf things, hospitals, schools, where you could easily specify it and the one you put in Darlington can be roughly the same you put in Bolton.
+
+This was a one off system that -- this combination of BA and POCL was unique in the world.  Therefore the concept of giving it to a firm of experts, whoever good those experts may be, and you going away and "trust me I'm a doctor" sort of approach, made me uncomfortable. And the point I -- that Mr Beer read out, I think, yesterday -- was that the whole concept was around risk transfer.
+
+You can transfer the financial risk if it goes wrong and if you don't pay the service provider but it doesn't transfer the risk of your business, including the relationship with your subpostmasters and everything else, going pear shaped.
+
+**Mr Jacobs**: Thank you that's helpful.  The next -- moving on from the PFI to what followed.  You said, yesterday, that POCL missed a trick by not taking steps to vary the contract, after the Benefits Agency withdrew, to ensure more visibility.  You were asked by Mr Beer, yesterday afternoon, why the concerns that you raised in documents, that we saw about the technical aspects of the Pathway system being brought into account, weren't added into the renegotiation of the contract.
+
+You said that you didn't know why that was, you would hazard a guess but you didn't want to speculate. Was the real reason then, that POCL were not interested in the details but just wanted to steam roll through to save the project, in light of the Benefits Agency having withdrawn?
+
+**Mr Jeremy Folkes**: I don't think I can say that they wanted to steam roll through.  There was certainly a strong desire -- I would go as far as maybe saying a "gun to the head" -- to get the new contract -- the contract had to be signed by a particular date and from what we have read elsewhere there was pressure from not just the Post Office but from up into government to get the contract with Fujitsu signed.  Therefore, my -- it is just a guess -- is that the idea of reopening a can of worms and going back to Pathway and saying, "We will sign a new contract with you but we want this, this, this and this" in particular, if they knew that getting "this, this, this and this" would immediately result in us having access to the kind of documentation that was revealed to me a couple of days ago, which would have made the whole thing explode, was not going to happen at that point.
+
+**Mr Jacobs**: Thank you.
+
+You told the Inquiry yesterday afternoon that the problem -- this problem, the assurance issue, was known about and it was obvious that something should have been done.  Are you able to -- but you didn't know why nothing was done when the contract was renegotiated. Are you able to tell the Inquiry who it was that was responsible or would have been responsible for the decision not to include that provision in the contract when it was renegotiated?
+
+**Mr Jeremy Folkes**: It is hard to say who was responsible for not doing something.  The contract was renegotiated by -- on instruction from above by the then head of commercial who was the late Keith Baines.  I have every respect for Keith.  I don't know if Keith wasn't the sort of person who would -- had any mal intent by not including it. I don't know whether -- I think, as I say, their remit was they had to get this contract signed and there was a lot of work that went on at that point.  Trying to take these three contracts down to one, the codified agreement.  And this was a massive contract, I think the effort went into doing that.
+
+**Mr Jacobs**: You accept, do you, that had this step been taken, the subpostmasters would have been better protected both from the problems in the Horizon system and from the subsequent conduct of the Post Office?
+
+**Mr Jeremy Folkes**: I think I do, yes.  I can't comment on the subsequent conduct of the Post Office but what I do think is if those steps had been taken and there had been a review, the whole direction of the project would have been different and it actually may have collapsed because stuff that was withheld from us, once it became exposed to us, might have rendered a significant delay, the kind of decisions as to whether things should be re-written.
+
+Can I just say we were unaware at that point that during the latter part of the -- middle to latter part of 1999 that within Pathway they were considering whether EPOSS at that point should be re-written.  If we, at that point, had been told, "Oh well you signed a new contract with the Post Office but, by the way, one of the main components you are taking on, it is so bad that we might want to rewrite it".
+
+**Mr Jacobs**: Thank you.
+
+**Mr Jeremy Folkes**: You know what I mean?
+
+**Mr Jacobs**: That's helpful.
+
+Finally, Mr Folkes, we have been contacted by a number of our clients who have been listening to your evidence with interest.  One of our clients, Mark Kelly, has asked that we put a question to you.
+
+I have already flagged this with Mr Beer and he's happy for me to proceed, sir.
+
+If I could just ask Mr Kelly's question.  Mr Kelly points out that subpostmasters were told by retail line management departments in the Post Office and by the legal departments within POCL that the system was infallible.  Were the assurance concerns that you have raised fed down or through to those departments within POCL or the Post Office?
+
+**Mr Jeremy Folkes**: From the programme point of view, we had no contact with the regional people.  Any contact with them, I guess, would have been through Business Service Management and if problems had started to occur, I would have expected that Business Service Management would have been involved.
+
+What we do know from the audit document that Mr Beer questioned me on yesterday, that the audit community, who are tied in to the investigations community, had raised concerns about the number of cash account errors, et cetera.  I don't know whether you want to bring up that document, but the document that I had commented on by putting comments in boxes.  They had, within that document, raised concerns at that point about the number of errors coming out of the cash account process I think.
+
+So, clearly, there was an understanding within the audit community that there were problems that were being pursued.
+
+**Mr Jacobs**: Thank you.
+
+**Mr Jeremy Folkes**: As I said yesterday, or say in the statement, what I don't understand is how magically this went from a system which was getting out there, things were being fixed but may be shaky, to anybody thinking it was in the right state to go round prosecuting without doing the correct investigations in the middle.
+
+**Mr Jacobs**: I think I have some other questions that I'm going to be asked to ask you.  (Pause)
+
+**Sir Wyn Williams**: While you are thinking about that, could we put up paragraph 207, please?
+
+That paragraph in your written statement effectively encapsulates what you have just said to Mr Jacobs, doesn't it?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Sir Wyn Williams**: I agree with you, Mr Folkes: this is a key question for this Inquiry and, because it is a key question I presume your invitation is that I should answer it, yes?
+
+**Mr Jeremy Folkes**: I hope so.
+
+**Sir Wyn Williams**: Well, given you have great knowledge of what went on over four years, have you thought about the answer to that question?
+
+**Mr Jeremy Folkes**: I have thought long and hard about it.
+
+**Sir Wyn Williams**: I don't want you to be like a politician on the Laura Kuenssberg show, invited to draft a budget as we are going along but, since you have thought about it and if you have given it careful consideration, would you like to tell me the fruits of your considerations?
+
+**Mr Jeremy Folkes**: I think it's probably not very helpful, I don't have the full answer.
+
+**Sir Wyn Williams**: I will be very happy with any kind of answer at the moment because I'm gathering evidence. You just tell me what you think and then it is for me to make what I will of it.
+
+**Mr Jeremy Folkes**: What I have seen from the other evidence is that during 2000 the system continued to have certain problems and it didn't mysteriously on the day I left turn out to be perfect.  So it is not just a matter that the Horizon programme, which was only a transient -- a rather long-term transient body, but wasn't just the team that I was part of disappeared.  For the next year, at least, we have seen issues that did relate to integrity of the accounting.
+
+So, it continued with its chequered history, if you like, during at least 2000.  My only way of answering the question is that there were people within the investigation and prosecution side in POCL who -- I think it is called "confirmation bias".  They were convinced that subpostmasters were misbehaving and then, if the system came up and showed that somebody was 14,000 down, rather than taking into account "Is the system right or is there some mistake?" it gave them what they wanted.
+
+What I would say is, if you are an investigator or prosecutor, presumably the people -- your job is to investigate and prosecute.
+
+**Sir Wyn Williams**: So, in summary, on this point, you think I should dig deep into investigation and prosecutorial processes.  That's fine.
+
+What about within your own team, and I don't mean "team" in the literal sense, I mean the community of people in POCL who were involved in the development and rollout of Horizon, without wishing to be, in any sense, detrimental -- sorry, let me re-phrase that.
+
+Without wishing to doubt what you have told me for the moment, was your view of what you found universally held or were there people in your team, with your experience, who took a less dim view of the problems within Horizon?
+
+**Mr Jeremy Folkes**: I think the people immediately around me shared the view.  I was probably one of the more techie people, if you like, which is why I ended up on not the applications but the infrastructure side and you will see some of the areas that we pursued were deep down the technical stack.  But I believe the other people who were in the assurance team shared the view.  Elsewhere on the programme, hard for me to say whether they had a much rosier view.
+
+**Sir Wyn Williams**: Can I put it to you in this way, did you ever come across persons with a technical background similar to yours who expressed substantially different views about the state of Horizon to those which you expressed in many papers?
+
+**Mr Jeremy Folkes**: Not within Post Office.  Yes, within Fujitsu.
+
+**Sir Wyn Williams**: No, sure.  That's what we are talking about, Post Office.
+
+**Mr Jeremy Folkes**: Yes.
+
+**Sir Wyn Williams**: So that there was a general consensus, would I be right in thinking that, amongst the technical community in Post Office and you articulated it in various papers?
+
+**Mr Jeremy Folkes**: Yes.
+
+**Sir Wyn Williams**: All right.
+
+**Mr Jeremy Folkes**: I think the other -- when you talked about the prosecution policy or processes, I think the other key thing is the -- just the whole investigation side, as in long before you get talking to prosecute somebody, presumably you are trying to look at the evidence -- if somebody -- you go in and do a "audit account" in an office and they are 14,000 down, then you don't immediately jump to the conclusion -- I would not jump to the conclusion that that £14,000 has gone out of the back door in their pocket.  You are going to look at the system and the evidence supporting it.
+
+There seems to be a view that they could not get hold of necessary data.  Now, we know from the document that Mr Beer put up yesterday, the audit manual, there was a process by which Post Office should be able to access data.  I don't know how that was used. Obviously, by the -- I had gone by then, but there was a process then for data to be obtained centrally.  There was also processes for data to be obtained from the office to pull off reports.
+
+I think the question I would want to ask is: was that done and why didn't it work.  There seems to have been this view "Oh, well, we would have to pay for it". I would not often have agreed with Tony Oppenheim but I agree with what he said that you wouldn't expect to pay for it.  There was nothing in the contract I was aware of that to audit your own system you would have to pay for it.
+
+The only thing you would have to pay for is if they wanted to build a new Fraud Risk Management System, which we debunked yesterday.  So the question is: what was done to be able to access data and were the necessary experts brought in to look at that data?
+
+**Sir Wyn Williams**: Thank you very much, Mr Folkes, I'm glad I brought out my fishing rod again.
+
+Any more questions?
+
+**Mr Jacobs**: Sir, there were a couple of questions, I have taken instructions.
+
+You raised these issues with other people internally, do you feel you were listened to?
+
+**Mr Jeremy Folkes**: In hindsight, I guess the answer has to be not enough. We did raise these issues and they are documented over an extended period of time.  It was maybe -- the technical side that we were raising was maybe only one view going in.  There were others involved in testing, there were others involved in contract, others involved in everything else.  Certainly it would appear that it didn't get adequate visibility or adequate attention.
+
+**Mr Jacobs**: Did you think about raising the issue maybe in a public forum, given the concerns that you have identified?
+
+**Mr Jeremy Folkes**: No.  In 1999/2000, I think, the appropriate route was to -- we raised these concerns all the way through up the management chain.
+
+Can I just add a supplemental point to that.  When it got to 1999 and acceptance finally took place, what I felt was the system was unproven and it had an unhappy childhood, and I'm not belittling it by that.  It had not gone through the kind of assurance process I would have wanted and we hadn't got evidence as to how it had been built.  We now have evidence to show it had been built rather poorly but we didn't have -- but all the bugs that had been found had been fixed.  So there was a view then that, okay, it can move the system on, it was then going to go out and then be carefully managed.
+
+If there had been bugs in it at that point still, then -- known bugs, then it wouldn't have gone out.  So the problem was that the known issues had been fixed. But I think the system was, at that point, at a stage where there was still much that was unproven.
+
+If you like, it wasn't negative, but it was not yet positive.
+
+**Mr Jacobs**: With hindsight, do you think these issues should have been put into the public domain, someone in the assurance team or you should have flagged them up?
+
+**Mr Jeremy Folkes**: I don't know whether in 1999 -- we were, if you like, discussing the absence of something, rather than -- it wasn't "Look, our post offices is going live with these 900 bugs".  It was "Post offices are going live where inadequate assurance had been done but in a contract where, in theory, this expert company had been building the system".  I'm not convinced that if I had tried to flag it -- I'm not quite sure what you suggest, you know, a newspaper or journalist or whatever -- if we had tried to flag it at that point what route we would have taken at that point.
+
+**Mr Jacobs**: Finally, Mr Folkes, I ought to say I have been passed a note, one of our Core Participants, Mr Gordon Martin, has asked us to express his appreciation to you for the candour of your evidence.
+
+So thank you, Mr Folkes.
+
+**Mr Jeremy Folkes**: Thank you.
+
+**Mr Jacobs**: No further questions from me, sir.
+
+**Sir Wyn Williams**: Do you have any questions, Ms Page?
+
+Mr Moloney?
+
+Anyone else?
+
+**Mr Beer**: No, I think that brings Mr Folkes' evidence to an end.  However, I do know that he wanted to say a few words before he finished giving his evidence.
+
+I think that is right, Mr Folkes, isn't it?
+
+**Mr Jeremy Folkes**: Thank you.  I just wanted to say we have sat here rather coldly discussing a 25 year old IT project.  In reality, I know this is much more than that and it had a massive effect on lots of hardworking subpostmasters and I have worked in post offices for -- since I was 27 or something.  I feel part of the Post Office community and I feel appalled at what happened.
+
+I would like to offer my genuine sympathies to what happened.  I have no idea what it is like to be falsely accused of something but I am sure it has put people through total hell and I would just like to offer my unreserved apology if anything I did or didn't do contributed to what actually happened in this much bigger picture.
+
+Finally, if there's anything else I can do -- obviously, we have covered phase 2, but anything else I can do to help the Inquiry, I'm happy.
+
+**Sir Wyn Williams**: No doubt my very hardworking team will take that on board and consider it, Mr Folkes.  At the beginning of your evidence, Mr Beer thanked you for your very detailed written statement and he thanked you for coming to give evidence to the Inquiry.  I now repeat those thanks and include within them my thanks for the very detailed oral answers you have given to very many questions.  Thank you.
+
+**Mr Beer**: Thank you, sir.  Can we take the morning break now and have our next witness Mr Andrew Simpkins.  I'm not going to be very long with him, an hour, an hour and a half.
+
+**Sir Wyn Williams**: We will indulge ourselves and we will start at 11.35 am.
+
+**Mr Beer**: You are most generous sir, thank you.
+
+*(11.17 am)*
+
+*(A short break)*
+
+*(11.35 am)*
+
+**Mr Beer**: Thank you, sir, can I call Andrew Simpkins please.
+
+Andrew Simpkins
+---------------
+
+*ANDREW SIMPKINS (sworn).*
+
+**Mr Beer**: Please do take a seat, Mr Simpkins.
+
+Can you give us your full name, please?
+
+**Andrew Simpkins**: Andrew John Dennis Simpkins.
+
+**Mr Beer**: Thank you.  Thank you very much for coming to give evidence to the Inquiry and thank you also for providing the witness statement that you have.  We are very grateful to you for the assistance that you are giving this investigation.
+
+Can we look at your witness statement please.  You should have it in front of you.  Excluding the exhibits, it is 20 pages in length.  It is dated 13 September. Can we look and find your signature please on page 20 of it.  Is that your signature?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: For the transcript that is `WITN06090100 <https://www.postofficehorizoninquiry.org.uk/evidence/andrew-simpkins-3-november-2022>`_.  Are the contents of that statement true to the best of your knowledge and belief?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: A copy of that witness statement will be uploaded to the Inquiry's website.  So I'm not going to ask you about every part of it, just selected extracts.  Do you understand?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: In terms of your background and experience, I think you retired in 2018; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: I just want to summarise -- and apologies for doing it this way -- your working life.  You were a programmer initially; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: You then joined Coopers & Lybrand in '78; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: They were, I think, most well known then as accountants but also management consultants; is that right?
+
+**Andrew Simpkins**: Yes, it was one of the major management consultancies in the UK at the time.
+
+**Mr Beer**: And you worked there as a systems analyst and in project management; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: You joined TSB as it was then known in '88 and you were a senior manager, again, in IT information technology?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: You joined a company called French Thornton in 1997 as a management consultant when you worked on large scale IT projects, in particular for the Post Office and for government departments; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: I think after the events with which we are concerned you became a freelance consultant?
+
+**Andrew Simpkins**: Yes, towards 2007.
+
+**Mr Beer**: Have I missed anything out?
+
+**Andrew Simpkins**: Not that I'm think is worth stressing at the moment.
+
+**Mr Beer**: All right, good.  Now, in terms of your first involvement with the Horizon project, I think you were assigned to the project whilst you were working for French Thornton with Post Office Counters Limited as your client, essentially, in April 1998?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: And for how long did you work on the Horizon project; what was the end date?
+
+**Andrew Simpkins**: The final end date was September 2000.  I was involved with the main project up to the rollout, around -- at the end of 1999 and then I was moved off onto a new development, the CSR+ development, for the Logistics Feeder Service system.  So I was moved away from the main system and the ongoing rollout to help manage the development of this new module that was going to be added to Horizon in due course.
+
+**Mr Beer**: And can you explain to the Chair what the purpose of, as you understood it, the involvement of an external management consultant expert in IT was?
+
+**Andrew Simpkins**: I mean this was an assignment where I wasn't operating as people might think of as a consultant.  You know as an external independent adviser reviewing certain parts of the project.  I was more what people would think of as a contractor.  I was working within the Post Office's management structure for the project.  I was filling, in some ways, a role that could have been filled internally but there weren't the necessary or sufficient skills around.  So in some ways I was working as a line manager within the client structure, rather than as an external consultant reviewing the project.
+
+**Mr Beer**: Was that unusual?
+
+**Andrew Simpkins**: No it does happen.  It does happen from time to time. You know I have done both kinds of those roles but, yes, sometimes in certain circumstances a client wants you to fulfil a vacancy within its structure rather than bring you in as a consultant to do some kind of external review as people would think of it.
+
+**Mr Beer**: So you were actually embedded within the management structure?
+
+**Andrew Simpkins**: Yes, I felt during the project I reported to Dave Miller, not to somebody in French Thornton, if that makes it clear.
+
+**Mr Beer**: And was that, in fact, your line of reporting?
+
+**Andrew Simpkins**: Yes, up to Dave Miller.
+
+**Mr Beer**: What was your role when you were appointed, what were you focused on?
+
+**Andrew Simpkins**: I think my title was sort of -- I think my title was release manager but the nub of the role was to take on responsibility for the planning side of the project, from the POCL -- on behalf of the Post Office -- to work on the development and the agreement and the deployment of plans on the programme.
+
+So --
+
+**Mr Beer**: What does release management mean?
+
+**Andrew Simpkins**: A release is when you put the major piece of software live.  So those would obviously be crucial points in the programme.  You are about to put a major piece of software live, that is a release, so you need to manage that release in terms of its approval and content.
+
+It is a bit of a misnomer because I think, probably, if people had saw me in operation they'd have thought, "Well Andrew deals with the plans.  Andrew is dealing with the plans".  When I arrived on the project -- perhaps to give you some context -- When I arrived on the project I think, like on the first day, knowing that was going to be my role, I sort of said "So, where's the plan", you think "There must be a plan I'm going to inherent here".  And my memory of it was, sort of, "Well, the plan is with Pathway, Pathway had the plan".
+
+And I thought, from my consulting experience, "Hang on a minute, you are the clients, you are the client. This programme is going to have a major impact on your business, you need to have some visibility and control and agreement to this plan".  So I felt my initial mission was to produce a plan that was transparent to all the parties concerned and to try to negotiate agreement about what should be the main target dates and phases of the programme.
+
+**Mr Beer**: I think you worked in that role for some six months or so until September 1998?
+
+**Andrew Simpkins**: I was in that role really from April 1998 right through to the end of 1999.
+
+**Mr Beer**: Right.
+
+**Andrew Simpkins**: That role really continued, probably, until about September/October because, if I remember it, around that time, I start -- I was giving more focus to the CSR+ development that was going to follow on after the main Horizon system.
+
+**Mr Beer**: I understand.  Who, if anyone, did you manage underneath you?
+
+**Andrew Simpkins**: I wasn't particularly managing a team of people.  My role was fairly -- self-contained is perhaps not the right word but it was a role that I mainly performed on my own.  I think later on I possibly had one or two other people in the team working on the more detailed level plans with different parts of the programme, but in some ways my role was -- it didn't require a particularly major team to perform it.
+
+**Mr Beer**: I understand.  You have given us a clue already but can you tell us what your overall impression was of the state of the project when you first walked through the door in April 1998?
+
+**Andrew Simpkins**: Yes.  I mean as you all know this is a long time ago so you are trying to think of what impressions you had. I mean I had been given some briefing, from, I think, one of the directors in French Thornton, that this was a difficult project, had had a difficult history, they were trying to reset things.  Obviously there was the end of the PDA as a management approach to it.  So they were trying to reset things.  It is a key programme for the Post Office, quite a lot of pressure around it but our aim will be to try to help the Post Office deliver.
+
+So I think when I walked in through the door, if you ask me to describe the atmosphere, I think I would use the word "tense".  I think that is the word that comes to mind.  Tense, because that history of difficulty over those previous years had created a climate of -- I would use a strong word of possibly distrust.  Some climate of distrust between the Post Office and BA and Pathway because of the difficulties that had occurred.
+
+So I was aware of that but I think -- my memory is that I felt with David Miller and Mike Coombs from the Pathway side, that they were trying to establish a more constructive relationship.  I joined the project where perhaps, "We have got a bit of a fresh start here, perhaps we can move on here from those previous difficulties and establish a better relationship".  So I felt that I should be part of that endeavour.  Because there's no benefit in being in conflict with your supplier.  If it was possible to establish a better relationship with Pathway, a more constructive relationship, then that is what we should do.
+
+**Mr Beer**: You mentioned the director at French Thornton told you that this had been a difficult project.  Looking at the whole period of your involvement, so fast forwarding right to the end -- looking at your career as a whole -- where did this project sit in terms of its ease or difficulty?
+
+**Andrew Simpkins**: Well, you know, if I look back over, what, 35 years of working on IT programmes and projects, I always remember this as the most difficult one.  This was the most difficult programme I ever worked on.  It had a kind of everything -- I won't say everything, let's not exaggerate.
+
+First of all, it was clearly a political project. You know, the government had quite a big stake in this programme.  The government clearly wanted it to succeed. So at the stratospheric level, I was not involved in any dealings with the government but you could feel that.
+
+It had some major technical challenges.  I mean, I had worked at TSB that had a branch network of 1,200 branches, I knew what a large branch network environment was like but this was 17,000 branches, without quite the same infrastructure as a bank would have.
+
+And you were dealing with a client that -- for whom this was the first real major automation project.  So there was limited experience in the client for dealing with this kind of complexity.  So does that partly -- is that something of an answer to that question?
+
+This was not an easy environment and I suppose two other things that made it difficult, the PFI contract -- I mean, Mr Folkes as has touched on a number of these points in his testimony I realised.  The PFI contract. This was the first time I worked on a programme under the PFI project.  For someone who was more concerned with implementing the project than the commercial contractual issues, my experience was, whenever we bumped up against the PFI contract, it was unhelpful.
+
+I think Mr Folkes, I know, has already said quite a lot about that, in terms of access to documentation and design.  So that was -- to me, trying to get a project in successfully, that was -- posed problems.
+
+I think I was going to make another point.
+
+**Mr Beer**: There was a second thing as well.
+
+**Andrew Simpkins**: Yes.  The fact that the programme had two separate sponsors, POCL and the BA, with different business objectives and, as we know, how fraught that relationship became and how it terminated.
+
+Probably, more will come out on that in the next few minutes, but, I mean, I was dealing with one of those clients, obviously, I was working for the Post Office but I was keenly aware that, as it were, within this structure, there was another client.
+
+**Mr Beer**: In this first period from the April until the Christmas, you were involved, I think, in a series of testing cycles; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: You tell us at paragraph 8 of your witness statement, perhaps if we just look at it, please, `WITN06090100 <https://www.postofficehorizoninquiry.org.uk/evidence/andrew-simpkins-3-november-2022>`_, at page 6:
+
+"In late October, with the completion ..."
+
+That's '98?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: "... of the second of the three test cycles, a Testing Review was conducted, where it became clear that serious concerns had arisen with the accounting and reconciliation processes, especially with the cash account production in the test outlets and with the accounting results passed to the POCL backend system (TIP)."
+
+You reference a document.  Can we look at the product of that testing review.  That's POL00028435. I think this is the document you are referring to.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: Can you tell us who wrote this report, please?
+
+**Andrew Simpkins**: Yes, it doesn't say, does it?
+
+**Mr Beer**: No.
+
+**Andrew Simpkins**: And it doesn't have a date on it which is -- I mean, it says "Draft".
+
+**Mr Beer**: This is the best we have got.
+
+**Andrew Simpkins**: Yes, this is the best we have got.  I recognise the content and I remember that I was part of the team that put this together, but I can't remember who actually drafted it.  You know from looking at the document, it is in something of a draft state although there is a lot of good information in it.
+
+**Mr Beer**: If we look at the third page, please.  I'm not quite sure what this is.  Can you help us?
+
+**Andrew Simpkins**: Yes.  I will give you some context.  We are going through these cycles of testing, as per the plan and the timescale, and, you know, Pathway are giving kind of reasonably positive noises about how it is going on. But then it comes into the programme that the people in Chesterfield, the Post Office people who are running the backend systems primarily TIP, are not happy with the results, and particularly with the quality of the data that is coming through the test system into their backend systems.
+
+They are not happy and they don't feel their voice is being heard.  So, like, a mini project was put together to review this situation and these, you can see here, these are the participants.  You have the right participants, people from TIP, people from Pathway, other people on the Horizon team.  I mean, it is interesting on that sheet you have got French Thornton and myself with two of my colleagues.  I think that's indicative that we were kind of put into this sort of mini project to try to provide some kind of independent objective assessment of what was going on and possibly to help, if I said arbitrate, between the Post Office and Pathway as to what the problems were here.
+
+**Mr Beer**: If we go forwards, please, to page 5.  There is a passage called "The Chesterfield View".
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: So this is -- is it right -- a repetition or a summary of those people in POCL, based in Chesterfield, on what they were saying?
+
+**Andrew Simpkins**: Yes, this is the concerns that we were getting from the Chesterfield people and, I mean, if you look at the penultimate bullet point here, "Is everyone clear that we have not yet done a cash account".
+
+**Mr Beer**: What does that mean?
+
+**Andrew Simpkins**: That means that the system in testing has not yet produced almost like the fundamental accounting document in the branches, to the level of accuracy that the Chesterfield people knew was necessary.
+
+**Mr Beer**: Why was a cash account fundamental?
+
+**Andrew Simpkins**: Because that showed the -- I mean, I wasn't -- as best as I can explain it, the cash account is like the key financial document in the branch.  I believe they produced it weekly.  So that would show, in summary, the accounting status for that branch as a result of that week's transactions.
+
+So that was, obviously, a key document for the branch and that document electronically would be transferred up to the TIP backend system.  So the fact that this kind of fundamental accounting document within the system hadn't yet been -- I mean, here it even says "we have not ... done a cash account".  It is a little bit ambiguous, isn't it?  Does that mean they have not done a correct cash account or they haven't done a cash account at all?  But, clearly, there is a problem at that level and some more detail comes out elsewhere in there.
+
+**Mr Beer**: The bullet point above it:
+
+"The weekly testing meeting is 'very politically driven ... issues don't get aired'."
+
+Can you recall what that was a reference to, what the Chesterfield people were saying there?
+
+**Andrew Simpkins**: Yes.  This, I think, illuminates the point I made earlier, that the Chesterfield people did not feel that their concerns were being understood and addressed by Pathway in the weekly testing meeting.  So they felt that -- yeah, issues don't get aired, people are not really facing up to and discussing what are the problems at this stage and are they getting addressed.  This is why our sort of review is going on, isn't it?  Because there is an awareness, perhaps at the management level, that this is happening and, therefore, you want to get these issues out on the table.
+
+**Mr Beer**: Thank you.  Then over the page, please.  Is this a summary of the concerns that were being reported by those responsible for TIP?
+
+**Andrew Simpkins**: Yes.  I mean, each of these are significant aspects of the TIP concerns and, I mean, you see it summarised by Dave Parnell at the moment.
+
+**Mr Beer**: "Dave P", at the bottom?
+
+**Andrew Simpkins**: Yes, that is Dave Parnell, one of the Chesterfield people.
+
+**Mr Beer**: We saw his name in the meeting list at the beginning?
+
+**Andrew Simpkins**: Yes.  So the cash accounts do not balance.  That is a fundamental accounting error.  The reference data -- Jeremy tried to explain this earlier today, didn't he? This is kind of like key control data on the products in each outlet.  If there is a mismatch here between what's held at the backend and at the front end, you will get potential accounting discrepancies.  Files rejected by -- there seems to be validation errors in the files that are coming through to the backend, and then problems actually running the Model Office test scripts, and so forth.
+
+But the comment at the bottom there, quite rightly -- this is the accounting system, we "cannot take risks on this ... it's a showstopper".  I can entirely understand why -- I don't know if Dave is a qualified accountant, but I can quite understand why the people at Chesterfield are expressing that concern.
+
+**Mr Beer**: Over the page, again, please.  "The Feltham View", what does the Feltham view represent?
+
+**Andrew Simpkins**: So this is the Pathway view.  This is the other side of the coin, in a way.
+
+**Mr Beer**: So this is what they were saying?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: Incidentally, the handwriting that we see on that, do you recognise the handwriting?
+
+**Andrew Simpkins**: It is not mine.
+
+**Mr Beer**: It is definitely not yours, okay.
+
+**Andrew Simpkins**: I don't know where this document was sourced from.
+
+**Mr Beer**: We got it from the Post Office.
+
+**Andrew Simpkins**: Whether it's possibly David Miller.  But I don't know. I don't recognise it.
+
+**Mr Beer**: Can we go forwards, please, to page 15 of the document. Is this part of the proposed solution?
+
+**Andrew Simpkins**: I mean, these people needed to talk together more, to be frank with you.  They needed to work together more. They needed to have a better mutual understanding so that, instead of "Issues are not getting resolved", issues are getting resolved.  So there were behavioural issues here.  There is a need for greater honesty in the reporting.
+
+"Documents and letters [are] 'on message'".  We don't want documents and letters on message.  We want documents and letters that tell us the truth.
+
+**Mr Beer**: So that bullet point on the right there that's been added, "economical with" --
+
+**Andrew Simpkins**: Yes, exactly.
+
+**Mr Beer**: -- we don't get the rest of it, that might be economical --
+
+**Andrew Simpkins**: Economical with the truth.
+
+**Mr Beer**: -- with the actuality or with the truth or whatever, perhaps?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: Then, if we can go forward to page 25, please, which is towards the end of the document.  I think it is the last page:
+
+"TP worry they have to be the 'conscience' of POCL, isn't that the Test Manager's job?"
+
+Who was the test manager?
+
+**Andrew Simpkins**: The test manager at that time was Simon Rilot.  That is the "SR" in the next line.  There was a slightly unusual set up here, in that, although Horizon -- the Post Office Horizon team had test people in the testing, they were not, as it were, kind of fully independent of Pathway.  They were kind of in with the Pathway people testing the system.  So when Simon says "I feel in the middle", I mean, who is he really working for here?
+
+Is he working for Pathway or is he working for -- strictly, he is working for the Post Office, but he is kind of caught between what Pathway are telling him, asking him and what the other Post Office people are asking him.  So the "TP worry" is that the test manager is not proving sufficiently independent and they are having to act as the conscience of POCL in saying what is really the case.
+
+**Mr Beer**: What is the reference to "the 'conscience' of POCL" a reference to?  What does that mean, "the 'conscience' of POCL"?
+
+**Andrew Simpkins**: Well, being honest about the state of the system.  Being honest about how well or badly it is going and -- exactly that.
+
+**Mr Beer**: Why was it necessary for people to be reminded of their conscience, ie to be honest?
+
+**Andrew Simpkins**: Perhaps the way to understand it is this: the Pathway system is providing the crucial accounting data and that accounting data has to go into the Post Office backend systems.  It doesn't just sit within the Pathway environment.  The accounting information has to go into their backend accounting systems.  So the Chesterfield people had got to control that interface.
+
+They have got to be responsible that clean data goes into their accounting systems.  If they are not getting clean data, they have got to say it.  So that's what I think is implied by "the 'conscience' of POCL".  If they are not getting clean data out of the system, they have to put their hands up and say "This isn't working right, we have got to do something about it".
+
+**Mr Beer**: Thank you, I understand.  That document can be taken down.
+
+Now, I think, notwithstanding the knocking heads together or bringing parties together that we see reference to in that report, and the solutions identified in that report, I think it is right that by the completion of testing in mid-November of the third cycle of Model Office testing and the third cycle of end-to-end testing, that hadn't led to an improvement in the situation?
+
+**Andrew Simpkins**: No.  I remember that this was kind of a seminal moment for me on the programme.  Perhaps because I had worked on accounting systems at Coopers & Lybrand, for a major audit firm.  How can I put this simply?  I knew that accounting systems had to work.  Accounting systems had to have financial integrity, unequivocally.  So to have a concern at this stage, as I itemise in this memorandum, that it is not working is fundamental.  I'm looking at my own witness statement here, where on page 6 I say:
+
+"We have not demonstrated the end-to-end data and financial integrity of the system to the extent that is required for entry into the final Model Office test and end-to-end run."
+
+We had not demonstrated end to end financial integrity.  That is a fundamental requirement of the system.
+
+**Mr Beer**: Sorry to interrupt you.  I think you wrote a briefing note to it?
+
+**Andrew Simpkins**: Yes.  I think I was alarmed -- I think would be fair to say -- I was alarmed at this point and I think, because of some of these communication issues that we have already touched on, I thought "We have just got to spell this out".  So, this possibly was not the job of the planning manager but because I had been in that review meeting, the review meetings that had led to that report, I wrote initially a paper for the Horizon team spelling out these problems and what needed to be done and then a couple of weeks later you can -- on my witness statement, page 7, I wrote a further memo on 4 December which went to Pathway which again itemised the issues that needed to be addressed.
+
+**Mr Beer**: Let's look at both of those.  Can we start with the first of them, the memo of 20 November.  That is `POL00028431 <https://www.postofficehorizoninquiry.org.uk/evidence/andrew-simpkins-3-november-2022>`_.  Can you see at the top it says:
+
+"Briefing note on status of testing -- 20th November 1998."
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: If we go to the second page.  We can see that it is in your hand?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: "Andrew Simpkins Horizon release management 20th November 1998", same date.  Again, the writing on it, that's not yours?
+
+**Andrew Simpkins**: No, it isn't and I think that is probably Dave Miller writing that.
+
+**Mr Beer**: Ie:
+
+"Clear statement of what is essential prior to start of model office testing and final pass of E2E."
+
+**Andrew Simpkins**: That's end to end yes.
+
+**Mr Beer**: If we go back to the first page please. The MOR3, what's the MOR3 cycle?
+
+**Andrew Simpkins**: As in most system implementations you will run a number of cycles of testing because one cycle is never enough to get rid of all the problems.  So the idea was there would be three cycles of testing, MOR1, 2 and 3. Probably, functionality would be added, to a degree, to each of these cycles but the idea is that at the end of MOR3 you should have a system that is essentially working so that when you go into Model Office test, you are more concerned about the -- that the overall procedures are working, that all the accounting numbers add up correctly because the MOT -- approving MOT will actually take you into live trial.
+
+So, you needed to be in pretty good shape at the MOR3.  Not perfect, there are almost bound to be some issues outstanding, probably a few bugs that will need to be -- quite a few bugs that will need to be fixed before you go into MOT, but you have got to have -- you can see in the second paragraph:
+
+"... we have not demonstrated the end-to-end data and financial integrity of the system 2 to the extent that is required for entry to the final MOT and [end to end] run."
+
+**Mr Beer**: That's what you have said in your witness statement and you obviously italicised it and emboldened it.  Was that the key message from this document?
+
+**Andrew Simpkins**: Yes.  That's why it is in bold italics at the top.
+
+**Mr Beer**: You say underneath:
+
+"These failures can be attributed to", and you set out five bullet points.
+
+Is that a high level summary of the difficulties, or the issues that then existed?
+
+**Andrew Simpkins**: Yes.  It tries to be high level but reasonably comprehensive summary of what the problems are at this point.
+
+**Mr Beer**: So "functional errors in cash account production", that's what you mentioned already?
+
+**Andrew Simpkins**: Yes.  That's top of the list.
+
+**Mr Beer**: You described that as, I think, critical and fundamental; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: At this stage, presumably you didn't have an eye on the use of cash accounts for use in prosecution of subpostmasters accused of false accounting or theft. You are looking at this from simply a business as usual operational perspective, that it is essential to produce an accurate cash account?
+
+**Andrew Simpkins**: Yes, I'm looking at it in terms of basic accounting principles.  I mean, this is November 1998.  There's nearly a year of work that follows this to try to get the system up to scratch.  But, I mean the question that you asked me -- I mean this is -- I never knew, in my entire time on the project, that there even was a Post Office investigations team let alone that people could be prosecuted.
+
+I just did not know that existed.  So, I mean -- this will come on perhaps nearer as we get nearer to the rollout but I had honestly -- I had never been in a business environment where, in Lloyds TSB or the Inland Revenue, where there is a discrepancy in accounting report and someone goes to prison for it. I mean, that was just beyond my conception.  I mean if -- I mean, this is a bigger point, isn't it?
+
+This is a bigger point because -- where, within the programme, at any point up until rollout, was that risk identified?  I never saw it in any documentation. I never heard it mentioned in a meeting.  I don't think people -- I know it sounds astonishing in retrospect, but I don't think people -- I mean, certainly people like myself, Post Office people.  I think, probably, many people within the team did not understand, did not conceive that if you had these accounting discrepancies in the branches, there would be -- I mean, this is such a huge issue, isn't it -- they didn't understand that if you had these accounting discrepancies in the branches that the postmasters couldn't explain they would be held liable.  I do not think that was really understood.  But it wasn't.
+
+In my view, that was not understood and that's a key factor, isn't it, in the whole unfolding of this tragedy.
+
+**Mr Beer**: If we go to the second page, please.  In terms of the consequences.  In the second paragraph having set out some work that needs to be done you say:
+
+"This work will mean that [Model Office Testing] cannot start on 14 December ... The scale of the problem suggests that a January start date may be achievable but this will be clarified next week."
+
+**Andrew Simpkins**: I'm responsible for the plan here and I have had a plan which, up to this point, had said we are going to start Model Office testing on 14 December.  That has a whole series of knock-on effects through the plan as to what live trial would happen, as to when national rollout would happen. So I have just discovered that this, kind of, has just rendered the current plan redundant because we can't hit this key date -- we clearly can't hit this key date.
+
+In the plan, which had been largely -- initially it had been constructed around what Pathway predicted what were the length of the test cycles.  At this point I thought "This is not holding water any longer". Fortunately, in the plan, we had put some contingency time in, in case things had gone wrong, so I knew I had at least a month's contingency in the plan to address these kinds of problems.  Not all was lost but at this point we are starting to see an impact on the probable live trial date and national rollout date because these problems need to be fixed, as far as possible, before we move forward.
+
+So the scale of the problem suggests a January start date -- a late January start date may be achievable but more work needs to be done.
+
+**Mr Beer**: Thank you.  Can we go back to your witness statement, please.  `WITN06090100 <https://www.postofficehorizoninquiry.org.uk/evidence/andrew-simpkins-3-november-2022>`_ at page 7, please.  You refer, at the foot of the page, to the second report that was produced on 4 December.  In the interests of time, I'm not going to look that up, but you say in the last five lines:
+
+"At this point in early December 1998, there was therefore an unequivocal assessment regarding the serious seasons of faults that had been found in these first circles of testing.  ICL Pathway accepted the need to address these faults and that additional testing time was required."
+
+Is that right?
+
+**Andrew Simpkins**: Yes.  So I think we had spelled out the problem as clearly as possible.  We weren't saying that it was, obviously, impossible to recover from this situation. That Pathway accepted the need to address the faults. A time was allowed for that to be done.  Additional testing activity was introduced into the plan.
+
+So the hope was that they would fix it.  But I didn't want anybody to be under any doubt about the -- that we were not, by quite some way, fit for purpose at this point.
+
+**Mr Beer**: In fact, I think that last phase of testing occurred in February and March 1999; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: You weren't actually, I think, involved in carrying out the testing or indeed evaluating it?
+
+**Andrew Simpkins**: No.
+
+**Mr Beer**: But you were copied in on the reports of such evaluation; is that right?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: If we go over the page in your witness statement.  You tell us in paragraph 11 that although progress had been made, there was still concerns that new faults were identified, but the assessment of the POCL Horizon team and more broadly within POCL was that these were not "show stoppers".
+
+**Andrew Simpkins**: No.
+
+**Mr Beer**: Do you know how that view was reached?
+
+**Andrew Simpkins**: This was a difficult moment.  It was a difficult moment because I wasn't -- and I think some other people on the team -- you weren't convinced that it was all really working right, yet.  I mean the reports out of end-to-end testing and Model Office testing were, in some ways, positive.
+
+I mean, clearly, progress had been made and there were fewer problems in those test runs but there was still some worries.  Some significant worries but here -- you are in a very difficult balancing position here.  You are trying to say "Yes, you have still got some problems that will need to be fixed in the software but the programme isn't just the software.  The programme is the employment of that software to 17,000 offices and the training of 40000-plus staff".
+
+So for the programme to be successful, you really needed some evidence, as soon as possible, as to how good is the training of staff?  How good is the Helpdesk support to staff?  How resilient is the hardware environment in the branches?  Do you see what I mean? Because all of these are essential ingredients to providing a solution.
+
+So at this point, on any programme, you are having to make a kind of balanced judgement between "Okay, we think there are possibly going to be a few problems in the software", but that is outweighed by the benefit of getting real evidence on these other issues and real evidence of how the software works in a live environment.
+
+I mean, you always learn things moving from testing to some live operation.  Something always comes out when you go into live operation.
+
+So there was a balance in this decision.  So you go into a live trial, 200 offices -- it seems a lot but it is probably not a lot in the scale of the Post Office as a whole -- you ring fence those offices and you seek to give those offices some extra support so that you can begin to understand what might be the bigger issues when you come to rollout to 17,000 offices.
+
+So you are trying to progress that aspect of the programme at the same time as improving the quality of the Pathway software.
+
+**Mr Beer**: You say at the foot of the page:
+
+"Another area identified as needing careful attention in live running ..."
+
+Stopping there.  In "live running", do you mean --
+
+**Andrew Simpkins**: The live trial.
+
+**Mr Beer**: Still the trial?
+
+**Andrew Simpkins**: Yeah, in the 200 offices.
+
+**Mr Beer**: "... was the ongoing reconcilliation of accounting data between the outlets ..."
+
+By "the outlets", do you mean the branches?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: "... and the back-end systems and the accurate synchronisation of updates to the live reference data which could impact the accuracy of reporting.  These were important observations that would need to be addressed in the Live Trial and in National Rollout, and indeed in ongoing operation of the system."
+
+You are describing amongst the things you say there, reconciliation of data between branches and back-end systems needing to be addressed in the ongoing operation of the system after live -- the live trial and national rollout.
+
+**Andrew Simpkins**: But that would be --
+
+**Mr Beer**: How would that be addressed?
+
+**Andrew Simpkins**: I mean that issue is like a business as usual issue for any business isn't it?  No matter what system you put in and what you are using, you have to maintain a constant monitoring that nothing is going wrong within the accounting system.
+
+**Mr Beer**: Wasn't this a little more than that?
+
+**Andrew Simpkins**: Yes.  This was more than that.  I mean -- I suppose what I'm trying to say is: that's fundamental; isn't it?  It is fundamental that you should continue to monitor that, not only in a -- obviously in the live trial and in the national rollout, but on the going -- as part of the business as usual of the organisation -- there would need to be -- there always needs to be some attention, isn't there, that your financial reports are coming out accurately.  Does that --
+
+**Mr Beer**: I understand?
+
+**Andrew Simpkins**: -- answer your point?  Obviously, at this stage, I'm thinking of, particularly -- We are going to first experience these issues in the live trial and the quality of what comes out of the live trial and the national rollout may influence how you then see the system going into ongoing operation.
+
+**Mr Beer**: Just moving forward to paragraph 12 of your witness statement.  You tell us that, by late March 1999, the programme had therefore come to the crucial decision point of whether to grant release authorisation for the start of the live trial.
+
+Can we look at a document, please.  POL00028405. This is a letter from Stuart Sweetman to the chief executive of the Benefits Agency, Mr Mathison.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: He says, in the third paragraph:
+
+"Both the Post Office and ICL Pathway are satisfied that the results of the testing undertaken so far enable us to go with confidence into Live Trial.  POCL based its view on an exhaustive process involving all significant stakeholders within the Post Office domain.
+
+"I am sorry but I am not prepared to accede to your request for another run of [end to end] and [model office testing] because this would be a repetitive and time consuming reinforcement of what we already know."
+
+I think you were copied into this letter if we go to the second page.  Can you see that?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: Can you tell us the context in which this was written?
+
+**Andrew Simpkins**: A very political context.
+
+**Mr Beer**: What do you mean by that?
+
+**Andrew Simpkins**: Because this is April, isn't it, this is late April '99?
+
+**Mr Beer**: Yes.
+
+**Andrew Simpkins**: As we now know, the BA exited the programme in May 1999. So I'm not involved in any negotiations/discussions with BA really about that issue, but the -- for reasons that one can perhaps deduce, the BA was not happy -- I need to try and use my words carefully here, I'm just trying to be factual -- the BA was not happy to see the programme progressing.
+
+For example, at this point, they didn't want us to move towards a live trial.  Even though the live trial didn't really have much bearing on them, because it didn't affect their functionality, it didn't change their systems, because we were only doing Child Benefit, they were -- how can I put it?  I would say they were resistant to progress.
+
+So that added to the tension at this point and I think the Post Office were concerned, perhaps not yet knowing how the BA thing would unfold, that the programme was at risk of being slowed down and derailed.
+
+So they wanted to just keep making progress and, as I have explained, the progress would be to undertake a limited live trial to gain further experience of the system in the hands of real users.
+
+I remember this was a very fraught moment, as you can imagine, this period.  As I say, I wasn't involved in any of the discussions or negotiations but, I mean, I was aware -- it was very evident to people like me on the programme that this was quite a tense situation, as to what is going to happen at this point.
+
+**Mr Beer**: What was your view?  Did you think it was necessary to have another run of end to end and model office testing?
+
+**Andrew Simpkins**: As I just previously tried to explain, I think this was a difficult call.  I have already explained that I had a strong view about the need for the financial integrity of the system and I wasn't -- I suppose I would have to be honest and say I wasn't wholly convinced at this point that it had been solved but that wasn't necessarily at this point a disaster.  It was possible, within the 200 offices, with appropriate understanding and support, to manage those issues.
+
+For example, during the live trial, if an outlet came up with a cash account discrepancy, you would expect that within Chesterfield, they have got a list of the 200 offices in the live trial.  They would have known to have paid some attention to those 200 offices during the live trial and if those problems occurred, "Well, they are live trial offices, okay, we need to, whatever you say, cut them some slack or give them extra support and not jump to conclusions or anything".
+
+If you could manage that risk, you could learn a lot of essential information that would help you when you subsequently came to roll out training and deployment.
+
+You see what I mean?  You are trying to weigh that up.
+
+**Mr Beer**: I understand.  In any event, you were appointed the live trial manager for Horizon, which went ahead without the Benefits Agency?
+
+**Andrew Simpkins**: Yes.  Can I just say, that role, which was originally identified back in February, didn't really work out in the way that you would expect, in that what I realised was that, because of the contract, the live trial was not just some, like, discrete exercise within the programme, perhaps as I had experienced in other places. You run a live trial as a discrete exercise.  You manage the activity and the reporting.  At the end of it, you produce an evaluation, you then make a decision.
+
+Now, what happened with the contract, which I hadn't appreciated back in February -- and I suspect other people hadn't quite appreciated it because we wouldn't have said things that we said at the time -- was that the live trial very rapidly became embedded in the acceptance process and the issues and the progress in the live trial basically became evidence that fed into the acceptance process not into some separate programme managed activity.  Is that clear what I'm saying there?
+
+**Mr Beer**: Yes.  In terms of what it threw up, the live trial, you tell us that there were cash account accuracy problems, there were concerns over the adequacy of staff training to deal with the complex activity that they were being asked to undertake, there were problems with a high number of callbacks to the Helpdesk --
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: -- which weren't dealt with quickly or easily and that these all featured amongst the list of high, category A, incidents; is that right?
+
+**Andrew Simpkins**: Yes.  So this illustrates what I was trying to say.  The live trial threw up these problems but they then got presented in terms of high incidents within the acceptance process.  So they were kind of documented and managed as incidents within the acceptance process, and the significance of them being high, as I think has been explained by previous witnesses, is that POCL had the right to refuse to sort of sign-off the system if there were any high incidents remaining at the point of rollout.
+
+**Mr Beer**: How did it happen that what was intended to be a live trial, as had been described in your presentation back in February '99, slid into -- my words -- part of an acceptance process?
+
+**Andrew Simpkins**: The answer to that is, I think, the contract, the PFI contract, because this is what the contract said would be the process towards the approval of the system.  We are now touching on a major process issue here as to was that a good idea or not?  I don't know if you want to ask me a particular question --
+
+**Mr Beer**: I think you have answered the question you have just asked yourself.  What was the major process issue?
+
+**Andrew Simpkins**: This goes to the nub, really, of how the system was endorsed for rollout.  The contractual acceptance process made it work in terms of the reporting of these incidents.
+
+I mean, if we -- I don't know whether it will be worth going and looking at the next document I reference in my witness statement, towards the bottom of page 11. This might just help me explain.
+
+**Mr Beer**: We can certainly do that.
+
+**Andrew Simpkins**: The "Acceptance Incident Hotlist", or the meeting of 13 August, I suspect, we are going to come onto.
+
+**Mr Beer**: If you want to look at the hot list first that's POL00028355.  Then look at the second page of that document, please.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: Is that the document you are referring to?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: This is as matters stood.  It is under cover of an email of 13 August?
+
+**Andrew Simpkins**: Yes.  So this is the key control document -- I mean, there is a lot of other documentations but I would say this is the key control document for where we are in the acceptance process.  So it is defined in terms of these incidents, these AIs, Acceptance Incidents, which you can see all have a number and a very short description.
+
+**Mr Beer**: Yes.
+
+**Andrew Simpkins**: Then, because the rating is the crucial issue here, how are Pathway rating it?  And how are Post Office rating it?
+
+**Mr Beer**: And on none of them do they agree?
+
+**Andrew Simpkins**: No.  So you can see that this is -- this creates an adversarial process, doesn't it?  This clearly creates an adversarial process, where there is a sustained -- for some of these there's a sustained argument as to what is necessary to agree these ratings and, most importantly, whether all of these can be reduced from high to medium.
+
+I mean, there's a lot going on here but, in terms of focus, the focus is on the three high ones: 376, 218 and there is one a bit lower down, isn't there?
+
+**Mr Beer**: Yes, 298, three from the bottom.
+
+**Andrew Simpkins**: Yes, "Counter system subject".  There is a lot of other stuff in here but, I mean, if I just say, I'm not part of the acceptance approval team here.  I'm seeing quite a lot of this stuff because decisions that are coming out of this process are affecting the plan or could have potential impacts on the plan.  I'm being informed here. I'm attending some meetings.  I'm aware of this process.
+
+**Mr Beer**: You were a copy-ee of this email --
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: -- and I think you were an attender at the meeting the day before on 12 August; is that right?
+
+**Andrew Simpkins**: Yes, the meeting --
+
+**Mr Beer**: There is a minute of it, if we turn that up, please.
+
+**Andrew Simpkins**: 28332?
+
+**Mr Beer**: Yes, POL00028332.  Just wait for that to come up.  Then turn over to the next page, please.  You can see the meeting at Gavrelle House and I think we can see you were down as an attendee and the minute taker.
+
+**Andrew Simpkins**: I do have a bit of memory of this meeting, partly because it went on for nearly six hours and because I had to have the minutes ready by 10 o'clock the following morning.  I kind of have a memory of one particularly long day at the Post Office.
+
+Can I just say it is a bit unusual, given that I actually put the word "minutes" after my name there, and I think -- my recollection here was this was called at quite urgent notice to try to give a clear summary of where we were in the acceptance process, in order that that could be shared with the external consultants from PA who were involved in reviewing and advising on the overall situation.  And I seem to think that either Bruce McNiven or possibly Chris French said to me "Andrew, we have this urgent meeting tomorrow, we need it properly documented, would you come into it and take the minutes?"  So I have some recollection of this.
+
+**Mr Beer**: What was the outcome of the meeting?
+
+**Andrew Simpkins**: If you read through the minutes, you can see that in this long meeting I'm trying to capture the key points being made by the Post Office and the Pathway representatives, particularly on the three high incidents -- the long discussions were over the three high incidents.
+
+**Mr Beer**: If we just go over the page, and scroll down, please. You will see under 3, "Review of High Priority Incidents" and you deal with 376 first.  There is a long three-page section on that.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: You then deal with 218 and there is a page on that. Then you deal with 369 and there is a page and a half on that.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: What was the outcome?
+
+**Andrew Simpkins**: I mean, the Post Office team are really trying to hold the line here.
+
+**Mr Beer**: Hold what line?
+
+**Andrew Simpkins**: Hold the line that these are high incidents that they are not going to downgrade unless there is demonstrable improvements from Pathway.  I mean, they are doing the right thing here.  They are really resisting giving approval until they have seen better evidence that these problems are being dealt with, because they had the right to ask for a rectification plan: clear visibility of the rectification plan, as to how this is going to be fixed and by when.
+
+So this lays out the position, makes the views of both parties clear but, at the end of this meeting, those incidents were all still high.
+
+**Mr Beer**: Who was ultimately responsible for closing the high critical incidents?
+
+**Andrew Simpkins**: I mean, this is mid-August.  According to the plan, the plan had set a target date of rollout of, I think, 31 August.  So, at this point on 13 August, we are clearly not going to rollout on the 31st.  We are clearly not going to give acceptance because these problems are too serious.
+
+So, I wasn't part of resolving any of these incidents.  For example, Mr Folkes spoke.  He was one of a lot of people given an incident -- a team of people were put on each of these incidents to try to bring them to some resolution or to agree a rectification plan that would bring them to a state that would be acceptable for rollout.  There is quite a story, I know, behind each of these.  There is quite a bit of documentation -- I haven't seen it all but there's quite a bit of documentation as to how each of those high priority incidents were addressed, there would have been a rectification plan and other stuff.  That's what is flowing out of this meeting and this assessment.
+
+**Mr Beer**: Can we look forwards, please, to POL00028508.  We are way ahead now in January 2000 and there is an email from Min Burdett.  Can you remember who that was?
+
+**Andrew Simpkins**: Yes, I recognise the name.  We jumped forward a big way here.  We jumped forward four months of critical activity.
+
+**Mr Beer**: We are going to come back to it, don't worry.  Who was Min Burdett?
+
+**Andrew Simpkins**: Min was again, I think, a contractor working for the Post Office and I think she was administering the kind of follow up to the granting of acceptance, effectively, in her final acceptance around November, and dealing with -- there was still activity that was coming out of the back end of that process and she was trying to manage that remaining activity to some conclusion.
+
+**Mr Beer**: It is an email to the late Keith Baines.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: What was his position at this time?
+
+**Andrew Simpkins**: Because Keith was the -- as I remember it, Keith was the key acceptance manager within the Post Office domain. So Keith would have been the person with overall responsibility for managing this acceptance process to a conclusion.
+
+**Mr Beer**: Did he have a technical background or was he commercial or legal?
+
+**Andrew Simpkins**: I didn't have a lot to do with Keith.  I obviously recognise the name, I obviously met him on several occasions.  I saw him as one of the contractual people, not a technical person.
+
+**Mr Beer**: As you say, the remainder of the document that's attached sets out that Mr Baines was going to be ultimately responsible for closing the critical remaining AIs, including 376.  The covering email says:
+
+"... I have put down my understanding of how Acceptance should work in future.  I will be discussing this with various people next week [including you] to get their buy-in."
+
+Do you remember that?  That they were approaching to you to buy into this process?
+
+**Andrew Simpkins**: I don't think I had to give some buy-in to it.  I think why I'm in the distribution list is, at this point, I am working on the management of the CSR+ release.  A number of these incidents would -- which required sort of non-urgent -- these would be non-urgent software enhancements or fixes.  So some of those actions would have fallen to the Pathway development team that was actually working on the next release because that's where Pathway were moving their development resources.
+
+So it is understandable that some incidents would be perhaps now dealt with under the umbrella of the ongoing development project of CSR+ and, because I was managing that on behalf of the Post Office with other people, they just wanted to make sure that I understood that that was going to be going on and did I have any issues with it?
+
+**Mr Beer**: Do you know why Keith Baines was selected as the person who would sign-off closure of the critical AIs, rather than it being a board decision or escalated to Stuart Sweetman, for example?
+
+**Andrew Simpkins**: I mean, that is a good question about the whole process here.  Was the decision taken at a sufficiently high level and with sufficient cognisance of its significance and implications?  If that is the kind of questioning you are asking me.
+
+**Mr Beer**: Yes.
+
+**Andrew Simpkins**: That is a very good question to which I don't know the answer.  I can give a view on the answer.
+
+**Mr Beer**: Can you give us a factual answer as to whether you know why this task was given to Mr Baines?
+
+**Andrew Simpkins**: No.  And I wouldn't -- I mean, that process running between September and November -- I mean, at the basic process level, as I have tried to describe, a lot of people are working very hard to find solutions that will fix the high incidents and implement these rectification plans.  There is a lot of work going on to kind of clear the technical nature of the problems so that there is some reasonableness in the decision to go forward.
+
+But I was aware, although I wasn't involved in it -- but I was aware like everything else on the programme, that there is huge pressure on this issue.  Is this system going to go live or not?  Is the government's involvement in investment and, to some extent, reputation around this project going to come out okay? We know that BA has pulled out but it is okay, Horizon will go ahead and help save the Post Office.
+
+I'm not involved in this but I'm aware that, obviously, this is going on in the stratosphere.  So you have to -- you can look at the technical documentation of what is being done to try and clear these hot incidents but that you are aware there are other issues, aren't there, that it is not just the clearing of this hot -- there must be other issues going on.  What pressures Dave Miller was under, at this point, I don't know.
+
+But, similarly with Keith Baines, to say, "Well, Keith Baines made a decision we should all go live", it is not as simple as that, is it?  It can't possibly be as simple as that.
+
+**Mr Beer**: In any event, you tell us in paragraph 17 of your witness statement that, by January 2000, the contractual acceptance process was largely complete and there were 9 medium, 48 low severity incidents outstanding and a new process was documented and put in place.
+
+**Andrew Simpkins**: Yes.  I mean, so -- when I saw this again, I was -- it is somewhat surprising, given what we know now, that there were so few reported incidents outstanding at this point when national rollout was about to start.
+
+**Mr Beer**: Why is it surprising?
+
+**Andrew Simpkins**: Well, given what happened subsequently.  If I put it like this, if you read the media, as it were, you are given the impression that "Horizon went live with loads of bugs, why did they let that happen?"  But, as I say in my witness statement, it is not as simple as that. In fact, it is quite surprising how few faults were formally reported at this point.  Now, you could question the accuracy, perhaps, of this position, of course you could question the accuracy of it, but that's what was on the radar, that these -- it had been reduced to a manageable number of medium and low priority problems.
+
+Not no problems, obviously, because this is a major computer system, you wouldn't expect it to be completely empty of bugs, that's just unrealistic.  But there was an understanding that the problems had been reduced to a manageable level for rollout to start.
+
+**Mr Beer**: Just stopping there, you have referred to the stratosphere on a couple of occasions and indicated essentially pressure coming down from above.  Could that explain why the Acceptance Incidents had been reduced in severity or description to an acceptable level or, in fact, genuinely had they been reduced to an acceptable level to allow rollout?
+
+**Andrew Simpkins**: No, I wouldn't -- I think one should be very careful to question the integrity of the people involved in this process.  I mean, you have heard from Mr Folkes.  I can know other people in the team who were trying to act with full integrity on these incidents and whether they were overruled at some point, I don't know.  But, even on AI376, perhaps the most critical one of them all, because that's the financial integrity incident, there was a rectification plan in place.  There was a monitoring process in place.
+
+Pathway actually produced an enhancement at the end of December 1999 to strengthen the integrity controls within the product.  So there wasn't a kind of "Oh, well get it in anyway".  That wasn't how it worked out. There may have been pressure -- there must have been pressure but there was still, I would say, a serious -- there was a serious effort to get these things fixed but there is that wider context.  All I am saying is I don't think one can ignore that, because that context was there.
+
+**Mr Beer**: On any view, however, there was still lots of work yet to be done, including on accounting integrity on systems stability and on support and training for subpostmasters, and we see that reflected, don't we, in the second and third supplementary agreements?
+
+**Andrew Simpkins**: No, see, I didn't see those supplementary agreements, so I'm not quite sure what degree of ongoing remedial activity was kind of baked into those supplementary agreements.  The fact that they were there is a good thing.  And I am sure people tried to apply due diligence to make sure that those additional control processes were there.
+
+**Mr Beer**: On one view, Mr Simpkins, those second and third supplementary agreements are evidence that a contract was written, that said these are the baseline things that need to be satisfied before we go live.  You weren't ready to go live and, therefore, a series of agreements were written that changed the baselines to modify them just to allow the system to go live.
+
+**Andrew Simpkins**: Are you telling me that's what happened?
+
+**Mr Beer**: I'm saying that's one view of what the effect of those two supplemental agreements is.
+
+**Andrew Simpkins**: I never saw these supplemental agreements.  I'm a bit blindsided, really, on how to comment on that.  I'm not in this acceptance process personally, just to be clear. I'm not in the process.  I'm just -- because I'm still on the project, I'm aware that it is going on and I'm aware that a lot of work is being done to try to bring the system up to a state where it could go live.
+
+So, that's how I'm perceiving the situation.  I'm -- from my perspective, how did I feel at this point? I was -- if I was trying to reflect on how I felt, anxious would probably describe my view.
+
+And, as I tried to explain in my witness statement, my attitude here, I think, would be fair to describe as anxious, not because I think there are all these bugs in the system that haven't been fixed or there has been an irresponsible process to close them, it is that I just have concerns about the vulnerability of this system when it goes into national rollout to 17,000 offices, because you are now --
+
+There is a lot I could say here but -- and there are multiple issues I'm well aware of at this position.  But I'm concerned -- if you said -- my own view was I'm concerned, for some reasons I tried to explain in my witness statement, about the vulnerability -- what I call the vulnerability of the system.
+
+**Mr Beer**: You say in paragraph 29 of your witness statement, if we just go forward to it, it is page 17:
+
+"While I was not personally involved in the specification or testing of the Horizon system, the evidence I saw of the protracted difficulties in testing showed a lack of transparency in how the system worked."
+
+Was that one of your worries that you just referred to?
+
+**Andrew Simpkins**: Yes.  I think I'm following up Mr Folkes' evidence, which I'm assuming -- if I can assume you have heard that -- I mean, he rightly placed a lot of emphasis on how the POCL team did not have access to the technical documentation because of Pathway's position that the PFI allow them to deny that access.
+
+So that is what I mean here about a lack of transparency, the Post Office team, both at a technical level, so at Mr Folkes's area, so the application area which is more John Meagher's area, they couldn't really see how the system worked.  There was a comment -- I think Mr Folkes used the term which was used quite a bit, the solution was a "black box" from the point of view of the Post Office people trying to understand it.
+
+Obviously, you knew what was going in the front end through the counter terminals and you knew what was coming out the backend, in terms of files going into the TIP system in Chesterfield.  But what was actually going on within the EPOSS application, we didn't really know.
+
+To me, this is a somewhat unusual situation but you couldn't see how the system worked.
+
+People on the POCL team who were saying we're responsible for assurance -- assurance -- couldn't really do their job in the way that you would expect and so I thought it could be quite nicely summed up that the decision to go into rollout was an acceptance decision. It was based on the contractual acceptance process.  It wasn't based on what, in many other projects, you would have seen as a technical application assurance process that the system was fit for purpose.
+
+There is a bit of a subtle -- it is not that subtle a distinction between the two but, when you are not operating under a PFI contract, you would have gone through a user acceptance test and some kind of assurance process.  But, under PFI, you are going through this acceptance process, so it is a different animal and you haven't got the transparency, or the client hasn't got the transparency, as to what is going on and that is significant.
+
+I use the word, if I may continue, "transparency" here really in two ways, and two really quite different ways, which probably isn't quite helpful.  There is the transparency, as I have just described it in terms of you can't see what is going on at a technical level --
+
+**Mr Beer**: Sorry, just stopping you there.  That's for POCL technical staff involved, in particular, in the assurance and acceptance phase?
+
+**Andrew Simpkins**: Yes.  So the first -- how I'm using "transparency" here is in that sense, yes.
+
+**Mr Beer**: But there is also a second way in which there's a lack of transparency?
+
+**Andrew Simpkins**: Yes, which comes out in the next sentence, where this explains why the branch staff had difficulties with cash accounts and stock unit balancing, as reported during the live trial.  So there is another issue, which is how the system works -- although the branch staff can use it, they are not too clear on how it works, either.
+
+Obviously, they don't have to understand it at a technical level, but to cut to the chase here, one of the things that I only discovered reading some of the postmaster testimonies, and has come out in some other literature, is that when the postmaster had a problem with his cash account -- you know, he had a deficiency, he had an unexplained deficiency -- there is nothing that he could do to understand how that had happened.
+
+**Mr Beer**: So he could not interrogate the system?
+
+**Andrew Simpkins**: He could not interrogate the system.  When I read this a few weeks ago I was a bit astonished to be honest.  As I understood it, postmasters are, in a sense, running their own business.  I know there is a huge issues about the Post Office contract with postmasters but in some sense these people are running their own business and they have invested their own money in this business, and all the time the system is working fine, okay the system is working fine and there aren't any problems, but when a problem arises you would think that you have got some ability to try and work out, "Well where is it going wrong".
+
+Not to the extent, obviously, that you would expect a postmaster to say "It is programme X, Y, Z in Pathway", not that.
+
+But I can remember evidence from some of the postmasters who were saying "Well I want some evidence of" --  I suppose you might say an audit trail, "Where is the audit trail that explains my deficiency"?  As we know, they could not produce the audit trail and the Post Office refused to give them that information.
+
+**Mr Beer**: Just breaking it down.  Was the system designed, to your knowledge, in a way that was deliberately opaque for the subpostmaster?
+
+**Andrew Simpkins**: I couldn't say that it was designed.  I wasn't responsible at that stage.  I think what -- the point I would make though is -- this is a point I actually wrote in my own notes -- when you talk about Horizon, as we know, it is very easy to talk about bugs, errors, fault, defects, you know, "The problem with the system is that it had bugs, errors, faults, defects".  What's often missed in systems is omissions.  Not things that were going wrong, but things that just weren't there that you realise, in retrospect, it would have been a good idea if that was there.
+
+So, if the postmasters had had some facility that would have -- at least given them a clue as to what was going wrong.
+
+**Mr Beer**: Or a dispute function?
+
+**Andrew Simpkins**: Or yes, you could have had -- the other way of looking at it is you would have had a disputes procedure.  For example, on the accounting systems that I worked on at Coopers, I would definitely have expected that -- I know this is a different environment but the principle, I think, is the same -- I would have expected, in the system that I had delivered to the client, that when something went wrong the accounting system would have told them where it had gone wrong.
+
+What type of transaction seems to have been responsible for this?  Or what product category?  Or what end of day process?  Something that gives you a clue as to where it is going wrong or something that gives you evidence that something has gone wrong.  You know "I have got a control account here and I have an audit file of transactions and this audit file of transactions does not equal what is in the control account, there is a problem, there is clearly something wrong with the system these two things don't reconcile".
+
+You need something like that.  I will just make one other point and just stop here.  You not only need that for the confidence and credibility of the postmaster's position, if you don't have that information, it is difficult for other people to also understand what the hell has gone wrong in that branch.  Because just being told there is a cash account deficiency in the branch, that isn't going to get you very far in trying to solve: where in the system did that happen?
+
+**Mr Beer**: On that note, sir, would that be an appropriate moment?
+
+**Sir Wyn Williams**: Yes.
+
+**Mr Beer**: Sir, can we say 2.05 pm, please?
+
+**Sir Wyn Williams**: Yes.
+
+You are not supposed to talk to anyone about your evidence, I am sure you don't want to.  We will see you at 2.05.
+
+**Andrew Simpkins**: Okay.
+
+*(1.05 pm)*
+
+*(The short adjournment)*
+
+*(2.05 pm)*
+
+**Mr Beer**: Good afternoon, sir, and good afternoon to your assessors.
+
+Good afternoon, Mr Simpkins.
+
+One issue I would just like to go back on, which I rather skipped over before the lunch break.  In paragraph 23 of your witness statement, no need to turn it up, you say:
+
+"The issue was not merely a matter of individual errors but rather the underlying complexity and fragility of the branch accounting system."
+
+Can you explain in more detail what you mean by that, please?
+
+**Andrew Simpkins**: I think for people who are not IT professionals, if I can use that term, there can be this sort of a naivety that a fault in a computer system is just a programming error, an error in a line of program code, and that creates a bug or a fault in the system, and someone just needs to identify that bug and fault and go into the program and correct it and all will be well.
+
+I could say more about that subject but it starts getting a little bit more technical.  But in computer systems you have problems that are not just individual coding errors.  You can have problems arising from the design of the system and -- it is difficult to know quite how to explain this in non-jargon terms but the result is that the system is vulnerable to ongoing errors.
+
+Perhaps I could say it like this: as I have already explained, we tested Horizon for nearly 12 months and a lot of corrections had to go through the system to fix all different kinds of errors.
+
+Now, in a computer program, you get -- if you get a lot of errors in a computer program you are rewriting large sections of code and you are adding to the complexity of that code and, in fixing some lines, you are possibly disturbing other lines.  So if you keep making changes to a piece of code because there's just some basic way it is not working, you end up with a fragile piece of software.
+
+It is like any piece of technology.  If you keep patching it, you get to the point where you say "This is ridiculous, I just need to throw it away and start again".  It gets to a state of fragility.
+
+And if you keep getting problems, as I identified in those phases of testing around Christmas 1998, if you keep getting repeated errors in a part of a subsystem, you think about redesigning it.  If you are spending hours and hours trying to work out why it is going wrong, you think would something with the original specification or something with a programmer who did this -- it is just a mess.  So it will be better to redesign it and start again.
+
+So I don't feel I have explained that very well but it is not just a matter of finding individual coding errors.  You get to a point where the basic design is wrong.
+
+So I would say, within the EPOSS system, there was some basic misconceptions as to how it had to work as an accounting system.  I don't know the background to that.
+
+**Mr Beer**: Misconceptions by who?
+
+**Andrew Simpkins**: By the original requirements gathering process, the original systems analysis, the original systems design. It is as though people didn't realise that, when you had an accounting transaction, it had to generate a debit and a credit somewhere.  It wasn't just a matter "Oh, great, we processed the sale of a stamp".  So when you process the sale of a stamp what debit and credit transactions does that generate and where are they generated in the system?
+
+And if people are not clear where those accounting processes are taking place and where that balancing activity is being done in the system, you have got a design flaw.  Do you see what I mean?  That is a kind of design flaw.  You are not clear on how the accounting flows are going to work through the system in order to ensure that everything balances at the end of the day.
+
+That's what -- right back from that position in late 1998, where I was concerned about the accounting functionality within the system, it is not just because I thought "There's a few lines of wrong programming code here", it is because I thought someone hasn't thought through a robust design how this is going to work in the future, with loads of offices and transactions.  Is that good enough?
+
+**Mr Beer**: Thank you.  You mentioned in late '98 your concern and you mentioned, as an example, a problem with EPOSS system, were you aware of the setting up of the so-called EPOSS task force and a report produced by the EPOSS task force?
+
+**Andrew Simpkins**: No.  I think it was -- you sent me some documentation on it and I think it was an entirely Pathway activity.
+
+**Mr Beer**: Can we look at that documentation.  `FUJ00080690 <https://www.postofficehorizoninquiry.org.uk/evidence/terence-austin-27-october-2022>`_, a document with which the Chair and others are very familiar now.
+
+Ignore the date in the top right-hand side and treat this as being treated in late '98.  Is it right that the first time you saw this was when the Inquiry disclosed it to you recently?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: I think you have read the document.
+
+**Andrew Simpkins**: Yes.
+
+**Mr Beer**: Were you aware that the task force, so-called, had been set up?
+
+**Andrew Simpkins**: No, this is part of the general problem of not having visibility of what Pathway are doing inside the black box of their development.
+
+**Mr Beer**: On reading it and the concerns that it sets out, is this information that you think ought to have been shared?
+
+**Andrew Simpkins**: You can see the dates here, August/September 1998.  So we are still at a relatively early stage of testing. I didn't become clear, as I said earlier in my evidence, how -- that there were serious problems in this area until about late October, certainly into November.
+
+But Pathway are clearly -- know at this time -- well, obviously before 19 August, that the EPOSS system is not functioning robustly, getting a lot of errors, PinICLs, in it, so what are they going to do about it?
+
+**Mr Beer**: If we skip forward please to page 7.  The line:
+
+"It is clear that senior members of the Task Force are extremely concerned about the quality of code in the EPOSS product."
+
+There was a re-engineering by Escher:
+
+"Since then many hundreds of PinICL fixes have been applied to the code and the fear is that code decay will, assuming it hasn't already, cause the product to become more unstable."
+
+Is that an element of the description you were just giving a moment ago?
+
+**Andrew Simpkins**: Yes.  I mean, it is saying that, with that number of PinICLs, the product is becoming potentially unstable, yes.  You can't be sure that you are going to be able to correct the problems and diagnose them properly in future.
+
+I wasn't involved -- I mean, as you know, people on the Post Office side weren't close enough to these technical issues.  You know, you are trying to -- the black box problem, as we have described it -- but what I sense when I read this from a wider experience is that the Pathway solution was critically dependent upon this Escher product and it reminds me of other situations where a supplier comes forward in a tender, having a kind of solution, which they think is going to meet the customer's requirements, and they hang their proposal on you utilising this product, either an in-house product or, in this case, it was actually a product from Escher.
+
+So you base your design on the fact that this core product will allow you to build your solution around it. But then you find that it is not really quite the right product that is needed for this particular clients' requirements.  So you are then into a process of what's sometimes called reverse engineering it, or re-engineering it to meet the clients' requirements.
+
+Now, that is acceptable to a degree but, once you start to re-engineer more of it, you are going to end up disturbing the basic integrity of that product and complicating it and that's what I fear happened here.
+
+The Escher EPOSS product went through so many iterations, it almost became unrecognisable.  Not unrecognisable, that's an exaggeration, but it became very different to what was originally the concept.
+
+**Mr Beer**: You have read the 20-page report, I believe.
+
+**Andrew Simpkins**: Sorry the?
+
+**Mr Beer**: You have read this 20-page report?
+
+**Andrew Simpkins**: Yes, for the first time yesterday, I think.
+
+**Mr Beer**: If you had known the information contained in it at the time, ie in late 1998, what, if any, impact would it have had on your own conduct?
+
+**Andrew Simpkins**: Because this is still an early stage -- this is still -- I mean, you're into the testing cycle, so it is getting a bit late in some ways but you're still in a kind of early stage of testing.  So, you could say there may well be time enough for this problem to be solved. I wouldn't say you would have to leap to a conclusion at this point that this is clearly undeliverable, I don't think you could jump to that conclusion.
+
+This would be a worry and it would explain certain things.  I would have been more -- I don't know if I'm going to jump ahead of you.  I'm more concerned that the document you sent me -- about the review of EPOSS in late 1999.
+
+**Mr Beer**: Why were you more concerned about that document?
+
+**Andrew Simpkins**: Because that document which I think was -- again, it was an internal Pathway document, issued in November 1999, where some of their technical people made a proposal that the EPOSS code should be re-written.
+
+Now that is a huge -- that is a huge recommendation to rewrite the core product.  Now, that, as I saw in the subsequent documentation, that recommendation was actually turned down by their senior management who thought it would be more cost effective to keep maintaining it.  If I -- or, really just personally, but if the Post Office team knew in November 1999, you know, like the month you were about to commit to national rollout, that there were people in Pathway -- technical people in Pathway who were so concerned about the stability of this product that they were thinking that it should be re-written, that would have been a red flag.  I mean, that would have been very worrying.
+
+What decision the Post Office would then have made -- but that is materially significant information to have had, or not had.
+
+**Mr Beer**: Would your answer be the same if the proposal was to rewrite the cash accounting part of EPOSS?
+
+**Andrew Simpkins**: I mean, I don't understand -- as I said, we didn't understand this internal architecture of the system and it wasn't -- I wasn't in the technical or product assurance teams that may have got closer to this.  If you say to me, "Given the problems, do you think the accounting aspects of this system should have been re-written"?  Yes, I think, given what we have seen, they should have been rewritten.  But when they should have been rewritten, the answer to that could have been December 1998 they should have been re-written.  There was sufficient evidence at that point to think, "This isn't working very well, we should -- not necessarily throw everything away but this area that is giving us particularly business critical problems, we should take a more in-depth look and not just try to fix it, think about whether we have actually got it wrong and we should redevelop it".
+
+**Mr Beer**: I'm going to try and draw all the threads together and look at the penultimate paragraph of your witness statement please.  `WITN06090100 <https://www.postofficehorizoninquiry.org.uk/evidence/andrew-simpkins-3-november-2022>`_, at page 18, please.  It is paragraph 30.  You say:
+
+"At the time I left Horizon I was not so much worried as to whether known faults had been fixed.  It was rather that the system delivered into Rollout had an ongoing vulnerability to error due to its complexity and lack of transparency."
+
+You have explained that to us already.  Then you say:
+
+"When errors arose over time during live operation, as they do in all systems, it would be difficult if not impossible for postmasters and postmistresses to understand what had gone wrong."
+
+You have explained that to us.  Would it be difficult or impossible for POCL to understand what had gone wrong in that situation?
+
+**Andrew Simpkins**: What could have gone wrong in the live system?  I mean you have -- if I just -- I was interested in what Mr Folkes said towards the end of his testimony.  From his perspective he felt that although the -- kind of, the known visible problems had been fixed at this point, he still felt that there was a certain unproven -- I think unproven was the word he used -- in going into rollout.  I'm saying I had exactly the same perception.
+
+Therefore, there should have been some activity to have monitored that these issues, that had been such a problem during testing and during acceptance, were showing resolution in the live environment as it was rolled out over the following 12 or 18 months.  And you would have thought that, given all that we knew at the time, not now, but what we knew at the time, that there should have been some diligence on areas such as the accounting, such as reference data drops, but that didn't happen, clearly, did it?  That did not happen. In fact, it seems that very quickly, in 2000, the Post Office senior management, from what I have read, the National Federation of Subpostmasters, the Post Office investigations department all came to the conclusion that this system is now working perfectly.
+
+We are the only major corporation in the world that has got 100 per cent perfect computer system.  I know that's a bit strong to put it that way, but for people with any IT background, to think that the senior management of a major public corporation can believe that their system is perfect is just -- well -- I don't know what word to use.  If I just said, naive.
+
+**Mr Beer**: You have explained in your evidence about a lack of transparency.  Meaning a lack of ability or facility to look at -- to see how the system was designed and how it, in practice, operated.  I'm asking, when the system was live, after national rollout, did that lack of transparency or facility to look under the bonnet still exist?
+
+**Andrew Simpkins**: Yes.  Yes.  Can I just add a point of detail here?
+
+**Mr Beer**: Before you add a point of detail, why did that lack of transparency or facility, as I call it, to look under the bonnet still exist?
+
+**Andrew Simpkins**: Are you saying why did the Post Office not have the ability to understand the nature of -- the ongoing nature of these problems?
+
+**Mr Beer**: Yes.  If they saw, in a Post Office in central London, a balance of minus £10,000 and they said, "Right, shall we assume that the subpostmaster stole it or shall we see whether there is a computer error that has caused that as an artifact", was there a facility, an ability to interrogate the system to see whether the minus £10,000 balance was an artifact of the system?
+
+**Andrew Simpkins**: I mean clearly Fujitsu should have had the ability to do that.  Clearly, technical people within Pathway Fujitsu should have been able to interrogate branch accounts as part of the debugging process.  So -- but you have to understand, the difficulties of debugging a system of this scale, in so many outlets -- and this was a point I wanted to make.  It goes back to the point I made before lunch, that the postmasters, when they had a deficit or an unexplained discrepancy, they could not get anything out of the system to explain what was going wrong.
+
+Now, you then have to follow this through.  They come up with an unexplained discrepancy.  They have got no idea how it has happened.  They ring the help desk. They say "I have got this discrepancy, I need some help to resolve it.  I am sure I haven't done anything wrong but I have this discrepancy".  The Helpdesk make a note of this, "branch so and so, unexplained discrepancy". They have no additional information to explain that.
+
+At some point in the next few days, perhaps it is reported into Fujitsu, to cut the story short.  So Fujitsu is told "There is a branch that has got an unexplained cash account discrepancy".  Where? Where?  They have got no information from the postmaster as to what might have gone wrong and where.  So where do the Fujitsu people start looking for it?
+
+I mean, in testing systems, a crucial ability is replication.  You know with you have found a fault because you can replicate it within the test environment.  That's the way you know you are 90 per cent forward in resolving a problem.  But if you don't really know what happened, if you haven't got the evidence around the practical business activity that originally led to the fault, you don't know what fault you are trying to replicate.
+
+So this is a crucial factor in why I think the live service support to Horizon was poor and why problems didn't get fixed over a period of years, because of, you could say, the lack of transparency in the branches meant that the end users couldn't describe the problems. Do you see -- do people follow that explanation?  Does that --
+
+**Mr Beer**: That's what you say in your last sentence:
+
+"So a situation arose where they could not validate the integrity of their own financial information ..."
+
+**Andrew Simpkins**: So they could not validate it, therefore they could not give any guidance to the support area as to where to look for the problem.  And so you have got people in Fujitsu being told that there are these problems but not really getting much help into where to look for them. And then, of course, around this, you have got the whole culture of denial that there are problems in the system anyway.
+
+**Mr Beer**: Mr Simpkins, they are the only questions that I ask.  Thank you very much indeed.  There may be some more questions.
+
+**Mr Stein**: Mr Simpkins, I ask questions on behalf of a very large group of subpostmasters, mistresses and managers and I'm instructed by Howe+Co solicitors.
+
+With the permission of Mr Beer, can I turn this around so that we look at it through the lens of your starting point in your evidence, which is that you were not aware that the Post Office was engaged in the occupation of prosecuting people --
+
+**Andrew Simpkins**: Correct.
+
+**Mr Stein**: -- and that, therefore, that wasn't something that was on your mental desk; is that fair?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Stein**: Now, if the system was purposed to provide evidence to investigators and to support prosecutions, would that have affected, in your view, the requirements for the system build?  In other words, the acceptance criteria the requirements being put forward to design the system?
+
+**Andrew Simpkins**: Yes.
+
+**Mr Stein**: Do you agree that that would have radically affected the system requirements and build?
+
+**Andrew Simpkins**: I would not say it would radically have affected it.  It would have been -- in other contexts, the ability for an end user department/unit of some kind, to have some audit type information to explain its financial data, you would think, is a pretty standard requirement, wouldn't you?
+
+**Mr Stein**: Yes.
+
+**Andrew Simpkins**: But, within the Post Office, it seemed, yes, we have got a system that will provide this kind of data at the Chesterfield end, but what about in the branch?  It was as though you weren't treating the branch as a business unit.
+
+I am aware there is a whole kind of legal structural issues here but if you are, in some ways, an independent business unit of some type, you need to have some management control over your financial information.  Not just "I stuck all this information into a terminal and I got these reports out, and that's the end of it".
+
+I would say, professionally, that that person has got to have the information to discharge their responsibilities.
+
+**Mr Stein**: Do you agree that it would also have tightened up the need for robustness within the system and making sure that the system was accurately providing data?
+
+**Andrew Simpkins**: It may have helped in the design of the system.  I mean, not just -- as I said earlier, not just for the postmasters but in testing, if there had been better analysis of what was going on within those areas, it would have been easier to test.  It is a point I kind of make in my witness statement.
+
+If you have got a well designed system, it is easy to test because it is structurally clear.  The information flows are clear.  The numbers all tie up. Where you haven't got that, you are just making life more difficult for yourself in testing and then, of course, in live operation.
+
+**Mr Stein**: Obviously, you understand that information that may be used in criminal proceedings needs to be accurate; you accept that?
+
+**Andrew Simpkins**: Oh, yes.
+
+**Mr Stein**: Does that, of itself, against the other parts of your evidence, where you have been critiquing aspects of testing, the difficulties with reconciliation between terminals and, if you like, the head office, would that emphasise the need to make sure that those things weren't buggy or prone to error?
+
+**Andrew Simpkins**: I'm not quite sure if --
+
+**Mr Stein**: It may be my fault with the question.  Would you agree that, if you had to make sure the system was as accurate as possible for the purposes of using the evidence from it in criminal proceedings, would that have tightened up procedures regarding --
+
+**Andrew Simpkins**: Yes, you would expect appropriate due diligence, wouldn't you?  You would expect appropriate due diligence in that process.
+
+**Mr Stein**: Benchmarking, so that you look at rollout, you test the product, and re-test the product through its life?
+
+**Andrew Simpkins**: Do you mean after rollout?
+
+**Mr Stein**: Yes.
+
+**Andrew Simpkins**: There is a continual -- yes.  I think, as I said earlier, you would expect in any business support environment that part of the responsibility is to make sure that something unexpectedly hasn't gone wrong.  All kinds of things can go wrong in a live computer system. I say "all kinds of things" but stuff can happen, so you have to have -- it would be a normal process to monitor that possibility.
+
+**Mr Stein**: The system itself, you mention the role and the position of some of the software providers.  Now, those software providers, as far as we were aware, were never told that it the system may be used for the purposes of prosecutions, in other words that the data that's part of the system better be accurate, better be good and solid.  Would that have affected the way that the software providers may have assisted in relation to their double checks, fixes, workarounds of their product?
+
+**Andrew Simpkins**: You are asking me to speculate a little bit on what may have been the dialogue between Pathway and Escher particularly.  No doubt Pathway would raise issues on Escher, they would prioritise those issues, they would stress urgency.  I am sure they would do that and, if Escher as a professional organisation was told there was a problem with their product, they would respond to it.
+
+I can only presume that there was some kind of professional relationship here.  If you're saying that we've got a particular crisis because this is really serious, this potential fault because I don't know when Pathway or Fujitsu was aware of these prosecutions taking place, but you would have thought, if they -- I mean, we're getting into deep water here, aren't we?
+
+But if they suspected there was an issue within the system they should, of course, have flagged it on those suppliers.  But I don't have any evidence -- this is part of the problem, you don't really have much visibility of what went wrong there.  As you say, you are speculating as to quite what happened.
+
+**Mr Stein**: You seem to overall agree that if there was awareness that the system was going to be used as the basis for the prosecution of individual subpostmasters, it would have affected the different issues that had come up within the operation of any system?
+
+**Andrew Simpkins**: I mean, once you understood that that was the potential significance of some of the Horizon reporting, you know, it was -- I was almost going to use the word "life threatening" here -- because I know this is a very sensitive area.
+
+But this is a very high bar, isn't it, in terms of integrity of data: very high bar.  So you would have -- what is due diligence?  What should due diligence have looked like in a case of that kind?
+
+**Mr Stein**: Thank you, Mr Simpkins.
+
+**Sir Wyn Williams**: Anyone else?  Thank you very much. I think that concludes your oral evidence.  So thank you very much for coming to give it.
+
+**Andrew Simpkins**: Thank you.
+
+Can I just, Mr Chairman, you know, like with the other people who worked on Horizon, it's -- you know, like other human beings, we feel a grief for what happened to the postmasters as a result and there is still a sorrow that these systems had these repercussions and, you know, even though personally we may feel, on that project, I actually did the best to make it successful, not a failure, you still feel that. You still feel that.  We just feel -- we apologise for the consequences of what happened and obviously regret it.
+
+**Mr Beer**: Thank you.
+
+Sir, that concludes the business for today.
+
+**Sir Wyn Williams**: All right.  See you all at 10.00 tomorrow morning.
+
+**Mr Beer**: Thank you.  It's Jonathan Evans and Mr Blake will be taking Mr Evans.
+
+**Sir Wyn Williams**: Is it just Mr Evans?
+
+**Mr Beer**: It is, yes.
+
+*(2.40 pm)*
+
+*(The Inquiry adjourned until 10.00 am on Friday, 4 November 2022)*
+
