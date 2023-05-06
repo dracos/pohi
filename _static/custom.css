@@ -1,0 +1,23 @@
+/* Nicer top left spacing */
+.wy-side-nav-search a {
+    line-height: 1.5;
+}
+
+/* My sign-off */
+.right {
+    text-align: right;
+}
+
+/* Hide versions menu, keep hosted/privacy permanently shown */
+div.rst-versions > span.rst-current-version {
+    display: none;
+}
+div.rst-versions > div.rst-other-versions {
+    display: block;
+}
+div.rst-versions > div.rst-other-versions > div.injected > dl {
+    display: none;
+}
+div.rst-versions > div.rst-other-versions > div.injected > hr {
+    display: none;
+}

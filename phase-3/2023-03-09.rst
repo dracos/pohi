@@ -1,0 +1,1762 @@
+9 March 2023
+============
+
+*(9.58 am)*
+
+**Mr Beer**: Sir, good morning can you see and hear me?
+
+**Sir Wyn Williams**: Yes, thank you very much.
+
+**Mr Beer**: Can you see Mr Roll?
+
+**Sir Wyn Williams**: Yes, I can.
+
+**Mr Beer**: May I therefore call Richard Roll, please.
+
+**Sir Wyn Williams**: Yes.
+
+Richard Roll
+------------
+
+*RICHARD WILLIAM ROLL (affirmed).*
+
+**Mr Beer**: Good morning, Mr Roll.  Can you see and hear me clearly?
+
+**Richard Roll**: Yes, thank you.
+
+**Mr Beer**: As you know, my name is Jason Beer and I ask questions on behalf of the Inquiry.  Can you give us your full name, please?
+
+**Richard Roll**: Richard William Roll.
+
+**Mr Beer**: Can I extend the Inquiry's thanks for the provision of a witness statement by you and for attending to give evidence remotely today.  You should have in front of you a pack of hard copy documents, the first of which, at tab A, is a witness statement you made on 2 February this year.  It's 18 pages long.  Can I invite you to open that and confirm that that is your witness statement.
+
+**Richard Roll**: Yes, it is.
+
+**Mr Beer**: For the Inquiry's reference, the URN for that is `WITN00780100 <https://www.postofficehorizoninquiry.org.uk/evidence/richard-roll-9-march-2023>`_.  Can you turn to the 15th page of it, please.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Is that your signature?
+
+**Richard Roll**: It is.
+
+**Mr Beer**: Then if you turn back to the first page, to the first line, where it says, "I joined the RAF in 1974", should that read "1976"?
+
+**Richard Roll**: It should.
+
+**Mr Beer**: Other than that correction, are the contents of the witness statement true to the best of your knowledge and belief.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Thank you.  I am going to ask you some questions today about issues that the Inquiry has grouped together in what we call Phase 3 of the Inquiry, namely your role in the operation of the Horizon System and the work of the SSC, which is variously described in Fujitsu documents and the Post Office as the System Service Centre, the System Support Centre or the Software Support Centre. They're all referring to the same thing and I'm going to call it the SSC today.  You understand?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: I'm not going to ask you questions about what the Post Office did in relation to and in response to your appearance on Panorama in 2015, nor am I going to ask you questions about the basis of many of the suggestions that were put to you over the course of a day and a half's cross-examination on 13 and 14 March 2019 when you appeared as a witness in the Bates v Post Office trial in the High Court, just down the road from here, and nor am I going to ask you questions about the treatment more generally of your evidence by the Post Office in the trial, nor the conclusions that Mr Justice Fraser drew about the accuracy and reliable of your evidence.  Do you understand?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: All of those issues or some of them may be examined later in the Inquiry but we do not need your evidence in order to examine them.  So can I start, then, with your background and experience.  As we've just established, I think, you joined the RAF in 1976; is that right?
+
+**Richard Roll**: That's right.
+
+**Mr Beer**: In one of your statements prepared for the Bates litigation, you say that your title in the RAF was avionics engineer; is that right?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: You tell us in that statement that you worked on a variety of mainframe computer systems and that you were selected for a software development team working on aircraft control and attack systems; is that right?
+
+**Richard Roll**: Broadly speaking, yes.
+
+**Mr Beer**: I think it's right that, in your time in the RAF, you obtained a City & Guilds Level 3 certificate in electronics?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: You obtained an ONC in electronics engineering --
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: -- and you obtained an HNC in software engineering?
+
+**Richard Roll**: I did all of the modules for that and got distinctions and credits but I never completed the final module so I never actually obtained the final HNC.
+
+**Mr Beer**: I understand, thank you for that clarification.  Then after 14 years or so in the RAF in 1989 you left; is that right?
+
+**Richard Roll**: That's right.
+
+**Mr Beer**: Over the next 12 years or so you undertook a range of work, including, I think, bringing up some children on your own before joining Fujitsu in January 2001?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can we just look at page 17 of your witness statement. It will come up on the screen or you can follow in the hard copy.  Page 17, please.  Ah.  That seems to have been redacted.  Is it redacted in the copy that you've got?
+
+**Richard Roll**: Um, which page am I looking at?  Page 17 on my witness statement?
+
+**Mr Beer**: Yes, the second page of your CV.
+
+**Richard Roll**: Oh, right, yes.  I've got it in front of me here.
+
+**Mr Beer**: You've got it in front of you?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Okay.  I think you, working from the bottom upwards -- we can take that down from the screen, thank you -- working from the bottom upwards, the first job after the RAF, was that working in robotics, essentially?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Then the job above that, between August 1990 and March 1991, was that software development?
+
+**Richard Roll**: Software support to development yes, we were rolling out a product in the UK and some of it had to be modified as it went along for the UK customers.
+
+**Mr Beer**: Then May '91 to December '92, business process analyst. What was that?
+
+**Richard Roll**: The company, new information paradigms, it was pre-Internet.  They had a product which could interrogate databases, such as Reuters, some of the online financial databases, et cetera.  It could access those overnight, download the information, format it, and print a document so that in the morning you would have an up-to-date management report on what the competitors were doing, et cetera.  At the time, it was all cutting edge stuff.  It was written in language very much like HTML is today but, as I say, predated the Internet by several years.
+
+**Mr Beer**: Thank you.  Then for two and a half years, as I've said, you worked looking after your children?
+
+**Richard Roll**: Yes, I tended to do odd jobs for -- I worked for the Natural History Museum on a database project in the evenings from home.  I took the children to school during the day, picked them up from school, get them to bed and then I'd work until 2.00 in the morning or so on the database projects and then get some sleep, get them to school in the morning, couple more hours sleep, get up at lunchtime, do the housework, et cetera --
+
+**Mr Beer**: I see.
+
+**Richard Roll**: -- pick up the kids.  Then.
+
+**Mr Beer**: Then between June '95 and July '95 you were a desktop implementation engineer, what does that mean?
+
+**Richard Roll**: That was the title.  There was a company called TAL, again it was really when IT was still taking off, as it were.  It had been set up by a previous employee at Glaxo to manage or help manage Glaxo's IT systems.  He then contracted into them, if you like.  So we were responsible for configuring desktop computers, installing them, building them from scratch in some cases, training people on the software that was being used on them, so on and so forth.
+
+**Mr Beer**: Then for the same company you worked as a systems procurement analyst.  Can you explain what that is, please?
+
+**Richard Roll**: Yeah, the -- they then needed someone again, through TAL to work.  There was a problem on the Glaxo recession development site and they weren't getting the equipment they needed and the software and hardware they needed to be able to process the data, get the drugs to market, basically.  They needed someone else there to help speed up the process.
+
+So I was asked to step in and help with purchasing, analysing what equipment they needed, what desktops, what processing power was best for their needs.  So then I would then source the -- source the equipment and get the purchasing done to get it onto the desks as quickly as possible.
+
+**Mr Beer**: Then after that, between January and December 1996 you worked in the same company again as a project manager; is that right?
+
+**Richard Roll**: Yes, they -- Glaxo merged with Wellcome at that time, so there was a lot of staff.  At Dartford we had a lot of data, a lot of systems, they needed bringing in line with Glaxo equipment.  Some of the staff were made redundant, the rest were being transferred to another site.
+
+**Mr Beer**: Then towards the top of the page there two jobs, firstly as a systems manager and then as a project manager.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Did any of that involve work with software, or writing software or coding?
+
+**Richard Roll**: The job with at CRO Catalyst, I was responsible for looking after all the software in the UK and Europe, so that involved configuring software on the servers in the Hague, also in Switzerland and the UK.  That was more setting up software rather than coding or writing it.
+
+**Mr Beer**: Thank you.  Then at the foot of the preceding page, in early '99 and then for the rest of '99 and to the middle of June 2000, a configuration centre manager and then a system support analyst.  Can you describe what those jobs were, please?
+
+**Richard Roll**: Yeah, sure.  The configuration centre manager, Bitech had a large facility in Bracknell, configuring IBM minicomputers, setting up software, et cetera.  They were moving the whole process to Germany and closing down the UK facility.  My manager in the UK had moved out to Germany and they needed someone else to step in while they closed the rest of the facility down in the UK.  So I took it over for that period, for a short period of time, to run it whilst they moved most of the stuff out --
+
+**Mr Beer**: And the system support analyst?
+
+**Richard Roll**: That was running a third, if you like, of the global sales database software.  I was responsible for managing the software in Egypt, Greece, Tunisia, the Middle Eastern areas, part of Africa, most of Europe, most of Eastern Europe.  That involved writing code -- I'm trying to remember exactly what the terms were. Basically, the sales reps would input the data in their various countries.  That would then be consolidated into a database in the UK.  That was an Oracle Database, I think.
+
+So I had to manage the Oracle Database, also write the scripts to interrogate the database, so that the sales reports were generated correctly.  There were often issues with data coming in from various countries that would be out of sync, so that all had to be sorted out, turn the database off, go in, sort the code out, sort the actual records out, put it all back together, and then resync it with the databases in Greece, Romania, wherever.
+
+**Mr Beer**: I understand.  Thank you.  Then I think you took up employment for a period of three years and six months between January 2001 and August 2004 with Fujitsu?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: The job title that I've seen for you was IT product specialist; is that right?
+
+**Richard Roll**: I think so, yes.
+
+**Mr Beer**: You worked in third and fourth line support in the SSC; is that right?
+
+**Richard Roll**: Yes.  I think now that that -- it was probably classed more as third line support.  There was some development but probably technically -- probably better described as third line support.
+
+**Mr Beer**: Thank you.  Was your work focused almost exclusively, therefore, on the investigation and resolution of issues and problems with the Horizon System?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Did that involve you dealing directly with subpostmasters and others employed in branches?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: You were, I think, based at the Fujitsu offices in Bracknell for the entirety of that period?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can I ask about the size of the SSC team.  In one of your statements, you say that there were over 30 individuals working on the same floor as you in Bracknell.  By that, were you meaning they were all in the SSC?
+
+**Richard Roll**: Not all of them.  Some of them would have been in the testing team.  Probably -- I think there were 25 to 30 SSC members and half a dozen or more people in testing.
+
+**Mr Beer**: Thank you.  So that 25 to 30, were they all doing the same or substantially the same job as you?
+
+**Richard Roll**: Substantially the same job as me, yes.
+
+**Mr Beer**: Did you manage anyone?
+
+**Richard Roll**: No.
+
+**Mr Beer**: How many managers were there of the SSC?
+
+**Richard Roll**: Just one, as far as I can recall.
+
+**Mr Beer**: Who was the manager of the SSC?
+
+**Richard Roll**: Mik Peach.
+
+**Mr Beer**: Did he have a deputy?
+
+**Richard Roll**: Um, Steve Parker stood in for him when he wasn't there, yeah.
+
+**Mr Beer**: What was the structure of the team?  How were the 25 to 30 of you, other than Mr Parker and Mr Peach, arranged or organised, if you can remember?
+
+**Richard Roll**: It was a very flat management structure.  We just all reported to Mik Peach.  Physically on the floor, we had own little desk space with two computers on it.  One was completely secure and that was connected to the Horizon System, and the other one was an open system, for want of a better way of putting it, where we could send emails, look up things on the Internet if necessary. That sort of thing.
+
+**Mr Beer**: So a flat structure, all reporting in to Mr Peach, no hierarchy within the 25 to 30 of you?
+
+**Richard Roll**: No, not that I remember.
+
+**Mr Beer**: Was there any division in terms of specialism amongst you, in terms of the work that was undertaken?
+
+**Richard Roll**: Um, yeah, some of the guys there had been working with Unix systems since the year dot, so they were, you know, real experts on Unix.  So only knew if there was a problem with the server farm, they would pick up those problems as some of them were very, very good on the financial side of things, mathematics and that, so they tended to pick up any work that came on, and that sort of thing.  Some of us were just sort of generalists who would dive in and do anything we could and, if we got stuck, then we knew who we'd perhaps go and ask for a bit of help.
+
+**Mr Beer**: Thank you very much.  I want to ask how you came to give evidence and to speak out about the Horizon System. I think it's right that you came forwards after seeing the BBC South Inside Out investigation that was broadcast in, I think, 2011; is that right?
+
+**Richard Roll**: I can't really remember.  There was something I saw or read and it just triggered some memories, and I just knew that we'd been busily trying to patch systems behind the scenes and it seemed wrong that -- well, it might have been wrong that postmasters may have been getting the blame for something that actually wasn't their fault.
+
+So I just contacted someone, I'm not sure who, and said, "I used to work on the systems", and if they wanted to talk to me, you know, I'd be willing to have a chat and explain what we did.
+
+**Mr Beer**: So what was it that triggered you coming forwards?  What did you see or read?  You mentioned there, I think, postmasters getting the blame.  In what way were they getting the blame?
+
+**Richard Roll**: Being sent to prison or prosecuted for things that weren't necessarily their fault.  It seemed an injustice.
+
+**Mr Beer**: So did you essentially become a whistleblower?
+
+**Richard Roll**: Yes, I didn't think of that term at the time until it was mentioned, you know, years later, but yes.
+
+**Mr Beer**: Did you speak, give an interview, to Panorama in 2015?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: As I've said already, you gave evidence before Mr Justice Fraser in the Group Litigation Order proceedings over a day and a half on 13 and 14 March 2019?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can I ask you to look at your witness statement, please, paragraphs 7, 8 and 9, which is on page 4 of the witness statement.  I'm going to explore here the nature of the issues that were referred to you in the SSC.
+
+Sorry, it's my mistake.  Can we have up on the screen POL00029991.
+
+It's my mistake, Mr Roll, it was paragraphs 7, 8 and 9 of this document that's going come up on the screen for you that I wanted you to look at, rather than your Inquiry witness statement.  This is a copy of the witness statement -- if we just scroll up to the top of it -- that you made in the High Court proceedings.  It's dated 11 July 2016 and it's the first of two witness statements that you made, okay?
+
+**Richard Roll**: I think I made three witness statements.
+
+**Mr Beer**: Ah, we've got two.  We'll explore where the third one has gone.
+
+Can you see paragraph 7 at the foot of the page? You're introducing the work that you did in the SSC.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: You say:
+
+"By way of example the type of issue that I would deal with, if a financial discrepancy had arisen in a branch (eg a 'shortfall' of £5,000) then I would need to work sequentially through all transactions over the relevant period, and also work through thousands of lines of computer coding.  Software programs were written by us to strip out irrelevant data to enable us to more easily locate the error."
+
+I want to ask you some questions about that, please. You say you would need to "look sequentially through all the transactions over the relevant period", and why would you have to do that?
+
+**Richard Roll**: If there was an error of -- I mentioned £5,000 there, but quite often it would be a random, you know, £4,011.27 or something.  You would need to look at all the transactions to see which one was at fault.  If you were lucky, you would find one for that exact value but, more often than not, there wouldn't be one and it would be a sum of several transactions, so you'd then be trying to work out which transactions it was that, added together, came up with that value.  If you could easily locate those values and those transactions, you would then need to work out why that error had occurred, what had gone wrong to cause the error.
+
+**Mr Beer**: So just stopping there.  How would you do that first task, looking sequentially thorough all of the transactions over the relevant period?
+
+**Richard Roll**: You would download the data from the database, for that particular Post Office or counter, over the period of perhaps 24 hours.
+
+**Mr Beer**: How would you look through it?
+
+**Richard Roll**: Sorry, how would you look through it?
+
+**Mr Beer**: Yes.  Would you scroll or would you have something to help you?
+
+**Richard Roll**: It varied.  Sometimes you would scroll through the pages, other times you'd print it all off.  Using various text editors and computer languages, we could strip out all the irrelevant text so that would then just leave the actual products and the values.  So then you could see what it was that they were selling there, 17 stamps at 49p each, or whatever.
+
+**Mr Beer**: Sorry, Mr Roll, to interrupt you, just stopping you there, you've moved to the bit at the end of the sentence or the paragraph "Software programs were written by us to strip out irrelevant data."
+
+Who is the "us" in that sentence?  Was that the SSC?
+
+**Richard Roll**: Yes.  I wrote some myself.
+
+**Mr Beer**: So you wrote software that had the purpose of removing irrelevant data lines or data from the data that you were looking at, so that you could try and focus on the discrepancy in issue?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Could you give us an example of how such software might strip out irrelevant data?
+
+**Richard Roll**: That's very difficult to explain without demonstrating it or without showing you what the code looked like.  If you're familiar with what HTML code looks like, with the angle brackets and the different tags, you can imagine that there are lines and lines of code with that sort of data in it.  You may only have had four lines -- sometimes you might only have one line that actually had any data that was relevant that you could actually read.
+
+So we would write a program that would -- it would pass the text, source text, line by line, and if it found any of the relevant code -- relevant tags that we didn't need, it would then strip those and it would then write the -- anything that was relevant into a text file.  And then that text file would then be a clean text file which we could actually read physically, much more readable, in a list.  We could do the reverse as well.  We could correct data and then, using a program, put all the tags back in to then put it back into a database.  Does that explain suitably what I'm talking about?
+
+**Mr Beer**: Yes, it does.  Thank you.  You say in this paragraph that you would also work through thousands of lines of computer coding.  Why would you be looking at the computer coding?
+
+**Richard Roll**: At times we were asked to try to identify -- we could perhaps identify where an error had occurred in the data, which lines of work it was.  So then at times we were asked to look at the source code for Horizon and try and work out what exactly was going on in the source code that caused that problem.  We could then give it back to the developers and say, "Here's the problem, this is the source code, this is the source line, it's wrong.  It says here minus this value when it should say plus this value", or whatever.
+
+**Mr Beer**: Thank you, what would give you clue to thinking there was something wrong with the source code and therefore you would be examining the source code, the computer coding?
+
+**Richard Roll**: Well, if you were going through the figures and you could see quite plainly that they were maybe selling stock and but one of the stock items, rather than the money coming into the till, had actually been debited from the till, then you'd think "Well, why is it doing that?  Why is the software saying it's been taken out when, actually, it's come in?"  So you might have something like that and that's when you'd be able to go to the code and think "Well, okay, where is it?  What's going on here?"
+
+**Mr Beer**: So you would track the issue back into the code?
+
+**Richard Roll**: Sometimes, yes.
+
+**Mr Beer**: In the example you've given, would that be visible or apparent to the subpostmaster at all?
+
+**Richard Roll**: Not necessarily.  Sometimes the errors might only crop up when the data was actually being processed on the overnight batch processing, from what I remember.  I'm a bit hazy around this now.
+
+**Mr Beer**: If we carry on into paragraph 8 of this statement, you say:
+
+"If there was a single error then that would be easy to identify, however there were often multiple errors which would 'snowball'."
+
+**Richard Roll**: Yeah, that's what I was trying to explain a minute ago, where, if you've got that one value and that jumps out at you, then it's quite easy to spot.  But if you've got several items that are being added incorrectly or whatever, dealt with incorrectly, then it could be very difficult to work out exactly which items or which products were causing the problem.
+
+**Mr Beer**: In that sentence there, are you referring to errors of calculation or errors in the code or both?
+
+**Richard Roll**: It could be either.  Although, generally, the code caused the errors in the calculation at some point.
+
+**Mr Beer**: How obvious was a single error in Horizon coding?
+
+**Richard Roll**: Um, sometimes, from what I remember, quite easy to spot, and other times we couldn't find -- we couldn't work out what was going on.
+
+**Mr Beer**: You say there were often multiple errors and, as you've explained, that could mean multiple errors of coding which would snowball and that this would make matters more complicated.
+
+Where -- sorry, Mr Roll, do go on.
+
+**Richard Roll**: Multiple errors, it's difficult to say whether it was multiple errors in the coding or just one error that was having multiple effects on the accounts.
+
+**Mr Beer**: When you identified an error in the Horizon coding or some data corruption, could you tell how and when the error had been made?
+
+**Richard Roll**: Sometimes.
+
+**Mr Beer**: What would delineate when you sometimes could and sometimes couldn't?
+
+**Richard Roll**: There was -- if it was one of -- a particular transaction on the counter, so that counter software was at fault, then the -- there would be a time stamp in the database, which you could use to give you a time when things had gone wrong.  But that's about all I can remember from that.
+
+**Mr Beer**: Would you be able to tell whether it was an error in the original writing of the code or an error which had been introduced by some other coding within Horizon?
+
+**Richard Roll**: No, not necessarily.
+
+**Mr Beer**: Was a primary aim of you and your team not just to identify the error in coding or data corruption but also to ensure that they were fixed?
+
+**Richard Roll**: Our primary aim was to keep the system up and running so that it worked and so that Fujitsu didn't suffer any penalties, or the -- all the transactions had to go through within the three-day limit.  If we could identify problems in the coding as we went along, then that was a bonus.
+
+**Mr Beer**: So is that why you described it as "patching it" earlier on?
+
+**Richard Roll**: Sorry, as "patching it"?
+
+**Mr Beer**: Patching it up as you went along?
+
+**Richard Roll**: Yeah, we were, yeah.  We were patching the system as a whole, not necessarily the code.
+
+**Mr Beer**: You mention there that you understood that Fujitsu would suffer financial penalties, I think, in the event of delays in processing; is that right?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: What was your understanding of those?
+
+**Richard Roll**: It's a long time ago and I can't remember the figures exactly.  My understanding was that if, for instance, a bank transfer didn't go through within three days, I think it was, then there would be a financial penalty of -- I can't remember, I think it was -- I don't know whether it was 10 pence or £10.  It was a smallish financial penalty.
+
+The issue arose when you've got 20,000 counters or 20,000 post offices, maybe 40,000 counters, whatever, sending the data through overnight for processing, so then that small financial penalty is multiplied thousands and thousands of times by the number of transactions that are being held up.  So then, the SLAs that we were trying to meet could have had a substantial effect, maybe tens or hundreds of thousands of pounds in fines that Fujitsu may have had to pay.
+
+**Mr Beer**: Do I understand from what you said a couple of answers ago that you were saying that you understood your primary aim was to get the system up and running and working, back on the road, so that those financial penalties were either not suffered or were minimised --
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: -- rather than necessarily taking a fundamental look at what the underlying or root cause was?
+
+**Richard Roll**: It was widely accepted that the underlying or root cause was that the system was crap.  It needed rewriting.  But that that was never going to happen because the money was not available, the resources were not available to do that.  It was being looked at behind the scenes, and a web version was being considered, from what I remember.  One of the problems was that the suppliers of the Riposte system, from what I remember, they couldn't -- it would have been very bad if we -- if Fujitsu had told them that we were going to move away from their product because they were still supporting us and supporting it.  So if they'd known the rug was going to be pulled from under their feet, as it were, they may not have been as co-operative as they were.
+
+**Mr Beer**: Was it the case that sometimes, nonetheless, the errors in coding were passed on to the software developers within Fujitsu to fix?
+
+**Richard Roll**: Yes, if we found a definite bug then we would pass it on to them to fix.  We wouldn't fix the bugs ourselves.
+
+**Mr Beer**: How would the bug be passed on to the software developers to fix?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Can you remember, in terms of names, any of the software developers that would have these issues passed to them? I realise that we're two decades on now.
+
+**Richard Roll**: No, I have a very poor memory for names and I can't remember any.
+
+**Mr Beer**: You say in paragraph 9 here:
+
+"We regularly identified issues with the computer coding in the Horizon System.  We would then flag those issues to the Fujitsu IT software developers.  The developers would then work on a 'fix' while we monitored the whole estate in relation to that issue."
+
+Is that right?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Now, you were being asked to look at an issue on the back, essentially, of a subpostmaster complaint; is that right?
+
+**Richard Roll**: I was often asked to look at issues because of complaints from subpostmasters, yes.
+
+**Mr Beer**: But, presumably, if a coding error was discovered as a result of the investigation of that complaint or some data corruption, that could potentially have affected hundreds or even thousands of other transactions with other subpostmasters?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Was there any process to identify whether any other transactions were afflicted by the bug that was discovered?
+
+**Richard Roll**: I think so but I can't remember for definite.
+
+**Mr Beer**: Can you remember whether that was an SSC task or somebody else's task?
+
+**Richard Roll**: It would have been an SSC task.
+
+**Mr Beer**: So, trying to jog your memory, if I can, a little, would it be part of the SSC's task to put right the consequences of a bug that had been discovered, not just for the subpostmaster who had raised the issue but for a wider range of subpostmasters?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can you remember whether the other subpostmasters' data, that may have been afflicted by this bug, were notified of the cause of the discrepancy or error in their own data?
+
+**Richard Roll**: I can't say definitely but I'm fairly sure that they weren't.
+
+**Mr Beer**: So were they told "There's an error in your data, it's going to be corrected, here's the correction"?
+
+**Richard Roll**: That specifically: sometimes yes, sometimes no.
+
+**Mr Beer**: So sometimes they weren't even told that their data was being corrected; it was corrected without their knowledge?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Sometimes they were told that their data was being corrected?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: But your memory is that they weren't told the underlying reasons why it was flawed or affected in the first place, ie "This is a software bug within Horizon"?
+
+**Richard Roll**: That's what I remember, yes.
+
+**Mr Beer**: When you were dealing directly with a subpostmaster, say the person that had raised the issue, the complaint, did you explain to them that their problem had, on investigation, been found to have had, as its root cause, a coding error or bug within Horizon?
+
+**Richard Roll**: Quite often we'd identify the problem with the data on the counter, we'd know what was wrong with that so we'd be able to fix that, but we wouldn't know at that point what had caused it so if we were talking to the postmaster, we would have just say that we'd identified the problem "with your counter, there's been data corruption, or something, and we need to fix it, so we need to do this, whatever, to fix the problem, otherwise there will be a problem with your account".
+
+**Mr Beer**: So it wasn't habitually fed back to them that it was a coding error, or multiple coding errors, that had caused the underlying problem?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Was there an official line on this as to whether or not you should or shouldn't tell subpostmasters what the underlying causes of these data errors or corruption were?
+
+**Richard Roll**: I can't remember if there was an official line or not.
+
+**Mr Beer**: But the practice was to not tell them?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can we turn to paragraph 17 of your Inquiry witness statement, please, which is on page 7 at the foot.  You say:
+
+"In my opinion the coding and development of the system did not meet my expectations of quality for a major software project; I considered it to be a very poor system that should never have been deployed but I cannot be more specific than this."
+
+Does that reflect the epithet that you applied more pithily earlier as to your overall view of the system?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can we turn back, please, to paragraph 11, which is on the previous page.  You say:
+
+"Sometimes we were instructed not to let the [subpostmaster] know we had altered his system whilst he was logged on -- to my recollection, sometimes POL requested this, sometimes Fujitsu, and sometimes only our department knew of it."
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: Where did the instruction come from, from within Fujitsu?
+
+**Richard Roll**: I have no idea.
+
+**Mr Beer**: Who was communicating that instruction to you?
+
+**Richard Roll**: It would have come from the manager, Mik Peach.
+
+**Mr Beer**: If the instruction came from POL, did it come directly from POL to you, the Post Office to you, or did it go via Mik Peach?
+
+**Richard Roll**: It went via Mik Peach.
+
+**Mr Beer**: So one way or another, instructions not to let the subpostmaster know you had altered system whilst they were logged on came through Mr Peach?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can you remember whether there was any discussion in the office at the time about whether it was important to notify the subpostmaster community more broadly of the finding of a Horizon System error and that this was causing or could cause discrepancies of data?
+
+**Richard Roll**: I can't remember there being any discussion about that. It was, as far as we knew, it was notified through Mik Peach, through the development teams and through to POL. If the chain of management was working correctly, then POL would have been informed and then it was down to POL to inform their managers that there was a problem.
+
+**Mr Beer**: When you were speaking to subpostmasters and you said sometimes you would tell them that "We've investigated and we found that this is the problem".  Would you ever say, "Look this is an issue we've come across before. Don't worry, it's not you, it's the system.  We've had a number of reports like this"?
+
+**Richard Roll**: We would have -- I'm sure that on occasion we said "We've seen this before, it'll only take a few minutes to fix", or something along those lines, yes.
+
+**Mr Beer**: You mentioned earlier your view of the Horizon System. Could we look, please, at POL00029991, and look at page 2, please, and look at paragraph 10.  This is your first witness statement in the High Court proceedings, Mr Roll.  In paragraph 10 you say:
+
+"My recollection is that the software issues we were routinely encountering could, and did, cause financial discrepancies at branch level, including 'shortfalls' being incorrectly shown on the Horizon System."
+
+Just stopping there, you say "software issues [you] were routinely encountering could, and did, cause financial discrepancies".  Can you expand at all or explain what you mean by "routinely encountered"?  Was it a daily occurrence or a weekly occurrence?
+
+**Richard Roll**: Um ... I would say that my recollection would have been a weekly occurrence within the team.
+
+**Mr Beer**: Was that consistently so over the three and a half years that you were in the SSC?
+
+**Richard Roll**: There were times when maybe some new software had been released and that would be a bit buggy, so there would be times when we were having multiple issues and it was very, very busy.  At other times, we were able to work on some -- we would have been a bit quieter so then we would try to work on other things that had been maybe put on the back burner but I couldn't really go into any more depth than that.  I can't really remember any of the details.
+
+**Mr Beer**: Thank you.  Can I just explore, so that I -- my understanding of what you are saying is completely accurate.  You said that after a new release, the system might become a bit buggy.  Do you mean there would be a spike in reports of discrepancies following the release of some new software?
+
+**Richard Roll**: Yes.  There might be more reports from the postmasters or we might find more problems with our monitoring systems that we'd set up to monitor the system to make sure everything was running smoothly.  Sometimes the postmasters would not have been aware of the problem. They wouldn't have seen it, but we'd have picked it up so we'd then fix it, and not necessarily by going into the counters or anything, but just by manipulating the data further along the line.
+
+**Mr Beer**: Looking at the three and a half year period as a whole, and putting aside the peaks and troughs that you've just described, over the course of that three and a half year period, did the position get any better or worse or did it just stay the same?
+
+**Richard Roll**: I think it improved.  As time went on, standards of coding improved and of the documentation, but that's a distant memory now and I can't really remember definitely.
+
+**Mr Beer**: What was the cause of the improvement in standards of coding?
+
+**Richard Roll**: I just think people were being more professional about it.
+
+**Mr Beer**: Why were they being more professional about it?
+
+**Richard Roll**: I don't know.  Maybe -- I don't know.
+
+**Mr Beer**: Which people are you talking about?  Are you talking about the people in the software development arm?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: When you joined in early 2001 and over the course of the first year, did you form a view of how reliable the Horizon cash accounts were?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: What was your view?
+
+**Richard Roll**: It was pretty ropey.  I said to Mik, the manager, at one point that "Surely, this should be rewritten".  His reply was "Yes, but it's never going to happen", or something like that.  I think I mentioned that before.
+
+**Mr Beer**: The "it's that never going to happen", was that for the reasons that you gave earlier: money and the damage of a relationship between Fujitsu and Riposte?
+
+**Richard Roll**: Money, relationship damage, also we just didn't have the staff, which comes down to money, again, yes.
+
+**Mr Beer**: You tell us at the end of paragraph 10:
+
+"If we were unable to find the cause of the credible then this was reported up the chain and it was assumed that the postmaster was to blame."
+
+**Richard Roll**: That's my belief, yeah.
+
+**Mr Beer**: Who was it assumed by?
+
+**Richard Roll**: Post Office, I believe, and the management of, probably, Fujitsu.
+
+**Mr Beer**: Do you know how such a decision or how such an assumption was made by them?  How they came to assume it?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Do you know who was involved in reaching that view?
+
+**Richard Roll**: No.
+
+**Mr Beer**: But the way you expressed it, makes it sounds as if it was by -- a view was reached by default?
+
+**Richard Roll**: That was my feeling.  If we couldn't find a problem with the system, if we couldn't work out why there was an error or why there was a problem, then the position, from what we -- from what I understood, was that if we can't find the problem in the code or in the data, there is no problem.  So, therefore, if there's no problem with the system, it must be the postmaster.
+
+**Mr Beer**: Did you understand that action was therefore taken against subpostmasters?
+
+**Richard Roll**: No.  At the time we would be looking at this, it could be years later before any action was taken.  That's my understanding.
+
+**Mr Beer**: An assumption that it must be action by or wrongdoing by a subpostmaster doesn't sound like a very strong foundation to take action against them, as opposed to proof positive that they had done something wrong.  How comfortable with what was happening did you feel at the time?
+
+**Richard Roll**: At the time, we didn't know any action was going to be taken.
+
+**Mr Beer**: Were you aware that people were being prosecuted?
+
+**Richard Roll**: Not at that time.
+
+**Mr Beer**: In the first year of working, so early 2001 onwards, did you hear that anyone in third line support or indeed fourth line support was asked to be an expert witness in a Horizon prosecution at Kingston Crown Court?  I'm referring to the case of Tracy Felstead?
+
+**Richard Roll**: I can't remember.  I don't think so.
+
+**Mr Beer**: If we scroll down, please.  In paragraph 11, in the first sentence, you tell us that there were over 30 individuals working on the same floor -- I've asked you about that already -- and that your recollection was that many of those individuals were involved in similar work or other Horizon related IT work.  Then in the last sentence, you say this:
+
+"I would describe much of the work being carried out as 'firefighting' coding problems in the Horizon System."
+
+I just want to understand what you mean by that. I understand "firefighting" to mean spending time on problems that need to be dealt with quickly instead of working in a calm, ordered and planned way.  Is that the sense in which you meant it?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: What was it like working in such an environment?
+
+**Richard Roll**: It was quite hectic at times.  Sometimes there'd be a bit of a panic on and it would be all hands on deck to get a -- fix a system as quickly as possible.  That's all I can say, really.
+
+**Mr Beer**: Thank you.  Can we look, please, at the second witness statement you provided in the High Court proceedings, and that's POL00042225.  Can you see this is your second witness statement, dated 16 January 2019.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can we go to the fourth page, please, and look at paragraph 12.  Here I think you've been asked to reply to or comment on certain paragraphs in a report produced by the defendant, Post Office, Dr Robert Worden, and you say in paragraph 12:
+
+"At paragraph 167 Dr Worden describes software errors being corrected by Transaction Corrections, and [he] states 'If there were any such software error, it would probably occur with such high frequency, and occur uniformly across all branches, giving rise to so many [Transaction Corrections], that Post Office would soon suspect a software error (for instance, seeing the effect repeatedly in some MIS report) and require Fujitsu to correct it'."
+
+You say:
+
+"I do not recall Fujitsu carrying out any analysis of Transaction Corrections to try to identify if there may be an underlying software error.  I also think it is wrong to say that software errors would occur uniformly across branches as [you] explained ... above.  My experience was that software errors occurred in very specific factual circumstances, which is why they were challenging to identify and correct."
+
+Is what you say there accurate?
+
+**Richard Roll**: Yes, I believe so.
+
+**Mr Beer**: This tends to suggest that, in your team, there wasn't any underlying analysis -- or, sorry, any analysis of underlying root causes; would that be fair?
+
+**Richard Roll**: I'm not sure I can really remember now.  If we were getting lots of calls in, then -- for a specific or very similar problem, you know, within a period of a couple of days, then, you know, you'd be very aware of that and, if that was the case, then sometimes we would have been probably aware of that and worked on a fix before POL were even aware of it.
+
+**Mr Beer**: I'm more getting to the issue of whether the Post Office came to you and said "We suspect a software error.  Can you conduct", I don't know "some meta analysis of the system to see whether our suspicion is correct"?
+
+**Richard Roll**: I don't think the Post Office ever came to us to say that.  I can't remember for sure but I'm pretty certain they didn't.
+
+**Mr Beer**: Thank you.  That can come down now.
+
+Were you aware of a team called the Customer Service Security Team?
+
+**Richard Roll**: I don't remember that phraseology, no.
+
+**Mr Beer**: Can you recall or remember somebody called Andrew or Andy Dunks?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Can you recall a job title or role being undertaken of the cryptographic key manager?
+
+**Richard Roll**: There was a key, which was a crypto key, if you like, which was generated by a secure PC in a locked room within the SSC, bearing in mind that the SSC itself was on the sixth floor of a very secure building behind double doors that were extremely secure.  It was a very, very secure area.  But that's about all I can remember.
+
+**Mr Beer**: Mr Dunks was the manager of the cryptographic key. We've heard from him recently.  I think it follows from what you've said that you didn't have any or you don't recall any liaison with him or the security team?
+
+**Richard Roll**: No.
+
+**Mr Beer**: We know that he, the cryptographic key manager, was selected to give evidence by provision of witness statements and giving oral evidence in court, about what you and your team in the SSC had done in response to calls to the SSC and the work that your team had undertaken as recorded on call logs.  Do you understand?
+
+**Richard Roll**: Right.
+
+**Mr Beer**: Do you know why one of that team, the customer service team, and, in particular, the person that managed the cryptographic key, was selected to give evidence about what you and your team were doing in the SSC?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Were you ever party to a discussion or did you ever hear about why somebody who managed the cryptographic key would give evidence about what some other people were doing, rather than you or somebody in your team giving evidence?
+
+**Richard Roll**: Sorry, can you repeat the question?
+
+**Mr Beer**: Yes.  Did you ever hear any discussion or were you ever party to any discussion about why Mr Dunks, the crypto key manager, was giving evidence about what was or wasn't shown on helpdesk call logs that were completed by you and members of your team, rather than a member of you and your team giving evidence?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Did anyone ever ask you to give evidence about what you did in response to any calls or raising of concern about data errors or discrepancies?
+
+**Richard Roll**: I don't think so.
+
+**Mr Beer**: If they had have done so, would you have described all of the issues and the problems that we are discussing here today?
+
+**Richard Roll**: Probably, yes.
+
+**Mr Beer**: Did you ever hear any discussion about who from Fujitsu should attend court to give evidence about the operation of the Horizon System?
+
+**Richard Roll**: I don't recall ever hearing anything about that, no.
+
+**Mr Beer**: In your time, did you know whether anyone from Fujitsu was to attend or had attended court giving evidence about the operation of the Horizon System?
+
+**Richard Roll**: I can't remember that happening.
+
+**Mr Beer**: Thank you.  Can I turn to some hardware issues, please. Can we have up, please, POL00029991.  This is your first witness statement, in the High Court proceedings again, and if we turn to the third page, please, and look at paragraph 14 at the top, you say:
+
+"As well as software issues, I can also recall that there were regular IT hardware issues at branch level. However, I would reiterate that the main recurring issues were software issues."
+
+Could hardware issues affect the integrity of the data recorded or produced by Horizon?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: What hardware issues would typically affect the integrity of the data recorded or produced by Horizon?
+
+**Richard Roll**: If the database on one of the counters became corrupted then it could stop that counter communicating with the rest of the system, which would lead then to transactions being marooned on that counter.  Depending on what the problem on the counter was, it may have been a fairly quick fix, maybe we could just fix it on the counter itself, or it may have been that we had to get the counter back into Bracknell where one of the guys would hack into it and retrieve the data.
+
+Sometimes, if the counter was beyond recovery, then transactions could be lost, so bills that had been paid may not have gone through or whatever money that had been paid to the counters -- to the post office, might not have been recorded properly.
+
+**Mr Beer**: Thank you.  That can come down.  Can we look, please, at POL00042225.  This is your second witness statement. Can we go to page 2, please, and look at paragraph 5 under the heading "Hardware Failures".  You say, "Dr Wardon refers", and you remember what you were doing in this statement:
+
+"Dr Worden refers at paragraph 151 of his report to hardware failures.  He says 'Although the hardware in the branches was not always reliable and communications infrastructure at that time were not highly liability, there were strong measures built into Old Horizon to ensure that hardware failures and communication failures could not adversely affect the branch accounts'."
+
+You say:
+
+"During my time at Fujitsu we frequently encountered hardware failures which had occurred in branches and required our intervention to attempt to remedy the problem.  I would estimate that I was involved with a hardware failure on average at least once a month. These problems could and did affect branch accounts."
+
+Is that correct?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: At paragraph 6, you say:
+
+"The most extreme case that I can recall was a complete failure of a counter to communicate with the server, which required the counter to be removed to the SSC so that the data could be recovered, and a replacement counter installed in the sub post office. Prior to the problem being identified, data could be backing up on the counter without it being replicated to the other counters or to the correspondence server."
+
+Is that correct?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Is that what you were alluding to a moment ago?
+
+**Richard Roll**: Yes, I can definitely remember one where we had it -- more than one where they were brought back for the data to be recovered and then put back into the system later. I can't for 100 per cent recall whether we had one where we couldn't recover all the transactions but I'm fairly sure we did have one where we didn't --
+
+**Mr Beer**: I'm sorry, I missed what you said at the end there?
+
+**Richard Roll**: I'm fairly sure there was one or more occasions where we couldn't recover all the data but I can't say that for certain.
+
+**Mr Beer**: Can we skip to paragraph 8, please.  You say:
+
+"I recall one particular case where branch data was not being replicated from a mobile post office correctly and it appeared that the subpostmistress was turning off the power mid transaction.  As we could not fix this problem over the phone with the subpostmistress, she sent the laptop to Fujitsu for examination.  Using the Post Office test rigs on the sixth floor, and comparing the results with the laptop that had been returned to Fujitsu, I discovered that the button which should have put the laptop into standby mode was actually switching off the power, resulting in the disk crashing. I disassembled the laptops to confirm this.  Thus, when the postmistress thought she was switching her counter to standby mode, which would have initiated a controlled shutdown and allowed the datastore to replicate the servers, she was actually switching the power off, which is what we were seeing in the SSC.  When I raised this with my manager, Mik Peach, who subsequently talked to the hardware team, I found out that this was a known problem: one of the engineers had made a mistake with a batch of laptops which had been sent out to branches before the error was detected.  No one outside the team responsible for building the laptops had been informed of this meant that I had spent several days investigating the problem.  Whereas the subpostmistress in this case was provided with a replacement laptop, knowledge of this problem was kept within the departments concerned and the batch of faulty laptops was not recalled.  It is my belief that Fujitsu senior management and Post Office were not informed."
+
+Is that all correct?
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: When you're referring to Fujitsu senior management not being informed, who were you referring to, what level?
+
+**Richard Roll**: Well, my manager knew, Mik Peach, his friend who ran the build team knew.  Whether Mik ever told his manager, I don't know.  As far as I'm aware, it never got up the chain beyond that.  I was told to basically hush it up.
+
+**Mr Beer**: Why were you -- what words were used to tell you basically to hush it up?
+
+**Richard Roll**: I can't remember exactly but it was -- it had been dealt with.
+
+**Mr Beer**: Who told you basically to hush it up?
+
+**Richard Roll**: Mik.
+
+**Mr Beer**: In an answer a couple of answers ago, you say you don't know whether it went any further.  Here, you say it's your belief that it didn't go any further, that Fujitsu senior management were not informed.  What was that belief based on?
+
+**Richard Roll**: The way I was asked to close the call and the fact that -- I can't remember exactly it's just that -- the way I was told to deal with the caller and to get rid of it.
+
+**Mr Beer**: Was that the only time that that kind of thing was said to you?  Was this an isolated example, so "Keep it within the team", or did that happen on more than one occasion?
+
+**Richard Roll**: That is the only one that really sticks in my memory. I can't remember if it happened on more than one occasion.
+
+**Mr Beer**: Thank you.
+
+Sir, it's quarter past now.  I wonder whether that might be an appropriate time for the morning break.
+
+**Sir Wyn Williams**: Yes, certainly.  11.30 all right, Mr Beer?
+
+**Mr Beer**: Yes, thank you very much.
+
+**Sir Wyn Williams**: All right, see you again at 11.30, Mr Roll.
+
+**The Witness**: Thank you.
+
+*(11.13 am)*
+
+*(A short break)*
+
+*(11.30 am)*
+
+**Mr Beer**: Sir, good morning, can you see and hear me?
+
+**Sir Wyn Williams**: Yes, I can.  Thank you.
+
+**Mr Beer**: Can you, Mr Roll?
+
+**Richard Roll**: Yes, thank you.
+
+**Mr Beer**: Thank you very much.  Can we turn up a document, please, with the URN FUJ00086267.  You'll see, from the bottom right of the document, that this is dated 2011, so post-dated by many years at the time of your leaving Fujitsu.  If you scroll to the top, please, you will see under the abstract that it concerns HNG-X, Horizon Online, of which you were not a part, correct?
+
+**Richard Roll**: Correct.
+
+**Mr Beer**: But I want to ask you about whether something within the document replicates the position when you were working for that three and a half year period for Fujitsu.  Can we turn, please, to page 15 and look down to paragraph 2.7, "Removal of duplication".  If we just read it together:
+
+"All support groups should ensure that they do not pass to the right duplicate incidents, ie incidents which are repetitions of an incident which has already been passed to the next line of support.  They should either retain the duplicate incidents within their own call logging system or close them as duplicates:
+
+"1st line units retain duplicates under a 'master call' and to ensure that when the resolved incident is received from 2nd line, the end user is contacted and duplicated call incidents closed within TfS.
+
+"2nd-4th line support units normally immediately close the incidents as duplicates because they add no value to the support process at these levels.  This results in the incidents being returned to 1st line ...
+
+"Duplicate incidents are only acceptable where the symptoms reported by the customer did not match the symptoms recorded in the original incident, and which therefore could not reasonably have been identified as a duplicate.
+
+"Failures will be reflected in filtration figures where the incidents are closed in the 'duplicate incident' category in PEAK by subsequent support units."
+
+Does that reflect the working practice of the SSC at the time you were in post?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Can you remember any instructions on the treatment of duplicate incidents?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Can you remember any instruction, custom or practice, the effect of which was to minimise or seek to minimise the reporting of duplicate incidents, and that they would be regarded as a black mark against the support team concerned?
+
+**Richard Roll**: Not sure.  I think I -- they may have been returned to first line support because we were already looking at it but I can't remember for sure.
+
+**Mr Beer**: Okay, I understand.  Do you remember Anne Chambers?
+
+**Richard Roll**: I remember the name but I wouldn't recognise her. I couldn't -- I don't know her.  I only remember the name because the name has come up recently.
+
+**Mr Beer**: Do you remember that person, even though you wouldn't recognise her, as a person who worked, in your time, at the SSC?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Can you recall whether she had any particular expertise?
+
+**Richard Roll**: I think she was very good on the accounting side, as she was, I think, very experienced in going through the databases but I can't remember, really.
+
+**Mr Beer**: Did she, to your knowledge, have any expertise in the integrity of the software on Horizon --
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: -- or on the integrity of Horizon data?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: In your time, noting the time at which you left, did you have any conversations with her about a requirement for her to give evidence in any court proceedings?
+
+**Richard Roll**: No, not that I remember.
+
+**Mr Beer**: In your time, can you recall whether she was selected to give evidence in any court proceedings?
+
+**Richard Roll**: No, I don't remember.  I don't recall anybody being selected but, from what you've said, they were, but I have no recollection of it.
+
+**Mr Beer**: Can we look, please, at `POL00073280 <https://www.postofficehorizoninquiry.org.uk/evidence/richard-roll-9-march-2023>`_.  This is an exhibit sheet, so it's like the front sheet of an exhibit produced by Mr Dunks, Andrew Dunks, who I mentioned earlier, and in it is a selection of call logs produced by Mr Dunks for the purposes of some civil proceedings that the Post Office took against a man called Lee Castleton.
+
+Can we turn to one of those call logs, please.  It starts on page 20.  Just if we can expand it out so you can look at the whole of the first page of it.  Do you recognise the format of this call log?
+
+**Richard Roll**: No.
+
+**Mr Beer**: At the time, did you ever look at call logs in printed format or would they appear on the screen to you?
+
+**Richard Roll**: I think they were always on the screen.
+
+**Mr Beer**: You'll see, and bearing in mind that you wouldn't have seen it in this format, if we look at the top we can see that the call was opened on 25 February 2004.  Can you see that --
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: -- in the middle at the top?  So that's within your time working on the SSC.
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: Can you see in about ten boxes below under "Problem Text" it says "pm", which I think is postmaster:
+
+"[Postmaster] reporting that they are getting large discrepancies for the last few weeks."
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Yes?  Just so you know, this call relates to difficulties that Lee Castleton was having at his branch.  I just want to run through this call log, please, to see whether you can help us with what some of the text means and what was done in relation to it.
+
+If we scroll down, please, to "Call Activity Log", which is right at the foot of the page at the moment. Again, you wouldn't have seen these entries in this way; they would be on a screen, is that right, for you, and not set out in this format?
+
+**Richard Roll**: I can't remember.  I don't know if we'd have seen any -- much of -- all of this data or not.  I can't remember.
+
+**Mr Beer**: Let's just go through it and see whether looking at it in a bit more detail and slowly helps you.  Do you see the first entry "OPEN":
+
+"New call taken by Kuljinder Bhachu ..."
+
+This is on 25 February 2004:
+
+"... [postmaster] reporting that they are getting large discrepancies for the last few weeks."
+
+That's what we read above.
+
+Is that the way the SSC would operate, by putting a pithy summary of the text within an entry like that?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Okay, moving to the next line, also on 25 February:
+
+"Looking at closed calls for this site, there have been a number of calls logged regarding discrepancies. NBSC have been in contact with the [postmaster] and cannot find any user error."
+
+Can you now remember what NBSC was?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Okay.  The next line, also later that day:
+
+"Spoke to Sandra [and] NBSC ... regarding this issue.  Checked Tivoli events and health checked.  Site is health checking ok."
+
+Can you now remember what Tivoli was?
+
+**Richard Roll**: I think that was a software program that ran in the background and monitored events and set alerts if it detected anything, any errors.
+
+**Mr Beer**: Next entry:
+
+"Critical event scene @ [and a time is given on 18 February] stating 'Error message.  An error has occurred = see the audit log'."
+
+The next entry later still that day, "KEL Reference".
+
+Can you remember now what KELs were?
+
+**Richard Roll**: Yeah, that was the Known Error Log.  That's about all I remember of it.
+
+**Mr Beer**: Can you remember what the Known Error Log was?
+
+**Richard Roll**: A log of known errors.
+
+**Mr Beer**: Who was it maintained by?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Was it maintained by the SSC?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Next entry, later still:
+
+"Downloading event logs for progression [and some numbers] application ... system & ... security."
+
+Next entry, a little later still:
+
+"Previous history in calls ..."
+
+Then some references are given.
+
+Next entry:
+
+"Spoke to [postmaster], who advises that the problem with the CA ..."
+
+Do you remember what "CA" was?
+
+**Richard Roll**: I think it's cash account.
+
+**Mr Beer**: "... started ever since the BT engineer came to move the BT box for the preparation for the installation of ADSL."
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: Next entry, later still:
+
+"[Usernames are given] Other BAL users ... stock unit aa balance on Wednesday after 17.30."
+
+Does this mean anything to you so far?
+
+**Richard Roll**: Not really.  You've got two -- CTR001 is just a username.  So that's all I can say from that.
+
+**Mr Beer**: Then this:
+
+"Could SSC please investigate why this [post office] is experiencing large discrepancies ever since BT engineer has moved BT box in preparation for ADSL [installation].  KEL [reference] given as possible problem.  NBSC have said there is no user error."
+
+Would you understand that last entry to mean that "It's not the subpostmaster that's doing anything wrong", say NBSC?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Then skipping to the foot of the page, bar one entry, an entry by Barbara Longley:
+
+"Incident Under Investigation Prescan: Assigning call to Anne Chambers in EDSC."
+
+Can you recall what EDSC was?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Can we go over the page, please.  An entry by Anne Chambers on the 26th:
+
+"Incident Under Investigation.  KEL quoted is relevant -- if the audit log had been checked, it would have shown a different error message.  The event was part of a storm which occurred over the estate that night as a result of a faulty software fix, and has nothing to do with the discrepancies."
+
+Can you help us with what "a storm occurring over the estate" might refer to?
+
+**Richard Roll**: I think it refers to a whole load of errors that were generated but, I must admit, I'm guessing there. I can't remember.
+
+**Mr Beer**: Okay.  The next entry:
+
+"No transaction date and time was provided for this transaction using current date and time."
+
+Then an entry by Anne Chambers:
+
+"Advice and guidance given.  I have checked various things on the system.  All the internal reconciliation checks are okay.  Cheques are being handled correctly (except for 10th Feb when the clerk forgot to cut off the report -- but this didn't cause a discrepancy). Cash declarations look okay, they usually use drawer ID11.  Occasionally they have used a different drawer ID, this can lead to amounts apparently doubling on the cash flow report, and should be avoided.  But again it will not cause a discrepancy.  Checking the cash transactions on the system against the declarations shows that they're not working particularly accurately, (ie at the end of the day the cash they declare in the drawer is tens, hundreds or thousands of pounds astray from what has been recorded on the system).  It is possible that they are not accurately recording all transactions on the system.  There is no evidence whatsoever of any system problem.  I've mentioned this outlet to Julie Welsh (Customer Services) who will try to get POL to follow it up, but in the meantime please tell the [postmaster] we have investigated and the discrepancies are caused by the difference between the transactions they have recorded on the system and the cash they have declared, and are not being caused by the software or hardware."
+
+Then there's some entries that don't concern us.
+
+Can you tell what Anne Chambers has done, from these records, in order to reach these conclusions?
+
+**Richard Roll**: No.
+
+**Mr Beer**: What would, typically, you do when presented with the problem that Anne Chambers was presented with?  What investigative steps would you undertake?
+
+**Richard Roll**: There's not a lot of information in the call log for me to give you much of an answer to that.  I don't think there was any specific figures given.  I can't remember what I'd have done in this situation.
+
+**Mr Beer**: Can you remember a species of data called ARQ data?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Can you help us, and given the answers to the questions I've asked so far, I think it might be limited, the help, you can give us, how a KEL would be used to investigate a call like this?
+
+**Richard Roll**: I'm trying to remember.  The KEL would have information about what the symptoms of the problem were.  It gives you pointers as to what was causing the problem, so that then you could go into the system and look for those particular traits, if you like, to confirm that that was the problem, and it would then give you the details of the fix, which you could then apply to rectify the problem.
+
+So if they provided a KEL there but then, when you looked at it, all the audit log data or whatever, event logs, et cetera, didn't have the relevant information in or different information in them, then that KEL wouldn't apply.  So that would then not be the KEL that was relevant.  In that case, you're then sort of working blind and you've got to try to work out from what the postmaster is saying where there is a problem.
+
+So you'd be working on that, going through the systems, the accounts, et cetera, and trying to find out, if there was a problem with the counters or with the software, where it was.  Working blind, largely, and then -- that's all I can really say.  You'd have three days to find the fault and then you'd have to hand it back.
+
+**Mr Beer**: We can see that, here, the helpdesk put up a KEL number, and Anne Chambers looked at that KEL and found that it wasn't relevant.  Was there a way of searching the KELs to look for a fault or problem that was similar to the one that you were being asked to investigate?  Because, in this case, she's ruled out that KEL as being applicable.  Was there a way of, I'm imagining a keyword search, or free text search, or way into the KELs, to look at whether the problem that you were being asked to look at was indeed a known error?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Okay, thank you.  Can that come down now, please.  Can we look at an Excel spreadsheet document.  It's POL00028922.  Thank you.  We're looking at tab 5, and it's called "Finals Count".  The heading of this is "Total PEAKs resolved" by you, between 21 March 2011 and 17 September 2004.  That roughly accords with the period of time that you spent in the SSC, doesn't it?
+
+**Richard Roll**: Approximately, yes.
+
+**Mr Beer**: Do you know the provenance of a document like this?
+
+**Richard Roll**: No, no.  I imagine that Fujitsu have provided it and it will show some of the work that I did while I was there.
+
+**Mr Beer**: It appears to be a record of result codes and a total of them, on the right-hand side, attributed to you.  I just want to ask for your help, please, in whether you can remember what any of the result codes are or, more particularly, the kind of problems and the resolutions of them that might occur.  Do you see the first one is "Ref Data Fix Released to Call Logger"?
+
+**Richard Roll**: That's a reference data fix.  Sometimes the reference data was corrupt or incorrect and so we'd have to send out a fix.  The reference data, that's the reference data being all the information regarding, for instance, stamps, or fishing licences, or gas companies, utility companies, that sort of thing.
+
+**Mr Beer**: So the cost of items supplied by third-party suppliers that the Post Office administered, essentially?
+
+**Richard Roll**: Costs, yeah, or maybe bank account -- no, that's probably a bad one.  But address details or -- yeah, just -- not just costs but product details fully, you know, everything to do with the product.
+
+**Mr Beer**: Thank you.  A reference data fix, what would that involve?
+
+**Richard Roll**: I can't remember.  I made some -- one of the teams would have to rewrite the database that held all the data and then redistribute it to the estate or to the relevant post offices.
+
+**Mr Beer**: Why might the reference data be wrong or require fixing?
+
+**Richard Roll**: Somebody had keyed it in wrong.
+
+**Mr Beer**: The next one, underneath, "S/W Fix Released to Call Logger".
+
+**Richard Roll**: That's software fix.
+
+**Mr Beer**: What would that refer to, which software and where?
+
+**Richard Roll**: I'm not sure.  I mean, there were so many areas of software, not just the Riposte system that the counters were running in there.  I can't remember the full details.
+
+**Mr Beer**: But software within the Horizon System?
+
+**Richard Roll**: Somewhere within the system, yes.
+
+**Mr Beer**: The third of them "Build Fix Released to Call Logger"; what would a build fix release be?
+
+**Richard Roll**: I think that relates to the NT software that was running on the counters.  So you had the basic counter, which was -- it had NT installed on it but it was very -- that's Windows NT.  It was a very doctored system, so that then the Riposte system sat on top of the NT system and on top of Riposte, from what I remember, there was the Horizon System.  So the build fix, I think, referred to the NT, which was the basic box.  If there'd been a software upgrade to the Windows software that maybe hadn't got through to that particular counter, that could then cause a problem later when newer software, newer Horizon software was downloaded.  If that relied upon Windows being up to date but Windows wasn't up to date in that counter, that could have caused a problem.
+
+**Mr Beer**: Thank you.  "No fault in product".  That may appear self-explanatory and at the risk of getting that kind of response from you again, can I just check what that does, in fact, refer to?
+
+**Richard Roll**: It means basically that, in the time we were allowed, we couldn't find a problem.
+
+**Mr Beer**: A "product" is what, in that sentence?
+
+**Richard Roll**: Anything within the Horizon System.  So it could be at the backend, where it's processing overnight; it could be on the counters.  As I say, it doesn't mean there wasn't a fault; it just meant that we couldn't find it.
+
+**Mr Beer**: You said "in the time that we were allowed".  Was there a hard deadline on the amount of time that you were permitted to devote to investigation?
+
+**Richard Roll**: From my recollection, we were allowed three days.
+
+**Mr Beer**: The next one "Published Known Error".  Can I ask, who would the "Published" refer to: "published" to whom?
+
+**Richard Roll**: That was -- from what I remember, it was an error that had been confirmed and it had been -- the details had been promulgated to the first and second line with a fix or within an explanation or whatever, so that it should never have been sent to third line investigation because it had already been investigated and the problem was found.  So it should have been dealt with at first or second line.
+
+**Mr Beer**: Then an "Unpublished Known Error".  Why might some known errors be unpublished?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: Can you try and think back?
+
+**Richard Roll**: I can't remember.
+
+**Mr Beer**: "Solicited Known Error"; to what did that refer?
+
+**Richard Roll**: I can't remember what that was.
+
+**Mr Beer**: "Administrative Response", which seems to be one of the higher numbers.  What was an "administrative response"?
+
+**Richard Roll**: That was a general catch-all.  If you couldn't work out which one it should go in, then sometimes you just chuck it down as an administrative response.  That's what I think it was.
+
+**Mr Beer**: When you say "chuck it down", you would apply a result code --
+
+**Richard Roll**: Yeah, you had --
+
+**Mr Beer**: -- of, in this case, 70, I think it is, to that?
+
+**Richard Roll**: Yeah, I think that's what it was.  There were certain areas where it was -- it wasn't clear which one you should put it in.  So that was, yeah, just -- I think that was the sort of catch-all.
+
+**Mr Beer**: "Avoidance Action Supplied".  Arising from that -- and it's a two-parter -- firstly, what is avoidance action and, secondly, to whom would it be supplied?
+
+**Richard Roll**: It would be applied to the estate so that could be to the servers, but this is -- I'm not 100 per cent certain about these, any of these, so this is what I seem to remember.  So from what I recall, this could be applied to the servers overnight, so if the servers fell over in the processing.
+
+The way, when I was there, this worked, was that at about 6.00 every evening, all the counters would start uploading their data to the main servers, wherever they were.  They would be given a few hours to transfer all the data and then it would all be batch processed.  So there were Unix programs and batches, batch files that were run so they would sort the data into, you know, American Express transactions and Barclays Bank transactions, and all this sort of thing.
+
+Then 20 minutes -- that would be given 20 minutes to run, then there would be maybe another half an hour or an hour, where it would add up all the figures for American Express, and it would do the same for Barclays, et cetera, and then another process would then run and it would farm or send all the data out to another database, but the next night -- because this would take a long time -- processes would run to further refine this data, before it was transmitted out actually to the banks and to the American Express systems, et cetera.
+
+So on the servers, if one of those processes fell over, if you could get in quickly enough and restart it then it would carry on running that night.  Otherwise, if you missed the window, you had to rerun it the next night, which would then cause a bit of a backlog.  But if you were able to do that, that would then be avoidance action because you'd got it started again and avoided any sort of action.
+
+If it was on the counter, it could be that there had been a database corruption and you had to go in, extract the data, fix the corruption, put the data back onto the platform so that then the system could carry on running correctly.  Again, that would be avoidance action.
+
+**Mr Beer**: Thank you.  "Duplicate Call"; is that self-explanatory?
+
+**Richard Roll**: Yes.  Yeah.
+
+**Mr Beer**: That means what, a call from two different subpostmasters or the same call twice -- from the same subpostmaster twice?
+
+**Richard Roll**: I think it could be either.  I'm not 100 per cent certain now.
+
+**Mr Beer**: "Fixed at Future release": to what does that refer?
+
+**Richard Roll**: I think that was when there'd been a problem on the counter, the postmaster had phoned it in, we'd investigated, found it was a known problem and that there was a fix that had been written but, because of the amount of data traffic on the lines, we didn't have time to actually -- there hadn't been time yet to put that fix onto the counters.  So it was all ready to go but it just hadn't been released yet.
+
+**Mr Beer**: "Reconciliation -- resolved": to what does that refer?
+
+**Richard Roll**: I can't remember.  Something to do with the accounting but I can't remember exactly.
+
+**Mr Beer**: "Suspected hardware fault"; that is self-explanatory.
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: "Advice and guidance given": what kind of advice and guidance might be given so as to result in this result code?
+
+**Richard Roll**: Maybe it was a training issue or the postmaster was doing something in the wrong order so that the figures weren't adding up properly.  In the previous examples with that KEL, you mentioned that there was a stock code -- sometimes the postmaster was using the wrong drawer and that was causing issues.  So that would be the sort of advice that was given, you know, "Don't do this because it will cause a problem".
+
+Other things would be that, you know, "Don't turn the computer off before 6.00 because, if you do that, it may not transmit all the data", all that sort of thing.
+
+**Mr Beer**: "Insufficient evidence": insufficient evidence to do what?
+
+**Richard Roll**: To actually find out what the -- to even know where to start looking for a problem.
+
+**Mr Beer**: "User error": "user", does that refer to the subpostmaster or counter clerk?
+
+**Richard Roll**: Either, yes.
+
+**Mr Beer**: "Route ... to CFM"; can you remember what that was?
+
+**Richard Roll**: I can't remember what that is.
+
+**Mr Beer**: You'll see that the total that's attributed on this spreadsheet to the PEAKs resolved by you in that three-and-a-half-year period was 915, so 275/300 a year. Does that accord with your recollection of the work that you would have got through?
+
+**Richard Roll**: I can't really remember.  Quite often you'd work on other -- it's not a terribly accurate way of doing things, unfortunately.  Sometimes three or four of you would be working on a call but any one would actually be recorded on it.  Other times, you might be allocated a call, you might be working on three or four at the time, so maybe you'd pass one or two on to somebody else so then they would be given as the person who'd closed it.
+
+**Mr Beer**: So you're warning us not to take too much from this. All this is a record of is where you entered the result code?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Thank you very much.  That can come down now.
+
+Can we turn to the issue of remote access, please, and can we start, please, by looking at paragraph 9 of your Inquiry witness statement.  `WITN00780100 <https://www.postofficehorizoninquiry.org.uk/evidence/richard-roll-9-march-2023>`_.  It's page 5.  Just scroll down so we get paragraph 9, please. Thank you.
+
+Starting from the third line of your Inquiry witness statement, you say:
+
+"Apart from responding to requests for assistance from second line, for example, looking into issues reported by [subpostmasters] regarding accounting, product errors, hardware failures, etc, or queries from utility companies regarding payments made at [post offices] that hadn't gone through, we also monitored the system and ran remote programs we had developed which provided advance warning of any failures, for example with the overnight batch processing of network banking transactions or benefits payments.
+
+Then this:
+
+"This sometimes meant we sometimes had to connect remotely to the [subpostmasters'] Horizon terminals, sometimes without their knowledge or consent, to make changes to the counter configuration or the database system."
+
+Can I just check, Mr Roll, please, by that last sentence there, are you suggesting that the changes would result or could result in an alteration to branch data that could affect branch accounts?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Why would, if you can remember, if you can help us, making a change to the counter configuration do that?
+
+**Richard Roll**: The main one I remember is that, if the database had become corrupt, if one of the transactions hadn't been recorded correctly, then, although the postmaster would continue to work and everything on the post office side of things, on the counter would seem to be working correctly, in effect, the system would be writing data into the database but none of that data would then be copied across to other counters or up to the servers where it would be processed.
+
+So, from that side of things, there could be a discrepancy because the postmaster had been working on the counter and yet the systems further up the line wouldn't know he had done any work on it because the correction would have prevented that data from being read.  We could then go in, into the counter, and basically just correct it so that things would work properly and then the data then would be harvested.
+
+However, to do that, we had to take all the data off the counter from the point of the corruption, save it all, correct the line of code which had been corrupted and then put all of the data we'd taken off back in.
+
+If, during the correction of that line of code, we'd got something wrong, we could have potentially caused a problem, or, if, whilst we'd been removing the data and then putting it back in, the data that the postmaster had continued to enter, if we'd made a mistake with that or accidentally deleted a line or anything, then, again, there could have been a problem there.  So the other problem that could have happened is that, if the postmaster hadn't been aware that we were doing it and had continued to use the system or accidentally use the system, then we would have overwritten his data, which then would have caused problems with the cash balancing and whatever.  He may have had more money or less money in the till than the system was showing because we'd effectively deleted his transactions.
+
+**Mr Beer**: Thank you.  Can we just look, please, at POL00004074. Thank you.  This is a transcript of the evidence you gave in the High Court proceedings.  I'm afraid, Mr Roll, this is going to be a bit fiddly so please bear with me because I'm going to be asking you about some of the answers that you gave previously, all right?
+
+Can we look, please, at page 34 of this document and look at the bottom left-hand quadrant, which has got the internal pagination 130.  Can we pick it up from line 21, please.  Here you're being asked questions by the Post Office's barrister, or one of them, and he says, quoting from your witness statement:
+
+"'Still on the subject of remote access to branch systems, as I recall some errors were corrected remotely without the subpostmaster being aware'."
+
+He says:
+
+"Those errors are not errors -- or rather those corrections were not corrections which changed branch ..."
+
+Then if we go to the top of the next page, the sentence was:
+
+"... which changed branch accounts in the way we discussed?"
+
+You answered: "No.
+
+"You're talking about other errors, aren't you?
+
+"Yes."
+
+Question: "Could you give some examples of the kind of errors you are talking about?"
+
+Answer: "I can't remember, I'm afraid."
+
+Then he says: "But it would be things like changing configuration items?"
+
+You said: "Probably, yes."
+
+He said: "That sort of thing, which would not have an impact on the branch accounts in the way that we have previously discussed?"
+
+You said: "I think so, yes."
+
+That exchange there, and it may be difficult to piece together the effect of your evidence from the question and answers, but were you saying there that changes to counter configuration would not have an impact on branch accounts?
+
+**Richard Roll**: I can't remember exactly now.  I wouldn't, I couldn't definitely say that the change in the configuration would or wouldn't have an effect.  I just can't remember that much information.
+
+**Mr Beer**: That's very fair.  Thank you very much.
+
+Can we look, then, to the different routes that might be taken to remote access and can we have back up the fifth page of your Inquiry witness statement. Page 5, at the foot of the page, paragraph 10.  If you just look, you say:
+
+"I think there are several ways to connect to the counters but it was a long time ago and I can't remember the exact details.  As I recall ..."
+
+Then you say (a), and then if we go over the page there's a (b) and a (c).  So there's three ways that you recall, it being a long time ago and without you remembering exact details, ways to connect to the counters.
+
+I'm just going to go through each of those three ways, if you don't mind.
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: The first way, (a), if we just go back, please.  Thank you:
+
+"We could log into the Horizon servers using our own login details and then use the Riposte system to access the counters -- any changes we made to the counter database would then have our login details attached ..."
+
+So in that way, you were using your own log-in details, you were going through the Riposte system to get into the counters and, therefore, any changes would have your log-in details against them; is that right?
+
+**Richard Roll**: Yes, in the database, from what I recall, if the postmaster was doing transactions, he would be logging, for example, as CTR001.  So every line of code in the database would start with CTR001 to identify that postmaster.  If we logged in through Riposte, through this way, in my example it may be my code was RWR001, so any transactions or changes I made would start in the database with RWR001.  So anybody coming along later would see straight away that it wasn't CTR, it was RWR who had made the changes and put the data in.
+
+**Mr Beer**: So there would be a record, an audit trail, as it were, of your actions and what you had done?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: So, to that extent, it's visible and would be apparent to somebody looking, after the event, over who made a relevant entry?
+
+**Richard Roll**: Yes.  The problem with that way of doing things was that, the way the system worked, it would -- if it was then harvesting transactions, it would be looking through and seeing everyone with CTR001.  As soon as it came to one that said RWR001 it wouldn't recognise it and there would be errors or it may not process it.  It might be that it just skipped them and carried on with the rest of it and didn't flag an error.  So then there could be -- if we tried to correct an accounting error or something with the system, it might be that the error wasn't corrected at all and it just skipped it.
+
+**Mr Beer**: So, although you might be able to log in and use this route into the system, you might be able to make a correction.  By doing -- making the correction, the fix, you were creating one that was either ineffective or could cause other problems?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Did you use that method much, then?
+
+**Richard Roll**: At times it was -- at times that's -- certainly when we knew it wouldn't cause a problem, we would use it.  More for when we were doing things, I think, on the actual -- either on the routers or the servers themselves and not the counters.
+
+**Mr Beer**: Why on the routers and servers rather than counters?
+
+**Richard Roll**: If we were needed -- I can't remember exactly but sometimes you could change the data as it came into the system or while it was in -- as it came into the servers or while it was already on the servers, in that way you didn't need to go into the counters at the Post Office to change it.
+
+**Mr Beer**: Thank you.  Can we turn to the second way that you describe, in your (b):
+
+"We could log in through Riposte another way, I can't remember the details, in which case it would be difficult to see who had made changes ..."
+
+**Richard Roll**: Yeah, there was a way of logging in and it wouldn't have a user ID.  This is my recollection.  It's not necessarily 100 per cent accurate but, from what I remember, then instead of having CTR001 or RWR001, that area would be blank.  Again, that would then probably cause processing issues at some point later on, or it may not, depending on which bit of data we were -- was being changed.
+
+**Mr Beer**: Why might you use this way?
+
+**Richard Roll**: I can't remember.  I know that it was possible to do it, but I can't remember why it would be done.  Maybe it was to change actual parameters and not actual data, reference data parameters or something.  I can't remember.
+
+**Mr Beer**: Again, can we just look back at when you were asked questions on what might be the same topic.  I just want to check that they are in your answers given in the Group Litigation Order trial.
+
+So can we have up again POL00004074, and go to page 30, please.  Go to the bottom right-hand quadrant of the page, which should be internal pagination 116. Can we pick it up, please, at line 22.
+
+This is again the Post Office's barrister cross-examining you.  He says:
+
+"And the second sentence ..."
+
+Just so you've got some context here, he's putting part of Mr Godeseth's witness statement to you, okay? He's reading it to you, Mr Godeseth's witness statement, and he says:
+
+"And the second sentence:
+
+"'The Riposte product managed the message store and it did not allow any message to be updated or deleted, although it did allow for data to be archived once it had reached a sufficient age ...'"
+
+You say: "Yes."
+
+He asks: "It is correct, isn't it, that Riposte didn't allow any transaction line in the message store to be individually deleted or changed or edited in any way?"
+
+You replied: "You couldn't do it through Riposte, no.  You had to hack the system to do it."
+
+Just stopping there, what did you mean by "You had to hack the system to do it"?
+
+**Richard Roll**: There was another way of running Riposte from -- I can't remember whether it was our counters or from the server, where you could create a session in Riposte, I think it was.
+
+Then you could use Riposte to insert data, but then that restricted very much what you could do.  So what we were doing, going through the (a) and (b) I've just described, was effectively hacking the system.  What they're talking about here is using Riposte to do the stuff for you directly, actually opening up the Riposte session, as it were.  So it's like using Microsoft Word or a text editor, but you can either use Microsoft Word to edit a nice document or you could open it up in a text editor, if you knew what you were doing, and do it, you know, through the backdoor, as it were.  We were doing it through the backdoor.
+
+**Mr Beer**: Why --
+
+**Richard Roll**: I don't know if that's --
+
+**Mr Beer**: Why were you describing it as a "hack"?
+
+**Richard Roll**: Because it wasn't the way things were supposed to be done.  I don't think it was, anyway.
+
+**Mr Beer**: Why was it being done in a way that wasn't supposed to be done?
+
+**Richard Roll**: Because that was the only way we could get the system back up and running.  It was a workaround.
+
+**Mr Beer**: Was it just you doing it or were other people in the SSC doing it?
+
+**Richard Roll**: Everybody was doing it.
+
+**Mr Beer**: Was it --
+
+**Richard Roll**: (Unclear)
+
+**Mr Beer**: I'm sorry, I missed your answer there?
+
+**Richard Roll**: Yeah, we had unrestricted access.  Basically, we could do whatever we wanted.  So everybody did it when we had to.
+
+**Mr Beer**: Was this known about by your deputy manager of the SSC and the manager of the SSC?
+
+**Richard Roll**: Oh, definitely, yes.
+
+**Mr Beer**: How would they know that everyone in the SSC was doing it?
+
+**Richard Roll**: Well, they -- it was the other members of the SSC who taught me how to do it.  That was the accepted way of doing it, in some instances.
+
+**Mr Beer**: Was it reduced to writing, this hack?
+
+**Richard Roll**: Sorry?
+
+**Mr Beer**: Was it reduced to writing?  Was it written down anywhere that this is the way you do it?
+
+**Richard Roll**: I don't know.  I know that, from things I've read, that there were problems later when the auditors came in and found out we were doing it.  So quite possibly.  I mean, to start with, I don't think anything was written down. It was all very much flying by the seat of your pants, as it were.
+
+Things got written down internally as we went along and then gradually the documentation built up from that. That was one of the problems with the system to start with: that there was no documentation.  It was all a scratch -- you know, it was all scratched together, sort of thing.  It was a mess.
+
+**Mr Beer**: Can we leave this transcript for the moment -- I'm afraid we're going to come back to it in a second and pick up the rest of what you said -- and go to what I think you might be referring to when you said that it was picked up.  Can we turn up FUJ00088036.  Can you see that this is a document dated August 2002, so it's about halfway or so through your time in the SSC.
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: It's described as "Secure Support System Outline Design".  You're not listed as a contributor or a reviewer, nor a person to whom the document would, in due course, be distributed but I just want to ask you a question about a passage in it to see whether it reflects your experience in the SSC.  Can we turn to page 15, please.  It's under paragraph 4.3.2.  It's the "Third line and operational support".  It reads:
+
+"All support access to the Horizon systems is from physically secure sites.  Individuals involved in the support process undergo more frequent security vetting checks.  Other than the above controls are vested in manual procedures, requiring managerial sign off controlling access to post office counters where update of data is required.  Otherwise third line support has ...
+
+The first bullet point:
+
+"Unrestricted and unaudited privileged access (system admin) to all systems including post office counter PCs ..."
+
+Is that what you were referring to?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Is it true that the third line support had unrestricted and unaudited privileged access to all systems, including subpostmasters' counter PCs?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Was that widely known within the SSC?
+
+**Richard Roll**: Within the SSC, yes.
+
+**Mr Beer**: Was it known, to your knowledge, outside the SSC?
+
+**Richard Roll**: No.
+
+**Mr Beer**: Plainly, by the time of this document it was.
+
+**Richard Roll**: Yeah, by this time it must have been, but I wouldn't think widely known.  I wouldn't think Post Office would have been probably aware of it.
+
+**Mr Beer**: Why wouldn't you think Post Office would be aware of it?
+
+**Richard Roll**: Well, as the customer, I think they would be -- or they should have been -- very concerned, if they were aware that we had that sort of access.  At the time I was working there, I just accepted that this was, you know, the practice.  It's only since then that I've come to realise that, actually, it's pretty shocking the amount of access we did have.
+
+**Mr Beer**: Can we go back, then, to the transcript.  POL00004074, page 30.  In fact, we'd gone on to page 31.  Breaking off, as we had, just after your answer about the hack, you said:
+
+"You couldn't do it through Riposte, no.  You had to hack the system to do it."
+
+Then the Post Office's barrister asks you:
+
+"So would this be right, then, that it wouldn't be possible to remotely access a counter and change the data on the message store of that counter remotely?"
+
+You said: "I believe theoretically, it would."
+
+He asked: "How would that be possible?  Riposte wouldn't allow you to do it, would it?"
+
+You say: "By doing the system I have just said.  If you could -- without the message store replicating, so there's no other copies of it, if you could get that message store off, alter the data in some of the lines of code, to do that you would need to strip out all of the preamble and the post-amble, so you're then just left with the basic data as if it had been on the stack or whatever -- forgive me, I'm very rusty on this -- but then by -- I think it was the Riposte import but it might have been something else, you could then re-inject that data which is the process we would have used to rebuild the counter.  But if you had changed some of that data, I think it would have rewritten the CRC when it imported it so that when it replicated, the data could theoretically have been changed."
+
+Counsel says: "I'm finding it difficult to follow you, and it may be my fault."
+
+The judge says: "I follow what the witness is saying but keep exploring it."
+
+The Post Office barrister said: "I would like to distinguish though between transactions insertions -- the process of injecting particular transactions into the message store, which could be done, with the process of actually manually changing a transaction line that is in the message store and you could insert new transactions, couldn't you, but what you couldn't do is you couldn't edit or indeed individually delete lines that were in the message store itself."
+
+You answered: "You'd have to delete all of the message from what I remember.  Delete all of the messages down to a certain point to the one you wanted to amend and then inject a load more text or insert more transactions in to make the message store and Riposte think it had been put in by Riposte and by the postmaster."
+
+That's where your answer ended.  Is what you are describing in that big answer on the page above, between lines 14 on the first page down to line 3 on the second page and then, scrolling down, lines 17 to 22 on the second page -- is that what you were describing in your paragraph (b) in your witness statement, that you could go in another way, in which case it would be difficult to see who had made changes and that this was the hack?
+
+**Richard Roll**: No, it's what I was describing in paragraph (c).
+
+**Mr Beer**: I see.  So the paragraph (b) of your witness statement, "We could log in through Riposte another way, I can't remember the details, in which case it would be difficult to see who had made the changes"; can you explain to us how that was done, then?
+
+**Richard Roll**: I can't remember how it was done.  I just know that you could do it.  The -- you could then have fiddled with it -- for want of a better word -- with the message store but, without the correct user ID at the start of every message, then there would have been errors, things wouldn't have been processed properly, from what I remember.  So you wouldn't have gone in that way to make changes to the message store.
+
+**Mr Beer**: Okay can we go back to your witness statement, then, to page 6 of the witness statement, and look at (c), the third way.
+
+"We could go directly through the communication servers to the [Post Office] gateway and then the counter -- if the [postmaster] wasn't logged in then there would be no ID attached to the database entries, which sometimes caused the batch processing to fail overnight; if the [postmaster] was logged on then any changes we made would have their ID attached -- so as far as the system (and any auditing) was concerned the [subpostmaster] would have been responsible for the transactions."
+
+**Richard Roll**: That's what I was trying to say.  I think that's what I was trying to say in the Post Office transcript we just looked at.
+
+**Mr Beer**: Thank you.  Was this a method that you used frequently, as described in subparagraph (c)?
+
+**Richard Roll**: We were all pretty adept at it, yeah.
+
+**Mr Beer**: Whether you were adept at it --
+
+**Richard Roll**: Fairly frequently, yes.
+
+**Mr Beer**: Fairly frequently?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Okay.  Why did you use that method?
+
+**Richard Roll**: It was the only way to rebuild the counters to get the data off the counters.
+
+**Mr Beer**: The footprint that was left would have been the subpostmaster's footprint and not yours?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: Was there any visibility that you or somebody else in the SSC had done this as opposed to the subpostmaster themselves having done it?
+
+**Richard Roll**: Sometimes yes, sometimes no.
+
+**Mr Beer**: What would distinguish?
+
+**Richard Roll**: We would -- sometimes it would be recorded.  I'm a bit rusty on this now, I'm afraid, but sometimes we told the postmaster we were going to do it.  While we were doing this, the postmaster couldn't use the counter.  It was very important that nobody used it.  At other times, especially if maybe the postmaster -- I'm just thinking. I'm just trying to remember something else.  I was going to say if the postmaster had gone to lunch, for instance, we could have gone in and done things without him knowing.  There may have been a way to put the data in at the counter while the postmaster was actually logged off.  There may have -- I can't remember exactly but there may have been a way to fool the counter into thinking that the postmaster that logged on to do it. I can't fully remember that.
+
+Certainly, we were on occasion asked -- I can't remember the details.  I know that since the court case, it may be during the court case, I saw documentation to the effect that we had at times gone into the counter without the postmaster or even POL knowing to make changes to the data and, in the way that I'm talking in item (c) here.  So the postmaster may have logged on and gone to lunch and left the computer logged on, so then we went in, made the changes we needed to fix the problem, and then logged out again, leaving the postmaster completely unaware that we'd done it.
+
+**Mr Beer**: Can we go over the page on your witness statement, please, to look at the security protocols about accessing subpostmasters' systems, and look at paragraph 15.  You say:
+
+"The Inquiry has asked about security protocols regarding access to [subpostmasters'] systems.  I don't remember any security protocols; we sometimes connected to [post office] counters without the postmaster being aware that we were 'looking over their shoulder'.  In the early days, I frequently logged on to counters to see what was happening; there was no record of my doing so but I think this changed after I had left."
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: Can we look, please, at the transcript again of the High Court trial.  That's POL00004074, page 33, please.  It's the bottom left hand quadrant and it's line 22, the foot of the page.  This is partway through your answer.  You say:
+
+"In circumstances we could do that.  In other instances, the way I remember it is that for the system to operate correctly for the accounting, it had to be the same user ID logged on, so that the postmaster or that clerk or whatever would have to be logged on with their ID and password so that any data we changed or put back on would then go in with their ID, which is why they couldn't use it.  Then that data would be picked up correctly by Riposte.  Riposte would assume that the postmaster had been operating as normal and would accept the data into the message store and process it correctly."
+
+Question: "Could you tell me what were the circumstances in which you had to use the same ID as the original user?"
+
+Answer: "I can't remember what the differences were for the different errors but it depended on what error was coming up and what bit of data was corrupt, where the corruption lay in the message store."
+
+Question: "So you can't think of a specific reason why it would have to be the same person but you're saying that it did sometimes?"
+
+Answer: "Yes, it -- sorry.  I didn't let you finish. I've lost my train of thought now, sorry.  It often made it much cleaner for accounting reasons.  From what I remember, if it was the same user ID, all of this, all of these actions would be detailed in the PinICL and if, from what I remember, if you were accessing the counter in this way, two people had to be there, one was an independent witness, to make sure that everything was going correctly."
+
+Just stopping there, are you describing here that there needed to be two people, one of whom was an independent witness, to witness the hack that you've described?
+
+**Richard Roll**: If you were making changes to the database and putting data in, then yes.  They would watch as you went through all the steps to clean the data up, just to -- to double check to make sure you hadn't made a mistake and deleted something in error.  I think that stemmed from an issue when at some point somebody did make an error and it really messed up the processing later.  So that was a lesson learned as we were going along.  Again, my memory is very hazy on this but I think that's why it was that we then employed two people to make sure that there weren't mistakes.
+
+**Mr Beer**: Then scrolling down, counsel asked you:
+
+"So there would have to be what we now call PEAKs and there would have to be two pairs of eyes?"
+
+You say: "That was what --"
+
+Then he carried on: "It would never be left to one particular member of the SSC to do it on his own?"
+
+Answer: "It was never supposed to be, and I don't think it ever was, but I'm not sure."
+
+Question: "So this a formal process then, is it?"
+
+You answered "Yes."
+
+"Which the SSC took very seriously?"
+
+Answer: "It was developed and taken very seriously, yes."
+
+So did the position change over your time within the SSC?
+
+**Richard Roll**: I think so, I can't really remember.  Also, reading the next line from 16 to 19, that's where, at that point, reading this, I was -- I believed that formal consent from the Post Office was required.  It was after this that I saw the documentation that contradicts this and there's actually times when the Post Office weren't informed.
+
+**Mr Beer**: So carrying on reading then from 14, just to get the question, he asked you:
+
+"Is it also the case that the Post Office consent was always needed for this kind of process?"
+
+You said: "I was there we were supposed to speak to the postmaster to get his consent, so from Post Office consent, that's what I believe you mean by that.  Formal consent from the Post Office itself, maybe not."
+
+Just stopping there, did you always speak to the postmaster to get consent?
+
+**Richard Roll**: From what I remember now, no.  But memory is a funny thing and sometimes, after this length of time, you remember things that didn't actually happen.  So I can't completely, hand on heart, say that that's true or not.
+
+**Mr Beer**: You mentioned that you had seen something after giving evidence here that had maybe changed your view.  What was that?
+
+**Richard Roll**: There was some documentation that came up right at the end of my interrogation.  It may have been right at the end, it may have been right after I left, I saw it and it was a statement, I think it was from Mik Peach, saying that we weren't to inform the Post Office of this, this particular item.  I can't remember exactly what it was.
+
+**Mr Beer**: Other than the postmaster themselves, do you remember any communication, written or verbal, between you and other members of the SSC team and Post Office managers or somebody within security within the Post Office, or something like that, before you undertook this exercise, this hack?
+
+**Richard Roll**: No.  The only person we would have spoken to for any authorisation would have been Mik, Mik Peach, the manager.  Everything came through him, really.
+
+**Mr Beer**: Thank you.  We can take that down now.
+
+Sir, I wonder whether we might unusually ask for an earlier lunch today.  There's been some quite heavy transcript that I've gone through with Mr Roll and I suspect that he, but also me, would appreciate a break so can we break for lunch?
+
+**Sir Wyn Williams**: Of course.  1.45?
+
+**Mr Beer**: Yes, thank you very much, sir.
+
+**Sir Wyn Williams**: Fine.  See you then.
+
+**Mr Beer**: Thank you.
+
+*(12.45 pm)*
+
+*(The Short Adjournment)*
+
+*(1.45 pm)*
+
+**Mr Beer**: Good afternoon, sir.  Can you see and hear me?
+
+**Sir Wyn Williams**: Yes, I can.
+
+**Mr Beer**: Mr Roll, can you see and hear me?
+
+**Richard Roll**: Yes, I can.
+
+**Mr Beer**: Thank you.  Can we have up on the screen, please, POL00000900.  Thank you very much.  Can you see the title of this document, it's at the top of the page, Mr Roll, and under "Document title", "CS Support Services Operations Manual"?
+
+**Richard Roll**: Yeah.
+
+**Mr Beer**: It's dated in this version, version 2, 29 January 2001.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: That would have predated your arrival in the SSC, wouldn't it?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: We've got earlier versions of this in 1999 and 2000 but I'm going to show you this one because it's most proximate to your arrival in the SSC.  Can you see in the middle of the page or the bottom of the page there it says, "Owner: Peter Burden"; do you remember who he was?
+
+**Richard Roll**: No.
+
+**Mr Beer**: At the foot of the page under "Distribution", the distribution includes, as the third person there, the CS Support Services Manager.  Would that be Mr Peach?
+
+**Richard Roll**: Yes.  I think.
+
+**Mr Beer**: Which one of those would be Mr Peach?  Would it be the second one from the bottom, SSC Manager?
+
+**Richard Roll**: Yes, I believe so.
+
+**Mr Beer**: You'll see that, amongst the distribution lists, is "Pathway document library".  Do you remember what that was?
+
+**Richard Roll**: No.
+
+**Mr Beer**: How were documents like this, this is an operations manual that's about the SSC, promulgated or distributed to people like you that were working essentially on the floor of the SSC?
+
+**Richard Roll**: I don't know.  I can't remember ever seeing this.
+
+**Mr Beer**: Was there an intranet, part of which had a repository for policy and other documents?
+
+**Richard Roll**: I don't think so.  I can't remember.
+
+**Mr Beer**: Can we just look at this, please, because it describes a process that may be relevant to the issue we were discussing before lunch.  Can we go, please, to page 39 -- sorry, not page 39 -- page 15, and scroll down to paragraph 4.3.  This document says, I'll read it through slowly:
+
+"The SSC has access to the live system which can be used to correct data on the system when this has been corrupted in some way."
+
+That accords with the evidence you have given so far, doesn't it?
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: "The procedure for doing this is as follows:
+
+"The originator of the change:
+
+"1.  Completes an Operational Correction Request (OCR) form for every change to data on the live system.
+
+"The originator may be anyone within ICL Pathway but it is normally the Duty Manager, or a Problem Manager or Business Support Manager when an incident or problem has been caused by an error in the data.  It can be completed by an SSC staff member who detects that the data in the system has become corrupted in the course of diagnosing a fault."
+
+Then "The originator of the change":
+
+"2.  Emails the OCR form to an authoriser, electronically signing it where possible, and where this is not possible, telephoning the authoriser to confirm that they are sending an OCR [an Operational Correction Request]."
+
+Can we turn to page 39 of the document, please, where we see an OCR form or a template OCR form, an operational correction request.  You'll see there's a title, who the OCR was raised by, their location, when they raised it, the type of change requested, the system to be changed, a due date, and an associated PinICL number, an authorisation signature, date and position and then, scrolling down, at the foot of the page, "Purpose and details of the change".
+
+Then over the page, please, "Regression path", and then "Signature of the SSC", person who did the work, their printed name, the witness, either somebody in the SSC or the fourth line signature, and then name, completion date, "Was change tested on reference rigs prior to application, yes or no", system state before change, system state after change and then, scrolling down, "Comments".
+
+Is that a document with which you were familiar?
+
+**Richard Roll**: I don't remember seeing it.  I can't remember it.
+
+**Mr Beer**: Was this something that you, to your memory, had to fill out or somebody had to fill out before they requested you to make a change, it had to be countersigned.  You, when making the change, had to sign it and it had to be countersigned by the witness.  Was that habitually done?
+
+**Richard Roll**: I can't remember at all seeing one of these documents before.
+
+**Mr Beer**: If we go back to page 15 of the document, please, at the foot of the page.  We had got to paragraph 2 and then it continues:
+
+"The authoriser must be one of the following:
+
+"Duty Manager
+
+"Business Support Manager
+
+"CS Operations Manager
+
+"SSC manager
+
+"Release manager."
+
+Then:
+
+"The authoriser:
+
+"1.  Authorises the change, or reports back to the originator why they are not authorising the change.
+
+"2.  Forwards the OCR form to the SSC electronically with an encrypted electronic signature file.
+
+"The SSC staff member who is to perform the change [I think that would be you]:
+
+"3.  Checks the electronic signature of the authoriser.
+
+"4.  Stores the OCR form and the signature file in the received OCRs folder on the SSC server.
+
+"5.  Wherever possible, produces a script to make the data change and test the script on the SSC reference rig prior to running it on the live system.
+
+"6.  Completes the relevant sections on the OCR form to confirm whether they have produced and tested a script or not.
+
+"7.  Prior to making the change ... documents the state of the affect part of the system and completes the regression path details on the OCR form ...
+
+"8.  Makes the change on the live system.
+
+"At least two people must be present when making changes to the live system.  Normally these are SSC staff, but can be one SSC staff member and one person from the fourth line support unit responsible for the area in which the data change will take place, or one SSC staff member and one OSD staff member
+
+"9.  On completing the data change, documents the state of the affected part of the system and mails an electronically signed copy of the OCR form to the second person who was present whilst making the change.
+
+"10.  The second person also electronically signs the form and emails it to either the SSC manager or the SSC website controller.
+
+"11.  Updates the PinICL and reports back to the originator to confirm that the change has been completed."
+
+Then:
+
+"The SSC Manager or SSC website controller:
+
+"12.  Checks the electronic signatures.
+
+"13.  Files the OCR in the complete OCR folder on the SSC server."
+
+That very involved and complicated process, was that something that was habitually done when you were undertaking the category C hacks that you described earlier?
+
+**Richard Roll**: I don't remember doing that, no.  We might have done. I just can't remember.  I do think that, on occasion, we'd made changes without a PinICL being raised.
+
+**Mr Beer**: In your answer there, you said that you don't remember whether it was done or not, and it might have been.  Is that the category of memory that we're dealing with here, you're saying this could perfectly well have been undertaken on each occasion, you simply now don't remember it?
+
+**Richard Roll**: That's right, yeah, I don't think it was undertaken. I don't remember it being undertaken at all but I can't remember.
+
+**Mr Beer**: Thank you very much, that can be taken down from the screen now.
+
+Can we look, please, at POL00023432.  This is an email exchange in 2008, so four years after you left, in which you were not involved.  If we just look at the second page, please.  The Inquiry is familiar with this but I just ought to give you some context first.  It concerns a subpostmaster saying to somebody on his area that, on a number of occasions, figures have appeared in the cheque line of his account.
+
+Do you see, in numbered paragraph 1, he, the subpostmaster, that's Mr Graham Ward:
+
+"... claims that on a number of occasions figures have appeared in the cheques line of his account.  He suspects that these have been input into his account electronically without his knowledge and consent.  He is certain that he has cleared and remmed out cheques in the right way and tells me that cheques must be properly cleared on the system to progress to a new account.
+
+Then paragraph 2:
+
+"He has made good about £10,000 and not made good about £11,000 of the shortages which arise from these figures.  He claims that because of the abnormal nature of these entries, the shortages have not just rolled over from one branch trading statement to the next, but have accumulated -- each being added to the last (eg if the account in period one showed a shortage of £100 which was not made good, then the shortage shown in period 2 would be £200)."
+
+So it was doubling up, week on week.
+
+Had you heard of any similar issue when you were working in the SSC?
+
+**Richard Roll**: I have heard of similar issues but I can't remember if I remembered them from when I was there or whether it's things I have read since in the reports about the court case, and so on and so forth.
+
+**Mr Beer**: So, very fairly, you're distinguishing between your real memory of events in which you were involved, and things which you read and heard afterwards?
+
+**Richard Roll**: Yeah, I can't remember whether I was aware of them at the time.
+
+**Mr Beer**: Can you help us: what would be the investigation that would be required within the SSC, if this kind of report had been made to you?
+
+**Richard Roll**: Other than going through the transactions and the number of cheques -- to look at the number of cheques coming in and out and trying to work out where the figures were being generated, using extracts from the database I can't really remember much more about that, apart from that.
+
+**Mr Beer**: Would you examine the code that has undertaken the task of putting in cheques in and out?
+
+**Richard Roll**: I think we would only have gone to examine the code if we could find exactly where in the message store the problem was occurring.  The problem is that there is so much code that, if you don't go in without -- if you go in without any sort of reference point, it would be like trying to find a paragraph or an apostrophe in War and Peace.  You wouldn't know where to start.  You'd need to know where in the data store, what was going on from the data store, from the database, to give you some idea as to where to start looking.  That's what I remember.
+
+**Mr Beer**: So how, practically, would -- if this is all you've got to go on, how practically would you go about it?
+
+**Richard Roll**: First step would be to download messages from the message store and start trying to follow through what the figures were and try to work out what was happening with the figures.
+
+**Mr Beer**: Would you be able to see from the message store this doubling up that the subpostmaster is referring to?
+
+**Richard Roll**: You would probably see that the figures had doubled. Whether you would be able to work out exactly why, I'm not sure.  My memory -- it's a long time ago and I just can't remember, I'm afraid.
+
+**Mr Beer**: Mr Roll, thank you very much.  They're the only questions that I ask you.  There may be some other questions from other Core Participants.  Can I just check?
+
+**Mr Stein**: Sir, I may like to ask a question of Mr Roll. I just need to take instructions.  May we have a five-minute break now before I do so?
+
+**Sir Wyn Williams**: Of course.
+
+**Mr Stein**: Or leave it to my learned friend's who may want to ask questions on behalf of their own clients to carry on and deal with that separately.
+
+**Sir Wyn Williams**: Let's just check, are there other people who want to ask questions?
+
+**Ms Page**: I do want to ask some short questions.  I don't imagine they'll take very long.
+
+**Sir Wyn Williams**: Let's just have a five-minute break, then and then we'll have all the questions sequentially.
+
+**Mr Beer**: Thank you, sir.
+
+*(2.03 pm)*
+
+*(A short break)*
+
+*(2.12 pm)*
+
+**Mr Beer**: Can you see and hear us again?
+
+**Sir Wyn Williams**: I can.
+
+**Mr Beer**: I think we're now ready, if Mr Roll is ready for questions from Mr Stein.
+
+**Sir Wyn Williams**: Yes.
+
+**Mr Stein**: Sir, first of all thank you for the time.  It has been of assistance in narrowing down the focus of any questions.
+
+Mr Roll, I appear on behalf of a large number of subpostmasters and mistresses.  I've got one question to ask you arising out of the questions asked by Mr Beer this morning and this afternoon.  You've discussed with Mr Beer what can happen when a computer system being used by a subpostmaster had a dodgy on/off button; do you remember that?
+
+**Richard Roll**: Yes.
+
+**Mr Stein**: Now, you explained in your evidence, I believe this morning, that that could lead and did lead to a loss of data integrity within that system being used by that branch; is that correct?
+
+**Richard Roll**: Yes.
+
+**Mr Stein**: Can we therefore assume that losses of power would also have the same effect, in other words losing data integrity within that particular branch system?
+
+**Richard Roll**: I suppose there is the potential, the big loss of integrity with this particular instance was that, from my recollection, although the data was on the computer it wasn't getting through to the systems or not getting through correctly, so then it wasn't being processed correctly.
+
+**Mr Stein**: Right, so there's a potential for losing data when the power goes but there's also, in your recollection, difficulties with data integrity when there's a connectivity issue; is that correct?
+
+**Richard Roll**: Yes.
+
+**Mr Stein**: Okay.  Now, if the branch loses connectivity with the rest of the Horizon System for, I don't know, cable reasons or some other hardware reason, can that lead to the same problem in isolating that branch from the rest of the system and losing data?
+
+**Richard Roll**: The data would hopefully still be on the computers in the branch but, certainly from an estate or from the server perspective, it would be as if that Post Office had closed and was not operating.  So the data wouldn't be visible from the servers until it was switched back on and the data had managed to replicate through overnight.
+
+**Mr Stein**: Right.  Would it always recover?  We know that it was meant to, but would it always?
+
+**Richard Roll**: If there was a power failure or if it had suddenly been cut off then there's always I suppose the potential damage, hardware damage to the disk or some of it -- maybe boards in the computer.  So, from that perspective, if the computer was made inoperable then you would lose the data.  So those transactions would have been lost.  There's the potential, then, that if you can't recover any of the data from the disk, then without a paper audit trail, you wouldn't know what had gone on in the counter -- in the post office that day.
+
+**Mr Stein**: Okay, my last question on this: were these problems, to your recollection, explained to subpostmasters and mistresses as being a potential difficulty that could lose data?
+
+**Richard Roll**: I don't know, I don't remember, well I don't remember ever explaining that, and I'm pretty sure I didn't. Whether anybody else on the installation teams had explained this to postmasters, I don't know.
+
+**Mr Stein**: Thank you, Mr Roll.
+
+**Ms Page**: Mr Roll, it's Flora Page here, also representing a number of the subpostmasters.  You mentioned earlier the system or tool known as Tivoli, which dealt with the automated system driven alerts; is that right?
+
+**Richard Roll**: Yeah, but I can't remember much about that at all, I'm afraid.
+
+**Ms Page**: No, okay.  Just one question, then: do you remember there being any sort of routine or process around it or were those alerts just dealt with in exactly the same way as a call coming in from an SPM?
+
+**Richard Roll**: I can't remember, I'm afraid.
+
+**Ms Page**: All right.  Thank you very much.
+
+**Mr Beer**: Sir, I think those are all of the questions from everyone.  There's just one thing that I'd like to do before Mr Roll finishes giving his evidence, and ask for POL00000678 to be displayed.  You mentioned, Mr Roll, earlier, that you'd made three witness statements not two, when I --
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: You finally corrected me.  I just wanted to show you the third one.  It was, in fact, an amended version of the second one; is that right?
+
+**Richard Roll**: I can't remember.  It may well have been, yes.
+
+**Mr Beer**: We've got this on the screen now and we can see that the amendments to it are in red.  You can see that in the tramlines, and we can see a further date of it, if we go to the last page, page 8., and scroll down.  We can see where you re-signed it.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: It'll have "GRO" on it.  That's covering up your signature so people can't use it.
+
+**Richard Roll**: Yes.
+
+**Mr Beer**: There was only one passage in this witness statement that I took you to that's the subject of amendment, and so I should take you back to it and ask you about the amendments.  So can we look, please, at the bottom of page 2 and scroll down, please, to paragraph 8.  Can you see paragraph 8 with the amendments in red?  You're here also dealing with the laptop standby/switch-off power issue and what happened when you raised it with your manager.  At the foot of the page, in your amended statement, you say:
+
+"When I raised this with my manager Mik Peach, he initially told me not to do anything until he had spoken to someone about this.  Mik did subsequently talk to the hardware team, at which point I found out this was a known problem ..."
+
+Then at the end, you added the sentence:
+
+"I was told by Mik Peach not to include any details of this when I closed the PinICL."
+
+Were the amendments that you made to your witness statement, in one case amending an order of events, and in the second by adding a sentence at the end, correct?
+
+**Richard Roll**: They were correct, yes.  I think I was trying to clarify it.
+
+**Mr Beer**: Yes.  Thank you very much.  They're the only questions that I ask you, Mr Roll.  Thank you.
+
+**Sir Wyn Williams**: Mr Roll, I'm very grateful to you for giving your evidence to the Inquiry.  As is obvious to everyone, you have been involved in providing assistance to those who are seeking to unravel what has occurred over very many years, and I don't think I can do other than thank you for that, as well.  So on many fronts, thank you very much, Mr Roll.
+
+**The Witness**: Thank you.
+
+**Mr Beer**: Sir, that's it for our witnesses this week and indeed this month.  Our next hearing I think is scheduled to occur on 27 April in relation to compensation issues, perhaps including bankruptcy and, depending on the position as it's developed by then, tax issues.  So that is our next hearing date.
+
+**Sir Wyn Williams**: I know that you're right, Mr Beer.  Can I say that, whereas in the previous hearings I have in effect invited the parties who wish to make written representations and speak to say whatever it is that they want to say, this hearing may be a little more focused in that I might well take the lead in determining what should be the subject of either written or oral submissions.  In any event, over the course of the coming couple of weeks, I hope, I will issue formal directions as to how we intend to proceed.
+
+**Mr Beer**: Thank you very much, sir.
+
+**Sir Wyn Williams**: All right, then.  If not before, 27 April.
+
+**Mr Beer**: Thank you, sir.
+
+*(2.22 pm)*
+
+*(The hearing adjourned until 27 April 2023)*
+
