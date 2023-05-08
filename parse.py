@@ -228,10 +228,10 @@ def parse_transcript(url, text):
         # Witness arriving
         m1 = re.match(" *((?:[A-Z]|Mr)(?:[A-Z0-9' ,-]|Mc|Mr|and)+?)(,?\s*\(.*\)|, (?:sworn|affirmed|statement summarised|summary read by ([A-Z ]*)))$", line)
         m2 = re.match(" *(Mr.*)(, statement summarised)()$", line)
-        m3 = re.match(" (Summary of witness statement of [A-Z ]*)(\s*\(read\))()$", line)
+        m3 = re.match(" *(Summary of witness statement of [A-Z ]*)(\s*\(read\))()$", line)
         if m1 or m2 or m3:
             m = m1 or m2 or m3
-            heading = fix_name(m.group(1))
+            heading = fix_name(m.group(1).strip())
             if 'statement' not in line:
                 Speech.witness = heading
             narrative = '%s%s.' % (m.group(1), m.group(2))
