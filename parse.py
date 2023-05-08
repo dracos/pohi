@@ -5,6 +5,15 @@ import os
 import re
 import string
 
+ACRONYMS = {
+    'POL': 'Post Office Limited',
+    'BEIS': 'Department for Business, Energy and Industrial Strategy',
+    'UKGI': 'UK Government Investments',
+    'NFSP': 'National Federation of SubPostmasters',
+    'CWU': 'Communication Workers Union',
+    'ARQ': 'Audit Record Query',
+}
+
 class Section(object):
     object = None
 
@@ -48,6 +57,10 @@ def parse_speech(speech):
 
     # Manually fix any issues
     text = text.replace('>`_and', '>`_ and')
+
+    # Deal with some acronyms
+    for acronym, meaning in ACRONYMS.items():
+        text = re.sub(fr'\b{acronym}\b', f':abbr:`{acronym} ({meaning})`', text, count=1)
 
     if speech.speaker:
         return f"**{speech.speaker}**: {text}\n\n"
