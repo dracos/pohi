@@ -14,7 +14,7 @@ Anne Chambers
 
 **Mr Beer**: Thank you very much.
 
-Good morning, Mrs Chambers.  Yesterday, you gave evidence in the afternoon that ARQ data did not consist of all keystrokes made by a subpostmaster in a branch; do you recall?
+Good morning, Mrs Chambers.  Yesterday, you gave evidence in the afternoon that :abbr:`ARQ (Audit Record Query)` data did not consist of all keystrokes made by a subpostmaster in a branch; do you recall?
 
 **Anne Chambers**: Yes.
 
@@ -30,7 +30,7 @@ In his Horizon Issues judgment, Mr Justice Fraser found that the audit data, as 
 
 That conclusion was reflected in paragraph 15 of the Court of Appeal Criminal Division's judgment in the Hamilton case, paragraph 15, stating:
 
-"Fujitsu held data called ARQ data which contained a complete and accurate record of all keystrokes made by a subpostmaster or an assistant when using Horizon."
+"Fujitsu held data called :abbr:`ARQ (Audit Record Query)` data which contained a complete and accurate record of all keystrokes made by a subpostmaster or an assistant when using Horizon."
 
 I want to look at some of the documents that are referred to in support of what the Post Office said in the course of the trial, in those submissions.
 
@@ -202,7 +202,7 @@ And so that was very helpful to us for diagnosing these problems because we coul
 
 This is a PEAK 209755.  Earlier in time, you'll see that it was opened by Mr Parker on 15 April 2011.  The summary doesn't tell us anything, six lines in from the top, it just gives the branch FAD code.  If we look at the second entry, if we scroll down, we can see what the issue was:
 
-"POL has a discrepancy with a postmaster regarding a transaction in Huddersfield for TPoS."
+":abbr:`POL (Post Office Limited)` has a discrepancy with a postmaster regarding a transaction in Huddersfield for TPoS."
 
 What was TPoS?
 
@@ -594,7 +594,7 @@ So I think this is a record to show that, despite the misgivings in the email ex
 
 **Anne Chambers**: Um, just in case anybody at some point in the future wanted to know.  I just tried to -- you know, I wrote down as full a description as I could of what was happening and so, if there was a question at some point, we would know this particular fact.
 
-**Mr Beer**: In writing it, were you giving some reassurance to POL "Don't worry, this won't be shown to the branch.  They won't see what's going on here"?
+**Mr Beer**: In writing it, were you giving some reassurance to :abbr:`POL (Post Office Limited)` "Don't worry, this won't be shown to the branch.  They won't see what's going on here"?
 
 **Anne Chambers**: I don't recall that being my intention at the time.  I certainly wasn't doing anything to try to specifically hide it from the branch.
 
@@ -708,9 +708,9 @@ So I think this is a record to show that, despite the misgivings in the email ex
 
 **Anne Chambers**: I wasn't talking about corrective actions there, I was talking more about overall discussion of system problems that had occurred.  I don't recall that ever being said.  In fact, I'm sure that wasn't ever said in any discussion as to a single corrective action at a branch.
 
-**Mr Beer**: We've seen some evidence that people such as Penelope Thomas, Andrew Dunks, Brian Pinder produced ARQ branch data for the purposes of proceedings.  Was there any method to alert them that corrective action had been taken to insert data or extra messages into a branch's accounts?
+**Mr Beer**: We've seen some evidence that people such as Penelope Thomas, Andrew Dunks, Brian Pinder produced :abbr:`ARQ (Audit Record Query)` branch data for the purposes of proceedings.  Was there any method to alert them that corrective action had been taken to insert data or extra messages into a branch's accounts?
 
-**Anne Chambers**: If they had looked at all the PEAK calls for a branch, they might have seen those but I don't know if that was part of their process.  The OCR -- the ARQ data would contain the -- both the original transaction and the corrective transaction at the point at which they were done.
+**Anne Chambers**: If they had looked at all the PEAK calls for a branch, they might have seen those but I don't know if that was part of their process.  The OCR -- the :abbr:`ARQ (Audit Record Query)` data would contain the -- both the original transaction and the corrective transaction at the point at which they were done.
 
 If the full unfiltered data was retrieved and inspected, then that would show the comment, for example, that I mention was added in this one.  Certainly sometimes for counter corrections, and it wasn't done consistently, but often we might use a counter number that didn't exist to make it clear that it was something out of the ordinary, or a username, including SSC, again to show that it was something out of the ordinary.
 
@@ -766,7 +766,7 @@ So is that recording that by 12 December, the fix had been applied?
 
 "As detailed above, the two POLFS incomplete summaries ... have been resolved.
 
-"The counter problem which caused the first issue has been correct by inserting a message into the messagestore, for equal but opposite values/quantities, as agreed with POL ..."
+"The counter problem which caused the first issue has been correct by inserting a message into the messagestore, for equal but opposite values/quantities, as agreed with :abbr:`POL (Post Office Limited)` ..."
 
 Then you give the OCP reference.
 
@@ -776,7 +776,7 @@ Then you give the OCP reference.
 
 But then you say this:
 
-"Once the problem was corrected, there should have been no impact on the branch. However it has been noted that the stock unit of BDC had a loss of [£]1,000, which was generated after the correction was made.  We have already notified Gary Blackburn at POL (email attached). This appears to have been a genuine loss at the branch not a consequence of the problem or correction."
+"Once the problem was corrected, there should have been no impact on the branch. However it has been noted that the stock unit of BDC had a loss of [£]1,000, which was generated after the correction was made.  We have already notified Gary Blackburn at :abbr:`POL (Post Office Limited)` (email attached). This appears to have been a genuine loss at the branch not a consequence of the problem or correction."
 
 So by 12 December the corrective fix had been applied concerning a loss of $1,000.  After that correction had been effected, a stock unit showed loss of $1,000.  It was only generated after the correction was made and you're saying that this appears to be a genuine loss of the branch and nothing to do with the correction.
 
@@ -1486,7 +1486,7 @@ From Antonio Jamasb, a Post Office employee, the branch IT service manager, to S
 
 **Mr Beer**: Anyway, going back to the text of Mr Jamasb's email:
 
-"... I have a conference call on Monday with senior stakeholders within POL.
+"... I have a conference call on Monday with senior stakeholders within :abbr:`POL (Post Office Limited)`.
 
 "I need a full update for Receipts and Payments.
 
@@ -1524,7 +1524,7 @@ Can we go to -- scrolling up, please, Mr Salawu forwards it to some others withi
 
 Then scrolling up still further.  Mr Woolgar emails Messrs Simpkins and Jenkins:
 
-"... are you able to provide answers to the questions from POL ... yesterday?"
+"... are you able to provide answers to the questions from :abbr:`POL (Post Office Limited)` ... yesterday?"
 
 He will deal with the third one and then go to page 1, please.  Mr Jenkins reply, he adds Mark Wright in, who I think would have been your manager by then or team leader.
 
@@ -1534,7 +1534,7 @@ He will deal with the third one and then go to page 1, please.  Mr Jenkins reply
 
 "I think it is Mark from SSC that has been running with this rather than John.
 
-"Attached is an email he sent to POL with an update yesterday.  I think that addresses points 1 and 2 ...
+"Attached is an email he sent to :abbr:`POL (Post Office Limited)` with an update yesterday.  I think that addresses points 1 and 2 ...
 
 "As for point 4, then that is probably down to me.  In simple terms I don't think we can make such a statement."
 
@@ -2206,7 +2206,7 @@ Was that because the fix was then thought to be the S90 release?
 
 **Mr Beer**: Can we go forward to page 6, please.  In the middle of the page, 6 July at 11.47.27, you've written:
 
-"I've checked with Mike King; the BIMS report for this problem was sent to POL on [22 June] and should have result in an error notice being sent to the branch.  Mike says he will send a note to POL saying that the [postmaster] has been changing this issue; I've asked [the helpdesk] to inform the [postmaster] that they should have received an error notice and to check with the department that issues them.
+"I've checked with Mike King; the BIMS report for this problem was sent to :abbr:`POL (Post Office Limited)` on [22 June] and should have result in an error notice being sent to the branch.  Mike says he will send a note to POL saying that the [postmaster] has been changing this issue; I've asked [the helpdesk] to inform the [postmaster] that they should have received an error notice and to check with the department that issues them.
 
 "The corrected cash account that was sent still had a [receipts and payments] mismatch. The double Transfer In causes a mismatch both because of the transfer and because of the discrepancy which has been erroneously generated.  The host-calculated [cash account] ignores the transfer but is still affected by the accepted discrepancy which should not have been generated.  It is not really possible to provide a fully balanced [cash account] ..."
 
@@ -2228,7 +2228,7 @@ This is a chain of email correspondence on Callendar Square itself --
 
 **Anne Chambers**: Yes.
 
-**Mr Beer**: -- once the bug had seemingly been identified and discovered within the Post Office.  We should just set the context by starting at the foot of page 9 and on to page 10, with an email from Sandra MacKay of POL, to Brian Potter of POL.  This is just to set the context for what happens later in the chain.  Can you see -- I've said that's to Brian Potter.  If we just go up, it's Shaun Turner copied to Brian Potter.  Just trying to work out -- ah, yes.
+**Mr Beer**: -- once the bug had seemingly been identified and discovered within the Post Office.  We should just set the context by starting at the foot of page 9 and on to page 10, with an email from Sandra MacKay of :abbr:`POL (Post Office Limited)`, to Brian Potter of POL.  This is just to set the context for what happens later in the chain.  Can you see -- I've said that's to Brian Potter.  If we just go up, it's Shaun Turner copied to Brian Potter.  Just trying to work out -- ah, yes.
 
 Shaun says:
 
@@ -2270,7 +2270,7 @@ Could you, in a word or two, explain what S90 was?
 
 Please let me know if I can provide any other assistance ..."
 
-Then continue scrolling up, please, and again, please.  We can then see some passing, essentially back down the chain, of Liz Evans-Jones' reply within POL, yes?
+Then continue scrolling up, please, and again, please.  We can then see some passing, essentially back down the chain, of Liz Evans-Jones' reply within :abbr:`POL (Post Office Limited)`, yes?
 
 **Anne Chambers**: Yes.
 
@@ -2806,9 +2806,9 @@ Then we've got:
 
 "New evidence added -- PSStandard logs."
 
-Is "full message store" the equivalent of what became the ARQ data?
+Is "full message store" the equivalent of what became the :abbr:`ARQ (Audit Record Query)` data?
 
-**Anne Chambers**: No, it's not.  It would include all the ARQ data but it's the -- all the messages for the branch that were in existence on the day and time that I did the retrieval.  I'd have retrieved it from the copy of the message store that was held on the correspondence server centrally and so it's all the transaction messages and a lot of other messages that have been written in the last 42 days, it would have been at this point, plus all the reference data relating to the branch.  But the ARQ data is the same data but it's captured in a different way.
+**Anne Chambers**: No, it's not.  It would include all the :abbr:`ARQ (Audit Record Query)` data but it's the -- all the messages for the branch that were in existence on the day and time that I did the retrieval.  I'd have retrieved it from the copy of the message store that was held on the correspondence server centrally and so it's all the transaction messages and a lot of other messages that have been written in the last 42 days, it would have been at this point, plus all the reference data relating to the branch.  But the ARQ data is the same data but it's captured in a different way.
 
 **Ms Page**: That last bit you said is the bit I wanted to get at.  It is the same data, is it?
 
@@ -2816,9 +2816,9 @@ Is "full message store" the equivalent of what became the ARQ data?
 
 **Ms Page**: So that's the evidence that could be captured for a significant period of time afterwards and that was stored --
 
-**Anne Chambers**: The ARQ data files were kept for a significant amount of time.  The message store, some of the messages persisted, but others would be archived or deleted after 42 days.
+**Anne Chambers**: The :abbr:`ARQ (Audit Record Query)` data files were kept for a significant amount of time.  The message store, some of the messages persisted, but others would be archived or deleted after 42 days.
 
-**Ms Page**: All right, so it's not identical.  All right. Well, then, audit logs.  What is that?  Is that identical with ARQ or not?
+**Ms Page**: All right, so it's not identical.  All right. Well, then, audit logs.  What is that?  Is that identical with :abbr:`ARQ (Audit Record Query)` or not?
 
 **Anne Chambers**: No, this is the files that I had totally forgotten about until Mr Beer reminded me of their existence yesterday, I think it was, which were kept on the counters, were written on the counters, and contained a certain amount of diagnostic information written to the file by the counter application as things were done. I can't -- I've got very little recollection of precisely what that looked like.
 
@@ -2876,9 +2876,9 @@ Then there's the reference to the OCR again, and:
 
 So it looks as if it has been possible to apply this before rollover.
 
-I suppose the question that I'd like to ask is how would it be possible to see, on the ARQ data, what had happened here?
+I suppose the question that I'd like to ask is how would it be possible to see, on the :abbr:`ARQ (Audit Record Query)` data, what had happened here?
 
-**Anne Chambers**: Right.  In the ARQ data, you would see, when the initial problems were happening, the SAP -- stock adjust positive and stock adjust negative -- lines that related to where they were trying to adjust their stock of Postal Orders which they'd documented, and it was in there that the amounts got out of step in that one, for the Postal Order itself it was for a certain quantity, and for the fee it was for a different quantity.  So that's where the problem arose.
+**Anne Chambers**: Right.  In the :abbr:`ARQ (Audit Record Query)` data, you would see, when the initial problems were happening, the SAP -- stock adjust positive and stock adjust negative -- lines that related to where they were trying to adjust their stock of Postal Orders which they'd documented, and it was in there that the amounts got out of step in that one, for the Postal Order itself it was for a certain quantity, and for the fee it was for a different quantity.  So that's where the problem arose.
 
 And then, in the ARQ data for 11 July, you would see the transaction also affecting the postal -- presumably affecting the Postal Order fees product, which I'm guessing now, but I imagine was another stock amount -- stock adjust transaction for the difference that was wrong.  Whether there is anything on that individual message which, in the ARQ data, enables you to know that it was me who did it and not somebody at the branch, I do not now know, because I have got no record in this PEAK here of exactly what it was that I inserted.
 

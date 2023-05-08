@@ -683,7 +683,7 @@ Did you know, when you joined, that the quality of the EPOSS code, based on, as 
 
 **Anne Chambers**: I probably picked that up fairly quickly, yes. I don't think anybody ever told me that.
 
-**Mr Beer**: Was there any process of induction to say, for example, "This is Mr Jenkins, he's the chief designer/architect of, I don't know, the changes to POL's back end systems, that meant he works a lot with the counter application and the EPOSS code"?
+**Mr Beer**: Was there any process of induction to say, for example, "This is Mr Jenkins, he's the chief designer/architect of, I don't know, the changes to :abbr:`POL (Post Office Limited)`'s back end systems, that meant he works a lot with the counter application and the EPOSS code"?
 
 **Anne Chambers**: No, I --
 
@@ -779,7 +779,7 @@ Seven, the process of pacing an investigation around a single PEAK.
 
 Eight, looking at the Horizon Helpdesk role.
 
-Ninth, the use of ARQ data.
+Ninth, the use of :abbr:`ARQ (Audit Record Query)` data.
 
 Tenth, attributing a problem to user error.
 
@@ -795,13 +795,13 @@ Then you set out three bullet points.  So the first one, is that the branch data
 
 **Anne Chambers**: Yes, this is all the branch transaction data and various other messages that would be written to the message store as well and all the reference data for the branch.
 
-**Mr Beer**: Just now, for later on when I ask you questions, it's right, is it, that that that, could later be retrieved from an archive via Fujitsu Security and is referred to as the ARQ data?
+**Mr Beer**: Just now, for later on when I ask you questions, it's right, is it, that that that, could later be retrieved from an archive via Fujitsu Security and is referred to as the :abbr:`ARQ (Audit Record Query)` data?
 
 **Anne Chambers**: Yes.
 
 **Mr Beer**: Yes?  Is that a shorthand summary?
 
-**Anne Chambers**: Um, yes, I mean, the ARQ data could either contain the whole of the message store or -- well, it was a slightly -- I don't know how I can explain this without explaining a bit more about message stores and Riposte but you may not want to go into that now.
+**Anne Chambers**: Um, yes, I mean, the :abbr:`ARQ (Audit Record Query)` data could either contain the whole of the message store or -- well, it was a slightly -- I don't know how I can explain this without explaining a bit more about message stores and Riposte but you may not want to go into that now.
 
 **Mr Beer**: I probably don't, thank you.
 
@@ -811,7 +811,7 @@ Then you set out three bullet points.  So the first one, is that the branch data
 
 **Anne Chambers**: That data was all archived, yes.
 
-**Mr Beer**: Fujitsu Security could access it and a way of describing it is ARQ data?
+**Mr Beer**: Fujitsu Security could access it and a way of describing it is :abbr:`ARQ (Audit Record Query)` data?
 
 **Anne Chambers**: Yes.
 
@@ -853,7 +853,7 @@ Then you set out three bullet points.  So the first one, is that the branch data
 
 **Mr Beer**: You can't help us with what those back-up arrangements might have been?
 
-**Anne Chambers**: No, and I don't think that the stream of events, although it was there for monitoring, and in fact they were saved for posterity, they weren't sort of securely locked and audited in the way that the message store data that could then be retrieved via an ARQ request was locked and kept.
+**Anne Chambers**: No, and I don't think that the stream of events, although it was there for monitoring, and in fact they were saved for posterity, they weren't sort of securely locked and audited in the way that the message store data that could then be retrieved via an :abbr:`ARQ (Audit Record Query)` request was locked and kept.
 
 **Mr Beer**: That was my next question.  What processes were employed to ensure that the data on those two event logs was archived and maintained securely?
 
@@ -1259,7 +1259,7 @@ This is a series of emails that you became involved in, in 2006, concerning the 
 
 "Please forgive me if you are not the appropriate person to forward this email to.
 
-"I have been contacted again by the POL Service Line to obtain an update on progress on the current Horizon System performance issues.
+"I have been contacted again by the :abbr:`POL (Post Office Limited)` Service Line to obtain an update on progress on the current Horizon System performance issues.
 
 "One particular branch has been escalated to me [and then identity of the branch is given] and last rollover timings have been sent to me by Anne Chambers, see below:
 
@@ -1379,7 +1379,7 @@ But, in practice, it was having a big impact on branches, which I was well aware
 
 "The report should go into [Post Office] next week.  It'll then be up to them whether or not they want to pay us to do the work.  If they decide to go ahead, we're looking at a likely delivery date of first calendar quarter in 2007. That would give around 2 years of useful life before being overtaken by HNG-X.
 
-"I understand your frustration at having to deal with irate postmasters and having to tell them that the system is working to its spec.  We can only hope that POL do agree to funding this work, so that you then have something positive to say.
+"I understand your frustration at having to deal with irate postmasters and having to tell them that the system is working to its spec.  We can only hope that :abbr:`POL (Post Office Limited)` do agree to funding this work, so that you then have something positive to say.
 
 "I can't see much point 2nd and 3rd line support doing further investigation, when we now know what needs to be done to make a substantial improvement.  Please say, Gareth, if you disagree."
 
@@ -1863,7 +1863,7 @@ Was money adrift at this point?  Is that the right way to describe it?
 
 **Anne Chambers**: Well, it's a loss that the branch should not have been liable for.
 
-**Mr Beer**: "I am routing call [says Ms Obeng] to MSU to raise an Error Notice to inform POL of this incident.  Also please notify NBSC to contact the [postmaster] and advise him of this course of action."
+**Mr Beer**: "I am routing call [says Ms Obeng] to MSU to raise an Error Notice to inform :abbr:`POL (Post Office Limited)` of this incident.  Also please notify NBSC to contact the [postmaster] and advise him of this course of action."
 
 So we're now, I think, on 11 June, the incident having arisen on 3 June.
 
@@ -1893,7 +1893,7 @@ So we're now, I think, on 11 June, the incident having arisen on 3 June.
 
 **Anne Chambers**: The postmaster already knew about the incident because he had raised the call in the first place.
 
-**Mr Beer**: Yes.  Sorry, to inform POL of this incident:
+**Mr Beer**: Yes.  Sorry, to inform :abbr:`POL (Post Office Limited)` of this incident:
 
 "... please notify the NBSC to contact the [postmaster] and advise him of this course of action."
 
@@ -1911,7 +1911,7 @@ Yes?
 
 **Mr Beer**: Then if we look at the entry immediately below from Michael King:
 
-"Reconciliation data provided to POL. Routing back to EDSC, does this need to be routed to Escher for a fix?"
+"Reconciliation data provided to :abbr:`POL (Post Office Limited)`. Routing back to EDSC, does this need to be routed to Escher for a fix?"
 
 From this record, can you see whether any action had been taken to progress any fix by Fujitsu with Escher?
 
@@ -2317,15 +2317,15 @@ Many of the subpostmasters who gave evidence to us in Phase 1 of the Inquiry sai
 
 **Anne Chambers**: Yes.
 
-**Mr Beer**: We have heard described in the Inquiry a species of audit data called ARQ data?
+**Mr Beer**: We have heard described in the Inquiry a species of audit data called :abbr:`ARQ (Audit Record Query)` data?
 
 **Anne Chambers**: Yes.
 
-**Mr Beer**: What do you understand ARQ data to refer to?
+**Mr Beer**: What do you understand :abbr:`ARQ (Audit Record Query)` data to refer to?
 
-**Anne Chambers**: ARQ data was all the messages written on the branch counters, as they replicated to the data centre, were also streamed off into a large series of very, very large files, which were then, end of each day, can't quite remember, but in some way sort of securely locked and then could only be accessed again through the special audit systems.
+**Anne Chambers**: :abbr:`ARQ (Audit Record Query)` data was all the messages written on the branch counters, as they replicated to the data centre, were also streamed off into a large series of very, very large files, which were then, end of each day, can't quite remember, but in some way sort of securely locked and then could only be accessed again through the special audit systems.
 
-If an audit extract was requested by Post Office, they would have to say the branch that they wanted and the date range, and the standard information, I think, that POL got, Post Office got for one of these enquiries was -- well, it was two spreadsheets, it ended up as, and one was the transaction data messages and the other was the Riposte event messages.
+If an audit extract was requested by Post Office, they would have to say the branch that they wanted and the date range, and the standard information, I think, that :abbr:`POL (Post Office Limited)` got, Post Office got for one of these enquiries was -- well, it was two spreadsheets, it ended up as, and one was the transaction data messages and the other was the Riposte event messages.
 
 So they would be, I think, all in date order or it may still have been in the date as received at the data centre.  So it was a subset of the whole lot but it was all the transaction data.  It was also possible to get an unfiltered set, which would be all these messages in their entirety, and I --
 
@@ -2337,7 +2337,7 @@ So they would be, I think, all in date order or it may still have been in the da
 
 **Anne Chambers**: Yes, transaction data, Riposte events, that's log on/log off, those sort of things.  But it was possible to have the unfiltered set.
 
-**Mr Beer**: It's been suggested by some witnesses that the ARQ data equated to data that recorded every keystroke made by a subpostmaster in branch?
+**Mr Beer**: It's been suggested by some witnesses that the :abbr:`ARQ (Audit Record Query)` data equated to data that recorded every keystroke made by a subpostmaster in branch?
 
 **Anne Chambers**: That was never captured.
 
@@ -2347,9 +2347,9 @@ So they would be, I think, all in date order or it may still have been in the da
 
 **Mr Beer**: Where was that data stored?
 
-**Anne Chambers**: At what point?  Do you mean the ARQ data?
+**Anne Chambers**: At what point?  Do you mean the :abbr:`ARQ (Audit Record Query)` data?
 
-**Mr Beer**: Yes, the ARQ data?
+**Mr Beer**: Yes, the :abbr:`ARQ (Audit Record Query)` data?
 
 **Anne Chambers**: On secure servers somewhere.
 
@@ -2369,19 +2369,19 @@ So they would be, I think, all in date order or it may still have been in the da
 
 **Anne Chambers**: Yeah.
 
-**Mr Beer**: In those circumstances, couldn't you use the ARQ data?
+**Mr Beer**: In those circumstances, couldn't you use the :abbr:`ARQ (Audit Record Query)` data?
 
-**Anne Chambers**: No, because the ARQ data -- well, I'm not saying here that we couldn't see what had happened in the branch.  We could see from the message stores that we looked at the transactions messages being committed, and so on, and we could also see the extra messages that gave us some extra clues as to what had been going on sometimes.  But the ARQ data was just that, that same data that's stored in a different place.
+**Anne Chambers**: No, because the :abbr:`ARQ (Audit Record Query)` data -- well, I'm not saying here that we couldn't see what had happened in the branch.  We could see from the message stores that we looked at the transactions messages being committed, and so on, and we could also see the extra messages that gave us some extra clues as to what had been going on sometimes.  But the ARQ data was just that, that same data that's stored in a different place.
 
 **Mr Beer**: It wouldn't have shown you anything more at all?
 
 **Anne Chambers**: No.
 
-**Mr Beer**: So is that why you didn't obtain such data, ARQ data, when investigating what I'll call the simple or common or garden PEAK?
+**Mr Beer**: So is that why you didn't obtain such data, :abbr:`ARQ (Audit Record Query)` data, when investigating what I'll call the simple or common or garden PEAK?
 
-**Anne Chambers**: Yeah, there was no -- we felt there was no need to go to the ARQ data because we had the same information that we could get out of the message store on the correspondence servers.
+**Anne Chambers**: Yeah, there was no -- we felt there was no need to go to the :abbr:`ARQ (Audit Record Query)` data because we had the same information that we could get out of the message store on the correspondence servers.
 
-**Mr Beer**: So your view was that there was nothing additional in the ARQ data --
+**Mr Beer**: So your view was that there was nothing additional in the :abbr:`ARQ (Audit Record Query)` data --
 
 **Anne Chambers**: No.
 
@@ -2389,25 +2389,25 @@ So they would be, I think, all in date order or it may still have been in the da
 
 **Anne Chambers**: It was exactly the same data.
 
-**Mr Beer**: Was there a cost to obtaining the ARQ data?
+**Mr Beer**: Was there a cost to obtaining the :abbr:`ARQ (Audit Record Query)` data?
 
 **Anne Chambers**: Um, I believe it was something that Post Office were charged for or they had a certain number that they could ask for in a year.  But, above that, they had to pay.
 
-**Mr Beer**: Did that have any effect on the extent to which ARQ data was obtained?
+**Mr Beer**: Did that have any effect on the extent to which :abbr:`ARQ (Audit Record Query)` data was obtained?
 
 **Anne Chambers**: Not as far as I was concerned.  If I was investigating something that had happened a very long time ago and I needed to look at that old data, then I would ask for it and would get it. And I don't recall that anybody ever tried to charge me for it or suggested that I should be charged for it.
 
-**Mr Beer**: In what circumstances would you therefore obtain ARQ data?
+**Mr Beer**: In what circumstances would you therefore obtain :abbr:`ARQ (Audit Record Query)` data?
 
 **Anne Chambers**: If, for some reason, I was specifically asked to go and look at something that had happened some time -- a long time ago.  I can't now, except for one instance, remember doing it as -- it certainly wasn't something that was done as a matter of course, because normally, if something had happened a very long time ago, we wouldn't -- probably wouldn't be expecting to investigate it.
 
-**Mr Beer**: The one incident you can remember, is that because there may have been others that you've forgotten or it's likely that, in your 16 years, you only had cause to access ARQ data once?
+**Mr Beer**: The one incident you can remember, is that because there may have been others that you've forgotten or it's likely that, in your 16 years, you only had cause to access :abbr:`ARQ (Audit Record Query)` data once?
 
 **Anne Chambers**: I have a feeling it was more than once, but I can't -- it was possibly in relation to prosecutions, and so on, or some investigation that somebody wanted doing, but I cannot now remember much by way of detail.
 
 **Mr Beer**: Why would you access that data, rather than the data that you would habitually use in the case of a prosecution?
 
-**Anne Chambers**: Because it had -- well, that would be -- for anything that had happened more than a month, five weeks ago, you would have to go -- you wouldn't have any other sources of data, except the ARQ data.
+**Anne Chambers**: Because it had -- well, that would be -- for anything that had happened more than a month, five weeks ago, you would have to go -- you wouldn't have any other sources of data, except the :abbr:`ARQ (Audit Record Query)` data.
 
 **Mr Beer**: It was the only place you could find it?
 
