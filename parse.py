@@ -15,13 +15,9 @@ ACRONYMS = {
 }
 
 class Section(object):
-    object = None
-
-    def __init__(self, heading):
+    def __init__(self, heading, level=1):
         self.heading = heading
-
-    #def add_text(self, text):
-    #    self.heading += string.capwords(text.strip())
+        self.level = level
 
 class Speech(object):
     def __init__(self, speaker, text, speaker_display=None, typ=None):
@@ -92,7 +88,10 @@ def parse_transcripts():
                     if isinstance(speech, Speech):
                         out.write(parse_speech(speech))
                     elif isinstance(speech, Section):
-                        out.write(speech.heading + '\n' + '-' * len(speech.heading) + '\n\n')
+                        if speech.level == 1:
+                            out.write(speech.heading + '\n' + '-' * len(speech.heading) + '\n\n')
+                        elif speech.level == 2:
+                            out.write(speech.heading + '\n' + '^' * len(speech.heading) + '\n\n')
 
 def strip_line_numbers(text):
     page, num = 1, 1
@@ -215,6 +214,8 @@ def parse_transcript(url, text):
         # Questions
         m = re.match('(?:Further question|Question|Examin)(?:s|ed|) (?:from|by) (.*?)(?: \(continued\))?$', line.strip())
         if m:
+            yield speech
+            speech = Section( heading=string.capwords(line.strip()), level=2)
             interviewer = fix_name(m.group(1))
             continue
 
