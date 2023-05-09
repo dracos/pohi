@@ -1,0 +1,53 @@
+name: update-site
+run-name: Scrapes/parses for new Post Office Inquiry data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 9,12,15,18,21 * * 1-5'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Make data directory
+      run: mkdir data
+
+    - uses: actions/cache@v3
+      with:
+        path: data
+        key: data-${{ github.run_id }}
+        restore-keys: data
+
+    - name: Scrape transcript data
+      run: python scrape.py
+
+    - name: Parse transcript data
+      run: python parse.py
+
+    - name: Check if there are any changes
+      id: verify_diff
+      run: |
+        git add -N .
+        git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
+    - name: Commit
+      if: steps.verify_diff.outputs.changed == 'true'
+      run: |
+        git config --global user.name 'Matthew Somerville'
+        git config --global user.email 'dracos@users.noreply.github.com'
+        git commit -am "Data update."
+        git push
