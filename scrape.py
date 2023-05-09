@@ -6,7 +6,8 @@ import requests
 import requests_cache
 import urllib.parse
 
-requests_cache.install_cache(expire_after=86400*7)
+session = requests_cache.CachedSession(expire_after=86400*7)
+
 BASE = 'https://www.postofficehorizoninquiry.org.uk/hearings/listing'
 BASE_EVI = 'https://www.postofficehorizoninquiry.org.uk/evidence/all-evidence'
 
@@ -28,7 +29,7 @@ def fetch_hearing_page(item):
     date = datetime.datetime.strptime(item.time.text, '%d %B %Y').date()  # e.g. 25 November 2022
     desc = item.find(class_='hearing-item-body').text
     url = urllib.parse.urljoin(BASE, link)
-    r = requests.get(url)
+    r = session.get(url)
     soup = bs4.BeautifulSoup(r.content, "html.parser")
     txt_link = soup.find('span', class_='file--text')
     if txt_link:
@@ -36,7 +37,7 @@ def fetch_hearing_page(item):
         txt_note = txt_link.a.text
         print(date, txt_href)
         with open(f'data/{date}-{title}.txt', 'wb') as fp:
-            content = requests.get(txt_href).content
+            content = session.get(txt_href).content
             content = re.sub(b'\r\n', b'\n', content)
             content = re.sub(b'\n\n', b'\n', content)
             fp.write(content)
@@ -59,7 +60,7 @@ def fetch_evidence():
 def fetch_evidence_page(item):
     link = item.h2.a['href']
     url = urllib.parse.urljoin(BASE_EVI, link)
-    r = requests.get(url)
+    r = session.get(url)
     soup = bs4.BeautifulSoup(r.content, "html.parser")
     data = []
     for link in soup.find_all('span', class_='file'):
