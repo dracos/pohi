@@ -12,17 +12,20 @@ session = requests_cache.CachedSession(expire_after=86400*7)
 BASE = 'https://www.postofficehorizoninquiry.org.uk/hearings/listing'
 BASE_EVI = 'https://www.postofficehorizoninquiry.org.uk/evidence/all-evidence'
 
-def fetch_hearings():
-    url = BASE
+def fetch_list(base, cls, fn):
+    url = base
     while True:
         r = requests.get(url)
         soup = bs4.BeautifulSoup(r.content, "html.parser")
-        for item in soup.find_all('div', class_='hearing-item-wrapper'):
-            fetch_hearing_page(item)
+        for item in soup.find_all('div', class_=cls):
+            fn(item)
         n = soup.find('a', rel='next')
         if not n:
             break
-        url = BASE + n.get('href')
+        url = base + n.get('href')
+
+def fetch_hearings():
+    fetch_list(BASE, 'hearing-item-wrapper', fetch_hearing_page)
 
 def fetch_hearing_page(item):
     link = item.h2.a['href']
@@ -47,23 +50,11 @@ def fetch_hearing_page(item):
 EVIDENCE = {}
 def load_evidence():
     if os.path.exists('data/evidence.json'):
-        evidence = json.load(open('data/evidence.json'))
-        for url, href, note in evidence:
-            EVIDENCE.setdefault(url, []).append((url, href, note))
+        EVIDENCE.update(json.load(open('data/evidence.json')))
 
 def fetch_evidence():
-    url = BASE_EVI
-    evidence = []
-    while True:
-        r = requests.get(url)
-        soup = bs4.BeautifulSoup(r.content, "html.parser")
-        for item in soup.find_all('div', class_='evidence-item-wrapper'):
-            evidence.extend(fetch_evidence_page(item))
-        n = soup.find('a', rel='next')
-        if not n:
-            break
-        url = BASE_EVI + n.get('href')
-    json.dump(evidence, open('data/evidence.json', 'w'), indent=2)
+    fetch_list(BASE_EVI, 'evidence-item-wrapper', fetch_evidence_page)
+    json.dump(EVIDENCE, open('data/evidence.json', 'w'), indent=2)
 
 def fetch_evidence_page(item):
     link = item.h2.a['href']
@@ -72,14 +63,12 @@ def fetch_evidence_page(item):
         return EVIDENCE[url]
     r = session.get(url)
     soup = bs4.BeautifulSoup(r.content, "html.parser")
-    data = []
     for link in soup.find_all('span', class_='file'):
-        href = urllib.parse.urljoin(BASE_EVI, link.a['href'])
+        #href = urllib.parse.urljoin(BASE_EVI, link.a['href'])
         note = link.a.text
         print(url, note)
-        data.append((url, href, note))
-    return data
+        EVIDENCE.setdefault(url, []).append(note)
 
-fetch_hearings()
 load_evidence()
+fetch_hearings()
 fetch_evidence()
