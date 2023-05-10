@@ -35,9 +35,10 @@ class Speech(object):
 EVIDENCE = {}
 def load_evidence():
     evidence = json.load(open('data/evidence.json'))
-    for url, file, name in evidence:
-        if m := re.match('[A-Z]{3}[A-Z0-9]+', name):
-            EVIDENCE[m.group()] = url
+    for url, data in evidence.items():
+        for name in data:
+            if m := re.match('[A-Z]{3}[A-Z0-9]+', name):
+                EVIDENCE[m.group()] = url
 
 def parse_speech(speech):
     text = '\n\n'.join([' '.join(s) for s in speech.text])
