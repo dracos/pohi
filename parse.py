@@ -81,7 +81,10 @@ def parse_transcripts():
             outfile = f'{date}'
 
         with open(f, 'r', encoding='iso-8859-15') as fp:
-            print(f"PARSING {f} to {outfile}, {title}")
+            if os.path.exists(f'{outfile}.rst'):
+                print(f"Reparsing {f}")
+            else:
+                print(f"\033[31mPARSING {f}\033[0m")
             with open(f'{outfile}.rst', 'w') as out:
                 out.write(title + '\n' + '=' * len(title) + '\n\n')
                 for speech in parse_transcript(f, fp):
