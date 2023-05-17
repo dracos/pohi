@@ -216,7 +216,7 @@ def parse_transcript(url, text):
             continue
 
         # Questions
-        m = re.match('(?:Further question|Question|Examin)(?:s|ed|) (?:from|by) (.*?)(?: \(continued\))?$', line.strip())
+        m = re.match('(?:Further question|Question|Examin)(?:s|ed) (?:from|by) (.*?)(?: \(continued\))?$', line.strip())
         if m:
             yield speech
             speech = Section( heading=string.capwords(line.strip()), level=2)
