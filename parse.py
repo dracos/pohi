@@ -224,7 +224,7 @@ def parse_transcript(url, text):
             continue
 
         # Headings
-        m = re.match('Focus Group Session [34]$|Housekeeping$|Opening statement by [A-Z ]*(?:, QC)?(?: \(continued\))?$|[A-Z ]*$|Announcements by [A-Z ]*$|(Further s|S)ubmissions? by [A-Z ]*(?:, QC)?$', line.strip())
+        m = re.match('Focus Group Session [34]$|Housekeeping$|((Opening|Closing) s|S)tatement by [A-Z ]*(?:, QC)?(?: \(continued\))?$|[A-Z ]*$|Announcements by [A-Z ]*$|(Further s|S)ubmissions? by [A-Z ]*(?:, QC)?$', line.strip())
         if m:
             yield speech
             speech = Section( heading=string.capwords(line.strip()).replace('Qc', 'QC') )
