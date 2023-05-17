@@ -1,0 +1,1547 @@
+17 May 2023
+===========
+
+*(10.30 am)*
+
+**Mr Blake**: Good morning, sir.
+
+**Sir Wyn Williams**: Good morning.
+
+**Mr Blake**: Sir, this morning we have Mr Finch and Mr Coleman.
+
+**Sir Wyn Williams**: Yes.  I think before we call some evidence, I propose to say something about a sad death which has occurred quite recently.
+
+**Mr Blake**: Certainly.
+
+**Sir Wyn Williams**: As I've already indicated, it's my sad duty to announce that on 10 May -- so last Wednesday -- Mrs Veronica Maye passed away in hospital.  Mrs Maye was the wife of a former subpostmaster, Mr Francis Maye, who is a Core Participant in the Inquiry represented by Howe+Co and, as I understand it, one of their clients who has taken a very keen interest in the work of the Inquiry.
+
+Mrs Maye was aged 67, she had suffered ill health for some years.  Despite that, she had provided very significant support to Mr Maye in relation to his claims for compensation, both in relation to the Group Litigation and in his communications with his solicitors at this Inquiry.
+
+On behalf of the whole Inquiry team and on my own behalf, I extend our deepest sympathies to Mr Maye and family and friends of Mrs Maye.  As I've indicated, Mr Maye was a claimant in the Group Litigation and he has made a claim for further compensation in the Group Litigation scheme.  My understanding of the current position is that he has received an interim payment but that at least some of that payment was immediately paid over to his trustee in bankruptcy.  Thank you Mr Blake. Over to you.
+
+**Mr Blake**: Thank you very much.  Sir, Mr Finch will be giving evidence first.  His evidence will be quite brief but we will take taking a short break in order to arrange for Mr Coleman to come into the room and to make other arrangements.  Thank you, sir.
+
+I am going to begin by calling Mr Finch.
+
+Alvin Finch
+-----------
+
+*ALVIN EDWIN FINCH (sworn).*
+
+Questioned By Mr Blake
+^^^^^^^^^^^^^^^^^^^^^^
+
+**Mr Blake**: Thank you.  Can you give your full name, please.
+
+**Alvin Finch**: Alvin Edwin Finch.
+
+**Mr Blake**: Mr Finch, you should have in front of you a witness statement dated 10 March 2023.
+
+**Alvin Finch**: Yes.
+
+**Mr Blake**: If I could ask you to look at that statement and turn to the final page, page 6 of 6, is that your signature?
+
+**Alvin Finch**: That is.
+
+**Mr Blake**: Can you confirm that that statement is true to the best of your knowledge and belief?
+
+**Alvin Finch**: It is.
+
+**Mr Blake**: Thank you Mr Finch.  As I said, your evidence is going to be quite brief today.  Thank you very much for attending the Inquiry to give that evidence.
+
+By way of background, you joined Fujitsu's SSC in about 2004; is that right?
+
+**Alvin Finch**: Yes.
+
+**Mr Blake**: You only worked there for a few months?
+
+**Alvin Finch**: Yes.
+
+**Mr Blake**: What was the nature of your job over those few months?
+
+**Alvin Finch**: Well, I was in training to go forward and do further support work there.  So I was going round different sections, picking up different details from different parts of the system, whether it be hardware or software.
+
+**Mr Blake**: In those few months, what do you recall of the approach taken to fixing bugs, errors and defects in Horizon?
+
+**Alvin Finch**: Well, I didn't get to actually fixing anything myself but some of the system struck me as odd, in that when the hardware came in it was so locked out they had to use hacking tools to get into it, and there was one particular fellow who was going through some of the overnight comms stuff where it seemed like where these overnight comms were happening he got some tools. Unfortunately, I fell out with this fellow and I'm trying to remember the rest of it.
+
+I mean, at the time, the way I was doing -- or the way he got these things organised to fix comms problems reminded me a bit of my time at Marconi with paper tape, where you're fixing a parity problem rather than fixing the actual problem that was there.  But it kind of felt like that and people were rushing to get things done within the system.
+
+**Mr Blake**: If I could just stop you there.
+
+**Alvin Finch**: It was awkward.
+
+**Mr Blake**: When you refer to "overnight comms" is that phone calls from the --
+
+**Alvin Finch**: Well, in -- the way the system was communicating across the network.  I'm very hazy about what particular bit was there.  I remember there was a couple of different computer systems there.  There was error reports coming up where they had to be kind of sorted out afterwards. But I'm afraid I can't --
+
+**Mr Blake**: That's fine.  The analogy you have used is putting pieces of paper over a problem.
+
+**Alvin Finch**: Well, once upon a time, when I was at Marconi, everything was paper tape and the -- when you read the paper tape through the system, occasionally it would stall and you get a junior programme and go "Oh, just a parity error again", punch a hole in there to put the parity right.  That was wrong.  You need to go back to see what the character could be there to get the character back.  You could fix the symptom but not the problem.
+
+**Mr Blake**: Thank you very much.  I am just going to take you to two passages in your witness statement and see if you are able to expand on that.
+
+Could I ask you, you do speak quite quickly, if you are able to slow down for the purpose of the transcriber that would be very helpful.
+
+**Alvin Finch**: Sorry.
+
+**Mr Blake**: Thank you.
+
+It's paragraph 29 of your witness statement.  That is `WITN08060100 <https://www.postofficehorizoninquiry.org.uk/evidence/alvin-finch-17-may-2023>`_.  It's page 5 of that document.  It's been brought up on screen.  You say:
+
+"I have been asked if I ever felt under pressure to avoid finding bugs, errors and defects in the Horizon IT software.  It certainly seemed like that.  The approach was to keep everything going rather than reporting back.  There seemed to be pressure to get a fix in and keep going."
+
+Are you able to expand on that at all?
+
+**Alvin Finch**: Well, certainly there was some sort of, like, rah-rah meetings, where we were told about the huge pressure that was on Fujitsu to keep this going and the thousands or millions that could be lost if we weren't keeping the job up to scratch and that we needed to be maybe working all hours to keep the thing going and avoid any kind of penalty clauses.
+
+**Mr Blake**: We heard from Mik Peach yesterday and he said that the generation of code fixes wasn't visible to somebody at your level.  Do you have any comments on that at all?
+
+**Alvin Finch**: I didn't really see any code that would be dealt with elsewhere.  I was looking at the general overall workings of the system, system functions, rather than actual code.
+
+**Mr Blake**: Would you be able to comment on longer term plans from Fujitsu to correct bugs, errors and defects?
+
+**Alvin Finch**: No.  I was only there a few months.
+
+**Mr Blake**: From the position that you were in, it was your view that there was pressure to get a fix and keep going?
+
+**Alvin Finch**: Yes.
+
+**Mr Blake**: Moving on to paragraph 30, just below, you say:
+
+"I have been asked whether any pressure was placed upon me or colleagues not to pass information to Post Office in relation to potential bugs, errors and defects within the Horizon IT System.  I don't know, but the protocol was that we kept it confidential within the system."
+
+Can you help us with what you mean there by "the protocol"?
+
+**Alvin Finch**: Well, it felt aspect bit like the Official Secrets Act, where you don't pass anything on to -- say anything to any customer or mention anything to anybody within the Post Office, not that I would, at that time, come into contact with anybody in the Post Office but not to communicate any sort of anything inside the company to any Post Office employees.
+
+**Mr Blake**: Where was that coming from?  Was it a culture?  Was it an individual?
+
+**Alvin Finch**: I would say it was a culture, really.
+
+**Mr Blake**: Did anyone ever say anything to you in that respect or was it just a feeling that you had?
+
+**Alvin Finch**: Well, there's one guy in particular that I fell out with.  That was pressure from him, in particular. I think possibly he was very pressured himself, so ...
+
+**Mr Blake**: Do you remember his name at all?
+
+**Alvin Finch**: No.
+
+**Mr Blake**: What did he tell you about keeping things confidential?
+
+**Alvin Finch**: Just basically what it says there, that nothing goes out of the building.
+
+**Mr Blake**: Can you tell us why you left the SSC?
+
+**Alvin Finch**: There was one particular person I felt that -- I had sort of arguments with him about how things were fixed in a way or -- I say "arguments" -- discussions.  There was possibly a personality clash as well.
+
+The whole -- the culture just didn't feel right to me.  Some of the people I went round, who were fixing different bits of the system, seemed to me a little like -- a little bit like technological dinosaurs. I mean, the rest of the world was kind of emerging into new systems and we were back -- I mean, that was back in X.25.  Everything then was moving forwards to TCP/IP, et cetera.  I don't know.  It just -- it didn't seem to be a feeling of any innovation going on somehow.
+
+**Mr Blake**: Thank you, Mr Finch.  I said I will be brief. Those are all my questions.  I don't believe that anybody has any other questions, so thank you very much for coming to give evidence.
+
+**Sir Wyn Williams**: Mr Finch, I too want to thank you for making a witness statement and for coming to give evidence.  It was short and sweet but, nonetheless, it touched upon matters which we are considering with care. Thank you.
+
+**Alvin Finch**: Thank you.
+
+**Mr Blake**: Thank you, sir.  Can we take a ten-minute break, and then we'll bring Mr Coleman in.
+
+**Sir Wyn Williams**: All right.  So that's 10.50.  Fine.
+
+**Mr Blake**: Thank you very much.
+
+*(10.41 am)*
+
+*(A short break)*
+
+*(10.51 am)*
+
+**Mr Blake**: Thank you, chair.  Can I please call Mr Coleman.
+
+**Sir Wyn Williams**: Yes, of course.
+
+Richard Coleman
+---------------
+
+*RICHARD COLEMAN (affirmed).*
+
+Questioned By Mr Blake
+^^^^^^^^^^^^^^^^^^^^^^
+
+**Mr Blake**: Thank you.  Can you give your full name, please?
+
+**Richard Coleman**: Richard Ian Coleman.
+
+**Mr Blake**: Thank you very much, Mr Coleman.  You should have in front of you a witness statement dated 16 March 2023?
+
+**Richard Coleman**: I do, yes.
+
+**Mr Blake**: Can I ask you to have a look at the final page, page 11.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Can you confirm that that's your signature?
+
+**Richard Coleman**: It is, yes.
+
+**Mr Blake**: Can you confirm that that statement is true to the best of your knowledge and belief?
+
+**Richard Coleman**: It is, yes.
+
+**Mr Blake**: Thank you very much, Mr Coleman, for coming to give your evidence today.  I'm going to start by asking you a little bit about your background.  You joined ICL in 1990; is that right?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: And you worked as a hardware engineer until June 1998?
+
+**Richard Coleman**: Correct, yes.
+
+**Mr Blake**: Then you transferred to the SSC and worked there until 2005; is that right?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Thank you.  You worked under Mik Peach, who we heard from yesterday; is that right?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Then after leaving Fujitsu you trained to become a Minister of Religion in the Church of England?
+
+**Richard Coleman**: I did.
+
+**Mr Blake**: That's the role that you currently have?
+
+**Richard Coleman**: It is, yes.
+
+**Mr Blake**: I'm going to ask you about your role in the SSC.  Can you briefly tell us what that role involved.
+
+**Richard Coleman**: Just a technician.  So calls would come in from postmasters and other sort of systems that we had.  So calls would be raised.  I would then sort of investigate those and then, if there was a software error, send that on to development for them to sort of fix and then -- yes, so my role was sort of gathering the evidence required to determine that and then to sort of try and fix it.
+
+**Mr Blake**: Did you have a particular area of focus?
+
+**Richard Coleman**: Yes.  There were two databases to do with the configuration of the Post Office and the counters.  So ACDB and OCMS I think it was.  So they were my particular areas of responsibility.
+
+**Mr Blake**: Barbara Longley's evidence was different people had different interests; is that right?
+
+**Richard Coleman**: Yes.  So one of the things that Mik wanted was to sort of have people who had particular responsibilities with different areas, different systems that we had and then for -- so you would become the sort of expert on that particular area and then it was down to you to sort of spread that knowledge within the SSC, so that everybody could at least handle any call that came in to the SSC.
+
+**Mr Blake**: Were the formal ways of doing that spreading of knowledge or was it more informal?
+
+**Richard Coleman**: I mean, I suppose the formal ways would be we would be required to write documentation for the SSC to use.  So, I mean, I can recall writing stuff -- documentation on the ACDB, for example, detailing how it worked, what to do if we couldn't use the automated systems.  So the ACDB would generate various files overnight at different times and they would then be processed by other systems. So if we couldn't use the automated systems, it would be down to us to sort of create those files manually for whatever reason and for them to be then processed by other systems as required.
+
+So there was formal documentation in that regard but it was also a case of just mentoring other people within the SSC on those systems.  So part of my role, there was a daily -- there were daily -- so I had a daily job that I had to do each morning, checking the output of the ACDB and OCMS to see whether there was any errors and, if there were, to sort of then sort those out.  So I trained, I don't know, a handful of people on being able to do that role as well, so when I'm on holiday or sick, or whatever, they could then take over.
+
+**Mr Blake**: I want to look at one part of your witness statement that's `WITN06470100 <https://www.postofficehorizoninquiry.org.uk/evidence/richard-coleman-17-may-2023>`_.  Thank you.  Can we turn to page 7, paragraph 22.  About halfway down that paragraph you say:
+
+"I do not recall being involved in the investigation of calls to do with the branch accounts as there were others, such as Anne Chambers and John Simpkins, who tended to handle those types of calls."
+
+Can you tell us why they were chosen or why, in your view, they were the ones who were handling those types of calls?
+
+**Richard Coleman**: I think Anne joined after I had but John had been there for a number of years before I joined.  So he was one of the people that sort of I would go to.  So if I had something that I didn't quite understand, wasn't sure what was going on, John has one of the people that I would have gone to for, you know, "What do you think", kind of thing.  We'd have a conversation about that.
+
+Anne seemed to just get into this sort of EPOSS-type calls.  So that would, again -- so she -- whether Mik had given her that responsibility as sort of that would be her area of expertise or not, I don't know, but she would be one of the people that, yes, again, if I got an EPOSS call, it would be, yes, probably Anne or perhaps Diane, she was another one, that I would have gone to for that.
+
+**Mr Blake**: Can you give Diane's full name?
+
+**Richard Coleman**: Diane Rowe.
+
+**Mr Blake**: Another name that we will come across in due course is Gareth Jenkins.  Can you tell us what kind of issues you may have discussed with Gareth Jenkins?
+
+**Richard Coleman**: I'm not aware of discussing anything with Gareth. I think I simply understood that he was just part of the development team.
+
+**Mr Blake**: So when you see yourself and Mr Jenkins on a log, on a PinICL or a PEAK, for example, you wouldn't have had direct discussions.  That would just be entries on the log, would it?
+
+**Richard Coleman**: Yes, as far as I can recall.  I don't recall ever speaking to Gareth personally about an issue, so ...
+
+**Mr Blake**: What did you understand about his particular expertise?
+
+**Richard Coleman**: I didn't.  I just thought he was just part of the development team.
+
+**Mr Blake**: Thank you.  Can we look at POL00029012, please.  This is a witness statement from the Bates and Others litigation and it's page 13 I'd just like to ask you briefly about. There are a few topics that I'm going to take you to. They are just miscellaneous topics in order for you to assist the Inquiry with its understanding of your role.
+
+It's paragraph 47.  We have there a reference to "support tools" that are used:
+
+"... to filter information and present information to technicians in ways that make the support process easier."
+
+There's a reference to a Smiley support tool and another tool, which it is said that you were involved in.  Can you briefly tell us what those two different tools were aimed at doing and your involvement in them?
+
+**Richard Coleman**: I mean, the tool that I wrote was called "SSC FAD INFO" and John and I had obviously had -- about the same time had the thought of, oh, it would be useful to have some sort of graphical application that we could use to extract information from the various systems and present it sort of in a single window, you know, which would obviously help us with diagnosing.
+
+So there was a lot of overlap between our two programs because we developed them at the same time, unaware that the other person was doing so.  Yes, and, I think, as Steve says, my tool was ultimately -- what it did that was perhaps different from John's and I can't remember what those things were but that was then subsumed into John's program.  So it was just a way -- because normally we would access the information that we needed on the various systems through a command prompt.  So you're having to type long command lines in.  So, obviously, having a Windows application on your computer made it a lot easier to see that information all together.
+
+**Mr Blake**: What information was it that you were seeing, using your tool?
+
+**Richard Coleman**: Whatever we could -- well, whatever we felt was useful to us within the SSC.  So there were various databases that held information and so our programs would just construct an SQL query to extract that information and then present it on the screen.  So part of that would be messages stores as well.
+
+**Mr Blake**: I'm going to take you to another document.  This one is going to be slightly out of order.  It's FUJ00039673. I wonder if you can assist us with this because I think it may be related to the tool that you built or it may not be.  It's a PinICL and there's a reconciliation issue.
+
+If we have a look, please, at page 3 it's a very early PinICL, I should say.  It's 1999, so before the national rollout.  If you look at page 3, about halfway down, it has your name and a large number of entries that say, "New evidence added" and gives FAD codes.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Then if we keep on scrolling down it's page 8 near the bottom.  It has a reference to "evidence deleted" and has FAD codes and all of the entries after that for the entire page say "evidence deleted".  Then over the page, to page 10, at the top it says:
+
+"Emailed John Newitt with regard to freeing disk space."
+
+Are you able to assist, is that linked to the tool?  Is it something else?  Are you able to put it in as simple terms as possible what the issue is there?
+
+**Richard Coleman**: Yes.  So I would probably have used my SSC FAD INFO program to extract the message stores for all of those FAD codes listed.  They would be compressed into a zip file and then I would simply have added them onto the call, as you saw on page 4, I think.
+
+**Mr Blake**: Where it says "deleted", "evidence deleted", can you tell us what that means and is that anything we should be concerned about?
+
+**Richard Coleman**: If you scroll back a page, back to page 8, 15.40, I've put an entry saying that once closure has been agreed then we will delete those files.  I don't recall who John Newitt was but I think that the only reason we wouldn't have kept those, that we deleted them, was that they would take up an awful lot of space, even as compressed zip files, so hence my note there about so he can free up the disk space on his server.  So, as I say, I don't know what server that would have been.
+
+But we wouldn't need to keep those and I suspect probably it's taking up space within the PinICL system and, as I say, they would be large files and we wouldn't need to actually keep them with the PinICL call because if we needed to go back to those FAD codes and get that evidence again then we just go back to the FAD code and extract it from the message store.
+
+**Mr Blake**: So typically what would it be that was being deleted from the PinICL here?
+
+**Richard Coleman**: It would be the zip files that we were -- so, yes, the zip file of the message store that I would have attached as evidence for development, and then to give the information to MSU, I think, by the looks of it, for them to let POCL know whatever they needed to know about those transactions.  So, as it says then at 11.50, with John Moran "Okay to close as per Martin Box from POCL". So once the reconciliation has been done we don't need to keep that evidence with the actual PinICL itself because it's just taking up dead space on that.
+
+**Mr Blake**: If I was looking at this some way down the line, would that now hinder my ability to understand what's going on?
+
+**Richard Coleman**: No, because you just go back to the message store and extract the messages again.
+
+**Mr Blake**: So it hasn't deleted any messages?  All it's done is remove them from the PinICL and you need to see them both together to probably understand it.
+
+**Richard Coleman**: Yes, the messages would be untouched on the correspondent servers.
+
+**Mr Blake**: Thank you.  I'm going to take you to a few different PinICLs.  I'm going to start with FUJ00032293, please.
+
+This is again an early PinICL.  It's from 1999, November 1999, so before the full national rollout.  If we look at the third entry, there's a customer call. He's been experiencing a lot of problems with the system.  It has there:
+
+"Advice: PM thinks this definitely a system problem and would like it investigated."
+
+It's A further piece of advice that isn't highlighted.  It's three rows down.  Thank you very much.
+
+If we go over the page, we have Barbara Longley there at 13.19.32, saying that this is an EPOSS desktop issue; is that correct?
+
+**Richard Coleman**: Yes.  Yes, she's added the product EPOSS & DeskTop, yes.
+
+**Mr Blake**: Then you become involved.  Why would you become involved at this stage?
+
+**Richard Coleman**: We had a sort of -- there was an admin role that SSC people did.  Barbara wasn't technical, she was just -- I wouldn't say just an administrator but she was the administrator.  She wasn't technical.  So we had this role that each person in the SSC would do.  So we had a rota.  So each day one of us would do what we call a pre-scan.  So we would take a look at the call as -- once Barbara's done her admin on that and then we could do a bit more admin because we had a sort of technical understanding.
+
+In one of these PinICLs, Diane Rowe, as a pre-scanner sends her call back with insufficient evidence.  So she's obviously had a quick look and gone "We haven't got enough evidence, I can see that straight away, so send it straight back".  So that's what I'm doing here.
+
+Then -- because originally when I did my witness statement, originally I thought we did the pre-scan once Barbara had retired but, clearly, that's obviously not the case and I thought -- because I thought it was Barbara who would then assign the calls to the various team members but, clearly, I'm doing that as the pre-scan.
+
+**Mr Blake**: So a pre-scan would involve somebody in the team that had better technical knowledge that Barbara Longley; is that right?
+
+**Richard Coleman**: Yes, an administrative kind of role but using your technical expertise.
+
+**Mr Blake**: This subpostmaster has called in experiencing problems and considers that it's a system problem.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Your entry here is "Defect cause updated to 40: General -- User".  Can you assist us with what that meant?
+
+**Richard Coleman**: Yes, when I looked at this call when it was sent to me, I noticed that and thought "Now, why have I done that", not why have I set it to user but why have I set it at all?  Because a defect call is -- you can only determine once you've done your investigation and I haven't done investigation on this.  I've assigned it to Mike and he's do the investigation.
+
+So the only thing I can think is that we would have a sort of whatever procedure we had for the pre-scan, that we had to make sure that possibly every field in PinICL had something set to it.
+
+**Mr Blake**: So might "User" have been essentially used as a default setting in the absence of any other information?
+
+**Richard Coleman**: I couldn't say whether that was a default.  I'd be very surprised if that was a default.  I mean, I can't recall what options I would have had under "defect cause" but I know in one of the other PinICLs somebody had set it to "unknown".  So if you're going to go for a default, I would have thought it would be something like "unknown".
+
+So I mean, as far as I can think, that it's simply a case of using your best guess.  If you've got to set something, try and set it to something that you think is appropriate.
+
+**Mr Blake**: In this case attributing it to user that means user error in essence?
+
+**Richard Coleman**: A potential user error, yes.
+
+**Mr Blake**: Thank you.
+
+**Richard Coleman**: What I'm not sure, I'm not sure whether that "defect cause" gets sent back to PinICL -- sorry, PowerHelp, not PinICL.  So I think that is a PinICL-only entry.  So it would not have gone back to PowerHelp.  So SMC and HSH, I don't think, would have seen that.  They would have seen the category that we close it as which could be very different from what we think the sort of defect cause is.
+
+**Mr Blake**: But might the defect cause be something that is discussed with those who are communicating directly with the subpostmasters?  It doesn't have to be in this case but, in general, to the best of your recollection, if you had marked something as "user error", for example, might that have been communicated to the Helpdesk?
+
+**Richard Coleman**: No, I don't think so.  I mean, I'd be surprised if Mike paid any attention to that at this stage because he's got to investigate, he's got to look and see, yes, is there a system -- the PM is saying there's a system error, so we need to proceed on that basis -- or, sorry, Mike needs to proceed on that basis.  So I doubt he'd have paid any attention to that and he would have -- I mean, I know with this call it did turn out to be user error but if he then thought, "Well, no, it's not, it's a code error", then he would have changed that when he closed the actual call.
+
+That's actually when that defect cause comes into effect, if you like, that becomes -- at the moment it's sort of irrelevant.
+
+**Mr Blake**: Mike was the engineer fixing the issue?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: He would have seen when he logged on to the system for the first time that that defect cause had been attributed to it, whether he read something into it or not?
+
+**Richard Coleman**: Yes, he would have seen that, yes.
+
+**Mr Blake**: Can we go to page 4, please.  About halfway down this page, you have information there:
+
+"I have spoken to the PM, who is still having problems with his cash account (a shortage of £70,000 this week).  Continuing investigation."
+
+If we look lower down on that page:
+
+"Repeat call: Caller has rung back, he is very agitated as he keeps having problems with the system when balancing.  He thinks it is a system problem. Voiced Barbara Longley."
+
+If we go over the page, please -- sorry, if we could stay on page 4, the words that I didn't read out there was "Repeat call: Caller has rung back, he is very agitated as he keeps having problems with the system ..."
+
+Can you assist us at all, did you get a sense working on the SSC of the Human Impact that these kinds of issues were having on users, customers?
+
+**Richard Coleman**: Yes, because, obviously, when you ring the PM, one of the things that -- you know, they want or they need their system, their cash account to balance and if it's not -- then, yes.  So yes, we would be aware that, you know, the postmasters were getting stressed, you know, by using the system and it's not doing what they felt it should be doing or giving them the information that they thought should be there.
+
+**Mr Blake**: How common was that?  Was that a daily occurrence where users were getting stressed, weekly?
+
+**Richard Coleman**: Don't know.  Can't answer that.
+
+**Mr Blake**: If we go over the page again this is 1999 so the early days of Horizon:
+
+"NBSC have stated there are no [that's Horizon Field Support Officers] available to help this PM.  At present he does not have enough knowledge of the system for SSC/HSH to advise him.  He requires on-site training and until this is provided by POCL SSC are unable to help him."
+
+This brings us back to really where we started in this phase.  Did you have any concerns about the training that was provided to subpostmasters?
+
+**Richard Coleman**: I had nothing to do with the training for subpostmasters, so I've no idea what training they received.
+
+**Mr Blake**: Having received calls like this or read logs like this, did you have, at the time, any concerns about the training?
+
+**Richard Coleman**: Not that I recall.
+
+**Mr Blake**: Can we please look at FUJ00072297, please.  This is another early log.  This time it's written in a PEAK and that's in August 2000.  The issue that's raised here is a receipts and payments mismatch.  If we can look at the first entry, please, it describes the issue.  It says that there's a receipts total and it gives a figure and a payments total and it gives another figure, and there's a difference:
+
+"This office earlier raised a query because a transfer for an amount ... seemed to have gone missing.  The amount of the transfer is exactly half the amount of the difference between the receipts and payments."
+
+If we look down we have Barbara Longley there referring to it in the call summary as a receipts and payments mismatch.  Then we have again yourself at 12.17, and it says:
+
+"The call record has been assigned to the Team Member: Steve Squires.  Defect cause updated to 40: General -- User."
+
+Again, that's something we saw earlier the reference to something being a user error, at least initially.  Does that assist you with whether attributing something to a user was effectively used as a default or a starting position?
+
+**Richard Coleman**: No, I think it would just be a case of using my knowledge and experience of the system, and I'd been, what, there, is it two years now.  Again, you know, the EPOSS receipts and payments wasn't my particular area of expertise, so again I'm just going by -- you know, if I've seen a lot of these sort of calls come over and, you know, they might have been sent back as "user".  We thought that that was appropriate at the time, so ...
+
+**Mr Blake**: We spoke earlier about particular technicians having particular interests and you mentioned two names in respect of dealing with EPOSS issues and balancing issues.  If they knew about something called or what was being referred to as a receipts and payments mismatch, how would that information have been received by you or is this an example where it seems it hadn't been received by you because you attributed it to user error?
+
+**Richard Coleman**: Yes, I mean, I'm aware that there was a bug which I can't remember what it was, whether it was transfer between the stock units, or something like that, and it would cause the amount to double, which my immediate look at this is, you know, that might be along those lines.  Now, whether I knew that at the time of this call, I have no idea.
+
+**Mr Blake**: Had you known about it at the time --
+
+**Richard Coleman**: If I had, then, yes, I mean, attributing it to "user" would be an error on my part.
+
+**Mr Blake**: Can we look at page 4 of the same document, please.  If we look at the second entry, there's the summary there:
+
+"There was a short period on live where the EPOSS code was out of step with the StopDeskTransfer code. The EPOSS code was still writing ..." and it gives some information there.
+
+If we scroll down a bit to John Moran at 13.46, please.  Thank you.  We have that being fixed by a release, I think that is CI45, and then it's closed. So it's clear in this case that it was something, a technical issue, a software issue, that was ultimately fixed by a release.  Had that information been known to you when you took on the call from the beginning, presumably you wouldn't have been attributing it to system error?
+
+**Richard Coleman**: Correct.  I would have used the software category, whatever that would be.
+
+**Mr Blake**: Using this as an example, does this raise any concerns for you about the sharing of information within the SSC and the ability for at least those who initially take on the calls to understand and correctly attribute the problem?
+
+**Richard Coleman**: I don't know, actually.
+
+**Mr Blake**: Can you see any problem with attributing something to user error in terms of the mindset, perhaps, of those who are dealing with the issue?
+
+**Richard Coleman**: I mean, what I don't know is what the call was -- what category was the call closed as because just because I've set it as "user error" as an initial thing, as I say, I don't think anybody's going to be paying attention to that until you actually come to close the call and that's when that category would then be important.
+
+**Mr Blake**: But it's the first thing that those who are investigating the matter, the engineers, would have seen, isn't it?  It's right above.
+
+**Richard Coleman**: Well, I mean, you would have seen it but, as I say, I don't think I ever paid any attention to that field when I was investigating a call.  So I would just look -- I would look at the call details, not what somebody set that particular field to.  The only time I would have looked at that was when I come to actually close the call to see do I need to change it to something more appropriate.
+
+**Mr Blake**: Having seen it referred to by Barbara Longley as a "receipts and payments mismatch", though, can you assist us with why it might be attributed to "user error"?
+
+**Richard Coleman**: No, sorry, I can't.
+
+**Mr Blake**: Can we please look at FUJ00086585.  This is a PEAK that I looked at with Barbara Longley.  It's described there in the summary as:
+
+"The PM is having problems rolling the office over."
+
+If we look the beginning:
+
+"The pm is having problems rolling the office over.  There are figures missing from the cash account which is one person entire work."
+
+If we scroll down to about halfway down on the right-hand side -- I think that's "All", it says AL1 but I think that's "All":
+
+"[All] her work is missing from the [cash account].  When she did a balance snapshot she was £9,000 over and all her stock is showing as minus."
+
+If we scroll down there's advice given.  Barbara Longley's evidence was that this advice came likely from the Helpdesk rather than SSC.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: It seems as though, if we scroll down to the bottom, that the initial advice that was given to her was wrong, according to at least one adviser, that she shouldn't have been advised, I think it was, to roll over.  Can you see that?
+
+**Richard Coleman**: Yes, that's on the screen, yes.
+
+**Mr Blake**: Thank you.  If we scroll over to the beginning of the next page, this may assist you by way of background. I won't read it but you might want to just read that top paragraph to yourself.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Then can we turn to page 4, please.  We have your involvement there pre-scan:
+
+"It's so good they've told us 3 times by the looks of it."
+
+Are you able to assist us with what you may be referring to?
+
+**Richard Coleman**: Yes.  That should be two times not three times because the text that we've got at the beginning has been pasted in twice for some reason.
+
+**Mr Blake**: Thank you.  Then we have there "defect cause updated to 40: General -- User".  So, again, in this case, we have the PM having problems rolling the office over, been given wrong advice by the Helpdesk and it is attributed to user error.
+
+Does that assist you at all in the matters that we've previously been discussing, about whether "user error" was used as some sort of default code for when cases came in?
+
+**Richard Coleman**: Not that I'm aware of.
+
+**Mr Blake**: If we look on page 7, about halfway down the page, we have an entry from Martin McConnell at 12.55:
+
+"After my first run through, the Stock Balancing process has worked successfully as of 27 April 2000. Before passing this back with the event log, may I request that the messagestore for node 1 is retrieved directly from it.  I suspect there is a serious problem (Riposte wise??) with this as opposed to the correspondence view of it.  I shall still continue looking at subsequent weeks to see why the situation never recovered itself."
+
+Do you remember issues with Riposte during the early years of Horizon?
+
+**Richard Coleman**: Yes, there were a number of problems with it but also I'd just like to note that Martin has just above, at 9.32 changed the defect cause to "General -- Unknown". So it would be down to whoever was investigating, once they got an idea of what the problem was, to clearly change that defect cause to whatever they thought it was and I think in this call that then gets changed again, later on, to either code or reference date, I think somewhere, so ...
+
+**Mr Blake**: If we look two entries down there's an entry from Martin McConnell that says:
+
+"This is another instance of [and it gives the PinICL or PEAK reference] where the data server trees have failed to build.  This has now been fixed in [the software release]."
+
+So this is clearly, ultimately a software issue?
+
+**Richard Coleman**: Yes, and you can see the defect cause has been updated to "code".
+
+**Mr Blake**: Yes.  Now, as you highlighted, there is a defect code "unknown" and that was the defect code that Mr McConnell applied.  Wouldn't it have made more sense to have applied defect code "unknown" in your original entry on page 4?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Thank you.  I'm going to take you to one final document and I'm just going to check -- yes, it's on the system now -- FUJ00057524.  Thank you very much.
+
+You spent a bit of time with this document this morning.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Have you had sufficient time to have a look through to understand what's going on?
+
+**Richard Coleman**: Yes, I believe so.
+
+**Mr Blake**: Thank you very much.  So this is described in the top there as "Transactions missing" and if we look at the bottom we have detail of the customer call, and it says at the bottom:
+
+"Repeat Call: when PM did her daily reports yesterday after having a new base unit fitted, there were transactions missing off them."
+
+If we scroll down:
+
+"When she re-entered the missing transactions this corrected her daily reports but they were showing twice on her balance snapshot."
+
+Are you able to assist us briefly what that might mean?
+
+**Richard Coleman**: Well, she had a -- there was a hardware problem by the looks of it with her counter 1, also known as the gateway.  So the engineer's been, he's replaced the hardware and when she's come to do her daily reports she's realised that -- so she's clearly done them on that new counter and she realises that some of those transactions that she did earlier on, probably that day, weren't on her report and yet she's got the receipts to sort of say, "Yes, I did do these transactions", so where are they?
+
+**Mr Blake**: If we look at advice that's given, halfway down it says:
+
+"Advised the caller to reverse her transactions that she has put in by doing a transaction log.  The caller is happy to do this.  Advised the caller that if her reports are really bad she will have to contact the NBSC but she will manage to balance."
+
+Do you recall why people might call the NBSC or the Helpdesk relating to issues balancing?  So let's say they thought they had a technical issue, should they call the NBSC or should they call the Helpdesk if it related to balancing?  Is that something that you were ever involved in?
+
+**Richard Coleman**: I don't think so but the NBSC, I think, were the Post Office own Helpdesk so, obviously, they would have an awareness of what a postmaster needs to do as part of their sort of daily business.
+
+**Mr Blake**: If it was a technical issue that resulted in an incorrect balance, who, in your view, would be the appropriate helpline to call?
+
+**Richard Coleman**: They would then call the HSH, who would then pass the call to SMC, who would then pass the call to SSC.
+
+**Mr Blake**: It says there:
+
+"Contacted: spoke to the PM and she was query whether or not to reverse the transaction and what affect it would have on her stock."
+
+So it seems there as though the postmaster is a little concerned about what the implications of the advice would be; is that fair?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: "Advised to contact NBSC [regarding the] stock."
+
+If we scroll down over to the next page -- I won't go through every entry -- but we have there near the bottom:
+
+"Contacted: called PM to clarify the information received and PM is convinced there is a software problem.  PM has been on system for a long time so is fully aware of balancing procedure."
+
+So although this is in the year 2000, it's quite late in the year 2000.  Rollout had occurred and this postmaster was saying they didn't have issues with their own balancing, it's a software issue.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: I think we can scroll through the next few pages.  You have read all of these?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Perhaps we can go to page 6.  We're now on 18 November. The first call is 15 November.  We're now 18 November:
+
+"PM has called today to report that the balance snapshots which are printed off 2 of the counters are showing different figures, even though they are attached to the same stock unit.  She would like to speak to somebody from 3rd line [as soon as possible]."
+
+Then we have Diane Rowe assigning this matter to yourself.
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Are you able to assist us with why it would have been assigned to you?
+
+**Richard Coleman**: Probably because I was available.  So, even though it wasn't my particular area of expertise, in the SSC you were expected to handle any type of call.  So Diane would have looked at what calls have I got.  She may have come and spoke to me, you know, "Are you busy, can I give you a call?"  And then it's like, "Yes, send it over, I'll have a look see what I can do about it".
+
+**Mr Blake**: We have below that Diane Rowe attributing the defect cause "99: General -- Unknown", so in this instance she didn't attribute it to a user?
+
+**Richard Coleman**: Correct, yes.
+
+**Mr Blake**: If we go over the page, your entry there, you say:
+
+"Have had a look at the messagestore and am unable to match what the PM is saying in this call with what I see in the messagestore.  Please provide date and time of the balance snapshot and trial balance reports that the PM is querying.  Also require quantities and values for the Giro deposits ..." et cetera, et cetera.
+
+You're seeking further information there?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: But about halfway down, you say:
+
+"PM has not been contacted.  Closing as insufficient evidence."
+
+Can you assist us why would something be closed as insufficient evidence, rather than kept open until that evidence has been obtained?
+
+**Richard Coleman**: It was part of the responsibility of the SMC to provide whatever -- all the evidence that they could provide for us to then go and investigate this problem.  So I've looked at what the PM has reported and, normally, you would be able to see those transactions in the message store and I've got this sort of very unusual situation where I've looked in the message store and I cannot find any evidence of those transactions ever occurring.
+
+So I can't go any further with this and so that's why I ask for a session ID, because maybe I'm looking in the wrong place on the message store.  I mean, there were, was it, 510,000 messages we'd got up to within this particular counter's message store by this point. So, you know, that's an awful lot of messages to be looking through, whereas a session ID, I will be able to track that down relatively quickly and, therefore, be able to start by investigation in that area because it may be that there's a problem on the counter with the clock being wrong and so Riposte is storing the wrong date and time in the message store.
+
+So I'm looking, you know, on what I think is -- or what's shown to be the wrong date.
+
+**Mr Blake**: So there might be a date or time issue on the counter; is that one potential --
+
+**Richard Coleman**: That's one potential possibility for why I can't find those transactions because, normally, you know, you would be able to see those in the message store and you go, "Okay, this is where I start my investigation".
+
+**Mr Blake**: So we have one potential might be a date and time issue on the counter.  Another issue, might it potentially be an issue with the message store itself?
+
+**Richard Coleman**: Yes, and, ultimately, that's what it turns out to be. There is a Riposte error here where counter 1 -- when you replace a counter, it comes with a blank message store.  So Riposte will start up and it will then call out to the other counters in the Post Office to say, "Okay, have you got any messages for me?"  So those counters would then reply saying, "Yes, I've got 510,000 messages for you, here you go".  So that counter would then start reading those messages in and writing them to its own message store.
+
+Once it's got all those messages, it can then start writing its own messages to that message store and one of the first messages would be a Riposte version string message and so that's how we would -- by seeing that message, we would know that Riposte has been restarted at that point.
+
+There was a bug whereby the counter would think that, "Okay, I've got all my messages now", but, in fact, it didn't.  So there were still some messages to be sent across and, for whatever reason, Riposte -- we sort of call that about -- Riposte coming back online too soon and that's what seems to have happened here.
+
+**Mr Blake**: So that's what happens ultimately.  If we're looking at 16.29.44, where you've said, "PM has not been contacted closing as insufficient evidence", going through your mind at that stage, you mentioned might be a date and time issue on the counter itself.  You've now mentioned a Riposte problem that it could potentially be.  Were those thoughts that would have been in your mind at the time?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: If we look two entries down, 16.29.45, again you have, "Responded to call type L as category 96", this time "insufficient evidence", but then two entries below that:
+
+"Defect cause updated to 40: General -- User."
+
+So, again, we have something that clearly in your mind might be a software error, it might be a counter error but it's there being attributed to user error. Does that assist you in answering the question that I asked some time ago about whether there was an approach to attributing things to users as a default?
+
+**Richard Coleman**: I have no idea why I selected that.  I mean, that I don't think -- category "96: Insufficient evidence" that's what would go back to PowerHelp to alert the SMC that, "Okay, I'm asking for more evidence, can you get the evidence and then send it back to me?"  Why I would have picked "General -- User", I'm sorry, I don't know.
+
+**Mr Blake**: One thing that we heard during the human evidence sessions in this Inquiry was postmasters being told that they were at fault, that the issue is user error not software error.
+
+Looking back at these documents, do you think there was a culture of attributing things to user error?
+
+**Richard Coleman**: No.  But I can certainly see how you could come to that conclusion.
+
+**Mr Blake**: I mean, there are three or so PinICLs that have been attributed to user error --
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: -- rather than insufficient evidence or unknown error or -- I mean, there are multiple options available --
+
+**Richard Coleman**: Yes, I have no idea what else I could have put but, to my mind, you know, looking at this, that's wrong.  So I don't know why I would have picked user.
+
+**Mr Blake**: If we scroll down, staying on this page, you have entries there, you say:
+
+"I have spoken to PM last night advised that this is being looked into."
+
+Then over the page you have quite a long explanation about what you think the issue is.  Are you able to summarise for us, very briefly, point 1 to 7, what you thought at that stage the issue may have been?
+
+**Richard Coleman**: Yes.  So on the 20th, obviously I've sent it back.  So on the 21st, I probably did nothing with the call, expecting it to come back to me with the evidence I'd asked for but, as it says that beginning of that sort of long list, there was a problem with the OTI, the interface between PowerHelp and PinICL, so I don't think -- the stuff that I typed in there didn't go back into PowerHelp, so the SMC had no idea.
+
+So I suspect that on the 22nd, I'd probably have spoken to the SMC to say, you know, "What are you guys doing about this particular call?  Can you give me the evidence and send it back to me", at which point, you know, they say "What evidence?  We haven't got that. That hasn't come across".  But, clearly -- because I started was it 8.50 in the morning, I think it was -- 8.52, I clone the call.
+
+So I imagine on the 22nd I've actually looked at this myself.  Without the call coming back to me I've looked at what's been going on and I would probably have spoken to either Pat Carroll or John Simpkins and said "I've got this unusual call, I can't see these messages or transactions that the PM says they have done, any ideas?"  And I suspect they have probably gone "Well, you could have a look to see what do the counters themselves say", because, as a default, we would have gone to the correspondence server and the messages on the correspondence server.  That's why we normally look when we had to investigate a message store.
+
+So I've then gone down onto the actual counters themselves and noticed that, yes, as I say at the top there, counter 2 has 48 messages which are not on counter 1.  So, clearly, something rather serious has gone wrong with Riposte and then it's a conversation with Development to say, "Okay, how do I fix this?"
+
+**Mr Blake**: If we look at the conversation with Development you say:
+
+"Can development please investigate on whether there's a deficiency in Riposte and what can be done to stop this happening again.  Also, need advice on how to get the message store in sync and to include the missing transactions."
+
+Did you have a concern at this stage that the missing transactions wouldn't be retrieved?
+
+**Richard Coleman**: No, because the missing transactions were on counters 2 and 3.  The problem was they weren't on counter 1 and they weren't on the correspondence server and that would cause problems when we're retrieving cash account messages via the agents, which would have looked at the correspondence server messages and so they would miss the transactions that were on counters 2 and 3.
+
+So they wouldn't -- so the APS -- yes, some of the transactions are APS so, you know, there's -- I can't remember what APS -- automated payments, something like that, I can't remember.
+
+So you've got customers saying -- paying a gas bill, for example, you know, they've paid, they've got the receipts, but their account wouldn't be updated because those messages on counters 2 and 3 aren't at the correspondence server.  So I'm asking, "Okay, how do we get these transactions back onto the correspondence server, so that they can be harvested, so that customer, you know, bills get paid?"
+
+**Mr Blake**: You also have a concern below the highlighted section. You say:
+
+"Also how will this affect their balancing.  They are currently in cash account period 34."
+
+So you are raising a question there about what effect this will actually have on the subpostmaster's ability to balance?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: If we scroll down to the next page, please, you have got the postmaster chasing the progress of this call. That's 10.59.  So they are chasing again:
+
+"She's concerned about balancing tomorrow.  I've said the call is currently with development.  Do we have an update?"
+
+You seem to be anxious there to receive an update for the postmaster.  Is that a fair summary of that entry?
+
+**Richard Coleman**: Yes, I know it's important that the Post Office balances, so, yes, I want to make sure she can balance and rollover into the next cash account period.
+
+**Mr Blake**: We have an entry at 14.17.19 from Martin McConnell:
+
+"Note to be passed on to the customer for balancing: this problem has occurred with replication before (in essence, due to a failure in Riposte for whatever to replicate back down)."
+
+So, again, we've spoken about issues with Riposte. The suggestion is that this is an issue here with Riposte:
+
+"It should be perfectly okay to continue balancing on nodes 2 or 3 but not on node 1 where the failure occurred."
+
+He says:
+
+"From the Riposte point of view there seems to be a major disagreement on what the contents [and it gives some code there that I won't try and understand] for about 50 messages should be.  There are minor glitches here and there but this seems to be the major discrepancy."
+
+Is this something you remember at all, this particular issue?
+
+**Richard Coleman**: Not particularly.  It's fairly clear what's going on from the content of the call itself, so ...
+
+**Mr Blake**: If we scroll down to the next page, Martin McConnell there says:
+
+"This blows my whole understanding of what Riposte should be handling on our behalf, ie replication not deviation across nodes."
+
+Does it seem as though this is quite a significant issue?
+
+**Richard Coleman**: Yes, indeed.
+
+**Mr Blake**: It continues and you have a paragraph -- at the bottom of the next paragraph.  It says:
+
+"Whatever happens, this bug should end up with Escher development."
+
+I think that is, so that's, I think, the team that Gareth Jenkins and others were part of.
+
+**Richard Coleman**: I believe so, yes.
+
+**Mr Blake**: Then you appear again and you say:
+
+"I've spoken to the PM and advised her to roll over to counters 2 or 3 not 1 but have not mentioned about recovering the AP transactions."
+
+So can you assist us with what you mean there?
+
+**Richard Coleman**: Well, obviously, I've spoken to the PM and passed on the advice from Development, as, you know, "Don't use counter 1 to do it", because the AP transactions that she needs in order to balance are on 2 and 3.  Counter 1 knows nothing about them.
+
+Now, I think probably why I didn't mention about recovering the AP transactions is -- probably is part of the conversation that I had with the PM because I then go on to say, "Since the PM recovered the transactions and then reversed them", and then I've got a further question of, okay, sort of what kind of effect is that going to have?
+
+**Mr Blake**: So you say:
+
+"Can Development please advise on whether PM does need to recover the AP transactions since the PM recovered the transactions and then reversed them.  If she balances on counter 2 will it take the AP transactions from its copy or will it only look at AP transactions done on counter 2?"
+
+So you seem to be raising there, really, an issue with the integrity of the balance and the transactions and the ability for the subpostmaster to effectively balance.  Is that a fair summary?
+
+**Richard Coleman**: Yes.  I mean, I suspect from reading that that the bit of code that does the -- of retrieving the messages to do with balancing would look on its own counter, rather than simply go to -- no, look on its own counter which is why the advice was "Don't do it on node 1 because we've got a bunch of missing transactions.  So if you did it on node 1 then you're not going to balance, but those missing transactions are on counter 2 and 3, so if you do it on one of those then, yes, you should balance".
+
+**Mr Blake**: But is there still a lack of clarity as to what's going to happen with the transactions from node 1?
+
+**Richard Coleman**: Yes, yes, because I think that's what I'm sort of asking is: how is this going to affect sort of when the harvesters sort of try and harvest for these AP transactions, is that going to -- so, whilst the post office itself would be able to balance, that might have a knock-on effect on when we harvest those transactions up from the correspondence server and, obviously, we then send information off to the Post Office for them to actually pay the customers.  So I think that's what I'm asking.
+
+**Mr Blake**: So they may ultimately still be missing transactions somewhere in the system?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: If we go over the page, please, we have a message from Brian Orzel to Gareth Jenkins:
+
+"Gareth, should we deal with this?  Do we have value to add or has it been misrouted?"
+
+Gareth Jenkins says:
+
+"I don't know that I can add anything useful here. This is another example of recovery having gone wrong after a box swap."
+
+I will just read the final paragraph of that page. It says:
+
+"This resulted in about 50 messages being lost. The gateway did not communicate with the slave until it had written at least 50 messages ... For this reason there was no error indicating a self-originating message being found."
+
+I will read the second paragraph there.  It says:
+
+"Other than pursuing the known problem of how ... we handle fouled up recovery (covered by [a separate PinICL]), I don't think I can add anything further to this PinICL and so it might as well be closed.  I assume that the missing transactions have been recovered manually."
+
+Now, knowing what you know about this issue and having reread this PinICL, do you think assuming that the missing transactions had been recovered manually was the appropriate assumption to make at that time?
+
+**Richard Coleman**: For Gareth, yes.
+
+**Mr Blake**: Why do you qualify that?
+
+**Richard Coleman**: Well, he hasn't got access to the message stores on the correspondence server and it wouldn't be down to development to reconcile those missing transactions with the Post Office.  That would be an MSU action and I think somewhere I cloned this call, I think.  Yes, so -- no, that's not that one.
+
+Yes, so immediately after Brian Orzel on 1 December, 11.18, I cloned this call to PC59052, which I am assuming I would have sent -- that would be the call that I would have sent off to MSU with the details for those APS transactions and any other transactions for them to sort out the reconciliation with the Post Office.
+
+**Mr Blake**: So was that an assumption that the MSU would take it on and that it needn't be an issue for the development team?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: So where Gareth Jenkins is there saying, "I assume the missing transactions have been recovered manually", are you saying that was appropriate because it's effectively not his job to look into whether, in fact, the missing transactions had or had not been recovered manually?
+
+**Richard Coleman**: Yes.
+
+**Mr Blake**: Knowing what we now know about everything that happened with Horizon, do you think that that approach, not having sight of beginning to end and what ultimately happened to the transactions is, in any way, problematic?
+
+**Richard Coleman**: I don't think so because it was MSU's responsibility. They had the link with Post Office.  They were the ones who had the job of doing the actual reconciliation. Gareth can't do anything more from a Development point of view because they already know about the problem and, presumably, are pursuing it under PinICL 52823.
+
+**Mr Blake**: So would it have been typical for Gareth Jenkins and his team and, in fact, the wider SSC, to not be concerned with what ultimately happened to missing transactions because that was a matter for another team?
+
+**Richard Coleman**: No, we would have been concerned and I think Gareth is voicing his concern here by saying, you know, I assume that the missing transactions have been recovered manually.  So he's asking -- he's basically asking has that been done and the answer is yes.  But all --
+
+**Mr Blake**: Where's the answer, sorry?
+
+**Richard Coleman**: Well, the fact that I've cloned the call to PC59052.
+
+**Mr Blake**: So does that mean you know that the missing transactions have been recovered manually?
+
+**Richard Coleman**: Yes.  I don't know if -- that's probably not a later -- no, I mean, there's nothing in this PinICL to say that that has happened, so you would need to have a look at PC59052.  I suspect that's call that I would have sent to the MSU to say "This has happened", give an explanation and these are the details of the transactions and it's down to them to sort of -- whatever the process was for reconciling that with Post Office.
+
+**Mr Blake**: So would you have taken responsibility for ensuring that that question that he asks was, in fact, answered and that the feedback that came back was, "Yes, the missing transactions have been recovered manually"?
+
+**Richard Coleman**: I probably wouldn't have gone back to Gareth to say "Yes, they have been", but that kind of response, I would have thought, would be on that call that I cloned that I would have sent to MSU.
+
+**Mr Blake**: Would you have taken it forward if there wasn't any feedback from him that the transactions had been recovered?  Would you have been responsible for this call going forward, up until its conclusion?
+
+**Richard Coleman**: I mean, yes, when I cloned the call, I would then send it to the MSU team.  Once they've done the reconciliation, they would close -- I don't know if they closed call back to me or they would reassign it back to the SSC to say "Thank you we've done a reconciliation, this call can now be closed".
+
+**Mr Blake**: Is that what we see on 12 December 2000 where you have closed the call?
+
+**Richard Coleman**: No, that's -- for this particular call, you would have to look at 59052 to see what happened then.
+
+**Mr Blake**: Thank you very much.  I don't have any further questions.  I don't think anybody else does either.
+
+Sir, do you have any questions?
+
+**Sir Wyn Williams**: No, thank you very much.  Thank you very much for attending and answering the questions and providing a witness statement.
+
+**Mr Blake**: Thank you very much.
+
+Sir, it's now 12.00.
+
+**Sir Wyn Williams**: Yes.
+
+**Mr Blake**: May I propose that we take a 10- or 15-minute break and then we move on to closing statements. Mr Beer has something to say about other evidence that's going to be published, but that will be brief, and then we can move on to the closing statements.
+
+**Sir Wyn Williams**: Are those making the closing statements -- I mean, I'm saying this to make it as easy for them as possible -- sorry, to carry on making the closing statements once we have had our 15-minute break or are we planning to have a lunchtime break as usual?
+
+**Mr Stein**: Sir, it may assist, if I just mention my intention if it fits your requirements.  Sir, I intend to be somewhere between 45 minutes and 50 minutes, which may take us a little while into the lunch break but I hope to be no later than 1.15.
+
+**Sir Wyn Williams**: Yes.
+
+**Mr Stein**: That's working on an assumption, a reasonable one, that I have had after having a discussion with Mr Beer about how long he is going to take with his remarks on other statements.
+
+**Sir Wyn Williams**: Right.
+
+**Mr Stein**: So, hopefully, that will then take us to about 1.15, then we have a lunch break and then others will resume after that, if that suits the Inquiry.
+
+**Sir Wyn Williams**: It certainly suits me.  Does it suit those in the room?
+
+**Mr Moloney**: Sir, I would be next up and I would be content to take whatever course suited everybody else, either to follow from Mr Stein without there being a long lunch break as usual, because I will only be 25 minutes, or to take that lunch break.
+
+**Sir Wyn Williams**: And who is following Mr Moloney?
+
+**Mr Henry**: I am, sir.  I am very grateful to Mr Moloney because I thought he was going next.  In fact, we misinterpreted each other, but he has very kindly agreed to follow Mr Stein.  I have about seven pages of written notes, so I do hope to be 15 minutes.
+
+**Sir Wyn Williams**: I think my current view is that after we've heard from Mr Stein, and if it is around about 1.15, we'll then take stock again as to whether people actually want a full hour or whether they want, say, half-an-hour or something less than that.  We will just go along and see how people feel.  So we will take our quarter of an hour now and then come back.  Will it be Mr Beer and then the closing submissions?
+
+**Mr Blake**: Yes.  Thank you very much, sir.
+
+**Sir Wyn Williams**: All right, fine.
+
+*(12.02 pm)*
+
+*(A short break)*
+
+*(12.17 pm)*
+
+**Mr Beer**: Sir, good afternoon.  Can you see and hear me?
+
+**Sir Wyn Williams**: Yes, thank you.
+
+**Mr Beer**: Thank you very much.
+
+Statement by MR BEER
+
+**Mr Beer**: Sir, as you know, the Inquiry is asked to build upon the findings of Mr Justice Fraser in the Bates judgment and the Court of Appeal in Hamilton v Post Office and of other criminal courts to establish a clear account of the failings of Horizon over its life-cycle and the Post Office's use of information from it when taking action against persons alleged to be responsible for shortfalls.
+
+In Phase 3, you have heard evidence of these issues at an operational level.  The evidence has covered the issues of training, the advice and assistance available to postmasters, the dispute resolution procedure and the rectification of bugs, errors and defects.  You will have paid careful attention to the three questions that run through every stage of the Inquiry: who knew what and when about the issues within Horizon.
+
+Since January of this year, you've heard evidence from over 30 witnesses.  You're still to hear evidence from Gareth Jenkins on Phase 3 issues and from Anne Chambers on a small number of Phase 3 issues.
+
+The evidence that you have heard since January is but a small sample of those working at the operational level within Post Office and Fujitsu over the many years that Horizon has been live.  It is, we say, unnecessary to hear further oral evidence, given the extensive documentation that the Inquiry has received and the detailed findings of Mr Justice Fraser in relation to bugs, errors and defects.
+
+Moreover, to hear a greater sample of oral evidence would inevitably mean commencing Phases 4 and 5 of the Inquiry at a much later stage.  Those phases concern the way in which the Post Office conducted prosecutions and responded to the emerging scandal. It's important to move to investigate those issues as soon as reasonably practicable.
+
+Your Inquiry team conducted further investigations to obtain written witness statements from people involved in various roles relating to the operation of Horizon.  The purpose of that exercise was twofold, firstly to obtain a wider range of evidence on how the various teams worked in practice from those at the coalface and, secondly, to test what evidence they were aware of of the existence of bugs, errors and defects in Horizon.  This was done by sending short Rule 9 requests asking general questions tailored to the respective roles.
+
+The Inquiry sought statements from those involved in the Post Office support services, including Horizon Field Support Officers, NBSC members, trainers and contract managers.  The Inquiry also sought similar evidence from those working in the Fujitsu-operated Helpdesk and the SSC.  The Inquiry has finalised statements from a selection of these witnesses and I'm going to say a few words now on the investigation into each of them and display the URNs for the various statements in each of those categories that the Inquiry that obtained.
+
+Those statements will be admitted into evidence and treated as having been read into the record and the witness statements will shortly be disclosed on the Inquiry's website.
+
+So, firstly, Post Office support services. I begin with the teams in the Post Office assigned to provide advice and assistance.  In response to the various Rule 9 requests, the Post Office has provided the Inquiry with various lists of current and former staff who worked in different operational and management teams throughout the company.  We used this information to send Rule 9 requests directly to such people.
+
+The Inquiry took a representative sample of people who had worked as Horizon Field Support Officers or on the NBSC.  You will recall hearing evidence about Horizon Field Support Officers or HFSOs during both phases 2 and 3.  They were Post Office employees who dealt with branches as they migrated to Horizon from the paper-based systems.  A number of HFSOs transferred to work on the NBSC, providing ongoing support to the branch network.
+
+Overall, the Inquiry sent over 70 Rule 9 requests to people who had worked as HFSOs or on the NBSC.  Those Rule 9 requests sought evidence on the training given to those employees and to subpostmasters, their experiences in these roles and the adequacy of the support provided and their knowledge of bugs, errors and defects in the Horizon System.
+
+I wonder whether we could display INQ00002006 and move to page 2, please.
+
+The Inquiry received final witness statements from 45 people within this cohort and on this page, the next page and the following page, those 45 names are displayed and the URNs of each of the 45 witness statements are also displayed.  They are to be treated, please, as read into the record.
+
+The Inquiry also carried out a similar exercise with contract managers.  Please can we look at page 5. Thank you.  The Rule 9 requests for these witnesses was broader, covering all aspects of Phase 3, including dispute resolution.  We received 13 witness statements following that exercise and the names of those witnesses and their URNs are displayed on the screen.  May they be treated as read into the record, please.
+
+Finally, so far as the Post Office is concerned, the Inquiry identified a number of people involved in training through reviewing the documentary evidence and the comments of other witnesses.  We sent Rule 9 requests to those identified to seek evidence on the nature of the training provided to postmasters, as well as the extent to which bugs, errors and defects in the Horizon System were dealt with in the training programme.
+
+If we can turn to page 6, please.  The Inquiry received 11 finalised witness statements from such trainers and the names and URNs of those witnesses are now shown.  May they be treated as read into the record, please.
+
+Can I turn to Fujitsu support services.  Following a Rule 9 request, Fujitsu provided to the Inquiry a list of all of those people it had on record who had worked on its Helpdesk.  The Rule 9 request sent to each such witness sought evidence on the training provided to Helpdesk operatives, the day-to-day work on the Helpdesk, the adequacy of the support provided and whether there was knowledge of errors, bugs and defects within the Horizon System.
+
+The Inquiry received 13 finalised witness statements from a selected sample.  The names of those witnesses and the URNs for their statements are shown on the screen.
+
+I should also read in the statement of Julie Welsh, who deals with issues on the Helpdesk, but needn't be called in this phase.  She's an addition and your URN is WITN0450100.
+
+I should also, if we move to page 8, please, propose to read in five witness statements that have been finalised from people working in the SSC.  These members of the SSC were sent short Rule 9 requests to obtain their witness evidence, covering how the SSC worked and their own knowledge of bugs, errors and defects.  Their names are displayed along with the URNs. May they be treated as read into the record.
+
+That PowerPoint presentation can come down.  Thank you.
+
+That concludes the statements that the Inquiry wishes to read into the record at this stage.  Your team continues to receive some signed statements that will be read in at an appropriate juncture later in the Inquiry.
+
+I should pause at this stage to note that the Inquiry has received a significant volume of disclosure during the course of the Phase 3 hearings and it expects to receive more disclosure that is or may be relevant to Phase 3 in the very near future.  Moreover, it expects some of this disclosure to contain guidance given to the NBSC and the Fujitsu-run Helpdesk.  The Inquiry will, of course, keep these documents under review and will disclose them to Core Participants as soon as reasonably practicable after their receipt.
+
+Moreover, it will not hesitate to recall any witnesses where it considers it is necessary to do so to put questions to them on new documents that have come to light.  The appropriate time to do that will be determined in due course but will likely be during the Phase 5 hearings.
+
+Sir, that's all I say at the moment in terms of reading documents into the record and I think we now move to the closing submissions from three Core Participants in an order that has been agreed amongst them.  Thank you, sir.
+
+**Sir Wyn Williams**: Thank you, Mr Beer, and, for the avoidance of any doubt, I confirm that the statements identified by Mr Beer during the course of his oral address are now to be treated as having been read into the record.
+
+**Mr Beer**: Thank you very much, sir.
+
+**Sir Wyn Williams**: Mr Stein, whenever you're ready.
+
+Closing statement by MR STEIN
+
+**Mr Stein**: Thank you, sir.
+
+Sir, this morning you referred to Veronica Maye. She passed away seven days ago.  She was the beloved wife of Francis Maye.  You may recall that Francis and his wife, Veronica, ran the Bidford-on-Avon post office in Warwickshire.  Veronica's health was affected by the financial state that was left for her and her husband to deal with after they had been made bankrupt by the actions of the Post Office.  She developed angina. You'll probably recall Mr Maye's experiences being read into the record at the hearing in Glasgow on 11 May 2022.
+
+Francis Maye is now 73 years old.  He has been a very active Core Participant in the Inquiry.  He's followed the Inquiry closely, attended our group meetings with our clients and he regularly provides instructions and views.  He was, of course, a GLO claimant and my instructing solicitors Howe+Co are assisting him in relation to his GLO ex gratia claim.
+
+Francis and Veronica were together for 24 years. He says:
+
+"We were the best of pals.  My right arm [he says] is literally ripped off."
+
+Francis was brought up in a part of Ireland where he learnt to read and write first in Irish, in Gaelic, and then he was taught Latin and Greek.  As such, his written use of English is poor, spelling not very good and his wife Veronica used to do all of the reading and writing for him in relation to the Inquiry.
+
+He does not know now what he will do in order to read information from Howe+Co and how to write emails and how to put forward instructions.  He is, of course, going to be supported in everything he does by my instructing solicitors, Howe+Co.
+
+Francis says that when they lost their home as a result of the Post Office's actions, Veronica worked multiple jobs to maintain them.  He found it extremely difficult to get any work anywhere because the Post Office wouldn't give him a reference.  He had even asked for a reference when he went for a job picking fruit on a farm and he couldn't get the job because he couldn't get the reference.
+
+Francis did get an interim payment under the GLO scheme, just after Christmas, but, sir, you observed the trustees in bankruptcy took a lot of that award.  You will recall that that matter was addressed by my junior, Mr Chris Jacobs on the 27th.
+
+When he and Veronica first met, he told her he would take her on a cruise one day but they obviously couldn't afford it after they lost everything as a result of the Post Office.  When Veronica was in hospital she saw a SAGA magazine, which showed a cruise around Scotland and she reminded him on his promise to take her on the cruise.  Sadly, she, of course, died and they never got to go on the cruise.
+
+In terms of what Francis Maye hopes from this Inquiry, he comments he's not in good health but he would like to be able to live as comfortably as possible in his final years.  He says:
+
+"I'd like the senior people at the Post Office and Fujitsu to be held to account and taken to court.  They knew the system was wrong."
+
+He lost his Post Office in about 2010 when Glenn Chester walked in one morning out of the blue before they opened and checked the balances and he balanced, but he was still suspended on the spot.  Mr Maye would very much like to meet Mr Chester again and discuss exactly the actions that were taken by Mr Chester and the Post Office with him.
+
+In terms of his view of Phase 3, Francis Maye says this.  He knows that he and other GLO litigants and other Core Participants are in good hands with this Inquiry but he feels that "the Post Office is trying to kick the can down the road until we are all dead.  The deadline for GLO compensation of August 2024 is plain wrong", he says and he believed, they, the Post Office, should not have the right to set that date and everything is always dictated by the Post Office, and that's the way he feels.
+
+He finally says "If ever some of the leaders at the Post Office are taken to court, I will be at that court", he says, and he hopes that doesn't sound vicious but he hopes and prays that that little man will win out in the end.
+
+Sir, as you know, with Mr Jacobs I represent a large number of subpostmasters and mistresses before this Inquiry and we have been instructed by Howe+Co solicitors.  Of course, our written submissions after this date will provide more details on the matters that I cover today.  The closing submissions for Phase 2 from the Post Office dated 7 December 2022 made little reference to its own failures and preferred to suggest that the passage of time has dimmed recollections. You'll see those references at paragraphs 3 and 4.
+
+Then the Post Office turns its tank turret gun on Fujitsu, paragraphs 5 to paragraph 29.6.  In particular, in paragraph 5, the Post Office flat out accuses Fujitsu of making a concerted effort, going on to say, in many of the Fujitsu witness statements, to suggest that :abbr:`POL (Post Office Limited)` had the same level of understanding of the technical problems and challenges as Fujitsu did.
+
+At paragraph 29.5, the Post Office accuses Fujitsu of deception.  I quote:
+
+"Fujitsu did not inform POL of these serious issues.  This must have been a deliberate decision."
+
+The serious issues being referred to at paragraph 29.4 was that Fujitsu was aware at all levels of management that the Horizon project was facing serious problems.  Now, the Post Office, POL, is a wholly-owned business with one shareholder, the Government, managed through :abbr:`UKGI (UK Government Investments)` and it is, therefore, saying that its current business partner, Fujitsu, an international company of some size and renown, has deliberately misled its customer, both through the years of the Horizon System's operation and, to date, in preparing statements for this Inquiry, and it has done so with its witnesses in order to try and shift the blame onto the Post Office.
+
+Well, on behalf of the subpostmasters and mistresses I represent, I'm afraid I cannot wish Fujitsu well but I can warn Fujitsu that, once the Post Office takes a stance, no matter how ill-conceived it is, it doesn't give up.  Remember, my clients were accused of malfeasance and criminality over decades.
+
+But these accusations of this type of conduct by the Post Office does not match up with the reality of today's business affairs between the Post Office and Fujitsu.  So far, the Horizon contract has been extended from 2023 to 2024 at the cost of many millions.  The meetings to discuss the matters of these contractual extensions must be merry affairs, sir, with Fujitsu staff, one assumes, rather reluctant to talk to the Post Office representatives, just in case they get accused of making things up.
+
+The Post Office has considerable form for blaming others.  The Post Office blamed and criminalised subpostmasters throughout the history of Horizon, blamed the litigants in the High Court and said they were making it up and now seeks to blame Fujitsu when the truth, sir, is that Fujitsu and POL are equally to blame in the partnership of deception, in which the Post Office was the senior partner.
+
+Of course, the problem for the Post Office is that they now have issues with the creation of a Cloud-based replacement for the Horizon System, meaning that POL has to keep extending the Horizon contract.  The Post Office procurement documents of 6 April 2023 make interesting reading.  I quote:
+
+"The programme to transfer the services to a new Cloud provider created fundamental technical challenges that POL could not economically and technically overcome and the business has taken the decision to pivot back to the Fujitsu-provided Horizon data services until the successful tender of services out of Horizon", referring then to a cost of £16,500,000.
+
+Well, something about that procurement process sounds rather familiar to us who have been listening to the evidence before this Inquiry.  But, sir, that's not the only Post Office news.  Unfortunately, recent press reports show that the Post Office Postal Affairs Minister was called to the House of Commons to answer how a "grotesque" -- that's the word used in the press -- executive bonus scheme was approved on the basis that the Post Office has helped this Inquiry with, apparently, I quote:
+
+"... all required evidence and information supplied on time, with confirmation from Sir Wyn Williams and team that Post Office's performance supported and enabled the Inquiry to finish in line with expectations."
+
+Well, that reference that it wished to refer to doesn't appear to have been correct.  This was referred to by Members of Parliament as a deliberate lie and caused you, sir, on 5 May to ask for some clarification, quoting from your correspondence:
+
+"... given it suggested that a metric had been set and a target had been achieved with confirmation given from myself and my team."
+
+Well, sir, sometimes it's tempting to suggest that the Post Office couldn't run an average celebration in a brewery but, unfortunately, it's more sinister than that.  The Post Office remains a thoroughly dishonest and duplicitous organisation.
+
+The Post Office opening statement, the written statement dated 4 October 2022, begins with:
+
+"Post Office Limited (POL) apologises for the suffering and damage caused to every person who has been affected by the Horizon IT scandal.  That includes not only postmasters directly affected by POL's failures but all others, including, in particular, their families, whose lives have been impacted by those failures."
+
+POL goes on to say that they remain fully supportive of this Inquiry and its aim to get to the bottom of what went wrong, saying and finishing:
+
+"POL will do all it can to help the Inquiry achieve that."
+
+From our clients' point of view, the statements and actions of the Post Office demonstrate that they are not contrite, lessons have not been learned and I suggest that no-one would bet against the next target for the Post Office blame game being this Inquiry.
+
+Our clients were not liars, not con artists and not incompetent.  The Post Office's Horizon System was foisted upon subpostmasters and mistresses.  Post Office and Fujitsu knew it was not fit for purpose and never was.  They lied about its robustness and blamed, over decades, subpostmasters for their own failures.  We suggest that Post Office knowingly ruined lives, sullied reputations, broke many subpostmasters and tried to break the rest.
+
+Having heard the evidence in Phase 3, our clients' views could be summarised in this way: we told you so, they never learn and they don't listen.
+
+The evidence, sir, in Phase 3 has confirmed what our clients have long known: Post Office didn't provide any adequate training on balancing and failed to ensure that the Horizon Helpdesk provided any sort of meaningful assistance when things started to go wrong. It was always inevitable that things were going to go badly wrong.  We know this, for example, from the evidence of Mr Parker and others.  The system was patched together to keep it limping along because nobody wanted to spend money to rewrite the EPOSS program.
+
+If the paucity of training and assistance issues were not bad enough, there was a sting in the tail for subpostmasters, the IMPACT programme, which effectively programmed out the subpostmasters' remaining chance to dispute phantom Horizon shortfalls.  On behalf of our client group, we highlighted this issue to the Inquiry upon reading the statement of Susan Harding and we asked the Inquiry to look closely at her evidence and the evidence relating to IMPACT because this programme encapsulated everything that was wrong about POL's treatment of subpostmasters.
+
+Sir, as you will recall, the IMPACT programme abolished the local suspense accounts and in doing so forced subpostmasters to accept all demands made of them on pain of no longer being able to trade.  This created an impossible situation for subpostmasters, the equivalence of: heads, you pay; and tails, you pay.
+
+Our clients commented on the evidence relating to the IMPACT programme.  Kevin Palmer, said this:
+
+"We never stood a chance.  They dealt the cards, checked the deck, took all the aces and left us the jokers."
+
+Sally Stringer says:
+
+"It was their way of making sure that the branch office paid, regardless of the circumstances."
+
+Ms Harding gave evidence before you on 22 February and confirmed that:
+
+"Post Office thought that subpostmasters were using suspense accounts to hide discrepancies instead of resolving them."
+
+Ms Harding acknowledged on 22 February that one of the aims of the project, the IMPACT project, was to pursue losses and push subpostmasters harder, in order to pursue debt recovery.  She gave us an insight into what POL thought of subpostmasters, at page 30 of the transcript of that date, 22 February, in answering the questions from Mr Beer.  Mr Beer asked:
+
+"Did you have a mindset in the entirety of your time working for the Post Office that the suspense accounts was being used by dishonest subpostmasters to hide and cover up money that they were taking?
+
+Answer:  "My mindset was that it was a place where they could do that."
+
+Question:  "And did do that?"
+
+Ms Harding said:
+
+"Yes and, did do that."
+
+Ms Harding also confirmed that the original idea, as put to her by Mr Beer, was get rid of these subpostmasters heading discrepancies in the suspense accounts and make sure they're liable for all shortfalls.  It is abundantly clear that the Post Office's institutional view of subpostmasters was that they were dodgy and on the take.  In her statement, which, sir, as you will recall, we established in her evidence that she wrote herself from her own recollection, she set out the IMPACT programme design parameters.
+
+Paragraph 18, she referred to:
+
+"The principle objectives of IMPACT were to reduce losses and improve debt recovery."
+
+In her statement and her evidence she made it clear that the concept and high level designs were developed through a series of workshops involving Fujitsu and Post Office experts and user representatives.
+
+At paragraph 31 of her statement:
+
+"It was agreed during the design of IMPACT that the suspense accounts would be removed as, historically, it was used by subpostmasters to hide discrepancies in their accounts rather than resolve them."
+
+The IMPACT programme started in 2003.  It went on through various iterations and discussions to about 2006.  It was put into effect.  It is an important part of the evidence, as it brings together the different parts of the thinking that was being used by the Post Office in its approach to subpostmasters.
+
+Our client, Elizabeth Golding, questions -- Ms Golding says, "How could the Post Office dare to suggest this", that the allegation against subpostmasters generally, that they were dealing with matters in this way and hiding matters in the suspense account is disgusting.
+
+Helen Walker Brown: she says she's deeply aggrieved that she was deprived of an option to reject what the system said.  She says that the decision to remove the local suspense account was unfair and downright immoral.
+
+I said earlier that the Post Office were the senior partner.  We can see that.  Fujitsu's client, the Post Office, set the goals, as we saw from the Fujitsu version of the IMPACT documents.  I won't ask it to go on the screen I will just refer to the reference number for the moment, FUJ00098169.  That's the "Fujitsu Services Input to Feasibility Study for End to End Re-architecting of Post Office Systems" dated 24 March 2003.  That document refers to the goals and business drivers behind the E2E project.
+
+Paragraph 3.2.4:
+
+"The following key business priorities were identified: simplify identification of debt; reduce the amount of reconciliation; increase the amount of debt recovered; and put the emphasis on clients and customers to validate the data."
+
+At 3.2.4:
+
+"In recognition of these priorities, this project addresses specific requirements beyond these business drivers and issues which were refocused on debt recovery (financial recovery of money), target 95 per cent."
+
+Our clients would like to know who is ultimately responsible for the IMPACT programme.  Ms Harding, you may recall, referred to being instructed by Ms Cruttenden and Peter Corbett, and we will address those issues a little bit more in our written submissions.
+
+Ms Harding's evidence shows that the Post Office had a twin mindset in respect of subpostmasters which pre-existed the IMPACT programme and was dictated to Fujitsu as its client instruction.  Those were these: that SPMs (subpostmasters) were liable for shortfalls and that SPMs were fundamentally dishonest.  The same twin mindset also drove the Post Office's conduct in the scandal, from the first demands of payment arising from Horizon shortfalls shortly after rollout, until matters were exposed in the findings made by Mr Justice Fraser in 2019.
+
+You will recall recently the evidence of Mr Ismay on 11 May.  He remained of the view that subpostmasters were contractually liable for all shortfalls.  In other words, this is not a historic view.  Mr Ismay left the employ of the Post Office in 2016.
+
+What we have seen is an "event storm", and I adopt the term used by Ms Chambers, of bullying, institutional entitlement and downright dishonesty.  It is notable that subpostmasters were looked down upon by the Post Office and treated in a completely different way to Crown Office employees, apparently justified by the difference between subpostmasters' agent status versus Crown branch employees.
+
+The evidence, we suggest, in Phase 3 demonstrates that the Post Office and Fujitsu both knew that the Horizon System contained bugs, errors and defects.  It is this aspect of the Post Office's behaviour, the fact that Post Office employees knew all along that Horizon was fundamentally flawed and unreliable, that makes the scandal so truly shocking.
+
+Trevor Rollason told the Inquiry on 20 January 2023 that it was common knowledge at the Post Office that SPMs were having problems with balancing.
+
+The evidence of Gary Blackburn, a former Post Office National Network Business Support Centre team leader and problem manager.  Mr Blackburn confirmed that the Post Office was aware of the bugs, errors and defects within the Horizon System and that there was an active exchange of information between senior staff and Gareth Jenkins at Fujitsu.
+
+Mr Blackburn was no stranger to defects within the Horizon System.  He confirmed in his oral evidence on 28 February that he was aware of the ability of Horizon to create discrepancies.  Mr Blackburn was also aware of the Callendar Square bug and the risk of branches being impacted.  He was another Post Office employee who had sight of the email dated 23 February 2006 from Anne Chambers, Mrs Chambers, concerning a Riposte problem. In that email, Mrs Chambers said that the problem had been around for years and affected a number of sites most weeks.
+
+Mr Blackburn later became aware of four or five post offices having the same problem and escalated the matter to problem management.  It is, sir, we suggest absolutely beyond doubt that the Post Office knew what was going on.  Any submission or representation made by the Post Office that they were kept in the dark by Fujitsu should be firmly rejected.
+
+You may have noted that there was a tendency from Post Office witnesses within Phase 3 to say that they were unaware of the problems with Horizon at the time but, with the benefit of hindsight, accept that the system was not robust.  For example, Chris Gilding a former field team leader at POL, typifies this mindset in his evidence on 13 January, when he rejected statements to the effect that the computer was the problem, not the subpostmaster.
+
+Mr Gilding told the Inquiry that he took the view that he had no evidence to suggest otherwise and made no enquiries as to the reliability of the data that the system was producing.
+
+Bruce McNiven, Deputy Director of the Post Office's Programme Delivery Authority, told the Inquiry on 10 January that he understood from the fact that Horizon had reached acceptance that he could apply a presumption of rectitude to the system.  Anne Allaker, formerly of Post Office Services, told the Inquiry on 1 March 2023 that there was a general view held by the Post Office contractor advisers that Horizon could not create discrepancies.  Clearly, the general view was wrong.
+
+The Post Office expected subpostmasters and mistresses to prove that the computer was at fault and this was embedded into the IMPACT programme.  Of course, no-one bothered to consider whether postmasters could possibly do this when they had been locked out of their branches, their documents taken away from them and the Horizon System was designed to prevent them challenging the numbers it spewed out.
+
+So a big question arises: why senior managers within the Post Office failed to disabuse other key employees and contract advisers of this fiction?  It is relevant to note that Ms Allaker later accepted in her evidence that a dismissive approach from the top filtered down.  One of our clients, Ms Walker Brown, says something similar.  She says that staff further down in POL may have believed the lies that the hierarchy told her or told them.  She refers to the example of her own area manager simply ignoring her when she was begging for help.
+
+So why would what used to be called the "nation's most trusted brand" act in this way?  I said in my opening submission in November 2021 that this was all about money for the Post Office.  This is supported by some of the evidence we've heard in Phase 3.  Stephen Grayston, a former Post Office Change Manager gave evidence on 27 February.  He confirmed that the Post Office was trading at a loss in 2003 and was in a dire financial situation.  He agreed that there was a need to bring in cash and, sir, you will recall that such references to trading losses were referred to within the IMPACT documentation.
+
+Brian Trotter, a Post Office Contract and Service Manager told the Inquiry on 2 March that he felt like he was under pressure from the Post Office to recover debt and to gather money.  He also confirmed that there were performance-related targets.
+
+In his evidence on 3 March, Andrew Winn accepted that there was no incentive within the Chesterfield office to seek out transaction corrections that would have the effect of POL paying money to subpostmasters. Richard Roll told the Inquiry on 9 March that Fujitsu's primary aim was to keep the system running so it worked and so that Fujitsu didn't suffer any penalties.
+
+Now, Mr Roll also told the Inquiry and he said it was widely accepted within Fujitsu that the Horizon System was poor -- he, of course, used more colourful language -- and that software issues were encountered on a weekly basis.  He said that the system needed rewriting.
+
+Now, we've heard from Mr Mik Peach very recently about that and Mr Peach disputes that.  Mr Roll recalled that he was told by Mr Peach that this could not happen, the rewriting couldn't happen, due to a lack of money or resources.
+
+The Post Office needed money to recover from the financial losses, partly no doubt caused in relation to the implementation of the Horizon System, but also to cope with the challenges to its own business model by changes within the marketplace.  Fujitsu needed to keep the thing on track to avoid the penalties which they thought and they expected to flow from not having the funds to put right a substandard product.  Now, some of our clients have pointed out that the Post Office didn't seem to have a problem in accessing huge sums to defend proceedings in the Group Litigation and they reasonably consider that the funds came from monies that were extracted from themselves.
+
+Another client, Shane Johnson, has pointed out it was always about reputation and securing new revenue streams.  We invite the Inquiry to make a finding that, in addition to the financial motivation, one of the reasons why the Post Office behaved so disgracefully was that it was desperate to protect the Horizon System from criticism, as its failure would be what has, in fact, happened: a fundamental attack on the integrity of the business, both financially and reputationally.
+
+There have always been two scandals here.  The first is in relation to the appalling treatment of the subpostmasters and mistresses and the second scandal is the cover up.  Phase 3 has been important because the evidence has demonstrated that the Post Office pulled out all the stops to blame subpostmasters for errors in the system, rather than come clean and tell the truth. Mrs Chambers told the Inquiry on 3 May that she was aware of minuted discussions in which the Post Office had maintained that they didn't want postmasters to know about particular bugs in the system because they didn't want to give opportunities for fraud if postmasters became aware of certain issues.
+
+So, again, we see the mindset within the Post Office that subpostmasters were all, in some way, criminally inclined.
+
+Mr Blackburn referred to a February 2007 email chain from Mr Jenkins, in which he was copied in, where an issue had arisen which affected a possible 570 branches.  The Relativity reference to that is FUJ00121071.  In relation to the same incident, an email dated 5 February, on the same Relativity reference, from Dave Hulbert, Mr Blackburn's line manager that time, stated, and I quote:
+
+"The dilemma for Gary approaching branches is proactive but opens the risk of litigation in future ie we're telling 570 branches that Horizon may have caused a discrepancy.  Low risk but a risk.  Being reactive doesn't feel right as we've caused the problem for branches but this may be the right option in this situation."
+
+The desire within the Post Office to cover up was also confirmed in the evidence of Andrew Winn on 3 March where he confirmed that the view taken by POL was that disclosure could provide branches with ammunition to blame Horizon for shortfalls in relation to discrepancies.
+
+The following exchange, I will read in a moment, between Mr Beer and Mr Winn is relevant to this. Question by Mr Beer of Mr Winn:
+
+Question:  "It was seen in the light of 'we can't disclose material that might undermine our system even if the system is in fact faulty'?"
+
+Mr Winn replied:
+
+"Yes, I think that's probably a fair summation."
+
+The extent of the duplicity that Post Office is demonstrated by the 2010 whitewash report of Mr Rod Ismay, a report which attempted to make the case that all losses were caused by thieving subpostmasters.  It's important to remember that the report was commissioned essentially as a response to allegations which had been made in Computer Weekly in the preceding year.
+
+In that report, Mr Ismay advised the Post Office that they should not review the Horizon System in light of the reports of bugs, errors and defects for two reasons.  Firstly, any review might lead others to think that POL doubted the robustness of Horizon.  Secondly, a more sinister reason why Mr Ismay advised that the issue should not be investigated is because the outcome of any investigation would have to be disclosed in proceedings, with the effect that prosecutions might have to be stayed.
+
+In other words, Mr Ismay was sufficiently aware of the difficulties in relation to criminal proceedings, that documents that might exist within the Post Office might have to be disclosed if it led to certain issues coming to light.  Therefore, well, let's not do them. Let's not investigate.  Let's not have to worry about disclosure of that paperwork.
+
+Sir, you may recall that I took Mr Ismay, after a brief discussion with him about his whitewash report, to the document which I'm going to ask to go on the screen, please, which is in relation to the receipts and payments mismatch bug.  The document reference is FUJ00081584.  I am very grateful.  Hopefully, we should be at page 2.
+
+At the bottom of page 2, we have reference to "Impact".  I asked Mr Ismay to consider the bullet points under the heading "Impact".  This meant that the bug, the mismatch bug, caused the branch to appear to have balanced where, in fact, they could have a loss or a gain:
+
+"Our accounting systems will be out of sync with what is recorded that branch.
+
+"If widely known could cause a loss of confidence in the Horizon System by branches.
+
+"Potential impact upon ongoing legal cases where branches are disputing the integrity of Horizon Data.
+
+"It could provide branches ammunition to blame Horizon for future discrepancies."
+
+The actual impact of the mismatch bug meant that the integrity of the branch data was affected without branch or subpostmaster/mistress knowledge.  The truth is that the impact to the Post Office was that the secret of bugs might get out and at all costs that must not be allowed to happen.  To any honest organisation, prepared to face up to its own errors, the shock wave generated by the mismatch bug should have been immediate and devastating.  Instead, the answer was to choose one of three ways of trying to ensure containment, and this is shown at page 3 of the document, under the heading "Proposals for affected Branches".
+
+On the screen at page 3 we have:
+
+"Solution one -- Alter the Horizon Branch figure at the counter to show the discrepancy.  Fujitsu would have to manually write an entry ... to the local branch account.
+
+"Impact -- when the branch comes to complete next Trading Period they would have a discrepancy, which they would have to bring to account."
+
+The risk there describes:
+
+"This has significant data integrity concerns and could lead to questions of 'tampering' with the branch system and could generate questions around how the discrepancy was caused.  This solution could have moral implications of Post Office changing branch data without informing the branch."
+
+Something of an understatement.
+
+Solution two:
+
+"P&BA will journal values from discrepancy account into the Customer Account and recover/refund via normal processes.  This will need to be supported by an approved POL communication.  Unlike the branch 'POLSAP' remains in balance albeit with an account (discrepancies) that should be cleared."
+
+Impact of that was described in this way:
+
+"Post Office will be required to explain the reason for a debt recovery/refund even though there is no discrepancy at the branch.
+
+"Risk -- Could potentially highlight to branches that Horizon can lose data.
+
+"Solution three -- it is decided not to correct the data in the branches (ie Post Office would prefer to write off the 'loss'.
+
+Impact -- Post Office must absorb circa £20,000 loss.
+
+"Risk -- huge moral implications to the integrity of the business, as there are agents that were potentially due a cash gain on their system."
+
+We suggest, sir, that solutions 1 and 3 are little more than proposals to conceal the truth, protect the Post Office, deceive courts and commit fraud.  Any corporate body will want to protect its reputation and image but the consideration by both the Post Office and Fujitsu -- you will remember that these were joint discussions -- the consideration by both the Post Office and Fujitsu of these solutions demonstrates how far they had strayed from any honest and lawful approach.
+
+We thought about this.  You think about what they have put in writing within this documentation.  One can only guess what they said in the margins of these meetings.
+
+The insight provided by this document is simply astonishing.  Far from the picture which the Post Office seeks to paint now (which is that Fujitsu practised an operative deception on the Post Office, which apparently it continues into this Inquiry), the raw truth is that the Post Office planned the heist, gave the orders, while Fujitsu brought the shooters to the scene.
+
+Another means by which the Post Office sought to keep the truth from subpostmasters was by failing to inform them that Fujitsu had access to their terminals and altered data.  It was a feature of the Group Litigation that both the Post Office and supporting Fujitsu witnesses initially sought to deny to the court that remote access had been possible.  Mrs Chambers on 2 May confirmed she knew of cases where the Post Office did not tell a subpostmaster that their financial data had been altered.  She said "Yes, I think that definitely did happen".
+
+Mr Richard Roll said in his oral evidence that subpostmasters were sometimes not advised that their data was being corrected and he was referred to his evidence in the High Court where he had used the term "hack" in order to describe the way that they'd approached matters and getting into the Riposte system. He said that, in some cases, they were simply told -- this is subpostmasters -- that an error in their data would be corrected.  However, they were not told the underlying reasons for the corrections.  They were not told that the action had been taken due to a bug within the Horizon System.
+
+Mr Blackburn from the Post Office accepted in his evidence on 28 February that, as a matter of fairness, subpostmasters should have been told that remote access had been used to insert a transaction.
+
+As a result of these actions of the Post Office, very many subpostmasters would not have been aware that their financial data had been remotely altered, neither would they have been aware that the reason for Fujitsu having to access their systems was related to defects in the Horizon System.
+
+Sir, we suggest that the evidence has shown that the Post Office knew all along that the system was not robust and they sought to keep the truth from the victims of their behaviour, the subpostmasters and mistresses.
+
+At the close of Phase 1, I posed the question as to whether what we might find within Phase 3 was "cock up or cook up".  My respectful suggestion is there can be no doubt that the answer is "cook up".
+
+I now turn to the question of Helpdesk scripts.
+
+**Sir Wyn Williams**: Can I just ask that the document be taken down so I can see Mr Stein now.
+
+**Mr Stein**: I'm very grateful and, sir, just on timing, I anticipate I will be another five minutes.
+
+**Sir Wyn Williams**: Okay.
+
+**Mr Stein**: So I turn to question of Helpdesk scripts and, in essence, what we don't have.  Yesterday, Ms Patrick, in her extremely able cross-examination of Mr Peach referred to documents FUJ00152299 and FUJ00080098 and you, sir, will recall the questions being asked that refer to inappropriate calls being made and being routed back to the Post Office Helpdesk.  Now, we've been reflecting upon those points because we knew we were going to refer to the question of Helpdesk scripts.
+
+It is undoubtedly correct that now knowing that the Fujitsu system had an embedded part of its protocol, which is to refer back in a circular way to the Post Office Helpdesk, that that yet again supports what we have been trying to seek through this Inquiry, which is disclosure of Helpdesk scripts.
+
+It cannot be a coincidence that so many subpostmasters and mistresses were told the same thing over and over again by the helpline.  43 of our clients were told by the helpline that they had no option other than to pay the shortfall.  49 of our clients were told by helpline staff that they were the only subpostmasters who were experiencing shortfalls.  35 of our clients were expressly told by helpline staff that they were contractually liable for the shortfalls.
+
+There can be no doubt scripts existed.  A number of the witnesses of Phase 3 have admitted in evidence that helpline staff worked from scripts.  It has now reached the stage whereby Mr Beer, on behalf of this Inquiry, has joined in our quest to ask witnesses "Where are the scripts?  How are they saved?  Who is responsible for them?  Where can we find them?"  Because we are not getting anybody or any substantial number of scripts through the disclosure process.  That, as far as we can tell and we are sure ourselves, is nothing to do with this Inquiry.  It is to do with the disclosure by both Fujitsu and the Post Office of scripts which we suggest they must have.
+
+Mr Parker, Stephen Parker, in response to questions from Mr Beer, told the Inquiry on 10 May that he saw some of the scripts when they were compiled by senior technicians within Fujitsu.  In fact, sir, we have disclosed very few scripts.  It is inconceivable that the vast majority of these scripts have disappeared from two companies who both operated helplines.
+
+On behalf of our client group, Howe+Co have been calling for disclosure of the scripts since November 2022 and it is a matter of real concern to our clients that virtually no disclosure of scripts have been the forthcoming.  One of our clients -- the name, in fact, has been anonymised -- says that the continuing failure to disclose is underhand and shows that things are still being hidden by the Post Office and Fujitsu.
+
+We ask that the Inquiry use all the powers at its disposal, under sections 21 and 35 of the Inquiries Act 2005, to require the Post Office and Fujitsu to disclose this material or face the consequences of non-disclosure.
+
+Now, that may mean, once scripts have been identified and disclosed, that we may request that some of the Phase 3 witnesses be recalled.
+
+I now, very briefly, turn to looking forward to the evidence in Phase 4.  Before I do, may I sincerely thank the Inquiry, the Inquiry team and all of the members of the Inquiry team that sit behind my learned friends who ask these questions, that have been spending so very many hours working hard to present the evidence that has been provided with such expertise before this Inquiry.
+
+We ask that the Inquiry should have at the forefront of its considerations within Phase 4, that one of the core requirements of the system was for data produced by Horizon to be available and sufficient to support investigations and prosecutions.  Sir, we've looked at many a time the contractual requirement in that regard, one example of that is within FUJ00000087, under "Prosecution Support".
+
+Clearly, we say, Horizon was not capable of supporting prosecutions or civil actions, as both the Post Office and Fujitsu well knew.  The system had failed in one of its core objectives and this placed :abbr:`POL (Post Office Limited)` in a dilemma.
+
+Sir, you will recall the questions I asked of Mr Peach yesterday, "Why was it you were not aware of the contractual requirement?"  Well, all he could do was refer it to his many managerial staff and say that, well, they should have brought it to him because he recognised it's important.
+
+Now, the Post Office had two options.  Option A was to come clean and disclose problems with Horizon to the subpostmasters and the courts.  Option B was to continue to pursue subpostmasters for alleged shortfalls and bring abusive prosecutions based upon the fiction that the system was robust.  Perverting the course of justice is what that is.
+
+It was unthinkable to the Post Office that the truth should come out, the truth being that the Horizon System was incapable of supporting a prosecution or a civil claim.  We must remember that the Post Office had other dependent contracts with other companies, such as the Bank of Ireland, that might well have been affected.  This impacted on the Post Office's approach to disclosure in criminal and civil cases against subpostmasters.  Full disclosure was never an option in these cases.  But there was also the Post Office's internal belief that subpostmasters were fundamentally dishonest.
+
+This created a double whammy of paranoia within the Post Office.  They backed themselves into a corner. We suggest that there has been a continuing failure of disclosure into this Inquiry.  We've cited one example in relation to scripts.  We suggest that the Post Office does not want the full truth to come out.  As we all know, one of the reasons we're here today is because the Post Office decided not to be open and honest and chose the second option, option B, to continue to prosecute subpostmasters, to abuse the process of the courts.
+
+Our clients welcome the following phases of this Inquiry and have asked that we convey the wish to this Inquiry that it continues to focus on identifying and calling to account the individuals who were responsible for this scandal, as well as the institution itself.
+
+We suggest, sir, that lies won't work for the Post Office any more.  The truth is coming out.  Our clients are still here and they intend to have and they will have justice.
+
+Thank you for listening to my closing remarks and I apologise for going, I think, seven minutes over time.
+
+**Sir Wyn Williams**: All right, Mr Stein.  My personal view, but I'm prepared to be persuaded out of it, is that we should have more than just a short break.  I am quite prepared to truncate lunch to some extent but I don't think just having ten minutes and then carrying on is what we should do, since there is at least a possibility, I put it no higher, that the time estimates get longer rather than shorter.
+
+**Mr Beer**: Sir, I can't speak on behalf of either of my friends.  They gave estimates, I think, of 15 minutes each.  I don't know whether that's changed but, sir, it is 1.20 now.  Maybe 1.50?
+
+**Sir Wyn Williams**: Yes, that's fine.
+
+**Mr Moloney**: Just to be clear, our time estimate was 25 minutes but 1.50 is absolutely fine for me, sir.
+
+**Sir Wyn Williams**: We will begin the afternoon session at 1.50.
+
+**Mr Beer**: Thank you very much, sir.
+
+*(1.21 pm)*
+
+*(Luncheon Adjournment)*
+
+*(1.54 pm)*
+
+**Mr Moloney**: Good afternoon, sir, can you see and hear me.
+
+**Sir Wyn Williams**: Yes, I can.  Before you start Mr Moloney I just wanted to ask Mr Stein a question.
+
+I didn't want to interrupt him while he was speaking to me but he referred on at least one, if not more than one occasion, to written submissions which led me to believe he may be talking about written submissions to supplement his oral submissions.  Is that correct, Mr Stein?
+
+**Mr Moloney**: Sir, Mr Stein is not in the room at the moment but Mr Jacobs is and he will answer your question I anticipate, as he's always ready to.
+
+**Mr Jacobs**: Sir, yes, Mr Stein has had to go away this afternoon.  We understood that we have had correspondence with the Inquiry team that there will be an opportunity to put in written submissions as well as make oral submissions.  So we have applied a belt and braces approach.
+
+**Sir Wyn Williams**: Hang on a minute.  Have I ever said that's permissible?
+
+**Mr Jacobs**: I am told that there was a letter that gave us the deadline of 25 May to put in written submissions.
+
+**Sir Wyn Williams**: I'm not trying to be unduly difficult but this process of making submissions at the end of each phase came about, I remember, Mr Stein putting it persuasively "We'd like to make short oral submissions". I, at the end of Phase 2, gave the parties, the Core Participants, the opportunity of making either oral submissions or written submissions and I hadn't been aware that I had said anything different to that for Phase 3.
+
+If a letter has gone out from the Inquiry which suggests that you can do both, then unless Mr Beer is going to contradict me, I think I'm going to say that I didn't authorise anybody to say that.  I'm not really very keen on the idea because the idea is that you have a choice.
+
+**Mr Jacobs**: I am told that --
+
+**Sir Wyn Williams**: You're mute, Mr Jacobs.
+
+**Mr Jacobs**: I am told that a letter was sent out.  I can ask those who instruct me to liaise with the Inquiry staff but, sir, quite clearly it's your direction that --
+
+**Sir Wyn Williams**: I wanted to raise it now because I wouldn't want you to spend unnecessary time writing closing submissions, as well as making oral submissions, if that wasn't really what I had in mind but anyway does anybody else -- any of the other Core Participants present think that I have or the Inquiry has altered the process which was in place for Phase 2?
+
+**Mr Henry**: Sir, can I quickly mention something.  We're happy to follow your approach and abandon, if necessary, oral submissions but the reason why we gave a time estimate of 15 minutes was just to headline what we wished to develop in writing and that was based upon a communication.
+
+I don't want to, in any way, embarrass the person who sent it but it came from the Inquiry team and it's dated 4 May to Mr Schwarz at 15.08, and it reads:
+
+"I have confirmed with counsel and solicitors to the Inquiry that the Inquiry will accept all written closing submissions.  If written closing submissions have been provided by an RLR, it is unlikely they would need to make oral closing submissions because all written submissions will be taken into account. However, RLRs will not be prohibited from doing so."
+
+So, sir, we took that --
+
+**Sir Wyn Williams**: Well, that's fair enough, Mr Henry. I understand why you took that and there we are.  I am not going to go behind what that says, in that event, but I'm not for a minute suggesting that I am going to allow that to be the default position henceforth.  I'll discuss it with my team and from this phase onwards it may revert to what happened in Phase 2.
+
+**Mr Henry**: Thank you, sir.  If it does, sir, there will be no complaint from us and we're sorry for any, as it were, misapprehension.
+
+**Sir Wyn Williams**: That's fine.  These things happen.  It just means more work for the legal representatives and more reading for me.  There we are.
+
+**Mr Jacobs**: If I could perhaps add, sir, that our written submissions will largely echo what Mr Stein said this morning, so that there won't be duplication.
+
+**Sir Wyn Williams**: I really would ask you not to do that, since we have a transcript of it and just confine yourselves to making additions.
+
+**Mr Jacobs**: Absolutely, sir, yes.
+
+**Sir Wyn Williams**: Fine, thank you.
+
+Over to you, Mr Moloney.
+
+Closing statement by MR MOLONEY
+
+**Mr Moloney**: Thank you very much, sir, and indeed thank you very much, sir, for the invitation to make short closing submissions for this phase.  The extensive evidence we've heard frequently echoed the experiences of the Core Participants we represent.
+
+We will confine our submissions today, sir, to that evidence heard in Phase 3 but just one reflection on Phase 2, that the Inquiry heard submissions on the evidence of bugs, errors and defects which were visible during Horizon's development and rollout.  As we said before, there is clear evidence on which the Inquiry could conclude that, even from 1999, Horizon was so politically and commercially significant for both Post Office and Fujitsu that it could not be allowed to fail.
+
+Post Office, as we heard, had to be strategically Horizon-centric.  It had to be made to work.
+
+The evidence in Phase 3 is such that the Inquiry may conclude that the bugs, errors and defects in Horizon cannot be and could never reasonably have been written off as teething problems in the new system or simply part and parcel of the accepted operation of any complex computer program.
+
+The Inquiry may conclude that the problems arising in the operation of Horizon had been well signposted in its development when the poor product quality had been evidenced and, to a degree, acknowledged by Fujitsu and Post Office.
+
+There's a lot to cover from the extensive evidence of Phase 3, sir, and today we briefly address each of the five topics designated for exploration within Phase 3, those being: (a) training; (b) assistance and support; (c) resolution of disputes; (d) modifications; and (e) knowledge of bugs, errors and defects.  Then we will very briefly look to Phase 4 and the issues we invite the Inquiry to explore further back of Phase 3.
+
+When making these submissions, sir, we'll provide references for the record but we'll only ask for one document to be shown.  So, firstly, taking the five topics in turn:
+
+Training.
+
+We highlight only two issues.  Firstly, training on Horizon was known to be inadequate.  In 2011, a decade after the national rollout of Horizon, feedback remained that training on the balancing process was inadequate.  Chris Gilding provided that feedback on behalf of trainers, to the effect that training was inappropriately focused on sales, rather than on balancing and discrepancies.  That was not the view of senior management, according to Mr Gilding, who were "striving to keep branches afloat by generating new income streams".
+
+That's the transcript of 13 January at page 66.
+
+Secondly, what was termed residual fallout.  Post Office and Pathway planned from the outset that some postmasters simply would never absorb Horizon.  There would be residual fallout which Post Office would need to address.  That was built into the annex to the second supplemental agreement.  The Inquiry might consider just how postmasters who did not absorb Horizon were to be treated by Post Office.
+
+(b) Assistance and support.
+
+A number of propositions arise from the evidence heard in Phase 3, sir.  First, the support being provided to postmasters on the front line, whether by the HSH or the NBSC, was limited.  We ask whether investment in front line support was commensurate with what was known to both organisations about the flaws which arose in Horizon's development.
+
+Second, the NBSC was reliant upon Fujitsu front line support to investigate any alleged system problem. HSH was limited by their knowledge base, by KELs and scripts and essentially restricted to the consideration of known problems and, if there was no known problem, the postmaster was told to carry out further checks.
+
+Thirdly, each layer of support was designed to act as a filter against escalation of a problem to the next level of support and the Inquiry may wish to consider whether the HSH and SMC were explicitly or implicitly discouraged from escalating problems for further investigation.
+
+(4)  If a problem is not escalated beyond HSH there could be no further investigation of any previously unknown problem.
+
+(5)  In Legacy Horizon bugs, errors and defects in Riposte were subject to limited investigation within Fujitsu.  Escher had to be involved and the Inquiry heard of issues parked for weeks and months on end and some closed without any root cause identified.  We suggest that the Callendar Square bug is illustrative. Riposte lock incidents had been recorded from rollout with a purported fix not implemented until 2006, and it appears that instances of this Riposte lock problem may have continued until the migration to Horizon Online.
+
+(6)  Many issues were discounted as one-offs and left without further exploration or explanation. Mr Peach yesterday, for example, referred to "a single occurrence of an anomalous event somewhere in the system being known as an incident, rather than a problem".
+
+That's at page 100 of yesterday's transcript, sir.
+
+When a problem did get to the SSC, there could be limited investigation of any root cause, where there was no obvious reason for a discrepancy and/or no means of reproducing a problem.  Mr Peach suggested to the Inquiry that any problem that it was believed could be rooted in the code would be escalated up.  However, he also confirmed that this could be a difficult call and within the judgement of the technician dealing with the call to determine whether the evidence available was sufficient.
+
+The Inquiry also heard, though, from Mrs Chambers who, by all accounts, was recognised as the technical specialist in the SSC for counter problems.  On her evidence, postmasters would be asked to provide further evidence of a problem before system engineers would investigate further.  We ask how postmasters could be expected to investigate a technical problem further without expertise or specialist support.
+
+Indeed, the transcript of 2 May at page 75 reveals that Mrs Chambers was asked what would happen when she thought there was insufficient information to explore an alleged error further, and she said:
+
+"I sort of assumed that perhaps somebody within the Post Office organisation would go and help the postmaster to discover where something might be going wrong."
+
+In that vein, she added that she was unaware that a postmaster might then be liable for a loss, at least until she became aware of cases going to court from around 2005.
+
+(8)  The diagnostic information available to both SSC and to the postmaster was limited.  Both Mr Peach and Mrs Chambers confirmed that there was apparently nothing in the information available either to the postmaster or to the SSC which would track every keystroke or screen touch recorded by Fujitsu as undertaking in branch.
+
+(9)  Importantly, there was a general bias towards a conclusion of user error.  This was apparently built into the guidance being given to the front line support. During the evidence of Mrs Chambers we looked at FUJ00082302.  That's the transcript of 2 May at page 165, where Mrs Chambers, dealing with one PEAK, said that:
+
+"SSC do not accept credible calls until all information on the investigation performed by NBSC is detailed and they've advised why they believe there's a software fault.  When responding, if they have given specific examples that you can explain, do so. Otherwise, make clear that it is not a system problem (assuming you've checked that everything adds up)."
+
+She suggested that the Helpdesk personnel should look at a different PEAK for an example response which may help with the wording.
+
+When pressed as to why she might have closed out as "user error" an issue identified by NBSC through auditors on site as not being a result of postmaster error, Mrs Chambers accepted that she was not happy with how she handled that problem.  When asked how she could reach that conclusion, she said because the numbers added up.  This response and her simple calculations would, of course, have depended entirely on the numbers produced by Horizon being reliable and accurate and no-one, it appears, was required to question the reliability of those figures in the face of evidence in the statement by the postmaster user that the figures were wrong?  Even when apparently corroborated by on-site auditors.
+
+She said:
+
+"My job was to try to identify system errors and, you know, you can't, I think, turn around and say, 'Oh, well, it might be a system error but I can't find it', not in a case where there's, you know, there is so much variability, shall we say, on the customer side."
+
+The default, we say, sir, was postmaster error.
+
+Finally, in this section, where a problem was identified and diagnosed, a problem would in principle be passed by SSC to the MSU who could issue a BIM for the :abbr:`POL (Post Office Limited)` team to address any financial discrepancy.  Each of those individual steps needed to be taken properly if a postmaster were not to be held liable for a false debt.  The Inquiry has seen at least one example of a postmaster continuing to chase the HSH for support in circumstances where a system error has been identified and no correction issue issued by POL.  That example is POL00000996, transcript of 3 May at page 137.
+
+The Inquiry heard that there was at times a considerable backlog of transaction corrections including after the introduction of IMPACT, again reflecting the anxiety and trauma experienced by some postmaster Core Participants waiting in vain, quite often, to hear whether a transaction correction would or would not be issued in respect of a considerable discrepancy, as again outlined by postmaster Core Participants in Phase 1 of the Inquiry.
+
+(c) Resolution of disputes.
+
+We address one issue under this heading, touched upon by Mr Stein during his submissions, and that's IMPACT and the removal of the facility to place disputed discrepancies in suspense.
+
+The Inquiry heard that that feature had not formed part of the original IMPACT design to remove the suspense facility.  The original design had envisaged a dispute process which never materialised, which was known as "Do nothing, requesting further investigation". The evidence may suggest that the default position within Post Office was that, overall, postmasters were assumed liable for any unexplained discrepancy, unless they could prove to the contrary.  After the changes wrought by IMPACT it appears that any dispute could only ever follow acceptance of a debt by an individual postmaster.
+
+We suggest, sir, that the way this decision was taken might provide considerable cause for concern on the part of the Inquiry.  The apparent reason for the removal of suspense as an option on rollover is disturbingly lacking in logic, being built on a faulty presumption that use of suspense may be indicative of fraud or dishonesty by postmasters.
+
+From FUJ0012603 and FUJ00126038, we can see that Mr Marsh said that:
+
+"Those of a more historic mindset will exploit the facility."
+
+We also have the evidence of Sue Harding.  We say that this appears very much at odds with any common sense understanding of suspense as a means of highlighting funds held under pending dispute because we ask whether any truly dishonest postmaster would flag or suspend any sum.
+
+Both Post Office and Fujitsu were aware that only 10 per cent of all discrepancies reported were true debt and that figure is repeatedly stressed in IMPACT policy, which identified the key drivers for the policy including debt recovery.  That's at POL00038878 on the transcript of 27 February, page 22.  It can also be found in the evidence of Sue Harding and Philip Boardman.
+
+Yet there appears to have been a persistent corporate default that unexplained discrepancies were debts liable for recovery and postmasters were responsible for those debts, whether as a result of incompetence or dishonesty.  The Inquiry will recall the evidence of Mrs Harding and may have gained the impression that she had an initial reluctance, even now, to accept that there were bugs, errors and defects in Horizon.  She continually said, "if Horizon was wrong", and that's transcript of 22 February at page 28.
+
+We would ask the Inquiry, please, in those circumstances, to keep an eye on whether the enthusiasm for debt recovery illustrated in the policy papers for IMPACT was then reflected in the prosecution policy pursued by Post Office.  The Inquiry heard that, while debt recovery was a key trigger for IMPACT, debt recovery was also a core focus for the risk team at Post Office.  Mr Ismay was expressly asked about a vigour for the suspension of postmasters and evidence of satisfaction in the use of the Proceeds of Crime Act 2002 to secure the recovery of substantial sums for the business.  Mr Ismay was asked about the auditing report prepared in October 2004, which identified a concern that:
+
+"In spite of the size of amounts of discrepancies, a precautionary suspension was not made in 35 per cent of cases."
+
+That's the transcript of 11 May, page 30.
+
+He was also asked about the minutes of the risk and compliance committee in January 2005, identifying POCL recovery of £1.2 million over a part-year.  That's at page 44 of the same transcript.
+
+So the Inquiry may decide to treat sceptically the assertion by Mr Ismay that, while debt recovery was relevant to IMPACT and also relevant to the increased focus on investigation of postmasters, both were separate issues and considerations.
+
+(d) Modifications.
+
+Fixes and new releases could introduce new bugs, errors and defects and, from FUJ00094958, we see the quote that:
+
+"Quite simply there have been too many incidents where poor execution of change has caused a problem in live."
+
+The Inquiry may consider this risk of regression particularly concerning in the light of the conclusions of the EPOSS Task Force and what it identified as a code fix culture which could result in regression.
+
+During the development of Horizon Online, there was again pressure on both organisations to explain away bugs, errors and defects and to reduce their impact from high to acceptable.  We highlight one issue in this area, sir.  When faced with a very substantial defect in the Horizon Online product in development, it was apparently critical to POL that Fujitsu provided a definitive statement including:
+
+"... a commitment to support POL in proving the integrity of the system in any subsequent legal action (specifically where the difference in the two reports is used as a means to challenge the integrity of the system)."
+
+It appears that a caveated commitment of that nature was given by Fujitsu.
+
+Finally, in the review of Phase 3, sir, we turn to knowledge of bugs, errors and defects.
+
+A number of propositions are supported by the evidence in Phase 3.  Firstly, bugs, errors and defects continue to appear throughout the rollout of Horizon and beyond.  Bugs, errors and defects appeared in both Legacy Horizon and Horizon Online.  Secondly, and very importantly, there had been limited dissemination or appreciation of the knowledge of bugs, errors and defects identified in development to those individuals working in support.
+
+At a senior level, there was an awareness that the genesis and development of Horizon had been difficult. For example, Mr Muchow was aware of the EPOSS Task Force report and the decision not to rewrite the application. But down below, with those involved in support, there was no such appreciation.  The implications of this lack of institutional memory are clear in the evidence both of Mr Parker and of Mr Peach.  Both were responsible for critical support provided through the SSC but neither appears to have conducted any ongoing monitoring or assessment of the quality of the product, as it appears was explicit in the management decision taken on 10 May 2000 not to rewrite the EPOSS application.
+
+Further, as Mr Peach made clear, in the absence of knowledge of the EPOSS Task Force report, conclusions on the poor quality of the product, his baseline understanding was founded solely on the fact of acceptance of it by Post Office.  The Inquiry may consider that position, that the fact that the product had been accepted must mean that it was of satisfactory quality, profoundly unfounded.
+
+He did not, on his own admission, have the technical expertise to make his own independent assessment of poor quality and the Inquiry might consider, had he been told about the EPOSS Task Force conclusions, whether this might and perhaps should have informed the work on his team.  Would they have subjected the operation of the system to greater scepticism or treated complaints from postmasters with greater credibility?
+
+Third, not all bugs, errors or defects seen or addressed by Fujitsu during the life of Horizon are identified in the Horizon Issues judgment.
+
+Next, not all bugs, errors or defects were picked up by the automated processes designed by Fujitsu. Sometimes bugs, errors and defects were first identified in the complaints raised by postmasters and we have that from the evidence of Mrs Chambers and John Simpkins.
+
+Bugs were not limited to one aspect of the system and the Inquiry has at least one example of a known bug, error or defect which impacted upon the :abbr:`ARQ (Audit Record Query)` data, which was previously believed to be unassailable.  There appears to be little indication that the impact of this bug was substantially investigated.  There were bugs, errors or defects which could take months, if not years, to investigate and to identify a root cause and there were some bugs, errors and defects where a root cause was never investigated or identified.
+
+Importantly, if a bug, error or defect impacting on a branch could not be replicated by Fujitsu it might never be investigated or identified.
+
+It was also a known common problem, at least within Fujitsu, that some calls were being bounced back had forth between HSH and NBSC.  We see that from the transcript of 16 May at page 85, dealt with yesterday by Ms Patrick.  The Inquiry may conclude that this reflects the experience of postmaster Core Participants, including those we represent, and it might be thought to be a particular problem when Fujitsu's automated processes were not picking up all bugs and Fujitsu was only becoming aware of them when postmasters highlighted them.
+
+Importantly, the Horizon Helpdesk was penalised for passing some problems up to the SSC, which ultimately led to "too many calls being closed without proper investigation or resolution", and that's FUJ00152299, yesterday's transcript at page 85.  That concern was raised expressly by Mrs Chambers but was not addressed in a later joint policy document produced in September 2008, and that's FUJ00080096.
+
+Both Post Office and Fujitsu were aware or ought to have been aware that civil and criminal liability for postmasters could flow directly from a discrepancy in the accounts produced by Horizon and, if not by 2007 when Mrs Chambers wrote her afterthought, then by 2010 at the latest, both organisations were demonstrably aware of the impact which bugs, errors and defects might have on ongoing litigations and prosecutions.
+
+For example, the Inquiry has repeatedly considered the notes prepared in the discussion of the receipts and payments bug in September or October 2010, which Mr Stein referred to this morning.  But there appears to have been little or no consideration of disclosure.
+
+As raised by Mr Stein, Post Office may seek to rely on a failure by Fujitsu to fully communicate the extent of the problems arising within Horizon to them. However, the evidence suggests that Post Office failed to adequate scrutinise their provider, whether during development or at any time during the life of Horizon. We ask whether the company failed to ask the right questions when problems were raised.  The Ismay report provides one example and the handling of the receipts and payments bug another.  The Inquiry may conclude that Post Office was too quick to rely on Fujitsu's own internal analysis of its own product.  The Inquiry may consider that the reasons provided by Mr Ismay to reject the planned independent review of Horizon in 2010 ring hollow and instead reflect an institutional defensiveness.
+
+The revelations of the rigorous Phase 3 lead into Phase 4 and beyond and if I can now just very briefly turn to that, sir.  Phase 3 has map the evolution of the Horizon-centric approach taken by both POL and Fujitsu and over a decade this became a hardened Horizon defence.  The Inquiry has considered with Mr Ismay the congratulatory language used in the aftermath of the Castleton and Misra judgments and a straight line might be drawn between the vision of a Horizon-centric future in 1999 to the stock line that Horizon was robust, described as such by Post Office at least by 2010, if not before.
+
+This is the one document I would like to put on the screen, if I may, sir, and this is POL00002268 and it's the second page.  This is from Hayley Fowell on 1 February 2010 and, sir, it's the second paragraph when following up a media enquiry from Retail Newsagent magazine, she says:
+
+"I am providing our stock line which states that's system is robust but in case we get more questions on this, please can you advise ..." and so on.
+
+If this Horizon-centric approach or defensive was combined with the presumption of incompetence or dishonesty on the part of postmasters, that would obviously be a cause for considerable concern.
+
+On the evidence relevant to Phase 4, which the Inquiry has already touched upon, there's sufficient to suggest that at least Fujitsu was conscious of this risk in the conduct of litigation by the Post Office as early as 2007.
+
+In Mrs Chambers' afterthought on her experience in the Castleton case she highlighted concerns and mistakes, including in respect of the material examined before prosecution, as well as material which ought to have been subject to duties of disclosure, describing it as:
+
+"... a major legal blunder.  Since the postmaster was blaming the system for the losses, I think it would have been sensible to have double checked this before it got as far as court."
+
+That was yesterday's transcript, 16 May at page 72.
+
+This assessment was disseminated to management within Fujitsu but it remains to be considered whether or not this was distributed to others acting in support of litigation and/or whether it was disseminated to POL.
+
+In reality, where Horizon was to be given the benefit of the doubt by both POL and Fujitsu, no such amenity was afforded to postmasters.  Postmasters were to be doubted.  They were seen as users in error and postmasters, in contrast to Horizon, were seen as expendable or easily replaced.  They were seen by POL first as potential risks to their business and/or as potential debts to be recovered.  The impression is available that inherent bias saw postmasters who might be responsible for an error viewed first as dishonest or incompetent.
+
+The impropriety and the danger of such a default assessment is obvious.
+
+The extent to which any wilful blindness or commercial self-interest infected decisions taken in respect of prosecution policy or the pursuit of individual prosecutions will be a critical matter for Phase 4, we say, sir.  The approach of Rod Ismay to the preparation of his Horizon Integrity Report in 2010 is telling.  Tasked to evidence the positive assurances to Horizon's reliability, he says that is precisely what he did.  He did not question the purpose of a one-sided defence of a product under challenge.  Instead, he asked Fujitsu to help mark their own homework and astonishingly, we say, portrayed his work as an objective evaluation.
+
+The Inquiry might consider the continuing commercial pressures on both companies.  Post Office remain under pressure as Network Banking rolled out and later as they were embarked on a programme of network transformation.  Mr Ismay stressed the pressure he was under when asked to complete his Horizon integrity report.  The Inquiry may consider whether Fujitsu continued to grow its portfolio of Government and other work on the back of its Horizon success.  The Inquiry may ask whether or not there was a commercial imperative to whitewash the problems of Horizon, that being that Horizon remained too important to fail.
+
+Sir, the next phase of the Inquiry deals with, for our Core Participants, critical questions, sir.  How could prosecutions be pushed forward without full confidence in the data produced by Horizon being evidenced?  How could Post Office be allowed to maintain its stock line that Horizon was robust for so long?  How could the disclosure of material now being considered by the Inquiry not have been considered by Post Office prosecutors?  We will seek to assist the Chair and the Inquiry legal team in answering those questions in any way we can, sir.  Thank you.
+
+**Sir Wyn Williams**: Thank you, Mr Moloney.
+
+Mr Henry whenever you are ready.
+
+Closing statement by MR HENRY
+
+**Mr Henry**: Thank you, sir.
+
+We say that, whilst it is indisputable by 2010 that the Post Office knew, and they knew before Seema Misra was sent to prison, that the fact is they had known for years by that time as had Fujitsu.  They'd known for years because from the very, very beginning, around the country, subpostmasters baffled and bewildered could not cope with the system and we know, from earlier evidence in this Inquiry, that it was roughly about 1 to 2 per cent of subpostmasters who got into difficulties were prosecuted.  That would appear to be the evidence from an earlier stage in the Inquiry from Mr Sweetman.  We will develop that in our written argument.
+
+What the Post Office did in common with Fujitsu, their mutual connivance, was to deny this -- not simply to deny it, in fact, and to dispute it most vigorously, but to deny it almost psychologically.
+
+And why?  Well, we return to paragraph 11 of the common issues judgment of Mr Justice Fraser and, as learned counsel to the Inquiry has said, you build on the foundations of Mr Justice Fraser's work, in particular the common issues, the Horizon IT issues, and also most regrettably his decision on recusal.
+
+What he said at paragraph 11 of the common issues judgment was as follows, sir:
+
+"If the Claimants were right in the broad thrust of their case, this would represent an existential threat to the Post Office's ability to continue to carry on its business throughout the UK in the way it presently does."
+
+"Existential threat", as far as I remember and recall, was Mr Oppenheim's phrase about the Post Office's insistence, anxious demand, that they be modernised.  An existential threat it was because, if Horizon was not implemented, it was curtains for the Post Office.  But, of course, if Horizon were to be implemented and failed or proved to be a disaster, the ignominious consequences would be catastrophic for the Post Office.
+
+There we see the beginning of a common interest with, first of all, ICL and then Fujitsu and ICL, it may now be thought, was a damnnable acquisition so far as Fujitsu was concerned, Horizon being the classic poisoned chalice.  Whilst it may not have been an existential threat to Fujitsu, perhaps it may have been fatal to its independence and certainly its valuation.
+
+So here you have these two institutions, sir, one a public corporation trading off its most trusted brand value and the other a global multinational.  We say that eventually they conspired, stumbling at first, to arrive at a position of mutual interest after all of the back biting, but they decided that it was better that 1 per cent or 2 per cent of the subpostmasters would be put on the rack, rather than the Post Office collapse and a corporate's reputation be ruined.
+
+That mutual connivance, all it took, you may think, is a nudge and a wink, Fujitsu "If we're not asked, we won't tell", and the Post Office had no inclination to ask because, to mix the metaphor, they were holding the telescope to their blind eye.
+
+So Phase 3 is all about the Post Office and Fujitsu's failure, lamentable failure, to act in accordance with the proper duty of care it owed to the subpostmasters.  It would be no good Fujitsu constantly saying "Oh, well, they're not the client".  If they knew that their system was putting these poor people in danger, they had a duty to disclose.  And yet, you see the contemporaneous documents "Oh, well, wish we could help further but they're not our problem".
+
+As we have seen from the recently disclosed material from Fujitsu -- and of course I am referring to FUJ000152299, "Afterthoughts on the Castleton case", Fujitsu made no attempt to reveal the errors, the bugs, the defects that were shot through the system before Mr Castleton went to court.  That memorandum, Mrs Chambers' effort to remediate her employer's approach to establish a protocol for future trials was ignored.  Now, there's been no suggestion, certainly not by us, that that was a cynical ploy to cover her own back.  There's been no disclosure of a riposte, if you will excuse the pun, criticising or rebutting or refuting even the contents of that note.  That note was sent in good faith.
+
+What happened, sir?  Nothing.  Nothing was done. No recommendation was acted upon.  No suggestion was actioned, systematised or implemented it would seem.
+
+Fujitsu and the Post Office are both culpable. I repeat, sir: they both connived in the injustice deliberately inflicted on innocent victims and it became, as we will show, a corporate scandal, their existence itself, their corporate existence, their bonuses and their reputation prioritised, temporarily preserved but now ruined, by relatively short-term deceit and deplorable misconduct.
+
+We will justify in writing the following findings arising from Phase 3 of this Inquiry which you, sir, aided by your exemplary Inquiry team, have examined with your customary astuteness and attention to detail.  The first headline is that the Post Office failed to discharge its duty of care to the subpostmasters by:
+
+(1) failing to provide adequate training for the use of the Horizon IT System, and I adopt what my learned friend Mr Moloney said;
+
+(2) failing to provide an appropriate level of informed, independent and objective assistance to the subpostmasters reporting errors, anomalies and discrepancies within the Horizon IT System;
+
+(3) denying employees, although there is a gloss on that because we see an increasingly low level of prosecution of employees as opposed to subpostmasters no doubt because of the employment law position but denying employees and subpostmasters using Horizon knowledge of those bugs, errors and defects by restricting and suppressing information that would have revealed the instability of the system, compounded by ad hoc fixes that introduced even more anomalies and errors which subpostmasters were not informed about and could not have been aware of;
+
+(4) failing to provide a system that was reasonably fit for purpose, and here we extend the ambit of the issue to Detica and Second Sight, issues to come, but still less one suitable for civil and criminal evidence.
+
+(5) refusing, sir, to look in the mirror, facing up to its responsibilities towards the subpostmasters but, instead, branding them as either dishonest or incompetent, and Fujitsu enabled this.
+
+Mr Coleman today and Mrs Chambers earlier this month fell squarely into the deductive fallacy, overconfident in their assessment of the system.  But they're the foot soldiers, sir.  Those above them allowed them to fall into error and reach uncorrected the false conclusions that will now be demonstrated:
+
+The first premise is that all discrepancies are software-related or user-related; (b) a software error has not been detected; (c) therefore, the error must be user related.  That fallacy in Castleton ruined a good man and his family.  It was elevated disproportionately by Mr Morgan, as was, now Mr Morgan KC, and His Honour Judge Havery KC as wholly writ that the system was error-free, when both Fujitsu and the Post Office knew that it was not.
+
+Mr Coleman was asked today by counsel to the Inquiry, well, wasn't user error the default position, the user not the system getting the blame.  No, he said. It was his judgement based on his knowledge and it's a classic case, we respectfully submit, of confirmation bias.  But, again, I repeat, sir, he's a foot soldier and the soldier in the trench can't see the battle field.
+
+They weren't told, for example, about the EPOSS instability.  They weren't told about the fact that the decision to rewrite it had been scuppered.  To use a different analogy, what Mr Coleman was telling Mr Blake was that the black box was working just fine but maybe he, sir, did not know what was in the black box himself, notwithstanding his learning, because, of course, he had not been told or put in the whole picture and, in any event, and this is a big but, what do we know about what is in the black box?  Must we take it on trust?
+
+A multinational of renown with political influence, in union with Britain's most trusted brand a claim I hope you will forgive me for saying, sir, which now nauseates, that was enough to carry all before them, until a sceptical High Court judge, Mr Justice Fraser, relentlessly drilled down to the detail, probing the verbiage, the conventional wisdom that had hitherto masqueraded as empirical fact.
+
+Before that, sir, the Post Office, aided and abetted by Fujitsu, intentionally and deliberately abused their position via, as we will demonstrate in writing, material non-disclosure, failing to make rigorous nor even reasonable enquiries even-handedly and impartially to arrive at the truth, concealing those bugs, errors and defects but also the nature, frequency and extent of those flaws, instead just saying to the anxious, innocent subpostmaster "It's just you.  You're out on your own, on a limb.  Where have you put the money?"
+
+(4) Concealing Fujitsu's covert remote and untraceable system access or interference with branch accounts.  What is the good of having a system where the subpostmaster who is held utterly responsible for defects or deficiencies, isn't even in control of their own account?
+
+Then (5), maintaining the myth at all costs of system infallibility, prosecuting the innocent, bankrupting the honest Mr Castleton, a policy made clear during this phase, and which will be developed in the phase to come, a policy deliberately contrived to harrow, intimidate and deter.
+
+It is clear from Phase 3 that the Post Office behaved in a disgraceful manner.  That is not in dispute.  No cheap soundbite to that effect will do justice to its victims.  These good, loyal, decent people were valued at naught by the Post Office, treated like an inconvenient rounding error to be written off or dispensed with.  This, sir, is already known.
+
+The real questions are how and why.  How did they do this?  Why did they feel justified?  They did this by wielding uncontrolled power via oppressive contractual terms with subpostmasters, an inequality of power and status of juggernaut resources against fledgling businesses, often owner-managed, up and down the land, and an individual subpostmaster could not withstand it.
+
+They did it through the imposition of liability for branch losses as a default position, oppressive. Other terms explored in the common issues judgment were equally unjust.  One hatched in Castleton when poor Mr Castleton was inveigled into signing off disputed accounts on the pretext he had to leave, closing an account which he'd signed after his dismissal, which was then, of course, used to reverse the burden of proof not simply against him but those that followed.
+
+A deliberate strategy and you will, sir, be drawn to a memorandum and a post-trial advice where Mr Morgan, King's Counsel, said that he would be delighted to address the board on the matter as to how and I don't suggest that he regarded it as a stratagem, but stratagem it was, that this is how we get them themselves to reverse the burden of proof: get them to sign before they go.
+
+You had the spectacle, sir, and nothing has changed, we respectfully submit, of a public corporation denying it had to act fairly or in good faith towards its agent, denying its contract was relational in nature, which would, of course, conferred rights and entitlements upon its long-suffering subpostmasters. How were they allowed to do this?  We know why.  It was because they felt entitled and it was the existential threat.
+
+But how were they?  Because the Government gave the Post Office a long leash.  Even though publicly owned, with strategic direction set by the Government including of course the implementation of IT, the convenient fiction was that the Post Office was an independent commercial business and so its relationship with subpostmasters and management of its IT systems was the Post Office's, and I quote, "exclusive domain giving it unfettered operational control".
+
+Here, sir, to draw an analogy, the Government is like the owner of a dangerous dog just mauling a defenceless child and saying "Sorry, so sorry, but it's nothing to do with me", because people were mauled up and down the country.  Lives were destroyed.  Life itself was lost or ended too soon.  No, the Government, sir, is responsible.  It's responsible for allowing the Post Office to pursue a policy of suppression and oppression, bankrupting a man of straw to the sum of £321,000 -- £321,000 -- for a debt that was well under 30, a debt that did not even exist.
+
+These punishments, sir, were intended to reinforce the dominance of the Post Office and they were well publicised through the network, the :abbr:`NFSP (National Federation of SubPostmasters)`, perhaps even, to dissuade others from maintaining their innocence by demonstrating the vengeance that would be visited upon those who challenged Horizon.  Mr Castleton: no income, no assets, and the true benefit of that costly case is to be found at :abbr:`POL (Post Office Limited)` -- forgive me, sir, I have just got an email from Mr Beer.  I don't know if it's relevant, so can I just check it?  It's not relevant, fine.
+
+The document POL00113488 reveals the true benefit: the more publicity the case is given the greater should be the effect upon postmasters who take legal advice about defending claims for repayment.  The same can be said for Mrs Misra, the guilty verdict applauded by Mr Singh at POL0004497 as:
+
+A marker to dissuade other defendants from jumping on the Horizon-bashing bandwagon."
+
+Then the question that learned counsel, Mr Beer, put to Mr Ismay:
+
+"Is that language reflective of the culture prevalent at the time concerning Horizon; namely, in response to a defendant who maintained a defence to the criminal charges of theft against her was thereby seen as attacking Horizon, an attack which needed to be destroyed?"
+
+Well, sir, that can only be answered in the affirmative.
+
+So the Government, we respectfully submit, is responsible for every life mangled or lost, every livelihood destroyed, because it failed to manage, notwithstanding its NED, it failed to properly manage the Post Office.
+
+There are many who were broken on the alter of Horizon's infallibility, who had the temerity to challenge the system but two (together with Ms Page and Hodge Jones and I have the honour representing, and that is Mr Castleton and Mrs Misra) both faced a dreadful ordeal, callously destroyed in acts of, we respectfully submit, spectacular retribution because Mrs Misra wasn't even allowed in the end to plead to false accounting. They were denied the means to remove the burden of unjust accusation, and nor were they provided with the appellate right to remove the stigma of wrongful judgment because that material was suppressed.
+
+And so I conclude, sir.  This is as dark a chapter in our governmental, corporate and legal history as can be imagined and, sadly, it will get darker yet.  But you, aided by the Inquiry team, will prevail, notwithstanding any obstacles or non-disclosure that you encounter.  You will arrive at the truth.  And the truth will be, as one surmises, that this was hazarding with people's lives deliberately in order to preserve an institution that the loyalty, the corporate loyalty, to that institution caused people to make the most grotesque misjudgements and then to cover them up in the full knowledge of the wrong that had been done.
+
+**Sir Wyn Williams**: Thank you, Mr Henry.  Right, well, I think I can say that the Phase 3 which began in January, and we are now in the middle of May, is almost at a close.  We have to remind ourselves that there is still some evidence to come and there will be written submissions next week, but we are very nearly at the close of Phase 3.
+
+I'm very grateful to everyone who has participated in it and has contributed to the unearthing of important facts and issues, and I look forward to seeing you all again in the beginning of June when we head on to Phase 4.
+
+So I think, Mr Beer, unless you have anything to add, we can now conclude today's proceedings.
+
+**Mr Beer**: No.  Thank you very much, sir.
+
+*(2.55 pm)*
+
+*(Adjourned until Tuesday, 6 June 2023)*
+
