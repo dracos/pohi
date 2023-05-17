@@ -232,19 +232,23 @@ def parse_transcript(url, text):
 
         # Witness arriving
         m1 = re.match(" *((?:[A-Z]|Mr)(?:[A-Z0-9' ,-]|Mc|Mr|and)+?)(,?\s*\(.*\)|, (?:sworn|affirmed|statement summarised|summary read by ([A-Z ]*)))$", line)
-        m2 = re.match(" *(Mr.*)(, statement summarised)()$", line)
-        m3 = re.match(" *(Summary of witness statement of [A-Z ]*)(\s*\(read\))()$", line)
+        m2 = re.match(" *(Mr.*)(, statement summarised)$", line)
+        m3 = re.match(" *(Summary of witness statement of )([A-Z ]*)(\s*\(read\))$", line)
         if m1 or m2 or m3:
             m = m1 or m2 or m3
-            heading = fix_name(m.group(1).strip())
-            if 'statement' not in line:
-                Speech.witness = heading
-            narrative = '%s%s.' % (m.group(1), m.group(2))
+            if m3:
+                heading = m.group(1) + fix_name(m.group(2).strip())
+                narrative = '%s%s%s.' % (m.group(1), m.group(2), m.group(3))
+            else:
+                heading = fix_name(m.group(1).strip())
+                if 'statement' not in line:
+                    Speech.witness = heading
+                narrative = '%s%s.' % (m.group(1), m.group(2))
             spkr = speech.speaker
             yield speech
             yield Section( heading=heading )
             yield Speech( speaker=None, text=narrative )
-            if m.group(3):
+            if m1 and m.group(3):
                 speaker = fix_name(m.group(3))
                 speech = Speech( speaker=speaker, text='')
             else:
@@ -299,7 +303,7 @@ def fix_name(name):
     #    return name
     # Remove middle names
     name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: QC)?)$', r'\1 \2\3\4', name)
-    name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)\S+ (\S+)', r'\1 \2', name)
+    name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+(\S+)', r'\1 \2', name)
     return name
 
 parse_transcripts()
