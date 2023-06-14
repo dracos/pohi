@@ -555,7 +555,7 @@ Then you ask some questions.
 
 **Anne Chambers**: Possibly because, at some levels, it was thought that we didn't have the ability to do that. I don't know.  I cannot speak for Post Office.
 
-**Mr Beer**: Can we look, please, at FUJ00087194.  This, I think, is related to the email that we just saw.
+**Mr Beer**: Can we look, please, at `FUJ00087194 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00087194-fad-183227-corrective-bureau-report-december-2007>`_.  This, I think, is related to the email that we just saw.
 
 **Anne Chambers**: Yes.
 
@@ -1909,7 +1909,7 @@ Um, I think we very occasionally did continue to see just a single event at odd 
 
 **Anne Chambers**: I know that in 2006, after the fix for the event storms went live, I did monitor for some time after that to see if the event storms stopped and the event storms did stop, but there may have been the very, very occasional single event still happening.  But it was the storms that seemed to cause the message store either not to replicate or it not to be possible to write to them.  Otherwise, if you've just got a single problem the processes would retry and it would work on the retry.
 
-**Mr Beer**: Can we turn, please, to FUJ00083548.  This is an email exchange between Mr Jenkins and Mark Jarosz and Brian Orzel.  If we just read through the message at the top of the page together, from Mr Jenkins:
+**Mr Beer**: Can we turn, please, to `FUJ00083548 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00083548-email-gareth-jenkins-mark-jarosz-and-brian-orzel-re-pc0057478>`_.  This is an email exchange between Mr Jenkins and Mark Jarosz and Brian Orzel.  If we just read through the message at the top of the page together, from Mr Jenkins:
 
 "I've had a look at this event log and I don't think there's anything to really worry about.  Migration appears to have completed OK and the outlet is running fine on CI4."
 
@@ -1937,7 +1937,7 @@ I'm not going to look at the rest of the message.  For this kind of thing that M
 
 **Anne Chambers**: No, not the same -- not necessarily the same underlying cause but the same events have been generated and in this time it's during the phase of the index rebuild, and this is looking like it's part of the migration.  So when branches are first moving on to Horizon.  So, yes, some Riposte errors were looked at.
 
-**Mr Beer**: Can we move on, please, to FUJ00083574.  Look at the message in the middle of the page, again from Mr Jenkins.  Different PinICL, 57957.  He says:
+**Mr Beer**: Can we move on, please, to `FUJ00083574 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00083574-email-mark-jarosz-gareth-jenkins-re-pc0057957>`_.  Look at the message in the middle of the page, again from Mr Jenkins.  Different PinICL, 57957.  He says:
 
 "This PinICL is related to 56922 which you looked at couple of weeks ago."
 
