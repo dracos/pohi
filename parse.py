@@ -49,6 +49,9 @@ def parse_speech(speech):
     # Manually fix any issues
     text = text.replace('WITN01700100. ', 'WITN01700100. [MS: The actual URN should be WITN00170100.]')
 
+    # Link to FOI request on WDTK
+    text = text.replace('Eleanor Shaikh made a request on 10 April 2023', '`Eleanor Shaikh made a request on 10 April 2023 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_')
+
     for e in EVIDENCE.keys():
         text = text.replace(e, f'`{e} <{EVIDENCE[e]}>`_')
 
