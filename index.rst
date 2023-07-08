@@ -40,6 +40,7 @@ Contents
 
 .. toctree::
 
+   phase-4/index.rst
    phase-3/index.rst
    phase-2/index.rst
    opening-statements/index.rst
