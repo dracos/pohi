@@ -21,3 +21,29 @@ div.rst-versions > div.rst-other-versions > div.injected > dl {
 div.rst-versions > div.rst-other-versions > div.injected > hr {
     display: none;
 }
+
+div.document a:hover {
+    text-decoration: underline;
+}
+
+#hearing-link {
+    float: right;
+}
+#hearing-link::after {
+    content: ' \29c9';
+}
+
+#hearing-meta {
+    padding: 0.5em 0.5em 0;
+    color: #fff;
+    background-color: #48466d;
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+}
+#hearing-meta > * {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #fff;
+    background-color: #48466d;
+}

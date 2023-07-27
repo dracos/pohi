@@ -32,13 +32,32 @@ class Speech(object):
     def add_text(self, text):
         self.text[-1].append(text)
 
-EVIDENCE = {}
-def load_evidence():
-    evidence = json.load(open('data/evidence.json'))
-    for url, data in evidence.items():
+META = {
+    'evidence': {},
+    'urls': {},
+    'videos': {},
+}
+
+def load_data():
+    meta = json.load(open('data/metadata.json'))
+    for url, data in sorted(meta['evidence'].items()):
         for name in data:
             if m := re.match('[A-Z]{3}[A-Z0-9]+', name):
-                EVIDENCE[m.group()] = url
+                META['evidence'][m.group()] = url
+    META['urls'].update(meta['urls'])
+    META['videos'].update(meta['videos'])
+
+def header(date):
+    #url = META['urls'][date]
+    videos = META['videos'][date]
+    out = f'''.. raw:: html
+
+   <div id="hearing-meta">
+'''
+    for v in videos:
+        out += f'   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/{v["id"]}?rel=0&modestbranding=1" title="{v["title"]}" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>\n'
+    out += '   </div>\n\n'
+    return out
 
 def parse_speech(speech):
     text = '\n\n'.join([' '.join(s) for s in speech.text])
@@ -52,8 +71,8 @@ def parse_speech(speech):
     # Link to FOI request on WDTK
     text = text.replace('Eleanor Shaikh made a request on 10 April 2023', '`Eleanor Shaikh made a request on 10 April 2023 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_')
 
-    for e in EVIDENCE.keys():
-        text = text.replace(e, f'`{e} <{EVIDENCE[e]}>`_')
+    for e in META['evidence'].keys():
+        text = text.replace(e, f'`{e} <{META["evidence"][e]}>`_')
 
     # Manually fix any issues
     text = text.replace('>`_and', '>`_ and')
@@ -68,7 +87,6 @@ def parse_speech(speech):
         return f"*{text}*\n\n"
 
 def parse_transcripts():
-    load_evidence()
     for f in sorted(glob.glob('data/*.txt')):
         date, title = re.match('data/(\d\d\d\d-\d\d-\d\d)-(.*).txt$', f).groups()
         if 'Human Impact Focus Group' in title:
@@ -90,7 +108,10 @@ def parse_transcripts():
             else:
                 print(f"\033[31mPARSING {f}\033[0m")
             with open(f'{outfile}.rst', 'w') as out:
+                url = META['urls'][date]
+                out.write(f'.. raw:: html\n\n   <a id="hearing-link" href="{url}">Official hearing page</a>\n\n')
                 out.write(title + '\n' + '=' * len(title) + '\n\n')
+                out.write(header(date))
                 for speech in parse_transcript(f, fp):
                     if isinstance(speech, Speech):
                         out.write(parse_speech(speech))
@@ -309,4 +330,5 @@ def fix_name(name):
     name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+(\S+)', r'\1 \2', name)
     return name
 
+load_data()
 parse_transcripts()

@@ -36,6 +36,14 @@ def fetch_hearing_page(item):
     url = urllib.parse.urljoin(BASE, link)
     r = session.get(url)
     soup = bs4.BeautifulSoup(r.content, "html.parser")
+
+    META['urls'][str(date)] = url
+
+    for vid in soup.find_all('iframe'):
+        yt_id = re.search('(?:v%3D|youtu.be/)(.*?)(?:&|%26)', vid['src']).group(1)
+        yt_title = vid['title']
+        META['videos'].setdefault(str(date), []).append({'title': yt_title, 'id': yt_id})
+
     txt_link = soup.find('span', class_='file--text')
     if txt_link:
         txt_href = urllib.parse.urljoin(BASE, txt_link.a['href'])
@@ -47,28 +55,36 @@ def fetch_hearing_page(item):
             content = re.sub(b'\n\n', b'\n', content)
             fp.write(content)
 
-EVIDENCE = {}
-def load_evidence():
-    if os.path.exists('data/evidence.json'):
-        EVIDENCE.update(json.load(open('data/evidence.json')))
+META = {
+    'evidence': {},
+    'videos': {},
+    'urls': {},
+}
+
+def load_data():
+    if os.path.exists('data/metadata.json'):
+        META.update(json.load(open('data/metadata.json')))
 
 def fetch_evidence():
     fetch_list(BASE_EVI, 'evidence-item-wrapper', fetch_evidence_page)
-    json.dump(EVIDENCE, open('data/evidence.json', 'w'), indent=2)
+
+def save_data():
+    json.dump(META, open('data/metadata.json', 'w'), indent=2)
 
 def fetch_evidence_page(item):
     link = item.h2.a['href']
     url = urllib.parse.urljoin(BASE_EVI, link)
-    if url in EVIDENCE:
-        return EVIDENCE[url]
+    if url in META['evidence']:
+        return META['evidence'][url]
     r = session.get(url)
     soup = bs4.BeautifulSoup(r.content, "html.parser")
     for link in soup.find_all('span', class_='file'):
         #href = urllib.parse.urljoin(BASE_EVI, link.a['href'])
         note = link.a.text
         print(url, note)
-        EVIDENCE.setdefault(url, []).append(note)
+        META['evidence'].setdefault(url, []).append(note)
 
-load_evidence()
+load_data()
 fetch_hearings()
 fetch_evidence()
+save_data()
