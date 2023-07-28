@@ -42,6 +42,8 @@ def fetch_hearing_page(item):
     for vid in soup.find_all('iframe'):
         yt_id = re.search('(?:v%3D|youtu.be/)(.*?)(?:&|%26)', vid['src']).group(1)
         yt_title = vid['title']
+        if str(date) in META['videos'] and yt_id in [ x['id'] for x in META['videos'][str(date)] ]:
+            continue
         META['videos'].setdefault(str(date), []).append({'title': yt_title, 'id': yt_id})
 
     txt_link = soup.find('span', class_='file--text')

@@ -48,14 +48,17 @@ def load_data():
     META['videos'].update(meta['videos'])
 
 def header(date):
-    #url = META['urls'][date]
     videos = META['videos'][date]
     out = f'''.. raw:: html
 
    <div id="hearing-meta">
 '''
+    seen = set()
     for v in videos:
+        if v['id'] in seen:
+            continue
         out += f'   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/{v["id"]}?rel=0&modestbranding=1" title="{v["title"]}" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>\n'
+        seen.add(v['id'])
     out += '   </div>\n\n'
     return out
 
