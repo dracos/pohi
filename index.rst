@@ -40,6 +40,7 @@ Contents
 
 .. toctree::
 
+   disclosure-issues-hearing/index.rst
    phase-4/index.rst
    phase-3/index.rst
    phase-2/index.rst
