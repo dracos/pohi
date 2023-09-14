@@ -42,7 +42,7 @@ def load_data():
     meta = json.load(open('data/metadata.json'))
     for url, data in sorted(meta['evidence'].items()):
         for name in data:
-            if m := re.match('[A-Z]{3}[A-Z0-9]+', name):
+            if m := re.match('[A-Z]{3}[A-Z0-9_]+', name):
                 META['evidence'][m.group()] = url
     META['urls'].update(meta['urls'])
     META['videos'].update(meta['videos'])
