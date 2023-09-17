@@ -8,6 +8,13 @@
     text-align: right;
 }
 
+/* Keep headings visible on page */
+h2 {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
 /* Hide versions menu, keep hosted/privacy permanently shown */
 div.rst-versions > span.rst-current-version {
     display: none;
