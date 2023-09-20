@@ -1514,7 +1514,7 @@ So there's a problem.  All right, so it moved on:
 
 **Charles Cipione**: Right so John Simpkins responds:
 
-"I have checked the agent boxes at Wigan for any T_HV_ALL event for this office between 12 August and 18 August and did not find any."
+"I have checked the agent boxes at Wigan for any T\_HV\_ALL event for this office between 12 August and 18 August and did not find any."
 
 Then Jim Anscomb says:
 
@@ -1526,7 +1526,7 @@ I don't understand everything that's in there except for what I've honed in on, 
 
 **Charles Cipione**: All right.  So the next line:
 
-"The erroneous message was [a particular number] not [the number that the person before was referencing] -- in case anyone else is relying on this [information].  We released a fix for this on 20 August into WP5406 [which I assume means work package, which is like a quick software release] which went to OTT and is due to be released in Tivoli package EPOSS_COUNTER_CORE~..."
+"The erroneous message was [a particular number] not [the number that the person before was referencing] -- in case anyone else is relying on this [information].  We released a fix for this on 20 August into WP5406 [which I assume means work package, which is like a quick software release] which went to OTT and is due to be released in Tivoli package EPOSS\_COUNTER\_CORE~..."
 
 This is very technical and I can't explain everything, but it sounds like they are trying to release a software fix, or they are releasing a software fix, but it indicates it hasn't made it to live, yet which means I don't think it's in production, meaning it's not actually being used right now.
 
@@ -1640,7 +1640,7 @@ The next line:
 
 So the next line:
 
-"WP_5766 has been applied to live.  Routing call back to call logger for closure."
+"WP\_5766 has been applied to live.  Routing call back to call logger for closure."
 
 So they think they've fixed it, they think they've identified the problem, made the changes and applied the fix.  Then it says:
 

@@ -337,7 +337,7 @@ Then if we go down to 7.3.1.1, "Description of the Issue":
 
 Then there's a description:
 
-"When resolving such problems, it has proven very useful to be able to pass a File Notification to CAS(VME) manually.  This has been done by using CAS_MEND, which was provided informally by Anne Chambers (ICL Systems), a member of the CAS(VME) development team.  It is anticipated that similar problems will be encountered in the future and that the same SCL procedure or something very like it would prove equally useful."
+"When resolving such problems, it has proven very useful to be able to pass a File Notification to CAS(VME) manually.  This has been done by using CAS\_MEND, which was provided informally by Anne Chambers (ICL Systems), a member of the CAS(VME) development team.  It is anticipated that similar problems will be encountered in the future and that the same SCL procedure or something very like it would prove equally useful."
 
 There is no need for us to explore the technical details of what is being spoken about there but is what is being described the fact that you had yourself developed and provided a workaround utility?
 
@@ -359,7 +359,7 @@ Is what we see here evidence that fixes designed to address errors could themsel
 
 **Mr Beer**: Why was that?  Because this was sort of an ad hoc fix developed by you?
 
-**Anne Chambers**: It was -- it wasn't developed as a fix.  It was something that existed that we could use, and I think it was initially for -- possibly for testing.  I don't think it was called CAS_MEND originally but it was something so we could put an entry in a table to say "Look, here's a file", to get over this error condition but that shouldn't have ever been a long-term fix to the problem.
+**Anne Chambers**: It was -- it wasn't developed as a fix.  It was something that existed that we could use, and I think it was initially for -- possibly for testing.  I don't think it was called CAS\_MEND originally but it was something so we could put an entry in a table to say "Look, here's a file", to get over this error condition but that shouldn't have ever been a long-term fix to the problem.
 
 But sometimes if you had to choose between doing something like that that would then have to be documented as an unscheduled sort of a change, if you could either do that or a whole day's benefit -- Child Benefit payments couldn't go through, then that's something that has to be weighed up against each other.
 

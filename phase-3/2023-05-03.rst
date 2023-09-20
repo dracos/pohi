@@ -1680,7 +1680,7 @@ Okay?  So if we can just go through the chronology of those events and try to pi
 
 **Anne Chambers**: It is an instance of a single Riposte lock error.  There's no mention in there of repeated events, which were the -- it was when you got the repeated events that you might then also have additional problems -- it might then affect the replication.  One single event, we never had any evidence that that caused any long-term problems.
 
-I'd also say that I don't believe this is anything to do with the counter software. I don't think it was this process. "B_LD_CD_DEL" looks like one of the bulk loaders that would have been running on one of the Horizon back-end systems.
+I'd also say that I don't believe this is anything to do with the counter software. I don't think it was this process. "B\_LD\_CD\_DEL" looks like one of the bulk loaders that would have been running on one of the Horizon back-end systems.
 
 **Mr Beer**: So following from that, if we look at the last few entries on page 4, if we look at six lines up, Mr Bell's entry:
 
@@ -2668,7 +2668,7 @@ That's a branch, isn't it?
 
 **Anne Chambers**: That's a branch.
 
-**Mr Moloney**: "... and date range, ask for the QUERY_AT\FINAL\Filteredhx.xml file which will contain all transactions for a given date range and FAD code in XML format.  These will however lack the JSN and ReqMessageID.
+**Mr Moloney**: "... and date range, ask for the QUERY\_AT\FINAL\Filteredhx.xml file which will contain all transactions for a given date range and FAD code in XML format.  These will however lack the JSN and ReqMessageID.
 
 "The alternative is raw files containing data for all 80 or so branches with the FAD hash, which is far harder to read but does contain JSN and ReqMessageID.
 
