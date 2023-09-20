@@ -201,6 +201,7 @@ def parse_transcript(url, text):
 
         line = line.replace('MAPEC_', 'MAPEC)')
         line = line.replace('**', '\*\*')
+        line = line.replace('_', '\_')
 
         # Date at start
         m = re.match(' *(Mon|Tues|Wednes|Thurs|Fri)day,? \d+(nd)? (August|September|October|November|December|January|February|March|April|May|June|July) 202[123]$', line)
