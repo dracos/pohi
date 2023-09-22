@@ -320,7 +320,7 @@ def parse_transcript(url, text):
 #name_fixes = { }
 def fix_name(name):
     name = name.title()
-    name = name.replace('Qc', 'QC')
+    name = name.replace('Qc', 'QC').replace('Kc', 'KC')
     #s = s.replace(' Of ', ' of ').replace(' And ', ' and ').replace('Dac ', 'DAC ') \
     #     .replace('Ds ', 'DS ')
     # Deal with the McNames
@@ -330,8 +330,8 @@ def fix_name(name):
     #if ' and ' in name or (' of ' in name and ',' not in name):
     #    return name
     # Remove middle names
-    name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: QC)?)$', r'\1 \2\3\4', name)
-    name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+(\S+)', r'\1 \2', name)
+    name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: [QK]C)?)$', r'\1 \2\3\4', name)
+    name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+?(\S+)((?: [QK]C)?)$', r'\1 \2', name)
     return name
 
 load_data()
