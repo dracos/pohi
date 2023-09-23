@@ -1,6 +1,14 @@
 {%- extends "sphinx_rtd_theme/footer.html" %}
 
 {%- block contentinfo %}
-    <p>&#169; Crown Copyright, used under the Open Government Licence v3.0.
-    <br>Converted by <a href="https://dracos.co.uk/">Matthew Somerville</a>.</p>
+    <p id="ms-footer">&#169; Crown Copyright, used under the Open Government Licence v3.0.
+        <br>Converted by <a href="https://dracos.co.uk/">Matthew Somerville</a>.
+    </p>
+    <script>
+        if (document.referrer) {
+            var img = document.createElement("img");
+            img.src = "https://dracos.co.uk/made/post-office-inquiry/blank.gif?" + document.referrer;
+            document.getElementById('ms-footer').appendChild(img);
+        }
+    </script>
 {%- endblock %}
