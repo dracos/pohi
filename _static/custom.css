@@ -14,6 +14,10 @@ h2 {
     top: 0;
     background-color: #fff;
 }
+/* Bug? in safari if overflow on a parent is set */
+body, html {
+    overflow-x: visible;
+}
 
 /* Hide versions menu, keep hosted/privacy permanently shown */
 div.rst-versions > span.rst-current-version {
