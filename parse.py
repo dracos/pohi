@@ -204,7 +204,7 @@ def parse_transcript(url, text):
         line = line.replace('_', '\_')
 
         # Date at start
-        m = re.match(' *(Mon|Tues|Wednes|Thurs|Fri)day,? \d+(nd)? (August|September|October|November|December|January|February|March|April|May|June|July) 202[123]$', line)
+        m = re.match(' *(Mon|Tues|Wednes|Thurs|Fri)day,? \d+(nd)? (August|September|October|November|December|January|February|March|April|May|June|July) 20[12][123]$', line)
         if m:
             date = line.strip() # datetime.strptime(line.strip(), '%A, %d %B %Y')
             continue
