@@ -91,6 +91,7 @@ def parse_speech(speech):
 
 def parse_transcripts():
     for f in sorted(glob.glob('data/*.txt')):
+        if 'raw.txt' in f: continue # Ignore PDF processed
         date, title = re.match('data/(\d\d\d\d-\d\d-\d\d)-(.*).txt$', f).groups()
         if 'Human Impact Focus Group' in title:
             sect = 'human-impact-focus-group'
@@ -284,7 +285,7 @@ def parse_transcript(url, text):
             continue
 
         # Question/answer (speaker from previous lines)
-        m = re.match('([QA])\. (.*)', line)
+        m = re.match(' *([QA])\. (.*)', line)
         if m:
             yield speech
             if m.group(1) == 'A':

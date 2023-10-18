@@ -5,6 +5,7 @@ import os
 import re
 import requests
 import requests_cache
+import subprocess
 import urllib.parse
 
 session = requests_cache.CachedSession(expire_after=86400*7)
@@ -31,7 +32,8 @@ def fetch_hearing_page(item):
     link = item.h2.a['href']
     title = item.h2.text  # e.g. Phase 2 - 25 November 2022
     date = datetime.datetime.strptime(item.time.text, '%d %B %Y').date()  # e.g. 25 November 2022
-    if os.path.exists(f'data/{date}-{title}.txt'):
+    filename_out = f'data/{date}-{title}.txt'
+    if os.path.exists(filename_out):
         return
     url = urllib.parse.urljoin(BASE, link)
     r = session.get(url)
@@ -51,11 +53,31 @@ def fetch_hearing_page(item):
         txt_href = urllib.parse.urljoin(BASE, txt_link.a['href'])
         txt_note = txt_link.a.text
         print(date, txt_href)
-        with open(f'data/{date}-{title}.txt', 'wb') as fp:
+        with open(filename_out, 'wb') as fp:
             content = session.get(txt_href).content
             content = re.sub(b'\r\n', b'\n', content)
             content = re.sub(b'\n\n', b'\n', content)
             fp.write(content)
+
+    if f'{date}' == '2023-10-17': # No txt output
+        filename_pdf = f'data/{date}-{title}.raw.pdf'
+        filename_raw = filename_pdf.replace('.pdf', '.txt')
+
+        pdf_link = soup.find('span', class_='file--application-pdf')
+        if pdf_link:
+            pdf_href = urllib.parse.urljoin(BASE, pdf_link.a['href'])
+            print(date, pdf_href)
+            with open(filename_pdf, 'wb') as fp:
+                content = session.get(pdf_href).content
+                fp.write(content)
+
+            subprocess.run(['pdftotext', '-layout', filename_pdf])
+
+            with open(filename_raw, 'r') as fp:
+                text = convert_four_up_pdf(fp.read())
+
+            with open(filename_out, 'w') as fp:
+                fp.write(text)
 
 META = {
     'evidence': {},
@@ -85,6 +107,62 @@ def fetch_evidence_page(item):
         note = link.a.text
         print(url, note)
         META['evidence'].setdefault(url, []).append(note)
+
+def convert_four_up_pdf(text):
+    # Remove header/footer from all pages
+    text = re.sub('\014? *The Post Office Horizon IT Inquiry *\d+ .*? 202\d', '', text)
+    text = re.sub(' *\(\d+\) Pages \d+ - \d+', '', text)
+    #text = re.sub('\xef\xbf\xbd', '', text)
+
+    # Loop through, slurping up the pages by page number
+    text_l, text_r = [], []
+    pages = {}
+    text = re.split('\r?\n', text)
+    state = 'okay'
+
+    for line in text:
+        #print('*', line)
+        if re.match('\s*$', line): continue
+        if re.match(r' ?1 +INDEX', line): break
+        elif 'INDEX' in line: state = 'index'
+
+        m = re.match(r' +(\d+)(?: +(\d+))? *$', line)
+        if m:
+            page_l = int(m.group(1))
+            pages[page_l] = text_l
+            if m.group(2) and len(text_r):
+                page_r = int(m.group(2))
+                pages[page_r] = text_r
+            text_l, text_r = [], []
+            if state == 'index':
+                break
+            continue
+
+        # Left and right pages
+        m = re.match(r' *(\d+)( .*?) + \1(  .*)?$', line)
+        if m:
+            line_n = int(m.group(1))
+            line_l = '       %s' % m.group(2).rstrip()
+            line_r = '       %s' % m.group(3) if m.group(3) else ''
+            text_l.append('%2d%s' % (line_n, line_l))
+            text_r.append('%2d%s' % (line_n, line_r))
+            continue
+
+        # Just left page at the end
+        m = re.match(r' ?(\d+)( .*)?$', line)
+        line_n = int(m.group(1))
+        line_l = '       %s' % m.group(2) if m.group(2) else ''
+        if state == 'index':
+            line_l = re.sub('                    .*', '', line_l) # Remove RHS index
+        text_l.append('%2d%s' % (line_n, line_l))
+
+    # Reconstruct in page order for normal processing
+    text = ''
+    for num, page in sorted(pages.items()):
+        for line in page:
+            text += line + '\n'
+        text += '    %d\n\014\n' % num
+    return text
 
 load_data()
 fetch_hearings()
