@@ -19,6 +19,12 @@ body, html {
     overflow-x: visible;
 }
 
+/* Index page list */
+.toctree-wrapper .toctree-l1 {
+    border-bottom: dotted 4px #48466d;
+    margin-bottom: 12px;
+}
+
 /* Hide versions menu, keep hosted/privacy permanently shown */
 div.rst-versions > span.rst-current-version {
     display: none;
