@@ -248,7 +248,7 @@ def parse_transcript(url, text):
         m = re.match('(?:Further question|Question|Examin)(?:s|ed) (?:from|by) (.*?)(?: \(continued\))?$', line.strip())
         if m:
             yield speech
-            speech = Section( heading=string.capwords(line.strip()), level=2)
+            speech = Section( heading=fix_heading(line), level=2)
             interviewer = fix_name(m.group(1))
             continue
 
@@ -256,7 +256,7 @@ def parse_transcript(url, text):
         m = re.match('Focus Group Session [34]$|Housekeeping$|((Opening|Closing) s|S)tatement by [A-Z ]*(?:, QC)?(?: \(continued\))?$|[A-Z ]*$|Announcements by [A-Z ]*$|(Further s|S)ubmissions? by [A-Z ]*(?:, QC)?$', line.strip())
         if m:
             yield speech
-            speech = Section( heading=string.capwords(line.strip()).replace('Qc', 'QC') )
+            speech = Section( heading=fix_heading(line) )
             continue
 
         # Witness arriving
@@ -336,6 +336,14 @@ def fix_name(name):
     # Special cases
     name = name.replace('Richard Atkinson', 'Duncan Atkinson')
     return name
+
+def fix_heading(s):
+    s = string.capwords(s.strip())
+    rep = [ 'Kc', 'Uk', 'Qc' ]
+    s = re.sub('|'.join(rep), lambda m: m.group(0).upper(), s)
+    rep = [ 'Of', 'By', 'The', 'To', 'On', 'For', 'And' ]
+    s = re.sub('\\b' + '\\b|\\b'.join(rep) + '\\b', lambda m: m.group(0).lower(), s)
+    return s
 
 load_data()
 parse_transcripts()
