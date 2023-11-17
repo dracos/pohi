@@ -9,6 +9,9 @@ import subprocess
 import urllib.parse
 
 session = requests_cache.CachedSession(expire_after=86400*7)
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+}
 
 BASE = 'https://www.postofficehorizoninquiry.org.uk/hearings/listing'
 BASE_EVI = 'https://www.postofficehorizoninquiry.org.uk/evidence/all-evidence'
@@ -17,7 +20,7 @@ def fetch_list(base, cls, fn):
     url = base
     while True:
         print('Fetching', url)
-        r = requests.get(url)
+        r = requests.get(url, headers=headers)
         soup = bs4.BeautifulSoup(r.content, "html.parser")
         for item in soup.find_all('div', class_=cls):
             fn(item)
