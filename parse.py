@@ -43,7 +43,9 @@ def load_data():
     for url, data in sorted(meta['evidence'].items()):
         for name in data:
             if m := re.match('[A-Z]{3}[A-Z0-9_]+', name):
-                META['evidence'][m.group()] = url
+                key = m.group().upper()
+                if key not in META['evidence'] or name == data[0]:
+                    META['evidence'][key] = url
     META['urls'].update(meta['urls'])
     META['videos'].update(meta['videos'])
 
