@@ -42,7 +42,7 @@ def load_data():
     meta = json.load(open('data/metadata.json'))
     for url, data in sorted(meta['evidence'].items()):
         for name in data:
-            if m := re.match('[A-Z]{3}[A-Z0-9_]+', name):
+            if m := re.match('([A-Z]{3}|witn|pol)[A-Z0-9_]+', name):
                 key = m.group().upper()
                 if key not in META['evidence'] or name == data[0]:
                     META['evidence'][key] = url
