@@ -4,6 +4,9 @@ import urllib.parse
 from fns import load_data, save_data, fetch_list
 
 session = requests_cache.CachedSession(expire_after=86400*7)
+session.headers.update({
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+})
 
 BASE_EVI = 'https://www.postofficehorizoninquiry.org.uk/evidence/all-evidence'
 
