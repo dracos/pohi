@@ -16,6 +16,7 @@ BASE_EVI = 'https://www.postofficehorizoninquiry.org.uk/evidence/all-evidence'
 def fetch_list(base, cls, fn):
     url = base
     while True:
+        print('Fetching', url)
         r = requests.get(url)
         soup = bs4.BeautifulSoup(r.content, "html.parser")
         for item in soup.find_all('div', class_=cls):
@@ -52,7 +53,7 @@ def fetch_hearing_page(item):
     if txt_link:
         txt_href = urllib.parse.urljoin(BASE, txt_link.a['href'])
         txt_note = txt_link.a.text
-        print(date, txt_href)
+        print('Downloading', date, txt_href)
         with open(filename_out, 'wb') as fp:
             content = session.get(txt_href).content
             content = re.sub(b'\r\n', b'\n', content)
@@ -66,7 +67,7 @@ def fetch_hearing_page(item):
         pdf_link = soup.find('span', class_='file--application-pdf')
         if pdf_link:
             pdf_href = urllib.parse.urljoin(BASE, pdf_link.a['href'])
-            print(date, pdf_href)
+            print('Downloading', date, pdf_href)
             with open(filename_pdf, 'wb') as fp:
                 content = session.get(pdf_href).content
                 fp.write(content)
@@ -105,7 +106,7 @@ def fetch_evidence_page(item):
     for link in soup.find_all('span', class_='file'):
         #href = urllib.parse.urljoin(BASE_EVI, link.a['href'])
         note = link.a.text
-        print(url, note)
+        print('Noting evidence', url, note)
         META['evidence'].setdefault(url, []).append(note)
 
 def convert_four_up_pdf(text):
