@@ -18,10 +18,12 @@ BASE_EVI = 'https://www.postofficehorizoninquiry.org.uk/evidence/all-evidence'
 
 def fetch_list(base, cls, fn):
     url = base
+    n = None
     while True:
         print('Fetching', url)
         r = requests.get(url, headers=headers)
         soup = bs4.BeautifulSoup(r.content, "html.parser")
+        if not n: print(soup)
         for item in soup.find_all('div', class_=cls):
             fn(item)
         n = soup.find('a', rel='next')
@@ -170,5 +172,6 @@ def convert_four_up_pdf(text):
 
 load_data()
 fetch_hearings()
+save_data()
 fetch_evidence()
 save_data()
