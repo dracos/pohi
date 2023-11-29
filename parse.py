@@ -50,7 +50,7 @@ def load_data():
     META['videos'].update(meta['videos'])
 
 def header(date):
-    videos = META['videos'][date]
+    videos = META['videos'].get(date, [])
     out = f'''.. raw:: html
 
    <div id="hearing-meta">
