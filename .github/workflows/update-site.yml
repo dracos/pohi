@@ -34,8 +34,7 @@ jobs:
     - uses: actions/cache@v3
       with:
         path: data
-        key: data-${{ github.run_id }}
-        restore-keys: data
+        key: data
 
     - name: Scrape transcript data
       run: |
