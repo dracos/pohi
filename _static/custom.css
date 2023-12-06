@@ -12,7 +12,7 @@
 h2 {
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: #fcfcfc;
 }
 /* Bug? in safari if overflow on a parent is set */
 body, html {
