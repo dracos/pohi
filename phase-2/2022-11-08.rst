@@ -32,15 +32,21 @@ Questioned by Mr Stevens
 
 **Mr Stevens**: Please could you state your full name?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Alan George D'Alvarez.
 
 **Mr Stevens**: As you know, my name is Sam Stevens and I ask questions on behalf of the Inquiry.  Firstly, thank you very much for giving evidence today.
 
 You should have a witness statement in front of you, which is dated 9 August 2022 and runs to 26 pages.  Can I ask you to turn to page 24 of that statement.  Do you see your signature there?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: Are the contents of that statement true to the best of your knowledge and belief?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: To the best of my knowledge and belief, yes.
 
@@ -48,41 +54,61 @@ You should have a witness statement in front of you, which is dated 9 August 202
 
 You joined ICL Pathway in March 1997 --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, I did.
 
 **Mr Stevens**: -- and that was to lead work on the security related elements of the Horizon IT system?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The technical security, yes.
 
 **Mr Stevens**: You remain employed by Fujitsu as a programme executive today?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, I am.
 
 **Mr Stevens**: But I understand you do not current work with the Horizon IT system?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No, I don't.
 
 **Mr Stevens**: Going back to March 1997, please could I ask you to briefly summarise your relevant qualifications and professional experience that made you suitable to lead the technical security work on the Horizon IT system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: So my background from my previous employment, which is in government for the Metropolitan Police Service, was in programme project management and focusing on the delivery of IT systems for the Met Police Service, initially in payroll but from the National Strategy for Police Information Systems, NSPIS, I was part of the programme management team under change management in respect of the OTIS programme, which is a networking of -- secure networking of all the policing divisions and territory -- territorial units and HQ, as a platform for future policing solutions -- secure policing solutions.
 
 **Mr Stevens**: You remained in that role until December 2000?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: At that point in your statement, you say that you became the application's delivery manager of the Post Office account.  Could you briefly summarise what that role entailed?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, that role -- and there is -- I'm reminded this morning from a document that you have put in front of me that it's slightly incorrect how I have explained that role in my statement.  In my statement, I said I was responsible for all application infrastructure services. There were two are units: application delivery and there was infrastructure delivery.  I was responsible for the application delivery aspects.  My next role was when I had the joint responsibility.
 
 **Mr Stevens**: Could you just clarify what you mean by the "application responsibility"?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The applications would be the business applications that were being developed to support the initiative that Post Office underwent, called ERA, which was to introduce new products and services into the Post Office as offerings, predominantly to replace the business that was lost really, the demise of the Benefits Agency business that went through the Post Office.
 
 **Mr Stevens**: Then in September 2002, you say that you were the director of delivery for the Post Office account. Again, please just briefly summarise those responsibilities?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: So those responsibilities were that I took overall control of all the new developments, both application and infrastructure developments that were to be deployed on the Post Office Network.
 
 **Mr Stevens**: Then between June 2005 and May 2009 what were you working on at that stage?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I was working on a number of projects and programmes within Fujitsu.  I did an assignment in the US working with Cerner, who was the provider of the workflow application for the NHS programme and to oversee the redevelopment or the changes required on their system to make it suitable for the UK health market.
 
@@ -90,13 +116,19 @@ From -- after that, I worked in an internal programme to reorganise how the UKNI
 
 **Mr Stevens**: So during that period, you weren't working on the Post Office account?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: No, I then returned to the Post Office account in 2010.
 
 **Mr Stevens**: You say May 2009 in your statement.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Oh, it's May 2009, sorry, yes.
 
 **Mr Stevens**: Programme director of Horizon Online; is that right?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: That's correct.
 
@@ -104,29 +136,43 @@ From -- after that, I worked in an internal programme to reorganise how the UKNI
 
 We don't need to bring it up but, in paragraph 8 of your witness statement, you state that you were involved only in the security aspects of the Horizon System and any aspects of this statement relating to that period are given on that basis, so, for example, you weren't involved in the design of the EPOSS application?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: No, I wasn't.
 
 **Mr Stevens**: In your statement, you say that when you joined the Horizon IT project in March 1997 you carried out an assessment to identify areas where ICL Pathway needed to provide additional or different solutions relating to security?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, it was over a period of a number of months, so when I started, the first thing I had to do was understand the position as to what was contracted to be delivered, understand where we were at with regard to that delivery and to satisfy myself that what was being delivered would actually meet the requirements that we had been set.
 
 **Mr Stevens**: You specifically referred to two issues in your statement.  One is in relation to the contractual obligations in respect of an access control policy --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: -- and the second is in respect of automated key management systems?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The access control policy -- certainly, there were elements were that was still being written and that needed to be completed and there was areas that required to be focused on to ensure that the access to the solutions were both secure, robust.  The key management system, that evolved in as much as it wasn't a specific requirement, but you it'd become evident that it was required for operational reasons, both for Post Office and also for ICL.
 
 **Mr Stevens**: My understanding of that is the original method, using the Diffie-Hellman programme, was too cumbersome to role out and so the proposition was an automated key management system which would be easier to -- well, it would require less resources when rolled out over 20,000 counters?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, so the Diffie-Hellman exchange is expected to be an automated exchange and what had been implemented was a manual way of progressing an automated process, so it was very cumbersome, it took a lot of time, so if a postmaster had lost their postmaster memory card it could take up to 30 minutes before they could actually get access to the system again going through the process they are required to go through manually, which was inherently designed as an automated -- and we didn't have that automated capability in place.
 
 **Mr Stevens**: That's what the automated KMS was designed to do --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's what it was designed to do.
 
 **Mr Stevens**: I want to look at both of those but I'm going to start with the access issue and, firstly, talk about access as a matter of generality.  What do you understand if someone were to use the term "remote access" in the context of a IT project?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So remote access is where we give a facility for an individual not to be present where the actual servers containing the data, the databases, are located.  So they will generally have access across a link, which back then wasn't as fast as it is now, but typically we will put in something like an ISDN line or PSTN dial up, where they would link remotely from a console.
 
@@ -134,13 +180,19 @@ But the actual data and the systems, which did the processing of that data is in
 
 **Mr Stevens**: One of the issues that the Inquiry is looking into is the ability for someone in a remote location to access and edit data within the counter systems.  Would you consider that to be an example of remote access?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: If that was permitted, that would be an example of remote access, yes.
 
 **Mr Stevens**: If it wasn't permitted, what would it be?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: It would be unauthorised access.
 
 **Mr Stevens**: Did you listen to the evidence of Anthony Oppenheim, which was given to the Inquiry on 26 October 2022?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, I did.
 
@@ -150,17 +202,25 @@ But the actual data and the systems, which did the processing of that data is in
 
 Would you agree with that as a broad proposition?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: Why?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Because computers and computer systems go wrong, data can become corrupted and you need to have the ability to correct that situation.
 
 **Mr Stevens**: So, in the context of Horizon, in order for third line support to be able to provide effective support, did they need to be able to write data into branch accounts?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: No, not to my understanding and to what we delivered as a secure system, no.
 
 **Mr Stevens**: Could you explain why that's your view?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Well, when I say to write data direct into the account, we gave a -- there's -- we used the management system for -- to manage the Riposte elements of the system and the Riposte elements is a proprietary product, which is the EPOSS system, and it consists of the application that runs on the post office counter and also the correspondence services where they harvest information from all the post offices.
 
@@ -172,13 +232,19 @@ So whether a person could directly go onto a counter -- and the solution that we
 
 **Mr Stevens**: I'm going to explore that now and try to work through it stage by stage, by reference to some of the documents and, in your witness statement, you referred to two I think contract control documents that describe the technical security specifications of the Horizon IT system, one of them is the access control policy and the other is the security functional specification.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: I want to turn to the second version of the access control policy, please, and that's the reference FUJ00087989.  You should hopefully see that on screen now.  We see this is a document for general circulation, including that it goes to Post Office Counters, from the distribution list.  Is it fair to say that the purpose of the policy was to determine who had access to what within the Horizon IT system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That is correct.
 
 **Mr Stevens**: Did you have any input into this policy?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The policy -- I was the reviewer of the policy, so the person that wrote the policy was Belinda Fairthorne, that's the author there, so she is an access control specialist within ICL, in secure access to systems and --
 
@@ -190,49 +256,73 @@ And we had a policy of what was called role based access, so we would have a set
 
 Now, this diagram here, on the left-hand side there's a lined-off box which says "POCL and POCL Client Domain".  That, as I understand it, is the Post Office backend servers which ICL wouldn't control?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's correct.
 
 **Mr Stevens**: In the middle, we have something described as "Central Services Domain", and this is something over which ICL Pathway had control?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Correct.
 
 **Mr Stevens**: You have referred to it already, and we will come to it again shortly, at the bottom, within "Central Services Domain", we see the correspondence servers and that would have held one of the Riposte message stores.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: At the very bottom, that's described as the "Office Platform Service" and that's essentially the post office counter.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: Now, the post office counter, that would be described as a Windows NT work station --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Correct.
 
 **Mr Stevens**: -- and that work station would run Horizon and, obviously, we have heard would also have Riposte on it to run.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The Riposte application, yes.
 
 **Mr Stevens**: Yes.  I think you said this, but just to go through it in stages, that is a message system used to recall data into a message store of things such as transactions that occurred in the branch?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, I think it's more accurate to say that Riposte was an Electronic Point of Sale System that was very focused on a postal-type service, so they developed a system that was very geared towards the postal-type trade that went across the -- within a post office, stamps, et cetera, so -- but Riposte, I would step back and say that's an Electronic Point of Sale System but was designed specifically for use in postal services around the world and was in use in other countries.
 
 **Mr Stevens**: But it would do that by having a local message store in the branch --
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: -- and, to that message store, transactions -- I'm paraphrasing here but transactions would be recorded.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, all transactions that went through the system, whether successful or failed, will be recorded on that system.
 
 **Mr Stevens**: The design was such that, once a transaction was logged to the message store in the post office counter, it would then be transmitted to Riposte in the correspondence server.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, it would be harvested overnight in batches and then the Riposte central servers would take all of the batches from each of the post offices and start to put those into a larger file for onward reporting.
 
 **Mr Stevens**: From your view, could a message be sent the other way, so from the correspondence server to write to the message store on the counter?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, for the Tivoli management, yes.  It is designed to do that.
 
 **Mr Stevens**: Please can we briefly switch documents to FUJ00088002. Now, this is the other document that I referred to earlier and which you referred to in your witness statement.  It's the "Security Functional Specification" and this is essentially to describe the technical features of the security functionality of the Horizon System.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
@@ -244,6 +334,8 @@ If we could go over the page to 4.6.2, you see it describes the Riposte messages
 
 Those access control lists, are those the group definitions or is it referring to the group definitions to which you were referring earlier, namely you ascribe a certain group certain permissions to access certain parts of the system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That is correct.
 
 **Mr Stevens**: Please could I ask to turn the page on this document to where it -- thank you.
@@ -254,17 +346,25 @@ This describes "Riposte Message Servers" and the first sentence says:
 
 So we said earlier that the counter was a Windows NT workstation, that's correct?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's correct.
 
 **Mr Stevens**: So for the purposes of Riposte, the counter is described as a Riposte message server?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: (The witness nodded)
 
 **Mr Stevens**: You're nodding.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, yes.
 
 **Mr Stevens**: Thank you.  If we could, please, go back to the second version of the access control policy, that's FUJ00087989, and page 80, please.  As I said, I took you to this document earlier, it's the access control policy, version 2, and this describes the "System Management and Support Services Domain".  I think from that it's clear but, just to put it to you: that would include things such as the SMC and the SSC offering second and third line support?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, correct.
 
@@ -272,9 +372,13 @@ So we said earlier that the counter was a Windows NT workstation, that's correct
 
 In the middle, three diagrams down, there's what looks to be someone sitting in a chair and it says "SMC" with a line going to the right and "SSC, etc".  Do I take it from that that this is describing, or this diagram is showing, access ways for both the SMC and the SSC?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's correct, so the SMC would have direct access to the Tivoli management console.  The SSC will have remote access but not with the same privileges as the SMC.
 
 **Mr Stevens**: So, at this stage, with this diagram, please, could you just give a broad outline, bearing in mind to try to make this as non-technical as possible, as to what the Tivoli access system was?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So Tivoli is a management system where it is able to control the software and the -- what is contained within the various service and applications within the Pathway and the Horizon solutions.  So if we wanted to put a new piece of software or we wanted to inject anything onto that system for reference data, and it would go through the Tivoli management system.
 
@@ -286,17 +390,25 @@ So it's used for diagnostic -- to provide information for diagnostic purposes an
 
 **Mr Stevens**: So just so we can break that into components then, so one use was to monitor events that are generated in the Horizon IT system --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: To capture the events.
 
 **Mr Stevens**: -- to capture the events -- such that the support services can say "Hang on, something has gone wrong here we need to investigate"?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Correct.
 
 **Mr Stevens**: That was one use of Tivoli.  Another use of Tivoli, I think you may have said -- it is referred to in the documents, but just so we are clear -- it is right, is it, that Tivoli could extract data from servers and branch computers?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I would have to default to the technical people on that as to precisely what it could and could not do but, certainly, it was used to distribute changes onto any of the systems and to record that distribution.
 
 **Mr Stevens**: So that's the third one, and when we say changes onto the system, does that include if someone wanted to insert data into branch accounts?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I'm not aware to the details of what they can and cannot do.  My awareness was it was used primarily for the software inventory management, so -- and reference inventory management, so we had a record of what software was being used where, it was the appropriate level of software and, also, what reference data was used as well to drive that software.
 
@@ -305,6 +417,8 @@ I -- within the actual depths of Tivoli, the technical people would know what co
 **Mr Stevens**: Could you please turn to page 96, and further down there should be 9.7, if we may go there, please.  Thank you. This is just to orientate ourselves that this part is for "Application Support".
 
 Over the page, there should be a diagram at the top and here we have at the top a diagram showing the SSC with their network and the line that goes down to the bottom saying "Pathway Data Centre", there's a box that says "Data Centre Systems with applications, middleware" is that referring to the central services domain with the correspondence server that we --
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, it is.
 
@@ -320,13 +434,19 @@ At the bottom, it says:
 
 So is that your understanding of how the system should have operated at that point, that --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: Does that mean that the SSC should not have been able to access counter systems?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Not within the -- correct, not -- correct, yes.
 
 **Mr Stevens**: A slightly different point though is: does that mean that the SSC shouldn't have been able to insert data into branch accounts through Riposte?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So all changes would need to go through the Tivoli management console, the Tivoli system and, therefore, it needs to be authorised and auditable.
 
@@ -336,17 +456,25 @@ As I said previously, I'm not aware of the depths of what changes were.  I was m
 
 We see the date at the top right is 18 December 1998, version 3.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Mm-hm.
 
 **Mr Stevens**: Again, you're on the distribution list of this.  Did you remain a reviewer?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, although probably -- no, probably distribution by that time.
 
 **Mr Stevens**: If not formally a reviewer, would you have had any input into the decisions or the changes that went into it?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: It would be part of the group that made sure that what was in that was appropriate, correct.
 
 **Mr Stevens**: Please could we turn to page 89 of this document. Again, this is just to orientate ourselves, but we're back with "System Management Services Domain", this time under heading 8, or number 8, but this, again, refers to support services such as the SSC, doesn't it?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
@@ -376,6 +504,8 @@ Skipping a paragraph:
 
 Stopping there, could you expand on what this paragraph means?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: So it means, again, for our Tivoli management system, we are able to download into the system additional packages and that, so that clearly states that part of the ability of those downloads would be to inject additional data.
 
 **Mr Stevens**: Can we turn the page, please, thank you.  It says:
@@ -384,13 +514,19 @@ Stopping there, could you expand on what this paragraph means?
 
 Now, stopping there, your understanding -- what data was this referring to?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: My understanding of that would be transactional data recorded, would be my understanding of that.
 
 **Mr Stevens**: Where would that transactional data be recorded?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: On the correspondence servers.
 
 **Mr Stevens**: Would it be recorded in the branch accounts as well?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The branch -- it would have been harvested from the branch counters.
 
@@ -402,9 +538,13 @@ We can skip the next sentence:
 
 Now, my understanding of what you said earlier was that, when using the Tivoli system, that access gateway in itself audited all changes that were made to the system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: So this second paragraph here, because it states that two members of support staff are required and the changes must be audited, does that mean that this was referring to changes made outside of the Tivoli system?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I cannot comment on that, but they were robust, so the person that would -- so we had CISO, a chief information security officer, who was responsible for all operational security, and that's Barry Procter, and he would ensure that there were processes in place because all protection of systems and that are a combination of technical, procedural and physical protection.
 
@@ -416,6 +556,8 @@ So the technical solution could only just say who done what when, it could not s
 
 **Mr Stevens**: So I'm taking it that's your reading of this now, but the question I asked was: would the changes referred to here be made outside of the Tivoli system; as a matter of fact, do you know that?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I wouldn't have expected it to but I would have to, again, remind myself and the security functional specification because that would have the actual technical components that allowed that access and, from my recollection, it's the Tivoli system that we managed access and changed to the Riposte elements of the system.
 
 **Mr Stevens**: We still have the line -- the sentence, sorry:
@@ -423,6 +565,8 @@ So the technical solution could only just say who done what when, it could not s
 "No application support users have access to Post Office counter systems -- errors here are diagnosed using logs of events extracted via Tivoli."
 
 There has been a change between these two policies here referring to data correction.  Do you have any knowledge of the discussions that led to the inclusion of these paragraphs regarding the correction of data?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I don't recall that, no.
 
@@ -432,9 +576,13 @@ I think if we just go down slightly, sorry.
 
 It is authored by you; is that correct?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, that's correct.
 
 **Mr Stevens**: It says "Group Definitions for the Secure NT Build".  If we turn to page 5, please, it sets the purpose of the document and, in summary, is it fair to say that this was to define the access rights of various groups to the various domains, such as central services and the post office counters?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, and the purpose of the document was to be able to give to the technical teams sufficient information so they implemented the policy correctly, because the policy is at a relatively high level and, therefore, they needed additional information as to how to implement that policy into the technical solution.
 
@@ -444,9 +592,13 @@ It is authored by you; is that correct?
 
 We went to the access control policy earlier, which was, I think, 18 December, so a few days before this was drafted.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: When you drafted this, do you remember if you were up to speed with the likely changes that were to be made to version 3 of the access control policy?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I would have needed to have been to create this document, yes.
 
@@ -454,101 +606,151 @@ We went to the access control policy earlier, which was, I think, 18 December, s
 
 This is a table later on in this, which in my understanding, is that this sets out the various groups and the various privileges that they had; is that correct?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's correct.
 
 **Mr Stevens**: On the left there, it says "Group Name to be implemented", "SSC", "SSC Apps MAN", is that SSC management?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, application management.
 
 **Mr Stevens**: Thank you.  Looking at the tools on the second column the Tivoli remote console, is that the Tivoli system you were discussing earlier?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's correct.
 
 **Mr Stevens**: I think it's three down, there's one called "Rclient". Do you recall what this tool did?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No.  It was a remote client so -- but what that client actually did, I would imagine it would be something that showed a visual view of what Riposte system was, but that would be my assumption.
 
 **Mr Stevens**: Would you have known at the time?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: So much of this was derived from the technical people, so Glenn Stevens was the Tivoli person, so he was the one that technically would tell me the makeup of a remote console and the Tivoli management system.  So I would have got that information from him.
 
 **Mr Stevens**: Would you have known what access or privileges that tool allowed a person using it to have?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I would like to have thought so at the time, but now I can't remember.
 
 **Mr Stevens**: If we go further down, there's a series of tools referred to with Riposte first.  It is fair to say these must be related to the Riposte system.  Just over halfway down, there's one called "RipostePutMessage.exe".  Do you know what that tool was for?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: From recollection, I can't be certain, but I could hazard that that would be to enable a message to be added into the Riposte system.
 
 **Mr Stevens**: Could it be insert a message with transaction data in it?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, if it was a Riposte message, yes.
 
 **Mr Stevens**: In the third column, it says "NT Servers", and below it says "All Servers".  Would this mean that -- would "All Servers" include the counters?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: In "Access rights", in the fourth column, it says "Read/Write/Execute".
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: So, just to go through, that means that the SSC management had writing privileges to all servers, including the post office counters, using the tool called "RipostePutMessage"?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: So from that, is it right that the SSC could insert data into a branch account directly?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: From my recollection, it would be through the correspondence servers, from my recollection.  I see "All Servers" there and "All Servers" would also include the servers that's at the post office counter but, from my recollection, it was through the correspondence servers where it was harvested.
 
 **Mr Stevens**: When security tests were run to test whether or not the final product was secure and to specification, would those people testing the system have had this document?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, they would have.
 
 **Mr Stevens**: So, if they were testing it, reading this, would they be -- do you think they would be under the impression that there could be the direct right for SSC apps management to write transaction data into the branch accounts?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Potentially, but they would also have access to the design documentation for those particular modules, so they would have knowledge as to what those modules would allow and how it would allow it to happen, and they would enable that for their test analysis and also to write the test script to actually enact the test that we're enabling what's allowable and not enabling what's not allowable under the policy.
 
 **Mr Stevens**: What we have just come to from this document, isn't that inconsistent with what's said in the access control policy, that there shouldn't be direct access to the counters?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: If that's what is meant in this document, yes, but, as I say, my understanding at the time was access was through the correspondence servers and that's where any corrections was made, was my understanding, but that's my memory.
 
 **Mr Stevens**: Thank you.  Do you have any knowledge of how the RipostePutMessage.exe tool, if it was used, would be audited -- its use would be audited?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: The use of all tools would be audited through the Riposte management console -- sorry, the Tivoli management console.  So this would go on to the Riposte client and that would go through the remote console and that would be able to audit what tools were being used by what person.
 
 **Mr Stevens**: Are these not separate tools?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: These are tools that were within the same work station and the Tivoli management console would be the overall kind of framework for which actions were undertaken.
 
 **Mr Stevens**: Earlier in your evidence, when I was talking about the Tivoli remote console and whether it could be used to insert messages or transaction information into branch accounts, did you not say that that was handled by Riposte?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: It is handled by Riposte, yes.  So it's a separate tool set, yes.
 
 **Mr Stevens**: So, in which case, if it's a separate tool set, is it right that it wouldn't be subject to the same audit requirements -- sorry, the same audit process that the Tivoli remote console offers?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Potentially, but it will have its own auditing capability.
 
 **Mr Stevens**: Do you know what that was?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Not from memory, no.
 
 **Mr Stevens**: Please could I now turn to page 7.  There's a group name on the left, first one, "ICL Outsourcing, Application SUP", could you just help us with what that refers to?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That will be application support.
 
 **Mr Stevens**: Who were application support?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I believe but, again, I'm just trying -- that that would be the second line up in -- there was a -- probably SMC, but, at this stage, I can't --
 
 **Mr Stevens**: Can't recall?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I can't recall.
 
 **Mr Stevens**: Thank you.  In terms of audit data, are you aware personally of any audit data that was captured which may record key strokes made by a subpostmaster on the EPOSS system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: No.
 
 **Mr Stevens**: Are you aware if there was any system put in place to notify a subpostmaster when changes had been made -- when or if changes had been made or transactions inserted into the branch accounts?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No.
 
@@ -564,6 +766,8 @@ This is a table later on in this, which in my understanding, is that this sets o
 
 Just, in lay terms, could you please explain the problem that's identified here.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: So every system will have -- will create the -- would enable -- well, so every system that we use in computing always has the ability to enable its recovery from the most extreme of failures and that requires people to go into the system with privileges, which enable them to effectively manipulate the application for whatever reasons it is required to manipulate the application.
 
 So on a Windows NT, it's a -- or any Windows device it's called an "Administrator", so they can make changes and that with higher privileges they have to make changes to be able to access the system where people have lost passwords or whether something is non-recoverable, they're able to get into the depths of the system.
@@ -576,13 +780,19 @@ So it is recognised that, on all computer systems, there may be a requirement to
 
 **Mr Stevens**: Using this function -- so that's the audit logs.  Using this function, would a user be able to access the message store?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: They would be able to access the message store.  They would not be able to make changes without going through Riposte.
 
 **Mr Stevens**: The security systems you have described, in terms of hiding the -- essentially, taking the password away from general circulation, save for when someone requested it from Mr Procter, that was a human-based system, in that it required Mr Procter --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That's procedural.  Well, he would delegate it down to management layers and that would be set out in PA/Standard/010 Code of Practice.
 
 **Mr Stevens**: Apologies if you said that in your answer but, just so we're clear, could a remote user use the -- log in and use this administrator feature, if they had the password?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
@@ -600,11 +810,15 @@ It says the SFS, which is the security functional specification:
 
 I think that's Belfast Operation Centre, is it?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: "... to BOC personnel relying heavily on the use of unauthorised tools (predominantly Rclient) to remotely administer the live estate."
 
 Now, pausing there, having seen that, do you recall what Rclient did or could do?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Not on seeing that, no.
 
@@ -622,6 +836,8 @@ If we could get all of 4.3.2 in.  Thank you.
 
 This refers to "Third line and operational support" and this would include the SSC, wouldn't it?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: It says:
@@ -636,29 +852,43 @@ This refers to "Third line and operational support" and this would include the S
 
 Now, it is fair to say that that is entirely against what the access control policy says should happen; do you agree?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I agree.
 
 **Mr Stevens**: Do you know how it was that the SSC were able to get such access to post office counters' systems?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I have no knowledge, no.
 
 **Mr Stevens**: Do you know why testing didn't pick that up?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: We would have tested the solution that was designed to be implemented and that's not part of our design or implementation, so if they had tools that were not part of our solution, we would not have had that in our test environment.
 
 **Mr Stevens**: We saw earlier -- we went to Rclient.  That was in the group definitions.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: Isn't the purpose of the security testing to ensure that the requirements of the access policy are met in the system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: So isn't this exactly what the testing is going to -- this is what the testing should find out, basically, whether or not SSC had this access?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: It would -- it would determine what console had what access.  Who had access to what console was then procedural.  So if it was on the SSC console, yes.
 
 **Mr Stevens**: Do you have any knowledge of how the SSC developed the use of these -- I will just call them access pathways to Post Office Counters?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No.
 
@@ -682,9 +912,13 @@ Now, it is fair to say that that is entirely against what the access control pol
 
 **Mr Stevens**: I want to move on to some aspects of design and testing.  In your witness statement, you refer to a "Jeremy Fawkes" and that's spelled F-A-W-K-E-S.  The Inquiry has received evidence from Jeremy Folkes spelled F-O-L-K-E-S.  I just want to check those are the same people you're referring to?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: Did you listen to Mr Folkes' evidence earlier -- last week, sorry?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No.
 
@@ -693,6 +927,8 @@ Now, it is fair to say that that is entirely against what the access control pol
 "... except in areas where we had an explicit right in the Contract to a document (such as the [Security Functional Specification]), we only had limited or partial visibility of the emerging Pathway systems, or of their design/development approach.  This meant that we could not gain confidence of what Pathway were creating (or its suitability or fitness for purpose), or have confidence in how Pathway were developing (and therefore what Quality mechanisms were in place)."
 
 In your view, does that represent a fair position between Post Office Counters and Pathway in 1999?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So my recollection in 1999 was they had no formal reviewing rights to the technical design documentation. However, from my perspective and in the security, I encouraged -- well, myself and I encouraged my team to ensure that we --
 
@@ -718,6 +954,8 @@ Sorry, sir, I think we will need five minutes to resolve it.
 
 The question I had asked was whether you thought that Mr Folkes' summary of the situation regarding visibility to documents for Post Office was a fair one and you were giving your answer.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, so from a point of policy with technical design documents, the Post Office were not formal reviewers. However, in a number of -- in my area, I certainly worked closely both with Jeremy, and formerly with Gareth Lewis, because from my recollection Jeremy had a -- well, he was with Gareth within the security unit, but I think he had a wider role as well.
 
 And it was important because, from my perspective, when I come into the account, I was advised that security -- or where we were with regard to delivering the security product and my focus was very much on the cryptographic products, and that sort of stuff -- were one of the reasons that we were limiting our ability to deploy, not the only reason but one of the reasons.
@@ -726,17 +964,25 @@ So, for example, there was a number of documents, particularly management design
 
 **Mr Stevens**: So your evidence is that you would show to Post Office -- the people you dealt with at the Post Office -- technical documents?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Where appropriate, yes.
 
 **Mr Stevens**: Is there any documentation -- have you seen any documentation that shows you sending the documents to Post Office?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I -- when you say "send" the document, certainly we had meetings to review.  Certainly, we -- we certainly sent the technical primary description.  We certainly had meetings with regard to the KMS and random number generated, et cetera, where we needed his input or his thoughts -- I say "input", we wanted to assure ourselves that the direction we were taking would be acceptable to the authority.
 
 **Mr Stevens**: So is it that you would have meetings where you would discuss the matters?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: But would you -- just to clarify, would you formally send the documents to Post Office Counters?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I wouldn't formally myself send them, no, because all correspondence would go through our (unclear) on a formal --
 
@@ -746,6 +992,8 @@ So, for example, there was a number of documents, particularly management design
 
 Again, do you consider that to be a fair reflection at the time?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: At that time, I only had responsibility for the security testing team and they had two people which they assigned from the authority.  I forget their names -- one was called Clifford, but I forget their names, and we would have reviews and they would actually base themselves for periods of time each week where our security testing were located, so they weren't restricted from that area.
 
 And we would have conversations, but I would be very keen to get their view with regard to the business impact aspects of any defects that we had because, with any software system, there could be defects, there's a balance between risk and time, so that you -- very rarely would you see a system go live with no defects, and I wanted to ensure that the defects we were focusing the teams on fixing were those that would be deemed of sufficient priority, you know, within the Post Office, if we didn't fix it, it would stop us going live.
@@ -754,25 +1002,37 @@ So we did have discussions and we had triage sessions with the people that he al
 
 **Mr Stevens**: In your statement, you refer to the PinICL system, which was used to log defects as they arose or as they were found in testing.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stevens**: In broad terms, is it fair to say that that was a sort of central repository of bugs, errors and defects and the work that was going on into investigating them and resolving them?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.  They had a history of the defect and how it was resolved.
 
 **Mr Stevens**: Who operated that system, the PinICL system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: It would be within ICL Pathway.  I don't know which area of ICL Pathway.
 
 **Mr Stevens**: Are you aware of anyone outside of ICL Pathway who had either read or write access to the PinICL system?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No.
 
 **Mr Stevens**: Specifically, did anyone at Post Office have read or write access to the PinICL system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Not to my knowledge.
 
 **Mr Stevens**: So when you said you were discussing defects with them and seeking their views on business priority, et cetera, those were PinICLs that you put -- or information that you put forward to him --
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, we would often do a review of an Excel -- we would dump to Excel or print to Excel outstanding or open defects, which would have high level descriptions.  It wouldn't have the detail of the analysis, and that, in that, but it would have sufficient for us to, you know, have a discussion around, if this defect or this fault still existed in the system, would that prevent us going live?
 
@@ -780,9 +1040,13 @@ So we did have discussions and we had triage sessions with the people that he al
 
 Do you have your witness statement in front of you?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, I do.
 
 **Mr Stevens**: It appears we can't put on the screen but I will read out the relevant parts.  I would ask you to turn to paragraph 37(b) on page 14.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: 37(b)?
 
@@ -792,17 +1056,23 @@ Do you have your witness statement in front of you?
 
 Just pausing there, did you think, at this point, that the Horizon IT system was ready to go live when it did?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I -- my recollection is it was one of the contributing factors to another delay.  So it wasn't a case we went live with those unfixed because it was not fixed, it was another contributing factor.  There was a series of delays, it wasn't the only one, but I was fully aware that the preparedness of the security and where we were with regard to the defect position, we were not able to go live or get acceptance -- become an Acceptance Incident in that defect, and probably be -- from the information that we received and discussed, it would probably be deemed as a high Acceptance Incident, which would prevent us going live anyway.
 
 So it's a case of, from recollection, it's one of the contributing factors to a number of the delays that we had during release 2, New Release 2.
 
 **Mr Stevens**: So from a security perspective, when it was released, did you think there were any material problems with the system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: From a point of the security products, no.  That weren't -- and those outstanding defects were fully visible to the authority.
 
 **Mr Stevens**: You go on to say -- you first refer --
 
 **Sir Wyn Williams**: Sorry, Mr Stevens, can I just understand that last answer in conjunction with the ones before. The sentence that Mr Stevens read to you, is that an acceptance that not all defects had been fixed by the time the Go Live started, or were you saying that, because not all the defects were fixed, there were delays before the Go Live started?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: It's the second.
 
@@ -814,21 +1084,29 @@ So it's a case of, from recollection, it's one of the contributing factors to a 
 
 Could you expand on that part, "they audited test results and PinICL content for accuracy"?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: So the test results would be for the test report, so the test report would have a detail of all the tests run, those that couldn't be run, for whatever reason, or were not run, the failures and the outstanding -- outstanding faults or PinICLs in the system.
 
 The -- where I say "inspect the PinICL", we would discuss the detail of each of the PinICLs, so they understood from a business perspective whether or not -- how to classify those and whether they would become Acceptance Incidents or not.
 
 **Mr Stevens**: When you say audited the PinICL content, again that's the -- is that PinICLs that you provided to them?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I think it's reviewed, as opposed to audited.
 
 **Mr Stevens**: Reviewed.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Reviewed.
 
 **Mr Stevens**: Could I please ask for FUJ00078278 to be brought up. This is an "ICL Pathway Programme Office Monthly Report", from May 1998.  Can I turn to page 17, please. Sorry, over the -- no, that's it, sorry, my apologies.
 
 So "Security and Audit", this section.  Would you have contributed to this report?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, I would have.
 
@@ -838,21 +1116,31 @@ So "Security and Audit", this section.  Would you have contributed to this repor
 
 Please could you expand on the "lack of management and control over the platform structures"?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: From memory, I would likely be referring, at that point to there were a number of defects raised because the required controls were not in place in the solution that was delivered into our test environment.  So, at the point of testing, the controls that we should have there, or the security products that enforce those controls, were not either delivered or configured on our test environments and, therefore, we had to raise defects to get those into the baseline of the solution that could then be redelivered into the test to check that those now exist.  So that's not through 100 per cent exactly why I wrote that, but that would be my interpretation of that.
 
 **Mr Stevens**: What was done -- was anything done to change that?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes, we would have to get those fixes in because each one of those would be highlighted by a defect that would be raised as to why there was a missing control, there's a missing element of security, and we would have a failed test associated with it.
 
 **Mr Stevens**: In your witness statement, you refer to the -- as we said earlier -- automated key management system, at some length.  Are you aware of the automated key management system having any involvement with, or being a cause of, subpostmasters seeing discrepancies in their branch accounts?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: It would not have, no.
 
 **Mr Stevens**: As I understand it, that's purely a matter of encryption, is it?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: It's the management of the encryption keys to be able to do that across the distributor's estate, yes.
 
 **Mr Stevens**: Did you have any involvement in the acceptance process?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: No, the -- sorry, not in the process itself.  We were a key feed into the process for our test reports and analysis of the remaining defects within those test reports, but I was not party to any of the acceptance process discussion meetings or reports themselves.
 
@@ -887,9 +1175,13 @@ It then goes on to refer to two other parts of legislation applicable in Norther
 
 So, in short, what we have here is a need for the system to be able to provide evidence which is evidentially admissible and capable of certification in accordance with Police and Criminal Evidence Act.  The second part then is about document retention for investigations and prosecutions.  So do you understand what the purpose of this particular policy is?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I do understand the purpose of that policy, yes.
 
 **Mr Stein**: During the time when you were working on Horizon, from your perspective -- which we understand is security access, infrastructure in relation to that, maintenance of audit trails so that access can be considered and looked back upon -- what was done to ensure that any access required under these provisions was recorded?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So with regard to prosecutions and that, I was not party to any -- I had no engagement with the area of Pathway that supported prosecutions, so my focus was the delivery of the security as per the standards, so I think, if I remember rightly, preceding this section there's a set of standards, like Post Office security standards and things, we had to comply with.
 
@@ -901,89 +1193,133 @@ But, from my understanding of the Act, it's more about the caseworking and how y
 
 **Mr Stein**: You mentioned a number of times in your evidence just a few moments ago "my element would be the last element".  Are you saying that you had direct responsibility for one aspect of evidence that has been produced for the purposes of investigations and prosecutions?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: No, I had direct responsibility for the system.
 
 **Mr Stein**: Right, okay.  Well, let's stay with that last element that you're describing, which is the third element that you mentioned now twice.  That third element, who had responsibility for ensuring the data integrity of the information that's provided for the purposes of investigations and prosecutions?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I'm not aware who had that responsibility.
 
 **Mr Stein**: Are you assuming that there was somebody?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I would expect there to be, yes.
 
 **Mr Stein**: Right, and with your knowledge and, indeed, the amount of time that you spent working within this particular company, can you not help us with who that's likely to be?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Typically, it would be the chief information security officer.
 
 **Mr Stein**: Right, who was?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Barry Procter.
 
 **Mr Stein**: So that's Mr Procter.  Was he based at your office?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Sorry?
 
 **Mr Stein**: Was he based in your office?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: He was based in Feltham, I was based in Bracknell.
 
 **Mr Stein**: Right, okay.  So you think Mr Procter would have been the person who likely to have had dealings with any questions, requests for information that related to prosecutions; is that correct?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: It's an assumption I have, yes, but I don't have actual knowledge of that.
 
 **Mr Stein**: Now, you have been taken to a variety of different policies by Mr Stevens who has been asking questions on behalf of the Inquiry.  Can you help with your recollection of policies that related to the provision of data and information for investigations and prosecutions?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: No.
 
 **Mr Stein**: No, because you didn't have any dealings with it or no because they didn't exist?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: I was not aware of any and I ...
 
 **Mr Stein**: Do you think there should have been some?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stein**: If such policies did not exist, who would you say would have been responsible for that gap?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: It would -- again, I would put it under the areas of operational, so it would come under Martyn Bennett who Barry Procter reported into.  But my knowledge of -- I was aware that people provided information for evidence but that was done from a customer services side and the operational side.
 
 **Mr Stein**: Right.  So customer services, do you mean the helpdesk side would provide --
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Well, customer service -- not so much the helpdesk, but customer services would be the service management.  So there's a management layer within our customer services headed up by, at that time, Steve Muchow, from recollection, and he would be there for all the management of the services that we actually provide to the -- operational services and that, that we provide to the Post Office, once it has gone live.
 
 **Mr Stein**: Now, your work concerned the security of Horizon and the protection of the system from unauthorised access; do you agree?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stein**: What arrangements were put in place to allow investigators investigating possible criminal offences or, indeed, investigating maybe matters that might go to the civil courts -- what arrangements were put in place to allow investigators, instructed by perhaps the prosecution or the defence, to access the system?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I can't recall.
 
 **Mr Stein**: With your background working within a Police Force, you understand that sometimes investigators need to, in fact, interrogate the system themselves, police investigators, as an example, yes?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
 **Mr Stein**: Sometimes they may need assistance in gaining access on to a system so that they can ensure that the data within it, or indeed the system itself, is working properly, yes?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Mr Stein**: Does that not come within your department?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So we're in what we put -- I would need to refresh my memory on the audit and the roles that we set up for the audit policy, so we had an audit solution, which retained the data required -- well, any changes that were made.  I cannot recall all the roles that were set up for that -- this area, and I was not required to review by the company what was put in place with regard to the support roles.
 
 **Mr Stein**: Were investigators from within the Horizon System -- you have described the potential for people from the helpdesk side of it, or the support system side of it providing information to assist investigations or prosecutions.  Would those individuals have to leave an audit trail specifically related to investigations and prosecutions?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Not specific to any investigations and prosecutions to my awareness, no.
 
 **Mr Stein**: Was that something under your control, the question of whether somebody is having more general access, ie support desk access, or investigation and prosecution access; was that something under your control?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Not under my control, no.
 
 **Mr Stein**: Under whose control was that?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That would be under anyone who has access to the system when it had gone operational, would be under the control of either the security manager and/or the service director.
 
 **Mr Stein**: Back to Mr Procter
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Barry Procter and/or Stephen Muchow.
 
@@ -1002,9 +1338,13 @@ Questioned by Ms Page
 
 If I could, please, ask for document number FUJ00077861 to be displayed.  This appears to be a risk register with your initials under the column C, which you see has the word "Who" at the top.
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Ms Page**: So am I right in thinking that that means that those risks which have your initials against, "ADA", that means that you were the risk controller, if you like, or the person in charge of that risk?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
@@ -1014,9 +1354,13 @@ If I could, please, ask for document number FUJ00077861 to be displayed.  This a
 
 Can we just sort of decode that a little bit.  From the dates elsewhere on this schedule it looks as if this is referring to the rollout itself, the full national rollout, '99 through to 2000; is that right?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: That would be -- if it's the key management system and VPN that -- we would have to deliver that in New Release 2 to be able to rollout, yes.
 
 **Ms Page**: What it seems to be suggesting is that there was a removal of an incremental migration strategy, does that suggest that everything was then going to be rolled out in a sort of big bang?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: In a fast pace.  Again, this is -- I saw this just before I come in here and trying to rack my memories, there was a number of migration processes put forward, some which was looking at kind of incremental product migration and things that we were looking at doing, but this was very much, from just trying to go back in my mind, there was a change in the migration strategy, which did -- whether it's totally big bang, but it effectively said that we would rollout with the predominance of all the functions as required, which added complexity because the KMS -- and specifically the VPN element of the KMS was a high -- high risk, it was --
 
@@ -1024,9 +1368,13 @@ It was high risk that we had to carefully manage and put mitigations in place to
 
 **Ms Page**: Was the driver for changing that strategy to rollout faster?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: I was not privy to those discussions, so -- but it did accelerate the deployment.
 
 **Ms Page**: Yes.  If we scroll down a little there's also a risk -- the last one, which is risk 4, again with your initials.
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Yes.
 
@@ -1040,17 +1388,25 @@ Then it talks about the risk of there being:
 
 I'm not quite sure what it leads on to, but am I right in thinking that this is suggesting that there's quite a lot that needs to be -- with this sort of much more holistic, if I can put it that way, migration, there's a lot to manage with space, with resources, with physical structure; is that what we're getting at here?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, it needs to be a coordinated management plan to bring it all together.
 
 **Ms Page**: So, again, it's the fact that everything is being done at once, is it, that makes this more of a risky endeavour?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: It made it more complex, yes, and, therefore, increased the risk, and this was specific to the data centre migration, I believe, this aspect.  The CI3, CI4 -- because when you said "deploy in the counters", and I said yes to that, I suddenly -- now, looking at this one, this looks very geared to the data centre migration element.  So the data centre migration was not only were we -- no, sorry, I'm going to retract that.  Sorry, this is the deployment.
 
 **Ms Page**: Yes, all right.  Well, can I just turn to one other document and just see if this has anything to do with it or if it's part of the same issues to do with trying to roll things out in one go.  This document is FUJ00078691.  This refers to the introduction, I think, of an element of the KMS system; is that right?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes.
 
 **Ms Page**: This dates from -- we can see at the bottom there -- 31 March 1999.  So, again, this is preparing for the main rollout, isn't it, later that year and into 2000; is that right?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Correct.
 
@@ -1060,6 +1416,8 @@ I'm not quite sure what it leads on to, but am I right in thinking that this is 
 
 It goes on to explain why, it says that there is a known bug in one of the versions of what was to be rolled out.  Is that fair, is that a decent summary?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: Yes, that's how I read that, yes.
 
 **Ms Page**: Because of that known bug, if we turn to the next page and we sort of just look at the end of what's been agreed, it seems it has been agreed with you that they will go ahead on the assumption that the enhancement version will not be available in the KMS timescales:
@@ -1068,9 +1426,13 @@ It goes on to explain why, it says that there is a known bug in one of the versi
 
 Again, is this an example of things having to be rolled out on a quick and altogether basis and, therefore, perhaps some enhancements not catching up in time, not being ready in time?  Is that what we're looking at here?
 
+.. rst-class:: indented
+
 **Alan D'Alvarez**: This particular one would not be specific to the deployment to Post Office.  This specific one would be an issue within one of the versions that we were using in KMS.  I would need to know -- I would need to look at the faults to understand what that is, but if there's a known issue with a version that we have, we very often are able to put workarounds in to enable us -- workarounds into the system so that that doesn't become an issue in operating the KMS.
 
 **Ms Page**: What I suppose I'm getting at here is: do you think, looking back, things were being rolled out too quickly?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: Do I think -- so I'm very conscious that a number of times we had to delay the rollout because we collectively -- certainly from my area -- said that we were not ready to and, from my perspective, there's always pressure.  There's pressure -- you put pressure on yourself to meet the timescales that you set.
 
@@ -1085,6 +1447,8 @@ On the KMS, we -- it was clear that the amount of work to put an automated key m
 Invariably, it adds cost to the run costs and, therefore, you don't want to go live.  So that would have been part of a number of elements where is there a suitable workaround to go forward with?  If so, is that affordable, is that the right way to do it?  And that would have been the decision-maker, and I can't remember the specific one here.
 
 **Ms Page**: When you say that your management won't have liked it but they would have supported it, who were you referring to?
+
+.. rst-class:: indented
 
 **Alan D'Alvarez**: So, at that time, it would be -- Mike Coombs was the main person, who was the -- the programme authority director there, but I actually reported into the structure of Terry Austin.
 
@@ -1128,13 +1492,19 @@ Questioned by Mr Beer
 
 **Mr Beer**: Good afternoon, Mr Allen.  My name is Jason Beer, as you know, and I ask questions on behalf of the Inquiry.  Can you give us your full name, please?
 
+.. rst-class:: indented
+
 **Graham Allen**: Graham Allen.
 
 **Mr Beer**: Thank you very much for coming to give evidence today and thank you very much for the assistance you have already provided the Inquiry in the provision of your witness statement.  I wonder whether you could take out the witness statement, please.  It should be in a binder next to you.
 
+.. rst-class:: indented
+
 **Graham Allen**: I can't see it.
 
 **Mr Beer**: Have a look behind you on the shelf.
+
+.. rst-class:: indented
 
 **Graham Allen**: No.
 
@@ -1142,59 +1512,87 @@ Questioned by Mr Beer
 
 Apologies for this, sir.
 
+.. rst-class:: indented
+
 **Graham Allen**: That's okay.
 
 *(Pause)*
 
 **Mr Beer**: Thank you very much.  Now, where were we?  If you take out that binder, there should be a witness statement in your name and dated 4 August.  Tab A1, 19 pages in length, with your signature at the end of it; is that your signature?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Are the contents of that witness statement true to the best of your knowledge and belief?
+
+.. rst-class:: indented
 
 **Graham Allen**: They are.
 
 **Mr Beer**: A copy of that witness statement is going to be uploaded to the Inquiry's website and I'm, therefore, not going to ask you about every aspect of it, you understand?
 
+.. rst-class:: indented
+
 **Graham Allen**: Okay.
 
 **Mr Beer**: Your evidence, Mr Allen, relates primarily to the development and then the operation of Horizon Online, topics that the Inquiry intends to address in later phases of the Inquiry, and so the questions I'm going to ask you about today are primarily for the purpose of seeking to assist the Inquiry in understanding the roles that those involved in that process had in relation to Horizon Online, but also any crossover between it and Legacy Horizon, as it became known, and to assist us in directing our investigations into some people who were in post in relation to both Legacy Horizon and Horizon Online.  Do you understand?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: So the fact that I'm ignoring, in my questions, 90 per cent of your witness statement, doesn't mean we're not interested in it, we've got your evidence on it and we may come back to you later.  Do you understand?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Can we start, please, with your qualifications and experience, please.  What are your qualifications?
+
+.. rst-class:: indented
 
 **Graham Allen**: I did a computer science degree at Portsmouth when it was a polytechnic, I think it switched to a university just after that, and then I took a graduate developer role at what was then ICL and I have remained at ICL and then Fujitsu throughout my career, taking a variety of roles through application development.
 
 **Mr Beer**: So I think you joined ICL, as it was then known, in 1991 -- is that right --
 
+.. rst-class:: indented
+
 **Graham Allen**: That's correct.
 
 **Mr Beer**: -- as a graduate developer.  What did a graduate developer do?
+
+.. rst-class:: indented
 
 **Graham Allen**: At that time, I worked in ICL retail, so I took the skills that I had learned at university and just worked developing retail applications.
 
 **Mr Beer**: Is a developer the same as a programmer?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, as a programmer, yes.
 
 **Mr Beer**: Thank you.  So you worked for the company and its predecessor incarnation for the entirety of your working life, some 31 years now?
+
+.. rst-class:: indented
 
 **Graham Allen**: That is correct.
 
 **Mr Beer**: I think, since January 2022, you have been the operations manager for the Post Office account at Fujitsu; is that right?
 
+.. rst-class:: indented
+
 **Graham Allen**: That's correct, yes.
 
 **Mr Beer**: What does the operations manager do?
 
+.. rst-class:: indented
+
 **Graham Allen**: So, to all intents and purposes, I run the applications teams which was the role I had before January '22 -- January 2022 -- and my role just expanded into looking wider across the services that we deliver, since January 2022, to assist my manager in terms of running the account and helping with those things.
 
 **Mr Beer**: So far as concerns this Inquiry, I think you first worked on the Post Office account in 2007, worked on it for five years until 2012; is that right?
+
+.. rst-class:: indented
 
 **Graham Allen**: That's correct.
 
@@ -1202,113 +1600,169 @@ Apologies for this, sir.
 
 You then didn't work on the Post Office account from 2012 until 2017, went back to the account in 2017 and have stayed there since?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, that's correct.
 
 **Mr Beer**: As I say, we're interested in your role between 2007 and 2012.  In which division within Fujitsu, as it had then become, did you work?
+
+.. rst-class:: indented
 
 **Graham Allen**: I worked in the applications services division.
 
 **Mr Beer**: Can you describe what "application services division" means?
 
+.. rst-class:: indented
+
 **Graham Allen**: So, basically, the area of the company that focused on developing or supporting applications for various customers, so the collection of people whose skill sets were primarily around developing applications.
 
 **Mr Beer**: What was your job title in that period?
+
+.. rst-class:: indented
 
 **Graham Allen**: Applications development manager.
 
 **Mr Beer**: What did that involve, being an applications development manager?
 
+.. rst-class:: indented
+
 **Graham Allen**: In building and running the team to deliver applications to our customers.  So in varying roles, managing developers, or primarily managing developers, or maybe sometimes test people or various parts of the life cycle, depending on what the role required.
 
 **Mr Beer**: You mentioned in that answer working with people --
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- and in your statement you describe a management role with people.
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Was it mainly a human resources function or did you become involved in the information technology itself?
+
+.. rst-class:: indented
 
 **Graham Allen**: So in the role for the Post Office account, it was primarily a human resources role, but with an application -- with the experience of knowing how to recruit application people or knowing how to assist people in solving technical problems, but not being the primary -- my experience was not on how these particular applications were developed or the technology that was used to do them.  It was around making sure that the people that I had in the teams had the skills to deliver the applications that we needed to do.
 
 **Mr Beer**: How many people in the teams worked to you?
 
+.. rst-class:: indented
+
 **Graham Allen**: Approximately 100/150 when I first started on the Post Office.
 
 **Mr Beer**: You give that figure in your witness statement and you call them "my development teams".
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: How were they split?
 
+.. rst-class:: indented
+
 **Graham Allen**: So they were split into various teams supporting various parts of the applications.  As I say in my witness statement, the project involved two major components, as we were moving to Horizon Online, redeveloping a new counter application for the branches and the -- and the separate part of the project, which was migrating the data centre applications from Horizon to Horizon Online.
 
 **Mr Beer**: How were the numbers split as between those two purposes?
+
+.. rst-class:: indented
 
 **Graham Allen**: From recollection, it was probably about half and half. I'm not 100 per cent sure.
 
 **Mr Beer**: And to whom did you report?
 
+.. rst-class:: indented
+
 **Graham Allen**: So I reported to -- I'm not clear on -- I can't remember the role, but I reported to a lady called -- to an application -- an application -- do you know what, can I refer to the statement?
 
 **Mr Beer**: Yes, I think she is called "head of applications"?
+
+.. rst-class:: indented
 
 **Graham Allen**: Head of applications, yes.  So head of applications for the Post Office account, so she would have also had test leads and other parts of the life cycle working for her at that time.
 
 **Mr Beer**: That was Barbara Perek, P-E-R-E-K; is that right?
 
+.. rst-class:: indented
+
 **Graham Allen**: That's correct.
 
 **Mr Beer**: To whom did she report?
+
+.. rst-class:: indented
 
 **Graham Allen**: She reported, I believe, to the head of the application services division, whose name I do not recall.
 
 **Mr Beer**: In your statement you say at paragraph 9 you reported to Barbara Perek --
 
+.. rst-class:: indented
+
 **Graham Allen**: Sorry.
 
 **Mr Beer**: -- who reported into the programme director, who, at the time you joined, was Martyn Hughes.
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes, so Barbara would have reported in to both the application services division at Fujitsu and also for the Post Office account she would have reported to the programme director, Martyn Hughes.  Sorry, yes.
 
 **Mr Beer**: What responsibility, if any, did you have for Legacy Horizon, as it became known?
 
+.. rst-class:: indented
+
 **Graham Allen**: I had no responsibility for Legacy Horizon.
 
 **Mr Beer**: What knowledge, if any, did you have as to the operation of Legacy Horizon?
+
+.. rst-class:: indented
 
 **Graham Allen**: So none, other than I sat in the same office as people working on Legacy Horizon, so I may have heard -- I may have heard information on Legacy Horizon but it would have been on a -- what's the word -- just in terms of hearing it in the office.  But I was not responsible for it or --
 
 **Mr Beer**: Office chat?
 
+.. rst-class:: indented
+
 **Graham Allen**: Office chat but no direct information or knowledge.
 
 **Mr Beer**: When you arrived in 2007, did anyone tell you when you joined the team or began to manage the team about a problematic live trial and rollout for Legacy Horizon?
+
+.. rst-class:: indented
 
 **Graham Allen**: No.
 
 **Mr Beer**: When you joined the team in 2007 and managed the team in 2007, did anyone tell you about a series of serious errors, bugs and defects that had afflicted Legacy Horizon throughout its life?
 
+.. rst-class:: indented
+
 **Graham Allen**: No.
 
 **Mr Beer**: In order to develop Horizon Online and then migrate it, migrate branches onto it, did you not have to have an understanding of the issues and difficulties that had beset Legacy Horizon?
+
+.. rst-class:: indented
 
 **Graham Allen**: No.  The teams -- Legacy -- sorry, the main parts of Horizon that we were developing was a brand new application and, as I say in my statement, actually the teams that were developing it were completely separate, due to the contractual position between the parties, which I don't understand.  Prior to that we were --
 
 **Mr Beer**: Sorry, just stopping there, could you just expand on what you meant there by "the teams were entirely separate due to the contractual position", as you understood it.
 
+.. rst-class:: indented
+
 **Graham Allen**: So, Horizon was built on a system provided by Riposte, or was called Riposte -- actually I'm not actually completely clear on the terminology there -- and we were writing a brand new system to replace that counter application from scratch and, I believe, to ensure that we did not have any copyright infringement the instruction was to produce it with a new -- with a completely -- set of people that couldn't possibly copy the previous solution.  So it was going back to business requirements from the Post Office to write the solution from -- new, so it was a completely replacement system, in terms of the branch system.
 
 **Mr Beer**: That meant that you didn't have access to their code?
+
+.. rst-class:: indented
 
 **Graham Allen**: That's correct, yes.
 
 **Mr Beer**: Could you, nonetheless, not have been told about -- I will put it neutrally -- some issues that had arisen in the operation of that code over the, by then, seven or eight-year lifespan of Horizon?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, I guess so.  Whether the developers were aware of that or not, I don't know.  Would it have helped?  I'm not sure it would have done.  All IT systems have problems and part of the point of rewriting them is that you avoid writing those problems again.
 
 **Mr Beer**: If you know about the problems, it's sometimes easier not to replicate them?
+
+.. rst-class:: indented
 
 **Graham Allen**: Potentially, potentially.
 
@@ -1322,127 +1776,189 @@ Then, if we go forward to (c), you say:
 
 How do you know about that, that Fujitsu developers were not allowed access to the programming code for Legacy Horizon?
 
+.. rst-class:: indented
+
 **Graham Allen**: Because they often raised it as a challenge to understanding the requirements that they had, in that the level of detail may not have been sufficient and, without being able to refer back to how the system worked previously, they sometimes found it harder to interpret those requirements and write the new system. So it was one of those problems that made it take longer to write Horizon Online than anticipated.
 
 **Mr Beer**: I think you may have answered this already, but whose intellectual property rights were being guarded or asserted here?
+
+.. rst-class:: indented
 
 **Graham Allen**: I believe Riposte, or the company that owned Riposte. I'm not sure which is which.
 
 **Mr Beer**: Were you told that at the time?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Can you explain why you would have wanted access to the programming code for Legacy Horizon in order to carry out your work?
+
+.. rst-class:: indented
 
 **Graham Allen**: It's one of the ways of a developer being able to identify how the system previously worked.  Ultimately, it's the final way, if they can't work it out any other way.
 
 **Mr Beer**: Was the Post Office aware that Fujitsu developers were not able to access the programming code for Legacy Horizon?
 
+.. rst-class:: indented
+
 **Graham Allen**: I think I'm probably speculating but I believe they would have known, yes.
 
 **Mr Beer**: What's the basis for your suggestion that they probably would have known?
+
+.. rst-class:: indented
 
 **Graham Allen**: Only that they were close enough to us at that point that I can't imagine that that would not have been part of the conversation.  I don't believe these conversations were ever sort of secret or within Fujitsu, so -- but as I say, I can't -- I couldn't say 100 per cent.
 
 **Mr Beer**: Do you know Mr Jenkins, Gareth Jenkins?
 
+.. rst-class:: indented
+
 **Graham Allen**: I do.
 
 **Mr Beer**: For how long have you known him?
+
+.. rst-class:: indented
 
 **Graham Allen**: From the time -- well, from -- I can't recall the first time I met him, but he would have been working there at the point I started in 2007, until the point he retired, which I don't recall.  It may have been while I wasn't on the account.  I'm not sure what date he left but personally known him only, probably, really around -- the first time I can recall being aware of him was around when we were piloting and we were, you know, dealing with the technical issues which, as my statement says, I was more involved in.
 
 **Mr Beer**: So, certainly for the period 2007-2012, you would have worked with him?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, and certainly around the six months of the rollout.
 
 **Mr Beer**: What was his role when you worked with him?
+
+.. rst-class:: indented
 
 **Graham Allen**: He was a technical architect who -- probably one of the people that understood how Horizon and Horizon Online was built.
 
 **Mr Beer**: In the period 2007 to 2012, how frequent was your contact with him, allowing for the fact that it may have waxed and waned depending on what was being done?
 
+.. rst-class:: indented
+
 **Graham Allen**: As I was going to say, I think probably during the six months of the pilot and rollout, it was probably at least a few times a week.  Before that and after that, probably rarely.
 
 **Mr Beer**: He is described in some of the material as "distinguished engineer"?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: What does that mean?
 
+.. rst-class:: indented
+
 **Graham Allen**: It's a title that Fujitsu gives to a certain set of our technical specialists, so there is a process that each year nominations are taken and they are judged against their technical expertise, their knowledge of the marketplace, et cetera, things like that.
 
 **Mr Beer**: So it's a sort of honour conferred on them within the company --
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- bestowed within the company?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Okay.  He is also described as an applications architect -- or the applications architect or an applications architect, depending on which document you look at.  What is an "applications architect", please?
+
+.. rst-class:: indented
 
 **Graham Allen**: So an applications architect is sort of a role or a grading that the system -- that the company uses.  It is somebody who designs applications, so doesn't necessarily write the applications, or probably doesn't write the applications, so very much like an architect would design a building, it's the person that designs the applications, so not -- and it's focused on the application not the hardware or the infrastructure, hence the term "application".
 
 **Mr Beer**: Thank you.  I think we can see from the documents that you would attend meetings with him.
 
+.. rst-class:: indented
+
 **Graham Allen**: Mm-hm.
 
 **Mr Beer**: We've got some examples of that.  Can we look, please, at `FUJ00092922 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00092922-meeting-minutes-horizon-next-generation-implementation-issues-coton-warwick>`_, please.
+
+.. rst-class:: indented
 
 **Graham Allen**: Is that B --
 
 **Mr Beer**: It will come up on the screen.
 
+.. rst-class:: indented
+
 **Graham Allen**: Oh, will it?  Okay.
 
 **Mr Beer**: Yes.  Thank you very much.  We can see notes of a meeting called "Next Generation Implementation Issues", of 8 February 2010, at Coton, Warwick and Derby.
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: We can see that your name is listed about ten in --
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- and you are described as "Customer Services (Fujitsu)"; is that accurate?
+
+.. rst-class:: indented
 
 **Graham Allen**: So I think I'm described as "Development Manager" on the right --
 
 **Mr Beer**: I'm so sorry, I misread the lines.
 
+.. rst-class:: indented
+
 **Graham Allen**: That's okay.
 
 **Mr Beer**: Mr Jenkins is described as "Solution Architect", is that the same as applications architect?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: Thank you very much.  At this time, February 2010, how frequent was your contact with him?
 
+.. rst-class:: indented
+
 **Graham Allen**: Because of these issues, it was probably daily.
 
 **Mr Beer**: I think you would exchange emails with him with some regularity; would that be right?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: I think we've got some examples in the disclosed material.  I'm not going to go to them to show you where you exchanged an email with him, but you would receive documents from him as well.
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Can we look at some of those, please.  `FUJ00117478 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00117478-issue-duplicate-settlements-found-derby>`_, please.  This is one of two documents I'm going to look at.  You exhibit this to your statement.
+
+.. rst-class:: indented
 
 **Graham Allen**: Mm-hm.
 
 **Mr Beer**: I think you will remember.  The author, Gareth Jenkins; the date, 29 January 2010.  If you just read through it and the question I'm going to ask is: is this about Horizon Online or Legacy Horizon?
 
+.. rst-class:: indented
+
 **Graham Allen**: This is about Horizon Online.
 
 **Mr Beer**: You will see that the problem is identified, the basket being recorded twice in the accounts, the PEAK numbers given, the cause of the problem is a bug at the counter.
+
+.. rst-class:: indented
 
 **Graham Allen**: Correct.
 
 **Mr Beer**: Then can we look, please, at Fujitsu00117489, please. That's the wrong tab, sorry, my mistake.  `FUJ00117480 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00117480-rollover-issues-warwick>`_.
 
 Look at the top again.  Authorship the same, Mr Jenkins, the date is, in fact, the same.
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
@@ -1452,49 +1968,73 @@ Look at the top again.  Authorship the same, Mr Jenkins, the date is, in fact, t
 
 Again, is this to do with Horizon Online or Legacy Horizon?
 
+.. rst-class:: indented
+
 **Graham Allen**: Horizon Online.
 
 **Mr Beer**: At what stage in the process are you here, namely end January 2010?
+
+.. rst-class:: indented
 
 **Graham Allen**: So I think we are in the initial pilots of the Horizon Online system.
 
 **Mr Beer**: To your knowledge, to your understanding, what was Mr Jenkins' level of knowledge in relation to Legacy Horizon?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't actually know the answer to that, I'm afraid. I believe he was -- I believe he was involved in Legacy Horizon, but I am not -- I don't recall what he was involved in, probably because my focus was on this.
 
 **Mr Beer**: Would he have been allowed to speak about it in the same room as you, given that, if he did have knowledge, it might infringe somebody's intellectual property rights?
+
+.. rst-class:: indented
 
 **Graham Allen**: He would have been.  I don't recall any instances where I was, so it was only the counter application that the -- I have forgotten the word already -- that the infringement would have been part of and, as I said, there are two major parts of this inter system: the main data centre part was still the same -- inherently the same system, carried forward -- updated and carried forward.
 
 **Mr Beer**: Did Mr Jenkins ever explain to you that he was providing witness statements in connection with criminal proceedings against subpostmasters?
 
+.. rst-class:: indented
+
 **Graham Allen**: So I am aware of that now and I would have been aware of it at some point but I don't know -- I can't recall exactly what point I was aware of -- I was aware of that.
 
 **Mr Beer**: Would it have been whilst you were working on the account between 2007 --
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- and 2012 --
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- rather than when you came back to it in 2017?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes, it would have been during that time I became aware that Fujitsu was involved in that process and that Gareth was part of that.
 
 **Mr Beer**: Can you help us as to how you became aware of that?
 
+.. rst-class:: indented
+
 **Graham Allen**: Probably the best description is to use the one you used before, office chit-chat.  Only that, that I became aware that there was a -- maybe there was an occurrence of when he had to go to court, I don't recall exactly.
 
 **Mr Beer**: Did Mr Jenkins ever come and speak to you about any technical aspects of Horizon online for the purpose of informing evidence that he was to give in a witness statement or in oral evidence in court?
+
+.. rst-class:: indented
 
 **Graham Allen**: No.
 
 **Mr Beer**: Were you present at any meetings at which either of those things were done?
 
+.. rst-class:: indented
+
 **Graham Allen**: No.
 
 **Mr Beer**: Are you aware of any process by which Mr Jenkins was selected as a witness to give evidence in written and then oral form?
+
+.. rst-class:: indented
 
 **Graham Allen**: No.
 
@@ -1502,13 +2042,19 @@ Again, is this to do with Horizon Online or Legacy Horizon?
 
 You will see the date of this version of the document as 25 November 2011.
 
+.. rst-class:: indented
+
 **Graham Allen**: Mm-hm.
 
 **Mr Beer**: Then if we go to the top, please, you will see that it is authored by Mr Jenkins.
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Now, I think this is a document that you saw and contributed to at the time?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.  I don't recall it but, having read the document provided to me, yes, I can see that I'm recorded as commenting on it.
 
@@ -1518,21 +2064,31 @@ You will see the date of this version of the document as 25 November 2011.
 
 So I think that's what you were just referring to; is that right?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Torstein Godeseth, can you help us as to who he was?
+
+.. rst-class:: indented
 
 **Graham Allen**: So Torstein Godeseth was a Post Office architect at some point.  He now works for Fujitsu, so he changed roles at some point during Horizon Online.  I can't recall the exact time --
 
 **Mr Beer**: Can you remember the year?
 
+.. rst-class:: indented
+
 **Graham Allen**: Not accurately, no.  I was on the account, so it must have been 2010/2012-ish but I'm not 100 per cent sure.
 
 **Mr Beer**: So Post Office Counters Limited employee, who moved over to Fujitsu?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, yes.
 
 **Mr Beer**: Going back to the front page of the document, please. Having re-read the document more recently can you help us overall as to the purpose of this review or this report?
+
+.. rst-class:: indented
 
 **Graham Allen**: Only from what I have read in the document and that it was -- it appears from memory, from reading it over the weekend, it appears to be a description of the measures -- as it says in the abstract:
 
@@ -1541,6 +2097,8 @@ So I think that's what you were just referring to; is that right?
 It appears to be to brief KPMG, I think it said, on conducting an audit of that.
 
 **Mr Beer**: So the abstract is accurate, it's a backward look at measures that are built into Horizon Online to ensure data integrity?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
@@ -1554,37 +2112,55 @@ Then "Objective":
 
 Can you recall what prompted this?
 
+.. rst-class:: indented
+
 **Graham Allen**: I can't.  I say, until I was provided with the document I didn't even recall the document or being involved in commenting on it.  I can see that I was but -- so no, I can't recall.
 
 **Mr Beer**: Can you recall what your feedback was on the document?
+
+.. rst-class:: indented
 
 **Graham Allen**: I can't recall it but I did have a look back through the previous versions of the document and my comments were, I believe, a couple of typos or of that order of magnitude.
 
 **Mr Beer**: Was that with the assistance of Fujitsu that you went back and looked --
 
+.. rst-class:: indented
+
 **Graham Allen**: I have access to the document management system so, yes, in that respect, with the assistance of Fujitsu, yes.
 
 **Mr Beer**: So you did that at work, did you?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: At this time, what was your relationship at work with Gareth Jenkins?  Why was he the author of the document, to your knowledge?
 
+.. rst-class:: indented
+
 **Graham Allen**: Again, I would have to speculate because I can't recall exactly: in his role as an application architect.
 
 **Mr Beer**: Torstein Godeseth, what was his role at the time?
+
+.. rst-class:: indented
 
 **Graham Allen**: I couldn't be 100 per cent sure.  Again, likely to be an application architect.  Purely based on the fact that Torstein commented on an early draft, I suspect he was part of Fujitsu at that time, but I'm speculating again. It would need to be checked.
 
 **Mr Beer**: Why were you asked to give feedback?
 
+.. rst-class:: indented
+
 **Graham Allen**: That, I don't know.  I would have been application delivery manager at that time and I guess it was considered to be part of my role to do that.  Yes, I can't give you any better answer that that, I'm afraid.
 
 **Mr Beer**: Can you try and help us --
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, definitely.
 
 **Mr Beer**: -- and tell us what about your job would have made it appropriate for you to have been asked to give feedback on a document concerning the integrity of Horizon Online that will ensure the requirements for legal admissibility in court proceedings were met?
+
+.. rst-class:: indented
 
 **Graham Allen**: Okay.  I don't think it would have been in relation to that, but clearly if there had been or were any changes required out of any audit, then it would have been my teams that would have had to have made those changes and, hence, there's some governance responsibility on me to check that the documentation is correct.
 
@@ -1594,49 +2170,73 @@ The other likely thing, as I have said in my statement, is my role as mainly a -
 
 Do you know why that was?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't, no.
 
 **Mr Beer**: Were you aware of any litigation being taken against either the Post Office or Fujitsu, at this time?
+
+.. rst-class:: indented
 
 **Graham Allen**: No.
 
 **Mr Beer**: Can we go over to page 8, please.  You will see there's a list of stakeholders and their roles and responsibilities.  Can I have your help, please, on a little more than the two or three word descriptions that are given for each of the people there: Stephen Long, Fujitsu or Post Office employee?
 
+.. rst-class:: indented
+
 **Graham Allen**: So Stephen Long was a Fujitsu employee.  He would have been the head of account at that point, hence the project sponsor I'm assuming.
 
 **Mr Beer**: Yes.  James Davidson?
+
+.. rst-class:: indented
 
 **Graham Allen**: So James Davidson, as it says there, service operations director.  So James was responsible for all of our service delivery aspects, if that makes sense, sorry.
 
 **Mr Beer**: There's a tendency in IT to have five or six words, one of which is always "service", some of which are "applications", and then are switched around in different orders.  So could you explain maybe what the person actually does?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.  So James would have been ultimately responsible for our support teams, our service teams, in maintaining the day-to-day service and that the system was up and running, and that type of service delivery.  I would have had a line or a dotted line into him as part of my team's -- ultimately delivering applications would have had some responsibility to the support of the service.
 
 **Mr Beer**: Thank you, that's helpful.  "Torstein Godeseth -- Architecture".  Can you help a little more on what his role was at this time?
+
+.. rst-class:: indented
 
 **Graham Allen**: I can't from that description, no, and I don't recall what Torstein did there.
 
 **Mr Beer**: Gareth Jenkins you have already explained.  Mike Deaton, again Fujitsu employee?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: "Project leader", was that for Horizon Online?
+
+.. rst-class:: indented
 
 **Graham Allen**: I don't know exactly what it would have meant in the context of this document was -- he was responsible for making the project -- delivering the project that this document was part of.  So like a project manager project, leader, I believe.
 
 **Mr Beer**: Edward Phillips?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't recall that name or -- yes, I don't recall that name at all.
 
 **Mr Beer**: And Ian Howard of security?
+
+.. rst-class:: indented
 
 **Graham Allen**: I don't recall that name either, so I don't actually know whether he was Fujitsu or Post Office.  I'm assuming from the -- as you pointed out -- the legally privileged title bit that they are all Post Office employees, but other than the ones I have mentioned, I can't confirm.
 
 **Mr Beer**: Do you remember a position within Fujitsu of chief information security officer?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Can you recall whether Mr Howard, Ian Howard, occupied that position?
+
+.. rst-class:: indented
 
 **Graham Allen**: I can't.  I'm only assuming from what I read there that that is the role, but I don't know.
 
@@ -1646,37 +2246,55 @@ Do you know why that was?
 
 Can you help us, can you recall who was that required by, the Post Office, Fujitsu or somebody else?
 
+.. rst-class:: indented
+
 **Graham Allen**: I can't recall.  I can only assume that, as this mentions another third party, KPMG, that it is with them but that is an assumption.
 
 **Mr Beer**: Sorry, because the report we're going to see in a moment mentions KPMG --
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- that they required it?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.  Well, that Fujitsu required it with KPMG but that's -- as I say, I am speculating there; I don't actually know.
 
 **Mr Beer**: Was it normal when a group of seven or eight Fujitsu employees got together on a project that they had to sign a non-disclosure agreement?
+
+.. rst-class:: indented
 
 **Graham Allen**: No, no.  My experience of non-disclosure agreements within Fujitsu are always around third parties.
 
 **Mr Beer**: Ie the third party has to sign it?
 
+.. rst-class:: indented
+
 **Graham Allen**: Both -- so either the -- yes, the examples I have seen in other places are the customer and all of the parties involved sign them, or Fujitsu and a third party they are involving in some work signs them, depending on who -- the discussions are, so I can't tell you what that means, in the context, I'm afraid, of this document.
 
 **Mr Beer**: Did you sign a non-disclosure agreement?
+
+.. rst-class:: indented
 
 **Graham Allen**: Not that I recall, no.
 
 **Mr Beer**: Do you know what you would have been forbidden from disclosing in discussing the issue that this paper relates to?
 
+.. rst-class:: indented
+
 **Graham Allen**: No.
 
 **Mr Beer**: Do you know from whom you would have been forbidden to disclose such information --
 
+.. rst-class:: indented
+
 **Graham Allen**: No.
 
 **Mr Beer**: -- for example the client, Post Office?
+
+.. rst-class:: indented
 
 **Graham Allen**: Other than all parties that weren't part of the disclosure agreement, just as per my standard training, if you like.  But I don't know what the non-disclosure agreement was signed -- who that was signed between as part of this document.
 
@@ -1686,49 +2304,73 @@ Can you help us, can you recall who was that required by, the Post Office, Fujit
 
 Just trying to flesh that context out a bit, contractual liability to who?
 
+.. rst-class:: indented
+
 **Graham Allen**: It can only be Post Office, as far as I can see from that document.
 
 **Mr Beer**: Do you remember the context in which this exercise, this project, was undertaken, that there was an issue of Fujitsu's contractual liability to Post Office?
+
+.. rst-class:: indented
 
 **Graham Allen**: Over and above our contractual liability to support prosecutions, or support the evidence to prosecutions, no, I can't think of any.
 
 **Mr Beer**: What do you recall about the contractual liability to support prosecutions?
 
+.. rst-class:: indented
+
 **Graham Allen**: An awareness of it.  Other than that, nothing.
 
 **Mr Beer**: Where did you gain that awareness from?
+
+.. rst-class:: indented
 
 **Graham Allen**: Conversation.
 
 **Mr Beer**: With who?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't know.  Whoever I was working for at the time, I assume, as part of this document but I don't know.
 
 **Mr Beer**: What was your understanding of Fujitsu's contractual liability to support prosecutions?
+
+.. rst-class:: indented
 
 **Graham Allen**: My only understanding was that we did send witnesses to support Post Office in some cases, but that's -- that is all I knew of at the time.
 
 **Mr Beer**: Was there ever, to your knowledge, in the development of Horizon Online, any look back to the stage before then, ie before the witness gets dispatched to court, to see how you designed the system in order to make the data have integrity, in order that the witness can go to court and speak to the integrity of the data that the system produces?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't really understand the question.
 
 **Mr Beer**: Okay.  You said that your understanding of the contractual obligation was to provide support --
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: -- to prosecutions.
 
+.. rst-class:: indented
+
 **Graham Allen**: Mm-hm.
 
 **Mr Beer**: I asked you more about that and you said you knew that "we sometimes sent witnesses to court".
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: I was asking was there any discussion in which you were involved, at a stage prior to the dispatch of a witness to court, about the design of the system, with a focus on this data might be used for prosecutions?
 
+.. rst-class:: indented
+
 **Graham Allen**: Not that I recall specifically, no, other than an awareness that the system was designed to be integral and that was what the evidence was provided on.
 
 **Mr Beer**: When you say the system was designed to be integral, do you mean the system was designed to have integrity?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes, sorry.
 
@@ -1742,13 +2384,19 @@ Then last paragraph:
 
 Were you aware of whether a similar document or process or project existed in relation to Legacy Horizon --
 
+.. rst-class:: indented
+
 **Graham Allen**: No.
 
 **Mr Beer**: -- ie writing down, capturing in one place what elements the system has to ensure the integrity of the audit trail and to ensure that the system accurately reflects transactions entered at the counter?
 
+.. rst-class:: indented
+
 **Graham Allen**: I can't say that I wasn't.  I'm answering that on the basis that it could have been discussed at the point that this came out that this was a continuation of that service, but I don't recall one way or the other whether it was specifically discussed.
 
 **Mr Beer**: Okay.  I just want to show you very quickly a document, please, at `FUJ00080526 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00080526-fujitsu-report-horizon-data-integrity-v10>`_.
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes, I was provided this document just before the hearing and it -- that's the first time I have seen it and it does appear to be, as you say, the predecessor, or the same document for the Horizon System, as the -- and the other one was for Horizon Online.
 
@@ -1762,9 +2410,13 @@ The abstract describes the document as describing:
 
 The author is once again Mr Jenkins.  So would you agree that this appears to be an equivalent document in terms of its scope, not necessarily its purpose, for Legacy Horizon rather than Horizon Online?
 
+.. rst-class:: indented
+
 **Graham Allen**: It does appear to be, yes.
 
 **Mr Beer**: Thank you.  Then if we just look over two pages to page 3., you will see the "Document History" there.  You are not mentioned in this or, as far as I can see, any other part of the document.  Would that reflect the fact of your lack of involvement in Legacy Horizon?
+
+.. rst-class:: indented
 
 **Graham Allen**: It would, yes.  I wouldn't be expected to be part of this document, given its scope was Horizon.
 
@@ -1772,29 +2424,43 @@ The author is once again Mr Jenkins.  So would you agree that this appears to be
 
 Just if I can have your help, please, under "Review Details", can you help us as to who Suzie Kirkham was?
 
+.. rst-class:: indented
+
 **Graham Allen**: So Suzie Kirkham was -- I want to say account manager. So she would have worked for the head of the account, whatever it was called in those days.  Her role, as I recall it, was primarily sales, although clearly, as per that, I wouldn't expect that to be the role she was performing here.  So she had an overall view of aspects of the account.
 
 **Mr Beer**: Jeremy Worrell?
+
+.. rst-class:: indented
 
 **Graham Allen**: So the terminology there, "CTO", means chief technology officer.  I don't recall Jeremy in that role.  However, he was one of the senior architects -- I wouldn't put the word "application" in front of him.  I believe he was wider than that.
 
 **Mr Beer**: So, so far, ICL employees or --
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, definitely.
 
 **Mr Beer**: -- Fujitsu.  Guy Wilkerson?
+
+.. rst-class:: indented
 
 **Graham Allen**: So commercial director, as it says there, so responsible for contracts, commercial relationships.
 
 **Mr Beer**: Did you know LaToya Smith?
 
+.. rst-class:: indented
+
 **Graham Allen**: I didn't -- well, if I did, I don't recall her name. So, from that, it looks like she worked for Guy.
 
 **Mr Beer**: Amanda Craib?
 
+.. rst-class:: indented
+
 **Graham Allen**: I recognise the name.  The role there looks like a wider role within Fujitsu, as it was then, I think, but I don't recall.
 
 **Mr Beer**: And David Smith, do you recognise that name?
+
+.. rst-class:: indented
 
 **Graham Allen**: I do, so David was, I think, ultimately responsible for the delivery of Horizon Online within Post Office. That's the role I remember him in.
 
@@ -1802,21 +2468,31 @@ Just if I can have your help, please, under "Review Details", can you help us as
 
 Were you aware of articles in the media in May 2009 about the integrity or lack of it of both Legacy Horizon and Horizon Online?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't recall being aware at that time of those, no.
 
 **Mr Beer**: Can you now recall whether you had knowledge of the Computer Weekly article of May 2009 --
+
+.. rst-class:: indented
 
 **Graham Allen**: No.
 
 **Mr Beer**: -- in the month of May 2009, written by Rebecca Thomson?
 
+.. rst-class:: indented
+
 **Graham Allen**: No, I do not recall being aware of that at the time.
 
 **Mr Beer**: Can you remember any discussion within your team or managers and directors above you over any need to commission any work as a result of the article which was exceedingly critical of Horizon after May 2009, at the same time that you were developing a new Horizon System?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't recall that, no, although the timing of the documents, you know, makes me speculate that that may have been a result, but I do not recall that being discussed at the time, no.
 
 **Mr Beer**: So it wasn't the talk of the town in the office that "The system that we're developing has been very severely criticised in a trade journal"?
+
+.. rst-class:: indented
 
 **Graham Allen**: Not that I recall.
 
@@ -1826,49 +2502,73 @@ Sorry, that can come down from the screen.  Thank you.
 
 What was your main method of communication, source of communication and interrelationship with Post Office Limited, when you were developing Horizon Online?
 
+.. rst-class:: indented
+
 **Graham Allen**: So from what I recall, it was a very joint relationship. Clearly, Fujitsu were doing the majority of the delivery, but their programme staff were very often in the same building as us visiting.  The test team was a joint test team at the time, so there were always Post Office staff within Fujitsu, as part of the testing of Horizon Online.
 
 **Mr Beer**: You worked, I think, in Bracknell?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: Was there anyone from Post Office embedded there?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes, the test team particularly were -- it was the same -- yes, it was a joint team and they were -- I think -- I believe they had a separate office in -- they had an office in our building.
 
 **Mr Beer**: Over the period, the five-year period, what was -- was there a key meeting or focal point for development, as far as you were concerned?
+
+.. rst-class:: indented
 
 **Graham Allen**: Sorry?
 
 **Mr Beer**: You refer in your statement to weekly programme boards.
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Beer**: Was that the main vehicle by which the project from your perspective was progressed?
+
+.. rst-class:: indented
 
 **Graham Allen**: Internal -- so the boards that I refer to in my statement at that time were internal to Fujitsu and I'm -- I'm speculating that there were equivalent boards with the customer, I just wasn't involved in them at that time.
 
 **Mr Beer**: That was my next question.  What, if any, boards or equivalent meetings did you have with your customer?
 
+.. rst-class:: indented
+
 **Graham Allen**: So I -- my -- I was fairly separate from the customer at that point.  There was a lot of people working on the account.  My focus was internal, on running the development teams.  My -- the head of applications and the programme director, or Programme Manager at the time would have been more -- would have been running the customer meetings, or would have been involved in the customer meetings.  I --
 
 **Mr Beer**: In your five-year period, do you think you ever went to any customer meeting?
+
+.. rst-class:: indented
 
 **Graham Allen**: Certainly, as the evidence here shows, customer meetings and customer phone calls very regularly during the end of -- the start of the pilot and rollout.  My recollection is that's when I was mostly involved with the customer.  It's conceivable or more likely that I was involved in more ad hoc meetings up to that point, but I don't recall what they were.
 
 **Mr Beer**: You say in your statement that there was generally good interaction between all the teams involved, including the teams from Fujitsu and the Post Office and that you were not aware of any technical or operational issues that couldn't be resolved due to poor interactions or relationships amongst individuals or teams working on the project.
 
+.. rst-class:: indented
+
 **Graham Allen**: Mm-hm.
 
 **Mr Beer**: How do you know that if you had relatively little contact with the customer?
+
+.. rst-class:: indented
 
 **Graham Allen**: So my statement there was referring in the majority to the internal Fujitsu teams, which I think is how the question was asked.  So, yes, I don't recall within Fujitsu any challenges between teams that -- other than the normal human interaction that you get.  And equally, as I say, as Post Office were there, my awareness was that we were communicating regularly with them.
 
 **Mr Beer**: So, as far as you are concerned, in the development of Horizon Online, no difficulties in relationships, either within the Fujitsu team or between the Fujitsu team and Post Office Limited?
 
+.. rst-class:: indented
+
 **Graham Allen**: As I say in the statement, over and above, it was a difficult programme that was taking longer to deliver than expected and, therefore, the customer were clearly very interested in what we were doing to recover time, or to -- what the plan was to deliver Horizon Online.
 
 **Mr Beer**: So the three-year delay can't have helped relations, no?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes, of course not -- or no, of course not.
 
@@ -1878,21 +2578,31 @@ What was your main method of communication, source of communication and interrel
 
 So there your recollection doesn't assist you to say whether any issues remained unresolved at the end of rollout?
 
+.. rst-class:: indented
+
 **Graham Allen**: So, no, my recollection -- so my recollection doesn't resolve what issues were unresolved at the end of rollout but, again, my experience says that there will have been some issues that remained unresolved, but those issues -- well, I wouldn't have expected -- well, we didn't, as far as I'm aware, roll it out with issues that were going to cause either our support teams or the customer or, specifically, the branches issues that were not manageable because there's no -- there is no -- it's not in anybody's benefit to do that.
 
 **Mr Beer**: Then, just going back to paragraph 30 of your witness statement, please, you tell us in paragraph 30, in summary, that any PEAK relating to a discrepancy in branch accounts would have caused you concern at the time?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Beer**: Can you recall whether any connection was drawn between incidents which affected Legacy Horizon being discrepancy in branch accounts and Post Office backend systems, and the issues that were arising in the new product, Horizon Online, to the same effect, ie "We've got a balancing problem in Horizon Online", and somebody said "There is a history of balancing problems with Horizon"?
 
+.. rst-class:: indented
+
 **Graham Allen**: I don't recall exactly.  However, as well as -- any system that can cause a financial discrepancy is always -- that's always a top priority issue, regardless of what has happened here, so --
 
 **Mr Beer**: I suppose I'm asking a bigger question: was there any effort to look back at the last decade and see what had happened with Legacy Horizon, to see whether it provided any help in the design of the new system?
 
+.. rst-class:: indented
+
 **Graham Allen**: So I think that would have been well before this point when the system was designed, so here we're talking very much about the implementation of it and I'm not -- I have not -- I'm not a technical application architect, so I can only assume that, as we have already established, some of the people were the same, that those lessons would have been learned at least individually, if not collectively, but I don't know.
 
 **Mr Beer**: One would hope so, wouldn't one?
+
+.. rst-class:: indented
 
 **Graham Allen**: One would hope so.
 
@@ -1917,61 +2627,91 @@ Now, we should have on the screen, at 1.1, under "Objective" the words that say 
 
 Now, let's just pause there.  You mentioned that you knew that there was a contractual obligation to provide material for prosecutions.
 
+.. rst-class:: indented
+
 **Graham Allen**: So I would probably qualify that I don't believe I knew at the time there was a contractual obligation.  I did know that we did it.
 
 **Mr Stein**: Right.  So you knew that you were about the business, or your company was about the business of providing information to support prosecutions?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Stein**: All right.  Now, having had that in mind, we can see here that the reference is to Horizon Online being operational for 12 months.  Do we take it, and do we understand from that, that prior to this document that there had not been a document that was analysing the quality of the data that's being used for compliance with the prosecution duty that is performed by Fujitsu?
 
+.. rst-class:: indented
+
 **Graham Allen**: I think the wording of this document, and I have to say implies to me, that this was an audit to ensure that, not that it wasn't in place.
 
 **Mr Stein**: Right.  Insofar as you remember the preparation of this document, Mr Beer already referred to the fact that there's a Computer Weekly article that is in 2009 and referred to the fact that, within this document, that the proposal is that this is going to be supplied to KPMG, yes?
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes.
 
 **Mr Stein**: You have already accepted that there seems to be a logical connection between --
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Stein**: -- these events.
+
+.. rst-class:: indented
 
 **Graham Allen**: Yes, seems to be, but I can't recall it.
 
 **Mr Stein**: Now, the prosecution of any individual is a weighty responsibility, you agree?
 
+.. rst-class:: indented
+
 **Graham Allen**: Indeed.
 
 **Mr Stein**: And I very much doubt, Mr Allen, that you would like people to go to prison for things they didn't do.
+
+.. rst-class:: indented
 
 **Graham Allen**: Absolutely not.
 
 **Mr Stein**: Right, so you must have understood that this is an important obligation being carried out by Fujitsu, correct?
 
+.. rst-class:: indented
+
 **Graham Allen**: Mm-hm.
 
 **Mr Stein**: You must have understood that this particular document, the preparation of it is to go to KPMG auditors to ensure, from their perspective, that this is being taken on board properly, yes?
+
+.. rst-class:: indented
 
 **Graham Allen**: Indeed, yes.
 
 **Mr Stein**: So these are all fairly important factors being considered at that time?
 
+.. rst-class:: indented
+
 **Graham Allen**: Yes.
 
 **Mr Stein**: Are you saying that at the time when these matters are being considered by you and your colleagues, that there was absolutely no reference to what was going on in the real world, in other words the potential set out in the Computer Weekly article that people were being improperly prosecuted?
+
+.. rst-class:: indented
 
 **Graham Allen**: No, I'm saying I can't recall what led to this document.
 
 **Mr Stein**: Well, are you saying that this was done, this document preparation, these considerations within this document, completely in ignorance of what was being said in the Computer Weekly article?  Is that what you're saying?
 
+.. rst-class:: indented
+
 **Graham Allen**: No, I'm saying I simply cannot recall that that was the reason.  I agree with you from the information I'm looking at that the timing does seem -- that that is a possibility, but I honestly cannot recall.
 
 **Mr Stein**: Let's nail this down, Mr Allen.  Let's nail this down. At the time when this document was under preparation, was there any discussion about the fact that in the press there had been concerns expressed regarding the reliability of the Horizon System?
 
+.. rst-class:: indented
+
 **Graham Allen**: As I have said, I can't recall that.
 
 **Mr Stein**: Mr Allen, it does seem to be an unlikely position to have reached that here we have discussions -- internal discussions within Fujitsu regarding the question of satisfying KPMG, a very well-known firm, that there is data integrity and audit systems in place to ensure that the reliability of data provided for the support of prosecutions is true and good, it does seem a little unlikely, Mr Allen, that there weren't such discussions. You are saying you've got no memory whatsoever.
+
+.. rst-class:: indented
 
 **Graham Allen**: I agree with you from what I'm looking at here, but I honestly do not recall the reason for this.  It is -- you know, clearly as Fujitsu were involved in that, you know, in having an independent review, that that is what the -- that the system was integral -- sorry, had integrity, is clearly important regardless of what else was going on, but I agree with you and I apologise that I can't recall that, but ...
 
@@ -1985,6 +2725,8 @@ Then in the slightly greyer type under that we see the quote:
 
 Now, that seems to be a quote from another document built into this one.
 
+.. rst-class:: indented
+
 **Graham Allen**: It does, yes.
 
 **Mr Stein**: So:
@@ -1993,17 +2735,25 @@ Now, that seems to be a quote from another document built into this one.
 
 Now, when Horizon Online was being constructed was this built in as that says?
 
+.. rst-class:: indented
+
 **Graham Allen**: I believe so, yes, and I -- yes.
 
 **Mr Stein**: And your instructions in relation to such?
+
+.. rst-class:: indented
 
 **Graham Allen**: Sorry?
 
 **Mr Stein**: Your knowledge of that?
 
+.. rst-class:: indented
+
 **Graham Allen**: I -- yes --
 
 **Mr Stein**: I thought you said you didn't know about contractual liability?
+
+.. rst-class:: indented
 
 **Graham Allen**: So it's a financial system.  I know all the financial -- all the systems I have worked on have -- in fact all of -- I think everything I have worked on has financial integrity.  I worked on retail systems at the beginning, so ensuring financial integrity is what any system has to do, or have controls in place to do that.
 
@@ -2015,6 +2765,8 @@ Sorry, I don't think I have answered your question very well.
 
 **Mr Stein**: Sir, thank you.  No further questions.
 
+.. rst-class:: indented
+
 **Graham Allen**: Thank you.
 
 **Sir Wyn Williams**: Are there any other questions for Mr Allen?
@@ -2022,6 +2774,8 @@ Sorry, I don't think I have answered your question very well.
 **Mr Beer**: I don't think so, sir.  Thank you.
 
 **Sir Wyn Williams**: All right.  Well, thank you, Mr Allen, for providing your written evidence and for coming to the Inquiry to answer questions from Mr Beer and Mr Stein.  I'm very grateful.
+
+.. rst-class:: indented
 
 **Graham Allen**: Thank you.
 

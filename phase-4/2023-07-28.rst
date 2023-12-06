@@ -33,11 +33,15 @@ Questioned by Mr Blake
 
 **Mr Blake**: Thank you very much, can you give your full name please.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, it's Jan Robert Holmes.
 
 **Mr Blake**: Thank you Mr Holmes.  Thank you very much also for returning today.  You appeared during our Phase 2 of this Inquiry and you gave a witness statement in Phase 2.  I'm not going to bring it up on screen but, for the transcript, it's `WITN04600100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn04600100-jan-holmes-first-witness-statement>`_.
 
 You have since then produced two further statements and I'm just going to take you to those.  The first of them is dated 27 January 2023.  Do you have a copy of that in front of you?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, it's on my screen.
 
@@ -45,33 +49,49 @@ You have since then produced two further statements and I'm just going to take y
 
 If I could ask you to turn to the final page, page 8, is that your signature?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, it is.
 
 **Mr Blake**: Is that statement true to the best of your knowledge and belief?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, it is.
 
 **Mr Blake**: Then there is another statement, a third statement, dated 16 May 2023, that's `WITN04600300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn04600300-jan-holmes-third-witness-statement>`_.  Can I ask you to turn to the final page of that statement, please.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Blake**: That's page 14.  Is that your signature at the end?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, it is.
 
 **Mr Blake**: Is that statement true to the best of your knowledge and belief?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, it is.
 
 **Mr Blake**: Mr Holmes, when you appeared in Phase 2 we went through your career history, so I'm not going to repeat that, save to say you were the Audit Manager at ICL from 1997.  There was a brief period where you went out of that role in 2000/2001, but you returned in 2001 and I think you stayed at ICL until 2008; is that correct?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, that's correct.
 
 **Mr Blake**: Thank you.  I'm going to begin with a whistlestop tour of some of the documents that we looked at in Phase 2, just to refresh your memory of some early incidents relating to Horizon.  Can we start by looking at `FUJ00080690 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00080690-report-eposs-pinicl-task-force>`_.  This is a document that will be familiar to many people in this room, it's the report of the EPOSS PinICL Taskforce, of autumn -- which took place in autumn 1998. I think you'll recall that in the top right-hand corner it seems as though you refreshed your memory in some way or had cause to look at the document in May 2001 as well.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Blake**: That's a document that you wrote.  If we scroll down we can see your name there.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, with David McDonnell as well.
 
@@ -89,6 +109,8 @@ If we scroll down to the next paragraph, it says there:
 
 If we go on to page 17, there is a section that I think was written significantly by Mr McDonnell.  If we scroll down, it's a section on existing code.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Blake**: Just to refresh your memory, it says there:
@@ -101,9 +123,13 @@ If we scroll over the page, you'll remember those comments:
 
 Mr McDonnell's subsequent evidence to the Inquiry was that the EPOSS Development team was, in his words, like the Wild West and was the joke of the building.  I can't recall, did you see Mr McDonnell's evidence on that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, I did.
 
 **Mr Blake**: Yes.  Another document that I will refresh your memory with is the CSR+ development audit document, that's `FUJ00079782 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00079782-icl-pathway-csr-development-audit-v1>`_.  This is now in October 1999.  If we scroll down, we can see that that again is a document written by yourself.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
@@ -121,9 +147,13 @@ If we scroll over the page to page 10, you'll recall that entry on 10 May 2000 w
 
 That recommendation was closed.  Thank you that can come down.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Blake**: So just to recap the developments over that period, we have the PinICL Taskforce document, of which you were the author in 1998; the CSR development audit of which you were the author in 1999; and the Schedule of Corrective Actions, where you are involved in that process, and I think you were the author of that document in May 2000; is that right?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, that's correct.
 
@@ -131,15 +161,21 @@ That recommendation was closed.  Thank you that can come down.
 
 Looking at the documents you've just seen, it's fair, isn't it, to say that you were aware of at least fairly notable issues with at least some important part of the Horizon System that affected things like balancing, in the period leading up to and including Mrs Wolstenholme's brief period as a subpostmistress.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, yeah, I mean, the dates would suggest that but the linkage between the two is not something that I would have made.
 
 Also, just to say that the number of defects that I'm reporting in the CSR audit report are simply numbers.  They're not an analysis of what those defects were.  So I can't say what areas of EPOSS were actually affected by those bugs.
 
 **Mr Blake**: But you have been told by, for example, Mr McDonnell that the code is of poor quality?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Oh, yeah, yeah, yeah.
 
 **Mr Blake**: I think there was also reference to code decay and things like that with PinICL fixes?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, in that context, what I was meaning was that the more you tinker with something, the more likely you are to introduce a problem, and that's the same with anything, whether it's software, a car, decorating.  You know, if you fiddle about with stuff, it's likely to start going wrong, you know, which is the "do it right first time" principle.
 
@@ -147,23 +183,33 @@ So yeah, that was a concern but that was, if you like, trying to raise a risk in
 
 **Mr Blake**: Absolutely.  So you were aware that there were imperfections in the system and that there were attempts to fix those imperfections but attempts to fix the imperfections themselves could cause other problems?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, yes, that essentially is what I meant by the "code decay" comment.
 
 **Mr Blake**: Yes.  Can we now look at FUJ00059075, please?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Can I just say something here?  Again, I don't know whether I've got the timings and the baselines in my head correctly but CSR+ was a new revised baseline and, at that time, whatever was running at the outlets would have been a different baseline anyway.  So whether they had the same defects and issues in them, I don't know.  I wouldn't know.
 
 **Mr Blake**: You wouldn't know because you didn't make enquiries about the ongoing impact of changes to Horizon?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, because in conducting the audit, I was looking at the way the work was being done, right, and I was using numbers to demonstrate where there would seem to be still issues but I can't equate CSR+ development audit back to whatever baseline was in place at Cleveleys at that time.
 
 **Mr Blake**: So comments in late 1999 about "the figures indicate that problems facing EPOSS during the taskforce period have not diminished concerns about non-EPOSS PinICLs", I mean, can they not be broadly applied, that they were concerns you had relating to the EPOSS product?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, the EPOSS taskforce was looking at the baseline that was in place at the time, because we were looking at live defects there.  The CSR+ activity, unless I'm vastly mistaken, the development, the PinICLs were test PinICLs that were produced during testing cycles.
 
 Unless I've misunderstood my own report, you know, I don't know if those PinICLs that I'm counting there were live or whether they were the results of test.
 
 **Mr Blake**: So after 1998/1999 into 2000, you weren't concerned about the Horizon System?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, only insofar as I'd identified all of these PinICLs and defects that were still arising a year after the Taskforce had tried to -- not put a stop to it, that would be virtually impossible, but to try to reduce the number to, you know, a manageable figure.
 
@@ -201,11 +247,15 @@ Thank you, that can come down.
 
 Would you accept that post-rollout there were issues affecting balancing or transactions or counters of some subpostmasters in these kinds of logs and logs that you would have had access to?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, based on what I've seen just there, then yes.  That's clear, isn't it?
 
 **Mr Blake**: Yes, combined, of course, with earlier concerns about the EPOSS system.
 
 I'm going to now take you to WITN04600202. We're now on 21 August 2003, and we are looking at the Cleveleys case.  You, by that stage, had been contacted by Jim Cruise about the Cleveleys case, and --
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
@@ -219,49 +269,73 @@ Then you say, second:
 
 Now, that number 2, that was wrong, wasn't it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, I mean, what I'm referring to there is the formal audit records that are maintained that were then stored on the audit system and deleted after 18 months.  And, as you rightly say, subsequently, an -- what I referred to and what Jason Coyne referred to as an unregulated source of data was found and located.  But they were not the formal audit data that would have been submitted, had it been requested to a court case.  Personally, I wouldn't necessarily place reliance on it, since it wasn't formally captured in the audit record.
 
 **Mr Blake**: So you wouldn't place reliance on the Helpdesk logs that were, in fact, ultimately provided to the expert, Mr Coyne?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, from -- I think from a legal perspective, we -- I wouldn't know where they came from.  You know, they weren't captured at the point of origin, at the time to origin, and they weren't stored securely so they probably were the same as what was captured on the audit record.
 
 **Mr Blake**: Did you say weren't or were?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, they probably were the same, but I can't vouch for that.
 
 **Mr Blake**: If number 2 was wrong, could you be sure that number 1 also wasn't wrong?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Also wasn't wrong?  Um, no number 1 was correct because the transaction data would have been deleted 18 months after it was written.  So it wouldn't be there.  And 2 -- as I said, 2 refers to the Helpdesk logs that were captured as part of the audit archive.  They would have been deleted, as well, after 18 months.  So --
 
 **Mr Blake**: But 2 was found?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, no, no.
 
 **Mr Blake**: Or an unregulated version of 2 was found?
+
+.. rst-class:: indented
 
 **Jan Holmes**: An unregulated set of records that were the Helpdesk logs were located after the event, after they were deleted from the audit archive.
 
 **Mr Blake**: Was an attempt made to look for the equivalent for number 1, so some sort of unregulated record of the transaction data?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Not to my knowledge, no.
 
 **Mr Blake**: Might they have been available?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Not -- I-- no, I don't think they would have been, based on my knowledge of the system and how it worked, no, I don't think they would have been.
 
 **Mr Blake**: Why is it that you were able to find unregulated Helpdesk logs but no unregulated transaction data was produced?  Was it looked for?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, they emanate from different sources.  So I can only assume that the Helpdesk itself was maintaining records but they weren't passed to the audit archive system, and that was the part I was commenting on there.  They weren't available in the audit archive.  And, as I say, subsequently, Helpdesk records were found, but they were nothing to do with the audit archive.
 
 **Mr Blake**: Can we look at POL00095375, please.  We're now on 5 February 2004 so quite some time after that initial contact in August 2003.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
 **Mr Blake**: This is a letter to Colin Lenton-Smith from Keith Baines at the Post Office.  Did you see this letter at the time?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Possibly.
 
 **Mr Blake**: Had you had any contact with the Post Office subsequent to that 21 August contact, in respect of this case?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I don't know.  I mean, there are some documents that have got dates and the points of my involvement with the various people but I know there was a delay, or quite a delay between when all these problems were supposed to have occurred -- or when they occurred in 2000, and us getting involved through Jim Cruise's request for help.  And it was linked, I think, to the production of Jason Coyne's expert report.
 
@@ -271,17 +345,25 @@ Now, that number 2, that was wrong, wasn't it?
 
 Pausing there.  Did you understand that the expert was jointly instructed?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, only insofar as it's in Keith Baines' letter.
 
 **Mr Blake**: Did you understand the implications of that? Did you know what a jointly instructed expert was?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, because I just assumed, rather, that we would be involved in that decision who to appoint.  But it would appear not.
 
 **Mr Blake**: It says there the expert was approved by the Court.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.  But the parties being presumably Mrs Wolstenholme and Post Office.  We were not part of any kind of appointment there.
 
 **Mr Blake**: So did you not take it to have any real significance that the expert had been jointly commissioned?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I didn't.
 
@@ -291,25 +373,37 @@ Pausing there.  Did you understand that the expert was jointly instructed?
 
 Was this the first occasion where you realised the potential implications of the Cleveleys case?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No.  I mean, I think we got -- how can I explain this?  From Horizon's point of view, from my point of view, helping the Post Office resolve this was really just another piece of work coming down the line.  I didn't have any personal buy-in to it.  It was just a request for help to provide information.
 
 **Mr Blake**: So --
+
+.. rst-class:: indented
 
 **Jan Holmes**: Essentially, it was -- it started off by seeking any help to counter some of the opinions in the expert's report.
 
 **Mr Blake**: So you didn't take it in any way personally?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, no.  It was work.
 
 **Mr Blake**: You didn't feel any kind of vested effort to win in this case?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I didn't have any skin in it at all, so why would I?  It was just a piece of work that we were asked to do by the Post Office.  We didn't have any real background, other than the fact that the postmaster was in dispute and had confiscated the equipment and wouldn't return it.  But, other than that, it was just responding to the request made to us by the Post Office.
 
 **Mr Blake**: Do you feel you maintained that neutral approach throughout the conduct of the case?
 
+.. rst-class:: indented
+
 **Jan Holmes**: That's an interesting one because, clearly, we didn't much like some of the comments and the attitude of the expert's report but that's his report.  So all we could do was try to counter some of the claims with what we felt were reasonable counterarguments.
 
 **Mr Blake**: Is your evidence that you maintained your professional approach throughout?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, I think I did.
 
@@ -323,9 +417,13 @@ Was this the first occasion where you realised the potential implications of the
 
 Were you aware at that time that an expert owes duties to the court?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I hadn't seen that document at that time.
 
 **Mr Blake**: Irrespective of -- well, this document is in fact part of the opinion that you were provided with.  If we scroll back you'll see that this is just part of the opinion.  It's, effectively, the back page of the opinion.  But, irrespective of the opinion itself, you were somebody who was providing statements in court proceedings.  Were you aware that an expert owes duties to the court?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, no.
 
@@ -333,17 +431,25 @@ Were you aware at that time that an expert owes duties to the court?
 
 Can we now look at WITN04600302.  So the expert report is dated 21 January -- or 20 January, provided thereafter.  By 11 February 2002, you are carrying out some investigations in order to address what's written in that report; is that correct?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, that's correct, yeah.
 
 **Mr Blake**: So we have correspondence here between somebody called Mark Jones -- who was Mark Jones?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I'm not sure I can remember.  I think he was probably somebody who worked in customer services, but --
 
 **Mr Blake**: If we scroll down --
 
+.. rst-class:: indented
+
 **Jan Holmes**: -- I can't remember.
 
 **Mr Blake**: -- we can see Mark Jones, MSU team.  Who was the MSU team?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't know.  Management Support Unit, possibly.
 
@@ -355,31 +461,45 @@ Now, we see there that there are six outlets.  You have Cleveleys.  SD02 is soft
 
 I mean, this analysis is very much the point that Mr Coyne was making in his report, isn't it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, I guess so, yes.
 
 **Mr Blake**: So we're at February 2004.  You knew at this stage, as we've been over the troubled history of the EPOSS product, you were aware of complaints by subpostmasters or you had access to those KELs and call logs that we have looked over and now you've received from Mr Jones of the Management Support Unit team figures that are entirely consistent with the report of Jason Coyne.
 
 Wasn't this, February 2004, the point to say there might actually be something in the subpostmistress's complaint?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, but remember we were just responding to the Post Office request for help.  It's not our place.  It was not our place, at least I wasn't aware it was my place, to start challenging on behalf of, you know, the postmaster or the postmistress, this information.
 
 **Mr Blake**: Because, as you've said, you were entirely professional and neutral throughout?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Indeed, yes.  Trying to be.
 
 **Mr Blake**: I mean, you have the independent expert's report and now you see that Cleveleys is very much having problems with software errors.  It was only one branch.  It had obviously made calls about software errors.  You didn't have the data because it had been deleted.  How could you be confident that there was not a software issue in the branch?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, I couldn't, could I?
 
 **Mr Blake**: Can we please look at WITN04600203.  This is a document that you produced.  I think we've seen a few of these kinds of documents.  Are they documents that you kept yourself, notes of what was happening at the time?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, this was an internal -- a document for internal consumption, just as an initial response to that report because, clearly, Post Office wanted us to make some kind of formal response so these were, if you like, my first drop down thoughts of what was going on.
 
 **Mr Blake**: If we scroll down, so you note there "Today, (12 February)", so as we to take it that these notes were written on 12 February?
 
+.. rst-class:: indented
+
 **Jan Holmes**: That's what that would imply, yes.
 
 **Mr Blake**: I think, if we look at the top, it says the report was, in fact, received by you on 6 February?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
@@ -395,9 +515,13 @@ I'd like to look at that final paragraph as well.  You say at the end of that:
 
 Did you acknowledge at that time in February that blue screens and system freezes had always been a problem?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, isn't that what that sentence says?
 
 **Mr Blake**: Absolutely.  So are those your words and your acknowledgement there, at that time, that blue screens and system freezes had always been a problem and the stock, as in the standard, the automatic, HSH reply had always been to reboot?
+
+.. rst-class:: indented
 
 **Jan Holmes**: That was my understanding at the time, yes.
 
@@ -406,6 +530,8 @@ Did you acknowledge at that time in February that blue screens and system freeze
 "On 6 February POA [that's Fujitsu's Post Office Account] received a copy of the Expert's report with a request from :abbr:`POL (Post Office Limited)` for an early response.  POL are concerned that the Expert's opinion (that the system was at fault) might set a precedent against future POL prosecutions."
 
 So that's essentially that letter that we saw from the Post Office; is that right?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, that was our understanding at the time. Or my understanding at the time.
 
@@ -417,65 +543,97 @@ Now, sorry, could we just stick there for one moment on the previous page.
 
 So the unregulated archive are records of the other installed six-counter outlets over a comparable period.  Do you remember what that exactly meant?  Because that's quite -- it seems to be quite specifically worded, "the other installed 6 counter outlets".
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, now on an earlier document, I said I wanted an analysis of 20 six-counter outlets selected at random.  So when this information came back, if you scroll down, you will see that there aren't 20 six-counter outlets in existence at that time.
 
 **Mr Blake**: Absolutely.  Well, there aren't 20 in that table.
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, but those are the six-counter outlets that were identified, I believe.  So there weren't any dropped off the end.  They were the six-counter outlets in existence at that point in time.
 
 **Mr Blake**: Can we put that side by side with WITN04600302, please.  Thank you very much.  So that's the email you received from Mark Jones.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Blake**: Let's look at the left-hand side.  He is saying all the FADs here are six-counter outlets?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
 **Mr Blake**: Worlds End, where's Worlds End on the right-hand side?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I can't see it.
 
 **Mr Blake**: Shoreham-by-Sea?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, can't see it.
 
 **Mr Blake**: Cookstown?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Can't see it.
 
 **Mr Blake**: Halstead is there, in fact, on the right-hand side, so there is one that matches, although, on the left-hand side we have three SD02 codes but that has increased to seven on the right-hand side.  Staines?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I can't explain the discrepancy.
 
 **Mr Blake**: I mean, those previous six counter outlets that had been identified seem to largely have been excluded from this table, the ones that had low numbers for software errors?
 
+.. rst-class:: indented
+
 **Jan Holmes**: So it appears.
 
 **Mr Blake**: Do you know why those original figures were excluded from this table?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I've no idea.  I mean, this second table on the right was also provided to me.  So, you know, I'm just being fed information to try to put it together to form some kind of coherent response.  To be fair, I didn't notice the disparity between the two lists.  Well --
 
 **Mr Blake**: Is it possible that some were removed that didn't suit your case?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Not by me.
 
 **Mr Blake**: We can take down the left-hand side now.  Thank you very much.  In this table, the one that has been provided that doesn't provide those other counters with the lower figures, in that table we still see Cleveleys with the second highest figure for "S", software issues.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
 **Mr Blake**: Again, I don't want to repeat all the things that I've already said about the history, the logs that were available, the table that you originally received, your knowledge of things like blue screen freezes, blue screen system freezes.  Looking at this, software number 2, the second worst in terms of numbers.  Did this not give you pause for thought at this stage?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, because that wasn't what I was doing here. I wasn't, sort of, doing some kind of substantive test of the numbers and of errors. I was merely collating information to respond to the report.  So whether that's an oversight on my part, okay, but I wasn't there analysing the figures themselves to understand what was going on beneath them.  I was merely collating them to make a response.
 
 **Mr Blake**: Cleveleys seems to have distinguished between rollout and post-rollout, that's the difference between 1 and 2.  Was there the same analysis for those other branches or was it just Cleveleys that the two differences were identified?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, it looks just like Cleveleys.
 
 **Mr Blake**: Even if we take the second, the lower figure, because it doesn't include the Horizon rollout, the subpostmistress still had cause to call the Helpdesk 85 times in that period.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Mm-hm.
 
 **Mr Blake**: It's not beyond fantasy that Mrs Wolstenholme may have been experiencing software problems with Horizon, is it?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, no, those figures suggest that that was the case.
 
@@ -493,13 +651,19 @@ Then Mr Coyne's opinion was:
 
 It seems as though you agreed with Mr Coyne in that respect, at least at that stage.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, insofar as I said based on the analysis, either table, but without analysing each and every call record, you know, it's hard to dispute.  It is.
 
 **Mr Blake**: Because I think you're saying on the right-hand side that, even if you take out the 15 that are classified as advice and guidance and the 16 that are to do with the rollout, you still have 70 calls.  So Mrs Tagg's statement in that respect can't possibly be right in terms of them not being technical problems; is that right?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, well, I guess so.  I mean clearly there were some problems there that Mrs Wolstenholme was experiencing.
 
 **Mr Blake**: There is at least some truth in Mr Coyne's opinion in that respect?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, I believe that's the case, yeah.
 
@@ -509,9 +673,13 @@ It seems as though you agreed with Mr Coyne in that respect, at least at that st
 
 Again, it seems, at least in some respects there, you are agreeing with Mr Coyne?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, yes, he is right.  I mean, rebooting the system might be the instruction that's given to the postmaster and it does deal with the effect and not the cause.  So there should be further work undertaken to try to understand what the cause was, determine the root cause and find a way of removing it.
 
 **Mr Blake**: In this document, so in this initial response, one thing you don't go as far as to say is your admission that blue screens and freezes have always been a problem.  I don't think that's contained in this document, is it?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Possibly not, no.
 
@@ -521,25 +689,37 @@ Again, it seems, at least in some respects there, you are agreeing with Mr Coyne
 
 Was that the general view at Fujitsu?  Is that a view that was held by your colleagues: that because it hadn't been proved in the past, that in itself demonstrates that there isn't a problem?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, that's fair enough.  You could say that.
 
 **Mr Blake**: Can we please now look at WITN04600304.  We are now on 17 February 2004, and this is an email from Steve Parker.  Can you help us with who Steve Parker was?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I was looking at this myself the other day and -- can you just scroll down to what was presumably my request for help?
 
 **Mr Blake**: Absolutely.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Right, well, that's not very helpful, is it? Yeah.  So, obviously, I sent him the expert report and the call volume comparison.
 
 **Mr Blake**: If we scroll up --
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, you can --
 
 **Mr Blake**: -- the words in -- I'm slightly colourblind, I think I'd say purple --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Blue.
 
 **Mr Blake**: -- blue -- are from Steve Parker; is that right?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, that's correct, yeah.
 
@@ -559,6 +739,8 @@ I think he's stating that that is the argument that is put forward:
 
 Did you understand that to be "garbage in garbage out" principle?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.  Yes, I did, yeah.
 
 **Mr Blake**: Then it says systems are in place to resolve discrepancies, and then we have:
@@ -567,9 +749,13 @@ Did you understand that to be "garbage in garbage out" principle?
 
 I mean, that is nonsense, isn't it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I -- at the time, I thought that was rather glib and I don't think -- I don't think any of this was used in further correspondence between me and the Post Office.
 
 **Mr Blake**: I mean, it seems -- the impression that's given is that it's getting a little desperate to look for some sort of counterargument to what Mr Coyne is saying; would you accept that?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, I mean, if I can remember who Steve Parker was and what role he played, what position he had, I might be able to put this more into context as to why that reply came back looking like it did.  But I remember at the time, it wasn't -- I wasn't overly impressed with it and, you know, the comment at the end that, you know, it would exist on all Horizon sites 17,000, PMs are not complaining, I mean, that's -- well, I'm sorry, that's just silly.
 
@@ -579,15 +765,21 @@ I mean, that is nonsense, isn't it?
 
 Back foot: I mean, that sounds a bit like a competition, like you're getting out-manoeuvred.  Was that your concern at the time?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, out-manoeuvre is wrong.  I mean we had to go on the defensive and clearly HSH advice being to reboot nine times out of ten, on the face of it, looks unacceptable, so we have to understand why that is.  And the argument was used that the purpose of the HSH is to get the postmasters up and running as quickly as possible and not interfere and not interrupt their business cycle.
 
 So sometimes the easy answer was to say reboot and then you're up and running again. The question that was raised by Mr Coyne was what happened to that after they rebooted?  Did they do anything with it?  Well, yes, they did because the presence of KELs where these things have been further investigated, suggests that work was done after the event to try to better understand what was going on.  So it wasn't just the case of "Yeah, you've got a problem, reboot; next one, reboot; next one".  It wasn't quite that straightforward and simple.
 
 **Mr Blake**: That's not actually the question I'm asking you. I'm asking you about that first sentence and the way that it's worded.  You're saying you're on the back foot and then you're saying, "I'm having to bring :abbr:`POL (Post Office Limited)` imposed SLAs a form of justification".  Now, it might be suggested that having to bring in the SLAs, it means you didn't otherwise have a good answer to why the advice was to reboot nine out of ten times.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, well, that's a fair comment.
 
 **Mr Blake**: I mean, thinking back to your evidence earlier and about how you were professionally and coolly responding, only providing information, do you think by this stage you've lost a little bit of objectivity?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't think so.  I mean, you know, I'm trying to -- I say, justify.  I mean if the advice is being given by the HSH to do that, they must be doing it that for a reason, and one of those reasons is SLAs that are imposed by :abbr:`POL (Post Office Limited)` to get the postmasters up and running a bit more quickly.  Having us on the bit of a back foot is just a phrase, isn't it?  I mean, we're trying to find ways of -- or I'm trying to find ways of justifying the advice but not necessarily just limiting it to that advice.  You don't just do that and walk away.
 
@@ -597,6 +789,8 @@ So sometimes the easy answer was to say reboot and then you're up and running ag
 
 So your question about the SLAs, was the SLA about getting the outlet up and running or was it about actually resolving the problem?  We have there --
 
+.. rst-class:: indented
+
 **Jan Holmes**: (Unclear).
 
 **Mr Blake**: -- Mr Brunskill's response.  He says:
@@ -605,9 +799,13 @@ So your question about the SLAs, was the SLA about getting the outlet up and run
 
 So what he's saying there is that the SLA is not about fixing the problem.  It's about getting the branches up and running because it's about timing and speed of resolution.  Do you accept that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: It's to do with timing to get the branch up and running again.  The problem resolution is subject to other activities and other schedules.
 
 **Mr Blake**: What he's saying there is that you can't rely on the SLA about resolution because the SLA is about getting up and running again, essentially as quickly as possible.
+
+.. rst-class:: indented
 
 **Jan Holmes**: That's correct, yeah.
 
@@ -617,13 +815,19 @@ So what he's saying there is that the SLA is not about fixing the problem.  It's
 
 Proliferation, it's not a positive word. I mean, it's often used in the context of nuclear weapons, something you don't want to happen.  Is your reading here that he is not being overly positive about the use of reboots to fix problems?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I didn't read that into his words.  I just read it as a high number.
 
 **Mr Blake**: Do you read it now, looking at it, "proliferation of reboots"?  I mean --
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I don't.  I'm still just seeing as nine out of ten reboots being the solution from the Horizon System Helpdesk.  I didn't see anything deeper in it than that.
 
 **Mr Blake**: Can we look at WITN04600306.  This is another response, here from David Cooke.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
@@ -633,29 +837,43 @@ Proliferation, it's not a positive word. I mean, it's often used in the context 
 
 Am I to read into this that there is a suggestion that reboots could wipe EPOSS transactions or not?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, that's what the words say, and David and James were both very knowledgeable members of the -- technical members of the team.  So if -- this is Dave Cooke, isn't it?
 
 **Mr Blake**: Yes.
+
+.. rst-class:: indented
 
 **Jan Holmes**: So if Dave says any reboots that took place during the session would have wiped all EPOSS transactions, I would take that as a truth.
 
 **Mr Blake**: Is that potentially problematic?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I don't know because I don't know all the technical details that go behind the reboot and wiping old transactions and re-establishing transactions once they've been rebooted.  As I said in my first -- in November, I'm not a technical person.  So you're getting into levels of detail that I really can't answer.
 
 **Mr Blake**: Well, I mean, these are emails to you from people providing you with information in which to respond to an expert -- a technical expert's report.  At the time, did you feel you didn't have the technical expertise to respond to that expert report?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, because I did reply to it and --
 
 **Mr Blake**: Did you say to anybody "I just don't have the expertise to be able to address these matters"?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I can reflect what people tell me.
 
 **Mr Blake**: I mean, we're in the context of litigation here, court proceedings, quite a serious matter, where witness statements are being provided and an expert has been jointly instructed, a response is being provided to that expert in the context of court proceedings.  Do you feel you didn't have the expertise to be doing the job you were doing in that respect?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, I felt comfortable at the time but, now you're challenging it, I'm not so sure I was.
 
 **Mr Blake**: Can we look at FUJ00121512, please.  We're here now on 20 February 2004.  This is the response to Keith Baines from Colin Lenton-Smith, attaching the appendix which is the response.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
@@ -669,25 +887,37 @@ The first paragraph under "Horizon System Helpdesk", it says:
 
 Refreshing our memory from what Richard Brunskill said, I mean the essence of what he said was it's not really about the SLA.  Do you think there was too much focus, in light of that, on the right-hand side in the response on the SLA?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I'm not quite sure what you're getting at.  The SLA exists and has to be met in our relationship with the Post Office.
 
 **Mr Blake**: Your request to Richard Brunskill was about "I'm having to bring in the SLA in order to defend ourselves.  I effectively want to say that that's going to -- that that's also about getting the outlet back up and running fully", and Richards response to you is "It's not really about getting it up and running fully; it's about the speed at which we get up".  It's not about resolving the -- the SLA itself is not about resolving the underlying dispute, technical issue --
+
+.. rst-class:: indented
 
 **Jan Holmes**: Is that what you mean by "fully"?  So you fully -- if you fully resolve the call, you get them up and running and you solve the problem. In that case, no, the SLA isn't about fully doing that.  It's about getting the outlet back up and running.
 
 **Mr Blake**: Do you think it was still appropriate, after having received Mr Brunskill's email, to be focusing in your response on the SLA, which was about quick fix?
 
+.. rst-class:: indented
+
 **Jan Holmes**: In response to the statement of nine out of ten, I can't think of any other way of doing it.  You know, if the reboot advice is there and it's happening nine times out of ten or too many times to be acceptable to Mr Coyne, based on his knowledge and experience, we have to explain why that is operating like that, with that frequency of reboots, and the reason it was, was through the SLAs requiring that we get the post offices back up and running.
 
 **Mr Blake**: What Mr Brunskill is saying is that the underlying issue itself is not subject to the SLA.
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, it's not.  Because that will fall into a different sort of line of activity, which was -- I suppose putting all these problems into a bucket, looking at PinICLs and PEAKs, and then aligning them with releases where the work is done to fix the problem, or putting a workaround in place through a KEL.
 
 **Mr Blake**: The final sentence of Mr Brunskill's first paragraph, where he says "Hence the proliferation of reboots to solve known problems and get things going", does that in any way feature in the response?
 
+.. rst-class:: indented
+
 **Jan Holmes**: What in the response on the right?
 
 **Mr Blake**: Yes.  So the kind of -- you know, his mention of proliferation of reboots, the mention of known problems.  Does the words "known problems" even appear on the right-hand side?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, because on the right-hand side we're saying why we do the reboots:
 
@@ -699,9 +929,13 @@ Sorry:
 
 **Mr Blake**: If you had mentioned in that response that people were being told to reboot to solve known problems, to get things going, do you think that that would have undermined your case?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, because the desire to reboot to get the business up and running still exists, whether it's a known fault or an unknown fault -- new fault.
 
 **Mr Blake**: Is there a reference to known faults on the right-hand side?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't know.  I don't think so.
 
@@ -711,53 +945,79 @@ Sorry:
 
 Now, that's quite a carefully worded sentence.  You are there referring only, it seems, to the outlets in the above table; is that right?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.  Yes.
 
 **Mr Blake**: Yes, because, of course, Fujitsu couldn't have said that they are not aware of similar complaints or claims being made by outlets in the general, could they?  You --
+
+.. rst-class:: indented
 
 **Jan Holmes**: (Unclear).
 
 **Mr Blake**: You couldn't have broadened it to outlets because that wouldn't have been true, because there were similar complaints or claims being made from other outlets; is that right?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Presumably, yes.
 
 **Mr Blake**: Do you remember wording this quite carefully in that regard?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, because I don't think I worded that sentence.  This is a letter from Colin Lenton-Smith, isn't it?
 
 **Mr Blake**: The letter is sent by Colin Lenton-Smith, it includes what is called a response to expert's opinion.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Blake**: Most of the words have appeared in your initial thoughts document, not all, and we'll come to "not all".  But is it your evidence that, in fact, this paragraph was inserted by somebody else?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I honestly can't remember.  I just don't know. I know that Colin may well have tweaked some of the content before he sent it off, because it was going off in his name.  Whether he put that sentence in or not, I don't know.  Whether I put that sentence in, I can't remember.
 
 **Mr Blake**: Does it sound like your kind of writing?  Does it sound like something that you would have said?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I can't comment on that.  I don't know.
 
 **Mr Blake**: If we zoom out on this page, are you able to assist us with where on this response the acceptance of Mr Coyne's criticism of Elaine Tagg's statement features?  I mean, we read that in your initial draft.  Where is that now?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't know.  It's not there.
 
 **Mr Blake**: Did you remove it?  Did somebody else remove it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I can't remember and I don't know.
 
 **Mr Blake**: I mean, you'll remember when we looked at it, it was something that you felt that Mr Coyne was right on.  Do you remember removing comments that were positive in favour of Mr Coyne?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, no, I don't think -- no.  I wouldn't have done that.
 
 **Mr Blake**: Well, who would have?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I've no idea.  I mean, this is 24 years ago.
 
 **Mr Blake**: Well, you said --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Or --
 
 **Mr Blake**: -- you're sure that you wouldn't have removed it but, equally, you have no recollection because it was 24 years ago.
+
+.. rst-class:: indented
 
 **Jan Holmes**: I mean, I'm not sure whether I would have removed it or not.  I can't remember if I did.
 
@@ -767,25 +1027,37 @@ Now, that's quite a carefully worded sentence.  You are there referring only, it
 
 The criticism there is that it's a simple analysis.  Do you think that Mr Coyne had been provided with enough information at that stage to provide more of an analysis than he did?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I don't know.  You'd have to ask the Post Office that because they provided him with whatever information they did.
 
 **Mr Blake**: Well, he didn't have transaction data, we know that much, don't we, because that had been destroyed?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Destroyed.
 
 **Mr Blake**: The Helpdesk original records had also, it's your evidence, been destroyed, but another version had been found.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Indeed, yeah, yeah.
 
 **Mr Blake**: But that's all that you recall having been provided by Fujitsu in respect of this case?
+
+.. rst-class:: indented
 
 **Jan Holmes**: To :abbr:`POL (Post Office Limited)`, yeah.
 
 **Mr Blake**: Well, to :abbr:`POL (Post Office Limited)`, sorry.  Yes.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, and because we had no direct contact with Jason Coyne, everything went through :abbr:`POL (Post Office Limited)` because it was their relationship.
 
 **Mr Blake**: We see in later documents reference to inviting Mr Coyne to attend Fujitsu but, at this stage, are you aware of any invitation having been made to Mr Coyne to attend Fujitsu or to obtain further documentation?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No.  Not at this first cycle.
 
@@ -795,25 +1067,37 @@ The criticism there is that it's a simple analysis.  Do you think that Mr Coyne 
 
 Mr Coyne was a joint expert.  The parties had agreed to rely on a joint expert.  Your criticism is that he presents from a single perspective.  How many experts would have been enough.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Sorry, I don't understand what you're getting at there.  Um --
 
 **Mr Blake**: Presented from -- what did you mean by "presented from a single perspective"?  Do you mean he's only one man?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, no, no, no, no.  He had a view and he put it forward.  We didn't always agree with it.
 
 **Mr Blake**: Well, "simple analysis", "single perspective". He was a jointly appointed expert selected by agreement between the Post Office and the defendant in that case --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Blake**: -- liaising with the Post Office's own solicitors.  Do you think that that's a fair criticism?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I think it's just a statement.  It's not a criticism, as such.  It's just, you know, it's a statement that that was how we felt at the time about his report and we put together what we felt was a fairly well-presented rebuttal and, as we'll see consequently, he just said it didn't make any difference --
 
 **Mr Blake**: As --
 
+.. rst-class:: indented
+
 **Jan Holmes**: -- to his opinion.
 
 **Mr Blake**: -- at 20 February 2004, is your evidence that you were still maintaining your professional, calm approach to this case?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes.
 
@@ -849,21 +1133,31 @@ We went through this morning your history of the EPOSS problems, 1998, 1999, 200
 
 Was now, 2 March 2004, not the time to say "Enough is enough, we give in, put up the white flag"?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Sorry, is that a question?
 
 **Mr Blake**: Yes.  It started with the word "would".
+
+.. rst-class:: indented
 
 **Jan Holmes**: Possibly, yes, but at the time we decided we'd have one more pass around to see if we could provide any kind of extra assistance that might help him to change his mind.  Things like, you know, because we couldn't provide crashdumps on failure, of the period in question, we could invite him to Stevenage to see how they actually worked and operated.  But, I mean, he'd obviously decided he'd turned his face against the offer.  It wasn't just a walk around, as suggested, we were prepared to give him access to systems so he could do further testing and digging around that he wanted to do.  So it wasn't just a PR stunt to try to soften him up; it was a serious attempt to offer him access to parts of the system that normally we wouldn't provide access to.
 
 **Mr Blake**: Did you do your own vanes at that time of the Known Error Logs, the PEAKs, the PinICLs, looking at the time when Mrs Wolstenholme was experiencing her problems, investigating other branches to see if they were experiencing similar problems --
 
+.. rst-class:: indented
+
 **Jan Holmes**: No.
 
 **Mr Blake**: -- looking at the kinds of KELs that we looked at this morning?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No.
 
 **Mr Blake**: Can we look at FUJ00121549.  This is a day after that reply was received.  This is from you to Colin Lenton-Smith attaching your initial thoughts on Jason Coyne's reply.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Mm-hm.
 
@@ -873,19 +1167,27 @@ Was now, 2 March 2004, not the time to say "Enough is enough, we give in, put up
 
 Did you really feel at that stage, so far down the line, having everything in mind that I've just been mentioning, did you really think that it was proper to be trying to influence the independent, jointly appointed expert's opinion at that late stage?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, "influence" is a word.  I mean, can we just put something into context here?  At the beginning of Horizon going in, this provision of litigation support, prosecution support that we were obliged to do, was absolutely in its infancy and each case was unique, insofar as, if it wasn't just providing them with audit data, if it was other pieces of information, work or whatever that they wanted, it was new every time.
 
 So we were learning all the time how to go through this process with the Post Office.  This was the first time, to my knowledge, that we had to interact, through the Post Office, with an expert witness so when I say "influence" I don't mean "Come on, Jason, change your mind", it was more about giving him access to the things that might help him change his mind or change his opinion.
 
 **Mr Blake**: Were you, by this stage, quite frustrated with the situation?
 
+.. rst-class:: indented
+
 **Jan Holmes**: This was disappointing.  The response was disappointing.  Essentially, we put quite a lot of work into preparing our response to his report and it was pretty much dismissed as having no effect on his opinion.  So yes, "disappointing" is a word, not frustrated, but disappointing, and we wanted to try to find -- see if there was a way we could -- "influence" is probably not the right word, you know, offer him further evidence that might help him change his opinion.  That was all.
 
 **Mr Blake**: Is "disappointing" as high as you would put it? Were you still cool and professional?
 
+.. rst-class:: indented
+
 **Jan Holmes**: (The witness laughed).  Yes, yes.  We were.
 
 **Mr Blake**: Can we look at FUJ00121557, please.  I'll let you have a moment with this particular email, Mr Holmes?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, that's fine.
 
@@ -895,25 +1197,37 @@ So we were learning all the time how to go through this process with the Post Of
 
 Still --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, it's like the other email --
 
 **Mr Blake**: -- professional?
+
+.. rst-class:: indented
 
 **Jan Holmes**: It's like the other email where I said I don't want to piss the expert off.  I mean, yeah, disappointing, frustrating but, you know, it's just business, isn't it?
 
 **Mr Blake**: Is it?  I mean, calling somebody a "git", I mean the impression that is given here is that you're taking it a little too personally.  Do you disagree with that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I do.  It's an internal email.
 
 **Mr Blake**: You originally agreed with some of the comments in Mr Coyne's report.  We took you to those earlier.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, that's --
 
 **Mr Blake**: Do you think taking this approach so far down the line, March 2004, was appropriate?
 
+.. rst-class:: indented
+
 **Jan Holmes**: What, you mean going back for another -- giving him the opportunity to come and visit locations and speak to people and dig into systems?
 
 **Mr Blake**: No, I mean calling an independently, jointly appointed expert in court proceedings, who has produced a report and a further report, some of which you in fact agreed with, calling him a "git"?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I've got nothing more to say to that.
 
@@ -927,33 +1241,49 @@ Final sentence there:
 
 There's again reference to "back foot".  Did you still continue to see it as some sort of combat between yourselves and Mrs Wolstenholme?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, because, as I've explained before, we weren't involved directly with Mrs Wolstenholme. We were involved with Post Office Limited, :abbr:`POL (Post Office Limited)`, okay?  So the arrangement between POL and Mrs Wolstenholme, and through Jason Coyne, was their relationship.  We were just trying to help POL solve their problem.
 
 **Mr Blake**: Who were you on the back foot against?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, yeah, because whether or not :abbr:`POL (Post Office Limited)` managed the expert, they did very little to refute or challenge the report.  They just passed it all on to us to do.  So if there was an issue of reputation on the system, brought through by Jason Coyne's report or his opinion, POL did very little to dispute or challenge it and it was all down to us.  And if the system came under challenge through that, then obviously Post Office Account were potentially at risk of a reputational impact and we are on the back foot.  There is nothing we can do about it.
 
 **Mr Blake**: Did you see this case as an important case in which to defend your reputation as a company?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, obviously, anything is -- you know, anything to do with the reputation is an important one to defend but, as I said a couple of minutes earlier, these were early days, this was a learning curve, this was the first time thorough for this kind of work.  We used to provide audit data, that's fairly straightforward, you know, take the request, provide a CD and a witness statement as to how it was stored and retrieved, et cetera.  But this, where it's a bespoke, I suppose, piece of work, we're learning as we are going.
 
 **Mr Blake**: As time went on, of course, Fujitsu got more involved in cases and provided witness statements in respect of quite a number of cases.  Were you involved in that?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, no.  This essentially, I think, was my last sort of stab at this, because from about 2005 onwards, I started migrating to different aspects of work away from litigation support. And if you go back to the very original email from Pete Sewell to me, the original request was sent into security and he asked if I could take it up, you know, take up the work because, presumably, they were busy.  I don't know.  So I did.
 
 **Mr Blake**: So if this was all a bit difficult for you and for your department, because you weren't used to this kind of thing, do you think it was then --
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, that's --
 
 **Mr Blake**: -- appropriate --
+
+.. rst-class:: indented
 
 **Jan Holmes**: That's not what I said.  I didn't say it was difficult.  I just said it was novel and new.
 
 **Mr Blake**: Do you think that Fujitsu and people within Fujitsu were sufficiently qualified to continue to be involved in court proceedings after this?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, interesting one.  I mean, this started off as being -- asking for help to refute a report from an expert witness.  Yes, and I felt that we were able to do that, and we made our attempt and failed.
 
 **Mr Blake**: If we scroll down on this page, there's the draft email to Jim Cruise that was written by yourself.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
@@ -965,13 +1295,19 @@ There's again reference to "back foot".  Did you still continue to see it as som
 
 Do you regret calling Mr Coyne's conclusions "partial"?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, that was my opinion at the time.
 
 **Mr Blake**: I think you saw some of Mr Coyne's evidence yesterday.  Looking back, do you still continue to view him as partial?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, well, you're applying hindsight now.  This was written in 2004.  That was my view at the time.  Whether my view has changed now, based on what I saw yesterday or the situation as it's gone on, is -- it's what it is now.  But that's what it was then.
 
 **Mr Blake**: What is it now?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't know.  Maybe we got it wrong.
 
@@ -987,13 +1323,19 @@ I wouldn't bring it up but, for the transcript, it's POL00022840.
 
 Considering that, considering the evidence that you saw yesterday -- or the day before yesterday, in fact, of Mr Coyne, do you regret the kinds of allegations that are made in these emails to the Post Office, or in your internal emails, the words used, "git", for example, looking back now on what you have heard and what you heard in Phase 2 of this Inquiry?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, yeah, some of those comments may have been misplaced and inappropriate.  But, as I said, that was the situation in 2004.  We're now in 2023 with different information available.  So, you know, your opinion can change.
 
 **Mr Blake**: But, of course, you did agree with some of his original opinion, and you --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes --
 
 **Mr Blake**: -- had background from your earlier involvement in the EPOSS matters in those various issues that were going on within Fujitsu?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, that's correct.
 
@@ -1003,11 +1345,15 @@ Considering that, considering the evidence that you saw yesterday -- or the day 
 
 The reason I'm taking this to you now is there is reference to you being involved in analysing the transcripts in April from Shobnall Road.  So this is around the same time as those emails I've taken you to, where you are accusing Mr Coyne of being partial.  You were, it seems, reading the transcripts in the Shobnall Road case.  Do you remember doing that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I don't.  I don't.
 
 **Mr Blake**: Well, I can take you to the analysis of the transcripts.  I think it's FUJ00121725.
 
 Is this the analysis that you were doing in April 2004 in the Shobnall Road case?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, it looks like it but I don't remember it.
 
@@ -1031,6 +1377,8 @@ This was your analysis in April 2004.  At the risk of repeating myself, is now n
 
 I mean, we have there a subpostmaster experiencing issues with transactions, they are referred to by Fujitsu as "phantom transactions".  We've seen the earlier Known Error Log from years before that referring to phantom transactions.  You were no doubt aware of the description of phantom transactions.  Is April 2004 the time to say, "Maybe we should agree with what Mr Coyne has to say"?
 
+.. rst-class:: indented
+
 **Jan Holmes**: With hindsight, possibly, yes.  But we still -- I still felt it was worth having another go. Post Office didn't.  They didn't offer the response to Mr Coyne, so that was the end of it.
 
 **Mr Blake**: Can we turn to FUJ00121637, please.  We're now moving to June 2004, 7 June.  It's an email from yourself to Colin Lenton-Smith.  I'm going to read to you a few extracts:
@@ -1045,21 +1393,31 @@ The next paragraph, the final sentence:
 
 By 7 June 2004, do you think that you, by that stage, had lost all objectivity in respect of this matter?
 
+.. rst-class:: indented
+
 **Jan Holmes**: What makes you say that?
 
 **Mr Blake**: Well, for example, the history of EPOSS; error logs that we saw; the table that was sent to you; Richard Brunskill's comments; your agreement --
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I know all that but what makes you say had I lost all objectivity?
 
 **Mr Blake**: Looking at the final paragraph, you are still trying to further repudiate the expert's original report and that is a report that, in some respects at least, you originally agreed with.  Why are you persisting in June 2004 to try to fight this matter?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I'm not.  This is an internal mail to Colin saying it's now too late for them, :abbr:`POL (Post Office Limited)`, to enter a witness statement that might further repudiate the expert's original report, if they chose to do it.  But if they didn't, and they didn't, then it's a different end game, isn't it?
 
 **Mr Blake**: The impression given by that email though is that you're quite frustrated that you're not going to be able to defend yourselves?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, that's not so.  That's your interpretation. That's not what was meant by that.
 
 **Mr Blake**: I'm giving you an opportunity to say whatever you like on that.  What's your interpretation of this email?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Just that if they wanted to further repudiate, which they decided not to, then it's getting very late, the trial date has been set, for them to answer a witness statement that might further repudiate the expert's original report.  That's all.
 
@@ -1069,19 +1427,27 @@ By 7 June 2004, do you think that you, by that stage, had lost all objectivity i
 
 Masons being Fujitsu's lawyers, is it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, that's correct.
 
 **Mr Blake**: Why were you wondering whether you needed to involve your own lawyers at that stage?
 
+.. rst-class:: indented
+
 **Jan Holmes**: It was -- well, simply because it was getting up to a court situation and it was a question that I was asking Colin as the Commercial Manager, do we need to involve Masons at this stage? Nothing more or less than that.
 
 **Mr Blake**: Can we look at WITN04600309, please.  Is this your note?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, this is my daybook.
 
 **Mr Blake**: Can you assist us with the date in the top left-hand corner?  Is this the same date, is this 7 June 2004?  The middle number could be a 5 could be a 6.  Perhaps we could zoom in on that if possible.
 
 I think that's a 6.  Is that 7 June, the same date?
+
+.. rst-class:: indented
 
 **Jan Holmes**: It looks like a 6, yeah.
 
@@ -1099,9 +1465,13 @@ I think that's a 6.  Is that 7 June, the same date?
 
 What do you mean here in brackets, that the content is accurate but "opinion is crap"?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, that's a contemporaneous record of the conversation I had with Mandy Talbot on the phone, so it must have come out of that conversation.
 
 **Mr Blake**: Do you think those were her words or your words?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I can't remember.
 
@@ -1111,19 +1481,27 @@ What do you mean here in brackets, that the content is accurate but "opinion is 
 
 At this stage, July 2004, was there something of a blame game going on in relation to this case?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, no, it's just that, in that conversation with Keith, obviously, you know, he said Dave Smith and we saw that slide that Dave Smith produced in the session this morning, with Jason Coyne, who showed him the slide that Dave Smith had produced.  Again, I don't know who "we", is, I don't know if it's "we" POA or "we" :abbr:`POL (Post Office Limited)` and POA have conceded what we should not have done, and I'm not sure what we did concede, and now POL are in a difficult position.  So, you know, so my concern there was well, is he now trying to park the blame on us or is he sort of saying that, you know, we've got to find a way of managing this?
 
 And my comment about "given our late involvement", bear in mind that we didn't get involved in this until -- was it February 2004? And the issues were all happening in 2000/2001. You know, I just wanted to be certain that he wasn't going to try and push this all onto us and say we've done a bad job because I didn't think we did.
 
 **Mr Blake**: Was there pressure in that respect?  Did you feel pressure coming from :abbr:`POL (Post Office Limited)` that you may not -- that you may be blamed in this case?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, no, I mean, the words there are the words that came from that conversation with Keith.  My feeling, my understanding, my belief and my concern but seeing as I didn't know who "we" were, was it POA, was it POA and :abbr:`POL (Post Office Limited)`, or was it POL -- yeah.  So, you know, I was just concerned that we were -- he was going to try and say it's all our fault.
 
 **Mr Blake**: Moving to August 2004, can we look at WITN04600310, please.  Is this also a note that you made?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, it was a case conference call that was held in August and I just making handwritten notes of the progress of the meeting.
 
 **Mr Blake**: Now "SL" is :abbr:`POL (Post Office Limited)`'s counsel.  So when there are references to "SL", it seems that is to Stephan Lewinski?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Again, incorrectly spelt, so I apologise for that but yes.
 
@@ -1133,6 +1511,8 @@ And my comment about "given our late involvement", bear in mind that we didn't g
 
 Was it your understanding that counsel's advice was that, if it went to court, the court was likely to find that the computer had let the subpostmistress down?
 
+.. rst-class:: indented
+
 **Jan Holmes**: That's what you can read into that.  That was his opinion.
 
 **Mr Blake**: Can we look page 3, please.  We have halfway down that page another opinion from the Post Office's counsel.  It's recorded as saying:
@@ -1141,29 +1521,43 @@ Was it your understanding that counsel's advice was that, if it went to court, t
 
 So the focus seems to be not on the fact that there were no errors but now it's turning to the Helpdesk and assistance that was provided to Mrs Wolstenholme.  Do you recall that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, that's what that looks like.
 
 **Mr Blake**: At this meeting, did you feel able to talk freely?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, I mean, there's a couple of entries with my initials against it.
 
 **Mr Blake**: Yes.  I mean, if we look at the first page, it's a discussion that involves yourself, :abbr:`POL (Post Office Limited)` commercial, POL Legal, Weightman Vizards, Masons -- so that's your own solicitors, is it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, yeah.
 
 **Mr Blake**: :abbr:`POL (Post Office Limited)` Commercial -- sorry, POL counsel there.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, so, I mean, essentially, it was a :abbr:`POL (Post Office Limited)` case conference call and I was there, I think, probably because of my involvement in it up to that point.
 
 **Mr Blake**: If you disagreed with something would you have felt free to say so?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, but I would have been out of my depth talking to, you know, the legal guys.
 
 **Mr Blake**: If we look at page 4, it says, I think it's "Status of 2nd report".  That's the second report that you had written?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Blake**: "Not forwarded to Mr Coyne."
+
+.. rst-class:: indented
 
 **Jan Holmes**: Correct.
 
@@ -1171,21 +1565,31 @@ So the focus seems to be not on the fact that there were no errors but now it's 
 
 Now, that second report was the one that offered, I think, for Mr Coyne to attend Fujitsu?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, that's correct.
 
 **Mr Blake**: Do you recall why it wasn't forwarded to Mr Coyne?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, no.  I'm not sure I found out about it until really quite late after the event.  But it wasn't forwarded to Coyne.  I don't know why. :abbr:`POL (Post Office Limited)` must have had a view that it wouldn't have made any difference, so they ain't gonna do it.
 
 **Mr Blake**: This was August 2004, where you were part of the meeting with the Post Office and the legal team. Was that a decision that you were part of?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Sorry, what decision: not to forward the report?
 
 **Mr Blake**: Yes.  Certainly it reads as though you were part of the decision-making process in that respect?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, that's how you're reading it but I wasn't part of that decision-making process.  That was a :abbr:`POL (Post Office Limited)` decision on their own.
 
 **Mr Blake**: Did you respond, when you were told that it wasn't forwarded to Mr Coyne?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, no, we were just disappointed.
 
@@ -1194,6 +1598,8 @@ Now, that second report was the one that offered, I think, for Mr Coyne to atten
 "[Keith Baines] and I need to get our act together."
 
 What did you mean by that?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I think there was some outstanding documents that we needed to get sorted out and it was just -- it's just a phrase, isn't it? "We need to get our act together".  Keith agreed.  And there's an email following it, where there's a list of items that I said I would be producing, which I did, and I think Keith had a similar list.
 
@@ -1205,25 +1611,37 @@ What did you mean by that?
 
 In that meeting that you had with counsel, the advice from counsel was that, if you get into a dispute, it is likely to be found that the system let Mrs Wolstenholme down.  Also, advice from counsel was that you cannot say that there were no glitches.  Did you still think that the issue of poor systems and inadequate levels of support argument was just a silly argument that it was being rolled out?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I was just advising Bill that I think we could see that one again.
 
 **Mr Blake**: Did you, at that stage, think that there might be something in that argument?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I can't say that I did, to be honest.  I don't think I put too much into it.
 
 **Mr Blake**: I mean, the expression "rolled out" suggests that -- I mean, it's a line that's rolled out time and time again but not something with substance in it.  Is that a fair analysis of what is said earlier or is that unfair?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, again, I think that's your interpretation. All I'm saying is that it's quite possible that the issue of poor systems and inadequate levels of support could well be rolled out in future cases --
 
 **Mr Blake**: Did you a view --
+
+.. rst-class:: indented
 
 **Jan Holmes**: -- because it's --
 
 **Mr Blake**: -- as to those who were rolling it out in cases?
 
+.. rst-class:: indented
+
 **Jan Holmes**: When you say "did I have a view", do you mean did I have an opinion of the postmasters?
 
 **Mr Blake**: Absolutely.  Did you have an opinion as to the type of person who rolled out that argument?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, not at all.  It's just an obvious thing to do.  If a case has been won using that argument, then future cases could well use the same argument in order to try and secure a victory.
 
@@ -1233,33 +1651,49 @@ In that meeting that you had with counsel, the advice from counsel was that, if 
 
 Do you think, looking at that now, that that was an appropriate stance to have taken?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, the words may be unfortunate but no, I think it's to be expected, isn't it?
 
 **Mr Blake**: Reference to a "gaggle of postmasters", I mean, do you regret what appears to be effectively a demonisation of subpostmasters in this regard?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I think "demonisation" is a bit of a strong word.  I could have said, you know, a "collection of postmasters", a "gaggle of postmasters", I don't know what the collective term is for them but she apparently was going to circulate through a number of postmasters the outcome of the court case and it was, you know, I guess inevitably that the -- they would use it to their benefit.
 
 **Mr Blake**: What could possibly be wrong with subpostmasters using success in a court case to their benefit?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Nothing.
 
 **Mr Blake**: So why the critical words and why such an attempt to prevent that from happening?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Sorry, where was I attempting to stop that happening?
 
 **Mr Blake**: Well, the continued effort to defend and respond to Mr Coyne's independent report over months may be said to be a continued effort to try to prevent a negative outcome that could be shared with a "gaggle of postmasters".  Do you agree with that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, I don't.  No, I mean, the two things are separates.  I mean, in trying -- in refuting or in arguing against the -- Jason Coyne's report, that was one part of our support to the Post Office.  That's been and gone to now.  This is after the event.
 
 **Mr Blake**: Do you not think that that reference there shows concern on your part that Mrs Wolstenholme would share what was a successful court case on her part with other subpostmasters and that that would cause you some sort of problem in the future?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't think so.  I mean, it just says what it says.  Even if a gagging order is placed -- because don't forget, as far as I was aware, I was talking to Mandy Talbot, she said that she would want to get a gagging order.  So I'm saying I don't know what the outcome was but even if it was in place, it's highly unlikely that it would stop her or stop others trying to find out what the outcome was and how that was achieved.
 
 **Mr Blake**: "Even if a gagging order is placed on the woman", do you not think that the words used were derogatory at that time, showed a sense of frustration?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, no.
 
 **Mr Blake**: Is there anything that you would like to raise with the chair before I finish?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, no.  I did mention earlier about the fact that this was a -- this was a unique situation that we found ourselves in, that I found myself in and we were having to learn how to do this and to pick up how to do this as we went along. It was the first time I'd been involved with an expert witness as such.
 
@@ -1269,13 +1703,19 @@ You know, as I said at the start, it's a job.  We had a job of work to do and we
 
 **Sir Wyn Williams**: Did you ever discover why Post Office decided against making the offer that you thought that they should?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, no sir, I didn't.
 
 **Sir Wyn Williams**: All right, thank you.
 
+.. rst-class:: indented
+
 **Jan Holmes**: At one level, it didn't seem important.  They chose not to do it.  It was their report.  It was their work.  If they don't want to do anything with it, then it's up to them, it's not up to us.
 
 **Sir Wyn Williams**: No, I follow that.  I just wondered whether, because it was a specific suggestion that had been made, no doubt made by you but having no doubt considered it with others, whether you would have liked to have known the reason why they didn't do it.  But there we are.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, perhaps natural curiosity didn't get the better of me that time.
 
@@ -1286,6 +1726,8 @@ You know, as I said at the start, it's a job.  We had a job of work to do and we
 **Sir Wyn Williams**: No, they can fire away.
 
 **Mr Blake**: Thank you very much.
+
+.. rst-class:: indented
 
 **Jan Holmes**: That's a bit of an unfortunate phrase!
 
@@ -1306,25 +1748,37 @@ Then:
 
 Now, this is a draft response that you sent to Mr Lenton-Smith in February 2004, in relation to a letter that he'd received from Mr Baines. Do you recall that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, yes, I do.
 
 **Mr Jacobs**: Mr --
+
+.. rst-class:: indented
 
 **Jan Holmes**: Sorry, I'm looking to the side.  I'm looking at my laptop to find some documents, which I think, or a daybook scan, where that concern was raised in a conversation.
 
 **Mr Jacobs**: Well, I'm going to ask you about that a bit later.  Mr Blake put the same point to you from another document and you said that that was your understanding at the time; is that right?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Jacobs**: If we could now go to your witness statement, at paragraph 10 and your statement is `WITN04600200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn04600200-jan-holmes-second-witness-statement>`_.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Is this my third or second witness statement?
 
 **Mr Jacobs**: I think it's your second witness statement. It's your second witness statement, yes.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Right.  Let me just get there.  Yeah.
 
 **Mr Jacobs**: Paragraph 10, please, which is -- I've got page 76 but I think it's page 4 of 10?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, that's correct, I've got it.
 
@@ -1334,13 +1788,19 @@ Now, this is a draft response that you sent to Mr Lenton-Smith in February 2004,
 
 Now, what I want to ask you is what did Jim Cruise and Mandy Talbot verbally express about precedent?  You haven't said what it was that they said.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, that would have been in phone conversations.  I'm just looking at -- just bear with me a minute.  Well, you've seen the day book scan from the phone call with Mandy Talbot in June.  No, I mean these concerns would have been expressed in phone conversations and also in Keith Baines's letter.  Obviously I've got a record of Mandy Talbot's phone conversation but not Jim's, where that concern was expressed. So in a -- my recordkeeping is not as good as it usually is.
 
 **Mr Jacobs**: Well, of course, this was a long time ago but you say in your statement that they both verbally expressed concerns and I really wanted to ask you whether you remember what it was that they said, what specific concerns they expressed about precedent.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, no, I suspect what I'm talking about there is the fact that if the -- if the report -- well, which it did, of course -- if the report resulted in a positive outcome for the postmaster, then I think they were concerned that this issue of poor systems and poor support would be, as I've said in another email, rolled out time and again by postmasters who were suffering the same sort of issue.
 
 **Mr Jacobs**: You see, our clients' take on this evidence, and I suggest that this must be right, is that Post Office didn't want subpostmasters to use this material in court because it might lead to them being acquitted.  That's really what this is about, isn't it?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I think that's what I've just said but you've probably put it much better than I can.
 
@@ -1348,9 +1808,13 @@ Now, what I want to ask you is what did Jim Cruise and Mandy Talbot verbally exp
 
 So our clients also say, and I wanted your comment on this, that really what the Post Office were doing was they were, in 2004, trying to cover up evidence of defects in the Horizon System.  Do you accept that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I can't really answer to that one.  I don't --
 
 **Mr Jacobs**: Well --
+
+.. rst-class:: indented
 
 **Jan Holmes**: I don't know what their motive -- motivation was to handling the case.  I just know what we did to try to assist them in what they were asking us to do.
 
@@ -1365,21 +1829,31 @@ Questions by Mr Moloney
 
 **Mr Moloney**: I've just two things to ask you about, please, Mr Holmes.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Moloney**: Firstly, when you prepared your response to Mr Coyne's report or indeed your response to his reply, did you check PinICLs or KELs relating to Cleveleys?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No.
 
 **Mr Moloney**: You're sure about that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.  I mean, I didn't get down to the technical level of looking at individual PinICLs, PEAKs or KELs.
 
 **Mr Moloney**: Right.
 
+.. rst-class:: indented
+
 **Jan Holmes**: The discussion was a slightly higher level of just, you know, the principle of whatever it was -- I can't remember now, so far back.
 
 **Mr Moloney**: Could we, just to clarify that, just have a look at WITN04600206.  This is the first page.  This is "Fujitsu Services Post Office Account Response to the Expert's Reply to Fujitsu Services Submission"?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, so this is our second report.
 
@@ -1389,13 +1863,19 @@ Questions by Mr Moloney
 
 So does that in any way affect your answer that you didn't look at PEAKs or KELs in relation to Cleveleys or PinICLs?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, what I suspect may have happened there and I can only surmise that that was the case, is that I may well have had conversations with interested parties about the response that he'd made and the question of HSH not interested in getting to the bottom of the continual occurrence was probably challenged by somebody, one somebody I was talking to, and saying "Well, no, that's not true because we have KELs", which means that we do look at the problem to try to come up with a quick solution for future use, pending an update or a reissue of software at a later release date.
 
 **Mr Moloney**: The second issue concerns that, as it were, getting to the bottom of things and root cause analysis.  Could we look at --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Moloney**: -- document POL00089802.  This, as you can see, is an "Audit of Customer Service Support Processes", and we can see that the originator is yourself, Mr Holmes?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yes, yes.
 
@@ -1419,17 +1899,25 @@ Then, at page 7 of the document, we see 4.1.2, "Problem Root Cause Analysis":
 
 So by November 2001, around the time of or just after, even, the Cleveleys relevant event, there was sufficient concern to note that there'd been no evidence of any RCAs completed for any problems addressed so far.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, yes, that's what's in the report, so that must have been what was found.
 
 **Mr Moloney**: You're the originator of this report, Mr Holmes?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, yeah.
 
 **Mr Moloney**: Was this not consistent with the analysis of Mr Coyne?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, yes, I suppose it is.  I mean, yeah.
 
 **Mr Moloney**: Was that reflected in your response to the report of Mr Coyne?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I -- well, you can show me the response but I guess what you're saying is that, although we'd found this in an audit in 2001, it wasn't reflected back in our response to him. I suppose, in my defence, there is an awful lot going on in different streams.  So, yes, this would have been found at the time of the audit but it doesn't stick in the forefront of my mind when I'm looking at other things going on.  Now, that may sound like a poor excuse, I know, but that's the way it is.
 
@@ -1443,17 +1931,25 @@ Then we see into "Transaction Handling on Reboot".
 
 That's a fairly generic statement about the purpose of HSH, isn't it, Mr Holmes?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, it is, yeah.
 
 **Mr Moloney**: Did you take any steps to investigate whether there'd been any root cause analysis in respect of problems at Cleveleys?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No.
 
 **Mr Moloney**: Why not?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Because that wasn't really the objective of what I was trying to do with this response.
 
 **Mr Moloney**: Did you have skin in the game here, as you said, Mr Holmes?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, I'd been asked to do something and I was doing it to, at that time, the best of -- what I felt was the best of my ability.  Of course, 21 years later, it's very easy to criticise and come back and say "Well, you didn't do that very well, did you?"  And the answer is, no, I didn't, I can see that and I could have done more but, at that time, I felt that was what was required.
 
@@ -1466,29 +1962,43 @@ Questioned by Mr Henry
 
 Mr Holmes, could I just ask you, and it's in relation to a question that you have been asked by my learned friend just now, could I ask you to go to FUJ00075674, please.  Can you see that clearly, Mr Holmes?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, I can now.  Yeah.
 
 **Mr Henry**: You can.  What does it say?  It's a PEAK incident management system.  So what does that mean?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, PEAK was the system where all incidents were logged.
 
 **Mr Henry**: You were, you say, not involved at that level?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I was on this one because this was an issue that affected our ability to produce audit data request -- request sort of thingy-bob -- what's the word -- SQL type query statements because there was no Attribute Grammar catalogue available for the TMS journal.  So we weren't able to look at a request coming in from outside and say "Well, in order to satisfy that we need to get this piece of information, this piece of information, that piece of information, and stick it together as a query type statement". So that was just identifying the absence of a piece of technical documentation.
 
 **Mr Henry**: Did this feature, this problem, that you have just referred to, in the original report that you wrote with Mr McDonnell?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I don't think it did.  I don't think it did.
 
 **Mr Henry**: But would you agree that it would again be symptomatic of a financial accounting system that was unfit for purpose?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No.  No, this -- all this was, was just saying we didn't have any record descriptions that would allow us to search through the records to pull audit data off.  Nothing to do with what the system itself was doing.
 
 **Mr Henry**: But it's very, very important, isn't it, in order to analyse root cause analysis of problems in the system and, also, the recording and retention of data must be fundamental to a financial accounting system that works?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Well, I agree with you, and the TMS journals were there in the audit archive and were complete and valid and accurate.  What we didn't have was the means to get into them to pull the information out that was required on request. That was all.  I'm trying to think of a parallel.
 
 **Mr Henry**: Well, I suppose the parallel could be, it could be like, yeah, you've got all of the stuff, like the hieroglyphs but until you've got the Rosetta Stone, you don't know what the hieroglyphs are because you can't access them.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Absolutely right.
 
@@ -1498,23 +2008,33 @@ Mr Holmes, could I just ask you, and it's in relation to a question that you hav
 
 Were those your words?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Henry**: "Hit and miss".
 
 You are still in control of this issue in September 2001, are you not?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Henry**: Because we go to the 12 September 2001 at 11.05. The call record has been assigned to the team member Jan Holmes, correct?  So you're still in control of this in September 2001, correct?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Where does it say that?
 
 **Mr Henry**: Go to 12 September 2001, which is at page 3 of 4 in the internal numbering, 11.05.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, I can see it.
 
 **Mr Henry**: You're still in control of this 21 June 2004?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, it's been passed back to me because as I was the originator.  So it's been sent back to me and it says:
 
@@ -1526,13 +2046,19 @@ So what was happening there was the production of this catalogue had been put on
 
 "The call record has been assigned to the Team Member: Jan Holmes."
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, that's right.
 
 **Mr Henry**: That's 21 June.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, because on 19 January, there's a document in PVCS, with a reference at version 0.4, that is an up-to-date Attribute Grammar catalogue.  So in other words, they had produced the document that was missing when the PinICL was first raised.  So that was passed back to me as the originator to close it, which I did.
 
 **Mr Henry**: But this was a serious problem and it wasn't closed until 2004?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Why do you say it's a serious problem, Mr Henry? The absence of a catalogue that describes the records for audit to build SQL queries was an inconvenience and a problem and a nuisance but it wasn't a serious error.
 
@@ -1542,33 +2068,47 @@ So what was happening there was the production of this catalogue had been put on
 
 Your words, "difficult".
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah.
 
 **Mr Henry**: "... time consuming and very 'hit and miss'."
 
 That's a serious problem, Mr Holmes.
 
+.. rst-class:: indented
+
 **Jan Holmes**: In your opinion, possibly.  But it was just one of a number of things that we were dealing with.
 
 **Mr Henry**: That's a serious --
+
+.. rst-class:: indented
 
 **Jan Holmes**: We could --
 
 **Mr Henry**: -- problem, Mr Holmes, even if it is one of number of things you may be dealing with because, as you accepted on the last occasion you gave evidence before the Inquiry, the Post Office was entirely dependent on Horizon data for its prosecution of subpostmasters.  You agreed with that?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, that's right.
 
 **Mr Henry**: Right, okay.
 
+.. rst-class:: indented
+
 **Jan Holmes**: So all the absence of the Attribute Grammar catalogue did was just made our life slightly more difficult when we were pulling the audit data.  The audit data was there.  It just --
 
 **Mr Henry**: The audit data has to be picked out impartially, independently, comprehensively and fully.  It can't be picked out on a hit and miss basis. Surely you agree with that?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Exactly, that's why the PinICL was raised.
 
 **Mr Henry**: Yes.  Right.
 
 Now, that is not closed until 2004, is it?
+
+.. rst-class:: indented
 
 **Jan Holmes**: That's correct, yeah.
 
@@ -1604,17 +2144,25 @@ Internal -- forgive me, I just go to the top of page 32:
 
 Of course, Mr Holmes, you being the co-author of the report, it would have been a view that you trenchantly shared together with your co-author, wouldn't it?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I would have shared it with him, yes.
 
 **Mr Henry**: Trenchantly, I'm sure.  You're not backward in coming forward, Mr Holmes.  You're the co-author of that report.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, all right, if you want to use that term, feel free.
 
 **Mr Henry**: Well, Mr Holmes, it's not a secret that when you wished to express an opinion, you express an opinion with a certain degree of confidence and, shall we say, vigour?
 
+.. rst-class:: indented
+
 **Jan Holmes**: No, "trenchantly" is not a term that I would normally use.  That's all.
 
 **Mr Henry**: I see.  Confidence, then.  Unequivocal in your view?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I agreed with the report.  It was a joint report.  So I was, you know, happy to concur with him.
 
@@ -1674,13 +2222,19 @@ In terms of timing, I just want to make sure because we're certainly not going t
 
 Mr Holmes, the report that you co-authored with Mr McDonnell, I asked you on a previous occasion why you retrieved it on 14 May 2001. Do you recall me asking you that question?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, I believe you did, yes.
 
 **Mr Henry**: Sorry, sir.  I can't hear you.
 
+.. rst-class:: indented
+
 **Jan Holmes**: I'm unmuted.  Yeah, I think you did.
 
 **Mr Henry**: I'm afraid we've lost the sound.
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, I am unmuted.
 
@@ -1688,37 +2242,55 @@ Mr Holmes, the report that you co-authored with Mr McDonnell, I asked you on a p
 
 **Mr Henry**: Yes.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Can you hear me now?
 
 **Mr Henry**: Oh, I can hear you now, Mr Holmes.  Thank you. Did you give an answer, because we didn't hear it?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I gave an answer to the question you just asked which was, yes, I do recall you asking the question in November.
 
 **Mr Henry**: Yes, and your answer was that it was a sort of an administrative catch-up?
 
+.. rst-class:: indented
+
 **Jan Holmes**: To the best of my memory, yes.
 
 **Mr Henry**: Yes.  Now, can I just ask you please, at the time, had you been asked to assist in the prosecution of Ms Tracy Felstead to the best of your knowledge and belief?
+
+.. rst-class:: indented
 
 **Jan Holmes**: No, which -- what was the name of the outlet she was associated with?
 
 **Mr Henry**: Camberwell Green.
 
+.. rst-class:: indented
+
 **Jan Holmes**: Right.  Now, I do believe I did a witness statement for Camberwell Green but with no knowledge of who was involved.
 
 **Mr Henry**: You certainly did make a witness statement for Camberwell Green and I'm sure that's right because you do not mention Ms Felstead's name. You were asked to consider data between 12 October 2000 and 1 March 2001.
+
+.. rst-class:: indented
 
 **Jan Holmes**: When you say "consider", do you mean review it, analyse it or extract it?
 
 **Mr Henry**: Shall we go to your witness statement --
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, let's do that.
 
 **Mr Henry**: -- that will probably be the best thing to do.
 
+.. rst-class:: indented
+
 **Jan Holmes**: I can't get my hands on it immediately here.  So yeah.
 
 **Mr Henry**: Don't worry because we can have it put up on the screen.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Okay.
 
@@ -1726,33 +2298,49 @@ Mr Holmes, the report that you co-authored with Mr McDonnell, I asked you on a p
 
 Now you, sir, are not a technical person.
 
+.. rst-class:: indented
+
 **Jan Holmes**: No.
 
 **Mr Henry**: You have said that on more than one occasion.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah.
 
 **Mr Henry**: Right.  This is not signed, but you have mentioned that you were asked to make a witness statement.  Did you eventually sign a witness statement?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I don't know.
 
 **Mr Henry**: I suppose that would be the natural presumption of going to the trouble of writing a draft witness statement, a draft witness statement, of course, which has been amended, as we can see.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I was going to say, this is still in draft form, isn't it?
 
 **Mr Henry**: Yes.  I mean, were you in the habit, as you were, for example, in the Cleveleys case, of making witness statements?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I made a few over the years, yes.
 
 **Mr Henry**: In fact, I think in some of the documents that you very kindly produced, you were remarking about the fact that you were being asked to make a few about various locations at one point and that -- I'm not sure of the exact words -- but that it was a bit of an imposition; do you recall?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, they take time to produce, but it's part and parcel of the job, isn't it?
 
 **Mr Henry**: Yes, it is.  You presumably read the declaration that it was going to be, once signed, true to the best of your knowledge and belief, and you would make it knowing that if it were to be tendered in evidence you would be liable to prosecution if you had wilfully stated in it anything which you knew to be false or did not believe to be true.  So, obviously, you realised it was a matter of some solemnity and importance.
 
+.. rst-class:: indented
+
 **Jan Holmes**: I'm just concerned that I don't have a final copy of this, in the sense that all I've got is a copy that you've got, which is in a draft form, and I can't -- unless I can see one that I've signed, I don't know what to say.
 
 **Mr Henry**: Well, I'm not going to be asking you about any of the bits that have been amended.  So all I am going to be asking you about is your direct knowledge of the contents of this statement.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Okay.
 
@@ -1768,23 +2356,33 @@ Now you, sir, are not a technical person.
 
 The date is 10 January 2002 and it was again under the umbrella of the Camberwell Green Post Office case.  Could we go, please, to page 4 of 5.  Do you remember on the last occasion, Mr Holmes -- and I can give the precise reference if you would wish to go to it, but let me ask the question first -- that I put to you that at Ms Felstead's trial, a request had been made by ICL Fujitsu for £20,000 for unused material, and do you see the figure there?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes, I do.
 
 **Mr Henry**: It's remarkably similar, isn't it, to the £20,000 in relation to a Camberwell Green case. Do you agree?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, yeah, the numbers are roughly the same but I have no knowledge of this at all.
 
 **Mr Henry**: But these are your documents that you produced to the Inquiry.  You obviously kept them for a reason.
 
+.. rst-class:: indented
+
 **Jan Holmes**: I didn't produce the CCN.  That's not my document that I'm looking at now.
 
 **Mr Henry**: Right.  I'm very sorry, I thought these were documents that were actually produced by you as a result of being requested to produce them by the Inquiry.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Can you scroll this one on screen up to the top, and let's have a look at what it is.  Right this is a Change Control Note which is raised by us in response to a change request that is raised by the Post Office, which we then raise a change proposal that effectively establishes the work within Post Office Account.  And the CCN is the Change Control Note that goes back to the Post Office to say, "This is what we're going to do and this is how much it's going to cost".
 
 I have nothing to do with that.  In fact, you can see the CCN was raised by Graham Hooper, who was a Security Manager at that time.
 
 **Mr Henry**: I see.  Nevertheless, in relation to Camberwell Green, because this is what we understand and that's the description of the document as to its provenance, in relation to the Camberwell Green case, it's remarkably close, is it not, to the £20,000 that I put out to you on the last occasion?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Yeah, but I -- you can't expect me to comment on something that I had no part in the production of.  Yes, the numbers are nearly the same but so what?
 
@@ -1794,15 +2392,21 @@ I have nothing to do with that.  In fact, you can see the CCN was raised by Grah
 
 Is all of that completely accurate?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.
 
 **Mr Henry**: Could we go to, please, if we may, to the conclusion of the witness statement, please, or page 4 of 5.  Forgive me, page 4 of 5.  Could I ask you, please, to scroll down.  I do apologise.
 
 You're dealing here with Horizon System Helpdesk calls, Tivoli event logs, non-polling reports.  So far as you are aware, was this information that was being supplied to you -- you not being a technical person -- that this was information being supplied to you by somebody else?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I don't know, or these might have been audit data that we'd extracted and then had a look at. So I can't tell you, if the Horizon System Helpdesk calls data, the 21 calls, were extracted from the audit solution and then I looked at it or whether it was given to me by somebody else.
 
 **Mr Henry**: I mean, obviously, a witness statement in a civil case can often be an amalgam of information that is relayed to one by other people and that it is sometimes even constructed by the solicitor on behalf of the witness, but this was a statement that was intended for submission in a criminal case.  Do you follow?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, actually, if you go back to the previous page, I'm putting my hand up there and saying:
 
@@ -1810,17 +2414,25 @@ You're dealing here with Horizon System Helpdesk calls, Tivoli event logs, non-p
 
 **Mr Henry**: Yes.
 
+.. rst-class:: indented
+
 **Jan Holmes**: I have to assume that what follows, Horizon System Helpdesk, Tivoli event logs, non-polling reports, were pulled from the audit archive. I mean, I can't remember, 21 years on.
 
 **Mr Henry**: Of course.  So, in other words, you were, although not a technical person, you were analysing the data.  Was anybody there to assist you, given the fact that you weren't a technical person, in making an assessment of the data?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I can't remember whether there was or not, to be honest with you.
 
 **Mr Henry**: I see.  Then could we go to the next page, please, and the "Conclusion"?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Can I just stop you there, Mr Henry?
 
 **Mr Henry**: Of course, of course.
+
+.. rst-class:: indented
 
 **Jan Holmes**: I'm looking at a version of this document, which is version 1, which has the changes in the same way that you've got on yours, but I've also got another -- oh, I must be imagining it. I thought there was something there about time. No, right.  Forget it, sorry.  I beg your pardon.
 
@@ -1830,37 +2442,55 @@ Your "Conclusion":
 
 "There are no reasonable grounds for believing that the information stored on the Horizon system would be inaccurate because of improper use of computer terminal.  During the Material Time the Horizon system was operating properly at the Camberwell Green Post Office Outlet or if not, any respect in which it was not operating properly or was out of operation was not such as to affect the production of audit records or accuracy of their contents."
 
+.. rst-class:: indented
+
 **Jan Holmes**: Mm-hm.
 
 **Mr Henry**: Now, sir, are those your words or were they effectively a rubric that you had been provided with?
+
+.. rst-class:: indented
 
 **Jan Holmes**: I can't recall.  I cannot recall.
 
 **Mr Henry**: Do you think they fairly reflect the knowledge, your personal knowledge, that learned counsel to the Inquiry was exploring with you this morning, about bugs, errors and defects which were apparent at this time?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Sorry, can you repeat that?
 
 **Mr Henry**: Do you think that this fairly reflects the knowledge, your personal knowledge, of bugs, errors and defects that were apparent at this time?
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, I guess it must do because those did exist at that time, we all know that now.  We didn't necessarily know it at the time.
 
 **Mr Henry**: Well, you were aware, were you not, of difficulties in retrieving data and difficulties with, as it were, obtaining the information that was required for these prosecutions, correct?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yeah, well, that wasn't because the data didn't exist or it was invalid or corrupt.  It was because we didn't have an Attribute Grammar catalogue to help us build the SQL statements.
 
 **Mr Henry**: You were aware of balancing errors that had been drawn to your attention at the time?
+
+.. rst-class:: indented
 
 **Jan Holmes**: If you say so.
 
 **Mr Henry**: You were aware that the EPOSS code was of poor quality, unstable and vulnerable to code decay. You were aware of all these things?
 
+.. rst-class:: indented
+
 **Jan Holmes**: I accept that one, yeah.
 
 **Mr Henry**: Yeah.  So, again, I ask you, do you think that this is a fair reflection of that which was known at that stage by you but also Fujitsu?
 
+.. rst-class:: indented
+
 **Jan Holmes**: Yes.  I do.
 
 **Mr Henry**: I suggest to you, Mr Holmes, that that can't be right.
+
+.. rst-class:: indented
 
 **Jan Holmes**: Well, all right, fine.  If you believe that to be incorrect, perhaps you can enlighten me as to how you arrive at that --
 

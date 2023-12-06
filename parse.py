@@ -87,9 +87,14 @@ def parse_speech(speech):
         text = re.sub(fr'\b{acronym}\b', f':abbr:`{acronym} ({meaning})`', text, count=1)
 
     if speech.speaker:
-        return f"**{speech.speaker}**: {text}\n\n"
+        out = f"**{speech.speaker}**: {text}\n\n"
     else:
-        return f"*{text}*\n\n"
+        out = f"*{text}*\n\n"
+
+    if speech.type == 'answer':
+        out = f".. rst-class:: indented\n\n{out}"
+
+    return out
 
 def parse_transcripts():
     for f in sorted(glob.glob('data/*.txt')):
@@ -293,10 +298,12 @@ def parse_transcript(url, text):
             if m.group(1) == 'A':
                 assert Speech.witness
                 speaker = Speech.witness
+                typ = 'answer'
             else:
                 assert interviewer
                 speaker = interviewer
-            speech = Speech( speaker=speaker, text=m.group(2) )
+                typ = 'question'
+            speech = Speech( speaker=speaker, text=m.group(2), typ=typ )
             continue
 
         # New speaker

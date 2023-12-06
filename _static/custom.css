@@ -64,3 +64,7 @@ div.document a:hover {
     color: #fff;
     background-color: #48466d;
 }
+
+p.indented {
+    margin-left: 1.5em;
+}

@@ -42,17 +42,25 @@ Questioned by Mr Blake
 
 **Mr Blake**: Thank you.  Can you give your full name, please.
 
+.. rst-class:: indented
+
 **Alvin Finch**: Alvin Edwin Finch.
 
 **Mr Blake**: Mr Finch, you should have in front of you a witness statement dated 10 March 2023.
+
+.. rst-class:: indented
 
 **Alvin Finch**: Yes.
 
 **Mr Blake**: If I could ask you to look at that statement and turn to the final page, page 6 of 6, is that your signature?
 
+.. rst-class:: indented
+
 **Alvin Finch**: That is.
 
 **Mr Blake**: Can you confirm that that statement is true to the best of your knowledge and belief?
+
+.. rst-class:: indented
 
 **Alvin Finch**: It is.
 
@@ -60,17 +68,25 @@ Questioned by Mr Blake
 
 By way of background, you joined Fujitsu's SSC in about 2004; is that right?
 
+.. rst-class:: indented
+
 **Alvin Finch**: Yes.
 
 **Mr Blake**: You only worked there for a few months?
+
+.. rst-class:: indented
 
 **Alvin Finch**: Yes.
 
 **Mr Blake**: What was the nature of your job over those few months?
 
+.. rst-class:: indented
+
 **Alvin Finch**: Well, I was in training to go forward and do further support work there.  So I was going round different sections, picking up different details from different parts of the system, whether it be hardware or software.
 
 **Mr Blake**: In those few months, what do you recall of the approach taken to fixing bugs, errors and defects in Horizon?
+
+.. rst-class:: indented
 
 **Alvin Finch**: Well, I didn't get to actually fixing anything myself but some of the system struck me as odd, in that when the hardware came in it was so locked out they had to use hacking tools to get into it, and there was one particular fellow who was going through some of the overnight comms stuff where it seemed like where these overnight comms were happening he got some tools. Unfortunately, I fell out with this fellow and I'm trying to remember the rest of it.
 
@@ -78,19 +94,27 @@ I mean, at the time, the way I was doing -- or the way he got these things organ
 
 **Mr Blake**: If I could just stop you there.
 
+.. rst-class:: indented
+
 **Alvin Finch**: It was awkward.
 
 **Mr Blake**: When you refer to "overnight comms" is that phone calls from the --
 
+.. rst-class:: indented
+
 **Alvin Finch**: Well, in -- the way the system was communicating across the network.  I'm very hazy about what particular bit was there.  I remember there was a couple of different computer systems there.  There was error reports coming up where they had to be kind of sorted out afterwards. But I'm afraid I can't --
 
 **Mr Blake**: That's fine.  The analogy you have used is putting pieces of paper over a problem.
+
+.. rst-class:: indented
 
 **Alvin Finch**: Well, once upon a time, when I was at Marconi, everything was paper tape and the -- when you read the paper tape through the system, occasionally it would stall and you get a junior programme and go "Oh, just a parity error again", punch a hole in there to put the parity right.  That was wrong.  You need to go back to see what the character could be there to get the character back.  You could fix the symptom but not the problem.
 
 **Mr Blake**: Thank you very much.  I am just going to take you to two passages in your witness statement and see if you are able to expand on that.
 
 Could I ask you, you do speak quite quickly, if you are able to slow down for the purpose of the transcriber that would be very helpful.
+
+.. rst-class:: indented
 
 **Alvin Finch**: Sorry.
 
@@ -102,17 +126,25 @@ It's paragraph 29 of your witness statement.  That is `WITN08060100 <https://www
 
 Are you able to expand on that at all?
 
+.. rst-class:: indented
+
 **Alvin Finch**: Well, certainly there was some sort of, like, rah-rah meetings, where we were told about the huge pressure that was on Fujitsu to keep this going and the thousands or millions that could be lost if we weren't keeping the job up to scratch and that we needed to be maybe working all hours to keep the thing going and avoid any kind of penalty clauses.
 
 **Mr Blake**: We heard from Mik Peach yesterday and he said that the generation of code fixes wasn't visible to somebody at your level.  Do you have any comments on that at all?
+
+.. rst-class:: indented
 
 **Alvin Finch**: I didn't really see any code that would be dealt with elsewhere.  I was looking at the general overall workings of the system, system functions, rather than actual code.
 
 **Mr Blake**: Would you be able to comment on longer term plans from Fujitsu to correct bugs, errors and defects?
 
+.. rst-class:: indented
+
 **Alvin Finch**: No.  I was only there a few months.
 
 **Mr Blake**: From the position that you were in, it was your view that there was pressure to get a fix and keep going?
+
+.. rst-class:: indented
 
 **Alvin Finch**: Yes.
 
@@ -122,25 +154,37 @@ Are you able to expand on that at all?
 
 Can you help us with what you mean there by "the protocol"?
 
+.. rst-class:: indented
+
 **Alvin Finch**: Well, it felt aspect bit like the Official Secrets Act, where you don't pass anything on to -- say anything to any customer or mention anything to anybody within the Post Office, not that I would, at that time, come into contact with anybody in the Post Office but not to communicate any sort of anything inside the company to any Post Office employees.
 
 **Mr Blake**: Where was that coming from?  Was it a culture?  Was it an individual?
+
+.. rst-class:: indented
 
 **Alvin Finch**: I would say it was a culture, really.
 
 **Mr Blake**: Did anyone ever say anything to you in that respect or was it just a feeling that you had?
 
+.. rst-class:: indented
+
 **Alvin Finch**: Well, there's one guy in particular that I fell out with.  That was pressure from him, in particular. I think possibly he was very pressured himself, so ...
 
 **Mr Blake**: Do you remember his name at all?
+
+.. rst-class:: indented
 
 **Alvin Finch**: No.
 
 **Mr Blake**: What did he tell you about keeping things confidential?
 
+.. rst-class:: indented
+
 **Alvin Finch**: Just basically what it says there, that nothing goes out of the building.
 
 **Mr Blake**: Can you tell us why you left the SSC?
+
+.. rst-class:: indented
 
 **Alvin Finch**: There was one particular person I felt that -- I had sort of arguments with him about how things were fixed in a way or -- I say "arguments" -- discussions.  There was possibly a personality clash as well.
 
@@ -149,6 +193,8 @@ The whole -- the culture just didn't feel right to me.  Some of the people I wen
 **Mr Blake**: Thank you, Mr Finch.  I said I will be brief. Those are all my questions.  I don't believe that anybody has any other questions, so thank you very much for coming to give evidence.
 
 **Sir Wyn Williams**: Mr Finch, I too want to thank you for making a witness statement and for coming to give evidence.  It was short and sweet but, nonetheless, it touched upon matters which we are considering with care. Thank you.
+
+.. rst-class:: indented
 
 **Alvin Finch**: Thank you.
 
@@ -178,61 +224,91 @@ Questioned by Mr Blake
 
 **Mr Blake**: Thank you.  Can you give your full name, please?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Richard Ian Coleman.
 
 **Mr Blake**: Thank you very much, Mr Coleman.  You should have in front of you a witness statement dated 16 March 2023?
+
+.. rst-class:: indented
 
 **Richard Coleman**: I do, yes.
 
 **Mr Blake**: Can I ask you to have a look at the final page, page 11.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Can you confirm that that's your signature?
+
+.. rst-class:: indented
 
 **Richard Coleman**: It is, yes.
 
 **Mr Blake**: Can you confirm that that statement is true to the best of your knowledge and belief?
 
+.. rst-class:: indented
+
 **Richard Coleman**: It is, yes.
 
 **Mr Blake**: Thank you very much, Mr Coleman, for coming to give your evidence today.  I'm going to start by asking you a little bit about your background.  You joined ICL in 1990; is that right?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
 **Mr Blake**: And you worked as a hardware engineer until June 1998?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Correct, yes.
 
 **Mr Blake**: Then you transferred to the SSC and worked there until 2005; is that right?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Thank you.  You worked under Mik Peach, who we heard from yesterday; is that right?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Then after leaving Fujitsu you trained to become a Minister of Religion in the Church of England?
+
+.. rst-class:: indented
 
 **Richard Coleman**: I did.
 
 **Mr Blake**: That's the role that you currently have?
 
+.. rst-class:: indented
+
 **Richard Coleman**: It is, yes.
 
 **Mr Blake**: I'm going to ask you about your role in the SSC.  Can you briefly tell us what that role involved.
+
+.. rst-class:: indented
 
 **Richard Coleman**: Just a technician.  So calls would come in from postmasters and other sort of systems that we had.  So calls would be raised.  I would then sort of investigate those and then, if there was a software error, send that on to development for them to sort of fix and then -- yes, so my role was sort of gathering the evidence required to determine that and then to sort of try and fix it.
 
 **Mr Blake**: Did you have a particular area of focus?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.  There were two databases to do with the configuration of the Post Office and the counters.  So ACDB and OCMS I think it was.  So they were my particular areas of responsibility.
 
 **Mr Blake**: Barbara Longley's evidence was different people had different interests; is that right?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.  So one of the things that Mik wanted was to sort of have people who had particular responsibilities with different areas, different systems that we had and then for -- so you would become the sort of expert on that particular area and then it was down to you to sort of spread that knowledge within the SSC, so that everybody could at least handle any call that came in to the SSC.
 
 **Mr Blake**: Were the formal ways of doing that spreading of knowledge or was it more informal?
+
+.. rst-class:: indented
 
 **Richard Coleman**: I mean, I suppose the formal ways would be we would be required to write documentation for the SSC to use.  So, I mean, I can recall writing stuff -- documentation on the ACDB, for example, detailing how it worked, what to do if we couldn't use the automated systems.  So the ACDB would generate various files overnight at different times and they would then be processed by other systems. So if we couldn't use the automated systems, it would be down to us to sort of create those files manually for whatever reason and for them to be then processed by other systems as required.
 
@@ -244,23 +320,33 @@ So there was formal documentation in that regard but it was also a case of just 
 
 Can you tell us why they were chosen or why, in your view, they were the ones who were handling those types of calls?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I think Anne joined after I had but John had been there for a number of years before I joined.  So he was one of the people that sort of I would go to.  So if I had something that I didn't quite understand, wasn't sure what was going on, John has one of the people that I would have gone to for, you know, "What do you think", kind of thing.  We'd have a conversation about that.
 
 Anne seemed to just get into this sort of EPOSS-type calls.  So that would, again -- so she -- whether Mik had given her that responsibility as sort of that would be her area of expertise or not, I don't know, but she would be one of the people that, yes, again, if I got an EPOSS call, it would be, yes, probably Anne or perhaps Diane, she was another one, that I would have gone to for that.
 
 **Mr Blake**: Can you give Diane's full name?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Diane Rowe.
 
 **Mr Blake**: Another name that we will come across in due course is Gareth Jenkins.  Can you tell us what kind of issues you may have discussed with Gareth Jenkins?
+
+.. rst-class:: indented
 
 **Richard Coleman**: I'm not aware of discussing anything with Gareth. I think I simply understood that he was just part of the development team.
 
 **Mr Blake**: So when you see yourself and Mr Jenkins on a log, on a PinICL or a PEAK, for example, you wouldn't have had direct discussions.  That would just be entries on the log, would it?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, as far as I can recall.  I don't recall ever speaking to Gareth personally about an issue, so ...
 
 **Mr Blake**: What did you understand about his particular expertise?
+
+.. rst-class:: indented
 
 **Richard Coleman**: I didn't.  I just thought he was just part of the development team.
 
@@ -272,17 +358,23 @@ It's paragraph 47.  We have there a reference to "support tools" that are used:
 
 There's a reference to a Smiley support tool and another tool, which it is said that you were involved in.  Can you briefly tell us what those two different tools were aimed at doing and your involvement in them?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I mean, the tool that I wrote was called "SSC FAD INFO" and John and I had obviously had -- about the same time had the thought of, oh, it would be useful to have some sort of graphical application that we could use to extract information from the various systems and present it sort of in a single window, you know, which would obviously help us with diagnosing.
 
 So there was a lot of overlap between our two programs because we developed them at the same time, unaware that the other person was doing so.  Yes, and, I think, as Steve says, my tool was ultimately -- what it did that was perhaps different from John's and I can't remember what those things were but that was then subsumed into John's program.  So it was just a way -- because normally we would access the information that we needed on the various systems through a command prompt.  So you're having to type long command lines in.  So, obviously, having a Windows application on your computer made it a lot easier to see that information all together.
 
 **Mr Blake**: What information was it that you were seeing, using your tool?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Whatever we could -- well, whatever we felt was useful to us within the SSC.  So there were various databases that held information and so our programs would just construct an SQL query to extract that information and then present it on the screen.  So part of that would be messages stores as well.
 
 **Mr Blake**: I'm going to take you to another document.  This one is going to be slightly out of order.  It's FUJ00039673. I wonder if you can assist us with this because I think it may be related to the tool that you built or it may not be.  It's a PinICL and there's a reconciliation issue.
 
 If we have a look, please, at page 3 it's a very early PinICL, I should say.  It's 1999, so before the national rollout.  If you look at page 3, about halfway down, it has your name and a large number of entries that say, "New evidence added" and gives FAD codes.
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
@@ -292,9 +384,13 @@ If we have a look, please, at page 3 it's a very early PinICL, I should say.  It
 
 Are you able to assist, is that linked to the tool?  Is it something else?  Are you able to put it in as simple terms as possible what the issue is there?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.  So I would probably have used my SSC FAD INFO program to extract the message stores for all of those FAD codes listed.  They would be compressed into a zip file and then I would simply have added them onto the call, as you saw on page 4, I think.
 
 **Mr Blake**: Where it says "deleted", "evidence deleted", can you tell us what that means and is that anything we should be concerned about?
+
+.. rst-class:: indented
 
 **Richard Coleman**: If you scroll back a page, back to page 8, 15.40, I've put an entry saying that once closure has been agreed then we will delete those files.  I don't recall who John Newitt was but I think that the only reason we wouldn't have kept those, that we deleted them, was that they would take up an awful lot of space, even as compressed zip files, so hence my note there about so he can free up the disk space on his server.  So, as I say, I don't know what server that would have been.
 
@@ -302,13 +398,19 @@ But we wouldn't need to keep those and I suspect probably it's taking up space w
 
 **Mr Blake**: So typically what would it be that was being deleted from the PinICL here?
 
+.. rst-class:: indented
+
 **Richard Coleman**: It would be the zip files that we were -- so, yes, the zip file of the message store that I would have attached as evidence for development, and then to give the information to MSU, I think, by the looks of it, for them to let POCL know whatever they needed to know about those transactions.  So, as it says then at 11.50, with John Moran "Okay to close as per Martin Box from POCL". So once the reconciliation has been done we don't need to keep that evidence with the actual PinICL itself because it's just taking up dead space on that.
 
 **Mr Blake**: If I was looking at this some way down the line, would that now hinder my ability to understand what's going on?
 
+.. rst-class:: indented
+
 **Richard Coleman**: No, because you just go back to the message store and extract the messages again.
 
 **Mr Blake**: So it hasn't deleted any messages?  All it's done is remove them from the PinICL and you need to see them both together to probably understand it.
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, the messages would be untouched on the correspondent servers.
 
@@ -322,9 +424,13 @@ It's A further piece of advice that isn't highlighted.  It's three rows down.  T
 
 If we go over the page, we have Barbara Longley there at 13.19.32, saying that this is an EPOSS desktop issue; is that correct?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.  Yes, she's added the product EPOSS & DeskTop, yes.
 
 **Mr Blake**: Then you become involved.  Why would you become involved at this stage?
+
+.. rst-class:: indented
 
 **Richard Coleman**: We had a sort of -- there was an admin role that SSC people did.  Barbara wasn't technical, she was just -- I wouldn't say just an administrator but she was the administrator.  She wasn't technical.  So we had this role that each person in the SSC would do.  So we had a rota.  So each day one of us would do what we call a pre-scan.  So we would take a look at the call as -- once Barbara's done her admin on that and then we could do a bit more admin because we had a sort of technical understanding.
 
@@ -334,13 +440,19 @@ Then -- because originally when I did my witness statement, originally I thought
 
 **Mr Blake**: So a pre-scan would involve somebody in the team that had better technical knowledge that Barbara Longley; is that right?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, an administrative kind of role but using your technical expertise.
 
 **Mr Blake**: This subpostmaster has called in experiencing problems and considers that it's a system problem.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Your entry here is "Defect cause updated to 40: General -- User".  Can you assist us with what that meant?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, when I looked at this call when it was sent to me, I noticed that and thought "Now, why have I done that", not why have I set it to user but why have I set it at all?  Because a defect call is -- you can only determine once you've done your investigation and I haven't done investigation on this.  I've assigned it to Mike and he's do the investigation.
 
@@ -348,19 +460,27 @@ So the only thing I can think is that we would have a sort of whatever procedure
 
 **Mr Blake**: So might "User" have been essentially used as a default setting in the absence of any other information?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I couldn't say whether that was a default.  I'd be very surprised if that was a default.  I mean, I can't recall what options I would have had under "defect cause" but I know in one of the other PinICLs somebody had set it to "unknown".  So if you're going to go for a default, I would have thought it would be something like "unknown".
 
 So I mean, as far as I can think, that it's simply a case of using your best guess.  If you've got to set something, try and set it to something that you think is appropriate.
 
 **Mr Blake**: In this case attributing it to user that means user error in essence?
 
+.. rst-class:: indented
+
 **Richard Coleman**: A potential user error, yes.
 
 **Mr Blake**: Thank you.
 
+.. rst-class:: indented
+
 **Richard Coleman**: What I'm not sure, I'm not sure whether that "defect cause" gets sent back to PinICL -- sorry, PowerHelp, not PinICL.  So I think that is a PinICL-only entry.  So it would not have gone back to PowerHelp.  So SMC and HSH, I don't think, would have seen that.  They would have seen the category that we close it as which could be very different from what we think the sort of defect cause is.
 
 **Mr Blake**: But might the defect cause be something that is discussed with those who are communicating directly with the subpostmasters?  It doesn't have to be in this case but, in general, to the best of your recollection, if you had marked something as "user error", for example, might that have been communicated to the Helpdesk?
+
+.. rst-class:: indented
 
 **Richard Coleman**: No, I don't think so.  I mean, I'd be surprised if Mike paid any attention to that at this stage because he's got to investigate, he's got to look and see, yes, is there a system -- the PM is saying there's a system error, so we need to proceed on that basis -- or, sorry, Mike needs to proceed on that basis.  So I doubt he'd have paid any attention to that and he would have -- I mean, I know with this call it did turn out to be user error but if he then thought, "Well, no, it's not, it's a code error", then he would have changed that when he closed the actual call.
 
@@ -368,9 +488,13 @@ That's actually when that defect cause comes into effect, if you like, that beco
 
 **Mr Blake**: Mike was the engineer fixing the issue?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: He would have seen when he logged on to the system for the first time that that defect cause had been attributed to it, whether he read something into it or not?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, he would have seen that, yes.
 
@@ -386,9 +510,13 @@ If we go over the page, please -- sorry, if we could stay on page 4, the words t
 
 Can you assist us at all, did you get a sense working on the SSC of the Human Impact that these kinds of issues were having on users, customers?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, because, obviously, when you ring the PM, one of the things that -- you know, they want or they need their system, their cash account to balance and if it's not -- then, yes.  So yes, we would be aware that, you know, the postmasters were getting stressed, you know, by using the system and it's not doing what they felt it should be doing or giving them the information that they thought should be there.
 
 **Mr Blake**: How common was that?  Was that a daily occurrence where users were getting stressed, weekly?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Don't know.  Can't answer that.
 
@@ -398,9 +526,13 @@ Can you assist us at all, did you get a sense working on the SSC of the Human Im
 
 This brings us back to really where we started in this phase.  Did you have any concerns about the training that was provided to subpostmasters?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I had nothing to do with the training for subpostmasters, so I've no idea what training they received.
 
 **Mr Blake**: Having received calls like this or read logs like this, did you have, at the time, any concerns about the training?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Not that I recall.
 
@@ -414,13 +546,19 @@ If we look down we have Barbara Longley there referring to it in the call summar
 
 Again, that's something we saw earlier the reference to something being a user error, at least initially.  Does that assist you with whether attributing something to a user was effectively used as a default or a starting position?
 
+.. rst-class:: indented
+
 **Richard Coleman**: No, I think it would just be a case of using my knowledge and experience of the system, and I'd been, what, there, is it two years now.  Again, you know, the EPOSS receipts and payments wasn't my particular area of expertise, so again I'm just going by -- you know, if I've seen a lot of these sort of calls come over and, you know, they might have been sent back as "user".  We thought that that was appropriate at the time, so ...
 
 **Mr Blake**: We spoke earlier about particular technicians having particular interests and you mentioned two names in respect of dealing with EPOSS issues and balancing issues.  If they knew about something called or what was being referred to as a receipts and payments mismatch, how would that information have been received by you or is this an example where it seems it hadn't been received by you because you attributed it to user error?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, I mean, I'm aware that there was a bug which I can't remember what it was, whether it was transfer between the stock units, or something like that, and it would cause the amount to double, which my immediate look at this is, you know, that might be along those lines.  Now, whether I knew that at the time of this call, I have no idea.
 
 **Mr Blake**: Had you known about it at the time --
+
+.. rst-class:: indented
 
 **Richard Coleman**: If I had, then, yes, I mean, attributing it to "user" would be an error on my part.
 
@@ -430,21 +568,31 @@ Again, that's something we saw earlier the reference to something being a user e
 
 If we scroll down a bit to John Moran at 13.46, please.  Thank you.  We have that being fixed by a release, I think that is CI45, and then it's closed. So it's clear in this case that it was something, a technical issue, a software issue, that was ultimately fixed by a release.  Had that information been known to you when you took on the call from the beginning, presumably you wouldn't have been attributing it to system error?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Correct.  I would have used the software category, whatever that would be.
 
 **Mr Blake**: Using this as an example, does this raise any concerns for you about the sharing of information within the SSC and the ability for at least those who initially take on the calls to understand and correctly attribute the problem?
+
+.. rst-class:: indented
 
 **Richard Coleman**: I don't know, actually.
 
 **Mr Blake**: Can you see any problem with attributing something to user error in terms of the mindset, perhaps, of those who are dealing with the issue?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I mean, what I don't know is what the call was -- what category was the call closed as because just because I've set it as "user error" as an initial thing, as I say, I don't think anybody's going to be paying attention to that until you actually come to close the call and that's when that category would then be important.
 
 **Mr Blake**: But it's the first thing that those who are investigating the matter, the engineers, would have seen, isn't it?  It's right above.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Well, I mean, you would have seen it but, as I say, I don't think I ever paid any attention to that field when I was investigating a call.  So I would just look -- I would look at the call details, not what somebody set that particular field to.  The only time I would have looked at that was when I come to actually close the call to see do I need to change it to something more appropriate.
 
 **Mr Blake**: Having seen it referred to by Barbara Longley as a "receipts and payments mismatch", though, can you assist us with why it might be attributed to "user error"?
+
+.. rst-class:: indented
 
 **Richard Coleman**: No, sorry, I can't.
 
@@ -462,13 +610,19 @@ If we scroll down to about halfway down on the right-hand side -- I think that's
 
 If we scroll down there's advice given.  Barbara Longley's evidence was that this advice came likely from the Helpdesk rather than SSC.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: It seems as though, if we scroll down to the bottom, that the initial advice that was given to her was wrong, according to at least one adviser, that she shouldn't have been advised, I think it was, to roll over.  Can you see that?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, that's on the screen, yes.
 
 **Mr Blake**: Thank you.  If we scroll over to the beginning of the next page, this may assist you by way of background. I won't read it but you might want to just read that top paragraph to yourself.
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
@@ -478,11 +632,15 @@ If we scroll down there's advice given.  Barbara Longley's evidence was that thi
 
 Are you able to assist us with what you may be referring to?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.  That should be two times not three times because the text that we've got at the beginning has been pasted in twice for some reason.
 
 **Mr Blake**: Thank you.  Then we have there "defect cause updated to 40: General -- User".  So, again, in this case, we have the PM having problems rolling the office over, been given wrong advice by the Helpdesk and it is attributed to user error.
 
 Does that assist you at all in the matters that we've previously been discussing, about whether "user error" was used as some sort of default code for when cases came in?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Not that I'm aware of.
 
@@ -492,6 +650,8 @@ Does that assist you at all in the matters that we've previously been discussing
 
 Do you remember issues with Riposte during the early years of Horizon?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, there were a number of problems with it but also I'd just like to note that Martin has just above, at 9.32 changed the defect cause to "General -- Unknown". So it would be down to whoever was investigating, once they got an idea of what the problem was, to clearly change that defect cause to whatever they thought it was and I think in this call that then gets changed again, later on, to either code or reference date, I think somewhere, so ...
 
 **Mr Blake**: If we look two entries down there's an entry from Martin McConnell that says:
@@ -500,9 +660,13 @@ Do you remember issues with Riposte during the early years of Horizon?
 
 So this is clearly, ultimately a software issue?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, and you can see the defect cause has been updated to "code".
 
 **Mr Blake**: Yes.  Now, as you highlighted, there is a defect code "unknown" and that was the defect code that Mr McConnell applied.  Wouldn't it have made more sense to have applied defect code "unknown" in your original entry on page 4?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
@@ -510,9 +674,13 @@ So this is clearly, ultimately a software issue?
 
 You spent a bit of time with this document this morning.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Have you had sufficient time to have a look through to understand what's going on?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, I believe so.
 
@@ -526,6 +694,8 @@ If we scroll down:
 
 Are you able to assist us briefly what that might mean?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Well, she had a -- there was a hardware problem by the looks of it with her counter 1, also known as the gateway.  So the engineer's been, he's replaced the hardware and when she's come to do her daily reports she's realised that -- so she's clearly done them on that new counter and she realises that some of those transactions that she did earlier on, probably that day, weren't on her report and yet she's got the receipts to sort of say, "Yes, I did do these transactions", so where are they?
 
 **Mr Blake**: If we look at advice that's given, halfway down it says:
@@ -534,9 +704,13 @@ Are you able to assist us briefly what that might mean?
 
 Do you recall why people might call the NBSC or the Helpdesk relating to issues balancing?  So let's say they thought they had a technical issue, should they call the NBSC or should they call the Helpdesk if it related to balancing?  Is that something that you were ever involved in?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I don't think so but the NBSC, I think, were the Post Office own Helpdesk so, obviously, they would have an awareness of what a postmaster needs to do as part of their sort of daily business.
 
 **Mr Blake**: If it was a technical issue that resulted in an incorrect balance, who, in your view, would be the appropriate helpline to call?
+
+.. rst-class:: indented
 
 **Richard Coleman**: They would then call the HSH, who would then pass the call to SMC, who would then pass the call to SSC.
 
@@ -545,6 +719,8 @@ Do you recall why people might call the NBSC or the Helpdesk relating to issues 
 "Contacted: spoke to the PM and she was query whether or not to reverse the transaction and what affect it would have on her stock."
 
 So it seems there as though the postmaster is a little concerned about what the implications of the advice would be; is that fair?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
@@ -556,9 +732,13 @@ If we scroll down over to the next page -- I won't go through every entry -- but
 
 So although this is in the year 2000, it's quite late in the year 2000.  Rollout had occurred and this postmaster was saying they didn't have issues with their own balancing, it's a software issue.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: I think we can scroll through the next few pages.  You have read all of these?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
@@ -568,13 +748,19 @@ So although this is in the year 2000, it's quite late in the year 2000.  Rollout
 
 Then we have Diane Rowe assigning this matter to yourself.
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Are you able to assist us with why it would have been assigned to you?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Probably because I was available.  So, even though it wasn't my particular area of expertise, in the SSC you were expected to handle any type of call.  So Diane would have looked at what calls have I got.  She may have come and spoke to me, you know, "Are you busy, can I give you a call?"  And then it's like, "Yes, send it over, I'll have a look see what I can do about it".
 
 **Mr Blake**: We have below that Diane Rowe attributing the defect cause "99: General -- Unknown", so in this instance she didn't attribute it to a user?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Correct, yes.
 
@@ -584,6 +770,8 @@ Then we have Diane Rowe assigning this matter to yourself.
 
 You're seeking further information there?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: But about halfway down, you say:
@@ -591,6 +779,8 @@ You're seeking further information there?
 "PM has not been contacted.  Closing as insufficient evidence."
 
 Can you assist us why would something be closed as insufficient evidence, rather than kept open until that evidence has been obtained?
+
+.. rst-class:: indented
 
 **Richard Coleman**: It was part of the responsibility of the SMC to provide whatever -- all the evidence that they could provide for us to then go and investigate this problem.  So I've looked at what the PM has reported and, normally, you would be able to see those transactions in the message store and I've got this sort of very unusual situation where I've looked in the message store and I cannot find any evidence of those transactions ever occurring.
 
@@ -600,9 +790,13 @@ So I'm looking, you know, on what I think is -- or what's shown to be the wrong 
 
 **Mr Blake**: So there might be a date or time issue on the counter; is that one potential --
 
+.. rst-class:: indented
+
 **Richard Coleman**: That's one potential possibility for why I can't find those transactions because, normally, you know, you would be able to see those in the message store and you go, "Okay, this is where I start my investigation".
 
 **Mr Blake**: So we have one potential might be a date and time issue on the counter.  Another issue, might it potentially be an issue with the message store itself?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, and, ultimately, that's what it turns out to be. There is a Riposte error here where counter 1 -- when you replace a counter, it comes with a blank message store.  So Riposte will start up and it will then call out to the other counters in the Post Office to say, "Okay, have you got any messages for me?"  So those counters would then reply saying, "Yes, I've got 510,000 messages for you, here you go".  So that counter would then start reading those messages in and writing them to its own message store.
 
@@ -612,6 +806,8 @@ There was a bug whereby the counter would think that, "Okay, I've got all my mes
 
 **Mr Blake**: So that's what happens ultimately.  If we're looking at 16.29.44, where you've said, "PM has not been contacted closing as insufficient evidence", going through your mind at that stage, you mentioned might be a date and time issue on the counter itself.  You've now mentioned a Riposte problem that it could potentially be.  Were those thoughts that would have been in your mind at the time?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: If we look two entries down, 16.29.45, again you have, "Responded to call type L as category 96", this time "insufficient evidence", but then two entries below that:
@@ -620,19 +816,27 @@ There was a bug whereby the counter would think that, "Okay, I've got all my mes
 
 So, again, we have something that clearly in your mind might be a software error, it might be a counter error but it's there being attributed to user error. Does that assist you in answering the question that I asked some time ago about whether there was an approach to attributing things to users as a default?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I have no idea why I selected that.  I mean, that I don't think -- category "96: Insufficient evidence" that's what would go back to PowerHelp to alert the SMC that, "Okay, I'm asking for more evidence, can you get the evidence and then send it back to me?"  Why I would have picked "General -- User", I'm sorry, I don't know.
 
 **Mr Blake**: One thing that we heard during the human evidence sessions in this Inquiry was postmasters being told that they were at fault, that the issue is user error not software error.
 
 Looking back at these documents, do you think there was a culture of attributing things to user error?
 
+.. rst-class:: indented
+
 **Richard Coleman**: No.  But I can certainly see how you could come to that conclusion.
 
 **Mr Blake**: I mean, there are three or so PinICLs that have been attributed to user error --
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: -- rather than insufficient evidence or unknown error or -- I mean, there are multiple options available --
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, I have no idea what else I could have put but, to my mind, you know, looking at this, that's wrong.  So I don't know why I would have picked user.
 
@@ -641,6 +845,8 @@ Looking back at these documents, do you think there was a culture of attributing
 "I have spoken to PM last night advised that this is being looked into."
 
 Then over the page you have quite a long explanation about what you think the issue is.  Are you able to summarise for us, very briefly, point 1 to 7, what you thought at that stage the issue may have been?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.  So on the 20th, obviously I've sent it back.  So on the 21st, I probably did nothing with the call, expecting it to come back to me with the evidence I'd asked for but, as it says that beginning of that sort of long list, there was a problem with the OTI, the interface between PowerHelp and PinICL, so I don't think -- the stuff that I typed in there didn't go back into PowerHelp, so the SMC had no idea.
 
@@ -656,6 +862,8 @@ So I've then gone down onto the actual counters themselves and noticed that, yes
 
 Did you have a concern at this stage that the missing transactions wouldn't be retrieved?
 
+.. rst-class:: indented
+
 **Richard Coleman**: No, because the missing transactions were on counters 2 and 3.  The problem was they weren't on counter 1 and they weren't on the correspondence server and that would cause problems when we're retrieving cash account messages via the agents, which would have looked at the correspondence server messages and so they would miss the transactions that were on counters 2 and 3.
 
 So they wouldn't -- so the APS -- yes, some of the transactions are APS so, you know, there's -- I can't remember what APS -- automated payments, something like that, I can't remember.
@@ -668,6 +876,8 @@ So you've got customers saying -- paying a gas bill, for example, you know, they
 
 So you are raising a question there about what effect this will actually have on the subpostmaster's ability to balance?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: If we scroll down to the next page, please, you have got the postmaster chasing the progress of this call. That's 10.59.  So they are chasing again:
@@ -675,6 +885,8 @@ So you are raising a question there about what effect this will actually have on
 "She's concerned about balancing tomorrow.  I've said the call is currently with development.  Do we have an update?"
 
 You seem to be anxious there to receive an update for the postmaster.  Is that a fair summary of that entry?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, I know it's important that the Post Office balances, so, yes, I want to make sure she can balance and rollover into the next cash account period.
 
@@ -692,6 +904,8 @@ He says:
 
 Is this something you remember at all, this particular issue?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Not particularly.  It's fairly clear what's going on from the content of the call itself, so ...
 
 **Mr Blake**: If we scroll down to the next page, Martin McConnell there says:
@@ -699,6 +913,8 @@ Is this something you remember at all, this particular issue?
 "This blows my whole understanding of what Riposte should be handling on our behalf, ie replication not deviation across nodes."
 
 Does it seem as though this is quite a significant issue?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes, indeed.
 
@@ -708,6 +924,8 @@ Does it seem as though this is quite a significant issue?
 
 I think that is, so that's, I think, the team that Gareth Jenkins and others were part of.
 
+.. rst-class:: indented
+
 **Richard Coleman**: I believe so, yes.
 
 **Mr Blake**: Then you appear again and you say:
@@ -715,6 +933,8 @@ I think that is, so that's, I think, the team that Gareth Jenkins and others wer
 "I've spoken to the PM and advised her to roll over to counters 2 or 3 not 1 but have not mentioned about recovering the AP transactions."
 
 So can you assist us with what you mean there?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Well, obviously, I've spoken to the PM and passed on the advice from Development, as, you know, "Don't use counter 1 to do it", because the AP transactions that she needs in order to balance are on 2 and 3.  Counter 1 knows nothing about them.
 
@@ -726,13 +946,19 @@ Now, I think probably why I didn't mention about recovering the AP transactions 
 
 So you seem to be raising there, really, an issue with the integrity of the balance and the transactions and the ability for the subpostmaster to effectively balance.  Is that a fair summary?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.  I mean, I suspect from reading that that the bit of code that does the -- of retrieving the messages to do with balancing would look on its own counter, rather than simply go to -- no, look on its own counter which is why the advice was "Don't do it on node 1 because we've got a bunch of missing transactions.  So if you did it on node 1 then you're not going to balance, but those missing transactions are on counter 2 and 3, so if you do it on one of those then, yes, you should balance".
 
 **Mr Blake**: But is there still a lack of clarity as to what's going to happen with the transactions from node 1?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes, yes, because I think that's what I'm sort of asking is: how is this going to affect sort of when the harvesters sort of try and harvest for these AP transactions, is that going to -- so, whilst the post office itself would be able to balance, that might have a knock-on effect on when we harvest those transactions up from the correspondence server and, obviously, we then send information off to the Post Office for them to actually pay the customers.  So I think that's what I'm asking.
 
 **Mr Blake**: So they may ultimately still be missing transactions somewhere in the system?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
@@ -754,9 +980,13 @@ I will read the second paragraph there.  It says:
 
 Now, knowing what you know about this issue and having reread this PinICL, do you think assuming that the missing transactions had been recovered manually was the appropriate assumption to make at that time?
 
+.. rst-class:: indented
+
 **Richard Coleman**: For Gareth, yes.
 
 **Mr Blake**: Why do you qualify that?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Well, he hasn't got access to the message stores on the correspondence server and it wouldn't be down to development to reconcile those missing transactions with the Post Office.  That would be an MSU action and I think somewhere I cloned this call, I think.  Yes, so -- no, that's not that one.
 
@@ -764,37 +994,55 @@ Yes, so immediately after Brian Orzel on 1 December, 11.18, I cloned this call t
 
 **Mr Blake**: So was that an assumption that the MSU would take it on and that it needn't be an issue for the development team?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Yes.
 
 **Mr Blake**: So where Gareth Jenkins is there saying, "I assume the missing transactions have been recovered manually", are you saying that was appropriate because it's effectively not his job to look into whether, in fact, the missing transactions had or had not been recovered manually?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.
 
 **Mr Blake**: Knowing what we now know about everything that happened with Horizon, do you think that that approach, not having sight of beginning to end and what ultimately happened to the transactions is, in any way, problematic?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I don't think so because it was MSU's responsibility. They had the link with Post Office.  They were the ones who had the job of doing the actual reconciliation. Gareth can't do anything more from a Development point of view because they already know about the problem and, presumably, are pursuing it under PinICL 52823.
 
 **Mr Blake**: So would it have been typical for Gareth Jenkins and his team and, in fact, the wider SSC, to not be concerned with what ultimately happened to missing transactions because that was a matter for another team?
+
+.. rst-class:: indented
 
 **Richard Coleman**: No, we would have been concerned and I think Gareth is voicing his concern here by saying, you know, I assume that the missing transactions have been recovered manually.  So he's asking -- he's basically asking has that been done and the answer is yes.  But all --
 
 **Mr Blake**: Where's the answer, sorry?
 
+.. rst-class:: indented
+
 **Richard Coleman**: Well, the fact that I've cloned the call to PC59052.
 
 **Mr Blake**: So does that mean you know that the missing transactions have been recovered manually?
+
+.. rst-class:: indented
 
 **Richard Coleman**: Yes.  I don't know if -- that's probably not a later -- no, I mean, there's nothing in this PinICL to say that that has happened, so you would need to have a look at PC59052.  I suspect that's call that I would have sent to the MSU to say "This has happened", give an explanation and these are the details of the transactions and it's down to them to sort of -- whatever the process was for reconciling that with Post Office.
 
 **Mr Blake**: So would you have taken responsibility for ensuring that that question that he asks was, in fact, answered and that the feedback that came back was, "Yes, the missing transactions have been recovered manually"?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I probably wouldn't have gone back to Gareth to say "Yes, they have been", but that kind of response, I would have thought, would be on that call that I cloned that I would have sent to MSU.
 
 **Mr Blake**: Would you have taken it forward if there wasn't any feedback from him that the transactions had been recovered?  Would you have been responsible for this call going forward, up until its conclusion?
 
+.. rst-class:: indented
+
 **Richard Coleman**: I mean, yes, when I cloned the call, I would then send it to the MSU team.  Once they've done the reconciliation, they would close -- I don't know if they closed call back to me or they would reassign it back to the SSC to say "Thank you we've done a reconciliation, this call can now be closed".
 
 **Mr Blake**: Is that what we see on 12 December 2000 where you have closed the call?
+
+.. rst-class:: indented
 
 **Richard Coleman**: No, that's -- for this particular call, you would have to look at 59052 to see what happened then.
 
