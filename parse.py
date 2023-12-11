@@ -88,14 +88,15 @@ def parse_speech(speech):
         text = re.sub(fr'\b{acronym}\b', f':abbr:`{acronym} ({meaning})`', text, count=1)
 
     if speech.speaker:
-        out = f"**{speech.speaker}**: {text}\n\n"
+        out = f"**{speech.speaker}**: {text}"
     else:
-        out = f"*{text}*\n\n"
+        out = f"*{text}*"
 
     if speech.type == 'answer':
+        out = re.sub('\n\n', '\n\n.. rst-class:: indented\n\n', out)
         out = f".. rst-class:: indented\n\n{out}"
 
-    return out
+    return f"{out}\n\n"
 
 def parse_transcripts():
     for f in sorted(glob.glob('data/*.txt')):
