@@ -221,7 +221,11 @@ Can you see an entry --
 
 **Anne Chambers**: Okay.  When the postmasters declared stamps, this was just the stamps that were 1p, 2p, that -- stamps that have a specific denomination on them.  So they would be presented with several screens and they go through and say how many of each denomination they've got, so that is their stamp declaration.
 
+.. rst-class:: indented
+
 Other types of postage, including First and Second Class stamps and stamp books, and some other things, were not included in that declaration.  They would be managed either by "declare stock" or by "adjust stock", which is what Mr Castleton did.  So this stamps -- postage stamps total that we've got is only for a subset of the overall postage.
+
+.. rst-class:: indented
 
 We can see that it's not at all clear on the cash account.  I think I say in my witness statement that the cash account was a horrible document to try to understand, partly for this reason, but if you look at the final balance report, which precedes the cash account and is using the same data that the cash account is built from, you can see on that final balance report the section for postage, which includes both the postage stamps as declared and all the other types of postage.  And if you want to look at that, I can give you a reference.
 
@@ -296,6 +300,8 @@ So how did you establish that?
 .. rst-class:: indented
 
 **Anne Chambers**: I established that by pulling out all the cash transactions for a period -- and I now cannot remember the precise length of that period -- by taking the opening figure of cash, which you can cross-check on the balance reports, and so on, so you put that at the top of your column in an Excel spreadsheet and then you work out the running total by making all the cash adjustments from that base figure, so at any point you can see what cash the system thinks the branch should hold.
+
+.. rst-class:: indented
 
 Then from the Overnight Cash Declarations and also the declarations made when they balanced, you can see what the branch is declaring that they hold and then it's simple arithmetic to look for the difference between those figures.
 
@@ -391,6 +397,8 @@ Then if we turn to paragraph 51 of your witness statement on page 17, please -- 
 
 **Anne Chambers**: Yes.  I mean, it wasn't for me to decide what was wrong but, from what I could see, that -- the way the figures were swinging around so much each day, that was really unusual, and so -- and I could see from the calls that Mr Castleton was raising that he was desperate for somebody to help, and I wanted to try to, you know, progress it -- I certainly didn't just want to send the call back saying, "Oh, not us".  I wanted to see if we could get him some more help, maybe so that he could do -- to help him sort of keep -- try and keep a manual record or for somebody to monitor what was happening.
 
+.. rst-class:: indented
+
 I didn't know what the options were as I said, this -- Fujitsu hadn't -- had no way of helping with anything like that at branches.
 
 **Mr Beer**: So why did you think it wouldn't be in Mr Castleton's best interests just to close the call and let the Helpdesk report your findings back to him?
@@ -440,6 +448,8 @@ I didn't know what the options were as I said, this -- Fujitsu hadn't -- had no 
 .. rst-class:: indented
 
 **Anne Chambers**: Go to the branch and, as I said, maybe help him try and run a manual process alongside to record, so that you could, at the end of the day, look for any anomalies, you know, if there was something that they were doing wrong process-wise, to find that.
+
+.. rst-class:: indented
 
 You know, at this stage, I sort of assumed that Post Office did have people who were -- who would do that sort of role.
 
@@ -572,6 +582,8 @@ We can see that this is a letter from Rowe Cohen Solicitors, dated 25 July 2006 
 .. rst-class:: indented
 
 **Anne Chambers**: It was something that did show up in the reconciliation reports, which I hadn't seen the January ones because they no longer existed when I'd looked originally.  And I can't quite remember but perhaps every few days you might have one or two entries in the reconciliation reports.  This was for all 18,000 branches, so it wasn't that it was happening every day for every branch, but it was a problem that we knew about and had been looked at, and the only problem was that these particular smart mails, Smartpost transactions were slightly malformed, in that the start date attribute was missing, which should have been they're.
+
+.. rst-class:: indented
 
 Now, that didn't affect balancing in the least but, because the :abbr:`ARQ (Audit Record Query)` extract extracted on start date and it didn't have a start date, it didn't find these.  But they were included in the branch balance.
 
@@ -731,6 +743,8 @@ So the idea of doing the three checks that you mentioned seems to have been drop
 
 **Anne Chambers**: I don't think so.  I cannot remember but it could well be that, by the time that Gareth wrote this final version, he had checked with the audit team and they had said, "No, that file is not audited or available anywhere", which is what -- that's what he's saying there. I wouldn't have -- I don't know.
 
+.. rst-class:: indented
+
 The other checks --
 
 **Mr Beer**: Just hold on.  On what basis were you saying that -- you are now saying that this report, which you'd previously wished to see, is not material to the case?
@@ -801,6 +815,8 @@ We've heard evidence from your then line manager Mik Peach that before you were 
 
 **Anne Chambers**: I'm not sure I was pressured; I was extremely surprised to find myself in a position where I had to, because it had never occurred to me or any of my colleagues that this might be part of our role supporting an IT system.
 
+.. rst-class:: indented
+
 I just felt that it was all sort of handled rather strangely and that I was asked by this guy I didn't know, who turned out to be -- who was the Security Manager, if I'd be prepared to speak to a solicitor, and I -- about this particular matter and I said, "Well, I suppose so", and there was no mention at that point that, just by doing that, I would end up giving evidence in court and here today.
 
 **Mr Beer**: Somebody from Security asking you whether you would mind speaking to a solicitor --
@@ -820,6 +836,8 @@ I just felt that it was all sort of handled rather strangely and that I was aske
 .. rst-class:: indented
 
 **Anne Chambers**: It just seemed to be an odd situation because then my manager was very cross about it all and I didn't know if it was me having said yes to that initial question, somehow had led to everything else that happened and, if I'd said no, would it have been different?  I don't think that is the case now but now I know a lot more about the background of it.
+
+.. rst-class:: indented
 
 But, at the time, I just felt very uncomfortable about it and there seemed to be a lot of people not very happy with the situation and so, yes, it was just uncomfortable.  I don't think I was ever given the opportunity to say "No, I'm not prepared to do this", and I don't know what would have happened if I had turned around and said no. I've always, you know, attempted to do my job and to be helpful and to answer questions as necessary.
 
@@ -1051,7 +1069,11 @@ At the foot of the page, paragraph 61, you say:
 
 **Anne Chambers**: I -- I'm not sure that it was discussed.  Oh, I know Stephen Dilley did subsequently send me an email, which I then passed on to various other people in Fujitsu, pointing out the disclosure rules, and so on.  But I personally had no responsibility for disclosures, and so on, and hadn't -- you know, didn't know what had been disclosed or what should be.
 
+.. rst-class:: indented
+
 These particular event logs, we'd only found that they did still exist about a couple of weeks before the trial started, when -- following up a different query that somebody had made regarding Marine Drive, and it was just because one of my colleagues in SSC went looking to see what else -- whether these files were archived, and discovered that, yes, they were.
+
+.. rst-class:: indented
 
 It wasn't part of the formal audit process; it was just a file archive.  But yes, they existed and so, when I found that I was talking about them because of a misunderstanding --
 
@@ -1217,6 +1239,8 @@ It wasn't part of the formal audit process; it was just a file archive.  But yes
 
 **Anne Chambers**: To some extent.  I mean, I think these calls that you have been looking at are the ones where that was most likely to happen.  I would say the vast majority of PowerHelp calls, which were much more fixed issues than -- yeah, they were pretty good.  But yeah, these areas where the responsibility between NBSC and --
 
+.. rst-class:: indented
+
 I think -- yes, if there was a known problem identified by PowerHelp, then, certainly if it had been to -- had come to PEAK, you would have had the PEAK response on there too.  If it had just been handled by the Helpdesk, then they might not have spelt it out so much, if it was a system error.
 
 **Mr Beer**: So you ended up giving evidence about the Callendar Square bug --
@@ -1299,6 +1323,8 @@ But if they are the same, then, you know, it's a matter of arithmetic, not opini
 
 **Anne Chambers**: I was adding up the transaction data that had been recorded, which was all I had to go on. I mean, there were, obviously -- I'd checked for things like everything netting to zero, which had been okay, apart from the two things that had been -- the one line identified.
 
+.. rst-class:: indented
+
 I knew from the :abbr:`ARQ (Audit Record Query)` extract that part of that checking made sure that the set of messages -- there were no gaps in the messages received from the branch.  So everything that had been written to the message store on the counters appeared to have been included in the data that I was now doing this comparison with.
 
 **Mr Beer**: This was essentially an accountancy exercise?
@@ -1347,7 +1373,11 @@ Yes?
 
 **Anne Chambers**: There was no indication of any problem with the recording of the transactions that was visible to me, either when I looked in 2004, when obviously there was, you know, more files and things to look at and, okay, it was only for a shorter period, and I couldn't see anything wrong with the recording of the transactions subsequently.
 
+.. rst-class:: indented
+
 It would only be by checking somehow, checking against what the branch had actually intended to record that you could see if there was anything wrong in what had been recorded. There were no gaps in the sequence but whether -- certainly, it wasn't that individual transactions had been dropped, if that had happened, then you would have receipts and payments mismatches.  We didn't have those.
+
+.. rst-class:: indented
 
 Whether entire sessions had not been recorded, that I could not see.  And whether some of the sessions that had been recorded were not as intended at the branch, I also could not see that, without some way of knowing actually what had happened at the branch.
 
@@ -1362,6 +1392,8 @@ Whether entire sessions had not been recorded, that I could not see.  And whethe
 .. rst-class:: indented
 
 **Anne Chambers**: Yeah, and try to keep a record that you could check against at the end of the day.  I mean, the postmaster had a lot of reports that had to be printed out at the end of the day, with totals on for pensions and various other things, and I believe that -- but this is getting into business stuff, which wasn't -- I had less familiarity with, but they were meant to add up the dockets or counterfoils, or whatever they'd got, for various things and compare them against the totals on the reports, to make sure that what was on the system was consistent with the business that they had done.
+
+.. rst-class:: indented
 
 But that was something that I had no way of cross checking.
 
@@ -1405,7 +1437,11 @@ What did you mean by "I don't really know what I'm doing!"?
 
 **Anne Chambers**: This was the first time I'd tried to calculate a cash account by hand.  We've seen from looking at them they're fairly horrible, pages and pages of stuff, and I was much more familiar at looking at the trial balance and final balance reports, which lay out the accounts, to my mind, in a much more intuitive way.  And then the same data got reanalysed using different mappings, that's saying which lines go on different cash account, to produce this document, that then, I believe, had to be signed off and went to Post Office.
 
+.. rst-class:: indented
+
 And I was much less familiar with how the cash account processing actually allocated things to particular lines.
+
+.. rst-class:: indented
 
 So I was really having to work that out from scratch, and I -- although I was -- thought I was probably on the right lines, Gareth was much more of an expert in this area, so I really didn't want him just taking what I'd done without checking it pretty thoroughly.
 
@@ -1486,6 +1522,8 @@ Can you help us as to what that might be, looking at the context, the missing pa
 .. rst-class:: indented
 
 **Anne Chambers**: A major problem, I don't know.  I think one of the documents I saw very recently appears to be another bug, error or defect that I had totally forgotten about.  When -- and it was probably starting up -- started happening around about the time that I was having this meeting, which was probably why it was in my mind, where -- I can't remember the details but, yes, they rolled over and lost their stock.
+
+.. rst-class:: indented
 
 But that was -- it was so obvious that something had gone horribly wrong, if you like, that I believe that got picked up on and investigated.  It wasn't something that was affecting many branches and I think it was those that were doing "declare stock", which was not what Mr Castleton did anyway.
 
@@ -1723,7 +1761,11 @@ Starting with "Many other files are also archived to audit servers", what other 
 
 **Anne Chambers**: All sorts of things.  You know, it's an enormous computer system, so a lot of back-end files, if you like, were continually being generated. Some of them would -- were transient, others were backed up in one way or another.  Some of them were possibly written to the audit servers, although SSC wouldn't have seen those because we didn't have access to the audit servers.  So I didn't know what might be there but I had a feeling there might be a lot of stuff.
 
+.. rst-class:: indented
+
 This wouldn't be specifically counter files because some of the diagnostic files that were written that only existed on counters, they wouldn't have been maintained in this way, but there could have been files containing transactions for a branch, as well as for lots of other branches, that were still in existence.
+
+.. rst-class:: indented
 
 I didn't -- it was really a bit of an unknown and I thought, well, perhaps somebody ought to try to make sure they know it in case this is relevant in future.
 
@@ -1861,6 +1903,8 @@ So, first of all, you say you think the fact that the Horizon Helpdesk is penali
 
 **Anne Chambers**: If they couldn't find the reason for the loss as a business issue, as I say, discrepancies were most likely not to be system problems but they could be and, certainly we'll see when we go through the rest of the bugs, errors and defects, that there were cases where it should have been reported to SSC years before it actually was.
 
+.. rst-class:: indented
+
 And there was this, you know -- we got calls through to SSC that probably shouldn't have been passed through to us but there were also others that should have come to us that didn't reach us.
 
 **Mr Beer**: So all the while the system error was continuing?
@@ -1931,7 +1975,11 @@ And there was this, you know -- we got calls through to SSC that probably should
 
 **Anne Chambers**: I think, partly in the case of Mr Castleton, that they hadn't -- they didn't appear to have made any attempt to help him get to the bottom of the problems that he was having and that it was just seen that "Oh, well, you know, he's signed these things off, therefore that's his responsibility".
 
+.. rst-class:: indented
+
 When I started working on Horizon, I didn't appreciate the fact that the subpostmasters really didn't work for Post Office but they were a third party in all this.  Any other systems I'd ever worked on, if there was a problem and I said, "Well, I can't see anything wrong on the system side", then the customer, if they continued to have problems, would push back quite strongly and say, "But look, this isn't right, we need to sort it", and then we would work together to sort it out.
+
+.. rst-class:: indented
 
 But with the case of Post Office -- and it took me quite a long time to realise how it worked -- the postmasters had -- they didn't have the power to do the pushing back and our client, Post Office, who would have had that power, did not seem interested in doing that.
 
@@ -2495,6 +2543,8 @@ What did you mean by that?
 
 **Anne Chambers**: We're dealing with an Oracle database system that was all held centrally, something called the Branch Database.  It should really have been the Branches' Database because it contained -- there were a lot of different tables containing data for all the branches, obviously each record said which branch it referred to, and so on.
 
+.. rst-class:: indented
+
 So once I'd found the table of interest, I could just do a query on that table to find all records for that product in that table, regardless of branch.
 
 **Mr Beer**: You're continuing to investigate the cause and implications?
@@ -2651,6 +2701,8 @@ Then you describe essentially the problem that I outlined at the beginning, yes?
 
 **Anne Chambers**: Well, the branch trading statements, which -- it was the cash account replacement, that would show the discrepancies being put into local suspense from all the different stock units and then, before they could roll over into the next trading period, the final -- when they rolled over the final stock unit, then they had to clear that amount that was in local suspense.
 
+.. rst-class:: indented
+
 This particular problem that -- the whole problem was because they were having to clear more than they had put into local suspense, so those numbers would not match up on the branch trading statement.
 
 **Mr Beer**: Thank you.  Then if we scroll down, please, to 16.05.10, on 6 March.  Thank you.  You record that:
@@ -2698,6 +2750,8 @@ This particular problem that -- the whole problem was because they were having t
 .. rst-class:: indented
 
 **Anne Chambers**: I believe there were two checks.  One was as I've already outlined and then there was a second one, which I can't remember without -- I'm sure I've written it down somewhere or it's in the -- it's certainly in one of the PEAKs. But this was -- you know, we knew we had followed up these specific ones but it was just in case such a thing -- situation should ever occur in future.
+
+.. rst-class:: indented
 
 There was no reason to think it would but, if it did, then people would be alerted to it rather than the postmaster having to raise a call.
 
@@ -3010,7 +3064,11 @@ Mrs Chambers, as you know I think, I appear for number of subpostmasters includi
 
 **Anne Chambers**: I don't have -- I mean, I do not now have any evidence that I've seen that means that I can prove it, but if I could explain what the probable one is?  Because we know that the earlier declaration for £1,183 was included in the accounts, so that zero declaration appears to have had no effect because you would have expected that to have wiped out that other amount.
 
+.. rst-class:: indented
+
 But when you made a stamp declaration or a cash declaration, you could give a specific drawer ID.  I think we've seen that somewhere. So, normally, Mr Castleton used drawer 11.  Now it is conceivable, but this is what I can't prove, that this zero declaration had a different drawer ID, which is why it didn't overwrite the earlier one.  But that, to me, seems likely, because, otherwise, if it had been the same drawer ID, it would have overwritten the earlier one.
+
+.. rst-class:: indented
 
 If I'd got the full message store that was audited then that's something I could have checked and I may well have checked it back in 2006 but I can't check it now, I'm afraid.
 
@@ -3200,6 +3258,8 @@ We can effect take that down, I don't propose to take you to the detail, but let
 
 **Anne Chambers**: I'm not sure if anybody would ever seriously have used that flowchart.  What would happen when somebody tried to log back -- when somebody was able to log back on to the counter again, if there were bill payments, if there had been a bill payment, which had been made but not settled, then the postmaster would actually have been prompted to say whether it's -- the bill had been paid or not, and that would have taken -- that should have sorted that out. Possibly banking transactions as well but I can't properly remember.
 
+.. rst-class:: indented
+
 If there were other things on the stack, for example a pension -- I mean, the postmasters I think were expected to know that -- but they might not have done -- that if it failed before settlement, they shouldn't have paid out the pension money, or whatever.  But even if they didn't know that, if they had paid out the money but it hadn't settled, then, at the end of the day when they checked all their counterfoils against the report -- the totals on the report, that should have been apparent as a difference, and they could then have put it through at a later stage.
 
 **Ms Page**: But can I just understand this: if, for whatever reason, the postmaster was struggling with this and there remained a problem, would that be ascribed as "user error"?
@@ -3271,6 +3331,8 @@ So if we just pick that apart, I suggest -- and you can correct me if I'm wrong 
 .. rst-class:: indented
 
 **Anne Chambers**: No, that was a different case where there was no log-off when there was a log-on of the same user on a different counter.  That was a different thing.  That wasn't a failure to log off.
+
+.. rst-class:: indented
 
 Right.  In that case, I could -- the log-off was done successfully the night before the counter failed and then, when we were looking at transactions on 2 February, we could see that Mr Castleton logged on and was using -- serving on counter 1, and then the same user logged on to counter 2, without logging off counter 1 but, in that case, it doesn't appear that counter 1 became unusable, at that point.  He just chose to move from one system to the other.
 
@@ -3377,6 +3439,8 @@ Your explanations or your hypotheses that you put forward tend to explain it in 
 .. rst-class:: indented
 
 **Anne Chambers**: I totally discount that explanation because you can see that they took place on counter 1, you can see the session ID number.  You can see that Mr Castleton, or whoever was using LCA001, was serving on counter 1.  He did a whole set of pension transactions in one session, possibly catching up for things that had been paid out manually during the morning because they'd been reduced to working on a single counter.
+
+.. rst-class:: indented
 
 That session was then suspended, node 2 came back up Mr Castleton logged on to node 2, which transferred these -- this suspended session across from counter 1 and then you can see that that session was eventually unsuspended and was settled on counter 2.  And that is quite clear from the transaction numbers and the session numbers, and anybody inserting those afterwards would not have been able to use those numbers because they were -- the sequence numbers were being used by the person on the counter, logged in on the counter at that time.
 
@@ -3512,6 +3576,8 @@ So on disclosure -- this won't take long -- was the extract from the message sto
 
 **Anne Chambers**: No, not necessarily.  No, I mean, if there had been any sign that the numbers were not adding up, then I would have been onto it and I would have said so.  But the discrepancies were calculated correctly, based on the transactions that had been recorded.  There were no obviously incorrect transactions in what I could see of the system.
 
+.. rst-class:: indented
+
 All I could conclude was that what was on the system was not an accurate reflection of what had taken place at the branch and there was nothing that indicated that the system had malfunctioned in any way that would give rise to transactions either not being on the system or being there but there incorrectly.  But, fundamentally, that -- finally, that could only be ascertained by comparing what was on the system with what had actually taken place at the branch and once the day/the week has passed, that becomes almost impossible to verify.
 
 **Ms Page**: Are you still, at some level, trying to cover off or explain away those anomalies or issues which we can see?
@@ -3525,6 +3591,8 @@ All I could conclude was that what was on the system was not an accurate reflect
 .. rst-class:: indented
 
 **Anne Chambers**: I think Mr Castleton should have been given much more help in trying to work out why the money in his branch did not match what was on the system, and I wish, really wish, I could find a problem. I've still been looking to see if there's just anything that looks as if it could be something wrong with the system that might have caused it but I found nothing in 2004.
+
+.. rst-class:: indented
 
 And, okay, you can say I didn't look hard enough then.  I did what I -- I didn't know that this would still be being talked about.
 

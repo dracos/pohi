@@ -112,6 +112,8 @@ Your statement covers a variety of issues but today I'm going to focus on Phase 
 
 **Stephen Grayston**: I think within the material that I'd been sent there was various reports coming out of testing on what the results of running various scripts, et cetera, were showing and, you know, as in any programme that I've been involved in, you know, the good part is that these things are being flushed out, that they're being understood and they then need to be fixed.
 
+.. rst-class:: indented
+
 So, you know, the follow-on from that is an evaluation as to the seriousness, either individually or as a consolidated group, of those defects that are arising as a result of testing.  So there comes a point where you evaluate whether to move forward because what remains to be fixed is deemed to be not significant, or you hold and fix all the things that need to be fixed.
 
 **Ms Kennedy**: Were you aware at that time about issues with EPOS, the electronic point of sale?
@@ -171,6 +173,8 @@ So there's quite a lot of feedback, I'm not going to take you through it all, bu
 .. rst-class:: indented
 
 **Stephen Grayston**: I think my expectation is a generalisation in terms of the change curve.  You know, when you ask people who have worked in a certain way for a long time to change the way that they are working then some will struggle and some will adopt the change very easily.
+
+.. rst-class:: indented
 
 I think, though, you know, in this particular point, what was being referenced is that the training itself wasn't good enough.  So irrespective of the general point of people struggling with adopting to the requirement for change, the training itself should be adequate to allow people to operate the system.
 
@@ -238,6 +242,8 @@ So looking at that, it appears that after Horizon was introduced the money held 
 
 **Stephen Grayston**: Yes, because that is a fivefold increase, and as I understood it there was analysis going on.  I mean, I think there was -- and I think Mr Peberdy states that, you know, everything was being flushed out and I think that was the context in which I heard, you know, the increase from 2 million to 10 million, that everything was being flushed out.
 
+.. rst-class:: indented
+
 But that didn't explain, doesn't explain, you know, what is going on.  So I understood that there was some analysis on this going on.
 
 **Ms Kennedy**: What do you mean by everything being flushed out?
@@ -275,6 +281,8 @@ But that didn't explain, doesn't explain, you know, what is going on.  So I unde
 .. rst-class:: indented
 
 **Stephen Grayston**: It seems like an important point, yes.  I mean, it -- looking at it now, yes, it seems like something that should have been clearly understood and articulated back through the programme, so that the programme could then articulate what was going on back to the relevant business stakeholders.
+
+.. rst-class:: indented
 
 What I can't -- having said that, what I can't say to you is that there may well have been a strand that had done the analysis and had reported back to various stakeholders.  You know, in my world it disappeared.
 
@@ -327,6 +335,8 @@ So is that how you understood the purpose of the project, this programme?
 .. rst-class:: indented
 
 **Stephen Grayston**: Yes.  I mean, the -- you know, in my understanding, you know, part of the reasoning was to ensure that data was generated accurately at the counter, that it was harvested into the finance systems accurately, and then passed to clients accurately and in a timely manner.
+
+.. rst-class:: indented
 
 I think in the legacy world -- and, you know, I'm not an expert on the legacy systems by any stretch -- but there were timing discrepancies that would arise. So, you know, one of the things about simplification and the use of, you know, the new systems was to increase speed, accuracy -- yes.
 
@@ -441,6 +451,8 @@ So at that time the Post Office was trading at a loss and in a pretty dire finan
 .. rst-class:: indented
 
 **Stephen Grayston**: Correct.  But if there is a recurring theme in calls coming in -- you know, users -- people express themselves in different ways, and if there is an art in it, it's to understand and articulate into the Helpdesk system what the problem is and what the proposed rectification is.  But what you would expect is that with recurring issues there is action taken, even if it's not a system issue.  So it may be that, you know, training itself or a note needs to go out to branches to say, you know, "We have received concerns from subpostmasters over this type of transaction.  Please be aware, you know, to take this particular action."
+
+.. rst-class:: indented
 
 So it doesn't necessarily always have to be system-driven but the analysis is critical, yes.
 
@@ -638,6 +650,8 @@ Is that in accordance with your understanding of what was to happen?
 
 **Stephen Grayston**: In my experience -- because prior to joining the programme I had been with Royal Mail Group investigations -- there were instances where subpostmasters wished to use an amount of money for other purposes, not -- not with the intention of theft or permanently deprive, but wanted to or needed to use it for other purposes.  So it was a facility or an opportunity, should someone so wish, to undertake something short-term using Post Office cash.
 
+.. rst-class:: indented
+
 There were instances, I believe, where it involved theft, and, you know, I'm sure there's a lot of analysis within Post Office on the types of cases, the numbers of cases, the amounts involved that, you know, were regularly discussed at a post office management level.
 
 **Ms Kennedy**: You mentioned using the money for short-term purposes.
@@ -750,6 +764,8 @@ So can you explain and clarify further what the S80 did?
 
 **Stephen Grayston**: In the sense of this particular point, my understanding, if I'm remembering it correctly, was that error correction was a manual process.  We talked before about the factory and all the people working on pieces of paper.  Well, those people working on those pieces of paper would turn up errors and that would generate a paper error notice, which then would need to be posted back to the branch that made the error.
 
+.. rst-class:: indented
+
 Now, if things were working well, the branch -- because this may be sometime later -- the branch would already have recognised in the accounting period that an error had been made, so when the error notice came in it was a contra-entry in suspense to the error that had already been recognised, if everything was --
 
 **Ms Kennedy**: If everything was working properly?
@@ -785,6 +801,8 @@ So that was your business change team; is that right?
 .. rst-class:: indented
 
 **Stephen Grayston**: Yes.  I mean, the -- fundamentally, you know, the conceptual design needs to be understood.  For example, you know, counter, if you took counter, the front office, you need to understand what is changing.  So what is expected, what needs to be done, in terms of process, eventually, so that you can define the right level of procedural documentation and the right level of training, and that behind that there is the right level of understanding in the support desk to support the people when this change is going through.
+
+.. rst-class:: indented
 
 You know, there's also, as part of that, an evaluation of what is needed at the point of migration from what happens today to what needs to happen tomorrow.
 
@@ -856,9 +874,15 @@ Could you explain a bit more about what you mean by that.
 
 **Stephen Grayston**: Yes.  The high level design and the conceptual design of what Post Office was attempting to achieve, was setting out to achieve, was signed off and agreed, and agreed between Post Office management and I believe with relevant stakeholder groups.
 
+.. rst-class:: indented
+
 Inevitably you get people who will actually disagree and challenge the fundamental conceptual design.  And, you know, that's -- here is one example. It happened to me in other programmes.
 
+.. rst-class:: indented
+
 But, you know, what I take from that is that it's about explaining the benefits of the programme overall because, in isolation, somebody may be sitting there being asked to do something different and not understanding or realising the benefit to the organisation as an overall factor.
+
+.. rst-class:: indented
 
 So, you know, that's where people would express their views, but that feedback would not necessarily be taken on board.  However, what should be taken on board is that if there is a fundamental lack of understanding why this is being done, what the benefit is overall to the organisation, then, you know, business change should reinforce the reasons behind why the change is happening.
 
@@ -903,6 +927,8 @@ So, you know, that's where people would express their views, but that feedback w
 .. rst-class:: indented
 
 **Stephen Grayston**: Yes.  As a reviewer, yes, I was expected and required to provide feedback from a business change perspective and, you know, I think it's always important that the people who are reviewing documents like this understand the scope of their review because S80 was complex.
+
+.. rst-class:: indented
 
 So we can all make comments about some of the technical aspects but if the technical aspect is not your domain, those comments wouldn't necessarily, you know, carry any weight.
 
@@ -1188,6 +1214,8 @@ Looking back, do you think that as S80 was designed and created, alongside it, a
 
 **Stephen Grayston**: Myth ... I think business decisions have to be based on an understanding that what is coming out of the system is accurate and reliable.  If at a management level there is a suspicion that it may be flawed in some way then that causes or should cause, you know, a lot of thought and creation.
 
+.. rst-class:: indented
+
 Myth -- I'm not sure about "myth" but ...
 
 **Ms Page**: If there was perhaps an unwillingness to sort of investigate those possibilities?
@@ -1343,7 +1371,11 @@ I simply want to ask -- I don't know if this refreshes your memory of this at al
 
 **Stephen Grayston**: Well, in terms of what you've shown me and the comment that you have referred me to, this was about implementation, not about Horizon more generally.  So on the point that I think is being made here in recommendations, ICL Pathway had subcontracted various pieces of work to different organisations and that led to difficulties through -- and challenges through the implementation.
 
+.. rst-class:: indented
+
 In terms of, I think, your question, which I think is wider, the reliance on ICL Pathway, yes, Post Office Limited -- Counters Limited was reliant on ICL Pathway understanding the nature of their role and executing it appropriately and I think -- sorry, I just add to that, I think you've already seen, and I've seen in the material, concerns over visibility and openness and the nature of the contract and the limitations of the contract.
+
+.. rst-class:: indented
 
 So yes, I mean, I think this particular point was about implementation.  I understand it.  I do remember it.
 
@@ -1366,6 +1398,8 @@ So yes, I mean, I think this particular point was about implementation.  I under
 .. rst-class:: indented
 
 **Stephen Grayston**: Well, the technical oversight and validation was around the steps that were required to undertake implementation, which was effectively, you know, a migration to the new world and so, to answer your question, no, because there would not be another technical rollout or implementation of a similar type with ICL Pathway.  That activity had been done.
+
+.. rst-class:: indented
 
 However, for Post Office's purposes, you know, should we be working with another supplier (and we had a large banking programme, Post Office Card Account, for example), that the learning point about how we manage implementation, those points should be taken on board for future programmes.
 
@@ -1392,6 +1426,8 @@ On training, you've said a little to Ms Kennedy already this morning about your 
 .. rst-class:: indented
 
 **Stephen Grayston**: Well, even prior to rollout -- first of all, you know, training was part of the programme that I think the Inquiry's heard from one of my colleagues, Trevor Rollason.  But, as a team, head office or regional, we were getting feedback on what was, you know, the struggle.
+
+.. rst-class:: indented
 
 Yes.  I mean, I think the work done pre-rollout to improve training, which was AI 218 I think, was seen as extremely helpful.  But nevertheless, with a user population so large, there were people who could not cope with Horizon and they failed a test that had been introduced to assess competency.
 
@@ -1421,6 +1457,8 @@ Again, just to be absolutely clear, is that consistent with your recollection as
 
 **Stephen Grayston**: Yes, although looking at it today I think that there probably would need to be a reflection on what was done to boost that training but, you know, if I looked at it in a different way, Peritas (I think that was their name at one point in time) who had been appointed to run the training, didn't have a Post Office background, didn't understand all of the processes associated with it.  So for Peritas, or the supplier of training, to come in and run good training courses, even with time and good material, was again, I think, a learning curve on their side.
 
+.. rst-class:: indented
+
 I think there was a reflection that the cash account training wasn't comprehensive enough and, through AI 218 and the negotiation that I think Bruce McNiven was involved in, that was improved.  That was improved.
 
 **Ms Patrick**: But this AI 218 takes us to acceptance and rollout which starts in January 2000.  This is being drafted in May 2001.
@@ -1435,7 +1473,11 @@ I think there was a reflection that the cash account training wasn't comprehensi
 
 **Stephen Grayston**: Sorry, I wasn't clear.  I think in my mind this reflection should have had two elements to it that it absolutely wasn't and that there was an intervention as a result of AI 218 that had improved things.  It does not say that here and your interpretation, you know, is reasonable from what is said here.
 
+.. rst-class:: indented
+
 But the quality of the training that was given, I believe was deemed to be adequate and the reason I say that is that there were four implementation teams nationally, and the head office team had worked with the regional teams through the lifetime of this programme, and the regional teams represented the business operations around the country and also reflected the needs of the programme in implementing in the various parts of the country.
+
+.. rst-class:: indented
 
 If that feeling as expressed here was so black and white, then it would have been stopped.  The regional management of Post Office Counters Limited would have stepped in.  So I think -- in my mind, you know, I am taking an interpretation that it wasn't good enough and it improved.  There was nothing coming out from the implementation teams or regional management that said every week this training is not could enough, it is not good enough.  So you know that's my thought on this.
 
@@ -1468,6 +1510,8 @@ Coming back to your understanding of the position of subpostmasters during the r
 .. rst-class:: indented
 
 **Stephen Grayston**: Well, from the position of the implementation processes and the role of the HFSO, which I knew because I'd been involved in the design of that role, it was an agreed process that, at the point of implementation and migration, the Field Support Officer would guide the manager and staff through the process and would be there at the first cash account after implementation and that subsequent cash accounts, if necessary, would have some level of support from the retail line; so business as usual retail operations as the implementation team was moving on.
+
+.. rst-class:: indented
 
 So there was no intention of subpostmasters or any of their staff being intentionally left to flounder.
 
@@ -1548,6 +1592,8 @@ We're at the end of the rollout.  Is this an understanding that at the end of th
 .. rst-class:: indented
 
 **Stephen Grayston**: Sorry, I just need to take you back to your linkage here.  The technical oversight was about implementation, technical aspects of implementation, infrastructure, hardware, software, software failures, and aspects of that oversight for implementation.
+
+.. rst-class:: indented
 
 If you're asking me the about joining the dots in a more general sense, there were challenges, there were discrepancies and was anybody stepping back and looking at this overall, I don't know that there was.
 

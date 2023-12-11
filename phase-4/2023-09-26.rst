@@ -208,6 +208,8 @@ You'll see that, in the course of that message, Mr Peach says expressly -- he ex
 
 **Anne Chambers**: That was the management's line, if you like, and had obviously been so for some time.  SSC were primarily there to investigate problems as they happened.  If you get to the point that it's months down the line and the evidence is needed, then it was certainly harder for us to investigate because we would need to effectively get the data out of audit anyway and, possibly, this was then seen as, if it's at that point in the process, then should Post Office have been paying for it?
 
+.. rst-class:: indented
+
 But I still think this is a question for my management, who were the ones saying this, rather than for me.
 
 **Mr Beer**: I understand.  You see in the first paragraph Mr Peach raises the suggestion that the client, :abbr:`POL (Post Office Limited)`, may be making a deliberate attempt to avoid the cost of raising ARQs, essentially by getting the SSC to do the work, and then in (b) says:
@@ -238,6 +240,8 @@ Can you recall whether this was a theme in your time that was spoken about withi
 
 **Anne Chambers**: I think this is talking about the back-end systems, which I cannot remember all the details of, but there was a big change at some point, and Post Office's back-end database was now something called POLFS, which was not, as it says, part of the Fujitsu domain but was managed by a third party.
 
+.. rst-class:: indented
+
 And so before, when -- even though it wasn't necessarily a front-end of Horizon problem, because investigation would have to be done by Fujitsu, then we would have done that, and Mik is now pointing out that now, you know, you've got two parties resolved so Fujitsu, perhaps, should not be taking on more than their fair share of it.
 
 **Mr Beer**: So if an enquiry is raised or an issue is raised by a subpostmaster with the NBSC and work is done, for example, by an investigator to either rule in or rule out a problem on the counter, is this paragraph suggesting that the SSC should take the position that there ought to be further work done behind the scenes at the Post Office to consider any discrepancy or shortfall before the SSC would do any investigatory work?
@@ -245,6 +249,8 @@ And so before, when -- even though it wasn't necessarily a front-end of Horizon 
 .. rst-class:: indented
 
 **Anne Chambers**: No.  This is talking about the reconciliation between the back-end systems, not the counter reconciliation.  But there were cases then when Post Office would be looking at the data that was held in POLFS for a branch and there might be some inconsistency with branch figures, whereas they -- that had been fed through from Horizon.
+
+.. rst-class:: indented
 
 This would not necessarily -- well, it -- I can't remember specific examples but this is not the postmaster at the end of the week or the month saying "I've made a discrepancy"; it's more possibly the two different systems having different numbers and Post Office trying to work out why that might be the case.
 
@@ -259,6 +265,8 @@ This would not necessarily -- well, it -- I can't remember specific examples but
 .. rst-class:: indented
 
 **Anne Chambers**: It would depend entirely on what the problem was that we were being asked to investigate. Obviously, you know, day-to-day 'happening now' problems, they would come into SSC and that would be our normal investigation.
+
+.. rst-class:: indented
 
 This is things where it is Post Office, probably not NBSC, but the people looking after POLFS and the Post Office financial systems at the back end, or potentially investigating individual branches for litigation, or whatever, those requests would come in through the Security team and I believe it's just sort of pointing out to Penny that she mustn't then just pass them on to SSC as support calls but they needed to be considered as to whether they fitted better into the ad hoc request or the :abbr:`ARQ (Audit Record Query)` process.
 
@@ -303,6 +311,8 @@ This is things where it is Post Office, probably not NBSC, but the people lookin
 .. rst-class:: indented
 
 **Anne Chambers**: I think this was -- that was the responsibility of the Security team, not the responsibility of SSC at that point.  If there was examination of that data then needed in the run-up to a case, then I believe the Security team would normally talk to Gareth Jenkins, or somebody like that, to do the analysis and it's possible that somebody like me might then have been roped in to assist.  I think, certainly from 2007, you could say, yes, that's what would happen.
+
+.. rst-class:: indented
 
 But if a call had come in through the NBSC from a postmaster saying "I'm making losses and I think it's the system at fault", then, if this was a current ongoing situation, then, yes, that would certainly be looked at by SSC in the first instance.  The fact that it might at some point later end up as litigation wouldn't stop us from looking at it at that very early stage.
 
@@ -554,7 +564,11 @@ So the part of the reply where you say, "We aren't currently checking old event 
 
 **Anne Chambers**: As part of the audit retrieval process after 2008 sometime, the Security team would also extract the Tivoli events for the branch over the relevant period, and SSC staff would look at those events to see if there was anything of concern.  In particular, we were looking for the Riposte lock events which might indicate some silent failure that might not have been noticed at the time.
 
+.. rst-class:: indented
+
 This was a not exactly a time consuming process but it was part of the process.  Now we -- I can't remember now but this implies that we wouldn't have seen those CRC read failure events in that process.  They should, however, have been noticed at the time because they were one of the events that the SMC monitoring team were monitoring for, so there should have been a PowerHelp call raised at the time, if these events were occurring on a particular counter.
+
+.. rst-class:: indented
 
 That PowerHelp call would then have been in the audit trail, so this isn't something that would have been happening and then wouldn't notice as part of the -- and would not be seen as part of the audit retrieval.
 
@@ -568,7 +582,11 @@ What do you mean by that, trashing the message store?
 
 **Anne Chambers**: I think that's the bit that I probably didn't want to say, "trash the message store", because it sounds horrible.  What it meant was delete -- on the affected counter, you would delete the message store at a time when the counter -- I mean often -- one thing I can't remember is whether these sort of errors actually shut down Riposte on the counter, which meant that you then couldn't use it or, if it could still be used.  Obviously, if it was unusable, then it's not going to -- this underlying error couldn't possibly cause any financial impact because you can't use the counter.  But I cannot remember if that was the case or not.
 
+.. rst-class:: indented
+
 But then trashing the message store is actually deleting the message store file on the affected counter, and then it would rebuild itself, and I can't remember if it used the -- and it would then be copied from one of the other counters to get the complete set of messages back in again, and that would then hopefully not have any corruptions in it.
+
+.. rst-class:: indented
 
 Obviously, if this kept happening because you've got a dodgy disk on a counter you might still get more errors being reported and then the action would be to replace the counter, which would, as part of that process, also rebuild the message store.
 
@@ -626,6 +644,8 @@ Obviously, if this kept happening because you've got a dodgy disk on a counter y
 
 **Anne Chambers**: The only thing I can think of with hindsight is perhaps when these errors should -- had occurred, we should have specifically been looking to see if it could have had any impact on the -- anything, you know, if they were balancing at the time, and that wasn't a check that we were making at the time.
 
+.. rst-class:: indented
+
 But did I think this was a situation that was causing -- was a cause of ongoing problems, you know, no, I don't -- even now, I don't think that was the case.  But no, I don't know why I put that sentence in those terms.  I think I just wanted to let Gareth know of what the situation was and then he could decide precisely what he wanted to say about it.  But I agree, that doesn't look good.
 
 **Mr Beer**: You say, "SMC normally raise a call".
@@ -633,6 +653,8 @@ But did I think this was a situation that was causing -- was a cause of ongoing 
 .. rst-class:: indented
 
 **Anne Chambers**: Yes, that was the process and then that was so we knew to do something about it.  Obviously, if we had a call direct from a branch about any sort of problems and then we looked at that call, we would have seen those CRC errors and would have looked to see what needed to be done about it.  But I cannot be 100 per cent sure that if they weren't -- if they were saying, you know, that they'd got financial problems and we saw the CRC errors, then, obviously, we would look to see if they could have been a cause of it.
+
+.. rst-class:: indented
 
 But, if we're talking about looking at data retrieved some years or months -- months or years afterwards, again, if we were examining -- if we were actually investigating, rather than just doing the audit retrieval, we would look for anything wrong.  But, no, sorry, I'm just not getting anywhere with this.
 
@@ -673,6 +695,8 @@ Did you either work in or see BIMS?
 .. rst-class:: indented
 
 **Anne Chambers**: Yes.  I mean, if anything went wrong with banking transactions, there was a huge amount of central reconciliation that was done matching up the counter outcome -- the outcome was known at the data centre -- and also data received from the various financial institutions, the banks, and so on.  And everything was matched up in there and any inconsistencies gave an entry on the banking reconciliation reports.
+
+.. rst-class:: indented
 
 Specifically, in a recovery situation, it's possible that a banking transaction had been authorised by the bank and the money removed from the customer's account but, if it hadn't settled on the counter before the counter failed, then the money might not have -- that transaction would not be included in the branch accounts and so this banking reconciliation process was all intended to get everything into a consistent position, and recovery was part of that.
 
@@ -1584,6 +1608,8 @@ So this is before the postmaster, is this right, has balanced a record of the NB
 
 **Anne Chambers**: If he hadn't got as far as the final balance, if he'd just done a trial balance, that would have produced a discrepancy, but he could then have gone back through to try to see if he could spot any reasons for that discrepancy.  He could then have changed the cash declaration, or whatever other figures, and done another trial balance.
 
+.. rst-class:: indented
+
 So he's started the process to the point that he's realised it's going to show -- it has created a discrepancy but he hasn't actually completed the rollover process.
 
 **Mr Beer**: So "I'll call back tomorrow to see if anything came to light", so that's the 21st.  If we go over the page to the 22nd, we are at the next day.  Brief description, "Discrepancy":
@@ -2428,6 +2454,8 @@ That's not really accurate, is it, on the basis of what we've seen?
 
 **Anne Chambers**: There was a whole suite of checks that were made comparing, for example, totals from the counters, for the transactions each day, with the totals that were -- had reached the data centre to make sure nothing had got lost being moved from when it was replicated from one to the other.  Yeah, there was a large suite of checks.
 
+.. rst-class:: indented
+
 Also, the cash account was recalculated at the data centre, based on the copy of the transactions there, and compared with the cash account that had actually been produced at the branch.  So this was just checking the integrity of the data, if you like.
 
 **Mr Beer**: For what period did you check the reconciliation reports?
@@ -2478,6 +2506,8 @@ Which part of the system were they automatically generated by?
 
 **Anne Chambers**: Only in so much the data that was aggregated for the totals to be compared had to be -- I mean, Riposte was the mechanism which read the message store.  So -- sorry, I'm trying to think about this.
 
+.. rst-class:: indented
+
 So yes, I mean, on the counters, the figures that were used for comparison, there must have been some sort of Riposte query, saying "Add up this data", out of the message store.  And then I presume at the data centre it was also using Riposte to access the data centre to access the messages for the branch.
 
 **Mr Beer**: If there were errors or discrepancies in the compilation of these reports, would you have any means of checking that that was so?
@@ -2485,6 +2515,8 @@ So yes, I mean, on the counters, the figures that were used for comparison, ther
 .. rst-class:: indented
 
 **Anne Chambers**: I mean, I think if there were errors on one side or the other, then we would be seeing a lot of -- you'd get a lot more entries on the reconciliation reports because, otherwise, it -- it seems pretty unlikely that you would get the same Riposte error happening on a counter and at the data centre at the same time, if -- and if you had it -- had an error on one side but not on the other then the figures wouldn't match and you'll get an entry on the reconciliation reports to be investigated.
+
+.. rst-class:: indented
 
 And I've -- I think, very occasionally, there were entries that were due to some sort of inconsistency in calculation rather than anything else but they were all investigated, as were any reconciliation report entries.
 
@@ -2741,6 +2773,8 @@ Then "Solution":
 .. rst-class:: indented
 
 **Anne Chambers**: It's -- yes, so it's hard to read because you haven't got it formatted -- it's not formatted very well but it's "If a single counter office", which is SCO, "the engineer must contact the SSC to synchronise the message stores".
+
+.. rst-class:: indented
 
 So the synchronisation is vital if replacing the base unit at a single counter office.
 
@@ -3074,6 +3108,8 @@ So before node 2 was up and running again, at 2.24 pm, it's shown on these trans
 
 **Anne Chambers**: I wouldn't have -- well, yes, it's -- the transactions were carried out on node 1.  That's why the session ID, which is the same for that complete set, has got "1" in the third position of it, after the branch code.  So they were carried out on node 1, but then finally at 14.22.14, the session -- ah, no.
 
+.. rst-class:: indented
+
 Where's the -- the settlement's further down somewhere, isn't it, I believe?  Yes, we haven't got a settlement in there at all.  The confusing thing about looking at the data in this format is the time, it's the time that the transaction was started, which isn't necessarily the time at which the session was settled.
 
 **Mr Beer**: If the transactions were made here with LCA001's log-in, how could that happen before LCA001 had logged in to node 2?
@@ -3371,6 +3407,8 @@ Can we go to page 30, please, and scroll down.  Can you see the section of the c
 .. rst-class:: indented
 
 **Anne Chambers**: Yes, this is data that originally was produced by Fujitsu, and you can see that you've got the sort order there, so it should be -- attribute, date and time is what it should be sorted on. Now, just looking at it, you can see it is no longer sorted on date and time.  So I'm wondering -- and, also, as I said, it's not a complete set of event data in that there would have been many other things -- you've not got anybody logging on and off, for example, in that.
+
+.. rst-class:: indented
 
 So this is -- what was provided by Fujitsu would have been a much bigger Excel spreadsheet, and this is a subset, not a --
 
@@ -3825,6 +3863,8 @@ Do you see at the top of the page an entry is made:
 .. rst-class:: indented
 
 **Anne Chambers**: Nothing would happen to that, so you'd have your earlier transaction, which would be, say, a bill payment settled to cash, so you'd have -- those lines would remain unchanged because once they're written, they stay there.  And then further down at some point, you would see -- I mean, there were various ways that the postmaster could do it but one way would be doings a stock adjustment.
+
+.. rst-class:: indented
 
 So you'd see a line then with "mode SAP", stock adjust positive, so your cheque going up by whatever the amount was and the cash then would come down by the same amount.
 

@@ -195,6 +195,8 @@ Then if we scroll down and look at those, we can see that he has seemingly cut a
 
 **Anne Chambers**: For HNG-X, yes.  And this was really useful for us, for diagnostic purposes, because we were able to see, you know -- we'll see that when we look at some of the specific examples, but we can see, yes, they started to do something and then they used a particular button to move out of it.  Perhaps that's not something that would normally happen but that doesn't mean it's wrong.
 
+.. rst-class:: indented
+
 And so that was very helpful to us for diagnosing these problems because we could see the perhaps less expected paths that were being taken.
 
 **Mr Beer**: You see four entries in, timed at 13.11.31, there is the word or the character string, "MSG10800: Check Parcels and Services Required". Is that a record of a screen being displayed to the subpostmaster, essentially a pop-up that was displayed on the screen to the subpostmaster?
@@ -529,6 +531,8 @@ So can you tell from that entry, and in the absence of us having a POC log, the 
 
 **Anne Chambers**: I could see those keystrokes, yes.  I -- yes. You could see the -- and pressing that key would then cause the screen to move to a different screen, so it was -- these were navigational keystrokes or keystrokes in response to messages, and so on, you could see.
 
+.. rst-class:: indented
+
 When you asking yesterday, I thought you were asking about every key that was typed and certainly that was not all recorded.
 
 **Mr Beer**: So if, in my example of committing cash to the account earlier of the £2,500 versus the £250, if the clerk, after they had typed £250, had hit "Enter" four times, would you be able to see that?
@@ -703,6 +707,8 @@ So did they give any reasons for not wishing to inform the branch that their fin
 
 **Anne Chambers**: Yes, I was, really.  I just felt it would be a lot clearer if everybody -- if the branches knew when there had been a problem.  I -- if I spoke to a branch and there had been a system problem then I would say, "There has been a system problem".
 
+.. rst-class:: indented
+
 One particular instance I can remember where we -- I know the branch wasn't contacted was where, as far as we were aware, the branch was -- didn't know that the problem had happened, it had been brought to our attention because of an entry on the Reconciliation Report, and so undoing what had been wrongly recorded seemed like the best way forward and they may well not have been aware that they had had a problem in that case.
 
 **Mr Beer**: When you refer to the "best way forward" do you mean the open and honest way forward?
@@ -808,6 +814,8 @@ Then you ask some questions.
 .. rst-class:: indented
 
 **Anne Chambers**: This one of the change procedure documents, so an OCP which I filled in what has been proposed, why the change is justified, when it'll be done, more details as to precisely what will happen, and then I'd already talked to Gary Blackburn at Post Office about it, so this is obviously after the discussion that I had with Gareth.
+
+.. rst-class:: indented
 
 And then further down we can see that approval has been sought from Post Office through the formal route and there should also be sign-off by my manager.
 
@@ -1021,7 +1029,11 @@ So I think this is a record to show that, despite the misgivings in the email ex
 
 **Anne Chambers**: If they had looked at all the PEAK calls for a branch, they might have seen those but I don't know if that was part of their process.  The OCR -- the :abbr:`ARQ (Audit Record Query)` data would contain the -- both the original transaction and the corrective transaction at the point at which they were done.
 
+.. rst-class:: indented
+
 If the full unfiltered data was retrieved and inspected, then that would show the comment, for example, that I mention was added in this one.  Certainly sometimes for counter corrections, and it wasn't done consistently, but often we might use a counter number that didn't exist to make it clear that it was something out of the ordinary, or a username, including SSC, again to show that it was something out of the ordinary.
+
+.. rst-class:: indented
 
 That wasn't done on this specific one and I cannot remember whether that was because I was specifically asked not to or I was just producing a transaction that was absolutely a mirror image of the one that shouldn't have been there in the first place, and all I did was just change the signs on the values, effectively, and I left all the other data in there as it was.  But I cannot properly remember my reasoning.
 
@@ -1105,9 +1117,15 @@ So by 12 December the corrective fix had been applied concerning a loss of $1,00
 
 **Anne Chambers**: Yes, I have obviously been thinking about this quite a lot.  The loss was only generated when they balanced so that's why it showed at that point, they hadn't balanced before then.
 
+.. rst-class:: indented
+
 I think my conclusion that it wasn't a consequence of the problem may have been wrong.  It wasn't a consequence of the correction.  I know that Mr Justice Fraser considered some of this and there was -- I'm afraid we haven't got the documents in front of us, but his view was that there had been two different corrections done and one of them was for the wrong amount, and I can -- I disagree with that strongly, in that the correction that he thought was for the wrong amount didn't affect the branch accounts at all.  That was the correction to the POLFS back end feed.
 
+.. rst-class:: indented
+
 But yes, the branch then had a loss in this stock unit.  One possibility was that they had done a balance snapshot or something during the week and realised that, actually, they had got $1,000 more than they expected in that stock unit and had taken it out of there and put it into the main safe to see what happened. Another is that I'm now wondering if this line that was incorrectly written as an "SC", serve customer, should actually have been another of these RISP lines, which was reversing a rem out, and so whether it now -- can I get this right? Yes, that would -- if it was the case, that would have had this effect.
+
+.. rst-class:: indented
 
 But I agree now, certainly given those circumstances, it would have been far, far better to have talked to the branch at that point to try and work out whether they did have a genuine loss at the end of the day, whether it was something that they then could resolve themselves.  I'm not aware that they ever phoned in about it.  I don't know if Gary Blackburn, who was aware of this, ever contacted them or checked to see if they did have any lasting problem, but no, this -- it was not as a result of the correction, but it wasn't the state that we wanted to end up in.
 
@@ -1116,6 +1134,8 @@ But I agree now, certainly given those circumstances, it would have been far, fa
 .. rst-class:: indented
 
 **Anne Chambers**: Um, I don't know.  I mean, because I had checked very carefully and I could see that my correction had done precisely what I intended it to, which was to remove this rogue SC line, which should not have been written.  It's only now I'm wondering if, when it was written, it should actually have been another RISP line but I can't prove that at this point.
+
+.. rst-class:: indented
 
 Obviously, if the branch had raised another -- a call saying that they'd got an unexpected loss, "What on earth has been going on", then that would have been investigated and followed through but, to the best of my knowledge, they didn't.
 
@@ -1283,7 +1303,11 @@ What was the name of that system?
 
 **Anne Chambers**: I don't think that would mean that we would necessarily give it -- you know, sort of put it to the very top of the heap.  You could argue that it's actually extremely important that a branch or a whole series of branches can trade.  If they're not able to trade, that is also -- has serious consequences for all of them.
 
+.. rst-class:: indented
+
 If the entire estate can't do banking transactions that obviously also has a severe impact on the whole estate and so, to some extent, I think those type of problems may have been seen as more important -- not more important but would possibly require faster action than a discrepancy call from a single branch.
+
+.. rst-class:: indented
 
 I mean, I do see now that, yes -- I am well aware of the impact that these problems have had.  But it was so hard to distinguish between business issues and potential system issues, and we would look for every possible sign of a system issue.  But if there wasn't one, without knowing what had actually taken place at the branch, you can't do more.
 
@@ -1346,6 +1370,8 @@ I mean, I do see now that, yes -- I am well aware of the impact that these probl
 .. rst-class:: indented
 
 **Anne Chambers**: Right.  I've got several things to say in response to that.  Firstly, from everything I've seen about this bug, I was not involved in the investigations in September.  So, really, everything I'm going to say is based on what I have read since.  I have no memory of it.
+
+.. rst-class:: indented
 
 I haven't seen any evidence that suggests it was -- that it did occur before September. I know there were couple of receipts and payments events which Gareth flagged, and there's an email about that earlier in the year, and there was also at least one other problem that occurred during the HNG-X pilot, which was roughly the first six months of 2010.  But they were different underlying causes and I'm not aware that this specific problem, which resulted in a receipts and payments mismatch had been seen or reported before September.
 
@@ -1549,6 +1575,8 @@ By that, are you saying that the Post Office would have been made aware of each 
 
 **Anne Chambers**: Um, as I said, when I wrote this section I was working a little bit blind, given that I had no direct involvement with this.  We wouldn't have told Post Office about the office snapshots problem.  Actually, they probably were told about it because everything in the pilot was closely monitored, but the office snapshot one there, that was false reporting of a receipts and payments mismatch because it didn't take the transfer into account.
 
+.. rst-class:: indented
+
 Obviously, the stuff that had to be done for the September problem was a major problem, which was all followed through at the time.
 
 **Mr Beer**: Followed through by?
@@ -1685,6 +1713,8 @@ Can you help us, what is an NT counter event?
 
 **Anne Chambers**: When the counter application would check at various points at the end of the balancing process to make sure that receipts and payments were equal and, if they weren't, it would flag that in various ways.  One of the ways it flagged it was by creating an NT counter event, which would be written to the application event log, which was one of the files we were talking about yesterday.
 
+.. rst-class:: indented
+
 Actually, no, now we're on HNG-X, it was very slightly different with the file that had the events in, I think.  But anyway, it's the same sort of thing.  And these events would have gone from the counter through the Tivoli stream to be -- hopefully to be monitored for and checked by the SMC, whose job was to look for these sort of events or any other unexpected events.
 
 **Mr Beer**: He, Mr Jenkins, says in his last line there that he doesn't know if there's a KEL to pick up such events and raise calls.  Now, there was, of course, a KEL.
@@ -1742,6 +1772,8 @@ Was there a heap --
 .. rst-class:: indented
 
 **Anne Chambers**: Er, yes, we were very, very busy at this time during the HNG-X pilot.  HNG-X was being used at about -- I can't remember if it was 250 or 500 branches and, as you'd expect for any new system, despite having gone through very expensive testing, once you let several hundred branches have a try, they found paths that couldn't have been gone through during the test process.
+
+.. rst-class:: indented
 
 So I can't remember what other sort of call I had been doing but, yes, I had been busy.  The postmaster-raised call, I think I say in my witness statement, I shouldn't have left it that long, even if it was only for a few pence, but it would have been -- the effect on the branch wasn't significant but it definitely needed looking at and it hadn't just been closed down. It was waiting.
 
@@ -1809,7 +1841,11 @@ If you see, this was a PEAK raised on 2 September 2010 and it concerns a mismatc
 
 **Anne Chambers**: No, I don't think so because I thought -- we're missing some evidence here.  The earlier problems, we know about the wrongly reported one during the office snapshot.  Nobody has shown me the PEAKs that were subsequently raised for those two events that Gareth reported.  I am absolutely certain that, him having flagged it up, that would have been followed up on pretty quickly.  But we haven't got those calls for me to look at to give you any explanation of.
 
+.. rst-class:: indented
+
 So, as far as I was concerned, when I saw this call coming in, I found it alarming.  Not because I knew there was already a problem in this area but because it looked like there might be something new.
+
+.. rst-class:: indented
 
 At this point, September 2010, the rollout of HNG-X to the entire estate was in progress. I'm not sure how far through it had got but now, instead of a few hundred branches, we are now probably onto several thousand branches, with the opportunity to find some new error paths, and so on.  So I was obviously concerned that, yeah, we've got a problem here and it wasn't because I knew of existing problems.  I thought it was quite likely that there was a new problem.
 
@@ -1889,6 +1925,8 @@ If we read the solution at the foot of the page.  A reference data fix was relea
 
 **Anne Chambers**: I cannot remember.  I wasn't involved, but I think, in all the various documents that we've seen, there was a lot of talk with -- between Fujitsu and Post Office as to how to sort this out, to resolve any discrepancies.  In fact, in this case, the branch were losing their discrepancies, so they made a loss.  This actually lost their loss.  If they made a gain, they lost that as well.
 
+.. rst-class:: indented
+
 But I believe, but it's in a lot of this other documentation somewhere, that steps were taken by Fujitsu to find all occurrences of this problem and then with Post Office to decide what to do about them.
 
 **Mr Beer**: What about this: as you rightly said, the problem section of this KEL described a sequence of button presses by a subpostmaster resulting in this receipts and payments mismatch, yes?
@@ -1914,6 +1952,8 @@ But I believe, but it's in a lot of this other documentation somewhere, that ste
 .. rst-class:: indented
 
 **Anne Chambers**: That would cause more confusion because they would not want to roll over with a discrepancy that they disagreed with, so you would have to word it very carefully and there was a way of them cancelling -- it was just a very specific point that they had to not continue to avoid -- or, sorry, not cancel to avoid the problem.  It wasn't the only way they had of backing out to of the process.
+
+.. rst-class:: indented
 
 Sorry, to get to your question --
 
@@ -1956,6 +1996,8 @@ Again, the revelation to a subpostmaster of a system issue was dependent on you 
 .. rst-class:: indented
 
 **Anne Chambers**: No, I said what happened very infrequently was making corrections to the branch financial data. I certainly would have spoken to postmasters most weeks, perhaps not quite as often as that. It would depend on the sort of calls that I was handling, but, yes, it wasn't that unusual to speak to a postmaster.
+
+.. rst-class:: indented
 
 It wouldn't always be to say there was a system problem because sometimes I would be speaking to them for some other reason.
 
@@ -2323,6 +2365,8 @@ Okay?  So if we can just go through the chronology of those events and try to pi
 
 **Anne Chambers**: It is an instance of a single Riposte lock error.  There's no mention in there of repeated events, which were the -- it was when you got the repeated events that you might then also have additional problems -- it might then affect the replication.  One single event, we never had any evidence that that caused any long-term problems.
 
+.. rst-class:: indented
+
 I'd also say that I don't believe this is anything to do with the counter software. I don't think it was this process. "B\_LD\_CD\_DEL" looks like one of the bulk loaders that would have been running on one of the Horizon back-end systems.
 
 **Mr Beer**: So following from that, if we look at the last few entries on page 4, if we look at six lines up, Mr Bell's entry:
@@ -2390,6 +2434,8 @@ Does that tend to suggest that because the problem was not seen as at 5 October 
 .. rst-class:: indented
 
 **Anne Chambers**: I think when I described the problem in my witness statement I said the problem was the failure to replicate messages from -- that were being done on one counter onto this counter that they were balancing on.
+
+.. rst-class:: indented
 
 This particular description, which I don't think I'd had the opportunity to remind myself of when I wrote that, it's clear that they are doing the work on this one counter and then, when, in the balancing process, it's trying to write the declarations and the discrepancies into the message store, it's unable to do that, presumably because this lock is held and so it can't write into its own message store.
 
@@ -2506,6 +2552,8 @@ Can you explain what you understand Mr Jarosz to be saying there?
 .. rst-class:: indented
 
 **Anne Chambers**: That is possible.  Certainly if it was the same -- at the same point in time, we'd almost certainly notice just because you would be keeping an eye on the other calls that were open and you would see if somebody had a similar call, or the pre-scanner would say, "Ooh, I've just given one that looks like this to so and so", but if they were, you know, several weeks apart you would not necessarily make those links.
+
+.. rst-class:: indented
 
 Having said that, in -- certainly, we did talk to each other, and so we often did have a pretty good idea of other things that were happening so you would get some sort of an idea of, you know, "Oh, there's another one of those sort of problems", but it wasn't being formally measured or managed.
 
@@ -2646,6 +2694,8 @@ Why was the KEL signed off in this way?
 .. rst-class:: indented
 
 **Anne Chambers**: Firstly, I'd say I'm wondering if that's some sort of administrative update, given that we were just about to go live on to HNG-X in 2010 at that point, and go fully live.
+
+.. rst-class:: indented
 
 Um, I think we very occasionally did continue to see just a single event at odd times, but not the event storms that were happening during the balancing process, which we saw up to 2006.
 
@@ -2913,6 +2963,8 @@ Then if you look down the rest of the PEAK, the trail seems to go cold, nothing 
 
 **Anne Chambers**: Yes, if they had been aware that there were discrepancies, that they had persisted through the event storm and had managed to balance and it looked as if they did have discrepancies as a result, then I probably would have recorded it.
 
+.. rst-class:: indented
+
 If I had looked and seen that either they'd realised they'd had a problem, had phoned for advice and had rebooted and then done their balancing, I probably wouldn't have recorded that.  But since I didn't record anything, I don't know.
 
 **Mr Beer**: Were you essentially relying on subpostmasters to spot a problem and call it in?
@@ -2920,6 +2972,8 @@ If I had looked and seen that either they'd realised they'd had a problem, had p
 .. rst-class:: indented
 
 **Anne Chambers**: I certainly think at this time, with this problem, we did assume that they would notice that -- either that they were getting error messages, as we saw in one of the PEAKs you just showed me, where they got error messages because they couldn't commit the declarations or whatever else.  So they'd definitely know they had a problem in that case.
+
+.. rst-class:: indented
 
 In other cases, we certainly did get some where they phoned in and they said "We're balancing, our figures are all over the place", and then the Helpdesk would advise them to reboot and then it would be okay when they restarted.
 
@@ -2951,9 +3005,15 @@ So there you're essentially describing, in a single paragraph, the operation of 
 
 **Anne Chambers**: Yes, I would have informed MSU because this call was not raised by the postmaster but because of an entry on one of the reconciliation reports. At this point in time, the cash account was -- so when the branch balanced, they did their balance reports and then they produced a cash account on the counter, but the cash account was also reconstructed at the data centre from the transactions that had been harvested -- had reached the data centre, and a comparison was done, line by line, to make sure the two were in step.  And in this case they weren't because the data centre, when it did its recalculation, knew about these counter 3 transactions, which hadn't been picked up when the branch cash account was produced.
 
+.. rst-class:: indented
+
 So there was a mismatch, and a reconciliation call was raised to investigate why that had happened.
 
+.. rst-class:: indented
+
 So in this case, that's how we knew about the problem.  I did phone the branch to see what had happened, you know, whether they had realised there was a problem.  They had put these transactions in again, because they didn't think they'd had them once, but then, because the original transactions hadn't been included in the accounts for the period that they'd just balanced, they automatically got carried forward and then were picked up in the new period.
+
+.. rst-class:: indented
 
 So, in order to avoid them going through twice, she was then able to do a reversal on them, which sorted out her branch accounts.  But obviously, yes, there was still a system problem.
 
@@ -3179,9 +3239,15 @@ So some pretty direct and pertinent questions there from Mr Turner, yes?
 
 **Anne Chambers**: Yes.
 
+.. rst-class:: indented
+
 "Sandra/Brian -- Appreciate this is frustrating for the branch but from the email below you can see that the branch's issue should be fixed for the release of the S90 software. I have asked Gary above to see if we can put this branch to the front of the queue ... In the meantime it is important that the branch continues to report any issues into [the Helpdesk]."
 
+.. rst-class:: indented
+
 So the four or five rather pertinent questions that Mr Turner asks, if we scroll up, please.  We then see these getting passed around within Fujitsu.  Keep scrolling, please.  Keep scrolling -- keep scrolling.
+
+.. rst-class:: indented
 
 We can see an email from Mike Stewart to Mr Simpkins, copied to you.  Why were you copied in?
 
@@ -3350,6 +3416,8 @@ Of the five or six-year period that we're looking at, for how long had you thoug
 .. rst-class:: indented
 
 **Anne Chambers**: Um, it was -- nobody was managing it as a problem.  It was almost impossible for SSC staff to see which calls were with Escher and who was progressing those, because they sort of went on to a separate PEAK stack, which I now know, yes, we could see but I don't think at the early days I knew quite where it was.  And it wasn't SSC's job, really, to be monitoring those, but I'm not sure whose job it was.
+
+.. rst-class:: indented
 
 Yeah, I think if we'd appreciated that nobody effectively was looking at this for all that time, we would have flagged it up and jumped up and down.  But that realisation just didn't come until late in the day when, finally -- you know, we did send a call over. It did get picked up, eventually, and sent to Escher and they did produce a fix.
 
@@ -3605,6 +3673,8 @@ Was that true, this difficulty, having that separation?
 .. rst-class:: indented
 
 **Anne Chambers**: Yes.  I mean, we had no ability to find out what was actually taking place at the branch.  I'm not necessarily saying it was their -- they were making errors that were causing these problems but where we were checking, by one means or another, that the system was correctly calculating discrepancies based on the transactions that had been recorded on the system for the branch, then if that calculation and those checks show no problems, then you've got to try to find out what has been recorded in the branch accounts or what is missing in the branch transaction list which is causing the discrepancy.
+
+.. rst-class:: indented
 
 And unless you've got some way of going to a branch and actually finding out what should have gone onto the system, then you cannot identify the cause of the discrepancy.
 
@@ -3974,7 +4044,11 @@ I suppose the question that I'd like to ask is how would it be possible to see, 
 
 **Anne Chambers**: Right.  In the :abbr:`ARQ (Audit Record Query)` data, you would see, when the initial problems were happening, the SAP -- stock adjust positive and stock adjust negative -- lines that related to where they were trying to adjust their stock of Postal Orders which they'd documented, and it was in there that the amounts got out of step in that one, for the Postal Order itself it was for a certain quantity, and for the fee it was for a different quantity.  So that's where the problem arose.
 
+.. rst-class:: indented
+
 And then, in the ARQ data for 11 July, you would see the transaction also affecting the postal -- presumably affecting the Postal Order fees product, which I'm guessing now, but I imagine was another stock amount -- stock adjust transaction for the difference that was wrong.  Whether there is anything on that individual message which, in the ARQ data, enables you to know that it was me who did it and not somebody at the branch, I do not now know, because I have got no record in this PEAK here of exactly what it was that I inserted.
+
+.. rst-class:: indented
 
 It's possible, as I said before, sometimes we used a dummy counter number.  Sometimes we inserted a comment, but that is not necessarily going to be visible in the ARQ data as retrieved.  Sometimes we used a username to try and make it obvious that it was SSC who had made the change but it's not recorded on the PEAK here precisely what was done.  Those messages would have been captured somewhere and recorded for posterity but I don't know where.
 
@@ -4048,6 +4122,8 @@ Is that a practice that rings a bell?
 
 **Anne Chambers**: I don't explicitly say that, but I imagine I would have explained to him what I had done, and that I had removed the transfer, which I -- I mean there's -- it's -- I'm not clear from this whether I wrote a pair of corrective messages that actually removed -- how would it have done it?  Um, I'm not clear.  Further up in the call there was mention of an EPOSS transfers object and suggesting that that needed to be rewritten in order to let this progress.  So I don't know if that's what I actually did, or whether I did insert a pair of opposite messages to undo the transfer that was outstanding.
 
+.. rst-class:: indented
+
 I certainly wouldn't have hidden from him the fact that I was changing something on his system which would remove this transfer that was preventing him from balancing his office and continuing to trade, to do his normal business.
 
 **Ms Page**: Not hidden, but maybe not mentioned in the sense that it's not recorded?
@@ -4056,6 +4132,8 @@ I certainly wouldn't have hidden from him the fact that I was changing something
 
 **Anne Chambers**: It's not written down but that doesn't mean I would have said it because I usually did. I didn't make a secret of the fact that system problems happened, and I think it was perfectly -- I'm sure it was perfectly clear to him that there had been a system problem to do with a transfer which I then -- and then, once I had done whatever it was I did, the transfer that he didn't -- that was stopping him had been removed in some way in order for him to progress.
 
+.. rst-class:: indented
+
 The fact I didn't write it down does not mean I said absolutely nothing to him. I certainly wouldn't have phoned him back and said, "Oh look, it's miraculously all okay now, you don't need to bother any more".  I wouldn't have approached it in those terms, but I do not know precisely what I said to him.
 
 **Ms Page**: Well, a system problem is one thing, but actually inserting transactions into the data that's stored on his counter is a different thing, isn't it?  If it's not written and recorded here, how would he -- how would posterity ever know that you'd ever said that to him and told him that's what you were doing?
@@ -4063,6 +4141,8 @@ The fact I didn't write it down does not mean I said absolutely nothing to him. 
 .. rst-class:: indented
 
 **Anne Chambers**: If I'd known posterity was going to be asking I would have written it down.  But I don't know if there's any more information in the OCR. That certainly would make it clear exactly what it was that I did.
+
+.. rst-class:: indented
 
 Whether I explicitly said, "I have removed the transfer, I have accessed your counter transactions and removed the one that was causing the problem", which is effectively what I'd done, I'm not sure it even needed saying. I would have thought he would have realised that that was what I had done.  But I cannot -- I do not know what I said.
 

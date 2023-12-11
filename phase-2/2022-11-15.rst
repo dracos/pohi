@@ -99,6 +99,8 @@ Questioned by Ms Hodge
 
 **Robert Booth**: ECCO+ was a computerised system which would assist the directly managed branches within Post Office to do their accounts, to do basic transaction capture, and at the time it ran on a PC per counter and was probably the first proper automation at Post Office branch.
 
+.. rst-class:: indented
+
 There had been previous attempts with a thing called Thames Valley, which was before my time there, and at the time PCs were relatively new, and subpostmasters were buying other systems to assist them with their manual balancing, but it was still very much a paper based system and ECCO+ was starting to move into an automated world.
 
 **Ms Hodge**: In your view, was ECCO+ a successful automation project for the Post Office?
@@ -231,6 +233,8 @@ There is reference in some of the documents we've obtained to joining the progra
 
 **Robert Booth**: It was a two-way exchange, I think spread over about six to eight weeks, where we would engage with the service providers on a one-to-one basis.  It was, some of the documents you recently provided, based on a Tuesday, Wednesday and Thursday, with ICL Pathway being the Wednesday service provider meeting.  It was there for us to gain an understanding of their proposed solution and to try and shape anything that we thought would give them problems.  Where they had a misunderstanding, they could ask for clarification questions, and we could also give them guidance.
 
+.. rst-class:: indented
+
 We'd invite them, or suggest that they may wish to look at certain areas.  At the time the Post Office head office was up in Old Street, and some of the service providers had seen the Old Street Post Office which was a multi-position, what we call a fortress.  So it had glass partitions in front.  But we did point out that the Post Office was a very diverse, and still is a very diverse retailer with multiple different types of branch, and we encouraged them to visit their local branch and, if they are out for a drive on a Saturday, "If you see a post office sign, stop, go in and look at it, get a feel for it", because a Spar, a corner shop, and a Trafalgar Square multi-counter branch are very, very different environments.
 
 **Ms Hodge**: What distinguished the Post Office counter structure strand from the other strands, the other demonstrator strands that were operating at that stage?
@@ -238,6 +242,8 @@ We'd invite them, or suggest that they may wish to look at certain areas.  At th
 .. rst-class:: indented
 
 **Robert Booth**: The infrastructure strand was less defined from a business perspective.  It's like you turned a light switch and just expect the lights to come on.  You don't necessarily think about how the light has to come on. You don't think about the wiring, the power station the distribution network.  The infrastructure was about getting all those pieces in place so the things the Post Office were concentrating on, such as the EPOS system, such as the things that the users would touch and feel, they would all be supported by the POCL infrastructure.
+
+.. rst-class:: indented
 
 So we would make sure and try and assure ourselves that the communications to the branches were sufficient, that the data centres were resilient, that the service provider understood that in an estate the size of the Post Office, if you think it can go wrong, it would go wrong, and you needed to be defensive and you need to be resilient because, kindly, anyone can program something that's going to work in a perfect world but we're not in a perfect world, and it was trying to make sure the service providers understood the reality of the environment they were working in.
 
@@ -259,7 +265,11 @@ So we would make sure and try and assure ourselves that the communications to th
 
 **Robert Booth**: I think they were more defensive of their solution and didn't want to listen to the complexity.  They had more of a fixed world view about: this is the solution we're proposing; it will work.
 
+.. rst-class:: indented
+
 The other providers were more structured and more amenable to listening and to understanding why we were trying to say, "Have you thought about", because ultimately the service provider solution was their solution.  We were not designing it, we were not going to be responsible for it; it was the service provider's call about how they did things.  All we could do is try and highlight was that walking over glass in bare feet wouldn't be a good idea; "Maybe you should get some flip flops.  Have you thought about it", and trying to highlight those kind of things to them.
+
+.. rst-class:: indented
 
 We did have one meeting where the owner chief -- I think probably the owner of Escher who were providing a key component came in.  He was much more technically aware of the system, it being was his underlying software that was being used.  His view was much more that technology could solve it if you threw more technology at it.  The ICL Pathway people were more aware of the business implications, building a solution to a price.
 
@@ -268,6 +278,8 @@ We did have one meeting where the owner chief -- I think probably the owner of E
 .. rst-class:: indented
 
 **Robert Booth**: Yes.  So the format of the meeting would be on the day we would have -- we would notify the service provider the preceding week about the topics for the next week, thus giving them time to prepare material at everything else they needed.
+
+.. rst-class:: indented
 
 We would attend the meeting, and that evening the notes I'd taken, notes that Jeremy who I was working with had taken, we'd collate.  That would be over a dial-up modem exchange of emails.  It wasn't connected as it is now; we didn't have Teams or things.  Then on Friday those would be finalised into the form that was provided to me last week.
 
@@ -311,7 +323,11 @@ Does that reflect, in effect, the absence of a detailed requirement from the spo
 
 **Robert Booth**: That was because the use of TCDs was where Post Office were moving to open plan.  That was very much an experiment to see how the format would work.  It would need more space.  It had other constraints about accepting mails because, if you give me a lot of parcels and I'm sitting here, where do I put all the mail?  If I have to get up and put it in a secure place, which I need to because obviously we don't want another customer taking your package, that means that I need to have secure storage around me.
 
+.. rst-class:: indented
+
 For that reason the open-plan concept was tried, it had some problems, and it did not at that time look like it was going to go forward.  Therefore, there was no requirement for it.
+
+.. rst-class:: indented
 
 If we needed to move to an open-plan format, we would have introduced it under exchange control.
 
@@ -371,6 +387,8 @@ Were you concerned at this stage about Pathway's ability to manage the project?
 
 **Robert Booth**: I think this reflects a concern and a benefit.  The concern was that you should have -- if you're presenting to the customer, you would have a pre-meeting, you would agree the company line and you'd toe it.  You'd make a decision whether you agreed with it or not, that is the decision, that is what you are going to tell the customer -- in a bid phase especially.
 
+.. rst-class:: indented
+
 The benefit was seeing some of these divisions actually exposed more about the solution than we'd otherwise be able to obtain, because it wasn't so polished.  We actually -- "What do you mean by that" kind of question, and get a little bit under the skin, which we had been denied at the time.
 
 **Ms Hodge**: A further issue identified there at the 5th bullet point was a general problem in relation to documentation; do you recall that?
@@ -399,6 +417,8 @@ So the same attendees on behalf of Benefits Agency and Post Office Counters.  We
 
 **Robert Booth**: Both within a data centre and a distributed estate, you have computers as we have in this room.  System management is about: how do you update those computers; how do you keep them current?  So, if we need to put a new version of software or update the operating system, update the anti-virus, how do we do that?
 
+.. rst-class:: indented
+
 So systems management is about how you manage your system, how you push out updates, and how you discover what is on a computer so that you know what your estate consists of.  It also applies to your data centre elements as well.
 
 **Ms Hodge**: Would that extend, for example, to dealing with faults and defects that might be detected during the course of live operation, for example?
@@ -412,6 +432,8 @@ So systems management is about how you manage your system, how you push out upda
 .. rst-class:: indented
 
 **Robert Booth**: TMS, I believe, stands for transaction management system.  It was a central component within the ICL Pathway solution and, where you have at the time around 40,000 counters talking into a data centre, even today that's a large number.  Back then it was a very large number.  The Riposte product we had seen had been used in An Post, which is a much smaller Irish Post Office than the UK Post Office, and therefore we were saying, "Well, how will it work?  Have you got enough horsepower to drive the system?  Will it be performant?  Will you come across problems where a day's job takes 25 hours", and, you know, you just can behind and never catch up.
+
+.. rst-class:: indented
 
 So this was looking at how big TMS would be and, if it had problems, how would you scale it up, how would you make it bigger so that it coped with additional load, because one of the other things you can look at in a system is you can start a system small and, as you add counters, you can grow it out.  So we were trying to understand what ICL Pathway's approach was to making sure their central system was up to the job.
 
@@ -475,6 +497,8 @@ Does this reflect your ongoing concerns at this stage about the success of your 
 
 **Robert Booth**: It was one of clarification and almost compromise.  If you have a requirement to do something, you may have phrased it in a way that leads to a certain solution, but there may be an alternate solution that has the same outcome and, if that is easier for the service provider to provide and the outcome is the same, you can adjust your requirement wording such that the outcome is the same even though it's arrived at by a slightly different method.
 
+.. rst-class:: indented
+
 So it was a win-win for us.  We would have a service provider that had something that fitted their solution better, but we would still have the outcome that we required fulfilled.
 
 **Ms Hodge**: Earlier in your evidence, when we were discussing your involvement in the ECCO+ automation project, you described that that project involved a great deal of input from those working at the counter, as I understand it.  How did that contrast with the approach adopted here in relation to the Horizon IT System?
@@ -482,6 +506,8 @@ So it was a win-win for us.  We would have a service provider that had something
 .. rst-class:: indented
 
 **Robert Booth**: The Post Office people that were interfacing with ICL Pathway, several of those were ex-counter.  So the experience, the real-world experience was there.  They were generally from the directly managed branches, but ultimately the Post Office had the same accounting requirements across all its branches.
+
+.. rst-class:: indented
 
 So the expertise was available to ICL Pathway. How they used it changed.  There was a rapid-application approach at one stage where colleagues in my office would effectively disappear for the day and sit down with ICL Pathway to try and come up with mutually beneficial outcomes, which met both the business requirements and fitted in with the ICL Pathway solution.
 
@@ -502,6 +528,8 @@ So the expertise was available to ICL Pathway. How they used it changed.  There 
 .. rst-class:: indented
 
 **Robert Booth**: It was still on the infrastructure primarily, then moving on to how it would interface with the Benefits Agency, who were developing their own back-end systems, so it was how system to system would work.  The counter behaviour was effectively a given.  You have a given token, it has to go off and be verified, and you pay money.  That's sort of relatively straightforward and constrained.
+
+.. rst-class:: indented
 
 It's getting those transactions into the data centre and then interfacing off to the Benefits Agency where they were, I think, trying to consolidate 17 systems into one, to give a single-payment view, and it was looking at how that interface would work with the Benefits Agency.
 
@@ -541,7 +569,11 @@ So far as the back-end interface of Post Office Counters was concerned, this was
 
 **Robert Booth**: When a transaction is undertaken at a branch counter, it's captured and fed back to the data centre.  There was then a harvesting process that would collect that day's transactions and send them off to the TIP process for distribution on to the automated payment client at that time.  That may have been actually using HAPS, the host automated payment system.
 
+.. rst-class:: indented
+
 I'm not quite sure of the split because now things have kind of merged, so I'm a bit hazy on that, I'm afraid.
+
+.. rst-class:: indented
 
 But the work was basically to try and make sure that what came in went out.  So, if I did ten transactions at the front end, we deliver ten transactions at the back end.
 
@@ -562,6 +594,8 @@ But the work was basically to try and make sure that what came in went out.  So,
 .. rst-class:: indented
 
 **Robert Booth**: Feltham, I think the best way to describe it, was divided into sort of four areas.  There was the common area which was the canteen, et cetera, which facilities you could access.  There were -- there was then, as you came in, on the right-hand side, there was the BA POCL office to which we had access, but Fujitsu staff did not, and the rest of the building was Fujitsu staff only.  So we did not have access to the rest of the building and, if we wanted to go and see somebody, we'd have to phone them and they'd meet us at the door and buzz us through and escort us out.
+
+.. rst-class:: indented
 
 There were different arrangements, I believe, set up for the testers, that they had what was known as Chinese walls set up, such that we had Post Office staff doing testing, but they did it on the basis that what they found out there was not necessarily shared.  Now that's my recollection which may be incorrect.
 
@@ -635,6 +669,8 @@ We've addressed the first part already, so the question of your access to low-le
 
 **Robert Booth**: In a software life-cycle, you will generally have designers setting out the shape and direction of where they want the coding to go.  You'll then have the programmers taking that design and working down to a lower level and actually implementing it, and then doing unit testing to say what they've implemented meets the design and, generally, previously on previous projects, you get how many tests were run, how many tests passed first time, and from that you can get a judge of not just the quality of the code but how close to the design it is, and you then expect a quality-assurance function to come in and to check-step it, to make sure that Bob's view of -- that he's coded what's been asked and it's 95 per cent of the test passed first time is correct, and you get that quality assurance, and you would then be able to say, "Oh, Bob isn't as good at coding as Fred is, so we need to do some mentoring", and be able to look at those areas, or it may actually highlight that designs are not clear enough and the programmers need more guidance.
 
+.. rst-class:: indented
+
 It may highlight a lack of testing environment, or a lack of supporting test material to adequately test the units and, as things from units move up and get integrated with other units, it may well be that you find that all the wheels are perfectly round, but they are the wrong size for the car, and that then highlights a different problem.  We didn't get any of these metrics, so we couldn't see how well the software life-cycle was being adhered to and how good or bad it was.
 
 **Ms Hodge**: What did you consider to be the reason for why you couldn't obtain that level of insight?
@@ -642,6 +678,8 @@ It may highlight a lack of testing environment, or a lack of supporting test mat
 .. rst-class:: indented
 
 **Robert Booth**: I think there were probably two factors.  The first factor was, "It's contractual.  Go away.  This is the boundary, you shall not cross it."  Actually it's probably -- the next words were, "Why are you interested?  We're the professionals here.  Leave us and let us get on with it.  Every time you ask us a question, you are diverting us from actually doing the work.  So, if we keep answering your questions, we'll never get anything done", and that was played out quite a lot.
+
+.. rst-class:: indented
 
 I think that, from some of the things that I've gleaned more recently, they probably didn't have that material to hand.
 
@@ -661,11 +699,19 @@ Can you explain that in a little more detail, please.
 
 **Robert Booth**: It kind of follows on from what I was saying that, if it took them ten goes to get a bit of code right to add up two numbers, we wouldn't see that.  We'd only see that the numbers were adding up correctly now.
 
+.. rst-class:: indented
+
 When user testing began, that was our testers in Post Office uniforms, so where they could share the information they found, actually testing the system and testing it from the user perspective.
+
+.. rst-class:: indented
 
 I think I mention elsewhere that that means that we couldn't test some of the technical break points, and failure conditions in particular, which require programmer intervention.  So by that, if I send a message and I don't get a response, I need to do something.  From a user perspective, I can pull that wire to stop that message, but I don't know if I've pulled out that wire before it's been sent, so has it reached the end and I haven't got the reply, or did the request never get there, because, if the request never got there, the person I'm talking to doesn't know about it, so they've done nothing.
 
+.. rst-class:: indented
+
 If I've asked -- let's say I've asked you for £100 and you have got that request and you set back "yes", if I don't get back your "yes", well, I won't pay that £100, but you will have affected the account by £100. So those kind of technical tests and failure conditions would need Fujitsu intervention to force them, because the user couldn't actually repeatedly do these kind of tests, they couldn't force the failure conditions in a repeatable manner, and they couldn't force all of the failure conditions you would expect a unit test to do, because a system talking back to us may have 50 or 60 return codes that it can return which have different behaviours at the counter depending on what they say.
+
+.. rst-class:: indented
 
 We would need a system, an emulator, to give those return codes back, and we would be dependent upon Pathway to write that emulator, provide that emulation so the behaviour at the front end could be confirmed as correct.
 
@@ -681,6 +727,8 @@ We would need a system, an emulator, to give those return codes back, and we wou
 
 **Robert Booth**: The user acceptance testing was effectively what an end user would typically experience.  So can they sell a stamp?  Does it appear with the right price?  Does it -- do all the stamps in the basket add up?  Do they go to the right place in the cash account?  When I'm doing an online transaction, when I'm presented with a magnetic card, does it recognise that, yes, we support that card, it is a Herts County Council card, that should have Herts County Council on the receipt.  It should allow you to pay up to £1,000.  Are all those elements correct and working?
 
+.. rst-class:: indented
+
 So really it's very much the end-user experience, with some failures, and where emulators and simulators are available, with not always a proved verdict coming back from a request -- I'm asking you for £100 but I don't have it, you will send back a decline.  So certain behaviours, you can emulate, but it wouldn't give all of the failure conditions.  It wouldn't allow us to check that the defensive programming that needs to be in place in any system was in place.
 
 **Ms Hodge**: It's right, is it not, user acceptance testing didn't represent the end of the testing process so far as Horizon was concerned?  There was further testing of the system that we know as model office and end-to-end testing.
@@ -688,6 +736,8 @@ So really it's very much the end-user experience, with some failures, and where 
 .. rst-class:: indented
 
 **Robert Booth**: So model office testing is actually -- the model office is actually several offices.  They are real offices, they are live offices, they're not test offices.  They are there to prove that tested software has been promoted into the live environment correctly and it works correctly when it's in that live environment.
+
+.. rst-class:: indented
 
 If we look at things as we did later with banking we can test against the simulator and we can test that a £50 withdrawal will work or won't work.  But, when we can then connect it up to the real bank and we get back a balance enquiry, that is making sure that the systems work end to end, but the model office is a real branch, it does real transactions, it affects real accounts.  It is not there to test.  So before it goes into model office we have high confidence that it will work properly.
 
@@ -697,11 +747,19 @@ If we look at things as we did later with banking we can test against the simula
 
 **Robert Booth**: We're between a rock and a hard place, I think.  We had exhausted the testing evidence we could get from Pathway.  We had done user-acceptance testing which proved that generally it would work correctly.  We had no highs.  So for acceptance we would have three categories of fault.
 
+.. rst-class:: indented
+
 We have a high fault.  That's catastrophic, you can't go live with it.  Fundamental flaw, no way it's going out the door.
+
+.. rst-class:: indented
 
 You would have medium-severity faults.  These are ones that are significant but would have an acceptable work around.  It may mean you have to do something in addition, do something differently, follow a procedure to make sure that things work, but generally the work-around would be acceptable.  There would not be more than, I think, ten of these because ultimately a work-around is not natural behaviour, and we couldn't rely on people doing work-arounds.  We couldn't rely on system work-around because they weren't always human ones.
 
+.. rst-class:: indented
+
 Then we would have low ones where we may not have receipts lined up correctly.  So the text may be a bit wobbly -- cosmetic effectively.  Again you wouldn't want too many of those because, at the end of the day, it's a professional system.  It's customer and facing real people and, if you have got typing errors and spelling errors in a product, you would start to wonder if what was underneath it was right.
+
+.. rst-class:: indented
 
 So those would be the categorisations, and model office would be: it has no highs, it has -- and it may have some mediums, and they would then try and execute the scenario to cause that failure and then implement the work-around, confirm that it works in the real world because, again, we've done it in a testing environment, we need to make sure that it translates to the real world, to the live world.  From that the end-to-endness would happen because that model office real-life branch has gone from its counter, through the live data centre to the live account, live client, and we've got an end-to-end balance, and we can check that the invoice we give to that client at the end of the day matches what we've done at the counter, so it gives us our end to end.
 
@@ -907,6 +965,8 @@ Is it likely that you were invited to review these documents as part of your rol
 
 **Robert Booth**: I was unclear about how they would amend but, having been around IT systems, ultimately the systems administrator can always go in and, no matter what controls you've got, if they have a high enough level of privilege, you can do whatever you like.  So -- not whatever you like, but you can always get into a system.
 
+.. rst-class:: indented
+
 It's then around the integrity of the data and the tooling, to make sure that any changes are audited. I can't remember if this document -- or it was common understanding was that changes would be four eyed i.e. you would have two pairs of eyes on it, so that one person was doing the change, another person would look at the change to make sure they only change what they said they were going to change and there was a record of that.
 
 **Ms Hodge**: From what you have just said, it seems to be that your experience from working in programming and other automation systems was that this type of remote access to transaction data was quite common -- is that right -- it was a necessary component of a system of this type?
@@ -914,6 +974,8 @@ It's then around the integrity of the data and the tooling, to make sure that an
 .. rst-class:: indented
 
 **Robert Booth**: There would be two types of access.  There would be the read-only for investigation, which would be more common, because that would enable you to find any underlying issues, and it would also allow you to do enquiries which were not -- you could run a report that wasn't otherwise there for you.  So, if you wanted to know how many branches had an odd number of counters, there wouldn't be a report for that but, if you had access to the data, you could go in and find it.
+
+.. rst-class:: indented
 
 Where amendments are made to data, generally that would be done via an auditable tool, rather than just going and over-typing data, which I think may have occurred later, from some of the -- especially just before the break, some of the handcrafted fixes and files we saw, generally I'd have expected tooling to have done that rather than a manual process.
 
@@ -928,6 +990,8 @@ Where amendments are made to data, generally that would be done via an auditable
 .. rst-class:: indented
 
 **Robert Booth**: Yes.  Well, there may have been a naiveté amongst the non-technical people, but anyone who has a technical background will know that, if you have sufficient privilege, you can go in and look at the data, and you can amend the data.
+
+.. rst-class:: indented
 
 The integrity of the data and the integrity of the database that you need to put around it to protect that, and controls you need to put on such that you know that this user with those privileges has logged on at that time, you'd know where they were in the system and, having an audit of what they've done, that was the controls that you'd put on top of it.
 
@@ -949,7 +1013,11 @@ The integrity of the data and the integrity of the database that you need to put
 
 **Robert Booth**: With the documentation and things, I was involved in acceptance incidents that were brought to our attention and managing out of the system.  So a defect would be raised, it would be qualified as: is it a defect or as Pathway would like to say, is it a feature?  So is it a true defect that needs remedy, or is it just misinterpretation?  Then what is the material impact of that?
 
+.. rst-class:: indented
+
 I go back to my high, medium, low type criteria. Is it a service stopper, is it service impacting, or is it just an annoyance?
+
+.. rst-class:: indented
 
 From that they would then be tracked down with the intent of clearing as many as possible, obviously before going live because you don't want a system with known defects in it.
 
@@ -971,13 +1039,23 @@ From that they would then be tracked down with the intent of clearing as many as
 
 **Robert Booth**: There was some sympathy that the system would lock up and freeze.  PCs of the day were less reliable than they are now, and there was at the time -- "blue screen of death" was an industry phrase because of Microsoft's frequency of locking up and freezing.
 
+.. rst-class:: indented
+
 From some of the material, it's obvious that we were suffering similar kind of behaviours, and occasionally we'd have an hour glass come up where the system was busy and effectively would hang, meaning that the users couldn't use the system.  This went on for several months.
+
+.. rst-class:: indented
 
 Pathway were in denial at some stage of the extent and the impact of the problem.  The issue you have is, if your machine is effectively hung, the only way you can unhang it is to turn it off and turn it on again and, when you do that, you run the risk of corruption.
 
+.. rst-class:: indented
+
 You also then have an unknown account rate because Pathway would not put in something that would say, "This machine has just started up", and collect those metrics automatically, which would have been something we would have asked for and would have been a reasonable thing to say how often is this happening in the estate.  They would much rather turn to Post Office and say, "Can you phone round your branches and ask them how often they are rebooting."  So there was, in my view, a simpler technical measure that could have given us a very accurate picture, but Pathway would prefer us to do a manual, more -- less accurate, more onerous phone-round to find out what was happening.
 
+.. rst-class:: indented
+
 The eventual solution -- in the same way that Microsoft even today suggest you don't leave your machine turned on and hibernating, but you turn it off regularly -- was to instigate nightly reboots such that the machine would reboot itself each night on the belief that the problem was due to running out of resources. So that I keep on -- I don't know what the root cause was but, say I keep on opening a file, so I have a file open, and I have consumed one opening.  If I don't release that opening, if I open it again, I've consumed 2, I've consumed 3, I've consumed 4.  I can only consume so many before I run out of them, and then I would hang.
+
+.. rst-class:: indented
 
 If you restart your machine each day, you always start at 1 and, by the end of the 23 hours and 59 minutes, hopefully, you haven't got to the big number where you would have hung.  So by restarting it regularly, it means -- you still have the problem, but you don't have the consequence of that problem.
 
@@ -1025,6 +1103,8 @@ So we see here AI211 receipts not equalling payments, and there's a reference to
 
 **Robert Booth**: I would suggest that the medium to low was contested, and I had reason to say that it shouldn't be moved down to a low, that it should be maintained at a medium severity incident.  But without that memo, I'm afraid can't substantiate that.
 
+.. rst-class:: indented
+
 On terms of the reasoning, it would suggest that the software that was put on the counter was not the correct build because it was a swap-out and therefore a bug that had thought to have been cleared was reintroduced because it was on old software.  That's my reading of what's in front of me.
 
 **Ms Hodge**: Was that a problem of which you were aware, namely the risk of reintroducing bugs that had previously been fixed?
@@ -1052,6 +1132,8 @@ Finally before we move on to another topic, although you were not directly respo
 .. rst-class:: indented
 
 **Robert Booth**: All AIs were of concern.  As we lovingly called it, the route to green.  So to get them to be a green light you could go ahead with was to rectify them.  So having an Acceptance Incident was bad, but it did mean that the fault had been found and, if you find something that's wrong, you can fix it.
+
+.. rst-class:: indented
 
 So the volume of AIs was disappointing, but what was important was, before going live, the volume that were left outstanding and the type that was left outstanding before going live --
 
@@ -1251,6 +1333,8 @@ To your knowledge, were those in the fraud and security group kept abreast of th
 
 **Robert Booth**: Because the Acceptance Incidents, the only involvement in terms of the witness statement was the a commercial one.  It wasn't the provision or the underlying data and, therefore, that wouldn't have been relevant to the actual Acceptance Incident.
 
+.. rst-class:: indented
+
 The security forum or, if you like, the people who were X from the fraud risk management, would have had other ways into the service, I believe, and other liaison points.  The focus was very much on each individual Acceptance Incident and not widening it out. It was trying to close it down rather than trying to cascade it out and make it bigger.  Does that make sense?
 
 **Ms Hodge**: Yes, I think so.  In relation to closure of AI 370, we saw in the earlier plan for closure that one of the avenues for closure was into the business service management.  Is it likely that AI 370 would be one of the Acceptance Incidents that were resolved in that way?
@@ -1312,6 +1396,8 @@ Does it follow from this that you were expected in effect to carry forward the s
 .. rst-class:: indented
 
 **Robert Booth**: More generally.  I mean, that was the start obviously, when things would have been more under a microscope. But as more and more users -- because you need to realise that, if you test a system with a team of sort of the 5/10 testers, you get 5 or 10 man-days.  You put it out to 300 branches as a live trial and there's three people, you are getting a thousand man-days a day.  So the scale of exposure a system gets when you start putting it out into the real world is far, far greater than you get in a test environment.
+
+.. rst-class:: indented
 
 We would get feedback from users, such as the hanging, which were not really experienced because we probably didn't do enough duration and leaving the machine on long enough before a patch would occur to a machine such that it would reboot and clear things. But, when it was being used in the field, these were being experienced.  So again slight difference between live and test.
 
@@ -1392,6 +1478,8 @@ So, in other words, what you were saying was that, before the Benefits Agency dr
 .. rst-class:: indented
 
 **Robert Booth**: It had undue weight, in my opinion.  The Post Office had 180/190 products.  Benefits Agency was one of them.  The Benefits Agency made it very clear in their day-to-day workings beside us as colleagues that they viewed us, the Post Office, as the junior partner and that it was only because the Benefits Agency was there that the automation was occurring.
+
+.. rst-class:: indented
 
 Where effort was to be expended, the pressures from the two contracting authorities, one who had one product, one who had 180, it wasn't 180 to 1, it was more sort of 1 to 1.
 
@@ -1713,7 +1801,11 @@ How did you feel this lack of visibility of design documentation impacted on the
 
 **John Meagher**: Well, we had understood that -- and I've got no evidence necessarily for this but this was our understanding -- we'd been invited by Terry Austin to participate in what he called joint working, because of pressure of timescales.
 
+.. rst-class:: indented
+
 We had a large team down in Feltham, about a dozen people, some of which were involved in the Benefits Agency application, some of which were involved in the POCL applications, providing clarifications to Pathway. We had a number of workshops with Pathway on the clarification of the applications, but we had nothing upon which to judge their interpretation of what was being said at these workshops.
+
+.. rst-class:: indented
 
 What was your question again?
 
@@ -1841,6 +1933,8 @@ That's end to end and model office testing?
 
 **John Meagher**: Well, frequently the path into some of these test phases, particularly model office, is often through the procedures, because the model office test phase was designed not -- it wasn't simply a technical test, it was designed to test the system, but also the interaction between the system and the user and the procedures that the user had, okay?
 
+.. rst-class:: indented
+
 So -- which is what I suspect the type B may be, an earlier stage of approval of those procedures. I think that's what's being referred to here.  Does that make sense?
 
 **Mr Stevens**: It does.  Thank you very much, yes.
@@ -1868,6 +1962,8 @@ At that stage what were your reasons for wanting to cancel the project?
 .. rst-class:: indented
 
 **John Meagher**: Okay.  Well, the role of the Horizon acceptance manager was to first of all negotiate the Horizon process.  So to obtain agreement from all of the different parties, to obtain agreement on the acceptance specifications, and then to ensure that that process was operating.
+
+.. rst-class:: indented
 
 So it was a process responsibility rather than being responsible for the content of each of the acceptance specs.
 
@@ -1913,7 +2009,11 @@ We've heard evidence that ICL Pathway and the Post Office subsequently entered t
 
 **John Meagher**: Well, I think there was a danger with acceptance that -- number 1, that acceptance could be interpreted as being that the system was, that everything was rosy.  You know, you could -- in fact, I think -- I'd have to defer to someone on the contract side, but I think, for instance, if we didn't raise Acceptance Incidents during the allocated period, then acceptance was by default. So it was incumbent on us to raise Acceptance Incidents, and the severity was something that was frequently discussed.
 
+.. rst-class:: indented
+
 A high Acceptance Incident would be something that would have an across-the-board impact on customer service, on the integrity of the data, those types of issues.  So if the -- in fact, I mean, I can give you no better definition really than, if you refer to the three high Acceptance Incidents that remained to the end, one focused on the ability of the users to understand the system, one focused on the stability of the technical solution, and the other one focused on the integrity of the data.
+
+.. rst-class:: indented
 
 So those three Acceptance Incidents, which in a sense were portmanteau Acceptance Incidents because there were multiple reasons and causes for them, are a good way of defining or understanding what a high-level Acceptance Incident would be.
 
@@ -1955,6 +2055,8 @@ Do you recall what the exercise you're referring to here is?
 
 **John Meagher**: I don't exactly, but I think what I was probably thinking is that there was a risk that we wouldn't see the wood for the trees; in other words, that the acceptance criteria by definition were broken down to a low level of detail and if, you know, one could pass or one could fail.  If one failed, it may not be clear how that incident was connected to other features of the system.
 
+.. rst-class:: indented
+
 We were trying to get a better understanding how these incidents were impacting in a broader sense.
 
 **Mr Stevens**: If we carry on it says:
@@ -1985,7 +2087,11 @@ Can you recall why it seems Post Office consistently after its workshop ranked t
 
 **John Meagher**: Well, the working relationship was robust amongst most people on the PDA with Pathway.  We've been on this a long time.  But the workshops were constructive, you know -- full and frank, as the phrase goes, exchange of views.
 
+.. rst-class:: indented
+
 Pathway did treat acceptance very seriously for commercial reasons, and other reasons -- I don't want to -- I don't want to cast aspersions on their motives.
+
+.. rst-class:: indented
 
 They treated acceptance very seriously.  There was a lot of effort and immediate effort on Pathway's part to bring forward rectification plans.  John Dicks, I think, was very active.  We'd known him from the early stage of the project, and he brought forward a lot of rectification plans to show that they understood it, could deal with it.
 
@@ -2247,6 +2353,8 @@ Let's just take that in stages.  Firstly, what does Ruth Holleran mean here when
 
 **John Meagher**: Well, I think what Ruth is seeking is some way through this.  I saw another document -- I don't know, maybe in this pack here, I mean, attached here -- from Dave Smith who's recommending that we not down-grade in advance of the decision on the basis of plans alone, but that we retain the classification and hold our options open.  If the business viewed it as wanting to proceed but retain the classification, then it would do so.
 
+.. rst-class:: indented
+
 So my suspicion is that Ruth is looking for some level of additional flexibility here.
 
 **Mr Stevens**: I didn't want to interrupt your answer.  I think, if we turn to page 1 -- the bottom of page 1 of this document, maybe what you were referring to, is it this, from Keith Baines to Ruth Holleran, second paragraph:
@@ -2303,6 +2411,8 @@ Do you know if at this stage there was any consideration being given to requirin
 
 **John Meagher**: Well, I'd agree with that in broad terms, yes, but my understanding always was that when it came to financial errors in transactions that had to be subsequently reconciled with third parties, then there was really no acceptable level of error.  So, for instance, in the bill payment business, the APS application, people paid their bills through post offices, and a lot of the people who paid their bills through post offices were people who couldn't afford to pay their bills through direct debit.
 
+.. rst-class:: indented
+
 So these people go in and pay their electricity bill -- they were mainly utility bills but also local housing bills as well.  Those transactions, we would be looking for zero errors on those types of transactions.
 
 **Mr Stevens**: Why do you think there's a difference in approach between the transactions you just referred to and the cash account discrepancies in respect of the error rate?
@@ -2322,6 +2432,8 @@ So these people go in and pay their electricity bill -- they were mainly utility
 .. rst-class:: indented
 
 **John Meagher**: Well, I wouldn't want to offer a view, really, because I don't really understand the implications of those errors.  I don't understand the materiality of -- you know, someone has come up with a figure.  They will have come up with that figure with more knowledge than I have, or even had then.  So I really wouldn't want to comment on it.
+
+.. rst-class:: indented
 
 I mean, I stick by what I said with regard to I think it depends on the types of transactions. I think that is significant.
 
@@ -2501,9 +2613,15 @@ Before we consider those, can I ask who at Post Office was responsible for manag
 
 **John Meagher**: So there was lots of different types of reference data. I mean, there's reference data that identified the outlets themselves, that was called a FAD code.  Each outlet had a code, where -- its location, the manager, et cetera.  So there was data around that.  Then there was product data in terms of pricing and how that product data mapped to the cash account.
 
+.. rst-class:: indented
+
 Then there was local reference data, and I'm afraid I can't explain how that was managed, but there was -- different regions would sometimes have separate customers in the Post Office, local bus companies and things like that.  So there was a degree of regional reference data as well.
 
+.. rst-class:: indented
+
 Now, reference data was continually mis -- not given an adequate level of seriousness by Pathway through the whole project, and we were scampering around at the end to try and make it work.  But really the whole integration of reference data and EPOS within Pathway should have been the subject of a wholesale business process analysis and it wasn't.
+
+.. rst-class:: indented
 
 I'm not saying -- I know a lot of people have been critical of reference data, a lot of Pathway people have been critical of reference data, and they were right to be.  There were errors that came from that data into Pathway as well.
 
@@ -2872,7 +2990,11 @@ So we've got so far within this document to solutions.  What's next?  So how do 
 
 **John Meagher**: Yes, so the requirement tended to say, "You must do this", and the solution didn't normally go further than saying, "We will do this", okay?  So there are a series of subsequent documents that were produced that expanded the solution out, and the first one would have been what was called the SADD, the service architecture design document.  That would have had a bit more detail.  Then there would have been a series of subordinate technical documents, and in fact there was a security functional specification.
 
+.. rst-class:: indented
+
 Now I can't remember how this is addressed in the security functional specification, but that would be where that would be developed.  Then subsequently the acceptance specification -- sorry, yes, the acceptance specification for security would have a series of criteria, and against each criterion there would be an explanation about how that would be satisfied.
+
+.. rst-class:: indented
 
 So some of it would be satisfied by review of document and some of it would be satisfied by witnessing.
 
@@ -2899,6 +3021,8 @@ So some of it would be satisfied by review of document and some of it would be s
 .. rst-class:: indented
 
 **John Meagher**: Obviously when the project first started all the Benefits Agency transactions were there, so one of the main objectives of the Benefits Agency was to reduce encashment fraud.  So there was a huge amount of attention given to that and to the security of the data, okay.
+
+.. rst-class:: indented
 
 We had people who represented security a function on the PDA, and they would have been in touch with security experts, both in the Benefits Agency or the DSS wider area and the Post Office security people.
 

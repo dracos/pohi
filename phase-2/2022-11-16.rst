@@ -223,6 +223,8 @@ Same correction?
 
 **David McDonnell**: Sorry, go on.
 
+.. rst-class:: indented
+
 I think he suspected that Steve Warwick, as knowledgeable as he was about the Post Office, wasn't technically or formally qualified, and that is probably what led to his concerns about why he needed to bring somebody with a little bit more formal experience in to the team.
 
 **Mr Beer**: What was your understanding of what Steve Warwick was qualified in?
@@ -297,6 +299,8 @@ I think he suspected that Steve Warwick, as knowledgeable as he was about the Po
 
 **David McDonnell**: Well, a project such as that -- well, any kind of software development project, there should be a framework of how the team work.  It should start with the design documents.  That's the target of what you are trying to deliver; that's what you are building against. They weren't in evidence.  I know that there had been some documents that were reverse engineered, but they were irrelevant and out of date, and they weren't even in the building when I got there.  I had to ask for them.
 
+.. rst-class:: indented
+
 Methodology-wise, back then it was mostly kind of a PRINCE2 kind of.
 
 **Mr Beer**: Just explain in a couple of sentences to those that might be listening with PRINCE or PRINCE2 methodology, what that is.
@@ -328,6 +332,8 @@ Methodology-wise, back then it was mostly kind of a PRINCE2 kind of.
 .. rst-class:: indented
 
 **David McDonnell**: Yes.  The nomenclature of testing gets a little bit fuzzy depending on who you ask, but a coder should test his own code, and he should test it not just in isolation but also within the kind of landscape of all of the other modules that live around it.  So he will be expected to carry out that unit test on an environment which is -- although it's in a development environment, it is representative of the latest release that's out in the testing-hardware environment.
+
+.. rst-class:: indented
 
 He should test that code himself thoroughly to a degree that it's not as intensive as when it goes into the test cycle, but it's pretty thoroughly tested for the code that he's added or changed, but also in kind of a doughnut shape around it, to make sure that he hasn't affected anything else that that code might interface with.
 
@@ -381,9 +387,15 @@ We have been told that any system of this size, not just looking at the EPOS sys
 
 **David McDonnell**: Well, I think what you should see in a development life-cycle of a project or software is you might get a small number of bugs that make themselves evident to start with, obvious ones, glaring ones, but that should decrease over time, and the severity of them should decrease over time as well.
 
+.. rst-class:: indented
+
 That's not what we were seeing.  What we were seeing was a constant high level of PinICLs being raised daily, and that number was not diminishing, and they weren't getting any simpler.  They were becoming more and more complex as code was introduced.
 
+.. rst-class:: indented
+
 You should also never see that volume.  That amount of PinICLs -- as soon as I saw the number -- when you raise a PinICL, it gives you a new number, it's incremental.  When I saw the number of the next PinICL to be raised, I was astonished at how many had already been through the system and closed, for us to get to that number that it was going to offer you next.  So that tells you how many's been raised and closed already, which to me was completely out of kilter with the size of the project or the complexity of it.
+
+.. rst-class:: indented
 
 So that, along with the fact that the number of PinICLs being raised was not diminishing, tells you that the quality of the code was -- you know, something wasn't right.
 
@@ -459,9 +471,15 @@ So that, along with the fact that the number of PinICLs being raised was not dim
 
 **David McDonnell**: Yes, I was probably a few months into working in the team.  By then I had a pretty good grasp on how much trouble that part of the project was in.  I'd spent several months trying to work with Steve and Chris Humphries and Terry to get them to understand where we were and how it was, without making much headway.
 
+.. rst-class:: indented
+
 It was basically everything was carrying on as normal and I wasn't really making any progress in improving things that dramatically.
 
+.. rst-class:: indented
+
 I already at that point had a view on what needed to be done, and it was when Steve Warwick went on three-week vacation that I kind of had the opportunity to speak to Terry more directly without Steve Warwick being there.  He fronted that relationship on behalf of the team up to that point.  As he was away on vacation, I got the opportunity to kind of talk to him more directly.
+
+.. rst-class:: indented
 
 But also at that time there was some important test cycles coming up, such as model office releases and things like that, which were quite important to the roll-out schedule of the project and, given that, with the amount of PinICLs that were being raised by the test team, it was an opportunity to use the importance of that delivery with the amount of PinICLs we were experiencing to emphasise to Terry that we need to do something dramatic about this, otherwise we're going to fail, and that's when Terry and I -- he asked me what I needed, "What do we do, what do you need?"  I kind of described what I thought we could do, you know, if I was given the right resources and the correct time, et cetera, et cetera, and he instigated the task-force and gave me carte blanche to pick whoever I needed from the building to join the task-force to help us.
 
@@ -687,6 +705,8 @@ Just stopping there, was that the target of the Task Force?
 
 **David McDonnell**: So this is an interesting point.  That is the written kind of objective, the most desired outcome that would be great if we could get the PinICL stack down.  My personal view was that we'd never be able to reach zero PinICLs, because we knew that the code was in such a bad state that that would never happen.  So I think there was kind of a difference between the expected outcome from people like Terry Austin and the expected outcome from the people who had a technical understanding of what was happening on the ground.
 
+.. rst-class:: indented
+
 Terry's ideal world would be that we get back to zero PinICLs and the ship sails on, whereas the people on the ground who actually knew what was happening and the state of the code were expecting the outcome -- personally, myself personally, was that hopefully this gives us sufficient evidence to be able to move the project on to a different footing, which would be corrective, such as rewrite the cash account and the various other recommendations that were made.  I was under no illusion at all or belief that there would be zero PinICLs that end of this.
 
 **Mr Beer**: I was going to ask you about that, because this report does not just report on the work of the PinICL Task Force and the reduction in the number of outstanding PinICLs, it takes the opportunity to make a series of significant criticisms on EPOS.
@@ -909,7 +929,11 @@ Can you elaborate what you mean by "poor quality workmanship" that you here desc
 
 **David McDonnell**: Yes.  So what was happening was the project, or the EPOSS counter team, had got into such an exhausted state that the culture had become: throw a fix in the code, throw it over the fence at the test team.  There was very little control of the release mechanism from the development team into the test team.
 
+.. rst-class:: indented
+
 So sometimes a lot of this stuff could have been really stupid things such as they'd only partially release the fix.  Some of the modules or little bits of software that had to go with it, such as a DLL file or a header file, were missing from the work package that was released over to the test team.
+
+.. rst-class:: indented
 
 It could be of that nature.  It could also have been just the quality of the fix itself was -- as I was referring to earlier, they'd fix this bit but that would break it over here.  So that was very typical of what we were seeing at the time.
 
@@ -931,7 +955,11 @@ Can you explain why the RAD technique carried with it attendant risks, please.
 
 **David McDonnell**: Yes.  So what they have done there as part of the bid process is to use something that was often referred to as rapid prototyping, where you would throw up a skeleton kind of pro forma of what you think it might look like and how it might work, but without much engine room behind it, if you like, and that is very sensibly used for a bid process or a proof of concept or something like that.
 
+.. rst-class:: indented
+
 What appeared to have happened here is that they used that and progressed it forward into the main code base, rather than actually saying, "Okay, we've got a prototype we know what it should look like and what it intends to be for proof of concept.  We're now going to start it from afresh and design this properly using good engineering principles and design processes and start from afresh using the prototype as a model to work from."  But you would never use that code in the real product.  You'd start again.
+
+.. rst-class:: indented
 
 Now --
 
@@ -950,6 +978,8 @@ Can you remember when these issues, the three papers, were identified by Post Of
 .. rst-class:: indented
 
 **David McDonnell**: My first awareness came about the start of the Task Force or shortly before.  This is indicative of exactly how Steve Warwick used to work.  He was the interface with POCL, and he was the person who would be discussing with them what the business requirements were for the EPOSS counter, and stuff like this used to pop up all over the place.  "Oh, by the way we have this; by the way we have that."
+
+.. rst-class:: indented
 
 This was introduced at the last minute as a must-have requirement for model-office testing or model-office acceptance.  So it's an example of quite a sizeable piece of work that was being stuffed into the code in a very rushed, last-minute way, right in the middle of a Task Force which was absolutely essential for model-office acceptance.
 
@@ -1129,6 +1159,8 @@ You referred in that paragraph to the quality and professionalism of certain ind
 
 **David McDonnell**: Okay, so I'm going to give my honest kind of reflective view on this, that Steve Warwick was on the other side of the camp, that no rewrite was necessary, everything was fine, ship's sailing on nice.  So he wasn't going to effect change as a result of this document.  In fact, he was probably against the recommendations.
 
+.. rst-class:: indented
+
 Chris Humphries couldn't do anything about it. We'd already tried that route, myself and Chris, before the Task Force was initiated and, therefore, we already knew that Chris couldn't do anything about it under his own initiative.  It needed a sign-off and the commitment of Terry Austin, Martyn Bennett.  That's probably why it's a more limited distribution list.
 
 **Mr Beer**: I understand, thank you.  Can we look, please, at your witness statement `WITN00620100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn00620100-david-mcdonnell-witness-statement>`_ and at page 3 of the witness statement, please.  At the foot of the page, paragraph 12 having exhibited the report you say:
@@ -1155,6 +1187,8 @@ Just stopping there, did you know Gareth Jenkins at the time of your work from E
 
 **David McDonnell**: Almost zero.  So my understanding was that Gareth worked alongside another chief architect under Alan Ward.  Now Gareth Jenkins' responsibility was specifically to the EPOSS counter system.  As the chief architect, I would have expected him to be much more involved in overseeing a lot of the previous coding standards and methodologies and things like that, and certainly the design documents that we've referred to earlier.
 
+.. rst-class:: indented
+
 I was quite surprised that he was based in Bracknell.  I had to dig him out rather than him coming to the building to visit the team.  Unless I made a specific effort to try and talk to him about something, he was just not present on the project.
 
 **Mr Beer**: Is that what you mean by total disengagement?
@@ -1173,6 +1207,8 @@ You say that the specification is the starting point of engineering because it s
 
 **David McDonnell**: There's different levels of design specs.  It will be a high-level design which was much more of a bridge between the business and the technical development team, and that would have more references in it to business functionality, how to sell a dog licence or a stamp or whatever, and how that translates into the counter system.
 
+.. rst-class:: indented
+
 Then below that you have maybe one, maybe more, low-level designs which usually break out into functional subject matter, which have a much more in-depth specification of exactly how that module should work, what data it should use, what interactions it should have, which APIs it should use, et cetera, et cetera.  There may even be much lower-level specifications underneath that if required.
 
 **Mr Beer**: You say you were given access to some of the documentation.  Can you remember what documentation you were given access to?
@@ -1180,6 +1216,8 @@ Then below that you have maybe one, maybe more, low-level designs which usually 
 .. rst-class:: indented
 
 **David McDonnell**: So, when I first got there, took a quick look round. "Okay, where's the design specs?  Let's go back to basics and see what we're supposed to be developing. What does the bridge we're supposed to be beginning look like?  Where's the design?"
+
+.. rst-class:: indented
 
 I did manage to locate some of them and I believe those were the re-engineered -- reverse engineered documents that we referred to earlier.  It certainly wasn't a comprehensive set of documentation for the counter, and it wasn't in a tiered architecture with a high-level design, et cetera, which I would have expected.
 
@@ -1198,6 +1236,8 @@ Why is the approach fatal in a large project with several integrations?
 .. rst-class:: indented
 
 **David McDonnell**: So that was historical to before my time there.  So I've derived that comment from what people told me when I arrived on site that, because the development was quite well underway when arrived, they told me that that was the historical nature of how they'd arrived at where we are today, at that point.
+
+.. rst-class:: indented
 
 Jumping in -- so to answer your question, jumping in and progressing the rapid prototype is pretty much the answer I told you earlier about taking the model and turning it into the real thing.
 
@@ -1225,6 +1265,8 @@ What effect did that have on the development or operation of the Horizon System?
 
 **David McDonnell**: Well, it's kind of several-fold really.  First of all, the business requirements were not clearly laid out, which led to the fact that the high-level/low-level designs were never properly produced against the business requirement, and what you tend to find on projects where these things aren't in place is that the client then has freedom to either change the initial business request that they made, or morph it, or even ask for extra functionality, and you end up in an argument as to whether that was included in the first request or whether it's a supplementary request.
 
+.. rst-class:: indented
+
 Because these were being facilitated quite a lot by Steve in his conversations with POCL, we were getting development requests being shoehorned into the counter team, right to the last minute, and an example of that this one which I referred you to earlier about the -- which was the three-part papers which shoehorned -- the software development was shoehorned in whilst the Task Force was underway.  So you get late requests, changing requests, scope creep.
 
 **Mr Beer**: Can we go forward, please, to paragraph 19 which is over the page.  You say, on completing your initial assessment of the system, you concluded that:
@@ -1237,7 +1279,11 @@ Is it right that that's what led you to the cash account module being beyond rep
 
 **David McDonnell**: Partly, yes.  I mean, this is a much more fundamental point regarding the design of the counter system.  So the Riposte message store and that message replication system underneath worked quite well, and that did have an API which was exposed to modules that were built on top of it, to allow them to read and write messages to the message store.  An example of such a module might be the cash account, for example, or, if somebody sells a stamp, the reference data's read up and the messages are the transaction that are written down.
 
+.. rst-class:: indented
+
 Now, what we were saying here was that there should have been an EPOS-specific API in between those two which restricted read-and-write access to and from the message store, and only allowed messages to be written down to the Riposte API which conformed to -- the message contents conformed to the standards which were defining in the data dictionary document.
+
+.. rst-class:: indented
 
 What that would have done is controlled the contents of the messages being written to the message store, and prevented people writing stuff into it which was not conformant to the agreed vocabulary or reference data or anything else that was defined.
 
@@ -1247,7 +1293,11 @@ What that would have done is controlled the contents of the messages being writt
 
 **David McDonnell**: The fact that this was missing allowed the developers a freestyle approach that, if they went into to add some extra functionality or to fix a PinICL, they could all of a sudden introduce a new message, a new message type, to the message store to make life easy for themselves to resolve the problem that they were trying to fix or code that they were trying to implement.
 
+.. rst-class:: indented
+
 Because they did not conform to any standard, if another module came along that had to read that message or depended upon the contents of that message in order to maybe accumulate a correct cash account, for example, if the original developer deviated from an agreed set of data inside the message, that module may not pick it up, or it may read the wrong field, or it may accumulate something incorrectly or it may miss the message altogether.
+
+.. rst-class:: indented
 
 So that standard compliance being missing could lead to any outcome you care to imagine.
 
@@ -1274,6 +1324,8 @@ So that standard compliance being missing could lead to any outcome you care to 
 .. rst-class:: indented
 
 **David McDonnell**: I can.  I can't give you a hard, firm example, but this used to happen.  All the time.  The common request that was made during problem resolution say, for example, model-office testing was underway and the test team raised a bug, a PinICL, probably one of the first requests -- you couldn't really do anything without a copy of the message store.  So the request would go to Brian Orzell, "Please you get me the message store for that particular period of time."  The message store would be provided back, and then it was a case of wading through the tens of thousands of messages inside the message store, to try and follow the thread of that sales transaction, and then try to interpret why it wasn't accumulated or why it was represented incorrectly, and that was a very manual, labour-intensive job that was also quite time critical because, if you didn't do it quickly, the message store would move on rapidly, and you were unable to reproduce the problem because the particular set of circumstances under which that PinICL happened has disappeared now, it's moved on.  So that's why it was critical to have a defined set of messages.
+
+.. rst-class:: indented
 
 The other thing it speaks to as well is that there were no diagnostic tools for the developers to be able to dig into the message store and say, "Right, we sold the car tax on Tuesday at 2 pm.  Show me the thread of transactions which resulted from the sale and show me how they were accumulated into the cash account."  That diagnostic tool was missing.
 
@@ -1317,6 +1369,8 @@ Can you explain what you mean by that.
 
 **David McDonnell**: In practice I think it was usually Steve Warwick who generated the message into a batch file, and that would be released through the normal package-release system, release-management system, and then that would be dropped on to the counter as a piece of code and executed as a batch file.
 
+.. rst-class:: indented
+
 So it would be usually Steve that did that; maybe Brian Orzell occasionally helped him.
 
 **Mr Beer**: What about outside of the EPOSS team, because in the next sentence you say:
@@ -1345,7 +1399,11 @@ What do you mean by that?
 
 **David McDonnell**: Steve was very pro: "We've done everything right, there's nothing wrong."  He was in that camp.  "The code's in good enough condition to be able to Go Live." So by then I was just making noise to all of these people.  They'd already decided that it wasn't going to get wholly or partly rewritten, and that's an important phrase which we should come to in a minute.
 
+.. rst-class:: indented
+
 But Steve was firmly in the camp of: We're not rewriting it; it's okay as it is.
+
+.. rst-class:: indented
 
 Chris Humphries agreed.  He could see the problem and he did try very hard to effect change, but he was under Terry Austin, and he didn't on his own have the political sway to be able to persuade the higher echelons to, you know, bite the bullet and rewrite the cash account.
 
@@ -1361,7 +1419,11 @@ Chris Humphries agreed.  He could see the problem and he did try very hard to ef
 
 **David McDonnell**: Well, we managed to get Gareth down to the counter team I think twice that I can recollect, and we tried to engage him in the conversation about the missing API, which he was very defensive of and said, "No, there's nothing wrong with it as it is."
 
+.. rst-class:: indented
+
 I also tried to engage him to get him to lend his political design weight behind the argument that at least the cash account should be rewritten, if not the whole thing, and I was unable to get him to engage on our side to lend his persuasive weight to persuade Terry Austin to rewrite the cash account.
+
+.. rst-class:: indented
 
 When we started having conversations like that, that's when he kind of became evasive, certainly with me.  I was never able to get him to come back down on site again after that.
 
@@ -1370,6 +1432,8 @@ When we started having conversations like that, that's when he kind of became ev
 .. rst-class:: indented
 
 **David McDonnell**: So that phrase that we've used in the document that Jan and I authored, we recommended that it should be rewritten in part or in whole.  This is a key phrase because, although it's not as clearly written in the document as it could have or should have been maybe, those conversations and emails were certainly taking place within the project with the likes of Chris Humphries, the test team, Terry Austin, everybody, that "in part" meant we should at least rewrite the cash account, because in my view this was primarily a financial accounting system at the end of the day.  If the system blue-screened or you couldn't sell a stamp on a Tuesday, or whatever it was, that's an inconvenience, but at least financially it's correct.
+
+.. rst-class:: indented
 
 So my recommendation and those of the senior members which we spoke about earlier was the cash account must be rewritten at least.  That's the "in part" part of that phrase.
 
@@ -1389,7 +1453,11 @@ Is that what you're referring to?
 
 **David McDonnell**: Yes.  So what quickly happened was it was very clear that they took this report, and part of their defence or argument to reject the recommendations that we made was to forget the first part of the sentence where we recommended to rewrite it in part, referring to the cash account, and they focused on "rewrite the EPOSS counter system a whole", and every conversation that was had after that, and certainly I heard in the testimonies, were conflating the whole proposal to rewrite some of the product into, "It's too big, it's far too dangerous, it will introduce more problems", when in fact, if you understood that it was built out of Lego bricks, you could replace the Lego bricks one at a time starting with the most critical, the most important, which I would argue was the cash account.
 
+.. rst-class:: indented
+
 Here, you could even -- because it was a batch process that wasn't part of the counter client/customer interaction, you could rewrite that as a separate module and have it running as a shadow process on the counter. You could run the cash account twice at the end of the day or whenever, as a secondary confirmation, and use the replacement module to check the validity of the first one.  Once you'd proved that it worked, you could take the old one out and just continue with the new one.
+
+.. rst-class:: indented
 
 This was not a large task.  It was not something that -- I couldn't understand why they didn't do it, because it was such a -- it's not a small piece of work but relatively small, and you could have done it without introducing any danger to anything else on the counter.
 
@@ -1517,6 +1585,8 @@ Then, if you go to the table underneath -- just scroll down a little bit -- the 
 
 **David McDonnell**: I wasn't on the counter team by then, but I believe that they had improved certain things to a degree.  They started to put better practices in place and things like that.  It was a little bit more disciplined.
 
+.. rst-class:: indented
+
 I think they had implemented some of the new functionality in a better way than they had historically.  But the fact that they are left with a legacy code and all of the associated problems inside it just meant that it wasn't going to be a different outcome.
 
 **Mr Beer**: Can you help explain how it was that Chris Humphries, who you have referred to in relatively positive terms in your evidence so far, came to write a document such as this?
@@ -1530,6 +1600,8 @@ I think they had implemented some of the new functionality in a better way than 
 .. rst-class:: indented
 
 **David McDonnell**: I think the project by then had -- shortly after the cash account -- sorry, the Task Force initiative and the subsequent recommendations that came out and the noise around it, there was a very definite project push to get the lid back on to that tin of worms and move on with acceptance in a positive way, and that did not include rewriting any of the code, as evidenced by this recommendation here.
+
+.. rst-class:: indented
 
 So I think -- how -- any dissenting voices were either sidelined or moved or ignored, and this was the narrative to move on through the acceptance process.  So it doesn't surprise me that documents like this were created but, you know, as to why, I can only imagine.
 
@@ -1603,7 +1675,11 @@ Does that narrative reflect the view that you have just described?
 
 **David McDonnell**: Wrong-answer syndrome.  At the end of the Task Force initiative, Jan and I had written the audit document. Certain recommendations were made.  Obviously the cash account rewrite was a major part of that, and then at that point, shortly after that, Terry Austin decided to have a reorganisation of some of the teams, the EPOSS counter team being one of them.  As part of that, I was called into his office and asked you -- he said, "I'd like you to take over officially and formally from Steve Warwick who will be moving on to the business liaison", or something similar, "and I want you to be the development manager of the EPOSS counter team."  This, that and the other, "You can have the following resources", et cetera, et cetera.  "Okay, fine."
 
+.. rst-class:: indented
+
 I said to him at that point I would accept the position on the condition that we rewrite the cash account, and at that point Terry was frustrated, to say the least.  He wasn't very happy with me putting a condition on that acceptance.  It was clear that the cash account wasn't going to get written.  That conversation was very quickly brought to a halt, and I was ushered out of the office, and I never really spoke to Terry after that again.  We never really had any interaction.
+
+.. rst-class:: indented
 
 Very shortly after that meeting, he appointed Phil Hemmingway, who was working in the EPOSS counter team for me as business analyst at the time.
 
@@ -1636,6 +1712,8 @@ Very shortly after that meeting, he appointed Phil Hemmingway, who was working i
 .. rst-class:: indented
 
 **David McDonnell**: I don't remember even seeing it, to be honest, at the time.  I do recognise the document now that you've shown it me, but I have no recollection what happened around it or what result it had.
+
+.. rst-class:: indented
 
 I think by then everyone had just given up trying to argue with the narrative.
 
@@ -1719,9 +1797,15 @@ I think that's exactly what you said.
 
 **David McDonnell**: That's exactly it.  So there's a comment about this CSR+ release, which was a big bone of contention at the time, that at the end of the Task Force they were given the report that we co-authored detailing what the senior engineers, senior auditing guy, and all of the experienced people around the project were saying, detailing the problems.
 
+.. rst-class:: indented
+
 It's like the captain of the ship's been told that there's a hole in the boat and it's filling with water by the engineers.  Instead of fixing the hole, what they did was they went away and constructed this CSR+ release, which is akin to painting a plimsoll line on the outside of the boat so that they could measure how fast it was sinking.
 
+.. rst-class:: indented
+
 The whole context of this CSR+ release was about being able to detect discrepancies between the counter and the middle and back office, the APS systems and such, and highlight where there was a difference between the number of transactions or the balance between the two being different.
+
+.. rst-class:: indented
 
 That's just building a dipstick instead of actually fixing the hole in the boat.  They spent a year, an inordinate amount of time and resource, on this release instead of fixing the problem.
 
@@ -1763,7 +1847,11 @@ You're shaking your head.  Why is that?
 
 **David McDonnell**: I can just comment on what this paragraph:
 
+.. rst-class:: indented
+
 "These issues have come to light when comparing a TIP derived cash account with the electronic cash account sent by Pathway."
+
+.. rst-class:: indented
 
 So this is a direct result of them measuring the difference between the two areas.  So that's detected a difference between the counter and the back office. So that's what this is alluding to.
 
@@ -1815,9 +1903,15 @@ Then over the page, please, in the paragraph that you have just given in paragra
 
 **David McDonnell**: I think it would be difficult to have been in the building and not be aware of the problems that the EPOS counter system was experiencing.  I also think it will be difficult to be in the building without being aware of the number of PinICLs that were being raised, and I know that's a subjective answer, but I think it will be difficult to argue that you're in the building but you're not aware.
 
+.. rst-class:: indented
+
 Now, having said that, Steve did do a great job at managing the client and fielding all of the problems, and he was a great salesman in that respect.  So it could be also equally arguable that they were kept in the dark to a certain degree.
 
+.. rst-class:: indented
+
 Now, when I refer to the fact that they definitely knew that cash account was broken, I'm talking about the PinICL which I think is referred to that bottom of paragraph 52, where it has a full audit trail of everybody who read, touched and commented on that particular cash account error, and there are at least one POCL person -- I think that was Barbara Longley -- whose desk that PinICL did cross, and she has commented on it at some point.
+
+.. rst-class:: indented
 
 So that speaks specifically to that one PinICL. Whether you could argue that that gave them an awareness of all the problems, I don't know, but I think it would be difficult not to.
 
@@ -1989,7 +2083,11 @@ Questioned by Mr Blake
 
 **Jan Holmes**: To all intents and purposes, it was a standing start. What happened was, when I came in as process engineer, I was doing that kind of work, and then it became clear that, because of the volume of audit information and data that was going to be collected, and what was expected of it through the requirements, that there was a need to take a more active management role in it.
 
+.. rst-class:: indented
+
 Also the fact that, because I had been through the Institute of Internal Auditors training, along with a whole raft of other civil servants -- it was the result of a National Audit Office initiative -- it meant that there was consistency in approach between what I would be doing and what the Post Office and Benefits Agency will be doing as well, the idea being that we could work a bit more harmoniously because we had the same expectations of standards and practice and what have you.
+
+.. rst-class:: indented
 
 In terms of the audit function with regard to the data and the trails, yes, that was a standing start because they were just being developed and, in terms of the internal audit side, that was a new function that I was asked to put in place to interface and work with Benefits Agency and the Post Office.
 
@@ -2029,6 +2127,8 @@ In terms of the audit function with regard to the data and the trails, yes, that
 
 **Jan Holmes**: Yes, I do.  It's not often when you set up an audit department that you get the level of support that you want.  You often have to fight your corner to get heard and listened to and taken seriously.  But I have to say that on this account, this project, it was pretty good. Visibility was good to the senior management team through reports and corrective actions.  Martyn was quite vociferous in supporting the role in his position as my boss.
 
+.. rst-class:: indented
+
 So I was quite comfortable with it compared to some I'd been in where, you know, internal audit was the unfortunate noise in the corner.
 
 **Mr Blake**: At paragraph 14 of your witness statement, you have listed three audits that you consider that are most important to the Inquiry.  There's no need to go to it in the statement unless you would like to.
@@ -2056,6 +2156,8 @@ Can we look at a `FUJ00080690 <https://www.postofficehorizoninquiry.org.uk/evide
 .. rst-class:: indented
 
 **Jan Holmes**: Yes.  I mean, just to put these things in context, though just for a minute, audit reports are by virtue of their nature snapshots in time, okay?  So, when you go in to do an audit, you go in and look at the evidence as it is over that one-or-two-week period that you're doing the work.  You then take that away, you sit and look at it and think about it, have conversations with other people, and then you draw conclusions, and you ask yourself: if this were to continue, what could go wrong? That's when you start putting forward the scenarios of code decay and problems coming up in the future.
+
+.. rst-class:: indented
 
 You are trying to contextualise what you've found into what potentially could happen if this was allowed to go on.  So, yes, code decay could easily become an issue, but I'm not in a position to say in 1998 what that issue might be in the long-term.
 
@@ -2120,6 +2222,8 @@ Can you tell us: do you remember what the EPOSS solutions report was?
 .. rst-class:: indented
 
 **Jan Holmes**: No.  I think it may well have just gone into more technical detail about what we found in the EPOSS report, what we reported in a sort of more general managerial-type sense, as opposed to a deep technical sense.
+
+.. rst-class:: indented
 
 You have got to bear in mind I'm not a technician. So the bits in that report and the EPOSS Task Force report that were technical, I had to get contributions from people like Dave.
 
@@ -2236,6 +2340,8 @@ Are you able to help us at all about these various dates and versions?
 .. rst-class:: indented
 
 **Jan Holmes**: Yes, the first version 0.1 '98, was the report I wrote in the first place, okay?  Version 1, if you notice in the Document History section, it says "Move to 1 as an admin exercise".  That was just to move it up to version 1 to get it out of draft.  That was all.  That was me; I did that.  I don't think -- there weren't any changes to it at that time.  It was just me moving it forward.
+
+.. rst-class:: indented
 
 0.3, I can only assume that some work had been done on the document up to 0.3 later in September '98 and that would have been sat in PVCS which was the document repository.  So you got 0.1.
 
@@ -2529,6 +2635,8 @@ So those are just a couple of examples I have taken, February 2000, April 2000. 
 
 **Jan Holmes**: Yes.  The question was asked in the lead-up to the witness statement about PinICL fixing culture, which is a phrase I used in the EPOSS Task Force report, and in fact it was a phrase that David used this morning.
 
+.. rst-class:: indented
+
 Really, it was just a case of: "Bug, what is it? Fix it, put it over the wall, test it, hand it away." It was in the context of, I didn't see any evidence or any efforts being made to actually stand or sit back, stand back from the problem and say, "Do we have any root causes that we can attribute these problems to and, if we do, what are they?"  I didn't see any of that happening and I wasn't made aware of any of it happening.  It was just a case of, "Oh, here's another bug.  Let's fix it and let's move on."
 
 **Mr Blake**: Is that something you considered at the time or is that on reflection?
@@ -2569,6 +2677,8 @@ Now, the date we have at the top of here is 10 November 1999.  I can say we have
 
 **Jan Holmes**: Yes.  Requirement 829 was to do with the efficacy of the audit trail in relation to prosecutions and being evidentially submissible in court in line with PACE. I'm no expert on PACE and in fact I'm not trying to shirk it here, but this requirement was actually a security requirement and not an audit requirement. So, in terms of making it happen, if you like, at acceptance or whenever, we weren't involved.
 
+.. rst-class:: indented
+
 What we did do in audit, though, was we made every effort during the design and building of the audit solution with the operational audit trail in it, the integrity of those records was maintained from the point of generation to the point of extraction onto a CD-Rom to be given to the Post Office to do with whatever they wanted.
 
 **Mr Blake**: Thank you very much.  I'm going to very briefly take you to the codified agreement.  It is a very lengthy document.  We're only going to look at a short passage which I am sure you have already seen having followed the Inquiry.  It's FUJ000000071.  Thank you very much. That's the codified agreement that was signed in the summer of 1999.  Can we look at page 97, please.
@@ -2593,7 +2703,11 @@ Is this something that you were well aware of at the time?
 
 **Jan Holmes**: I think that was probably when Network Banking came in and there was an obligation to retain data for seven years, in line with the commercial audit trail records. I think it's probably worth going back over the audit trail functional statement, just to explain the difference that existed.  Whether it's valid or not remains to be seen now.
 
+.. rst-class:: indented
+
 The audit trail functional spec was the stepping stone between the requirements and the system.  It identified two types of audit trail: the commercial audit trail, which we hooked into the term records in the contract, and the operational audit trail which was the record of transactions and events that occurred through the system, okay?
+
+.. rst-class:: indented
 
 We had different rules of access for each of those trails.  The audit of the access to the commercial audit trail records would usually be done through physical audits of offices, and records, and filing cabinets, and what have you.  The operational audit trail was all held electronically and stored on magnetic tape for the required period, and then had to be extracted back out and put onto CDs for delivery.
 
@@ -2635,13 +2749,23 @@ Do you remember anything about the Grange Park case?
 
 **Jan Holmes**: Not with retention, because that was already sorted out through existing solution.  We did have, or I did have a number of conversations -- this was before BA dropped out -- with both BA and Post Office internal audit, about what their retrieval requirements were for bulk data at the data centre, so the operational audit trail. They really didn't know what they wanted, how many they wanted, how they wanted it presented, how they were going to ask for it.
 
+.. rst-class:: indented
+
 I suppose it was fairly obvious that, from a Post Office point of view, one of the key factors would be: what's the Post Office number, because we need to get information over a period of time for that post office, and for BA it would be: what's the National Insurance number, because we want to get information about that over a period of time.
+
+.. rst-class:: indented
 
 But there was very little in terms of detail, and it took quite a lot of time to get it out of them.  Now, the question of the numbers or -- well, that's that piece.
 
+.. rst-class:: indented
+
 Let's look at FRMS.  As you are probably aware, FRMS was a BA service, and that was what they were going to use to do their investigation.  But you have to realise it would have been populated with BA-specific data.  There would have been no Post Office data on it. So, as it stood, it would have been no use to the Post Office as a fishing tool.
 
+.. rst-class:: indented
+
 So they were left then with a retrieval service which was based on minimal requirements.  I think we reckoned we'd be able to do about one a month because it was quite intricate, the way it had to be done.  So we felt with existing staffing we could do perhaps one or two a month, but that was it.
+
+.. rst-class:: indented
 
 Sorry, that was also assuming we were dealing with Post Office internal audit, not with various Post Office investigation units who numbered hundreds of people around the country suddenly saying, "We want this data, we want this data, we want this data."
 
@@ -2903,6 +3027,8 @@ Just looking at the time, sir, this might be an appropriate time for a ten-minut
 
 **Jan Holmes**: Yes, what this document set out to achieve was a description of the audit trails.  It was like a further expansion of the audit trail functional spec. So this was trying to present information in a way that was understandable, legible and could be recognised and used by the internal audit community, whether that's Pathway, Post Office or BA at the time.
 
+.. rst-class:: indented
+
 So it looked at the requirements, and it looked at the roles, and it looked at what could be done, and then it went into describe what actually each piece of the audit trail consisted of.
 
 **Mr Blake**: Thank you.  It says there "Status, draft", and it's dated 17 January 2000.  Are you able to assist us with that at all?
@@ -3071,7 +3197,11 @@ Then there's a holding response to that, and I'm not going to take you to it but
 
 **Jan Holmes**: I think what was going on there is there was an issue that -- there was a bit of confusion.  As I said, the audit trail functional spec identified two particular types of audit trails, the commercial audit trail, which I think links into requirement 699 that talks about records, and I can't remember the requirement are number that the operational audit trail, and operational audit trail, which were things like the TMS journal records and OBCS files all this stuff that was point on Legato.
 
+.. rst-class:: indented
+
 Now, access to the records, commercial audit trail, was not done through the RFI process.  That was invariably -- if it was done it would be done through a direct request into the likes of Tony Oppenheim for access to the commercial records.
+
+.. rst-class:: indented
 
 The RFI was for access to the operational audit trail and, I think, if you go back to that previous exhibit, there's reference in there to the records under clause 801, and I think what's happened is that there's been at the conflation of two different topics into one.
 
@@ -3227,11 +3357,19 @@ Can you just tell us: why did it take so much time to obtain this information to
 
 **Jan Holmes**: It was just a complicated system.  I mean, if you go into the Horizon System audit manual, I think at about section 10 there's a description of the audit system including the retrieval activity.  It was complex, and I can't make any excuse for it being complex.  It just was complex and, as such, it took a lot of manual effort to go through the process of identifying what -- well, you had to interpret the RFI, you had to work out what files were needed to service the RFI, because we didn't have a standard catalogue of RFIs; it was more a case of, "What do you want?"
 
+.. rst-class:: indented
+
 We then had to interpret that to decide which files we had to get in order to service the RFI, and that meant that, when the Post Office got the data, they might have to extract information from two or three different sources on that data to get the information they wanted.
+
+.. rst-class:: indented
 
 So there was no single report came out by extracting lots of different audit data files.  So we had to do that.  We had to locate where they were on the various Legato tapes which were the DLTs that we were using to store the data on.
 
+.. rst-class:: indented
+
 Then we had to liaise with the data centres to get the tapes up and loaded onto the servers at the data centres so that the audit work station at Feltham could access them.  There was only one audit work station in Feltham to work from, because that's all we felt we needed, based on the original requirements.
+
+.. rst-class:: indented
 
 It just took time.
 
@@ -3247,7 +3385,11 @@ It just took time.
 
 **Jan Holmes**: Well, I was under the impression, and having read through some of the documentation, that the Post Office were either planning to or were in some kind of agreement with the Benefits Agency to make use of some aspects of FRMS, because obviously if there were benefit encashment issues going on, not only would the Benefits Agency need to know, but also the Post Office would need to know that there may have been collusion going on between offices between postmasters and beneficiaries. I don't know.
 
+.. rst-class:: indented
+
 So I think there was some kind of fledgling agreement going on to give the Post Office access to the FRMS for certain types of data searching and information retrieval, but I don't know.
+
+.. rst-class:: indented
 
 Of course when that went, there was nothing.
 
@@ -3585,6 +3727,8 @@ I've got a question about the help desk.  At paragraph 11B of your statement you
 
 **Jan Holmes**: Which help desk?  Sorry, I'm saying that because there are a number of different levels of help desks.  There were the help desks that sat within the Post Office environment that were looking after advice and guidance, because that was all being handled at one time by the Horizon System help desk and then it got separated out. I think that might be what the EDSC was about.  That was up in Barnsley, I think, because I went up there once for a visit.
 
+.. rst-class:: indented
+
 The Horizon System help desk was then the next level.  But, I mean, I didn't have a particular view on it.  It was there to fulfil a function.  Again I did visit and it was split over two sites.  I did visit both sites as part of an audit, but it seemed to be functioning in the sense of calls being handled and sufficient manpower to do the work.  The audit didn't involve going in to look at specific calls and saying, "You handled that well", or, "You didn't handle that well."  That's not what the nature of the audit was.
 
 **Mr Blake**: Finally, as someone who audited the system and was involved in discussions about retention periods and the provision of data for prosecutions, what is your view about the Post Office relying on Horizon data to prosecute people?
@@ -3592,6 +3736,8 @@ The Horizon System help desk was then the next level.  But, I mean, I didn't hav
 .. rst-class:: indented
 
 **Jan Holmes**: Well, in the olden days, I guess, when the Post Office had paper records in the outlet, they would rely on those records to prove guilt or otherwise -- not guilt, sorry, to prove that something was going on or not. Those paper records disappeared when Horizon came on the scene.  So they had to place reliance on Horizon data then, to carry at those investigations and to make the necessary prosecutions, if that's what they wanted to do.
+
+.. rst-class:: indented
 
 So they had no option but to rely on the Horizon data.
 
@@ -3612,6 +3758,8 @@ So they had no option but to rely on the Horizon data.
 .. rst-class:: indented
 
 **Jan Holmes**: No, as I alluded to earlier, I would have expected the Post Office to have made that connection somehow, because we sort of couldn't.  All we could do is, we were taking requests for data.  We didn't know what they were doing with it.  They never said, "This data is required for a potential prosecution." It was just, "This data is required."  So we didn't know what they were doing with it.
+
+.. rst-class:: indented
 
 They did and, you know, I think it was beholden on them to have been, I don't know, more careful -- is that the right term -- but to be, you know, had a duty of care to make sure they were using that data in an appropriate manner, and that it was correct, which sounds odd because you might think that was our job to make sure that's correct.  What we were able to do was demonstrate that we collected what was sent to be collected.  We stored it securely.  When we retrieved it, we proved that we'd stored it correctly by recalculating checks and seals, and it was extracted and distributed in a controlled environment.
 
@@ -3755,6 +3903,8 @@ Was this report of yours with its dismal observations on EPOSS retrieved because
 .. rst-class:: indented
 
 **Jan Holmes**: Well, that's an interesting one, as you might expect me to say.  Was it in our best interest to ask about the integrity of the system as demonstrated by the high number of prosecutions that were going on?  I don't even know how many prosecutions were going on.  But the high number of investigation requests that were being floated by Bob Martin suggests that there was a lot going on in the background that we didn't know about.
+
+.. rst-class:: indented
 
 Would it have been in our best interests? I guess, in the interests of honesty and integrity, then yes, it would be.
 

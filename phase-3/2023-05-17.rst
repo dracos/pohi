@@ -8,6 +8,7 @@
 .. raw:: html
 
    <div id="hearing-meta">
+        <label><input type="checkbox" id="hide-video"> Hide video</label>
    </div>
 
 *(10.30 am)*
@@ -89,6 +90,8 @@ By way of background, you joined Fujitsu's SSC in about 2004; is that right?
 .. rst-class:: indented
 
 **Alvin Finch**: Well, I didn't get to actually fixing anything myself but some of the system struck me as odd, in that when the hardware came in it was so locked out they had to use hacking tools to get into it, and there was one particular fellow who was going through some of the overnight comms stuff where it seemed like where these overnight comms were happening he got some tools. Unfortunately, I fell out with this fellow and I'm trying to remember the rest of it.
+
+.. rst-class:: indented
 
 I mean, at the time, the way I was doing -- or the way he got these things organised to fix comms problems reminded me a bit of my time at Marconi with paper tape, where you're fixing a parity problem rather than fixing the actual problem that was there.  But it kind of felt like that and people were rushing to get things done within the system.
 
@@ -187,6 +190,8 @@ Can you help us with what you mean there by "the protocol"?
 .. rst-class:: indented
 
 **Alvin Finch**: There was one particular person I felt that -- I had sort of arguments with him about how things were fixed in a way or -- I say "arguments" -- discussions.  There was possibly a personality clash as well.
+
+.. rst-class:: indented
 
 The whole -- the culture just didn't feel right to me.  Some of the people I went round, who were fixing different bits of the system, seemed to me a little like -- a little bit like technological dinosaurs. I mean, the rest of the world was kind of emerging into new systems and we were back -- I mean, that was back in X.25.  Everything then was moving forwards to TCP/IP, et cetera.  I don't know.  It just -- it didn't seem to be a feeling of any innovation going on somehow.
 
@@ -312,6 +317,8 @@ Questioned by Mr Blake
 
 **Richard Coleman**: I mean, I suppose the formal ways would be we would be required to write documentation for the SSC to use.  So, I mean, I can recall writing stuff -- documentation on the ACDB, for example, detailing how it worked, what to do if we couldn't use the automated systems.  So the ACDB would generate various files overnight at different times and they would then be processed by other systems. So if we couldn't use the automated systems, it would be down to us to sort of create those files manually for whatever reason and for them to be then processed by other systems as required.
 
+.. rst-class:: indented
+
 So there was formal documentation in that regard but it was also a case of just mentoring other people within the SSC on those systems.  So part of my role, there was a daily -- there were daily -- so I had a daily job that I had to do each morning, checking the output of the ACDB and OCMS to see whether there was any errors and, if there were, to sort of then sort those out.  So I trained, I don't know, a handful of people on being able to do that role as well, so when I'm on holiday or sick, or whatever, they could then take over.
 
 **Mr Blake**: I want to look at one part of your witness statement that's `WITN06470100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn06470100-richard-coleman-witness-statement>`_.  Thank you.  Can we turn to page 7, paragraph 22.  About halfway down that paragraph you say:
@@ -323,6 +330,8 @@ Can you tell us why they were chosen or why, in your view, they were the ones wh
 .. rst-class:: indented
 
 **Richard Coleman**: I think Anne joined after I had but John had been there for a number of years before I joined.  So he was one of the people that sort of I would go to.  So if I had something that I didn't quite understand, wasn't sure what was going on, John has one of the people that I would have gone to for, you know, "What do you think", kind of thing.  We'd have a conversation about that.
+
+.. rst-class:: indented
 
 Anne seemed to just get into this sort of EPOSS-type calls.  So that would, again -- so she -- whether Mik had given her that responsibility as sort of that would be her area of expertise or not, I don't know, but she would be one of the people that, yes, again, if I got an EPOSS call, it would be, yes, probably Anne or perhaps Diane, she was another one, that I would have gone to for that.
 
@@ -362,6 +371,8 @@ There's a reference to a Smiley support tool and another tool, which it is said 
 
 **Richard Coleman**: I mean, the tool that I wrote was called "SSC FAD INFO" and John and I had obviously had -- about the same time had the thought of, oh, it would be useful to have some sort of graphical application that we could use to extract information from the various systems and present it sort of in a single window, you know, which would obviously help us with diagnosing.
 
+.. rst-class:: indented
+
 So there was a lot of overlap between our two programs because we developed them at the same time, unaware that the other person was doing so.  Yes, and, I think, as Steve says, my tool was ultimately -- what it did that was perhaps different from John's and I can't remember what those things were but that was then subsumed into John's program.  So it was just a way -- because normally we would access the information that we needed on the various systems through a command prompt.  So you're having to type long command lines in.  So, obviously, having a Windows application on your computer made it a lot easier to see that information all together.
 
 **Mr Blake**: What information was it that you were seeing, using your tool?
@@ -393,6 +404,8 @@ Are you able to assist, is that linked to the tool?  Is it something else?  Are 
 .. rst-class:: indented
 
 **Richard Coleman**: If you scroll back a page, back to page 8, 15.40, I've put an entry saying that once closure has been agreed then we will delete those files.  I don't recall who John Newitt was but I think that the only reason we wouldn't have kept those, that we deleted them, was that they would take up an awful lot of space, even as compressed zip files, so hence my note there about so he can free up the disk space on his server.  So, as I say, I don't know what server that would have been.
+
+.. rst-class:: indented
 
 But we wouldn't need to keep those and I suspect probably it's taking up space within the PinICL system and, as I say, they would be large files and we wouldn't need to actually keep them with the PinICL call because if we needed to go back to those FAD codes and get that evidence again then we just go back to the FAD code and extract it from the message store.
 
@@ -434,7 +447,11 @@ If we go over the page, we have Barbara Longley there at 13.19.32, saying that t
 
 **Richard Coleman**: We had a sort of -- there was an admin role that SSC people did.  Barbara wasn't technical, she was just -- I wouldn't say just an administrator but she was the administrator.  She wasn't technical.  So we had this role that each person in the SSC would do.  So we had a rota.  So each day one of us would do what we call a pre-scan.  So we would take a look at the call as -- once Barbara's done her admin on that and then we could do a bit more admin because we had a sort of technical understanding.
 
+.. rst-class:: indented
+
 In one of these PinICLs, Diane Rowe, as a pre-scanner sends her call back with insufficient evidence.  So she's obviously had a quick look and gone "We haven't got enough evidence, I can see that straight away, so send it straight back".  So that's what I'm doing here.
+
+.. rst-class:: indented
 
 Then -- because originally when I did my witness statement, originally I thought we did the pre-scan once Barbara had retired but, clearly, that's obviously not the case and I thought -- because I thought it was Barbara who would then assign the calls to the various team members but, clearly, I'm doing that as the pre-scan.
 
@@ -456,6 +473,8 @@ Then -- because originally when I did my witness statement, originally I thought
 
 **Richard Coleman**: Yes, when I looked at this call when it was sent to me, I noticed that and thought "Now, why have I done that", not why have I set it to user but why have I set it at all?  Because a defect call is -- you can only determine once you've done your investigation and I haven't done investigation on this.  I've assigned it to Mike and he's do the investigation.
 
+.. rst-class:: indented
+
 So the only thing I can think is that we would have a sort of whatever procedure we had for the pre-scan, that we had to make sure that possibly every field in PinICL had something set to it.
 
 **Mr Blake**: So might "User" have been essentially used as a default setting in the absence of any other information?
@@ -463,6 +482,8 @@ So the only thing I can think is that we would have a sort of whatever procedure
 .. rst-class:: indented
 
 **Richard Coleman**: I couldn't say whether that was a default.  I'd be very surprised if that was a default.  I mean, I can't recall what options I would have had under "defect cause" but I know in one of the other PinICLs somebody had set it to "unknown".  So if you're going to go for a default, I would have thought it would be something like "unknown".
+
+.. rst-class:: indented
 
 So I mean, as far as I can think, that it's simply a case of using your best guess.  If you've got to set something, try and set it to something that you think is appropriate.
 
@@ -483,6 +504,8 @@ So I mean, as far as I can think, that it's simply a case of using your best gue
 .. rst-class:: indented
 
 **Richard Coleman**: No, I don't think so.  I mean, I'd be surprised if Mike paid any attention to that at this stage because he's got to investigate, he's got to look and see, yes, is there a system -- the PM is saying there's a system error, so we need to proceed on that basis -- or, sorry, Mike needs to proceed on that basis.  So I doubt he'd have paid any attention to that and he would have -- I mean, I know with this call it did turn out to be user error but if he then thought, "Well, no, it's not, it's a code error", then he would have changed that when he closed the actual call.
+
+.. rst-class:: indented
 
 That's actually when that defect cause comes into effect, if you like, that becomes -- at the moment it's sort of irrelevant.
 
@@ -784,7 +807,11 @@ Can you assist us why would something be closed as insufficient evidence, rather
 
 **Richard Coleman**: It was part of the responsibility of the SMC to provide whatever -- all the evidence that they could provide for us to then go and investigate this problem.  So I've looked at what the PM has reported and, normally, you would be able to see those transactions in the message store and I've got this sort of very unusual situation where I've looked in the message store and I cannot find any evidence of those transactions ever occurring.
 
+.. rst-class:: indented
+
 So I can't go any further with this and so that's why I ask for a session ID, because maybe I'm looking in the wrong place on the message store.  I mean, there were, was it, 510,000 messages we'd got up to within this particular counter's message store by this point. So, you know, that's an awful lot of messages to be looking through, whereas a session ID, I will be able to track that down relatively quickly and, therefore, be able to start by investigation in that area because it may be that there's a problem on the counter with the clock being wrong and so Riposte is storing the wrong date and time in the message store.
+
+.. rst-class:: indented
 
 So I'm looking, you know, on what I think is -- or what's shown to be the wrong date.
 
@@ -800,7 +827,11 @@ So I'm looking, you know, on what I think is -- or what's shown to be the wrong 
 
 **Richard Coleman**: Yes, and, ultimately, that's what it turns out to be. There is a Riposte error here where counter 1 -- when you replace a counter, it comes with a blank message store.  So Riposte will start up and it will then call out to the other counters in the Post Office to say, "Okay, have you got any messages for me?"  So those counters would then reply saying, "Yes, I've got 510,000 messages for you, here you go".  So that counter would then start reading those messages in and writing them to its own message store.
 
+.. rst-class:: indented
+
 Once it's got all those messages, it can then start writing its own messages to that message store and one of the first messages would be a Riposte version string message and so that's how we would -- by seeing that message, we would know that Riposte has been restarted at that point.
+
+.. rst-class:: indented
 
 There was a bug whereby the counter would think that, "Okay, I've got all my messages now", but, in fact, it didn't.  So there were still some messages to be sent across and, for whatever reason, Riposte -- we sort of call that about -- Riposte coming back online too soon and that's what seems to have happened here.
 
@@ -850,9 +881,15 @@ Then over the page you have quite a long explanation about what you think the is
 
 **Richard Coleman**: Yes.  So on the 20th, obviously I've sent it back.  So on the 21st, I probably did nothing with the call, expecting it to come back to me with the evidence I'd asked for but, as it says that beginning of that sort of long list, there was a problem with the OTI, the interface between PowerHelp and PinICL, so I don't think -- the stuff that I typed in there didn't go back into PowerHelp, so the SMC had no idea.
 
+.. rst-class:: indented
+
 So I suspect that on the 22nd, I'd probably have spoken to the SMC to say, you know, "What are you guys doing about this particular call?  Can you give me the evidence and send it back to me", at which point, you know, they say "What evidence?  We haven't got that. That hasn't come across".  But, clearly -- because I started was it 8.50 in the morning, I think it was -- 8.52, I clone the call.
 
+.. rst-class:: indented
+
 So I imagine on the 22nd I've actually looked at this myself.  Without the call coming back to me I've looked at what's been going on and I would probably have spoken to either Pat Carroll or John Simpkins and said "I've got this unusual call, I can't see these messages or transactions that the PM says they have done, any ideas?"  And I suspect they have probably gone "Well, you could have a look to see what do the counters themselves say", because, as a default, we would have gone to the correspondence server and the messages on the correspondence server.  That's why we normally look when we had to investigate a message store.
+
+.. rst-class:: indented
 
 So I've then gone down onto the actual counters themselves and noticed that, yes, as I say at the top there, counter 2 has 48 messages which are not on counter 1.  So, clearly, something rather serious has gone wrong with Riposte and then it's a conversation with Development to say, "Okay, how do I fix this?"
 
@@ -866,7 +903,11 @@ Did you have a concern at this stage that the missing transactions wouldn't be r
 
 **Richard Coleman**: No, because the missing transactions were on counters 2 and 3.  The problem was they weren't on counter 1 and they weren't on the correspondence server and that would cause problems when we're retrieving cash account messages via the agents, which would have looked at the correspondence server messages and so they would miss the transactions that were on counters 2 and 3.
 
+.. rst-class:: indented
+
 So they wouldn't -- so the APS -- yes, some of the transactions are APS so, you know, there's -- I can't remember what APS -- automated payments, something like that, I can't remember.
+
+.. rst-class:: indented
 
 So you've got customers saying -- paying a gas bill, for example, you know, they've paid, they've got the receipts, but their account wouldn't be updated because those messages on counters 2 and 3 aren't at the correspondence server.  So I'm asking, "Okay, how do we get these transactions back onto the correspondence server, so that they can be harvested, so that customer, you know, bills get paid?"
 
@@ -938,6 +979,8 @@ So can you assist us with what you mean there?
 
 **Richard Coleman**: Well, obviously, I've spoken to the PM and passed on the advice from Development, as, you know, "Don't use counter 1 to do it", because the AP transactions that she needs in order to balance are on 2 and 3.  Counter 1 knows nothing about them.
 
+.. rst-class:: indented
+
 Now, I think probably why I didn't mention about recovering the AP transactions is -- probably is part of the conversation that I had with the PM because I then go on to say, "Since the PM recovered the transactions and then reversed them", and then I've got a further question of, okay, sort of what kind of effect is that going to have?
 
 **Mr Blake**: So you say:
@@ -989,6 +1032,8 @@ Now, knowing what you know about this issue and having reread this PinICL, do yo
 .. rst-class:: indented
 
 **Richard Coleman**: Well, he hasn't got access to the message stores on the correspondence server and it wouldn't be down to development to reconcile those missing transactions with the Post Office.  That would be an MSU action and I think somewhere I cloned this call, I think.  Yes, so -- no, that's not that one.
+
+.. rst-class:: indented
 
 Yes, so immediately after Brian Orzel on 1 December, 11.18, I cloned this call to PC59052, which I am assuming I would have sent -- that would be the call that I would have sent off to MSU with the details for those APS transactions and any other transactions for them to sort out the reconciliation with the Post Office.
 

@@ -799,6 +799,8 @@ You were in the SSC from 1997 onwards --
 
 **Michael Peach**: Nobody ever phones you to tell you the system were working properly; you are constantly phoned when it's not.  So you obviously get a fairly jaundiced view.
 
+.. rst-class:: indented
+
 Having said that, I would have described it as generally working the way I would have expected it to work.  That sounds very vague, I know.  I'm sorry. I don't think I can be more precise.
 
 **Mr Beer**: Do you remember Richard Roll?
@@ -967,6 +969,8 @@ Was that a practice of which you were aware?
 
 **Michael Peach**: No, on two grounds.  Firstly, whenever any call came in I expected people to look at all the evidence and diagnose it properly and that means you have no fixed starting position.  You don't assume from the beginning that it's a user error, you don't assume it's a software bug.
 
+.. rst-class:: indented
+
 Secondly, we, to my knowledge, never used blame. Even when calls were being returned as possible user error, that could mean any number of things.  It could mean that documentation at the Post Office wasn't accurate, hadn't been followed -- it's not a question of blame.
 
 **Mr Beer**: Mr Roll told the Inquiry that:
@@ -1002,6 +1006,8 @@ Do you remember that incident?
 .. rst-class:: indented
 
 **Michael Peach**: I've read through the original call and it's clear from that -- I believe it says on it something like "This is happening six minutes before POLO", which is Post Office Log On".  Since it's happening before the postmaster has logged on, then no financial transactions can have been impacted.
+
+.. rst-class:: indented
 
 Secondly, he made comments that I had talked to the hardware manager, which is certainly possible.
 
@@ -1455,6 +1461,8 @@ Can you think of reasons for recording the fact that the branch will not be awar
 
 **Michael Peach**: I don't have an explanation for that.  In the second part where it's under the "Extra detail", the comment, "The message will include a comment to show it has been inserted", was part of the standard procedure from the SSC.  When inserting a message into a counter message store there would be an addition made to the Riposte message which said something along the lines of "inserted by SSC to resolve PEAK thing".
 
+.. rst-class:: indented
+
 So that second comment saying, "will include a comment to show it has been inserted to resolve this problem (this will not be visible to the branch)", I would take to mean that that message inserted into the Riposte message would not be visible to the branch.
 
 **Mr Beer**: Yes.  Can we turn back to paragraph 141 of your witness statement, please, which is on page 45.  It's the bottom half of the page, thank you.  You say:
@@ -1711,6 +1719,8 @@ So he was making a judgement on whether the content of a call made by a subpostm
 
 **Michael Peach**: Because my understanding, limited as it was, of any form of litigation process was that all of the data had to come from the audit servers and that is specifically why the SSC were never to touch the audit servers, so that it was completely untouched by those people who had write access to the parts of the system.
 
+.. rst-class:: indented
+
 If I would have known that evidence was being gathered from elsewhere, then I think in my mind that would have put in question the origin of the data being used in a case.
 
 **Mr Beer**: Thank you.  That document can come down from the screen now.
@@ -1897,7 +1907,11 @@ By that, are you saying that it ordinarily would be Brian Pinder's job to go to 
 
 **Michael Peach**: A number of reasons.  Firstly, nobody in the SSC was trained to do presentations, certainly not trained in court etiquette or court procedures.
 
+.. rst-class:: indented
+
 Secondly, it's an open-ended commitment for somebody to go to court, which means that I was going to lose one of my most skilled diagnosticians for an unspecified period of time.
+
+.. rst-class:: indented
 
 Thirdly, on a purely personal level, she was clearly being very stressed by it.  I wanted to make sure that that did not happen to any of my staff in the future.
 
@@ -2396,6 +2410,8 @@ Is that accurately describing a common problem; namely a subpostmaster continual
 .. rst-class:: indented
 
 **Michael Peach**: It's not something that I recognise.  As we discussed earlier, the SSC was supposed to receive the first instance of a new incident.  Subsequent incidents would become a problem, rather than an incident, and would be handled through the problem management process.  So if there were multiple calls on a single problem, then the SSC would receive the first.  Subsequent ones would be referred to the problem managers by HSH and SMC.
+
+.. rst-class:: indented
 
 Whether or not calls were being bounced around between Horizon and the NBSC, I wouldn't know.
 
@@ -3283,6 +3299,8 @@ Can you explain why workarounds that applied to data centre systems were not alw
 
 **Michael Peach**: I think I was asked specifically would it be possible to put messages into a message store out-of-hours.  I can't remember who asked me that, to be honest.
 
+.. rst-class:: indented
+
 So what is written there was in response to that particular question and why it would not work.  It's not to be taken as detail of the process.  Was that not clear?
 
 **Mr Beer**: No, it's not clear.  What's the correction you wish to make?
@@ -3423,6 +3441,8 @@ Can you just help us a little bit more to understand what people within the SSC 
 .. rst-class:: indented
 
 **Michael Peach**: Yes.  SSC developed both the KEL system and PEAK, so we were effectively fourth line support for those particular applications.  We did a large number of ad hoc requests for data which came usually from :abbr:`POL (Post Office Limited)` and usually through the Service Delivery Managers.  So POL would need certain information, they'd talk to the Service Delivery Managers, the Service Delivery Managers would come and ask us whether it was feasible, how long, how much.
+
+.. rst-class:: indented
 
 There were other things going on but I'm struggling to remember.
 
@@ -3786,6 +3806,8 @@ What I'd like to ask you about is the suggestion there that there needed to be a
 
 **Michael Peach**: That's -- with any release of any software, at some time the decision is made "We're not going to keep rewriting this, we will fix forward", and that is the point at which the code is delivered to the system and the SSC becomes responsible for supporting it.
 
+.. rst-class:: indented
+
 Would I have liked to have known about this decision?  Yes, I think I probably would.  Was it my decision to make?  No, and the people who made the decision were the people empowered to make that decision.
 
 **Ms Page**: It's not about blaming you, Mr Peach.  I'm asking really because the question is: would it have been sensible for your team, as the front-line team dealing with the first initial software code problems, to have been able to know about this, so that you could have fed your team's findings in to that ongoing decision about whether there ought to be a rewrite?  They were keeping it under review, that question?
@@ -3868,7 +3890,11 @@ I don't know if this is a document that you've already had sight of but there's 
 
 **Michael Peach**: No, none of us were happy with it.  The original access control policy, from my reading of it now and my vague memories of it at the time, assumed that the SSC would be providing detailed code support to the data centre boxes and I believe the assumption was that, in the majority of cases of any problem on the counter, then the counter would be replaced: a straight hardware swap.
 
+.. rst-class:: indented
+
 So the SSC responsibilities with regard to counter were very limited in the beginning, according to the access control policy.  My recollection is that there were one or two problems on counters which affected a number of counters and for which hardware swaps were clearly not going to be an option and, therefore, SSC were allowed access to the counters in order to fix those problems.
+
+.. rst-class:: indented
 
 Immediately that that became obvious and that we were contravening the terms of the access control policy, the security architect, who was Glenn Stephens (now, sadly dead), started looking for a solution that would give the SSC the access they needed to fix the system but in a controlled and auditable way, and that's where SSC came from.
 

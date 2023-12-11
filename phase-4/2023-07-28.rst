@@ -166,6 +166,8 @@ Looking at the documents you've just seen, it's fair, isn't it, to say that you 
 
 **Jan Holmes**: Well, yeah, I mean, the dates would suggest that but the linkage between the two is not something that I would have made.
 
+.. rst-class:: indented
+
 Also, just to say that the number of defects that I'm reporting in the CSR audit report are simply numbers.  They're not an analysis of what those defects were.  So I can't say what areas of EPOSS were actually affected by those bugs.
 
 **Mr Blake**: But you have been told by, for example, Mr McDonnell that the code is of poor quality?
@@ -179,6 +181,8 @@ Also, just to say that the number of defects that I'm reporting in the CSR audit
 .. rst-class:: indented
 
 **Jan Holmes**: Well, in that context, what I was meaning was that the more you tinker with something, the more likely you are to introduce a problem, and that's the same with anything, whether it's software, a car, decorating.  You know, if you fiddle about with stuff, it's likely to start going wrong, you know, which is the "do it right first time" principle.
+
+.. rst-class:: indented
 
 So yeah, that was a concern but that was, if you like, trying to raise a risk in people's minds that this could happen if we carry on -- carried on working in that manner.
 
@@ -205,6 +209,8 @@ So yeah, that was a concern but that was, if you like, trying to raise a risk in
 .. rst-class:: indented
 
 **Jan Holmes**: Well, the EPOSS taskforce was looking at the baseline that was in place at the time, because we were looking at live defects there.  The CSR+ activity, unless I'm vastly mistaken, the development, the PinICLs were test PinICLs that were produced during testing cycles.
+
+.. rst-class:: indented
 
 Unless I've misunderstood my own report, you know, I don't know if those PinICLs that I'm counting there were live or whether they were the results of test.
 
@@ -770,6 +776,8 @@ Back foot: I mean, that sounds a bit like a competition, like you're getting out
 
 **Jan Holmes**: No, out-manoeuvre is wrong.  I mean we had to go on the defensive and clearly HSH advice being to reboot nine times out of ten, on the face of it, looks unacceptable, so we have to understand why that is.  And the argument was used that the purpose of the HSH is to get the postmasters up and running as quickly as possible and not interfere and not interrupt their business cycle.
 
+.. rst-class:: indented
+
 So sometimes the easy answer was to say reboot and then you're up and running again. The question that was raised by Mr Coyne was what happened to that after they rebooted?  Did they do anything with it?  Well, yes, they did because the presence of KELs where these things have been further investigated, suggests that work was done after the event to try to better understand what was going on.  So it wasn't just the case of "Yeah, you've got a problem, reboot; next one, reboot; next one".  It wasn't quite that straightforward and simple.
 
 **Mr Blake**: That's not actually the question I'm asking you. I'm asking you about that first sentence and the way that it's worded.  You're saying you're on the back foot and then you're saying, "I'm having to bring :abbr:`POL (Post Office Limited)` imposed SLAs a form of justification".  Now, it might be suggested that having to bring in the SLAs, it means you didn't otherwise have a good answer to why the advice was to reboot nine out of ten times.
@@ -922,9 +930,15 @@ Refreshing our memory from what Richard Brunskill said, I mean the essence of wh
 
 **Jan Holmes**: No, because on the right-hand side we're saying why we do the reboots:
 
+.. rst-class:: indented
+
 "... quick response to their call and, to the extent possible over the phone time, a timely ..."
 
+.. rst-class:: indented
+
 Sorry:
+
+.. rst-class:: indented
 
 "... a quick response to their call and, to the extent possible over the phone, a timely return to normal business operations", which is what the SLA was trying to do.
 
@@ -1171,6 +1185,8 @@ Did you really feel at that stage, so far down the line, having everything in mi
 .. rst-class:: indented
 
 **Jan Holmes**: Well, "influence" is a word.  I mean, can we just put something into context here?  At the beginning of Horizon going in, this provision of litigation support, prosecution support that we were obliged to do, was absolutely in its infancy and each case was unique, insofar as, if it wasn't just providing them with audit data, if it was other pieces of information, work or whatever that they wanted, it was new every time.
+
+.. rst-class:: indented
 
 So we were learning all the time how to go through this process with the Post Office.  This was the first time, to my knowledge, that we had to interact, through the Post Office, with an expert witness so when I say "influence" I don't mean "Come on, Jason, change your mind", it was more about giving him access to the things that might help him change his mind or change his opinion.
 
@@ -1486,6 +1502,8 @@ At this stage, July 2004, was there something of a blame game going on in relati
 
 **Jan Holmes**: Well, no, it's just that, in that conversation with Keith, obviously, you know, he said Dave Smith and we saw that slide that Dave Smith produced in the session this morning, with Jason Coyne, who showed him the slide that Dave Smith had produced.  Again, I don't know who "we", is, I don't know if it's "we" POA or "we" :abbr:`POL (Post Office Limited)` and POA have conceded what we should not have done, and I'm not sure what we did concede, and now POL are in a difficult position.  So, you know, so my concern there was well, is he now trying to park the blame on us or is he sort of saying that, you know, we've got to find a way of managing this?
 
+.. rst-class:: indented
+
 And my comment about "given our late involvement", bear in mind that we didn't get involved in this until -- was it February 2004? And the issues were all happening in 2000/2001. You know, I just wanted to be certain that he wasn't going to try and push this all onto us and say we've done a bad job because I didn't think we did.
 
 **Mr Blake**: Was there pressure in that respect?  Did you feel pressure coming from :abbr:`POL (Post Office Limited)` that you may not -- that you may be blamed in this case?
@@ -1698,7 +1716,11 @@ Do you think, looking at that now, that that was an appropriate stance to have t
 
 **Jan Holmes**: Well, no.  I did mention earlier about the fact that this was a -- this was a unique situation that we found ourselves in, that I found myself in and we were having to learn how to do this and to pick up how to do this as we went along. It was the first time I'd been involved with an expert witness as such.
 
+.. rst-class:: indented
+
 :abbr:`POL (Post Office Limited)` had asked us to challenge the report, which we did.  All right, perhaps we took of the challenge one step too far by offering him site visits, and what have you, but there comes a point when you want to see something reach a natural conclusion and the second -- the offer to host him and let him have access to people and systems, was probably the last toss of the die.  The fact that Post Office didn't forward that report to him was their choice and then we take the next step which is going to court.
+
+.. rst-class:: indented
 
 You know, as I said at the start, it's a job.  We had a job of work to do and we did that work.
 
@@ -2039,7 +2061,11 @@ You are still in control of this issue in September 2001, are you not?
 
 **Jan Holmes**: Well, it's been passed back to me because as I was the originator.  So it's been sent back to me and it says:
 
+.. rst-class:: indented
+
 "This has been identified as a requirement for Network Banking and has been included in the NWB Performance Improvements document.  It has not been transferred to the SDS but the PinICL remains open pending the delivery of such a catalogue as part of BI3."
+
+.. rst-class:: indented
 
 So what was happening there was the production of this catalogue had been put on the back burner, and -- until a later release of Horizon was made.
 
@@ -2379,6 +2405,8 @@ The date is 10 January 2002 and it was again under the umbrella of the Camberwel
 
 **Jan Holmes**: Can you scroll this one on screen up to the top, and let's have a look at what it is.  Right this is a Change Control Note which is raised by us in response to a change request that is raised by the Post Office, which we then raise a change proposal that effectively establishes the work within Post Office Account.  And the CCN is the Change Control Note that goes back to the Post Office to say, "This is what we're going to do and this is how much it's going to cost".
 
+.. rst-class:: indented
+
 I have nothing to do with that.  In fact, you can see the CCN was raised by Graham Hooper, who was a Security Manager at that time.
 
 **Mr Henry**: I see.  Nevertheless, in relation to Camberwell Green, because this is what we understand and that's the description of the document as to its provenance, in relation to the Camberwell Green case, it's remarkably close, is it not, to the £20,000 that I put out to you on the last occasion?
@@ -2410,6 +2438,8 @@ You're dealing here with Horizon System Helpdesk calls, Tivoli event logs, non-p
 .. rst-class:: indented
 
 **Jan Holmes**: Well, actually, if you go back to the previous page, I'm putting my hand up there and saying:
+
+.. rst-class:: indented
 
 "On various dates and at various times between 14 January and 25 January I analysed audit data for transactions and activities undertaken by Camberwell Green Post Office during the period 12 October 2000 to 1 March 2001 (the Material Period).
 

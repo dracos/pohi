@@ -193,6 +193,8 @@ Examined by Mr Beer
 
 **Charles Cipione**: Yes, so a big part of the bankruptcy process in the United States has to do with the reporting of all of the assets and liabilities of the debtor company that's going into bankruptcy, for purposes of allowing the creditors to understand the debtor's position on amounts that they think that they owe the creditors.
 
+.. rst-class:: indented
+
 There are a number of -- there are several reports that are required by the court, AlixPartners did not have a system to do that in the group that I belonged to.  As we were acquired by AlixPartners, I took over all of the administrative responsibilities for reporting in the court.
 
 **Mr Beer**: Thank you.  You say this involved interrogating, collecting and organising vast amounts of disparate, financial and operational data from your client systems; is that right?
@@ -669,6 +671,8 @@ Can you explain, please, what you mean by "downstream" and "upstream" components
 
 **Charles Cipione**: Certainly.  So the relationship or the hierarchy within the model that we just went through has a clear pecking order: strategy guides the tactics, tactics selects the software, software controls the data management and the data management supplies information to the reporting and analytics section.
 
+.. rst-class:: indented
+
 So that's the relationship that I'm referring to.
 
 **Mr Beer**: Which of those are downstream and upstream?
@@ -689,9 +693,15 @@ So that's the relationship that I'm referring to.
 
 **Charles Cipione**: Certainly.  So in this example what I'm describing is that if the reporting and analytics took it upon themselves to expand on the information that was to be collected, in theory, that should have been guided by the tactics and then were sponsored by the software system.  It is possible that there are situations where someone in the reporting and analytics division of this hierarchy felt as though "Well, it would be very nice to have this particular piece of information available but it's not being collected by the software system, so we're going to take it upon ourselves to start collecting that information".
 
+.. rst-class:: indented
+
 That, in the short run, could be a very good idea. However, as that type of attitude towards the enterprise goes on and on, you find that you're doing a lot of one-off, ad hoc additions in the wrong place -- and in this situation, I mean in the reporting and analytics -- of collecting information, and not necessarily everyone within the enterprise even knows that you're collecting that information and they certainly aren't governing it. There aren't any rules governing the collection of that information, at least not from the purview of the strategy or the tactics section.
 
+.. rst-class:: indented
+
 So, in my experience, what I found is when that happens it's almost as though a new kingdom has been set up in the wrong area of the hierarchy and, over time, it becomes disjointed with the strategy and tactics of the enterprise and it creates an unstable situation because once the strategy -- you know, once the senior leaders or the line leaders of a system are aware that this information is available and start relying on it, but it's not really being controlled properly through the software system or the data management component of the process.
+
+.. rst-class:: indented
 
 Oftentimes the integrity of that information is not the best, and the situation then arises that no one knows, really, who is in control of that information. No one has a view onto the efficacy of the information, and it is, essentially, out of control.  The process -- you've introduced a lack of control into the process, and that has a lot of knock-on effects down the line, and any one addition like that seems fairly innocuous but, over time, it's as though bile is being collected in the system and, eventually, things become very out of control, if you are not adhering to who's in charge and where the proper division of labour should be for that particular example.
 
@@ -703,7 +713,11 @@ Oftentimes the integrity of that information is not the best, and the situation 
 
 **Charles Cipione**: That's right because, once you start going down that path where you're out of control, as far as the collection, you know, the proper collection and maintenance of that data, then people are expecting -- like, for instance, if this was done completely in the reporting and analysis section, people further upstream, such as in the tactics or in the strategy section might assume that it's being -- that it's part of the software system or part of the data management system, where it's not.  And the data --
 
+.. rst-class:: indented
+
 You know, it's extremely inefficient to have multiple people doing the same thing and what I'm trying to explain here is that, as these lines are blurred, no one knows really who has responsibility over the data, and no one knows where the data is coming from, which is the communications issue, and as systems are upgraded.
+
+.. rst-class:: indented
 
 So let's say that we did collect a whole bunch of extra data in the reporting and analysis section and then went through a change management -- a change process in the software and the data management section, they have no idea that this other information is being collected and they don't know how -- they wouldn't know how a change in the software or a change in the policies and procedures that are in the tactics section, or even a change in the data management portion of the hierarchy are affected by the expectation that this extra data is always being collected because they, in fact, might not even know that this data is being collected.
 
@@ -717,6 +731,8 @@ Can you explain, please, what you meant by that?
 
 **Charles Cipione**: Certainly.  So the systems are complex.  You know, running an enterprise is complex.  But it's important for guiding principles at the top to then -- as it filters its way down through the hierarchy, to then be more real world.  The concept of pushing complexity down as far as possible allows rapid changes to be made to the system, whereas -- opposed to if all of the complex existed at the top of the hierarchy, it would require a vast amount of changes downstream because every change at the top cascades down.
 
+.. rst-class:: indented
+
 So, to the extent that you can push down the complexity as far as possible, it limits the amount of adjustments that need to be done as things are changing, you know, on the different parts of the hierarchy.
 
 **Mr Beer**: Thank you.  Again, in (ii), you give an example of not adopting that philosophy.  Can you remind yourself of that example and then try to explain it to us, please?
@@ -725,7 +741,11 @@ So, to the extent that you can push down the complexity as far as possible, it l
 
 **Charles Cipione**: Right.  In this example what I'm -- the example I'm using is if a particular reporting requirement dictated by the tactics section was inadvertently put into the software selection section.  There, the example I'm using is whether a particular postal code is related to an offshore isle or not.  It is possible to locate that particular functionality within a software system, it certainly is, but that is a redundant piece of information, in my perspective.
 
+.. rst-class:: indented
+
 So, for instance, you have a UK postal code and the tactics section might require an extra entry of checking off a box to say whether this postal code relates to an offshore isle.  You certainly can require your software system to record that but the correct place to record that information is more in the data management system, because it is redundant, there is no need to introduce that into a user interface screen.  It's defined.  It's pre-defined.  Everyone, you know -- that is something that can be managed further down in the hierarchy.
+
+.. rst-class:: indented
 
 If you did require the software to do that, here are the downfalls of that: so number 1, the extra amount of coding that it would take just to implement that one little change.  But the bigger issue is you are now allowing the possibility for, internally, your data to not be correct.  So you're giving the user the option of giving a postal code and a particular category or tag to that postal code.  The user might put that in incorrectly.  However, if you have that pushed down into the data management section and the data management section has a definition of each postal code and whether it is an offshore isle, it's taken that labour off the user it's taken the labour out of creating the software and it's also maintaining the integrity of the reporting that will be using that.
 
@@ -740,6 +760,8 @@ If you did require the software to do that, here are the downfalls of that: so n
 .. rst-class:: indented
 
 **Charles Cipione**: Well, the first problem is that, if that code is not necessary, there's going to be a cost component to that code.  So that's the first problem.  But the second problem, really, has more to do with being -- having internal referential integrity of the data and that's what I just described.  It is possible, if you put that in, to have data that doesn't agree with each other.  If I have a particular postal code that is related to London and I have the option of checking that off as being an offshore isle, I've just introduced a data error into the system.
+
+.. rst-class:: indented
 
 Then the third thing would be the maintenance of that code, the maintenance of the software, to the extent it's ever upgraded, would have to take this extra coding into account and have a knock-on effect of perhaps increasing the maintenance costs further down the line.
 
@@ -799,6 +821,8 @@ You mention a series of hardware devices and you categorise them as, firstly, in
 
 **Charles Cipione**: Certainly.  So if you are working on a spreadsheet that perhaps you saved yesterday, you -- as you pull up that spreadsheet, it's referencing the hard drive to pull up the information that's on the spreadsheet.  So at that point in time, your hard drive is considered an input device, because that's where your application is receiving information from.
 
+.. rst-class:: indented
+
 Then, as you make changes to that spreadsheet and are done for the day and save it, that same hard drive is being saved to and, at that point, it turns into an output device.
 
 **Mr Beer**: You say in your report, where you indeed give that example:
@@ -829,7 +853,11 @@ What did you mean by that?
 
 **Charles Cipione**: Certainly.  So, oftentimes, it's needed to -- systems need to collect and organise information in a structured manner and the database management system software helps to do this.  Oftentimes it's in a structure but it doesn't always have to be -- when I say "structured", I'm really referring to like tabular formats.  You can often think of a database management system as being a series of tables that hold information and can be -- and have relationships to other tables.
 
+.. rst-class:: indented
+
 So, like, an example would be perhaps I have a sales system and that sales system I want to know who all my customers are.  So there might be a table that holds just customer information and a reference key for that customer information.  But it might also have a different table that keeps track of all the sales I've made to that customer.
+
+.. rst-class:: indented
 
 So what a database management system does is it tries to organise that information in a way that minimises the amount of space it takes to record all that information and allows me to do some analyses on that information.
 
@@ -868,6 +896,8 @@ So what a database management system does is it tries to organise that informati
 .. rst-class:: indented
 
 **Charles Cipione**: Certainly.  So if you were to ask me to build you, you know, a contact tracking system, perhaps I might want to use what I'm referring to here as an application development software system and what that is is it is a set of software packages that allow programmers to efficiently design, develop, deploy and maintain software.  So it's specific to systems development, design and deployment, and it supports those -- you know, that effort in organising all the code, organising the releases and keeping track of that.  I believe that I -- you know, like Microsoft -- Microsoft has a studio it's called Visual Studio, it is an application development software, and Android also has a studio, if you wanted to --
+
+.. rst-class:: indented
 
 So if I wanted to deploy a mobile app on Android, I could use Android Studio's application development software package to help me do that.
 
@@ -931,6 +961,8 @@ So if I wanted to deploy a mobile app on Android, I could use Android Studio's a
 
 **Charles Cipione**: Certainly.  The design is basically the roadmap for how you are going to achieve the goals set out in the planning and analysis stage.  This includes a lot of different things.  It is considering both the architecture of just the software, as well as how the -- what hardware is required and making sure that the design of the software is properly accounting for the required hardware that's associated with the system, including communications, including all of the upstream and downstream processes.
 
+.. rst-class:: indented
+
 So, for instance, I might want to bifurcate or trifurcate my design into here is what the user is going to see, here is what the operational -- the operations of the communications between perhaps a bunch of satellite users and a central repository of information that's going to be collecting all of that information for users.  We need to understand what is going to be -- how this information is going to be consumed, what needs to be done with it.  It is trying to take a very structured, rigorous approach to understanding not only what is being requested right now but also perhaps anticipating that changes might be required in the future.  So kind of baking that into the structure of the way this system is designed right now to accommodate, hopefully, you know, reasonably anticipatable future requests.
 
 **Mr Beer**: You say in this paragraph:
@@ -943,9 +975,15 @@ What did you mean by that?
 
 **Charles Cipione**: Certainly.  So oftentimes, especially on large projects or complex projects, the team that is -- that has assumed the role of the general contractor for a particular piece of software or a system, I should say, rather, might not need to develop every bit of technical feature from scratch.  They might be aware that there are components that exist right now from people outside of their particular programming staff that -- that functionality already exists.
 
+.. rst-class:: indented
+
 So, to the extent that they get to a buy or make decision, they might decide that they would prefer to go out there, out to the market and purchase an existing piece of technology and incorporate that into the system that they're developing.
 
+.. rst-class:: indented
+
 If they do that, they need to be -- they need to be well coordinated with that third party that is providing a particular function or a particular feature that's going to be incorporated into the system, so that everyone knows exactly what's expected.  Everyone knows, you know, the -- because there's a lot of technical details when you're incorporating someone else's piece of software, someone else's solution for a particular function of your system.
+
+.. rst-class:: indented
 
 It's very important that everyone understand exactly what's expected from both sides so that it operates correctly when you actually fold everything together and deliver what you're calling a system.
 
@@ -954,6 +992,8 @@ It's very important that everyone understand exactly what's expected from both s
 .. rst-class:: indented
 
 **Charles Cipione**: Right.  So this is where it goes from theoretical to practical.  This is the -- once the design document has been created, it is then used as basically the recipe book for the development team to actually code the software, to do the integration of the hardware with the software that will create the system and that will include, you know, hardware such as, you know, printers or touchscreens, but as well as making sure that things like communications systems are working properly, so that all the different components of the software or all the components of the design, many of which are software, but are connected by different hardware pieces.
+
+.. rst-class:: indented
 
 So the development is taking the design, which is the theoretical -- the theoretical roadmap for the system and actually turning it into a real piece of -- a real system which includes all the hardware and software components.
 
@@ -978,6 +1018,8 @@ Is this phase an important one, the testing phase?
 .. rst-class:: indented
 
 **Charles Cipione**: Yes, so oftentimes, or most of the time, the testing first is done internally by the same group that is writing the software and there's a division of labour within that group.  Usually, there are the developers -- or there's the designers.  But there's the developers, and then there is a different group within that particular firm that will test it.  It's important that they be independent of the development group for multiple reasons but the most important one is they need to have an independent view on whether the system that was created by the development group actually adheres to all of the design specs that came out of the design group.
+
+.. rst-class:: indented
 
 So you have an internal team that will go through a battery of tests, it's usually a very rigorous set of tests that make sure that everything that they see in the actual development of the system adheres to the design specifications that was given to the developers but independently verified by the testing group, by what I'm calling QA, quality assurance.
 
@@ -1005,6 +1047,8 @@ So you have an internal team that will go through a battery of tests, it's usual
 
 **Charles Cipione**: Right.  I mean, practically speaking, even when you're writing a report, it's always good to get a fresh set of eyes on the report to see things that perhaps you're blind to.  So that's just a practical aspect of having an independent group of people do the same thing in the context of software systems.  It's just good to get a fresh set of eyes on something.
 
+.. rst-class:: indented
+
 It's also good to have an independent group because the roles are different.  The structure and rigour around a group of programmers that do testing is different than the structure and rigour of a group of programmers that do development.
 
 **Mr Beer**: The second species of testing or level of testing you describe as:
@@ -1016,6 +1060,8 @@ Can you explain in a little more detail what's involved?
 .. rst-class:: indented
 
 **Charles Cipione**: Certainly.  So once a system has gained approval by the quality assurance group of testing, the first group of testers, a company would have two options.  We can either roll this software out to the entire user community or we can roll it out to a very small group of users to make sure that it's acceptable to them.  The benefit of rolling out to a small group of users is to identify operational issues, is this system understandable to you, as well as to catch maybe some errors that slip through the cracks of the quality assurance.
+
+.. rst-class:: indented
 
 The reason I said it was a benefit is, oftentimes, the user community and the developer community are two completely divorced communities.  What the design and development team might think of as a great way to operationalise something in a system might not be as appetising to actual users of that system and if you roll it out to a small group of users in this user acceptance testing, you get the opportunity to get more stylistic feedback, as well as doing one extra level of testing to make sure that the functioning of the software or the system is performing as needed.
 
@@ -1042,6 +1088,8 @@ The reason I said it was a benefit is, oftentimes, the user community and the de
 .. rst-class:: indented
 
 **Charles Cipione**: So once user acceptance testing has passed, has given the system a passing mark, it's now time to take this system and make it accessible to the entire anticipated user community, and deployment is that process where you are now rolling out the software to the entire population of users anticipated, you know, through this process --
+
+.. rst-class:: indented
 
 You know, when the software gets -- when the agreement to make the software happens, you anticipate what the entire user community is.  The user acceptance training -- testing was a small set of it.  The deployment is talking about now rolling it out to everyone, making sure that -- or allowing everyone to access this particular system.
 
@@ -1081,6 +1129,8 @@ You know, when the software gets -- when the agreement to make the software happ
 
 **Charles Cipione**: Yes.  So depending on how complex the system is, in addition to the training manuals and the access to a helpdesk, it could require training, especially if this particular system represents kind of a paradigm shift, you know, where you're moving a lot of people from doing something that they used to do one way or never did at all and are just not familiar with the entire concept of what we're trying to achieve here, and how the software is -- or the system is helping you achieve that.
 
+.. rst-class:: indented
+
 Training is another avenue to make sure that the users are well situated to employ and utilise the system.
 
 **Mr Beer**: Then the last stage is maintenance of the system when it's in use.
@@ -1088,6 +1138,8 @@ Training is another avenue to make sure that the users are well situated to empl
 .. rst-class:: indented
 
 **Charles Cipione**: Yes.  Yes.  So maintenance -- so even once we've gotten to the point where the system has gone through all the testing, all the training is happening and the user community is interacting with the system, there is a possibility that the users have identified some bugs or errors in the system, in which case those bugs and errors need to be addressed.  It also -- usually, when a system is rolled out and to the extent that the user community is excited about the system and sees the potential of other things that the system can do, the ability for the users to communicate those desires, for new functionality, usually is collected during this point.
+
+.. rst-class:: indented
 
 The maintenance, therefore, is twofold: one, if there are errors or there are bugs in the system, it's to allow for the correction of the bugs.  It's also to act as a collection of basically wish lists of things that the system could do in the future, to the extent that everyone agrees that it's proper to go ahead and create a different version of the system.
 
@@ -1101,7 +1153,11 @@ You describe, I think, the oldest model as being a waterfall concept.  Can you p
 
 **Charles Cipione**: Yes.  So in the past, a waterfall methodology was often employed, a waterfall SDLC methodology was employed which basically said I want to try to do everything in a monolithic fashion.  I want to know every design aspect and get that set.  I want to develop everything in -- that is described in the design concept. Basically, I want to do everything in each stage and not move on to the next stage until the prior stage is complete.  So that's the old way of doing it.
 
+.. rst-class:: indented
+
 In more recent times, what has happened is people or development communities have broken up the design, development and deployment into smaller chunks.  So they're not necessarily creating the entire system at once but they're creating components of the system at once and trying to move those components -- those bitesize chunks through user acceptance and -- or through design, development, testing and maintenance in smaller chunks and that --
+
+.. rst-class:: indented
 
 What that does is it allows kind of a trickle effect of getting the system out into the user community a little faster, although be it (sic) in smaller functional chunks than the entire system at once.
 
@@ -1116,6 +1172,8 @@ What that does is it allows kind of a trickle effect of getting the system out i
 .. rst-class:: indented
 
 **Charles Cipione**: Yes.  Yes.  So there's lots of different flavours and there's lots of different nuances but, essentially, what I'm trying to describe here is that you can -- there are many different approaches to doing systems development life cycle and, oftentimes, they're really around how quickly we want to get things through, what level of acceptance is required, maybe in a rapid level of acceptance.  You don't need it to be as perfect as in a waterfall level of acceptance.
+
+.. rst-class:: indented
 
 That's really a stylistic and taste choice on both the developer and as well as the user and that's just something that is -- there's constant -- there's a much more frequent feedback loop in the rapid development as opposed to the waterfall method.
 
@@ -1391,6 +1449,8 @@ You explain that the system was introduced in stages, known sometimes as a rollo
 
 **Charles Cipione**: Sure.  In September '96 was the Initial Go Live that was implemented in ten Post Office branches and this was an interim -- a system for Child Benefit payments and was limited to that functionality.
 
+.. rst-class:: indented
+
 In November '97 that system was extended to 200 Post Office branches, still just remaining -- the functionality just being the Child Benefit payments and it was noted in my documentation that the deadline for completion of the operational live trial of the IT system, was missed by ICLPL.
 
 **Mr Beer**: That's, at that time ICL Pathway Limited?
@@ -1405,9 +1465,15 @@ In November '97 that system was extended to 200 Post Office branches, still just
 
 **Charles Cipione**: In March '98, an interdepartmental working group was established to review the viability of the Pathway Project and the consequences of cancellation.  The working group comprised officials from Treasury, Cabinet Office, Department of Trade and Industry and the DSS.
 
+.. rst-class:: indented
+
 In July 1998, the interdepartmental working group reported that the Pathway Project remained feasible but required successful renegotiation of the contract with ICLPL.
 
+.. rst-class:: indented
+
 In October 1998, attempts to renegotiate the terms of the contract between DSS, POCL and ICL failed.  In May 1999 the original PFI contracted awarded to ICLPL by DSS and POCL was terminated.  DTI announced a new partnership agreement between POCL and ICLPL.
+
+.. rst-class:: indented
 
 In July 1999 POCL and ICLPL agreed a fixed payment contract to automate the national network of post offices and, in late 1999, the rollout of Horizon occurred or commenced.
 
@@ -1446,6 +1512,8 @@ In July 1999 POCL and ICLPL agreed a fixed payment contract to automate the nati
 .. rst-class:: indented
 
 **Charles Cipione**: Certainly.  So the transactions that were collected at each one of the branches for -- throughout the network needed to be consolidated and organised for purposes of doing all of the managerial accounting.  What I mean by managerial accounting is I would consider the transactions operational -- details of the operations of POCL's agents, as well as their Crown Offices.
+
+.. rst-class:: indented
 
 All of those transactions needed to be organised in order for POCL to do their own internal accounting as well as exchange information with all of their clients, so the managerial accounting was a step in that process to collect all of the transactions and manage them in order to supply further processes that needed to be done for their own internal financial accounting as well as to exchange information with all of their client partners.
 
@@ -1591,9 +1659,15 @@ You remind us that the -- or remind some of us that the Nokia 3210 was the best-
 
 **Charles Cipione**: Yes, so this was -- you know, at that time, this was a much more difficult problem than it is now.  Simply because our communications infrastructure is much better now.  It's much more robust.  The reliability of connectivity, including the expense related to that connectivity at this point in time, really provided issues to anyone trying to maintain what I would refer to as a client-server type process, meaning you have satellite systems which were the clients and you would have the central system which was a server.
 
+.. rst-class:: indented
+
 This is just more a talking term.  I'm not positive I would describe the Horizon System as a client-server but it's a good set of words to use in describing it.
 
+.. rst-class:: indented
+
 The fact that they had to contemplate -- they being ICL Pathway -- had to contemplate an extended loss of connectivity meant that they had to put in guard grills and safety nets for those circumstances where the -- where they knew the connectivity wouldn't exist.  So they needed to not only create a design that allowed for a system that is connected to work but they also needed to design -- they needed to anticipate the fact that they could not be connected.
+
+.. rst-class:: indented
 
 So those were two different logistical issues that they had to incorporate in their design and development of the system.
 
@@ -1608,6 +1682,8 @@ So those were two different logistical issues that they had to incorporate in th
 .. rst-class:: indented
 
 **Charles Cipione**: Right.  So that's, you know, that's -- that complicates the design and development of the system.  So when you're anticipating a loss of connectivity, you have to have plan B.  Okay, what does the system do now that I know I'm not connected?  Now I need to keep a persistent store of the -- you know, I need to, number 1, identify that I'm not connected and, number 2, then I need to collect information until I know I'm connected again and then, number 3, when I am connected again, I need to make sure that the information that's been stored up gets transmitted correctly to the central server.
+
+.. rst-class:: indented
 
 So those are -- that might sound simple, that is not a simple process, necessarily.
 
@@ -1671,6 +1747,8 @@ So those are -- that might sound simple, that is not a simple process, necessari
 
 **Charles Cipione**: Yes, so the -- there was a hardware specification that went along with the Horizon System which included the counter printers, tape rollers, card readers and whatnot.  The branches might not have had space for those and that presented logistical issues for -- I mean, just the physical logistical issue to implement the Horizon System at a branch.  If they didn't have space, they had that issue.
 
+.. rst-class:: indented
+
 Additionally, there were communications constraints at some of the branches.  Some of them didn't have access to some of the communication systems that the Horizon System was designed for.
 
 **Mr Beer**: So some of them didn't have an ISDN line; is that right?
@@ -1709,6 +1787,8 @@ Additionally, there were communications constraints at some of the branches.  So
 
 **Charles Cipione**: Absolutely.  This is a very simple example, certainly, but hopefully the concept will resonate as you think about the more complex features of the Horizon System. But what I'm trying to juxtapose is, to the extent that we wanted to process a transaction for a hammer, screwdriver and pliers through two different paths, one path being source code path and one path being a source code supported by reference data path.
 
+.. rst-class:: indented
+
 In 4.5.12, what I'm attempting to do is to show what source code might look like if it was the only arbiter of processing this data.  There would have to be --
 
 **Mr Beer**: So if you could walk us through the example that's emboldened.
@@ -1717,13 +1797,23 @@ In 4.5.12, what I'm attempting to do is to show what source code might look like
 
 **Charles Cipione**: Certainly.  I'll just go line by line and, if you have questions, then you can ask them.
 
+.. rst-class:: indented
+
 So the purpose of both of these sets of code is to calculate a basket total for the purchase of three items.  So the first thing, the first function that needs to happen is we need to set our total basket to zero.  We need to start at zero.  Then we are going to check if the product that's being -- if one of the products that's being purchased is a hammer.  If that is correct, then I'm going to multiply the quantity of hammers by £5 and add this to the total basket amount, and you'll notice that this is what's referred to as hard coding.
+
+.. rst-class:: indented
 
 So this is hard coded software.  So the -- no matter how many hammers come through here, they're always going to be multiplied by £5 if this source code remains the same.
 
+.. rst-class:: indented
+
 The next item I'm looking for is a screwdriver and, if there are screwdrivers, I'm going to take the quantity of screwdrivers and multiply them by £7 and add that to the total basket amount.  Then, finally, we're going to look to see if the product is a pair of pliers. If we do have a product being purchased as a pair of pliers, we're going to multiply the quantity of pliers by £6 and add that to the basket.
 
+.. rst-class:: indented
+
 That will generate the total basket amount based off this hard cod -- you'll notice at the bottom I also checked to see if there are any products that are not hard, you know, a hammer, screwdriver or pliers.  That's just a general error check that is commonly used in code.
+
+.. rst-class:: indented
 
 But the purpose of this is just to multiply the number of hammers, pliers or screwdrivers by their respective costs or purchase amounts.
 
@@ -1771,6 +1861,8 @@ So, again, the part in bold and italics, under 4.5.15, if we could just blow tha
 
 **Charles Cipione**: Sure.  So, as before, setting the total basket amount to zero, and then I am iterating through the different items that are purchased.  So for every product purchased, I'm going to first look in that table, in the table 4.3, to see if I find that particular item.  So, for instance, if I'm looking for a hammer, I see that there's a hammer in that table and I can see that the price for that hammer is £5.  So if I find that product I'm going to multiply the quantity by the price, and add it to the basket.
 
+.. rst-class:: indented
+
 In a similar fashion, when I get to the screwdrivers, I'm going to take the quantity of screwdrivers and multiply it by the £7 that's associated with the screwdrivers and then do the same thing for the pair of pliers.  I'm going to multiply that by the £6 for the pliers by the quantity that was purchased.  Each time I do that, I'm adding it to the total basket amount, and, at the end of it, I should have come up with the same total that the prior version came up with.
 
 **Mr Beer**: But the difference here is that any price changes can be made by an alteration to the product master table with no need to fiddle with the code?
@@ -1784,6 +1876,8 @@ In a similar fashion, when I get to the screwdrivers, I'm going to take the quan
 .. rst-class:: indented
 
 **Charles Cipione**: Yes.  So data-driven logic or data-assisted programming allows for adroitness in maintaining the code, or maintaining the system, because you are not required -- whenever you make a change to source code, and try to deploy that, you should be going through the testing process to do that.  To the extent that you can remove items like price changes from the code to more of a data driven technology, that reduces the amount of items that need to be tested.  Because you already know that the code works.  You simply need to make sure that you are maintaining that table correctly without requiring going through the whole testing cycle for any new code.
+
+.. rst-class:: indented
 
 So, in the first example, if we changed prices, I would have to go change the code and then, in theory, I should have to test that code again to make sure the works right.  In the second example, I simply need to make sure that someone is in charge of maintaining this table correctly.  I'm never changing the code, therefore I don't have to go through the testing process just because there's a price change.
 
@@ -1917,6 +2011,8 @@ So starting from the bottom of the table, please, component A.  Is component A o
 
 **Charles Cipione**: Certainly.  So you'll see the components that we already described.  You have the counter, the PIN pad, the weigh scales, the monitor, the keyboard, the tally roll and the barcode reader and the A4 printer.  All of those are connected to the PC or what we're going to refer to as the counter, specifically.  The counter -- you'll also notice that the counter, it's called the Gateway PC and this will make more sense when we get to the multi-counter description.
 
+.. rst-class:: indented
+
 But every branch had a Gateway PC, to the extent that the branch had a single counter, that single counter was the Gateway PC.  The purpose of the Gateway PC designation is that is what communicated with the campuses and you'll notice that you see that the two-direction arrow that connects the Gateway PC and the LHITS campus.  Some of the components were used by the customer, some components were used by the SPMs and the weigh scales could be used by either.
 
 **Mr Beer**: Can we turn to the position on multi-counter branches, please.  Can we look over the page, please, at table or figure 4.7, and blow that up, please.  Is this your depiction of the position in multi-counter branches?
@@ -1930,6 +2026,8 @@ But every branch had a Gateway PC, to the extent that the branch had a single co
 .. rst-class:: indented
 
 **Charles Cipione**: Certainly.  So the big distinction between the single-counter branch and the multi-counter branch is the fact that there are multiple counters at the multi-counter branch but the difficulty or the complexity that this presents for this particular branch is that there there's still only one of the counters acting as the gateway between the LHITS campuses and the branch.
+
+.. rst-class:: indented
 
 All of the other counters that are not considered the Gateway PC have to be connected to the Gateway PC and you can see that there is an extra box in this diagram that is labelled "Hub connecting the Counters", and that is the extra piece of technology that needed to be introduced to connect -- make sure that all the counters could communicate with each other and, importantly, communicate with the Gateway PC because the Gateway PC counter was the communication hub to the LHITS campus, which is important because that's what transmitted all the transactions.
 
@@ -1962,6 +2060,8 @@ All of the other counters that are not considered the Gateway PC have to be conn
 .. rst-class:: indented
 
 **Charles Cipione**: The -- all of the functionality that the SPMs at the branch -- SPMs and clerks at the branches, all of the functionality that they needed was through the Horizon software.  There was no need for them to ever get to the operating system level, which is what Windows NT was. The set-up configured each one of the counters so that as it booted, the Horizon System came up or the repost that -- the screens, the user interface, the touchscreens, would come up, and there would be no ability for the user to get to Windows.
+
+.. rst-class:: indented
 
 Why is that important?  If all of the functionality that the SPMs needed to operate the Horizon System existed within the Horizon application, there is no need to go anywhere else because only bad things could happen at that point.  If you had access to the operating system, you could change configurations, you could do a lot of things that would deteriorate the PC and perhaps make the Horizon System not work correctly.  So I suspect that is why no access to the operating system was part of the design.
 
@@ -2091,6 +2191,8 @@ Why is that important?  If all of the functionality that the SPMs needed to oper
 
 **Charles Cipione**: Certainly.  So for the managerial accounting at each one of the branches, a stock unit was a concept or an abstraction of how to -- it gave the branches the ability to organise themselves however they felt fit. The stock unit -- there could have been one -- so we'll get to this when we get to the rollover but, essentially, a stock unit was -- could represent a particular till.  It could represent a particular till for a particular amount of time.  But essentially, it was a way to account for your stock and your cash at that particular branch for a particular period of time and, like I said, it allowed the SPMs to divide up their stock and cash amongst their different clerks, as well as to limit the amount of time, you know, cordon down the time that that stock and cash was in the possession of someone.
 
+.. rst-class:: indented
+
 It would appear I'm not being clear here.  It's an abstract concept that basically allows you to divide up the cash and stock within a particular branch as the SPM felt fit, either across people or across time dimension.
 
 **Mr Beer**: Thank you.  You say in your report that it's a way of managing cash and stock.  They can be allocated to an individual subpostmaster on a medium-term basis or to an individual counter clerk, and then that person is responsible for ensuring that the stock unit balances at the end of the period, whether that be a week or however long the stock unit is allocated to them for.
@@ -2191,6 +2293,8 @@ Mr Cipione, we were just turning to paragraph 4.5.30 at the foot of page 37 of y
 
 **Charles Cipione**: Certainly.  Manual entries would be the transactions that occur as the user is operating the Horizon counter. So as they're conducting the business of stamps and other services available through Horizon, that is in the -- that's what is considered manual transactions and that would be most of the activity that one would expect to understand about the activity at that particular branch.
 
+.. rst-class:: indented
+
 There are instances where some extra transactions need to be entered into the system, either to correct errors or to adjust for different situations and those two -- one is called a transaction correction or a TC, and that is generated by the Post Office; and the second one would be when Fujitsu entered transactions to do the same type of corrective error.  So one was sourced from the Post Office and one was sourced from Fujitsu.
 
 **Mr Beer**: You mentioned lastly, in relation to this component, component A, of Horizon, that Legacy Horizon was coded in Visual Basic, C and C++.
@@ -2249,7 +2353,11 @@ When I first read that, I started thinking about next summer holiday.  Can you e
 
 **Charles Cipione**: So let's say I wanted to send an email to someone, okay? Part of the components of that email would be who I wanted to send it to, part of the component would be the date I'm sending it, part of it might be the subject line and part of it might be the body of the email.
 
+.. rst-class:: indented
+
 Using this messaging type structure, as I wrote that email and as it came off of my email system, it would go -- as it was being transmitted there would be a tag that says, "This next bit of information represents who I'm sending it to and stop there".  Then there would be another tag that says, "This is the subject", and then there would be another tag that says, "This is the date", and then there would be another tag that says, "This defines the body of my email".
+
+.. rst-class:: indented
 
 All of that would be wrap inside perhaps some other tags that would help coalesce all that information, identify it as all being identified to each another and, as a package, that could be sent and then interpreted by another component of the system that would know -- that would understand that structure and would be able to consume that information.
 
@@ -2264,6 +2372,8 @@ All of that would be wrap inside perhaps some other tags that would help coalesc
 .. rst-class:: indented
 
 **Charles Cipione**: So the example I just gave was anticipating that question, so a markup language is simply, number 1, defining that this is the beginning of my message and then it could have many elements in it.  It could have one element in it.  There would be indicators within that markup saying, this is -- "You should expect five elements or you should expect two elements or you should expect elements until you see an end-of-element marker".
+
+.. rst-class:: indented
 
 But within each one of those markers would be the specific information that you're trying to send and it's identified very systematically and very structured. It's easy to understand by a program but not necessarily easy to read by a human being.  It's an efficient way of categorising and organising information and delivering it for further consumption by other components.
 
@@ -2297,7 +2407,11 @@ But within each one of those markers would be the specific information that you'
 
 **Charles Cipione**: Yes, exactly, exactly.  So underneath -- so the first thing that this particular tree-like structure wants to communicate, in addition to that it's a sale transaction, is who is the customer.  So that's the second element you see there.  Then you'll see that there is an indicator of how many items were purchased by this customer, just to give an indication.  So there can be internal integrity checks to be done on what was built into this particular message.
 
+.. rst-class:: indented
+
 Once we get past the count of the items purchased, we get to item 1, and this is more of the tree-like structure.  Item 1 will have a quantity and a price and a total purchase amount related to item 1.  Then we move on to item 2, and it will also have a quantity, a price, and a total purchase amount.  That could go on infinitely or it could go on once, it really just depends on what the actual transaction is but the flexibility of this particular type of structure doesn't require you to have just one or just five or just ten.
+
+.. rst-class:: indented
 
 It allows -- it's a flexible way of storing information and, at the end of this all, you see that there's the total basket purchase amount.
 
@@ -2312,6 +2426,8 @@ It allows -- it's a flexible way of storing information and, at the end of this 
 .. rst-class:: indented
 
 **Charles Cipione**: So we see that the sales transaction, there's a start and an end marker on the sales transaction.  You can see that that is the giant wrapper around this particular message.  The first element within that particular wrapper is the customer name, which I chose "John Doe" as the customer and, past that, you'll see that this message contains three items that were purchased.
+
+.. rst-class:: indented
 
 The first purchased item name was a hammer with a quantity of two and a price of £5 which totals to £10 for that particular item purchase.  The second item is a screwdriver, quantity of three, with a price of £7, which results in a total purchase amount of £21.  The third item is pliers with a quantity of one, a purchase price of £6 and a total purchase amount for item 3 of £6.  Then it sums up all of the purchase amounts as £37 and ends.
 
@@ -2359,6 +2475,8 @@ Can you just explain this, please?
 
 **Charles Cipione**: Certainly.  So for some transactions there might just be one item that needs to be recorded in a message and for other -- so the stamp.  That's a fairly simple, straightforward action.  I want to pay £5 for a set of stamps.  In the Horizon System, that's just one transaction.  It's a simple -- I've sold this book of stamps for £5.
 
+.. rst-class:: indented
+
 However, for accounting purposes or managerial purposes, other types of transactions might need to segregate, you know, for instance, the postal order. A postal order might have two components where one is the amount of the postal order and then one is the amount for the fee that is being charged to issue the postal order.  So, in that instance, the Horizon System is recording two messages.
 
 **Mr Beer**: You say that a key feature of each session is that they are zero sum, that's to say that the debits and credits of the transactions must sum to zero; is that right?
@@ -2383,7 +2501,11 @@ Can you just explain that, please?
 
 **Charles Cipione**: Yes, so this harkens back to the issue we were talking about very early in the discussion this morning about the difficulties of systems in the time period we're talking about.  One of them is making sure that there's the proper amount of redundancy of data to the extent that there's a hardware failure.  The way the Horizon System handled the possibility of hardware failure -- when I say "hardware failure", I really mean that maybe a hard drive goes bad, because all of this information that is being stored locally is being stored on a hard drive.
 
+.. rst-class:: indented
+
 In a single-counter branch -- well, let's talk about -- in a multi-counter branch all of the counters can communicate with each other through their hub or their router and that allows the redundancy to be across different counters.  So as a message store on one counter is created, Horizon creates a redundancy of that message store on the other counters, in case of hardware failure on the original counter.
+
+.. rst-class:: indented
 
 For a single-counter branch that multi-counter redundancy is not available to them.  So for a single-counter branch, the way that they account for -- the way they make sure that there is a redundancy availability is to have two hard drives within the counter mirroring each other, so that way if one hard drive fails, they always can revert to the second hard drive to recover the information.
 
@@ -2392,6 +2514,8 @@ For a single-counter branch that multi-counter redundancy is not available to th
 .. rst-class:: indented
 
 **Charles Cipione**: So this is more aligned with the fact that the communication system might not be online at the time that the transactions or the messages are being stored. So remember that the transactions, you can think of that as a real world term, but the Horizon digital equivalent to that is a message.  So to the extent that there is no communication between the counter and the campuses, the Horizon System, at least, you know, in the late '90s allowed for an accumulation of all of these messages, if they knew that they were in an offline position, to continue to accumulate those until the connection was made again.
+
+.. rst-class:: indented
 
 Then the replication facility would work through all of those stored messages, send them back to the campus. Once it got confirmation from the campus that all of those were restored, it finished the process.  But that whole check and balance was just to make sure that the campuses received all of the messages that were stored at the counter while it was in an offline position once it came back online.
 
@@ -2413,6 +2537,8 @@ Then the replication facility would work through all of those stored messages, s
 
 **Charles Cipione**: Yes.  So the reference data -- I broke up the reference data into the three categories.  So the reference data could have been derived from POCL or the Post Office. This might be -- like, for example the hammer, screwdriver, plier list, to the extent that the POCL had a list of prices for all of their products, their stamps and what not, that would be an example of reference data coming from POCL.
 
+.. rst-class:: indented
+
 There was also similar information coming from POCL's clients, you know, price lists and other information that the client transactions relied on to process correctly.
 
 **Mr Beer**: So that's the DWP or somebody like that?
@@ -2420,6 +2546,8 @@ There was also similar information coming from POCL's clients, you know, price l
 .. rst-class:: indented
 
 **Charles Cipione**: Exactly, exactly.
+
+.. rst-class:: indented
 
 Finally, there's reference data that was more behind the scenes reference data.  This is reference data that the Horizon System used internally to make sure that the Horizon System was operating efficiently.  So this would be the -- this would be a more complicated example of a dataset -- a data-driven logic.  The Horizon design had a lot of data-driven logic for, for instance, how the menus showed up.  What menus were available in the different modes on the user interface on the counter. That would be an example of some information that was actually kept in some reference data and not necessarily coded in the source code.
 
@@ -2509,6 +2637,8 @@ Could you talk us through the Legacy Horizon campuses, the layers, from the bott
 
 **Charles Cipione**: Yes.  So all of the transactions that are collected by Horizon ultimately terminate at POCL -- in POCL's financial systems.  The TPS system is what translates the transactions that are collected from Horizon and delivers them to the POCL's TIP system, which is their transaction information processing system, which is what -- it's POCL's internal system for their accounting processing.
 
+.. rst-class:: indented
+
 So, basically, it delivers all of the managerial information, all the managerial accounting system to POCL so they can use it for their financial reporting as well as their managerial aspects of their business.
 
 **Mr Beer**: You say that that system, TIP, the final POCL system, was one used by POCL to collect transaction records about all transactions that occurred at branches --
@@ -2549,6 +2679,8 @@ You speak in the next paragraph of your report, 4.5.53, which is over the page, 
 
 **Charles Cipione**: Yes, the Core Systems Release introduced the Automated Payment Services, which supported payments by customers to the utility companies, such as British Telecom, electricity and other utility companies, as well as other clients using barcoded bills, magnetic cards or smart cards.  It also introduced reconciliations between the Automated Payment Service and the data harvested by the APS agents and data harvested by TPS.  So a lot of internal reconciliations functionality appears to be added here.
 
+.. rst-class:: indented
+
 I also note that it seems that there was also Core Systems Release Plus released, which I would assume was closely aligned with Core Systems Release.
 
 **Mr Beer**: In February 2000, there was an upgrade called Maintenance Release M1 and you say that the main purpose of that was to enhance the CSR+ applications.
@@ -2581,7 +2713,11 @@ I also note that it seems that there was also Core Systems Release Plus released
 
 **Charles Cipione**: Certainly, sir.  The Network Banking Services allowed customers of selected banks and building totals withdraw money from or deposit money into their bank accounts. So it allowed a banking option functionality to be accessed through the Horizon System.
 
+.. rst-class:: indented
+
 The Debit Card Service was -- allowed customers to have had the functionality of using their debit cards to pay for goods through the Horizon System.
+
+.. rst-class:: indented
 
 The Data Reconciliation Services related to all the NBS and DCS transactions and helped reconcile them for the different data flows.  So it was an internal reconciliation facility.
 
@@ -2603,9 +2739,15 @@ The Data Reconciliation Services related to all the NBS and DCS transactions and
 
 **Charles Cipione**: Yes.  So the -- a few of them were changing the processes at the branch.  The first one I cite here is there were rollovers, which we'll talk in a bit, but rollovers used to be every week, now they were going to be extended to a four to five-week period.  Non-value stock declarations weren't required and weren't required by the stock balancing process any more.
 
+.. rst-class:: indented
+
 A concept of a local suspense account was introduced for the processing of variances.  Stock units were no longer allowed to carry discrepancies over and any -- over cash accounting -- over trading periods, and they had -- and any discrepancies that arose out of the stock unit balancing were sent into a local suspense account when the stock unit rolled over.
 
+.. rst-class:: indented
+
 Additional checks were carried out in order for the final stock unit to roll over, which included that the stock unit wasn't allowed to roll over if there were any outstanding transaction corrections, and local suspense accounts had to be settled before the final stock unit could be rolled over to the next traded period.
+
+.. rst-class:: indented
 
 Then, finally, there were changes to the data server that were made to reduce the number of times that the message store was scanned to pick up transactions during the balancing process.  A Riposte mechanism known as Notifications was added -- was used to add new transactions to existing totals as further transactions were generated, so this was more of an operational, behind-the-scenes update.
 
@@ -2728,6 +2870,8 @@ Then, finally, there were changes to the data server that were made to reduce th
 .. rst-class:: indented
 
 **Charles Cipione**: Certainly.  So if you remember from a multi-counter example from the Legacy Horizon, the configuration required one of the counters to be the Gateway PC, which was responsible for communication directly to the data centres or to the campuses.  All of the other counters basically were connected to that Gateway PC.  The difference here is that the counter, each one of the counters are connected through the communication -- the router hardware, which directs the transmission of the transactions to the campuses.
+
+.. rst-class:: indented
 
 So, really, what this is showing is that each one of the counters can operate independent of the other counters and, as we talked about, there is no requirement or, in fact, it's not allowed for the messages -- the transactions to be stored in messages on the counters.  The messages are communicated directly to the campuses because it's a persistent online connection and there's no need to worry about having them persist at the counter level.
 
@@ -3001,7 +3145,11 @@ You explain that it's not intuitive that payments and receipts should match one 
 
 **Charles Cipione**: Certainly.  This is a simple example.  We start off with cash -- a brought forward balance for both cash and stock, which, in this case, just represents stamps.  The cash was £5,000 and the stock was £500.  You can see that the different receipt amounts relate to payment for a TV Licence, £100; payment of road tax for £75; Alliance & Leicester giro deposit, £150; the purchase of First Class stamps for cash of £5; and additional money that was REMed in from POCL of £100.
 
+.. rst-class:: indented
+
 On the other side of the ledger, you see A&L giro withdrawals of £50; a pension payment of £25; savings withdrawals of £100; and the issuance of the stamp of £5 to a customer, which results in the carried forward balance of cash, £5,255, and stock, which is £495.
+
+.. rst-class:: indented
 
 What this report shows, or the way this report should be read, is you can see that the -- everything on the left side, which is the total receipts, adds up to £5,930 and everything on the right, for the payments, also adds up to £5,930.  You'll notice that the only stock transaction was the £5 of stamps for cash and you'll notice that that is -- that the stock is being reduced by £5 and the cash is being increased by £5 for that particular transaction.  So that's the only one that really goes between the stock and the cash.
 
@@ -3561,6 +3709,8 @@ You also had two analysis workstreams which were at different states of progress
 
 **Charles Cipione**: Certainly.  So the analytics review was trying to -- was using some of the data elements that we called out when looking at the example, PEAKs and PinICLs.  Not the dialogue, necessarily, but some items that were captured from within the dialogue, or within the header information of those documents.  Those were used simply for grouping and summing and creating charts based off of the information in those structured data components.
 
+.. rst-class:: indented
+
 A document review workstream, on the other hand, existed with the intent of identifying different groups of individual PEAKs or PinICLs to be reviewed manually. So in other words, we wanted to read everything -- we wanted human beings to read everything, to gain as good an understanding of the documents as possible.
 
 **Mr Beer**: I think you summarised, in the table at 6.1, the documents used in your review by reference to the series of documents that you received and the use to which they were put; is that right?
@@ -3611,7 +3761,11 @@ A document review workstream, on the other hand, existed with the intent of iden
 
 **Charles Cipione**: Yes, certainly.  So to the extent that an issue -- that Pathway was aware of an issue, they had this mechanism to record, you know, the -- you know, some general information which is contained in the header, you know, that -- the type, the title, the summary.  You know, key release dates, keywords that are associated with it.
 
+.. rst-class:: indented
+
 It also describes the symptoms that describe the particular issue, as well as what they believe the problem is.  Importantly, they also provide some text for what the helpdesk should communicate back to any user reporting a similar problem.  So in this case, the solution that the helpdesk should recommend to the user is to reboot the counter and, if the message reappears, then send to an engineer.
+
+.. rst-class:: indented
 
 So what -- the purpose of a KEL is, you know, to document known errors, but to also provide remedial, or recommendations to users reporting similar problems.
 

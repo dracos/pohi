@@ -112,6 +112,8 @@ Is it your recollection that there was a reduction in the testing before commenc
 
 **Alan D'Alvarez**: So that's specific to the volume testing.  So we had a volume test schedule and with the volume test schedule it went in stages in different parts of the system but it also blocked out to where we would go to 25 per cent volumes, 50 per cent volumes.  The intention of all the testing, what we call laboratory testing, would be complete before we go to pilot and pilot's live testing.  So the intention was to complete all the laboratory testing before.  We hadn't completed all the volume testing.
 
+.. rst-class:: indented
+
 We had completed an amount -- I can't recall where we got to, either 25 per cent or 50 per cent loads.  It was assessed that to go into a pilot and to go to medium volume pilot, which I believe was around 250 post offices, that we stressed the system sufficiently. However, what we proposed was we would monitor -- we were already monitoring the performance at the branches.  What we would do we'd collate those because when you do laboratory testing it's in sterile conditions. You don't have the real world rounds and networks and that, so it's kind of model testing.  So to give us greater assurance, because we hadn't completed up to full load testing, we're going to take the performance statistics and compare them to our testing statistics or our test results to see whether what happening live correlates to what we see in testing, to give us that greater confidence.
 
 **Mr Blake**: Would it be fair for me to say that that kind of testing that was carried out, or the analysis of the data, is less than was originally proposed?
@@ -198,7 +200,11 @@ Is it your recollection that Mr Burley and the Post Office were trying to make i
 
 **Alan D'Alvarez**: It's an option that's discussed.  So with all programmes you have to balance risk against progress.  So one of the options that was discussed and was -- we, I think we agreed to actually take away and understand what that actually meant with regard to risk and that, but one of the options were -- there were some fixes that needed to go in and we couldn't progress. Others were of less impact, some could be cosmetic.  Some may be -- and the bigger you make a release, the more risk you put on the timescales that that release will be complete, fully tested and ready to go.
 
+.. rst-class:: indented
+
 So it was to -- I think the discussion at the meeting was very specific to if we wanted to achieve the milestones, was there anything of less significance that could wait to a later release and would that -- if we did remove that from that particular earlier release -- would that derisk making a timescale?
+
+.. rst-class:: indented
 
 So it was, you know, we'd -- delivering a programme, you know, you're always looking at the balance of risk and timescales.
 
@@ -213,6 +219,8 @@ So it was, you know, we'd -- delivering a programme, you know, you're always loo
 .. rst-class:: indented
 
 **Alan D'Alvarez**: We had an approach where, when we had to potentially signal delays, we would work together to what is the messaging to our joint -- you know, do we agree firstly amongst ourselves that a delay is the right thing? Let's have look at the whole position, look at the risk.  If we do agree amongst ourselves that a delay is the appropriate course, then we would work on the messaging to our respective organisations because with that comes quite a lot of disruption in the organisation, quite a lot of disappointment, and what -- we wanted to make sure that the messaging was clear.
+
+.. rst-class:: indented
 
 So in discussions, it's the normal pressures of a large programme.  People want to see it succeed.  People want to see it go out, and it's our job to navigate to make sure that we're protecting -- you know, that the risk is being managed appropriately.
 
@@ -254,9 +262,15 @@ Just pausing there, do you remember this particular issue?
 
 **Alan D'Alvarez**: I recollect that we quickly got to an understanding of the root cause of the Derby, and I recollect that we had a fix and that fix had to go in before we could progress because it was significant, because it was a data integrity issue.  Geoff Butts led on the other two because he is my deployment migration manager.
 
+.. rst-class:: indented
+
 If I remember -- I might get these in the wrong order.  I believe Coton was to do with the migration itself, ie the migration tooling not completing its data downloads and we had a workaround, ie we would do the download through the migration tooling from Horizon to HNG-X, and I believe we would do a -- we -- someone had written a script to check is it complete as a compare.  If it's not, we will repeat the downloads to complete it.
 
+.. rst-class:: indented
+
 So we still went through the migration tooling, so where we were satisfied that whilst we had to fix the migration tooling, that we could avoid that happening again.
+
+.. rst-class:: indented
 
 The Warwick one, I believe that was to do with reporting, in as much as the underlying data was correct but there was a report that was created and it wasn't the report -- figures in the report were incorrect.
 
@@ -271,6 +285,8 @@ The Warwick one, I believe that was to do with reporting, in as much as the unde
 .. rst-class:: indented
 
 **Alan D'Alvarez**: However, but I think by the time -- within -- you know, we worked over the weekend on this. I do remember that everyone was in over the weekend and we satisfied ourselves that we had fix for the Derby one, which was the critical one, and we had, I believe, appropriate way forwards or we had proposed, because we can only propose potential workarounds, it's for Post Office to accept whether they're acceptable or not.  So we had a proposal, which I believe was accepted.
+
+.. rst-class:: indented
 
 I don't know how quickly we went into, but it wasn't long, two weeks later we went.
 
@@ -324,9 +340,15 @@ Certainly the impression that's given there is that pressure is being put on Fuj
 
 **Alan D'Alvarez**: Get on with things.  So the situation is specific here, is -- so Post Office were responsible for the business change activities associated with the programme and we're now into live pilot and, therefore, there's a lot of communications, planning, you know, lining up of post offices.  So "desperate" is my word, you know, that's my word, in as much as, you know, being a qualified programme manager, and understanding the pressures that they'll be under, is that what we had is a situation where we halted the pilot, we're going cautiously into the continuance of the low volume pilot, which was always intended to be around 20 offices.
 
+.. rst-class:: indented
+
 They would have had all the communications, all the countdowns, people lined up for the medium volume pilot because you do that many days before, like 45 days before there's a big chain.  Now we're into a set of uncertainty where we're signalling in to both organisations and they're having to signal in to their business that they've paused and they cannot confirm dates of when we can line up so the Post Office would have been communicated to some of those that they had dates.  They now had to be communicated to, to say they're paused, but we can't tell them when because we haven't yet got to the root causes of those problems.  So it wasn't a case of we just need to get on to do the pilot; we needed to understand how long would it take us to resolve those problems.
 
+.. rst-class:: indented
+
 So once we get to the root cause we can then assess is it a quick fix?  Is it a long, complex fix that's going to take several weeks?  And we need to give -- you know, Fujitsu needs to give Mark and his team an indication as to what are their planning assumptions they can make so that when they communicate to post offices, as opposed to leaving them, we're going to delay the deployment but we don't know when to, they can be more certain as to kind of provide that.
+
+.. rst-class:: indented
 
 It kind of -- it's better when you're communicating out that you can give someone alternative dates or a clear understanding of expectations.  At this point we couldn't give Post Office an expectation of how long it will be before we can go into medium pilot and that was the key.  So for me, my take, he needs to know that because if he doesn't, the business will start to ask questions, it goes up for their management, it goes to their management, and it creates a lot of distraction.
 
@@ -384,7 +406,11 @@ It kind of -- it's better when you're communicating out that you can give someon
 
 **Alan D'Alvarez**: It's my assessment that I needed to brief my senior executives because it could very well, that if, by telling post offices that the schedule times were being delayed, not giving them further information as to alternatives and that, things typically go up the chain, up their management.  They would go up, it would go to my -- it would go to someone who is sitting over the programme and then they would call my executive.
 
+.. rst-class:: indented
+
 So it's a briefing to say "Be prepared, this is the position, you may well get a call from Mike Young because he may well get an escalation, either from within his programme or from outside his programme".
+
+.. rst-class:: indented
 
 So for them to be aware of the situation and not be seen not to understand what's happened. And also I needed to brief Fujitsu as well, because it's a delay which causes us pain.
 
@@ -412,11 +438,19 @@ Was it typical, common, or do you recall instances where error messages may be s
 
 **Alan D'Alvarez**: So this was a new system.  We're going into pilot.  The -- not only -- okay, so if we can just step back a bit.  So the whole premise of HNG-X had three different elements to it, and I think the whole premise was the business processes didn't change, so it wasn't a business transformation; it was a technical transformation.
 
+.. rst-class:: indented
+
 And it was based on -- I think there were two key drivers.  But there was a data centre element where we were migrating into Fujitsu secure data centres.  There was a technical refresh of the back end and there was a refresh of the application.
+
+.. rst-class:: indented
 
 So with all those we had to -- you know, we didn't -- it's not a case we're putting a new application in and we're tuning the system, or we have a system that's already working; we have a whole new infrastructure and everything else. So we had to put in the monitoring and that and with monitoring, if you put too much -- if you monitor everything, you can't see the wood for the trees because, you know, you don't know what's important.
 
+.. rst-class:: indented
+
 So it's getting the tuning and the monitoring right.  So in the early pilots, part of the pilot is if we're -- if there are issues that are being seen in the Post Office that impact the branches and we didn't pick it up in our monitoring, we had to make sure our monitoring was extended for that.  But what that meant was we didn't get advanced sight before the postmaster got impacted or the clerk got impacted.  So that would result in to helpdesk.
+
+.. rst-class:: indented
 
 It may not -- if we monitored that, we may not have been able to intercept it before the postmaster, I don't know that particular issue but that was specific to making sure that our monitoring was properly tuned through the pilot.
 
@@ -570,6 +604,8 @@ Do you remember at all what the manual BTS fixes were?
 
 **Alan D'Alvarez**: So:
 
+.. rst-class:: indented
+
 "This is to confirm the position on a fix for the BTS issue whereby printing the Trial Balance Report for BTS results in incorrect data being displayed in the Final Balance Report. A fix can be delivered and tested for inclusion within the 01.08 Maintenance Release as a counter fix.  In the meantime, branches need to use the BTS Trial Balance Report, which is correct and discard the BTS Final Balance Report, which is incorrect."
 
 **Mr Blake**: Yes.  Does that jog your memory about this particular issue?
@@ -590,6 +626,8 @@ Do you remember at all what the manual BTS fixes were?
 
 **Alan D'Alvarez**: Well, Geoff reported in to me, and so when we had -- as I say, earlier in the pilot there are three significant issues that were raised: one was at Coton, one was at Warwick, one was at Derby, ie I said to Geoff I will take ownership of the Derby one that had -- in the initial review of those incidents it had data integrity implications, and he took leadership because that was his role.
 
+.. rst-class:: indented
+
 He was the person that was heading up deployments and heading up what we call Hypercare, ie the additional support given to pilot sites.  He took the leadership or the lead role in resolving these issues.
 
 **Mr Blake**: Can we look at page 9, please, which is a response to Mr Butts from Mark Burley.  If we scroll down to page 9, he says there:
@@ -603,6 +641,8 @@ Do you remember this?
 .. rst-class:: indented
 
 **Alan D'Alvarez**: I remember Geoff highlighting to me that the issue was wider and I gave Geoff the advice to make sure that our legal counsel was now engaged in making sure.  So I believe this was Geoff looking at the incident as a technical incident, proposing a workaround, and then the response is "That workaround, are you sure because it's a legal document?"
+
+.. rst-class:: indented
 
 So I do remember Geoff raising it, I do remember specifically me saying to Geoff saying "Would you make sure that Jean-Pierre is now engaged on this?"
 
@@ -648,7 +688,11 @@ Do you remember asking anybody to assist with this particular issue?
 
 **Alan D'Alvarez**: So Gareth Jenkins' role, he was always on the Horizon side and when we was migrating over to HNG-X, because I believe when we went live with Horizon, he -- we'd become part of a customer services and, I believe, an architects group. There was an architects group, general outside of the programme.  And his role was basically as a senior architect, he was acknowledged on the account as an expert on the counter applications.
 
+.. rst-class:: indented
+
 So I'd expect that Geoff, because this is about balance sheets and things, to go to our expert on the account as to "Could you now look at this as an issue" because, as I said, what -- in Horizon, what we did not do was change the business processes, or it was not a business transformation it was a refresh of the technology and how we actually supported their stuff.
+
+.. rst-class:: indented
 
 So Gareth would be very knowledgeable as to what the consequence of balance trading statements are in respect of the business.
 
@@ -716,6 +760,8 @@ Is this something you remember being requested by the Post Office?
 
 **Alan D'Alvarez**: On concern me, it concerned that with all issues that impact the end customer is a concern.  This was a serious issue and that's why we had, you know, appointed one of my senior people to take ownership to getting it resolved.  There will be a number of bugs that will be raised during a pilot.  Many of those just will be managed by the resolver groups, ie it goes through the process.
 
+.. rst-class:: indented
+
 The serious of the Coton, Warwick and Derby was recognised and we put senior people on to make sure that we understood fully what was going on and our -- and we had a proper resolution and that we were satisfied that the resolution was that the right resolution.
 
 **Mr Blake**: Having seen in the previous months that there were these issues cropping up -- bugs, as you described them -- do you recall your reaction to being asked to support the Post Office in proving the integrity of the system in any subsequent legal action?
@@ -747,6 +793,8 @@ The serious of the Coton, Warwick and Derby was recognised and we put senior peo
 .. rst-class:: indented
 
 **Alan D'Alvarez**: He was the person that was the head of programme project management and I said, we have an incident here, and it's quite significant. He then engaged the lead technical person in the -- who was -- the name will come to me, I'm sure -- and we agreed that we will get an independent review of the decision because there was two aspects which I was concerned about: one, there was that defect which was an integrity defect; and secondly, we didn't pick it up in our testing, in our laboratory testing, we picked it up in the pilot, which is a test phase.  And we needed to understand, "Well, hold on, if that happens, we can't just say we fix that bug and just move on.  Is there something inherent?"
+
+.. rst-class:: indented
 
 So we arranged for some experts, application experts, there was two of them, I forget their names, immediately assigned them to this, dropped all their other work, and they undertook a review of the solution of the testing and gave a report.
 
@@ -810,6 +858,8 @@ This kind of collaborative approach on an integrity statement, is this something
 
 **Alan D'Alvarez**: If that's a workaround, that workaround will get communicated to postmasters because it's a workaround, ie a workaround is there's a known issue, to work round this issue, this is what we're asking you to do.  We'd also have it on the known error list because a postmaster may have forgotten about it or not read the advisory notice and, therefore, phoned up the service desk and it will be on a known error so they could then give that same advice.
 
+.. rst-class:: indented
+
 But a workaround is very much something which, if it means asking the postmaster or their staff to do something different, that must be communicated to them for that workaround to be effective.
 
 **Mr Blake**: Is your recollection that workarounds were routinely communicated to subpostmasters or only communicated to those who phoned the helpdesk with a problem?
@@ -817,6 +867,8 @@ But a workaround is very much something which, if it means asking the postmaster
 .. rst-class:: indented
 
 **Alan D'Alvarez**: It depends on the workaround.  So if the workaround is as part of your -- what you do for your daily business, you have to apply this because the solution is not quite performing as we expect to it, that should be proactively communicated.  If there's an issue where there is perhaps a failure -- you gave an example before an error message.  You know, sometimes error messages could come up.
+
+.. rst-class:: indented
 
 We wouldn't necessarily -- it's not necessarily appropriate just to say to everyone, "Here's 101 workarounds" or there's ten workarounds or whatever the number is but that might be sporadic, comes up once or twice, therefore it's appropriate for the service desk to have that as a known error, that if they do get a call they can say "Ah, it's a known error, this is how you workaround that error.  So it depends on the workaround.
 
@@ -878,11 +930,19 @@ Again, in terms of the working relationship between POL and Fujitsu, it seems th
 
 **Alan D'Alvarez**: Sorry, so when I read that, it's -- I think as I've explained before, when we take a decision that the solution is not -- or the risks of moving forward further with our pilots and/or deployments is such that we're going to freeze or have a halt or pause, the -- you know, we would work jointly but the ultimate decision is with Post Office.
 
+.. rst-class:: indented
+
 So here, what I read from that is that we've received a set of restart criteria.  So with this issue, we needed make sure we understood what would be the basis of us understanding that it's resolved and to give ourselves confidence because at the date -- and we're talking about stability, we're talking about screen freezes, I can't be sure, but this may be related to a significant issue we had with Oracle, an extremely significant issue we had with Oracle that did impact the offices intermittently that had migrated to HNG-X in as much as it loss -- it didn't lose connectivity, the connectivity hung and they could no longer -- so the screen freezes -- no longer trade until the branch database come up again.
+
+.. rst-class:: indented
 
 And that was a very significant issue.  So what we had to assure ourselves before we deployed further, once we've deployed fixes and things, that we understood what is the criteria for restarting, and make sure -- and Post Office had the final say.  So is it a period of "N" number of days, "N" weeks, whatever, is it acceptable to have?  Because if you have a screen freeze, we had -- in the Oracle issue that we had, there were regular, you know, throughout the week, four or five times, where all the post offices operating in the pilot would be impacted for a period of 15 minutes to 30 minutes, and that's significant when they're serving customers.
 
+.. rst-class:: indented
+
 But, again, there could be a screen freeze for reasons not related to that.  So you're not going to say you had no screen freezes whatsoever, it could have been an intermittent one-off screen freeze.  So the criteria was very important, that once you stop a deployment, to actually understand -- do you understand what the issue is and, for us to make sure we make the right decision, do we have a clear set of criteria that we're going to apply to the decision?  Have we met that criteria to go forward?
+
+.. rst-class:: indented
 
 Again, that criteria was also, dare I say it, to protect the joint programme from people wanting us to move forward.  Come on, you've got to keep going.  So we haven't met this criteria, or we have met the criteria so we can demonstrate to ourselves and to our respective organisations the appropriate time when -- why is it appropriate to move forward or why is it not appropriate to move forward?
 
@@ -1032,9 +1092,15 @@ Do you remember that form of words being inserted?
 
 **Alan D'Alvarez**: It's actually the question, so if the question is the same I should have read that.  So the question is specific to the two reports.  When I was reviewing and the briefings that I got with regards to this specific issue, it was very clear that the underlying data that was held on the system was correct and it was how we -- how we presented the reports or how the reports were -- got their data was where the issue was. So it wasn't the data on the system, that had integrity issues, it was how the report was created, it was an issue where it was going from a step in the process where it could have had data overwritten and therefore, you know, not had the correct data from the system.
 
+.. rst-class:: indented
+
 So the integrity of the solution on this issue was not in question.  It was -- the report was taking its information from an incorrect area of the system, which has volatile memory and therefore open to change, and the fix was to make sure it went straight back to the source information on the branch database.
 
+.. rst-class:: indented
+
 So the integrity of the system specific to this, there was no -- from my perspective, there was no issue with the integrity of the system. I was satisfied when I -- David John's was my technical lead and I had extreme confidence and he was satisfied and he explained it to me and I was satisfied.
+
+.. rst-class:: indented
 
 The question below seems to be a wider -- it appears to me just a wider statement of any evidence we might give at any time for any reason.
 
@@ -1054,11 +1120,19 @@ Now, forgive me if this wasn't a document that was provided to you in your pack.
 
 **Alan D'Alvarez**: I don't think it suggests -- the way I read that is any computer system may develop a fault which may, at any time, have some impact on integrity, as we had the one at Derby.  And when we had that issue at Derby, I -- under -- you know, I initiated through my line management a review of the solution.
 
+.. rst-class:: indented
+
 So -- because we were concerned that there were potential -- and they gave us confidence what happened at Derby and why it happened we didn't pick up in testing, we understood that, and they also looked at the whole system and the protections we put in.
+
+.. rst-class:: indented
 
 Now, there's -- there may always be a change that's made on the system or peculiar circumstances of, you know, events that happen on a particular machine, which may create a condition.  So you can never absolutely say all the time but, again, what we should be doing is supporting by saying this is what we've done to demonstrate the integrity of the system and at the point of whatever investigation you are on, were there any known incidents raised that may or may not have an impact on that.
 
+.. rst-class:: indented
+
 But that's, you know, what you'd expect to happen in any investigation.  They wouldn't just say at a point in time, back in when -- I think it was February we done that report, because Derby was at the end of January, wasn't it, and it was very quickly turned around because it was so urgent.
+
+.. rst-class:: indented
 
 So, at that point in time, but it doesn't mean it wouldn't change in the future if a release goes out potentially as an intended consequence.
 
@@ -1083,6 +1157,8 @@ So it seems there POL Legal is proposing a statement that says that Fujitsu is c
 .. rst-class:: indented
 
 **Alan D'Alvarez**: Jogged my memory in getting a response.  I do remember immediately -- now I've seen this, I do recall receiving this and discussing this with Gavin Bounds, who is the Business Unit Director, and agreeing that this is now both a legal and a commercial question being given to Fujitsu.
+
+.. rst-class:: indented
 
 So again, I sent it to legal counsel, but we also looked at commercially what was our commercial position.  But again, I would take their advice from this point onwards.
 
@@ -1128,7 +1204,11 @@ Do you remember this?
 
 **Alan D'Alvarez**: I -- I mean, looking at this, it's a thing that we often have with customers, you know, who is going to bear the liability of any costs going forward and, again, that becomes a contractual position.  Again, you know, it's -- when I saw the previous response, it occurs to me that -- you know, it comes to cross to me that there was a specific question asked and the response was for a more general thing.
 
+.. rst-class:: indented
+
 So whether the discussion -- I do remember briefing our legal department as to we had a review of the integrity of the solution, we got some additional reactions just to kind of assure ourselves with regard to strengthening our testing and things going forward.
+
+.. rst-class:: indented
 
 But in any discussion I've have on any system, I say that at a point in time, you can review and it's fine but it could always be a work where something, you know, causes a change which could compromise that and we've always got to be alert to that and that's why we have support.
 
@@ -1199,6 +1279,8 @@ Do you recall what this exchange is about at all?
 .. rst-class:: indented
 
 **Alan D'Alvarez**: I recall there was an incident raised where they -- with regard to the audit server having duplicate -- so, basically, having duplicate records stored to it and when reports were -- the previous system would extract any duplicates and just have the single version of what happened, and the new version of what we implemented did not have that duplicate spotting extraction purpose -- functionality.
+
+.. rst-class:: indented
 
 So I assume that that is with regard to -- something with regard to the information stored on the audit server.
 
@@ -1492,6 +1574,8 @@ Can you tell us, what is negative testing?
 
 **Alan D'Alvarez**: So negative testing, so typically when you test a system you run a set of tests which demonstrate that if you go through the right processes and that and everything is set up properly the system performs as it should.
 
+.. rst-class:: indented
+
 Negative testing will include things like what happens if you put in the wrong inputs? What happens if a cable is disconnected?  What happens if it loses connection with the data centre?  So we would deliberately create scenarios which is not normal operating scenarios, to see whether the system recovers gracefully from those situations.
 
 **Mr Blake**: So you might have some testing, is it positive testing; is that the opposite of negative testing?
@@ -1518,7 +1602,11 @@ Negative testing will include things like what happens if you put in the wrong i
 
 **Alan D'Alvarez**: It's to review.  Have we created all the scenarios?  Because I believe one of the trigger points for this was a capacity constraint that was caused by, I believe -- because we were monitoring the system all the time during pilot, we were picture putting diagnostics and performance monitoring things to make sure everything was going right and it was believed that that created a capacity issue, which then created the issue which led to the incident.
 
+.. rst-class:: indented
+
 And, in our testing, we was looking at normal as if it was rolled out.  We did not take account of, during the pilot, which is a test phase, we're going to put additional monitoring tools into the thing which created more usage, so we didn't stress the system the way.
+
+.. rst-class:: indented
 
 So that's something we did miss specifically and that's why we missed this in our testing, because we assumed it was -- those tools that we put in to support the pilot were only there temporarily, and that wasn't taken account in the testing.
 
@@ -1559,6 +1647,8 @@ I mean, looking at that combined with this 4.6, reflecting on it, do you think t
 .. rst-class:: indented
 
 **Alan D'Alvarez**: When the analysis was done we believe so but this in hindsight shows that there was a miss.
+
+.. rst-class:: indented
 
 So in hindsight, on the negative set of testing, you could -- it starts to get exponential as to how many different failure conditions you could create, and it comes to -- I've seen negative testing where you actually question how could you have that scenario where this happens at that time and that time?  So it's a case of you take -- you know, a take a balance as to what are the likely scenarios? Then you also have some good test resource, and we had some very good test resource, that would just play about with the system and just do what-ifs.  But at the time the analysis was done and it was believed and, you know, it was jointly reviewed with us in the Post Office, that the testing in the negative side was sufficient but this showed that it could have been more robust.  But that's in the benefit of hindsight.
 
@@ -1621,6 +1711,8 @@ What did you have in mind when you were asking Jean-Philippe Prenovost to review
 .. rst-class:: indented
 
 **Alan D'Alvarez**: Reading that Computer Weekly, which I done probably before Christmas because it was part of the Inquiry discussions, that referred to Horizon, not HNG-X.
+
+.. rst-class:: indented
 
 So when I took on the position to lead the programme, the first thing I done, as I would with any programme, was to sit with the customer and say "What your business priorities?  What are the priorities?  What are your business drivers?  What are your drivers?"  And Mark made it very clear to me, number 1, integrity of the solution, whatever we put out, we must ensure integrity.  And, for me, that was sacrosanct.
 
@@ -1866,9 +1958,15 @@ Can you assist us with that change?
 
 **Alan D'Alvarez**: If I -- and I'm looking across at the conclusions and I just looked at 3.6:
 
+.. rst-class:: indented
+
 "The business control at the Counter recognises that dual settlement risk is inherent by having two buttons that can initiate settlement.  The business requirement is that the buttons operate on an exclusive basis -- ie the use of one ..."
 
+.. rst-class:: indented
+
 So that's not specific to this issue.  That is demonstrating how, because you can have two ways of operating into the system, you cannot do them concurrently, because that could cause --
+
+.. rst-class:: indented
 
 So the conclusions are wider, are showing protections that have been put as built in and designed in as part of the solution, which is not to do with that specific issue.
 
@@ -1893,6 +1991,8 @@ That seems to have been removed in the final version, as well.  Are you able to 
 .. rst-class:: indented
 
 **Alan D'Alvarez**: Because I think, when you asked me that first question about stock check, I couldn't understand, on that first one, why that's relating to the integrity of the system.  And I believe you highlighted that.  You know, from our discussions, we couldn't understand why this was part of this report, because it's not to do with how system behaves; it's how postmasters interacting with the system behaves.  And it's not to do with the subject matter in point.
+
+.. rst-class:: indented
 
 So the advice from Legal was that if it's not part of anything to do with integrity of the system, remove it.
 
@@ -2156,9 +2256,15 @@ If we look at the table, it says, Low, 146, so there are 146 Acceptance Incident
 
 **Alan D'Alvarez**: So in simple terms -- goodness.  As I recall it in simple terms, that the process that -- so the overnight cash handling process was a process that Post Office had to ensure that there was adequate cash levels in each of the branches or ATMs.  They don't want too much cash at a branch they don't want too little cash in the branch because if they have too little they run out, they have to have emergency releases and things, that cost them money.
 
+.. rst-class:: indented
+
 So part of the Horizon, and in the HNG-X system, will provide a statement called the ONCH, the overnight cash handling statement back to the centre to say this is the cash position at this branch and that will determine whether or not the Post Office deliver cash or pick up cash from that Post Office to make sure it has the right, adequate levels of cash for its business.
 
+.. rst-class:: indented
+
 The issue here was, introducing HNG-X, the postmaster could do something out of the sequence to the process and the information going back to the centre about the cash position was incorrect.  Now, the information of the cash position in the statement of accounts in the branch was correct and, therefore, it could create a situation where the cash position or the delivery or collection of cash to that Post Office was incorrect, and Post Office was very concerned that if a post office or an ATM ran out of cash it causes them extra costs because they have to go and do that.
+
+.. rst-class:: indented
 
 So this was about a process, in as much as to -- needed to be reworked so that the accurate cash position is put to the centre, so that they can do their cash replenishment.
 
@@ -2271,6 +2377,8 @@ He's specifically referring to this as defect.
 .. rst-class:: indented
 
 **Alan D'Alvarez**: So this is -- I think I may have referred to this earlier, and mistook another potential issue, where we have an audit record that we keep, and there are times, just for -- in any system, records can be sent twice and previous system that was dealing with audit records on Horizon had a facility to detect duplicate records and then to reconcile those.
+
+.. rst-class:: indented
 
 My understanding of this is that the HNG-X did not do a similar thing and we had to kind of put in a facility to identify duplicate records.
 
@@ -2466,6 +2574,8 @@ We've seen in this email chain -- yes, we've seen in this email chain reference 
 
 **Alan D'Alvarez**: Typically what we would do was make sure we had the right information, because if you go to -- if we go to Post Office and say "We have an issue", you get a barrage of questions.  It appears -- only appears, I've got no facts from this email -- that there's a workaround.  So to go to the Post Office and say "We have this issue, here's a workaround", is better than "We have an issue", and then get 20 emails in the next two or three days of "What are you going to do?  What can we do?"  Et cetera.
 
+.. rst-class:: indented
+
 I don't know the scenario of what Geoff was managing at the time.  It appears that he wanted to review the workaround so that we don't go to Post Office and propose something that's inappropriate, or it's -- and it's robust.
 
 **Mr Blake**: Was it a culture within Fujitsu at the time to do as you say: to hold off telling the Post Office until you found the workaround?
@@ -2479,6 +2589,8 @@ I don't know the scenario of what Geoff was managing at the time.  It appears th
 .. rst-class:: indented
 
 **Alan D'Alvarez**: It says, "To determine if a proposed workaround is adequate."
+
+.. rst-class:: indented
 
 So I think Geoff -- I'm making an assumption, you had need to ask Geoff Butts this -- it appears to me from this email he's reviewing a workaround, and before he discusses it with Post Office, he doesn't want to propose something that then we have to withdraw.
 

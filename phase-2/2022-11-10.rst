@@ -504,6 +504,8 @@ So here there are two major critical issues arising during the week.  The first,
 
 **Mark Jarosz**: It means that it's using resources in a manner that eventually it will run out of resources and stop working.  So that was the interim conclusion reached by tests and, therefore, it raised quite a few concerns. So my role was to ask -- initially -- this was agreed within the architecture team -- was to describe the scenario to Escher and ask them whether this was a bug or behaviour as designed.
 
+.. rst-class:: indented
+
 They confirmed it was -- Andrew Sutherland confirmed this was behaviour as designed, so within the architecture group we then decided to see -- and, by the way, Andrew Sutherland also explained to me why this was happening and when it would stop.
 
 **Mr Blake**: Can I just ask, who is Andrew Sutherland?
@@ -1548,6 +1550,8 @@ Do you remember this email at all?
 
 **Mark Jarosz**: I mean, the thing is, what I can see happening, just under "The 3rd occurrence was somewhat different" section, it states -- that error message states that that particular function failed, therefore -- an application was trying to do something and it failed, so the -- it really depends on what the consequences of that are.
 
+.. rst-class:: indented
+
 So, based on what I see in front of me, I could never confirm that is benign.  I would need to ask someone to look into what was happening at the time. That would be the recommendation.
 
 **Mr Blake**: I think you said that you don't recall following that up?
@@ -1707,6 +1711,8 @@ The question I have is: could it be the case that these replicated shortfalls ar
 
 **Mark Jarosz**: So I think I would answer in two parts.  The first part is, if the replication wasn't working correctly, then there could be a number of scenarios.  For example, some counters would be missing messages from other counters, possibly because of a -- the network in the branch was partitioned.  So I think a plausible scenario, which I can envisage would be in a multi-counter office, if a network gets partitioned anyway, then some counters won't be able to replicate to other counters.
 
+.. rst-class:: indented
+
 Now, in terms of how that would manifest itself, it would mean that the counters which cannot reach a gateway have no online communication with the data centre.  So there might be some observable incident as a result of that.  It depends what proportion of transactions were online and what proportion were performed locally.
 
 **Mr Jacobs**: If that did happen, if the system got stuck in this way and there was no connectivity, I think your evidence is that there was something called a gateway node, so that everything would sort of feedback in once it was restored.  Is there a possibility, is it plausible, that that part of the process could lead to subpostmasters having their shortfalls doubling up through a malfunction of this part of the system?
@@ -1714,6 +1720,8 @@ Now, in terms of how that would manifest itself, it would mean that the counters
 .. rst-class:: indented
 
 **Mark Jarosz**: So the special role of the gateway is it is the only counter which communicates with the correspondence servers at the data centre.  So in the scenario I described of the network being partitioned, what that would mean is that the gateway and some other counters would have a -- would have messages being created and communicating with the data centre, whereas some other counters would be isolated and, therefore, then messages wouldn't be replicated until the network was restored, so there would be different messages in different parts of the network.
+
+.. rst-class:: indented
 
 In terms of the consequences of that on the application, unfortunately I can't -- I have no expertise in that, how the application would interpret that scenario.  But, certainly, from a network point of view that could happen and the thing I would mention, of course, is in a single counter office, there's only one counter, it's the gateway counter and, in that case, there's two Riposte message servers on the counter replicating to each other.  And the reason for that is, should that counter fail, then it has a removable drive so the replacement one can be initialised from that.
 
@@ -1852,6 +1860,8 @@ Does that make sense to you?
 
 **Mark Jarosz**: I wasn't conscious that there was a higher -- I wasn't conscious that it was a higher than expected amount of non-polling branches but non-polling was a consequence of the network solution because there was no resilient networking -- at this point in time, so I'm thinking in this period of time up to 2000, there was no network resilience for branches, so if the primary network service wasn't functioning, then there would be non-polling.
 
+.. rst-class:: indented
+
 This was one of the reasons for introducing the manual back up process.
 
 **Ms Page**: When was that introduced?
@@ -1877,6 +1887,8 @@ This was one of the reasons for introducing the manual back up process.
 .. rst-class:: indented
 
 **Mark Jarosz**: So the original reason for using ISDN as a network technology, one of the justifications was that most of the transactions didn't require an online connection to be carried out, albeit they did need to synchronise.
+
+.. rst-class:: indented
 
 When the change was made to not do the benefit transactions but to move to Network Banking, then the whole network approach changed and, at that point, we were looking at having backup technology integrated, so there will be a primary network type and a backup network in each branch.
 
@@ -1956,7 +1968,11 @@ So what we're seeing there is the effect of non-polling is that one can have mis
 
 **Mark Jarosz**: Well, I think -- so my immediate thought on reading this is that I recall that, after a number of days of non-polling, there was meant to be a process in place to try and synchronise the post office with the data centre, so that's what would have I expected to be at the normal as-designed solution behaviour for this.
 
+.. rst-class:: indented
+
 In terms of what's happened here, clearly that didn't take place, or wasn't successful, so I can see that the individual -- I know who he is -- is stating that he had to put in some missing data.  What I cannot tell from this is whether that missing data was something he had to insert in the data centre, but I -- on the basis that the branch is non-polling, it would mean that it would have to be there because he can't communicate with the branch.
+
+.. rst-class:: indented
 
 But what I cannot tell from reading this is whether this is an approved workaround or whether this is a one-off because the as-designed solution would be for someone to attend that office with the special laptop to attempt for it to synchronise with the data centre.
 
@@ -3447,6 +3463,8 @@ Could we scroll down a little bit further, please. Two further PinICLs relating 
 .. rst-class:: indented
 
 **Mr Peter Jeram**: I think that would depend -- well, I mean CSR+ would be enhancing the CSR product and bringing in new functionality that the Post Office wanted, so these issues could be in the new functionality in the EPOSS example that's come in with EPOSS, as opposed to the old product, if you like, the product from CSR.
+
+.. rst-class:: indented
 
 So, I mean, the problems could come from the development work done for CSR+.  I think you're saying: is that because it wasn't a stable product in the first place?  I don't think you can draw that necessarily from this.
 

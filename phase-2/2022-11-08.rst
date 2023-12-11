@@ -113,6 +113,8 @@ You joined ICL Pathway in March 1997 --
 
 **Alan D'Alvarez**: I was working on a number of projects and programmes within Fujitsu.  I did an assignment in the US working with Cerner, who was the provider of the workflow application for the NHS programme and to oversee the redevelopment or the changes required on their system to make it suitable for the UK health market.
 
+.. rst-class:: indented
+
 From -- after that, I worked in an internal programme to reorganise how the UKNI was structured within Fujitsu and then I also worked on the warnings index, rehousing into a secure data centre, so in the Home Office we had the warnings index application. We didn't have the infrastructure but the infrastructure was held or housed within non-secure areas in the authority and we took those into our secure data centres.
 
 **Mr Stevens**: So during that period, you weren't working on the Post Office account?
@@ -177,6 +179,8 @@ We don't need to bring it up but, in paragraph 8 of your witness statement, you 
 
 **Alan D'Alvarez**: So remote access is where we give a facility for an individual not to be present where the actual servers containing the data, the databases, are located.  So they will generally have access across a link, which back then wasn't as fast as it is now, but typically we will put in something like an ISDN line or PSTN dial up, where they would link remotely from a console.
 
+.. rst-class:: indented
+
 But the actual data and the systems, which did the processing of that data is in another location.  So remote is you have a console which is able to access those systems that contain the data and process that data.
 
 **Mr Stevens**: One of the issues that the Inquiry is looking into is the ability for someone in a remote location to access and edit data within the counter systems.  Would you consider that to be an example of remote access?
@@ -225,9 +229,15 @@ Would you agree with that as a broad proposition?
 
 **Alan D'Alvarez**: Well, when I say to write data direct into the account, we gave a -- there's -- we used the management system for -- to manage the Riposte elements of the system and the Riposte elements is a proprietary product, which is the EPOSS system, and it consists of the application that runs on the post office counter and also the correspondence services where they harvest information from all the post offices.
 
+.. rst-class:: indented
+
 We used the Tivoli management capability console to enable that the access to those systems were both robust, ie it was audited, you can control access, you can control what happens, and the solution that was put in place was, firstly -- I don't believe you are able to change the data on the system, so the system -- each of the messages do have digital signatures, and that.
 
+.. rst-class:: indented
+
 What you can do is amend the solution by injecting new data to correct misbalances or miscalculations or where there is data missing, and that would be entered through the Tivoli management console.  So it would go through an audited and controlled technical entry but, over that, you would have a procedure as to you could only make such changes if you get -- there's a reason to do it and there's an authority to do, and the authority provided by the management, and the processes in that area to make the changes.
+
+.. rst-class:: indented
 
 So whether a person could directly go onto a counter -- and the solution that we delivered they had to go through a Tivoli management system, there would be a remote management console that's provided to remote users, and then there's a process to control how they can deliver data through that system that goes then into the Post Office.
 
@@ -249,7 +259,11 @@ So whether a person could directly go onto a counter -- and the solution that we
 
 **Alan D'Alvarez**: The policy -- I was the reviewer of the policy, so the person that wrote the policy was Belinda Fairthorne, that's the author there, so she is an access control specialist within ICL, in secure access to systems and --
 
+.. rst-class:: indented
+
 So she wrote it and I was part of the reviewing to make sure that it -- so my role was to do a check that all the systems that we used within the Horizon System was controlled through this, ie it -- and all the users that required access for whatever purpose, with the exception of Post Office staff, were identified.
+
+.. rst-class:: indented
 
 And we had a policy of what was called role based access, so we would have a set of users which had defined privileges that aligned to the responsibilities of their role and it confined they could only do things on the system that their role had responsibility for.
 
@@ -383,9 +397,15 @@ In the middle, three diagrams down, there's what looks to be someone sitting in 
 
 **Alan D'Alvarez**: So Tivoli is a management system where it is able to control the software and the -- what is contained within the various service and applications within the Pathway and the Horizon solutions.  So if we wanted to put a new piece of software or we wanted to inject anything onto that system for reference data, and it would go through the Tivoli management system.
 
+.. rst-class:: indented
+
 It would also have a full audit trail, an event audit as to what actions were taken by which role and which person that logged on under that role, which actions they took, to have a full inventory of auditing, whether it's machine or whether it's a human actions, what happened on that system.  So if a change was made on a system, it can actually determine what made that change from a -- you know, from an access perspective.
 
+.. rst-class:: indented
+
 It's also used to get events and that, so all systems will write events as to when a -- if a failure occurs, it writes a failure event.  If access occurs, it writes an access event and it will harvest those events that's captured by all the various systems and have it available.  So if there's an issue someone can retrieve those events to look to diagnose what that issue is as well.
+
+.. rst-class:: indented
 
 So it's used for diagnostic -- to provide information for diagnostic purposes and that's -- primarily what the SSC would get from those systems is information to help them understand, if they have a call with an issue, as to why that issue might be occurring.
 
@@ -412,6 +432,8 @@ So it's used for diagnostic -- to provide information for diagnostic purposes an
 .. rst-class:: indented
 
 **Alan D'Alvarez**: I'm not aware to the details of what they can and cannot do.  My awareness was it was used primarily for the software inventory management, so -- and reference inventory management, so we had a record of what software was being used where, it was the appropriate level of software and, also, what reference data was used as well to drive that software.
+
+.. rst-class:: indented
 
 I -- within the actual depths of Tivoli, the technical people would know what could and could not be done, but my understanding -- and it's not through my knowledge of how it works because I wasn't in that part of the solution, but my understanding was that messages are controlled via the Riposte application and, therefore, you would need access to Riposte application to be able to generate a message.
 
@@ -450,6 +472,8 @@ So is that your understanding of how the system should have operated at that poi
 .. rst-class:: indented
 
 **Alan D'Alvarez**: So all changes would need to go through the Tivoli management console, the Tivoli system and, therefore, it needs to be authorised and auditable.
+
+.. rst-class:: indented
 
 As I said previously, I'm not aware of the depths of what changes were.  I was more on the software -- software levels and reference data -- reference data changes.  Whether -- and, again, it's only an understanding, not through knowledge or ownership of that knowledge, that my understanding was only Riposte could inject messages into Riposte cash accounts.
 
@@ -549,9 +573,15 @@ Now, my understanding of what you said earlier was that, when using the Tivoli s
 
 **Alan D'Alvarez**: I cannot comment on that, but they were robust, so the person that would -- so we had CISO, a chief information security officer, who was responsible for all operational security, and that's Barry Procter, and he would ensure that there were processes in place because all protection of systems and that are a combination of technical, procedural and physical protection.
 
+.. rst-class:: indented
+
 And he was ensuring -- well, he was accountable for ensuring that the process -- I could read that in two ways.  I could read that that is a second confirmation that, before undertaking the actions, that there is the proper authority and, therefore, there are two persons to make sure that the actions undertaken are correct -- we call it, in the industry, "four eyes", ie the person undertaking the correction, it gets the authority and they are watched by another person to make sure that what they are actually implementing into the system is as per what that authority says.  So if there's a typo that will be picked up, for example.
 
+.. rst-class:: indented
+
 And that will be a procedural control and it could be viewed -- and it's a long time ago now, but it could be viewed that it was because of the nature that you actually -- you're putting data into the system that corrects what was previously there -- not replace but corrects, or if there's something missing to insert that data -- that they wanted to ensure that it was done -- it was authorised and it was done correctly because, again, the Tivoli system would have had a record of what's done but the reason and why it was done, the Tivoli would not have that, and that process would assure that that person had the right authorities and the right reason to make that change.
+
+.. rst-class:: indented
 
 So the technical solution could only just say who done what when, it could not say why.  So just looking at that and going back, there is a number of additional procedures put in place by Barry Procter to assure that, if anything on the system was done in certain sensitive areas, there was a process around it which made sure that what was done was properly authorised and how that was enacted onto the system was correct.
 
@@ -771,11 +801,19 @@ Just, in lay terms, could you please explain the problem that's identified here.
 
 **Alan D'Alvarez**: So every system will have -- will create the -- would enable -- well, so every system that we use in computing always has the ability to enable its recovery from the most extreme of failures and that requires people to go into the system with privileges, which enable them to effectively manipulate the application for whatever reasons it is required to manipulate the application.
 
+.. rst-class:: indented
+
 So on a Windows NT, it's a -- or any Windows device it's called an "Administrator", so they can make changes and that with higher privileges they have to make changes to be able to access the system where people have lost passwords or whether something is non-recoverable, they're able to get into the depths of the system.
+
+.. rst-class:: indented
 
 With Oracle systems, it is called "Root User".
 
+.. rst-class:: indented
+
 All systems have this and, sometimes, it will be necessary if there's a fatal error that someone would need those privileges to recover from the fatal error. So Barry Procter who is the security manager, the control that he put in place was he controlled the passwords for those and those passwords were locked in a safe.  If -- there were certain authorised people that could access that safe and that would be -- there were manual controls where they would have to log in and log out and when they used that password, because they have to get authorisation to use it from the security manager or the deputy.  When they use that password, after using that, Barry Procter or other security manager will reset that password so it cannot be reused again.  Again, that goes under the secure processes.
+
+.. rst-class:: indented
 
 So it is recognised that, on all computer systems, there may be a requirement to be able to access the system and have, effectively, privileges to make whatever changes into that system as required to get it going again.  So, with regard to the NT system, it would have access to things like audit logs as well, so it would be able to, if misused, remove audit trails, et cetera, of activities that have happened on this system.
 
@@ -959,7 +997,11 @@ The question I had asked was whether you thought that Mr Folkes' summary of the 
 
 **Alan D'Alvarez**: Yes, so from a point of policy with technical design documents, the Post Office were not formal reviewers. However, in a number of -- in my area, I certainly worked closely both with Jeremy, and formerly with Gareth Lewis, because from my recollection Jeremy had a -- well, he was with Gareth within the security unit, but I think he had a wider role as well.
 
+.. rst-class:: indented
+
 And it was important because, from my perspective, when I come into the account, I was advised that security -- or where we were with regard to delivering the security product and my focus was very much on the cryptographic products, and that sort of stuff -- were one of the reasons that we were limiting our ability to deploy, not the only reason but one of the reasons.
+
+.. rst-class:: indented
 
 So, for example, there was a number of documents, particularly management design, we were quite open with, so in his team he had a couple of people that he assigned to oversee the testing, security testing and things.  And, certainly, I had no objection to him looking at things like the technical environment descriptions, the key management system designs and that, and he did comment and feedback some very useful information in those areas but, as a formal reviewer, no, they didn't have those rights.
 
@@ -997,7 +1039,11 @@ Again, do you consider that to be a fair reflection at the time?
 
 **Alan D'Alvarez**: At that time, I only had responsibility for the security testing team and they had two people which they assigned from the authority.  I forget their names -- one was called Clifford, but I forget their names, and we would have reviews and they would actually base themselves for periods of time each week where our security testing were located, so they weren't restricted from that area.
 
+.. rst-class:: indented
+
 And we would have conversations, but I would be very keen to get their view with regard to the business impact aspects of any defects that we had because, with any software system, there could be defects, there's a balance between risk and time, so that you -- very rarely would you see a system go live with no defects, and I wanted to ensure that the defects we were focusing the teams on fixing were those that would be deemed of sufficient priority, you know, within the Post Office, if we didn't fix it, it would stop us going live.
+
+.. rst-class:: indented
 
 So we did have discussions and we had triage sessions with the people that he allocated or Post Office allocated to work with us on testing.
 
@@ -1061,6 +1107,8 @@ Just pausing there, did you think, at this point, that the Horizon IT system was
 
 **Alan D'Alvarez**: I -- my recollection is it was one of the contributing factors to another delay.  So it wasn't a case we went live with those unfixed because it was not fixed, it was another contributing factor.  There was a series of delays, it wasn't the only one, but I was fully aware that the preparedness of the security and where we were with regard to the defect position, we were not able to go live or get acceptance -- become an Acceptance Incident in that defect, and probably be -- from the information that we received and discussed, it would probably be deemed as a high Acceptance Incident, which would prevent us going live anyway.
 
+.. rst-class:: indented
+
 So it's a case of, from recollection, it's one of the contributing factors to a number of the delays that we had during release 2, New Release 2.
 
 **Mr Stevens**: So from a security perspective, when it was released, did you think there were any material problems with the system?
@@ -1088,6 +1136,8 @@ Could you expand on that part, "they audited test results and PinICL content for
 .. rst-class:: indented
 
 **Alan D'Alvarez**: So the test results would be for the test report, so the test report would have a detail of all the tests run, those that couldn't be run, for whatever reason, or were not run, the failures and the outstanding -- outstanding faults or PinICLs in the system.
+
+.. rst-class:: indented
 
 The -- where I say "inspect the PinICL", we would discuss the detail of each of the PinICLs, so they understood from a business perspective whether or not -- how to classify those and whether they would become Acceptance Incidents or not.
 
@@ -1186,9 +1236,15 @@ So, in short, what we have here is a need for the system to be able to provide e
 
 **Alan D'Alvarez**: So with regard to prosecutions and that, I was not party to any -- I had no engagement with the area of Pathway that supported prosecutions, so my focus was the delivery of the security as per the standards, so I think, if I remember rightly, preceding this section there's a set of standards, like Post Office security standards and things, we had to comply with.
 
+.. rst-class:: indented
+
 With regard to my knowledge of Police and Criminal Evidence Act, I'm not an expert, but I am sufficiently knowledgeable in the areas that impact computing systems because of my work with the Met Police.  I'm trying to think now, because it was so long ago, I think it is section 69, which basically puts the umbrella of -- any computer data or extract from computer systems comes under I think the general -- if I remember rightly -- the general view of documentation and therefore we needed to --
 
+.. rst-class:: indented
+
 So my element would be the last element of what Police and Criminal Evidence Act, or my understanding of it back -- well, now remembering back -- would be that can we provide a level of -- I'm trying not to use the word "evidence", but assurance that the data that has been produced to support any prosecution is complete and if there's been any -- it's not been tampered with or whether it's any changes, that the changes to that data is readily auditable from a computing aspect.
+
+.. rst-class:: indented
 
 But, from my understanding of the Act, it's more about the caseworking and how you -- making sure that the data that's been provided or the documentation being provided is relevant to the case that's being formed, then the completeness of that data for the purposes it's going to be used for, obviously, would be through the assurance that the data we captured on the Riposte system was complete.  And then my element would be the third element, that, should there be any requirement to change that data and that, that that data is auditable and any changes able to be understood and the rationale for those changes -- well, on the system, we can say what was done.  The rationale would be the wider policies that was put forward by Barry Procter with regard to those various processes that you could only do certain things on the system under certain instructions and certain authorities.
 
@@ -1365,6 +1421,8 @@ Can we just sort of decode that a little bit.  From the dates elsewhere on this 
 
 **Alan D'Alvarez**: In a fast pace.  Again, this is -- I saw this just before I come in here and trying to rack my memories, there was a number of migration processes put forward, some which was looking at kind of incremental product migration and things that we were looking at doing, but this was very much, from just trying to go back in my mind, there was a change in the migration strategy, which did -- whether it's totally big bang, but it effectively said that we would rollout with the predominance of all the functions as required, which added complexity because the KMS -- and specifically the VPN element of the KMS was a high -- high risk, it was --
 
+.. rst-class:: indented
+
 It was high risk that we had to carefully manage and put mitigations in place to make sure, when we enabled the VPN, what we did not do was lose connectivity that we couldn't recover to all the post offices.  So when there were changes to migration strategy -- so what we would do we would have a migration design, we would make sure that -- how we implement that element of that migration is fully tested, we have -- what is our recovery position on testing that, and the change of strategy increased that risk that we had to go back around our migration design to assure ourselves that the risk was manageable.
 
 **Ms Page**: Was the driver for changing that strategy to rollout faster?
@@ -1437,13 +1495,23 @@ Again, is this an example of things having to be rolled out on a quick and altog
 
 **Alan D'Alvarez**: Do I think -- so I'm very conscious that a number of times we had to delay the rollout because we collectively -- certainly from my area -- said that we were not ready to and, from my perspective, there's always pressure.  There's pressure -- you put pressure on yourself to meet the timescales that you set.
 
+.. rst-class:: indented
+
 There was pressure from the customer to deploy, there was pressure from our own organisation, but I never felt that if, after assessing and when this agreed (unclear), that would have been assessed with my architects and that to understand what is the implications of that, can it be worked around.
+
+.. rst-class:: indented
 
 So I need to know the fault and how that was developed and how we actually put -- I would assume there's a workaround -- that we would have to -- you know, it's a -- it becomes a judgement where, in this particular instance, it was assessed that this would not have any detrimental impact in our ability to manage the cryptographic keys, it would just mean that there would be something that we would know about, that we would have to work around, and until that's fixed, that workaround would be in place, typically requiring additional manual processes.  Typically, but, again, I need to understand what this bug was.
 
+.. rst-class:: indented
+
 So, from my perspective, if I or my team said we were not ready to go with our products, I would be supported by my management.  They wouldn't like it, they would put a lot of pressure on, and one of the things that we had -- so there's two elements to this.
 
+.. rst-class:: indented
+
 On the KMS, we -- it was clear that the amount of work to put an automated key management system was far greater than we originally estimated, and we had to deliver it in two elements, to be able to maintain the timescales, and we had to put a proposal forward how we can do that safely.  And so it's part of managing a large complex programme.  You know, is there a way forward where everyone understands the risk, they understand -- or they understand the issue and they have the right way to -- they have the right processes or workarounds in place that that issue doesn't become a -- or that risk doesn't become an issue in production.
+
+.. rst-class:: indented
 
 Invariably, it adds cost to the run costs and, therefore, you don't want to go live.  So that would have been part of a number of elements where is there a suitable workaround to go forward with?  If so, is that affordable, is that the right way to do it?  And that would have been the decision-maker, and I can't remember the specific one here.
 
@@ -2093,7 +2161,11 @@ So I think that's what you were just referring to; is that right?
 
 **Graham Allen**: Only from what I have read in the document and that it was -- it appears from memory, from reading it over the weekend, it appears to be a description of the measures -- as it says in the abstract:
 
+.. rst-class:: indented
+
 "[Description of] the measures ... built into Horizon Online to ensure data integrity."
+
+.. rst-class:: indented
 
 It appears to be to brief KPMG, I think it said, on conducting an audit of that.
 
@@ -2164,6 +2236,8 @@ Can you recall what prompted this?
 .. rst-class:: indented
 
 **Graham Allen**: Okay.  I don't think it would have been in relation to that, but clearly if there had been or were any changes required out of any audit, then it would have been my teams that would have had to have made those changes and, hence, there's some governance responsibility on me to check that the documentation is correct.
+
+.. rst-class:: indented
 
 The other likely thing, as I have said in my statement, is my role as mainly a -- we called it a human resources type thing.  It's clear that I have years of experience of application development and I can interpret or bridge the gap between descriptions and technical people to cross check that information is correct.  So it would have been on some sort of consulting or responsibility for application delivery role.
 
@@ -2757,6 +2831,8 @@ Now, when Horizon Online was being constructed was this built in as that says?
 .. rst-class:: indented
 
 **Graham Allen**: So it's a financial system.  I know all the financial -- all the systems I have worked on have -- in fact all of -- I think everything I have worked on has financial integrity.  I worked on retail systems at the beginning, so ensuring financial integrity is what any system has to do, or have controls in place to do that.
+
+.. rst-class:: indented
 
 Sorry, I don't think I have answered your question very well.
 

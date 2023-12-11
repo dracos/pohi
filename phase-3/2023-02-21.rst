@@ -133,6 +133,8 @@ For the transcript the URN is `WITN04790100 <https://www.postofficehorizoninquir
 
 **Philip Boardman**: I have an MBA from Warwick University, and so whilst back at ICL Manufacturing, the field of business process modelling and analysis and business process management support systems was relatively new then and I got some training in that there, and had opportunities to practice that in some internal projects within ICL.
 
+.. rst-class:: indented
+
 In 1995, I joined a newly formed consultancy practice in ICL that was offering business process modelling analysis, business process redesign services to ICL's external clients, and so, by the time I was doing work on the IMPACT Project in 2002, I had had seven years' experience of delivering business process modelling analysis consultancy to a range of clients --
 
 **Mr Beer**: I'm just going to come on to experience in a moment.  I'm just asking about qualifications at the moment.
@@ -511,6 +513,8 @@ So this part of this paragraph is telling us that the requirements of the Post O
 
 **Philip Boardman**: And facilitated some of them, and they're not through -- between Fujitsu and Post Office but between Post Office -- those sets of Post Office representatives.  At times, I would have been the only Fujitsu representative in the room, and there would have been 13, 14 people -- Post Office representatives.  At other times, colleagues, including Gareth Jenkins, who was the lead architect for this programme, and who had a great deal of knowledge about Horizon, and Luxmi Selvarajah, who was a consultant from ICL's SAP practice, was in the room, clarifying requirements in terms of, you know, understanding what was it that Post Office were trying to achieve.
 
+.. rst-class:: indented
+
 It was identified pretty early on that Post Office were likely to need to replace their core financial systems and they had already invested heavily in SAP for their cash stock management system --
 
 **Mr Beer**: Tell the chairman what SAP is, please?
@@ -617,11 +621,19 @@ Under "Accounting", on the second of the six bullet points, it is said that Fuji
 
 **Philip Boardman**: So, I think to explain that you need to understand these back-end systems that are being talked about in the last sub-bullet there, CBDB was -- and CLAS(?) were the two financial systems that Post Office ran at that time, had been developed in-house by Post Office.  OPTIP was the system acting as the interface between Horizon and those back-end accounting systems.
 
+.. rst-class:: indented
+
 At this -- well, the CBDB set of systems, as I understood it, had been developed in-house for Post Office.  They were batch system based, overnight batch runs, lots of input put in during the day and calculations done overnight and they were built around weekly processes. And in some respects they were legacy systems that hadn't been able to be updated sufficiently when Horizon started feeding daily information into them, such that there were -- much of that debt -- this is a summary of the requirements and the cost savings identified in the End to End feasibility document.  Across there, it talks about the issues around settlement, client settlement.
+
+.. rst-class:: indented
 
 By this stage, of course, those nightly feeds were also going off to clients.  So large utility companies would be getting nightly feeds of -- into their systems to say "This customer has paid their gas bill -- this much of their gas bill", and that would go into their account systems and be managed in the accounts against those people's accounts.
 
+.. rst-class:: indented
+
 But that meant that those organisations, utility companies that had invested in systems that could cope with daily feeds, nightly feeds, were coming to Post Office quicker than their processes were working out what they owed those utility companies.
+
+.. rst-class:: indented
 
 In the times of those timing differences, with clients invoicing and Post Office having the data to be able to verify that that was the correct amount, those amounts were held as debt, and so there was those sorts of debt.  That's the majority, I believe.  As we'll discuss later, there were some in terms of postmaster debt.
 
@@ -637,7 +649,11 @@ In the times of those timing differences, with clients invoicing and Post Office
 
 **Philip Boardman**: Because similarly, Post Office's central systems were based on a weekly cycle and that caused a large amount of the timing issues that, just like with clients -- can I give an example, and this is sort of an End to End life cycle of a debt that isn't a debt.  In the feasibility study document, it refers to a -- how the aim is to reduce 95 per cent of debt, but it then says -- the next bullet says that only 10 per cent of debt is real debt and that 90 per cent of debt that isn't real debt, is not real debt, is these timing mismatches.
 
+.. rst-class:: indented
+
 So if I give an example -- I apologise, it's a very low value example -- but back then, when a clerk was selling a stamp, the majority of stamps were sold from large books and torn perforated sheets of stamps and a stamp would be torn from the sheet.  If that -- when performing that transaction in the Post Office, a clerk had accidentally ripped the postage stamp into two, that postage stamp couldn't be sold but that created a discrepancy because, at that point, the stock had become obsolete but the stock was held in the Post Office -- subpostmaster's accounts as, let's say, it's a 10p stamp.
+
+.. rst-class:: indented
 
 So what the process, as I understood it, as explained to me, was that the subpostmaster would take the two halves of that stamp and stick it on a form because there was a form especially for reporting obsolete and destroyed stock --
 
@@ -647,9 +663,15 @@ So what the process, as I understood it, as explained to me, was that the subpos
 
 **Philip Boardman**: Ruined stock, indeed.  And the ruined stock, they'd stick that stamp on there and asked for the 10p of discrepancy, by passing 10p into their suspense account.  Obviously, it's more than 10p.  Over the course of the week, there would be multiple stamps but let's follow the End to End.
 
+.. rst-class:: indented
+
 That suspense account would get added as a 10p discrepancy into the suspense.  The form would get sent off.  Apparently, it was quite common for forms -- you know, subpostmasters would wait until multiple stamps had been stuck on and the form might sit in the Post Office for weeks, but let's follow the rules.  That week they send that form off with their cash account form.  During that week, Post Office would then verify that that 10p was destroyed stock, and they could recredit the -- or write off that stock and so Post Office would send an error notice, a paper error notice, back to the subpostmaster at the branch.  That might arrive within the week, it might arrive the following week after the next cash account.
 
+.. rst-class:: indented
+
 All the time that this -- eventually that error notice allowed the subpostmaster to bring the amount out of suspense and to write that 10p off, but all the time that that 10p was in suspense, that was classed as debt for Post Office Limited accounts, but it wasn't debt: it was known that it was going to be sorted out.
+
+.. rst-class:: indented
 
 So much of this, in terms of subpostmasters' debt, much of this is about allowing Post Office to see the wood for the trees, for want of a phrase.  You know, they're getting rid of all -- wanting to reduce that -- to sort those debt that isn't debt out much quicker, so that they can actually address the other debt in a timely fashion.
 
@@ -819,7 +841,11 @@ So is it fair to say that that, what is described there, the business trading as
 
 **Philip Boardman**: I don't think so.  So, again, having seen some of the discussions around the early parts of the Horizon project and implementation -- and I've seen some of the witness statements that mention some of the reluctance of Post Office to adopt ACT -- by this stage, the conversations I was having with Post Office seemed to be that they'd become resigned to it, or embraced it even, and were seeing that this was opening up other markets as well, that, you know, in the same timescales, branches were closing through -- around towns all over the country at a rate of knots.
 
+.. rst-class:: indented
+
 Post Office had a very spread-out network, and people would be able to accept, because as well as benefit recipients being able to withdraw funds from their bank accounts then non-benefit -- you know, the waged other people who couldn't access bank branches could access post offices more easily.
+
+.. rst-class:: indented
 
 So I think they were sort of trying to embrace this but had other problems at the same time, which reduced the amount of investment that they could make.
 
@@ -834,6 +860,8 @@ So I think they were sort of trying to embrace this but had other problems at th
 .. rst-class:: indented
 
 **Philip Boardman**: As I understood it.  I think, as much as all of what you've just said, the things that have come out of here to me are the additional costs that Post Office were going to take on, in terms of servicing this loan.  They have a very broad network that involves providing lots of cash to lots of branches and so I think there's a mention in here of £350 million of a loan to be held, and this is new costs to Post Office.
+
+.. rst-class:: indented
 
 So just holding that cash on a -- you know, in order to run their business, was going to cost them a lot more.  They had previously been having that cash pre-funded to them and they were going to have to service that.
 
@@ -915,13 +943,23 @@ Can you explain, please, what is being described here?
 
 **Philip Boardman**: Probably best if I described the process before and after.  Before IMPACT, when a cash pouch was being delivered from a cash centre, then there was a barcode scan, and that would produce a receipt which the subpostmaster could hand over to the deliverer as their receipt for having delivered the cash, but that made no changes to the branch accounts.
 
+.. rst-class:: indented
+
 In process discussion workshops, the scenario was always described as there was a queue of pensioners going outside the Post Office.  At busy times, the deliveries would be made, the scan would happen and the pouch would probably be put in the safe to be remitted in later and the subpostmaster could go back to serving customers.
+
+.. rst-class:: indented
 
 When remitting in later, bearing in mind that when it was remitted in, if that happened on a Wednesday morning -- if that delivery happened on a Wednesday morning, then the remit in might not happen until after the cash account had been produced, so that cash account wouldn't reflect that delivery.  When the remit in happened, at whatever time that happened -- sorry, if the cash account had been produced at that time then that would result in a reconciliation discrepancy in the Post Office's systems, the cash centre had sent this money, it hadn't shown up in the accounts, and would take time to resolve itself through various processes of error notices and things.
 
+.. rst-class:: indented
+
 When the cash pouch was being remitted in, the subpostmaster would open up the pouch and either using the delivery note or counting the cash, they would be presented with a form on the Horizon System to enter how much in 10s, how much in 20s, how much in 5s, et cetera, et cetera, and that would then remit that in.  But by the nature of this, they would be remitting in what they were reporting, and that was -- that could happen that mistypes happened at that point, typographical errors could come in.  But of course whatever was being reported would be what the system felt.
 
+.. rst-class:: indented
+
 So the system figure for cash hold in, if the figures hadn't been entered correctly, the system figure could be incorrect for the actual cash holding and that might create discrepancies.  Also, depending on whether they were checking against the delivery note and the actual contents, then there may well have been an error in packing.  Because when people put deliveries together, sometimes they don't put all of what was ordered into the -- into the delivery, and so there were various areas of discrepancies that could occur at various times, and because of the week-based processes, would take, on average, three weeks to resolve.
+
+.. rst-class:: indented
 
 What auto remittances was trying to do was say that the cash pouch delivery would be prepared the night before or the planned delivery would be prepared the night before, and passed to Horizon so that an electronic delivery note would be delivered to the Horizon System. When the cash pouch barcode was scanned, that amount would be automatically remitted in, according to the delivery note.  But then later, instead of the remit in process, there would be the verify -- I can't remember what the function was called but it verified a remittance process, that allowed the subpostmaster to open up the pouch and check its contents and report any discrepancies.
 
@@ -1015,6 +1053,8 @@ Can you just explain in general terms what that's referring to?
 
 **Philip Boardman**: Indeed.  Automating much of it.  I'm sure there was still some left after IMPACT but, yes, there were -- when I first went to Chesterfield to -- for some of these initial meetings and workshops, very, very large open-plan offices, with huge numbers of people with piles and piles and piles of paper, 17,500 cash accounts -- and a cash account wasn't just as we've said, there's all the forms and things that go with a cash account -- 17,500 every week arriving in Chesterfield.
 
+.. rst-class:: indented
+
 I never really understood what was happening there because we didn't fully analyse the back-end systems, they'd already been decided that they needed to be replaced.  But there seemed to be an awful lot of data entry happening as well, so these physical cash account forms would were being sent to Chesterfield and data seemed to -- even though all the data had previously been sent overnight into systems that would be acceptable by those individuals, there seemed to be an awful lot of re-entry of data.  I never really worked out what they were trying to -- what they were doing with that.
 
 **Mr Beer**: One of the reasons for what became the IMPACT Programme we've seen included decreasing operational costs by the Post Office.
@@ -1064,6 +1104,8 @@ I never really understood what was happening there because we didn't fully analy
 .. rst-class:: indented
 
 **Philip Boardman**: I think -- well, so for example, in areas like remittances, as I understood it, most of the Post Office's, if not all of the Post Office's, cash centres had invested in CCTV over the packers and -- pickers and packers functions. So they'd know -- be able to -- when errors were reported, they'd be able to verify those things.
+
+.. rst-class:: indented
 
 In terms of other areas, like burglaries, fires, whatever, Horizon getting its sums wrong, then you rely on people identifying what went wrong where and how much it was impacted.
 
@@ -1211,7 +1253,11 @@ Again, did the system rely on the automated reconciliation working effectively a
 
 **Philip Boardman**: Although this identifies -- so the paragraph, three from the bottom:
 
+.. rst-class:: indented
+
 "Post Office personnel may inspect transactions, which are found to have been subject to EPOSS keying errors ..."
+
+.. rst-class:: indented
 
 So presumably -- "where the value of the transaction is not captured automatically" -- that paragraph is giving an example of where errors might be spotted by Post Office Limited personnel, people in Chesterfield.  So that's, I don't know, things like paying a utility bill of £40 and the clerk has typed in -- has hit the "00" button twice and then ended up keying a transaction of £4,000 but not spotted that it's gone through and accepted £40 in cash, and that's created discrepancies.
 
@@ -1455,6 +1501,8 @@ Can you help us what consideration there was of the level of litigation investig
 
 **Philip Boardman**: 19 years ago, collaboration systems weren't as advanced as they are today and, in practice, typing things into documents would involve one author at a time editing.  So he would send me the -- give me the control of the document to type editing, add in the things like -- that I added in, the process diagrams, that he'd asked me to put in.  I think I might also have edited some of this in terms of Fujitsu feedback because we had feedback from a number of reviewers in Fujitsu who were asking elaboration questions, "Can you explain what this means? What are we trying to get at here?" and so I'd done those.
 
+.. rst-class:: indented
+
 And I think at one stage I must have had control like that, of typing it into the document, and because I think I've seen some in the pack here, some minutes to documents saying, you know, "Dave Parnell to verify this, Phil Boardman to type it into the document".
 
 **Mr Beer**: Okay.  Can we look, please, at pages 13 to 14, bearing in mind what you said as to your role in this document.  So page 13, please.  This sets out the "Business Proposition", and then under 3.1.1.2, which is about halfway down the page, the "Key Priorities" are set out, and these echo some of the issues that we have seen in the document that we looked at before the break:
@@ -1595,11 +1643,19 @@ What provision was made here for subpostmasters to challenge a discrepancy as ha
 
 **Philip Boardman**: I think two facilities there.  So at the time of initially identifying the discrepancy -- and can we go back up to the top of 12 there.  So this idea of by the end of the monthly trading period, in practice, I believe the weekly cash account cycle meant that very little investigations of accounts, where they were, what was happening, whether they were correct, was happening within the week, and so this idea of by the end of the monthly period the branch should be required to make good, but -- sorry, actually go to the top of 11.  I misremembered.
 
+.. rst-class:: indented
+
 "Within the monthly trading period, branches should have facilities to identify and the flexibility to manage local variances ..."
+
+.. rst-class:: indented
 
 So the idea was here that instead of always being found at the point of rollover of the cash account or the trading period, as it would be, that variances would probably be identified more often between times.  So as part of another change, there was a nightly process of -- the (unclear) process of declaring a total amount of cash held in the branch, which had been instigated purely to feed SAPAD's data so it could do its planning.  But then this was changed to a cash declaration which would compare the amount entered against the system-generated figure and tell you on a nightly basis, if that was operated, that -- you'd identify variances within the month, rather than at the end of the month.
 
+.. rst-class:: indented
+
 The other variation, I don't think it's really brought out in here but during the conversations, I think, Post Office were anticipating giving advice and guidance that the post offices would use balance periods between trading periods more than they had done previously with balance periods and cash account periods.
+
+.. rst-class:: indented
 
 Have people explained the difference between balance periods and cash account periods to -- Mr Cipione?
 
@@ -1609,7 +1665,11 @@ Have people explained the difference between balance periods and cash account pe
 
 **Philip Boardman**: So you understand that.
 
+.. rst-class:: indented
+
 But the expectation was that the branch wouldn't go a whole month without doing the balance but they'd only rollover balance periods so they'd do maybe weekly or fortnightly balance periods.  So it was to try to make it much more likely that those discrepancies would be discovered within the month rather than at the end of the month.
+
+.. rst-class:: indented
 
 When they were discovered --
 
@@ -1685,6 +1745,8 @@ But then:
 
 **Philip Boardman**: The second it's using that -- in the first it's trying to say those that aren't managers and supervisors.
 
+.. rst-class:: indented
+
 That way round, isn't it?
 
 **Mr Beer**: I see.  So it's a narrowing of the facility of posting discrepancies to a suspense account rather than the removal of a suspense account facility?
@@ -1692,6 +1754,8 @@ That way round, isn't it?
 .. rst-class:: indented
 
 **Philip Boardman**: That's the first element of reading that and correcting its language.  The second bit is the cash discrepancies thing here and posting cash discrepancies to cash suspense account.  So when posting -- the phrase "post" or transfer discrepancies to suspense is used, but when performing that, what's actually happened is a transaction.
+
+.. rst-class:: indented
 
 Everything in Horizon is performed as a transaction and so what's actually happening is that a transaction is happening to -- is being created that takes liability out of the branch accounts and puts it into the suspense account.  There were a number of suspense products that could do those things, that were seen as generic products.  I think we might see a document later where it talked about loss A to table 2A, loss B to table 2A, loss C to table 2A, et cetera.
 
@@ -1761,6 +1825,8 @@ Everything in Horizon is performed as a transaction and so what's actually happe
 
 **Philip Boardman**: Sorry, I don't know.  That's something you'd need to -- as Post Office held, they'd get someone to do this.  There were technical limitations that the Horizon counter had that meant that it could only, I think -- I think it ended up being at 45 days, so it could only store, retain data for 45 days -- we saw earlier, that it was assumed that no branch visits would be necessary.  No engineering would -- you know, they wouldn't have to -- no one would have to go out and install a larger hard disk into the counter PCs.
 
+.. rst-class:: indented
+
 So I think, as part of these discussions, the trading period, the length of the trading period was set for the 4-4-5 calendar, as it was, and it was agreed that the data retention would be 45 days, and so Post Office would need to start doing -- take actions pretty soon after a cash account didn't roll to try to make sure that we didn't get into the situation where data in the branch had been lost.
 
 **Mr Beer**: So you followed the Phase 2 opening carefully. That was one of the things that you looked at, did you?
@@ -1826,6 +1892,8 @@ What steps were taken by Fujitsu and, to your knowledge, the Post Office at this
 .. rst-class:: indented
 
 **Philip Boardman**: I guess the Retail Line ops, I think was Ruth Holleran, and so there was a key sort of stakeholder there but, you know, some of this, a lot of the hoped-for -- we talked about the huge amount of paperwork going backwards and forwards to Chesterfield, and so there was this requirement to try to truncate the branch trades and statements as it became, no longer having 17,500 cash account forms arriving in Chesterfield every week.
+
+.. rst-class:: indented
 
 At the start of this morning's session, you asked me to look at a particular page of this thing, and you said is that my signature, and I said yes, and you were happy to accept that response.  But you and I know that that isn't actually my signature; it's a printout of a digital image of my signature that we separately and via the Fujitsu counsel have agreed to accept as my signature, because that's the way the world's moved on since then.  But back in 2002/3 periods, Post Office were getting 17,500 signed forms, actual signatures --
 
@@ -2021,7 +2089,11 @@ Can you recall what this was about, what the idea of an introduction of a floor 
 
 **Philip Boardman**: I never really fully understood this but this was -- Post Office seemed to have this idea that they would give a threshold that anything under £250 would be at the subpostmasters' liability and would be -- anything above that would be -- could go into the suspense account for disputes, discussions, investigation.
 
+.. rst-class:: indented
+
 So this idea of the single threshold and the different ones for different -- because they talk here about different branch types, rather than -- or office types, rather than different suspense products.  So they appear to be treating all suspense products as the same thing.  So, again, I don't fully understand how you wouldn't be able to raise a dispute about a discrepancy of the cash pouch was £50 short if, you know, investigations showed that the packer had not picked that pack of -- those packs of 50p pieces, or whatever it is that came up to 50p -- £50, then clearly that would be a reasonable dispute to hold.
+
+.. rst-class:: indented
 
 But this is eventually, in the email trail, I get --
 
@@ -2030,6 +2102,8 @@ But this is eventually, in the email trail, I get --
 .. rst-class:: indented
 
 **Philip Boardman**: No, I know but I'm just going to say I get copied on this but I think this is effectively internal discussions with Post Office that we'd expect them to resolve between them to decide. But both of these things, it's also important to say, are things that Post Office had complete control of, that this threshold would be specified if it was to be implemented by Post Office reference data.  The product -- a product can have minimum, you know, any product that could be traded in Horizon that you could specify amounts of the transaction for, it was possible to specify minimum -- maximum, so that -- and that would be used, say, in the utility bill example that I've used before, to try to stop the miskeying -- so you might say back then, paying £1,000 on a gas bill was very unusual.  Nowadays it might be more reasonable.
+
+.. rst-class:: indented
 
 But you might, say, expect a maximum of £1,000 and any key-ins of a large transaction like that would probably be typographical error, hitting the "00" key too many times.
 
@@ -2078,6 +2152,8 @@ So is this a discussion within Post Office which essentially involves the author
 .. rst-class:: indented
 
 **Philip Boardman**: Indeed.  It would appear so.  I think the other element of this, that this way forward area is really talking about -- the feeling that the IMPACT Programme would take an approach of empowering.  You've used the phrase earlier of making responsible for, but you can also look at it from the positive spin point of view of empowering postmasters to manage their businesses for themselves, and only get involved in -- or Post Office only needing to be involved in this when, you know, disputes were raised and, at this point, this appears to be possibly proposing that what I said earlier about disputes, that the suspense account wasn't the mechanism of raising a dispute; it was the way of accounting for a dispute that you had raised.
+
+.. rst-class:: indented
 
 This appears to be potentially proposing that a dispute could be raised by the posting of an amount to the suspense account and because Post Office had capable new financial systems, they would know about that within 24 hours and they would be able to do something about it.
 
@@ -2151,6 +2227,8 @@ In the meetings and workshops that you attended, can you assist as to whether th
 
 **Philip Boardman**: Like I say, I think next in the chain I'm trying to wonder what the implications are for requirements, and whether -- like I say, is this -- whilst the dispute -- so if in the other side of the subpostmaster's business, most subpostmasters being franchisees and most of them running other businesses in their convenience store or whatever, if a delivery had arrived short of, you know, some quantity of things that had been delivered but that they'd already paid for because, being a small, single outlet business, they wouldn't necessarily have good payment terms, then they would be liable for the shortfall of the non-delivered stock until they'd raised the dispute with the provider.
 
+.. rst-class:: indented
+
 And so I think this was trying to suggest this, but then I'm not sure whether it was, like I say, just, full stop, they should be liable for it or whether they should be liable for it until the discrepancy was resolved, and whether what he's also then proposing is that transaction corrections, that some sort of dispute resolution -- dispute raising and resolution process would then be able to do a transaction correction, to resolve those things.  But, like I say, I don't know where this was going.
 
 **Mr Beer**: Would you agree that this appears to be proposed on the assumption that the system produced accurate data and was infallible and, therefore, discrepancies must be the result of the subpostmaster?
@@ -2194,6 +2272,8 @@ Can you help what happened next?
 .. rst-class:: indented
 
 **Philip Boardman**: As I understood it, there was a series of meetings next, and I still don't know whether, when Clive Marsh said "remove the suspense account", what he really meant was remove some of those suspense account products with the more generic names: loss A to table 2A, loss B to table 2A, et cetera.  I don't know what those were used for, but they appeared -- they were ones that Post Office eventually decided to remove.
+
+.. rst-class:: indented
 
 So I don't know whether, when he said "remove the suspense account", he meant particular suspense account products that he felt might be being used generally, or whether he meant fully remove the suspense account, and the outcome was some sort of compromise situation of removing some of the suspense account product and leaving others.  But --
 
@@ -2933,6 +3013,8 @@ Can you decode what he is suggesting, please?
 
 **Philip Boardman**: Um, so I think Tony had moved the conversation on from reprints to an interim branch trading statement.  Bob had explained -- Bob's trying to explain here how an equivalent to an interim branch trading statement, without rolling the branch, could be performed, but pointing out that the alternative is to roll over the branch.
 
+.. rst-class:: indented
+
 And I think he's looking to try to elaborate Tony's requirement further and give Tony options for what he might want -- Post Office might want.
 
 **Mr Beer**: Was it the case that daily summaries were fed to :abbr:`POL (Post Office Limited)`-FS by Horizon?
@@ -3149,6 +3231,8 @@ The evidence that the Inquiry has heard from a range of subpostmasters in Phase 
 
 **Philip Boardman**: Indeed, figure 12.  So in order to get to that screen, you will have to have -- in this last stock unit, to rollover, you'll have to have performed all the actions of balancing that stock unit, which would have involved printing all of the reports, performing a stock, which included the suspense account report, which included the local suspense element so that you would know whether there was something in local suspense at this point.  You'd have done your stock unit -- stock declaration for the stock unit, you'd have done a cash declaration for the stock unit, both of which would have told you whether there were any discrepancies in that stock unit, which may or may not have cancelled out the discrepancy in the local suspense by this stage.
 
+.. rst-class:: indented
+
 So if you got to this screen -- sorry, and before you got to there, you'd have selected to roll over the suspense account, and so if you got to that screen and didn't know that there was something in local suspense, then you ought to have done, I think, is the --
 
 **Mr Beer**: But on the face of it, this presents you with a binary option, this screen, doesn't it?
@@ -3241,6 +3325,8 @@ So if you got to this screen -- sorry, and before you got to there, you'd have s
 
 **Philip Boardman**: I don't know.  I wasn't involved in the review process of this.  I'm marked as a contributor but don't believe -- I'm not one of the reviewers, so I think I had conversations with Roger Donato and Pete Jobson to put input into this document but I'm not on the review list. I didn't review it or -- I think I may, because, like I said, there are flow diagrams and screenshots of -- I may well have arranged because I was the sort of key link to Post Office.
 
+.. rst-class:: indented
+
 So I may well have arranged meetings with Post Office business analysts to review early drafts or -- you know, or review the content to go into this document, but I don't think I reviewed this document.  I don't think, you know.
 
 **Mr Beer**: Just help me: you contributed to it?
@@ -3332,6 +3418,8 @@ So I may well have arranged meetings with Post Office business analysts to revie
 .. rst-class:: indented
 
 **Philip Boardman**: It may have done, I may have contributed, because there was an accounting in cash management but not for Release 1, general conceptual design, I believe, that this may have come from, that I was involved in, so --
+
+.. rst-class:: indented
 
 But I don't have a recollection, if you -- but if there are particular things you'd like to discuss, I'm quite happy to.
 

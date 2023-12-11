@@ -333,6 +333,8 @@ Who was responsible for reporting to Post Office?
 
 **John Simpkins**: Sorry, if there were any reconciliation incidents, so they would then report those reconciliation incidents back to the Post Office.
 
+.. rst-class:: indented
+
 The term I remember currently is BIMs, business incident management, but there is also -- reading through PinICLs, some red but I don't know what red represented.
 
 **Mr Beer**: You say in paragraph 25 of your witness statement:
@@ -903,6 +905,8 @@ Do you see that sentence?
 
 **John Simpkins**: The KEL system was good because -- sorry, if we had a lot of incidents with the same issues, then if they were actually found to be defects and passed on to fourth line, there would be trends in that because of the number of PinICLs raised and applied to the same products, that you can see in the PinICLs.
 
+.. rst-class:: indented
+
 If the KEL system was good for identifying if something had occurred before as well, we did sometimes add onto it "Could you add other PinICL references if this reoccurs", so there was trending in the KEL system as well.
 
 **Mr Beer**: Was there any other system operated, to your knowledge, to pick up themes and trends in the problems with the system that were being reported to Fujitsu?
@@ -1110,6 +1114,8 @@ Can you expand on which of those potential faults were, in your experience, real
 .. rst-class:: indented
 
 **John Simpkins**: So if the -- if it was the Riposte one then it wrote an event which was picked up by the SMC and they raised a call and they were contacted -- they contacted the subpostmasters for those.
+
+.. rst-class:: indented
 
 If it was the hardware ones, I don't know.  But, again, that wouldn't have caused the receipts and payments mismatch.
 
@@ -2888,6 +2894,8 @@ I'm going to start, if I may, with the third supplemental agreement.  Now, that 
 
 **John Simpkins**: Not particularly.  I can't recall being told that there would be faults that only a subpostmaster may notice, but we did identify faults based off calls from subpostmasters.  So it was definitely a thing we did and we did identify faults based on those calls.
 
+.. rst-class:: indented
+
 If we identified a fault, we would scope the fault and, once it was recognised -- and identify who was affected by that, so I think I'm saying the team knew that there were issues that subpostmasters were identifying that weren't being picked up by automated things in the data centre.
 
 **Ms Page**: All right.  Well, in that case, can we please look at document number POL00028743.  When it comes up, you will see that it's a PEAK from 2001.  It is sometimes quite hard to read these PEAKs.  If we perhaps -- can you read it?  Are you able to?
@@ -3011,6 +3019,8 @@ Do you know what happened when a cause was never found, as it were?  Who was inf
 .. rst-class:: indented
 
 **John Simpkins**: I don't know if we had that for this one, but we definitely were -- we raised KELs which had a description of the problem and what we have looked at and they were used in order -- in case it was raised again.
+
+.. rst-class:: indented
 
 I think that there was another call later on, which he said a similar issue was caused by archiving and Riposte happening at the same time as doing the cash account.
 
@@ -3205,7 +3215,11 @@ Do you know if there was any feedback given to the Post Office about why there w
 
 **John Simpkins**: So I have read a little bit up on it, so it was when you were doing your stock unit balance and, if you had a discrepancy, it comes up with a message to warn you and say whether you want to post it to a local suspense. If you, at that point, hit the "Cancel" on the message you could then hit "Print" and carry on forward.  It doesn't rewarn you and it lost that discrepancy value.
 
+.. rst-class:: indented
+
 So it produces a cash account -- I'm sorry, a stock unit rollover that was out of balance so the payments didn't match receipts.  It was visible on the payroll, but it didn't warn the postmaster again.
+
+.. rst-class:: indented
 
 Then if they went to do the branch trading statement, when they roll the branch trading statement, they would get a non-zero trading position warning message because that stock unit had a payments/receipts mismatch.
 
@@ -3717,6 +3731,8 @@ Yes?
 
 **Mark Ascott**: My definition of a test rig is a combination of platforms and servers which are going to replicate the systems which will be used in the live service and, in relation to Legacy Horizon and Horizon Online, a combination with counters.
 
+.. rst-class:: indented
+
 So some rigs would not necessarily have counters, you may create a -- what we would refer to as a harness, where that just involves servers, such as, when I was looking after FTMS, we could have a test rig that just involved the local FTMS gateway and the remote FTMS gateway --
 
 **Mr Stevens**: Sorry, just on that, can you explain what "FTMS" is?
@@ -3730,6 +3746,8 @@ So some rigs would not necessarily have counters, you may create a -- what we wo
 .. rst-class:: indented
 
 **Mark Ascott**: No.  I wasn't involved in the sort of counter operations and the transactions and the processes during Horizon Legacy system, or even Horizon Online.  I did have more involvement with counters during Horizon Online doing performance testing.  That would have involved creating scripts which could be driven through a tool we used, LoadRunner, to create a load and those scripts would have embedded counter transactions.
+
+.. rst-class:: indented
 
 And part of that would have involved processing of data created by the counter transactions within the data centre systems, primarily the database servers.
 
@@ -3781,6 +3799,8 @@ And part of that would have involved processing of data created by the counter t
 
 **Mark Ascott**: Not initially.  In the secure build space, where I was working, the defects that would come back to myself would usually prevent part of a test rig from being built or it may prevent a test rig from being built at all.  So, clearly, if it was an issue where the test rig couldn't be built, that was important and that would be prioritised highly.
 
+.. rst-class:: indented
+
 If I had made a typo, a group had been named incorrectly, or a user account had been specified incorrectly, that would have been a lower priority defect and would have been fixed in accordance to the priorities that were set at the time.
 
 **Mr Stevens**: Are you aware of anyone outside of ICL Pathway who had access to the PinICL database?
@@ -3831,7 +3851,11 @@ If I had made a typo, a group had been named incorrectly, or a user account had 
 
 **Mark Ascott**: Yes, so secure builds, which was defining the NT domain structure, putting together the secure roles and secure role templates, defining the access control lists, which would be implemented against the NT platform set.  FTMS, which I have described as the file transfer manager service, that application was used to move data, for example the TIP data from the database servers across to the Post Office systems.  FTMS was also moved to move data to GiroBank for onward processing from GiroBank.
 
+.. rst-class:: indented
+
 Audit-Dev, so there was the audit and archive solution which I was responsible for collecting data which would be stored for a period, which I knew to be seven years, and, you know, there was a set of definitions as to which data should be collected and recorded in that repository.  Maestro-Dev, which we have touched on, so the driving part of the solution that kept the data flowing as and when it needed to be during the 24-hour cycle.
+
+.. rst-class:: indented
 
 The other area that I was involved in was the auto configuration database, so that was the database that the counters would call into when they were being built and, on the counter, there was a utility called PC Config and Europa.  Europa would do checks and trigger PC Config as needed for a new-build counter. PC Config would connect and then, if you like, the personalisation data would be provided by the Auto Config database to that counter.
 
@@ -3927,6 +3951,8 @@ The other area that I was involved in was the auto configuration database, so th
 
 **Mark Ascott**: This would have been one of the documents that I used. I had meetings with Belinda and Barry Procter to go through a set of rules and requirements which would then provide the framework that would enable me to shape the NT domain design.
 
+.. rst-class:: indented
+
 So that NT domain design was the start point for the work that I did with Belinda.  From the NT domain design document, which in this group definitions for secure NT build document that Alan authored, in the tables that are included in this document, the columns include the domain names, and Alan would have needed those domain names in order to fit the group definitions for the secure roles to build that picture up.
 
 **Mr Stevens**: Well, let's look at one of those tables.  If we could, please, turn to page 9, thank you.  So it says "Group Name to be implemented", on the left, and "SSC Apps MAN", that's SSC application management?
@@ -3946,6 +3972,8 @@ So that NT domain design was the start point for the work that I did with Belind
 .. rst-class:: indented
 
 **Mark Ascott**: So the "PWYDCS", that domain name refers to Pathway data centre systems.
+
+.. rst-class:: indented
 
 Then the "TEWKDLR", "SITTDRL" and "DUNSDLR" and "WYCODLR" refer to domains associated with De La Rue, so there would be FTMS servers located within those four sub-domains that were used to transfer data between Pathway systems and De La Rue systems.
 

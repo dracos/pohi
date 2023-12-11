@@ -220,6 +220,8 @@ Please could you explain what Fujitsu Core Services were?
 
 **Elizabeth Evans-Jones**: Absolutely.  I tried to articulate in the following paragraph, in paragraph 15.  So Core Services were services that would be provided to multiple accounts. So the examples that I gave in paragraph 15 would be, for example, the service desk or engineering services, and the reason for that was that they were activities that could be customised for particular accounts.  So a service desk has very much the same purpose for one account as for another account; engineering, again, very much the same purpose for one account or for another account.
 
+.. rst-class:: indented
+
 So Fujitsu, at the time, had the model of having these Core Services accounts and then anything that was very specific to an account, for example, in Post Office, would be part of the account team.  One of the key differentiators there is the fact that the resource and the management of those services resided with Core Services and the Core Services management structure, whereas any account owned services resided with the account for its management and its performance levels.
 
 **Mr Stevens**: You're quite right.  You do say in your statement that the Helpdesk was a core service.  So does that mean that the people who were dealing with Helpdesk enquiries, sitting on the phones, would also be dealing with calls related to different accounts?
@@ -279,6 +281,8 @@ So is it the case that Fujitsu may be entitled to have a service desk which deal
 .. rst-class:: indented
 
 **Elizabeth Evans-Jones**: No.  The opposite.  The Horizon Service Desk, from my recollection, had very limited opportunity to resolve at the first point of contact.  So, from my recollection, a lot of the calls that came through were related to hardware, a reboot was the maximum that the Service Desk could do there and that would be dispatched to engineers.
+
+.. rst-class:: indented
 
 There was also a Knowledge Base that laid out step-by-step instructions as to what the Service Desk could do.  But to my -- the best of my recollection, the IT Service Desk, the Horizon Service Desk was not a technical service desk, not particularly technical.
 
@@ -380,6 +384,8 @@ There was also a Knowledge Base that laid out step-by-step instructions as to wh
 
 **Elizabeth Evans-Jones**: Yeah, so to clarify, the actual achievement of those performance metrics sat with the operations manager in Core Services, as did the quality.  In the event that those metrics dropped down or the quality dropped down, that would then be discussed by myself and by the Horizon Service Desk SDM and we would work collaboratively with Core Services to implement improvements to address the quality metrics or to address the performance metrics as well.
 
+.. rst-class:: indented
+
 And, as mentioned in my statement, if we received escalations from Post Office on the quality or on the performance metrics, we would work collaboratively to address those.  So there were three parties involved in the process: the Core Services team, the account team and Post Office Limited.
 
 **Mr Stevens**: Just to make sure I've got this, the operations manager, Paul Gardner, he had day-to-day responsibility for ensuring that the quality and volumetrics were to the required standard?
@@ -431,6 +437,8 @@ And, as mentioned in my statement, if we received escalations from Post Office o
 .. rst-class:: indented
 
 **Elizabeth Evans-Jones**: So a large number of the incidents that were logged were hardware related.  Again, as I've articulated, very little could be done on a hardware issue, apart from to try and reboot the counter.  If the counter was down, that caused issues for the Post Office.  So the approach that was taken if the reboot didn't work -- and that normally took about 20 minutes -- we'd dispatch the engineer to get an engineer on site as quickly as possible to allow the branch to trade again.
+
+.. rst-class:: indented
 
 Single-counter branches was obviously more critical than multi-counter branches.  Again, with keypads -- and, again from my understanding, there was very limited software fixes that the desk could do anyway because I don't believe they had access to fix anything with the software.  They'd look in the Knowledge Base, if there was no immediate resolution that was documented in that, they would then pass that through to the second line support or third line support.
 
@@ -703,6 +711,8 @@ So we see the total calls, third up from the bottom, and a monthly call limit.
 .. rst-class:: indented
 
 **Elizabeth Evans-Jones**: So, again, a level 2 call, again, I don't recall.  So that would be something that -- within the Service Desk, there was a level 1 and a level 2 sort of level of service.  So level 2 probably had more time.  They took more time to see if they could resolve at first point of contact.  Obviously, it's much more advantageous for post offices and for Fujitsu to resolve at the Service Desk rather than pass to a second or third line support team.
+
+.. rst-class:: indented
 
 So seeing this now has triggered the memory in me that there was a level 1 and level 2 Service Desk within the Horizon Service Desk.  I don't recall the difference between a level 1 and level 2 call.
 
@@ -1067,6 +1077,8 @@ Who were the product support engineers?
 .. rst-class:: indented
 
 **Elizabeth Evans-Jones**: So what would happen is, if an incident is logged -- and this is sort of generic service management best practice -- if an incident is logged, it's then validated to see if there's a known solution, a known workaround to get the service restored.  That's the KEL that would be looked in.  The KEL contained -- or the knowledge database contains how to resolve an incident, how to restore that incident.
+
+.. rst-class:: indented
 
 The problem database would be open items for which the resolution hasn't yet been identified.  So problem management is one level elevated to incident management and then the product support engineers, reading this now, they are subject matter experts in the Service Desk and if they are unable to resolve, that's then when it would get that then passed through to the Service Delivery Unit, should that answer your question or not.
 
@@ -1512,9 +1524,15 @@ Questioned by Ms Kennedy
 
 **Amandeep Singh**: Yes, I think initially it was useful because we hadn't seen the software.  When you're on a phone call, you have to visualise what the postmaster is visualising, and what the -- the transaction that they're trying to do.  But we were just given routine transactions. I think we did one time where we had to do the reconciliation task.  I think we had -- off memory, I think we did it once.  But generally, it was how we would go about doing certain transactions and that was it.  But we didn't really know what the calls would be until we got on the call because this is really the real inception of the Helpdesk itself.
 
+.. rst-class:: indented
+
 So until the calls started coming through we didn't really know what level of support we would be providing postmasters, and the postmasters themselves quickly picked up how to do the transactions.  It wasn't something they were going to struggle with but that's the level of support that we would get, I think.  Where it was insufficient was it was the more complex transactions.  I think they had foreign currency exchanges and how they put cheques through a system, and there was things that we didn't come across originally.
 
+.. rst-class:: indented
+
 So, again, it was learning on the job, and a lot of it was just trying to remember, look at your booklets and guiding a customer -- guiding the postmaster through certain transactions, and it was generally at that level.
+
+.. rst-class:: indented
 
 That's what I meant by insufficient.  It wasn't more than just routine transactions, which is what the Helpdesk training was really all about.
 
@@ -1542,7 +1560,11 @@ That's what I meant by insufficient.  It wasn't more than just routine transacti
 
 **Amandeep Singh**: Yeah, that's right.  I mean, like I said, this was early 2000s.  A lot of postmasters had worked in their -- you know, in their branches for decades, in some cases, and they'd never been around even a personal computer.  So it was not only introducing, you know, personal computing into their lives, really, in some cases for the first time, but it was then also giving them exposure to "Here, now use this software".  And some of them wouldn't -- you'd have to explain to them what the mouse was, in some cases.
 
+.. rst-class:: indented
+
 I mean they wouldn't know what you meant by a mouse. I mean, it's literally this is the age, the time we were dealing with -- with certain people.  Not everybody, but a lot of postmasters were elderly.  Some of them -- I mean, a lot of them weren't IT literate at all. I mean, generally the public, you could say at that time, not many of them were either.
+
+.. rst-class:: indented
 
 But -- and that brought its anxiety and stress to postmasters themselves and as well as to us, because we had to explain sometimes maybe a complex transaction, but knowing that they themselves were not very literate in terms of just orientating themselves around the screen, trying to pick the right transactions, the right icons, and you'd have to describe the icon on the screen in detail.  Go "Yes, press that.  Now you're seeing another screen".  And so it was really -- trying to guide them as much as you could, and that itself did bring a level of stress because you were constantly aware that other calls were coming through, there was a backlog of calls, and you knew that that the call started somewhere but it would end somewhere.  And it was trying to get them to that resolution point and sometimes you would just feel a bit deflated in terms of how can I get this person to that endpoint when they're not really capable of sometimes getting there?
 
@@ -1564,13 +1586,23 @@ But -- and that brought its anxiety and stress to postmasters themselves and as 
 
 **Amandeep Singh**: Just to elaborate on the point that I've made about the postmasters themselves.  So, for me, this was my very first IT role so I was -- dealing with people that were ringing in and wanting the help on their printers were generally people that tended to know about -- you know, at the time it was Windows 95 or Windows 98 and you'd "You can install a driver?"  "Have you checked this?" You know, how to run a clean cycle on a printer.  All of this terminology, in many cases, was just over the head of a lot of post -- you know ...
 
+.. rst-class:: indented
+
 And for me it was a learning curve because it was, without being too crude, it was a job and I thought "Well, I'm a uni student, I'm going to go back to uni, I'm just going to see this out and see this is what the world like".  But it was toxic because the other members of staff that were, if you like, the second line team, the whole second line team had been abandoned and everybody had just merged into this Horizon Helpdesk.
+
+.. rst-class:: indented
 
 So there was a hierarchy of the second line team -- so we would never interact with, as first line engineers on the Epson team, because we really, some of them, we would hate having to put calls through to them because they would almost belittle you in some way when you would pass a call to them.  Like "Can you not deal with this yourself?"  There was a hierarchy of individuals, to say we are really talented in engineers.  They hated us passing calls through to them.
 
+.. rst-class:: indented
+
 So there was that dynamic where you didn't really associate with those guys well.  And then when they were all brought in, everybody was equalised and on the same level, that caused a great deal of animosity.  And then layer on top of that, you're now not supporting maybe graphic design agencies or media companies as second line engineers were doing, and now you're supporting, you know, an old lady in Wales that doesn't know what even a personal computer is.
 
+.. rst-class:: indented
+
 It felt, I think a lot of them felt like the role was beneath them, and that animosity, that toxicity, it just grew and grew.  And people were -- it became a bit like people were almost on the calls and they were almost shouting about "Oh my God, I've got this person on a call", and this -- and it became almost comical to watch people frustrated and throwing their arms about and making a scene about supporting somebody who can't do.  And obviously they weren't projecting it to the customer because it were going on mute, throwing their arms up, "Oh look at this person, I can't believe I have got this, they don't know this, they don't know that", and you'd get had a lot from the members of staff that were, you know, the second line engineers, if you like.
+
+.. rst-class:: indented
 
 And it just created an atmosphere that were just -- you didn't really want to be there.  The people and the teams didn't want to be there, and, like I said, it were just going through -- for me, just going through the motions of getting through each day.
 
@@ -1580,17 +1612,31 @@ And it just created an atmosphere that were just -- you didn't really want to be
 
 **Amandeep Singh**: Yeah, because I wanted -- the reason why I got in contact with the Inquiry itself was because it felt a little bit like -- I don't know how much that the -- it was going to be an inquiry about senior management or maybe people looking away or people from top-down dictating practices or something, and I wanted to just give you my real-world experience of what it was like just on the Helpdesk on the floor.
 
+.. rst-class:: indented
+
 It wasn't like this Big Brother element of senior management, just my opinions of day-to-day of what it was like.  And what I wanted to get across was you had that element of where you had the teams merging into one, supporting the postmasters, that resentment towards the role, that they'd been now forced to take on.  And then you had another layer upon that, with the cultural issues in some cases.  Many of these people were supporting -- Asian postmasters, not to put it in any blunter terms than that, but sometimes an Asian postmaster they would ring up and they'd be it like "I've got a £2,000 discrepancy, I've got a £5,000 discrepancy", in some cases you'd get wild figures like 50,000 or 100,000 and sometimes these figures, people were quoting were more than most of the salaries, annual salaries of the individuals that they were supporting.
+
+.. rst-class:: indented
 
 And if you like, so if you layer upon that, they're doing a job they don't want to do, then someone rings up and says £15,000 is missing from my account, and people were like "Oh, here's another one calling".
 
+.. rst-class:: indented
+
 And you'd get so many of these calls, not just from Asian subpostmasters but from everywhere, all walks from the UK, people would be calling in and they'd be saying these figures and it's more than, you know, a monthly salary, more than an annual salary of a lot of individuals and they'd think "Where's this money gone?" And it just build that mistrust.
+
+.. rst-class:: indented
 
 And I think at the time, there was always stories in the newspapers of somebody maybe frauding or defrauding or doing something.  And if somebody rings you up and says £50,000 or £10,000 is missing, and you'd be like -- even -- you know, you'd question it and say, "How can you miscalculate 10,000 or 2,000?"  It's not a couple of stamps here or there.  You can't reconcile to £20 or £30.  But these were huge figures that people were quoting.
 
+.. rst-class:: indented
+
 But -- and I think that's what I meant.  Once that story got about, once somebody said, "Oh, I've got another Patel", and then you could just never get away from that whole "Patel" thing.  And it would be like who could come up with the most outlandish story, "Oh, I've got a Patel, got another Patel", you'd just hear it constantly on the floor and me obviously being from an Asian background, there was me and another gentleman called Zubair we were the only two ethnic minorities on the support desk at all, on the whole entire floor. There was a Chinese gentleman or someone from a Chinese background, Peter, and they were the only people of sort of colour on that floor.
 
+.. rst-class:: indented
+
 And at no point was anybody reeling it back and saying, "What is this -- you know, the language that was being used?"  And my grievance with it was that it was a case of why don't we just focus on the individual or the actual -- this cultural dynamic, this mistrust, that was just feeding through.  It felt like some individuals could never get beyond that, could never look beyond that and try and do the role they were instructed to do.
+
+.. rst-class:: indented
 
 And this is one of the prime reasons that I wanted to, you know, get in touch with the Helpdesk itself.
 
@@ -1600,9 +1646,15 @@ And this is one of the prime reasons that I wanted to, you know, get in touch wi
 
 **Amandeep Singh**: I told myself every day that I'm here just for the year and I'm just seeing it, and I was paid almost twice as much as nearly all the other graduates that I knew, so I knew that I was well paid.  And, for me, I thought "It's okay", and speaking with -- from Indian parents, to be fair, my parents, my mum and dad go "This is just work, this is what it's like in the outside world", you would just get told -- and that was really depressing, to be fair, to be told that.  And I just thought "Wow, I've got a whole lifetime of this ahead me and this is what it's going to be like so I'd better just get used to it".  And I'd just go into work and be just like okay.
 
+.. rst-class:: indented
+
 And nobody ever said anything racial to me, I would just fit in with the team.  I was with the most vocal team, which was Squad A.  But nobody ever said anything personal to me, I fit in and I could hold my own, I'm quite thick skinned, I grew up in that environment, so it wasn't difficult for me in many ways in such as I look back now, as somebody who has been and worked in the industry for almost 20 years and look back and think -- you know, now having two boys and having young kids thinking how difficult I would feel if they were in that environment.
 
+.. rst-class:: indented
+
 But me personally, I think I just find it harder now to look back than I did then, whereas -- when it was just a case of: let's just get through the day.  It's another day.  I'm earning good money.  Let's just move on.  And that's what it was.  But it was difficult.
+
+.. rst-class:: indented
 
 I did know that a lot of conversations were going on, and it was a case of when I would walk into a room sometimes it would go quiet, and I knew some things wanted to be said by certain individuals.  So I would almost make an excuse to leave to let them complete their conversation and then go back, because I know that they wanted to say something.  And it was a case of managing that environment, for me.  But I really took it as a point of: this is something that I've got to go through and learn.  And that was really sort of how I navigated my days, really.
 
@@ -1616,11 +1668,19 @@ Do you want to elaborate a bit more on your experience with this?
 
 **Amandeep Singh**: Yes, and just to caveat what I'm saying, I did feel that every agent, no matter what they said, they did try their best to try to get -- to try to help every postmaster that, you know, they called up.  But the Wednesdays days, you would -- and bearing in mind that none of us were from an accountancy background, we were just IT people, but we would almost be bookkeeping live with an individual for an entire week's transactions trying to get down where did they get this discrepancy from.  So it would be if you like how many stamps did they sell?  How many foreign currency transactions?  So these are the transactions, that's what you're supposed to have.  We would go line by line through every single transaction trying to understand where did this discrepancy come from.  That's why the call would take hours.  This is why you had to almost, you know, physically build yourself up sometimes for calls when you knew, when somebody would call and go they've got a discrepancy for a few thousand.  And you know right, okay, this is going to be a difficult one.  And you'd go through all these transactions.
 
+.. rst-class:: indented
+
 And the postmasters themselves were always quite frantic.  They were, you know, they were so stressed. "How do I get this?  How have I got this figure?  How am I going to reconcile this account?"
+
+.. rst-class:: indented
 
 And so, you know, we would work with them for hours. We would really try our best to get down to it.  And then, you know, we couldn't resolve it.  We'd go to -- we'd have a team leader, sometimes floor walkers, and ask their opinions, "Have you checked this?  Have you checked that?"  We'd go back and try and resolve it, and if we couldn't, it would be like okay, it's a discrepancy.  Write it off as a discrepancy.  We can't really do anything more beyond that.  And it just almost became the norm, in a way.  And you'd have postmasters did say, "I had one last week, I was like" -- someone had £46, it was small figures.  They'd be like, "I will put money in myself, just to circle it.  Just to square the circle, if you like, just to get it to a zero balance."  They'd be like, "I've been doing it now for weeks."
 
+.. rst-class:: indented
+
 And it was only when they got these extreme figures, these big figures, that they would call in.  And then you'd find that that's when they'd need help.  Sometimes when they were small figures they'd tell you, "Oh we've been putting money in ourselves just to get it to zero."
+
+.. rst-class:: indented
 
 Like I said, you could just hear the word "discrepancy".  It was probably the most used word, as well, on every call.  "Oh, have you got a discrepancy?" Like I said, it quickly went from "How do I do this transaction?"  After a few months, people knew all the transactions.  "How do I reconcile them?"  Then nearly everything was just discrepancy, discrepancy, discrepancy.  That's what the calls were really about. People just not being able to, you know, reconcile their accounts to zero.
 
@@ -1630,13 +1690,23 @@ Like I said, you could just hear the word "discrepancy".  It was probably the mo
 
 **Amandeep Singh**: So now, I really tried to rack my brains on this one because we -- because there was a -- we had a management team that were in the helpdesk.  They were in the sort of -- the way that the helpdesk was located, you had the managers that would sit in the middle of the helpdesk. And I was trying to rack my brains and think who was telling me?  And I remember it was -- sometimes it would be, like, just one of the people in our team that were the most able on the software.  And you'd cross-reference it with some of your colleagues.  And then I think they'd put in some team leaders type in place, because the managers themselves, they didn't know nothing.  They never touched the software.  They didn't do any training.  You'd only go to your managers if you wanted to get a holiday.  You'd go to them and go, "Can I have a holiday booked?"
 
+.. rst-class:: indented
+
 And then managers were acutely aware that the floor was struggling, so they almost strategically picked out people out of each squad that were the most able on the software, and sort of made them like floor walkers or team leaders or advocates, if you like.  And you'd go to them and say: "Right, okay, I'm struggling."
+
+.. rst-class:: indented
 
 And they would go, "Well, there's nothing we can do. This is a discrepancy."
 
+.. rst-class:: indented
+
 And that was it.  It was never the managers. I mean, like I say, other than signing holidays, I don't know what they did.  They weren't -- like these days, if you look at call centres, you have people listening in to calls, reviewing calls.  In the year that I was there, I honestly can't tell you what they did other than sign our holidays -- you know, sign off holidays, or we'd ask them for that.  And there were a good few of them.  There were a good five of them -- five, six, seven of them.
 
+.. rst-class:: indented
+
 And it was a gripe that most of the engineers had as well: that what is their role?  What do they do? Because we needed help, we needed guidance, and we didn't really get it.  So it was your colleagues.  To answer your question, it was kind of your colleagues, and then the floor walkers which were normally -- which were, again, your colleagues that you'd go to.  So there wasn't anyone in a senior or a management role that you'd told.  And that was again one of the reasons why I wanted to contact the -- because rather than saying it was some sort of mythical big bad manager who was telling you whatever, or guiding you, in the very initial year that I was there when it was set up, it felt very much like a rudderless ship, really, and you were just guided somehow on your own.
+
+.. rst-class:: indented
 
 And I think -- it probably stems from all the other issues I raised -- just the lack of management in that interaction across the floor.
 
@@ -1646,7 +1716,11 @@ And I think -- it probably stems from all the other issues I raised -- just the 
 
 **Amandeep Singh**: Being there only a year, it's very difficult to ask that question.  To answer that question, sorry.  I think it didn't help, it really didn't help, because if people were genuine having software issues, but if you've already got a pre-built prejudice that you can't trust the people or the people are incompetent -- and that's really, like I said, the nub of the issue for me -- is if you've already made a judgement call on the people that you're supporting as incompetent or corrupt in some way, it would take a lot of people to go, you know, that the software has an issue.
 
+.. rst-class:: indented
+
 Because I think people were -- we were much happier, on the floor, to push down on to the postmasters and go "This is your issue", or "You're not correct", or "You've got the issues", than anyone on the floor going -- pushing this upwards and going, "Is this is an issue here?  How can we have so many of these calls?" Like I said, we didn't know who to push up to.  And the management were just not visible.  Like I said, I just don't know what they did.
+
+.. rst-class:: indented
 
 So you can see it must have taken almost like a snowball effect on -- for someone just to look into this issue to go: "Surely we can't have this many discrepancies?"  So you can see how it must have just snowballed.  And like I said, I was only there for a year, and maybe it just grew and grew, and then eventually, you know, just through the number of issues and discrepancies, that's how it must have got through. But I don't think the people's, you know, pre-built prejudices, I don't think they helped at all because they could never empathise with the postmasters.  They could never understand their issues.  Even when they were upset and crying on the phones -- which we had all the time.  Really upset individuals trying to understand, trying to, you know, get their accounts to zero.  But I think it's difficult.  It's very simplistic to just say that.  I think there was other issues involved, but I don't think it helped.
 
@@ -1656,7 +1730,11 @@ So you can see it must have taken almost like a snowball effect on -- for someon
 
 **Amandeep Singh**: Um, like I said, they would be more personal on me in terms of how I felt as an individual, and I don't want it to blur the fact that this is an issue about postmasters and basically about the Post Office itself, or -- and, you know, their own issues as opposed to how I really felt.  I think just -- to me, it was a lot of issues at the time, just a lot of issues of just, like, the postmasters, their technical capabilities, a lack of absence of management, of people.  And, you know, I know that now they've got like first, second line teams and problem management and change management, and all this. When I was there, they had just that one team.  It was immature.  Now I can look back after 20 years in the IT industry, I can look back and see just the people themselves, the managers were not qualified to do the job.  The individuals, some of them, should never have been supportive.
 
+.. rst-class:: indented
+
 It looks just, you know, with hindsight -- and it's easy with hindsight to say these things -- but there were just culpability on so many levels, on so many areas.  And it's probably good to have this, the review, to look, just from an organisational point of view, of how these structures, when they're not there, that's how issues like these can arise.  When you don't have the change management, when you don't have the problem management, when you don't have analysis.  And we didn't have much of that stuff going on, and we had an absence of management, of people not probing in to look as to why there are issues.
+
+.. rst-class:: indented
 
 You know, this is why, you know, since then, you have this ITIL standards or the Service Desk.  You just have things that didn't exist at the time.
 
@@ -1689,6 +1767,8 @@ Questioned by Mr Stein
 
 **Amandeep Singh**: No.  And I now, being obviously 44 years old and not someone who was like 21 at the time, I would challenge that.  But then I think these days it's very rare you would need to challenge that sort of behaviour.  But at the time, there were some very strong-willed characters there who had almost, you know, roughshod -- they could ride roughshod over whatever they wanted to say.  But it was a case: "Oh, he's a character.  Oh, they're characters."  And we just let them go.  We would just leave them to it, if you like.
 
+.. rst-class:: indented
+
 They never challenged them but then, like I said, other than signing our, you know, holidays -- asking for holiday, I don't think they did anything, those managers.  I look back now and think, you know, the bureaucracy that must have existed to have so many managers which then led on to other managers, and then neither of them, you couldn't really define what their role actually was.
 
 **Mr Stein**: Two last points.  Do you by any chance remember the name of the manager that you were directly dealing with?  Was there a single individual that you would have described as being your manager?  And if so, can you remember their name?
@@ -1703,7 +1783,11 @@ They never challenged them but then, like I said, other than signing our, you kn
 
 **Amandeep Singh**: Um, taking it further was never a thought in my mind. I'm going to be bluntly honest with you.  I couldn't wait to get out of that role quick enough, and I did see it as the fact that this is a rite of passage for me. It's something like coming of age, doing my role, doing my time.  And the best way to describe it is like if you're in prison and you've got the tally charts and you are crossing the days off to go: right, I'm going to leave on that day.  And like I said, I was well paid. And I didn't want people to think that it affected me, the language, as well, on the floor.  So I didn't want anyone to think that I'm just weak, in some ways, or that I've got an issue with it, or I've got a chip on my shoulder, or this language, or -- it was easier for me to just go: let's just see it through.  It's fine.
 
+.. rst-class:: indented
+
 One thing I do want to mention is that it's very much an issue of I feel, having worked at, like I say, predominantly within the south, within London, within the banking industry, that it's, to me, it was very much a cultural issue of Yorkshire, Wakefield, of communities that don't mix and are mistrusting of each other.
+
+.. rst-class:: indented
 
 And this is why I wanted to raise the issue of this why people that were hiring, the incompetence level of it.  If you're supporting people from Wales and villages in Wales and in Scotland, and there predominantly is a lot of Asian people owning post offices, is for you to understand the people, as well, that you're going to be supporting.  And, you know, be able to put yourself in their shoes or walk, you know, in effect walk in their shoes and understand their life situations.  And the people that they were, having supported them, could never do that, and are almost incapable of doing that. And I think that's one of the issues that I wanted to sort of raise as well.
 

@@ -473,7 +473,11 @@ What did you expect to be done, going forwards, to see whether any issues materi
 
 **David Posnett**: Okay, so on the first page of this document, with Penny Thomas' handwritten notes, Wendy Warham, who is writing to Sue Lowther, we need to -- it states, and I quote:
 
+.. rst-class:: indented
+
 "We need to work with :abbr:`POL (Post Office Limited)` to recheck the ARQs and reconfirm the data integrity during the period of May '07 to November '08.  Penny will do this."
+
+.. rst-class:: indented
 
 So that's what I thought Fujitsu were going to be doing, rechecking the ARQs during that time period.
 
@@ -494,6 +498,8 @@ So that's what I thought Fujitsu were going to be doing, rechecking the ARQs dur
 .. rst-class:: indented
 
 **David Posnett**: I don't remember but, again, the first email in this chain was from Wendy Warham to Sue Lowther, the Head of the Information Security at the Post Office and, underneath the paragraph that says, "Further action", it's mentioned "Education to ensure that this type of incident is raised as a major incident".
+
+.. rst-class:: indented
 
 I mean, I don't know what that process was.
 
@@ -610,6 +616,8 @@ Were you aware that the checks that Fujitsu were carrying out were limited only 
 .. rst-class:: indented
 
 **David Posnett**: So underneath the paragraph headed "Impact", again:
+
+.. rst-class:: indented
 
 "We need to work with :abbr:`POL (Post Office Limited)` to recheck the ARQs and reconfirm the data integrity during the period of May '07 to November '08 -- Penny will too this."
 
@@ -781,7 +789,11 @@ When you're considering this disclosure issue, what test do you apply in decidin
 
 **David Posnett**: Because, at the time, without remembering it, and I mentioned yesterday, that all systems, computer systems, have their glitches, issues, et cetera.  That I thought was a localised one-off that had come to me, there's been email exchanges, Fujitsu have looked at it.
 
+.. rst-class:: indented
+
 I notice on -- well, I think we've just gone through there, that I've chased them for a response so I knew that, potentially, it could be serious.  I've -- I would imagine, at the time, my major worry would be if they came back and said, "Oh, 30 or 40 of these ARQs are branches, it has caused a discrepancy in their balancing".  And alarm bells would have been ringing and we'd have had to look at those in-depth, you know, to see whether people had been prosecuted, et cetera.
+
+.. rst-class:: indented
 
 As it was, they came back with there were no financial discrepancies, which was probably my focus at the time, but I understand now, given what we all know, that, in hindsight, yes, perhaps that should have been flagged up and raised as another bug.
 
@@ -1031,6 +1043,8 @@ Yes?
 
 **David Posnett**: I would say not, because of the very first line and the very last line of that email.  "I cannot authorise Fujitsu to proceed at this stage", is the first line, and the bottom line is "Can you consider and seek views/input from our criminal lawyer in the case."
 
+.. rst-class:: indented
+
 So whatever my thoughts or views are, the lawyer in the case would overwrite me, as it were.
 
 **Mr Beer**: Would that be Mr Singh?
@@ -1068,6 +1082,8 @@ So whatever my thoughts or views are, the lawyer in the case would overwrite me,
 .. rst-class:: indented
 
 **David Posnett**: No, no, I said if the lawyer insists we need it, then we'd do our best to get it.  On this particular incident, I don't know whether -- I've asked a Senior Manager, you know, and they've said get a quote, or, I don't know whether I've spoken to the Casework Team to find out how many cases have been raised in the last week or so there was also a Credence issue.
+
+.. rst-class:: indented
 
 So that was my view at that time, given a set of circumstances but it's not my decision, ultimately, to say, yes, or no or to say no to the production of logs.
 
@@ -2801,6 +2817,8 @@ Can you remember who Alan Cook was at this time?
 
 **David Posnett**: "[Dave Smith] asked me a few questions and indicated that Alan Cook is asking for more robust defence of Horizon.  I believe the Press Office are drafting a response to the challenges we have had, based on responses by conference call participants."
 
+.. rst-class:: indented
+
 I don't know what he was going to do or how he was going to go about it.
 
 **Mr Beer**: Do you know why the Managing Director of the Post Office was asking for a more robust defence of Horizon, as opposed for seeking neutrally an explanation of the issues and their impact on, amongst other things, prosecution cases?
@@ -3233,6 +3251,8 @@ Just help us there.  Why did Jarnail Singh think that meetings about Horizon int
 
 **David Posnett**: I don't think this was about Horizon integrity. This was Cartwright King were appointed the solicitors for the Post Office following the split from Royal Mail Group.  I was asked to instigate a meeting with Cartwright King and it was purely an introductory meeting, meet and greet, and we did a presentation to them, and I can remember ...
 
+.. rst-class:: indented
+
 Would you like me to continue?
 
 **Mr Beer**: Sir, I'm afraid noise has started once again.  I think we'll have to have a break in the Inquiry until it goes away permanently.  I'd probably ask you to turn off and occupy yourself otherwise and we will contact you by email when the Inquiry room is in a fit state to hear evidence.
@@ -3290,6 +3310,8 @@ Can we look, please, at POL00126735.  You were telling us, I think, that this fi
 .. rst-class:: indented
 
 **David Posnett**: It was a meeting between Cartwright King and the Post Office Security/Investigations.  They were brand new service provider and, as I said, it was literally a meet and greet meeting, introductions made, presentations given, describe the teams set up, and so on and so forth.
+
+.. rst-class:: indented
 
 Mr Singh was invited because he was the Head of Criminal Law but I recall that his stance was "We need to tell them that we want this, that and the other, we want it quickly because it costs money", et cetera, et cetera.  He had a point to some of what he said but my view was that this wasn't the purpose for this meeting, it was a meet and greet meeting.
 
@@ -3481,9 +3503,15 @@ Were you notetaker?
 
 **David Posnett**: Yes, which may be this but I'm not quite so sure.  But I typed up the minutes and actions, sent them out, and then I can remember John Scott coming to me and I think he was enquiring how it went, which suggested to me that it was the first meeting.  And, obviously, I'm just dealing with the minutes and recommendations, and I can remember him saying to me "No, we don't want any minutes being circulated", and I don't know if I'd got my wires crossed but I was not to keep my handwritten notes: simple as that.
 
+.. rst-class:: indented
+
 He went away.  I was concerned for two reasons and I relayed those reasons to Jarnail Singh, the lawyer.  I told Jarnail what had happened and I said to him "I've got two concerns: number 1, I'm very uncomfortable with being told to not keep notes", and I don't know whether the word "shredded" was used, but I think that was the implication.
 
+.. rst-class:: indented
+
 I was not comfortable with that and I was not comfortable with not sending out minutes because, if there's no minutes or actions being sent out and there were no notes to have, then what was the point of the meetings?  It would just be a chat every week and then we all go our merry way.
+
+.. rst-class:: indented
 
 So two concerns.  One was shredding and disclosure, et cetera, but the other one was the practicalities of the meeting.
 
@@ -4574,6 +4602,8 @@ What was that about?  What was this Spot Review about?
 
 **David Posnett**: Okay, I was asked on the Royal Mail questions whether I had any involvement with Second Sight, and I think my response was I don't recall being involved with Second Sight, and then I received further documentation that's spoke about these Spot Reviews, which were in relation to Second Sight.  So I completely forgot about those and I don't remember.
 
+.. rst-class:: indented
+
 I think my recollection now of the Spot Reviews were there were a selected number of post offices that this group of people were going to review and I think what I did in relation to the cases was obtain the suspect offender report and perhaps the interview summary, so I could speak from a Security perspective at these meetings.  I may have cascaded those documents to the people on the call but I can't remember.
 
 **Mr Stein**: Okay.  If we scroll up, please, to the top of this document, we'll see then the way that this was dealt with, and you'll see, Mr Posnett, that you're at the top.
@@ -4661,6 +4691,8 @@ Yes?
 .. rst-class:: indented
 
 **David Posnett**: I don't believe so.  In relation to scratchcards they were an anomaly because I think they were the only stock item that had to be activated on a Lottery terminal before they became value stock and they had to be remmed in.  Every other item of stock, from recollection, was just remmed in and it was already there as value stock.
+
+.. rst-class:: indented
 
 So it was different and I think some subpostmasters struggled to understand that. So, for example, if a branch received £10,000 worth of scratchcards, the idea would be that you activate one pack, £200, to sell, or two packs, £400 to sell.  But a subpostmaster might activate the lot, so it's all of a sudden £10,000 worth of value scratchcards and, if they got stolen, they're worth a lot of money, whereas, if they weren't activated, they're worthless.
 

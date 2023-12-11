@@ -197,6 +197,8 @@ Questioned by Mr Beer
 
 **Richard Roll**: Yeah, the -- they then needed someone again, through TAL to work.  There was a problem on the Glaxo recession development site and they weren't getting the equipment they needed and the software and hardware they needed to be able to process the data, get the drugs to market, basically.  They needed someone else there to help speed up the process.
 
+.. rst-class:: indented
+
 So I was asked to step in and help with purchasing, analysing what equipment they needed, what desktops, what processing power was best for their needs.  So then I would then source the -- source the equipment and get the purchasing done to get it onto the desks as quickly as possible.
 
 **Mr Beer**: Then after that, between January and December 1996 you worked in the same company again as a project manager; is that right?
@@ -228,6 +230,8 @@ So I was asked to step in and help with purchasing, analysing what equipment the
 .. rst-class:: indented
 
 **Richard Roll**: That was running a third, if you like, of the global sales database software.  I was responsible for managing the software in Egypt, Greece, Tunisia, the Middle Eastern areas, part of Africa, most of Europe, most of Eastern Europe.  That involved writing code -- I'm trying to remember exactly what the terms were. Basically, the sales reps would input the data in their various countries.  That would then be consolidated into a database in the UK.  That was an Oracle Database, I think.
+
+.. rst-class:: indented
 
 So I had to manage the Oracle Database, also write the scripts to interrogate the database, so that the sales reports were generated correctly.  There were often issues with data coming in from various countries that would be out of sync, so that all had to be sorted out, turn the database off, go in, sort the code out, sort the actual records out, put it all back together, and then resync it with the databases in Greece, Romania, wherever.
 
@@ -327,6 +331,8 @@ So I had to manage the Oracle Database, also write the scripts to interrogate th
 
 **Richard Roll**: I can't really remember.  There was something I saw or read and it just triggered some memories, and I just knew that we'd been busily trying to patch systems behind the scenes and it seemed wrong that -- well, it might have been wrong that postmasters may have been getting the blame for something that actually wasn't their fault.
 
+.. rst-class:: indented
+
 So I just contacted someone, I'm not sure who, and said, "I used to work on the systems", and if they wanted to talk to me, you know, I'd be willing to have a chat and explain what we did.
 
 **Mr Beer**: So what was it that triggered you coming forwards?  What did you see or read?  You mentioned there, I think, postmasters getting the blame.  In what way were they getting the blame?
@@ -418,6 +424,8 @@ Who is the "us" in that sentence?  Was that the SSC?
 .. rst-class:: indented
 
 **Richard Roll**: That's very difficult to explain without demonstrating it or without showing you what the code looked like.  If you're familiar with what HTML code looks like, with the angle brackets and the different tags, you can imagine that there are lines and lines of code with that sort of data in it.  You may only have had four lines -- sometimes you might only have one line that actually had any data that was relevant that you could actually read.
+
+.. rst-class:: indented
 
 So we would write a program that would -- it would pass the text, source text, line by line, and if it found any of the relevant code -- relevant tags that we didn't need, it would then strip those and it would then write the -- anything that was relevant into a text file.  And then that text file would then be a clean text file which we could actually read physically, much more readable, in a list.  We could do the reverse as well.  We could correct data and then, using a program, put all the tags back in to then put it back into a database.  Does that explain suitably what I'm talking about?
 
@@ -520,6 +528,8 @@ Where -- sorry, Mr Roll, do go on.
 .. rst-class:: indented
 
 **Richard Roll**: It's a long time ago and I can't remember the figures exactly.  My understanding was that if, for instance, a bank transfer didn't go through within three days, I think it was, then there would be a financial penalty of -- I can't remember, I think it was -- I don't know whether it was 10 pence or £10.  It was a smallish financial penalty.
+
+.. rst-class:: indented
 
 The issue arose when you've got 20,000 counters or 20,000 post offices, maybe 40,000 counters, whatever, sending the data through overnight for processing, so then that small financial penalty is multiplied thousands and thousands of times by the number of transactions that are being held up.  So then, the SLAs that we were trying to meet could have had a substantial effect, maybe tens or hundreds of thousands of pounds in fines that Fujitsu may have had to pay.
 
@@ -959,6 +969,8 @@ Could hardware issues affect the integrity of the data recorded or produced by H
 
 **Richard Roll**: If the database on one of the counters became corrupted then it could stop that counter communicating with the rest of the system, which would lead then to transactions being marooned on that counter.  Depending on what the problem on the counter was, it may have been a fairly quick fix, maybe we could just fix it on the counter itself, or it may have been that we had to get the counter back into Bracknell where one of the guys would hack into it and retrieve the data.
 
+.. rst-class:: indented
+
 Sometimes, if the counter was beyond recovery, then transactions could be lost, so bills that had been paid may not have gone through or whatever money that had been paid to the counters -- to the post office, might not have been recorded properly.
 
 **Mr Beer**: Thank you.  That can come down.  Can we look, please, at POL00042225.  This is your second witness statement. Can we go to page 2, please, and look at paragraph 5 under the heading "Hardware Failures".  You say, "Dr Wardon refers", and you remember what you were doing in this statement:
@@ -1351,7 +1363,11 @@ Can you tell what Anne Chambers has done, from these records, in order to reach 
 
 **Richard Roll**: I'm trying to remember.  The KEL would have information about what the symptoms of the problem were.  It gives you pointers as to what was causing the problem, so that then you could go into the system and look for those particular traits, if you like, to confirm that that was the problem, and it would then give you the details of the fix, which you could then apply to rectify the problem.
 
+.. rst-class:: indented
+
 So if they provided a KEL there but then, when you looked at it, all the audit log data or whatever, event logs, et cetera, didn't have the relevant information in or different information in them, then that KEL wouldn't apply.  So that would then not be the KEL that was relevant.  In that case, you're then sort of working blind and you've got to try to work out from what the postmaster is saying where there is a problem.
+
+.. rst-class:: indented
 
 So you'd be working on that, going through the systems, the accounts, et cetera, and trying to find out, if there was a problem with the counters or with the software, where it was.  Working blind, largely, and then -- that's all I can really say.  You'd have three days to find the fault and then you'd have to hand it back.
 
@@ -1487,11 +1503,19 @@ So you'd be working on that, going through the systems, the accounts, et cetera,
 
 **Richard Roll**: It would be applied to the estate so that could be to the servers, but this is -- I'm not 100 per cent certain about these, any of these, so this is what I seem to remember.  So from what I recall, this could be applied to the servers overnight, so if the servers fell over in the processing.
 
+.. rst-class:: indented
+
 The way, when I was there, this worked, was that at about 6.00 every evening, all the counters would start uploading their data to the main servers, wherever they were.  They would be given a few hours to transfer all the data and then it would all be batch processed.  So there were Unix programs and batches, batch files that were run so they would sort the data into, you know, American Express transactions and Barclays Bank transactions, and all this sort of thing.
+
+.. rst-class:: indented
 
 Then 20 minutes -- that would be given 20 minutes to run, then there would be maybe another half an hour or an hour, where it would add up all the figures for American Express, and it would do the same for Barclays, et cetera, and then another process would then run and it would farm or send all the data out to another database, but the next night -- because this would take a long time -- processes would run to further refine this data, before it was transmitted out actually to the banks and to the American Express systems, et cetera.
 
+.. rst-class:: indented
+
 So on the servers, if one of those processes fell over, if you could get in quickly enough and restart it then it would carry on running that night.  Otherwise, if you missed the window, you had to rerun it the next night, which would then cause a bit of a backlog.  But if you were able to do that, that would then be avoidance action because you'd got it started again and avoided any sort of action.
+
+.. rst-class:: indented
 
 If it was on the counter, it could be that there had been a database corruption and you had to go in, extract the data, fix the corruption, put the data back onto the platform so that then the system could carry on running correctly.  Again, that would be avoidance action.
 
@@ -1530,6 +1554,8 @@ If it was on the counter, it could be that there had been a database corruption 
 .. rst-class:: indented
 
 **Richard Roll**: Maybe it was a training issue or the postmaster was doing something in the wrong order so that the figures weren't adding up properly.  In the previous examples with that KEL, you mentioned that there was a stock code -- sometimes the postmaster was using the wrong drawer and that was causing issues.  So that would be the sort of advice that was given, you know, "Don't do this because it will cause a problem".
+
+.. rst-class:: indented
 
 Other things would be that, you know, "Don't turn the computer off before 6.00 because, if you do that, it may not transmit all the data", all that sort of thing.
 
@@ -1587,9 +1613,15 @@ Can I just check, Mr Roll, please, by that last sentence there, are you suggesti
 
 **Richard Roll**: The main one I remember is that, if the database had become corrupt, if one of the transactions hadn't been recorded correctly, then, although the postmaster would continue to work and everything on the post office side of things, on the counter would seem to be working correctly, in effect, the system would be writing data into the database but none of that data would then be copied across to other counters or up to the servers where it would be processed.
 
+.. rst-class:: indented
+
 So, from that side of things, there could be a discrepancy because the postmaster had been working on the counter and yet the systems further up the line wouldn't know he had done any work on it because the correction would have prevented that data from being read.  We could then go in, into the counter, and basically just correct it so that things would work properly and then the data then would be harvested.
 
+.. rst-class:: indented
+
 However, to do that, we had to take all the data off the counter from the point of the corruption, save it all, correct the line of code which had been corrupted and then put all of the data we'd taken off back in.
+
+.. rst-class:: indented
 
 If, during the correction of that line of code, we'd got something wrong, we could have potentially caused a problem, or, if, whilst we'd been removing the data and then putting it back in, the data that the postmaster had continued to enter, if we'd made a mistake with that or accidentally deleted a line or anything, then, again, there could have been a problem there.  So the other problem that could have happened is that, if the postmaster hadn't been aware that we were doing it and had continued to use the system or accidentally use the system, then we would have overwritten his data, which then would have caused problems with the cash balancing and whatever.  He may have had more money or less money in the till than the system was showing because we'd effectively deleted his transactions.
 
@@ -1725,6 +1757,8 @@ Just stopping there, what did you mean by "You had to hack the system to do it"?
 
 **Richard Roll**: There was another way of running Riposte from -- I can't remember whether it was our counters or from the server, where you could create a session in Riposte, I think it was.
 
+.. rst-class:: indented
+
 Then you could use Riposte to insert data, but then that restricted very much what you could do.  So what we were doing, going through the (a) and (b) I've just described, was effectively hacking the system.  What they're talking about here is using Riposte to do the stuff for you directly, actually opening up the Riposte session, as it were.  So it's like using Microsoft Word or a text editor, but you can either use Microsoft Word to edit a nice document or you could open it up in a text editor, if you knew what you were doing, and do it, you know, through the backdoor, as it were.  We were doing it through the backdoor.
 
 **Mr Beer**: Why --
@@ -1786,6 +1820,8 @@ Then you could use Riposte to insert data, but then that restricted very much wh
 .. rst-class:: indented
 
 **Richard Roll**: I don't know.  I know that, from things I've read, that there were problems later when the auditors came in and found out we were doing it.  So quite possibly.  I mean, to start with, I don't think anything was written down. It was all very much flying by the seat of your pants, as it were.
+
+.. rst-class:: indented
 
 Things got written down internally as we went along and then gradually the documentation built up from that. That was one of the problems with the system to start with: that there was no documentation.  It was all a scratch -- you know, it was all scratched together, sort of thing.  It was a mess.
 
@@ -1922,6 +1958,8 @@ That's where your answer ended.  Is what you are describing in that big answer o
 .. rst-class:: indented
 
 **Richard Roll**: We would -- sometimes it would be recorded.  I'm a bit rusty on this now, I'm afraid, but sometimes we told the postmaster we were going to do it.  While we were doing this, the postmaster couldn't use the counter.  It was very important that nobody used it.  At other times, especially if maybe the postmaster -- I'm just thinking. I'm just trying to remember something else.  I was going to say if the postmaster had gone to lunch, for instance, we could have gone in and done things without him knowing.  There may have been a way to put the data in at the counter while the postmaster was actually logged off.  There may have -- I can't remember exactly but there may have been a way to fool the counter into thinking that the postmaster that logged on to do it. I can't fully remember that.
+
+.. rst-class:: indented
 
 Certainly, we were on occasion asked -- I can't remember the details.  I know that since the court case, it may be during the court case, I saw documentation to the effect that we had at times gone into the counter without the postmaster or even :abbr:`POL (Post Office Limited)` knowing to make changes to the data and, in the way that I'm talking in item (c) here.  So the postmaster may have logged on and gone to lunch and left the computer logged on, so then we went in, made the changes we needed to fix the problem, and then logged out again, leaving the postmaster completely unaware that we'd done it.
 

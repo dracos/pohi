@@ -65,6 +65,8 @@ That runs as I say between pages 65 and 160.  Can you please confirm the followi
 
 **Charles Cipione**: Absolutely, absolutely.  So we'll take this section by section.  The first section 7.2 is the analytics work stream.  What I am describing here is the fact that we wanted to try to structure the information in the PEAKs and PinICLs in a way that we could then do further analysis on that.
 
+.. rst-class:: indented
+
 Effectively, what we did was we took a number of HTML and PDF files and converted them into a more digitised form so that we could do searching and whatnot, and then feed it into further processes.  So effectively that is what 7.2 is describing.
 
 **Mr Beer**: So it's the very first stage, getting the primary material into a more readable and searchable format?
@@ -91,6 +93,8 @@ Effectively, what we did was we took a number of HTML and PDF files and converte
 
 **Charles Cipione**: So Relativity is just a tool to help for the review process, as simple as that.  Brainspace is a tool to help organise the searching methodologies that we were using for some of the work that we were doing. Effectively it is a machine learning tool that allows us to group the information especially as it came from the analytics work section to help us narrow in and identify specific documents or groups of documents as needed throughout the review.  So effectively we loaded the information into there, into Relativity and into Brainspace, as part of the process.
 
+.. rst-class:: indented
+
 So we actually loaded in the HTML documents, but we associated them with the work that was performed in the analytics work stream.  So they were paired up.
 
 **Mr Beer**: Tied with each other?
@@ -98,6 +102,8 @@ So we actually loaded in the HTML documents, but we associated them with the wor
 .. rst-class:: indented
 
 **Charles Cipione**: Exactly.  Perhaps it might be interesting.  You know, some of the information that we were interested in seeing, especially in the PEAKs and the PinICLs, were bits of information out of the PEAKs and PinICLs referred to as response categories and defect causes. They were just a standard bit of information that were in the PEAKs and PinICLs.
+
+.. rst-class:: indented
 
 So we -- I do reference where we had our reference information from there and, if you look on figure 7.1, it shows how that would have been displayed in the Relativity system as the team was looking through their initial review to identify documents for me to review.
 
@@ -138,6 +144,8 @@ You explained overall on the last occasion that what you described as a brute-fo
 .. rst-class:: indented
 
 **Charles Cipione**: However, for the management reports I did review those. I reviewed all of those.  So the review process for the management reports was -- I read them.  I read all of them, sometimes several times.  For the PEAKs and the PinICLs it was more of the Relativity review process, and we can get into that a little bit more if you want as far as, you know, we would target particular words, we would have Brainspace help us identify themes that we were interested in looking in, and have Brainspace assist us in identifying the PEAKs or PinICLs that were relevant to the particular theme that we were investigating.
+
+.. rst-class:: indented
 
 So PEAKs and PinICLs, brute force, too many documents, not enough time, and we did not do that.  For the monthly reports and the KELs we did review all of those.
 
@@ -253,15 +261,27 @@ Secondly, in terms of the limitation of the time period of the exercise you were
 
 **Charles Cipione**: I'm going to go back to the concepts of: the results have to be complete and accurate, and that's kind of lifted from the accounting world, completeness and accuracy.  Accuracy you can think of as at the very atomic level of everything is correct, everything is correct.  Completeness means it's correct for everything.
 
+.. rst-class:: indented
+
 So you want to -- so, for instance, if you have a set of transactions and you are trying to display perhaps a sub-set of them and do a manipulation, do some sort of calculation and then summary information on that, what you want to be able to prove is, number 1, I've started with the complete set of data.  The way you do that is you show, perhaps not all of the data is used in the final analysis, but you show that there's basically a waterfall of: here's the data -- here's everything, here's this set of data that is being used in the analysis, and here's the set of data that is not being used in the analysis.
+
+.. rst-class:: indented
 
 A completeness check on that would be the set that's not used in the analysis adds up to £100, the set that is being used in the analysis is £110, and I can go back and confirm that, showing that the complete set is 110 pounds' worth of data.  That would be just a very simple view of completeness.
 
+.. rst-class:: indented
+
 Accuracy would be: perhaps I'm calculating an interest rate on some of the transactions and I want to show that, you know, there's basically there's a manipulation of that.  So perhaps I'm doing a time series, and over time interest accrues to a particular amount.  I want to be able to show that that calculation is accurate.  So I want to show that it's accurate at the detail level, and I want to show that it's complete at the very highest level, so that there's no doubt that the results of the reports that I'm doing are complete and accurate.
+
+.. rst-class:: indented
 
 I can say that they are complete and accurate, and you can either believe me or not believe me.  But, if I have a system or a process that is both transparent and auditable, it allows anyone that wants to look at it to confirm for themselves that, okay, I'm looking at the process that happened and, for purposes of transparency, that might be looking at the code that I used to do all the manipulations.
 
+.. rst-class:: indented
+
 Alternatively, if it's like a multi-step process and you want to see the waterfall going from step 1 to step 2 to step 3 and what the results are for the complete set of data, having all of that recorded from step 1 to step 2 to step 3 to step 4 and available for review, that would be an auditability check.
+
+.. rst-class:: indented
 
 So if I have one of them, it probably would provide comfort to everyone.  If I have both of them, it just increases the comfort, not only for them but for me because I want to be able to make sure, as I'm doing the process, that I'm doing it correctly.  I want to make sure that there is a great amount of integrity in the results that I produce, especially if it's in a commercial court or a business litigation court. I would expect that that level of custodianship is probably even more important in a criminal court.
 
@@ -285,6 +305,8 @@ In paragraph 8.1.1, you address the importance of training.  Can you help us at 
 
 **Charles Cipione**: Of course it's very important for the users of the system to know how to use the system.  The system is there for the users.  The system is there to support the business processes that have been part of the requirements process for building the system.
 
+.. rst-class:: indented
+
 The system could be great but, if the users don't know how to use it, it loses all its value.  So it's critically important that the users be very comfortable with operating the system.
 
 **Mr Beer**: In the case of the Horizon System, was there anything in particular that heightened the need for such training?
@@ -293,7 +315,11 @@ The system could be great but, if the users don't know how to use it, it loses a
 
 **Charles Cipione**: I would say generally my statement is a blanket statement.  People need to -- you know, users need to know how to use the system.  I believe that there might be certain circumstances in the user community for the Horizon System that probably heightened the attention that might need to be spent on making sure that this user community is attended to properly.
 
+.. rst-class:: indented
+
 The first one is my understanding is that, prior to the Horizon system, this was a manual process.  So not only are you doing a change of process, you are also introducing the concept of technology to assist in the process.  So any time you change that could be a challenge for some people.
+
+.. rst-class:: indented
 
 But going from a very paper-based process to a computer-based process just adds another dimension of unknown to the formula, and it must be accounted for.
 
@@ -340,6 +366,8 @@ Is it on that basis that you make the point that the group of people that were b
 .. rst-class:: indented
 
 **Charles Cipione**: That's a high rate, for sure.  I think it's a function of, like I said, not only are we changing the system from paper-based to computer, but we do have a wide spectrum of what I would expect to be some people are very computer savvy at that point, but there might be some people that have moderate abilities in computers, might be some people that don't have any ability to use computers, and there might be some people that are very resistant or just don't want to use computers.
+
+.. rst-class:: indented
 
 That's a wide range of users to try to accommodate, and I would expect that that probably was part of the calculus that went into those numbers.
 
@@ -513,11 +541,19 @@ Can you just explain what you mean by surveying the population for any final def
 
 **Charles Cipione**: Certainly.  So at the beginning of our conversation today, we talked about the analytics work stream and evaluating the PEAKs and PinICLs information, and a part of that analytics work stream was to help identify certain data elements that were contained within the PEAKs and the PinICLs.
 
+.. rst-class:: indented
+
 One of those data elements was a defect cause and a defect cause is essentially the -- as an error was raised and entered into the PEAK or PinICL system, it was evaluated, and part of that evaluation was ICL would make a determination on what the cause of the particular defect that raised that error was.
+
+.. rst-class:: indented
 
 This is a representation of that analysis.  So, looking through a population of PEAKs and PinICLs that we had in our possession, we looked for the final defect cause.  So perhaps it might be good for me to talk about that.
 
+.. rst-class:: indented
+
 So the defect cause has the opportunity to change values as the error is being investigated.  It might be thought that there might be a particular, an initial evaluation that a defect cause is one thing, but upon further investigation it has the opportunity to change.
+
+.. rst-class:: indented
 
 The analysis here is looking at what the final value of the defect cause was across the PEAK and PinICL population, and I identified two values that I thought were pertinent for this section.
 
@@ -542,6 +578,8 @@ What did you mean -- what sits behind those two sentences?
 .. rst-class:: indented
 
 **Charles Cipione**: So we'll talk about in greater detail, I'm sure, as the conversation continues.  But the SSC who is in charge of the PEAKs and PinICLs, that's more of a technical error evaluation and remediation system.  User questions should have been identified by the Helpdesk or by the SMC, which are the first and second levels of basically help to the users.  Only real technical errors are supposed to arrive for the SSC to evaluate but, if it does get to the SSC, they raise a PinICL and it starts to be documented.
+
+.. rst-class:: indented
 
 So what I'm trying to convey here is that this is what actually didn't get resolved at the first and second level.  This population could be much greater if we went and looked back at the actual Helpdesk tickets, because the Helpdesk is what precedes anything that might get into the PEAK or PinICL system.
 
@@ -691,6 +729,8 @@ Just explain again what you are doing there.
 
 **Charles Cipione**: Yes, and we need to remember the time range that we're talking about.  I would say, over the last 25 years, the reliability of hardware used in technical systems has improved drastically.  It wasn't as good.  It certainly wasn't -- the hardware wasn't as good in the late '90s as it is now, as far as reliability and durability is concerned.  So I am extremely aware of that.
 
+.. rst-class:: indented
+
 Notwithstanding that statement, that probably was little comfort to anyone that was experiencing the hardware issues during that time, and it definitely posed a problem for the national roll-out.
 
 **Mr Beer**: Could anything have been done to warn or inform end users, subpostmasters, of the issues that might be caused by hardware problems; so hardware-generated keystrokes, for example, or phantom transactions?
@@ -729,11 +769,19 @@ Can you tell us what polling means, please.
 
 **Charles Cipione**: Certainly.  So in this system the network was not constant -- always on.  It was not like systems are now when you're -- well, even when you're on your browser, you're not really actually always on necessarily.
 
+.. rst-class:: indented
+
 But effectively what they were -- the mechanism that they were using was they had a communications link, either through a satellite or through an ISDN line, that utilised BT or Energis' backbone or the other service providers, which allowed the movement of data between the counter information at the branch and the data servers at Bootle or Wigan.
+
+.. rst-class:: indented
 
 What would happen is every night the counters needed to basically communicate with the central branch to accumulate all the transactions that happened, right? So that would be the direction of: I've conducted my business.  Now I want to make sure that all of the records of those transactions are managed centrally at the data centres.
 
+.. rst-class:: indented
+
 In order to accomplish that, the data centre and the counter needs to communicate.  Since it's not a persistent connected communications link, what would happen is a polling would have to occur.  The central system would need to reach out to each one of the counters and say, "Number 1, are you even there and, if you are there, I need to grab some information from you. I need basically to collect all the transactions that you performed that day so that I can do the downstream processing of all that information."  So effectively that's what the polling information is.
+
+.. rst-class:: indented
 
 There are occasions also where the central system needs to push information down to the counters.  That might be: I'm updating reference data which is -- if you remember, it's part of the system that allows the system to work correctly and, in order to maintain synchronisation of how each system works, all of that information needs to be passed down to the counters, as well as just straight software updates, that would need to be passed down to the counters.
 
@@ -887,7 +935,11 @@ Can you explain, before we get into the detail of this, what your overall findin
 
 **Charles Cipione**: My overall finding was -- so just to remind everyone, the reference data is a component of the system that I referred to at my first hearing as data-driven logic. It could represent something as simple as just a price list, you know, a first-class stamp costs this much. That information was not hard coded into the Horizon System.  It was passed to the Horizon System via what I'm referring to as reference data.
 
+.. rst-class:: indented
+
 Now, my understanding is there are a lot more complicated partitions of the reference data that I won't go into now, but it was essential for the Horizon System to operate correctly for that to have integrity and to be consistently completely and accurately delivered to each one of the branches in order for the Horizon System to operate.
+
+.. rst-class:: indented
 
 What I'm saying here is there were a lot of issues that I read about that were referring to the integrity of the reference data as it pertained to the actual operation of the Horizon System.
 
@@ -916,6 +968,8 @@ What do you mean by that?
 .. rst-class:: indented
 
 **Charles Cipione**: So, if this is a vital component of your system, you have to make sure that it's right.  What I've read in the materials that were provided to me was that this was a split responsibility between ICL Pathway and the Post Office Counters Limited.
+
+.. rst-class:: indented
 
 Ultimately, a lot of the information needed to be sourced from POCL.  I don't think all of it, but a lot of it was sourced from POCL.  What I'm trying to say here is that I don't know that the communication of requirements or the -- I believe that what ICL Pathway is saying here is they don't think that the Post Office is understanding the importance of this issue as ICL Pathway is trying to develop and deliver a system.
 
@@ -1029,6 +1083,8 @@ I think you are saying that as a positive thing there.
 
 **Charles Cipione**: If the integrity of the reference data or the mechanism for distributing the reference data wasn't good, it could absolutely create a situation where there are a lot of errors in the system, and it might not be readily apparent where those errors are arising from. So that, in effect, could cause more testing, more cycling, more uncertainty around the causes and remediation efforts required to make the system work properly.
 
+.. rst-class:: indented
+
 Does that answer your question?
 
 **Mr Beer**: Yes, I think it does.
@@ -1115,11 +1171,19 @@ What's the importance of a tiered escalation process such as this?
 
 **Charles Cipione**: It would create a very efficient process to handle any issue that was raised by anyone using the Horizon System.  The efficiency I'm referring to here relates to: a user is having a problem.  That problem could be that the user doesn't know how to use the system or something very simple, in which case it would be good to have at the first period of triage someone there that could help with very simple answers to the user community.  That would have been the HSH, which was the first line.
 
+.. rst-class:: indented
+
 But it's not efficient as far as the Helpdesk management process, or the HSH, to have a global understanding of every issue that might or might not come up.  So they need to have someone to refer to if their -- because usually the first line of Helpdesk is usually provided with a number of scripts that allow them to diagnose information that was received by the callers, and either help the caller immediately, or at some point that end of the script it's, "Okay, I don't know enough about the system right now.  I need to pass you on to the next level."
+
+.. rst-class:: indented
 
 The SMC is the next level who, theoretically, are a little bit more knowledgeable about the technical issues of the system, as well as the just general usability of the system.  It's their responsibility to make sure that calls that get beyond the initial Helpdesk are created or routed correctly.
 
+.. rst-class:: indented
+
 So, if you recall, in my first testimony, the SSC is not really in charge of any hardware issues.  So, if a call gets to the SMC, and it's clear to the SMC that this is hardware issue, I believe that there was a different group that helped the hardware issue.  So perhaps the front line would not know exactly where to send that, but the SMC would.
+
+.. rst-class:: indented
 
 The SMC was supposed to only send calls on to the SSC, if they were a technical -- a non-hardware issue technically related to the Horizon System.  So that was their purpose and that is generally a good construction of a helpdesk process.
 
@@ -1134,6 +1198,8 @@ The SMC was supposed to only send calls on to the SSC, if they were a technical 
 .. rst-class:: indented
 
 **Charles Cipione**: The consequences of that are: now you have a group of people at the SSC -- that's the third line -- who are responsible for resolving actual technical issues of the Horizon System.  That's a difficult job for multiple reasons.
+
+.. rst-class:: indented
 
 The situation that is created when the SMC is not filtering calls correctly is now they are having to deal with not only technical issue calls but non-technical issue calls, but they don't know that necessarily when they're getting it.  If the SMC promotes an issue to the SSC, they think it's a technical issue.  So they start investigating it and probably spend a good amount of time on it.  If they find out that this was something that should have been handled by the first or second line of support, their attention has been diverted from actual technical issues to non-technical issues that should have been resolved prior to it getting to the SSC.
 
@@ -1199,6 +1265,8 @@ You reviewed the PinICLs and PEAKs and recognised the complexity of some of the 
 
 **Charles Cipione**: So just -- you know, in the course of doing my review, of course I looked at quite a few of the PinICLs and PEAKs, and I needed to gain an understanding, as best I could, of the issues that were being raised, meaning that there was a PinICL or PEAK created, and the remediation process that was performed to attempt to remediate these errors as they arose.
 
+.. rst-class:: indented
+
 In the course of that review, I had to basically dive as deeply as I could into understanding many of these PEAKs or PinICLs.  Through the course of that reading, it became clear to me that some of these issues were difficult to identify what the cause was and, therefore, reading the narratives, I just wanted to comment that it was -- it was a good effort on the people -- on the PinICLs and PEAKs that I read, for the people that for the most part -- now this is not a blanket statement, but this is a statement for the ones that I reviewed -- for the most part of the review process that I observed through reading the narratives of the PinICLs and PEAKs, there appeared to be a very earnest effort to try to resolve the issues.
 
 **Mr Beer**: What are the parameters of that view in terms of when or for what period?
@@ -1255,6 +1323,8 @@ In the course of that review, I had to basically dive as deeply as I could into 
 
 **Charles Cipione**: It's a bit darker.  So for up to the end of 2000 there's the possibility of a new entry into the open balance. By the time we get to the beginning of 2001, I've run out of my source material.  But what I wanted to show on this chart was that there were still open PEAKs or PinICLs that were sourced from 1996 to 2000 that still hadn't been resolved.
 
+.. rst-class:: indented
+
 So I'm running the chart out until when all of these PEAKS and PinICLs are resolved.  But the open balance is probably, or is absolutely most pertinent from the end of '96 through the end of 2000 on this chart, where it's just the run-out after 2001 begins.
 
 **Mr Beer**: The graph shows a downward trend leading to a minimum number at that time in July '99 and then a very rapid rise; is that right?
@@ -1275,7 +1345,11 @@ So I'm running the chart out until when all of these PEAKS and PinICLs are resol
 
 **Charles Cipione**: Well, the first thing is there seems to be a lot of them.  You know, everything's relative on different systems, you know, what allows a PinICL or PEAK to be created, at what level of granularity is it.  But having read it, there seems to be a lot of errors being raised regarding the Horizon System.  So that's just an overall comment about the chart.
 
+.. rst-class:: indented
+
 You will notice that it looks as though, you know, in the middle of August of '99 the balance seems to be dropping.  But as we're approaching or as we're getting to the end of August, all the way, you know, through looks like, well into the next year, there is a significant increase in the population of open errors in the system that need to be resolved.
+
+.. rst-class:: indented
 
 Now that could be because that happens to concur with the national roll-out period, so just the volume of counters that exist, absolutely will have an input to this.  But it also indicates to me that there are still significant issues being raised about the efficacy of the Horizon System.
 
@@ -1285,7 +1359,11 @@ Now that could be because that happens to concur with the national roll-out peri
 
 **Charles Cipione**: So this is trying to represent how long from the inception of a PinICL or PEAK to its resolution.  It's basically showing its age.  You know, what are the age categories of the PinICLs and PEAKs that were available for me to review?
 
+.. rst-class:: indented
+
 The first bar chart indicates that, you know, more than 30,000 of them took from zero to 20 days to resolve, from opening to closing.
+
+.. rst-class:: indented
 
 The next bar is 20 to 40, and it goes on, you know, from there.  But there is -- you know, at the end of the chart there is a box that represents everything that took more than 180 days to resolve.  So this is just showing a distribution on how long it to look to resolve a particular PinICL or PEAK.
 
@@ -1351,6 +1429,8 @@ The "it" there, are you referring to acceptance or the financial significance at
 
 **Charles Cipione**: The Horizon System, while it is not the actual official financial accounting system for the Post Office, it is the source of all information for the financial -- for the accounting for the Post Office.  If there are any issues with accounting integrity that are sourcing from the Horizon System, that seems like -- I mean, that's the purpose -- you know, that's one of the main purposes of the Horizon System, to make sure that it is providing accounting data with integrity to the Post Office.
 
+.. rst-class:: indented
+
 So when I saw that, that caught my attention, that that was a term associated with AI376.
 
 **Mr Beer**: You point out that 376 was one of the final AIs to be closed.
@@ -1372,6 +1452,8 @@ Why did that catch your attention?
 .. rst-class:: indented
 
 **Charles Cipione**: I keep going back to, you know, the integrity of the accounting data that is being sourced from the Horizon System.  That's an extremely fundamental concept, and that is probably the most important item that -- most important feature that the Horizon System should deliver.
+
+.. rst-class:: indented
 
 The fact that this is still an issue troubles me when I read about it.
 
@@ -1402,6 +1484,8 @@ What did you mean by that, please?
 .. rst-class:: indented
 
 **Charles Cipione**: I certainly would have required that I thought it was perfect.  I mean, there's no perfect system.  There's always the opportunity to introduce errors in any computer system.  So perfect is not an achievable goal for any system.
+
+.. rst-class:: indented
 
 However, you should think that it's pretty perfect.  You should think that there's no reason that is out there that you will be introducing errors into your financial system, based off of how the technology is working.
 
@@ -1439,7 +1523,11 @@ That might be stating the obvious.  It's plainly not a goal.
 
 **Charles Cipione**: My understanding of what was done was that the benchmark for closing it continued to change throughout this period.  There were a lot of tools and techniques and mechanisms that were required to be wrapped around the Horizon System to check for errors that the Horizon System might have been passing along through its processing.  So I guess, when I read about that -- so let me explain.
 
+.. rst-class:: indented
+
 You have the source of information which is Horizon, which is supposed to be creating the accounting information that's fed into the financial systems.  We know through the PinICLs and through this AI376 that that was not operating correctly, at least during this period.  So one option, which I think would have been the best option, was to go and make sure that the actual Horizon System was transacting correctly, was processing the data correctly, so that it had high integrity.
+
+.. rst-class:: indented
 
 What I understand, from reading from the materials that I have been provided with subsequent to writing my report, is that there was a lot of difficulty in figuring out exactly what was introducing these errors in the Horizon system.  So as a plan B, there were a lot of processes and procedures and tools that were trying to ring-fence the Horizon systems, which was known to be generating information that did not have the highest level of integrity, to try to catch those errors before it hit the Post Office's financial systems.
 
@@ -1449,7 +1537,11 @@ What I understand, from reading from the materials that I have been provided wit
 
 **Charles Cipione**: Having a safety net around any financial system is fine. It's always a good practice.
 
+.. rst-class:: indented
+
 However, if you know that the source of information that's creating the errors is your own system, that being ICL, I think that's where the effort -- there should have been a lot of effort in making sure that that was rock solid, that everything was being done to make sure that that system functioned exactly the way it needed to function, because that's one of the basic features of this system.  It's a very important feature for any financial system.
+
+.. rst-class:: indented
 
 You have to have integrity with the data, and I think, from the materials that I've read, it sounds like they were going away -- at least during this period -- going away from that particular effort to trying to just make sure that they knew errors were being generated, let's have a plan B, a plan C, a plan D, to try to make sure that, if an error existed, it was caught before it actually got into the Post Office's financial records.
 
@@ -1464,6 +1556,8 @@ You have to have integrity with the data, and I think, from the materials that I
 .. rst-class:: indented
 
 **Charles Cipione**: I think that having those type of controls is always a good practice, provided that you're really trying to make sure that the genesis of the information is correct, has efficacy to it.  If you're relying on your safety nets to protect you, I would suggest that that's poor practice.  You need to be -- sorry, if that's one of your main reliances, that's poor practice.  You should always rely on your safety net.  Safety nets are there for a reason.  It's always a good thing to have a safety net, or guard rails, or even a couple of layers of safety nets or guard rails.  But if you are -- from the materials I've read, it sounds like this was still an issue.  This was an issue with the Horizon System.
+
+.. rst-class:: indented
 
 If you continue to allow those safety nets to cover functionality that should be present in the core system, I think that's a terrible practice, rather than correcting the core system in a way that you know will persist.
 
@@ -1513,6 +1607,8 @@ You say that what you previously discussed directed you to identify examples of 
 
 **Charles Cipione**: I thought it was important to try to, number 1, support the last, you know, the prior theme that we just discussed.  But I also thought it was important to illustrate how these issues were manifesting themselves. I think as we get to talk through the examples that I've put in it's going to show that it wasn't as there was a particular section of the Horizon System that was causing integrity issues as far as, like, the development code was concerned.
 
+.. rst-class:: indented
+
 The causes were all over the place, in my opinion, as to what created these payment and receipt imbalances, and I thought it was important to just show that there were a variety of reasons that would illustrate how things could be out of balance.
 
 **Mr Beer**: You remind us in 18.1.2 of the Cash Accounting Period 14 to 15 and then into 16, example that you gave earlier in your report which was, I think, an example showing how it should work.
@@ -1526,6 +1622,8 @@ The causes were all over the place, in my opinion, as to what created these paym
 .. rst-class:: indented
 
 **Charles Cipione**: Certainly.  So what I'm showing here is that, if the Horizon System was to inaccurately calculate the opening balance for cash and stock, in this example, just multiplying those values by three, as this particular receipts and payments account was reported out, it would show an imbalance between the receipts and the payments. So in this instance there's, you know, approximately £11,000 difference or discrepancy on this particular report.
+
+.. rst-class:: indented
 
 So this is just an illustration.  This is something that I thought would be helpful for the chair just as an example.
 
@@ -1607,7 +1705,11 @@ So did you use that concept for a new search?
 
 **Charles Cipione**: Okay.  So this was just another phrase, and it looks to be a technical term that was also associated here within the search that happened -- it's basically -- it's something that came up to be considered, to be looked at, and it looks as though it was -- so it says:
 
+.. rst-class:: indented
+
 "It's worth noting that 'EnteredBBF' is commonly found in PPs when pasting in error messages from a manual migration message store."
+
+.. rst-class:: indented
 
 So from my understanding of the readings of the PEAKs and PinICLs, oftentimes the SSC will try to pull in information from the message stores, and they're also entering -- they're trying to document the process that they're using to fix it.  When they happen to paste in information from the message store, this particular phrase happened to have been included in that information.  So it shows up a lot.  That's all we're saying.
 
@@ -1623,9 +1725,15 @@ So from my understanding of the readings of the PEAKs and PinICLs, oftentimes th
 
 **Charles Cipione**: I'm going to have to refer back to even refresh my memory of what the actual words are.  But essentially what that means is we're going through an iterative process because this is a machine-learning mechanism. The first step that we talked about was an unsupervised machine-learning process, but every step beyond that is what I'm going to be describing as a supervised machine-learning process.
 
+.. rst-class:: indented
+
 What does that mean?  That means that we are giving a particular problem to Brainspace to solve.  We are allowing Brainspace to provide what it thinks the best answer is, and then we're grading that answer and feeding the results back.  So when I say grading that answer, so, for instance, I might say I want to look for a particular concept like error -- you know, that was that beginning of this process -- and let's pretend that there was a document population of 100, and Brainspace came back and said, "I think 15 of these documents are related to the concept of error".  It's now incumbent upon me as a reviewer to grade Brainspace.
 
+.. rst-class:: indented
+
 So I might say, of those -- what did I say, 11/15 -- of the 15 that Brainspace thought was an error concept, I will say, "I agree with you on 11 of them and I disagree with you on 4 of them", and feed that back into Brainspace and let it do the process again.
+
+.. rst-class:: indented
 
 So now it not only has an idea of what I think is an error, it also has an idea of what I think is not an error, and it can then basically incrementally improve its search to align with what I think the concept of an error is, as opposed to what it thinks the concept of error is.
 
@@ -1659,6 +1767,8 @@ So now it not only has an idea of what I think is an error, it also has an idea 
 
 **Charles Cipione**: So as a PinICL or PEAK is processed, they start tracking what's happening with this.  We're going to identify -- you know, we're going to put different values in what's called the response category, which is basically how each individual that's reviewing the PEAK or PinICL is describing it.  This is the category -- this is me as a review, this is my response to the categorisation of what I think this particular -- the stage of this particular PEAK or PinICL is.  So that's one dimension.
 
+.. rst-class:: indented
+
 The defect cause, that's a little bit more straightforward.  As I said before, that can change throughout the process, but ultimately there is a final value associated with the defect cause which is supposed to represent what the SSC thought the actual defect was for this particular PEAK or PinICL.
 
 **Mr Beer**: In terms of the response category, I think you concluded that 19 per cent of the closure reasons, those which are described as "Other" in figure 18.3 and "Administrative Response" in 18.3, didn't provide much or any insight into the investigation process; is that right?
@@ -1672,6 +1782,8 @@ The defect cause, that's a little bit more straightforward.  As I said before, t
 .. rst-class:: indented
 
 **Charles Cipione**: So, you know, these data elements should provide a little bit of information about exactly how these PEAKs and PinICLs were resolved, you know, what the response was.  When I see something like "Administrative", it almost sounds like an "other" or catch-all.  It's just not very in informative to me as to what the issue is.
+
+.. rst-class:: indented
 
 So, you know, for instance, in the chart in figure 18.3, one of them is "no fault in product".  That tells me a lot more than "administrative" response.  At least I understand what the point of view was from the SSC on that particular PEAK or PinICL.
 
@@ -1787,7 +1899,11 @@ So that was the way that you were structuring your examination of the seven exam
 
 **Charles Cipione**: Each one of the PEAKs and PinICLs had a lot of different teams that were involved.  So oftentimes there would be -- so there's different development teams that are being -- so there's the SSC, and then there's, you know, different development teams within the Horizon group that are working together to try to solve it.
 
+.. rst-class:: indented
+
 So the SSC could try to solve something by themselves, but they might need to reach out to someone on the EPOSS development team or on the APS development team or on the LFS development team, depending on, you know, what time period you were in.
+
+.. rst-class:: indented
 
 So this is just describing that there is a lot of conversation back and forth between people in the various groups.
 
@@ -1797,15 +1913,27 @@ So this is just describing that there is a lot of conversation back and forth be
 
 **Charles Cipione**: I think that the effort, the earnest effort that I was talking about, fixed something.  It fixed something. But there's -- perhaps we can kind of step away from this particular example but just talk about what causes errors and at what level do you remediate errors.
 
+.. rst-class:: indented
+
 There are symptoms, and there are probably lots of different levels of causes of those symptoms.  The further up the food chain you can get to the cause, the more likely it is you are going to eliminate future occurrences of those particular symptoms.
+
+.. rst-class:: indented
 
 What I'm describing here is: I know that something was fixed, for sure.  I know that perhaps there was a correction entered into the system.  So, for instance, there was a receipt and payment imbalance.  Someone understands what that is and understands that at the Post Office that needs to be corrected.  So perhaps one fix would be: I'm going to correct this particular instance of this symptom.  That would probably be really just attacking the symptom.
 
+.. rst-class:: indented
+
 Sometimes it might be: well, I know that there was a reference-data issue related to this, and I know that there was one specific part of the reference data issue reference-data system that was at fault here.  So I'm going to go correct that, and also provide a correcting accounting entry to the Post Office.
+
+.. rst-class:: indented
 
 But what if I know that the management of that reference data is really the root cause of that reference-data issue existing to begin with?  There might be another level that we need to go to fix that and there might be another level about that.
 
+.. rst-class:: indented
+
 So what I'm trying to describe here is: these were all addressed in an earnest way to actually resolve these particular PEAKs and PinICLs.  I'm not clear on whether the appropriate activity to get at the ultimate genesis of all these problems was really ever addressed across the spectrum of all these, because the SSC has got a lot of work to do.  We discussed that already in one of my themes.  Their job is to fix this issue, and they did a good job on that.
+
+.. rst-class:: indented
 
 What I'm not clear on is whether the true cause that's creating all of these error instances is being addressed or not, and it's just not apparent to me in each one of these very specific errors that are being addressed.
 
@@ -1867,9 +1995,15 @@ Can you talk us through this first example, please, concerning ECCO migration.
 
 **Charles Cipione**: Yes.  All right.  So the first line is:
 
+.. rst-class:: indented
+
 "[The] system call related to TIP 1052.  Please route this call to John Moran in EDSC."
 
+.. rst-class:: indented
+
 I believe EDSC is another term for the SSC. I think that's correct; I'm not positive that's correct. But what this is indicating to me is, related to TIP 1052.  So I know that TIP is the Post Office's accumulator of all the transactions for its accounting. That's where Horizon is delivering its transactions to, at the Post Office.
+
+.. rst-class:: indented
 
 So this would be an example of: since it's coming from TIP this indicates to me that this is not coming from postmaster.  This is coming from somewhere down dream saying that there's a problem, okay.
 
@@ -1879,7 +2013,11 @@ So this would be an example of: since it's coming from TIP this indicates to me 
 
 **Charles Cipione**: All right.  So, MSU, John Moran:
 
+.. rst-class:: indented
+
 "The following has been copied from Business Call [I'll skip that incident].  Discrepancy in Cash Account for week 46.  A comparison between values received within the cash account files and those derived from the transaction stream ... identified the following differences."
+
+.. rst-class:: indented
 
 So it's showing differences.  So what this is saying is: it looks like the cash account is showing different numbers than what the transactions that have already arrived in TIP are.  So I'm imagining that there is a balancing that's being done at the branch.  It's being sent up to the Post Office.  The Post Office already has, in theory, all the transactions, and they are comparing what they think that should look like to what the branch is sending it, and there's a discrepancy.
 
@@ -1889,23 +2027,43 @@ So it's showing differences.  So what this is saying is: it looks like the cash 
 
 **Charles Cipione**: Yes.  So now we're asking the SSC to investigate.  So that gets us to the next line.
 
+.. rst-class:: indented
+
 All right, so we see some colour commentary here:
+
+.. rst-class:: indented
 
 "This is an illustration of the stupidities that ECCO software allows."
 
+.. rst-class:: indented
+
 So just to refresh everyone's memory, ECCO was a point-of-sales system that I believe existed in some branches prior to the Horizon system.  So that's why this is an example of an issue that is not really a Horizon issue, okay?
+
+.. rst-class:: indented
 
 "A clerk can transfer cash and cheques between stock units without bothering to make sure that they match up.  The result shows up when the transaction data is migrated to Horizon, which insists on clear demarcation between cash and cheques.  In this case the critical transactions are Transfers In of two cheques whose total amount exactly equals the discrepancy noted."
 
+.. rst-class:: indented
+
 So what this is indicating to me is that ECCO allowed someone to call -- let's see -- ECCO is allowing cash to be called a cheque.  So that's where they're out of balance.  The Post Office is thinking: I should have some cash and cheques, and Horizon is getting -- this is probably an initial load of data into -- this is probably an initial month in, at this particular branch, and when they migrated the data from ECCO to Horizon, ECCO incorrectly put everything into cheques instead of dividing it between cash and cheques.  So that's what the issue -- that's the source of this particular issue.
+
+.. rst-class:: indented
 
 Then it goes on to say:
 
+.. rst-class:: indented
+
 "I think Steve Warwick is aware of the ECCO problem here but as a matter of course I will route the call to him to allow him to comment."
+
+.. rst-class:: indented
 
 Steve Warwick says:
 
+.. rst-class:: indented
+
 "This issue is well documented in previous incidents with TIP.  The effect is that Pathway system reports the values of the affected products incorrectly on the Cash Account for the migration CAP although the cash account still balances.  TIP then uses the Cash Account figures from the migration CAP as the start point for validating the next Cash Account received from the outlet and report a discrepancy between the transactions received in week 2 and Cash Account for week 2.  This is a user error pre-migration of ECCO+ Office."
+
+.. rst-class:: indented
 
 This is not a Horizon issue.  This is not a Horizon-generated issue.  This is an issue that they've seen before when they are migrating from the ECCO system to the Horizon System.  So then they do their passing back to MSU for issue of RED.  I think that's a reconciliation database.  I can't recall exactly what "RED" stands for but my understanding is that's kind of a documentation method that the SSC uses to or Horizon ICL Pathway uses to show the Post Office that everything's all right, and they issued it to the customer, no data error, close the call, and then they closed the call.
 
@@ -2003,13 +2161,23 @@ Mr Cipione, can we look please at page 140 of your report, `EXPG0000001 <https:/
 
 **Charles Cipione**: The first line:
 
+.. rst-class:: indented
+
 "Incorrect CA value.  Live trial the CA sub file for org units 12609 ..."
+
+.. rst-class:: indented
 
 Which is a particular "FAD", which I understand to mean is a branch number identifier.
 
+.. rst-class:: indented
+
 "... CA week 21 contains an entry for line 2050 with a value of £17,181.05.  However, TIP has calculated from the transactions it has received that the value of the line should be £17,642.31.  There is leaves a difference of £461.26."
 
+.. rst-class:: indented
+
 So there's a problem.  All right, so it moved on:
+
+.. rst-class:: indented
 
 "Barbara, I have just spoken to John Pope (Requirements).  This is classified under Acceptance Incident 376.  Would you please raise the level of AI incident.  Would John Simpkins please take a look, then send to EPOSS."
 
@@ -2031,11 +2199,19 @@ So there's a problem.  All right, so it moved on:
 
 **Charles Cipione**: Right so John Simpkins responds:
 
+.. rst-class:: indented
+
 "I have checked the agent boxes at Wigan for any T\_HV\_ALL event for this office between 12 August and 18 August and did not find any."
+
+.. rst-class:: indented
 
 Then Jim Anscomb says:
 
+.. rst-class:: indented
+
 "There is a null value transaction Mode on [a particular number] for a cash credit of £143.22 though this is now not a problem for the harvester.  No delays shown in the APR db."
+
+.. rst-class:: indented
 
 I don't understand everything that's in there except for what I've honed in on, this null transaction mode, which sounds to me as though there is a problem in the reference data for this transaction.
 
@@ -2045,13 +2221,23 @@ I don't understand everything that's in there except for what I've honed in on, 
 
 **Charles Cipione**: All right.  So the next line:
 
+.. rst-class:: indented
+
 "The erroneous message was [a particular number] not [the number that the person before was referencing] -- in case anyone else is relying on this [information].  We released a fix for this on 20 August into WP5406 [which I assume means work package, which is like a quick software release] which went to OTT and is due to be released in Tivoli package EPOSS\_COUNTER\_CORE~..."
+
+.. rst-class:: indented
 
 This is very technical and I can't explain everything, but it sounds like they are trying to release a software fix, or they are releasing a software fix, but it indicates it hasn't made it to live, yet which means I don't think it's in production, meaning it's not actually being used right now.
 
+.. rst-class:: indented
+
 "The problem message is unfortunately an Existing Reversal message.  So the harvester's automatic assignment to Serve Customer is likely to provide problems, someone will need to amend this.  Routing to EDSC for them to solve the procedural problems and check when the Tivoli package is due for release."
 
+.. rst-class:: indented
+
 So okay, the problem message is an existing reversal message.  So it sounds like the regular process at the harvester would just be a step along the way of getting the information from the counter, all the way up through the data centres, then eventually on to Post Office.  It sounds like the existing path -- it sounds like they think it's going to be a problem; you are not going to be able to do the regular thing.
+
+.. rst-class:: indented
 
 Then we have Jim Anscomb saying the total discrepancy is 461.22 --
 
@@ -2061,9 +2247,15 @@ Then we have Jim Anscomb saying the total discrepancy is 461.22 --
 
 **Charles Cipione**: 26, thank you.  Indicates 143.22 has been accounted for above.  Then it looks as though this next line is indicating that it's a high priority call.  It's just indicating that, and with an encouragement to progress on this rapidly.
 
+.. rst-class:: indented
+
 Then John Pope says:
 
+.. rst-class:: indented
+
 "Just a thought, but the sign reversal mentioned above (serve customer sent to TIP instead of Existing Reversal) may explain 2 x 143.22 [because that's] 286.44.  Can anybody help with 174.82?"
+
+.. rst-class:: indented
 
 So up to this point I think they've got some ideas.  They're trying to figure out what the problem is.  I don't think we've identified exactly what problem is as of yet, just in case anyone thinks that they have.
 
@@ -2073,47 +2265,91 @@ So up to this point I think they've got some ideas.  They're trying to figure ou
 
 **Charles Cipione**: All right.  So the next line Steve Warwick:
 
+.. rst-class:: indented
+
 "It may be of interest that the value of the discrepancy between the TIP and Pathway figures appears to correspond to 2 x £230.63.  During the balancing of stock unit AA on [18 August] a stock adjustment was made to reduce the value of Cheques by this amount, with a corresponding increase in Cash.  These two stock adjustment records were later individually reversed, generating a further four transactions for £230.63, three against cash and one against cheques.  Therefore, in total four cash transactions (two positive, two negative) and two cheque transactions (one positive and one negative) were written.
+
+.. rst-class:: indented
 
 "Given that there have previously been issues with TIP's rejection of 'Existing Reversal' transactions where the reversal settlement contained no cross-reference details, is it possible that this has caused the reconciliation failure?  According to the message store data, the Cash Account for CAP 21 reported total receipts equal total payments, indicating that the message store data is complete and accurate."
 
+.. rst-class:: indented
+
 Okay, so here there's some more speculation going on as well as an indication that in CAP 21 everything appears to be fine or, sorry, in CAP 21 the total receipts and total payments are equal.  So Steve Warwick comes back again the next day:
+
+.. rst-class:: indented
 
 "From further information received from TIP, the sequence of events seems to have been as follows ..."
 
+.. rst-class:: indented
+
 And I'm not going to read that time and date:
+
+.. rst-class:: indented
 
 "A stock adjustments was carried out to reduce value of cheques by £230.63.  This wrote two transactions -- one to reduce the value of cheques, one to increase the value of cash by the same amount, both transactions carried mode 'SAN'."
 
+.. rst-class:: indented
+
 Then:
+
+.. rst-class:: indented
 
 "... a reversal of the cash settlement transaction to the cheque adjustment took place resulting in two transactions being written against cash, one to reduce the value of cash, one to increase the value of cash to settle the reversal.  Both transactions carried the mode 'ER'."
 
+.. rst-class:: indented
+
 And then:
+
+.. rst-class:: indented
 
 "... a reversal of the cheque adjustment transaction was carried out, generating two transactions -- one to increase the value of cheques and one to reduce the value of cash by the same amount."
 
+.. rst-class:: indented
+
 So he's telling us what happened from his investigation:
+
+.. rst-class:: indented
 
 "These transactions are recorded in the message store with the correct signs ..."
 
+.. rst-class:: indented
+
 Because that's probably where he's getting this information."
+
+.. rst-class:: indented
 
 "From the information supplied by TIP, it seems as though they have received/treated the transactions ... (a reversal of a previous reduction in the value of cheques) as though it was a reduction in value rather than an increase in value, thereby calculating a discrepancy of twice that amount."
 
+.. rst-class:: indented
+
 So he's still speculating on this last sentence:
+
+.. rst-class:: indented
 
 "Either the sign on the transaction value sent to TIP was incorrect, or TIP have misinterpreted the data sent."
 
+.. rst-class:: indented
+
 So what this is telling me is they've identified where the difference is now.  So that's good.  So they found at least what the symptom is, and now they are speculating on what happened in between to make those differences.
+
+.. rst-class:: indented
 
 The next line:
 
+.. rst-class:: indented
+
 "Looking at the TIP file there were two reversals for £230.63 in quick succession.  The first is translated for TIP as balancing plus and minus entries. The second, however, is translated into two positive entries, which would account for the error.  See extract of TIP file and message store attached."
+
+.. rst-class:: indented
 
 So what TIP received is not what TIP was intending to receive.  So the next line:
 
+.. rst-class:: indented
+
 "Changes to be made to clsEPOSS and clsTransaction in the EPOSSCore.  Fix applied ..."
+
+.. rst-class:: indented
 
 So what they are saying here is they are changing code.  To me this sounds like they are changing code modules.
 
@@ -2123,11 +2359,19 @@ So what they are saying here is they are changing code.  To me this sounds like 
 
 **Charles Cipione**: They are changing code, in particular, in the modules. I think that those are module names or the class names. I don't know what the code looks like, so I'm speculating.
 
+.. rst-class:: indented
+
 "You should get in the attribute grammar for a cash settlement for an ER transaction the additional data of ..."
+
+.. rst-class:: indented
 
 And it's talking about the cross-reference mode.
 
+.. rst-class:: indented
+
 "The harvesters need this."
+
+.. rst-class:: indented
 
 So this indicates to me that there was probably something wrong in the attribute grammar and, if you recall from our first session, that's the format that the reference data --
 
@@ -2137,15 +2381,27 @@ So this indicates to me that there was probably something wrong in the attribute
 
 **Charles Cipione**: Yes.  Okay, so the next line:
 
+.. rst-class:: indented
+
 "Testing of this should include transacting in each mode."
+
+.. rst-class:: indented
 
 So, if you recall, they will have been talking about two modes.  One is ER mode and one is SAN mode. So that's really more for them, just on the technical level, but those are the two modes that they are talking about.
 
+.. rst-class:: indented
+
 "Testing should include transacting in each mode and the message should be as they were.  Then performing a reversal of each mode an checking that the new attribute grammar exists in the cash settlements of the reversals."
+
+.. rst-class:: indented
 
 So they are just saying, when you test this, make sure you are using both modes and make sure you are doing a reversal, which is trying to recreate the set of circumstances that are associated with this error.
 
+.. rst-class:: indented
+
 The next line:
+
+.. rst-class:: indented
 
 "Link tested okay on CSR dev counter. Performed" --
 
@@ -2161,21 +2417,39 @@ The next line:
 
 **Charles Cipione**: Okay.
 
+.. rst-class:: indented
+
 "Link test OK on CSR dev counter.  Performed a transaction followed by existing reversal for each of the following modes:
+
+.. rst-class:: indented
 
 "Serve customer, Rems (all modes) [They list out the modes].
 
+.. rst-class:: indented
+
 "On each existing reversal the message store was checked for the new attribute grammar.
+
+.. rst-class:: indented
 
 "CrossReference.OMode -- followed by the corresponding mode of the reversal."
 
+.. rst-class:: indented
+
 So the next line:
+
+.. rst-class:: indented
 
 "WP\_5766 has been applied to live.  Routing call back to call logger for closure."
 
+.. rst-class:: indented
+
 So they think they've fixed it, they think they've identified the problem, made the changes and applied the fix.  Then it says:
 
+.. rst-class:: indented
+
 "We have seen that when a call is the subject of an Acceptance Incident (as this call is) then there is no point in us ringing up the originator to ask for closure.  They always say that such calls are the subject of regular discussions between John Pope ... and Martin Box ... Eventually somebody at TIP rings us with a list of calls which can be closed.  Accordingly I shall send this call to our holding stack to await such closure."
+
+.. rst-class:: indented
 
 Then it looks like it's closed.  So my inference from this is, since this is a high-priority issue for both the Post Office and Pathway, there's already a mechanism going on behind the scenes to validate whether this can be closed or not.
 
@@ -2197,21 +2471,39 @@ Then it looks like it's closed.  So my inference from this is, since this is a h
 
 **Charles Cipione**: Okay.  "So was the immediate issue fixed?  Yes."  They fixed the issue and they received the proper closure instruction.
 
+.. rst-class:: indented
+
 "Was the defect or root cause identified?"  Yes, they identified the root cause.  It was an issue being the signage and the grammar attributes sending the information to TIP.
+
+.. rst-class:: indented
 
 "Was the defect root cause correctly recorded in the PinICL or PEAK?"  It was recorded as code, development code, which we saw that they changed.  So yes.
 
+.. rst-class:: indented
+
 "Is there evidence that this defect root cause was addressed?"  So I'll just read what I said:
+
+.. rst-class:: indented
 
 "The text indicates that a software update was made and tested, albeit the text only indicates that the testing occurred, not the results of this.  However, I note that the text does not indicate that the test failed, which I would expect it to have said if that was the case."
 
+.. rst-class:: indented
+
 So I guess what I'm saying is: I saw the testing documentation here.  It said it was ready to go live and they had a package.  So I'm going to say: yes, it was addressed.
+
+.. rst-class:: indented
 
 "Observations on the management and closure.  The closure on the PinICL once the fix had been implemented and the original raiser's approval was obtained seems appropriate to me."
 
+.. rst-class:: indented
+
 Then:
 
+.. rst-class:: indented
+
 "Observations on the root cause.  There is evidence in the ticket that the fix was implemented in LHITS to remediate ..."
+
+.. rst-class:: indented
 
 So I think that this was addressed.  It seemed to be addressed appropriately.  So that's my observation.
 
@@ -2227,23 +2519,43 @@ So I think that this was addressed.  It seemed to be addressed appropriately.  S
 
 **Charles Cipione**: "Office 91008 reports a difference in its receipt and payments totals for CAP 18.  Please send this call to John Moran."
 
+.. rst-class:: indented
+
 So John Moran gets the call, and he indicates:
+
+.. rst-class:: indented
 
 "I know what caused this problem.  It was because reference data was not sent to the outlets concerning P&A products -- the cash settlement was mapped to the cash account, but the corresponding transaction was not. If these transactions were recorded by in the Counter Transaction Exceptions report I could supply POCL TP with this information myself, but they have not been recorded.
 
+.. rst-class:: indented
+
 "Can you supply the offending non-mapped transactions to this PinICL in message store extract so I can reconcile with Chesterfield."
+
+.. rst-class:: indented
 
 And then:
 
+.. rst-class:: indented
+
 "The difference in the receipt and payments totals was caused by the fact that non-core reference data was not delivered to this office in time.  Reference data was for OBCS products 177 to 185, and this reference data included primary mappings for these products. These products cannot be mapped to the cash account at stock unit rollover.  That is what caused the difference in the receipts and payments total.
+
+.. rst-class:: indented
 
 "This incident is related to 9 others all caused by this same problem.  All the offices affected were migrated to Horizon on 20 July.  All the offending transactions took place on 21 July when there was not reference data at the outlets.  The correct reference data was delivered for business on 22 July.
 
+.. rst-class:: indented
+
 "I have provided with the final BIM report an Excel spreadsheet (with the same file name as the BIM report) listing the offending transactions which were not mapped to the cash account."
+
+.. rst-class:: indented
 
 Then it goes on to say:
 
+.. rst-class:: indented
+
 "Caller has raised BIM BASED ON THE EVIDENCE EXTRACTED AND so call has been closed."
+
+.. rst-class:: indented
 
 So this is the reference data for -- non-core reference data, which my understanding is there were certain products that Post Office sold at every branch, and there were certain products that were sold only at some branches.  Those products level into the non-core reference data.
 
@@ -2253,7 +2565,11 @@ So this is the reference data for -- non-core reference data, which my understan
 
 **Charles Cipione**: All right.
 
+.. rst-class:: indented
+
 "Was the immediate issue fixed?  Whilst the text states that the BIM was raised and the impacted transactions were identified and included with the BIM, it is not possible to determine from the PP [from the PinICL or PEAK] whether the transactions were updated to map them correctly.  If I assume that the BIM process would rectify this issue, then it appears that the appropriate steps were taken ..."
+
+.. rst-class:: indented
 
 So I'm going to correct myself here on rereading this.  I believe that the BIM process was more of a process to actually give correct transactions, not the process to update the reference data.
 
@@ -2263,23 +2579,43 @@ So I'm going to correct myself here on rereading this.  I believe that the BIM p
 
 **Charles Cipione**: All right.
 
+.. rst-class:: indented
+
 "Was the defect/root cause identified?  The text indicates that this was a known issue and a clear root cause is provided (i.e., the product reference data required to correctly map the transactions to the cash account had not been delivered to ... so the transactions were not mapped)."
+
+.. rst-class:: indented
 
 "Was the defect root cause correctly recorded?"
 
+.. rst-class:: indented
+
 It was recorded.
+
+.. rst-class:: indented
 
 "The root cause recorded in this PEAK is "General-unknown".  The root cause is clearly defined in the PEAK and, therefore, the root cause is more akin to 'Product reference data not delivered in time'.  So that would seem like [a better description].
 
+.. rst-class:: indented
+
 "Is there evidence that this defect/root cause was addressed?  The text references the fact that the branches had now received the required reference data."
+
+.. rst-class:: indented
 
 So yes.
 
+.. rst-class:: indented
+
 "Observations on the management and closure of the issue.  This specific issue was fixed in that the reference data was delivered to the branch.
+
+.. rst-class:: indented
 
 "Other observations.  There's evidence in the ticket that a fix was implemented in LHITS to remediate the identified issue.  It's unclear to me why the reference data was not timely delivered to the branch and nine others."
 
+.. rst-class:: indented
+
 So that would be kind of the next step up of, you know, what the root cause was.  I mean, we know that the root cause of the specific transaction issue is because it wasn't reference data there.  We know that to fix that in the future the reference data should be there. So that's one level of fixing, you know, of addressing the root cause.
+
+.. rst-class:: indented
 
 But then the next level up of addressing the root cause is: why was that reference data late arriving?  So they fixed it.  I don't know that they -- I don't know what was happening to fix the timeliness of all deliveries of reference data.
 
@@ -2307,13 +2643,23 @@ But then the next level up of addressing the root cause is: why was that referen
 
 **Charles Cipione**: So if we go, I think the meat of it is on page 147, the first entry for Steve Warwick.  It's the bottom of the middle of the page:
 
+.. rst-class:: indented
+
 "The £155 error reported by TIP at FAD is almost certainly related to the MVL transaction.  A number of these transactions took place in the week, and there was also a loss declared the previous week for this value against cash.  The value of £155 was also transferred between two stock units during the week and a gain of £155 was recorded when balancing the end of CAP 18 (offsetting the loss of £155 declared at the end of CAP 17).
+
+.. rst-class:: indented
 
 "Since there was no failure of the office to balance its cash account, it would seem that either one of these transactions had not been sent to TIP or TIP having miscalculated the value of the transaction."
 
+.. rst-class:: indented
+
 So that's the beginning of the diagnosis.
 
+.. rst-class:: indented
+
 Then at the bottom of that same page it says:
+
+.. rst-class:: indented
 
 "The cause of this mis-balance ... was the deletion of Stock Unit ZZ on 29 July before the [end of day] marker for the outlet had been written.  This meant that the transaction carried out on the stock unit totalling £155 in CAP 19 was not reported to TIP."
 
@@ -2329,6 +2675,8 @@ Then at the bottom of that same page it says:
 
 **Charles Cipione**: "The original response given to TIP was based on the fact that the symptom of the call appeared to be similar to other calls which had been identified as being a signing problem.  This initial view was provided along with the statement that the incident was still under investigation and that once the evidence had been examined, the root cause would be determined.  The root cause has now been determined and John Pope updated the spreadsheet shared with POCL regarding AI376.  Closure will be agreed ..."
 
+.. rst-class:: indented
+
 And the root cause to TIP was the development code.  I'm just referring back to the header of this particular sheet, so ...
 
 **Mr Beer**: Okay.  Then your observations.  You split these according to FADs.  The FAD code is, I think, a numeric code which uniquely identifies a Post Office; is that right?
@@ -2342,6 +2690,8 @@ And the root cause to TIP was the development code.  I'm just referring back to 
 .. rst-class:: indented
 
 **Charles Cipione**: Right.  So this is a bit unusual, because it seems that there's -- I think this is one where there seems to be multiple -- there seem to be multiple discrepancies included on one particular log file, which in theory -- if they were all the same type of error, they could all be together.  But, if there are different errors, they should have different PinICLs.  But I think in this case there are two different issues going on here which we lost because I didn't read every particular line.  But just keep that in mind.
+
+.. rst-class:: indented
 
 So for three of the FADs there was an RED notice to resolve the issue.  So we think that that was fixed. For the FAD that we really read the meat about, for what we read, the reason we think it was fixed is because we know that David Salt, which was one of the items we didn't read -- someone wrote back and said that it was able to be closed.  They agreed to closing the call. That would have been the third line up from the bottom.
 
@@ -2363,7 +2713,11 @@ So for three of the FADs there was an RED notice to resolve the issue.  So we th
 
 **Charles Cipione**: I believe that's part of the information in the reference -- information they are sending back.  There was a piece of data missing when they were trying to send the information up, so it couldn't be processed.
 
+.. rst-class:: indented
+
 On the second set, the root cause is because the stock unit was deleted before the end-of-the-day marker had been written.  So it was an ordering of operations issue, where they deleted a stock unit internally.  This stock unit probably should have been deleted after the end of the day, or recognised -- there is an order of operation issue that created the problem.
+
+.. rst-class:: indented
 
 So was the defect/cause recorded correctly?  The defect cause was recorded as development code, and I assume this applied really to the second item.
 
@@ -2373,9 +2727,15 @@ So was the defect/cause recorded correctly?  The defect cause was recorded as de
 
 **Charles Cipione**: Yes.  If this assumption isn't correct, this seems like an appropriate defect code, but it's unclear if this also applied to the other three which were a different issue.  I'm not sure, besides the fact that they actually sent the RED in, which my understanding is that's helping to correct the transactions.  I'm not sure if they addressed what the actual problem was at least in this particular PEAK.
 
+.. rst-class:: indented
+
 Observations on closure, here I'm noting that we're talking about two different problems.  So it's a little difficult to follow, but it does appear as though they have addressed both problems, one with the RED and one with the development code.
 
+.. rst-class:: indented
+
 Then ultimately on the root causes or, sorry, observation on defect root cause, for the first three I don't have any information on what went on there.  So I can't comment on that other than I don't have any information.  I know that they are aware of it, and they sent corrections for the symptom, but I'm not sure what they did on the null mode.
+
+.. rst-class:: indented
 
 The last one it's identified -- it seems appropriate to me based off of the reading of the text.
 
@@ -2391,6 +2751,8 @@ The last one it's identified -- it seems appropriate to me based off of the read
 
 **Charles Cipione**: "Initial investigations have shown that the problem arose at the time that the Office Trial Balance report was produced.  On the Office Trial Balance report the brought forward value was £71,000 instead of £14,000. This appears to have been caused by the creation of a correctional stock unit which was additional to the normal stock unit.  Due to an error in the code, when the stock unit balance records are read, the first stock unit (22 -- first in alphabetical sequence) is correctly identified as having no 'Brought Forward' value from the previous week, the system then incorrectly assumes that this must be a migration week and generates a brought forward value for the stock unit which is incorrect. The error is being investigated for urgent correction."
 
+.. rst-class:: indented
+
 So this is a code error.
 
 **Mr Beer**: I think you can probably see the response to it over the page on page 152, second entry from Steve Warwick.
@@ -2399,7 +2761,11 @@ So this is a code error.
 
 **Charles Cipione**: "The doubling (or multiplying) of the brought roaring value on the cash account has been traced to an error in the changes which were delivered to correct the previous problem related to the previewing of the 'Final' cash account."
 
+.. rst-class:: indented
+
 So what I'm reading from this is there was a different error.  A code correction was made for the error, but now it's creating this particular error.  So they have identified this error as being related to a previous code correction.  So that's effectively what the cause of this particular error is.
+
+.. rst-class:: indented
 
 I'm happy to read the rest of it, but I understand you trying to be efficient with time.  So I could skip over the rest of that but that's the cause.
 
@@ -2409,17 +2775,31 @@ I'm happy to read the rest of it, but I understand you trying to be efficient wi
 
 **Charles Cipione**: "Was the immediate issue fixed?  I don't see evidence in the PinICL or PEAK that suggests that the issue at the FAD was fixed although the text does not that the FAD completed their roll-over, presumably with the imbalance still in place.  Perhaps the alert to the Horizon Helpdesk indicates that the corrective procedures were communicated ..."
 
+.. rst-class:: indented
+
 So what I'm saying here is I'm just not sure if it was actually fixed.  It wasn't clearly indicated in here, but it certainly doesn't mean that it wasn't fixed.
+
+.. rst-class:: indented
 
 All right.
 
+.. rst-class:: indented
+
 "Was the defect root cause identified?  Yes, the root cause was an unforeseen consequence of the current LT1 fix", which is what I just described.
+
+.. rst-class:: indented
 
 "Was the defect root cause correctly recorded? [It] was recorded as development code.  This seems appropriate since a software fix was required to [fix the problem]."
 
+.. rst-class:: indented
+
 "Is there evidence that this defect/root cause was addressed?  Yes ...
 
+.. rst-class:: indented
+
 "Observations on the closure.  The root cause was identified, addressed in an upcoming LT2 release, and a workaround was communicated to the Helpdesk."
+
+.. rst-class:: indented
 
 Then that's pretty much the same observation I had for the overall observation on the root cause and defect.
 
@@ -2435,6 +2815,8 @@ Then that's pretty much the same observation I had for the overall observation o
 
 **Charles Cipione**: Right.  It would appear that way from the beginning part of the text of this PinICL.  But they have identified that they know that 24 of them were already -- that these differences were already accepted at migration. So they were -- 24 of them are known migration issues and they have already actually addressed that.  So we're left with four FADs that we need to deal with.
 
+.. rst-class:: indented
+
 I will preview that I know that one of these FADs also is a migration issue.  So it's really three FADs that have this actual mode-change issue related to their problems.
 
 **Mr Beer**: Then, if you go over the page, I think you can see how, by reference to the FAD code there, what the response was in relation to each of those three.  In fact, there's a fourth as well.
@@ -2442,6 +2824,8 @@ I will preview that I know that one of these FADs also is a migration issue.  So
 .. rst-class:: indented
 
 **Charles Cipione**: Yes.  So the first one it says it's a housekeeping transaction.  It was carried out for a value and it was not settled in the user -- so the first FAD, the third FAD and the fourth FAD in this list, they are all indicating that they had transactions on the stack, they weren't settled, and the user at the branch navigated to a Revaluation Up menu, and that's what caused the problem.  For the second one it was just a discrepancy at migration.  That's the one I was indicating.
+
+.. rst-class:: indented
 
 So those are the three that really had the issue.
 
@@ -2451,21 +2835,39 @@ So those are the three that really had the issue.
 
 **Charles Cipione**: Sure.
 
+.. rst-class:: indented
+
 "Was the immediate issue fixed?  For 25 of the 28 FADs the difference had been handled at the time of migration.  For the remaining three, I don't see explicit evidence in the PinICL that suggests that the issue with the FADs was fixed, but ..."
+
+.. rst-class:: indented
 
 And there was more text in here about POCL's response or non-response.
 
+.. rst-class:: indented
+
 "... but POCL's exclusion of these FADs from their 'list of call to remain open' seems to indicate that the issue was resolved to their, [meaning POCL's], satisfaction."
+
+.. rst-class:: indented
 
 So there must have been a mechanism between ICL Pathway and POCL for indicating: we know there's an issue and then having an open-issues chart at the end, and these weren't on it.
 
+.. rst-class:: indented
+
 "Was the defect root cause identified?  The root cause for 25 of the 28 related to initial migration. For the remainder, the root cause was identified, namely that Horizon allowed a user to navigate to a different mode while transactions were on the stack, which would then be subsequently settled incorrectly.
+
+.. rst-class:: indented
 
 "The defect ... was recorded as reference data.
 
+.. rst-class:: indented
+
 I have here "Without a comprehensive understanding of which component of the system contained the error, it's not possible for me to say whether this is an appropriate code".  I would say it seems like it could be an appropriate code, especially since I know or since I believe that the modes are governed by the reference data.  So they put the reference data there.
 
+.. rst-class:: indented
+
 "The PinICL states that the error was corrected in live software."  That's for "Was it addressed?"
+
+.. rst-class:: indented
 
 "This one was closed without positive confirmation that the imbalances were addressed", but "the root cause appears to have been identified and remedied."
 
@@ -2475,13 +2877,23 @@ I have here "Without a comprehensive understanding of which component of the sys
 
 **Charles Cipione**: Yes.  So the cash account line comparisons -- so let's go:
 
+.. rst-class:: indented
+
 "The office had big problems with its receipts and payments.  CAP 5, 6 and 7 did not match."
+
+.. rst-class:: indented
 
 Then it lists the differences.  And so we get down to the first substantial Steve Warwick entry:
 
+.. rst-class:: indented
+
 "The cause of the problem in all 3 CAPs at this outlet was the fact that Stock Unit DD's rollover records from CAP 5 and 6 represented a 'nil balance' (the total stock holding was nil, no receipts or payments transactions were recorded) despite the fact that that stock unit had been trading normally during the period.  [Said] This issue was raised [earlier] and is still under investigation ..."
 
+.. rst-class:: indented
+
 Then it says:
+
+.. rst-class:: indented
 
 "The fact that the Stock Unit DD's transactions and stock holdings were omitted from CAP 5 Cash Account meant that the Brought Forward value for the office in CAP 6 was incorrect.  This caused CAP 6 Cash Account to mis-balance.  I am still investigating by CAP 7 cash account mis-balanced, but I note that the office returned to a balanced position in CAP 8."
 
@@ -2503,7 +2915,11 @@ Then it says:
 
 **Charles Cipione**: Okay.  So John Moran is asking:
 
+.. rst-class:: indented
+
 "I need to know what correct Cash Account figures should have been were it not for the Dataserver failure."
+
+.. rst-class:: indented
 
 So in between our things they've identified a data server failure.
 
@@ -2513,13 +2929,23 @@ So in between our things they've identified a data server failure.
 
 **Charles Cipione**: "Can these be derived from the transactions in the message store ..."
 
+.. rst-class:: indented
+
 So John is asking questions in order to help remedy this situation.
+
+.. rst-class:: indented
 
 "2.  The diagnostic code which was delivered before this incident happened was promised to aid in investigating the cause of the problem.  Has this code helped?  How?"
 
+.. rst-class:: indented
+
 "At some point a work package was delivered would alert the user that there was a problem with the [stock unit] rollover and the user would be prompted with a message to redo the rollover.  Has this been delivered?  If so, why did the rollover process not cease and prompt the user to try again?"
 
+.. rst-class:: indented
+
 So just a little colour.  This indicates to me that they have seen this type of issue before, and they've tried to put in some safety procedures at the actual Horizon level to help the user make sure that they can't generate this problem.
+
+.. rst-class:: indented
 
 So I'm going to go down to the first entry on page 159.
 
@@ -2529,17 +2955,31 @@ So I'm going to go down to the first entry on page 159.
 
 **Charles Cipione**: Just at the end, the final paragraph, not the three numbered:
 
+.. rst-class:: indented
+
 "I don't think I'm being premature in revealing that we think we know why these failures with the Dataserver or occurring.  Steve Warwick experienced such a failure on a rig he was testing against and found the root cause was that the Archiving was active during a riposte query; this only occurs 'out-of-hours' at end of each working day.  Archiving will occur 'in-hours' should the counter have been switched off overnight for seven consecutive days and hence the sporadic nature of these incidents."
+
+.. rst-class:: indented
 
 So what this is saying is there's an unexpected issue when archiving is occurring, and there's Riposte activity, and Riposte is the part of the system that's helping manage the message store, which is where they are keeping all the transactions.  It's not -- it seems to be that there's some sort of conflict going on when archiving starts up, and they are trying to do this.  So that's what's suspected to have actually caused this problem.
 
+.. rst-class:: indented
+
 If we go to the middle of the page, they are describing here essentially that they are having problems trying to actually tease out the actual details to walk forward and everything.  I don't think we need to read it all, but they are saying that they are having problems looking at the actual detail to resurrect -- because remember this a CAP 5, 6, 7 issue.  They are having trouble figuring out how they could actually see everything that was going on in each one of those CAPs.
+
+.. rst-class:: indented
 
 Then at the bottom it says:
 
+.. rst-class:: indented
+
 "I'm not sure it's worth spending time trying to resurrect the other CAPs.  The method I have derived assumes that the CashAccLines for the previous CAP" -- The cash lines, cash access lines.  Cash account lines probably.
 
+.. rst-class:: indented
+
 "... for the previous CAP.  I see from Steve Warwick's analysis that CAP 6 was not correct as well. Now, if I rerun the tool I have developed on CAP 6 it will use the base line in the Cash Account Line figures from CAP 5 which we know are wrong and I have just recalculated.  I think therefore enough time has been spent on this problem and it's not cost effective to proceed further.  However, in future where the problem is just one CAP, we should be able to resurrect the figures more easily."
+
+.. rst-class:: indented
 
 So what they are saying is, since this was a multi-CAP problem, there's no way for them to go back and resurrect information from CAPs that are more than -- that are further than the most recent CAP.
 
@@ -2549,15 +2989,27 @@ So what they are saying is, since this was a multi-CAP problem, there's no way f
 
 **Charles Cipione**: "Was the immediate issue fixed?  It appears that CAP 5 account was reconstructed, but that CAP 6 and CAP 7 accounts weren't."
 
+.. rst-class:: indented
+
 I don't know if that's really a problem or not, but it's something that they acknowledged.
+
+.. rst-class:: indented
 
 "Was the defect root cause identified?  A root cause was identified, namely that the archiving process was active during the Riposte query.
 
+.. rst-class:: indented
+
 "Was the defect cause correctly recorded?"
+
+.. rst-class:: indented
 
 It said the development code was recorded, which I think is appropriate.
 
+.. rst-class:: indented
+
 "Is there evidence that this defect root cause was addressed?  The reference" -- there was a release a reference to a release that suggested that it would address this particular issue, and something that we didn't read, and then it appears that the investigation was carried out with -- there was a lot of discussion.
+
+.. rst-class:: indented
 
 So this would have been an example of: look, they are working towards finding at least an answer for this particular situation, and they think that this next release should take care of it.  So that's my observations.
 
@@ -2596,6 +3048,8 @@ So this would have been an example of: look, they are working towards finding at
 .. rst-class:: indented
 
 **Charles Cipione**: When I see evidence of issues where there seems to be a lot of different reasons for causing the same problem, number 1, that that obviously makes it harder for the people that are trying to track down to fix it because all they are working off of is:  Here's the symptom, you know.  "Doctor, I'm tired.  What's wrong with me?"  You know, that type of thing.  Well, it could be a lot of things wrong with you.  Let's investigate a little bit more.  But it takes that investigation process.  So that's one issue.
+
+.. rst-class:: indented
 
 Second is, there seems to be a lot of different -- at least at some level of separation, a lot of potential different causes for these problems, which is troubling, because you wouldn't -- especially for this type of issue, it just looks like the system has a lot of instability in it, and it's not apparent to me looking at these PinICLs that it's isolated in one place. Therefore it would probably be difficult to just focus on one little place to fix those instability issues.
 
@@ -2643,9 +3097,15 @@ Can you explain or expand upon that last sentence, please.
 
 **Charles Cipione**: I will say that, you know, as far as the private finance initiative is concerned, this is my first exposure to what even a private finance initiative is, and it probably didn't really resonate with me that much, because I'm not sure that I actually really took that into account.
 
+.. rst-class:: indented
+
 I think, now that I maybe understand that a little bit better, I think that, you know, that would explain why they didn't get paid up until a particular acceptance point, just from the witness statements that I read after I submitted the paper.  So that has helped contextualise the acceptance period.
 
+.. rst-class:: indented
+
 I think I was more focusing on their not getting paid until they get acceptance, without really understanding the linkage between that particular event and the fact that it was originally a private finance initiative that they went into with another partner.
+
+.. rst-class:: indented
 
 I also don't know that I had much understanding of the impact of the BA's withdrawal either.  It wasn't really on my radar.  I didn't understand the implications of it as much as I do now.  So I would say it didn't really impact it a lot.
 
@@ -2675,7 +3135,11 @@ You refer to "The tenuous relationship between ICL Pathway, their sponsors (init
 
 **Charles Cipione**: The issue is this is a very complex system that ICL Pathway is trying to create and, notwithstanding what you just said, they're not trying to create this in a vacuum.  They need to have a good working relationship with their sponsors as well as with all of their co-suppliers of this system.
 
+.. rst-class:: indented
+
 So, if there are problems in communications, either because of expectations being misaligned or for whatever reason, that's going to cause problems.  It's just not a healthy working environment.  Everyone needs to basically be rowing in the same direction in order to get something like this done on time and efficiently.
+
+.. rst-class:: indented
 
 So overall my commentary around here is that it doesn't -- it seems that there were times where there's a lot of tension between ICL Pathway and either its sponsors or potential tension between ICL Pathway and some of their partners in delivering the system, and the reason I know that is because, you know, it was talked about in the monthly reports.  That just struck me as something that I'm sure everyone wishes wouldn't have happened, but certainly couldn't have provided the most healthy environment in making sure that the Horizon System was the sole focus on getting produced.
 
@@ -2695,6 +3159,8 @@ The words "this was an ambitious goal", what did you intend to convey by that?
 
 **Charles Cipione**: I wanted to employ language that would indicate the complexity of this roll-out of this system.  It is ambitious.  There are a lot of moving parts in this system, a lot of moving parts.  In any system, especially a technology system, the more moving parts you have, the more opportunities there are for problems. There are a lot of managerial tasks both strategically and tactically that need to be tackled.  There are a lot of logistical tasks.  There are a lot of training tasks, and there's a lot of technology tasks.  The technology can be spread across infrastructure, hardware, software, any number of things.
 
+.. rst-class:: indented
+
 The issue with computer systems is that, like I said, there are a lot of moving parts, and any one of those can cause a problem.  So it's ambitious to say that I'm going to make sure that all of these parts are co-ordinated in a way that it's going to deliver exactly what you want me to deliver.  So that's why I think it's ambitious.
 
 **Mr Beer**: Thank you.  Second:
@@ -2707,7 +3173,11 @@ What did you mean by that, please?
 
 **Charles Cipione**: So the technology certainly is the focus and is there. But even aspects such as training -- do my end users know how to use the system -- that's not necessarily a technical issue but it's a very important part of the system with a capital S.  You know, are we going to make this system work correctly?
 
+.. rst-class:: indented
+
 Training, you know, even delivery of replacement hardware, not what I would think of as a technical issue, but logistically very important to the process. Are we making sure that this systems up all the time? Do we have good management communications amongst all of the different players that are here to either provide the requirements, implement those requirements through our design and development process, or support those requirements, like an infrastructure backbone such like BT or Energis making sure that everyone understands what's going on?
+
+.. rst-class:: indented
 
 So those are kind of the issues that are orbiting the fact that even just the technology itself is complex, there's a lot more to this system than just sitting down and coding it.  I would say that was the system with a small S, and making sure the whole thing works is the system with the capital S.
 
@@ -2721,9 +3191,15 @@ Can you expand on that.
 
 **Charles Cipione**: Yes, this is not a point in time thing.  Let's say that I've delivered to you the perfect system today.  That doesn't mean that you will be satisfied with it in six months, because perhaps you might want some changes to it, you might want to either expand the volume of activity that can be done on it, or you want some more functionality or features.  So there's going to be some sort of feedback loop process which will most likely require me to continue augmenting the system.
 
+.. rst-class:: indented
+
 That's another dimension that continues to complicate making sure that this system with a capital S works right because now, not only have I delivered you a system right now, we're talking about evolving the system and having it mature over time, but making sure that it's stable throughout that whole period.
 
+.. rst-class:: indented
+
 That's the living system and, like I said in my discussion before, it's not just the technology.  It's the technology and the people and the processes that that technology support, all being co-ordinated and making sure that they are in concert with each other as opposed to being at odds with each other, and that's difficult.
+
+.. rst-class:: indented
 
 It just is.  It's difficult to have that many different items working together correctly.  So does that answer your question?
 
@@ -2739,11 +3215,19 @@ It just is.  It's difficult to have that many different items working together c
 
 **Charles Cipione**: I will say that, in a perfect world, the design phase of any system is very much a partnership between a sponsor of the system and the team that's delivering the system, and they need to be very closely aligned and in very good communication, in order to produce a final product that satisfies the sponsor's needs.
 
+.. rst-class:: indented
+
 Having said that, oftentimes, you know, we can all of a sudden start seeing an introduction of new requirements in the design phase if we're not disciplined about it.  You know, there's got to be a point in time when you say, "This is what we're going to do and this is what we're not going to do", because we could be on an endless cycle of, "This also would be nice, this also would be nice, this also would be nice."
+
+.. rst-class:: indented
 
 So it's very important, I believe, for the sponsors to have a really good idea of, hopefully, generally what they want and then be committed to specifically talk in detail of whether it's okay to deliver it in this manner, or whether it's okay to be delivered in this other manner.
 
+.. rst-class:: indented
+
 That's a discussion to be had.  Unless the sponsors know exactly what they want at a very detailed level at the beginning, in which case they can say, "Here's exactly what we want, go do it and you don't need to talk to us until it's done."  That's quite rare, but -- I mean, as a programmer, I would love that.  You tell me -- you know exactly what you want and don't make a change to that, I would love that because then I just have to go and actually execute against that.
+
+.. rst-class:: indented
 
 But that's not typically what happens in the real world because usually discussion -- you know, you didn't know what was possible. I had a couple of comments about what you asked for, and it might change your mind about what you want.  So there's obviously a dialectic going on there, but that should be very short in time to the point where you say, "Okay, I know that there's a wide range of possibilities available, but for right now let's focus on what I want immediately.  Let's get that done, make sure it works right, and then we can move on to the next stage."
 
@@ -2757,7 +3241,11 @@ What do you mean by that strategic and tactical alignment?
 
 **Charles Cipione**: I think I was actually just referring to what I just said.  So strategically that's a very high level, right? We know we want -- you know, in this case we know we want a network system that can do our point of sale and interface with our accounting system.  Okay, great. That's a good strategy, and there's a business reason behind that strategy, and I'm more than happy to supply that to you if I was the supplier.
 
+.. rst-class:: indented
+
 The tactical part though is where a lot of the heavy work is.  We need to know specifically how to do things.  We need to specifically understand what you're expectations are.
+
+.. rst-class:: indented
 
 For instance, you know, if we go back to my first testimony when I said, "Do you have a set of business processes that are mature and you want this system to support?"  Okay, let's talk about those, let's make sure that the system that we're developing supports those, and then we need to go back to our team, to my team and all of my partners, and I need to make sure that we all understand exactly what the needs of those business processes are and how we're going to first architect a solution and then actually build and deliver that solution.
 
@@ -2835,7 +3323,11 @@ Collecting those three things together, how serious a concern were they?
 
 **Charles Cipione**: I think that they impacted the actual performance in the real world of the system.  We saw in the examples that we just went through, you know, some of it was reference data information that were creating the situation where there were some receipts and payments mis-balance information.
 
+.. rst-class:: indented
+
 At a more understandable layman's term level, if your hardware's not working, if you have just delivered a new system to me and even if the software is perfect but the hardware's not working, that doesn't matter to me.  I really want is something that works.  I want something that works correctly, reliably, consistently and, from an end user's point of view, I don't know that it a matters if it was a hardware issue or a software issue or a service provider issue.  If the system in my perception is not working correctly, it's not working.
+
+.. rst-class:: indented
 
 It doesn't really matter why it's not working, and ICL Pathway, you know, at this point is in charge of delivering of that system.  So regardless of whether they're personally -- you know, if it's within their particular enterprise responsibility, or if it's more of an umbrella partnership with other enterprises, they are going to be the one that get the focus if it doesn't work.
 
@@ -2879,6 +3371,8 @@ I think since then you have seen, through looking at the witness statements and 
 
 **Charles Cipione**: I will say that there was a lot of discussion in many of the witness statements and the transcripts that I read that was talking about the design and development process that went on at Pathway for the Horizon programme.  Much of it was talking about what appeared to be a lack of design process and more of a "Let's just go develop it", without necessarily having a good set of requirements or a proper design facility to help inform that development process.
 
+.. rst-class:: indented
+
 Now, that's what I've read.  I will say that that certainly could substantiate the amount of PinICLs and PEAKs, the volume of PinICLs and PEAKs that were there. It certainly could substantiate the fact that there are -- when I was looking at the payments and receipts imbalance and noticing that there were a lot of different causes for that, if in fact there was not really a good design -- and I have no reason to not believe what I read in the witness statements -- that certainly would explain why there were so many errors in the system as represented by the PEAKs and PinICLs, and why, even when you fixed one, something else popped up, and then you fixed one and something else popped up. That certainly is a consequence of not having an extremely disciplined design-to-development process.
 
 **Mr Beer**: We've heard evidence, in particular, concerning what was called the reverse engineering or reverse documentation of the part of the EPOSS system.  Have you read about that evidence?
@@ -2917,6 +3411,8 @@ Now, that's what I've read.  I will say that that certainly could substantiate t
 
 **Charles Cipione**: It was disturbing to read that.  If everything in here is as represented, it would indicate to me that, number 1, there was no design at least for the EPOSS section of the Horizon System and, considering that's what a lot of the PinICLs and PEAKs errors were that we just went through that specifically led to the imbalance issues, it's -- that's fait accompli.  If you're not going to design something properly, it's not going to -- if you don't have a good design, it's not going to work properly.
 
+.. rst-class:: indented
+
 So, if there's no design and that design -- first of all, there has to be a good design process.  Second, that design process has to be aligned with a very well known set of requirements from the sponsors.  Only when those two things are done can you start thinking about the construction and development of the software. Otherwise, it's very difficult to make sure that the system does what your customers want it to do.
 
 **Mr Beer**: Can we look at a couple of aspects please, page 6 of the document.  Scroll down, please, to EPOSS Documentation.
@@ -2939,6 +3435,8 @@ We've been told that that means, not that the code was reverse engineered, but t
 
 **Charles Cipione**: Yes, because what that implies is you didn't know how to construct the system from the beginning to make sure that it aligned with the customer specifications.  If you need to do this, that means there was not the proper design process for a system of this ambition, because you can't -- this is not like sending three people into a room and asking them to code a system.  This is many teams, many teams of coders, and then many other teams, you know, for infrastructure and for telecommunications and for training and for all of that.
 
+.. rst-class:: indented
+
 If you are doing that by basically putting people in a room and coming in and saying, "I think this is what they want.  Why don't you code for three months and show me what you have."  It's just ... it's undisciplined.
 
 **Mr Beer**: Can we go forward to page 15, please.  Paragraph 7.1.1 the authors record:
@@ -2956,6 +3454,8 @@ You told us about RAD on the last occasion.  When you wrote your report, did you
 .. rst-class:: indented
 
 **Charles Cipione**: RAD is very good for developing something small, for developing something quickly that is just for illustrative purposes.  But for a heavy-duty enterprise system that needs to be viable over the long-term, it's terrible, because you're not planning it.  RAD almost means no plan other than, I think I know what the goal is, and I'm going to get to that goal as fast as I possibly can, and there's good situations where that's needed.  But this is not the right situation for that.
+
+.. rst-class:: indented
 
 You need to do everything in a very methodical almost militaristic way to make sure that everything works properly together, because I think I mentioned before: there are so many moving pieces.  This has to be highly co-ordinated.  RAD is the other end of the spectrum.  It's not highly co-ordinated or it doesn't support co-ordination amongst big teams because that's not the purpose of RAD.  RAD is: get it done quick, get a little bit done quick.  If you have 80 teams doing their own little part independently, you can't put that back together and think that it will work as well as if they were all very co-ordinated from the beginning.
 
@@ -2985,6 +3485,8 @@ Then lastly on this document page 17, please, foot of the page, from paragraph 7
 
 **Charles Cipione**: This is terrible code.  This is terrible code.  So even the one you have up here -- so it does what it's supposed to do, but it's like, you may think building -- I can't remember the term -- the overly engineered mousetrap.  This has to be a joke.  I mean, this has to be a joke, because this is a ridiculous set of code to change the sign on something.  I'm sure that, even if you don't code, you would understand that, if I want to make something a negative, I just times it by negative 1.  You don't need an "if" statement.  You don't need to do anything but that.  This is, you know 1, 2, 3, 4, 5, 6 -- six lines in what could be one line.
 
+.. rst-class:: indented
+
 So it's inefficient, at the very least it's inefficient or it's actually a joke, because it's terrible.
 
 **Mr Beer**: Then very shortly then, if we go over to page 19, two more examples of code there.  An example of some unreachable code and what's described by the authors as bad practice.  Did you form a view on either of these two codes?
@@ -2993,13 +3495,23 @@ So it's inefficient, at the very least it's inefficient or it's actually a joke,
 
 **Charles Cipione**: Yes.  So the second one is bad practice.  It's just not the right structure, and it indicates to me that they don't understand what those particular structures are, and just take my word for it.  They don't understand what the structures are.
 
+.. rst-class:: indented
+
 The first one, I think, is probably a little easier for everyone to understand why this is bad, if you actually can scroll back up, please.  So the first one, the highlighted items, when I read this and looked at it, essentially what's happening here is they are saying, "if" -- what they are showing here is, first, they are checking to see if a particular variable was either 3013 or 3016.  So that has to evaluate to true.
+
+.. rst-class:: indented
 
 So, in order to get into that code, you already know that "lstockrootnode" is either 3013 or 3016. Further in the codes then they are checking that same stock root node to see if it's 2493.  It's not going to have changed -- let me make sure.
 
+.. rst-class:: indented
+
 There's nothing in here that has changed the value of that particular variable.  So there's no way that it will ever get inside this particular condition.
 
+.. rst-class:: indented
+
 So I don't know if this is an artifact of something old where perhaps the first condition was changed and now it's changed it again.  But, even if that was the case, there's no comment on this.  I don't know what they are checking for in this first condition. So either this is written by someone not so smart in here, or there's been multiple updates to this code, and perhaps the first statement used to be: if it's 3013 or if it's 2493, because I could see that as being a possibility.
+
+.. rst-class:: indented
 
 But then further on someone went and changed the condition.  But then they didn't account for what happens with 2493.  So now am I ignoring what should have happened correctly to 2493, or am I just completely divorced from mathematical logic and put this in here? Either way it's a bad example.
 
@@ -3021,9 +3533,15 @@ But then further on someone went and changed the condition.  But then they didn'
 
 **Charles Cipione**: Okay.  So, if we remember my first testimony, I was talking about hard coding information into code, and then let's instead use a data-driven logic.  In this code, this is an example of some hard coding, and what this is, this has a whole bunch of values in here that have been hard coded.  Why have they been hard coded that way?  I have no idea because I don't see any comments around here.
 
+.. rst-class:: indented
+
 I believe that the author of this document speculated that there was a particular, very specific condition that was trying to be resolved by doing this hard coding, which means essentially they are looking for any one of these numbers, and then they are doing something, if they find any one of those numbers.
 
+.. rst-class:: indented
+
 Why are they looking for those numbers?  I have no idea.  I don't think anyone that would come after them, after this particular author was there, would have any idea why those numbers are hard coded in there.  Can I take them out?  What will happen if I take them out? No-one knows.
+
+.. rst-class:: indented
 
 It's just very odd that you wouldn't put this into a variable to at least allow some flexibility.  First of all, there's no flexibility here at all.  It's just these numbers other than, if I wanted to start typing some more numbers into the case statement, but more importantly that's really it.  It's not very often that you see hard coding in somewhere unless they are trying to quickly fix an issue.
 
@@ -3242,6 +3760,8 @@ Now is that something that we can relate to this terminology that we've heard "c
 .. rst-class:: indented
 
 **Charles Cipione**: It's a possibility.  Of course I can't tell you exactly why, because even in the examples I reviewed, I didn't see the code that -- if that example was code related.
+
+.. rst-class:: indented
 
 If some of the witness statements and transcripts I've read indicate that, you know, regression testing wasn't done properly.  It is possible that the issue that I was describing in the PinICL was corrected and then for some reason someone went back in and did another correction to that code but actually reverted it back; that's a possibility.  I have no idea if it happened but it's certainly a possibility.
 

@@ -442,7 +442,11 @@ We see in the documentation a distinction drawn between problems and incidents o
 
 **Steve Bansal**: Okay.  A problem could be raised off the back of an incident or an issue in a single branch or multiple branches.  We would use the problem itself, a problem ticket, to continue the investigation, the analysis, until such time the incident is resolved.
 
+.. rst-class:: indented
+
 For a major incident, the distinction there is the severity and the priority and potentially the impact to the wider estate.  So a major incident would mean that potentially a greater number of branches are down, they're offline, there is not a service being offered. So the priority there is resolution to get those branches' services available as soon as possible.  We would then subsequently raise a problem ticket for any outstanding issues where we've not developed/understood the root cause to continue the investigation.
+
+.. rst-class:: indented
 
 I think there was an element I haven't covered.
 
@@ -644,6 +648,8 @@ I'd like to look at the final page first, which is page 23, please.  This is a t
 
 **Steve Bansal**: If you had a P1 then, effectively, we would trump any other activity that's going on to be able to call SMEs, the support units to come and prioritise this work to look at the resolution of the incident or the issue and, bearing in mind it was a problem that would already have had a high priority incident allocated to it, that activity would have been ongoing.
 
+.. rst-class:: indented
+
 So yes, a higher priority would have meant that people would have paid attention and actually appropriately prioritised the activity.
 
 **Mr Stevens**: Is it possible to say, if you gave something a priority 1, within what period of time you would have expected the problem to be resolved?
@@ -665,6 +671,8 @@ This would be assigned by the problem manager; is that right?
 .. rst-class:: indented
 
 **Steve Bansal**: The critical would be defined as something which has effectively a show stopper on a wider scale.  So, again, if we go back to a P1 scenario, almost a disaster, service has stopped.  That's regarded as critical.
+
+.. rst-class:: indented
 
 And then we go down in severity down to the things which are cosmetic or minor.
 
@@ -693,6 +701,8 @@ Was this -- "Number of users affected", was this the number of users that had be
 .. rst-class:: indented
 
 **Steve Bansal**: I think for a problem we would be -- we would take both into account.  If the problem was well understood and defined, then potentially you'd be looking at just the affected users because, again, we'd be in a position to understand that.
+
+.. rst-class:: indented
 
 If the issue/problem was relatively new and that was still being defined and understood, then we would also look at the potential wider impact and take that into account.
 
@@ -1320,6 +1330,8 @@ Do you recall having a conversation like with Mr Godeseth?
 
 **Steve Bansal**: I think when I then subsequently took over, in my view most of the data was being captured in alternate locations, not necessarily as a specific problem KPI dashboard, shall we say, and the majority of that information was being discussed with Post Office.  So if I took those points and reviewed them in the context of that meeting that we were having weekly, those points were being picked up.
 
+.. rst-class:: indented
+
 What I hadn't -- what I didn't do was put them into a dashboard.
 
 **Mr Stevens**: Fujitsu through the Post Office solicitors is recorded to have said that to retrospectively carry out detailed analyses, it would require a disproportionate effort and cost to provide these.  If we could go up the page, would it have been difficult to ascertain these issues or ascertain this data retrospectively?
@@ -1327,6 +1339,8 @@ What I hadn't -- what I didn't do was put them into a dashboard.
 .. rst-class:: indented
 
 **Steve Bansal**: I think some we of the data would have been available but I don't think it would have been easy to have then subsequently collated all of it.
+
+.. rst-class:: indented
 
 As I say, some of those points, I think, are discussed but is it there for anyone to root out? I don't think so.  Depending on how far back anyone would like anyone to go to retrieve that historical data, it would take some effort.
 
@@ -1457,6 +1471,8 @@ Why do you think it is that a senior member of Fujitsu's front line staff was no
 .. rst-class:: indented
 
 **Steve Bansal**: So I think from that point on we raised the problem record.  We got -- Gareth was more heavily involved to do his analysis.  When we discussed it, my feeling was that we would need what I called a White Paper, just a paper that would go through in detail because -- as I failed to articulate the summary of the scenario back to you is because in -- I think it was quite complex and so what I asked Gareth to do was to actually write it up in a White Paper so effectively when we communicated with Post Office we were clear in what the issue was, what the scenarios were and where we'd got to with our investigation, and it was that paper that I subsequently shared with Post Office.
+
+.. rst-class:: indented
 
 I think thereafter there were multiple conversations which Gareth and occasionally I was also party to.
 

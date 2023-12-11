@@ -347,9 +347,15 @@ That's all pretty damning, isn't it?
 
 **Terence Austin**: Well, the reason for me asking for the task force in the first place was that I wasn't very happy with the way the product was, so I felt let down by the people who had developed it, who were supposed to be experts in their field.  So because I was getting reports that the product was not stable and that it was not behaving in a way that we would expect, I called the task force.
 
+.. rst-class:: indented
+
 So I called the task force together and brought in the people who I thought were the most competent people within my team to be able to look into this and see what was going on, and it was as a result of that that Jan writes a report at the end of their activity and when I received this report, which was, as you quite rightly say, "very damning", and a massive worry to me and the rest of ICL Pathway, we had to take every part of it extremely seriously.
 
+.. rst-class:: indented
+
 So we took -- I called in all the members of the task force and my lead designer and we went through every element of it to find out what we could do and what options we had to do.
+
+.. rst-class:: indented
 
 We identified who the people were that were responsible for producing the product in its particular state and they were removed from the team, so that we were starting off with a different team that was looking at it and designing it and managing it.
 
@@ -453,7 +459,11 @@ Now, is that box a recommendation?
 
 **Terence Austin**: Yes.  Actually, the fact -- what I'm finding -- yes, I'm struggling because this was a massive issue for me and I discussed it with all my technical team in-depth.
 
+.. rst-class:: indented
+
 Rewriting a product is not necessarily a solution in itself because you can reintroduce problems, or you can have people who don't understand the requirement as well, and you can actually end up with a product that's even maybe a little better but not necessarily any better.
+
+.. rst-class:: indented
 
 My preferred solution at the time, having spoken to all the people, is that the decay was in certain parts of the product and we should focus our efforts and see if we can stabilise those parts that were causing the majority of the PinICL.  In fact, this was a view strongly felt by Steve Warwick, who I had a lot of respect for.
 
@@ -695,7 +705,11 @@ So, I mean, the impression that you get there is that, despite the rollout going
 
 **Terence Austin**: "CS" is customer service and what we were doing at this stage was it was moving from a development kind of project into a customer service project, so it was a transformation.  This is what often happens in IT programmes.  Once they have gone through an intensive development phase they have to move into a system support service management kind of environment.
 
+.. rst-class:: indented
+
 To do that, you need a completely different organisational structure and you need different skills and such-like, and Stephen Muchow who was the service manager, this is his report, and it's -- it would appear to be doing -- he is reporting against the helpdesk and the flow from the helpdesk through and how fixes are being identified.
+
+.. rst-class:: indented
 
 I was right at the end of the chain, if you like, so when you get the helpdesk, which was a mixture of experts on both POCL and ICL Pathway, and that's where some of my team ended up moving towards second line and third line within that, and we would also work on the helpdesk occasionally, so they were no longer reporting into me, they had moved across into a service management environment.  So what this is doing, it seems to be suggesting that Stephen at that point is not happy with that process.
 
@@ -795,7 +809,11 @@ You have said in your statement, for example, it was debated by members of manag
 
 **Terence Austin**: That's right.  What I'm implying in my witness statement is that, if you like, we were judged on acceptance and acceptance was whether the product, the overall product met the business requirements as stated in the functional specifications, the business requirements specifications, and whether it met the criteria for the number of defects and errors that were still available in the product.
 
+.. rst-class:: indented
+
 If we achieved that, which was -- if I recall was zero As and ten Bs or -- and no restriction on Cs at that point, then from that perspective we have met the criteria on two fronts.
+
+.. rst-class:: indented
 
 Now, if the decision we had made was -- wasn't the right one, then it would have shown up in that and we would have failed acceptance, so that's what I'm implying in my witness statement, is that we wouldn't have achieved acceptance.
 
@@ -805,9 +823,15 @@ Now, if the decision we had made was -- wasn't the right one, then it would have
 
 **Terence Austin**: One of the biggest difficulties with the instability issues was, in the 1990s, that you -- some of you, forgive me, may recall in the '90s if you had a PC that actually it was very subjected to blue screens and lock ups.
 
+.. rst-class:: indented
+
 I mean, nowadays you never see a blue screen, but Windows NT in the '90s, you would get a blue screen and trying to track down what had caused that in such a complex system as Pathway was extremely difficult because a lot of the blue screens we were experiencing were at the counter, frustrating the postmasters considerably, understandably, but trying to understand what was happening at the time -- because the blue screen would then -- you would reboot it and it would go away and, as most of you know now, even a common solution to a printer or a PC or a laptop is just to switch it off and switch it back on again, but when you're in a distribution system, switching it off and switching it back on again, which is a reboot, we want to find out what the problem is.
 
+.. rst-class:: indented
+
 We have no way of seeing the counter.  We can't get onto the counter to have a look at it and we can't take what we used to call "dumps" or "print-outs" of the store, the message store to try and see what caused that issue.
+
+.. rst-class:: indented
 
 So that was a constant thorn for us to try and -- we would get a lock-up or a freeze and all you could suggest to the people was that "We will try and find" -- and we did find quite a few of them and it was down to two or three very, very clever individuals that managed to track down what some of these were and they were quite obscure.  So that's what I'm referring to is that the stability one was to do mainly with blue screens and freeze -- and lock ups and the AI376 was to do with balancing the cash account.
 
@@ -852,6 +876,8 @@ So that was a constant thorn for us to try and -- we would get a lock-up or a fr
 .. rst-class:: indented
 
 **Terence Austin**: We were looking at all issues identified by -- coming down through all PinICLs, all incidents that had been raised on the EPOSS product at that point and we were focusing on every one of them.  So we didn't leave these to one side, or -- every one that appeared like it looked like it was EPOSS -- and quite often it wasn't EPOSS, it was either to do with the TIP interface or it was to do with the processes or it was to do with reference data, or it was to do with migration or some kind.  Just because it was identified, that was where the source of the problem existed, that didn't necessarily -- that's where the source of the fix existed.
+
+.. rst-class:: indented
 
 So I would bring everybody into my office and every morning, witnessed by senior Fujitsu test and diagnostic experts that came over from Japan and were allocated by Fujitsu who sat in my meetings to watch me and decide whether they were happy with the process.  So I was under a lot of scrutiny there and I personally wanted to see and get this sorted out.  It mattered an awful lot to me to get it sorted out.
 
@@ -951,6 +977,8 @@ So you have said there that there's a problem that you have been aware of for se
 
 **Terence Austin**: Yes.  It's not decay, no.  Code regression -- we used to have a testing sequence called regression testing and whenever you put a fix into a product of any kind you will subject it to regression testing to see that you haven't undermined or introduced another problem, or affected something you had already done, hence the reason it is called "regression testing", to ensure that you have not regressed the problem.
 
+.. rst-class:: indented
+
 So the problem is that, when you're fixing faults, you cannot guarantee that you haven't caused a regression because it's technically -- if a programmer puts the fix in, he does it, he tests it to his ability, it then goes into regression testing and regression testing says it's okay.  It then goes into the live environment and because you have assembled far more of the system at that point, there's so many more moving parts, then you may -- another error may crop up.  So some regression may -- that may well happen and that will be -- that is the case with every IT system I'm aware of.
 
 **Mr Blake**: Is it a bit like Whack A Mole, where one problem comes up, you try and fix it and then something else pops up somewhere else?
@@ -983,7 +1011,11 @@ So the problem is that, when you're fixing faults, you cannot guarantee that you
 
 **Terence Austin**: We didn't have -- we didn't have any PinICLs.  It was something that I was aware of that what appeared to be happening -- there was no proof, there was no evidence. All that we were getting was a feeling that the counter seemed to be degrading in performance while we were going through this work, and this is -- Steve's making the same point, so it -- I get where you're coming from, but we would have seen these as two different issues.
 
+.. rst-class:: indented
+
 In hindsight, maybe -- I can accept the point you're making is that maybe the fact that these were starting to occur, we should have perhaps raised them during that, but we weren't -- at the time that Jan wrote the original report and the time that Mike -- we had no evidence that it was -- I'm not being very clear here.
+
+.. rst-class:: indented
 
 What I'm trying to say is we couldn't -- we didn't know what was causing the problem and we didn't know what extent the problem was either.
 
@@ -1139,7 +1171,11 @@ So, I mean, here we are in September 2000 and the approach is "Let's hope for th
 
 **Terence Austin**: No, no.  The data that had been received prior to May, which resulted in Mike suggesting that it should be closed, didn't suggest -- it suggested that we had resolved the issue.  There were still going to be problems because of the sheer nature and scale and complexity of the project, but the original issue which was to do with error and printer handling and cash account balancing, we believed that in the majority of instances, 99 per cent of the -- we had managed to sort it.  That's what Mike was referring to.
 
+.. rst-class:: indented
+
 We knew -- well, we didn't know but, as a result of this, which I had no involvement with whatsoever, but a very obscure incidence of where an archiving programme kicked in, which caused this problem -- it shouldn't do, but it did and it seems to be something to do -- between Riposte and the archiving suite that caused this.  And these are the kind of problems you get in large systems and the idea is to try and track it down.
+
+.. rst-class:: indented
 
 It would appear that what they're saying is this shouldn't happen and it may happen again, but if it does it would be another PinICL.  We would have to look straight into it straightaway, if it happened, is what they're saying.  "Hope for the best" is it should sort itself out in C14, is what he is suggesting.  It's not terminology I would have used but --
 
@@ -1157,7 +1193,11 @@ So in 1998 you were being told that there were hundreds of fixes, code decay, th
 
 **Terence Austin**: The best advice I was getting at the time was that, if we were to rewrite, did we have the -- did we have the people to do it, did we have the expertise to do it and, by doing so, would we run the risk of just creating another problem because one of the reasons why this got into this situation is that we were forced to do rapid application development and, by doing that, you haven't got a functional specification, you've got what we call -- you're talking to people and you're trying to get EPOSS to sit along -- POCL people to sit alongside you and the problem was that we had people who were working in that environment that weren't very professional and weren't very good at their job.
 
+.. rst-class:: indented
+
 So I was convinced by the people that were giving me the evidence that it was a certain part of the EPOSS product that was responsible for a very large per cent -- we say 80 per cent but it could have been 90 per cent.  I was measuring whether that was a good decision by the number and type of PinICLs that we were getting, come the live trial, and that's how I measured, personally, whether that was the right decision to do.
+
+.. rst-class:: indented
 
 If the product had been as bad and Steve, for example, and others had been wrong, then we would never have got to that stage.  We would never have got to the acceptance situation and number of PinICLs.  We would have had a product that we would have had to have rewritten.
 
@@ -1231,6 +1271,8 @@ We know from a report that was sent to the Post Office by project mentors -- the
 
 **Terence Austin**: Well, nowadays it is, but I can't recall -- because RAD, at that time, was quite an immature methodology, I was uncomfortable with it as an individual, as a development person, but I felt that it was still immature and I didn't really understand how you got from A to B and how you got a system that represented what the user wanted.
 
+.. rst-class:: indented
+
 I understood the mechanics but I didn't understand how you achieved a product that would deliver to the customers what they wanted.
 
 **Mr Blake**: Am I right to infer from some of your earlier evidence that you didn't have some faith in some of the technical members of the team?
@@ -1238,6 +1280,8 @@ I understood the mechanics but I didn't understand how you achieved a product th
 .. rst-class:: indented
 
 **Terence Austin**: That's how it -- when I saw -- after requesting the task force, I was extremely disappointed and upset that we had ended up with a product which, on the face of it, looked like it was pretty bad.  So yes, that -- I was then put into a very, very difficult position because, going back to what we said earlier, it's easy to say "rewrite the product", that's the easy option because you can just stand back and say "rewrite it".  That doesn't necessarily mean you're going to end up with something that's better, it just means that you have said that's the right thing to do.
+
+.. rst-class:: indented
 
 Actually trying to get a product and fix it and make sure that it's stable -- and I genuinely believed that we had done that, and so I think that I was comfortable that the fact that we had taken that approach and we succeeded in getting the product -- it had been a very rocky ride, but we had achieved that objective, I believed, genuinely, at the time.
 
@@ -1505,7 +1549,11 @@ Actually trying to get a product and fix it and make sure that it's stable -- an
 
 **Terence Austin**: Well, we put forward our training.  One of the issues that we had with training was that -- and it remained a problem -- personal problem, even though I wasn't responsible for it in the latter part of the programme, but I couldn't -- I couldn't see how you could roll out a system at the pace that we were rolling it out and also train people that had such a wide-ranging capability and I could appreciate that some of the postmasters and postmistresses would be horrified by the implementation of an IT system, especially that one day you're manual and the next day you're fully automated.
 
+.. rst-class:: indented
+
 And I know that we looked at training these people for a long period of time to give them as much information as we could, but the issue was that, by the time they were scheduled to be rolled out, they may have forgotten it, which is quite reasonable.  So we had to bring the training so that it got very close to their implementation, within a week or two, as my understanding because I wasn't really into it -- responsible for it, in order to overcome that issue.
+
+.. rst-class:: indented
 
 But there was still the problem of basic training of IT, never mind the system which was quite sophisticated in what it did, and so how that was overcome and whether it actually was overcome, I don't know.
 
@@ -1520,6 +1568,8 @@ But there was still the problem of basic training of IT, never mind the system w
 .. rst-class:: indented
 
 **Terence Austin**: Well, they put an indicative timeframe and the only way that could be met was if the solution that we had got and we had defined and we wrote it up and we put it in a fully functional -- functional specification and said "That's the system that we're going to deliver in that timeframe".  At that time there were 280 something agreements to agree and we believed that CAPS was ready to go and on that basis we demonstrated what our system was capable of doing and we defined it in a functional requirement.
+
+.. rst-class:: indented
 
 What transpired was that that functional requirement was never approved by BA or POCL.
 
@@ -1540,6 +1590,8 @@ What transpired was that that functional requirement was never approved by BA or
 .. rst-class:: indented
 
 **Terence Austin**: That was not in the nature of the contract, with respect.  You don't -- when you're carrying the risk then the customer is taking a view that they wish to transfer the risk to a supplier and that supplier then defines the system in the way that they want to define and therefore it's not a waterfall approach, it's not a standard contract.
+
+.. rst-class:: indented
 
 You needed a fully functional requirement in order to do that.
 
@@ -1873,6 +1925,8 @@ Just help us a little bit, please, with your understanding of that.  What was yo
 .. rst-class:: indented
 
 **Terence Austin**: Absolutely, I understand the importance -- I absolutely understand the importance but nobody said or asked me, or laid down in writing what was required in order to meet that requirement.  That's in a contract, with respect, that's not in a business requirement.
+
+.. rst-class:: indented
 
 I delivered things to a business requirement. That's a document that says "These are our business functional requirements".
 
@@ -2247,6 +2301,8 @@ In fact the Benefit Payment Card was scrapped in May 1999, wasn't it?
 
 **Terence Austin**: That -- yes, I have put May 1999:
 
+.. rst-class:: indented
+
 "In fact, when the DSS made the decision to cancel the project in May 1999~..."
 
 **Mr Henry**: Exactly.  So very little functionality for POCL, and you give the explanation in paragraph 9, because it really was because DSS was the dominant partner and the Benefit Payment Card was the priority and so therefore the BPC had taken precedence.  Do you see your exact words:
@@ -2377,7 +2433,11 @@ In fact the Benefit Payment Card was scrapped in May 1999, wasn't it?
 
 **Terence Austin**: No, I did say that.  I just want to clarify.  What we said was that we could stabilise the product.  We couldn't fix everything, we could stabilise the product by targeting the 80 per cent because 80 per cent of the bugs and defects were due to a particular area of the system and we attacked that.
 
+.. rst-class:: indented
+
 We also attacked the others, but -- and fixed a lot of problems in those areas, but the instability issue and the not fit for purpose was mainly due that people were seeing so many large amount of errors that they were using that as a yardstick to determine whether the project was fit for purpose or not.
+
+.. rst-class:: indented
 
 So if you fixed the 80 per cent, you were then left with the 20 per cent, of which a lot of them you did fix but, overall, the product was becoming more and more stable.
 
@@ -2575,6 +2635,8 @@ Could you confirm your full name, please?
 
 **John Bennett**: 1994 and 2000.  In 1994, I took over the responsibility for managing the ICL team, which was bidding for the BA/POCL PFI contract, so it started as a pre-sales exercise.  It ran -- took about two years for the contract to be eventually let.  The contract was eventually placed with ICL.  I continued to work on that contract.
 
+.. rst-class:: indented
+
 The company was reformed as ICL Pathway in --
 
 **Ms Kennedy**: I think that happened -- sorry, I was just going to say I think that happens in 1995 --
@@ -2595,7 +2657,11 @@ The company was reformed as ICL Pathway in --
 
 **John Bennett**: Well, it started, of course, with two major customers, two major clients, and they both had somewhat separate but joint agendas -- well, they joined up, but the essential feature for Post Office Counters was to fully automate their extensive network of post offices, which, until that time, was still running on mainly manual, paper process.  So they needed to automate their entire network, for one thing to deliver their existing services but, more importantly, to build a platform for future business within the Post Office network.
 
+.. rst-class:: indented
+
 The Benefits Agency, which were, of course, a -- and had been for a long time -- a customer of the Post Office Counters needed to develop a new and more automated system for the payment of benefits and the contract called for a Benefit Payment Card to achieve that, and the key driver there was a more efficient system but perhaps, even more importantly, a system which had a substantially lower element of fraud.
+
+.. rst-class:: indented
 
 So the two customers were joined together to both deliver their separate business objectives.
 
@@ -2679,6 +2745,8 @@ What did you mean by that last sentence, that there is a sense of the procuremen
 
 **John Bennett**: I think there was quite a big issue here which reflects later through the documents -- and perhaps you will review -- which was that we were dealing with what was essentially a PFI contract and a PFI contract being let for a complex IT bespoke system was something I hadn't experienced before.  And there was a conflict beginning, I think, to build up between how you could achieve a PFI contract with all the risk transfer requirements, alongside how and who had responsibility for design. And, I think, somewhere in here that is an element of where the procurement became difficult.
 
+.. rst-class:: indented
+
 It took a long time for the procurement to complete. It was -- I think I said over two years, which is an awful long time for a IT procurement and I think a lot of it reflected the difficulty of letting a PFI contract.  This was not a standard IT supply or even service contract, and the whole basis of it required a lot of hard work and difficulty in the procurement phase, and I think it's -- I just say here, and even when that procurement eventually became a contract, the contract documentation was still in many ways incomplete and had to be dealt with by all the parties post-contract.
 
 **Ms Kennedy**: Yes, and if I can ask you to turn to a board minute from 1996.  If we pull it up, it's FUJ00077839.  This is a board meeting on 21 February 1996 and if we turn to page 2, please, and if we can pull up this second paragraph, thank you.  In that second paragraph, picking up on this point that you mentioned, you say:
@@ -2707,7 +2775,11 @@ That's why you couldn't find it, and it's the last bit of the second paragraph, 
 
 **John Bennett**: Yes, and it's accentuated by the fact that, being a PFI contract as the provider, then we would only begin to earn revenue from the contract during the steady state or operating phase of such a contract, and the longer the procurement -- or the longer it took post-contract to sort out these outstanding issues would quite naturally delay the time by which we could enter steady state and, by implication, how we could get our returns from this substantial investment.
 
+.. rst-class:: indented
+
 So one thing is delaying the contract but equally important is the issues left unresolved in the contract, which still have to be sorted out and you -- later on, but perhaps it is worth mentioning now, we entered into a situation where there was a -- things called agreements to agree, you will find this percolating through a lot of this documentation.
+
+.. rst-class:: indented
 
 An agreement to agree was a sort of legal camouflage for hiding difficult issues.  It said that the parties would use reasonable endeavours to sort out things they couldn't sort out during the contract negotiation but, by their very nature, it led to delay and difficulty for everyone and I would say that we didn't get to the bottom of agreements to agree for quite a few years.
 
@@ -2761,7 +2833,11 @@ An agreement to agree was a sort of legal camouflage for hiding difficult issues
 
 **John Bennett**: I can't really pick out the chronology of that, but what I can say is that in mitigating this risk we took, either at this stage or perhaps later, I'm not sure, a number of actions to mitigate this risk, for example one I remember doing, we took their entire source code of their software and put it into escrow account, such that if anything happened to the company we would have access, at least at source code level, to everything they had provided us with.
 
+.. rst-class:: indented
+
 We also -- and I suspect it was probably a bit later than this -- did draw up a comprehensive teaming agreement which spelled out what their responsibilities and ours were and how we should handle it.  That was a help.
+
+.. rst-class:: indented
 
 We also, and I guess it's probably later than this as well, did allocate key staff to go to Boston, which was where Escher was based, to work directly within their team to learn first-hand elements of their software.
 
@@ -2776,6 +2852,8 @@ We also, and I guess it's probably later than this as well, did allocate key sta
 .. rst-class:: indented
 
 **John Bennett**: We had -- our knowledge of Escher wasn't just going to Boston.  We had knowledge of Escher through the work and our association with the Irish Post Office, An Post, and one of the key directors of An Post was actually at an early stage, I think, on or attended our board meetings, which were used to supervise the project.
+
+.. rst-class:: indented
 
 So yes, this visit to Escher was, as you say, in April, but we had access to and knowledge of Escher, particularly through An Post, probably -- this is April 1996, probably -- maybe up to -- certainly well into 1995, so we had access and knowledge of Escher starting in 1995, perhaps even earlier, I can't recall.
 
@@ -2797,13 +2875,23 @@ So yes, this visit to Escher was, as you say, in April, but we had access to and
 
 **John Bennett**: I think in my statement I highlight three areas, all of which contributed to the delay in rollout.  The first one, which I referred to, is the difficulties we were having within Pathway in designing and completing our software development.  Those problems caused delay and we had to take action to deal with them, so that was one cause of delay.
 
+.. rst-class:: indented
+
 Another cause of delay, which I have already hinted at and referred to, was the fact that this was a PFI contract with a very unclear baseline when the contract was set and those requirements -- there was a phase which I seem to think was called "drop down", which is a bit of an ugly phrase, but it reflected the fact that everyone knew that the contract, although it was let and was in about four lever arch files thick, was incomplete and drop down was a process defined whereby those missing pieces could be sorted out.
+
+.. rst-class:: indented
 
 In actual fact, they weren't sorted out in the three months allowed for drop down and they -- many of them weren't sorted out even after six months, which was an extension and, as I said earlier, it still left a huge number, or a large number of agreements to agree which continued to be addressed well after the drop down.
 
+.. rst-class:: indented
+
 So the PFI contract -- I think I might say it now, if I don't say it later, I think was totally ill suited to this contract but none of us at the time spotted that.  Anyway, PFI itself caused delay as we struggled to understand the design processes and the clear statement of the requirements.  We were developing a system and writing software against a moving baseline.
 
+.. rst-class:: indented
+
 And the third issue -- I have developed two -- the third issue was, I think, a recognition that everything Pathway did was equally dependent on large development work taking place both within the two clients.  The Benefits Agency had a huge amount of work to do in preparing themselves for their new Benefit Payments System, as indeed did the -- and the Post Office themselves, Post Office Counters had massive development work as well, and there were dependencies and interdependencies between all three parties.
+
+.. rst-class:: indented
 
 Each of us had to interface with each other, take information from and deliver information to, in order to eventually deliver an end-to-end service.  So the delays were of those three components.
 
@@ -2813,7 +2901,11 @@ Each of us had to interface with each other, take information from and deliver i
 
 **John Bennett**: Perhaps -- only in, perhaps, outline really.  A small number -- and it was a small number -- of post offices were selected to be the first post office to use the new system for benefit payments.  As I remember, the first benefit which was available through the new Benefit Payment Card was child benefit.
 
+.. rst-class:: indented
+
 The other benefits were not -- were yet to be developed by BA but, for Initial Go Live, the Child Benefit payment was available and was able to be used in those selected post -- and I think, at some point, something like 40,000 beneficiaries on Child Benefit were able to collect their Child Benefit payments using the Benefit Payment Card through that selected number of post offices.
+
+.. rst-class:: indented
 
 I might not have it absolutely right, but that's the sort of -- my understanding of what happened in 1990 -- I don't know what -- '98, was it?
 
@@ -2901,13 +2993,23 @@ So, at this stage, you seem to be suggesting that rollout can happen reasonably 
 
 **John Bennett**: Well, I can try.  I mean, it goes back to something I was saying earlier, which is this contract was unusual in having two customers and one supplier.  Most of my experience of IT contracts with government were you had one customer and one supplier and you dealt directly between the supplier and the customer in all aspects of the contract and contract delivery.
 
+.. rst-class:: indented
+
 Now, in the case of this PFI contract, that didn't function, so instead -- and this is something which the contract documentation, early on, didn't really specify in any details -- there was a need to create a new organisation called the PDA, which sat above and in-between the supplier and the two customers.
+
+.. rst-class:: indented
 
 So the PDA was a new organisation, staffed from both BA and POCL, and it was put in place to really discharge the contract on behalf of both customers, but in many ways it did actually sit between us and the customer and it got quite large and I think you will -- maybe you will come to this later on -- there were -- but I will mention it now -- there was a major review -- this is 1997, it wasn't soon after this, it was a major review, external audit, carried out by the PA Consulting group which I -- which looked at the entire range of project Horizon.
 
+.. rst-class:: indented
+
 And they addressed this issue of the PDA and its size and, I think, echoed some of the comments I have just made, that it was a large organisation, it was interceding between us as a supplier and the two customers and it didn't have -- and this I think is quite important -- any executive authority, by which I mean it could press ICL Pathway to do things and it could disagree with what we're doing and it could point out the things we hadn't done.
 
+.. rst-class:: indented
+
 But when it came to making decisions about change or things which would affect the so-called sponsors, this case BA -- it always had to revert back to the two customers, so that process of interceding did actually take a lot of time.
+
+.. rst-class:: indented
 
 So if there were critical issues which needed rapid resolution, we might be able to agree to them within ICL Pathway, but PDA could not agree to them itself, it had to revert back to the sponsors.  So you will often find, in a lot of the documentations, the "This will be reverted to the sponsors for agreement" and indeed it was but it was a process which took time.
 
@@ -2963,7 +3065,11 @@ Can you tell us a bit about what that site visit involved?
 
 **John Bennett**: This was something we started quite early in the process, probably after contract I guess, but quite early in the process and I determined that it would be very useful to have a comprehensive monthly report of everything we were doing in Pathway and to construct -- and I -- and to construct that report I got every one of my direct reports, obviously, to send me their input. I would consolidate their input and write a management summary.
 
+.. rst-class:: indented
+
 And that report -- as I think you've got quite a few of them in this bundle -- would often run to 20 or 30 pages of information and that report was sent both to my boss, which was the chief executive of ICL, it was shared with all my direct reports and it was also shared with other people who needed it, for example we had a dedicated team from Fujitsu from Tokyo with us, for quite a time, who came to work with us later on in the process and they had a copy of this report.
+
+.. rst-class:: indented
 
 Since it was sent to all my team, it meant that all my team, not only knew what their contribution this last month had been, but they could see quite clearly what the contribution of all their colleagues had been.  So I looked upon it as a very important piece of communication and I continued it every month for, I think, quite a few years.
 
@@ -3049,6 +3155,8 @@ Do you see that there?
 
 **John Bennett**: It was a vital part of the programme for Post Office Counters and it was -- and I think I might have mentioned this -- the service, the EPOS Service was an end-to-end service, so it reflected not only what we were doing but it reflected what was happening across the interfaces with the work done elsewhere, particularly in this case, or later on with Post Office Counters.
 
+.. rst-class:: indented
+
 So it was a complex product.  It had extensive end-to-end implications.  It involved an awful lot of people and we, in our responsibility, had our own problems in delivering our side of that picture as well.
 
 **Ms Kennedy**: If we could turn up a PDA minute.  If we could pull up POL00028311.  This is another PDA board minute.  If we could scroll down, this is, as I say, from August 1997. The first item is:
@@ -3060,6 +3168,8 @@ So, at the same time that the EPOSS issue is being reengineered, you're also bei
 .. rst-class:: indented
 
 **John Bennett**: Yes, I mean, this is a different but a major strand of the programme, which is the more practical -- well, I say practical, it's the more physical end of the programme, which is the fact that the software and the equipment associated with it needed to be installed in either 17,000 or 19,000 post offices.  The number I think came down during the period, but even so it was getting on to 20,000 outlets.
+
+.. rst-class:: indented
 
 I have to say on this that the information available to Pathway at the contract stage about the state, physical state, of the Post Office network was very slender, very thin, one might say very thread bare, and it was only -- and we weren't, I think -- and I might have this slightly wrong, but we were not -- not only us, but the other shortlisted suppliers as well -- we were not encouraged or allowed during the sales campaign, during the procurement phase, to see for ourselves what a typical or a range of post offices might actually look like, in reality.  That was something which was not to be available until post-contract.
 
@@ -3074,6 +3184,8 @@ I have to say on this that the information available to Pathway at the contract 
 .. rst-class:: indented
 
 **John Bennett**: Oh, I think so, although I dare say this wasn't the highest thing on our list.  We rather took it that the post offices would be suitable for automation and the Post Office Counters themselves would have told us in advance if they themselves had serious doubts that their estate was not or had defects or difficulties.
+
+.. rst-class:: indented
 
 So we relied, I guess, on any information from the Post Office and took on -- perhaps on trust or however you might describe it -- the view that the network would be in good condition.
 
@@ -3115,6 +3227,8 @@ Were you surprised when you received this?
 
 **John Bennett**: One of the -- let me just stand back from that a bit. One of the constant themes in this contract -- it didn't just start with this position paper, it started very early on, which was somewhat disappointing that so much correspondence between the sponsors and Pathway was always headed "Without Prejudice".  This is, for me, quite unusual because, in most contracts, or most IT contracts I have been involved with, the contract, once it had been signed, was normally put to one side and everyone worked on delivery.
 
+.. rst-class:: indented
+
 I don't recall in my previous roles ever constantly having correspondence which is always without prejudice. It was an unusual feature of this contract and this is perhaps another example of it.
 
 **Ms Kennedy**: So the fact that it is headed "Without Prejudice" didn't impact or affect the information that you fed into this document?
@@ -3153,7 +3267,11 @@ Was that something you also fed into?
 
 **John Bennett**: Well, I think I was talking about that a few minutes ago, so, yes.  I mean, what -- just what we did, as soon as we were beginning to draw up our plans for rollout, we made a point of visiting every single one of the 19,000 post offices to do our own survey, on the grounds that there were no other survey reports to work from.
 
+.. rst-class:: indented
+
 So within this contract -- I don't know whether we anticipated it at pre-sales time, I suspect we didn't, but, as soon as we started, it was clear that, since we had to install this equipment, we had to do our own surveys.  And we did survey every single office to determine did it have the physical attributes to take even the limited computer equipment we provided, did it have sufficient power supplies to drive those devices, did it have the capability to be connected to a network and how much work, by whom, needed to be done to bring it up to a satisfactory state.
+
+.. rst-class:: indented
 
 That was a job which fell on ICL Pathway to do and we did it for every office.
 
@@ -3221,7 +3339,11 @@ So, as at July 1998, the EPOSS issue is reaching a point where you are needing t
 
 **John Bennett**: Well, in 1998 -- particularly in 1999, which I remember better, we embarked upon probably several technical audits and one technical audit was indeed to do with this task force, looking at the development of EPOSS. This technical audit was produced for my development director.  It was he and his staff who were writing the software and this audit report was produced for him and his team.
 
+.. rst-class:: indented
+
 And if you look at my report, which you have done, you will see it was sent to a lot of people and I indeed was sent a courtesy copy so, in a sense, I was sent a copy of this task force report.  But, being an audit report, it was sent to my development director and his boss, which is the overall programme director.
+
+.. rst-class:: indented
 
 Now, the principle in Pathway was that if we had an in-house audit then the process was that when the audit report was completed, all those recommendations would be reviewed by the responsible directors and the corrective actions would be registered, recorded and were placed with owners.  And I think you will find that, as far as that task force report was concerned, that's exactly what happened and the corrective actions from that task force report were recorded, owners were placed and there is a record of that in this bundle.
 
@@ -3267,11 +3389,19 @@ That's quite a crucial issue that you have identified in that report, isn't it?
 
 **John Bennett**: Yes, I think it is.  I think it begins to draw us to the understanding that the complete delivery of this aspect of EPOSS, which is the critical one to do with the accounts and the balancing of these accounts, required quite a lot of activity across a wide spectrum.  It clearly involved Pathway and what we were doing, but it required -- and it hasn't been -- well, it's referenced a little bit in the document you pulled up a little while ago.
 
+.. rst-class:: indented
+
 It relied, to start with, by very good input to us from the reference data system being developed within POCL and I think, if you look at the correspondence, in order to address these end-to-end issues, we do advise a thorough review of the end-to-end process.  I think people probably understand that, to produce accounts in the Post Office, you need to know how much you are charging for individual products being sold.  Now, it's a very similar -- I'm not an expert on reference data but, in its simplistic form, we relied on reference data to tell us the status and pricing of every product to be transacted across the counter.
+
+.. rst-class:: indented
 
 And, if you think about it, taking a very simple example, if the Post Office changes the price of, let's say, a First Class stamp -- it sounds very easy and it's probably the simplest product to think about -- what we have to do is to make sure that every single one of the maybe 40,000 counter positions in perhaps 19,000 post offices, uses the new price at exactly the same time and that's just one simple product and, of course, there are hundreds -- I don't know how many, but there were several hundred products which are marketed through the Post Office network.
 
+.. rst-class:: indented
+
 And to get the accounts right at the end of the day or the end of the week, every single product has to have its exactly right price at the right time and I think it was recognised that -- and this isn't from a Pathway audit, but I think it came out from other audits, that just as much as we had work to do in Pathway, there was a lot to do, to do with the integrity of the reference data information which would impact on the ability to produce good accounts at the end of the week.
+
+.. rst-class:: indented
 
 So that was a factor, but I think overall this paragraph does draw you into the complexity of getting end-to-end EPOSS working at the level everyone wanted.
 
@@ -3281,11 +3411,19 @@ So that was a factor, but I think overall this paragraph does draw you into the 
 
 **John Bennett**: Well, I'm not trying to dodge the issue that we had problems ourselves.  We had a lot of problems and you have referred to those earlier but another end of the EPOSS service is, of course, what happens in the post offices themselves and that, I think, takes you into a broader issue, which is to do with the adequacy of the training for the staff who had to use the system.
 
+.. rst-class:: indented
+
 We were contracted to provide substantial training to staff, both the managers and, indeed, the other staff operating the system, but this was -- has often been referred to as a major management of change programme and whether it was sufficient to rely just on technical training on how to use the system to really cope with the issues of helping 30,000 people with a variety of skills, fears and motivation to use the system well is a big challenge.
+
+.. rst-class:: indented
 
 And I think -- my understanding, my knowledge of the EPOSS system end to end is that parts of it were well used and people liked, which was the daily transactions, the ability to construct -- to register a transaction during the day when dealing with people across the counter, in other words the interaction across the screen.  I think that system, from my recollection, was generally well used and well liked.
 
+.. rst-class:: indented
+
 The real weaknesses, which is what you have pointed to, were really to do with the end-of-week accounting process, which proved to be, for many people, very difficult.
+
+.. rst-class:: indented
 
 It was perhaps my understanding -- I admit I might have this wrong -- that the question of balancing had been a big issue well before Pathway introduced EPOSS. In other words, the paper-based system which pre-dated the Pathway or the POCL system was never an easy system to use at that time and required -- I might have this wrong and I'm perhaps talking outside my knowledge, but I think balancing at the end of the week had never been an easy thing to do.
 
@@ -3387,7 +3525,11 @@ So, at this stage, there's the suggestion that EPOSS should be rewritten; isn't 
 
 **John Bennett**: Well, I'm aware of this -- only by reading these reports.  I have read this report and I think under "Actions" you can see that the view of my -- I don't know, is this the one?  Yes, the view of my development director, which it says here at the end:
 
+.. rst-class:: indented
+
 "We will ... continue to monitor the PinICL stack ... and ... re-evaluate this decision.  Would [you] please close this issue formally using the rationale described."
+
+.. rst-class:: indented
 
 So that was the assessment of my development director and that was accepted by his boss the programme director.
 
@@ -3418,6 +3560,8 @@ So, at this stage, this issue is causing you still a great deal of concern?
 .. rst-class:: indented
 
 **John Bennett**: Well, I think, as we said earlier, we thought that there was work we had to do with our software.  We had a lot of discussion about how the training facilities with Post Office based staff should be improved or augmented and I think it called for a new set of training courses to help people with -- I think there's new documentation, as well, for guidance and guides how to use the system.
+
+.. rst-class:: indented
 
 There was plenty of opportunities for user errors in running the end-to-end system, which we thought had to be dealt with.  So you had a component in the Post Office themselves with how the staff can be helped to use the system, you have problems in the use of software -- and it's not recorded here, but I know there was an issue concerning how long it took to print-out reports in the post office itself, which was a source of concern -- and then there was, as it says here, stronger end-to-end control of reference data.  So there were plenty of steps in this process where improvements could be made, a number of them obviously were with ICL Pathway.
 
@@ -3451,7 +3595,11 @@ So we have seen all of this before but if we could turn over the page, and you c
 
 **John Bennett**: No, I can't fill in the gap, but I can notice that you will see that this report was actually sent to my successor, Mike Stares, so he is on the distribution list for this and you can further see that Mike Coombs, who was the programme director to whom the development director reported, really supported the previous view of my development director that this code should not be redesigned or rewritten at this time.  In fact, Mr Coombs makes it more clear in that final paragraph of actions -- let me just have a look:
 
+.. rst-class:: indented
+
 "Effectively as a management team we have accepted the ongoing cost of maintenance rather than the cost of a rewrite."
+
+.. rst-class:: indented
 
 And I think that was the judgement of my programme director and I -- although I wasn't, as you say, on -- in post in May 2000, I would have supported his judgement.
 
@@ -3522,6 +3670,8 @@ I want to ask you about what you say about visibility of Pathway's activities.  
 
 **John Bennett**: Well, first of all, I don't -- I mean, your original comment about audit data, I didn't realise that this wasn't available to Post Office.  It was captured by Pathway because we captured everything which went on, so I could see why people would want access to it, I can understand that.  I can't understand why it wasn't available.
 
+.. rst-class:: indented
+
 Taking your second point, can I think of any other areas, well, I dare say someone will find something which we didn't pass on but I would make the general point that, under my direction, most of my staff operated a very transparent process of the work we were doing and the problems we were having and we would share them as appropriate with people who needed them.  This was a technical programme to get right and there was no value in not sharing critical information.  So I can't -- I can't think of anything, no.
 
 **Mr Jacobs**: That's helpful, and perhaps you might not be able to answer my next question, but I will ask it anyway.
@@ -3543,6 +3693,8 @@ You said in your evidence today that you were working very closely with Post Off
 .. rst-class:: indented
 
 **John Bennett**: Because, I think as we discussed a lot earlier, most of our contact with the Post Office had to be through the PDA.
+
+.. rst-class:: indented
 
 We had very little direct, technical programme contact, directly with the Post Office themselves. I think the PDA was our source of interface.
 

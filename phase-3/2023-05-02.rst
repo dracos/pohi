@@ -248,6 +248,8 @@ In the answer that you just gave, you said that someone somewhere around the wor
 
 **Anne Chambers**: That's right, yes.  I had been doing -- it was usually called fourth line support, so people would have already checked for published known errors, and things like that, although sometimes things got through.
 
+.. rst-class:: indented
+
 Once I moved on to the Post Office work, I was third line support, where we were doing a great deal of the investigation but we would not actually be fixing the problem ourselves, and not necessarily finding the root cause of the problem ourselves.
 
 **Mr Beer**: Can I look at this early stage, before October 2000, and your early involvement in Horizon. You tell us in your witness statement, paragraph 3 -- no need to turn it up -- that from 1997 you did some coding and support in respect of part of the new Pathway system for the Post Office; is that right?
@@ -481,6 +483,8 @@ Is what we see here evidence that fixes designed to address errors could themsel
 .. rst-class:: indented
 
 **Anne Chambers**: It was -- it wasn't developed as a fix.  It was something that existed that we could use, and I think it was initially for -- possibly for testing.  I don't think it was called CAS\_MEND originally but it was something so we could put an entry in a table to say "Look, here's a file", to get over this error condition but that shouldn't have ever been a long-term fix to the problem.
+
+.. rst-class:: indented
 
 But sometimes if you had to choose between doing something like that that would then have to be documented as an unscheduled sort of a change, if you could either do that or a whole day's benefit -- Child Benefit payments couldn't go through, then that's something that has to be weighed up against each other.
 
@@ -788,6 +792,8 @@ Can you assist as to why the use of what I've described as the fix could prove a
 
 **Anne Chambers**: I think so.  It's really hard to remember definite numbers, especially because, towards the end of that time, partly we were taking on some extra bits of workload, non-Pathway stuff, some other teams that had been elsewhere in Pathway were now either part of SSC or at least sharing the same floor space as us.  So it's a little difficult to remember who was where and which team.
 
+.. rst-class:: indented
+
 I'd also say that I think the numbers reduced a bit before HNG-X and then I think we got more people on board then when the new system was rolled out everywhere in 2010.
 
 **Mr Beer**: So decreased before Horizon Online?
@@ -1006,6 +1012,8 @@ Did you know, when you joined, that the quality of the EPOSS code, based on, as 
 
 **Anne Chambers**: Um, I don't think I thought of it in those terms at that point.  You know, this was what we were looking after.  We dealt with whatever came up and, where necessary, we passed things on to EPOSS.  I can't remember in those very early days -- when things were still potentially settling down after the rollout, the only thing that I can remember is that there were -- I can remember one call in particular to do with a cash account production, where it was very difficult to get to the bottom of the problem and to work out what the numbers on the cash account should actually have been, and so on, and I think there was someone called Steve Warwick, who I think was involved in trying to help out with that.
 
+.. rst-class:: indented
+
 So I remember that as just one particular call where there was a particular problem and difficulty and I cannot remember what the root cause of it was.
 
 **Mr Beer**: But you didn't have an overarching view of EPOSS, that it was a problematic or troublesome system?  The Inquiry has heard some evidence already, in its Phase 2, as to the views of some of those within Fujitsu and Post Office --
@@ -1031,6 +1039,8 @@ So I remember that as just one particular call where there was a particular prob
 .. rst-class:: indented
 
 **Anne Chambers**: It didn't fall over.  People weren't reporting, "Oh, I've pressed this button to sell a First Class stamp and it's sold", I don't know, something else instead.  We weren't getting large numbers of calls from people saying, "Oh, we did this and it's not there", and so on.
+
+.. rst-class:: indented
 
 So I think it's -- you know, it's hard to put it into words, but we weren't getting, if you like, the feedback from the live estate that it -- that there were a huge number of significant problems.
 
@@ -1087,6 +1097,8 @@ So I think it's -- you know, it's hard to put it into words, but we weren't gett
 .. rst-class:: indented
 
 **Anne Chambers**: I almost certainly talked to him.  I think I did talk to him.  To start with, as I said, we were quite a self-contained team and, if we wanted to pass a ticket on to fourth line because we thought there was a code problem and they needed to investigate further, then the way of doing that was just to assign it on PEAK, so it got passed through.
+
+.. rst-class:: indented
 
 As time went by, I have always liked to try to develop some sort of relationship between teams and so, certainly, once the development teams had moved into Bracknell, then I would quite likely walk down a flight of stairs and go and talk to them about something, rather than just saying, "Oh, well, it's off my desk", and passing it on to them in that way.
 
@@ -1246,6 +1258,8 @@ Then you set out three bullet points.  So the first one, is that the branch data
 
 **Anne Chambers**: I don't think it was.  We wouldn't -- the long-term event archive was very rarely used. We didn't -- I didn't know it was there until 2006.  The stream that went through Tivoli we could look at and I cannot remember if that had anything behind it that did secure that for any length of time.
 
+.. rst-class:: indented
+
 If we pulled an application event log direct from the counter or the psstandard.log direct from the counter, I'm not sure that was recorded anywhere that we had done that.
 
 **Mr Beer**: Was nothing done to ensure that the retrieval of data from these two sources was recorded and was undertaken in a secure, auditable way?
@@ -1293,6 +1307,8 @@ If we pulled an application event log direct from the counter or the psstandard.
 .. rst-class:: indented
 
 **Anne Chambers**: If the ticket needed further investigation and was going on to fourth line, then, yes, the event log would be attached to the PEAK, along with the message store, and anything else we'd found that looked useful because the SSC were the only team who could get this information out of the live system, so we were expected to get what we could because then that was all that fourth line support would be able to look at to try to find the root cause, and so on.
+
+.. rst-class:: indented
 
 If our investigation didn't find anything further that was needed, for example it was another instance of a known error or something else, then these probably wouldn't be saved.
 
@@ -1494,6 +1510,8 @@ Mrs Chambers you said before the break that when a ticket would come in, you wou
 
 **Anne Chambers**: Because of our knowledge of the system and the things that we had individually looked at before and whether the KEL said this has happened here, here and here, and what the implications of the problem were.  I mean, in some cases, you would -- yeah, sorry, I'm finding this rather hard to answer sensibly because it's not -- you know, if you gave me -- if ...
 
+.. rst-class:: indented
+
 So if we're -- you're saying a new problem has been -- well, an existing problem is there, we have another call about an existing problem, would I always go and see how many instances there had been?  It would depend what -- whether it was something that each instance could be dealt with sensibly, individually or whether we felt it was part of a, you know -- there was a bigger picture that needed to be identified.
 
 **Mr Beer**: Okay, I'll move on but I'll come back to that later.
@@ -1555,6 +1573,8 @@ Yes?
 .. rst-class:: indented
 
 **Anne Chambers**: Because when I or one of my colleagues looked at the information and the problem, we could see that it wasn't the right one and that there was a better one.
+
+.. rst-class:: indented
 
 I mean, we -- we wouldn't have started our investigation only by looking at the KEL that had been pointed out to us.  We would have looked at all the evidence available.
 
@@ -1618,6 +1638,8 @@ I mean, we -- we wouldn't have started our investigation only by looking at the 
 
 **Anne Chambers**: A specific balancing problem.
 
+.. rst-class:: indented
+
 The more information that the postmaster could provide, the more -- the easier it was, obviously, for us to focus and look at a particular area of concern.  And sometimes -- I don't know, we'll see examples of this, problems with rem in and rem outs.  They realised very quickly that something had gone wrong while they were doing that and so then obviously we'd always pull back the complete message store, which contained roughly a month's transactions.  That varied at different times but we're talking about a month's transactions.
 
 **Mr Beer**: Just to stop you there, was that the typical period that you personally would seek data for?
@@ -1638,6 +1660,8 @@ The more information that the postmaster could provide, the more -- the easier i
 
 **Anne Chambers**: If -- the NBSC were meant to have taken them through, to question them fairly strongly to see if there were any user errors that might have caused this.  If we got a -- this type of call, and there was no sign that it had already been through NBSC, then it might well be passed back but we would normally expect the first or second line to have said, "Hang on, you need to go and talk to NBSC first".
 
+.. rst-class:: indented
+
 So, by the time it came back through to us, I would almost always -- I would have a look anyway just to see what I could see.
 
 **Mr Beer**: Did you have a methodical process that you applied to each ticket, in terms of steps of investigation that replicated itself time and time again or was it dependent on the nature of the issue identified in the ticket?
@@ -1652,13 +1676,23 @@ So, by the time it came back through to us, I would almost always -- I would hav
 
 **Anne Chambers**: Yeah, you opened it up and it's this absolutely enormous text file so we used a fairly good text editor that would let us highlight, search things, highlight lines, pull out all the lines that we'd marked.  So for a discrepancy call, where we weren't given any other clues, I would highlight all the product 1 lines -- product 1 being cash -- pull them out, put them into a spreadsheet which I'd developed a bit, that then -- so instead of just a very long, very hard to read text line, it would pull out fields of interest, which obviously would be value, the mode in which this transaction had been done.
 
+.. rst-class:: indented
+
 I would then do a column with a running total to give you the system cash position at any point in time.  So if you say at the start of the week the postmaster has balanced, so he's declared how much cash he's got so you have to, you know, at some point assume that that was correct, so you've got a starting position, you can then work out your system cash position as you go through by adding on all the cash transactions that have taken place.
+
+.. rst-class:: indented
 
 Then, at the points at which the postmaster declares cash or declares his overnight cash holding, you can see two other figures -- well, at least one.  You can see what he or she has declared that they are holding at that point, and if it's declare cash or an overnight cash holding where they calculated the difference, you can also see what the system calculates the cash to be at that time.
 
+.. rst-class:: indented
+
 So going through a week or a month, you've got all these points where you've got two or three figures that you can compare to see how in line they are.  Now, if you've got a difference between the first -- your own running system total and the cash total that the system has calculated at that point, if those are different, then you have a system problem because -- of some kind, which you can then investigate and see, well, I think the system cash should have been this but the system is that.  Why are they different?  What's not been included?  And so there are some of the bugs that are covered which would fall into that category.
 
+.. rst-class:: indented
+
 And also, if you're -- yeah.  I'll go back to that.  But then you've got the comparison between what the postmaster has declared he's got and what the calculated figure is, and that is your discrepancy, which you're then looking for a cause for.
+
+.. rst-class:: indented
 
 Now, if you've done this over a week, sometimes you can see it's in step, as it should be, these figures are all in step, except for one day suddenly it jumps and suddenly you've got a discrepancy of £2,000.  So then, on that day, you look at all the transactions to see if you can see anything, either system error or user error, that could possibly have caused a discrepancy of £2,000.
 
@@ -1673,6 +1707,8 @@ Now, if you've done this over a week, sometimes you can see it's in step, as it 
 .. rst-class:: indented
 
 **Anne Chambers**: Well, you can look.  If you can -- if you can see something like a rem of the same pouch has gone in three or four times, then that's fairly likely, either the postmaster has been -- got really carried away and has scanned the thing several times, which shouldn't be allowed to happen anyway, or it's a good working hypothesis that you have some sort of system error with that.  So then you need to look and see exactly what has happened.
+
+.. rst-class:: indented
 
 But if you look at all these -- I mean, you'd start out just by looking at the cash transactions and the different modes.  If you can't see anything anywhere that gives you any sort of a clue, it doesn't seem to be particularly on one particular day or anything, you may not be able to -- in those cases -- and it did happen -- if there's no sign of any system error, the calculated system figure is correct, all that is wrong is the difference between the system figure and what the postmaster says -- has declared that they've got, then, unless you've got the knowledge of what has taken place at the branch and have some way of checking that what is recorded on the system actually matches what happened at the branch, then you are not going to get any further.
 
@@ -1850,6 +1886,8 @@ You said in the course of your reply there "they", that's the times, range from 
 
 **Anne Chambers**: Um, hundreds, I think.  I can't exactly remember but I did -- we got calls coming in about it. I haven't recently seen any call that I sent off to development but I'm sure we did, and the initial response that we got back from development was "Oh, well, it was agreed with Post Office that, um, it wouldn't take more than four times as long as" -- because they used to have to roll over every week.  So now they're only having to roll over once every four weeks, although they can still roll into a new balance period each week, and apparently it had been agreed that, as long as the overall process was no longer than four times what it had been previously, that would be all right.
 
+.. rst-class:: indented
+
 But, in practice, it was having a big impact on branches, which I was well aware of.
 
 **Mr Beer**: What kind of delays are we therefore talking about?
@@ -1981,6 +2019,8 @@ You'll see under the summary two lines above, what the summary of it is, namely,
 .. rst-class:: indented
 
 **Anne Chambers**: Right.  So the transactions are written to the message store on the counter from where they replicate to the message stores at the correspondence servers.  Overnight, processes run to harvest transactions so they can be sent on to various sources.  So, for example, all the bill payments would have to go off to the various companies whose bills are being paid; all the EPOSS transactions were harvested along with others to go to Post Office.
+
+.. rst-class:: indented
 
 In this case, for some reason it's trying to harvest a message for EPOSS, and I can only see this top bit so far, but the message written on the counter presumably does not have the mode field which should have been included in it.
 
@@ -2347,6 +2387,8 @@ So in this PEAK, we see how a multi-branch issue involving discrepancies was sug
 .. rst-class:: indented
 
 **Anne Chambers**: It could do, although I would say -- I mean, I wasn't just looking at the calls that I had dealt with.  I would have been -- have noticed that some of my colleagues had also had similar calls, and in fact we would have discussed it together.  But the process that we were meant to follow was to, you know, you passed the call over to Development, and then it is their responsibility to produce a fix at some point in the future.
+
+.. rst-class:: indented
 
 I mean, there were teams, or there were people who would see which calls were with Development sort of potentially in the pipeline and so on.  But yes, them actually having -- anybody having the knowledge of something like this, where it was a continuing, potentially serious, problem, that information was not necessarily being fed in.
 
@@ -2894,6 +2936,8 @@ Was there not an instruction to put that request on PowerHelp and to copy it ont
 
 **Anne Chambers**: I suppose, basically, you were meant to be working on the PEAKs that were allocated to you and, if it was allocated to somebody else, then it wasn't allocated to you.  I think we saw, in that previous call that we've just looked at, Catherine passed the call over to Development for their comments, so Martin McConnell did some work on it, and it was only after he had then, I think, passed it back that she passed it then to MSU for them to notify Post Office of the problem.
 
+.. rst-class:: indented
+
 Now, what I've -- I might well have passed it to MSU first or, as I go on to say in the next paragraph, to clone it so you could send one call to MSU to pursue the rectification of the deficit, the discrepancy that shouldn't have occurred, and then the second call can go on to Development at the same time, so they can start investigating the root cause.
 
 **Mr Beer**: Further on this issue of passing things back to the Post Office and then down to the subpostmaster, can we look please at paragraph 42(iv), which is on page 12 of your witness statement.
@@ -3114,6 +3158,8 @@ Firstly, what did you mean that the system was that the whole process was handle
 
 **Anne Chambers**: Well, if you've -- a PEAK comes in, yes, it's a new system problem, we identify where it is, we send it off to Development do something with it.  So, strictly speaking, at that point it's off my desk.  I don't need to do any more about it.  But that is not always sensible, because it's not picking up on further occurrences, it's not making sure we've got the fullest picture of it, and I just felt it would have been better if it was at that point logged as a problem, and then, if you get more occurrences, you would, you know, link the PEAKs to it so you do have that view of what it's affecting.
 
+.. rst-class:: indented
+
 And then, you know, you might have to have several actions coming off that problem for who is meant to be doing stuff to fix it, pick up the pieces, inform Post Office, and all the rest.  But that was my personal view.
 
 **Mr Beer**: Was that your view held at the time?
@@ -3242,7 +3288,11 @@ Many of the subpostmasters who gave evidence to us in Phase 1 of the Inquiry sai
 
 **Anne Chambers**: :abbr:`ARQ (Audit Record Query)` data was all the messages written on the branch counters, as they replicated to the data centre, were also streamed off into a large series of very, very large files, which were then, end of each day, can't quite remember, but in some way sort of securely locked and then could only be accessed again through the special audit systems.
 
+.. rst-class:: indented
+
 If an audit extract was requested by Post Office, they would have to say the branch that they wanted and the date range, and the standard information, I think, that :abbr:`POL (Post Office Limited)` got, Post Office got for one of these enquiries was -- well, it was two spreadsheets, it ended up as, and one was the transaction data messages and the other was the Riposte event messages.
+
+.. rst-class:: indented
 
 So they would be, I think, all in date order or it may still have been in the date as received at the data centre.  So it was a subset of the whole lot but it was all the transaction data.  It was also possible to get an unfiltered set, which would be all these messages in their entirety, and I --
 
@@ -3552,6 +3602,8 @@ So is a summary of what you're saying in this KEL to the earlier lines of suppor
 
 **Anne Chambers**: Once you've checked everything and have not been able to find any sign of any system problem.  So I think I explained before that, you know, you'll get your running totals of the system cash position and you'll compare it with what the system had calculated its position was at a particular point in time.  You'll compare the two, if those two weren't equal then, yes, you do have a system problem and then you've got to find out if it's a known one or an unknown one. But if the two figures are in step, the system has calculated the discrepancy correctly, then you've got to try to see which transaction or set of transactions might not be right, which is leading to the discrepancy and, if you can identify something that looks suspect, then could that have been caused by a system error?
 
+.. rst-class:: indented
+
 And if you can't find anything looking suspect, you can't find any events, anything else indicating any sign of a system problem, then you are left with the fact that the system thinks there should be so much in the drawer, that the postmaster is saying there's a different amount in the drawer, the only reason -- the only way you're going to find why those two amounts are different is if you can identify something recorded on the system that doesn't match what actually took place at the branch.
 
 **Mr Beer**: Didn't that create a default position that, in the absence of evidence of a system error being provided by the subpostmaster themselves and the absence of evidence of a problem fitting with a known existing system error, the problem would be written up as user error?
@@ -3559,6 +3611,8 @@ And if you can't find anything looking suspect, you can't find any events, anyth
 .. rst-class:: indented
 
 **Anne Chambers**: Or an unknown system error.  I mean, if you've got an unknown system error, it's going to have to have left some trace somewhere in the numbers that will give you a clue as to where it is, what sort of transaction.  But unless -- but there's no way that somebody investigating that problem with no knowledge of what has been carried out at the branch can say "That there doesn't match what they actually did at the branch on the day".  So to that extent, yes, we were dependent on the postmaster being able to say, "Hang on, why has that there gone in for £2,500 when it was only £250?"
+
+.. rst-class:: indented
 
 Me investigating, I'm not going to be able to know that it should have been £250 but actually it's £2,500.
 
@@ -3579,6 +3633,8 @@ Me investigating, I'm not going to be able to know that it should have been £25
 .. rst-class:: indented
 
 **Anne Chambers**: Quite a lot of weight.  We wouldn't -- we wouldn't automatically say, "Oh, you must have got it wrong".  But if he's then got to that point where he can identify it, then we can at least do something about the financial side of it, in that he now knows which line is wrong, and we can attempt to pass this information through to Post Office so that that line, whatever it was, could be rectified in his accounts, which, to some extent, is the important thing to be done in the short-term.
+
+.. rst-class:: indented
 
 Longer term, if you've had a lot of branches all reporting that precise type of problem, you would have to try to work out how come it could be wrong but, in practice, I don't recall anything specifically like that.
 
@@ -3716,7 +3772,11 @@ Yes?
 
 **Anne Chambers**: I don't know.  I felt by giving some specific examples of a specific day, where actually very little had happened, but they were already £5,500 short apparently.  If they could compare those three, four figures that I gave, perhaps they would be able to see which of those was wrong in that process, in what I could see.
 
+.. rst-class:: indented
+
 And, although I only gave the figures from that very simple point from the beginning of November, from the beginning of the period, I had actually done this check that I've already described and, in every case where the system cash figure was calculated, it was in line with what it should have been.  So it wasn't that messages were not being picked up and included in the accounts; everything seemed to be there. The branch was declaring how much cash they'd got when every time they did that, they'd got a report printed out that showed the cash declaration.
+
+.. rst-class:: indented
 
 Something was not right.  And, yes, the numbers were jumping about all over the place. The discrepancies were varying because they kept declaring wildly different amounts of cash.
 
@@ -3726,7 +3786,11 @@ Something was not right.  And, yes, the numbers were jumping about all over the 
 
 **Anne Chambers**: It definitely did appear to be them and I did, of course, wonder if it could be something that was wrong with the declaration mechanism but, again, they got the report printed out that showed them what the declaration was and I would have expected that if they had declared -- so they had to declare by denomination, I would have expected that they would quite easily be able to see if what was on their reports didn't match the piles of cash that they had sitting in front of them.
 
+.. rst-class:: indented
+
 I'm not happy -- I'm not very happy with this PEAK.  I don't think I handled it terribly well.  I was frustrated by it and I think that shows, and I was still frustrated by it when I wrote the bit in the witness statement, because, you know, it really looked like there was a genuine problem.  There was no sign of it, the figures, you know, when you added everything up, yes, the discrepancy based on what they'd done, what they declared, the discrepancy was apparently correctly calculated.  Well, it was correctly calculated.
+
+.. rst-class:: indented
 
 So what was it in the data that was going into these calculations that wasn't right?  And I couldn't see it.  And, you know, when you've got three transactions and, at the end of it, they're out by £5,500 but you're adding up the numbers.  It's not a matter of my belief or not; it's objective.  That was what was there.  So something -- something definitely wasn't right but couldn't see it, without being in the branch.
 
@@ -3810,6 +3874,8 @@ Can you see that?
 
 **Anne Chambers**: I felt that there was just no -- something was obviously wrong, in that the branch obviously were getting these discrepancies that they weren't expecting, but all I could see on my side was that they were apparently declaring these differing amounts, and I certainly knew -- didn't know of any system errors that would cause that to happen, or to cause -- or that would take what they were declaring and not record it correctly.  I wasn't -- and I couldn't see any signs of that happening and nobody was saying, "Look, we declared this but on the report it says that".
 
+.. rst-class:: indented
+
 So I felt, on balance, there was just no evidence of a system error.
 
 **Sir Wyn Williams**: But as I've understood the line of questioning that Mr Beer has been putting to you, it's not just that the subpostmaster was making the error whatever that was, but the auditor and the trainer were making the same error; is that it or have I misunderstood it?
@@ -3817,6 +3883,8 @@ So I felt, on balance, there was just no evidence of a system error.
 .. rst-class:: indented
 
 **Anne Chambers**: Well, yeah, I -- yes, I don't know why the -- I'd have thought, if the report was showing something but then on the system it was recorded as a different amount, I would have expected the auditor or the trainer to have spotted that. Yeah, I mean, now, I feel maybe I could have made steps to try to talk to the auditor or the trainer and to try to talk through it a bit more.  But, no, I'm not happy with this one.
+
+.. rst-class:: indented
 
 But I still stand by there being no indication of a system error and the numbers that they were recording just didn't make a lot of sense.
 
@@ -3957,6 +4025,8 @@ But I still stand by there being no indication of a system error and the numbers
 .. rst-class:: indented
 
 **Anne Chambers**: I was trying to remember and I think in there I say, yes, there may have been something but couldn't remember it.  I think I've seen -- read more documents since which have reminded me that some types of call -- some of the reconciliation calls involving sorting out where people's bank accounts might be adrift or where bill payments might not be going through, those had to be resolved pretty quickly.
+
+.. rst-class:: indented
 
 That meant making sure that the financial implications were resolved, but if there was a root cause that needed further investigation, that would still be done after the financial side of things was dealt with.  So, yes, we were aware some calls you couldn't leave lying around for long but that didn't mean that they had to be closed.
 
@@ -4296,6 +4366,8 @@ Then "Financial Data":
 
 **Anne Chambers**: Possibly, yes, because I think this was -- there was a lot -- all this background logging going on, which we were really almost meant to be unaware of.  And I'm not sure if it did ever get checked to see, but there was this background audit of everything done via an SSH connection. Now, I can't remember whether we -- this implies that also we used SSH for connecting to the central systems.  I'm not sure now if that included the Unix -- the Oracle databases, which is what the 2010 document was talking about -- changes to that.
 
+.. rst-class:: indented
+
 So it may well be that if it was still via SSH, then that would have been an additional level of logging was going on automatically anyway but I really don't know.  This was not my area at all.
 
 **Mr Beer**: I understand.  Can we look at what you did understand as to the process, and look at your witness statement at page 57, please.  In paragraph 199 at the foot of the page you say:
@@ -4313,6 +4385,8 @@ So you say you would probably have notified a branch if you were going to make a
 .. rst-class:: indented
 
 **Anne Chambers**: And others where I didn't, yes.  Also, remember that, you know, making the changes would not necessarily be changes to financial data.  One thing we did have to do sometimes was, where a branch was unable to use one of their counters because it had been left in a slightly inconsistent state, thinking it was still in the middle of balancing, and they could sort it out for themselves if the same user logged back on to that counter.  But if that user had gone off on holiday for two weeks, that wasn't very helpful.  So there was a -- by rewriting a -- sorry, by updating an object in the message store, basically writing a new version of the object, we could clear that flag, which would then enable them to log on to the counter and proceed as normal.
+
+.. rst-class:: indented
 
 That had absolutely no financial effect.  So the number of changes where we were actually making a financial correction were very few and far between.
 

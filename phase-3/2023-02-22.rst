@@ -217,6 +217,8 @@ Questioned by Mr Beer
 
 **Susan Harding**: Yeah, well, we would see the outputs of testing and we would be -- we would -- if you're doing that sort of thing, you'd normally have expected results and then you see what the actual results are for the system and you compare them. Remember that I wasn't doing the detail here; I was managing a team that was doing that.  But that's a normal acceptance process that you say "What should the system produce and has it produced that?"  Yeah.
 
+.. rst-class:: indented
+
 And that would be initially in the test systems.  It would not be in the live environment but, obviously, later -- in later phases there would be some acceptance due to some live trials.
 
 **Mr Beer**: Looking at the matter at a high level of generality, would you agree with the suggestion that the acceptance process for Horizon was extremely problematic?
@@ -279,6 +281,8 @@ And that would be initially in the test systems.  It would not be in the live en
 
 **Susan Harding**: I would say when the system went live.  When it started to -- when it was -- well, probably when we finished pilot.  We wouldn't have got involved in anything after that.  So we would have been involved in before the first office went live and then, as far as I recall, there was a pilot and we would be reviewing results through that pilot.
 
+.. rst-class:: indented
+
 Acceptance would have been for it to go into pilot to start with but then there would have been another acceptance phase to actually then roll it out.
 
 **Mr Beer**: What did you learn about the operation of Horizon in practice after it was rolled out?
@@ -317,6 +321,8 @@ Acceptance would have been for it to go into pilot to start with but then there 
 
 **Susan Harding**: Right, so you've mentioned the other roles I did.  So after being in transaction processing, at the head of development, I became head of the operating process and business process architect and, as business process architect, I was asked to redesign other parts of the process.  So we still had old, antiquated back office systems.  So Horizon was required to produce a cash account and what we wanted to do was put a SAP system into the back end that would take an automatic feed from the Horizon System.
 
+.. rst-class:: indented
+
 And I'd come up with that all as part of my role as business process architect, et cetera. So as a result of that work that I was done, I was then asked to lead the project to implement that.
 
 **Mr Beer**: So my question was when?
@@ -330,6 +336,8 @@ And I'd come up with that all as part of my role as business process architect, 
 .. rst-class:: indented
 
 **Susan Harding**: Well, not really in that way because, as I say, I went into more future looking roles, which was where I ended up running IMPACT because that was the future -- so I was looking into where do we go next because, basically, we'd left the back office as it was.  We'd done the hard work on automating the front office but we were left with a back office which was a home developed system that was not -- was very clunky, that required paper, you know.
+
+.. rst-class:: indented
 
 So the whole concept that I developed was to -- was to put SAP systems in the back office, which would take a daily feed, ultimately, from Horizon.  So we would have the data faster, less effort to do the keying and all those sorts of things.
 
@@ -463,6 +471,8 @@ We're going to come back to the suspense account and its removal in a moment.
 
 **Susan Harding**: This was a historic evidence.  So on the basis that when a subpostmaster signed their cash account or pressed the button on Horizon, they were saying that the cash and stock, as well as the other transactions, but primarily that the cash and stock that was in that account was actually physically in the branch, and that was the whole concept of it, that -- and a way to get rid of that was to put an amount in suspense which said that "I only have this cash and stock and there's something over here".
 
+.. rst-class:: indented
+
 So it was decided, given that the Finance Director was my -- was the sponsor of my project at the time and that was something that he wanted to do, because --
 
 **Mr Beer**: Who was the Finance Director?
@@ -495,6 +505,8 @@ So it was decided, given that the Finance Director was my -- was the sponsor of 
 
 **Susan Harding**: Well, Horizon wouldn't contribute to the suspense account.  Horizon didn't post anything to suspense.  The subpostmaster posted amounts to suspense when they balanced and I would have assumed that, if there were issues, those issues would be reported to the call centre.  But I was not aware, nobody said to me, you know, "There's been an increase in calls saying the accounts don't balance", or anything.
 
+.. rst-class:: indented
+
 That's what -- and in my programme, you know, we had representatives from the support centre in Dearne, NBSC.  So we had subpostmasters involved in all of those.  So this was not a decision of my own.  It was taken in conjunction with stakeholders throughout the business, including subpostmasters and branch offices.  So ...
 
 **Mr Beer**: Presumably now, you have heard that there were extreme problems with balancing on Horizon right from its outset?
@@ -520,6 +532,8 @@ That's what -- and in my programme, you know, we had representatives from the su
 .. rst-class:: indented
 
 **Susan Harding**: Yes, the suspense account could only be -- matters would only go to suspense if the postmaster put them there, so Horizon didn't contribute for amounts in suspense.  Horizon might have contributed for differences between the cash and stock that the system said they should have had and the cash and stock that they had.
+
+.. rst-class:: indented
 
 I wasn't aware that any -- anything had been raised, if you like, by the subpostmasters or even branches -- not just subpostmasters, because if it was going to affect -- if the system was faulty, it would have affected Crown Offices as they were at the time, as well as sub offices, and there was nothing that I was aware of.
 
@@ -559,6 +573,8 @@ I wasn't aware that any -- anything had been raised, if you like, by the subpost
 
 **Susan Harding**: No, I was not aware of that and, as I say, we did have -- we do have subpostmasters involved in the design, et cetera.  So -- but nothing was ever raised with me, and I don't -- I'm assuming there's no evidence that, you know, anybody had -- that that was public knowledge, if you like, or that -- I know you're saying I could have found that but, you know, historically, that would have meant, you know, we looked at -- we would have had to look at suspense accounts over time.
 
+.. rst-class:: indented
+
 But it was a principle and that principle was signed off by -- including representatives of subpostmasters.
 
 **Mr Beer**: Sorry, which principle was signed off?
@@ -591,6 +607,8 @@ But it was a principle and that principle was signed off by -- including represe
 
 **Susan Harding**: Well, document reviews, yes, and stuff like that.  Given that, you know, impact was primarily -- primarily -- about implementing new back office systems which would automate the back office systems.  So it wasn't about re-looking at Horizon, except that obviously there were a lot of Horizon changes because it had to produce the data feed that would go into the back office systems.
 
+.. rst-class:: indented
+
 But really, we were -- IMPACT was what, a £25 million programme and there were lots of different streams in it, you know.  But really the implementation of the back office systems was there, but -- and I -- if I'm honest, I can't remember where the idea of removing the suspense came out, but certainly, as I say, Peter Corbett, who was my sponsor, I know was very keen on it.
 
 **Mr Beer**: Can we look at paragraph 24 of your witness statement, please.  That's on page 5.  It's at the foot of the page.  You're speaking here about the removal of the suspense account, and you say:
@@ -609,6 +627,8 @@ Yes?
 
 **Susan Harding**: Yes, and that was -- that had been there for years and years when we were talking about paper cash accounts.  So it was just a way for them to -- I suppose there were two things.  It would be one for branches that just couldn't find what the problem was but it was also used for branches that had been removing money from the system, if you like, and it was to hide it for a length of time.
 
+.. rst-class:: indented
+
 So I mean we had a lot of the sort of people who investigated, POID investigations and a lot of investigations into previous cases where people had jailed before Horizon existed, so this was on a paper cash account, you know, that they used suspense to hide that.  They would either leave their cash and stock as numbers that didn't exist in the office or they would simply move it to a suspense account.
 
 **Mr Beer**: The language which you use in your witness statement and today is of hiding and covering up.  Does that accurately reflect your core belief that that's what was going on?
@@ -616,6 +636,8 @@ So I mean we had a lot of the sort of people who investigated, POID investigatio
 .. rst-class:: indented
 
 **Susan Harding**: I have to say, you know, that, yes, multiple -- many, many, many subpostmasters, prior to Horizon, had been prosecuted for either -- for falsely accounting, basically.  Either saying the cash and stock was there or hiding it in suspense, and I could tell you lots of cases, you know, of somebody where the auditors -- because the auditors only used to audit sub post offices, I think, once every three or four years.
+
+.. rst-class:: indented
 
 And I can remember there was one, I think it was, Harrow on the Hill was quite infamous, where the auditors turned up at the door, because that's what they did, and he said, "I want to fetch the keys out of my car", and then he went; and that was it.  And the Finance Director -- so, you know, I ran this on behalf of my sponsor, the Finance Director, but it was clear that -- and I'm not disrespecting any of the people that have been jailed if Horizon was wrong, but there had been many people --
 
@@ -775,6 +797,8 @@ And I can remember there was one, I think it was, Harrow on the Hill was quite i
 
 **Susan Harding**: I don't know because I'm -- I've never worked in the Network side so I don't know what the roles and how they played those roles in that.  But somebody would be saying, you know, "You have to go through your accounts", and a lot of the lines on the cash account had supporting documents, so is it a loss in a supporting document?  But that was it.
 
+.. rst-class:: indented
+
 I mean, clearly, you know, some offices did more transactions than others.  Was there a transaction that they keyed wrong?  But there must have been a way of investigating that, but that wasn't, you know, my role.  I wasn't involved in Network support at all.
 
 **Mr Beer**: The difference before and after IMPACT was, before IMPACT, if a sum was placed in suspense, it could be investigated by Chesterfield or by the audit and security team, yes?
@@ -893,6 +917,8 @@ Why did you believe that subpostmasters were required, under their contracts, to
 
 **Susan Harding**: Yes, but I didn't -- I -- you know, anybody would say, if you've got an account and you've signed it off, yeah, you're signing it off to say that that is a true and accurate reflection. And, you know, I know from reading the stuff here that there were issues maybe in Horizon but, in many cases, you know, what I don't understand and I don't know the detail of the prosecutions, there's -- why they hadn't been able to identify that the system had inflated, you know, receipts or said they hadn't -- that sort of thing.
 
+.. rst-class:: indented
+
 Because, you know, the process of balancing required them to go through their accounts and to check things, as I say, in many cases with supporting documents, not always supporting documents.
 
 **Mr Beer**: Sorry, just to stop there, you're saying that the process of balancing --
@@ -907,6 +933,8 @@ Because, you know, the process of balancing required them to go through their ac
 
 **Susan Harding**: Yes, well, they'd go through a process that they'd done with the cash account.  They would validate the lines that were on the cash account.  So, for instance, if -- and obviously things changed as technology changed but if they were having Giro deposits, for instance, they would have Giro deposit slips.  So the process of balancing would say, "I've got a line on my system that says I've taken this much in cash deposits", and you would expect that they would go through the supporting documents, which often had to be sent in when we used to have paper cash accounts, because that's what Chesterfield would do when they got it.
 
+.. rst-class:: indented
+
 They would check the lines on the cash account that the subpostmaster had submitted to the supporting documents --
 
 **Mr Beer**: Just to stop you there, that's what IMPACT removed, essentially?
@@ -920,6 +948,8 @@ They would check the lines on the cash account that the subpostmaster had submit
 .. rst-class:: indented
 
 **Susan Harding**: Well, no, because there would always -- there was still some products where, in the back office systems in Chesterfield, we would have a feed from the client which told us.  So we would identify errors but that -- those subpostmasters should have been able to find those errors.  If they'd sent the supporting documents off, they -- some of them may have been sent off at the same time as the cash account was completed and, therefore, they would be saying, "I have -- my system says I've done these transactions and these supporting documents say I've done these transactions", and if there was a difference they would look to identify the difference.
+
+.. rst-class:: indented
 
 So it wasn't a case of just pressing a button.  It was all related to supporting documents and other information, to sign a cash account off.
 
@@ -982,6 +1012,8 @@ So it wasn't a case of just pressing a button.  It was all related to supporting
 .. rst-class:: indented
 
 **Susan Harding**: It didn't mean they'd stolen it.  It may have been lost.  They may have given out the wrong change to somebody but the contractual liability was that they should make good those losses, even if they'd given out the wrong change. I wasn't -- I'm not -- I wasn't in any way reflect interesting on why I believe those losses had occurred.
+
+.. rst-class:: indented
 
 I was simply reflecting what was a desire of the sponsors of my project, remembering I was here to implement a project, there was a programme -- project programme manager and I had a number of sponsors, and they had numbers of requirements.
 
@@ -1065,7 +1097,11 @@ I've shown you the contract as it stood in 1994 and then as it stood in 2006, to
 
 **Susan Harding**: I would have thought that somewhere somebody would have reported things that were happening, would have been able to identify maybe which of the transactions there was a problem with, and then that would have got resolved.
 
+.. rst-class:: indented
+
 And that was a Network -- that would have been an issue for the Network because you would have imagined that if you were getting a lot of losses caused in a lot of offices which they simply couldn't explain, that through that process they had to go, which was before they signed off the cash account, that things would have been clear, particularly if there were large losses.  You know, you would have expected you could see something in the accounts, but I wouldn't -- that contract has never -- and I just paraphrased the contract, which was the first bit, for all losses.
+
+.. rst-class:: indented
 
 Clearly, we were not ever attempting to make, in my project, losses -- subpostmasters responsible for losses which were caused by a system bug.
 
@@ -1109,6 +1145,8 @@ Was the objective that you've described there, reducing losses and improve debt 
 
 **Susan Harding**: No.  No.  This was -- I worked for the Finance -- the Finance Director was my sponsor, you know, we did have a lot -- we had a very large network of offices which were not supervised, which were not audited frequently and we did have, prior to any of the automation, numbers of postmasters who were prosecuted for false accounting: not theft but false accounting.
 
+.. rst-class:: indented
+
 So these were agreed.  This wasn't my, you know, my programme.  It was the Finance Director's desire to do this and that was one of things he placed on us to say, "Do that, that's one of the things that we want you to achieve out of this programme".
 
 **Mr Beer**: So it was actually more targeted to try to catch or remove the facility for those dishonest subpostmasters to hide or cover up losses in their suspense account.
@@ -1137,6 +1175,8 @@ This is version 3.4 of the conceptual design of the accounting and cash manageme
 
 **Susan Harding**: Right, so this was a significant programme so originally I was -- because I said I was sort of head of design, or whatever it was at the time, so I was asked to design an improved process that would meet these -- meet some of these objectives.  And then, having created that design, which is not this conceptual design, this is later on, I was then asked to move to be programme manager to implement it and, as I say, my sponsor was Peter Corbett who was the Finance Director.
 
+.. rst-class:: indented
+
 So those desires to reduce losses were passed to me as a requirement from the sponsor.
 
 **Mr Beer**: We can see, I think, the date on page 5 of the document -- at the foot of the page, 3.4, which is what this version is -- is September 2003, and you can see the date above that in the box, yes?
@@ -1161,6 +1201,8 @@ Does that neatly summarise the reasons for the IMPACT Programme?
 
 **Susan Harding**: No, not in totality, because the IMPACT Programme, a lot of it, which will come in the business drivers, no doubt, was to -- we'd automated the front office through Horizon, and IMPACT -- a lot of that, was around automating the back office, so we replaced the old paper cash account and put in new systems.  So the majority of IMPACT was all about the back office systems, really, and then doing some things in the front office to facilitate that.
 
+.. rst-class:: indented
+
 But it wasn't -- so that was the reason for it, really.
 
 **Mr Beer**: The purpose of it, or the reasons why it was being done, are set out there, aren't they?
@@ -1169,6 +1211,8 @@ But it wasn't -- so that was the reason for it, really.
 
 **Susan Harding**: Well, yes.  So we were trying to reduce the costs.  So by replacing the old systems and putting in new -- we'd put in a SAP system in the back end, which was very vanilla.  We tried not to change SAP to work to the processes -- we tried to change the Post Office processes to fit with the package.
 
+.. rst-class:: indented
+
 So yes, putting in package solutions in the back end meant significant savings and much better control, et cetera.  So that was one of the reasons behind that.
 
 **Mr Beer**: Were suspense accounts to be removed because the Post Office desperately needed money that was held in suspense accounts?
@@ -1176,6 +1220,8 @@ So yes, putting in package solutions in the back end meant significant savings a
 .. rst-class:: indented
 
 **Susan Harding**: No, it wasn't because it was desperately needed, it was just while we were making changes to the front end, and I say, it was a -- I can't really remember the -- where it came from, but it would have been an idea that our losses were significant and were there ways to change those? And some of those would have been losses not -- nothing to do with the counter.
+
+.. rst-class:: indented
 
 They would have been losses because we couldn't agree at the back end how much we owed our clients or they owed us, for example.  So it was a very large programme and the removal of the suspense account in the counter was a very, very small part of it.  It wasn't a big driver for it at all.  We wouldn't have done this programme just to do that.
 
@@ -1190,6 +1236,8 @@ They would have been losses because we couldn't agree at the back end how much w
 .. rst-class:: indented
 
 **Susan Harding**: No, losses ultimately -- it's not about debt. Losses ultimately appear in your profit and loss account.  So yes, this was, so there were a number of things that said "How do we reduce the cost or the loss of the business?"  And I can't remember where that actual thing about the suspense account came up from, because we did number of workshops, you know, to develop obviously the programme and what it was going to look like but it was driven by -- and we had all key stakeholders involved.
+
+.. rst-class:: indented
 
 So we would have had people from the counter who would have said, you know, ultimately, we have a lot of losses in the network.
 
@@ -1211,7 +1259,11 @@ Was there, essentially, a reconciliation and checking process undertaken at Ches
 
 **Susan Harding**: Yes, so we had a -- there were probably at one time 150 people in what was called transaction processing.  The cash accounts were produced by the system.  Obviously, pre-Horizon we had paper cash accounts coming in to a keying unit in Chesterfield, so there was a big process to key those cash accounts, which by itself could have created errors in the process, and then we had -- the remainder of that unit in transaction processing was a large number of teams of what were called error resolution teams.
 
+.. rst-class:: indented
+
 So their job was to understand the difference between -- to resolve errors.  And errors were created by -- often by either us getting a separate feed from the client because that's what the Post Office did, work on behalf of clients, it wasn't -- we weren't selling our own products or services.  We were acting on behalf of clients.
+
+.. rst-class:: indented
 
 So for many of the products, we would get a feed from Horizon of what the branches were saying on the cash account and then we would get a feed from the client and a whole mass of error notices would be produced and then that all had to be dealt with by the teams in Chesterfield.
 
@@ -1226,6 +1278,8 @@ So for many of the products, we would get a feed from Horizon of what the branch
 .. rst-class:: indented
 
 **Susan Harding**: Absolutely.  So this programme was intended to stop that.  It was to put in a SAP system.  So that's what I said.  The changes at the branch were minimal, except where it was needed to be. So it was all about the back office systems.  So we were putting in a standard SAP accounting system, not a homemade built and a class system, as it was called in the past.  So we would put in a standard SAP accounting system, which would make reconciliation much simpler and, out of that, somewhere in the requirements, came the thing that was about the suspense account.
+
+.. rst-class:: indented
 
 But that -- this was really to get things quicker and more accurate, in --
 
@@ -1271,6 +1325,8 @@ But that -- this was really to get things quicker and more accurate, in --
 
 **Susan Harding**: It would have been less than that but it wasn't -- remembering that, really, the reduction in those teams was as much to do with the client processes and what feeds of data we got from them and whether they were automated as well.  But the SAP system would have done some of that reconciliation but if it still produced differences, then they still had to be investigated.
 
+.. rst-class:: indented
+
 But I can't remember what size the teams went down to.  I wouldn't say -- we certainly didn't get rid of everybody because it was product design, really, that allowed the full automation.
 
 **Mr Beer**: In your witness statement -- no need to turn it up -- at paragraph 13, you say Peter Corbett and David Smith sponsored the IMPACT Programme.  Who took the decision to remove the suspense account facility?
@@ -1291,7 +1347,11 @@ But I can't remember what size the teams went down to.  I wouldn't say -- we cer
 
 **Susan Harding**: Well, when you're doing a project you produce documents which describe what you're going to do, yes?  And those documents will have a set of reviewers and a set of approvers.  So any document that affected the branches, would have to go through the Network -- would have Network stakeholders as reviewers and signatories.
 
+.. rst-class:: indented
+
 So documents always -- when you set up a document and some of the ones you pulled up say, you would have to -- right up front, you would have a product description, you would create a product description for that document you were going to produce, product descriptions for other things as well, system design, you know, other things, but you would produce a document, you would agree with the stakeholders, because we had, you know, stakeholder meetings, who wanted to see and sign off that document.
+
+.. rst-class:: indented
 
 And you would have a whole -- and you would see it on the front of documents like you've shown before, that those reviewers would be set before the document was created.
 
@@ -1301,6 +1361,8 @@ And you would have a whole -- and you would see it on the front of documents lik
 
 **Susan Harding**: No.  Reviewers were reviewers.  They read the document and fed back comments.  That was the initial stage, obviously, to get rid of any inaccuracies and errors and then, ultimately, there were signatories after that.
 
+.. rst-class:: indented
+
 So each document would have a set of reviewers and then the people who were responsible for actually signing it off and they would normally sign it off on the basis that the reviewers, who were the people who worked for them very often, were happy that the review they'd done was adequate and that there were no significant issues that hadn't been resolved.
 
 **Mr Beer**: So if we get back up on the screen, please, POL00038870.  If we look at the front page on that, does that tell us who signed off, ie approved, the contents of the conceptual design for the accounting and cash management programme?
@@ -1308,6 +1370,8 @@ So each document would have a set of reviewers and then the people who were resp
 .. rst-class:: indented
 
 **Susan Harding**: Yeah, what I probably can't understand on that is we've obviously got business architecture and technical architecture -- oh no, they're the two people there, yes.  So yes, that's right.
+
+.. rst-class:: indented
 
 So ultimately they were the signators, they weren't necessarily the reviewers.  There would be separate reviewers in advance of that.
 
@@ -1329,6 +1393,8 @@ So ultimately they were the signators, they weren't necessarily the reviewers.  
 
 **Susan Harding**: No, because they didn't have the authority to sign it off.  So they would be the minimum people -- so at the beginning of the programme you create a product description, and that product description will tell you who are going to be the mandatory reviewers who are going to be the signatories, who are going to be the people that create it.  And that would all go through -- those documents at the beginning that tell you who those people are would go through its own review process to make sure that everybody that should be involved in that, in the review, was involved in that.
 
+.. rst-class:: indented
+
 But Clive and I basically would ultimately, in most documents -- not always -- be the final signatories, because we -- and we would do that not on the basis that we understood all the detail in that, but the people that we had agreed upfront in the product description should be involved in the review had been involved.
 
 **Mr Beer**: Who took the decision, ie signed off the decision, to remove the suspense account facility?
@@ -1349,6 +1415,8 @@ But Clive and I basically would ultimately, in most documents -- not always -- b
 
 **Susan Harding**: No, I can't remember that far back because, obviously, it was a small part of the programme. I'm not saying it wasn't an important part but if you asked me who, we clearly would have involved Network in that, as a primary owner, because they were the primary owner of that, but on the back end, Finance were, if you like, the people who were responsible for the outcome of that design, because it was about what losses they saw in the account.
 
+.. rst-class:: indented
+
 So there would have been -- there should have been something that said that.  But I don't know, you know, talking 20 years ago here, it's --
 
 **Mr Beer**: On a decision like that, we wish to remove the suspense account --
@@ -1368,6 +1436,8 @@ So there would have been -- there should have been something that said that.  Bu
 .. rst-class:: indented
 
 **Susan Harding**: No, they would have remitted that.  So, actually, if you look at the bottom, "Business Review", Stephen Hirst was in Finance, quite high up in Finance.  Ruth Holleran, who I'm sure you're aware of on this programme, was -- I can't remember exactly her role at the time but she was high up in sort of the IT.  Vicky Noble was in Transaction -- was the head of Transaction Processing at the time.  Ann Cruttenden was the business change manager for the Network.  Ann Clarke was in my team.
+
+.. rst-class:: indented
 
 I can't -- Bob Lammin.  I'm sure POID, either Bob Lammin or Neil Salter -- Jack MacKenzie, I don't remember Jack MacKenzie, so it's a cross-representation --
 
@@ -1517,6 +1587,8 @@ Were you aware at this time that there had apparently been a suggestion by the N
 
 **Susan Harding**: Well, if anybody should have done that, I think that would have been Clive, who was the technical architect, who would understand much more about the technical architecture of the system, et cetera.  But one would expect, you know, that the subpostmasters would be raising calls with the helpdesk if they could see that there were suspect transactions.
 
+.. rst-class:: indented
+
 I don't know what happened with the bugs and defects and what the result was in the accounts that were produced in the branch.  So -- but one would have thought that if somebody was having a very significant loss, they would try and pin it down to something and then take some action, either through the Network Support Business Unit on the helpdesk or through the hierarchy in the Network.
 
 **Mr Beer**: What would you say if the helpdesk said to them "But it's your responsibility to make good any and all losses: make good the loss"?
@@ -1642,6 +1714,8 @@ Did you hold that view when you were involved as an expert customer?
 .. rst-class:: indented
 
 **Susan Harding**: Yes, I do remember, as I say, that I was involved in an Acceptance Incident of the original design and I remember going to Feltham, and I think Tony Oppenheim was the -- was he the main guy?  And Tony had to -- I think -- and, oh gosh, you know, it is going back a large number of years -- that they did some changes or created -- I can't remember but they did, on the face of it, in the meeting that we had, resolved what was -- what was the Acceptance Incident.
+
+.. rst-class:: indented
 
 So -- and certainly would not have signed off that Acceptance Incident if I thought there were any.  But this was acceptance -- I can't remember whether we did acceptance before it went in any offices or after there'd been a trial.  I mean, my recollection --
 
@@ -1874,6 +1948,8 @@ Just help us understand a little bit more. This attitude, which is the contractu
 
 **Susan Harding**: Torstein Godeseth, who later moved to Fujitsu. Torstein was involved with me.  I had Ann Clarke, who was -- used to work in Transaction Processing, so -- which was really -- because the whole of IMPACT primarily, the main of IMPACT was to replace the back office systems. You know, the changes that were made to the Horizon System were only to facilitate that.
 
+.. rst-class:: indented
+
 So we were putting a SAP system in to the back office.  So that was primarily were there -- Ann Cruttenden represented the Network.
 
 **Mr Stein**: But in terms of people that can help us identify the documents, these meetings that you claim were minuted, that might be Ann Clarke and Mr Godeseth?
@@ -1919,6 +1995,8 @@ I've asked you about the shortfall side of things not being in the IMPACT docume
 .. rst-class:: indented
 
 **Susan Harding**: Well, as I say, I would have suspected that there was -- there were three areas -- well, Network, which I would include, you know, the Network line, but also -- and I can't remember whether POID were part of that Network line at the time or whether they were in a separate area -- and then it would have been from Finance because, clearly, Finance -- and Peter Corbett was the sponsor who was in Finance, who was having to include those losses and, as we've seen in the documents, we were talking earlier about the scale of the losses that were in the accounts, and that was a big driver for the business at the time to reduce those.
+
+.. rst-class:: indented
 
 So we would have -- but because Peter was my sponsor, in the initial requirements workshop those sort of things would have -- I imagine it would have come from key stakeholders.  I can't remember the exact --
 
@@ -2171,6 +2249,8 @@ Now, the processes you say for raising disputes didn't change, but perhaps the p
 
 **Susan Harding**: No, I can't -- I mean, Peter Corbett was my sponsor and it may have come from Peter.  He was in Finance, obviously the impact of that.  And I know Ann Cruttenden was the representative at the next level.  But I -- I'm really, really sorry.  I mean, my memory is -- I have issues with my memory and I just can't remember who was the Network representative on the programme board.
 
+.. rst-class:: indented
+
 But, you know, it would have been signed off -- there was some documents right at the beginning, the business case would certainly have been signed off at -- well, it was signed off at the group board level.  So it would have gone through all of that process.
 
 **Ms Page**: Did Peter Corbett offer any sort of challenge to find out whether the Network support was as it should have been?
@@ -2215,6 +2295,8 @@ But, you know, it would have been signed off -- there was some documents right a
 
 **Susan Harding**: No, I was -- I'm not saying she was one below the Network Director.  What I'm saying is the programme board may or may not -- it may have not had a director from Network because, as I say, the change in the Network was nothing like the change in Finance so Peter Corbett ran the programme board.  There would have been somebody from Network because there were implications on Network.  Ann Cruttenden was the business change manager for the Network so she was the main -- she was the person involved but she wasn't a board member in that sense.
 
+.. rst-class:: indented
+
 I'd have to find a document that had got the names of the board and apologies for not remembering.
 
 **Sir Wyn Williams**: All right.  So if I wish to enquire into this more closely, I'm looking for the names of four or five other people apart from Mr Corbett, by the sounds of it, roughly?
@@ -2235,7 +2317,11 @@ I'd have to find a document that had got the names of the board and apologies fo
 
 **Susan Harding**: Okay, so they're either going to inflate their cash and stock balances, but that would trigger -- that would have triggered an earlier investigation, because we had a big focus on cash management.  So nobody wanted a branch to own significant cash.  So if you've lost -- if you've been taking something, at the end of the day you've got the transactions.  The system has recorded, and then you have a declaration of cash and stock.
 
+.. rst-class:: indented
+
 So the only way to cover up the difference, because clearly you won't have the cash and stock in the system as you should have, and you're meant to do a translation, then, of the cash and stock, yeah?  So the only way to hide a discrepancy is either to inflate your cash and stock figures, and cash is probably -- it would have been an easier one in the system than stock, because stock is all about stock in, stock out, et cetera -- so you would either say "I've got more cash than I really have", or you would report the cash you really have, and put the difference in the suspense account.
+
+.. rst-class:: indented
 
 It's an accounting -- double entry accounting system, so we have to make it balance somehow.  So if, when you actually count your cash and stock, it's not what you expected, you either declare a loss or you try and put it somewhere and the suspense was a place that you could put it because you couldn't alter the other transactions because they were system generated from having done the transactions. Does that make sense?
 
@@ -2339,6 +2425,8 @@ Your statement is quite light on detail so I'm going to start by asking you a li
 
 **Mark Burley**: Yeah, I started off as a post office counter clerk.  That was my first role.  I then moved on to be an area manager support.  I then moved on to be a branch manager at three different branches.  I then moved on to an internal audit role, auditing various processing systems across the business.  I then moved on to be a retail network manager, essentially accountable for the performance of around about 35 of the largest sub post offices.
 
+.. rst-class:: indented
+
 I then moved into project work, held a number of project manager positions and then in 2003 I set up a PMO function, project management office function, before becoming the HNG-X programme manager in 2005, which I held until 2009 before becoming head of delivery, and then I left on a voluntary redundancy term in early 2011.
 
 **Mr Blake**: Was your role as head of delivery until 2011?
@@ -2386,6 +2474,8 @@ So you have distinguished there between faults and bugs.
 .. rst-class:: indented
 
 **Mark Burley**: Yeah, I mean, what I'm trying to distinguish there is when original Horizon went live, I wasn't aware of any overarching faults with the system that could cause a real problem. A bug is something that may not be technically perfect but doesn't cause a problem because there's either a workaround or it's not actually having a direct impact.
+
+.. rst-class:: indented
 
 So, for example, I would describe a bug in this sense to be something in Arial font rather than Times New Roman, for example.  It doesn't really have any real impact on the user.  Are you still there?
 
@@ -2456,6 +2546,8 @@ Do you remember that Acceptance Incident at all?
 .. rst-class:: indented
 
 **Mark Burley**: Absolutely critical.  I totally 100 per cent agree and that's why, as I suggested, if I was investigating this one, it would have a severity of -- using the scale on the right, it would have a severity of high.  It would absolutely have to be understood before it was, you know, accepted to proceed, or indeed fixed.
+
+.. rst-class:: indented
 
 You know, until you get into the detail of these things you don't know the ins and outs of what's truly happened.  It could be that it was represented on a different line than the one it was expected to be on just from, you know, a typo in the coding.  But, obviously, that's part of the investigation that would need to take place on all these types of incident.
 
@@ -2555,9 +2647,15 @@ So it seems as though 410 becomes a low issue because it was going to be in some
 
 **Mark Burley**: Could you just zoom back out to the full page because I thought there was something on the page that might explain that.  Yeah, if you look lower down the page, under point 3, it says:
 
+.. rst-class:: indented
+
 "JD reported as follows:
 
+.. rst-class:: indented
+
 "Pathway recognise that not all transactions had been harvested and sent to TIP. A provisional fix went in on 2nd August and this has worked satisfactorily so far with the effect that all records had been sent."
+
+.. rst-class:: indented
 
 So my assumption would be at this stage -- as I say, I'm trying to remember back over 23 years -- but my assumption would be at this stage so they'd put a fix in, we'd done some provisional early testing of that fix and all looked good but naturally, on something so significant, we wouldn't want to close it until we'd done sufficient testing to be confident that it's truly fixed.  I'm sure you probably appreciate that there's lots of different scenarios that contribute to a cash account.  So we'd want to make sure all those scenarios are suitably tested.
 
@@ -2663,7 +2761,11 @@ Do you recall at all there being a likelihood that there would be cash accountin
 
 **Mark Burley**: Well, as it says on the subject, the receipts weren't equal to payments and the fundamental thing about the cash account is your receipts payment and your payments total have to match, and any then balancing entry between the two is the amount of loss or gain for the week in question.  And, typically, every branch would make, you know, a few pence, a few pounds potentially, difference on a weekly basis.  You know, you accidentally give out, you know, a 20p instead of 10p, so you've got a 10p discrepancy straight away and there were --
 
+.. rst-class:: indented
+
 If I recall at the time, there were examples where it genuinely happened because -- and I think it was books of stamps.  If they bought ten stamps they got a slight discount as a customer but it went in effectively at the price -- so the subpostmaster would make, I don't know, 10 pence, 15 -- I can't remember what the product was, so don't quote me on stamps, please, but there was a product that was sold where, if you bought in bulk, you got a bit of a discount.  But it worked in favour that you made actually, a slight profit on those.
+
+.. rst-class:: indented
 
 So, you know, that fundamental part of the cash account, the two columns are totalled, and any difference is your loss or gain on the week. It becomes a balancing entry.
 
@@ -2690,6 +2792,8 @@ So, you know, that fundamental part of the cash account, the two columns are tot
 .. rst-class:: indented
 
 **Mark Burley**: It would surprise me as far as my involvement would go.  I would just say one thing.  Of course the system, once the system is live, it's not completely left alone because we do -- you know, like most systems, you develop new products, so you do make changes to it.  So it's -- you know, could something have happened after that?  I can't comment for certain, but possibly.
+
+.. rst-class:: indented
 
 But if you're saying to me original integrity issues were allowed to be rolled out, were allowed to be included in the rollout, I'd be 100 per cent surprised and shocked.
 
@@ -2746,6 +2850,8 @@ Do you recall there being less testing than originally planned before going to p
 .. rst-class:: indented
 
 **Mark Burley**: No, there wasn't less testing.  We may have varied how we did the testing but there wasn't less testing.  One thing that was very, very clear on Horizon Next Generation was that quality was of the utmost importance.  With any project that is delivered, you generally have three criteria: you have the time it takes to deliver it; the cost to deliver it; and the quality criteria that it must meet.  I can honestly say, as programme manager, that quality criteria was the utmost of those three.
+
+.. rst-class:: indented
 
 Inevitably there's always a little focus on all three and the amount of forecast varies from project to project, but quality was the most important.  And, you know, I know several times throughout the development and testing of the solution, we paused, we took a step back, and because of testing, because of -- we couldn't get the right data or whatever, to absolutely make 100 per cent sure we'd got the right answer before proceeding.
 
@@ -2808,6 +2914,8 @@ Less testing might mean more bugs, mightn't it?
 .. rst-class:: indented
 
 **Mark Burley**: In theory, yes, but not necessarily in practice. With testing what you do, you agree an approach to testing of a strategy and an approach for specific phase of testing, if you like, that gives you sufficient confidence.  Now, with any system I would suggest it's almost impossible to be 100 per cent guaranteed that no further bugs remain, but you do sufficient testing, depending what it is you are developing, rolling out, deploying, that gives you the confidence it will work satisfactorily against what it's intended to do.
+
+.. rst-class:: indented
 
 So, obviously, something like, you know, I don't know, a space rocket, you would do much more testing on.  So you'd vary the testing according to what it is you're developing.  It's a standard approach called a risk based approach to testing but you cover off the things that are absolutely going to cause the -- any risk.
 
@@ -3035,6 +3143,8 @@ So that's where we get the phrase "desperate" from.  Was Alan D'Alvarez wrong wh
 
 **Mark Burley**: Not to the extent that it would be desperate. Clearly, for the migration, we have to plan and schedule the migrations.  You know.  So we have to give the officers that are due to migrate due notice because, you know, we would do that out of hours, typically.  They may need resources in place.  They have to, you know, prepare themselves for that migration.  So, you know, in terms of, you know, we would want a date that we are targeting.  Now whether that date was tomorrow or next week or next month, we want a date because we want to start the planning process, not desperate to get it going, necessarily.
 
+.. rst-class:: indented
+
 I think it's -- the -- not a term I would have used.  You know, we need a date, such that we can continue with our planning rescheduling exercise.
 
 **Mr Blake**: Can we keep that on screen but just put alongside it your witness statement, `WITN03850100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn03850100-mark-burley-witness-statement>`_.  It's page 4 of your witness statement, paragraph 16.
@@ -3078,6 +3188,8 @@ Do you see the contrast there between what you've said in your witness statement
 .. rst-class:: indented
 
 **Mark Burley**: As I said, what is said and how things are interpreted can be two different things.  Would I have said, "Alan, come on, I need a date, we need to start, you know, and get these replanned, rescheduled", yes, I probably would say something like that.  But, you know, there's a difference between saying that and saying, "Come on, Alan, I need to get these started again tomorrow, we're already behind plan". That is definitely not something I would have said.
+
+.. rst-class:: indented
 
 And you'll notice there they accepted our position that we're not able to give this today and, yes, I would want to keep them, you know, under a little bit attention that we're wanting a date because, as I said, scheduling and planning the branches, it wasn't a dead straightforward task.  It takes time.  You have to accommodate, you know, things that the office might have planned, you know, and, you know, we have to share appropriate evidence with other parties who were, you know, who, you know, for example with the National Federation of SubPostmasters, who I brought in to also give assurance before we deployed.
 
@@ -3249,6 +3361,8 @@ So what do you understand the position to be in simple terms?
 
 **Mark Burley**: I understand it to be some sort of corruption between the trial balance and final balance that isn't actually corrupting the data but it is corrupting the way the data is being reported, such that the final balance hasn't got the correct data on it any more.  But it's not actually impacting the balance as carried forward and, if that's the case and it's been validated as the case and that it doesn't invalidate the data going forward, then I guess that may have been acceptable.  But, as I say, I don't remember the detail of the, you know, I'm assuming that -- well, that would have been tested and proven to be correct before we'd have made the decision to accept this.
 
+.. rst-class:: indented
+
 Phil would also have checked with his Finance colleagues in what was known as P&BA, pension and branch accounting, I think, something and branch accounting.  To validate that they were comfortable there was no risk of corruption.
 
 **Mr Blake**: We'll see what happens.  We can look at an email, another response from Gareth Jenkins. That's page 2.  Just pausing therefore briefly, what was your relationship like with Gareth Jenkins?
@@ -3385,6 +3499,8 @@ Was the fact that the final balance that was produced by Horizon Online at this 
 
 **Mark Burley**: I honestly can't -- cannot tell you.  It doesn't have to be raised anywhere, unless we were put under pressure from Fujitsu to accept their workaround.  You know, from everything I've read so far, we did absolutely the right thing. Asked Phil to look into it with P&BA, as I say, who owned the financial integrity.  They've given us a very clear statement that they need to understand and to be able to have absolutely definitive proof that the integrity of the data is not compromised in any way and also ensure our legal team to sign off to that effect.
 
+.. rst-class:: indented
+
 You know, so really important to us and them, you know, that this is, you know, absolutely integrity is at the heart of it.
 
 **Mr Blake**: The workaround is not relying on the final report and having some sort of side assurance that everything is okay.  Given that people were prosecuted by the Post Office, do you think that that was sufficient?
@@ -3399,7 +3515,11 @@ You know, so really important to us and them, you know, that this is, you know, 
 
 **Mark Burley**: I think that's an unfair question, to be brutally honest.  I think Fujitsu were proposing a potential workaround.  At no point are they saying this workaround has to be accepted.  They were proposing what they deemed a potential workaround.  Clearly, it set alarm bells in my head when I saw it, hence I asked who'd agreed to it, and asked Phil to look into it.
 
+.. rst-class:: indented
+
 And, you know, I don't see anything on here that's, you know -- there's a little bit where, you know, he's trying to explain why he thinks it's okay but, clearly, doesn't have the full understanding of the significance of the final balance statement in any potential legal proceedings.
+
+.. rst-class:: indented
 
 So I don't see any pressure from them, you know.  Clearly, in hindsight, it wasn't a good proposal and, as such, I believe it was rejected on this basis.
 
@@ -3427,6 +3547,8 @@ So I don't see any pressure from them, you know.  Clearly, in hindsight, it wasn
 
 **Mark Burley**: My words don't say that.  My words say, first of all, who has it been agreed with?  This is a legal document so instantly registering my concern about it and there's a difference between a trial and a final, you know, if we were to go ahead with anything like this, you know, we would expect -- if CS is customer service, I don't know -- but certainly a Known Error Log, if it was agreed.  And, as I said, I don't know -- my first question is: who has agreed to it?  And then, as you see, I asked Phil to determine if it's acceptable and that's what leads to all the investigation that says it's not acceptable.
 
+.. rst-class:: indented
+
 So you wouldn't have a Known Error Log for something that we're not accepting because, actually, we'd be asking Fujitsu to fix it.
 
 **Mr Blake**: It's the attitude that I'd like to drill down on, really, because we're talking about very early days of Horizon Online here, and there is a problem with the balance, the final balance, and what you're saying there is that you would expect there to be a Known Error Log, if it was agreed, so that subpostmasters -- any subpostmaster who calls in would -- the two would be linked.  But what about all those subpostmasters who don't call in?
@@ -3440,6 +3562,8 @@ So you wouldn't have a Known Error Log for something that we're not accepting be
 .. rst-class:: indented
 
 **Mark Burley**: No, I think that is really not a fair reflection at all.  A Known Error Log is more for things that are genuine workarounds that have no real impact.  It's almost back to my font example. You know, it's things that do not impact the subpostmaster, do not impact a counter clerk, do not impact, you know, any of our clients at the time.
+
+.. rst-class:: indented
 
 They're just things that, you know, are, shall we say not quite, you know, as we expect them to be, but aren't causing any financial or other material impact or questioning of integrity, and we wouldn't proceed with it.  We wouldn't have something on the Known Error Log for something that is an integrity question.
 
@@ -3709,6 +3833,8 @@ You were asked to specifically address a list of bugs in you statement but you d
 
 **Mark Burley**: I didn't know I was expected to address these bugs in my statement but all I would say is there's far too little information on these for me to make a comment on them.  It doesn't tell me what the actual bug is, it just says there's a bug present.  For example, Lyca top-up, it just says there's a bug present in Horizon Online.  It doesn't tell me what the nature of that bug is, and, you know, whether it was, you know, if you recall back, one of the things I said to you was, you know, you don't develop a system, deploy it and that's it.  You're constantly making improvements to that system, be that new products, be that changes in how we operate products, et cetera.
 
+.. rst-class:: indented
+
 And, therefore, there's always a risk that bugs do creep in and that's why you have to, you know, keep testing it and, you know, keep on top of it.  But on none of these have I got sufficient information to be able to comment on them, I'm afraid.
 
 **Mr Blake**: Do I take it from that that you didn't follow any of the court proceedings relating to Horizon?
@@ -3726,6 +3852,8 @@ I mean, it was a bit more than some noise, wasn't there, in terms of the number 
 .. rst-class:: indented
 
 **Mark Burley**: Sorry, let me explain to you how I've answered this question.  The documents I received were several thousand pages, and as I said to you, you know, none of those -- some of those bugs were well after Horizon HNG-X was rolled out. Some of those, you know -- and therefore presumably introduced by a subsequent release. None of those bugs have enough detail for me to comment on, and I'd be commenting from, you know, a guesswork, and that's totally the wrong thing to do, you know.
+
+.. rst-class:: indented
 
 I've never said there weren't bugs in the system.  As I said, of course there was noise. We managed it very closely with the -- as I said, we involved the Federation of subpostmasters in all our decisions.  We worked with them.  You know, they were very much part of the team that agreed, you know, in terms of any known errors, would we go live with them? Absolutely.  They were part and parcel.
 
@@ -3987,6 +4115,8 @@ Ah, sorry.  If we scroll down, sorry, there's a key passage I missed off there w
 
 **Mark Burley**: No, I mean the only thing I can recall in anything connected -- and I don't know if this is connected to this, or something completely different, was Rod did do a piece of work to investigate the integrity of Horizon -- I don't know if it was original Horizon or Horizon Online, because the two blend, but Rod did an investigation into the integrity of the system at the time, whichever one it was.  And I'm sure there are records of that, because I'm sure it's in one of the packs that I've seen, where he confirmed that, you know, in his view and the view of people he had looking at it, it was operating with integrity.
 
+.. rst-class:: indented
+
 Now I'd been told that was before this time, and as I said, it could even be original Horizon.  As I said, I don't ever recall being consulted on anything with a legal connection like this.
 
 **Mr Blake**: So you don't recall being consulted about the Second Sight -- the matters raised by Second Sight, and in relation to these criminal proceedings, you don't recall being --
@@ -4073,6 +4203,8 @@ Now that wasn't correct, was it, about the absence of backdoors and everything b
 
 **Mark Burley**: Well, any system has to be maintained, yes.  So you do need, you know, a control system such that you can go in and make appropriate, you know, new coding, for example, et cetera, that needs to be done on any system.  But it's that authorised backdoors that I'm emphasising.
 
+.. rst-class:: indented
+
 So on Horizon Online, it was certainly always built and tested as a two-person entry. So there had to be two persons involved to make sure it had that authorisation.
 
 **Mr Blake**: When you read this for the first time, did you say, "That bit's not right"?
@@ -4102,6 +4234,8 @@ That phrase, "noise", that was something that you -- that was a phrase that came
 .. rst-class:: indented
 
 **Mark Burley**: Yeah, but only in the sense of, you know, noise can be good or bad.  So, you know, don't interpret it as being necessarily negative. It's negative in this context, and obviously we had to take note of the noise and make sure we acted upon it.  And that's one of the reasons, as I said, we had the Federation in with us -- so they could help us with that noise and help us either (a) understand it, or (b) you know, they would help promote the right communications that would help alleviate the noise.
+
+.. rst-class:: indented
 
 One of the biggest bits of noise that we had was in the early days of deployment, because we made a conscious decision to substantially change the user interface, and because of that, we had quite a bit of what I'm going to use the term "noise", because people were not used to it.  But actually, very quickly that noise died down from the users, but it almost kept a balance because as new users came on, you got the same noise because they just weren't used to that new user interface.  And it was specifically done that way because, had we kept the user interface as it was, that was part of the problem with original Horizon and why some transactions were taking longer than they needed to: because they had to navigate several screens, whereas we made it much quicker and easier to navigate to transactions.
 
@@ -4224,6 +4358,8 @@ And the final question also relates to training.  You have said in your statemen
 .. rst-class:: indented
 
 **Mark Burley**: Well, the difference is a priority of things, because it depends on how their members get paid.  So the :abbr:`NFSP (National Federation of SubPostmasters)` might want to prioritise a transaction of, you know, to a higher screen than the :abbr:`CWU (Communication Workers Union)` because their members get a higher payment for it, whereas for the CWU, you do more of transaction X which wasn't as important to be higher up on the Federation because they didn't get paid as much for it.
+
+.. rst-class:: indented
 
 It was always resolved amicably.  We had discussions, we had -- it was just, you know, one of the examples that I recall where there was a conflict.
 

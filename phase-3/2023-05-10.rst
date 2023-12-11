@@ -3257,13 +3257,23 @@ What does that mean, please?
 
 **Stephen Parker**: Cygwin was a package that could be used on Windows' platforms to enable Unix-like commands to be executed so Windows and Unix being two different flavours of operating system.  It then sets out requirements, if we skip on a couple of paragraphs to "To gain access to the branch counter".  It says:
 
+.. rst-class:: indented
+
 "... using the remote support capability the member of staff must ..."
+
+.. rst-class:: indented
 
 Then there are a number of requirements set out:
 
+.. rst-class:: indented
+
 "Be a Fujitsu employee
 
+.. rst-class:: indented
+
 "Have been security and financially vetted ..."
+
+.. rst-class:: indented
 
 Was that a new requirement, to be financially vetted?
 
@@ -3487,6 +3497,8 @@ Doing the best we can of reading this email, you're reported -- I think you're t
 
 **Stephen Parker**: I mean, I looked at the information in my bundles on this whole APPSUP issue.  I don't remember exactly how they didn't correspond to the actual process but I know that the way that the SSC used APPSUP at this time allowed any member of the SSC to escalate privilege, in order to make -- in order to work on the system in a privileged fashion.
 
+.. rst-class:: indented
+
 I believe the documentation said that any such changes in HNG-X would only be done via a development provided script.  It was around that area.  I mean, the whole thing got extremely complicated and went backwards and forwards for sometime.
 
 **Mr Beer**: So there's a debate really here whether the SSC should do what's in a written policy or whether the written policy should, in effect, be a piece of reverse engineering --
@@ -3634,6 +3646,8 @@ Firstly, the things that aren't being done, active command logging, what's that?
 .. rst-class:: indented
 
 **Stephen Parker**: No.  But if I may, I will rewind slightly. There was keystroke logging introduced as part of the SSH implementation that we've been looking at here, and I know for a period keystroke logging did take place because I remember there being servers that contained the log data.
+
+.. rst-class:: indented
 
 At some stage, and I don't remember when, it must have come out of the system again for some reason.  I have no recollection of when it came out or why.
 

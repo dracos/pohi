@@ -86,7 +86,11 @@ Questioned by Mr Blake
 
 **Jason Coyne**: Yes, so we set up that company in 2000 because we'd noticed that technology within companies was accelerating rapidly and, whereas before, technology was just an aid to businesses, technology was now being talked about in terms of business transformation, so requiring fundamental changes to businesses whilst technology was brought in.
 
+.. rst-class:: indented
+
 We spotted that there was a number of what we at the time called misaligned expectations, the suppliers would think they were delivering one things, the customer would think they were going to receive something different.  So Best Practice Group was set up to help the parties come together throughout the contracting process to understand what would be delivered and what the parties' relative roles and responsibilities would be.
+
+.. rst-class:: indented
 
 It was as a result of that that we started to be instructed by parties that had frustrated implementations to try to avoid disputes and that built up our contact with law firms.
 
@@ -107,6 +111,8 @@ It was as a result of that that we started to be instructed by parties that had 
 .. rst-class:: indented
 
 **Jason Coyne**: That's right, yes.  And IT Group was looking purely at the distressed end of computing, so it was looking at things like failure mode analysis to find out why projects had gone wrong, whether they could be brought back on track or not or whether we could provide expert witness evidence throughout the dispute resolution process, if the contract needed to come to an end.
+
+.. rst-class:: indented
 
 So we helped people like insurers, we were instructed by law firms, often instructed by technology companies, to advise how to get projects back on track, or purchasers of technologies to find out what they should change within their own organisation to make the technology project work better for them.
 
@@ -152,6 +158,8 @@ So we helped people like insurers, we were instructed by law firms, often instru
 
 **Jason Coyne**: Well, the overriding obligation is to assist the court and to ensure that you take an independent viewpoint and that you consider all evidence very carefully, you don't fail to report any evidence that you've seen and that you search out all the evidence that might be available.
 
+.. rst-class:: indented
+
 It's really the independence side of it that was the very, very early teachings that I got from all the material that I took from the Institute of Experts and all the different various parties that were involved in expert witness training in those early days, and still today.
 
 **Mr Blake**: Was it broadly the same in the early 2000s as it is today, in terms of your duties as an expert?
@@ -177,6 +185,8 @@ It's really the independence side of it that was the very, very early teachings 
 .. rst-class:: indented
 
 **Jason Coyne**: I mean, your obligations are still exactly the same.  Your obligation is to assist the court and you have to remain independent, whether you are instructed by two parties or whether you're instructed by one party, such as was in the Bates litigation.  So your opinions don't change.  The way you go about the process, the analysis, doesn't change.  You have to take as much care and diligence, irrespective of which process is followed.
+
+.. rst-class:: indented
 
 The only difference really is that the two parties in a joint litigation -- in a joint instruction come together to generally agree what your instruction should be, and you accept that as a joint instruction, and then, when you submit your report, you generally invite questions from both parties and then you would generally respond to those questions.  That's typically the process and the difference when it's a joint instruction.
 
@@ -376,6 +386,8 @@ Can you assist us, who was Judith Bohren?
 
 **Jason Coyne**: To produce an opinion on whether, essentially, the use of the Helpdesk by the Cleveleys post office was reasonable use, whether the calls that were being placed to the Helpdesk by the subpostmaster were placed appropriately, and I was given somewhere between 80 or 90 call logs, really without very much context, and I was asked to go through those and effectively categorise them as calls requesting general help.  So, for example, "Could you tell me how I do this", so that might suggest a lack of training or a lack of understanding, or whether they were calls relating to a defect, generically a defect, could be with hardware/software interfaces in the operation of the system, and therefore the subpostmaster called the Helpdesk seeking guidance and resolution about that defect.
 
+.. rst-class:: indented
+
 So that's the process that I went through.
 
 **Mr Blake**: As we saw from those previous court orders, it seems as though, by that stage, there wasn't the audit data available to actually look at the underlying transaction data; is that correct?
@@ -383,6 +395,8 @@ So that's the process that I went through.
 .. rst-class:: indented
 
 **Jason Coyne**: Yes, but I think that, in itself, is quite surprising.  And, you know, I did note that there was talk about, you know, data being kept on the machine for so many days, I think it was 30 days, and then data being removed after 18 months.  From my knowledge since this matter, I don't believe that that would have been correct at the time.  I don't believe that archived data would have been removed after 18 months.
+
+.. rst-class:: indented
 
 So perhaps there was other data that was available.  There were certainly things like KELs and things like that that were available at the time that would have assisted me to come up with my opinion but none of those were provided either.
 
@@ -443,6 +457,8 @@ So you're being told in that letter that there isn't a comparable set of call lo
 .. rst-class:: indented
 
 **Jason Coyne**: I believe that, because I'd set out various criteria, you know, similar numbers off similar sites, that they were unable to find either a similar sized or similar turnover Post Office.
+
+.. rst-class:: indented
 
 I now know that that statement that's made there can't really be correct at the time because, as a better understanding of the Post Office estate there, there would have been many sites that could have been used as comparators, and because I now understand that these are PEAK logs -- well, there was many thousands of PEAK documentation that could have been used, and the support logs that could have been used to pull together that comparable information.
 
@@ -578,6 +594,8 @@ We see at the bottom of that statement, a statement of truth.
 
 **Jason Coyne**: Yes.  So I say that, in my opinion, what Ms Tagg states is not a true representation of the evidence that I've seen from looking at the calls, the 90 or so calls.  And, as I stated a minute ago, 63 of those calls are system failures, and only 13 are Ms Wolstenholme calling the wrong support Helpdesk and, in Ms Tagg's statement, she suggests that the vast majority are asking for help and that there are practically no reports of system problems.
 
+.. rst-class:: indented
+
 Then I go on to say that the system issues we see, screen lock freezes and blue screen errors, can't possibly be of Ms Wolstenholme's making but are due to the faulty computer system, and I specifically highlight a call there and I make reference to the constant rebooting that was requested of her.
 
 **Mr Blake**: In fact, if we look at the final paragraph on that page, you address the advice from the Post Office to reboot the system.
@@ -592,7 +610,11 @@ Then I go on to say that the system issues we see, screen lock freezes and blue 
 
 **Jason Coyne**: Yes, from the looking at the detail in the call logs, there appeared to be a pattern emerging where Ms Wolstenholme was told to reboot -- just simply reboot the terminal.  And I made the observation that, whilst rebooting might get you back up and running, it essentially masks what the underlying problem might be.  There needs to be analysis of things like crashdumps, you know, why did the system freeze, what did go wrong. But I couldn't see within the call logs that that analysis was really going on.  It was more just get the machine back up and running.
 
+.. rst-class:: indented
+
 That's not to say that people weren't changing things in the background but you couldn't necessarily see that from the logs.
+
+.. rst-class:: indented
 
 In fact, from the knowledge in Bates, we know that there was a huge amount of changes that was going on in the background and being pushed out, so it might well be that, you know, a reboot and then a couple more days, something then might change with the Horizon terminal.
 
@@ -607,6 +629,8 @@ In fact, from the knowledge in Bates, we know that there was a huge amount of ch
 .. rst-class:: indented
 
 **Jason Coyne**: Yes.  So when a screen freezes, you know, you can be pressing the keys and nothing is happening, that has to be a system fault.  The user can't cause that and we certainly saw those types of problems.  We had blue screens, where the system, the operating system, crashes.  You may well see it on your home PC, you often call it the "blue screen of death", you lose all your work and it's just a blue screen.  That can't be anything that a user can cause.  It's typically a hardware fault and there was a number of those that was going on.
+
+.. rst-class:: indented
 
 There was also the need to exchange hardware.  Hardware was switched out by Post Office, or Fujitsu, suggesting that they suspected ongoing hardware problems, although it would seem that there was no real improvement that was made.  I also point out that there was a reduction in the calls at the end of June 2000 and I'm not sure if we managed to identify what that might be.
 
@@ -651,6 +675,8 @@ There was also the need to exchange hardware.  Hardware was switched out by Post
 .. rst-class:: indented
 
 **Jason Coyne**: Yes.  Yes, okay.  So I say that the technology installed at Cleveleys was clearly defective in elements of its hardware, software or interfaces, and that the majority of the errors in the fault logs could not be the making of Ms Wolstenholme.  The next statement I made is that Post Office is more focused on simply closing calls rather than trying to get to the bottom of what the issues might be and the instruction to reboot would allow the business to get back up and running again but it could potentially mask the efforts, certainly from the Post Office -- from the postmaster -- to understand what's going on.
+
+.. rst-class:: indented
 
 And then I also point out that whilst there was a reduction in calls between July and October, it might be user disillusionment with the Helpdesk or comparative system stability. But then I do point out that from late October, the re-occurrences of the faults, which had been the subject of the earlier log calls, seem to resurface after, in quotes, an "upgrade" to the counters which seems to have occurred around 23 November 2000.
 
@@ -798,6 +824,8 @@ That must be balance.
 
 **Jason Coyne**: No, it was an incorrect statement.  I mean, certainly there were a large number of problems at Cleveleys and with the information that I finally got from Post Office, whilst it wasn't comparative logs, it was giving me high level information about the types of problems in another -- I think it was six post offices.
 
+.. rst-class:: indented
+
 They were suffering large numbers of problems with hardware and software of interfaces in the same way that Cleveleys was, and I asked for that to be representative of the estate.  So that suggests that the whole estate was suffering similar types of problems as well as what was being experienced at Cleveleys at that time.
 
 **Mr Blake**: Seeing Ms Tagg's name as the Regional Manager and the contact with the Helpdesk in this particular instance, do you have any views on whether her statement was fair and accurate?
@@ -842,6 +870,8 @@ Do you have a view on that at all?
 
 **Jason Coyne**: So it would be fair to say that there is a risk that exists that with any technology that runs 24 hours a day it will, at some point in time, suffer a hardware defect that will require fixing.  But it will require that qualification that the -- they call it the "meantime between failure", so how much time would you expect before the next failure exists.  We were seeing failures in Cleveleys almost on a daily or weekly basis.  So that is an unreasonable meantime between failure.
 
+.. rst-class:: indented
+
 So there is a real danger with that statement that's made there that the non-technical user, reading that, might take that to be that I'm incorrect in what I'm saying, whereas I think what is being said is actually he agrees with what I'm saying but I think it's very, very clumsily worded.
 
 **Mr Blake**: If we look at the second point, he comments on your point about the Helpdesk being focused on closing calls and he says:
@@ -855,6 +885,8 @@ Do you have a view on that at all?
 .. rst-class:: indented
 
 **Jason Coyne**: Well -- and again, it is true, whenever you're going to decide to reboot and get up and running, and we'll see this in our own businesses, that is a trade-off.  Do I spend the time on the telephone reporting all the issues to then just reboot or do I just reboot myself? At least I'll be up and running, I'll be operational, the business continue to trade.
+
+.. rst-class:: indented
 
 The difference here is the process of rebooting and not analysing the information that's led to it, could well mean that you have accounts that are incorrect as a result of that system flaw and, ultimately, that imbalance, that discrepancy, may well be used in evidence against you in later action.  So I don't think it's fair on the subpostmasters for Fujitsu to be using the fastest possible -- or Post Office to be using the fastest possible approach to getting the Horizon terminals back up and running then, because, essentially, it's only Fujitsu and the Post Office that benefit from that reboot and get up and running; the subpostmasters are potentially massively disadvantaged by that.
 
@@ -880,6 +912,8 @@ Do you have a view on that?
 
 **Jason Coyne**: It is true that over time, a number of additional systems and processes were set up by Post Office to deal with the inadequacies of Horizon in the early days, and there was number of other checks and balances and teams of people that were fixing transactions.
 
+.. rst-class:: indented
+
 So it should say that, whether they were at this point in time or whether they developed later over time, systems are in place, but there was the huge potential for flaws.  They were very heavily human-based systems that were put in place and that -- some of them were mechanised later.
 
 **Mr Blake**: Go when you say human-based, do you mean workarounds and things like that, rather --
@@ -901,6 +935,8 @@ So it should say that, whether they were at this point in time or whether they d
 .. rst-class:: indented
 
 **Jason Coyne**: No, that's incorrect.  What you see with defects in software is that they may only trigger with a very specific series of either key presses or series of transactions, or certain events going on with -- on the estate.  Because when developers test software they generally test what's called the happy path, so, if everything goes well with the transaction, you'll get the successful result at the end.  It's only if something differs within that or if certain types of transactions that have done, or certain transactions are done in certain sequences.
+
+.. rst-class:: indented
 
 So what goes on at a particular post office that exposes a defect may only be seen in a handful of other post offices because of the nature of it.  And, certainly, in some of the defects that we looked at as part of the GLO, you will see in the bug table at the back, some of the defects only hit 20 or 30 or 50 different post offices at various points to in time.  So that's an incorrect statement.
 
@@ -942,6 +978,8 @@ On the left-hand side of our screen, we have the Fujitsu response to your expert
 
 **Jason Coyne**: So Fujitsu are explaining that there is what they call a strict contractual service level agreement covering up -- sorry, covering aspects such as pick-up time, time to fix, time to close and that they operate to that criteria because that's the commercial contract that they have with the Post Office.
 
+.. rst-class:: indented
+
 So it could well be the case that it is better for Fujitsu to close a call by rebooting a computer than it is to spend a lot of time investigating it because that might put them in breach of their service level agreement. I don't know, I haven't seen that service level agreement and that's why I've said it's a matter for the Post Office and Fujitsu because it's their commercial agreement, rather than me to comment on that.
 
 **Mr Blake**: The final part of the entry on the left-hand side says:
@@ -969,6 +1007,8 @@ So it could well be the case that it is better for Fujitsu to close a call by re
 .. rst-class:: indented
 
 **Jason Coyne**: Well, I have got a far better understanding of how the process operates, how the calls are placed, the different tiers of support and the documents that are created throughout that process.  But I don't believe it operates significantly different when I was looking at it in 2016 to 2018, than what it operated then. You know, the desire to reboot and get operational appeared to be consistent then with what it -- now with what it was then.  And the fixing of faults and effectively pushing those fault fixes out in the background was also the same.
+
+.. rst-class:: indented
 
 I think in my second report to the GLO, we -- I listed a number of release notes suggesting that something had been changed and pushed out and it was in the thousands.  So the system constantly evolves and, for that reason, the reboot, it's conceivable that that might -- the rebooting might not fix the problem but if something is changed in the background and then you're told to reboot, then that might actually lead to an improvement.
 
@@ -1010,7 +1050,11 @@ I think in my second report to the GLO, we -- I listed a number of release notes
 
 **Jason Coyne**: So Fujitsu had looked at some call logs and these should have been the call logs that should have been disclosed to me but they said that they couldn't be disclosed to me.  But then they'd found some -- they gave it a particular term for these -- it was unregulated data or something like that that they then looked at. They'd then done some analysis on those calls, and had presented in overview their view from looking at those calls and they were setting out in that table the detail.
 
+.. rst-class:: indented
+
 But if you look at that detail, you've actually got, for example, "H" is hardware.  If you look down the "H" column, you can see that, you know, Headingley 5, Dungannon 2, so pretty much in that representative sample lots of people were suffering from hardware issues, a number were suffering from implementation issues.
+
+.. rst-class:: indented
 
 Sorry, can you just show me the legend a bit further down?
 
@@ -1032,6 +1076,8 @@ Sorry, can you just show me the legend a bit further down?
 
 **Jason Coyne**: No, that's right.  Yes, that's correct. I didn't have a conversation with Fujitsu about that.  But I believe I say, in my response -- yes, I do.  So the -- under "Reasonableness of calls", second paragraph starts with "Now it seems".  So what I say there:
 
+.. rst-class:: indented
+
 "Now it seems that your client has located data that they believe enables comparison. Although the raw data has not been made available to me ..."
 
 **Mr Blake**: If we scroll down on that page as well, I think there's another paragraph under the "Reasonableness of calls".
@@ -1040,7 +1086,11 @@ Sorry, can you just show me the legend a bit further down?
 
 **Jason Coyne**: At the top of that I say:
 
+.. rst-class:: indented
+
 "Although I must stress that no raw data has been [provided] so I am disadvantaged, is it your client's intention to rely upon the data sample referred to in this letter?"
+
+.. rst-class:: indented
 
 So am I to take that table as evidence that I should be considering or am I going to get the raw underlying data?
 
@@ -1049,6 +1099,8 @@ So am I to take that table as evidence that I should be considering or am I goin
 .. rst-class:: indented
 
 **Jason Coyne**: So Fujitsu were suggesting that Cleveleys is no better or worse, broadly, than the rest of the estate, which I thought was quite a bizarre position to take and I think I made a comment on this because it appears that the whole estate was suffering huge numbers of problems.  So by just saying they're all as bad as Cleveleys, I didn't know why that was helping anything.
+
+.. rst-class:: indented
 
 But then what they say is it is worth noting that Fujitsu Services is not aware of similar complaints or claims being made from the other outlets on the list.  But I know full well that there was a number of complaints and claims being made broadly across the estate.  That's not to say that it was those particular post offices on the list there.  So I didn't know whether had list had perhaps been cherrypicked because there'd been no complaints by them or not.  But I know across the estate that there was large numbers of problems.
 
@@ -1082,6 +1134,8 @@ But then what they say is it is worth noting that Fujitsu Services is not aware 
 
 **Jason Coyne**: There consistently appears to be, within Fujitsu and/or Post Office, a reluctance to ever really grasp the analysis of the issue and to look at it.  And the times that this is -- that this comment about, you know, by design, double entry bookkeeping, the way that the audit logs are kept, all of these sort of principled issues are just repeated, when really it's often absolutely obvious that there has to be a technical problem that should be looked at.
 
+.. rst-class:: indented
+
 And I don't know whether it's an outward facing position, "This is what we say but we will actually have a look at it", or whether it's "This is what we say and we don't need to bother having a look at it", and I don't know which of those it actually is.
 
 **Mr Blake**: If we now look at "Operator advice to 'Reboot'", and if we scroll down on the right-hand side, so that they match up -- thank you.  Can you tell us what you understand Fujitsu to be saying in this respect and your response to Fujitsu?
@@ -1095,6 +1149,8 @@ And I don't know whether it's an outward facing position, "This is what we say b
 .. rst-class:: indented
 
 **Jason Coyne**: Well, you see, whenever a fix is made within the software, you then have to understand what the impact of that fault actually was and, in order to look at the impact, you've got to know when did that version of software get pushed out to the estate, when did we fix it and, during that period of time, how many subpostmasters have the potential to be impacted by that particular defect?
+
+.. rst-class:: indented
 
 And if there was an impact, you've really got to, effectively, rerun all of the accounts, or potentially make an exclusion that there was knowledge of a particular issue during that period and, therefore, you certainly couldn't rely upon that data, certainly not for a prosecution, but you just couldn't rely upon that data because you don't really understand what the impact or potential impact on the data that defect might have had.
 
@@ -1136,6 +1192,8 @@ What was your response to that?
 
 **Jason Coyne**: So what I said at the time is I'm unsure how this can be resolved, as, clearly, the PM reported discrepancies and those discrepancies correlate with the reported upgrade in the system.  So the suggestion is that the upgrade has led to these discrepancies.  But I've said, without further information, I think you'd need an additional witness of fact to be able to opine on that, if there's no documents or a system that I can look at, because I've been told it's not available -- although we know that there was additional information that was available -- that then there's very little I can do with that.
 
+.. rst-class:: indented
+
 But then I conclude that by saying, in short, the answer posed by your letter -- and this was the letter from Susanne Helliwell -- will I change my opinion, is no, my opinion currently remains as set the out in my original note.
 
 **Mr Blake**: The statement on the left-hand side that system errors can't happen, knowing what you know now, reading the precise words that are on the left-hand side, do you have any views on what's said there?
@@ -1144,7 +1202,11 @@ But then I conclude that by saying, in short, the answer posed by your letter --
 
 **Jason Coyne**: Well, you know, I mean, absolutely we know, as a result of the work that was done in the GLO, that system errors can be responsible for accounting issues, shortfalls and, in fact, we proved, and Judge Fraser agreed, that a number of -- I don't exactly know what the number was off the top of my head but 25, 28 or whatever of the defects, had lasting impacts.
 
+.. rst-class:: indented
+
 So, effectively, all of the workarounds that may well have been put in place by Post Office to deal with the technical defects weren't successful and it was lasting problems with accounts.  And it's clear from the -- well, I say recent disclosure from my point of view -- I only got the documents on Wednesday or Thursday of last week -- there are references to PEAKs in those documents that I'm absolutely convinced were not disclosed to me as part of the GLO.
+
+.. rst-class:: indented
 
 So the number that we reported to the GLO of bugs, errors and defects may possibly increase with other disclosure.
 
@@ -1190,9 +1252,15 @@ Is that ever an opportunity that was extended to you?
 
 **Jason Coyne**: So, I mean, what they are simply saying is they're restating the primary objective of the Helpdesk is short-term and return the outlet to normal business as rapidly as possible, and certainly what we saw in the call logs was lots of reboots:
 
+.. rst-class:: indented
+
 "Advice to reboot is the most effective way of doing this.  It is not the function of the HSH to analyse crashdumps while on the phone to postmasters."
 
+.. rst-class:: indented
+
 Because crashdumps are one of the things that are typically created when a machine will blue screen and that was experienced at Cleveleys.  So I suggested, I think in the first document that I sent, that I would analyse those crashdumps but Fujitsu said that they've now been deleted so they weren't available to me. But what he does go on to say here is that my comment regarding not getting to the bottom is flawed because he says that there is a KEL that was produced at least for one of the calls, that shows that they were investigating things.
+
+.. rst-class:: indented
 
 And, again, if that KEL had have been provided, it may well have been the case that my opinion would be -- have been extended to "Whilst they are rebooting, I can see that there are KELs which show that further analysis was going on in the background", but that wasn't provided to me.
 
@@ -1255,6 +1323,8 @@ And, again, if that KEL had have been provided, it may well have been the case t
 .. rst-class:: indented
 
 **Jason Coyne**: "We need to consider the specific calls that the Expert is referring to."
+
+.. rst-class:: indented
 
 I mean, the worry there is that they've made statements there about how robust and resilient the system is generically, without actually going and looking at these particular issues that I raised.  So that's, you know, potentially a failure there, really and they should have been considered in detail, presumably before this action was ever started.
 
@@ -1374,6 +1444,8 @@ Knowing that these bugs were present, some during the period in which you were t
 
 **Jason Coyne**: Certainly, yes.  My position is that all information that relates to defects, because this was a report about whether there was defects or not, should be disclosed, and I think that the question of relevance should actually be left with the person who's opining on it, rather than lawyers taking a view on whether something is relevant or not, because there is a danger that documents get taken out because they're considered as being not relevant, where if you had the technical context, you might be able to see that a document was relevant.
 
+.. rst-class:: indented
+
 In addition, I expressly asked for certain categories of documents and they weren't provided.  I was told that it was destroyed.
 
 **Mr Blake**: Can we look at FUJ00121724.  This is an email you won't have seen at the time but it has subsequently been provided to you.  It's from Jan Holmes of Fujitsu to Colin Lenton-Smith, and William Mitchell.  It says:
@@ -1444,7 +1516,11 @@ That reference there to an issue in Shobnall Road and keyboards can cause phanto
 
 **Jason Coyne**: Well, I certainly know that filtered and unfiltered data was a feature in the GLO and there was problems then with the filtering, as such, about what was left out.  But there is a factor that I just noted in the documents that were disclosed -- certainly disclosed to me only last week -- that relates to a discovery that the :abbr:`ARQ (Audit Record Query)` data itself has duplicates within it. So it shows that transactions have been duplicated in the ARQ data.  And this is a report, I believe, from Penny Thomas and Gareth Jenkins, and it refers to two PEAKs, the numbers of which I don't recognise, and it also refers to two specific post offices that were involved in some form of litigation or criminal action at the time.
 
+.. rst-class:: indented
+
 So it would appear that, as a result of pulling the ARQ data perhaps -- and I don't know this for a fact -- but perhaps to support the litigation or whatever it was at the time, they discovered that ARQ data was incorrectly showing duplicate transactions.
+
+.. rst-class:: indented
 
 Now, the potential impact that flows from that could be huge but, without investigating it further, I don't know.  There is a PEAK number -- there's two PEAK numbers listed in there.
 
@@ -1467,6 +1543,8 @@ What's your view of those comments that were made by Mr Holmes?
 .. rst-class:: indented
 
 **Jason Coyne**: I mean, certainly I dispute that "taken a one-sided view of life".  Part of my training, and it's a constant focus in what I do, is I have to look -- I have to take a very balanced view.  And, certainly, when it's a joint expert report, you have to make sure that everything that's available from the parties has been considered.  So I completely refute that view.
+
+.. rst-class:: indented
 
 And the fact of the matter is, I did only do that paper review because that was the only information that was said to be available to me. He's obviously got other additional information that wasn't disclosed to me.
 
@@ -1491,6 +1569,8 @@ Are you able to give is your view on that opinion?
 .. rst-class:: indented
 
 **Jason Coyne**: Well, I mean -- I believe it's delusional to then look at evidence and simply say that that isn't correct, and I looked at the evidence and I said what my opinion was, and still remains: that system was absolutely flawed at that point in time and throughout the GLO we proved, and Judge Fraser agreed, that that system had a large number of bugs, errors and defects.
+
+.. rst-class:: indented
 
 If Fujitsu aren't going to look at the detail of the evidence or they're going to look at the evident and then say they have a different view of it, I do believe that that is a delusional view.  They just fail -- they fail either to consider it or their opinions are flawed when looking at that evidence.  Or, alternatively, from Fujitsu's point of view, they're looking at it from a commercial lens that all they need to do is satisfy Post Office. They don't have any real primary interest in satisfying subpostmasters.
 
