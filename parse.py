@@ -54,6 +54,7 @@ def header(date):
     out = f'''.. raw:: html
 
    <div id="hearing-meta">
+        <label><input type="checkbox" id="hide-video"> Hide video</label>
 '''
     seen = set()
     for v in videos:
