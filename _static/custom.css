@@ -57,6 +57,7 @@ div.document a:hover {
     position: fixed;
     bottom: 0em;
     right: 0em;
+    text-align: right;
 }
 #hearing-meta > * {
     display: block;
