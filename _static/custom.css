@@ -65,12 +65,10 @@ div.document a:hover {
     color: #fff;
     background-color: #48466d;
 }
-#hide-video {
-    display: none;
-}
-#hearing-meta:has(#hide-video:checked) {
-    display: none;
-}
+#hearing-meta summary { cursor: pointer; }
+#hearing-meta summary span.open { display: none; }
+#hearing-meta[open] summary span.closed { display: none; }
+#hearing-meta[open] summary span.open { display: inline; }
 
 p.indented {
     margin-left: 1.5em;
