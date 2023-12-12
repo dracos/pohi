@@ -70,6 +70,11 @@ div.document a:hover {
 #hearing-meta[open] summary span.closed { display: none; }
 #hearing-meta[open] summary span.open { display: inline; }
 
+lite-youtube {
+    width: 200px;
+    height: 113px;
+}
+
 p.indented {
     margin-left: 1.5em;
 }

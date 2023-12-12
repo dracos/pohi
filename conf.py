@@ -36,7 +36,8 @@ html_theme_options = {
 }
 
 html_static_path = ['_static']
-html_css_files = ['custom.css']
+html_css_files = ['custom.css', 'lite-yt-embed.css']
+html_js_files = ['lite-yt-embed.js']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

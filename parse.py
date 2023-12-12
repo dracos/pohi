@@ -63,7 +63,7 @@ def header(date):
     for v in videos:
         if v['id'] in seen:
             continue
-        out += f'   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/{v["id"]}?rel=0&modestbranding=1" title="{v["title"]}" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>\n'
+        out += f'   <lite-youtube videoid="{v["id"]}" params="rel=0"></lite-youtube>\n'
         seen.add(v['id'])
     out += '   </details>\n\n'
     return out
