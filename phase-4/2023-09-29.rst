@@ -12,8 +12,8 @@
             <span class="open">Hide video</span>
             <span class="closed">Show video</span>
         </summary>
-   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/tFxr9dGkhkI?rel=0&modestbranding=1" title="John Jones - Day 70 AM (29 September 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/N3iKrimXM3c?rel=0&modestbranding=1" title="Simon Recaldin - Day 70 PM (29 September 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+   <lite-youtube videoid="tFxr9dGkhkI" params="rel=0"></lite-youtube>
+   <lite-youtube videoid="N3iKrimXM3c" params="rel=0"></lite-youtube>
    </details>
 
 *(10.00 am)*

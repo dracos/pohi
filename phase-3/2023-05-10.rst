@@ -12,8 +12,8 @@
             <span class="open">Hide video</span>
             <span class="closed">Show video</span>
         </summary>
-   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/nBqKbQxDRAM?rel=0&modestbranding=1" title="Stephen Parker - Day 50 AM (10 May 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/huhyUmJrETs?rel=0&modestbranding=1" title="Stephen Parker - Day 50 PM (10 May 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
+   <lite-youtube videoid="nBqKbQxDRAM" params="rel=0"></lite-youtube>
+   <lite-youtube videoid="huhyUmJrETs" params="rel=0"></lite-youtube>
    </details>
 
 *(10.00 am)*
