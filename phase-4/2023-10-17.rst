@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/RqnJ3acdyU8?rel=0&modestbranding=1" title="John Breeden - Day 77 AM (17 October 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/WRmFALEni_Y?rel=0&modestbranding=1" title="John Breeden - Day 77 PM (17 October 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.00 am)*
 

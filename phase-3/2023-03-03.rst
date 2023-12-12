@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/gUhks9TnI-0?rel=0&modestbranding=1" title="Andrew Winn - Day 43 AM (03 Mar 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/o88yogBXnHk?rel=0&modestbranding=1" title="Andrew Winn - Day 43 PM (03 Mar 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.00 am)*
 

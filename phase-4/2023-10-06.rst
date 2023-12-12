@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/Iro0gCrRI9Q?rel=0&modestbranding=1" title="Duncan Atkinson - Day 72 AM (06 October 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/QGOzcg04IHY?rel=0&modestbranding=1" title="Duncan Atkinson - Day 72 PM (06 October 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.00 am)*
 

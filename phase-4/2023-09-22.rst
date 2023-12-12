@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/JIJLRiu6wf8?rel=0&modestbranding=1" title="Stephen Dilley/Richard Morgan KC - Day 66 AM (22 September 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/37d82obMwNo?rel=0&modestbranding=1" title="Richard Morgan KC - Day 66 PM (22 September 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(9.30 am)*
 

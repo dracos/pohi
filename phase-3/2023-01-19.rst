@@ -7,10 +7,13 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/lkiw8GmJCSU?rel=0&modestbranding=1" title="Don Grey - Day 33 AM (19 Jan 2023) - Post Office Horizon IT Inquiry" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.00 am)*
 

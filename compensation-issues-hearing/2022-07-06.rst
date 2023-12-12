@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/1QehILjQnPE?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry Compensation Issues Hearing - 06/07/22 AM" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/wzdtbRJ3sic?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry Compensation Issues Hearing - 06/07/22 PM" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.30am)*
 

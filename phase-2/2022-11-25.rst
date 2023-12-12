@@ -7,10 +7,13 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/U4_0xYzEPZk?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry - Vincent Gaskell/Sir Adrian Montague -Day 24 Live Stream (25 Nov 22)" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.00 am)*
 

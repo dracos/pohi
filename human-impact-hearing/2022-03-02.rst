@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/sKas_t1tqJo?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry  Human Impact - Day 12 AM Live Stream (2 March 2022) - Cardiff" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/W0SsIP1Hx5k?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry  Human Impact - Day 12 PM Live Stream (2 March 2022) - Cardiff" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.00 am)*
 

@@ -7,11 +7,14 @@
 
 .. raw:: html
 
-   <div id="hearing-meta">
-        <label><input type="checkbox" id="hide-video"> Hide video</label>
+   <details id="hearing-meta" open>
+        <summary>
+            <span class="open">Hide video</span>
+            <span class="closed">Show video</span>
+        </summary>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/r6a3KQHEuO8?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry - Alan D'Alvarez - Day 16 AM Live Stream (8 Nov 2022)" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="200" height="113" src="https://www.youtube-nocookie.com/embed/Cio2rWAYDNI?rel=0&modestbranding=1" title="Post Office Horizon IT Inquiry - Graham Allen - Day 16 PM Live Stream (8 Nov 2022)" frameborder="0" allow="picture-in-picture; web-share" allowfullscreen></iframe>
-   </div>
+   </details>
 
 *(10.13 am)*
 
