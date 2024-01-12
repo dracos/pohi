@@ -82,6 +82,7 @@ def parse_speech(speech):
 
     # Link to FOI request on WDTK
     text = text.replace('Eleanor Shaikh made a request on 10 April 2023', '`Eleanor Shaikh made a request on 10 April 2023 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_')
+    text = text.replace('So Andrew Wise had accessed an email in order to answer a Freedom of Information request', 'So Andrew Wise had accessed an email in order to answer a `Freedom of Information request <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_')
 
     for e in META['evidence'].keys():
         text = text.replace(e, f'`{e} <{META["evidence"][e]}>`_')
