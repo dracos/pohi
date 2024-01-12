@@ -51,6 +51,9 @@ def load_data():
 
 def header(date):
     videos = META['videos'].get(date, [])
+    if not videos:
+        return ''
+
     out = f'''.. raw:: html
 
    <details id="hearing-meta" open>
