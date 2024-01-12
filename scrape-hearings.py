@@ -20,6 +20,7 @@ def fetch_hearings():
 def fetch_hearing_page(item):
     link = item.h2.a['href']
     title = item.h2.text  # e.g. Phase 2 - 25 November 2022
+    title = title.replace('Disclosure Hearing', 'Disclosure Issues Hearing')  # Keep consistent with previous
     date = datetime.datetime.strptime(item.time.text, '%d %B %Y').date()  # e.g. 25 November 2022
     filename_out = f'data/{date}-{title}.txt'
     if os.path.exists(filename_out):
