@@ -125,6 +125,7 @@ def parse_transcripts():
             os.makedirs(sect, exist_ok=True)
             outfile = f'{sect}/{date}'
         else:
+            sect = ''
             outfile = f'{date}'
 
         with open(f, 'r', encoding='iso-8859-15') as fp:
@@ -135,9 +136,26 @@ def parse_transcripts():
             with open(f'{outfile}.rst', 'w') as out:
                 url = META['urls'][date]
                 out.write(f'.. raw:: html\n\n   <a id="hearing-link" href="{url}">Official hearing page</a>\n\n')
+                speeches = list(parse_transcript(f, fp))
+
+                level1_heading = []
+                for speech in speeches:
+                    if isinstance(speech, Section) and speech.level == 1 and sect != 'human-impact-focus-group':
+                        words = [s for s in speech.heading.split(' ') if s not in ('Mr', 'Mrs', 'Ms', 'Dr', 'Sir', 'Lord')]
+                        if len(words) == 2 and 'Housekeeping' not in words:
+                            level1_heading.append(' '.join(words))
+                if level1_heading:
+                    if len(level1_heading) > 2:
+                        level1_heading = ', '.join(level1_heading[:-2])  + ', ' + ' and '.join(level1_heading[-2:])
+                    elif len(level1_heading) == 2:
+                        level1_heading = ' and '.join(level1_heading)
+                    else:
+                        level1_heading = level1_heading[0]
+                    title += ' – ' + level1_heading
+
                 out.write(title + '\n' + '=' * len(title) + '\n\n')
                 out.write(header(date))
-                for speech in parse_transcript(f, fp):
+                for speech in speeches:
                     if isinstance(speech, Speech):
                         out.write(parse_speech(speech))
                     elif isinstance(speech, Section):
