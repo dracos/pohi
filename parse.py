@@ -81,8 +81,13 @@ def parse_speech(speech):
     text = text.replace('WITN01700100. ', 'WITN01700100. [MS: The actual URN should be WITN00170100.]')
 
     # Link to FOI request on WDTK
-    text = text.replace('Eleanor Shaikh made a request on 10 April 2023', '`Eleanor Shaikh made a request on 10 April 2023 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_')
-    text = text.replace('So Andrew Wise had accessed an email in order to answer a Freedom of Information request', 'So Andrew Wise had accessed an email in order to answer a `Freedom of Information request <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_')
+    text = re.sub('(Eleanor Shaikh made a request on 10 April 2023)', r'`\1 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_', text)
+    text = re.sub('(So Andrew Wise had accessed an email in order to answer a )(Freedom of Information request)', r'\1`\2 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_', text)
+
+    # Link to some judgments
+    text = re.sub('(Horizon Issues [Jj]udgment)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_', text)
+    text = re.sub('(Common Issues [Jj]udgment)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_', text)
+    text = re.sub('(Hamilton [Jj]udgment|Hamilton (&|and) [Oo]thers)', r'`\1 <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_', text)
 
     for e in META['evidence'].keys():
         text = text.replace(e, f'`{e} <{META["evidence"][e]}>`_')

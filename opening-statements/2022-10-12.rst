@@ -241,7 +241,7 @@ Please could I ask that POL00000912 is brought up and can we turn to page 11 of 
 
 The table here sets out a scale of the prioritisation for calls.  The words obviously speak for themselves, but in summary, priority A was for issues preventing the branch from processing business. Priority B would involve a problem that restricted business but did not cause it to cease altogether. Priority C was for those cases where there was a problem but one that did not affect the trade of the business. Lastly, priority D was for internal problems not related to a Post Office.
 
-I pause here to note that how service tickets were prioritised may be an issue that you will wish to consider.  Mr Justice Fraser's finding in the Horizon Issues judgment at paragraph 493(1) that:
+I pause here to note that how service tickets were prioritised may be an issue that you will wish to consider.  Mr Justice Fraser's finding in the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ at paragraph 493(1) that:
 
 "Fujitsu routinely assigned non-critical Category C to matters that were really very important in their own right in any event, but of extreme importance to SPMs whose branch accounts were being directly affected."
 
@@ -381,7 +381,7 @@ You will wish to investigate how the SSC and other teams at Fujitsu had used rem
 
 You will be interested to hear evidence on how such remote access was managed following this design and whether this document and the design that it introduced, addressed the concerns identified in it.
 
-Following on from that, the second document involving remote access, to which I should draw your attention, is FUJ00089756, this is a PEAK.  It's PEAK PC0208119.  This was referred to Mr Justice Fraser in the Horizon Issues judgment and, at the foot of the screen that's now displayed, under "Impact Statement", you will see that it says:
+Following on from that, the second document involving remote access, to which I should draw your attention, is FUJ00089756, this is a PEAK.  It's PEAK PC0208119.  This was referred to Mr Justice Fraser in the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ and, at the foot of the screen that's now displayed, under "Impact Statement", you will see that it says:
 
 "1.  SSC users affected have more access than is required to database resources.  This is contrary to security policy."
 
@@ -585,7 +585,7 @@ Therefore, we do not intend to deal with knowledge of bugs and errors in full du
 
 We are also investigating, by way of Rule 9 requests, what knowledge various teams within Post Office and Fujitsu had on bugs throughout the levels of management providing training, giving support, or resolving disputes.  We will consider how that information filtered through to other parts of the organisations and beyond, in later phases, principally Phase 6.
 
-Your Inquiry is investigating all of the bugs that were found by Mr Justice Fraser to have the potential to cause discrepancies in branches or affect the integrity of data within Horizon.  Moreover, your Inquiry will investigate other potential bugs, errors and defects in Horizon that were not dealt with in the Horizon Issues judgment.  You will wish to consider who knew what and when about all of those bugs, errors and defects, both individually and collectively.
+Your Inquiry is investigating all of the bugs that were found by Mr Justice Fraser to have the potential to cause discrepancies in branches or affect the integrity of data within Horizon.  Moreover, your Inquiry will investigate other potential bugs, errors and defects in Horizon that were not dealt with in the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_.  You will wish to consider who knew what and when about all of those bugs, errors and defects, both individually and collectively.
 
 It would be neither helpful nor proportionate for me to describe each of these bugs.  I have already discussed one of them, the Callendar Square bug, but I introduce four other bugs that you will hear evidence on in due course, namely the data tree failure discrepancies, phantom transactions, receipts and payments mismatch bug and the suspense account bug.
 
@@ -643,7 +643,7 @@ Decoding the language slightly, that must be erroneous.  In particular, other se
 
 You will wish to consider the extent to which phantom transactions were properly and independently investigated and, again, consider who knew what and when about these nebulous potential defects.
 
-Can I turn thirdly to the receipts and payments mismatch bug.  This was a bug in Horizon Online and was the first numbered in the Horizon Issues judgment.  It arose in certain circumstances where a subpostmaster tried to deliver a discrepancy into the local suspense account.  I will briefly cover the local suspense account again.  In summary, one could post losses or gains in a stock unit, into the local suspense account, prior to rolling over into a new trading period.  This was helpful to branches with more than one stock unit. This is because an individual stock unit may have a loss that was balanced by gains in other stock units.
+Can I turn thirdly to the receipts and payments mismatch bug.  This was a bug in Horizon Online and was the first numbered in the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_.  It arose in certain circumstances where a subpostmaster tried to deliver a discrepancy into the local suspense account.  I will briefly cover the local suspense account again.  In summary, one could post losses or gains in a stock unit, into the local suspense account, prior to rolling over into a new trading period.  This was helpful to branches with more than one stock unit. This is because an individual stock unit may have a loss that was balanced by gains in other stock units.
 
 It can be illustrated by way of example, in this case, a subpostmaster who operated two stock units for two counters.  They transferred £1,000 of physical cash from one counter to the other but forgot to record this on Horizon.  In this case there would be a £1,000 discrepancy between Horizon figures and the actual cash for both stock units, one a loss and one a gain. However, the overall branch would be in balance because the loss and the gain cancelled each other out in the local suspense account.
 
@@ -657,7 +657,7 @@ You will, in due course, hear evidence on how Fujitsu sought to identify when th
 
 Can I turn, lastly, to the suspense account bug.
 
-This was number 3 in the Horizon Issues judgment. It was again concerned with the local suspense account and existed from 2011, being identified in 2013.  In essence, the bug cause subpostmasters to see losses or gains in the local suspense account that simply had not arisen -- did not arise -- in the current trading period.
+This was number 3 in the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_. It was again concerned with the local suspense account and existed from 2011, being identified in 2013.  In essence, the bug cause subpostmasters to see losses or gains in the local suspense account that simply had not arisen -- did not arise -- in the current trading period.
 
 Fujitsu's support services concluded that this was caused by a change to an archiving strategy in 2011, which had itself been implemented to address another problem.  Fujitsu found that the change affected some branches that deleted stock units, which had unresolved discrepancies posted to the local suspense account. Those losses and gains to the local suspense account were not deleted.  Therefore, when the same trading period arose in the following year, the loss or gain posted in the local suspense account the year before would be put into the current day.
 
@@ -843,15 +843,15 @@ On 22 March 2017, Senior Master Fontaine made a GLO and the claims proceeded to 
 
 Over the course of the Group Litigation, Mr Justice Fraser produced six judgments in total.  Most of these related to procedural issues rather than going to the substance of the claim.
 
-The critical substantive judgments are the third and sixth of the judgments referred to as the "Common Issues Judgment" and the "Horizon Issues Judgment" respectively.
+The critical substantive judgments are the third and sixth of the judgments referred to as the "`Common Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_" and the "`Horizon Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_" respectively.
 
-It's helpful to set out, briefly, the key issues that were considered in each of those judgments.  In the Common Issues Judgment they were: (i) the enforceability of some contractual terms in some of the contracts; (ii) whether the contract between subpostmasters and the Post Office formed a "relational contract" which implied a duty of good faith on both parties; and (iii) whether the Post Office was entitled to treat shortfalls in branch accounts showing on the Horizon System as a debt without further investigation.
+It's helpful to set out, briefly, the key issues that were considered in each of those judgments.  In the `Common Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_ they were: (i) the enforceability of some contractual terms in some of the contracts; (ii) whether the contract between subpostmasters and the Post Office formed a "relational contract" which implied a duty of good faith on both parties; and (iii) whether the Post Office was entitled to treat shortfalls in branch accounts showing on the Horizon System as a debt without further investigation.
 
 It's fair to say that Mr Justice Fraser resolved all of these issues in favour of the subpostmasters' position, and this was a substantial blow to the Post Office's defence.  You will be aware that following this, during the Horizon Issues trial, an unsuccessful application was made to Mr Justice Fraser to recuse himself.
 
 Among Mr Justice Fraser's findings at this stage was that the Post Office, in demanding repayment of a shortfall shown by Horizon, had misstated the factual and legal liability of a subpostmaster to make good any losses.  He described the Post Office's behaviour as "oppressive".
 
-Turning, then, to the Horizon Issues Judgment, the key issues considered as part of this judgment were firstly the presence of bugs, errors and defects which were in fact present in the Horizon System, and over what time.  Secondly, whether Legacy Horizon or the first iteration of Horizon Online, was robust.  Third, whether Fujitsu were able remotely to access a branch's data and inject or alter the data remotely.  Fourth, whether adequate records were kept to substantiate the losses claimed.  Fifth, whether adequate investigations took place to identify and remedy errors, bugs and defects.
+Turning, then, to the `Horizon Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_, the key issues considered as part of this judgment were firstly the presence of bugs, errors and defects which were in fact present in the Horizon System, and over what time.  Secondly, whether Legacy Horizon or the first iteration of Horizon Online, was robust.  Third, whether Fujitsu were able remotely to access a branch's data and inject or alter the data remotely.  Fourth, whether adequate records were kept to substantiate the losses claimed.  Fifth, whether adequate investigations took place to identify and remedy errors, bugs and defects.
 
 Mr Justice Fraser's judgment in this regard was again highly critical of the Post Office's conduct.  He found that there were numerous bugs, errors and defects in Horizon which were capable of causing, and in fact did cause, shortfalls in Post Office branches.  He found that the evidence he had heard established 25 different bugs with the potential to impact upon branch accounts, with evidence of actual lasting impact having occurred as a result of 22 of them.
 
@@ -877,7 +877,7 @@ That's paragraph 975.
 
 HNG-X was slightly more robust, but still had a significant number of bugs, errors and defects, particularly in the period 2010 to 2015.
 
-The litigation was settled shortly after the Horizon Issues Judgment was handed down, and I'll come to speak about that settlement in a moment.
+The litigation was settled shortly after the `Horizon Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ was handed down, and I'll come to speak about that settlement in a moment.
 
 It is worth noting that whilst some of these issues touched upon the conduct of Fujitsu, Fujitsu was not itself a party to the litigation.  It is of course a Core Participant in this Inquiry, and we will be investigating much more fully the role that Fujitsu played, including in respect of the evidence that was and was not relied upon in the litigation.
 
@@ -1299,7 +1299,7 @@ The Court of Appeal identified significant failings in her prosecution, includin
 
 On 15 October 2013, Mr Altman provided his "General Review".  That's POL00006803.  He again advised that the Cartwright King review was fundamentally sound and that he had not detected any systemic or fundamental flaws in the review process or the evidence arising from it, albeit that that should be kept under review.  One important aspect of this advice concerned the role of Gareth Jenkins, with Mr Altman agreeing that Mr Jenkins was "tainted and his position as an expert witness is untenable".
 
-We know from the Horizon Issues judgment that Gareth Jenkins contributed to the evidence that was relied on in the Group Litigation, albeit the Post Office chose not to call him as a witness and thereby subject him to cross-examination.
+We know from the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ that Gareth Jenkins contributed to the evidence that was relied on in the Group Litigation, albeit the Post Office chose not to call him as a witness and thereby subject him to cross-examination.
 
 The Inquiry will ask whether it was appropriate in the light of the advice received from both Mr Clarke and Mr Altman, to behave in this way, to approach the litigation in this way.
 
@@ -1473,7 +1473,7 @@ As I noted in respect of the earlier advice, the Inquiry will look at the role t
 
 "Is it right to delay or avoid settlement because of the impact that it might have on a criminal appeal?" is the question that might need to be addressed.
 
-Further advice was provided by Mr Altman on the Common Issues Judgment and the Horizon Issues Judgment. In the latter advice, Mr Altman advised on the impact of Mr Justice Fraser's judgment on criminal convictions and resultant disclosure obligations.  His advice was that appellants in the CCRC would have a high hurdle to overcome in respect of non-disclosure because they would have to show that it was material.  At the end of his advice, Mr Altman noted that the apparent late concession in the litigation to entries having been "entered/edited/deleted negligently or dishonestly" remotely was a "startling concession" and requested further information in that regard.
+Further advice was provided by Mr Altman on the `Common Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_ and the `Horizon Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_. In the latter advice, Mr Altman advised on the impact of Mr Justice Fraser's judgment on criminal convictions and resultant disclosure obligations.  His advice was that appellants in the CCRC would have a high hurdle to overcome in respect of non-disclosure because they would have to show that it was material.  At the end of his advice, Mr Altman noted that the apparent late concession in the litigation to entries having been "entered/edited/deleted negligently or dishonestly" remotely was a "startling concession" and requested further information in that regard.
 
 Your Inquiry may investigate the extent to which those who were advising the Post Office were provided with sufficient information on which properly to advise.
 
@@ -1533,7 +1533,7 @@ That's POL00006397.  No need to display the document at the moment.
 
 Within the conference note, it says as follows in relation to what Lord Grabiner is said to have advised:
 
-"Lord Grabiner explained that in his view if there is no recusal application made then the Post Office will lose the series of trials set up in this matter. Without a recusal application, Post Office is stuck with this judge.  An appeal on the law may correct some of the very significant errors in the Common Issues Judgment, but then the case will be sent back to this Judge who has demonstrable apparent bias against Post Office and hence the firm conclusion that Post Office will lose and the financial impact of that will be substantial.  Recusal is therefore essential, and Lord Grabiner asserted that in the face of legal advice from Lord Neuberger that recusal should be applied for, and the quantum of damages that Post Office will pay out on a loss, then it was Lord Grabiner's view that there was a duty on Post Office to seek recusal. Lord Grabiner stated that in his view, the Board of the Post Office had no option but to seek a recusal."
+"Lord Grabiner explained that in his view if there is no recusal application made then the Post Office will lose the series of trials set up in this matter. Without a recusal application, Post Office is stuck with this judge.  An appeal on the law may correct some of the very significant errors in the `Common Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_, but then the case will be sent back to this Judge who has demonstrable apparent bias against Post Office and hence the firm conclusion that Post Office will lose and the financial impact of that will be substantial.  Recusal is therefore essential, and Lord Grabiner asserted that in the face of legal advice from Lord Neuberger that recusal should be applied for, and the quantum of damages that Post Office will pay out on a loss, then it was Lord Grabiner's view that there was a duty on Post Office to seek recusal. Lord Grabiner stated that in his view, the Board of the Post Office had no option but to seek a recusal."
 
 The note of the conference recorded Lord Grabiner advising that there were strong arguments in favour of an application for recusal; it was his strong view that recusal application was the right course of action; and that there was a "serious prospect of success" and "that this judge had done an unbelievable nonsense and demonstrated apparent bias".
 
