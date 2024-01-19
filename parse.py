@@ -376,6 +376,7 @@ def fix_name(name):
     name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+?(\S+)((?: [QK]C)?)$', r'\1 \2', name)
     # Special cases
     name = name.replace('Richard Atkinson', 'Duncan Atkinson')
+    name = name.replace('William Patterson', 'Paul Patterson')
     return name
 
 def fix_heading(s):
