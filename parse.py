@@ -299,7 +299,7 @@ def parse_transcript(url, text):
             continue
 
         # Headings with names in
-        m = re.match('(?:(?:Opening|Closing) s|S)tatement (by|from) ([A-Z ]*)(?:, QC)?(?: \(continued\))?$|Announcements by ([A-Z ]*)$|(?:Further s|S)ubmissions? by ([A-Z ]*)(?:, QC)?$|Reply by ([A-Z ]*)$|Witness statement of ([A-Zc ]*) adduced$', line.strip())
+        m = re.match('(?:(?:Opening|Closing) s|S)tatement (?:by|from) ([A-Z ]*)(?:, QC)?(?: \(continued\))?$|Announcements by ([A-Z ]*)$|(?:Further s|S)ubmissions? by ([A-Z ]*)(?:, QC)?$|Reply by ([A-Z ]*)$|Witness statement of ([A-Zc ]*) adduced$', line.strip())
         if m:
             yield speech
             name = next(filter(None, m.groups()))
