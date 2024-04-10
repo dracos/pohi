@@ -11,8 +11,7 @@ Phase 6 is examining ‘Governance: monitoring of Horizon, contractual
 arrangements, internal and external audit, technical competence, stakeholder
 engagement, oversight and whistleblowing.’
 
-.. 
-   toctree::
+.. toctree::
    :glob:
    :reversed:
 
