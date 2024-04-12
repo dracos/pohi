@@ -142,7 +142,7 @@ def parse_transcripts():
                 for speech in speeches:
                     if isinstance(speech, Section) and speech.level == 1 and sect != 'human-impact-focus-group':
                         words = [s for s in speech.heading.split(' ') if s not in ('Mr', 'Mrs', 'Ms', 'Dr', 'Sir', 'Lord')]
-                        if len(words) == 2 and 'Housekeeping' not in words:
+                        if (len(words) == 2 or (len(words) == 4 and words[2] == 'of')) and 'Housekeeping' not in words:
                             level1_heading.append(' '.join(words))
                 if level1_heading:
                     if len(level1_heading) > 2:
@@ -372,7 +372,7 @@ def parse_transcript(url, text):
 def fix_name(name):
     name = name.title()
     name = name.replace('Qc', 'QC').replace('Kc', 'KC')
-    #s = s.replace(' Of ', ' of ').replace(' And ', ' and ').replace('Dac ', 'DAC ') \
+    name = name.replace(' Of ', ' of ') # .replace(' And ', ' and ').replace('Dac ', 'DAC ') \
     #     .replace('Ds ', 'DS ')
     # Deal with the McNames
     name = re.sub('Mc[a-z]', lambda mo: mo.group(0)[:-1] + mo.group(0)[-1].upper(), name)
@@ -381,7 +381,7 @@ def fix_name(name):
     #if ' and ' in name or (' of ' in name and ',' not in name):
     #    return name
     # Remove middle names
-    name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: [QK]C)?| Of \S+)$', r'\1 \2\3\4', name)
+    name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: [QK]C)?| of \S+)$', r'\1 \2\3\4', name)
     name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+?(\S+)((?: [QK]C)?)$', r'\1 \2', name)
     # Special cases
     name = name.replace('Richard Atkinson', 'Duncan Atkinson')
