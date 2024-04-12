@@ -381,7 +381,7 @@ def fix_name(name):
     #if ' and ' in name or (' of ' in name and ',' not in name):
     #    return name
     # Remove middle names
-    name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: [QK]C)?)$', r'\1 \2\3\4', name)
+    name = re.sub('^(DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir) (\S+ )(?:\S+ )+?(\S+)((?: [QK]C)?| Of \S+)$', r'\1 \2\3\4', name)
     name = re.sub('^(?!DAC|DS|Dr|Miss|Mrs|Mr|Ms|Baroness|Lord|Professor|Sir)(\S+) (?!Court)(?:\S+ )+?(\S+)((?: [QK]C)?)$', r'\1 \2', name)
     # Special cases
     name = name.replace('Richard Atkinson', 'Duncan Atkinson')
