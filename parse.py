@@ -239,6 +239,15 @@ def parse_transcript(url, text):
         if re.match('\s*$', line):
             continue
 
+        if page == 5 and num == 5 and line == 'MR PETERS:  Yes, in 2009.':
+            line = 'A.  Yes, in 2009.'
+        elif page == 58 and num == 23 and line == 'MS PRICE:  Thank you, sir.':
+            line = 'MS PAGE:  Thank you, sir.'
+        elif page == 56 and num == 15 and line == '        Thank you very much.':
+            line = 'MR BEER:  Thank you very much.'
+        elif page == 113 and num == 16 and line == 'Q.  Can I start by bringing up POL00028471, page 2, please.':
+            line = 'MR STEVENS:  Can I start by bringing up POL00028471, page 2, please.'
+
         line = line.replace('MAPEC_', 'MAPEC)')
         line = line.replace('**', '\*\*')
         line = line.replace('_', '\_')
@@ -348,11 +357,11 @@ def parse_transcript(url, text):
             continue
 
         # New speaker
-        m = re.match(' *((?:[A-Z -]|Mc)+)(?<!PPS)(?<!IT): (.*)', line)
+        m = re.match(' *((?:[A-Z -]|Mc)+)(?<!PPS)(?<!IT)(?<!MW): (.*)', line)
         if m:
             yield speech
             speaker = fix_name(m.group(1))
-            if not interviewer:
+            if speaker not in ('The Stenographer', 'The Witness'):
                 interviewer = speaker
             speech = Speech( speaker=speaker, text=m.group(2) )
             continue
