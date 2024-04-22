@@ -247,6 +247,8 @@ def parse_transcript(url, text):
             line = 'MR BEER:  Thank you very much.'
         elif page == 113 and num == 16 and line == 'Q.  Can I start by bringing up POL00028471, page 2, please.':
             line = 'MR STEVENS:  Can I start by bringing up POL00028471, page 2, please.'
+        elif page == 81 and num == 6 and line == 'Q.  Do you work closely with him?':
+            line = 'MR HENRY:  Do you work closely with him?'
 
         line = line.replace('MAPEC_', 'MAPEC)')
         line = line.replace('**', '\*\*')
