@@ -397,6 +397,7 @@ def fix_name(name):
     # Special cases
     name = name.replace('Richard Atkinson', 'Duncan Atkinson')
     name = name.replace('William Patterson', 'Paul Patterson')
+    name = name.replace('Angela Bogerd', 'Angela van den Bogerd')
     return name
 
 def fix_heading(s):
