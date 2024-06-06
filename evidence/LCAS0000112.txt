@@ -1,0 +1,638 @@
+                                                                                                     LCAS00001 12
+                                                                                                   LCAS0000112
+
+
+
+
+                                                      Filed on 'beha:f of tho:         Claimant
+                                                                     V ies :     Annl Chambers
+                                                                  Statement .                  7
+                                                                    Fxhibd:,:             "ACt
+                                                                 Date made_             14/9/06
+
+
+
+ IN THE HIGH COURT OF JUSTICE                                  Claim No. HQ05X02706
+ QUEENS BENCH DIVISION
+
+
+
+
+                                POST OFFICE LIMITED                     Claimant/Part 20
+                                                                              Defendant
+                                        - and -
+                                   LEE CASTLETON                           Defendant/Part
+                                                                              20 Claimant
+
+
+
+
+                    WITNESS STATEMENT OF ANNE CHAMBERS
+
+
+
+
+ I, ANNE CHAMBERS of Fujitsu Services, Lovelace Road, Bracknell, Berkshire, RG12
+8SN WILL SAY AS FOLLOWS:
+
+
+i.   I am a System Specialist employed by Fujitsu.          I have worked for Fujitsu
+     (previously ICL) since 1978. 1 have a working knowledge of the computer system
+     known as Horizon, which is a computerised accounting system used by Post Office
+     Limited (the Post Office).    For the past 6 years I have been responsible for
+     investigation of problems which are, or are suspected to be, caused by software
+     or hardware errors anywhere in the Horizon system. I am authorised by Fujitsu
+     Services to view extractions of audit data held on the Horizon system and to
+     obtain system transaction information from the live Horizon system.
+
+
+2.   I make this Witness Statement from facts within my own knowledge unless
+     otherwise stated. References to page numbers in this Witness Statement are to
+     page numbers of Exhibit "AC1" to this Witness Statement.
+
+
+3.   Any records to which I refer in my statement form part of the records relating to
+     the business of Fujitsu Services. These were compiled during the ordinary course
+     of business from information supplied by persons who have or may reasonably be
+     supposed to have personal knowledge of the matter dealt with in the information
+
+
+
+
+                                          1
+                                                                                                 LCAS0000112
+                                                                                               LCAS0000112
+
+
+
+
+         supplied, but are unlikely to have any recollection of the information or cannot be
+         traced. As part of my duties, I have access to these records and I have refreshed
+         my memory from them.
+
+
+     System Support Centre
+
+
+ 4.     Calls from Post Masters relating to potential system problems are initially taken
+        and logged by the Horizon System Helpdesk (HSH). Business issues, which
+        include problems with discrepancies when balancing the branch accounts, are
+        expected to be handled in the first instance by the National Business Support
+        Centre (NBSC), run by the Post Office. If these helpdesks are unable to resolve
+        the problem, calls may be passed to the System Support Centre (SSC), the unit in
+        which I work. I have access to much more detailed system information than do
+        the other units.
+
+
+ SSC investigation
+
+
+
+ 5.     My initial involvement with the investigation was on 26 February 2004, when call
+        reference e-0402251077 was assigned to the SSC (pa'           4Jand 15). The call
+        cross referred several other closed calls being numbers e 0401280325, e-
+        0401290358,e -b402130297, e-040225045 ,,' e {bf402~250 5 (pages 1 to 11) and
+        so I read those too, to get a better idea of the problems being reported by the
+        Marine Drive branch.
+
+
+
+6.     I refer to the call log of 25 February 2004, 4.56pm, call reference e-0402251011
+                    I
+       (pages 12 and 13). This states "Critical event seen @13..00.36 18/02/04 on
+       H21333700101'°. This particular call was raised several days after the event
+       occurred, by a member of the team responsible for monitoring system events. I
+       do not know why they raised this call so long after the event. The Known Error
+       Log entry quoted did not match the specific symptoms of this instance. Upon
+       checking further, I found that hundreds of branches had had the same event at
+       the same time. The cause had already beenl investigateed by another member of
+                                                           hi
+       the SSC on 18 February 2004 (call reference e-0402186§03 at pages 5 and 6)
+       and was benign. The event would not have been seen by users at the branches,
+       and in no way affected the branch accounts.
+
+
+
+7.     On 26 February 2004, 1 also checked for any central reconciliation report entries
+       for the branch for the previous 2 weeks which might indicate a system problem.
+       Various built in checks occur at the end of each day. For example, the gateway
+       terminal (i.e. the particular computer at the branch through which data is
+
+
+
+                                                                                                      331
+                                              2
+                                                                                                 LCAS00001 12
+                                                                                               LCAS0000112
+
+
+
+
+        uploaded to the central data centre) will total all the transactions completed on
+        both terminals during the day. The total is transmitted to the central data centre
+       and compared with the total transactions received at the data centre from the
+       branch, to ensure that all transactions recorded at the branch have reached the
+       data centre.        If the gateway terminal is not in communication with the second
+       terminal, the totals are not calculated until communications are restored.
+
+
+
+ 8.    Further checks are made when the sub-postmaster has produced the weekly cash
+       account at the end of the financial week - normally Wednesday.              The cash
+       account lines are produced by processing the entire week's transactions as
+       recorded at the branch, the paper copies of the cash account are printed, and the
+       electronic           is sent to the data centre.   Each day, the gateway terminal has
+                    copy
+
+
+
+
+       added up the day's transactions according to where they should appear in the
+       cash account, and summarises them at the end of the week. The data centre also
+       produces a weekly cash account based on all the transactions received from the
+       branch during the week.          There are therefore effectively three weekly cash
+       accounts:
+
+
+
+      a)    The official branch weekly cash account;
+
+       b)   The branch daily account, summarised at the end of the week; and
+
+      c)    The data centre weekly cash account.
+
+
+
+      Any differences between any of these will result in one or more reconciliation
+      report entries. Report entries are only produced if there are differences.
+
+
+
+9.    I found no reconciliation report entries relating to this branch, indicating that all
+      transactions recorded at the branch had reached the data centre and had been
+      included in the official branch cash account.         My checks covered at least two
+      weeks prior to the investigation, i.e. weeks 47 and 48.
+
+
+
+10. I examined the branch messagestore as at 26 February 2004. This contained,
+      among other things, all the transactions completed in the previous 34 days, and
+      any cash, stamp and stock declarations or adjustments made at the branch.            I
+      looked primarily at one of the latest financial weeks - I cannot remember now
+      whether I checked week 47 or 48.
+
+
+
+
+                                                                                                     332
+
+                                                 3
+                                                                                                                   LCAS00001 12
+                                                                                                                 LCAS0000112
+
+
+
+
+  11. Cheques were handled correctly as far a, the system was concerned. 1 checked
+              the remittance out of the cheques, which is normally done several times a week,
+              as the sub-postmaster had reported a problem with this on 10 February (call
+              reference e-0402130267) (pages 3 and 4). 1 found that on that one day, the
+              cheque listing report was not cut off after the day's cheques had been remmed
+              out. "Cut off" involves pressing a button on the system to confirm that you have
+              completed processing of the report, so that when the report is next printed, it will
+              include only transactions done after the cut-off point. Since the report was not
+              cut off, when next printed, it still included the cheques that had already been
+              despatched.                  I confirmed that the total value of cheques remmed out of the
+          system equalled the values of cheques received, and so the failure in process did
+              not cause any financial discrepancy.
+
+
+
+ 12. Following up                           further point from call reference e-0402130267, I noticed that
+                                       a
+
+
+
+
+       occasionally, when the branch declared the cash held in the office at the end of
+     the working day in their overnight cash holding (ONCH) declaration, they did not
+     always use the same declaration identification number.                             For example if a sub-
+      postmaster uses number 01 and enters £10,000 and then changes their number
+     and uses 11 to record it elsewhere, the system will think that, at that point, the
+                     has £20,000 whereas it only has £10,000. If they printed the optional
+     branch
+
+
+
+
+     cash flow report at the end of the week, it would show the sum of the differently
+     identified ONCH declarations day by day. I checked to make sure that, when they
+     declared the cash as part of the balancing process at the end of the financial
+     week, they used a single declaration identification number. This was the case.
+
+
+
+13. I went through the cash elements of transactions contained                                      the branch
+                                                                                               in
+
+
+
+
+     messagestore day by day and                              compared them with the overnight cash
+     declarations (ignoring any duplicated declarations as described in paragraph 12
+    above). I expected to find that the cash holding declared by the sub-postmaster
+    at the end of                           day was reasonably close        what he had declared the previous
+                                       a
+
+
+
+
+                                                                       to
+
+
+
+
+    day, adjusted by the value of the cash transactions recorded on the system during
+    the day.                                      if at the end of day 1 he was holding £50,000 cash, and
+                      For
+
+
+
+
+                            example,
+
+
+
+
+    during day 2 recorded transactions showing                              £6,000 cash received and £5,000
+    cash paid out, the net cash for the day would be £1,000 received, and so the cash
+    holding at the end of day 2 should be £51,000. The main reason for making this
+    check was to see if I could narrow down the source of the discrepancy to a
+    particular day.
+
+
+
+14. I was surprised to discover that at the end of each day, the cash the branch
+    declared as being in the drawer was tens, hundreds or thousands of pounds
+
+
+
+
+                                                                                                                     333
+                                                               4
+                                                                                                                LCAS00001 12
+                                                                                                              LCAS00001 12
+
+
+
+
+      astray (sometimes higher, sometimes lower) from what they h( cl recorded on or
+      had been recorded by the system.                        Iles meant that it was possible that the sub-
+     postmaster was not accurately recording all transactions on the system at the
+     time the cash was physically being put into or taken out of the till. This is not
+     necessarily a problem, as long as everything is entered and declared correctly by
+     the end of the financial week. However, it does suggest that they are not working
+     accurately and it meant I could not link the weekly loss to any particular day.
+
+
+
+ 15. I saw that on 25 February 2004, call reference e-0402250454 (pages 8 and 9) the
+     clerk reported that their balancing problem seemed to be related to stock being
+     "remmed in" (i.e. entered on the Horizon system) through the week. Accordingly,
+     I also looked              particular to see if there could be a
+                                                                caused by remming
+                         in
+
+
+
+
+                                                                              problem
+     in, but I was unable to find anything that suggested that the remming in was
+     causing the balancing problem.
+
+
+
+Conclusion
+
+
+
+16. My conclusion                     that there was no evidence whatsoever of any system problem.
+                          was
+
+
+
+
+    The continuing losses and calls suggested the Marine Drive branch needed some
+    business assistance, to identify whether there were any transactions carried out at
+    the branch but not appearing correctly on the branch reports, or any failure in
+    process.   I therefore contacted a colleague, Julie Welsh,       Fujitsu Customer
+                                                                                        in.
+
+
+
+
+    Services, and asked her to inform Post Office which she did (ipage 16). I updated
+    the call with  summary of my investigation and returned it to HSH, requesting
+                     a
+
+
+
+
+    they contact the                                       and explain that we had investigated and the
+                                sub
+
+
+
+
+                                        -postmaster
+
+
+
+
+    discrepancies were caused by the difference between the transactions they had
+    recorded on the system and the cash they declared, and were not being caused
+    by the software or hardware.
+
+
+
+17. I had investigated and examined whether Horizon could have                      the
+                                                                                              caused
+
+
+
+
+    discrepancies, either for the specific reasons raised by the Marine Drive branch, or
+    for various other reasons.                        I was unable to identify any basis upon which the
+    Horizon system could have caused the losses.
+
+
+
+
+                                                                                                                   334
+                                                             5
+                                                                        LCAS0000112
+                                                                      LCAS00001 12
+
+
+
+
+I believe that the facts stated in this witness staternent are true
+
+
+
+
+Signed
+         L
+                  G      RO
+         ANNE CHAMBERS
+
+
+
+
+Date ....1    .. ~   k ........................................
+                                                                                     LCAS00001 12
+                                                                        LCAS0000112
+
+
+
+
+                                         F d(`il un I) IL111 01 t11P:
+                                                           Wt                        Annr ( li,in     s
+
+                                                         F R hdbil                              ""Al I..
+                                                      D.1ty m,Wr:                             I WY06
+
+
+
+
+                                                       Claim No. HQ05X02706
+
+
+IN THE HIGH COURT OF JUSTICE
+QUEENS BENCH DIVISION
+
+
+BETWEEN:
+
+
+
+                                                                 Claimant/Part 20
+
+
+
+
+                                                                         Defendant
+                   a nd
+
+
+
+
+                                     -
+           LEE CASTLETON                                       Defendant/Part 20
+                                                                        Claimant
+
+
+
+
+  WITNESS STATEMENT OF ANNE
+
+
+
+
+BOND PEARCE LLP
+Ballard House
+West Hoe Road
+Plymouth PL1 3AE
+---------
+      ----G RO
+Ref: SJD3.348035.134
+Solicitors for the                                20
+                     Claimant/Part
+
+
+
+
+Defendant
+
+
+
+
+                                                                                           336
+                                                                                              LCAS0000112
+                                                                                            LCAS0000112
+
+
+
+
+                                          I"il(•d on behalf of the:         CLvmnrt
+                                                         Wits         Anno (h,unh~ r.
+                                                       Statenwril                       1
+                                                         Lxhibii .               'A(, I
+                                                      Date n/•(d              la/t)/Ob
+
+
+
+
+IN THE HIGH COURT OF JUSTICE                                            Claim No.
+QUEENS BENCH DIVISION
+
+
+BETWEEN;
+
+
+                        POST OFFICE LIMITED                    Claimant/Part 20
+                                                                     Defendant
+
+                               -and-
+                          LEE CASTLETON                          Defendant/Part
+                                                                    20 Claimant
+
+
+
+
+                                                                                                  337
+                                                                                                                                                                                         LCAS00001 12
+                                                                                                                                                                                       LCAS0000112
+
+
+
+
+     Richard,
+     I have had a chat with Anne, she used the messag store viewiruj to
+     investigate this. If you want copies of extracts 1-or the particular
+    incorrect declarations please submit an ad hoc request requesting this
+    information. Hope this helps, see below:
+     NO TRANSACTION DATE AND TIME WAS PROVIDED FOR THIS ACTION USING CURRENT
+    DATE
+    AND TIME By Anne Chambers at 26-feb-2004 15:16:00 Category 94 - Advice and
+    guidance given I have checked various things on the system. All the
+    internal
+    reconciliation checks are ok. Cheques are being handled correctly (except
+    for 10th Feb when the clerk forgot to cut off the report - but this didn't
+    cause a discrepancy). Cash declarations look ok, they usually use drawer id
+    11. Occasionally they have used a different drawer id, this can lead to
+    amounts apparently doubling on the cash flow report, and should be avoided.
+    But again it will not cause a discrepancy. Checking the cash transactions
+    on
+    the system against the declarations shows that they are not working
+   particularly                     at the     of the day the cash they
+                                               accurately
+
+
+
+
+                                                                          (i.e.
+
+
+
+
+                                                                                                                        end
+
+
+
+
+                                                                                                                                                                             declare
+   in
+   the drawer is tens, hundreds or thousands of pounds astray from what has
+   been recorded on the -system). It is possible that they are not accurately
+   recording all transactions on the system. There is no evidence whatsoever
+   of
+        system            I've mentioned this outlet to Julie Welsh- (Customer
+   any
+
+
+
+
+                          problem.
+
+
+
+
+              who will - try to get POL to follow it up, but -in the meantime
+   Services)
+
+
+
+
+   please tell the PM that we         investigated and the                are
+                                                                                  have
+
+
+
+
+                                                                                                                                                         discrepancies
+   caused by -the difference between the transactions they have recorded-on the
+   system and the cash they have declared, and are not being caused by the
+   software' or 'hardware:'
+
+   Julie Welsh
+   Service Delivery Manager HSH
+   Business Service Management,                                                                                Office Account                                            -
+                                                                                                        Post
+
+
+
+
+  FUJITSU SERVICES
+  Lovelace Road
+  Bracknell
+  Berks
+•_•_RG12 SS•ti•. ._. ..._._..._._._._._.__._._._._._._._._._._._._._._
+
+                                                                   GRO                                                                   _....._...._....._...._...
+  E-mail:                                           julie. welsh ------ GRO
+  Web:                                                                      -- --
+                                              <http://services.fujitsu.com>
+  Please note                                               of e                                                   with                        from 1st April 2004 to:
+                                     change
+
+
+
+
+                                                                   mail
+
+
+
+
+                                                                                              address
+
+
+
+
+                                                                                                                                effect
+
+
+
+
+  julie.welshl                                              GRO
+  Fujitsu          Limited, Registered                                                                                        England no 96056,` Registered Office
+               Services
+
+
+
+
+                                                                                                                   in
+
+
+
+
+  26, Finsbury Square, London, EC2A 1SL
+
+ This e-mail is only     the use of its intended recipient. Its contents
+                                                             for
+
+
+
+
+ are
+ subject to a duty of confidence and may be privileged. Fujitsu Services
+ does not guarantee that this        has not been intercepted and amended or
+                                                                                         e-mail
+
+
+
+
+ that it is virus-free.
+                                                                                                                                                                                            338
+                                                                                                               f
+

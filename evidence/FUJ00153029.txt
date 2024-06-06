@@ -1,0 +1,218 @@
+                                                                                                                    FUJO0153029
+                                                                                                                  FUJO0153029
+
+
+
+
+ Thomas Penny
+ From:
+ Sent:
+ To:
+                                Thomas Penny
+                                05 March 201.0_14•41_._._._._._._._..._._.,
+                                john.longmal5._._._._._._.GRO
+                                                                                         11111II//ihIi!II///I///1II//Ifl
+                                                                                           POH - 3 4 8 8 D
+
+ Cc:                            jane.m.owen               GRO
+ Subject:                       FW: REGINA-v SEEMIAMISRA                      GUILDFORD CROWN COURT     TRIAL - 15TH
+                                MARCH 2010
+
+ Attachments:                   0303.5th interim technical expert's report to the Court 2010-02-25 vO 1 (2).doc
+
+
+ Hi Jon
+
+ I hope you had a good break.
+
+ I've decided to take Monday off. I'm pretty sure you II need to catch up on everything that's been going on in your
+ absence so I assume you wouldn't be able to make Monday. If you can make Tuesday, that's great. Either email or
+ ring; if there's no answer just let me know what time you can be with us.
+
+ Failing that, we can talk on Tuesday and arrange some time.
+
+.,?<ind regards
+  fenny
+
+ Penny Thomas
+ Security Analyst, Customer Services
+ Fujitsu Services Retail & Royal Mail Group Account
+ Lovelace Road, Bracknell, Berks RG12 8SN
+
+ Tel:
+ Mob:
+ Fax:
+ E-Mail:
+                       GRO
+ Web: httn%luk.fuitsu.com
+                         . ............. ........
+
+ Fujitsu Services Limited, Registered in England no 96056, Registered Office.22, Baker Street, London W1U 3BW
+
+ This E-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and
+ may be privileged. Fujitsu Services does not guarantee that this E-mail has not been intercepted and
+ amended or that it is virus-free..
+
+
+
+ From: Thomas Penny
+ Sent: 05 March 2010 07:36
+ To: jarnail.a.singhl=:=:=:_:-:_:_:bRo_:_:_._:_ 'john.longman GRO
+ Subject: FW: REGINA v SEEMA MISRA GUILDFORDCROWN COURT TRIAL - 15TH MARCH 2010
+
+ Jarnail
+
+ When I left yesterday Gareth was waiting for a return call from Charles Mclachlan; it appears they have agreed a
+ telephone call, as below.
+
+ Jon
+
+ We need some help with analysis and witness statement generation for Gareth, would you be available Monday or
+ Tuesday to visit us and help?
+
+ Kind regards
+ Penny
+
+ Penny Thomas
+ Security Analyst, Customer Services
+ Fujitsu Services Retail & Royal Mail Group Account
+ Lovelace Road, Bracknell, Berks RG12 8SN
+                                                                                                                                      FUJO0153029
+                                                                                                                                  FUJO0153029
+
+
+
+
+Tel:
+Mob:
+Fax:
+E-Mail:
+Web: htialhi
+                                  GRO
+                 .7iiiitsu:ciim
+
+
+
+
+Fujitsu Services Limited, Registered in England no 96056, Registered Office 22, Baker Street, London W1U 3BW
+
+This E-mail is only for the use of its Intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu
+Services does not guarantee that this E-mail has not been intercepted and amended or that it is virus-free.
+
+
+
+
+From: Jenkins Gareth GI
+Sent: 04 March 2010 1.6_:_4.8_
+To: charles.mclachlari - GRo
+Cc: Thomas Penny
+Subject: REGINA v SEEMA MISRA GUILDFORD CROWN COURT TRIAL - 15TH MARCH 2010
+
+Charles,
+
+I've added my comments to your 5th Report (attached — comments are as Word revisions — mainly                               the far right hand
+
+
+
+
+                                                                                                                       in
+column).
+
+
+
+ 0303.5th interim
+  technical exp...
+As discussed briefly I've also now got hold of the transaction logs for December 2006 to December 2007. These
+amount to a total of nearly half a million transactions (431,490 to be precise).
+
+What I have done is searched through them looking for all examples of Debit Card transactions which have not been
+successful, since this seems to be one of the defence's main attacks on the system.
+
+There are 92 such failed transactions for a total value of £117,149.98.                    analysed         those with an individual value-
+                                                                                    I've
+
+
+
+
+                                                                                                      all
+
+
+
+
+of more than £1,000 (leaving £6,113.55 worth that I've not analysed).
+
+In all the cases I've analysed one of 3 things happened
+
+1 The Customer session was then settled by a Cheque (and so the failure must have been noticed by the clerk)
+2. The Customer session was abandoned (ie any good were.returned and the transactions cancelled and the only
+   item from the session is the failed Debit Card payment).
+3. The Customer session was settled to Cash (which could have been accidental). However in all such cases the
+   transaction was subsequently reversed resulting in the cash also being reversed.
+
+There are business rules that control whether transactions can be cancelled or if they have to be committed and then
+reversed (which is the main difference between cases 2 and 3 above). I suspect (but can't necessarily prove) that in
+case 2 the sessions were for purchase of Foreign Currency. I case.3 the sessions were all for purchase of Premium
+Bonds.
+
+I think this refutes the assertion that failed Debit Card Payments are the cause of the losses.
+
+I'm not sure what further analysis to carry out. However I've identified some possible areas to pursue:
+
+1. I've looked at Pouch Reversals (where cash or currency is packed for despatch to POL's Cash Centre) and the
+   Pouch is subsequently Cancelled. This is a method by which cash losses can be partially hidden and was
+   mentioned in the defendant's interviews. For Dec 2006 there were no such examples.
+2. Each night there should be a Cash Declaration made for each Stock Unit in the Branch indicating the current cash
+   in the till. It is also possible to look at all the cash movements for each Stock Unit by looking at the Cash
+   transactions. I've tried to compare the Cash movements in terms of the Transactions and also in terms of
+   differences in Declarations and there seems to be very little correlation indicating that the cash declarations are
+   probably inaccurate
+3. As part of the monthly Balancing process, special transactions are recorded to reflect Stock Adjustments and
+   Discrepancies detected by the system as part of this process. These all result in the system assuming that Cash it
+   put into (or removed) from the Till to reflect these Adjustments I Discrepancies. It may be worth examining these.
+
+As arranged, I'll give you a ring at 12 noon tomorrow.
+                                                                                                                                           FUJO0153029
+                                                                                                                                         FUJO0153029
+
+
+
+
+Regards
+
+Gareth
+Gareth Jenkins
+Distinguished Engineer
+Applications Architect
+Royal. Mail Group Account
+
+FUJITSU
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+                              ---------
+
+
+
+
+                                              ---------
+
+
+
+
+                                                                             -
+Mobile:
+email:
+                                          GRO
+Web:                 httt :lIuk.fuiitsu.cam
+
+
+          Please consider the environment - do you really need to print this email?
+
+                          Fujitsu Services Limited, Registered in Englanc no 96056, Registered Office 22 Baker Street, London, W1U 3BW
+
+ This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu
+                Services does not,guarantee that this a-mail has not been intercepted and amended or that it is virus-free.
+
+
+
+
+                                                                                 3
+

@@ -1,0 +1,515 @@
+                                                                                                          POL00058369
+                                                                                                     POL00058369
+
+
+
+
+     Go                                          Horizon Integrity
+                                                                                               POST
+FUJITSU                    COMMERCIAL IN CONFIDENCE AND LEGALLY                               OFFICE
+                                        PRIVILEGED
+
+
+ Document Title:                         Horizon Integrity
+
+
+ Document Reference:                     ARC/GEN/REP/xxxx
+
+
+ Document Type:                          Report (REP)
+
+
+ Release:                                N/A
+
+
+ Abstract:                               This document provides a report about investigations into the
+                                         Integrity of the Horizon System provided by Fujitsu to Post Office
+                                         Ltd.
+ Document Status:                        Draft
+
+
+ Author & Dept:                          Gareth I Jenkins
+
+
+ External Distribution:
+
+
+
+
+Approval Authorities:
+
+
+
+
+Note:     See Post Office Account HNG-X Reviewers/Approvers Role Matrix (PGM/DCM/ION/0001) for guidance.
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012    COMMERCIAL IN CONFIDENCE AND       Ref:       ARCIGEN/REP/xxxx
+                                             LEGALLY PRIVILEGED             Version:   0.1
+
+Uncontrolled if Printed or Distributed                                      Date:      02/10/2012
+                                                                            Page No:   1 of 10
+                                                                                                                                                     POL00058369
+                                                                                                                                                 POL00058369
+
+
+
+
+                                                                                                                                  0
+          C0                                                    Horizon Integrity
+FUJITSU                          COMMERCIAL IN CONFIDENCE AND LEGALLY
+                                              PRIVILEGED
+
+
+[a             ii.I,iliiiiiitSTi171l
+      '
+ i
+
+
+
+
+                    •
+
+
+
+
+                        -
+
+
+
+
+                             •
+
+
+
+
+                                      •
+
+
+
+
+0.1 Table of contents....................................................................................................................... 2
+0.2    Figures and Tables.................................................................................................................... 3
+  0.2.1    Table of Figures.................................................................................................... ................ 3
+  0.2.2    Table of Tables................. ........................................................... ....................... .................. 3
+0.3    Document History...................................................................................................................... 3
+0.4    Review Details............................................................................................................................ 3
+0.5    Associated Documents (Internal & External)............................................................................3
+0.6    Abbreviations.............................................................................................................................4
+0.7    Glossary..................................................................................................................................... 4
+0.8    Changes Expected..................................................................................................................... 4
+0.9    Accuracy.....................................................................................................................................4
+0.10     Copyright................................................................................................................................ 4
+
+
+
+1.1        Document Structure...................................................................................................................5
+
+
+
+2.1        Timeline......................................................................................................................................6
+2.2        Business Scope......................................................................................................................... 6
+2.3        Architecture Diagrams............................................................................................................... 6
+
+3          HORIZON INTEGRITY........................................................................................... 9
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012                  COMMERCIAL IN CONFIDENCE AND                        Ref:            ARCIGEN/REP/xxxx
+                                                           LEGALLY PRIVILEGED                              Version:        0.1
+
+Uncontrolled if Printed or Distributed                                                                     Date:           02/10/2012
+                                                                                                           Page No:        2 of 10
+                                                                                                                                    POL00058369
+                                                                                                                                POL00058369
+
+
+
+
+     Go                                                Horizon Integrity
+FUJITSU                                                                                                            POST
+                            COMMERCIAL IN CONFIDENCE AND LEGALLY                                                  OFFICE
+                                         PRIVILEGED
+
+
+
+0.2 Figures and Tables
+
+0.2.1           T ble of Figures
+  Figure 1 — Horizon Data Flows.........................................................................                ............... 7
+  Figure 2 — Horizon Online Data Flows.... ....................... ...................................                  ............... 8
+
+
+
+
+0.3 Document History
+
+
+
+
+            .                       05/10/2012
+            •                       Gareth Jenkins
+
+ Role                                               Name
+ James Davidson                                     Delivery Executive
+ Amit Apte                                          CTO
+
+
+ Role                                               Name
+ Ed Philips                                         Senior Legal Counsel
+ Tim Healy                                          Commercial
+ Jarnail Singh                                      Post Office
+
+
+
+ Position/Role                                      Name
+
+
+
+( * ) = Reviewers that returned comments
+
+(t ) = Reviewers that returned no comments
+
+
+
+
+[0.5            i.i.i.iflTI RI.I.1IIuiTIij                     l
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012          COMMERCIAL IN CONFIDENCE AND                   Ref:         ARCIGEN/REP/xxxx
+                                                   LEGALLY PRIVILEGED                         Version:     0.1
+
+Uncontrolled if Printed or Distributed                                                        Date:        02/10/2012
+                                                                                              Page No:     3 of 10
+                                                                                                               POL00058369
+                                                                                                            POL00058369
+
+
+
+
+      Go                                         Horizon Integrity
+
+FUJITSU                                                                                                POST
+                           COMMERCIAL IN CONFIDENCE AND LEGALLY                                       OFFICE
+                                        PRIVILEGED
+
+
+ ARC/GENIREP/0001                                            HNG-X Glossary                           Dimensions
+ ARC/GEN/REP/0004                                            Horizon Data Integrity                   Dimensions
+ HR Doc                                                      Horizon Integrity — summary report
+ HR Spread                                                   Horizon spreadsheet HR.xls
+ Horizon Online Data         0.1b        02/04/2012          Horizon Online Data Integrity for Post
+ Integrity                                                   Office Ltd
+ Misra           Witness     1.0         08/10/2010          Witness Statement
+ Statement
+
+Unless a specific version is referred to above, reference should be made to the current approved
+                                    versions of the documents.
+
+
+[sI           1iiaET i.. ,q
+
+
+
+
+0.7 Gossary
+See also document ARC/GEN/REP/0001.
+
+
+
+
+0.8 Changes Expected
+
+ Review comments etc.
+
+
+
+
+Fujitsu Services endeavours to ensure that the information contained in this document is correct but, whilst every
+effort is made to ensure the accuracy of such information, it accepts no liability for any loss (however caused)
+sustained as a result of any error or omission in the same.
+
+
+
+
+© Copyright Fujitsu Services Limited 2012. All rights reserved. No part of this document may be reproduced,
+stored or transmitted in any form without the prior written permission of Fujitsu Services.
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012      COMMERCIAL IN CONFIDENCE AND          Ref:       ARCIGEN/REP/xxxx
+                                               LEGALLY PRIVILEGED                Version:   0.1
+
+Uncontrolled if Printed or Distributed                                           Date:      02/10/2012
+                                                                                 Page No:   4 of 10
+                                                                                                        POL00058369
+                                                                                                   POL00058369
+
+
+
+
+                                                                                          0
+     Go                                       Horizon Integrity
+FUJITSU                    COMMERCIAL IN CONFIDENCE AND LEGALLY
+                                        PRIVILEGED
+
+
+
+
+This document provides a report about investigations into the Integrity of the Horizon System provided
+by Fujitsu to Post Office Ltd.
+It has been produced at the request of Jarnail Singh of Post Office Ltd
+
+
+
+There are two separate reports that have been previously produced covering the integrity of Horizon
+[ARC/GEN/REP/0004] and Horizon Online [Horizon Online Data Integrity] respectively.
+The purpose of this report is to provide some further background information and relate this to current
+cases.
+
+
+
+
+Section 2 of the document describes the Horizon system at a high level, giving a time-line for its
+development, the Business scope and Architecture diagrams for both the original Horizon System and
+the current Horizon Online system.
+Section 3 then summarises my views on the overall integrity of the Horizon system and my involvement
+in various related cases that Post Office Ltd have asked me to consider.
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012    COMMERCIAL IN CONFIDENCE AND     Ref:       ARC/GEN/REP/xxxx
+                                             LEGALLY PRIVILEGED           Version:   0.1
+
+Uncontrolled if Printed or Distributed                                    Date:      02/10/2012
+                                                                          Page No:   5 of 10
+                                                                                                          POL00058369
+                                                                                                      POL00058369
+
+
+
+
+                                                                                            0
+     Go                                        Horizon Integrity
+
+FUJITSU                    COMMERCIAL IN CONFIDENCE AND LEGALLY
+                                        PRIVILEGED
+
+
+
+
+2.`i TimeUne
+Fujitsu were originally awarded a contract in 1996 to provide a Horizon System to Post Office Ltd. The
+following provides some key dates and functional changes:
+     •    Horizon Pilot 1996
+     •    Horizon Rollout 1999 — 2002
+     •    Network Banking 2003
+     •    EMV 2004
+    •     Cash Account removed 2005
+     •    Data Centre Migration 2009
+    •     HNG-X Rollout 2010
+Horizon Online (or HNG-X) was a major re-implementation of Horizon. It was a complete re-
+implementation of the business functionality at the counter and utilised a central Database to hold details
+of all transactions rather than the MessageStore used by the original Horizon system.
+All Post Office Branches migrated from the original Horizon to Horizon Online between January and
+September 2010. Historical transactions were made visible in the new system as part of the migration
+process.
+
+
+22 Busness Scope
+The Business scope of Horizon is:
+     •    Point Of Sale Application
+    •     Transaction Recording
+               o    All such transactions are Audited
+     •    Posting Summary Transactions to POL SAP (Post Office Ltd's back end accounting system)
+     •    Posting Detailed Transactions to Credence (Post Office Ltd's back end Management Information
+          system)
+     •    Posting Remuneration Data to HR-SAP (Royal Mail Group's back end Payroll system)
+     •    Delivering Client Data to Post Office Ltd's Clients (ie 3rd parties that Post Office Ltd acts as an
+          agent for such as Local Authorities and Utility companies etc)
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012    COMMERCIAL IN CONFIDENCE AND       Ref:       ARCIGEN/REP/xxxx
+                                             LEGALLY PRIVILEGED             Version:   0.1
+
+Uncontrolled if Printed or Distributed                                      Date:      02/10/2012
+                                                                            Page No:   6 of 10
+                                                                                                        POL00058369
+                                                                                                      POL00058369
+
+
+
+                                               Horizon Integrity
+                                                                                             POST
+                           COMMERCIAL IN CONFIDENCE AND LEGALLY                            OFFICE
+                                        PRIVILEGED
+
+
+
+
+          Other
+
+
+
+
+                                                                                                 al
+
+
+
+
+                                         Figure 1 — Horizon Data Flows
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012    COMMERCIAL IN CONFIDENCE AND    Ref:       ARCIGEN/REP/xxxx
+                                             LEGALLY PRIVILEGED          Version:   0.1
+
+Uncontrolled if Printed or Distributed                                   Date:      02/10/2012
+                                                                         Page No:   7 of 10
+                                                                                                       POL00058369
+                                                                                                     POL00058369
+
+
+
+                                              Horizon Integrity
+                                                                                            POST
+                           COMMERCIAL IN CONFIDENCE AND LEGALLY                           OFFICE
+                                        PRIVILEGED
+
+
+
+
+                                                                                                31
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012    COMMERCIAL IN CONFIDENCE AND   Ref:       ARCIGEN/REP/xxxx
+                                             LEGALLY PRIVILEGED         Version:   0.1
+
+Uncontrolled if Printed or Distributed                                  Date:      02/10/2012
+                                                                        Page No:   8 of 10
+                                                                                                                                                                                                                                                                                     POL00058369
+                                                                                                                                                                                                                                                                            POL00058369
+
+
+
+                                                                                                                          Horizon Integrity
+        f                   i                                                                                                                                                                                                                                    o•
+                                                                COMMERCIAL IN CONFIDENCE AND LEGALLY                                                                                                                                                  •
+                                                                             PRIVILEGED
+
+
+
+
+This is described in the separate integrity documents [ARCIGEN/REP/0004] and [Horizon Online Data
+Integrity].
+I have been involved personally in a number of challenges to the integrity of the original Horizon system
+and produced Witness Statements for a number of cases where the Integrity has been challenged. I am
+not aware of any cases where the Integrity of Horizon Online has yet been successfully challenged in
+court.
+            e ;:. ;n                         .`                       d                                   by laDarr ail. Sinoh f P&t
+                                                                                           6-spcea                                                            'p   ,~-                                           i4
+                                                       F:+ tl ? I 4                        rft- _3 Ho ize                   E3F l {AfIZE                           i4                   -            1f       3 ?r                   81 tpt''_)--uestlon
+
+               i                                                                                                                       a-by            },<"                                                r          ,r r r.,-_'f Ytr"r"':k"-f,rt'?+"l--of-5-of}4he
+
+
+                                                           lI    tl       j                     ";   y       '       +                                                                                                      ..rrA-               , f-?;c-h       r-       a' a   I
+
+
+
+
+                                                                                                                                                        HFl>-4                        } t`•'cfEl i4 tx                E       #6't tv Vi            Es       t : . x L3 'Pt l-
+                                                  t,
+                                             ~                                                                                         ,                      4/                        j        q        p                   „t +d              --p i + -i-ems-;4
+
+
+
+               4-- revic e. R                                                 i'         :-                    s                                              r          [ L s r: _ t "
+                      entar r                                                  j <I ~.,~ _~        ~;~`d~l' ~A 4                                                             6€         + AJ                                                4
+                       E.L~~, d,                                                        ~.; . .,,~ ru ~d, -~~                                                                                                                ~t-                         s
+                        M r,/c;f                   € A     u:      1 ft:               Yra r r;
+                                                                                                                                                                                                                                          P.°t
+                            <iS~ E                         r. W~~ ~'`uA E .~C+ ,                                                   PA             c,          C,               P,..          ..,,;irUt
+
+               !mac'-i4{
+
+                 rr?        a .^ mss ate                                                                                    tk                            t -      he-P      e Ems; T"
+               V in ~ ss's -Report-(produced b                                                                           Professor Charles - McLachlan). - 'h=,s report--by- Professor
+               v                s v rg '-H a t-                                                                           -    kr hekrad pF Fes.; '-€ '4i   y ;:eE case rirx    eafe
+                                                        4.._.4c`$.s{L' -_cSf                ~ fx1-P#i`r 'vr. r4vtx,                    Z-E                         p           A.I~s.a~f        tF         4~.        roa       - .:o rb-    %A4—
+
+
+
+
+                                 A           1 ~.... , z4-}. iJ               ~t~.-i-N .   ~y t~:-_:c~kf         ~.. .~J.~'_a -~       }i~l='4~        `- , 4            .        k     ~.. :c~dn A- CiF, I-i4:.i .,          t{-A-`.cd     d~'e`_-c4r,          .4 ..,
+
+
+
+
+               {                         r        44Fi            +r 'fit                  V:xfn           Ey€           t6 not                         z                t A4/4+ a                    ~          /)             ! Drf                        t        I
+               4 ;+ : . Ff.- ,-q r ':All                                                             -4cFk fA                  V             -w't 4                                   enefal Earfeeu w ith t.                                        t;. -rt t° .                    t <>
+               .y Est"up, U                                e       r x~JV                            er;J-..F.f 1,       u ,"+ire tIA-
+                    rr tF       tom..,       r `, Fa{,           }n ,at ! rA-F CA
+
+                                                                                 {~.                                                                                                           ^? i t s -."
+                   P    E fh(+ i:                      ~-L4~-f        t            f            ., c!-F s-- ~ ~u.,~'.rrc .         1       w --'~      ~ t- '                 r         et                        {                                   A cx-f :.s—:` -tt-F+.~E.-Y?
+                                  ¢a          t ,.' , ti §Fr                                .         M                  I it l s(, -vi                 ?k ( x;              € xr , ( f t                 3 Fi x .£ ?Stt
+
+
+
+
+             C„+l                                 h&VI                    .r           44V4 V I                   F,-                      LA   1x;                                             t Ee?             94                        #f{           6€ W-€1/-                  E 1
+LA;4}
+
+
+© Copyright Fujitsu Services Ltd 2012                                                                      COMMERCIAL IN CONFIDENCE AND                                                                   Ref:                            ARCIGEN/REP/xxxx
+                                                                                                               LEGALLY PRIVILEGED                                                                         Version:                        0.1
+Uncontrolled if Printed or Distributed                                                                                                                                                                    Date:                           02/10/2012
+                                                                                                                                                                                                          Page No:                        9 of 10
+                                                                                                      POL00058369
+                                                                                                 POL00058369
+
+
+
+
+     Co                                            Horizon Integrity
+
+FUJITSU                    COMMERCIAL IN CONFIDENCE AND LEGALLY                           • ''
+                                        PRIVILEGED
+
+The main challenges in both the West Byfleet and Rinkfield cases t;e casen in which I dav-e been
+involved were presented as "Hypothetical issues" and my previous: Witness Statements. dv t : — ";'e-st-
+   flee,t._CaSB rnn,SFa WitP@SS StatOW81Itl went through each of these hypotheses and showao that
+
+
+
+
+                                            noes
+there was no specific evidence for any of them in the data presented.
+
+In summary I would conclude by saying that I fully believe that Horizon will accurately record all data
+that is submitted to it and correctly account for it. However it cannot compensate for any data that is
+incorrectly input into it as a result of human error, lack of training or fraud (and nor can any other
+system).
+
+
+
+
+© Copyright Fujitsu Services Ltd 2012    COMMERCIAL IN CONFIDENCE AND   Ref:       ARCIGEN/REP/xxxx
+                                             LEGALLY PRIVILEGED         Version:   0.1
+
+Uncontrolled if Printed or Distributed                                  Date:      02/10/2012
+                                                                        Page No:   10 of 10
+

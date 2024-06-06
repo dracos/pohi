@@ -1,0 +1,195 @@
+                                                                                                                                                      FUJ00081584
+                                                                                                                                                 FUJ00081584
+
+
+                                                   Receipts/Payments Mismatch issue notes
+
+
+
+
+                                                                                                                               rujrrsu
+Attendees
+
+       Antonio Jamasb (AJ)                Service Delivery
+       Emma Langfield (EL)                Service Delivery
+       Alan Simpson (AS)                  Security
+       Julia Marwood (JM)                 Network
+       Ian Trundell (IT)                  IT        I
+       Andrew Winn (AW)                   POL Finance
+       Mike Stewart (MS)                  Fujitsu SDM
+       John Simkins (JS)                  Fujitsu Security
+       Gareth Jenkins (GJ)                Fujitsu Technical Specialist
+       Mark Wright (MW)                   Fujitsu Technical Specialist
+
+What is the
+               issue?
+
+
+
+
+Discrepancies showing at the Horizon counter disappear when the branch follows certain process steps, but will still show within the back end branch
+account. This is currently impacting circa 40 Branches since migration onto Horizon Online, with an overall cash value of circa £20k loss. This issue will
+only occur if a branch cancels the completion of the trading period, but within the same session continues to roll into a new balance period.
+
+At this time we have not communicated with branches affected and we do not believe they are exploiting this bug intentionally
+
+The.problem occurs as part of the process when moving discrepancies on the Horizon System into Local Suspense.
+
+
+When Discrepancies are found during Stock Unit rollover into a new Transaction Period, then the User is asked if the discrepancy should be moved to
+Local Suspense. if the branch presses cancel at this point the Discrepancy is zeroed on the Horizon; System.
+
+
+
+
+                                     Page 1 of 5
+                                                                                                                                                    FUJ00081584
+                                                                                                                                                FUJ00081584
+
+
+                                                     Receipts/Payments Mismatch issue notes`
+                                                                                                                              FUJITSU
+    Note at this point nothing into feeds POLSAP an Credence, so in affect the POLSAP and Credence shows the discrepancy whereas the Horizon
+           in the branch doesn't. So the branch will ien believe they have balanced.
+system
+
+
+
+
+If at the next screen the rollover is completely can d, then no harm is done. However if the Rollover is re-attempted at this point, the rollover will
+continue without any discrepancy meaning Horizo doesn't Match POLSAP or Credence
+This has the following consequences:
+         There will be a Receipts and Payment mism    h corresponding to the value of Discrepancies that were "lost"
+a
+
+
+
+
+Note the Branch will not get a prompt from the             to say there is Receipts and Payment mismatch, therefore the branch will believe they have
+balanced correctly..
+
+
+         When the Branch begins the new Branch Trading period the discrepancies will show at Zero, however the Receipts and Payment mismatch will carry
+         over into the next period.
+
+
+LMRA t
+
+• The branch has appeared to have balanced, whereas in fact they could have a loss or a gain.
+• Our accounting systems will be out of sync with what is recorded at the branch
+• If widely known could cause a loss of confidence in the Horizon System by branches
+• Potential impact upon ongoing legal cases where branches are disputing the integrity of Horizon` Data
+• It could provide branches ammunition to b(ame'Horizon for future discrepancies
+
+Identifying the issue and forward resolution
+
+
+                                      Page 2 of 5
+                                                          rrinnnncorint _ KLrr    M Ir   ctJrC
+                                                                                                                                                  FUJ00081584
+                                                                                                                                             FUJ00081584
+
+
+                                               •   Receipts/Payments Mismatch issue notes',
+    a► "                                                                                                                     F[ TI S
+                                                   in
+ The Receipts and Payment mismatch will result an error code being generated which will allow Fujitsu to isolate branches affected this by this
+ problem, although this is not seen by the branches. We have asked Fujitsu why it has taken so long to react to and escalate an issue which began in
+ May. They will provide feedback in due course.
+
+ Fujitsu are writing a code fix which stop the discrepancy disappearing from Horizon in the future. They are aiming to deliver this into test week
+ commencing 4th October. With live proving at the model office week commencing 11th October. With full roll out to the network completed by the 21St of
+ October. We have explored moving this forward and this is the earliest it can be released into live'
+
+ The code fix will on stop the issue occurring in the future, but it will not fix any current mismatch!at branch.
+
+Proposal for affected Branches
+
+There are three potential solutions to apply to the mpacted branches, the groups recommendation is that solution two should be progressed.
+
+SOLUTION ONE - Alter the Horizon Branch figure it the counter to show the discrepancy. Fujitsu w' ould have to manually write an entry value to the
+local branch account,
+IMPACT - When the branch comes to complete ns <t Trading Period they would have a discrepancy, which they would have to bring to account.
+RISK- This has significant data integrity concerns nd could lead to questions of "tampering" with the branch system and could generate questions
+around how the discrepancy was caused. This soli .ion could have moral implications of Post Office, changing branch data without informing the branch.
+
+SOLUTION TWO - P&BA will journal values from ie discrepancy account into the Customer Account and recover/refund via normal processes. This will
+need to be supported by an approved POL comm lication. Unlike the branch "POLSAP" remains balance albeit with an account (discrepancies) that
+
+
+
+                                                                                                    in
+should be cleared.
+IMPACT - Post Office will be required to explain th reason for a debt recovery/ refund even though there is no discrepancy at the branch.
+RISK - Could potentially highlight to branches that -lorizon can lose data.
+
+SOLUTION THREE - It is decided not to correct th data in the branches (ie Post Office would prefer to write off the "lost"
+IMPACT- Post office must absorb circa £20K loss
+RISK - Huge moral implications to the integrity of he business, as there are agents that were potentially due a cash gain on their system
+
+
+                                     Page 3 of 5
+                                                          rnMMCDr1A1       _IAI_rnwICIF   PdPc
+                                                                                                                                                   FUJ00081584
+                                                                                                                                               FUJ00081584
+
+
+
+                                                     Receipts/Payments Mismatch issue notes)                                    FUJITSU
+                                                                                                       ~
+                                                     I
+
+
+
+Action Point Summary
+
+                                                .                                       z
+         Title                   Detai s
+
+
+     Audit accounts          Audit of Credence and I OLSAP to check both systems match.                                    81 October    AW
+                                                      i                                               I
+     Isolate branch issues   Provide list of Horizon Desk calls made by affected branches to see if any other issue        8`h October   MS
+                             impacting branches
+     Forward Fix plan        Provide timeline for permanent for fix introduction to branches                               6th October   MS'
+
+     Branch Performance      Confirm with Shaun Turner any future audits for Branches and any performance issues           8th October   JM
+     review                  flagged
+     Branch Investigation    Confirm any existing of future investigations for impacted branches                              October    AS
+     review
+     NBSC Script             Confirm NBSC scripts fqr receipts and payments                                                6 October     Ti
+
+     HSD Script              Confirm Horizon System Desk script for receipts and payments                                  6th October   MS
+                                                     ~                                               I
+     Branch weekly report    Fujitsu to provide a weekly report updating the affected Branches until migration of fix is   8th October   GJ
+                             completely rolled out
+    Further Branch           Provide Fujitsu a list of branches to carry out further investigations                        6' October    EL
+    investigation                                                                                     j
+
+
+
+
+                                      Page 4 of 5
+                                                            rnItA MGprino _ui_rnMMclr         Mrr
+                                                                                                                                 FUJO0081584
+                                                                                                                            FUJ00081584
+
+
+                                         Receipts/Payments Mismatch issue notes',
+                                                                                                           FUJITSU
+                                                                                                             I
+ Title               Details                                                                            Target              Ow
+                                                                                                         completion   ner
+                                                                                                    date
+Fujitsu          Fujitsu to supply output! of further investigations                                8th' October            GJ
+investigations
+Communications   Engage Post Office Communication teams to understand what should be' shared with   6th October             TJ
+                 Branches
+Stakeholder      Produce report for PostI Office Stakeholders                                       6th October             TJ
+Report
+
+
+
+
+                                                rn11A11AGOriAl _IIU_rnAICInc kIr~
+

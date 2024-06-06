@@ -1,0 +1,1438 @@
+                                                                                    WITNO4110200
+                                                                                  WITNO4110200
+
+
+
+
+                                               Witness Name: John Graeme Simpkins
+
+                                                          Statement No.: WITNO4110200
+
+                                                                 Dated: 30 August 2023
+
+
+
+                       POST OFFICE HORIZON IT INQUIRY
+
+
+
+
+       SECOND WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
+
+
+
+I, MR JOHN GRAEME SIMPKINS, will say as follows:
+
+
+INTRODUCTION
+
+1.    As noted in my first witness statement dated 4 August 2022, I am currently
+
+      employed by Fujitsu Services Limited ("Fujitsu") as a Team Leader within the
+
+      Software Support Centre for the Horizon IT System (the "SSC"), a position I
+
+      have held since 2010.
+
+
+2.    This second witness statement is made to assist the Post Office Horizon IT
+
+      Inquiry (the "Inquiry") with the matters put to Fujitsu in Rule 9 Requests dated
+
+      16 June 2023 and 31 July 2023 (the "First Request" and "Second Request",
+
+      respectively, and together the "Requests"), to the extent I have or had direct
+
+      knowledge of such matters. Where I have referred to documents to assist my
+
+      preparation of responses to the Requests, the URNs of the relevant documents
+
+      are set out in this statement.
+
+
+3.   I was assisted in preparing this statement by Morrison Foerster, the recognised
+
+      legal representatives for Fujitsu in the Inquiry.
+
+
+
+
+                                       Page 1 of 27
+                                                                                 WI TN04110200
+                                                                               WITNO4110200
+
+
+
+
+ARQ DATA
+
+4.   As part of the First Request, the Inquiry has provided Fujitsu with an ARQ
+
+     Spreadsheet for the Marine Drive branch (Financial Accounts Division or "FAD"
+
+     Code 213337) showing certain transactions and events dating from 2 February
+
+     2004 (the "ARQ Spreadsheet", LCAS0001383 pages 17 and 18 only). I have
+
+     now been made aware that the ARQ Spreadsheet forms part of a larger
+
+     document. However, for the avoidance of doubt, in preparing this statement, I
+
+     understand that the Inquiry requires me to consider pages 17 and 18 of
+
+     LCAS0001383 only, and does not require me to consider the remaining pages
+
+     of the document.
+
+
+5.   By way of background for the Inquiry, the SSC does not use and has never
+
+     generally used ARQ data in the course of its investigations. Instead, for
+
+     example in the context of Legacy Horizon, the SSC referred to copies of the
+
+     original Riposte messagestore for the relevant branch when investigating and
+
+     diagnosing potential issues with the system. In this regard, the raw
+
+     messagestore contained information additional to that in the filtered ARQ
+
+     spreadsheets, and provided a much more comprehensive account of the data
+
+     held in the audit archive.
+
+
+6.   The messagestores used by the SSC were in an ascii format and consisted of
+
+     long strings of text, which the SSC could then search and filter as necessary.
+
+     Each string represented a Riposte Message in Riposte Attribute Grammar
+
+     ("RAG") (as described further below) which is quite similar to the more modern
+
+     JSON format. These extracted files were derived from binary files held on the
+
+     correspondence servers or on the counters.
+
+
+
+
+                                  Page 2 of 27
+                                                                                       WITNO4110200
+                                                                                     WITN04110200
+
+
+
+
+7.    For security reasons, the SSC was (and continues to be) segregated from the
+
+      audit function. The SSC therefore has no direct access to, (i) the audit data held
+
+      in the data centres, (ii) the audit tools, or (iii) which files, logs, messagestore
+
+      information etc. are collected for audit. Neither has the SSC ever supported the
+
+      audit platform. It is for these reasons that I am not in a position to respond to
+
+      the Inquiry's questions surrounding the reliability of the audit archive or of the
+
+      ARQ data provided to Post Office Limited ("POL") over time.
+
+
+8.    That being said, the headings set out in the ARQ Spreadsheet were familiar to
+
+      me, as they appear to reflect sections of the messages recorded in the Riposte
+
+      messagestore (albeit altered slightly in some instances). The ARQ
+
+      Spreadsheet provided by the Inquiry appears to be in two parts, page 1 is a
+
+      filtered extract containing the EPOSS event messages from the messagestore,
+
+      and page 2 is a filtered list containing the transactions, also from the
+
+      m essagestore.
+
+
+9.    The messagestore itself is made up of Riposte messages. The style of the
+
+      messages is called Riposte Attribute Grammar (also referred to as "RAG"). This
+
+      is essentially a list of attribute names and their values. For example, "<Id:1>" is
+
+      an attribute named "Id" with the value "1". However, these attributes could be
+
+      nested, for example, <TxnData:<SessionId:44-186311-1-5858-1>>. In this
+
+      instance, in order to refer to the Sessionld, you would use the notation
+
+      "TxnData.Sessionld".
+
+
+10.   In relation to HNG-X, the nearest analogy to the Riposte messagestore is the
+
+      Branch database.
+
+
+
+
+                                    Page 3 of 27
+                                                                                           WITNO4110200
+                                                                                         WITN04110200
+
+
+
+
+11.   In the Second Request, the Inquiry has asked me to confirm whether, in my
+
+      view, the ARQ data provided to POL in respect of proceedings against
+
+      postmasters was sufficient to enable a postmaster to understand whether the
+
+      system was operating correctly. As noted above, I have not generally referred
+
+      to ARQ data as part of my role within the SSC and have no direct knowledge
+
+      of what data was provided to POL for proceedings against postmasters. Neither
+
+      do I have any understanding as to whether the ARQ Spreadsheet provided by
+
+      the Inquiry contains information typical of ARQ data provided to POL.
+
+
+12.   That being said, if I refer to the ARQ Spreadsheet by way of an example, my
+
+      view is that the data provided in the ARQ Spreadsheet does not contain
+
+      sufficient information for a postmaster to assess the health of the Horizon
+
+      system at their branch. The ARQ Spreadsheet shows only those transactions
+
+      recorded by the system. It shows that there were no receipts and payments
+
+      mismatch within those transactions and that there were no system failures that
+
+      required recovery. However, it does not demonstrate the health of the system
+
+      beyond those parameters.
+
+
+13.   The Inquiry has also asked whether the "sources" from which ARQ data was
+
+      obtained would have been sufficient for a postmaster to understand whether
+
+      the system was operating correctly. Due to my limited knowledge as to the files,
+
+      data and events that feed into the audit system, both at the time of the ARQ
+
+      Spreadsheet and to date, I am unable to comment.
+
+
+14_   Beyond the data described above, it would also have been useful for the
+
+      postmaster to have visibility of (i) the opening figures from the last rollover, (ii) a
+
+      running total of the sales, and (iii) the daily cash and stamp declarations made
+
+
+                                      Page 4 of 27
+                                                                                     WI TN04110200
+                                                                                 WITNO4110200
+
+
+
+
+      by the postmaster. Access to these records would have allowed the postmaster
+
+      to compare the Horizon generated figures against the declarations made by the
+
+      postmaster from the point of the last rollover. A comparison of these figures
+
+      would show the point at which the two figures diverged, allowing the postmaster
+
+      to then check what was happening at the branch at that point in time.
+
+
+ARQ SPREADSHEET HEADINGS
+
+15.   The Inquiry has asked Fujitsu to explain the various headings in the ARQ
+
+      Spreadsheet, including a breakdown of the structure of the SessionlD and
+
+      TxnID fields. Notwithstanding the limitations set out at paragraph 5 above, an
+
+      explanation of each of the headings of the ARQ Spreadsheet is set out below.
+
+      These explanations have been assisted in part by reference to the document
+
+      entitled "TPS Object Model" and dated 19 August 1999 ("TD/DES/013",
+
+      FUJ00171947). These explanations start first with page 2 of the ARQ
+
+      Spreadsheet (namely, the list of transactions).
+
+
+16.   Column A — "ID": See TD/DES/013, section 3.3: Id, "Counter position number".
+
+      The numbers for these counter positions are as follows:
+
+          Value                               Meaning
+
+      1            Gateway Counter (i.e. the counter which communicates with the
+                   datacentres on behalf of the branch)
+      2 to 30      The counter range of node IDs
+      31           The mirror messagestore. This is only used when a branch has
+                   a single counter position. It acts as a Riposte neighbour to
+                   create a duplicate copy of the messagestore on counter 1.
+
+                   Without this if the hard disk on counter 1 failed, any messages
+                   that had not been replicated to the datacentre would have been
+                   lost.
+
+      32-58        Correspondence servers in Bootle (even numbers, as below):
+                   MBOCOR01 - 32
+                   MBOCOR02 - 34
+
+
+                                   Page 5 of 27
+                                                                                     WITNO4110200
+                                                                                   WITN04110200
+
+
+
+
+        Value                                   Meaning
+
+                    MBOCOR03 - 36
+                    MBOCOR04 - 38
+                    MBOCOR11 - 52
+                    MBOCOR12 - 54
+                    MBOCOR13 - 56
+                    MBOCOR14 - 58
+       33-59        Correspondence servers in Wigan (odd numbers, as below)
+                    MWICOR01 - 33
+                    MWICOR02 - 35
+                    MWICOR03 - 37
+                    MWICOR04 - 39
+                    MWICOR11 - 53
+                    MWICOR12 - 55
+                    MWICOR13 - 57
+                    MWICOR14 - 59
+
+17.   Column B — User: See TD/DES/013, section 3.3: User, "Clerk/employee as
+
+      Riposte use►".
+
+
+18.   Column C — SU: See TD/DES/013, section 3.4: Container, "Stock unit name".
+
+      By way of background, there are two types of stock unit, (i) individual, which is
+
+      attributable to a single user at any one time, and (ii) shared, where more than
+
+      one user can use the stock unit at the same time. The way in which stock units
+
+      in Legacy Horizon were configured was determined by each postmaster on a
+
+      branch-by-branch basis.
+
+
+19.   Column D — Date:
+
+
+      19.1   The explanation of this field could be drawn from several sources, as
+
+             noted below.
+
+
+               19.1.1 See TD/DES/013, section 3.3: Date, "The date the message is
+
+                       written to the journal, format (DD-Mon-YYYY)"; or
+
+
+
+
+                                     Page 6 of 27
+                                                                                             WITNO4110200
+                                                                                          WITNO4110200
+
+
+
+
+             19.1.2 See TD/DES/013, section 3.4: Start Date, "Date the transaction
+
+                      commenced' (note that the attribute hierarchy, as explained at
+
+                      paragraph 9 above, is TxnData.Start.Date); or
+
+
+             19.1.3 See TD/DES/013, section 3.4: End Date, "Date the transaction
+
+                      completed' (note that the attribute hierarchy, as explained at
+
+                      paragraph 9 above, is TxnData.End.Date).
+
+
+      19.2   Initially, I thought that this field would have been the first option in this list
+
+             (i.e. the "Date" field). However, due to the confusing timeline for the
+
+             transferred session (see SessionlD 44-213337-1-899855-1), it now
+
+             appears that this field is probably the transaction "Start Date". Given that
+
+             all the transactions provided in the ARQ Spreadsheet are for the same
+
+             date, the choice of "Date" field attribute should not affect the
+
+             interpretation of the ARQ Spreadsheet. It is, however, important for the
+
+             time element below. A member of the Fujitsu audit team should be able
+
+             to confirm the position.
+
+
+20.   Column E — Time:
+
+
+      20.1 As with the "Date" field above, the explanation of this field could be drawn
+
+             from several sources, as noted below.
+
+
+             20.1.1 See TD/DES/013, section 3.3: Time, "The time the message is
+
+                      written to the journal, format (HH:MM:SS)". Unless specified, I
+
+                      believe that this was in UTC.
+
+
+
+
+                                      Page 7 of 27
+                                                                                 WITNO4110200
+                                                                               WITNO4110200
+
+
+
+
+       20.1.2 See TD/DES/013, section 3.4: Start Time, "Time the transaction
+
+               commenced' (note the attribute hierarchy, as explained at
+
+               paragraph 9 above, is TxnData.Start.Time)
+
+
+       20.1.3 See TD/DES/013, section 3.4: End Time, "Time the transaction
+
+               completed' (note the attribute hierarchy, as explained at
+
+               paragraph 9 above, is TxnData.Start.Time)
+
+
+20.2   In line with the "Date" field above, it appears that the "Time" field in the
+
+       ARQ Spreadsheet is likely to be the transaction "Start Time". This makes
+
+       most sense when looking at the ARQ Spreadsheet as, using the "Start
+
+       Time" field, the time allocated to the transactions would be the time they
+
+       were added to the basket, as opposed to the time they were settled and
+
+       committed to the messagestore (someone from Fujitsu's audit team
+
+       should be able to confirm the position). By way of explanation, "settled"
+
+       is a term used when the transactions in a basket are settled to a payment
+
+       type e.g. cash, card or cheque. This is normally the last thing to happen
+
+       when a basket is completed and journalised (i.e. recorded in the
+
+       messagestore).
+
+
+20.3 The use of the "Start Time" field (if my interpretation is correct) means
+
+       that the transactions appear to jump back and forth between the
+
+       counters, when in fact I believe the user only moved once. This may
+
+       initially give the impression that there were concurrent logins by the user,
+
+       when in fact it appears that there was no concurrent login in this instance
+
+       (see further explanation below).
+
+
+
+
+                               Page 8 of 27
+                                                                                 WITNO4110200
+                                                                               WITNO4110200
+
+
+
+
+21.   Column F — Sessionid: See TD/DES/013, section 3.4: Session Id, "Unique
+
+      session identifier for all transactions within a customer session. Contains
+
+      Groupid, Id and Num separated by hyphens of the messages (normally the first)
+
+      within the session"
+
+
+      21.1 By way of background, a session is generated by Riposte when a new
+
+             basket is opened and closes when the basket is settled. Cancelbd
+
+             sessions would not generally appear in the messagestore.
+
+
+      21.2   In order to assist the Inquiry, set out on the next page is an example
+
+             session from the ARQ spreadsheet. An explanation of the example is
+
+             then provided on the following page.
+
+
+
+
+                                   Page 9 of 27
+                                                                                                                                                                           WITNO4110200
+                                                                                                                                                                    WITNO4110200
+
+
+
+
+Id   User     SU    a                      [ n
+                                                                                     r'        lProduct
+                                                                                                   ti          ! kr, Value a 1~~ Method       !
+                                                                                                                                              I
+                                                                                                                                                  ~       It   Foreign
+                                                                                                                                                                  isator
+2    LCA002   AA   02-      14:21:12   44-213337-1-899855-1   44-213337-1-899855-2        SC   184        -1       -43.15      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:15   44-213337-1-899855-1   44-213337-1-899855-3        SC   184        -1       -70.57      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:21   44-213337-1-899855-1   44-213337-1-899855-4        Sc   184        -1       -73.58      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:24   44-213337-1-899855-1   44-213337-1-899855-5        Sc   184        -1       -77.45      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:27   44-213337-1-899855-1   44-213337-1-899855-6        Sc   184        -1       -77.84      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:32   44-213337-1-899855-1   44-213337-1-899855-7        SC   184        -1       -78.81      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:36   44-213337-1-899855-1   44-213337-1-899855-8        Sc   184        -2       -158.52     1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:46   44-213337-1-899855-1   44-213337-1-899855-9        Sc   184        -1       -80.72      1          5           1        0
+                   Feb-04
+2    LCA002   AA   02-      14:21:51   44-213337-1-899855-1   44-213337-1-899855-10       SC   184        -1       -83.83      1          5           1        0
+                   Feb-04
+2    LCA003   AA   02-      14:21:57   44-213337-1-899855-1   44-213337-1-899855-11       SC   184        -1       -85.49      1          5           1        0
+                   Feb-04
+2    LCA004   AA   02-      14:22:00   44-213337-1-899855-1   44-213337-1-899855-12       SC   184        -1       -85.53      1          5           1        0
+                   Feb-04
+2    LCA005   AA   02-      14:2203    44-213337-1-899855-1   44-213337-1-899855-13       SC   184        -3       -256.59     1          5           1        0
+                   Feb-04
+2    LCA006   AA   02-      14:22:11   44-213337-1-899855-1   44-213337-1-899855-14       SC   184        -1       -88.97      1          5           1        0
+                   Feb-04
+2    LCA007   AA   02-      14:22:14   44-213337-1-899855-1   44-213337-1-899855-15       Sc   184        -1       -89.7       1          5           1        0
+                   Feb-04
+2    LCA008   AA   02-      14:28:17   44-213337-1-899855-1   44-213337-2-1183928-1       SC   1          1        1350.75
+                   Feb-04
+
+
+
+
+                                                                       Page 10 of 27
+                                                                                WITNO4110200
+                                                                             WITNO4110200
+
+
+
+
+21.3   Using Session "44-213337-1-899855-1" as an example, this has 15
+
+       transactions in the session; 14 transactions that are coming into the
+
+       branch, these were all product 184 (Grp13 Retirement Pension), and one
+
+       transaction is going out of the branch. This was the settlement to product
+
+       1 (Cash). All these transactions can be seen to belong to the same
+
+       session, as they all have the same session number. The session can be
+
+       seen to total to zero value as expected. Further detail in relation to the
+
+       Product field is provided below.
+
+
+21.4   In this example, the session number is created by:
+
+
+       21.4.1 44: I believe this stands for the UK.
+
+
+       21.4.2 213337: The numeric version of the FAD (Financial Accounts
+
+               Division) code (excluding the check digit).
+
+
+       21.4.3 1: The counter position ("Id") that the session was created on.
+
+
+       21.4.4 899855: A current messagestore "Num" to ensure that the
+
+               Session number is unique. This appears to be the "Num" of when
+
+               the previous Session completed, but that is just from
+
+               observation. By way of background, "Num" is a consecutive
+
+               number to ensure that each message is uniquely identifiable.
+
+
+       21.4.5 1: I am unsure what this is generated by. The value for this field
+
+               is usually one but may be more. However, once generated the
+
+               value stays the same for the Session.
+
+
+
+
+                             Page 11 of 27
+                                                                                    WITNO4110200
+                                                                                  WITNO4110200
+
+
+
+
+22.   Column G — Txnld: From TD/DES/013 section 3.4: Txn Id, "Unique transaction
+
+      identifier for all messages within a customer transaction. Contains Groupld, Id
+
+      and Num separated by hyphens of the messages (normally the first) within the
+
+      transaction".
+
+
+      22.1 Using the same example above, the first transaction has a Txnld of "44-
+
+            213337-1-899855-2". This is very similar to the Sessionld. The
+
+            construction is:
+
+
+             22.1.1 44: 1 believe this stands for the UK.
+
+
+             22.1.2 213337: As above, this is the numeric version of the FAD code
+
+                      (excluding the check digit).
+
+
+             22.1.3 1: The counter position ("Id") where the transaction was added
+
+                      to the basket.
+
+
+             22.1.4 899855: This is normally the same as the Sessionld (but not
+
+                      always, as can be seen by the settlement transaction).
+
+
+             22.1.5 2: This usually starts at 1 and increases by increments of 1 for
+
+                      each transaction added to the Session. There may be gaps in
+
+                      the numbering (as in this case), for example, where transactions
+
+                      are added and removed. There may also be duplicates where
+
+                      products are linked (see for example Txnld 44-213337-1-
+
+                      899920-3 which was for Products 260 "Transcash Giro" and 121
+
+                      "Giro Transcash Fee")
+
+
+
+
+                                       Page 12 of 27
+                                                                                     WITNO4110200
+                                                                                  WITN04110200
+
+
+
+
+23.   Column H — Mode: See TD/DES/013, section 3.4: Mode, "Contains the mode
+
+      of the system when the transaction is written..." The meanings of the various
+
+      values for this attribute, as set out in TD/DES/013, are listed below for ease of
+
+      reference:
+
+
+                    Value                     Meaning
+
+                SC               Serve customer
+                ER               Linked reversal
+                RV               Unlinked reversal
+                RiSD             Remit in from Supplies
+                ROSD             remit out to Supplies
+                RU               Revaluation Uprating
+                RD               Revaluation Downrating
+                TI               Transfer in
+                RIOP             Remit in from other PO
+                ROOP             Remit out to other PO
+                RICL             Remit in Client
+                ROCL             Remit out Client
+                RODC             Remit out DPC
+                TO               Transfer out
+                REC              Recovery (bulk input)
+                HK               Housekeeping
+                SAP              Stock adjustment positive
+                DDP              Declaration discrepancy positive
+                SAN              Stock adjustment negative
+                DDN              Declaration discrepancy negative
+                RIAD             Remit in from ADC
+                ROAD             Remit out to ADC
+
+
+24_   Column I — ProductNo: See TD/DES/013, section 3.4: Product No, "Product
+
+      to which this transaction relates". This information was often drawn from
+
+      reference data provided by POL. The long names for these products are below.
+
+      I understand from Morrison Foerster and the legal team at Fujitsu that the
+
+      messagestore from which the ARQ Spreadsheet was derived is no longer
+
+      available. Accordingly, in order to obtain these definitions, I considered other
+
+      messagestore extracts that were attached as evidence to various Peaks. Within
+
+      those extracts, I searched for the "EPOSSProduct" collections for the relevant
+
+
+                                   Page 13 of 27
+                                                                                      WI TN04110200
+                                                                                    WITNO4110200
+
+
+
+
+      products. The list below is not a comprehensive list of all product numbers,
+
+      rather it focuses on the products contained in the ARQ Spreadsheet:
+
+
+           Product Number                     Long Name
+           (RData.Data.PN)                  (RData.Data.LN)
+           1                   Cash
+           19                  First Class Stamp
+           21                   Other Stamps Ordinary
+           107                  NS & I Ord Acct Dep
+           121                 Giro Transcash Fee
+           134                 BT Payment card
+           184                  Grp13 Retirement Pension
+           185                  Grp14 Invalidity Benefit
+           260                 Transcash Giro
+           398                 BBC TVL Easy Entry Card
+           412                 Yorkshire Water Pay Card
+           704                 British Gas Bill Payment
+           2275                YE Bill Payment
+           2287                Yorks Elec Payt Card
+           2867                Second Class Stamp
+           2870                Powergen
+           3865                Self Ad Stp Bks 1st x 12
+           3866                Self Ad Stp Bks 2nd x 12
+           4339                Postage Label 1st Class
+           4341                Postage Label 2nd Class
+           4342                Postage Label Air
+           4926                CARD ACCOUNT BALANCE ENQ
+           4927                CARD ACCOUNT WD LIMIT
+           5501                 T-Mobile eTop Up £10
+
+
+25.   Column J — Qty: See TD/DES/013, section 3.4: Qty, "Quantity of product
+
+      transacted, may be negative". By way of background, as I understand to be
+
+      standard practice for trading, stock held at the branch was treated as a liability
+
+      and was therefore reflected as a negative value_ To that extent, stock being
+
+
+
+
+                                   Page 14 of 27
+                                                                                        WI TN04110200
+                                                                                      WITNO4110200
+
+
+
+
+      sold by the branch appears in the messagestore as a positive value and stock
+
+      being returned to the branch appears in the messagestore as a negative value.
+
+
+26.   Column K — SaleValue: See TDIDES/013, section 3.4: Sale Value, "Actual
+
+      sale value, may be negative, or zero in the case of milk tokens".
+
+
+27.   Column L — EntryMethod: See TD/DES/013, section 3.4: Entry Method,
+
+      "Method of data capture". The meanings of the values for this attribute are set
+
+      out in the table below. As is clear from the table, this attribute was not completed
+
+      for every type of transaction.
+
+
+                            Value             Meaning
+
+                          0             Barcode
+                          1             Keyboard (manual)
+                          2             Magnetic card
+                          3             Smart card
+                          4             Smart key
+                          5             Scales
+
+
+28.   Column M — State: See TD/DES/013, section 3.7: State, "[t]he OBCS
+
+      transaction state". The valid types are as follows:
+
+                            Value             Meaning
+
+                          1             Receipt
+                          2             Redirect
+                          3             Issue
+                          4             Encashment
+                          5             No Barcode
+
+
+29.   Column N — IOP_ident: See TD/DES/013, section 3.7: IOP Ident, "[t]he (OP
+
+      Identifier consists of Customer Reference Number, Additional Book Indicator,
+
+      OB Serial Number and CPP System Indicator. This was essentially a reference
+
+      (often in the format of a barcode) used for the payment of benefits. The first part
+
+
+
+
+                                       Page 15 of 27
+                                                                                       WITNO4110200
+                                                                                     WITN04110200
+
+
+
+
+      of which was the customer's national insurance number, followed by details of
+
+      the relevant book and benefits for payment.
+
+
+30.   Column 0 — Result: See TD/DES/013, section 3.7: Result, "[t]he result of the
+
+      OBCS transaction". The meanings of the values for this attribute are set out
+
+      below:
+
+                           Value            Meaning
+
+                          1          OK
+                          2          Impound
+                          3          Unreadable
+                          4          Invalid
+
+
+31.   Column P — Foreignlndicator: Foreign encashment related to the payment of
+
+      benefits, particularly child benefits. In this regard, each benefits claimant had a
+
+      "nominated" branch, which was the default branch where they would go to
+
+      collect their benefit payments. If a benefits claimant attended a different branch
+
+      to collect a payment, the system would go online to look up the relevant details.
+
+      This was classified as a "foreign" encashment and took slightly longer than a
+
+      payment at the claimant's nominated branch.
+
+
+      31.1 TD/DES/013 does not discuss this message attribute directly but does
+
+             discuss its usage in the Oracle database (section 4.12 and 4.13) as the
+
+             database field "not foreign". This has somewhat reversed the logic, but
+
+             my understanding would be that this attribute value in the messagestore
+
+             and any derived ARQ data would be "0" when the transaction is at the
+
+             nominated branch and "1" when it is a foreign encashment.
+
+
+      31.2   For completeness, the messagestore field this is derived from is:
+
+             EPOSSTransaction.BlackBoxData.ForeignIndicator.
+
+
+
+                                    Page 16 of 27
+                                                                                   WITNO4110200
+                                                                                 WITN04110200
+
+
+
+
+32.   In relation to the additional attributes in the event log page of the ARQ
+
+      Spreadsheet:
+
+
+      32.1 EPOSSTransaction.Ti is a high-level descriptor of the event (e.g. that a
+
+             report was printed); and
+
+
+      32.2   EPOSSTransaction.T provides further details of the event (e.g. the type
+
+             of report that was printed).
+
+
+SIMULTANEOUS LOG-INS
+
+33.   The Inquiry has asked Fujitsu to explain, both in the context of Legacy Horizon
+
+      and HNG-X, whether it is possible for a postmaster to be logged on to more
+
+      than one node (or "counter") simultaneously, using the same User ID. The
+
+      Inquiry has asked for the ARQ Spreadsheet to be used as an example in this
+
+      regard.
+
+
+34.   Although there have been various issues with concurrent logins over time
+
+      (some of which are discussed in this statement), an initial observation is that
+
+      the ARQ Spreadsheet for this particular instance does not appear to contain
+
+      evidence that a user was logged onto two counters simultaneously. Instead, the
+
+      data contained in this ARQ Spreadsheet appears to show that the user made
+
+      use of the "Session Transfer" and "Suspend Session" functions that were
+
+      available in Legacy Horizon (as explained in more detail below). In order to
+
+      determine more conclusively what happened at the branch, access to the raw
+
+      messagestore would be required.
+
+
+35.   However, in response to the Inquiry's First Request, I set out below my
+
+      understanding of simultaneous logins in both Legacy Horizon and HNG-X.
+
+
+
+                                    Page 17 of 27
+                                                                                       WITNO4110200
+                                                                                     WITN04110200
+
+
+
+
+      Legacy Horizon:
+
+
+36.   The "Session Transfer" facility allowed the current user session to be
+
+      transferred from one counter to a second counter. For example, if whilst logged
+
+      into Counter 1, the same user logs into Counter 2, the application would send
+
+      all transactional information for current active and/or suspended sessions from
+
+      Counter 1 to Counter 2 and then log the user out of the original counter (the
+
+      document entitled 'EPOSS Transaction Service - High Level Design'
+
+      (EP/DES/022) dated 27 July 2000 (FUJ00171948), may be of interest to the
+
+      Inquiry in this regard). This is the facility that appears to have been used by the
+
+      user in this ARQ Spreadsheet, as illustrated in my analysis of the transactions
+
+      in Appendix 1 to this statement.
+
+
+37.   Early in the life of Legacy Horizon (pre-rollout), a user could have a concurrent
+
+      login by performing a Session Transfer whilst the originating counter was very
+
+      busy, for example generating a large report. However, from PinICL PCO011992
+
+      raised on 12 June 1998 (FUJO0112120), I can see that the "StopDeskTransfer"
+
+      module was introduced in around January 1999 as a more robust way of
+
+      notifying the system when not to transfer a session. The StopDeskTransfer
+
+      service is described in more detail in section 2.4 of the document entitled'High
+
+      Level Design of Common Agents' (AD/DES/042) and dated 27 May 2003
+
+      (FUJ00171949). However, Peak PCO065075 raised on 18 April 2001
+
+      (FUJ00171950) indicates that providers of the Riposte software, Escher, fixed
+
+      the issues that the StopDeskTransfer module was intended to address and,
+
+      from April 2001, the module was no longer required.
+
+
+
+
+                                    Page 18 of 27
+                                                                                       WITNO4110200
+                                                                                     WITN04110200
+
+
+
+
+38.   That being said, if the counters were not communicating with one another inside
+
+      the branch (not to be confused with communication to the data centre), then
+
+      there was still the potential for a user to be logged on to two counters. This is
+
+      expressed in PinICL PCO061801 raised on 30 January 2001 (FUJ00171951)
+
+      which notes that "[h]aving looked at the problem it seems that, due to excess
+
+      network activity, the two counters were not in communication with each other
+
+      and were therefore seemingly disconnected. In this circumstance, the desktop
+
+      will time out and allow the login so that users can log in after a counter crash."
+
+
+39.   Although I do not recall being aware at the relevant time, during the course of
+
+      the Bates & Ors v POL Group Litigation (the "Group Litigation"), I became
+
+      aware of defects in the system that allowed concurrent logon. This work
+
+      identified the following two Peaks:
+
+
+      39.1 PCO027581 (raised on 9 July 1999, FUJ00075563): This Peak showed
+
+             that a user could logon to two counters simultaneously, but this was not
+
+             regarded as a defect by Esher. In fact, it had been discussed before in
+
+             PinICL PCO013495 (FUJ00109810), where it was viewed as a breach of
+
+             the Access Control Policy, as to log into more than one counter
+
+             simultaneously would require the user to share their logon details.
+
+
+      39.2   PC0051327 (raised on 28 July 2000, FUJ00072297): A session transfer
+
+             occurred whilst the user was rolling the stock unit. The transfer failed but
+
+             the user was still logged on to the second counter. This was during the
+
+             introduction of the StopDeskTransfer and the EPOSS code was not yet
+
+             using the newer functionality. This was fixed when the next version of
+
+             EPOSS was released that used the StopDeskTransfer functionality.
+
+
+
+                                    Page 19 of 27
+                                                                                     WI TN04110200
+                                                                                   WITNO4110200
+
+
+
+
+      HNG-X:
+
+40.   Initially, concurrent log ins were not possible in HNG-X. The user would get a
+
+      warning about a concurrent logon noting that, if they continued the original
+
+      session, they would be disconnected. However, that changed with the
+
+      introduction of EUM, part of "Enhanced User Management".
+
+
+41.   Now, following the introduction of EUM, there is one internal Post Office ID
+
+      ("POID") for each user across the entire estate. Each user is then able to have
+
+      multiple Horizon User IDs ("HUID"). These HUIDs allow the user to work on
+
+      multiple counters in the same branch at any one time. That being said, ifa user
+
+      does log into a second counter, the first counterwould have to be locked whilst
+
+      the session on the second counter is taking place. The user can then return to
+
+      the first counter to complete their original session.
+
+
+42.   I refer in this regard to the document entitled 'HNG-X Counter Application High
+
+      Level Design' (DES/APP/HLD/0047) and dated 8 June 2023 (FUJ00171952),
+
+      which states at 7.15 (Lock Counter), '[a]s part of changes for CP2144 (EUM
+
+      Concurrent    Login),   the    existing   `Lock'   button   is   separated   from
+
+      Suspend/Resume button and included as new Button (shortcut — T3) on the
+
+      right hand command bar. CP2144 provides the ability to logon to multiple
+
+      Counters with a single POID and one or more HUIDs. The major restriction on
+
+      this concurrent logon ability is that only one Counter may be active at any one
+
+      point in time while the other Counters must be locked..."
+
+
+
+
+                                    Page 20 of 27
+                                                                                   WI TN04110200
+                                                                                 WITNO4110200
+
+
+
+
+TIMESTAMPS IN THE AUDIT DATA
+
+43.   The Inquiry has asked Fujitsu to explain, both in the context of Legacy Horizon
+
+      and HNG-X, how timestamps are recorded and synchronised. These are
+
+      addressed in turn below:
+
+
+      Legacy Horizon:
+
+44.   The timestamps recorded in Legacy Horizon were from the local counter time.
+
+      However, there was a time service ("NTP") running at the correspondence
+
+      layer, and the counters would synchronise their local time to these servers via
+
+      the Riposte Service. A Windows event would be generated when this
+
+      happened. I exhibit Peaks PC0070702 (raised on 15 October 2001,
+
+      FUJ00171953) and PC0074043 (raised on 20 February 2002, FUJ00171954)
+
+      to this statement in this regard.
+
+
+45.   From PC0053384 raised on 1 September 2000 (FUJ00075159), it appears that
+
+      the initial rollout of Legacy Horizon allowed a maximum of one second drift
+
+      before a Windows event was generated, which was increased to five seconds
+
+      due to an issue with ISDN delay. This Peak also mentions that this change
+
+      would be captured in version 0.5 of the document entitled `Riposte 6 Message
+
+      Server Configuration for Counters' (TD/SPE/010) which is dated 8 August 2000
+
+      (FUJ00171955). I do not believe there to have been any real practical impact
+
+      from this change. It just meant that there were no continuous time corrections
+
+      happening anymore.
+
+
+      HNG-X:
+
+46.   There are multiple date / time elements in the transaction tables in the Branch
+
+      Database, some of these elements are completed by the counter, some are
+
+
+
+                                    Page 21 of 27
+                                                                                     WITNO4110200
+                                                                                   WITN04110200
+
+
+
+
+      completed by the BAL and others are completed by the Branch Database. I
+
+      defer to the subject matter experts in this regard, most likely to be Architects
+
+      with specialist knowledge.
+
+
+47.   In relation to this aspect of the Inquiry's First Request, I note that Fujitsu no
+
+      longer controls the counter hardware or operation including the NTP service,
+
+      which are now managed by DXC.
+
+
+OFFLINE TRANSACTIONS
+
+48_   The Inquiry has asked, both in the context of Legacy Horizon and HNG-X, what
+
+      the expected reporting would be in the "log files" when transactions have taken
+
+      place offline (i.e., when the counter is not connected to the datacentre). For
+
+      Legacy Horizon, I have interpreted the term "log files" to mean the Riposte
+
+      messagestore discussed above. Although network connectivity issues do not
+
+      generally fall within the remit of the SSC, I set out below my understanding of
+
+      the position based on knowledge I have gained during my time on the Post
+
+      Office Account at Fujitsu.
+
+
+      Legacy Horizon:
+
+49.   Legacy Horizon was designed to function predominantly offline. Transactions
+
+      conducted offline in Legacy Horizon would therefore appear exactly the same
+
+      as those conducted online. Any transactions that had online requirements
+
+      would fail if a user attempted to conduct them offline.
+
+
+50.   In terms of the user's view when conducting transactions offline, I understand
+
+      that, after the introduction of Network Banking, a banner appeared on the
+
+      bottom of the screen when a counter was offline and any buttons to online-
+
+      related services were disabled.
+
+
+                                   Page 22 of 27
+                                                                                     WITNO4110200
+                                                                                  WITNO4110200
+
+
+
+
+51.   In relation to network connectivity issues, the Counter Network Infrastructure
+
+      Manager ("CNIM") would send frequent pings from the gateway counter to the
+
+      datacentre_ See the document entitled `CNIM Low Level Design' (RS/LLD/004)
+
+      and dated 8 May 2006 (FUJ00171956). CNIM would manage fail-over between
+
+      the different network methods available to the branch and also record quality of
+
+      service logs that were then sent from CNIM to the Tivoli SYSMAN ddabase so
+
+      that the Tivoli team could see which branches had poor connection.
+
+
+52.   A network management suite also pinged the branches from the datacentre
+
+      frequently so that it was quickly apparent if a large number of branches were
+
+      offline / disconnected from the network. As noted above, network issues did not
+
+      generally fall within the remit of the SSC, but the SSC could retrieve quality of
+
+      service logs if necessary for our diagnostic activities.
+
+
+      HNG-X:
+
+53.   HNG-X does not function offline. If the counter were to disconnect, it would
+
+      probably do a forced logout which would abandon anything in the basket which
+
+      was not recoverable and print a disconnection report.
+
+
+54.   If a transaction is attempted offline in HNG-X, there would be a record in the
+
+      application logs on the counter. There would also be Windows events for any
+
+      network issues.
+
+
+INTERPRETING THE ARQ SPREADSHEET
+
+55.   The timeline in the ARQ Spreadsheet may appear confusing and out of order
+
+      because, as user LCA001 transfers between counter positions (IDs) 1 and 2,
+
+      they also suspend a Session before settling it. If the Riposte "Num" attribute
+
+      was provided in the ARQ Spreadsheet, that would provide further detail in
+
+
+                                    Page 23 of 27
+  WITNO4110200
+WITNO4110200
+                                                                                                                               WITNO4110200
+                                                                                                                            WITNO4110200
+
+
+
+
+                                                      APPENDIX 1
+
+     Time                     SessionlD                                            Explanation
+
+User LCA001 counter positions 1 and 2)
+14:20:12 to    Sessionld 44-213337-1-899846-1        These transactions are entered on counter position 1 and settled on
+14:20:20                                             counter position 1
+
+14:21:12 to       Sessionld 44-213337-t99855-1       These transactions are entered on counter position 1 but not settled
+14:22:14
+
+<Session 44-213337-1-899855-1 is Suspended to allow other sessions to be entered>
+14:22:34 to     Sessionld 44-213337-1-899857-2      These transactions are entered on counter position 1 and settled on
+14:23:34                                           counter position 1
+
+14:23:46 to       Sessionld 44-213337-1-899866-1     These transactions are entered on counter position 1 and settled on
+14:24:43                                             counter position 1
+
+<Session Transfer to counter position 2 including the suspended Session 44-213337-1-899855-1>
+This can be seen by the Logon event at 14:24:56
+14:26:11 to       Sessionld 44-213337-2-1183921-1 These transactions are entered on counter position 2 and settled on
+14:27:35                                                counter position 2
+
+<Suspended Session 44-213337-1-899855-1 is un-sus ended>
+14:28:17       Sessionld 44-21337- 1-899855.1     Is settled to cash on counter 2, note that this settlement has a node 2
+                                                  Txnld.
+                                                  All the other transactions in this session have node 1 txnid's as that is
+                                                  where they were entered, the settlement to cash has a node 2 txnid as that
+                                                  is where it was entered.
+
+User CTR002 (counter position 1)
+This can be seen by the logon event at 14:25:15
+
+
+
+                                                      Page 25 of 27
+                                                                                                                        WITNO4110200
+                                                                                                                  WITNO4110200
+
+
+
+
+     Time                  SessionlD                                         Explanation
+
+14:25:20 to     Sessionld 44-213337-1-899898-1    These transactions are entered on counter position 1 and settled on
+14:25:35                                          counter position 1
+
+14:25:52 to     Sessionld 44-213337-1-899901-1    These transactions are entered on counter position 1 and settled on
+14:27:05                                          counter position 1
+
+14:27:15 to     Sessionld 44-213337-1-899910-1    These transactions are entered on counter position 1 and settled on
+14:28:16                                          counter position 1
+
+14:28:22 to     Sessionld 44-213337-1-899918-1    These transactions are entered on counter position 1 and settled on
+14:29:03                                          counter position 1
+
+14:31:26 to     Sessionld 44-213337-1-899920-1    These transactions are entered on counter position 1 and settled on
+14:34:20                                          counter position 1
+
+User CTR001 (counter position 2)
+14:29:40 to     Sessionld 44-213337-2-1183969-1   These transactions are entered on counter position 2 and settled on
+14:29:50                                          counter position 2
+
+14:32:54 to     Sessionld 44-213337-2-1183976-1   These transactions are entered on counter position 2 and settled on
+14:33:06                                          counter position 2
+
+
+
+
+                                                   Page 26 of 27
+                                                                          WITNO4110200
+                                                                      WITNO4110200
+
+
+
+
+ INDEX TO SECOND WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
+
+Exhibit   Description               Control Number      URN
+No.
+   1.     ARQ Spreadsheet of
+                                      VIS00011623,      LCAS0001383,
+          Marine Drive transactions
+                                      pages 17 and 18   pages 17 and 18
+          and events from
+                                      only              only
+          2 February 2004
+   2.     "TPS Object Model" dated
+          19 August 1999              POINQ0178128F     FUJO0171947
+           TD/DES/013 _
+   3.     EPOSS Transaction
+          Service - High Level        POINQ0178129F     FUJO0171948
+          Design' (EP/DES/022)
+   4.     PinICL PCO011992            POINQ0118291F     FUJO0112120
+   5.     High Level Design of
+          Common Agents               POINQ017813OF     FUJO0171949
+          (AD/DES/042)
+   6.     P00065075                   P01N00178131F     FUJO0171950
+   7.     P00061801                   POINQ0178132F     FUJO0171951
+   8.     PCO027581                   POINQ0085155F     FUJ00075563
+   9.     PinICL PCO013495            POINQ0115981F     FUJO0109810
+   10.    PCO051327                   POINQ0081116F     FUJ00072297
+   11.    HNG-X Counter
+          Application High Level
+                                      POINQ0178133F     FUJO0171952
+          Design'
+          (DES/APP/HLD/0047)
+   12.    P00070702                   POINQ0178134F     FUJO0171953
+   13.    P00074043                   POINQ0178135F     FUJO0171954
+   14.    P00053384                   POINQ0084744F     FUJ00075159
+   15.    Riposte 6 Message Server
+          Configuration for Counters' POINQ0178136F     FUJO0171955
+          (TD/SPE/010)
+   16.    CNIM Low Level Design
+                                      POINQ0178137F     FUJO0171956
+          (RS/LLD/004)
+
+
+
+
+                              Page 27 of 27
+

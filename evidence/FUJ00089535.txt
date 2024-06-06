@@ -1,0 +1,1522 @@
+                                                                                                          FUJ00089535
+                                                                                                        FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                              46
+                                                                                             ~
+                                                                                                 FFICE
+
+
+
+
+ Document Title:                       Remote Support Secure Access Server High Level Design
+
+
+ Document Type:                        High Level Design (HLD)
+
+
+ Document Reference:                   DES/SYM/HLD/0017
+
+
+ Release:
+
+ Abstract:                             This document describes the High Level Design for the Remote Support
+                                       Secure Access Server.
+
+ Document Status:                      APPROVED
+
+
+ Author & Dept:                        John Bradley
+
+
+ Internal Distribution:
+
+ External Distribution:
+
+
+
+
+Approval Authorities:
+
+
+
+ Gareth Jenkins               I HDCR Solution Owner
+Note: See Post Office Account HNG-X Reviewers/Approvers Role Matrix (PGM/DCM/ION/0009) for
+guidance.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007      COMMERCIAL IN CONFIDENCE        Ref:       DESISYM/HLD/0017
+                                                                          Version:   V3.0
+                                                                          Date:      2411012016
+UNCONTROLLED IF PRINTED                                                   Page No:   1 of 30
+                                                                                                                                                     FUJ00089535
+                                                                                                                                                 FUJ00089535
+
+
+
+  po                        Remote Support Secure Access Server High Level Design                                                     C)FFIcE<::::
+FUJITSU                                         COMMERCIAL IN CONFIDENCE
+
+
+
+
+                                                          4 11
+
+
+
+
+0.1      Table of Contents.........................................................................................................................2
+0.2      Document History.........................................................................................................................4
+0.4      Associated Documents (Internal & External).............................................................................. 5
+0.5      Abbreviations............................................................................................................................... 6
+0.6      Glossary........................................................................................................................................7
+0.7      Changes Expected....................................................................................................................... 7
+0.8      Accuracy....................................................................................................................................... 7
+0.9      Copyright...................................................................................................................................... 7
+
+1.       INT          RUC I N....................................................................................................8
+1.1      Scope............................................................................................................................................ 8
+1.2      Context within the Architecture...................................................................................................8
+
+          DESGN
+           DES  ER NC                    LE ..........................................................................................10
+
+3         R       UQRE=          NT .................................................................................................11
+
+
+
+4.1    Secure Access Server Overview................................................................................................ 12
+  4.1.1   Access...................................................................................................................................12
+  4.1.2   Audit......................... .............................................................................................................13
+  4.1.3   Support and diagnostic tools................................................................................................. . 13
+4.2    Remote Desktop Services.......................................................................................................... 13
+4.3    Administration Tools..................................................................................................................14
+  4.3.1   Cygwin.. ............... .................................................................. ............................. . ................. 14
+  4.3.2   OpenSSH Client.................................................................................................................... 14
+  4.3.3   Secure File Transfer.............................................................................................................. 14
+  4.3.4   Web Clients...........................................................................................................................15
+  4.3.5   Microsoft SQL Server 2014 Management Studio (SP1) . ..... . ...................................................15
+  4.3.6   Oracle 11g Client.................................................. .................................................................15
+  4.3.7   JRE7 and JDK7 ..................................................................................................................... 15
+  4.3.8   BigFix Console...................................................................................................................... 15
+  4.3.9   XWindow client......................................................................................................................15
+  4.3.10 7-Zip.... ...... ............................................................................................................................16
+  4.3.11 Notepad++ .......... ........................................................... ........................................................16
+  4.3.12 Microsoft Office 2013 .............................................................................................................16
+
+
+
+5.1    Hardware.....................................................................................................................................17
+5.2    Software......................................................................................................................................17
+  5.2.1    OS............. . ...........................................................................................................................17
+  5.2.2    Applications........................................................................................................................... 17
+5.3    Disk Configuration..................................................................................................................... 18
+CCopyright Fujitsu Services Ltd 2007                 COMMERCIAL IN CONFIDENCE                           Ref:            DES/SYM/HLD/0017
+                                                                                                        Version:        V3.0
+                                                                                                        Date:           2411012016
+UNCONTROLLED IF PRINTED                                                                                 Page No:        2 of 30
+                                                                                                                                                  FUJ00089535
+                                                                                                                                              FUJ00089535
+
+
+
+                           Remote Support Secure Access Server High Level Design
+FUJITSU
+      p~^('Ci i
+                                                COMMERCIAL IN CONFIDENCE
+                                                                                                                                    zw?Ft~iCE
+
+
+
+
+5.4      Backups......................................................................................................................................19
+
+
+
+
+8        SYSTEM QUALITIES........................................................................................... 23
+8.1 Security....................................................................................................................................... 23
+  8.1.1    Role based access and Controlled Tasks............................................................................... 23
+  8.1.2    Encrypted Communication..................................................................................................... 23
+  8.1.3    Strong Authentication .............................................................................................................23
+  8.1.4    Windows Operating System............................................................................................. ......23
+8.2    Availability.................................................................................................................................. 23
+8.3    Performance............................................................................................................................... 24
+8.4    Usability...................................................................................................................................... 24
+8.5    Potential for Change.................................................................................................................. 24
+
+9        I PLE                T TI          ............ .................................................................................25
+9.1      Installation Sequence.................................................................................................................25
+
+
+
+
+13       REQUIREMENTS TR G ABILI Y...................................................................... 9
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007                 COMMERCIAL IN CONFIDENCE                         Ref:           DES/SYM/HLD/0017
+                                                                                                      Version:       V3.0
+                                                                                                      Date:          2411012016
+UNCONTROLLED IF PRINTED                                                                               Page No:       3 of 30
+                                                                                                                         FUJ00089535
+                                                                                                                     FUJ00089535
+
+
+
+  po                    Remote Support Secure Access Server High Level Design
+
+FUJITSU                                  COMMERCIAL IN CONFIDENCE
+                                                                                                                 FF(CE
+
+
+
+
+                                                                                                             c
+                                                                            .   .                            ed
+
+
+ 0.1                04/04/2007         Draft
+ 0.2                18/04/2007         Reviewed
+ 0.3                04/05/2007         Draft updated with review comments
+
+ 0.4                25/05/2007         Draft updated with review comments
+ 1.0                06/08/2007         Document for Approval at V1.1
+                    19/12/2007         Document changed
+ 1.1                7/1/2008           Document
+ 2.0                22/04/08           FTP design for SSC is added. FTP Design changed due to
+                                       changes in NW
+ 2.1                10/0612009         Added POL-SAP requirements
+ 2.2                13/01/2016         Introduction of SSNV2 for HDCR                               CP1560
+ 2.3                20/01/2016         Added detail for Windows 2012 RDS
+ 2.4                22/0212016         Included detail for iKey SSNV2 exception access and User
+                                       Profile Disk share location
+ 2.5                1/4/2016           Review Comments
+ 3.0                24/10/2016         Approval version
+
+
+                view Detaiis
+(* ) = Reviewers that returned comments
+            •          •           16-03-2016
+                                   John Bradley & PostOfficeAccountDocumentManagementr                GRO
+
+ Role                                                            Name
+ POA Chief Architect                                              Torstein Godeseth
+
+ POA Dev Architecture                                             Andrew Thomas(*)
+
+ POA Business Requirements and Architecture                       Stephen Evans(*)
+
+ POA Development Management                                       Keith Tarran
+
+ POA Security Architecture                                        Dave Haywood
+
+ Solution Owner                                                   Gareth Jenkins
+
+ HNS Networks Architect                                           Steve Freke
+
+ POA Test                                                         Mark Ascott
+
+ POA SSC                                                          Steve Parker/Phil Breakspear(*)
+
+ POA SSC                                                          Mark Wright (SSCv2 Platform Owner)
+
+ POA HNS Senior Operations Manager                                Alex Kemp(*)
+
+©Copyright Fujitsu Services Ltd 2007           COMMERCIAL IN CONFIDENCE               Ref:        DES/SYM/HLD/0017
+                                                                                      Version:    V3.0
+                                                                                      Date:       24/10/2016
+UNCONTROLLED IF PRINTED                                                               Page No:    4 of 30
+                                                                                                          FUJ00089535
+                                                                                                       FUJ00089535
+
+
+
+
+        pO              Remote Support Secure Access Server High Level Design
+
+FUJITSU                                COMMERCIAL IN CONFIDENCE
+
+
+
+
+ Unix and Storage Team                                  Andrew Gibson(*)
+ Unix and Storage Team                                  Ed Ashford
+ Windows NT                                             Ryan Hawks
+
+
+                                                        Name
+ Role
+
+
+
+
+ POA Business Requirements and Architecture             Sarah Selwyn
+ POA Business Requirements and Architecture             Jon Hulme
+ POA Business Requirements and Architecture             Chris Bailey
+ POA Business Requirements and Architecture             Clare Keane
+ POA Development Management                             Steve Goddard
+ POA Design and Development                             Keith Hunt
+ POA Integration                                        Vijesh Pandya
+ POA Quality & Compliance Manager                       Bill Membery
+ POA Test                                               Pete Dreweatt/Michael Welch(*)
+ POA Programme Manager                                  Brian McCann
+ POA Project Management                                 Geof Slocombe
+ POA Design and Development                             Stuart Honey
+ POA Service Introduction Manager; BAS Lead SDM &       Yannis Symvoulidis
+ Risk Manager
+ POA Release Management                                 Alan Flack
+
+
+
+ Position/Role                                          Name
+ POA Development Management                             lain Janssens
+ POA Sec Ops                                            Stephen Godfrey
+ POA BAS Senior Service Delivery Manager                Steve Bansal
+
+
+
+
+( * ) - Reviewers that returned comments
+                                   ♦
+
+
+
+
+                                                                                                  •
+
+
+
+
+ PGM/DCM/TEM/0001            1.0       13/06/06     Fujitsu Services Post Office Account HNG-X   Dimensions
+                                                    Document Template
+ (DO NOT REMOVE)
+ ARC/SYM/ARC/0004                                   Remote Support and Diagnostics Topic         Dimensions
+                                                    Architecture
+ DES/PPS/HLD2743                                   Windows Server 2012 High Level Design for Dimensions
+                                                   HNG-X
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE       Ref:       DES/SYM!HLD/0017
+                                                                        Version:   V3.0
+                                                                        Date:      2411012016
+UNCONTROLLED IF PRINTED                                                 Page No:   5 of 30
+                                                                                                                     FUJ00089535
+                                                                                                                 FUJ00089535
+
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSUp~^('Ci i
+                                        COMMERCIAL IN CONFIDENCE
+                                                                                                        L ~?Ft~iCE
+
+
+
+
+ DES/PPS/HLD/0003                                          HNG-X Active Directory High Level Design      Dimensions
+ ARC/PPS/ARC/0001                                          HNG-X Platforms and Storage Architecture      Dimensions
+ DESISECJHLD/0001                                          HNG-X Strong Authentication High Level        Dimensions
+                                                           Design
+ DES/SEC/HLD/0003                                          HNG-X KEY MANAGEMENT HIGH                     Dimensions
+                                                           LEVEL DESIGN
+ DES/PPSIPPD/0005                                          Platform Physical Design     For    Secure    Dimensions
+                                                           Access Server - INF2
+ SY/SOD/009                                                Secure Support System Outline Design          PVCS
+ TST/SYT/HTP/0005                                          HNG-X System Test (Infrastructure)            Dimensions
+                                                           High Level Test Plan
+
+ DES/SYM/HLD/0019                                          Third Party Support Access High Level         Dimensions
+                                                           Design
+
+ DES/SYM/PPD/2977                                          SSNv2 Platform Physical Design                Dimensions
+
+     Unless a specific version is referred to above, reference should be made to the current
+                              approved versions of the documents.
+
+
+
+
+ •..
+ AD                               Active Directory
+ API                              Application Programming Interface
+ COTS                             Commercial Off the Shelf
+ DMZ                              Demilitarized zone
+ DNS                              Domain Name System
+ DR                               Disaster Recovery
+                                  Microsoft Management Console — framework for administration tools in Windows
+ MMC                              2003
+ NIC                              Network Interface Card
+ OOH                              Out of Hours
+ RDCB                             Remote Desktop Connection Broker
+ RDP                              Remote Desktop Protocol
+ RDS                              Remote Desktop Services
+ RDSH                             Remote Desktop Session Host
+ SAS                              Secure Access Server
+ SSNV2                            Platform name of Secure Access Server for HNG-X
+ SFTP                             Secure File Transfer Protocol
+ SMG                              Systems Management Group
+ SSC                              System Support Centre. 3rd Line support
+
+©Copyright Fujitsu Services Ltd 2007        COMMERCIAL IN CONFIDENCE             Ref:         DES/SYM/HLD/0017
+                                                                                 Version:     V3.0
+                                                                                 Date:        2411012016
+UNCONTROLLED IF PRINTED                                                          Page No:     6 of 30
+                                                                                                                        FUJ00089535
+                                                                                                                      FUJ00089535
+
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                         COMMERCIAL IN CONFIDENCE                                          46
+                                                                                                           ~
+                                                                                                               FFICE
+
+
+
+ SSH                              Secure Shell
+ RDP CAL                          Remote Desktop Client Access Licence
+ TEM                              Tivoli Endpoint Manager
+
+
+
+
+                                 II? ThTh .li
+ OpenSSH                          Open Secure Shell — A software suite providing encrypted communication session
+                                  over a network using the ssh protocol.
+ Cygwin                           Free software tools developed by Cygnus Solutions to allow Microsoft Windows OS
+                                  to act like a Unix system.
+ OpenBSD                          Free Unix-like operating system developed by the OpenBSD project
+ Sudosh                           A filter that can be used as a login shell to provide logging.
+
+
+
+
+ This HLD will be updated for HDCR release 16 and 17
+
+
+
+
+Fujitsu Services endeavours to ensure that the information contained in this document is correct but, whilst
+every effort is made to ensure the accuracy of such information, it accepts no liability for any loss (however
+caused) sustained as a result of any error or omission in the same.
+
+
+
+
+© Copyright Fujitsu Services Limited (xxxx). All rights reserved. No part of this document may be reproduced,
+stored or transmitted in any form without the prior written permission of Fujitsu Services.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007            COMMERCIAL IN CONFIDENCE            Ref:           DES/SYM/HLD/0017
+                                                                                    Version:       V3.0
+                                                                                    Date:          2411012016
+UNCONTROLLED IF PRINTED                                                             Page No:       7 of 30
+                                                                                                      FUJ00089535
+                                                                                                    FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSUp~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE
+
+
+
+
+  .1 Scope
+This High Level Design sets out the design for the Secure Access Servers described in the Remote
+Support and Diagnostics architecture (ARC/SYSIARC/0004).        This will provide remote support
+access to IRE1I and IRE19 for the following user communities:
+   •    SSC
+   •    SMG
+   •    ISD (Unix, NT and Network support)
+   •    Test
+
+The design will cover the connection method from workstations to the SAS (SSNv2), the applications
+and clients installed on the SAS (SSNv2) and the secure method used to connect to supported
+platforms.
+
+The support workstations and laptops used to connect to the SAS (SSNv2) are out of scope for this
+design.
+
+Third Party support access is not covered in this HLD.        See DES/SYM/HLD/0019 - Third Party
+Support Access High Level Design.
+
+
+
+
+This design is contained within the Remote Support and Diagnostics Architecture. The context of the
+SAS (SSNv2) is described in ARC/SYS/ARC/0004. The diagram below shows where the SSNv2 fits
+into the overall support architecture. The SSNV2v1 will be retained to support legacy HNGIx
+platforms.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE     Ref:       DESISYM/HLD/0017
+                                                                      Version:   V3.0
+                                                                      Date:      2411012016
+UNCONTROLLED IF PRINTED                                               Page No:   8 of 30
+                                                                                                                                                                       FUJ00089535
+                                                                                                                                                                     FUJ00089535
+
+
+
+                                Remote Support Secure Access Server High Level Design
+
+FUJITSU                                           COMMERCIAL IN CONFIDENCE
+
+
+
+
+                                                   IND49
+                                                Support LAN
+
+                                                                     IND49
+
+
+
+
+                                                           Horizon
+                                                             FW
+                                                                             I                                        BRA01   I
+                                                                                                                                        ti
+                                                                                                                                        ti
+
+                                                                                                                                                     S
+                                                                                                                                                         g
+
+                                                                                 ~
+                                                                                                                                                         0
+
+
+                                                                       FCN                                             x           FW
+C)                          STEC4
+o             y                            i                                          x
+                                                                                                         )
+     m    G                            _
+
+
+                  Horizon                         ---__.—       ✓
+                    FW                                        /..                              _
+
+
+
+
+                                     IRE11                                                 _                 IRE19
+
+
+
+
+                                                  `wpgsHO                                 HO SC,ozN
+
+
+
+
+                                                                                                      Ann S
+                                                                    upport Acess0
+                                                FW     ;                                                FW
+                                                                                                                                         RED LAN IPEED Tunnel
+                                                                                                                                        -A— — — — — ►
+                                                      Trurxit                        Trn rr,::   \
+                                                                                                                                              Transit ULAN
+                                                      VLAN                            v.N!J "~'~'"""'           "'~
+     RMGA — Corporal
+        NAT Point                           J
+                                    IRE11 Corporate                          IRE19 Corporate
+                                         LAN                                      LAN
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007                       COMMERCIAL IN CONFIDENCE                                               Ref:            DESISYM/HLD/0017
+                                                                                                                                  Version:        V3.0
+                                                                                                                                  Date:           2411012016
+UNCONTROLLED IF PRINTED                                                                                                           Page No:        9 of 30
+                                                                                                      FUJ00089535
+                                                                                                    FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                          ~46 FFICE
+
+
+
+
+2        Design Pr'
+Listed below are the guiding design principles for Remote Systems and Diagnostics SAS design.
+    • The use of COTS applications where possible with minimal bespoke development
+    • Role based authentication through the Identity Management System incorporating 2 factor
+      authentication
+    • The SSNv2 will provide the only supported mechanism (except for agreed emergency
+      situations) for support staff to access the application server and counter infrastructure.
+    • The design needs to take account of the contractual Audit, Security and Risk procedures.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE     Ref:       DES/SYM/HLD/0017
+                                                                      Version:   V3.0
+                                                                      Date:      2411012016
+UNCONTROLLED IF PRINTED                                               Page No:   10 of 30
+                                                                                                     FUJ00089535
+                                                                                                   FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE
+
+
+
+
+The high level requirements for the Secure Access Servers are to provide support teams with:
+ • Controlled and audited access to the operational platforms
+ • Multiple sessions for support users
+ • OpenSSH access from the SSNV2 to the managed operational platforms.
+ • Secure web based access to campus servers. All access to SSNv2 server will be on HTTPS
+   (443) port. From SSNv2 onward to campus servers can be either on HTTPS or HTTP.
+ • Access to the System Management.
+
+
+ These requirements are from the Remote Support and Diagnostics topic architecture -
+ ARC/SYS/ARC0004.
+
+
+ The aim of the Remote Support Secure Access Server HLD is to meet the requirements listed in
+ Table I - SAS (SSNV2) System Requirements, in the Requirements Traceability Section of this
+ document.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE    Ref:       DES/SYM/HLD/0017
+                                                                     Version:   V3.0
+                                                                     Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                              Page No:   11 of 30
+                                                                                                           FUJ00089535
+                                                                                                         FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     pi~^('Ci i
+         SU                                 COMMERCIAL IN CONFIDENCE
+
+
+
+
+4.1 Secure Access Server Overview
+
+The SSNv2 is based on the Microsoft Windows 2012 platform as described in DES/PPS/HLD2743 -
+Windows Server 2012 High Level Design for HNG-X. They will be used in scale out configuration as
+shown in diagram below.
+
+
+
+
+                                       SAS Server 1
+                                        Connection
+                                          Broker
+
+
+
+
+                    ILL Session Hosts
+
+
+In this design the users are grouped and connect into the first SSNv2 which acts as a Connection
+Broker. The broker acts as a software load balancer, and assigns both a User Profile Drive and a
+Session Host for the user to connect to.
+
+
+
+
+The SAS (SSNv2) servers will be placed into a Remote Desktop Services deployment collection, and
+users will connect to the primary SAS (SSNv2) using the RDP client over SSL. The RDS deployment
+will enable multiple users to be connected to any of the SAS (SSNv2) collection. Users will be
+authenticated using Active Directory and the strong authentication method described in
+DES/PPS/HLD/0003 - HNG-X Active Directory High Level Design and DES/SEC/HLD/0001 - HNG-X
+Strong Authentication High Level Design, respectively. Appropriate support roles will be configured
+using AD groups and policies (ref. DES/SEC/HLD/0001, DESSECHLD0004.DOC).
+The two factor authentication system is provided by Safenet iKey software and USB dongle. The
+USB dongle will either be the iKey 4000 or the eTokens 5110 (TBC after compatibility testing)
+
+
+System Requirement - T-RSD-3 (role based access)
+System Requirement - T-RSD-9 (2 factor authentication should be used)
+
+©Copyright Fujitsu Services Ltd 2007            COMMERCIAL IN CONFIDENCE   Ref:       DES/SYM/HLD/0017
+                                                                           Version:   V3.0
+                                                                           Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                    Page No:   12 of 30
+                                                                                                           FUJ00089535
+                                                                                                       FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE
+
+
+
+
+A Secure Shell (ssh) client will be installed on the SAS (SSNV2) and ssh server will be installed on
+the operational platforms. This will provide a secure shell for support access.
+Support workstations will access the SAS (SSNv2) collection over the Fujitsu Corporate Network
+using RDP.
+A single SSNv2 server will be allocated as an 'exception' server, which will permit access to users
+who are unable to connect using their iKey. This server will be placed into its own collection inside of
+the Remote Desktop Services deployment, and will only permit access from users placed into the
+exception group in Active Directory, which is currently ikey-exemptou-users. Users attempting to
+access the exception SSNv2 will need to do so using its direct IF address, to ensure the connection
+broker does not attempt to push them onto an ikey-enabled SSNv2.
+For the production environment, the SSNv2 Exception Server will be LPRPSSNV2203
+
+
+4.1.2          Au it
+Although no active command logging or keystroke logging is done, we are keeping the record of
+people logged on to SAS (SSNV2) server through double authentication and OS security policies for
+state servers. Security policy is implemented to raise alert when any file is copied or deleted to SAS
+(SSNV2) server. Also no user account is allowed to install any software on SAS (SSNv2). FTP folder
+will be maintained manually by SSC team.
+All components of the SAS (SSNv2) should comply with the manageability requirements.
+System Requirement - T-RSD-29, T-RSD-30, T-RSD-34 (Applications should provide diagnostic or
+log files — see manageability compliance guidelines.
+
+
+
+
+From the SAS (SSNv2) support users will be able to run the following support tools:
+•    Tivoli tasks
+•    Cygwin tools
+•    Installed software clients
+•    Web based clients
+•    Windows 2012 support tools
+•    RDP
+
+
+
+
+Remote Desktop Services (RDS) is the modern version of Microsoft Terminal Services, and there are
+a few differences to the way RDS is configured.
+An RDS system is known as a deployment, in this case a session-based desktop deployment will be
+used.
+An RDS Deployment utilises the following server roles.
+    •    Remote Desktop Connection Broker (RDCB). The connection broker role will be installed on
+         the first SAS (SSNv2) and acts as the main connection point for clients. It then routes clients
+         through to an available Session Host server (described below) and thus acts as a software
+         load balancer.
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE        Ref:       DES/SYM/HLD/0017
+                                                                         Version:   V3.0
+                                                                         Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                  Page No:   13 of 30
+                                                                                                           FUJ00089535
+                                                                                                       FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                            COMMERCIAL IN CONFIDENCE
+
+
+
+
+         Remote Desktop Session Host (RDSH). The Remote Desktop Session Host role is the
+         component that allows multiple users to log onto a server simultaneously (Windows Server
+         nominally only otherwise allows two connections at most) and use applications on that server.
+         The RDSH role will be installed on all the SAS (SSNV2's).
+         Remote Desktop Licensing: This role is applied to a server in the deployment to provide
+         licensing services. Each client accessing RDS requires a license. Per Device' licensing will
+         be used.
+    •    Remote Desktop Web Access: This role is installed as part of a deployment, but will not be
+         utilised for the SAS (SSNV2) configuration.
+Once the deployment is configured, a 'collection' is created under which the RDSH servers are
+assigned. A collection can provide access to RemoteApp software, but this will functionality will not
+be used, and instead the collection will purely be used to assign available RDSH servers for client
+connectivity and apply required configuration, for example User Profile Drives.
+
+
+                             •
+Remote Desktop Services in Windows 2012 gives the ability to use VHD virtual hard disk files as
+User Profile disks. These are accessible using UNC access to a Windows 2012 hosted file share.
+When a user logs into the SSNv2, a template VHD file is copied to a new file which matches the
+user's SID. This is then mapped transparently to the user, with the contents of their profile directory
+appearing as normal in Explorer, but being fully contained with the VHD file.
+This enables full roaming profiles for a user, so no matter which SSNv2 they log in to, their profile is
+always accessible and kept in a central location. This also permits a more straightforward way of
+backing up user profiles, as only a single VHD file for each user will need to be backed up.
+One disadvantage of using UPDs is that two RDS collections cannot use the same location for user
+profile files, so anyone connecting into the SSNv2 ikey Exception Server will not be able to access
+their normal roaming profile.
+The user profile disks will be stored in a network share hosted by the SSCv2 server, Iprpssc201.
+For regular users, the share name will be NAS_SSNv2_USERS$, and for exception users, the share
+name will be NAS SSNv2 IKEYEXCEPTIONS$
+
+
+
+
+EN]WIN 111'                            •1     ••r
+
+
+                    •
+
+Cygwin is installed as part of the standard Windows 2012 Member Server build.
+
+This is detailed in the HLD for Windows 2012 DES/PPS/HLD/2743
+
+
+
+
+Open Secure Shell (OpenSSH) is a free implementation of the SSH connectivity tools, developed by
+the OpenBSD project.
+OpenSSH encrypts all traffic (including passwords) to eliminate security vulnerabilities and provides
+
+©Copyright Fujitsu Services Ltd 2007          COMMERCIAL IN CONFIDENCE   Ref:       DES/SYM/HLD/0017
+                                                                         Version:   V3.0
+                                                                         Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                  Page No:   14 of 30
+                                                                                                              FUJ00089535
+                                                                                                         FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     p~^('Ci i
+                                        COMMERCIAL IN CONFIDENCE
+
+
+
+
+To establish an SSH session an SSH client is required on the SAS (SSNV2) and the SSH server
+service or daemon on the target system. The PuTTY OpenSSH client (PUTTY v0.66 ) will be used to
+connect from the SAS (SSNV2) to the ssh server. PUTTY also includes the command line tool PSCP
+which can be used to securely copy files between client and server.
+This is detailed in the HLD for OpenSSH/sudosh connectivity.
+System Requirement - T-RSD-1
+
+
+
+
+The COTS selected to provide SFTP to SSC is JScape. It will be installed on SSC server. For end to
+end file transfers all files will be transferred to SSC server and from there they will be pulled either to
+SSC workstation or to SAS (SSNV2) using PSCP client.
+JSCAPE software is installed on SSC server, from SSC workstation files will be transferred to SSC
+server. Then user logged on to campus server via RDP I SSH session from SAS (SSNV2) will
+download files to campus server from SSC server. Similarly files will be pushed to SSC server from
+campus server and then using WSFTP client they will be downloaded to SSC workstation.
+
+
+4.3.4          Web Clients
+Microsoft Internet Explorer 11 and Mozilla Firefox will provide connection for web based clients. This
+access will not be audited on the SAS (SSNV2) and access should be restricted, secure and
+auditable on the target server. Web clients should use https and certificates will be provided by the
+Certificate Authority described in DES/SEC/HLD/0003 - HNG-X KEY MANAGEMENT HIGH LEVEL
+DESIGN. For details please refer to DES/SECIHLD/0003
+
+
+System Requirement - T-RSD-2
+
+
+4.3.5          Micro o SQL Server 2014 Management Studio (SPI)
+This provides management access to SQL Server databases.
+System Requirement - T-RSD-2
+Microsoft Virtual Server 2005 R2 SP1
+
+43.6           Oracle 1                li nt
+The 11g client is proposed for a future release, R16.
+System Requirement - T-RSD-2
+System Requirement - T-RSD-22
+
+
+
+
+Java SE Runtime Environment and the Java Development Kit have been updated to the latest
+supported version from Horizon. These provide a complete environment in which to run and develop
+Java applications. At this time, the version installed will be Java 8 64 bit.
+Should any other version of Java be required for applications, it MUST be installed into its own
+custom directory, and programs relying on this other version must support being able to redirect to it,
+rather than the system default of Java 8.
+
+©Copyright Fujitsu Services Ltd 2007       COMMERCIAL IN CONFIDENCE        Ref:       DES/SYM/HLD/0017
+                                                                           Version:   V3.0
+                                                                           Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                    Page No:   15 of 30
+                                                                                                        FUJ00089535
+                                                                                                     FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                            46
+                                                                                           ~
+                                                                                               FFICE
+
+
+
+
+4.1.8          BgFix Conso'e
+The BigFix console is the User Interface for the Big Fix application m etalled on the TEMv2 platform.
+XWindow client
+A client to provide a graphical user interface (GUI) for networked computers connecting to XServer
+application running on the server machine, through SSNV2 connection. The client will be installed on
+the SSNV2 servers and made available to remote human users when needed. Several XWindow
+client are available, on a free license basis, including Cygwin-X.
+
+
+4A.9          7Zp
+                i
+7-Zip is a multi-format archiver and unarchiver, compatible with all major formats of compression,
+including ZIP, RAR, BZIP and many more. It is freeware and has both GUI and command line
+interfaces.
+
+
+
+
+Notepad++ is a freeware text-editor, with support for different file encodings (e.g. ANSI, UTF8) and
+different line-endings (e.g. Windows, Unix/Mac). It also provides regex search/replace functions,
+macros, and has a plugin system to allow for further customisation or ability.
+
+
+
+
+The version of Office 2013 to be installed on the SSNv2's should correspond to the version on
+corporate laptops. At the time of writing, this is Office Professional Plus 2013. Using the same
+version on both the server and support laptop ensures no extra licensing is required, although an
+initial license is needed to allow the software to be installed on the SSNv2 and activated.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE      Ref:       DES/SYM/HLD/0017
+                                                                       Version:   V3.0
+                                                                       Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                Page No:   16 of 30
+                                                                                                     FUJ00089535
+                                                                                                   FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                         46
+                                                                                        ~
+                                                                                            FFICE
+
+
+
+
+5         h-eland Support                     orks a i                  )
+Release 17 deliverable
+
+
+
+
+Release 17 deliverable
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE   Ref:        DES/SYM/HLD/0017
+                                                                    Version:    V3.0
+                                                                    Date:       24/10/2016
+UNCONTROLLED IF PRINTED                                             Page No:    17 of 30
+                                                                                                             FUJ00089535
+                                                                                                           FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+     w vi                                                                                           FlC~
+      Y                                COMMERCIAL IN CONFIDENCE
+
+
+
+
+Connectivity between remote support components is shown below. Please refer to the Network HLD
+for HNG-X.
+
+
+STE09, IRE11,           SAS (SSNV2)                Server Support Teams,               RDP         3389
+BRA01                                              Application Support Teams and
+workstations.                                      Testing Teams access SAS
+                                                   (SSNV2) and Test SAS
+                                                   (SSNV2).
+STE09, IRE11,           Application & Host         Testing Teams file transfer to      SFTP       115
+BRA01                   Support MPLS VPN           /from Infrastructure.
+workstations.
+SAS (SSNV2)             Application Servers &      Secure channel between SAS          ssh         22
+                        Counters                   (SSNV2) ssh client and target
+                                                   SSH Server.
+SAS (SSNv2)             Salesforce Servers         Secure channel between SAS          ssh         22
+                                                   (SSNV2) ssh client and target
+                                                   SSH Server.
+SAS (SSNV2)             Application servers        Server Support Teams,               RDP*        3389
+                                                   Application Support Teams and
+                                                   Testing Teams access to
+                                                   Infrastructure.
+SAS (SSNV2)             Application Servers        Oracle 10g access to all Oracle
+                                                   database servers
+SAS (SSNV2)             Application Servers        SQL server Management Studio
+SAS (SSNV2)             Microsoft Virtual          Microsoft Virtual Server 2005       TCP        1024
+                        Servers                    R2 SP1. This tool is used for
+                                                   the management virtual servers
+
+
+SSC                     SAS (SSNV2)                This will provide access from       RDP,        3389
+                                                   SSC work station to SAS             SFTP
+                                                                                                   22
+                                                   (SSNV2)
+SAS (SSNV2)             BF11 blades:               This will provide access for core   TCP        22 for
+                                                   SAP installs and XTTS work on                  SSH,
+                        Iprpr3d001 — SAP R/3
+                                                   the specified BFI I blades for                 21211-
+                        Database Server
+                                                   member of the SAPAdmins                        21219
+                        Iprpr3d002 — SAP R/3       group                                          for
+                        Database Server                                                           SAPlnst
+                                                                                                  GUI
+                        Iprpr3d003 — SAP R/3
+                        Database Server
+                        Iprpxid001 — SAP XI
+                        Database Server
+                        Iprpxid002 — SAP XI
+                        Database Server
+                        Iprpxid003 — SAP XI
+
+©Copyright Fujitsu Services Ltd 2007        COMMERCIAL IN CONFIDENCE        Ref:        DES/SYM/HLD/0017
+                                                                            Version:    V3.0
+                                                                            Date:       24/10/2016
+UNCONTROLLED IF PRINTED                                                     Page No:    18 of 30
+                                                                                                         FUJ00089535
+                                                                                                       FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+     w vi                                                                                       FlC~
+      Y                                COMMERCIAL IN CONFIDENCE
+
+
+
+
+                        Database Server
+* Only in exceptional circumstances and only to DC hosted servers
+
+
+DNS will be used for name resolution. Each server in the BladeFrame server has virtual NIC and
+they are mapped to switch Blade, which has more than one NIC if required. Resilience is provided
+using a virtual switch within the BladeFrame. See ARC/PPSIARC/0001.
+The remote sites will access IRE Datacenters are as follows:
+                    Support users will be routed across the corporate network connecting to the SAS
+                    (SSNV2)
+                    Test counter terminals will be routed across the FSBN connecting to load balanced
+                    services in the Test Branch DMZ.
+                    Support users will be routed across the corporate network connecting to the SAS
+                    (SSNV2).
+                    Support users will be routed across the corporate network connecting to the SAS
+                    (SSNV2).
+                    Support users will be routed across the corporate network connecting to the SAS
+                    (SSNV2).
+                    Support users will be routed across the corporate network connecting to the SAS
+                    (SSNV2).
+
+
+System Requirement - T-RSD-14
+System Requirement - T-RSD-21
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007      COMMERCIAL IN CONFIDENCE       Ref:       DES/SYM/HLD/0017
+                                                                         Version:   V3.0
+                                                                         Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                  Page No:   19 of 30
+                                                                                                       FUJ00089535
+                                                                                                     FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                           46
+                                                                                          ~
+                                                                                              FFICE
+
+
+
+
+7         Manageabiflty
+The SAS (SSNV2) can be managed remotely using Remote Desktop and access through the
+BladeFrame console.
+Systems Management tool — Tivoli will provide monitoring of this platform..
+Critical Windows OS services should be monitored and alerted on. General performance alerting
+should be carried out. Provisioning of SAS (SSNV2), patching and software distribution will be
+provided by BigFix).
+Refer to DESSYMHLD0004.doc for more details.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE      Ref:       DES/SYM/HLD/0017
+                                                                       Version:   V3.0
+                                                                       Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                Page No:   20 of 30
+                                                                                                         FUJ00089535
+                                                                                                     FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE
+
+
+
+
+8.1 Security
+The security of the SAS (SSNV2) and the supported platforms it is used to access will be ensured by
+the features described in the following sub sections.
+
+
+
+
+Support users roles will be defined in AD and in the Tivoli Management Framework. This will ensure
+that only selected users will have permission to carry out potentially hazardous tasks on target
+platforms. Tasks identified by SSC as repeatable and low risk will be passed to 2 ' line support after
+development and testing.
+
+
+
+
+Refer to the OpenSSH, Cygwin, Sudosh high level design — document reference'to be added.
+
+
+
+
+See high level design for Strong Authentication - DES/SEC/HLD/0001. This provides Windows 2003
+natively supported 2 factor authentication using USB tokens.
+
+
+               'A'il i[.1JAISJ
+The Windows 2012 platform poa_bastian.xml security policy is applied. This is part of the platform
+foundation build and supplied in the windows distribution. Security patches relevant at the date of
+first build will be applied to the platform and these will be documented. All other patching will be
+subject to the patching and upgrade policies and processes.
+RDP traffic from the remote support workstations and laptops to the SAS (SSNV2) will be encrypted
+using 128 bit SSL. See DES/SEC/HLD/0003 - HNG-X KEY MANAGEMENT HIGH LEVEL DESIGN
+for details of the Certificate server that would be required for this.
+
+
+
+
+The platform will provide resilience and repair described in the Windows 2003 platform design. For
+the blade hosted SAS (SSNV2) in IRE11 and IRE19.
+For HNG-X it is planned to have 3 SAS (SSNV2) in each Data Centre.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE      Ref:       DES/SYM/HLD/0017
+                                                                       Version:   V3.0
+                                                                       Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                Page No:   21 of 30
+                                                                                                        FUJ00089535
+                                                                                                    FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE
+
+
+
+
+See the Windows 2003 Platform design for details of how this platform meets performance
+requirements. In summary the base build has improved performance by increased page file size on
+a dedicated disk and optimised disk partition configuration.
+To ensure adequate terminal server performance all third party products should be supported under
+the terminal server environment. Where suppliers do not specifically state support under terminal
+services, these products should be adequately tested to ensure they do not adversely affect the
+performance of the server.
+
+
+                  s
+The service has been designed on Microsoft Terminal Server. Although this provides a GUI for
+interactive use, the system will not be used interactively except for SAS (SSNV2) platform set up and
+maintenance. Users from SSC, SMG and ISD, will log on through the Terminal Server Client on the
+local Support Workstation, and be given access through ssh, client software and through the
+Terminal Server profile to the target system, applications or files.
+
+
+
+
+  .5 Potential for Change
+The focus of ssh session logging may be moved from the client to the ssh server service removing
+the need for the command logger on the SAS (SSNV2). Sudosh may be used to log ssh session
+content to the syslog file which would then be picked up by the audit solution.
+
+
+Additional support tools and clients may be installed on the SAS (SSNV2) in future. These clients
+must ensure that they have adequate, secure auditing or that application auditing takes place at the
+application server.
+
+
+Additional SAS (SSNV2) can be added if additional support users or support groups require access to
+the HNG-X infrastructure.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE     Ref:       DES/SYM/HLD/0017
+                                                                      Version:   V3.0
+                                                                      Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                               Page No:   22 of 30
+                                                                                                       FUJ00089535
+                                                                                                    FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE
+
+
+
+
+The SAS (SSNV2) build is provisioned using the scripted Standard Windows 2012 build. Additional
+tasks to complete the build are:
+ • Disk Configuration
+ • Configuration of Terminal Server and licensing
+ • Delivery of common component packages
+ • Installation of packaged applications
+
+
+Refer to DES/PPS/PPD/2977 - Platform Physical Design For Secure Access Server — SSNv2
+
+
+         Installation Sequence
+The installation sequence to create and configure the Remote Desktop Services deployment for the
+SSNV2's is as follows:
+     1. Windows 2012 base builds provisioned
+    2. Disk and Share setup
+     3. TEM-deployed PowerShell script to Windows 2012 member server. Script will create a
+        Remote Desktop Services deployment, assigning appropriate roles and features to SSNv2
+        servers, rebooting as necessary to complete the installation. Collection will be created and
+        SSNV2's added as RD Session Hosts to collection, permitting remote desktop access.
+    4. TEM-deployed PowerShell script to SSNv2 #1, to configure shared drive on H: to hold user
+       profiles. RDS collection updated to point to this shared drive as User Profile Disk area.
+    5. TEM-deployed additional software to SSNv2's.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE     Ref:       DES/SYM/HLD/0017
+                                                                      Version:   V3.0
+                                                                      Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                               Page No:   23 of 30
+                                                                                                     FUJ00089535
+                                                                                                   FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                         46
+                                                                                        ~
+                                                                                            FFICE
+
+
+
+
+Refer to the OpenSSH, Cygwin, Sudosh high level design
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE   Ref:        DES/SYM/HLD/0017
+                                                                    Version:    V3.0
+                                                                    Date:       24/10/2016
+UNCONTROLLED IF PRINTED                                             Page No:    24 of 30
+                                                                                                          FUJ00089535
+                                                                                                      FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+
+FUJITSU
+     p~^('Ci i
+                                       COMMERCIAL IN CONFIDENCE                            ~46 FFICE
+
+
+
+
+Operational proofing will be carried out by the ISD team in Belfast to ensure that all required systems
+are accessible remotely.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE       Ref:       DES/SYM/HLD/0017
+                                                                        Version:   V3.0
+                                                                        Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                 Page No:   25 of 30
+                                                                                                       FUJ00089535
+                                                                                                     FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+FUJITSU
+     p~^('Ci i
+                                        COMMERCIAL IN CONFIDENCE
+
+
+
+
+12           isks and                  ss         tions
+The following risks and assumptions have been identified with the SAS (SSNV2) design for HNG-X:
+Risks:
+ • Delays due to licences for RD CALs will limit access.
+Assumptions:
+ • Assumed that there will be a level of auditing on supported DC servers accessed using specific
+   clients.
+ • Assumed that development will take place with the installed version of cygwin. If a later version
+   is released prior to development the version of cygwin used for INF-2 will be replaced.
+ • Support skills are available to support the open source code that is compiled and release as part
+   of this design.
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007        COMMERCIAL IN CONFIDENCE   Ref:       DES/SYM/HLD/0017
+                                                                       Version:   V3.0
+                                                                       Date:      24/10/2016
+UNCONTROLLED IF PRINTED                                                Page No:   26 of 30
+                                                                                                     FUJ00089535
+                                                                                                   FUJ00089535
+
+
+
+                        Remote Support Secure Access Server High Level Design
+     w vi                                                                                   FlC~
+      Y                                COMMERCIAL IN CONFIDENCE
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007     COMMERCIAL IN CONFIDENCE   Ref:        DES/SYM/HLD/0017
+                                                                    Version:    V3.0
+                                                                    Date:       24/10/2016
+UNCONTROLLED IF PRINTED                                             Page No:    27 of 30
+                                                                                                                                                                FUJ00089535
+                                                                                                                                                            FUJ00089535
+
+
+
+   c                                                    Remote Support Secure Access Server High Level Design
+ T
+FUJITSU                                                               COMMERCIAL IN CONFIDENCE
+
+
+
+
+13 Requirements Traceability
+For the full requirements Traceability Matrix for Remote Support & Diagnostics select the link below.
+
+
+
+Sys Reqs for Remote
+Support and I)agnosl
+
+
+
+Table 1 - SAS (SSNV2) System Requirements — provides a summary of the systems requirements that apply to this HLD.
+
+
+
+
+ I -KSU-1              rutty ioggea ana aualtaoie open Secure shell or open ssH tacultles snau ae             4.1.2 - Aualt
+                       provided for 2 and 3 line support staff.                                               4.3.2 - OpenSSH
+ T-RSD-2               Logged and auditable support access to management servers should be provided           4.3.6 - Web Clients
+                       using web based clients, installed client software or shh. (e.g. ACE SecurlD           4.3.7 - EMC Client and Tools
+                       server, Aurora, TMR)                                                                   4.3.8 - Microsoft SQL Server
+                                                                                                              2005 Management Studio
+                                                                                                              SP2
+                                                                                                              4.3.9- Oracle 10g Client
+                                                                                                              4.3.11 - Tivoli Client and
+                                                                                                              tools
+ T-RSD-3               Role based support access shall be provided to 2nd and 3rd line support staff.         4.1.1 - Access
+ T-RSD-4               A secure file transfer application with a windows style graphical interface shall be   4.3.3 -
+                       provided for the transfer of diagnostic logs and other selected evidence files.
+ T-RSD-5               The secure file transfer application should be one way only for SMC and 2 way for      4.3.3 -
+                       SSC.
+ T-RSD-6               Directories accessible by the secure file transfer application should be subject to    4.3.3 -
+©Copyright Fujitsu Services Ltd 2007                                      COMMERCIAL IN CONFIDENCE                       Ref:            DES/SYM/HLD/0017
+                                                                                                                         Version:        V1.0
+                                                                                                                         Date:           01-Aug--07
+UNCONTROLLED IF PRINTED                                                                                                  Page No:        28 of 159
+                                                                                                                                                             FUJ00089535
+                                                                                                                                                         FUJ00089535
+
+
+
+
+     fo                                              Remote Support Secure Access Server High Level Design
+FUJITSU                                                           COMMERCIAL IN CONFIDENCE
+                                                                                                                                             OFFI0 '`"
+
+
+
+               control.
+ T-RSD-7       For the secure file transfer application all transfers and attempted transfers should   4.3.3 -
+               be logged at the server so the GUI interface does not need to be recorded. It is
+               expected that graphical logging will not be required as the graphical secure ftp
+               tool should be run usin ssh and can be to ed at the server.
+T-RSD-8        For the secure file transfer application all logs should be secure and be picked up     4.3.3 -
+______________ by the audit solution.
+T-RSD-9        Two factor authentication shall be used to control access to the Secure Access          4.1.1 - Access
+               servers
+T-RSD-10       Out of Hours support shall be provided using dedicated, standard secure laptops.        4.1.1 - Access
+               These shall be password protected.
+T-RSD-111      The OOH laptops shall have locked down configurations and minimal internet
+               access (access should be provided to some intranet sites and web client access to
+               support a lications).
+T-RSD-12       OOH laptops should have the standard Fujitsu VPN solution, personal firewall,
+               PGP and antivirus protection installed and should also incorporate a
+               challenge/response procedure.
+T-RSD-13       OOH shall also provide access during disaster recovery situations.                      4.1.1 - Access
+T-RSD-14       The standard Fujitsu Services VPN solution will be used to gain access to the           6 - Networks
+               Fujitsu corporate network
+T-RSD-15       OOH Laptops for 3rd line support should be able to access Support Workstations          4.1.1 - Access
+               preferably by RDP. Support Workstations require access to BSDB, SAS                     4.3.9- Oracle 10g Client
+                SSNV2 and SSC Servers direct) .
+T-RSD-21       The dedicated workstations shall sit on the POA network and the non-dedicated           6 - Networks
+               workstations will access the support networks through the corporate VPN. Access
+               to the remote support framework will be from the following type of user:
+
+                           POA dedicated support staff
+                           Non-dedicated Fujitsu su ort staff workin on several accounts
+ T-RSD-22              SSC Workstations should have direct access to Databases, SQL*Net and the        4.1.1 - Access
+                       Microsoft equivalent in order to perform custom diagnostics and for the
+                       development of bespoke interfaces. Access to BSDB, SSC Servers only.
+
+©Copyright Fujitsu Services Ltd 2007                                 COMMERCIAL IN CONFIDENCE                     Ref:            DES/SYM/HLD/0017
+                                                                                                                  Version:        V1.0
+                                                                                                                  Date:           01-Aug--07
+UNCONTROLLED IF PRINTED                                                                                           Page No:        29 of 159
+                                                                                                                                                    FUJ00089535
+                                                                                                                                                FUJ00089535
+
+
+
+   c                                               Remote Support Secure Access Server High Level Design
+ T
+FUJITSU                                                          COMMERCIAL IN CONFIDENCE
+
+
+
+
+ T-RSD-29        All applications shall provide diagnostic or text files that can be self managed so   4.1.2 - Audit
+                 that they do not consume disc space indefinitely. Log files should kept for a
+                 specified time period (the default being one week)
+ T-RSD-30        All applications shall store log, audit and tracing files in a common, agreed         4.1.2 - Audit
+                 location. The standard format of these files will be defined, agreed and
+                 documented.
+ T-RSD-34        All services shall have the ability to be stopped and started by the management       4.1.2 - Audit
+                 tools. Performance reporting metrics should also be defined for applications and
+                 reported to the a ro riate mana ement tools.
+ T-RSD-35        The SSC shall be able to provoke a dump of the operating system in order to
+                 examine a problem in more detail.
+                 This would be compliant for counters under strictly controlled circumstances but
+                 not for DC servers. The dum would not be enc ted.
+Table 1 - SAS (SSNV2) System Requirements
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007                                 COMMERCIAL IN CONFIDENCE                     Ref:       DES/SYM/HLD/0017
+                                                                                                                  Version:   V1.0
+                                                                                                                  Date:      01-Aug--07
+UNCONTROLLED IF PRINTED                                                                                           Page No:   30 of 159
+                                                                                                                                      FUJ00089535
+                                                                                                                                  FUJ00089535
+
+
+
+        cQ                             Remote Support Secure Access Server High Level Design
+FU IT
+    i
+                                                   COMMERCIAL IN CONFIDENCE
+                                                                                                                     OFFCOI '`"
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007                  COMMERCIAL IN CONFIDENCE                 Ref:       DES/SYM/HLD/0017
+                                                                                               Version:   V1.0
+                                                                                               Date:      01-Aug--07
+UNCONTROLLED IF PRINTED                                                                        Page No:   31 of 159
+                                                                                                                                      FUJ00089535
+                                                                                                                                  FUJ00089535
+
+
+
+                                       Remote Support Secure Access Server High Level Design
+FUJITSU                                            COMMERCIAL IN CONFIDENCE
+                                                                                                                     OFFCOI '`"
+m
+
+
+
+
+©Copyright Fujitsu Services Ltd 2007                  COMMERCIAL IN CONFIDENCE                 Ref:       DES/SYM/HLD/0017
+                                                                                               Version:   V2.0
+                                                                                               Date:      22104/08
+UNCONTROLLED IF PRINTED                                                                        Page No:   32 of 159
+

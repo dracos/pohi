@@ -1,0 +1,618 @@
+                                                                                                            FUJO0122622
+                                                                                                          FUJO0122622
+
+
+
+
+                                                                  i         ' I
+    fitness Statement
+(CJ Act 79fi7, s9,.MC Act 1980, _s 5A(3)(a)
+ and 5B, MC Rules 1981, r 70)
+                                                        \\\\\\\l\\1\\\
+                                                            ~®~
+                                                                  I~       I OI
+                                                                       3 g 32~
+
+
+
+
+Statement of               Penelope Anne Thomas
+
+Age if under 18            Over 18                      (If over 18 insert 'over 18')
+
+This statement (consisting of 7 pages each signed by me) is true to the best of my knowledge and belief
+and I make it knowing that, if it is tendered in evidence, I shall be liable to prosecution if I have wilfully
+stated in it anything which I know to be false or do not believe true.
+
+Dated the      28._._._._._.d_ay.af_-_-_ _.September._._._ 2009
+
+Signature                  G RO
+I have been employed by Fujitsu Services, Post Office Account, formally ICL.Pathway Ltd
+since 20 January 2004 as an Information Technology (IT) Security Analyst responsible for audit
+data extractions and IT Security. I have working knowledge of the computer system known as
+Horizon, which is a computerised accounting system used by Post Office Ltd. I am authorised
+by Fujitsu Services to undertake extractions of audit archived data and to obtain information
+regarding system transactions recorded on the Horizon system.
+
+
+Horizon's documented procedures stipulate how the Horizon System operates, and while I am
+not involved with any of the technical aspects of the Horizon System, these documented
+
+
+
+
+At each Post Office there are counter positions that have a, computer terminal, a visual display
+unit and a keyboard and printer. This individual system records all completed transactions input
+by the counter clerk working at that counter position. Clerks log on to the system by using their
+own unique password. The transactions performed by each clerk, and the associated cash
+and stock level information, are recorded by the computer system in a stock unit, Once logged
+on, all completed transactions performed by the clerk must be recorded and entered on the
+computer and are accounted for within the user's allocated stock unit.
+
+
+The Horizon system provides a. number of daily and weekly records of all completed
+
+
+
+Signature
+  9                         RO                        Signature witnessed by            GRO
+CS011A (Side A) `"""""""""'-"""'-"""""""""""'                                                    Version 7.0 0308
+                                                                                                                                                  FUJO0122622
+                                                                                                                                                FUJO0122622
+
+
+
+
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 58, MC Rules 1981, r70)
+
+Continuation of statement of                                 Penelope Anne Thomas
+
+
+transactions input into it. It enables Post Office users to obtain computer summaries for
+individual clients of Post Office Limited e.g. Alliance & Leicester. The Horizon system also
+enables the clerk to produce a periodic balance of cash and stock on hand combined with the
+other transactions performed in that accounting period, known as a trading period.
+
+
+Where local reports are required these are accessed from a button on the desktop menu. The
+user is presented with a parameter driven menu, which enables the report to be customised to
+requirements. The report is then populated from transaction data that is held in the local
+database and is printed out on the printer. The system also allows for information to be
+transferred to the main accounting department at Chesterfield.
+
+
+The Post Office counter processing functions are provided through a series of counter
+applications: the Electronic Point of Sale Service (EPOSS) that enables Postmasters to
+
+
+Automated Payments Service (APS) which provides support for utility companies and others
+who provide incremental in and out payment mechanisms based on the use of cards and other
+tokens and the Logistics Feeder Service (LFS) which supports the management of cash and
+value stock movements to and from the outlet, principally to minimise cash held overnight in
+outlets. The counter desktop service and the office platform service on which it runs provides
+various common functions for transaction recording and settlement as well as user access
+control and session management.
+
+
+Information from counter transactions is written into a local database and then replicated
+automatically to databases on all other counters within a Post Office outlet. The information is
+then forwarded over ADSL (Asymmetric Digital Subscriber Line) or other communication
+service, to databases on a set of central Correspondence Servers at the Fujitsu Services data
+centres. This is undertaken by a messaging transport system within the Transaction
+Management Service (TMS). Various systems then transfer information to Central Servers that
+control the flow of information to various support services. Details of outlet transactions are
+normally sent at least daily via the system. Details are then forwarded daily via a file transfer
+
+
+
+Signature            G RO                                           Signature witnessed by
+                                                                                                 GRO
+                                                                                             ,_,_._._._,_,_,_,_._,_,_._,_,_._,_._._.
+rSb11A
+                L._._._._._._._._._._._._._._._._._._._._._._._,,
+                                                                                                                                       version 9.d 0209
+                                                                                                      FUJO0122622
+                                                                                                    FUJO0122622
+
+
+
+
+(CJ Act 1967, s9; MC Act 1960, ss 5A(3)(a) and 58, MC Rules 1981, r 70)
+
+Continuation of statement of.             Penelope Anne Thomas
+
+
+service to the Post Office accounting department at Chesterfield and also, where appropriate,
+to other Post Office Clients.
+
+
+An audit of all information handled by the TMS is taken daily by copying all new messages
+
+
+
+
+                                                                                               to
+archive media. This creates a record of all completed outlet transaction details including its
+origin - outlet and counter, when it happened, who caused it to happen and the outcome. The
+TMS journal is maintained at each of the Fujitsu Services Data Centre sites and is created by
+securely replicating all completed transaction records that occurred in every Outlet. They
+therefore provide the ability to compare the audit track record of the same transaction recorded
+in two places to verify that systems were operating correctly. Records of all transactions are
+written to audit archive media.
+
+
+The system clock incorporated into the desktop application on the counter visual display units
+is configured to indicate local time. This has been the situation at Preston Road, Branch Code
+259020 since 15 November 2000 when the Horizon system was introduced at that particular
+Post Office.
+
+
+The Horizon system records time in GMT and takes no account of Civil Time Displacements,
+thus during British Summer Time (BST) (generally the last Sunday in March to the last Sunday
+in October), system record timings are shown in GMT - one hour earlier than local time (BST).
+
+
+When information relating to individual transactions is requested, the data is extracted from the
+audit archive media via the Audit Workstations (AWs). Information is presented in exactly the
+same way as the data held in the archive although it can be filtered depending upon the type of
+information requested. The integrity of data retrieved for audit purposes is guaranteed at all
+times from the point of gathering, storage and retrieval to subsequent despatch to the
+requester. Controls have been established that provide assurances to Post Office Internal
+Audit (P0 IA) that this integrity is maintained.
+
+
+
+
+Signature
+                     G                              Signature witnessed by   G RO
+CS011A                                                                                 Version 9.0 0209
+
+                                                              3
+                                                                                                    FUJO0122622
+                                                                                                  FUJO0122622
+
+
+
+
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a)and 58, MC Rules 1981, r 70)
+
+Continuation of statement of             Penelope Anne Thomas
+
+
+During audit data extractions the following controls apply :
+     1. Extractions can only be made through the AWs which exist at Fujitsu Services,
+          Lovelace Lane, Bracknell, Berkshire and Fujitsu Services, Sackville House, Brooks
+          Close, Lewes, East Sussex. These sites are both subject to rigorous physical security
+          controls appropriate to each location. All AWs are located in a secure room subject to
+          proximity pass access within a secured Fujitsu Services site.,
+     2. Logical access to the AW and its functionality is managed in accordance with the
+          Fujitsu Services, Post Office Account Security Policy and the principles of ISO 17799.
+         This includes dedicated Logins, password control and the use of Microsoft Windows NT
+         security features.
+     3. All extractions are logged on the AW and supported by documented Audit Record
+          Queries (ARQs), authorised by nominated persons within Post Office Ltd. This log can
+          be scrutinised on the AW.
+     4. Extractions are only made by authorised individuals.
+     5. Upon receipt of an ARQ from Post Office Ltd they are interpreted by CS Security. The
+         rr- 1F     W     j             IIiyIiIi        II.EuI*IflETPr
+     6. The required files are identified and marked using the dedicated audit tools.
+     7. Checksum seals are calculated for audit data files when they are written to audit
+          archive media and re-calculated when the files are retrieved.
+     8. To assure the integrity of the audit data while on the audit archive media the checksum
+         seal for the file is re-calculated by the Audit Track Sealer and compared to the original
+          value calculated when the file was originally written to the audit archive media. The
+          result is maintained in a Check Seal Table.
+     9. The specific ARQ details are used to obtain the specific data.
+     10. The files are copied to the AW where they are checked and converted into the file type
+          required by Post Office Ltd.
+     11. Windows Events generated by the counters within the branch/timeframe in question are
+          checked to ensure the counters were functioning correctly.,
+     12. The requested. information is copied onto removal CD media, sealed to prevent
+          modification and virus checked using the latest software. It is then despatched to the
+
+
+
+Signature        G RO             """"".-`
+                                                    Signature witnessed by
+                                                                             GRO
+CS011A                                                                                   Version 9.0 0209
+
+                                                             4
+                                                                                                                                  FUJO0122622
+                                                                                                                                FUJO0122622
+
+
+
+
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, as 5A(3)(a) and 58, MC Rules 1981, r 70)
+
+Continuation of statement of              Penelope Anne Thomas
+
+
+          Post Office Ltd Casework Manager using Royal Mail Special Delivery. This ensures
+          that a receipt is provided to Fujitsu Services confirming delivery.
+
+
+ARQs 482 to 486/0809 were received on 11 December 2008 and asked for information in
+connection with the Post Office at Preston Road, Branch code 259020.
+ARQ 024/0910 was received on 23 April 2009 and asked for information in connection with the
+Post Office at Preston Road, Branch code 259020. 1 produce copies of ARQs 482 to 486/0809
+and 024/0910 collectively as Exhibit PT/01.
+
+
+I undertook extractions of data held on the Horizon system in accordance with the
+requirements of ARQs 482 to 486/0809 and followed the procedure outlined above. I produce
+the resultant CD as Exhibit PT/02. This CD, Exhibit PT/02, was sent to the Post Office
+Investigation section by Special Delivery on 17 December 2008.
+I undertook extractions of data held on the Horizon system in accordance with the
+requirements of ARQ 0240/0910 and followed the procedure outlined above. I produce the
+resultant CD as Exhibit P-T/03, This CD, Exhibit PT/03, was sent to the. Post Office
+Investigation section by Special Delivery on .29 April 2009.
+
+
+
+
+The report is formatted with the following headings:
+          ID — relates to counter position
+          User — Person Logged on to System
+          SU — Stock Unit
+          Date — Date of transaction
+          Time — Time of transaction
+          Sessionld — A unique string relating to current customer session
+          Txnld — A unique string relating to current transaction
+          Mode — e.g. SC which translates to Serve Customer
+
+
+          Qty — Quantity of items sold
+
+
+
+Signature
+CS011A
+                  G        RO
+                                        __._._.
+                                                     Signature
+                                                       g       witnessed b   y; GRO!
+                                                                             L._._._._._._._._._._._._,_._._._._._;   Version 9.0 0209
+
+                                                              5
+                                                                                                                                  FUJO0122622
+                                                                                                                              FUJO0122622
+
+
+                     t
+
+
+
+
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(e) and 5B, MC Rules 1981, r 70)
+
+Continuation of statement of              Penelope Anne Thomas
+
+
+          SaleValue — Value of items sold
+          Entry method Method of data capture for Transactions (0 = barcode, 1 = manually
+          keyed, 2 = magnetic card, 3 = smartcard, 4 = smart key)
+          State — Relates to OBCS
+          IOP - Order Book Number — OBCS only
+          Result — Order Book Transaction Result — OBSC only
+          Foreign Indicator — Indicates whether OBCS payment was made at a local or foreign
+          outlet (0- Local, 1- Foreign). The foreign indicator defaults to a '0' for al l manually
+          entered transactions - OBCS only
+
+
+The Event report is formatted with the following headings:
+          ITT. M.0r.      Iu      ..tR
+          III    i   1-    (,II(.1IlH(1•SIS1iHt1T
+
+
+
+          Time — Time of transaction
+          User — Person Logged on to
+                                                System
+
+
+
+
+          SU — Stock Unit
+          EPOSSTransaction.T — Event Description
+          EPOSSTransaction.Ti — Event Result
+          Type — Inactivity Logout noted
+          Logout Authority — User who logged out the.account
+          SecurityEvent. User — User who failed to log in
+
+
+There is no reason to believe that the information in this statement is inaccurate because of
+the improper use of the system. To the best of my knowledge and belief at all material times
+the system was operating properly, or if not, any respect in which it was not operating properly,
+or was out of operation was not such as to effect the information held within it.
+
+
+Any records to which I refer in my statement form part of the records relating to the business of
+Fujitsu Services. These were compiled during the ordinary course of business from
+
+
+
+Signature
+                     G RO                                Signature witnessed byi   O RO
+                                                                                   _._._._._._._._._._ _._._._._..
+CS011A                                                                                                               Version 9.0 0209
+
+                                                                5
+                                                                                                                     FUJO0122622
+                                                                                                                 FUJO0122622
+
+
+
+
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, as 5A(3)(a) and 58, MC Rules 1981, r 70)
+
+Continuation of statement of             Penelope Anne Thomas
+
+
+
+information supplied by persons who have, or may reasonably be supposed to have, personal
+knowledge of the matter dealt with in the information supplied, but are unlikely to have any
+recollection of the information or cannot be traced. As part of my duties, I have access to
+these records.
+
+
+
+
+Signature          G RO                              Signature witnessed by   G RO
+CS011A                                                                        .---.--.-.-.-.-.-...-.-   Version 9,0 0209
+
+                                                              7
+                                                                                                                     FUJO0122622
+                                                                                                                  FUJO0122622
+
+
+
+
+NOTE: This side B to be completed only when the original statement is overleaf. When this form is used to
+make a copy of a statement side B is to be left blank.
+
+
+
+Address        Fujitsu Services, Lovelace Road, Bracknell, Berkshire, RG12 8SN
+
+E Mail: penny.thomasi.                GRO
+Mobile Tel No:                                              Business telephone No: -GRO GRO
+
+Occupation:.       Prosecution Su           ort Analyst     Date and place of birth:                  GRo
+
+Maiden name.:       Langley
+
+                                Dates to be avoided. Delete dates of non availability of witness
+
+
+         October 2009                      November 2009                December 2009                 January 2010
+M   TU W TH F    SA SU                M TU W TH F SA SU          M    TU W TH F SA SU           M   TU W TH F     SA SU
+                2 3 4                 30                 1               1 2 3 4 5 6                            1 2    3
+        7 8 9 10 11                    2 3 4 5 6 7 8               7 8 9 10 11 12 13             4 5 6       7 8 9 10
+12 13 14 15 16 17 18                   9 10 11 12 13 14 15        14 15 16 17 18 19 20          11 12 13    14 15 16 17
+19 20 21 22 23 24 25                  16 17 18 19 20 21 22       r21 :: 22; *23; 24. 25 26 27   18 19 20    21 22 23 24
+26 27 28 29 30 31                     23 24 25 26 27 28 29        28 29 ?30 31                  25 26 27    28 29' 30 31
+     February 2010                           March 2010                   April 2010                   May 2010
+M TU W TH F SA SU                     M  TU W TH F SA SU         M  TUTW TH F SA SU             M TU W TH F SA SU
+ 1 2 3 4 5 6 7                         1 2   3 4 5 6     7                   1 2 3 4            31              1  2
+ 8 9 10 11 12 13 14                    8 9 10 11 12 13 14          5 6, 7 8 9 10 11              3 4 5 6 7 8 9
+15 16 17 18 19 20 21                  15 16 17 18 19 20 21        12 13, 14 15 16 17 18         10 Ti 12 13 14 15 16
+22 23 24 25 26 27 28                  22 23 24 25 26 27 28        19 20 21 22 23 24 25          17 18 19 20 21 22 23
+                                      29 30 31                    26 27 28 29 30                24 25 26 27 28 29 30
+
+
+
+
+Additional contact point, if difficulty            Service Support Manager, RMG Account, Fujitsu Services
+with above:
+
+Address:        Lovelace Road, Bracknell, Berkshire, RG12 8SN
+
+
+
+Telephone No:                                                 Fax No:
+                     _._•_•__
+
+
+
+
+Mobile No:                      GRO
+
+
+STATEMENT TAKEN BY (print name)
+
+Office
+
+
+
+
+CS011 Side B                                                                                                 Version April 09
+                                                                                       FUJO0122622
+                                                                                     FUJO0122622
+
+
+
+
+From:                 tony.jefferyo__._. GRO       on behalf of fraud.team    GRO_
+Sent:                 23 September 2009 14:48
+To:                   Thomas Penny
+Cc:                   Gallacher Kirsty; Dunks Andy
+Subject:              Statement request 0910 008. ARQ's 482 - 486/0809 & 024/0910.
+
+
+Could you please provide a witness statement, covering the data suplied, in respect of
+the above.
+
+Preston Road   259020.
+
+Regards
+Tony
+Letters Administrator
+Post Office Ltd Security - Fraud Strand
+P.O. Box 1, CROYDON, CR9 1WN
+STD:;     GRO     s Fax:     GRO
+External email address: fraud.team             GRO
+***********************************************************************
+Royal Mail Group Limited registered in England and Wales registered number
+4138203 registered office 3rd Floor, 100 Victoria Embankment, London, EC4Y OHQ
+
+This email and any attachments are confidential and intended for the addressee only.
+If you are not the named recipient, you must not use, disclose, reproduce, copy or
+distribute the contents of this communication.
+If you have received this in error, please contact the sender and then delete this
+email from your system.
+*********************************************************************
+
+
+
+
+           fvO
+
+                 V0             ~.        f1
+                                                                                      FUJO0122622
+                                                                                    FUJO0122622
+
+
+
+
+                          AUDIT RECORD QUERY (ARQ)
+Originator:        Dave Posnett                           Date:     23   April 2009
+                   Post Office Ltd Security - Fraud
+                   Security Programme Manager
+                   PO Box 1, CROYDON, CR9 1WN
+                              ~+
+Tel:                          GRO
+
+Witness Statement required                                ARQ
+(Yes or No as applicable)                      NO         Ref       0910/024.
+                                                          No:
+                                                          APOP      0910/Not
+                                                          Ref.      applicable.
+                                                          No:
+Branch Name:       Preston Rood        Co e:   259020     Date      03/03/08-02/04/08
+                                                          Range:
+
+
+Standard           A report of all transactions and events (including
+Format             inactivity logout and logon/log off information) for the
+Requirements       office including remittances received, transfers between
+(Not               stock units and error notices. Information to be provided in
+required for       Excel 97 format with each category in a separate column.
+APOP
+requests):         Column headers as follows - ID, User ID, Stock unit, date,
+                   time, Session & transaction ID, Mode type - i.e. Serve
+                   Customer, Reversal, Rem In etc, Product number, quantity,
+                   Amount £p, entry method.
+
+                   Also where applicable dependant on date range, please
+                   specify whether an OBCS (& state) of scan accompanied the
+                   transaction.
+
+                     Additional Requirements                             YES/N®'•
+
+APOP  Voucher       information   is     required   for   voucher          NO
+number(s):
+
+
+Analyses of hsh call logs (detail period if different                      NO
+from above date range).
+Period:
+
+Confirmation that there was no reported system                             NO
+malfunctions during the date range period.
+
+Barcode information for all remittance pouches (inward                     NO
+& outward) during the period.
+
+Barcode and car licence details for            all DVLA related            NO
+transactions.
+
+PAN or equivalent identifier (i.e. credit / debit card                     NO
+details).
+
+Other (Provide details):                                                   NO
+
+
+Signed:            VIA E MAIL - Dave Posnett
+
+
+
+
+V4 November 2007
+                                                                                       FUJO0122622
+                                                                                     FUJO0122622
+
+
+
+
+                          AUDIT RECORD QUERY (ARQ)
+Originator:        Dave Posnett                            Date:     11`b December
+                   Post Office Ltd Investigation                     2008
+                   Team
+                   Casework Manager
+                   PO Box 1, CROYDON, CR9 1WN
+Tel:
+                                  GRO
+
+Witness Statement required                     NO          ARQ
+(Yes or No as applicable)                                  Ref       0809/482-466
+                                                           No:
+                                                           APOP      0809/Not
+                                                           Ref.      applicable
+                                                           No:
+Branch Name:       Preston Road     Co e:      259020      Date      03/04/08-03/05/08
+                                                           Range:
+                                                                     04/05/08-03/06/08
+                                                                     04/06/08-04/07/08
+                                                                     05/07/08-04/08/08
+                                                                     05/08/08-03/09/08
+Standard           A report of all transactions and events (including
+Format             inactivity logout and logon/log off information) for the
+Requirements       office including remittances received, transfers between
+(Not               stock units and error notices. Information to be provided in
+required for       Excel 97 format with each category in a separate column.
+APOP
+requests):         Column headers as follows - ID, User ID, Stock unit, date,
+                   time, Session & transaction ID, Mode type - i.e. Serve
+                   Customer, Reversal, Rem In etc, Product number, quantity,
+                   Amount £p, entry method.
+
+                   Also where applicable dependant on date range, please
+                   specify whether an OBCS (& state) of scan accompanied the
+                   transaction.
+
+                     Adi3ational ,Requirements                            YES/NO':
+
+APOP  Voucher       information    is   required     for   voucher          NO
+number(s):
+
+
+Analyses of HSH call logs (detail period if different                       NO
+from above date range). PERIOD:
+
+Confirmation that there was no reported system                              NO
+malfunctions during the date range period.
+
+Barcode information for all remittance pouches (inward                      NO
+& outward) during the period.
+
+Barcode and car licence details          for   all   DVLA related            NO
+transactions.
+
+PAN or equivalent identifier (i.e. credit / debit card                       NO
+details).
+
+Other (Provide details):                                                     NO
+
+
+Signed:            VIA E MAIL - Dave Posnett
+
+
+
+
+V4 November 2007
+

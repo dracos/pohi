@@ -1,0 +1,133 @@
+                                                                                                                               POL00029588
+                                                                                                                            POL00029588
+
+
+
+
+Message
+From:       Simon Baker [imceaex-
+            _o=mms_ou=exchange+20admi nistrative+20group+20+28fydi bohf23spolt+29_cn=recipients_cn=si mon+2ebaker4b1a8ef6-
+            d2e0-4dec-94ea-591dfa651f2e@c72a47.ingest.IocaI]
+Sent:       16/05/2013 18:46:29
+To:         Lesley 1 Sewell [     -----_ — _GRO             ; Alwen Lyons;             GRo
+Subject:    FW: Balancing Issues in 2010
+Attachments:Picture (Device Independent Bitmap) 1.jpg; Picture (Device Independent Bitmap) 2.jpg; Picture (Device Independent
+            Bitmap) 3.jpg; Picture (Device Independent Bitmap) 4.jpg
+
+
+Lesley, Alwen
+
+Brief overview of the problem encountered in 201.0 below.
+
+The reassuring point, for those looking for comfort, is that in this case Horizon's monitoring systems automatically
+picked up the anomaly.
+
+Simon
+
+
+From: Jenkins Gareth GI [mailto4._                  GRg._._._._._._._._._._._._._.
+Sent: 16 May 2013 15:52
+To: Simon Baker
+Cc: Davidson James
+Subject: Balancing Issues in 2010
+
+Simon,
+
+Here is a quick briefing on the Balancing issue we had in 2010 in preparation for tomorrow's meeting with Lesley.
+
+When a clerk balances a stock unit the rollover screen is eventually displayed, and the clerk then presses the Preview or Print button
+to produce the Trial Balance Report. The counter then returns to the rollover screen.
+
+Having checked the report, the clerk then presses the Rollover button, and in normal circumstances is given the choice of rolling to a
+new Balance Period (BP) or a new Trading Period (TP).
+
+If the clerk chooses to rol l to a new TP, and net discrepancies are present, then the system asks whether the clerk wishes to transfer
+the net discrepancy to local suspense, or else cancel the rollover (MSG31316).
+
+If the clerk presses Cancel on MSG31316, and on the rollover screen then presses Rollover again, then the Final Balance report will
+have a Receipt/Payments mismatch (Total Receipts not equal to Total Payments) which will ultimately lead to a Non -zero Trading
+Position on the Branch Trading Statement.
+
+If the clerk does not check the Final Balance report, he/she may not be aware that the report has a Receipts/Payments mismatch.
+For a Trial Balance report the counter does warn the clerk if a Receipt/Payments mismatch occurs, for a Final Balance report it does
+not. This is as stated in use case BAC-11 Balance Stock Unit. The counter however does always raise error 0902 in the log file and NT
+event log.
+
+The key message is the last statement, namely that "The counter however does always raise error 0902 in the log file and NT event
+log". What this means is that an unexpected alert is raised that should be picked up by our Alert monitoring systems that will ensure
+that the problem is investigated by our support teams. In other words, the system is designed to spot a problem like this as it is
+something that should never happen (other than as a result of bugs) and if it does happen, then an alert is raised so it can be
+investigated.
+
+One of the actions that we are taking as a result of the Local Suspense problem we found this year is to put in some further checks
+for "situations that should never happen" that related to that problem and to raise an alert if they do.
+
+
+
+
+                                                                                                                            POL-0026070
+                                                                                                                         POL00029588
+                                                                                                                     POL00029588
+
+
+
+
+I attach a document I produced for Post Office Ltd in May 2011 where I put together a storyboard showing the exact sequence of
+events for one of the affected branches.
+The problem affected around 60 Branches. I understand that FSC communicated with all the affected branches and compensated
+them where appropriate.
+
+
+Regards
+
+Gareth
+
+Gareth Jenkins
+Distinguished Engineer
+Business Applications Architect
+Post Office Account
+
+
+ ova::                               s ai~ar
+T                  GRO                    h' RG12
+                                               ,
+                                                  °------------
+                                                  GRO
+ertai€:              -         GRO -!'            '               -
+Web:            ~1ttp:~u'!{AUfiE. 6 -.-.-.-.-.-.-.-.-.-
+
+
+
+
+Fujitsu is proud to partner with Shelter, the housing and homeless charity
+Reshaping ICT, Reshaping Business in partnership with FT.com
+
+          Please consider the ervirorment - do you really reed to print this email?
+
+
+
+
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+
+
+
+                                                                                                                      POL-0026070
+

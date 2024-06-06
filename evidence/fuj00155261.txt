@@ -1,0 +1,174 @@
+                                                                                                                                                                                    FUJO0155261
+                                                                                                                                                                               FUJO0155261
+
+
+
+
+From:                            Budworth John[/O=EXCHANGE/OU=ADMINGROUP1/CN=RECIPIENTS/CN=BUDWORTHJ]
+Sent:                            Wed 10/09/2008 9:21:31 AM (UTC)
+To:                              Evans Steve
+Cc:                              Barnes Gerald __ _ _ _ _ _ _________-._._-GRO                                       '- Chambers
+                                                                                                                                                                  . ... .. ... ... .
+                                                                       GRO
+                                 Adrian ._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.  Seddon Dave ._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._..
+                                                                                                                                                       GRO
+                                 Saunders Keitff------------------------cRo--------------_-_-_-_---- ; Cozens Tyrone
+                                 TJS[ _._._._._._._._._._._.-_.-GRO _-_-_-_-_-_-_-_-_-_-_-_-_-_-1; Higman Lionel MI_-__-_-_-_-_-_-_-_-_-_-_-_ -Ro-_-_-_-_-_-_-_-_-_-_-_- -_ Gelder
+                                 Robert                            GRO                                  l; Morley Karen V                            GRO                               - Peach
+                                 Mikil                    GRO                                Bamber             Sheila;                GRO                                -    Cumming
+                                 Marshall[f                                  GRO.~                                ; Jenkins Gareth
+                                 GI                         GRO
+Subject:                              RE: Peak 152376: CAPS Process Locking the messagestore PCO164429
+
+Thanks all,
+I'll check RMF stack again tomorrow but nothing other than this PEAK in their currently.
+I'll authorise PEAK 164429 for T86 but would like to move this forward sooner rather than later so test and deploy as
+early as possible in October.
+Rgds
+John
+
+       -----Original Message-----
+      From:           Evans Steve (FEL01)
+      Sent:           09 September 2008 17:29
+      To:             Budworth John
+      Cc:             Barnes Gerald; Chambers Adrian; Seddon Dave; Saunders Keith; Cozens Tyrone TJS; Higman Lionel M; Gelder Robert; Morley Karen
+                           V; Peach Mik; Bamber Sheila; Cumming Marshall; Jenkins Gareth GI
+      Subject:        RE: Peak 152376: CAPS Process Locking the messagestore PC0164429
+
+      I note that Mik has replied, and yes this one has become a higher priority with the customer.
+      It's not related to PC147179, which I've actually just returned 'no fault in product', so doesn't exist anymore
+
+      Gerald has requested a target of T86 as he has gone off on leave until the 23`d Sept.
+      Therefore a fix will not be available before the 25th.
+      If this is a real problem to anyone please let me know.
+
+      Steve
+
+      Stephen A Evans
+      This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged.
+      Fujitsu Services does not guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+           Before printing, think about the environment
+
+
+
+
+      From: Budworth John
+      Sent: Tuesday, September 09, 2008 4:10 PM
+      To: Evans Steve (FEL01); Peach Mik; Bamber Sheila; Cumming Marshall; Jenkins Gareth GI
+      Cc: Barnes Gerald; Chambers Adrian; Seddon Dave; Saunders Keith; Cozens Tyrone TJS; Higman Lionel M; Gelder
+      Robert; Morley Karen V
+      Subject: FW: Peak 152376: CAPS Process Locking the messagestore PCO164429
+
+      All,
+      PEAK 164429 (clone of 152376) has arrived in RMF. At the moment this is the only PEAK in RMF.
+      I'm not sure why this has been re-visited by Counter-Dev and Gareth as we decided we were not going to fix this
+      back in January.
+      Has something in live increased the problem or has it beed raised as an issue by the customer or elsewhere? I don't
+      know.
+      Anyway, CABSProcess is part of LFS COUNTER. I am not expecting any other LFS change during Horizon but it
+      might be worth looking at LFS related PEAK 147179.
+                                                                                                                                       FUJO0155261
+                                                                                                                                     FUJO0155261
+
+
+
+
+We initially said we would fix this next time we visited the LFS code but later updates suggest not. Currently with
+EPOSS-DEV targeted at T60.
+I don't particularly want to be delivering anything into Horizon that can be avoided but if an LFS drop is required it
+could be done in parallel with other activities.
+
+Comments welcome.
+
+Rgds
+John
+
+ -----Original Message-----
+From:           Seddon Dave (BRA01)
+Sent:           09 September 2008 15:37
+To:             Budworth John
+Subject:        FW: Peak 152376: CAPS Process Locking the messagestore PCO164429
+
+FYI
+
+
+From:           Seddon Dave (BRA01)
+Sent:           05 September 2008 13:01
+To:             Evans Steve (FEL01); Jenkins Gareth GI; Birkinshaw Roy
+Cc:             Burton John; Chambers Anne 0; Barnes Gerald
+Subject:        RE: Peak 152376: CAPS Process Locking the messagestore PCO164429
+
+Didn't have the option to reopen call so have simply taken a clone. Call PCO164429 is therefore now with Gerald.
+
+
+From:           Evans Steve (FEL01)
+Sent:           04 September 2008 17:16
+To:             Jenkins Gareth GI; Birkinshaw Roy
+Cc:             Burton John; Chambers Anne 0; Barnes Gerald; Seddon Dave (BRA01)
+Subject:        RE: Peak 152376: CAPS Process Locking the messagestore
+
+Gerald,
+Can you liaise with Dave Seddon / Lionel to get this re-opened and then back to RMF?
+Thanks
+Steve
+
+Stephen A Evans
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged.
+Fujitsu Services does not guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+l~ Before printing, think about the environment
+
+
+
+
+From: Jenkins Gareth GI
+Sent: Thursday, September 04, 2008 11:47 AM
+To: Birkinshaw Roy
+Cc: Evans Steve (FEL01); Burton John; Chambers Anne 0; Barnes Gerald
+Subject: Peak 152376: CAPS Process Locking the messagestore
+
+Roy,
+
+As requested yesterday, I've had a look at the relevant code and a chat with Gerald and I'm satisfied that the fix that
+Gerald has proposed for this peak is low risk and should remove this particular cause of timeouts.
+
+The actual Peak is now closed, so I'm not sure exactly what process should be followed, but effectively what I think
+we need is for the peak to be re-opened and sent to RMF for further consideration in light of recent investigations.
+
+Are you and Steve able to progress it from here?
+
+Regards
+                                                                                                                                                    FUJO0155261
+                                                                                                                                                  FUJO0155261
+
+
+
+
+Gareth
+
+Gareth Jenkins
+Distinguished Engineer
+Applications Architect
+Royal Mail Group Account
+
+FUJITSU
+Lovelace Road,Bracknetl,         Berkshire, RG12 BShi
+            r ._._._._._._._._. ._._._._._._._._. ._._._._._._._._._._._._._._._._._._._._._._
+Tel'
+Mobile:
+email:
+                                                                         GRO
+Weh:
+                                    http:(%uk.fuiitsu.coni
+
+
+
+
+           Please consider the environment - do you really need to print this email?
+
+                                   Fujitsu Services Limited, Registered in Encland no 96056, Registered Office 22 Baker Street. London, W1U 30W
+
+    This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu
+                   Services does not guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+

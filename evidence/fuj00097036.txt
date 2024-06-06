@@ -1,0 +1,348 @@
+                                                                                                                                                                 FUJ00097036
+                                                                                                                                                               FUJ00097036
+                                                                _._._._._._._._._._._._.           A------ ._._                  GRO
+To:         Allen Graham ((BRA01                      " GRO
+                              _._._._._._.1 _ ___: ----------------------                ~; Holmes                                                   _._ ;Mansfield
+Andrews _                GRo                        " Spurgeon Adam                                 GRO
+From:       Jenkins Gareth GI
+Sent:       Thur 6/24/2010 4:30:45 PM (UTC)
+Subject: RE: PCO200468 - Duplication of Transaction Records
+IMF.' Ddnli : .,anr of an' ar ;r' Raccrrl n .R(` Retlr.
+
+ Graham,
+
+
+
+ There is a separate email exchange with Guy who is suggesting we don't tell POL about the issue until the HNG-X programme (he's
+ included Alan and Geoff) have a chance to consider things to ensure it doesn't impact acceptance next week (see attached email
+ trail)
+
+
+  Regards
+
+
+
+ Gareth Jenkins
+ Distinguished Engineer
+ Applications Architect
+ Royal Mail Group Account
+
+
+ FUJITSU
+ Lovelace Road, Bracknell, Berkshire, RG12 8SN
+ Tel:                                                               GRO
+             i.. ._.      GRO            ..J nterna;.
+ Mobile:       I _--. _—._ _GRO_                Internal: L._ _ _ _GRO- -•- .._
+ email:          Gareth.Jenkins(a                0_._._._I
+ Web:                  http://uk.fumitsu.com
+
+
+
+          Please consider the environment - do you really need to print this email?
+
+
+                                           Fujitsu Services Limited, Registered in England no 96056, Registered Office 22 Baker Street, London, W1U 3BW
+
+    This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu Services does not guarantee
+                                                  that this e-mail has not been intercepted and amended or that it is virus-free.
+
+
+
+
+              From: Allen Graham (BRA01)
+              Sent: 24 June 2010 17:28
+              To: Holmes Alan; Mansfield Andrew; Spurgeon Adam
+              Cc: Jenkins Gareth GI
+              Subject: RE: PCO200468 - Duplication of Transaction Records
+
+              Thanks Alan,
+
+              Then I suspect neither will get targeted until post R2 as Gareth has identified a workaround I believe.
+
+
+              Graham Allen
+              Application Services — Post Office Account
+
+              FUJITSU
+              Lovelace Road, Bracknell, Berkshire. R012 BSN_._
+              Tel:           GRO                br Internally!
+              Mob:._._._._,_. _._._._._._ _ _ _.l or InternalI;      GRO
+                                                                   ~7 R
+                                                        _._._i _._._._._._._._._._._.
+              E-mail: graham.allen                GRO
+              Web: http:!/uk.fuiitsu.corn
+
+
+                        Please consider the environment - do you really need to print this email?
+
+
+              Fujitsu Services Limited. Registered in England no 96056, Registered Offic;o: 22 Baker Street, I ondon, W1U 3BW
+                                                                                                                                                FUJ00097036
+                                                                                                                                            FUJ00097036
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu Services does not
+guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+
+
+
+From: Holmes Alan
+Sent: 24 June 2010 17:17
+To: Allen Graham (BRA01); Mansfield Andrew; Spurgeon Adam
+Cc: Jenkins Gareth GI
+Subject: RE: PCO200468 - Duplication of Transaction Records
+
+Graham
+
+The fix for PCO200468 is a Audit server application change. Gerald is currently producing a fix to the R1 code, this
+
+
+
+
+                                                                                                                                                     will
+need carrying forward to R2.
+
+PCO194639 will require a change to the workstation applications only. It would also conflict with the R2 version. We have
+worked out how to handle this, but I don't think Andy has started any code changes for this as yet (he is on leave at the
+moment). If we get the PCO200468 fix in, I think that we can leave this for the time being.
+
+
+
+
+From: Allen Graham (BRA01)
+Sent: 24 June 2010 14:11
+To: Mansfield Andrew; Spurgeon Adam
+Cc: Holmes Alan; Jenkins Gareth GI
+Subject: RE: PCO200468 - Duplication of Transaction Records
+
+Thanks Andy,
+
+Is this fix on the Audit Workstation ONLY? And does it conflict with any R2 changes for Audit?
+
+If the answers are Yes and No we should be able to push this through for Penny even if Penny has to test it on LST herself?
+
+Alan, Gareth, views?
+
+
+Graham Allen
+Application Services — Post Office Account
+
+FUJITSU
+Lovelace Road, Bracknell, Berkshire. RG12 8SN.
+Tel:       ------' ..............Dr Internally
+                                           GRO
+ti1obL._._._._._._._._._._._._--._._._I or Internally,
+E-mail: graham.allen@'                  GRO
+Web: hh 'uk.fuiitsu.co'rr                    '
+
+
+       Please consider the environment - do you really need to print this email?
+
+
+Fujitsu Services Limited, Registered in England no 96056, Registered Office: 22 Baker Street, London, VVIU 3BW
+
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu Services does not
+guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+
+
+From: Mansfield Andrew
+Sent: 23 June 2010 16:32
+To: Allen Graham (BRA01); Spurgeon Adam
+Cc: Holmes Alan
+Subject: RE: PCO200468 - Duplication of Transaction Records
+
+
+
+1e7•Y.I•I•L[:I1
+                                                                                                                                                   FUJ00097036
+                                                                                                                                                 FUJ00097036
+
+
+
+(We have seen cases of duplicate message numbers — not duplicate messages themselves — in HNG-X data. These will
+not be removed by this fix so there will still be a need for PCO194639 to highlight the duplicates.)
+
+This Peak was proposed for release 01.23 and is currently with RMF for targeting.
+
+
+
+
+This Peak is probably less serious. The information that shows that duplicates have been found in the data is displayed to
+the user but may be hard to spot in large output. The purpose of the Peak is to highlight more clearly that duplicates have
+been found.
+
+We do not yet have a fix - it will take 2 - 3 man days.
+
+
+
+
+From: Allen Graham (BRA01)
+Sent: 23 June 2010 15:22
+To: Spurgeon Adam; Holmes Alan; Mansfield Andrew
+Subject: FW: PCO200468 - Duplication of Transaction Records
+
+
+
+Do we have fixes for these peaks? If not how long to have them ready; presuming they actually get targeted?
+
+
+Graham Allen
+Application Services — Post Office Account
+
+FUJI"rsu
+I ovelace Road, Bracknell, Berkshire, RG, "f P''r1.
+Tel
+    _._._._._. .GRO. . . .Dr Internally;"" GRO
+                           -
+                     ._._._._._.i or Internallj ._._._._._._._._.
+E-mail: praham.allenCa _,_,_,Cio           _J
+Web: http:l/uk.fuiitsu.corn
+
+
+        Please consider the environment - do you really need to print this email?
+
+Fujitsu Servic;os I,.imited, Registered in England no 96056, Registered Office: 22 Baker Street, London, Wit 3BW
+
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu Services does not
+guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+
+
+From: Welsh Graham
+Sent: 23 June 2010 13:14
+To: D'Alvarez Alan; Allen Graham (BRA01); Andrews Mark (GD HQ); Cochrane Vince; Davidson James; Van Achte Gaetan;
+Butts Geoff; Richardson Debbie DB; Thompson Peter
+Subject: FW: PCO200468 - Duplication of Transaction Records
+
+All,
+
+Please see halo '-„11and _rtt. ched FYI I n      an e we `" at; ., , prcole Y' auth tl a /'<<2. rex S actin . tcol. I ir.r:f<: Hi ori7_on this ;^I`;u10 ini'il") t the
+                                                                      s.
+                                                             ;a
+
+
+
+
+                                                                  c
+
+
+
+
+                  _^
+do ha uto 5r or t",n no r`I t: orr, It a I,,1ldi    .t. ''r ;< id ha    noi f „"iC tt.a f'r (?I.€.'+ `_C ;.- i$i`: ?I.€: d. nit at .d ten rdt.
+
+He vF,,,er the HNGx tool cinec not and thus duplicate records -ha' cart rot ne differentiated are supolied ar es de'nce, Thus could
+allow for legal challenge to tare integrity of the s,rst om,
+                                                                                                                                              FUJ00097036
+                                                                                                                                          FUJ00097036
+
+
+IZe
+
+Ci rcthcuii1
+
+
+        From: Thomas Penny
+        Sent: Wednesday, June 23, 2010 11:56 AM
+        To: Welsh Graham
+        Cc: Munro Donna
+        Subject: FW: PCO200468 - Duplication of Transaction Records
+
+
+
+
+        Kind regards
+        Penny
+
+        Penny Thomas
+        Security Analyst, Customer Services
+
+        Fujitsu Services Retail & Royal Mail Group Account
+        Lovelace Road, Bracknell, Berks RG12 8SN
+
+        Tel:
+                                ._._._._._._._._._._._._.    _._._._.
+        Mob' r_
+        Fax:
+                  ._._._._._._._._._._._._._GO                          _.
+
+        E-Mail: penny.thomasl      GRo
+        Web: http://uk.fujitsu.com
+
+        Fujitsu Services Limited, Registered in England no 460r6. i:ogialered Office 22 i,akcr S     or,doo VVII F %RVI
+        This E-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu Services
+        does not guarantee that this E-mail has not been intercepted and amended or that it is virus-free.
+
+
+        From: Lywood Pat
+        Sent: 23 June 2010 11:53
+        To: Thomas Penny; Welsh Graham; Spurgeon Adam
+        Subject: RE: PCO200468 - Duplication of Transaction Records
+
+
+
+
+        Adam,
+
+                     Pleaes can you get your guys to take a look at this and let me know where the fix might be?
+
+        Cheers
+
+        Pat
+        Service Implementation Manager
+        FUJITSU
+
+        Mob. i    _ _ _ _ _ GRO_       _ Internal:   L._._. GRO._._._
+
+        E-mail: pat.lywood         GRo_
+        Web:     <httpau]_     itsu.com-
+
+
+                 Please consider the environment - do you really need to print this email?
+                                                                                                                                      FUJ00097036
+                                                                                                                                  FUJ00097036
+
+From: Thomas Penny
+Sent: 23 June 2010 10:29
+To: Lywood Pat
+Subject: PCO200468 - Duplication of Transaction Records
+
+Hi Pat
+
+We have a very significant problem which has been recorded in PEAK PCO200468. In a nut shell the HNG-X
+application is not removing duplicate transactions (which may have been recorded twice on the Audit Server) and
+they are appearing in the ARQ returns. For the old Horizon application Riposte automatically removed duplicate
+entries. An initial analysis shows that one third of all ARQ returns (since the new application has been in play)
+have duplicated transactions.
+
+Also, we have a PEAK PCO194639 which would highlight any duplication of records (this obviously isn't happening
+now).
+
+Kind regards
+Penny
+
+
+Penny Thomas
+Security Analyst, Customer Services
+
+Fujitsu Services Retail & Royal Mail Group Account
+Lovelace Road, Bracknell, Berks RG12 8SN
+
+
+
+Mob:
+                     GRO
+E-Mail: penny_
+            thomas , GRO
+                      c
+
+
+
+
+Web: http://uk.fujitsu.com
+
+
+Fujitsu Services Limited, Registered in England no 96056 Registered Office 22, Raker Street, London Viii. U 366
+This E-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu Services
+does not guarantee that this E-mail has not been intercepted and amended or that it is virus-free.
+

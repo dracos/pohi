@@ -1,0 +1,1255 @@
+                                                                                                          POL00029282
+                                                                                                        POL00029282
+
+
+
+Fujitsu Services                       Operational Change Process            Ref:       CS/RRD/019
+                                                                             Version:   1.0
+                                         Company-in-Confidence               Date:      18-MAR-2004
+
+
+Document Title:                       Customer Service Operational Change Procedure
+
+Document Type:                        Procedure
+
+Release:                              N/A
+
+Abstract:                             This document describes the procedure for Operational Changes
+                                      where the changes are made to the live operation.
+Document Status:                      APPROVED
+
+Originator & Dept:                    Mike Stewart (Mik Peach)
+
+Contributors:                         Mik Peach; Steve Parker
+
+Internal Distribution:                Richard Brunskill; Steve Parker; John Simpkins; Mike Stewart;
+                                      Ken Wood; POA Library
+External Distribution:                John Bruce (Post Office Ltd)
+
+       Approval Authorities:            (See PA/PRO/010for Approval roles)
+
+
+                                Position                      Signature                 Date
+Name
+
+
+
+
+Peter Burden                    Customer Service
+                                Operations & Support
+                                Manager.
+
+
+
+
+                                            Company-in-Confidence                       Page: 1 of 23
+                          (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+       ©Copyright Fujitsu Services Limited 2004
+                                                                                                       POL00029282
+                                                                                                     POL00029282
+
+
+
+Fujitsu Services                   Operational Change Process             Ref:       CS/RRD/019
+                                                                          Version:   1.0
+                                    Company-in-Confidence                 Date:      18-MAR-2004
+
+
+
+ 0.0 Document Control
+ 0.1     Document History
+Version No.        Date            Reason for Issue                                    Associated
+                                                                                       CP/PinICL
+0.1                20/8/99         First draft
+0.2                2/4/03          Rewrite after changes to the process
+0.3                15/4/03         Changed after comments
+0.4                13/11/03        Additions Added to Generating OCP and
+                                   Approving OCP, Section 2.2 & 2.3
+0.5                24/02/04        Some corrective changes made re comments
+                                   sheet from Dave Anders & Suzanne Robson
+                                   POL.
+1.0                18/03/04        Changes made in 0.5 Approved by POL, no
+                                   further impacts out for Approval.
+
+
+ 0.2     Review Details
+Review Comments by:            29/03/04
+Review Comments to :           Mike Stewart
+
+
+Mandatory Review Authority                        Name
+Fujitsu Services Ltd                              Peter Burden
+
+
+
+
+                             Optional Review / Issued for Information
+Fujitsu Services Ltd                               Richard Brunskill; Steve Parker; John
+                                                   Simpkins; Mike Stewart;
+                                                  Ken Wood; POA Library
+Post Office Ltd                                   John Bruce (Post Office Ltd)
+ (* ) = Reviewers that returned comments
+
+
+
+                                       Company-in-Confidence                         Page: 2 of 23
+                       (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                      POL00029282
+                                                                                                    POL00029282
+
+
+
+Fujitsu Services                  Operational Change Process             Ref:       CS/RRD/019
+                                                                         Version:   1.0
+                                       Company-in-Confidence             Date:      18-MAR-2004
+
+
+
+
+ 0.3      Associated Documents
+Reference            Version      Date               Title                          Source
+CS/QMS/007           1.1          28/02/02           Operations Manual for the
+                                                     Customer Service
+                                                     Directorate
+
+
+ Unless a specific version is referred to above, reference should be made to the current
+ approved versions of the documents.
+
+
+ 0.4      Abbreviations/Definitions
+Abbreviation                Definition
+CM                          Post Office Account Configuration Management
+CP                          Post Office Account Change Proposal
+CS                          Post Office Account Customer Service
+OBC                         Operational Business Change
+OCP                         Operational Change Proposal
+OCR                         Operational Correction Request
+SSC                         Post Office Account System Service Centre (31d line support)
+
+
+ 0.5      Changes in this Version
+Version                     Changes
+0.1                         None this is the first draft
+0.2                         Complete rewrite of the process following changes
+0.4                         Additions added to Generating OCP added a Monitoring Box to
+                            form Section 2.2.
+                            Risk Identified to "Live Service" must add comments in the
+                            Comments Box especially on PO Generated OCPs
+0.5                         Admin errors corrected on Table of Content and page numbers
+                                 l.a      "Work" removed from Introduction paragraph.
+                            2.1 OCPs going outside of Fujitsu Services
+                            2.7 added some extra comment on Escalation end of section
+
+                                         Company-in-Confidence                      Page: 3 of 23
+                     (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                   POL00029282
+                                                                                                 POL00029282
+
+
+
+Fujitsu Services                  Operational Change Process          Ref:       CS/RRD/019
+                                                                      Version:   1.0
+                                    Company-in-Confidence             Date:      18-MAR-2004
+
+
+1.0                         None, out for Approval
+
+
+ 0.6 Changes Expected
+Changes
+      •   Possible changes as a result of the additions made.
+
+
+
+
+                                       Company-in-Confidence                     Page: 4 of 23
+                     (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                                                 POL00029282
+                                                                                                                               POL00029282
+
+
+
+Fujitsu Services                        Operational Change Process                             Ref:          CS/RRD/019
+                                                                                               Version:      1.0
+                                           Company-in-Confidence                               Date:         18-MAR-2004
+
+
+ 0.7 Table of Content
+
+1.0       INTRODUCTION.....................................................................................................6
+
+ 2.0      THE OCP PROCESS............................................................................................... 6
+    2.1      PROCESS OVERVIEW................................................................................................ 6
+    2.2      GENERATING AN OCP............................................................................................. 7
+    2.3      APPROVING AN OCP............................................................................................... 9
+    2.4      ACTIONING AN OCP.............................................................................................. 11
+    2.5      ADDING COMMENTS TO AN OCP ........................................................................... 13
+    2.6      WITHDRAWING AN OCP........................................................................................ 14
+    2.7      POST OFFICE LTD INVOLVEMENT IN OCPS AND CROSS-DOMAIN OCPs.................14
+ 3.0      OCP ADMINISTRATIVE FUNCTIONS..............................................................16
+    3.1      LISTING OCPs....................................................................................................... 16
+    3.2      SEARCHING FOR OCPS.......................................................................................... 18
+    3.3      SAVING OCPS....................................................................................................... 19
+    3.4      COPYING OCPS..................................................................................................... 19
+    3.5      ADDING AND DELETING ATTACHMENTS TO OCPS.................................................. 20
+ 4.0      PGP AND PUBLIC KEY CRYPTOGRAPHY (OVERVIEW)............................ 21
+
+ 5.0      OCP TURNAROUND TARGET TIMES..............................................................23
+
+ 6.0      DIFFERENCES BETWEEN OCP AND OCR PROCESSES.............................. 23
+
+
+
+
+                                              Company-in-Confidence                                          Page: 5 of 23
+                       (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                        POL00029282
+                                                                                                                  POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                      Ref:         CS/RRD/019
+                                                                                     Version:     1.0
+                                        Company-in-Confidence                        Date:        18-MAR-2004
+
+
+
+1.0 Introduction
+ This document describes the Operational Change Process and the use of OCPs. This document also describes
+ the set up and use of PGP electronic signing keys. The document shows a PGP user how to set up a key, define
+ a key ring of other "signers" and describes the signing operation which is used within Customer Service.
+
+
+
+
+ 2.0 The OCP Process
+ 2.1      Process Overview
+ All of the processes which make up the overall OCP process are performed on-line using the OCP and OCR
+ sections of the SSC web site, with the exception of those OCPs which have cross-domain implications and
+ therefore need to be communicated to Post Office Ltd — see section 2.7. All Fujitsu staff who are involved in
+ the process must have access to the SSC web site.
+
+ The process flow of an OCP is as follows:
+     • OCP is raised
+     •    If the OCP is not retrospective:
+ §    Post Office Account Operations are required to approve the OCP before it can be approved by any other
+ team
+         Other teams can then approve the OCP
+ §       Once all required teams have approved the OCP Post Office Account Operations need to make it
+ available to the actioning team before the OCP can be actioned.
+     •    If the OCP is retrospective it is made available to the actioning team as soon as it is raised.
+     •    The actioning teams action the OCP
+     •    Post Office Account Operations then complete the OCP.
+
+
+ Once the OCP has been approved by Post Office Account Operations then people can add comments to it.
+ Once the OCP has been completed or withdrawn then no comments are permitted.
+ Only Post Office Account Operations can withdraw an OCP.
+ Only Post Office Account Operations have access to the History log that is written for each OCP.
+          OCPs sometimes need to be sent to users outside of Fujitsu Services (Post Office Account), or attached
+          as evidence to a PinICL. In particular, OCPs which have cross-domain implications for example
+          Network Banking or Debit Card need to be sent to Post Office so that they can be propagated to the
+          other domains/suppliers of the Post office.
+ Whilst there is no special facility to do this, it is possible to achieve this, (refer to "Saving OCPs" section 3.3)
+ For retrospective OCPs teams may need to be aware that they have been raised.
+ If so then an email needs to be sent to inform teams that it has been raised so that comments can be added to
+ the OCP.
+ Comments can not be added to the OCP once it has been completed.
+
+
+                                             Company-in-Confidence                                Page: 6 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                     POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                     Ref:         CS/RRD/019
+                                                                                    Version:     1.0
+                                       Company-in-Confidence                        Date:        18-MAR-2004
+
+
+
+
+ 2.2     Generating an OCP
+         Anyone can raise an OCP, except those who have logged onto the SSC web site using the "OCPview"
+         user. OCPs raised by Post Office Ltd, either at their own behest, or on behalf of other domains are
+         emailed to Post Office Account Operations, who will raise the OCP on the web site.
+         Once raised the OCP must then be approved by Post Office Account Operations, before it can be
+         approved by any other team, unless it has been raised retrospectively.
+
+ If the OCP is raised retrospectively, then the approval stages are not required since the work has already been
+ done, and so it is made available to be actioned without requiring Post Office Account Operations intervention.
+ Teams may be required to be aware of retrospective OCPs, and Post Office Account Operations will make
+ those teams aware that the OCP has been raised. These teams can then add a comment to the OCP to state that
+ they are aware of the OCP.
+
+         To raise an OCP, the user must tale the following actions -
+                  Click on the "Raise a HTML OCP" link.
+
+                   As long as the user is not logged into the web site using the "OCPview" user, the Raise OCP
+                   form will be displayed
+                   If the OCP is a retrospective OCP (i.e. the work has already been done) then the user should
+                   tick the "Raised retrospective" box. Once the OCP has been raised it will be made available
+                   to the actioning team for them to action it.
+
+                   Enter the date that the OCP is required to be actioned. This will default to today's date.
+                   Enter the time that the OCP is required to be actioned. This is optional. If it is not entered
+                   then it will default to 23:59.
+                   If the user has logged into the web site using a team username, then it is necessary to enter a
+                   full name in the "Raised by" field, otherwise this field will be filled in automatically and
+                   cannot subsequently be changed.
+                   Enter an email address if the user wishes to be informed when the OCP has been completed.
+                   This is optional, except where the OCP has been raised at the request of Post Office Ltd,
+                   where their return email address should be entered.
+                   Enter a title for the OCP. This should be something meaningful as this title will be displayed
+                   as part of the search results.
+                   Enter a brief summary of the OCP. Again this will be displayed as part of the search results.
+                   Enter the location where the changes are to take place. A list of common locations are in the
+                   drop down list to the right of this field. Selecting an entry in the drop down list will add it
+                   into the "Change at (Location)" field to it's left.
+                   Enter the Machine IDs of the machines affected, or if insufficient space, specify "See below"
+                   and enter the machine ids into the Details and Purpose of Change box.
+                   Enter the type of change required.
+                   Select the Priority and the Risk of the OCP from the drop down lists. The defaults are High
+                   Priority and Medium Risk.
+                   Specify whether the change will affect the service from the drop down list. The default is
+                   "No".
+
+                                          Company-in-Confidence                                  Page: 7 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                    POL00029282
+                                                                                                                POL00029282
+
+
+
+Fujitsu Services                       Operational Change Process                    Ref:       CS/RRD/019
+                                                                                     Version:   1.0
+                                         Company-in-Confidence                       Date:      18-MAR-2004
+
+
+                    Enter the scheduled duration of the change. This is optional.
+                    Enter the Machine and Service IDs. These are optional.
+                    Specify whether the system build is affected by this change. If it is then the Post Office
+                    Account Development Team will be automatically selected as a team required to approve the
+                    OCP when the details are transmitted to the server, unless the OCP is a retrospective one.
+                    The default is "No".
+
+
+                    Specify whether the change is required on the LST rigs. The default is "No".
+                   Enter the Powerhelp and PinICL call references. These are optional. The system will add
+                   leading zeros to both the Powerhelp and PinICL references. In addition, the system will
+                   ensure that the Powerhelp reference is in the correct format of "yymmddnnnn". For example,
+                   if today is 22/01/2002 and the user specifies the Powerhelp call reference as "1", the system
+                   will make that into a valid Powerhelp reference of "0201220001". When the OCP is raised it
+                   will contain a link to the Powerhelp call specified, which when clicked on will attempt to
+                   display the Powerhelp call details. The system does not check that the Powerhelp call entered
+                   actually exists.
+                    Enter the originator's reference if any. This is optional.
+                    Select the teams required to approve the OCP. This is optional in most cases. If the OCP is
+                    being raised for a business continuity test or for any part of the system which will have a
+                    cross-domain impact, for example changes to the Network Banking Agents, comms links to
+                    Streamline or IBM, routers etc, then the OCP must be forwarded to Post Office Ltd.
+                    Individual teams can be selected by holding down the CTRL key. The list of teams does not
+                    include Post Office Account Operations, Post Office Account Service Management or Post
+                    Office Account SSC Support. These teams will be automatically added and required to
+                    approve the OCP when the details are transmitted to the server, unless the OCP is
+                    retrospective.
+                    Select the teams that are to action the OCP.
+                    Individual teams can be selected by holding down the CTRL key.
+                    Post Office Account Operations can add teams to the OCP in both the list of teams to approve
+                    and to action. Any teams added this way apply only to this OCP.
+                    Enter the details and the purpose of the change.
+                    Enter any regression actions. This is optional.
+                    Enter the justification for the OCP.
+                    Complete the "Responsibility for Monitoring" box. This should specify the name of the
+                    person(s) or team(s) who have the responsibility for monitoring the effect of the OCP once
+                    implemented. In particular the monitoring should be checked that there is NO detrimental
+                    effect on the "Live Service". If necessary the details of the monitoring to be undertaken can
+                    be specified in the "Details & Purpose of Change" section.
+                    Once the form has been filled in press the "Raise OCP" button.
+
+
+ The form will then be checked to ensure that the required fields have been completed.
+ If all is okay at this stage, the details will be transmitted to the server.
+
+
+
+
+                                             Company-in-Confidence                              Page: 8 of 23
+                       (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                                        POL00029282
+                                                                                                                  POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                      Ref:         CS/RRD/019
+                                                                                     Version:     1.0
+                                       Company-in-Confidence                         Date:        18-MAR-2004
+
+
+ If the form fails the initial validation the cursor will be placed into the field that caused the error and the user
+ will need to correct the error before the details will be transmitted to the server.
+
+
+ If the server responds with an error then the user will need to press the "Back" button on their web browser
+ and re-enter the correct details.
+
+
+ NOTE — an OCP is raised in order to make a change to the live system. If the change is
+ likely to affect a system build, then the relevant part of the form must be set to YES. If
+ the change is being made to the system in order to overcome an operational deficiency
+ which should be permanently fixed in the system code, then there MUST be a call raised
+ to report the problem, and the call reference added to the OCP.
+
+
+
+ 2.3 Approving an OCP
+          Before the OCP can be actioned it must be approved. If the OCP is retrospective then this stage is not
+          required and the OCP will already be available to be actioned.
+
+ Only the selected teams are allowed to approve the OCP. Once the selected teams have all approved the OCP
+ then it is marked as approved.
+
+
+ Post Office Account Operations can approve the OCP on behalf of any of the teams, and they can also override
+ the approval stage and make it available to be actioned if necessary. Once the OCP has been made available to
+ be actioned then approvals will not be allowed.
+
+
+ If a team does not approve the OCP then they need to add a comment to that effect and inform Post Office
+ Account Operations.
+ Teams selected to approve the OCP are shown in the OCP by an asterisk against the team. Once the team has
+ approved the OCP this will change to the name of the person who approved it for that team.
+ Only users who are flagged as being able to approve for a team will have the option to approve an OCP in the
+ Administration page.
+ If the user's username is not a team username then the system will only display a list of teams that the user can
+ approve on behalf of. For most users this will be a single team.
+  If the user's username is a team username then the system will display a list of teams that the team username
+ can approve on behalf of. When the user enters their UK domain username, the system will check that the user
+ entered is allowed to approve for the team selected.
+ For teams that have been added to the OCP when raised or approved by Post Office Account Operations, then
+ Post Office Account Operations must approve the OCP on behalf of that team.
+ More than one person in a team can approve for that team, even when the status of the OCP has changed to
+ Approved.
+ People can approve the OCP until it is made available to the actioning team.
+ If an OCP needs to be communicated to Post Office Ltd, then it is emailed to them by Post Office Account
+ Operations. It is expected that Post Office Ltd will respond to such emails within four hours. If the OCP has
+ been raised at the request of Post Office Ltd, then approvals from teams within Post Office Account , and a
+
+                                           Company-in-Confidence                                  Page: 9 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                     POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                    Operational Change Process                      Ref:        CS/RRD/019
+                                                                                    Version:    1.0
+                                      Company-in-Confidence                         Date:      18-MAR-2004
+
+
+ return email is expected within 3 hours (in order to enable Post Office Ltd to meet the 4 hour commitment to
+ other domains).
+
+
+ In order to approve an OCP, the user must do the following actions —
+     From the High, Medium or Low priority pages:
+             • Click on the required OCP reference.
+             •     This will display the Administration page with the OCP reference filled in and the action
+                   "Approve OCP" already selected.
+             •     Press the "Do Action" button to display the approval form.
+
+
+                   From the "Approve/Action by team" page:
+             •     Click on the required OCP reference.
+             •     This will display the approval form.
+
+
+                   From the Administration page:
+             •     Enter the OCP reference and select the action "Approve OCP".
+             •     Press the "Do Action" button to display the approval form.
+
+
+             If the user has logged into the web site using a team username, then he / she will need to enter:
+                   a. Their full name in the "Approved by" field
+                   b. Their UK domain username in the "User name" field
+            otherwise these fields will be completed automatically and cannot be changed
+             Enter the password that matches the username displayed or UK domain username entered as
+            appropriate.
+              From the drop-down list select the team for which the user is approving. For the majority of
+             people this will only have a single team.
+             Add any comments that may be necessary. This is optional BUT Approvers should ensure that
+            any RISK that they identify associated with the OCP is included in the "comments section". For
+            OCP's initiated by Post Office Limited this is particularly important.
+
+
+             The text in the PGP field is automatically generated by the system and it is this text which should
+             be digitally signed by the user.
+             If the user is known to the system then their name will already be included, otherwise it will be
+             included when the user enters it in the "Approved by" field above. Changing the user's name in
+             the "Approved by" field will change it in this field also.
+             The system will check that the text displayed in the box when the form is first displayed is the text
+             that has been PGP signed.
+             If the user wishes to add to this text then this should be done on a new line.
+             To produce a PGP signature the user must do the following:
+                      1.   Highlight the text in the PGP Signature box and cut (Ctrl X) the text.
+
+                                          Company-in-Confidence                                Page: 10 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                                       POL00029282
+                                                                                                                   POL00029282
+
+
+
+Fujitsu Services                    Operational Change Process                        Ref:        CS/RRD/019
+                                                                                      Version:    1.0
+                                      Company-in-Confidence                           Date:       18-MAR-2004
+
+
+                     2.    This will automatically place the text in the clipboard.
+                     3.   In the icon tray on your taskbar, select the PGPtray icon and on the menu that
+                          appears select the 'Sign Clipboard' option.
+                     4.    This will display the window requesting your passphrase.
+                     5.    Enter your passphrase and click the "Ok" button.
+                     6.    If your passphrase is valid then the passphrase window will disappear. The text on
+                           the clipboard will be replaced with a PGP signed version.
+                     7.   Otherwise you will need to re-enter your passphrase.
+                     8.    You will then need to paste (Ctrl V) into the PGP Signature box replacing any text
+                           that is currently in the box. This will paste the PGP signature from the clipboard
+                           into the PGP Signature box.
+
+
+            Once the form has been filled in press the "Approve OCP" button.
+            The form will then be checked to ensure that the user has entered the required fields.
+            If all is okay at this stage, the details will be transmitted to the server which will check that the
+            user is allowed to approve for the team selected.
+             If the form fails the initial validation the cursor will be placed into the field that caused the error
+            and you will need to correct the error before the details will be transmitted to the server.
+            if the server responds with an error then the user will need to press the "Back" button on their web
+            browser and re-enter the correct details.
+             Note:
+            Pressing the "Back" button on the web browser will clear any user name and password entered,
+            and also reset the text in the PGP field.
+            Once the details have been accepted by the server it will respond with a message saying so.
+            Once all the teams required to approve the OCP have done so, the response from the server will
+            include a link with which to email Post Office Account Operations informing them that all the
+            required teams have approved the OCP.
+
+
+
+ 2.4 Actioning an OCP
+           OCPs can only be actioned once they have been made available to the actioning team either
+           explicitly by Post Office Account Operations, or automatically if the OCP is a retrospective one.
+
+
+
+           If an OCP needs to be done over a period time, then comments can be added to it to keep people
+           updated on it's progress.
+           Once all the required teams have filled in the action form, then it is automatically made available to
+           Post Office Account Operations for them to mark as completed.
+           Only the teams stated in the OCP as required to action the OCP can action the form. Post Office
+           Account Operations can also action the OCP on behalf of a particular team, but again only if that
+           team is in the list of teams required to action it.
+
+
+
+                                         Company-in-Confidence                                   Page: I 1 of 23
+                     (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                         POL00029282
+                                                                                                                  POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                       Ref:        CS/RRD/019
+                                                                                      Version:    1.0
+                                        Company-in-Confidence                         Date:       18-MAR-2004
+
+
+            Only users who are flagged as being able to action for a team will have the option to action an OCP
+            in the Administration page.
+            If the user's username is not a team username then the system will only display a list of teams that
+            the user can action on behalf of. For most users this will be a single team.
+            If the user's username is a team username then the system will display a list of teams that the team
+            username can action on behalf of. When the user enters their UK domain username, the system will
+            check that the user entered is allowed to action for the team selected.
+            For teams that have been added to the OCP when raised or approved by Post Office Account
+            Operations, then Post Office Account Operations must action the OCP on behalf of that team.
+
+
+            In order to action an OCP, the user must take the following actions —
+                   From the "To be Actioned" pages:
+              •    Click on the required OCP reference.
+              •    This will display the Administration page with the OCP reference filled in and the action
+                   "OCP has been actioned" already selected.
+              •    Press the "Do Action" button to display the action form.
+                    From the "Approve/Action by team" page:
+              •    Click on the required OCP reference.
+              •    This will display the action form.
+                    From the Administration page:
+              •    Enter the OCP reference and select the action "OCP has been actioned".
+              •    Press the "Do Action" button to display the action form.
+
+
+ If the user has access into the web site using a team username, then they will need to enter:
+           a. a full name in the "Actioned by" field
+          b. a UK domain username in the "User name" field
+ otherwise these fields will be completed automatically and cannot be changed.
+ Enter the password that matches the username displayed or UK domain username entered as appropriate.
+ From the drop-down list select the team that the user is actioning for. For the majority of people this will only
+ have a single team and will already be selected.
+ Enter the date that the OCP was actioned. This will default to today's date.
+ The user can also enter the time that the OCP was actioned. This is optional_
+ Add any notes on the implementation or if the implementation had to be varied, as necessary. This is
+ optional.
+ Once the form has been filled in press the "Action OCP" button.
+ The form will then be checked to ensure that the required fields have been completed.
+ If all is okay at this stage, the details will be transmitted to the server which will check that the user is allowed
+ to action for the team selected.
+ If the form fails the initial validation the cursor will be placed into the field that caused the error and the user
+ will need to correct the error before the details will be transmitted to the server.
+
+                                           Company-in-Confidence                                 Page: 12 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                        POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                       Operational Change Process                    Ref:         CS/RRD/019
+                                                                                     Version:     1.0
+                                         Company-in-Confidence                       Date:        18-MAR-2004
+
+
+ If the server responds with an error then the user will need to press the "Back" button on their web browser
+ and re-enter the correct details.
+ Note:
+ Pressing the "Back" button on the web browser will clear any user name and password entered.
+ Once the details have been accepted by the server it will respond with a message saying so.
+ There will also be a link with which to email Post Office Account Operations informing them that the OCP has
+ been actioned.
+
+
+
+
+ 2.5 Adding Comments to an OCP
+          Comments can be added at any time once the OCP has been approved by Post Office Account
+          Operations.
+          Comments can not be added to the OCP once it has been completed or withdrawn.
+ Any user, except the "OCPview" user, can add a comment.
+
+
+ In order to add comments, the user must —
+ From the Administration page:
+           • Enter the OCP reference and select the action "Add a comment".
+             •     Press the "Do Action" button to display the add a comment form.
+          If the user has logged into the web site using a team username, then they will need to enter:
+          a. A full name in the "Comment by" field
+          b. The UK domain username in the "User narne" field
+ otherwise these fields will be completed automatically, and cannot be changed
+ Enter the password that matches the username displayed or UK domain username entered as appropriate.
+ Add any comments that are required. This is mandatory.
+ Once the form has been filled in press the "Add Comment" button.
+ The form will then be checked to ensure that you have entered the required fields.
+ If all is okay at this stage, the details will be transmitted to the server.
+ If the form fails the initial validation the cursor will be placed into the field that caused the error and the user
+ will need to correct the error before the details will be transmitted to the server.
+ If the server responds with an error then the user will need to press the "Back" button on their web browser
+ and re-enter the correct details.
+ Note:
+ Pressing the "Back" button on the web browser will clear any user name and password entered.
+ Once the details have been accepted by the server it will respond with a message saying so.
+
+
+
+
+                                             Company-in-Confidence                              Page: 13 of 23
+                       (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                        POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                      Ref:         CS/RRD/019
+                                                                                     Version:     1.0
+                                       Company-in-Confidence                         Date:        18-MAR-2004
+
+
+
+ 2.6 Withdrawing an OCP
+ An OCP may be withdrawn at any stage unless it has been completed.
+
+
+ To withdraw an OCP, the user must take the following steps —
+          From the Administration page:
+             •    Enter the OCP reference and select the action "Withdraw OCP".
+             •     Enter the password that matches the username displayed.
+             •     Press the "Do Action" button. When the user presses the "Do Action" button, they will be
+                   asked "Are you sure you want to withdraw this OCP?"_ If the user is sure then they answer by
+                   selecting the "OK" button.
+             •     The withdraw OCP form will then be displayed.
+          Enter the password that matches the username displayed.
+ Enter the reason for withdrawing the OCP.
+ Once the form has been filled in press the "Withdraw OCP" button.
+ The form will then be checked to ensure that the required fields have been completed.
+ If all is okay at this stage, the user will be asked to confirm that they want to withdraw the OCP. If they press
+ the "OK" button then the details will be transmitted to the server.
+ If the form fails the initial validation the cursor will be placed into the field that caused the error and the user
+ will need to correct the error before the details will be transmitted to the server.
+ If the server responds with an error then the user will need to press the "Back" button on their web browser
+ and re-enter the correct details.
+
+
+ Note:
+ Pressing the "Back" button on the web browser will clear any user name and password entered.
+ Once the details have been accepted by the server it will respond with a message saying so.
+ Once withdrawn no further updates are allowed to the OCP.
+
+ 2.7 Post Office Ltd involvement in OCPs and Cross-Domain
+     OCPs
+ Post Office Ltd act as the central point of contact in the change process between domains. In this context, the
+ term "domain" refers to Post Office Ltd suppliers such as IBM for Network Banking, Streamline for Debit
+ card, TSD for incident management etc.
+
+
+ Post Office Ltd needs to communicate Post Office Account OCPs to other affected domains and also needs to
+ communicate to Post Office Account any changes in the other domains which may have an impact on the Post
+ Office Account operations.
+
+
+ All OCPs which require changes to be made to software or equipment which interfaces to other domains must
+ include Post Office Ltd as one of the teams to be informed on the OCP. This will include any changes to
+ Network Banking agents, routers and network equipment which connects to an external domain and may
+
+
+                                           Company-in-Confidence                                Page: 14 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                     POL00029282
+                                                                                                               POL00029282
+
+
+
+Fujitsu Services                    Operational Change Process                     Ref:        CS/RRD/019
+                                                                                   Version:    1.0
+                                      Company-in-Confidence                        Date:       18-MAR-2004
+
+
+ include changes to other parts of the system where an impact on an external domain is likely. Any OCP which
+ is passed to Post Office Ltd should specify the impact on other domains in business terms
+
+
+ It is Post Office Ltd's responsibility to communicate any Post Office Account OCP which is passed to them to
+ the other affected domains , to collate the responses from those domains, and to pass these comments to Post
+ Office Account, specifically be email to Post Office Account Operations. From the Post Office Account point of
+ view, these OCPs will arrive as emails to Post Office Account Operations, who will generate the OCP and
+ inform interested teams that the OCP is available for approval. On completion of the OCP, or if any Post
+ Office Account team raise any issues, then Post Office Account Operations will communicate these to Post
+ Office Ltd. For teams other than the .Post Office Account Operations team, the OCP is treated in the same
+ manner as an internally raised OCP.
+
+
+ It is Post Office Ltd's responsibility to ensure that all operational changes reported to them from other
+ domains, which may have an impact on Post Office Account operations, are communicated via email to Post
+ Office Account Operations with a request that an OCP be raised, and to ensure that the Post Office Account
+ responses are communicated to the originating domain.
+
+
+ It is expected that OCPs passed from the Post Office Account to Post Office Ltd will receive an emailed
+ response within 2 hours. This has a dependency on the Post Office working day, which should be taken as
+ 09:00 until 17:00 weekdays only. Any OCP communicated to Post Office Ltd after 15:00 should not expect a
+ response until the following working day. This does not necessarily mean that the OCP should not go ahead —
+ if there is an obvious business requirement for the work to be done, then the normal process for retrospective
+ OCPs remains, even for cross-domain changes (typically, for example, and OCP is raised when a central server
+ reboot is required. It is not the intention of this process to hold-up work which is obviously required for hours
+ awaiting approval, and the reboot should go ahead, with the OCP process merely providing a post-action audit
+ trail).
+
+
+ Some OCPs are for planned activities, for example IBM maintenance slots, Energis line replacement etc. Such
+ OCPs are not urgent, and therefore the timescales for impact from all teams, including Post Office Ltd, are not
+ expected to receive responses within two hours, and the timescales can be adjusted accordingly.
+
+
+ Although every attempt should be made to inform Post Office Ltd of the result of an OCP, there is an
+ assumption that an approved OCP will be actioned at the time specified in the OCP. There is a obligation on
+ the actioning team to inform Post Office Account Operations if an OCP has NOT been actioned. It is then the
+ responsibility of the Post Office Account Operations team to inform Post Office Ltd.
+
+
+ There is an equivalent obligation on Post Office Ltd to inform Post Office Account Operations in the event that
+ an OCP which had been notified to Post Office Account, but which was taking place in a different domain did
+ not take place as planned.
+
+
+ If there are any issues with the OCP process as it relates to cross-domain changes, then the escalation route
+ between Post Office Account and all other domains is via the SSC manager from Post Office Account and the
+ Release Implementation Manager on behalf of Post Office Ltd.
+ The Escalation Process would be invoked in a timely manner before actioning or approval has been denied.
+ The normal escalation routes would be used by both the POA SSC Manager & the POL Release &
+ Implementation Manager.
+
+
+                                         Company-in-Confidence                                Page: 15 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                        POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                      Ref:         CS/RRD/019
+                                                                                     Version:     1.0
+                                       Company-in-Confidence                         Date:        18-MAR-2004
+
+
+
+ 3.0 OCP Administrative Functions
+ 3.1 Listing OCPs
+ In order to make it easier for the various teams to monitor when they are required to approve or action an
+ OCP, or to see what OCPs are at various stages in the process, there are a number of links on the menu which
+ list the OCPs
+
+ There are a number of ways to list the OCPs:
+          a) By team
+          b) By priority
+          c) By status
+          d) List of scheduled activities
+
+
+ These links can be accessed by anyone.
+ When listing by team, and the "Scheduled Activities" page, the information is retrieved directly from the Index
+ Server database, and so it may take up to twenty minutes before any changes are reflected in that page.
+ The other links access the files directly and so will always reflect the actual state of the OCP as soon as a
+ change is made.
+ Listing by team does not include any team names that have been added to an OCP.
+ Each listing, with the exception of "To be Completed", use a sequence of colour coding to reflect various
+ stages depending on the type of listing.
+ Generally, yellow entries reflect the fact that the OCP is getting close to some limit, with red reflecting the fact
+ that the OCP has exceeded that limit.
+
+
+          3.1.1 List OCPs by Team
+
+ The link "Approve/Action by team" initially displays a drop down list containing all the teams.
+ The User should select the required team and press the "List OCP's" button.
+ This will then list any OCP's that are awaiting to be approved or actioned by the team selected.
+ The page is refreshed automatically every 60 seconds.
+ The details displayed are taken from the Index Server on the web site. This can take a few minutes to reflect
+ any changes to existing OCPs or new OCPs just raised.
+ The meaning of the colour coded entries depends on the status of the OCP, whether "Authorize", "Approve",
+ "Approved" or "Action".
+ Only the "Approve" and "Action" statuses have colour coded entries.
+ If the status is "Authorize" then the OCP needs to be approved by Post Office Account Operations before it can
+ be approved by any other team. It will only appear if the Post Office Account Operations team is selected.
+ If the status is "Approve" then the OCP needs to be approved by the team selected.
+
+
+
+
+                                            Company-in-Confidence                               Page: 16 of 23
+                         (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                                   POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                      Operational Change Process                     Ref:        CS/RRD/019
+                                                                                     Version:    1.0
+                                        Company-in-Confidence                        Date:       18-MAR-2004
+
+
+ Entries that are coloured yellow are within 15 or 30 minutes of exceeding the required approval time
+ depending on the priority of the OCP. For High priority OCPs this will be 15 minutes, for Medium and Low
+ they will both be 30 minutes.
+ If the status is "Approved" then the OCP needs to be made available to the actioning team by Post Office
+ Account Operations.
+ If the status is "Action" then the OCP needs to be actioned by the selected team.
+          Entries that are coloured green are to be actioned tomorrow.
+          Entries that are coloured yellow are to be actioned today.
+          Entries that are coloured red should have been actioned already.
+
+
+          3.1.2 List OCPs by Priority
+
+ There are three links available which display all the OCP's at a particular priority.
+ Click on the relevant link to list the OCPs at that priority.
+ For High priority OCPs, the page is refreshed every 30 seconds.
+          High priority OCPs should be approved within 30 minutes of being raised.
+          Entries that are coloured yellow have less than 15 minutes of approval time left.
+          Entries that are coloured red have failed to be approved with the 30 minutes required.
+
+
+ For Medium priority OCPs, the page is refreshed every 5 minutes.
+          Medium priority OCPs should be approved within 2 hours of being raised.
+          Entries that are coloured yellow have less than 30 minutes of approval time left.
+          Entries that are coloured red have failed to be approved with the 2 hours required.
+
+
+ For Low priority OCPs, the page is refreshed every 30 minutes.
+          Low priority OCPs should be approved within 24 hours of being raised.
+          Entries that are coloured yellow have less than 30 minutes of approval time left.
+          Entries that are coloured red have failed to be approved with the 24 hours required.
+
+
+ The pages show the teams that have yet to approve the OCP.
+ Entries that are coloured in cyan have been approved by all the required teams and is waiting for Post Office
+ Account Operations to make them available to the actioning team.
+
+
+          3.1.3 List OCPs by Status
+
+ There are five links available which display all the OCPs at the statuses of "To be Authorized", "To be
+ Approved", "To be made available for actioning", "To be actioned" or "To be completed".
+ Click on the relevant link to list the OCPs at that status.
+ The pages refresh automatically every 5 minutes.
+                                           Company-in-Confidence                                Page: 17 of 23
+                       (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                    POL00029282
+                                                                                                                 POL00029282
+
+
+
+Fujitsu Services                    Operational Change Process                       Ref:        CS/RRD/019
+                                                                                     Version:    1.0
+                                       Company-in-Confidence                         Date:      18-MAR-2004
+
+
+ The "To be Authorized", "To be Approved" pages have the same colour coding of entries as for listing by
+ priority.
+ The "To be made available for actioning" page does not have any colour coding of entries.
+ The "To be actioned" page has colour coded entries:
+          Entries that are coloured green are to be actioned tomorrow.
+          Entries that are coloured yellow are to be actioned today.
+          Entries that are coloured red should have been actioned already.
+ The "To be completed" page does not have any colour coding of entries.
+
+
+
+          3.1.4 List of Scheduled Activities
+ This link provides a form from which you can select the scheduled activities for a particular year and month.
+ By default this will include OCPs that have been completed or withdrawn, though by unticking the "Include
+ Completed and Withdrawn OCP's" option.
+  The list of scheduled activities does not include any retrospective OCPs since these are by their nature
+ unscheduled.
+
+
+ The year is selectable starting at 2002 with an upper limit of two years from the current year. So in 2003 the
+ years will go from 2003 to 2005, in 2004 they will go from 2004 to 2006, and so on.
+ The year and month default to the current year and month.
+ When the "Display activities" button is pressed, it will then display all the OCPs for the selected year and
+ month.
+ At the bottom of the display will be links to move to the previous or next month.
+ Each page will show the OCPs sorted by the Activity date (ie. Required Implementation date), the status of the
+ OCP, with the Machine and Service ID if entered, with the title of the OCP in the Activity column.
+ These pages do not auto-refresh.
+ Clicking on the OCP reference will view the OCP.
+
+
+
+ 3.2     Searching for OCPs
+         Once an OCP has been raised it can be searched for using the Search page.
+
+ The search page uses Microsoft Index Server to index the OCPs. This relies on reading a number of properties
+ within the OCP itself. This can take a few minutes and so the user should allow a maximum of 20 minutes for
+ the Index Server to do this.
+ If a free-text search fails to find the OCP expected, this may be because the text for which the search is being
+ made is in a property. To search for a property use the "Property" drop down list to specify it.
+ There is detailed online help available from the search page itself which gives detailed information on how to
+ perform searches on properties, and also deals with the construction of complex queries.
+ The results of the search will be either a page containing a maximum of ten or twenty hits. If the box "Return
+ the titles only" is ticked then it will display a maximum of twenty hits per page which will include just the
+
+
+                                          Company-in-Confidence                                 Page: 18 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                                     POL00029282
+                                                                                                                  POL00029282
+
+
+
+Fujitsu Services                     Operational Change Process                       Ref:         CS/RRD/019
+                                                                                     Version:     1.0
+                                       Company-in-Confidence                          Date:       18-MAR-2004
+
+
+ titles of the OCPs found, otherwise it will display a maximum of ten hits per page which includes the title and
+ the summary of the OCPs found.
+ Because of the way the data is stored in the server it is not possible to search on a range of dates, a search
+ needs to be made for each individual date. There is a separate search page (HTML OCP Date Search) which
+ does the date range search. The user enters the range of dates and the system will then search the server for all
+ the dates in between and then display the results in the same format as the Scheduled Activities page.
+ Further details on conducting searches are available on the web page
+
+ 3.3 Saving OCPs
+         OCPs sometimes need to be sent to users outside of Fujitsu Services (Post Office Account), or attached
+         as evidence to a PinICL. In particular, OCPs which have cross-domain implications for (for example)
+         Network Banking or Debit Card need to be sent to Post Office so that they can be propagated to the
+         other domains/suppliers of the Post office.
+
+         Whilst there is no special facility to do this, it is possible to achieve this by doing the following:
+
+
+               View the OCP.
+               In the web browser, right click to bring up the context menu.
+               In the context menu should be an entry "View Source".
+               Selecting the "View Source" option will open a Notepad window containing the source of the
+               web page.
+               In the Notepad window select "File", "Save As..." and save the source to a file on your hard disk
+               with the filename "OCPnnnn.htm" where "nnnn" is the OCP reference, and filetype of "All files
+
+               The saved file can now be emailed or attached to a PinICL as required.
+
+
+
+ 3.4 Copying OCPs
+         Sometimes OCPs will be raised which are copies of previous OCPs. To save having to type the details
+         out all over again, the previous OCP can be copied.
+
+         Anyone can copy an OCP, except if you have logged in using the "OCPview" user.
+         The Raise an OCP page will be displayed with all the details of the previous OCP except the
+         following:
+          The Retrospective flag is not set,
+          The Required Implementation date is not copied,
+          The name of the person who raised the OCP is not copied,
+          The date the OCP was raised is not copied,
+          Any teams added to the OCP are not copied.
+         The OCP can then be amended as needed and submitted as if the details had been typed in manually.
+         There is no indication that the OCP is a copy of a previous OCP.
+
+
+                                          Company-in-Confidence                                  Page: 19 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                         POL00029282
+                                                                                                                  POL00029282
+
+
+
+Fujitsu Services                      Operational Change Process                      Ref:        CS/RRD/019
+                                                                                      Version:    1.0
+                                        Company-in-Confidence                         Date:       18-MAR-2004
+
+
+          Once the Raise an OCP page is displayed then the same rules as for Raising an OCP apply.
+
+
+
+ 3.5 Adding and deleting attachments to OCPs
+          Files can be attached to the OCP and also removed from the OCP.
+          Files can only be attached and removed by Post Office Account Operations.
+          Files can only be attached once the OCP has been approved by Post Office Account Operations.
+          Files can not be attached or removed once the OCP has been completed.
+          If an OCP is withdrawn then any attachments are deleted.
+          Any file type may be attached, but the current size restriction is 2 Mb.
+          If a file greater than this size is attempted to be attached then Internet Explorer will return an error
+          saying it can not find the page.
+          Only 1 file can be attached at a time, although a number of files can deleted at the same time.
+          If a file of the same name already exists in the Attachments directory then it will be overwritten if
+          adding as an attachment.
+
+
+ To add and delete attachments, the Post Office Account user should -
+               From the Administration page:
+           •   Enter the OCP reference and select the action "Add an Attachment" or "Delete an Attachment".
+           •   Press the "Do Action" button to display the attachment form.
+               If the user has logged into the web site using a team username, then they will need to enter:
+                    a. A full name in the "Approved by" field
+                   b. The UK domain username in the "User name" field
+               otherwise these fields will be completed automatically and cannot be changed
+               Enter the password that matches the username displayed or UK domain username entered as
+               appropriate.
+
+
+          3.5.1 Adding Attachments:
+
+          The list of current attachments is displayed.
+          The user will need to enter the full pathname of the file to be added.
+ The "Browse" button will display a window allowing the selection of a file.
+ Once the form has been filled in press the "Add Attachment" button.
+ If the file with the same name is already attached (as shown in the list of current attachments) then the user
+ will be asked if they want to overwrite the current attachment.
+ The form will then be checked to ensure that the required fields have been entered.
+ If all is okay at this stage, the details will be transmitted to the server which will check that the user is allowed
+ to attach files.
+ If the form fails the initial validation, then the cursor will be placed into the field that caused the error and the
+ user will need to correct the error before the details will be transmitted to the server.
+
+                                           Company-in-Confidence                                 Page: 20 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                         POL00029282
+                                                                                                                  POL00029282
+
+
+
+Fujitsu Services                      Operational Change Process                      Ref:        CS/RRD/019
+                                                                                      Version:    1.0
+                                        Company-in-Confidence                         Date:       18-MAR-2004
+
+
+ If the server responds with an error then the user will need to press the "Back" button on their web browser
+ and re-enter the correct details.
+ Note:
+ Pressing the "Back" button on the web browser will clear any user name and password entered.
+ Once the details have been accepted by the server it will respond with a message saying that the number of
+ attachments has been updated.
+ If an error stating that the page could not be displayed is output, then the user should check the size of the
+ attachment. The user should find that it is over the limit (displayed on the form).
+
+
+          3.5.2 Deleting Attachments:
+
+ The list of current attachments is displayed.
+ Select the attachments that are to be deleted.
+ Individual attachments can be selected by holding down the CTRL key.
+ Enter the reason for deleting the attachments.
+ Once the form has been filled in press the "Delete Attachments" button.
+ The user will be asked if you want to delete the selected attachments.
+ The form will then be checked to ensure that the required fields have been entered.
+ If all is okay at this stage, the details will be transmitted to the server which will check that the user is allowed
+ to delete files.
+ If the form fails the initial validation the cursor will be placed into the field that caused the error and the user
+ will need to correct the error before the details will be transmitted to the server.
+ If the server responds with an error then the user will need to press the "Back" button on their web browser
+ and re-enter the correct details.
+
+
+ Note:
+ Pressing the "Back" button on the web browser will clear any user name and password entered.
+ Once the details have been accepted by the server it will respond with a message saying that the number of
+ attachments has been updated.
+
+
+
+ 4.0 PGP and Public Key Cryptography (Overview)
+
+ With PGPTM, you can protect the privacy of your email messages and files by encrypting them so that only the
+ intended recipients can read them. You can also digitally sign messages and files, which ensures their
+ authenticity. A signed message verifies that the information within it has not been tampered with in any way.
+
+
+ PGP is based on a widely accepted encryption technology known as public key cryptography in which two
+ complementary keys—a key pair—are used to maintain secure communications. To send someone a private
+ email message, you use a copy of that person's public key to encrypt the information, which only they can
+
+
+                                           Company-in-Confidence                                 Page: 21 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services Limited 2004
+                                                                                                                    POL00029282
+                                                                                                              POL00029282
+
+
+
+Fujitsu Services                    Operational Change Process                    Ref:        CS/RRD/019
+                                                                                  Version:    1.0
+                                      Company-in-Confidence                       Date:       18-MAR-2004
+
+
+ decipher by using their private key. Conversely, when someone wants to send you encrypted mail, they use a
+ copy of your public key to encrypt the data, which only you can decipher by using a copy of your private key.
+
+
+ You also use your private key to sign the email you send to others. The recipients can then use their copy of
+ your public key to determine if you really sent the email and whether it has been altered while in transit. When
+ someone sends you email with their digital signature, you use a copy of their public key to check the digital
+ signature and to make sure that no one has tampered with the contents.
+
+
+ To use PGP, you must first create a key pair.
+
+
+ Instructions concerning the installation of the PGP software, and full instructions on the creation of keys,
+ together with a dowloadable version of the PGP software are currently held on the SSC web server
+ "SSCDIAG3". It is expected that they will shortly be moved to the SSC web serer "Scarper".
+
+
+
+
+                                         Company-in-Confidence                               Page: 22 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+                                                                                                                   POL00029282
+                                                                                                                POL00029282
+
+
+
+Fujitsu Services                    Operational Change Process                     Ref:         CS/RRD/019
+                                                                                   Version:     1.0
+                                      Company-in-Confidence                        Date:       18-MAR-2004
+
+
+
+
+ 5.0 OCP turnaround target times
+ The following turnaround times are set as targets and include all the signatories involved.
+ Urgent —2 hours
+ Routine — 8 hours
+ Janet and Jean will chase the OCP to ensure sign off but it is down to the individual to ensure that sign of is
+ within the required timescale. Mandatory signers must regularly monitor their email for OCP's, Optional
+ signatories will be told about the sign off by the Duty Manager.
+
+
+
+ 6.0 Differences between OCP and OCR processes
+ The OCP process is administered by Post Office Account Operations, and is available to all users for the
+ administration, authorisation and auditing of changes made to the live operational service.
+ The OCR process involves the correction of customer data on the live system, and because user data is
+ involved, requires different approvals and auditing.
+ Only the SSC has the authority to make changes to the data on the system, and therefore only SSC staff can
+ action an OCR.
+ In most cases, an OCR does not involve the financial integrity of the system. Under these circumstances one of
+ the SSC Manager, the Support Services Manager or the Customer Service Duty Manager can approve an OCR.
+ If the data to be changed has a financial impact on Post Office, then approval must also be given by a senior
+ Post Office Manager.
+ When an OCR has been approved, and has been actioned, it is necessary for two users of the OCP system to
+ confirm that the work has been done — an actionee and a witness. The actionee will always be an SSC staff
+ member, the witness can either be an SSC staff member or a development staff member.
+
+
+
+
+                                         Company-in-Confidence                                 Page: 23 of 23
+                      (CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+ ©Copyright Fujitsu Services L m ited 2004
+

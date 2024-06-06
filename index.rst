@@ -14,7 +14,7 @@ of subpostmasters’ contracts, prosecution and conviction of subpostmasters”.
 This site takes a copy of the `official transcripts
 <https://www.postofficehorizoninquiry.org.uk/hearings>`_, which are available
 in PDF or text format, parses them into reStructuredText, and uploads them to
-ReadTheDocs for **display and searching**. It also auto-links evidence IDs to
+ReadTheDocs for **display and searching**. It also auto-links `evidence <evidence/>`_ IDs to
 the relevant page on the official site.
 
 I hope this may be useful to people following the Inquiry, and to anyone who
@@ -51,3 +51,9 @@ Contents
    human-impact-hearing/index.rst
    human-impact-focus-group/index.rst
    2021-11-08
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   evidence/index.rst

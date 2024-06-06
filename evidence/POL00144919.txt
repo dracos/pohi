@@ -1,0 +1,208 @@
+                                                                                                        POLOO144919
+                                                                                                  POL00144919
+
+
+
+
+From:                    Rodric Williams                            cRo
+Sent:                    Fri 28/06/2013 6:09:10 PM (UTC)
+To:                      Hugh FlemingtorL
+                               ._._._._._._._._._._._._._._._
+                                                                    GRO       h]; Jarnail A
+                         Singhf             GRO                           .
+Subject:                 RE: Fwd: Local Suspense Incident
+
+
+
+
+ the effects of the 14 Bug on branch accounting were notified to POL by a few SPMRs in around January
+ 2012. However, POL did not identify Horizon as the root cause until January 2013
+
+
+ Rodric Williams I Litigation Lawyer
+
+
+
+
+                148 Old Street, LONDON, EC1V 9HQ
+
+                                   Postiine L.-,-_GRO----
+                GRo
+                _._._._._._._._._._._._._._.
+                rodric.williamsl           GRO                  I
+
+                Post Office stories
+
+                (d~postofficenews
+
+
+
+
+ From: Hugh Flemington
+ Sent: 28 June 2013 18:05
+ To: Rodric Williams; Jarnail A Singh
+ Subject: Fw: Fwd: Local Suspense Incident
+
+ Rod W - have we more detail from rod ismay as to when we spotted this?
+
+
+
+ From: Lesley J Sewell
+ Sent: Friday, June 28, 2013 05:03 PM
+ To: Hugh Flemington
+ Subject: Fwd: Local Suspense Incident
+
+ Apols as I hadn't copied you.
+
+ L
+
+ Sent from my iPad
+ Begin forwarded message:
+                                                                                                         POLOO144919
+                                                                                                      POL00144919
+
+
+
+
+From: Lesley J Sewell ?               GRO               }
+Date: 28 June 2013 16:19:18 BST
+To: Paula Vennells                                GRO
+Cc:Alwen Lyons < ._._._._._._._                  IMartin Edwards
+                pp                      Mark R Davies               GRO                ,Simon Baker
+               GRO
+Subject: RE: Local Suspense Incident
+
+
+
+
+A brief update following the call with Rod Ismay this afternoon.
+
+The problem was identified by P&BA earlier this year due to aged items in the Local Suspense, this was
+further supported by the two larger amounts detailed below that had been raised by the SPMR. At this
+point P&BA raised through their usual process to Fujitsu as detailed below for investigation.
+
+The two SPMR accounts:
+
+Willen Village: -£9,799 - the SPM was not disadvantaged.
+
+Bowness Road: £3,186 - This was a gain to the SPMR and we have paid over a two year period £6k to
+this SPMR.
+
+Out of the 14 branches we had:
+
+4 Crowns
+4 Multiples and
+6 SPMR's
+
+Apart from Willen and Bowness above the remaining SPMR's were:
+
+Lower Regent Street: £3.34
+Dundas: £5.84
+Gilford: £11.55
+Wardles Lane: -£0.51
+
+Regards Lesley
+
+
+
+Lesley J Sewell
+Chief Information Officer
+
+
+
+148 Old Street LONDON, EG1V 9HQ
+Direct    ('DI      Postlin a,_,    o
+fr~obil~           I obex     GRO  __. :_. . _'
+           GRO                -- -
+                                                                                                              POLOO144919
+                                                                                                         POL00144919
+
+
+
+
+From: Lesley J Sewell
+Sent: 28 June 2013 14:57
+To: Paula Vennells
+Cc: Alwen Lyons; Martin Edwards; Mark R Davies
+Subject: Local Suspense Incident
+
+Paula
+
+I have Rod chasing down some information for me on what we have done internally on this incident and
+have a call with him at 3.
+
+What we have on the incident:
+
+Termed: Local Suspense Incident
+
+Timeline:
+
+First Raised to NBSC at 4:51pm on 25`h February (awaiting details from P&BA)
+
+Problem diagnosed by Fujitsu on 28`h February.
+
+Final detail on accounts to POL from F1 on 15`h March.
+
+Affected 14 branches and 16 transactions. 5 branches had losses and 7 had gains, and 2 had a loss and a
+gain. One loss was for £9,800, one gain for £3,100 and the rest were less than £161.
+
+Letters currently being reviewed by Legal/P&BA.
+
+Root Cause
+
+When calculating the office balance gains and losses of stock units for a branch are pulled together into
+one place (this is called the Local Suspense). This is temporary data which is held in the system until the
+end of the Trading Period and the branch balances. After each Trading Period this data should be
+cleared so that the opening balance is zero at the start of the next trading period.
+
+For the 14 branches this temporary data was not cleared which resulted in it reappearing in the same
+trading period the following year. This only affected two trading periods TP9/10. This would have
+affected the SPM balance as his opening figure would have been incorrect for that period.
+
+What the SPMR would have seen:
+
+Any gains or losses from each stock unit are rolled up to a net amount for the Branch at the end of each
+Trading Period and presented on the Trading statement.
+
+If the SPMR wanted the breakdown this number there is a report which they can reference which
+provides the detail.
+
+How we know there aren't any more:
+
+Fujitsu have interrogated the Local Suspense data and only found these 14 cases.
+
+The temporary records have now been deleted so that they will not reappear at the next Trading period.
+                                                                                                              POLOO144919
+                                                                                                            POL00144919
+
+
+
+Monitoring going forward:
+
+A system change is planned for 8th October which will monitor the local accounts for data which has not
+been deleted when it should have.
+
+It is not necessary to implement this change prior to this date as it only affected trading periods 9 and
+10. All others have been checked.
+
+I will provide a further update following the conference call with Rod.
+
+Regards Lesley
+
+Lesley J Sewell
+Chief Information Officer
+
+
+148 Old Street, LONDON, EC1V,9HQ.___._._._._.
+Direct: ('D1        I Postline _._ _ GRO
+                                  GRO
+              GRO
+
+
+
+
+Confidential Information:
+This email message is for the sole use of the intended recipient(s) and may contain confidential and
+privileged information. Any unauthorised review, use, disclosure or distribution is prohibited. If you are not
+the intended recipient please contact me by reply email and destroy all copies of the original message.
+

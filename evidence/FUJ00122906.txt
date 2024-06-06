@@ -1,0 +1,215 @@
+                                                                                                         FUJO0122906
+                                                                                                     FUJO0122906
+
+
+
+
+Witness Statement
+(CJ Act 1967, s9;.MC Act 1980, ss
+5,4(3)(a)
+ and 5B, MC Ruses 1981, r 70)
+
+
+
+Statement of              GARETH.IDRIS JENKINS
+
+Age if under 18           Over 18                (If over 18 insert 'over 18')
+
+This statement (consisting of three (3) pages each signed by me) is true to the best of my
+knowledge and belief and I make it knowing that, if it is tendered in evidence, I shall be liable to
+prosecution if I have wilfully stated in it anything which I know to. be false or do not believe true.
+
+Dated the        8        day of    July 2010
+
+Signature                  GRO
+Further to my statement of 9th March 2010 I would like to add the following.
+
+
+
+I have been employed by Fujitsu Services, working on the Post Office Account, formally ICL
+Pathway Ltd, since 1996 as a Customer Solutions architect, involved in many aspects of design
+and implementation of the computer system known as Horizon. This is a computerised
+accounting system used by Post Office Ltd.
+
+
+Fujitsu have         Security Department which is responsible for providing audit data to the Post
+                 a
+
+
+
+
+Office Limited's Fraud Team.
+
+
+An audit of all information handled by the TMS is taken daily by copying all new messages to
+archive media. This creates a record of all completed outlet transaction details including its
+origin - outlet and counter, when it happened, who caused it to happen and the outcome. The
+TMS journal is maintained at each of the Fujitsu Services Data Centre sites and            created by
+                                                                                      is
+
+
+
+
+securely replicating all completed transaction records that occurred in every Outlet.. They
+therefore provide'the ability to compare the audit track record of the same transaction recorded
+in two places to verify that systems were operating correctly. Records of all transactions are
+
+
+
+Signature
+  9       .      G RO                           Signature
+                                                  9       witnessed b Y.   GRO
+CS011 (Side A)                                                                              Version 3.0 11/02
+                                            FUJO0122906
+                                          FUJO0122906
+
+
+
+
+      `~
+
+
+Gad    rcj'   tea   ¢~~"Q-•~ j,   o-,`~
+                                                                                                      FUJO0122906
+                                                                                                  FUJO0122906
+
+
+
+
+Witness Statement
+(CJ Act 1967, s9, MC Act 1980, ss 5A(3)(a) and 5R, MC Rules 1981, r 70)
+
+
+Continuation of statement of               GARETH IDRIS JENKINS
+
+written to audit archive media.
+
+
+With Horizon counters, the mechanism by which data is audited has always worked on the
+principle that it is acceptable to audit the same data more than once — in particular if in doubt
+as to whether or not it has been previously audited successfully. The Mechanism used on
+Horizon to retrieve the audit data took this into account and only presented one instance of
+such duplicate data in the ARQ extracts. The Audit Mechanism cannot alter the base
+information and therefore a re-running of the audit process will always produce the same
+result
+
+                                                                                                            L
+In January 2010 a new HNG-X application was introduced to filter transaction records for
+presentation to Post Office Limited. It has recently been noticed that this HNG-X retrieval
+mechanism does not remove such duplicates. An enhancement to the extraction toolset will
+be developed, tested and deployed and will remove such duplicate data in the future. However
+until this enhancement is deployed, there is a possibility that data is duplicated. The reliable
+way to identify a duplicate transaction is to use the <Num> attribute that is used to generate
+the unique sequence numbers. This will be included in all future transaction record returns
+until the retrieval mechanism is enhanced. A semi-automated process to copy the returned
+data, and then to identify and remove ariy duplicated records which may be present from this
+copy by using the <NUM> attribute, has been agreed with Post Office Limited for use in the
+interim period.
+
+
+
+
+It is emphasised that the duplication of audited records has not, in any way, affected actual
+physical transactions recorded on any counter at any outlet. The duplication of records has
+
+
+
+Signature;     G RO                                 Signature witnessed by   G RO
+CS011A       -----------------   ------ - --                                            Version 3.0 11/02
+
+                                                             2
+                                                                                                                     FUJO0122906
+                                                                                                                 FUJO0122906
+
+
+
+
+• Witness Statement
+ (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
+
+ Continuation of statement of                                      GARETH 1DRIS JENKINS
+
+ occurred during the auditing . process when records were in the process of being recorded
+ purely for audit purposes from the correspondence servers to the audit servers.
+
+
+ There is no reason to believe that the information in this statement is inaccurate because of the
+ improper use of the computer. To the best of my knowledge and belief at all material times the
+ computer was operating properly, or if not, any respect in which it was not`operating properly, or
+ was out of operation was not such as to effect the information held on it. I hold a responsible
+ position in relation to the working of the computer.
+
+
+
+
+ Signature
+ CS011A
+                 G RO
+            i._._._._._._._._._._._._._._._._._._._._._._._._._,
+                                                                       Signature witnessed by   G RO
+                                                                                                   r
+                                                                                                       Version 3.0 11102
+
+                                                                              3
+                                                                                                                 FUJO0122906
+                                                                                                              FUJO0122906
+
+                                                                                                         Page, 1 of 1
+
+
+
+  Thomas Penny
+   From:
+   Sent:
+   To:
+                  Marilyn Benjamin
+                 15 July 2010 16:26
+                                                       ._._.__._..._GRO
+
+                 Thomas Penny; John Longman; Mark Dinsdale
+                                                                          1
+                                                                                        V ftI II
+                                                                                      iHllIH POH
+
+   Subject: REGINA v SEEMA MISRA - GUILDFORD CROWN COURT
+
+Penny,
+
+I refer to our telephone conversation this morning when you confirmed that Gareth Jenkins has been
+authorised and will be contacting the Defence Expert Charles McLachlan with a view to making arrangements
+to discuss the issues in this case as per the Direction given by Guildford Crown Court at the last hearing. I
+confirm that I have spoken to the Defence Solicitors that Mr Jenkins will be contacting Charles McLachlan
+today.
+
+I understand that Gareth Jenkins and Charles McLachlan are due to meet on Tuesday 20(h July 2010.
+
+Thank you for your kind.assistance.                      `
+
+Kind regards.
+
+Jarnail Singh
+Senior Lawyer
+Criminal Law Division
+
+Tel NO.l           GRO
+
+
+                                                                Royal Mail Group Limited registered in England
+***********##***#*****t***********t****Y**t************t**************
+
+
+
+and Wales registered number 4138203 registered office 3rd Floor, 100 Victoria Embankment, London, EC4Y
+OHO This email and any attachments are confidential and intended for the addressee only. If you        not the
+
+
+                                                                                                   are
+named recipient, you must not use, disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then delete this email     your system.
+                                                                                      from
+
+
+
+
+16/07/2010
+
