@@ -30,10 +30,17 @@ def process_evidence():
             l = sorted(glob.glob(file_base + '-*.txt'))
             with open(file_txt, "w") as outfile:
                 subprocess.run(['cat'] + l, stdout=outfile)
-            file_rst = file_txt.replace(".txt", ".rst")
+
+    for file in sorted(glob.glob('*.pdf')):
+        file_base = file.replace(".pdf", "")
+        file_rst = '../' + file_base + ".rst"
+
+        file_txt = '../' + file_base + ".txt"
+        if os.path.exists(file_txt):
             with open(file_rst, 'w') as out:
                 url, title = META[file]
                 out.write(title + '\n' + '=' * len(title) + '\n\n')
+                out.write(f'`Evidence on official site <{url}>`_\n\n')
                 out.write(f'.. literalinclude:: {file_base}.txt\n')
 
     for file in sorted(glob.glob('*.pdf')):
