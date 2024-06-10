@@ -1,105 +1,79 @@
-                                                                                   POL00031409
-                                                                                 POL00031409
+INTERNAL
 
+Zebra Action Summary
 
+Document Control
 
+1 Overview
 
-                                       INTERNAL
+James Rees
 
+Emma McGinn
 
+Julie George
 
+2 Revision History
 
-   Document Control
+12 June 2014
 
-   1   Overview
+POL00031409
+POL00031409
 
+vO. 5 June 2014 James Rees |First Draft
 
+v0.2 10 dune 2014 Emma McGinn | Reviewed
 
+v0.3 12 June)2014 Julie Draft review and sign-off
+George
 
-   2   Revision History
+INTERNAL
+POL00031409
+POL00031409
 
+INTERNAL
 
+1 Introduction
 
-
-v0.1   5;; ;;;June 2014 :-::::_
-                            ;;     3***in s Rees   First Draft
-
-V0.2   10    ;tne 2014             Emma McGinn     Reviewed.
-
-V0.3   12   Ju     2014            Julie           Draft   review and sign-off
-                              >'
-
-
-
-
-                                   George
-
-
-
-
-                                       INTERNAL
-                                                                                         1
-                                                                        POL00031409
-                                                                      POL00031409
-
-
-
-
-                              INTERNAL
-
-
-
-1     Introduction
 This document is in response to the Zebra review and
 highlights specific areas regarding the Horizon solution,
-outlined in Deloitte's report, with suggested controls Post
+outlined in Deloitte’s report, with suggested controls Post
 Office could implement to mitigate the areas the project
 highlighted.
 
+2 Scope
 
-
-2     Scope
 The scope of this document is those areas covered in the Zebra
 report only and does not include any other areas outside the
 scope of that report.
 
+3 Zebra - Overview a
 
-                                         ..... ......
-                                          .... ......
-                                         .........    ........
-                                                    ...... ....
-                                                      .........
+Deloitte’s Zebra report has outlined a number, of areas
+relating to the Horizon solution requiring remediation and/or
+changes in order to protect and maintain the integrity of
+Horizon on an ongoing basis. These would provide a greater
+level of support and assurance ofthe Horizon platform through
+Fujitsu as the service provider, Post Office as the customer
+and, potentially, Atos,as.a key service provider for the IT
+governance service. |
 
-3     Zebra - Overview
-Deloitte's Zebra report has outlined a number of areas
-relating to the Horizon solutio rgquiring remediation and/or
-changes in order to protect an; ^k intain the integrity of
-Horizon on an ongoing basis.      bse would provide a greater
-level of support and assurance `; ; the Ho r ; zon platform through
-Fujitsu as the service provider,`? st Of ce as the customer
-and, potentially, Atos:g a key se~r          ~ovider for the IT
-governance service.       ..
+Other areas of the Horizon solution highlighted in the report
+that require further investigation and remediation are the
+audit and risk management aspects together with the oversight
+and governance of the»Horizon solution. ©
 
-Other areas of the Horizon'solu1tion highlighted in the report
-that require further investic tion -and remcdiation are the
-audit and risk management as:cects -cgether with the oversight
-and governance of the,:Horizo~ solu-icn.
+4 Zebra-— Remediation Items ’
+are the, recommendations for the remediation of the items
+outlined in the, zebra report as well as the board summary
 
+4.1 Governance | :
 
-
-4     Zebra - Remediation Items
-Below are the rccormrrndations for the remediation of the items
-outlined in the Zebra re::ort as well as the board summary
-report:
-
-
-4.1     Governance
-There were. a number of govvcrnance items outlined as failings
+There wereé.a number of governance items outlined as failings
 in the report that need to be addressed and recommendations
-pertinent to these items are as follows:
+pertinent to these, items are as follows:
 
+4.1.1 Horizon Management Council
 
-4.1.1    Horizon Management Council
 Since Horizon is a critical business function of the Post
 Office estate a management council should be created in order
 to ensure the ongoing oversight, management and support of
@@ -112,22 +86,13 @@ critical nature should be flagged to this group who will then
 review them and take appropriate action to maintain the
 integrity of this business critical asset.
 
-
-
-                              INTERNAL
-                                                                              2
-                                                                   POL00031409
-                                                                 POL00031409
-
-
-
-
-                           INTERNAL
-
+INTERNAL
+INTERNAL
 
 Recommended remediation:
+
 Creation of a Horizon Management Council made up of one
-representative from each organisation (Post Office, Atos and
+representative from eachorganisation (Post Office, Atos and
 Fujitsu). This council may have additional memberships but no
 more than 6 primary council members should be appointed. Any
 other individuals required should be brought in as ADVISORY
@@ -141,33 +106,42 @@ significant change or issue.
 It is further recommended that a similar Management Council
 should be set up for all critical business functions.
 
-
-4.1.2 Documentation update and ongoing Maintenance
+4.1.2. Documentation update and ongoing Maintenance
 Current, accurate and auditable documentation is imperative to
 the management of a critical business asset such as Horizon.
 
-One significant failing outlined thrcughout the main report
+One significant failing outlined throughout the main report
 was the lack of information available to Deloitte when
 reviewing Horizon, including process, procedure and governance
-documents, and this should. ho resolved as soon as possible.
+documents, and this should be resolved as soon as possible.
 
 Recommended remediation:
-A complete document pack to de crewed that outlines at least
-the following items:
+A complete document pack to be “created that outlines at least
+the following i ems , i: :
 
-  •   Policies
-  •   Procedures
+¢ Policies.
 
+Procedures
+Standards ©
+‘Development roadmap
+Solution overviews
 
+eee
 
+Solution diagrams
+
+Risk register
+
+Detailed solution documentation (technical)
+Business continuity
 
 This document pack would need to be centrally owned, managed
 and maintained and would possibly also include information
 regarding how Horizon handles accounting and financial
 information.
 
-
 4.1.3 Change Control
+
 A number of items outlined in the report related to the lack
 of an effective governance process for recording and
 maintaining changes to the Horizon infrastructure. This was a
@@ -175,19 +149,14 @@ common theme throughout the report and is an item high on the
 list for resolution within Post Office (ISAG), Atos and
 Fujitsu.
 
+INTERNAL
 
+POL00031409
+POL00031409
+POL00031409
+POL00031409
 
-
-                           INTERNAL
-                                                                         3
-                                                                       POL00031409
-                                                                     POL00031409
-
-
-
-
-                            INTERNAL
-
+INTERNAL
 
 A single change control process covering all the pertinent
 points will efficiently and effectively track changes that
@@ -198,6 +167,7 @@ process as the documentation was highlighted in the report as
 failing.
 
 Recommended remediation:
+
 The creation of a process for recording, authorising, testing
 and implementing all changes within the Horizon solution which
 is both effective and ensures that all appropriate parties are
@@ -206,41 +176,30 @@ informed as changes occur.
 The change control process needs to be both effective and
 support the reporting function to track how Horizon has
 evolved over time, track the risks and the critical business
-assets as well as allowing a far greater understanding of the
-solution and what is required to secure it.
+assets as well as allowing a far, greater und
+solution and what is required to se
 
-This should be the responsibii          of all three organisations
-(Post Office, Atos and Fujitsu)           all should support that
-                                  end
+This should be the responsibility of all three org. 1
+(Post Office, Atos and Fujitsu) and all should support that
+process. ce ‘ ae
 
-
-
-
-process.
-
-
-4.1.4 Financial Reviews
-One of the main concerns wit:-ir the Deloitte report is the
-balancing of financial accoutS d       The potential for errors
-should certain technical iss-.-.es arise. Technical issues and
-connectivity issues      always he a risk within any technical
-                     will
-
-
-
-
+4.1.4 Financial Reviews Py ;
+One of the main concerns within the Deloitte report is the
+balancing of financial accounts and the potential for errors
+should certain technical issues arise.Technical issues and
+connectivity issues 1 ays be a risk within any technical
 environment and it is strongly advised that a program is put
 in place to undertake auditable controls, ongoing training,
-spot checks and regular reviews from Post Office's Audit
-department to cake sure that errors in processing are kept to
-a minimum, and quickly identified.
+spot checks and regular reviews from Post Office’s Audit
+department»to make sure that»errorsin processing are kept to
+imum, and. quickly identified.
 
 Recommended remediation:
-The creation of an audit program by Post Office's Finance
+The creation of an audit program by Post Office’s Finance
 department in order to review samples of data from sub-
 postmasters. This would ensure consistency of accounts and
 enable a higher chance of detecting errors in accounts due to
-problems with Horizon.
+problems with
 
 Reports should be generated after each audit and used to
 improve the Horizon product, as well as provide auditable
@@ -252,65 +211,47 @@ aspects of Horizon, with appropriate controls introduced as
 determined by the resultant gap analysis exercise and training
 in support of the controls and system.
 
-
 4.1.5 Risk Assessment
 The Deloitte report advised that Horizon should undergo a full
 risk assessment to highlight the key assets that comprise the
 
-                            INTERNAL
-                                                                             4
-                                                                    POL00031409
-                                                                  POL00031409
+INTERNAL
+POL00031409
+POL00031409
 
-
-
-
-                            INTERNAL
-
+INTERNAL
 
 Horizon solution, including the risks associated with those
 assets. This should be undertaken exclusively by Information
 Security professionals together with key Fujitsu staff.
 
 Recommended remediation:
+
 Undertake a full risk profiling and assessment in order to
 identify the key assets and risks associated with those assets
 that make up the Horizon solution. This would include full
-oversight of Fujitsu's Horizon risk management documentation
+oversight of Fujitsu’s Horizon risk management documentation
 that should have been undertaken as part of the PCI DSS and
 IS027001 Information Security requirements.
 
 The risk assessment information gathered from this process
-should be updated regularly and feed into the change control
-process (as well as the change control process feeding into
-the risk management process) to ensure that a greater level of
-security oversight and involvement is promoted.
+should be updated regularly and feed int the change control
+process (as well as the change control ‘ocess feeding into
+the risk management process) to ensu lat. a greater level of
+security oversight and involvement is promo
 
-Horizon is a critical business asset to the         Office and,
-
-
-
-
-                                              Post
-as such, risks to this environrr.er_t need to be clearly
+Horizon is a critical business a:
+as such, risks to this enviro
 understood and treated.
 
+et to the Post. Office and,
+need to be clearly
 
-
-
-                            INTERNAL
-                                                                          5
-                                                                     POL00031409
-                                                                   POL00031409
-
-
-
-
-                            INTERNAL
-
-
+INTERNAL
+INTERNAL
 
 4.1.6 IT Assurance
+
 Deloitte highlighted in the report that there was a lack of
 assurance in the technical oversight of the Horizon solution
 throughout the Horizon lifetime. This was quite specific to
@@ -318,36 +259,37 @@ traceability as well as the tracking of changes and oversight
 into future development.
 
 Recommended remediation:
+
 A Post Office IT Assurance function needs to have regular
 reviews and updates with key Fujitsu staff, as with all
 critical business systems, ensuring that the Horizon platform
 is carefully developed in line with ever changing business
-needs. This should to be driven by the Post Office business
+needs. This should to be driven by the Post, Office business
 process, be a function separate from operational IT Services
-and with oversight from the Horizon Management Council.
+and with oversight from the Horizon Mapegement Council.
 
-It is strongly advised that, in the lcng Lear, a roadmap is
-developed to outline expected chngess and improvements to
+It is strongly advised that, in the long term, a roadmap is
+developed to outline expected changes and improvements to
 Horizon, these may already be in place and, if so, need to be
-carefully released in order for the risk assessment and
-management to be effective.                         ..
+carefully released in order for the risk assessment, and
+management to be effective. : 7
 
-4.2 Technical
-There were a number of technical iterr.s outlined as failings in
-the report that need to be addressed; recommendations
-pertinent to these issues are as fcllcas:
+4.2. Technical /
+There were a number of tectiiical items” outlined as failings in
+the report that need to be, addressed; recommendations
 
+pertinent to these issues are as follows:
 
-4.2.1 Data Retention
-The report outlined that data is held within Horizon for seven
-years, which is in line with the OK retention period legal
-requirements, though the report infers that this may not be
-enough'"in some cases
+4.2.1 Data Retention : »
+The report outlined that data ig held within Horizon for seven
+years, which isin line with the UK retention period legal
+requirements, though the, report infers that this may not be
+enough in ssome cases, —
 
-Recommended remediation:
-The retention periods should be carefully reviewed by Data
-Protection professionals:and key business departments that own
-this dafa, preferably with oversight from the Finance
+Recommended retiediation:
+The ‘retention periods should be . carefully reviewed by Data
+Protection professionals and key business departments that own
+this data, preferably with oversight from the Finance
 department. If longer retention periods are required then
 this needs to be defined both from a governance and technical
 perspective.
@@ -356,9 +298,9 @@ There are numerous technical possibilities to cater for this,
 but this should be defined once retention periods have been
 agreed.
 
+4.2.2 Data Logging
 
-
-one point raised in the report was that it was possible for
+One point raised in the report was that it was possible for
 someone with privileged access to delete data from specific
 areas of Horizon. This is always a risk with individuals
 using admin or power user accounts and is a persistent risk,
@@ -367,16 +309,14 @@ one that needs to be catered for in almost any organisation.
 Due to the sensitive nature of the information contained in
 the databases, monitoring of those databases should be put in
 
-                            INTERNAL
-                                                                           6
-                                                                   POL00031409
-                                                                 POL00031409
+INTERNAL
 
+POL00031409
+POL00031409
+POL00031409
+POL00031409
 
-
-
-                           INTERNAL
-
+INTERNAL
 
 place using technology to detect and record deletions and
 administrative changes to the databases. If possible, alerts
@@ -384,19 +324,16 @@ should also be generated for mass deletions and high level
 risk changes to database schemas.
 
 Recommended remediation:
+
 The solution currently in place may be able to undertake the
 level of logging required within the Horizon solution. It is
 recommended that the current logging and logs are reviewed on
 a daily basis.
 
 This needs to be investigated further and the options on how
-to handle this defined through the risk management process and
-based on the solutions already in place g   ees that could be
+
+to handle this defined through the risk mamagement process and
+based on the solutions already in place mes that could be
 procured to handle this.
 
-
-
-
-                           INTERNAL
-                                                                         7
-
+INTERNAL

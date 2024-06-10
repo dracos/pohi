@@ -1,0 +1,110 @@
+2@-NOU *S8 13:49 FROM
+
+Briefing Note on Status of Testing - 20" November 1993
+
+The MOR3 cycle finished on schedule on Friday 13" November and End-to-End 2 is
+expected to complete on schedule today. Over the.last week a full review has been
+undertaken of the quality and robustness of the Pathway system and the end-to-end
+processes in the light of these test cycles. .
+
+This has resulted in the conclusions that while counter activity is showing :
+progressive improvements in quality we have not demonstrated the end-to-end data
+and financial integrity of the system to the extent that is required for entry to the
+final MOT and E2E run. °
+
+‘The primary reason for this is that the POCL TIP system has identified and rejected
+many files with validation and integrity failures and therefore the scope and volume
+of data it has processed has been insufficient to give confidence in the POCL ‘back
+office’ reconciliation and cash accounting processes.
+
+‘These failures can be attributed to the following problems:
+
+© functional errors in cash account production (where there are 9 outstanding
+
+~ PinICLs) ; . :
+
+* reference data inconsistencies in the testing environments (Which are being
+addressed for live versions of reference data but which are having to be
+individually resolved in testing) .
+
+* validation checking in TIP which is now recognised as too rigorous given the
+necd to provide some level of tolerance on the synchronisation of reference data
+changes even in the live environment. (However these are not checks which affect
+
+. the financial integrity of the data but the timing of product-related changes in
+outlets), :
+
+* operational problems which were experienced in MOR3 and E2E 2, duc to both
+operator error and specific faults identified in the file transmission software
+
+* a specific number of errors arising from the office migration process where it was
+identified that the current software and process does not correctly handle certain
+‘local’ product types.
+
+A second area of difficulty is that errors, re still outstanding on a significant number
+of the counter reports and client summbries which are preventing effective internal
+reconciliation of data within the outlet.
+
+Finally there are two areas where, although the number of: ‘reported faults is relatively
+low, the significance of the errors in terms of key reconciliation activities between
+POCL and clients (including BA) means that these have to be cleared prior to MOT.
+These are:
+
+* BES reporting and reconciliation including fallback processin; iz
+
+© HAPS reporting and reconciliation
+
+The Horizon Team therefore recommend that the problems in the above areas need to
+be corrected and that some specific, targetted retesting activity should be undertaken
+
+Pres lone testi wil fom (Weck. Gandy eA venk
+
+20/11 ‘98 14:16 TX/RX NO. 1693
+
+POL00028431
+POL00028431
+
+P02
+
+POL00028431
+POL00028431
+
+28 NOV ’98 i341 FROM P.@3/83
+
+_
+
+prior to entry to MOT. This work is currently being assessed and planned anda
+formal proposal should be ready by Wednesday 25th November. It is expected to
+include for example a partial run of the end-to-end cycle of around 8 days to validate
+end-to-end integrity based on a selection of scripts for some of the offices. It will also
+include a retest of the office migration process to. cover the known problem areas.
+Before these tests can be run it will be necessary to fex the outstanding PinICLs and
+make some relatively sinall changes to TIP.
+
+This work will mean that MOT cannot start on 14* December. it is not yet possible
+to predict a start date with confidence. The scale of the problem suggests that a
+January start date may be achievable but this will be clarified next week. .
+
+Given the recent decision to move the planned date for data centre migration to after
+Easter, which potentially creates some additional time for testing pre-Easter, it is also
+not yet clear whether and by how much the above work will delay the start of live trial
+and national rollout. The follow up work on the Treasury review had resulted in the
+view that the start of national rollout could be brought forward 3 weeks from mid-
+August to the end of July. The problems now identified in testing make the August
+date more likely. These key dates will also be assessed next week.
+
+Coos atEmoak of nak is omenhan pric 6 fled 4) MoT, tat fon 06.
+Andrew Simpkins
+
+Horizon Release Management
+
+20" November 1998
+
+Andes & Sechiy a datadad mak wae foray [testa nook veel.
+Semglinn ,
+
+Suen 0. ie bony floret at habe obte cd dda Chadir ars
+
+%kK TOTAL PAGE.@3 %«
+20/11-'98 14:16 TX/RX NO. -1693 P03
+

@@ -1,0 +1,285 @@
+POLO0098016
+POL00098016
+
+Message
+
+From:
+on behalf of
+
+Sent: ~
+
+To: Bansal Steve \(BR, .
+
+cc: David H Wright; }; Jenkins
+ison Bolsover Machin
+
+Subject: "RE? Post Office Finance Service Centre enquiries Strictly Private and Confidential — Subject to Legal Privilege
+
+Strictly Private and Confidential ~ Subject to Legal Privilege
+
+Hi Steve
+Yes it does thanks.
+
+However I’m far more concerned about the outstanding enquiry relating to the receipts & payments problem back in
+2010 where we have two branches (113459 & 122946) who appeared on the initial list of branches but not on the list of
+those resolved. We still have a large unexplained credit on one branch whilst we have recovered money from pay on
+the other despite them recording a significant surplus at the time.
+
+i need to be clear that there is no unresolved problem in case either branch appears in the ongoing Horizon integrity
+review.
+
+i know you have previously stated that a work plan was set up to do some further analysis on 122946 but POL requested
+this not to proceed but | need to understand why they disappeared from the resolved spreadsheet.
+
+Thanks
+Andy Winn Relationship Manager
+Finance Service Centre, 1 Future Walk, Chesterfield S49 1 PF
+
+From: Bansal Steve (BRAO1):
+Sent: 15 April 2013 16:37 *~
+To: Machin Leighton; David H Wright
+
+Cc: Scott Somerside; Andrew Winn
+
+Subject: RE: Post Office Finance Service Centre enquiries.
+
+Firstly please accept my apologies as I thought I'd sent this mail some weeks ago.
+
+I think the question that Mr Winn and the Sub postmaster want answering is about the Paystation transactions
+appearing on the Transaction Log on 20 August. The £500 discrepancy was mentioned on a TfS call from May
+and Andy said that was not relevant.
+
+So to answer the question about Paystation transactions
+
+When Paystation data is received by Horizon, two things are done with it:
+
+i. TA’s are created for each branch to accept when they next logon. When accepted, these will affect the branch
+cash position and the branch should put in the Paystation cash in order to balance.
+
+POL-0097599
+POLO0098016
+POL00098016
+
+2. Individual transactions done on Paystation (the previous day) are inserted into the branch transaction table at
+the data centre. The timestamp is the time the transaction was done on the Paystation. The first part of the
+transaction ref is a high number (in this case 98) instead of the normal node number. The transactions are
+settled to product 29494 Paystation +cash (long name Paystation +cash contra) ~ this does not affect the branch
+cash holding.
+
+This allows individual Paystation transactions to be included or summarised on various reports, and was
+mentioned in an edition of Branch Focus.
+
+So when they printed out the transaction log on 21" August, this included the Paystation transactions done on
+the 20", which had been inserted into the branch transactions table on the evening of the 20",
+
+| hope this covers your request, if there is anything | can assist with further please let me know
+
+Regards
+
+noident
+
+Fujitsu is proud to partner with Shelter, the housing and homeless charity
+
+Reshaping ICT, Reshaping Business in partnership with FT.com
+
+a Please consider the environment - de you reaily need to print this email?
+
+From: David H Wright:
+Sent: 13 March 2013 09:09
+To: Machin Leighton
+
+Cc: Scott Somerside; Andrew Winn
+
+Subject: RE: Post Office Finance Service Centre enquiries.
+
+Hi Leighton,
+Did a response get issued on Thursday? I have not received it - did it just go to Andy?
+
+Thanks,
+
+David Wright LIT Service Advisor, Service Management
+
+POL-0097599
+POLO0098016
+POL00098016
+
+®
+©
+
+@ postofiice-co.uk
+© @postofficenews
+
+From: Machin Leighto
+Sent: 05 March 2013 20:26
+To: David H Wright
+
+Cc: Scott Somerside; Andrew Winn
+
+Subject: RE: Post Office Finance Service Centre enquiries.
+
+Apologies David — It seems it was not not cascaded at the point of your last request (| will cascade it now!)
+A response in one form or another will be provided by COP Thursday.
+
+Regards
+
+Leighton Machin
+Lead SDM ~ End User Services
+Engineering, Service Desk and Operational Business Change
+
+FUJITSU
+Fayondish Road. Stevenage, Herts, SG1 2DY
+(ol
+
+E-mail:
+Web; hhipyrox:tanscccorn™
+
+Fujitsu Services Limited, Registered in England no 96056, Registered Office: 22 Baker Street, London, W1U 3BW
+
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu does not guarantee that this e-
+mail has not been intercepted and amended or that itis virus-free.
+
+From: David H Wright {
+Sent: 05 March 2013 17:27
+
+To: Machin Leighton
+
+Cc: Scott Somerside; Andrew Winn
+
+Subject: FW: Post Office Finance Service Centre enquiries.
+Importance: High
+
+Hi Leighton,
+Were you able to escalate this on our behalf?
+
+Thanks,
+
+David Wright I IT Service Advisor, Service Management
+
+POL-0097599
+POLO0098016
+POL00098016
+
+postoflice.co.uk
+
+@postofficenews
+
+S
+©
+
+From: David H Wright
+Sent: 22 February 2013 11:34
+
+To: ‘Machin Leighton’
+
+Cc: Scott Somerside; Andrew Winn
+
+Subject: FW: Post Office Finance Service Centre enquiries.
+Importance: High
+
+Hi Leighton,
+
+I’ve just picked up a reply from an enquiry I made to Andy Winn in our Finance Service Centre (he has been on
+leave) and disappointingly he has not yet heard anything from the contacts you suggested last month.
+
+Can you escalate the enquiry on our behalf?
+
+I would like to be copied in on replies sent to Andy — thanks.
+
+David Wright IIT Service Advisor, Service Management
+
+@postofficenews
+
+From: David H Wright
+:_18 January 2013 15:35
+
+01)"; Scott Somerside
+Subject: Post Office Finance Service Centre enquiries.
+
+Andy/Penny,
+
+Andrew Winn (Relationship Manager, Financial Service Centre) has requested Service Management assistance
+in re-opening Fujitsu investigations for two outstanding enquiries he has been dealing with for our branches.
+
+POL-0097599
+POLO0098016
+POL00098016
+
+At our recent service review meeting held with Leighton Machin he suggested your names as the appropriate
+contacts. Gareth Jenkins has also been approached in the past.
+
+Ihave attached some information previously shared via email but if you need more detail to help you resolve
+these incidents, please approach Andy Winn direct. His contact details are as follow:
+
+Andy Winn Relationship Manager
+
+Finance Service Centre, 1 Future Walk, Chesterfield S49 1 PF
+
+Thank you.
+Regards,
+
+David Wright I IT Service Advisor, Service Management
+
+@posto ws
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
+
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+
+POL-0097599
+POLO0098016
+POL00098016
+
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U.
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U.
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
+
+err te rere terettrest rer tre teeter tre tee tret tr tee trr tere ter rer tir
+
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+POL-0097599

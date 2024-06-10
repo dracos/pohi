@@ -1,0 +1,245 @@
+POL00028507
+
+POL00028507
+
+( ae
+
+On gk Sop. Prpceaut « . 31 JAN 200)
+
++2357
+Electronic memo
+To: Keith K Baines/POCLIPOSTOFFICE@POSTOFFICE
+ce: Graeme Seedall/POCLIPOSTOFFICE@POSTOFFICE
+Hard Copy To
+Hard Copy cc
+From Min Burdet#POCL/POSTOFFICE
+Date 31/01/2000 15:30
+Subject: Fwd: Receipts Not Equal to Payments B
+Keith
+
+For information, see below. I'm not sure that my advice on the Acceptance aspect was accurately
+represented. | asked Dave Pye, to help any commercial discussions, to try to differentiate between
+where there was a deficiency in service (which seems to be the case with the migration tool) and
+where there is a change in POCL requirements.
+
+have briefed Graeme that you want to be aware of commercial issues before entrenched positions
+are established. He is also going to contact you to arrange the meeting around closure of Al376/TIP
+checking. As Martin was also at the Al211 meeting, you might want to tack this onto your agenda.
+
+Min
+
+To: Min Burdett/POCL/POSTOFFICE@POSTOFFICE, Graeme
+Seedall/POCL/POSTOFFICE@POSTOFFICE
+
+ce:
+
+Hard Copy To
+
+Hard Copy cc
+
+From Mark Burley/POCL/POSTOFFICE
+
+Date 31/01/2000 15:11
+
+Subject: Fwd: Receipts Not Equal to Payments
+
+Graeme / Min
+
+Please see the attached output from our meeting on Wednesday which gives the proposed way
+forward to finally close this Al once and for all.
+
+Happy to discuss
+
+Mark
+
+To: David R Stevenson/POCLIPOSTOFFICE@POSTOFFICE, julie dart, phil turnock,
+dave pye, martin o'toole
+
+ce: Martin Box/POCL/POSTOFFICE@POSTOFFICE, Ann A
+Clarke/POCLIPOSTOFFICE@POSTOFFICE, sue m harding
+
+Hard Copy To
+
+Hard Copy cc
+
+From Mark Burley/POCLIPOSTOFFICE
+
+Date 26/01/2000 04:06 PM
+
+Subject: Receipts Not Equal to Payments
+
+POL00028507
+
+POL00028507
+
+All,
+
+Marton O'Toole, Dave Pye and myself have just finished our meeting with Pathway who were
+represented by John Pope, Steve Warwick, Phil Hemmingway and for the first hour of the meeting by
+Martin Taylor.
+
+We started out by expressing our requirements to Pathway as decided at the meeting held in
+Chesterfield on Monday 24th January 2000. In summary these were stated as:
+
+1) The miman tool to be enhanced such that for each stock unit, the HFSO also enters the balance
+brought forward. This is compared to the derived balance and if there is a difference the HFSO is
+presented with a warning. The HFSO then has the option of changing any of the details entered OR
+accepting the error. In the latter scenario where the HFSO chooses to accept the error, the balance
+brought forward to be used would be that entered by the HFSO. The existing office check of balance
+brought forward would also continue. (Note it was agreed that there was no requirement to change the
+MiECCO tool as these checks are effectively already managed via the ECCO software - the process
+with MiECCO is, from this point on, the same as with Miman)
+
+Steve Warwick advised that conceptually this was a straight forward change to action and implement.
+The only concern raised was around the fact that HFSO's may deliberately force a balance by entering
+spurious data. Whilst it was agreed there was a slight risk from this, there were controls in place,
+namely that users have to accept the migrated data from HFSOs.
+
+2) For any receipt and payment mis-balances, including those from migration, we would like the value
+to be posted to a discrete line on the appropriate receipt or payment table but that this must be
+controlled such that users cannot influence the value and that the ability to create the entry can only
+be achieved via authorisation or input of some type of PIN number from the Helpdesk. We would
+therefore require the warming currently presented when there is a Receipts and Payments misbalance
+to be extended to say ‘please contact the NBSC on xxxx yyyyyy'.
+
+Firstly, there was a suggestion from Pathway that this was significantly different to the suggestion that
+had been made two weeks ago when it was suggested that we would want the office to be prevented
+from completing the problem until the root cause was identified and resolved such that the error could
+be corrected before the cash account was completed and rolled over. | informed them that this was not
+our requirement as there would be no guarantee that all the errors would be resolved in time for the
+following cash account to be completed and we would therefore risk outlets being out of alignment.
+
+necessary security features to provide a facility to only give access to certain buttons via a password.
+This would be a major system change. The ability to restrict access to a system calculated value was
+however a feature that could be introduced. He added that the posting of a Receipts and Payments
+discrepancy to a discrete line was ‘relatively straight forward’ if the error occurred at stock unit level.
+However at cash account level, he suggested this would be considerably more difficult because of how
+these differences are identified. At stock unit level, the error would be identified during the compilation
+of the figures to be printed and therefore the value could easily be posted to an agreed line. At cash
+account level, a receipt not equalling payment error Is only identified when actually printing the trial
+cash account. This is because the system calculates all the individual lines as part of the preparation
+time to printing but only calculates the Receipt and Payment totals when actually printing. As a result,
+to force the error onto discrete lines would need the system to force the user to re-start the cash
+account process which could result in the user incurring an additional 15 minutes (approx) of balancing
+time.
+
+{ Based on our stated requirement, Steve Warwick advised that the current design does not have the
+
+Note that any Receipt equal Payment errors from the stock units that had posted to a line as part of
+the stock unit balance would feed through onto discrete cash account lines in the same was as all
+other transactions. It is only for problems encountered at office level where this problem arises;
+however it is not possible to identify the likelihhod of either, nor understand from the results to date,
+where the errors have occurred although intuitively the larger proportion are likely to be identified in
+
+Shag
+Werk
+
+POL00028507
+
+POL00028507
+
+»s
+
+@ |
+
+stock units.
+
+If we were to proceed with this proposal, POCL would be required to develop relevant products with
+the correct cash account mappings and correct attributes.
+
+Steve did suggest that there could be an alternative to the 15 minutes, namely that as part of the cash
+account preparation, the system also calculates the table totals and performs the check before
+printing. He suggested this would take about 2 minutes of additional time. However the risk with this is
+that it would apply to all outlets not just those with the errors and based on the current error rate of 3%
+- the overall impact to the Business would be less going with the 15 minute option (i.e. 3 times 15 is
+less than 100 times 2). John Pope stated that there is no way they could guarantee actual time
+impacts without doing a paid study which would be necessary as part of any CR raised. Steve
+admitted that the real impact could be anywhere from a few seconds to longer than those suggested.
+Indeed he added that we may never truly know until it is out in the network as only there do they have
+‘real message stores and other activity to contend with’.
+
+Steve suggested that the invasiveness of the change, i.e. the risk to other areas, was relatively high,
+for example they would have to make changes to the new Reconciliation software which currently
+identifies a Receipt and Payments misbalance from the fact that the lines have different totals,
+whereas with this proposal it would need to pick them up from the discrete lines. Pathway agreed that
+their responsibilities to investigate errors and their ‘correction obligations’ would not alter as a result of
+any changes suggested.
+
+We then talked about the warning that is presented to the User where there is a Receipt and
+Payments difference. Steve explained that this is the same warning at both stock unit and office level
+and basically said something along the lines of:
+
+WARNING
+You have a receipts and payments misbalance.
+
+You may be able to correct this.
+OK
+
+The user being required to select OK to continue. Steve agreed that this message could be changed
+to include something along the lines suggested and said this was not an intrusive change.
+
+The question was raised about lead times for the delivery of any changes given John Dicks had
+previously suggested 10 weeks. John Pope stated that this could only be fully identified from a paid
+study. .
+
+Conclusion & Recommendation
+
+1)The proposed change to the Miman tool should be pursued and Martin has agreed to raised the CR
+for this. However, as Min Burdett has suggested that this should be delivered as part of the
+outstanding Acceptance Incident 211, he would re-affirm this view with her and also with Horizon
+Commercial. Martin agreed to circulate the draft CR before submission.
+
+2)On the proposal that any errors are posted to a discrete cash account line, | suggest we no longer
+proceed with this for the following reasons:
+
+a) there is likely to be an adverse impact in terms of time to some OR all outlets;
+
+b) the invasiveness of change is quite high and therefore there is a risk that we could gain
+additional problems as a result. (Whilst | acknowledge this should be resolved through testing,
+experience has shown this to not always be the case).
+
+c) we could opt to just have those errors from stock units posted to a discrete line (which intuitively
+is likely to be the largest percentage). However | recommend against this as itis likely to cause
+
+POL00028507
+
+POL00028507
+
+confusion if we deal with the same problem in different ways.
+
+d) from the meeting on Monday, there was only a marginal preference for this option and the main
+issues were around the need to demonstrate that the Business (TP) was managing the errors and
+the ‘neatness' of the solution. | would suggest that posting to a discrete line does improve
+neatness but does nothing to enhance or prove that the errors are being managed. Even if in the
+future we have an increased number of these errors, posting them to a discrete line will not help
+TP to manage them.
+
+e) the cost of any change is likely to be quite high (with a paid study and the actual change to be
+paid for). It is highly likely based on Min Burdetts advice that PONU will have to bear these costs.
+
+f) the introduction of these lines would need to be explained to users and in reality may not be
+seen by them as any better than the current situation.
+
+3) The change to the warning message is requested and included in the CR to be raised by Martin.
+
+4) The advice given out by the NBSC to be reviewed and changed if required.
+
+The Way Forward
+
+1. As empowered individuals, we need to agree, (or otherwise), the recommendations set out above. (I
+believe that after already discussing these with you over the phone, these are already agreed.
+
+However please reply to this e-mail for formal confirmation.)
+
+2. Martin to raise the Change request covering recommendations 1 and 3 and to make any necessary
+internal changes, e.g. HFSO training.
+
+3. Phil to detail exactly what is said by the helpline and all to propose any changes. Phil to then
+circulate any revision to the advice given for agreement.
+
+4, Julie to continue monitoring within TP.
+
+That's about all | think. | await any comments,
+
+Mark
+

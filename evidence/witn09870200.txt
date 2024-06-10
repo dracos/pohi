@@ -1,758 +1,501 @@
-                                                                                    WI TN09870200
-                                                                                  WI TN09870200
+WITNO09870200
+WITNO09870200
 
+Witness Name: Gerald Barnes
+Statement No.: WITN09870200
 
+Dated: 19 December 2023
 
+POST OFFICE HORIZON IT INQUIRY
 
-                                                      Witness Name: Gerald Barnes
+SECOND WITNESS STATEMENT OF GERALD BARNES
 
-                                                     Statement No.: WITN09870200
-
-                                                          Dated: 19 December 2023
-
-
-
-                      POST OFFICE HORIZON IT INQUIRY
-
-
-
-
-            SECOND WITNESS STATEMENT OF GERALD BARNES
-
-
-
-
-I, MR GERALD BARNES, will say as follows:
+|, MR GERALD BARNES, will say as follows:
 
 INTRODUCTION
 
-1.    As noted in my first witness statement dated 30 August 2023, I am currently
+1. As noted in my first witness statement dated 30 August 2023, | am currently
+employed by Fujitsu Services Limited (“Fujitsu”) as a Software Developer, a
 
-      employed by Fujitsu Services Limited ("Fujitsu") as a Software Developer, a
+position | have held since 1998.
 
-      position I have held since 1998.
+2. This second witness statement is made to assist the Post Office Horizon IT
+Inquiry (the “Inquiry”) with the matters set out in the Rule 9 Requests provided
+to Fujitsu on 16 June 2023 and 31 July 2023 (together, the “Requests”, to the
+extent | have or had direct knowledge of such matters. As with my first witness
+statement, this witness statement relates to my work in Fujitsu's audit team and
+the processes relating to audit queries (also known as Audit Retrieval Queries
 
+or “ARQs’).
 
-2.    This second witness statement is made to assist the Post Office Horizon IT
+3. The nature and potential significance of the matters set out in this statement
+came to light on 6 December 2023, and there is an ongoing operational
 
-      Inquiry (the "Inquiry") with the matters set out in the Rule 9 Requests provided
+investigation with which | am assisting. In order to bring this matter to the
 
-      to Fujitsu on 16 June 2023 and 31 July 2023 (together, the "Requests"), to the
+Page 1 of 14
+WITNO09870200
+WITNO09870200
 
-      extent I have or had direct knowledge of such matters. As with my first witness
+attention of the Inquiry as soon as possible, this statement was drafted with
+assistance from Morrison Foerster, the recognised legal representatives for
+Fujitsu in the Inquiry, in a limited timeframe. It may be necessary to further
+supplement the information provided in this statement, as my knowledge and
 
-      statement, this witness statement relates to my work in Fujitsu's audit team and
+understanding of the issues develop.
 
-      the processes relating to audit queries (also known as Audit Retrieval Queries
+4. Where | have referred to documents to assist my preparation of responses to
 
-      or "ARQs").
-
-
-3.    The nature and potential significance of the matters set out in this statement
-
-      came to light on 6 December 2023, and there is an ongoing operational
-
-      investigation with which I am assisting. In order to bring this matter to the
-
-
-                                    Page 1 of 14
-                                                                                      WI TNO9870200
-                                                                                    WI TN09870200
-
-
-
-
-     attention of the Inquiry as soon as possible, this statement was drafted with
-
-     assistance from Morrison Foerster, the recognised legal representatives for
-
-     Fujitsu in the Inquiry, in a limited timeframe. It may be necessary to further
-
-     supplement the information provided in this statement, as my knowledge and
-
-     understanding of the issues develop.
-
-
-4.   Where I have referred to documents to assist my preparation of responses to
-
-     the Requests, the URNs of the relevant documents are set out in this statement.
-
+the Requests, the URNs of the relevant documents are set out in this statement.
 
 BACKGROUND
 
-5.   In the Requests, the Inquiry asked me to confirm whether I was aware of any
+5. In the Requests, the Inquiry asked me to confirm whether | was aware of any
+incidents where an audit log (whether an ARQ log, a log produced by RQuery
+or XQuilla, detail from the ARQ interface or equivalent) had been provided to
+Post Office Limited (“POL”) or Royal Mail for court or disciplinary proceedings
+or in an investigation relating to a postmaster, manager or assistant that was,
+or may have been, unreliable. As noted in paragraph 26 of my first witness
+statement, | understand ‘ARQ log’ to refer to the data provided by Fujitsu to
+POL in response to ARQ requests that sought data from the audit servers,
+which would be presented on a Microsoft Excel spreadsheet (“ARQ
 
-     incidents where an audit log (whether an ARQ log, a log produced by RQuery
+Spreadsheet’).
 
-     or XQuilla, detail from the ARQ interface or equivalent) had been provided to
+6. As | explained in paragraph 27 of my first witness statement, during my time at
+Fujitsu, | was not personally involved in responding to ARQs submitted by POL
+Fujitsu in relation to investigations, court proceedings, or disciplinary
+proceedings against postmasters, managers or assistants. To assist the
 
-     Post Office Limited ("POL") or Royal Mail for court or disciplinary proceedings
+Inquiry, at paragraphs 27 to 38 of my first witness statement, | set out details of
 
-     or in an investigation relating to a postmaster, manager or assistant that was,
+Page 2 of 14
+WITNO09870200
+WITNO09870200
 
-     or may have been, unreliable. As noted in paragraph 26 of my first witness
+any incidents or issues relating to the accuracy of ARQ data that | was aware
 
-     statement, I understand 'ARQ log' to refer to the data provided by Fujitsu to
+of at that time.
 
-     POL in response to ARQ requests that sought data from the audit servers,
+7. Since providing my first witness statement, | have become aware of an incident
+where Fujitsu provided POL an ARQ Spreadsheet in relation to an ongoing
+appeal by the postmaster of the Apex Corner branch (with Financial Accounting
+Division or “FAD” code 097005) (“Apex Corner’), and this ARQ Spreadsheet
 
-     which would be presented on a Microsoft Excel spreadsheet ("ARQ
+was unreliable (“Apex Corner Incident’).
 
-     Spreadsheet").
+8. Due to my background, knowledge, and experience working in the audit team
+at Fujitsu, | have been involved in investigating the Apex Corner Incident. | have
+helped to identify the cause of the Apex Corner Incident, which | will refer to as
+the “ARQ Extraction Issue” in this statement. | am currently working with other
+technical and operational staff within Fujitsu’s Post Office Account team
+(‘POA’) to (i) understand the extent and impact of the ARQ Extraction Issue
 
-
-6.   As I explained in paragraph 27 of my first witness statement, during my time at
-
-     Fujitsu, I was not personally involved in responding to ARQs submitted by POL
-
-     Fujitsu in relation to investigations, court proceedings, or disciplinary
-
-     proceedings against postmasters, managers or assistants. To assist the
-
-     Inquiry, at paragraphs 27 to 38 of my first witness statement, I set out details of
-
-
-
-
-                                    Page 2 of 14
-                                                                                     WI TN09870200
-                                                                                   WI TN09870200
-
-
-
-
-     any incidents or issues relating to the accuracy of ARQ data that I was aware
-
-     of at that time.
-
-
-7.   Since providing my first witness statement, I have become aware of an incident
-
-     where Fujitsu provided POL an ARQ Spreadsheet in relation to an ongoing
-
-     appeal by the postmaster of the Apex Corner branch (with Financial Accounting
-
-     Division or "FAD" code 097005) ("Apex Corner"), and this ARQ Spreadsheet
-
-     was unreliable ("Apex Corner Incident").
-
-
-8.   Due to my background, knowledge, and experience working in the audit team
-
-     at Fujitsu, I have been involved in investigating the Apex Corner Incident. I have
-
-     helped to identify the cause of the Apex Corner Incident, which I will refer to as
-
-     the "ARQ Extraction Issue" in this statement. I am currently working with other
-
-     technical and operational staff within Fujitsu's Post Office Account team
-
-     ("POA") to (i) understand the extent and impact of the ARQ Extraction Issue
-
-     (as far as possible), and (ii) developing a solution to rectify it.
-
+(as far as possible), and (ii) developing a solution to rectify it.
 
 THE APEX CORNER INCIDENT
 
-9.   On 14 November 2023, I was informed by members of Fujitsu's legal team and
+9. On 14 November 2023, | was informed by members of Fujitsu's legal team and
+Morrison Foerster that a series of ARQ Spreadsheets were provided by Fujitsu
+to POL in response to an ARQ request from POL dated 11 August 2023 relating
 
-     Morrison Foerster that a series of ARQ Spreadsheets were provided by Fujitsu
+to Apex Corner (“Apex Corner Request’). It was explained to me that:
 
-     to POL in response to an ARQ request from POL dated 11 August 2023 relating
+a. the Apex Corner Request related to an ongoing appeal by the former
 
-     to Apex Corner ("Apex Corner Request"). It was explained to me that:
+postmaster of Apex Corner, which was before the Court of Appeal;
 
+Page 3 of 14
+WITNO09870200
+WITNO09870200
 
-     a.   the Apex Corner Request related to an ongoing appeal by the former
+in the Apex Corner Request, POL had requested transaction data relating
+to Apex Corner for a number of months, which included the months of
 
-          postmaster of Apex Corner, which was before the Court of Appeal;
+March and April 2008 (FUJ00234826);
 
+Fujitsu had provided POL a number of ARQ Spreadsheets in response to
+the Apex Corner Request, with separate ARQ Spreadsheets for each
+month of transaction data requested by POL, including an ARQ
+Spreadsheet for transactions in March 2008 (“March 2008 ARQ
 
+Spreadsheet”) and April 2008 (“April 2008 ARQ Spreadsheet”);
 
+as part of the appeal proceedings, the former postmaster had provided a
+girocheque report dated 10 April 2008 (FUJ00234827), which listed 13
+transactions that did not appear in any of the ARQ Spreadsheets Fujitsu
+provided POL in response to the Apex Corner Request (“13 Missing
 
-                                      Page 3 of 14
-                                                                              WI TNO9870200
-                                                                            WI TN09870200
+Transactions’);
 
+it had been identified from relevant Peaks, a Known Error Log (KEL) and
 
+Operational Correction Requests (OCRs) that:
 
+i. the 13 Missing Transactions, which had taken place in March 2008,
+had been “marooned” on the counter at Apex Corner together with a
 
-b.   in the Apex Corner Request, POL had requested transaction data relating
+large number of other transactions in 2008;
 
-     to Apex Corner for a number of months, which included the months of
+ii. consequently, in April 2008, the Software Support Centre (“SSC”) had
+manually reinserted these “marooned” transactions into the
+correspondence servers relating to the earlier version of the Horizon
 
-     March and April 2008 (FUJ00234826);
+system (known as “Legacy Horizon”); and
 
+Page 4 of 14
+WITNO09870200
+WITNO09870200
 
-c.   Fujitsu had provided POL a number of ARQ Spreadsheets in response to
+iii. these “marooned” transactions were reinserted into the
+correspondence using a virtual counter ID (i.e., a counter that did not
+exist at the branch, which was used to identify that they had been
 
-     the Apex Corner Request, with separate ARQ Spreadsheets for each
-
-     month of transaction data requested by POL, including an ARQ
-
-     Spreadsheet for transactions in March 2008 ("March 2008 ARQ
-
-     Spreadsheet") and April 2008 ("April 2008 ARQ Spreadsheet");
-
-
-d.   as part of the appeal proceedings, the former postmaster had provided a
-
-     girocheque report dated 10 April 2008 (FUJ00234827), which listed 13
-
-     transactions that did not appear in any of the ARQ Spreadsheets Fujitsu
-
-     provided POL in response to the Apex Corner Request ("13 Missing
-
-     Transactions");
-
-
-e.   it had been identified from relevant Peaks, a Known Error Log (KEL) and
-
-     Operational Correction Requests (OCRs) that:
-
-
-      i. the 13 Missing Transactions, which had taken place in March 2008,
-
-        had been "marooned" on the counter at Apex Corner together with a
-
-        large number of other transactions in 2008;
-
-
-      ii. consequently, in April 2008, the Software Support Centre ("SSC") had
-
-        manually    reinserted   these   "marooned"   transactions   into   the
-
-         correspondence servers relating to the earlier version of the Horizon
-
-         system (known as "Legacy Horizon"); and
-
-
-
-
-                             Page 4 of 14
-                                                                                    WI TNO9870200
-                                                                                  WI TN09870200
-
-
-
-
-            iii. these   "marooned"     transactions   were   reinserted   into   the
-
-               correspondence using a virtual counter ID (i.e., a counter that did not
-
-               exist at the branch, which was used to identify that they had been
-
-               reinserted by the SSC).
-
+reinserted by the SSC).
 
 INVESTIGATION INTO THE APEX CORNER INCIDENT
 
-10.   I was asked to investigate the Apex Corner Incident as part of a team of
+10. | was asked to investigate the Apex Corner Incident as part of a team of
 
-      technical and other operational staff in POA to understand:
+technical and other operational staff in POA to understand:
 
+a. why the 13 Missing Transactions did not appear in the March 2008 ARQ
 
-      a.   why the 13 Missing Transactions did not appear in the March 2008 ARQ
+Spreadsheet or April 2008 ARQ Spreadsheet; and
 
-           Spreadsheet or April 2008 ARQ Spreadsheet; and
+b. the extent and impact of the ARQ Extraction Issue, including whether it
+impacted (i) ARQ data extractions that had been undertaken in relation to
+other branches, (ii) Legacy Horizon, Horizon Online (including “HNGx”),
 
+or both,
 
-      b.   the extent and impact of the ARQ Extraction Issue, including whether it
+(the “Investigation”)
 
-           impacted (i) ARQ data extractions that had been undertaken in relation to
+11. The investigation team includes John Simpkins (Team Leader, SSC), Farzin
+Denbali (Security Operations Manager, POA) and Steve Browell (Service
 
-           other branches, (ii) Legacy Horizon, Horizon Online (including "HNGx"),
-
-           or both,
-
-
-           (the "Investigation")
-
-
-11.   The investigation team includes John Simpkins (Team Leader, SSC), Farzin
-
-      Denbali (Security Operations Manager, POA) and Steve Browell (Service
-
-      Operations and Strategy Manager, POA).
-
+Operations and Strategy Manager, POA).
 
 AUDIT AND ARQ PROCESSES RELATING TO THE APEX CORNER INCIDENT
 
-12.   To assist the Inquiry to understand why the Apex Corner Incident occurred, I
+12. To assist the Inquiry to understand why the Apex Corner Incident occurred, |
+set out below my understanding of (i) how transactions in Legacy Horizon were
+transmitted from the branch counter to the audit archive (“Legacy Audit
+Process’), and (ii) the ARQ process that was applied in relation to the Apex
 
-      set out below my understanding of (i) how transactions in Legacy Horizon were
+Corner Request, which has been in place since around 2009 (“Horizon Online
 
-      transmitted from the branch counter to the audit archive ("Legacy Audit
+Page 5 of 14
+WITNO09870200
+WITNO09870200
 
-      Process"), and (ii) the ARQ process that was applied in relation to the Apex
+ARQ Process’). In setting out my understanding of these processes, | have
 
-      Corner Request, which has been in place since around 2009 ("Horizon Online
+highlighted what happened in relation to the Apex Corner Incident.
 
-                                      Page 5 of 14
-                                                                                        WI TNO9870200
-                                                                                      WI TN09870200
+13. My explanation below is based on my knowledge and experience working in
+the audit team as well as my involvement in the Investigation. As | explained in
+paragraph 7, 14 and 18 of my first witness statement, | have limited experience
+and knowledge regarding the systems and processes relating to audit and
+ARQs in relation to Legacy Horizon, however, | have learned more about these
 
-
-
-
-      ARQ Process"). In setting out my understanding of these processes, I have
-
-      highlighted what happened in relation to the Apex Corner Incident.
-
-
-13.   My explanation below is based on my knowledge and experience working in
-
-      the audit team as well as my involvement in the Investigation. As I explained in
-
-      paragraph 7, 14 and 18 of my first witness statement, I have limited experience
-
-      and knowledge regarding the systems and processes relating to audit and
-
-      ARQs in relation to Legacy Horizon, however, I have learned more about these
-
-      systems and processes as a result of my involvement in the Investigation.
-
+systems and processes as a result of my involvement in the Investigation.
 
 The Legacy Audit Process
+14. | understand that the process in which transactions made at the counter in
+Legacy Horizon were transmitted and stored in the audit archive was designed
 
-14.   I understand that the process in which transactions made at the counter in
+to operate as follows:
 
-      Legacy Horizon were transmitted and stored in the audit archive was designed
+a. Riposte messages, including transaction messages, would first be written
+to the Riposte message store on the local counter at the Post Office
+branch and attributed a Riposte message date (among other things). For
+example, the Riposte message date for a transaction message was the
+date that the transaction took place at the counter (“Transaction Date”).
+To create a back-up, these messages were replicated locally to (i) other
+counters in the branch (if the branch had multiple counters), or (ii) a “mirror
+disk” physically contained in the counter (if the branch only had a single
 
-      to operate as follows:
+counter).
 
+b. Periodically, Riposte messages would then be sent from the counter to
+the correspondence servers in the data centres. This was done
 
-      a.   Riposte messages, including transaction messages, would first be written
+periodically because Legacy Horizon was primarily an offline system.
 
-           to the Riposte message store on the local counter at the Post Office
+page of 14
+WITNO09870200
+WITNO09870200
 
-           branch and attributed a Riposte message date (among other things). For
+Branches were assigned to one of four “clusters”, which refers to a group
+of FAD codes, and messages from branches would feed into one of these
+clusters at the correspondence server level. Once at the correspondence
+server level, an audit harvester would write the messages from these
+clusters into Transaction Management Service files (“TMS Files”) (i.e.,
+only messages within the same cluster at the correspondence server level
+would be written in the same TMS File). The TMS Files would also be
 
-           example, the Riposte message date for a transaction message was the
+labelled with a cluster identifier and date/time.
 
-           date that the transaction took place at the counter ("Transaction Date").
+c. The TMS Files would then be gathered and copied to the audit server. A
+cyclic gatherer program would take the TMS Files from the
+correspondence server and copy them to the audit server, keeping the
 
-           To create a back-up, these messages were replicated locally to (i) other
+same cluster identifier and date/time.
 
-           counters in the branch (if the branch had multiple counters), or (ii) a "mirror
+d. The gathered TMS Files would then be sealed by the application of an
+“MD5 checksum” and put onto a storage device (for example, Centera).
+The TMS File was considered stored on the audit archive on the date it
+was sealed (“Seal Date”). The Seal Date and name of the file (which
+included the name of the cluster) (“Audit Filename”) were recorded on a
 
-           disk" physically contained in the counter (if the branch only had a single
+“Sealer Database’.
 
-           counter).
+What | have described above is the process, as | understand it, that should
+have taken place to store counter data onto the audit archive. | understand that
 
+due to an issue with the counter at Apex Corner:
 
-      b.   Periodically, Riposte messages would then be sent from the counter to
+a. the 13 Missing Transactions, which had Transaction Dates in March 2008,
+were not sealed in TMS Files in the audit archive until April 2008 because
 
-           the correspondence servers in the data centres. This was done
+the transactions were reinserted by the SSC in April 2008; and
+WITNO09870200
+WITNO09870200
 
-           periodically because Legacy Horizon was primarily an offline system.
-                                     Nage b 0114
-                                                                                      WI TN09870200
-                                                                                    WI TN09870200
+b. asa result of this delay, the 13 Missing Transactions had Transaction
+Dates in March 2008, however, the transactions were contained in TMS
 
-
-
-
-           Branches were assigned to one of four "clusters", which refers to a group
-
-           of FAD codes, and messages from branches would feed into one of these
-
-           clusters at the correspondence server level. Once at the correspondence
-
-           server level, an audit harvester would write the messages from these
-
-           clusters into Transaction Management Service files ("TMS Files") (i.e.,
-
-           only messages within the same cluster at the correspondence server level
-
-           would be written in the same TMS File). The TMS Files would also be
-
-           labelled with a cluster identifier and date/time.
-
-
-      c.   The TMS Files would then be gathered and copied to the audit server. A
-
-           cyclic gatherer program        would     take   the   TMS   Files from   the
-
-           correspondence server and copy them to the audit server, keeping the
-
-           same cluster identifier and date/time.
-
-
-      d.   The gathered TMS Files would then be sealed by the application of an
-
-           "MD5 checksum" and put onto a storage device (for example, Centera).
-
-           The TMS File was considered stored on the audit archive on the date it
-
-           was sealed ("Seal Date"). The Seal Date and name of the file (which
-
-           included the name of the cluster) ("Audit Filename") were recorded on a
-
-           "Sealer Database".
-
-
-15.   What I have described above is the process, as I understand it, that should
-
-      have taken place to store counter data onto the audit archive. I understand that
-
-      due to an issue with the counter at Apex Corner:
-
-
-      a.   the 13 Missing Transactions, which had Transaction Dates in March 2008,
-
-           were not sealed in TMS Files in the audit archive until April 2008 because
-
-           the transactions were reinserted by the SSC in April 2008; and
-                                                                                    WI TN09870200
-                                                                                  WI TN09870200
-
-
-
-
-      b.   as a result of this delay, the 13 Missing Transactions had Transaction
-
-           Dates in March 2008, however, the transactions were contained in TMS
-
-           Files with a Seal Date in April 2008.
-
+Files with a Seal Date in April 2008.
 
 The Horizon Online ARQ Process
 
-16.   Fujitsu uses a software application called "AEClient" to retrieve data from the
+16.
 
-      audit archive. AEClient is run on physical terminals known as Audit
+Fujitsu uses a software application called “AEClient” to retrieve data from the
+audit archive. AEClient is run on physical terminals known as Audit
+Workstations (AUW), which members of Fujitsu’s audit and security teams use
 
-      Workstations (AUW), which members of Fujitsu's audit and security teams use
+to perform the retrieval. The Horizon Online ARQ process operates as follows:
 
-      to perform the retrieval. The Horizon Online ARQ process operates as follows:
+a. A cluster look-up database is used to identify the details of the cluster
+where messages from the relevant branch FAD code and ARQ request
 
+date range are stored.
 
-      a.   A cluster look-up database is used to identify the details of the cluster
+b. | The Sealer Database is then used to identify and retrieve the sealed TMS
+Files from the audit archive relating to the ARQ request by searching for
+(i) the cluster relating to the relevant branch FAD code across the Audit
+Filenames, and (ii) date range (known as the “Retrieval Range”)
+according to the Seal Date, which is typically a calendar month. As |
+explained in my first witness statement at paragraph 25(d), when the audit
+team performs audit retrievals, it allows extra days in the Retrieval Range
+to allow for TMS Files that were gathered late. For example, when
+responding to an ARQ request for the month of March, a Retrieval Range
+of 1 March to 2 April (inclusive) will be used to allow for TMS Files
+containing transactions that took place on 31 March, which were not
 
-           where messages from the relevant branch FAD code and ARQ request
+gathered until 1 April.
 
-           date range are stored.
+Page 8 of 14
+WITNO09870200
+WITNO09870200
 
+The Query Manager service, which is a separate application controlled by
+the AEClient, then queries each of the sealed TMS Files that have been
+retrieved from the audit archive and filters the messages contained within
+them according to (i) the relevant branch FAD code, and (ii) Riposte
+message date (e.g., the Transaction Date), which is typically entered as a
+date range (“Filter Range”) of a calendar month. The Query Manager
+service also undertakes automatic checks to identify any gaps and
+duplicates in the Riposte messages within the Filter Range. Each
+message has a unique and ascending identifier known as the “Num”
+attribute, which the Query Manager service uses to undertake these
 
-      b.   The Sealer Database is then used to identify and retrieve the sealed TMS
+checks.
 
-           Files from the audit archive relating to the ARQ request by searching for
+The Query Manager service then generates a single XML file, which
+contains data relating to all of the messages (e.g., transactions and events
+messages) that meet the filtering criteria applied (i.e., branch FAD code
 
-           (i) the cluster relating to the relevant branch FAD code across the Audit
+and Riposte message date).
 
-           Filenames, and (ii) date range (known as the "Retrieval Range")
+The XML file is then queried using a query language known as “FLWOR”
+(pronounced “flower”) for specific information and data. Where the ARQ
+request is for details of transactions, the FLWOR query is used to identify
+and extract Riposte transaction messages by returning all messages that
+have any value for two Riposte message attributes:
+“EPOSSTransaction/ProductNo” and “TxnData/Start/Date”. The identified
+transaction messages are then put into a new XML file (“Output XML
 
-           according to the Seal Date, which is typically a calendar month. As I
+File”). The Output XML File will only contain the Riposte message
 
-           explained in my first witness statement at paragraph 25(d), when the audit
+Page 9 of 14
+17.
 
-           team performs audit retrievals, it allows extra days in the Retrieval Range
+18.
 
-           to allow for TMS Files that were gathered late. For example, when
+WITNO09870200
+WITNO09870200
 
-           responding to an ARQ request for the month of March, a Retrieval Range
+attributes that are specified in the FLWOR query, which include,
 
-           of 1 March to 2 April (inclusive) will be used to allow for TMS Files
+Transaction Date, Mode, Session ID and Transaction ID.
 
-           containing transactions that took place on 31 March, which were not
+f. The AEClient then uses the Output XML File to produce the ARQ
 
-           gathered until 1 April.
+Spreadsheet.
 
+My understanding is that the security team would identify gaps and duplicates
+in messages through automatic checks, and occasionally identify that whole
+days of messages were missing at the end of an ARQ Spreadsheet following a
+manual review of the spreadsheet. This would sometimes be drawn to my
+attention by the security team, who would ask me to investigate the gaps and
+find the missing messages by extending the Retrieval Range of the ARQ while
 
+keeping the Filter Range the same.
 
+My understanding is that the process | have described at paragraph 16 in this
+statement was followed for the Apex Corner Request. As part of my work on
+the Investigation, | helped to determine that the 13 Missing Transactions were
+not presented on the ARQ Spreadsheets provided in response to the Apex
+Corner Request because of how the Horizon Online ARQ Process operates in
+certain circumstances, which | set out below at paragraph 21. In summary, the
 
-                                     Page 8 of 14
-                                                                               WI TNO9870200
-                                                                             WI TN09870200
+Apex Corner Incident occurred because:
 
+a. when the Horizon Online ARQ Process was applied to the Apex Corner
+Request, the Sealer Database was used to identify and retrieve sealed
 
+TMS Files for March 2008 and April 2008 (among other months);
 
+Page 10 of 14
+19.
 
-c.   The Query Manager service, which is a separate application controlled by
+20.
 
-     the AEClient, then queries each of the sealed TMS Files that have been
+WITNO09870200
+WITNO09870200
 
-     retrieved from the audit archive and filters the messages contained within
+b. as noted above at paragraph 15, the 13 Missing Transactions, which had
+Transaction Dates in March 2008, were contained in sealed TMS Files
 
-     them according to (i) the relevant branch FAD code, and (ii) Riposte
+with a Seal Date in April 2008;
 
-     message date (e.g., the Transaction Date), which is typically entered as a
+c. when processing the ARQ request, the Query Manager service was used
 
-     date range ("Filter Range") of a calendar month. The Query Manager
+to filter:
 
-     service also undertakes automatic checks to identify any gaps and
+i. the sealed TMS Files for March 2008 for transactions with a
 
-     duplicates in the Riposte messages within the Filter Range. Each
+Transaction Date in March 2008; and
 
-     message has a unique and ascending identifier known as the "Num"
+ii. the sealed TMS Files for April 2008 for transactions with a Transaction
 
-     attribute, which the Query Manager service uses to undertake these
+Date in April 2008;
 
-     checks.
+d. consequently, the 13 Missing Transactions were not captured by the
+Query Manager service during the filtering process noted at paragraph
 
+16(c).
 
-d.   The Query Manager service then generates a single XML file, which
+In order for the 13 Missing Transactions to be retrieved and presented on an
+ARQ Spreadsheet, | identified that the Query Manager service needed to query
+the TMS Files that were sealed in April 2008 and filter these files for
 
-     contains data relating to all of the messages (e.g., transactions and events
+transactions with a Transaction Date in March 2008.
 
-     messages) that meet the filtering criteria applied (i.e., branch FAD code
+Once this revised query was applied, the 13 Missing Transactions were
+retrieved and presented on an ARQ Spreadsheet and the automatic checks
+noted at 16(c) identified gaps in the messages that had been reinserted by the
+SSC on the virtual counter. At this stage, | am not sure why there were gaps in
 
-     and Riposte message date).
+relation to these messages and the Investigation is ongoing in this regard.
 
-
-e.   The XML file is then queried using a query language known as "FLWOR"
-
-     (pronounced "flower") for specific information and data. Where the ARQ
-
-     request is for details of transactions, the FLWOR query is used to identify
-
-     and extract Riposte transaction messages by returning all messages that
-
-     have      any   value     for   two     Riposte     message      attributes:
-
-     "EPOSSTransaction/ProductNo" and "TxnData/Start/Date". The identified
-
-     transaction messages are then put into a new XML file ("Output XML
-
-     File"). The Output XML File will only contain the Riposte message
-
-
-
-
-                              Page 9 of 14
-                                                                                  WI TN09870200
-                                                                                WI TN09870200
-
-
-
-
-           attributes that are specified in the FLWOR query, which include,
-
-           Transaction Date, Mode, Session ID and Transaction ID.
-
-
-      f.   The AEClient then uses the Output XML File to produce the ARQ
-
-           Spreadsheet.
-
-
-17.   My understanding is that the security team would identify gaps and duplicates
-
-      in messages through automatic checks, and occasionally identify that whole
-
-      days of messages were missing at the end of an ARQ Spreadsheet following a
-
-      manual review of the spreadsheet. This would sometimes be drawn to my
-
-      attention by the security team, who would ask me to investigate the gaps and
-
-      find the missing messages by extending the Retrieval Range of the ARQ while
-
-      keeping the Filter Range the same.
-
-
-18.   My understanding is that the process I have described at paragraph 16 in this
-
-      statement was followed for the Apex Corner Request. As part of my work on
-
-      the Investigation, I helped to determine that the 13 Missing Transactions were
-
-      not presented on the ARQ Spreadsheets provided in response to the Apex
-
-      Corner Request because of how the Horizon Online ARQ Process operates in
-
-      certain circumstances, which I set out below at paragraph 21. In summary, the
-
-      Apex Corner Incident occurred because:
-
-
-      a.   when the Horizon Online ARQ Process was applied to the Apex Corner
-
-           Request, the Sealer Database was used to identify and retrieve sealed
-
-           TMS Files for March 2008 and April 2008 (among other months);
-
-
-
-
-                                   Page 10 of 14
-                                                                                      WI TN09870200
-                                                                                    WI TN09870200
-
-
-
-
-      b.   as noted above at paragraph 15, the 13 Missing Transactions, which had
-
-           Transaction Dates in March 2008, were contained in sealed TMS Files
-
-           with a Seal Date in April 2008;
-
-
-      c.   when processing the ARQ request, the Query Manager service was used
-
-           to filter:
-
-
-            i. the sealed TMS Files for March 2008 for transactions with a
-
-                Transaction Date in March 2008; and
-
-
-            ii. the sealed TMS Files for April 2008 for transactions with a Transaction
-
-                Date in April 2008;
-
-
-      d.   consequently, the 13 Missing Transactions were not captured by the
-
-           Query Manager service during the filtering process noted at paragraph
-
-           16(c).
-
-
-19.   In order for the 13 Missing Transactions to be retrieved and presented on an
-
-      ARQ Spreadsheet, I identified that the Query Manager service needed to query
-
-      the TMS Files that were sealed in April 2008 and filter these files for
-
-      transactions with a Transaction Date in March 2008.
-
-
-20.   Once this revised query was applied, the 13 Missing Transactions were
-
-      retrieved and presented on an ARQ Spreadsheet and the automatic checks
-
-      noted at 16(c) identified gaps in the messages that had been reinserted by the
-
-      SSC on the virtual counter. At this stage, I am not sure why there were gaps in
-
-      relation to these messages and the Investigation is ongoing in this regard.
-
-
-
-
-                                      Page 11 of 14
-                                                                                        WI TNO9870200
-                                                                                      WI TN09870200
-
-
-
+Page 11 of 14
+WITNO09870200
+WITNO09870200
 
 EXTENT AND IMPACT OF THE ARQ EXTRACTION ISSUE
+21. Based on the Investigation so far, in general terms, my understanding is that
 
-21.   Based on the Investigation so far, in general terms, my understanding is that
+the ARQ Extraction Issue can occur in the following circumstances:
 
-      the ARQ Extraction Issue can occur in the following circumstances:
+a. _ there is a delay between (i) the date that a transaction was carried out at
+a branch, and (ii) the date the TMS File containing the transaction was
 
+sealed in the audit archive;
 
-      a.   there is a delay between (i) the date that a transaction was carried out at
+b. _ the delay is caused by error or fault (e.g., counter hardware failures, a fault
+with the sealer, network connectivity problems), which leads to transaction
+messages that took place in month “A” being stored in the audit archive in
+TMS Files that are sealed in month “B” (e.g., in the Apex Corner Incident,
+the SSC reinserted the 13 Missing Transactions (and others) using a
 
-           a branch, and (ii) the date the TMS File containing the transaction was
+virtual counter ID);
 
-           sealed in the audit archive;
+c. an ARQ request is received requesting data for the branch including in
 
+relation to month “A”;
 
-      b.   the delay is caused by error or fault (e.g., counter hardware failures, a fault
+d. the current Horizon Online ARQ Process is followed to respond to the
+ARQ request, and the sealed TMS Files relating to the branch for month
 
-           with the sealer, network connectivity problems), which leads to transaction
+“B” are not searched for transactions that took place in month “A”; and
 
-           messages that took place in month "A" being stored in the audit archive in
+e. the automatic checks, noted at paragraph 16(c) above, fail to identify any
+gaps in the transaction messages that would indicate the transaction is
 
-           TMS Files that are sealed in month "B" (e.g., in the Apex Corner Incident,
+missing.
 
-           the SSC reinserted the 13 Missing Transactions (and others) using a
+22. The Apex Corner Incident has shown that the current Horizon Online ARQ
+Process has a flaw because transactions in Legacy Horizon for one month can
 
-           virtual counter ID);
+be stored in the audit archive in the following month, such that the additional
 
+Page 12 of 14
+WITNO09870200
+WITNO09870200
 
-      c.   an ARQ request is received requesting data for the branch including in
+days allowed in the Retrieval Range are not enough to capture all relevant TMS
+Files that were sealed late. As a result, Fujitsu is modifying the process to allow
+three months in the Retrieval Range (i.e., the date range applied to retrieve
+TMS Files). Hence it will retrieve up to 2 months of lately sealed or inserted
 
-           relation to month "A";
+messages.
 
+23. Astexplain above at paragraphs 8, 10 and 11, | am currently working with other
+technical and operational staff in POA to understand the extent and impact of
+the ARQ Extraction Issue, including in relation to Legacy Horizon and Horizon
+Online. | will endeavour to provide further information to the Inquiry as | learn
 
-      d.   the current Horizon Online ARQ Process is followed to respond to the
-
-           ARQ request, and the sealed TMS Files relating to the branch for month
-
-           "B" are not searched for transactions that took place in month "A"; and
-
-
-      e.   the automatic checks, noted at paragraph 16(c) above, fail to identify any
-
-           gaps in the transaction messages that would indicate the transaction is
-
-           missing.
-
-
-22.   The Apex Corner Incident has shown that the current Horizon Online ARQ
-
-      Process has a flaw because transactions in Legacy Horizon for one month can
-
-      be stored in the audit archive in the following month, such that the additional
-
-                                     Page 12 of 14
-                                                                                          WI TNO9870200
-                                                                                        WI TN09870200
-
-
-
-
-         days allowed in the Retrieval Range are not enough to capture all relevant TMS
-
-         Files that were sealed late. As a result, Fujitsu is modifying the process to allow
-
-         three months in the Retrieval Range (i.e., the date range applied to retrieve
-
-         TMS Files). Hence it will retrieve up to 2 months of lately sealed or inserted
-
-         messages.
-
-
-23.      As I explain above at paragraphs 8, 10 and 11, I am currently working with other
-
-         technical and operational staff in POA to understand the extent and impact of
-
-         the ARQ Extraction Issue, including in relation to Legacy Horizon and Horizon
-
-         Online. I will endeavour to provide further information to the Inquiry as I learn
-
-         more about the issue.
-
+more about the issue.
 
 Statement of Truth
 
-I believe the content of this statement to be true.
+| believe the content of this statement to be true.
 
+Signed: |
+=
 
-Signed:            GRO
-Dated:      19 December 2023
+Dated: _19 December 2023
 
+Page 13 of 14
+INDEX TO THE SECOND WITNESS STATEMENT OF GERALD BARNES
 
-
-
-                                        Page 13 of 14
-                                                                         W I TN09870200
-                                                                        WITNO9870200
-
-
-
-
-  INDEX TO THE SECOND WITNESS STATEMENT OF GERALD BARNES
+WITNO09870200
+WITNO09870200
 
 Exhibit
-                 Description             Control Number        URN
- No.
- 1        Girocheque report dated 10    POINQ0240969F     FUJ00234827
-          April 2008
-          ARQ Spreadsheet relating
- 2.       to Apex Corner provided to    POINQ0240968F     FUJ00234826
-          POL on 4 September 2023
 
+No Description Control Number URN
+Girocheque report dated 10
 
+1. April 2008 POINQ0240969F | FUJ00234827
+ARQ Spreadsheet relating
 
+2. to Apex Corner provided to POINQ0240968F | FUJ00234826
 
-                                 Page 14 of 14
-
+POL on 4 September 2023
+
+Page 14 of 14

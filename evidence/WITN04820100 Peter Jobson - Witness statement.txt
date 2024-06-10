@@ -1,0 +1,562 @@
+WITN04820100
+WITN04820100
+
+Witness Name: Peter William Jobson
+Statement No.: WITN0482_01 Exhibits:
+WITNO0482_01/1 — WITN0482_01/9
+Dated: 4 August 2022
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF PETER WILLIAM JOBSON
+
+|, MR PETER WILLIAM JOBSON, will say as follows:
+INTRODUCTION
+
+1. | am a Customer Solution Architect level 3 (“CSA3”) in the Host development team at
+Fujitsu Services Limited (“Fujitsu”). | have been in this role since September 2009.
+
+2. This witness statement is made on behalf of Fujitsu to assist the Post Office Horizon
+IT Inquiry (the “Inquiry”) with the matters set out in the Rule 9 Request provided to
+Fujitsu on 11 March 2022 and a series of further questions provided to me by the
+Inquiry on 1 July 2022 (the “Request”), to the extent | have direct knowledge of such
+matters.
+
+3. The Request relates to matters that took place more than 15 years ago. Where | was
+involved in these matters, | have tried to recall events to the best of my ability, but my
+recollection is limited.
+
+4. In preparing this statement, | have refreshed my memory by reviewing
+contemporaneous documents relating to questions asked by the Inquiry in the
+
+Request. Where | have seen documents relevant to the Request, these documents
+
+Page 1 of 17
+WITN04820100
+WITN04820100
+
+are referred to using references WITN0482_01/1 — WITN0482_01/9 and are listed in
+the index accompanying this statement. To the extent that these documents have not
+already been provided to the Inquiry, they are exhibited to this statement.
+
+BACKGROUND
+
+5. In July 1997, | was invited to join ICL PLC (“ICL”) as a contractor working in the Host
+development team, where | worked on Oracle database design and development. |
+primarily worked on backend database applications and the development of the
+payment authorisation system (“PAS”) and Card Management System (“CMS”) being
+delivered by the software company Oracle UK (“Oracle UK”) to supply benefit
+payments for Post Office branches, known as the “PAS/CMS Project”. | worked in
+this role until the PAS/CMS Project was cancelled. After this time, | worked on other
+data-centre based database systems including the Fujitsu Data Warehouse. | left ICL
+in June 2001. During my time at ICL, | initially reported to Bill Hillyard, who reported
+to Terry Austin. Later, | reported to Chris Humphries. At this time | had no concerns
+with the Oracle Relational Database product nor did | have any concerns with the
+quality of the team from Oracle who were initially responsible for the design and
+development of the PAS/CMS Project.
+
+6. | returned to work for Fujitsu as a full-time employee around June or July 2003 and
+re-joined the Post Office Account, taking up responsibilities similar to those that | had
+previously as a contractor. | worked on various database subsystems including the
+Transaction Processing System (“TPS”), Logistics Feeder System (“LFS”), Data
+Reconciliation System (“DRS”), Network Banking Persistent store (“NPS”),
+
+Transaction Enquiry Service (“TES”) and AP-Out Payments (“APOP”). During this
+
+Page 2 of 17
+WITN04820100
+WITN04820100
+
+time, | primarily reported to Dave Johns, who reported to Alan D’Alvarez. | left this
+
+role and Fujitsu in March 2006. During this time | do not recall having concerns in
+
+relation to the function or robustness of TPS, LFS, DRS, NPS, TES or APOP.
+
+. lreturned again to Fujitsu in September 2009 as a CSA3 and re-joined the Post Office
+Account in the Host development team. During this time, | was involved in the process
+of implementing the HNG-X solution and ongoing functional change as required by
+Post Office Limited (“Post Office”). As a CSA3, my role included the following tasks
+and responsibilities:
+
+a. |liaised with business requirement owners and derived software designs to meet
+these requirements
+
+b. | liaised with development, test and delivery teams to ensure that the business
+requirements were correctly interpreted by the design and software deliverables,
+including by helping testers to understand test outcomes
+
+c. | performed other activities requested of me by my line manager, including
+reviewing design and interface documents, engaging with auditors and providing
+live support
+
+. Until 2006 | belonged to the Host Database development team that would have
+reported into an overall Development manager. After 2009 | belonged to an
+Architecture Team that also reports into an overall Development manager. When
+there are live affecting issues, these are currently managed by the Customer Services
+team who ensure that there is sufficient interaction between internal teams, Post
+
+Office and any affected 3rd party clients.
+
+Page 3 of 17
+WITN04820100
+WITN04820100
+
+9. All of my previous roles have involved database design and development, including
+in relation to the implementation of the Horizon IT system (the “Project”) and the
+IMPACT Programme (“IMPACT”). However, | had limited involvement in those
+aspects of the Project concerning Post Office branch trading, which is operated using
+counter applications. | was not, for example, involved in the design, development,
+testing or roll out of counter applications to Post Office branches.
+
+THE REQUEST
+
+10.1 have reviewed the topics listed in Appendix 1 of the Request, and | am able to
+provide information in response to certain questions under the following topics:
+Design and Development, Acceptance Criteria and Testing, and Modifications.
+
+DESIGN AND DEVELOPMENT
+
+Key stages in the design and development of Horizon
+
+11.During the period up until 2000, the design and development of the PAS/CMS Project
+followed a waterfall methodology, which | explain at paragraph [12] of my statement
+below. Most of the Oracle design and development was performed by Oracle UK
+before this responsibility was transferred to an ICL team (which | only know as the
+A&TC team) based in Dublin. Oracle UK implemented internal peer reviews of
+designs, test plans and test outcomes. During this period | was also responsible for
+designing interfaces to the Data Warehouse system. For example, | authored the
+‘PAS/ICMS MIS Data Extract High Level Design’ dated 2 April 1998
+(WITN0482_01/1).
+
+12.As | mentioned at paragraphs 5-6 in my statement above, | left ICL in June 2001 and
+
+returned to Fujitsu in June or July 2003. From the period 2003 onwards, the design
+
+Page 4 of 17
+WITN04820100
+WITN04820100
+
+and development of the Horizon IT system (“Horizon”) also followed a waterfall
+methodology. Designs of the database applications were created and reviewed at a
+high level (“High Level Designs”), which were then used to generate more detailed
+low level designs (“Low Level Designs”) before development started. This process
+was subject to quality controls and change management processes, with peer
+reviews at all levels from ‘End-to-End’ designs, High Level Designs through to Low
+Level Designs, coding and testing. Each type of design document had its own list of
+mandatory reviewers that could vary according to the subject matter of the document.
+The review process was controlled by a document management team who ensured
+that the review process iterated until all comments were resolved. A document would
+only be approved and moved to a ‘major version’ once all comments were responded
+to satisfactorily. Generally, development would only begin once the design document
+had reached its first ‘major version’. This design and development methodology was
+used in relation to IMPACT, which | describe and explain further in this statement at
+[31] below.
+
+13.As | mentioned in this statement above at paragraph [6], from the period 2003
+onwards, | was mainly involved in one aspect of the Project, being Oracle database
+design. My primary role was to take an end-to-end design proposal (“Design
+Proposal”) that was created by one of the leading architects and create a more
+detailed High Level Design covering the component(s) that were my area of
+responsibility. One exception to this was my work with the automation of cash pouch
+remittances, where | documented the design at all layers of the architecture; | cannot
+
+recall why | was asked to or otherwise documented this design.
+
+Page 5 of 17
+WITN04820100
+WITN04820100
+
+Oversight of the design and development of Horizon
+
+14.There were many teams working on different aspects of design and development
+within the Project, including a counter development team, a team responsible for all
+Riposte development and On-Line/Bulk Banking agents, and the Host development
+team of which | was a member. These multiple design and development streams
+operated in parallel. Generally, members of one development team worked in one
+layer of the architecture and did not have involvement in other parts of the system.
+The individual teams communicated with each other to ensure that different parts of
+the system interfaced together to produce a coherent solution. The senior
+management and architecture team for the Project had a more overarching view of
+the end-to-end development of Horizon.
+
+15. Each team would have implemented its own development processes and procedures.
+This was because the nature of the layers of the architecture are different. The
+counter application is a GUI (graphical user interface) that was originally written in
+Basic and latterly in Java (which are programming languages), the Agent team dealt
+with real-time or near-real-time messaging systems using different technologies, and
+the Host team implemented Batch processing systems in Pro*C, PL/SQL and shell
+scripting (which are also programming languages). The development and unit testing
+needs of each environment are different. | do not know what controls were in place
+to ensure that development processes and procedures were adequate.
+
+16. There were also different layers of management and oversight. | do not recall who
+was responsible for carrying out and overseeing the design and development of
+
+Horizon.
+
+Page 6 of 17
+WITN04820100
+WITN04820100
+
+Factors influencing the design and development of Horizon
+
+17.During the period 1997 to 2001, | was not involved in the decision-making at the
+Project and senior management level as to the design and development of Horizon,
+such as making decisions as to the choice of architecture, or the choice of product to
+implement that architecture. For this reason, | cannot identify and explain the specific
+factors which influenced the design and development of Horizon.
+
+18.1 can recall however that quality and design standards dictated how the Host
+development team would design and develop databases and interface databases
+with each other. For example, | can recall contributing to the ‘Host Applications
+Database Design and Interface Standards’ dated 29 April 1999 (WITN0482_01/2),
+which related to best practice for implementing data centre Oracle database
+applications. This provided rules for any database design in order to meet the
+business need of robust and supportable software, including:
+
+a. Standards (naming and coding)
+
+b. Best principles (resilience, recovery, auditing, archiving)
+c. Supportability, monitoring
+
+d. Languages, defensive programming, performance
+
+e. Self-containment and interfacing
+
+f. Security
+
+g. Documentation requirements
+
+19. However, most database applications were initially only required to store, aggregate,
+transform and forward data; for example, taking transaction data from the counters to
+
+consumers, such as the Management Information System, Central Financial Systems
+
+Page 7 of 17
+WITN04820100
+WITN04820100
+
+or Automated Payment clients. Or alternatively, transmitting the data in the other
+direction, such as sending reference data from Post Office to Riposte. In time,
+additional database systems were implemented: DRS to reconcile Banking and
+Payment Card transactions, TES to provide Banking reconciliation and transaction
+query and APOP to support transaction persistence for a range of counter data
+including Postal Orders and other data objects. Latterly the branch database was
+implemented to store all Post Office branch data (“Branch Database”). Other
+database systems that | have not had much involvement in are the Reference Data
+Management Centre (RDMC) and the Reference Data Distribution System (RDDS).
+
+ACCEPTANCE CRITERIA AND TESTING
+
+20.As designers and developers, the Host development team would have been
+responsible for Low Level Design and testing from the unit test perspective.
+
+21.This would involve testing all functional code paths to ensure they had been
+exercised, that their responses were as expected, and that they met the requirements
+and functionality described in the High Level Design. These tests and their results
+would be peer reviewed before any deliverable was handed over to the integration
+team. The integration team were responsible for packaging software deliverables
+such that they could be released into test and live environments in a controlled and
+repeatable manner. The integration team and release management would co-
+ordinate software deliveries from different development teams together and release
+these out to the integrated test rig(s) such that dependencies between software
+versions at each layer of the architecture were met. Currently there are the following
+
+test environments:
+
+Page 8 of 17
+WITN04820100
+WITN04820100
+
+a. Development - Unit testing
+b. CIT - Counter application testing integrated with a limited data centre
+c. SV&l - Functional test environment with emulators simulating external entities
+such as financial institutions
+
+d. LST - Live support test, non-functional testing and software release testing
+e. RDT -4 sets of test rigs devoted to testing new reference data
+
+22.Once handed over to the integration team, | was not involved in aiding the testing
+process, and | am not aware of what methods were used from an integrated test
+perspective. From the period 2009 onwards | have had more involvement with the
+integration test team including knowledge transfer, helping with the creation of test
+data and occasionally reviewing test plans and test outputs.
+
+MODIFICATIONS
+
+The IMPACT Programme
+
+23. IMPACT was related to, but not limited to, Post Office’s migration away from the cash
+account to monthly accounting, and the implementation of the Post Office Limited
+Financials System (“POL-FS”), which was operated using a system provided by the
+software company, SAP (“SAP”). IMPACT was called the End-to-End Re-Architecture
+programme in its early days (“E2E”), and some scope of the programme is provided
+in High Level Design documents, including the documents that | refer to below.
+
+24.As part of the first E2E project (“E2E Project 1”), | was responsible for modifying
+some cash logistics designs that better automated the remittance in of cash pouches
+at Post Office branches and provided better control of the remittance out of cash and
+
+its subsequent collection by delivery drivers. Post Office made the decision to modify
+
+Page 9 of 17
+WITN04820100
+WITN04820100
+
+some cash logistics processes as part of the ‘E2E Release 1’ project that was active
+in 2003 and 2004. Details of this work are described in technical documents, including
+the following:
+a. ‘LFS E2E Release 1 — Delta High Level Design’ dated 19 January 2004
+(WITNO0482_01/3)
+b. ‘E2E Release 1 — LFS Counter Dialogue Delta — Activity & Screen Flows’ dated
+5 January 2004 (WITN0482_01/4)
+
+25.As part of E2E Project 1, | was responsible for modifying some counter and central
+database system designs to provide cash liability totals for Post Office branches to
+POL-FS. Details of this work are described in ‘End to End Release 1 — High Level
+Design’ dated 19 January 2004 (WITN0482_01/5) (“E2E R1”). | produced E2E R1,
+which concerned the delivery of two projects under release ‘BI3 S60’, which led to
+changes to the LFS and TPS.
+
+26.As part of the third E2E project (“E2E Project 3”), | was involved in the designs for
+migrating Post Office branches from their old accounting system (which | only know
+as ‘CBDB’) to POL-FS, by migrating data feeds coming from the Post Office’s branch
+estate to Post Office’s backend financial systems. | do not recall having concerns
+about the migration process prior to undertaking it nor being aware of any known
+issues at the time. This process involved making changes to the counter estate and
+the ‘Store and Forward’ system in the datacentre, known as TPS. Details of this work,
+including the scope of IMPACT, are described technical documents, including the
+
+following:
+
+Page 10 of 17
+WITN04820100
+WITN04820100
+
+a. ‘Impact Release 3 - Counter Design for Declaration, Correction and Revaluation’
+dated 8 September 2005 (WITN0482_01/6)
+b. ‘Impact Release 3 — Declaration, Correction and Revaluation User Interface’
+dated 9 September 2004 (WITN0482_01/7)
+c. ‘TPS POL FS Summarisation High Level Design’ dated 19 August 2005
+(WITN0482_01/8)
+27.The TPS system was originally responsible for capturing data from the Riposte
+messaging mid-layer and aggregating this data before passing it onto external
+consumers of the transaction data and financial information. In 2009 and 2010, TPS
+took its data feed from the Branch Database and it was eventually retired in 2020
+since its business functionality had been subsumed into the Branch Database
+application.
+28.As part of E2E Project 3 | was involved in the delivery of summarised data from TPS
+to the ‘HRSAP’ system for the purposes of postmaster remuneration. This project
+also included the processing the receipt of ‘Transaction Corrections’ from POL-FS
+and forwarding this information to Post Office branches. Details of this work, including
+in relation to the HRSAP system, are described in ‘TPS HR SAP Summarisation &
+Transaction Corrections High Level Design’ dated 24 November 2004
+(WITNO482_01/9).
+29.Between 2003 and 2006, the work of the design and development teams working on
+IMPACT was driven by a number of software releases (“Software Releases’). | was
+
+involved in designs for some of these releases, and | recall being involved in releases
+
+Page 11 of 17
+WITN04820100
+WITN04820100
+
+that were delivered under IMPACT, which | have described above at paragraphs [24]—
+[28].
+
+30.During the IMPACT programme, Software Releases would cover changes to both the
+counter applications and the datacentre applications. Generally, the process would
+involve a Solution Architect preparing a Design Proposal, which pulled together the
+end-to-end impact of the changes that were required to the individual layers of
+Horizon’s architecture to meet Post Office’s requirements. At the time, | was not
+aware of any problems new Software Releases could cause, and it was not part of
+my role at that time to be made aware of such problems.
+
+31.The Design Proposal would be a High Level Design that covered the entire solution
+and would be reviewed by each of the teams at each layer of the architecture (e.g.,
+counter development team, Riposte team or Host development team). The Design
+Proposal would be commented upon, and then each of the individual teams would
+produce High Level Designs that would meet the requirements of the Design
+Proposal. These High Level Designs would then be used to formulate and produce
+Low Level Designs that provided the more technical design aspects of the application.
+My ‘layer’ was the database layer, and | developed and produced the designs for the
+datacentre and occasionally the counter. This included the High Level Designs and
+occasionally Low Level Design documents, such as E2E R1, which | mentioned
+above at paragraph [25]. At page two of this document is a section titled ‘Review
+details’ that lists the various individuals who were required to or otherwise reviewed
+
+E2E R’1, including which reviewers returned comments.
+
+Page 12 of 17
+WITN04820100
+WITN04820100
+
+32. The individual teams would only generally work on their layer of the architecture. For
+example, | could be involved in the ‘S90 release’ from a database perspective, but
+not have fully appreciated or understood the design and development that was
+occurring for the counter application despite their interaction with one another. This
+was generally the job of the Design Proposal to knit the layers together.
+
+33.Post Office’s business requirements would often affect all the layers of Horizon’s
+architecture, and a member of the Architecture team would liaise with all the subject
+matter experts (“SMEs”) to determine how the end-to-end flow of data would work.
+For example, if Post Office's financial systems required additional information from
+Post Office branches, this would involve:
+
+a. Acchange to the Counter Business Application
+
+b. Achange to the transport layer that delivers the information to the data centre
+
+c. Achange to the database schema to store the new data
+
+d. Achange to the data centre application to deliver the new information to the final
+
+consumer
+
+After the Architecture team had defined the overall data flows in the Design
+Proposal, individual SMEs for each component were then responsible for updating
+their existing High Level Design, and once that new function was implemented, the
+Design Proposal would become redundant. Design Proposals, now known as
+‘Customer Solution Proposals’ and ‘Project Solution Designs’ become stagnant
+once the change for those new requirements has been implemented.
+
+34.Post Office have new business requirements whenever there is an opportunity to
+
+improve the system or provide new services to customers. The impact of a new
+
+Page 13 of 17
+WITN04820100
+WITN04820100
+
+requirement of Horizon generally involves a change to either the software and/or
+system configuration.
+
+35. Fujitsu’s design and development teams continue to work based on the model | have
+described above. The architecture is layered, and the teams are responsible for their
+respective aspects of the Horizon system (now ‘Horizon Online’). For example, there
+are agents that operate on Microsoft Windows operating systems, Oracle database
+applications and employees who are experts in the counter or the Branch Access
+Layer (“BAL”). High Level Designs and Low Level Designs are maintained for each
+one of these components of the system.
+
+36.My work on IMPACT also involved modifying the way in which cash pouches were
+remitted in and remitted out from stock units in the Post Office branch. When cash
+was remitted out from a stock unit into a cash pouch, the value of cash would be
+transferred into the suspense account until the pouch was collected by a delivery
+driver. At the point of collection, the value of cash in the collected pouches was
+transferred out from the suspense account such that it was no longer the liability of
+the Post Office branch. Other changes may have been made to the local suspense
+account that | am not aware of.
+
+Technical issues identified during the pilots of Horizon Online
+
+37.1 recall there being a technical issue during the first pilot of Horizon Online around
+November 2009, as | started monitoring the datacentre batch schedules to see
+whether the system was experiencing performance issues at the backend. The
+second-line support team identified that the transfer of data from the Branch
+
+Database to TPS was causing an issue because four highly configured Oracle nodes
+
+Page 14 of 17
+WITN04820100
+WITN04820100
+
+were pushing data into a Solaris box, which was overloading it from a network
+perspective. The issue was discovered because the overnight datacentre batch
+schedules failed at the point of delivering data to TPS, and the issue was initially
+overcome by manually resubmitting the failed batch jobs. The issue was permanently
+resolved by controlling resources in the batch schedules to reduce the number of
+concurrent data feeds to the Solaris system, which lessened the data load and
+prevented the issue from reoccurring. The issue was internal to Fujitsu and it could
+not have had an impact on data integrity, as there was a process of data reconciliation
+between the Branch Database and TPS systems to prove data integrity, and failed
+processes relating to batch jobs could be run again.
+
+38.1 recall there being a second technical issue in May or June 2010 where rollout had
+to be paused due to performance issues and there were two reasons:
+a. Oracle clearing its cache when we truncated tables
+b. The BAL was not using bind variables in its queries, which was causing
+
+unnecessary work for the Oracle cost base optimiser
+
+39.1 was not closely involved in this second issue, which was managed and resolved by
+the database administrators, who investigated the performance problems. One of the
+key players in this research and resolution was Andy Beardmore. Post Office were
+aware of the second issue as the rollout of Horizon Online was temporarily paused
+until the issue was resolved.
+
+THE ROBUSTNESS OF HORIZON
+
+40.1 was not aware and did not have any concerns regarding the robustness of Horizon
+
+during the time of my involvement in the Project.
+
+Page 15 of 17
+WITN04820100
+WITN04820100
+
+41.1 was not involved and am not aware as to what information ICL Pathway may have
+provided Post Office Counters Limited and/or the government about the robustness
+
+of Horizon.
+
+Statement of Truth
+
+Page 16 of 17
+WITN04820100
+
+WITN04820100
+
+INDEX TO FIRST WITNESS STATEMENT OF PETER WILLIAM JOBSON
+Exhibit Description Date Control Number URN
+Number
+WITNO48 | PAS/CMS MIS Data 2 April POINQ0123687F | FUJ00117516
+2_01/1 Extract High Level 1998
+
+Design
+
+WITN048 | Host Applications 29 April POINQ0104394F | FUJ00098223
+
+2_01/2 Database Design and | 1999
+Interface Standards
+
+WITNO48 | LFS E2E Release 1— | 19 January | POINQ0123710F | FUJ00117539
+
+2_01/3 Delta High Level 2004
+
+Design
+WITNO48 | E2E Release 1—LFS | 5 January | POINQ0123700F | FUJ00117529
+2_01/4 Counter Dialogue 2004
+
+Delta — Activity &
+Screen Flows
+
+WITNO48 | End to End Release 1 | 19 January | POINQ0104395F | FUJ00098224
+2_01/5 — High Level Design 2004
+
+WITNO48 | Impact Release 3 - 8 POINQ0097261F | FUJ00091090
+2_01/6 Counter Design for September
+Declaration, Correction | 2005
+
+and Revaluation
+
+WITNO48 | Impact Release 3 — 9 POINQ0096418F | FUJ00090247
+2_01/7 Declaration, Correction | September
+and Revaluation User | 2004
+
+Interface
+WITNO48 | TPS POL FS 19 August | POINQ0097117F | FUJ00090946
+2_01/8 Summarisation High 2005
+
+Level Design
+WITNO48 | TPS HR SAP 24 POINQ0096498F | FUJ00090327
+2_01/9 Summarisation & November
+
+Transaction 2004
+
+Corrections High Level
+
+Design
+
+Page 17 of 17

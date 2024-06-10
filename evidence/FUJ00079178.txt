@@ -1,0 +1,510 @@
+ICL
+Pathway
+
+FUJ00079178
+
+FUJ00079178
+Acceptance Resolution Plan Ref: CR/ACD/376
+. Version: 0.9
+Acceptance Incident 376 Date: 23/0/99
+
+Document Title:
+
+Document Type:
+
+Abstract:
+
+Status:
+
+Distribution:
+
+Author:
+
+Comments to:
+
+Comments by:
+
+Acceptance Resolution Plan for Acceptance Incident 376
+
+Acceptance Resolution Plan
+
+This document contains ICL Pathway’s Resolution Plan in
+respect of Acceptance Incident 376.
+
+Issued
+
+Expert:
+Peter Copping
+
+ICL Pathway:
+P John Pope
+
+Library
+
+POCL:
+Calum Craig
+
+John Meagher
+Min Burdett
+Jeff Austin
+
+JCC Dicks
+
+Pathway list
+
+23/9/99
+
+© 1999 ICL Pathway Ltd
+
+COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan V Ref: CR/ACD/376
+ersion: x
+Pathway Acceptance Incident 376 Date. siolo0
+0 O Document control
+
+1 0.1 Document history
+
+Version Date
+
+O41
+0.2
+03
+0.4
+
+0.5
+0.6
+
+0.7
+0.8
+
+0.9
+
+20/8/98
+24/8/99
+4/9/99
+
+10/9/99
+
+16/9/99
+
+16/9/99
+
+22/9/99
+22/9/99
+
+23/9/99
+
+Reason
+
+Initial draft for comments
+
+Version for Expert and workshop 26/8
+Version for Expert and workshop 6/9
+
+Version includes an addendum resolving actions from 9/9
+workshop. For Expert and workshop 13/9 as Resolution
+Plan.
+
+Version documenting final agreed Resolution Plan.
+
+Further version minor changes, observation period
+described
+
+To include agreed closure criteria
+
+Updates agreed during drafting of Schedule 2 Part A of
+the second supplementary agreement
+
+Further updates arising from drafting of Schedule 2 Part A
+of the second supplementary agreement
+
+0 0.2 Approval authorities
+
+Name
+
+Position Signature Date
+
+J H Bennett
+J CC Dicks
+
+Managing Director
+
+Customer Requirements
+
+Director
+
+0 0.3 Associated documents
+
+Reference
+
+Ver Title Source
+s
+
+TIP Incident Status Report Pathway
+0.7 Logical Design for EPOSS/TIP Reconciliation Pathway
+
+CS/PRD/065 0.3
+
+Controls
+Ceasing of Non-Core Products at Outlets Pathway
+
+Process For Removing Products From Outlets At Pathway
+CSR
+
+© 1999 ICL Pathway Ltd
+
+COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan V Ref: CR/ACD/376
+. ersion: 0.9
+
+Pathway Acceptance Incident 376 Date: 23/9/99
+0.4 Abbreviations
+
+AIS Application Interface Specification
+
+CSR Core System Release
+
+CSR+ Core System Release - Plus (the release after CSR)
+
+EPOS Electronic Point of Sale
+
+EPOSS _ EPOS Service
+
+TIP Transaction Information Processing
+
+TMS Transaction Management Service
+
+TPS TIP Processing System - the Pathway host layer for the TIP stream
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+
+ICL Acceptance Resolution Plan V Ref: CR/ACD/376
+
+ersion: x
+Pathway Acceptance Incident 376 Date. siolo0
+0 0.5 Table of content
+1 PURPOSE... cscescsesscssessscensneneesssssesnsscnsesessencsseseesascssesessasenseseasessssasessasenssnasensen 5
+2 SUMMARY wvececcssesseessssssecssecssecsnessssssscssesssessscssscsscsnecssecssessecssecssesasessecsseesseesses 5
+3 CRITERIA... cecsssscsssecsssecsssecsssecsssccessecessecessecsssecessecssscsessssssecsesscssseccssscsssecessecess 5
+4 POCL POSITION. .sssssssssesssesssesssesssssecssssssesssssssesscessesssesssesseessecseesssessssseeseeesses 5
+
+5 PATHWAY POSITION.
+
+5.1 BACKGROUND
+5.2. MATURITY OF PLAN
+5.3 DELIVERY OF ADDITIONAL CONTROLS
+5.3.1 Ongoing Analysis And Review Of Incidents
+5.3.2 Development Of Additional Reconciliation Controls.
+5.4 CORE TO NON-CORE (AI410)
+5.4.1 The position at CSR.i.ccccsssessesesseeeeseneeeees Error! Bookmark not defined.
+
+6 CLOSURE CRITERIA... eescssesesesesssseneneeseeeaseseesesenenseseneseeeseeneaesneseseeeeseesenees 10
+
+WRADAAA A
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan v Ref: CR/ACD/376
+ersion: x
+Pathway Acceptance Incident 376 Date: oo /99
+1 Purpose
+
+This document sets out ICL Pathway’s proposal that Acceptance Incident 376,
+currently categorised as Medium by Pathway and High by POCL, should be
+recategorised by POCL as Medium, and that the Resolution Plan is satisfactory
+and should be agreed.
+
+2 Summary
+
+Pathway contends that there are Clearance Actions that address the three
+remaining issues defined by POCL.
+
+The issue relates to not passing records to TIP because of harvester exceptions
+caused by missing functions in counter code. ICL Pathway has taken measures
+to both stop known occurrences and to ensure that any unforeseen occurrences
+are reported both to TIP and to ICL Pathway development.
+
+The occurrence of a functionally unrelated incident considered under this
+Acceptance Incident, the omission of records from the counter cash account,
+concerned only voucher products. This omission is in process of elimination.
+In addition procedures have been tightened to minimise the risk of product
+withdrawals causing operational difficulties at the counter.
+
+Furthermore, additional reconciliation features that confirm the integrity of
+data passing to TIP have been proposed.
+
+3 = Criteria
+
+Criterion 831/1 is cited: “The Contractor shall support interface from TMS and
+Outlets to Transaction Information Processing (TIP).
+
+4  POCL position
+Based upon the minutes of the Acceptance Board Meeting of 18 August 1999,
+POCL contended that:
+“the plan is still immature”.
+
+“the proposal not to deliver the additional controls until March 2000 is not
+acceptable”.
+
+“the latest analysis performed on Incident 410 ... has revealed further
+unresolved deficiencies and the workaround for these is not agreed”.
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan V Ref: CR/ACD/376
+. ersion: 0.9
+Pathway Acceptance Incident 376 Date: 23/0/99
+
+5 Pathway position
+
+5.1 Background
+
+During the Live Trial, and since, incidents have occurred that, in POCL’s view,
+constitute a potential threat to the integrity of their accounts. These are
+tracked in Al376, TIP Acceptance Incident Status, and associated Root Cause
+Analysis.
+
+5.2 Maturity of plan
+
+The elements of the resolution plan are defined as activities within the
+integrated Acceptance Resolution Plan (currently version 0.9, 16/9/99).
+
+The Pathway proposal in this area has now been expanded into the High Level
+Design document Logical Design for EPOSS/TIP Reconciliation Controls. The
+joint working group has reviewed this in detail. This document provides a
+description of how Pathway will provide additional reconciliation between the
+Cash Account produced in the outlet and the transactions sent to TIP. It
+contains detailed proposals for enhancements to counter processing, harvesting
+and the TPS Host.
+
+5.3 Delivery of additional controls
+
+Clearance action:
+
+The document Logical Design for EPOSS/TIP Reconciliation Controls,
+Version 0.7, 20/9/99 has been agreed and the enhancements will be in
+service by 31/12/99.
+
+5.3.1 Ongoing Analysis And Review Of Incidents
+ICL Pathway will continue to analyse new incidents and will issue periodic
+updates of the TIP Incident Status Report. This report will be reviewed jointly
+fortnightly or as required.
+ICL Pathway’s objective is to eliminate the root causes of such incidents as are
+
+described in Section 2 above, while providing a clear method of communicating
+rare error corrections.
+
+5.3.2 Development Of Additional Reconciliation Controls
+
+Additional controls through the introduction of reconciliation will be
+developed as described in the document Logical Design for EPOSS/TIP
+Reconciliation Controls.
+
+POCL's requirement to have continued visibility of the functionality of the
+solution will be met by re-issues of the above-mentioned document. Should
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan vi Ref: CR/ACD/376
+. ersion: 0.9
+Pathway Acceptance Incident 376 Date: 23/0/99
+
+low level design affect any area within the high level design, then the Logical
+Design document will be updated and re-issued to POCL.
+
+Pathway is currently providing Harvester exception reporting and will continue
+to do so until the additional Reconciliation Controls have entered service.
+
+POCL is concerned regarding assurance of testing plans and testing activities.
+ICL Pathway will issue the High Level Test Plans (HLTPs) to POCL for the
+additional reconciliation controls and will also issue the corresponding Test
+Reports, both for comment. POCL will provide such comments in a single
+batch for each of the HLTPs and Test Reports within two weeks of their
+provision to POCL. In addition, POCL may witness testing. The testing
+strategy to be adopted for this Plan will be documented and provided to POCL.
+
+5.3.3 Additional Reconciliation Procedures
+
+POCL has observed that joint procedures for dealing with reconciliation
+incidents need to be developed. ICL Pathway recognises the need for such
+procedures and will work jointly with POCL to develop them. It is agreed that
+these procedures will embrace the following five points:
+
+1 POCL will accept manual error corrections of either transaction record
+errors or cash account stream record errors up to an aggregate level of 50
+per week
+
+The original concept was replacement of missing transactions, because we
+don’t in practise get transaction wrong, we either send them or we don’t.
+The extension to include cash account records could open us up to the
+claim that a cash account stream record is wrong if the cash account line
+is wrong because, for example, we have not bought a product to account.
+We must resist this, and argue that the sash account stream is correct if is
+corresponds to the printed cash account, even if that is wrong.
+
+2. Above this level Pathway will fix errors and (re)submit the data
+electronically to the TIP interface, unless agreed otherwise by POCL.
+
+This wording was added to vo.7 pursuant to agreements reached by Tony
+O. The wording in vo.6 referred to us exceeding an average of 50
+reconciliation errors per week over a 13 week period before we would
+undertake anything other than manual correction of errors.
+
+3. Manual error reports are to include a full specification of the repaired
+transaction data, such that the data would pass the integrity checks if
+resubmitted. Where it is necessary to make a judgement about a repair,
+such judgement will be declared explicitly by Pathway. Data is to be
+presented in a suitable format for POCL to key into a POCL data input
+facility.
+
+4. The delay between the occurrence of an error (or where applicable its
+later detection) and the notification of the correction to POCL (either
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan vi Ref: CR/ACD/376
+. ersion: 0.9
+Pathway Acceptance Incident 376 Date: 23/0/99
+
+manually in accordance with (1) above or electronically in accordance
+with (2) above) shall not exceed five working days.
+
+Hopefully clause 3.2 of the supplemental agreement means that we have to
+use only reasonable endeavours to hit 5 days. The last major issue took
+about 3 weeks to resolve.
+
+5. Pathway is to pay POCL liquidated damages of £100 per transaction error
+correction submitted manually.
+
+This still refers only to transactions, so RED reports of Cash Account
+errors would avoid a penalty. However I believe this clause to be
+superseded by para 3.6.10 of the supplemental agreement.
+
+The Contractor shall test the procedure described in sub paragraph (2) above prior to
+the implementation of the additional reconciliation controls and POCL shall assist and
+witness the attainment of the outcome.
+
+The above procedures shall be introduced at the same time as the additional
+reconciliation controls referred to in paragraph 5.3.2 above
+
+The testing was originally restricted to testing the new software and, after argument, the
+procedures for sending reconciliation reports to TIP. We now need to find a way to test
+our ability to electronically repair both transaction and cash account stream, and send
+or re-send to TIP. We need to work out what scenarios to test, and whether to test them
+we need facilities to repair records. We could produce such facilities, but we are paying
+TIP to do it!
+
+5.4 Core to non-core (AI410)
+
+Clearance action:
+
+The document, Ceasing of Non-Core Products at Outlets, is agreed and ICL
+Pathway will implement the defined functions for CSR+.
+
+5.4.1 The position at CSR
+Refinement to product management procedures at CSR:
+
+AI 410, although related to AI 376 through the generality of reconciliation of the
+Cash Account and the TIP stream, is in fact the reverse condition: a record that
+was not incorporated in the Cash Account was received by TIP.
+
+This condition was caused by ceasing a product at an outlet by changing it from
+a Core product (transacted at all outlets) to Non-core (transacted at only a
+subset). This resulted in “end dating” the Item Reference Data at an outlet that
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan vi Ref: CR/ACD/376
+. ersion: 0.9
+Pathway Acceptance Incident 376 Date: 23/0/99
+
+had not received replacement non-core reference data but had transacted the
+product earlier in the week, EPOSS did not include transactions in the Cash
+Account that had occurred immediately before the product was end-dated at
+the outlet.
+
+It had been agreed, for CSR, that Operational Business Change procedures
+would screen out cases of Item Reference Data being end-dated, the outlet
+would not be able to perform housekeeping functions such as remitting out
+remaining inventory in any case. The agreed process for removal from sale is
+by use of changes to the Menu Hierarchy.
+
+Unfortunately neither POCL nor Pathway staff involved had realised that
+changing a product from Core to Non core would result in just such a cessation.
+Procedure documentation has now been amended to make this case explicit.
+
+ICL Pathway is introducing a change to ensure that all transactions for end-
+dated products appear in the cash account. This will provide full accounting
+integrity.
+
+The parties shall carry out the procedures described in the document Process
+For Removing Products From Outlets At CSR, Version 0.3. These procedures
+will be revisited if experience so indicates.
+
+Introduction of an enhanced proposal for item transaction modes at
+CSR+:
+
+A feature, Item Transaction Mode, is scheduled for introduction at CSR+ and
+will provide a comprehensive means of controlling the classes of transaction
+that can be applied to products. However, in the course of considering these
+issues it was further realised that no provision at CSR+ in interfaces and designs
+had been made for the particular case of end-dating Non-core products in
+individual outlets.
+
+This issue, ceasing Non-core products at individual outlets at CSR+, has been
+addressed in the document Ceasing of Non-Core Products at Outlets, which was
+published on 24/8/99, and which POCL has confirmed is acceptable.
+
+6 Closure Criteria
+
+The closure criteria agreed between the parties are:
+
+1, That there will be an Observation Period of six weeks starting 1*t October
+1999.
+
+2. During the Observation Period there will be no reoccurrence of previously
+fixed faults
+
+3. During the Observation Period not more that 0.6% of Cash Accounts sent
+to TIP will be found by TIP not to reconcile to the Cash Account derived by
+TIP from the transaction stream due to Pathway processing error.
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10
+FUJ00079178
+
+FUJ00079178
+ICL Acceptance Resolution Plan vi Ref: CR/ACD/376
+. ersion: 0.9
+Pathway Acceptance Incident 376 Date: 23/0/99
+
+4. During the Observation Period Pathway will analyse all new incidents
+within 10 working days, and report these analyses to TIP using the
+established TIP Incident Status format. The 10 days starts from the time
+TIP log the incident on the Pathway helpdesk. The analysis is to include an
+expected fix implementation date. For incidents that cannot be reproduced
+the result of analysis may be to implement diagnostic code.
+
+5. There will be a period of parallel running of the Pathway and TIP
+reconciliation process during which the Pathway solution must find at least
+all those reconciliation failures correctly reported by TIP.
+
+© 1999 ICL Pathway Ltd COMMERCIAL IN CONFIDENCE Page of 10

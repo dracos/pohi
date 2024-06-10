@@ -1,0 +1,685 @@
+FUJ00120934
+
+FUJ00120934
+
+Peak Incident Management System
+
+_Customer Call_
+‘COUNTER S60_V001-V000
+
+B -- Business restricted
+
+Closed -- Fixed at Future Release
+
+Call Reference PC0098230 Call Logger
+Release Targeted At -- BI_3S60 Hzn Top Ref
+Call Type Live Incidents Priority
+Contact EDSC Call Status
+Target Date 16/01/2004 Effort (Man Days)
+Summary FAD416329 - discrepancy with CA for last few weeks
+All References Type Value
+: Other S60 PinICL Pack
+PowerHelp E-0401130647
+Other COUNTER _S60_V001-V000
+Work Package PWY_WP_17829
+
+Progress Narrative —
+
+pate:13-Jan-2004 15:48:19 User:_Customer Call_
+CALL PC0098230 opened
+
+3-Jan-2004 15:48:35 User: Customer Call_
+
+1 PCO098230:Priority B:CallType L - Target 16/01/2004 15:48:19
+3/01/2004 15:23 Call details have been taken from Andrew Wise at NBSC on
+telephone number stated above. PM has a discrepancy with his cash account
+ror the last few weeks.
+
+3/01/2004 15:25 uk951450
+
+information: The NBSC have advised that the4 PM can only declare the
+holding amount or 0 not a negative figure.
+
+Joate:13-dan-2004 15:48:36 User:_Customer Call_
+
+13/01/2004 15:26 uk951450
+
+information: The NBSC have been through the checks with the PM and feel
+there is a software error as the PM has negative figures
+
+which he would not have been able to enter
+
+13/01/2004 15:30 uk951450
+
+information: In week 37 the PM was showing a surplus of £19.66 on the
+front page of the cash account
+
+13/01/2004 15:31 uk951450
+
+information: In table 5 cash and stock he is showing a surplus cash
+figure of £42860.61 and a surplus chq figure of £116248.50
+
+3/01/2004 15:32 uk951450
+
+information: The cash on hand declared was £159109.11
+
+13/01/2004 15:34 uk951450
+
+Information: In week 38 the Pm had a surplus of £49.22 on the front page
+bf the cash account
+
+3/01/2004 15:34 uk951450
+
+information: In table 5 of the cash account it is showing a surplus of
+cash of £41723.47 and a surplus of chg £225291.93
+
+jDate:13-an-2004 15:48:37 User: Customer Call_
+
+13/01/2004 15:35 uk951450
+
+information: The actual cash on hand declared this week was £267015.40
+13/01/2004 15:36 uk951450
+
+information: In week 39 the cash account front page was showing a
+surplus of £110.35
+
+13/01/2004 15:37 uk951450
+
+information: Table 5 shows a negative cash figure of £264007.28 and the
+Ichqs show a surplus of £450554.92
+
+3/01/2004 15:38 uk951450
+
+Information: The cash declared for this week was £186547.64
+
+3/01/2004 15:38 uk951450
+
+Information: In week 40 the front page of the cash account is showing a
+shortage of £5.29
+
+3/01/2004 15:39 uk951450
+
+information: Table 5 is showing a negative cash figure of £732582.91 and
+la positive chq figure of £896298.45
+
+3/01/2004 15:40 uk951450
+
+information: The cash on hand declared was £163715.54
+
+3/01/2004 15:41 uk951450
+
+loate:13-dan-2004 15:48:38 User: Customer Call_
+information: Week 41 is showing a negative figure of £60.78 on the front
+ge of the cash account
+
+FUJ00120934
+FUJ00120934
+
+1370172004 15:41 ukI51450
+Information: Table 5 is showing a negative cash figure of £1638386.90
+land a positive chq figure of £1786304.77
+
+13/01/2004 15:42 uk951450
+
+information: The actual cash on hand was £147917.80 and no chqs were kept
+3/01/2004 15:43 uk951450
+
+information: The RLM has been through the cash account with the PM and
+tried to adjust the figures but they keep doubling up.
+
+3/01/2004 15:43 uk951450
+
+information: The PM is balancing on the gateway in stock unit AA. the
+user name provided is "Sticky" NBSC unsure if this should have
+
+joo1 at the end.
+
+13/01/2004 15:44 uk951450
+
+information: Please can the cash account be investigated
+
+13/01/2004 15:45 SYSADM
+
+Open OTI: Automatic Open OTI
+
+**Updated by Jane Kastenhofer at 13/01/2004 15:45:28
+
+oate:13-Jan-2004 15:48:39 User: Customer Call_
+3/01/2004 15:45 uk951450
+
+IREASSIGN: Call # E-0401130647 was Reassigned from Jane Kastenhofer;
+group HSH1 to Group EDSC1
+
+IF} Call details
+
+biagnostician name:
+
+JDate:13-Jan-2004 15:48:40 User: Customer Call_
+Customer opened date 13/01/2004 15:23:52
+
+Oate:13-dan-2004 16:01:17 User:Barbara Longley
+[the call summary has been changed from:~
+
+call details have been taken from Andrew Wise at N
+he call summary is now:-
+
+rAD416329 - discrepancy with CA for last few weeks
+lfarget Release updated to BI_3S50R-Provisional
+Product EPOSS & Deskiop added
+
+JDate:13-dan-2004 16:01:18 User:Barbara Longley
+If} Response =
+
+joate:13-Jan-2004 16:01:19 User:Barbara Longley
+Prescan: Assigning call to Anne Chambers in ESC.
+
+[END OF REFERENCE 36970694]
+
+kesponded to call type Las Category 40 -Incident Under Investigation
+
+Date:13-Jan-2004 16:01:22 User:Barbara Longley
+[fhe response was delivered to: PowerHelp
+
+Date:13-Jan-2004 16:01:23 User:Barbara Longley
+
+{the Call record has been assigned to the Team Member: Anne Chambers
+Defect cause updated to 99:General - Unknown
+
+Hours spent since call received: 0 hours
+
+oate:14-Jan-2004 17:55:56 User:Anne Chambers
+If} Response +
+
+spoke to PM to get some more info (his number is{”
+lsefore he balances; he rems out his cheques (althoug)
+Jcheques are taken before he balances the SU).
+
+le Declares Cash then Declares Stamps; then finally Declares Stock. On the
+first Declare Stock line; he includes any ‘rest home' cheques which he is
+holding.
+
+jfhis results in a discrepancy between the system cheque figure and the
+Jeclared figure.
+
+Something has changed in the counter code recently (I think at COUNTER EPOSS
+203; released end Nov) which causes the discrepancy to be recorded wrongly;
+lso the cheque discrepancy; instead of being cleared; is doubled; and the cash
+is also wrongly adjusted.
+
+However I think the PM should not be declaring his ‘rest home' cheques in
+this way; even if he has always done so - need to get advice on this or;
+preferably; get NBSC to explain what the proper procedure is.
+
+[END OF REFERENCE 36978269]
+
+jbate:14-Jan-2004 17:55:57 User:Anne Chambers
+Responded to call type L as Category 40 -Incident Under Investigation
+
+FUJ00120934
+FUJ00120934
+
+[bate:14-dan-2004 17:56:00 User:Anne Chambers
+[the response was delivered to: Powerllelp
+
+bate:15-Jan-2004 12:58:42 User:Anne Chambers
+IF} Response :
+
+hen PM balanced yesterday; I advised him to leave the Cheque line in Declare
+stock blank - i.e. not to put the ‘rest home’ cheque in there.
+
+le did as advised - and the problem has gone away - Cheque line 2051 is zero;
+cash line 2050 is £132293.61; which is what he declared.
+
+Spoke to PM and explained that there is a new software problem; so that what
+lhe has been doing for 2 years no longer works. He's happy with this. Also
+spoke to the auditor who was onsite; explained that I had advised him not to
+declare these cheques in this way - she confirmed that they should be put in
+the suspense account; and said she would talk him through the procedures. She
+laiso asked about another cheque which was not being handled correctly (not a
+cheque received in payment nor a rest home cheque); I knew nothing about this
+las the PM hadn't mentioned it.
+
+[END OF REFERENCE 36982109]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+
+Date:a5-gan-2004 12:58:44 User:Anne Chambers
+[the response was delivered to: PowerHelp
+
+Joate:15-dan-2004 14:32:04 User:Anne Chambers
+New evidence added - Summary of cheque discrepancies
+lew evidence added - Full messagestore
+
+jbate:15-dan-2004 14:32:05 User:Anne Chambers
+IF} Response
+
+Information above has been emailed to Julie Welsh; who will pass it on to POL.
+Please can EPOSS development have a look at this:
+
+lat this site; since 3rd Dec (almost certainly as a result of the fixes in
+OUNTER EPOSS 20 3); a discrepancy (gain) on cheques is written to the
+wessagestore with Mode DDN. In fact 3 lines are written: product 2; -ve
+lsalevalue; product 222; -ve salevalue; product 1; +ve salevalue (sum of the
+other 2). Summary file shows these messages; and also what happened before
+prd Dec.
+
+this is a nasty problem as; if cheques continue to be declared each week on
+the Declare Stock screen; the numbers keep doubling. However there is a
+simple circumvention and; as they should not be declaring cheques in this
+
+ay; it shouldn't have much impact. But I think it should be looked at and
+resolved (any chance for S602?) - might be instances whre it really does
+cause problems.
+
+outing via QFP.
+
+{END OF REFERENCE 36982993]
+
+JDate:15-Jan-2004 14:32:06 User:Anne Chambers
+Responded to call type L as Category 40 ~Incident Under Investigation
+
+Jbate:15-dan-2004 14:32:10 User:Anne Chambers
+[the response was delivered to: Powerllelp
+
+jbate:15-Jan-2004 14:32:11 User:Anne Chambers
+[the Call record has been transferred to the Team: QFP
+Hours spent since call received: 0 hours
+
+lbate:45-dan-2004 14:49:06 User:Lionel Higman
+the Call record has been assigned to the Team Member: Mark Scardifield
+
+Jbate:15-Jan-2004 15:42:53 User:Matt Arris
+[the Call record has been transferred to the Team: EPOSS-Dev
+liours spent since call received: .3 hours
+
+JDate:15-dan-2004 15:43:12 User:Matt Arris
+[fhe Call record has been assigned to the Team Member: Martin McConnell
+Hours spent since call received: .1 hours
+
+jDate:16-Jan-2004 1.
+IF) Response +
+
+7:42 Uscr:Martin McConnell
+
+jDate:16-Jan-2004 15:28:19 User:Martin McConnell
+
+FUJ00120934
+FUJ00120934
+
+Fix for 57081 was to blame. Initilialisation of the session effect variable
+ith clsStockFigure was not initialised (was moved from clsOutlet). Alas this
+will affect products such as cheques with SE:Out when declared explicity.
+code will take less than 1 day to code /unit test.
+
+[END OF REFERENCE 37299768]
+
+jbate:16-Jan-2004 15:28:40 User:Martin McConnell
+Responded to call type L as Category 42 ~Product Error Diagnosed
+
+jbate:16-Jan-2004 15:30:16 Us
+[the response has been flagged to the gateway team for validation
+
+tMartin McConnell
+
+jbate:16-Jan-2004 15:31:12 User:Martin McConnell
+|The Call record has been assigned to the Team Member: Matt Arris
+Defect cause updated to 14:Development - Code
+
+ours spent since call received: 15 hours
+
+JDate:46-dan-2004 16:33:04 Usor:Matt Arris
+|r can confirm Development can fix this bug at S60 provided we get the go
+lshead this week (W/B 19/1/04). Can RMF please decide which release it wants a
+fix in. SSC has asked for a fix at $60; so I guess it"s up to ITU whether it
+jcan fit in the testing for this fix at S60.
+
+Jbate:18-Tan-2004 16:33:21 User:Matt Arris
+fhe Call record has been transferred to the Team: RelMngmntForum
+
+Date:18-gan-2004 16:33:22 User:Matt Arris
+Hours spent since call received: 1 hours
+
+Jbate:49-Gan-2004 1:
+kequest_ For Service
+Phone
+type
+
+3:06 User:_Customer Call_
+
+Date/Time Raised: 13/01/2004 15:23:52
+
+Priority: B Contact Name: Andrew wise Contact
+
+Diagnostician Name:
+Ripdste Product serial No: Product sit:
+
+Request Identifiers Originator: Phelp
+
+£-0401130647 Consumer: 16953 AIGATE Consumer's reference: E-0401130647 Provider: PINICL Provider's
+
+iginator
+reference:
+
+Date:49-Jan-2004 12:43:07 User:_Customer Call_
+lPrescan: Assigning call to Anne Chambers in ESC.
+
+Date:19-dan-2004 12:43:45 User: Customer Call_
+Spoke to PM to get some more info (his number is "). Before he balances, he rems out his cheques (although sometimes 1
+lor 2 more cheques are taken before he balances the SU). fie Declares Cash then Declares Stamps, then finally Declares Stock. On
+the first Declare Stock line, he includes any ‘rest home’ cheques which he is holding. This results in a discrepancy between the
+system cheque figure and the declared figure. Something has changed in the counter code recently (I think at COUNTER EPOSS 20 3,
+Ireleased end Nov) which causes the discrepancy to be recorded wrongly, so the cheque discrepancy, instead of being cleared, is
+Jaoubled, and the cash is also wrongly adjusted. However I think the PM should not be declaring his ‘rest home' cheques in this
+jay, even if he has always done so - need to get advice on this or, preferably, get NBSC to explain what the proper procedure is.
+
+lDate:19-Jan-2004 12:43:54 User:_Customer Call_
+
+en PM balanced yesterday, I advised him to leave the Cheque line in Declare Stock blank - i.e. not to put the ‘rest home!
+cheque in there. He did as advised - and the problem has gone away ~ Cheque line 2051 is zero, Cash line 2050 is £132293.61,
+which is what he declared. Spoke to PM and explained that there is a new software problem, so that what he has been doing for 2
+years no longer works. He's happy with this. Also spoke to the auditor who was onsite, explained that I had advised him not to
+lieclare these cheques in this way - she confirmed that they should be put in the suspense account, and said she would talk him
+through the procedures. She also asked about another cheque which was not being handled correctly (not a cheque received in
+payment nor a rest home cheque); I knew nothing about this as the PM hadn't mentioned it.
+
+bate:19-dan-2004 12:43:56 User: Customer Call_
+Information above has been emailed to Julie Welsh, who will pass it on to POL. Please can EPOSS development have a look at this:
+t this site, since 3rd Dec (almost certainly as a result of the fixes in COUNTER POSS 20 3), a discrepancy (gain) on cheques is
+ritten to the messagestore with Mode DDN. In fact 3 lines are written: product 2, -ve salevalue; product 222, -ve salevalue;
+jproduct 1, #ve salevalue (sum of the other 2). Summary file shows these messages, and also what happened before 3rd Dec. This is
+Ja nasty problem as, if cheques continue to be declared each week on the Declare Stock screen, the numbers keep doubling. However
+there is a simple circumvention and, as they should not be declaring cheques in this way, it shouldn't have much impact. But 1
+
+think it should be looked at and resolved (any chance for $602?) - might be instances whre it really does cause problems. Routing
+via QFP.
+bate:19-dan-2004 12:50:37 User: Customer Call.
+
+Fix for 97081 was to blame. Initilialisation of the session effect variable with clsStockFigure was not initialised (was moved
+from clsOutlet). Alas this will affect products such as cheques with SE:Out when declared explicity. Code will take less than 1
+
+FUJ00120934
+FUJ00120934
+
+fay to code /unit test.
+
+Jbate:20-Jan-2004 14:31:00 User:Martin McConnell
+It'd like to add that this can occur when a clerk declares any cheque short of
+What the system has calculated; the fact that the clerk/PM in this instance
+Was going against normal procedure is irrelevant. Multiply this potentially
+several thousands of times over there could be an awful lot of ‘repair’ work
+to do when S50R kicks in for real.
+
+pate:27-Jan-2004 10:16:14 User: Tyrone Cozens
+Requires further discussion with Debbie Richardson and Mik Peach, with
+jregards to the target release this should be authorised for.
+
+bate:29-dan-2004 11:19:52 User:Lionel Higman
+the call TargetRelease has been changed from
+lst_3S50R-Provisional
+
+the call TargetRelease is now:-
+
+Ist_3s60
+
+jDate:29-an-2004 11:20:16 Uscr:Bionel Higman
+the Call References have been updated. They are now
+PowerHelp : £-0401130647
+ther : $60 PinICL Pack
+
+[Date:29-dan-2004 1:
+the Call record has been assigned to the Team Member
+
+Mark Scardifield
+
+Date:29-Jan-2004 11:22:03 User:Lionel Higman
+ffarget release agreed between development, test and live support.
+
+Jbate:29-Jan-2004 11:35:21 User:Matt Arris
+[fhe Call record has been assigned to the Team Member: Martin McConnell
+
+Date:29-dan-2004 14:06:55 Uscr:Martin McConnell
+IF}. Response
+la fix is available in S60 stream to build
+(END OF REFERENCE 37479926]
+
+lkesponse code to call type L as Category 46
+Hours spent since call received: 0 hours
+
+jate:29-Jan-2004 14:07:13 Uscr:Martin McConnell
+[the Call record has been assigned to the Team Member: Geoff Thomas
+
+[Date:16-Feb-2004 16:36:46 Uscr:Geoff Thomas
+Fix now on DeLY Rigs.
+
+Date:16-Feb-2004 16:36:55 User:Geoff Thomas
+[the Call record has been transferred to the team: AP System Test
+
+Date:20-Feb-2004 13:41:10 Uscr:dulie Havard
+20/02/2004 13:39:01 ~ By Julie Havard
+outed to me by Geoff, by mistake. Routing back to Geoff as per his request.
+
+Jbate:20-Feb-2004 13:41:12 User:Julie Havard
+[the Call record has been transferred to the Team
+Hours spent since call received: .1 hours
+
+POSS-Rel
+
+Date: 20-Feb-2004 13:53:10 User:Geoff Thomas
+[fhe Call References have been updated. They are now
+RIGINATOR : Phelp
+
+PowerHelp : E-0401130647
+
+ther : S60 PinICL Pack
+
+Fix released in WP17829, BI3S60.
+
+JDate:20-Feb-2004 13:57:25 Uscr:Geoff Thomas
+[the Call record has been transferred to the team: Dev-Int-Rel
+
+FUJ00120934
+FUJ00120934
+
+JDate:05-Max-2004 09:31:16 User:Brian Bradley
+the call references have been updated. They are now:
+ORIGINATOR : Phelp
+
+lPowerHelp : E-0401130647
+
+ther : S60 PinICL Pack
+
+jork Package : PHY WP 17829
+
+{t Other : COUNTER S60 _vo01-voo0
+
+Date: 05-Mar-2004 09:31:19 User:Brian Bradley
+Ir) Response :
+
+[Date:05-Mar-2004 09:31:20 User:Brian Bradley
+fast-track released, please re-test
+[END OF REFERENCE 37765312]
+
+jDate:05-Mar-2004 09:31:22 Uscr:Brian Bradley
+Responded to call type L as Category 46 -Product Error Fixed
+
+Date: 05-Mar-2004 09:31:23 User:Brian Bradley
+Ithe response has been flagged to the gateway team for validation
+[the Call record has been transferred to the Team: ITU SV&I
+
+Date:05-Max-2004 09:31:24 User:Brian Bradley
+ours spent since call received: 0 hours
+
+Date:05-Mar-2004 10:07:29 User: Customer Call_
+rast-track released, please re-test
+
+Jat e:20-Mar-2004 10:16:30 Usecr:Chris Hawkes
+IF} Response :
+
+Administrative closure for OTI switch.
+
+[END OF REFERENCE 37883369]
+
+Responded to call type L as Category 68 -Administrative Response
+Hours spent since call received: 0 hours
+
+JDate:20-Mar-2004 10:16:32 Uscr:Chris Hawkes
+CALL PC0098230 closed: Category 68, Type L
+[fhe response was delivered to: Powertelp
+
+Date:20-Mar-2004 11:57:54 User: Customer Call_
+Jpate and time complete: 20/03/2004 10:48:37
+service Complete (Confirmation) Received
+
+Date:22-Mar-2004 09:08:14 User: Customer Call_
+emery
+
+20/03/04 10:48 PINICL
+
+IREASSIGN: OTI monitor reassigned this call from PINICL to the Action Group
+liSH1 as directed by the OfTReturn activity
+
+22/03/04 08:46 uk081610
+
+IREASSIGN: Call # E-0401130647 was Reassigned from Group HSH1 to Jane
+kastenhofer, Group HSH1
+
+22/03/04 09:05 SYSADM
+
+lkeopen OPI: Automatic Re-Open OTT
+
+**updated by Tina Wigens at 22/03/04 09:05:49
+
+22/03/04 09:05 uk081610
+
+IREASSIGN: Call # E-0401130647 was Reassigned from Jane Kastenhofer,
+croup HSH1 to Group EDSC1
+
+bate:22-Mar-2004 09:08:14 User:_Customer Call_
+CALL PC0098230 reopened by Customer Call_
+
+lDate:22-Mar-2004 09:13:53 User: Customer Call_
+\dministrative closure for OTI switch.
+
+[Date:22-Mar-2004 0:
+
+7:08 Uscr:Chris Hawkes
+
+FUJ00120934
+FUJ00120934
+
+fhe Call vecord has been transferred to the team: 1710 SVaT
+progress was delivered to Powerhelp
+
+bate: 29-Mar-2004 12:27:58 User: Customer Call_
+lemp'y 29/03/04 12:26 uk951566 HSH8 Repeat Call: RLM phoning, requests to
+speak to Jane as was dealing with
+
+this call previously 29/03/04 12:27 uk951566 HSH@ Information: spoke to
+Jane, transferred RLM
+
+Date: 29-Mar-2004 12:31:32 User: Customer Call_
+leMPTY EMPTY EMPTY OTI Astea OTI Success: An add has been sent to PINICL
+29/03/04 12:29 uk951450 HSH1 Information: Have spoken to Phil and
+jadvised that I will call him back
+
+bate: 29-Mar-2004 13:03:55 User: Customer Call_
+leMpTY EMPTY EMPTY OTI Astea OTT Success: An add has been sent to PINICL
+29/03/04 12:58 uk951450 HSH1 Information: Have contacted Phil and gone
+[through the findings of ssc.
+
+hil needed this information for a disciplinary with the PM
+
+tomorrow. Advised Phil that this is basically user error
+
+land 3rd line had advised the PM of correct procedures
+
+Jbate:12-May-2004 11:07:07 User:Simon Vaughan
+lkaph, can you retest this? Speak to Billie as she may have some scripted
+tests for this.
+
+JDate:12-May-2004 11:07:12 User:Simon Vaughan
+fhe Call record has been assigned to the Team Member: Raphael Howley
+Progress was delivered to Powerhelp
+
+loate:27-May-2004 13:46:54 Uscr:Raphael Howley
+ested on BIC3 fad 183611 20 counter.
+
+unt balancing - cheque was declared in stock declaration, and was not
+Jallowed to progres on through balancing as there should be no cheques in
+stock declaration.
+
+(fhe call will now be closed.
+
+Date:27-May-2004 13:48:05 Uscr:Raphael Howley
+fhe Call record has been assigned to the Team Member: Simon Vaughan
+progress was delivered to Powerhelp
+
+jate:27-May-2004 15:11:42 Uscr:Simon Vaughan
+Lionel, this can be closed (successfully re-tested)
+
+bate:27-May-2004 15:11:46 User:Simon Vaughan
+the Call record has been transferred to the team: QFP
+Progress was delivered to Powerhelp
+
+Date:27-May-2004 15:13:39 Uscr:bionel Higman
+[Start of Response]
+
+Fix tested as clearing reported roblem.
+
+[END OF REFERENCE 38115255]
+
+Ikesponse code to call type L as Category 46
+Hours spent since call received: 0 hours
+
+Date: 27-May-2004 1
+[Start of Response]
+
+Fix tested at S60 as clearing reported problem.
+(END OF REFERENCE 38115262]
+
+lzesponse code to call type L as Category 74
+Hours spent since call received: 0 hours
+
+4:17 User:Lionel Higman
+
+Date:27-May-2004 15:18:25 User:Barbara Longley
+Product. EPOSS & DeskTop Balancing added.
+
+Oate:27-May-2004 15:18:27 User:Barbara Longley
+product EPOSS & DeskTop Balancing updated to Subject.
+
+FUJ00120934
+FUJ00120934
+
+fbate:27-May-2004 15:18:48 Uscr:Barbara Longley
+[Start of Response]
+Date: 2004-05-27 15:14:17.947
+
+lUser:Lionel Higman ~ QFP
+
+closing as 74 - Fix at Future Release.
+[END OF REFERENCE 38115356]
+
+lkesponse code to call type L as Category 74
+service Response was delivered to Powerhelp
+Hours spent since call received: 0 hours
+
+rix tested at S60 as clearing reported problem.
+
+Date: 27-May-2004 15:18:48 Uscr:Barbara Longley
+CALL PC0098230 closed: Category 74 Type L.
+
+jbate:27-May-2004 15:20:15 User: Customer Call_
+consumer Phelp has received the call closure
+
+EPOSS & DeskTop -- Balancing (version unspecified)
+
+Root Cause Development - Code
+Logger _Customer Call_ -- EDSC
+Subject Product
+
+Assignee _Customer Call_ -- EDSC
+
+Last Progress
+
+27-May-2004 15:20 -- Customer Call_

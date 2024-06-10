@@ -1,0 +1,2837 @@
+Witness Name: Jeremy Peter Folkes
+Witness Number: WITN0597
+Statement Number: 1
+
+Exhibits: WITN0597_01/1-50
+
+Dated: 07 September 2022
+
+POST OFFICE HORIZON IT INQUIRY
+FIRST WITNESS STATEMENT OF JEREMY PETER FOLKES
+
+|, Jeremy Peter Folkes, will say as follows:
+
+1. This is my response to the Rule 9 Request Number 1 dated 26" July 2022 from
+the Post Office Horizon IT Inquiry, regarding Phase 2 of that Inquiry. It covers my
+involvement in the Procurement of the initial Horizon service from Pathway
+between 1994 and 2000. During this period, | was employed by the IT Department
+
+of The Post Office but effectively seconded to Post Office Counters Ltd (POCL).
+
+Professional Background
+
+2. | have been asked to set out a brief professional background. | have worked in
+information technology, and specifically software development, for my entire
+career, from 1978 to 2021. This included working pre-University for the R&D unit
+of British Gas, and then after graduating working for Logica (a then major UK
+software house) on software projects for major ‘blue-chip’ companies including
+Shell and IBM. _ In these jobs | had various technical roles as developer, designer
+and latterly team leader. | hold a BA Hons in Mathematics from University of
+
+Oxford.
+
+Page 1 of 75
+
+WITN05970100
+WITNO05970100
+3.
+
+| joined the Post Office in 1987 and worked primarily on projects in Post Office
+Counters throughout my 13 years there. Before BA/POCL (Horizon), these
+included ECCO+ (Electronic Cash Register at Counters — Plus) which was a cash
+account/balancing system specifically aimed at Crown (not Sub) offices, and the
+APT (Automated Payments Terminal) which was a payment-accepting terminal
+designed for use by Subpostmasters in otherwise non-automated offices, to
+process the emerging bill payment/meter top-up business which could not be done
+
+manually.
+
+| was also involved when | first joined the PO on the Thames Valley Project in
+1987, which was a pilot of full automation of counters in a specific geographical
+region (and which was never rolled out nationally); my role here was fairly junior
+but | mention this project as | believe it influenced POCL’s future decisions on
+
+automation.
+
+| joined the BA/POCL Programme in 1994 where | worked through its various
+guises until | left The Post Office in early 2000. | was dedicated to the Programme
+throughout this time apart from a brief period in late 1998 when | was involved
+back on the APT2000 project (advising on reactivating production of the APT to
+mitigate the delays in the Horizon rollout), plus some minor involvement in the
+
+PO's Y2K work.
+
+On leaving The Post Office in 2000, | continued to work in postal counter
+automation internationally, joining a start-up company (Anshe Ltd) based in
+
+Dublin, which was then subsequently acquired by Escher Group Ltd. | worked for
+
+Page 2 of 75
+
+WITN05970100
+WITNO05970100
+Escher on counter automation projects worldwide, involved with around 20 Posts
+
+big and small over that period, until my retirement in 2021.
+
+Background to Involvement in BA/POCL Programme
+
+7.
+
+| have been asked to set out the background to my involvement in the Pathway
+Project/Horizon IT System. | joined the BA/POCL Programme, which morphed
+into the Horizon Programme, in 1994. | believe | was asked to join given my
+background as a technical person with counters experience from my time on
+ECCO+ and the APT projects, and although employed by the Post Office IT
+Department | was fairly well known around POCL having worked on their projects
+
+for around seven years.
+
+Note that the BA/POCL Programme was run, in the Post Office, by POCL itself
+and not by the IT Department. A number of people from PO IT were seconded
+over the course of the Programme, but this was a POCL initiative and was not
+outsourced to or managed by PO IT. As we will see it was far bigger than just an
+
+IT system.
+
+Background to the BA/POCL Programme
+
+9.
+
+Before moving onto my involvement in the project it is worth outlining the
+environment in which the procurement was being performed. Firstly, this was a
+procurement not of a system, but of services to be provided on a PFI basis by the
+selected Service Provider (SP) for a period of time (5 or 7 years | think). The PFI
+required the Service Provider to fund the development of the constituent systems
+
+and services, provide and install hardware in offices, and to then run the systems
+
+Page 3 of 75
+
+WITN05970100
+WITNO05970100
+10.
+
+11.
+
+and services, and additionally to take on project risk, with payment only being
+received on a “per transaction” or “per customer” basis once deployed. There
+was also the concept of fraud risk transfer (specifically around benefits payments)
+to the Service Provider, so that they were expected to take on the risk if payment
+fraud occurred. This was a lot more complicated than simply procuring an IT
+
+system. [I will talk about the effect of PFI in detail later].
+
+Secondly this was a joint procurement between the BA (Benefits Agency) and
+POCL as Contracting Authorities, for a complex set of services — for POCL,
+automation of the counter network, including a new automated benefit payment
+services for their client (the BA); for BA, automation of benefit payments, including
+payment in Post Offices (to be performed by POCL staff and agents, under a
+POCL-BA contract) but also including card issuance etc outside of POCL etc.
+The Programme also involved the SSANI (Social Security Agency) in Northern
+Ireland, who | believe were a separate agency, but were generally represented on
+
+the Programme by BA.
+
+As a result of this some requirements (and therefore solutions) were for BA, some
+for POCL and some for BA and POCL jointly; there were to be three contracts with
+the Service Provider (one with BA, one with POCL and one overarching one with
+BA/POCL jointly). |The overall landscape was subdivided into multiple “services”
+
+(e.g. EPOSS was the EPOS Service, APS was the Automated Payments Service,
+
+OPS was the Office Platform Service, and so on) with similar complexity on
+
+contractual ownership and interest between BA and POCL. There were also
+
+complexities around the three-way relationship regarding ownership of data and
+
+Page 4 of 75
+
+WITN05970100
+WITNO05970100
+12.
+
+13.
+
+for financial settlement between BA and POCL for benefits paid out at the counter
+
+through the proposed system.
+
+The BA/POCL Programme was established in its own offices in Terminal House,
+near Victoria Station in London, and at peak | believe had around 100/150 staff —
+from BA and from POCL/PO, consultants from a variety of consultancy firms, and
+various contractors. | remember PA Consulting, French Thornton and later on
+Andersen Consulting (now Accenture) being involved, plus Kermon, a specialist
+procurement consultancy. —_| believe the Programme was initially headed by a
+representative from BA (Andrew Stott), but the hierarchy had representatives from
+both sides. Teams were established with members from both organisations (and
+at a working level relationships were good despite having quite different
+
+backgrounds).
+
+The team in Terminal House was known as the PDA (Programme Delivery
+Authority). The PDA was effectively the group which sat between the Supplier(s)
+
+and the two Sponsors (BA and POCL).
+
+Procurement of BA/POCL Service (“Horizon”)
+
+14.
+
+| have been asked to describe and explain my involvement in the procurement of
+the Horizon IT System. My involvement in the BA/POCL Programme covered a
+number of phases over a period of over 5 years. At the point | joined there were
+five prospective service providers (BT, CardLink, EDS, IBM, and Pathway) who
+had responded to the original OJEC notice and been allowed to tender. The five
+
+original Service Providers had described their solutions in their responses to the
+
+Page 5 of 75
+
+WITN05970100
+WITNO05970100
+15.
+
+16.
+
+17.
+
+18.
+
+original tender. Each SP had provided extensive responses, with details of their
+
+overall solutions together with responses to individual requirements.
+
+The first major event for me was the detailed evaluation of these five initial
+responses (primarily a paper review exercise from what | remember), performed
+at the Post Office Conference Centre at Rugby (and hence known as the “Rugby
+Evaluation”) over several days, which resulted in BT and EDS eventually being
+
+eliminated.
+
+By July 1995, following the Rugby evaluation, the three candidate service
+providers were CardLink (a consortium including UNISYS and Andersen
+Consulting), IBM (as a single company) and Pathway (at that time a consortium)
+and they were invited to go forward to the next stage. Note that to reach this point
+all three had had to meet certain “Pre-ITT hurdles”, so that all of them were meant
+
+to be credible.
+
+The Procurement moved into what was called the Demonstrator Stage. This took
+place during the second half of 1995, and was intended to allow the SPs to clarify
+their understanding of requirements, to allow us to explore the proposed solutions,
+and to identify and mitigate risks against each supplier, prior to them submitting
+their formal ITT responses. “Objectives of the Demonstrator Stream”
+
+(WITN0597_01/01, WITN05970101) contains an extract of the objectives.
+
+A number of Demonstrator Streams were set up, and | was Group Leader
+
+responsible for the POCL Infrastructure; we gave each SP one day a week over a
+
+Page 6 of 75
+
+WITN05970100
+WITNO05970100
+19.
+
+20.
+
+21.
+
+number of weeks in late 1995. It was planned to give them equal time and be as
+fair as possible. This process generated input to and updates to the Service
+Provider Risk Register (SPRR), as well as queries back to the Requirements
+teams. In December 1995 a number of site visits were organised where
+
+necessary to gain information on the proposals, for each of the SPs.
+
+A summary of the POCL Infrastructure Demo Stream is attached - “POCL
+Infrastructure Demo Strand - Summary of Demonstrator Activity”
+(WITNO0597_01/02, WITNO5970102). | discuss this is more detail in the context
+
+of Pathway later.
+
+A formal ITT was issued in early 1996 to the three candidate SPs, and their paper
+responses were then evaluated in February/March 1996, in an exercise
+codenamed Amazon. This involved both a quantitative financial and risk transfer
+evaluation (“Contracts Stream”) and a qualitative business/technical evaluation
+(‘Demo Stream”), based on pre-defined “Value Factors”, together with other
+
+streams looking at Partnerships etc.
+
+This was a very formal exercise, with detailed scoring against pre-defined criteria,
+involving the teams working away offsite for a very intensive two-week session,
+and | even remember the suppliers being given codenames (Tom, Dick and Harry)
+so that outside experts could be used without fear of bias. | The process is
+described in detail in “Supplier Score in Respect of Value Factors”
+(WITN0597_01/03, POL00031154). It is worth stressing that the Demo Stream
+
+and the technical evaluation was only one part of the overall process. The entire
+
+Page 7 of 75
+
+WITN05970100
+WITNO05970100
+22.
+
+23.
+
+24.
+
+process was very strictly managed for fairness and compliance with procurement
+
+law, overseen by observers from each Contracting Authority.
+
+In addition to the Demo Stream and the Evaluation, | was involved at various times
+in assisting with the requirements (leading to the Statement of Service
+Requirements or SSR), assisting the Contracts team with requirements, and much
+
+liaison with POCL.
+
+Requirements were meant to originate from the Sponsor organisations (with the
+PDA then tasked with delivery), but we in the PDA had to ensure that they were
+
+coherent and workable (and not conflicting) and be able explain them to the SPs.
+
+| have been asked to outline my understanding of the objectives of POCL in
+procuring the Horizon IT System. My understanding of the objectives for POCL,
+at a high level, of the procurement of the BA/POCL Service were as follows. The
+first objective was to automate its network of 20,000 outlets/40,000 counters,
+noting that at that point only around 600 Crown offices performed automated
+accounting using ECCO+, and only around 7,000 offices could do Automated
+Payment transactions with the APT or ECCO+. All other transactions were
+performed manually, and paper cash accounts submitted weekly to Chesterfield,
+and without automation it could not take on new business. POCL wanted and
+needed a platform on which to build new business, much of which required
+
+automation (e.g. banking).
+
+Page 8 of 75
+
+WITN05970100
+WITNO05970100
+25.
+
+26.
+
+27.
+
+The second objective was to retain the business of the Benefits Agency in
+payments of benefits and pensions over the counter, which amounted to a
+significant amount of POCL’s revenue and footfall. | This required both a new
+automated Benefit Encashment Service (BES) for POCL at the counter, but also
+for there to exist an entire “back end” procured for BA under the Programme for
+handling card issuance, payment management, helpdesks, fraud risk
+management etc with which BES would interact. These BA parts included the
+CMS (Card Management Service), PAS (Payment Authorisation Service), and
+
+FRMS (Fraud Risk Management Service).
+
+POCL were scared that the BA would take their business elsewhere (as they
+eventually did, into the banking system) which would dramatically reduce POCL’s
+revenue stream, and that this would threaten the whole future of POCL (and in
+particular the role of POCL as the front office of government). So for POCL the
+success of the overall Benefits Payment Service was as important as the other,
+
+POCL-centric, services.
+
+| have been asked to explain why POCL decided to procure the Horizon IT System
+under the Private Finance Initiative. The BA/POCL Programme was procured
+under PFI rules, and | believe PFI compliance was a requirement within the
+Evaluation process (as described in “Final Evaluation Report’, WITN0597_01/04,
+POL00028152). By the time | joined the Programme PFI was a fundamental
+given, and | believe the decision to use PFI and for it to be a joint procurement
+from BA and POCL had been brokered at government level (presumably between
+
+the two sponsoring departments - DSS and the DTI - and the Treasury).
+
+Page 9 of 75
+
+WITN05970100
+WITNO05970100
+28. In the mid-1990 PFI was “flavour of the month’ although | believe it was more
+commonly used for things like schools and hospitals, rather than complex bespoke
+IT projects such as this. PFI saved the organisations from up-front funding, and
+also was supposed to transfer the risk of a project to the private sector. In my
+view this was rather naive for a project as “core” as this to an organisation, where
+failure would have such a massive effect on the businesses, but these were the
+
+rules.
+
+29. My understanding was that PFI (and this arrangement with BA) was considered
+potentially the only way for POCL to afford automation and retain the BA business;
+the earlier Thames Valley Pilot project in the late 1980s had shown that full
+automation would be expensive, and the Post Office would not be able to afford
+to finance it conventionally. | know the government had set Negative External
+Financing Limits (Negative EFLs) on the Post Office in the 1990s, effectively taking
+a return from the PO each year, but | do not know how this affected the PO’s ability
+
+to invest itself and fund automation conventionally.
+
+30. From a BA point of view, a key objective was fraud risk transfer for benefit
+payments, moving the risk for encashment fraud from BA (or POCL) to the service
+provider, in addition to any funding issues. They also had objectives around
+financial control and auditability of the payment of benefits in the UK which the
+
+Programme was designed to resolve.
+
+31. A newspaper search around 1994 shows reports of ‘government ... inviting formal
+
+tenders to build and run a new computerised method of paymen? and it being a
+
+Page 10 of 75
+
+WITN05970100
+WITNO05970100
+32.
+
+33.
+
+34.
+
+35.
+
+“privately run system”. This was announced by Peter Lilley in May 1994 at the
+
+Subpostmasters conference, and | think shows the government influence.
+
+| believe that the other stated advantage of PFI, apart from funding and risk
+transfer, was that the private sector would bring innovation to the table, and
+suggest innovative solutions leveraging their experience elsewhere. Whilst a
+laudable aim, there were relatively few organisations in the private sector with this
+kind of experience, so any innovation had to be balanced by their lack of subject
+matter expertise. | do remember it being painful having to, at times, ‘teach’
+
+potential SPs about Post Offices.
+
+PFI brought a number of immediate challenges, before then causing major long-
+term detrimental effects on the Programme. Immediately, there was very little
+experience or understanding of PFI on the POCL side at least, so there was a
+steep learning curve for both the staff on the PDA and in the Sponsors (and in
+
+particular POCL).
+
+One key effect of PFI was that requirements had to be presented as high level
+“Output-Based Specifications’ so as to not constrain the Service Providers, that is
+stating the “what” but not the “how’, and at the level of the Service rather a system.
+This was contrary to most experience where specifications would be far more
+
+detailed and include some ‘how’.
+
+The other key aspect of PFI was that of Risk Transfer. Whilst there was an explicit
+
+and well-defined attempt at Risk Transfer for certain types of Benefit Payment
+
+Page 11 of 75
+
+WITN05970100
+WITNO05970100
+36.
+
+37.
+
+38.
+
+Fraud by BA, there were of course many Risks which could not be transferred to
+
+a Service Provider, as POCL has found to its cost over the years.
+
+Outsourcing a major part of your core business (and the transaction
+processing/counter system for a Post Office is about as core as it gets) does not
+remove the risk to that business if the counter system (or service) does not
+perform. Paraphrasing somewhat, the ethos was that risk was transferred to the
+Service Provider, and so we should not worry about it. If they failed it was at their
+cost. | think this was a fundamental issue — whatever idea there was of Risk
+Transfer in specific areas, POCL still needed assurance in the quality and fitness
+of the service being developed and provided by the Service Provider, to manage
+
+the risk to their business.
+
+As the Project progressed, it appeared that the effect of PFI was that we were
+expected (by the SP) to treat the underlying solution as a “black box”. The Service
+Provider's job was to ensure it created the right outputs but the contents of the box
+were not available for scrutiny — either how it worked or how it was being built. As
+| will cover later, this had major effects on POCL’s ability to gain assurance on the
+
+solution and to inform later activities.
+
+Put informally, the approach seemed to me a case of “Trust Me, I’m a Doctor’ —
+having told them at a high level what we wanted the Service to do, we were meant
+to trust them as the experts to create and run the Service. | We would have
+
+Acceptance at the very end, but we would have no visibility of what was ‘in the
+
+Page 12 of 75
+
+WITN05970100
+WITNO05970100
+39.
+
+40.
+
+41.
+
+42.
+
+box” or how it had been built, and only be able to perform Acceptance based on
+
+those output-based specifications.
+
+| have been asked to describe how ICL Pathway demonstrated the suitability of its
+proposed technical solution. As introduced earlier, each of the three SPs took
+part in the so-called Demonstrator Stream, in the second part of 1995. This
+activity consisted of 6 groups — POCL Applications, POCL Infrastructure, Benefits
+Payment Service, Implementation/Management, End-to-End and Security, each
+
+with a group leader and team members.
+
+We were starting at this point from solutions that they had each submitted as part
+of the original tender (and with which we were familiar from Rugby), so that the
+
+Demonstrator “drilled down” from there.
+
+| was the Group Leader for the POCL Infrastructure strand, which covered the
+Technical Infrastructure (Office Platform, WAN (Network), TMS (Transaction
+Management Service) and System Management) and Support Services for POCL
+(Helpdesks etc). A suitable expert from POCL managed the Support Services
+side (Helpdesks not being my speciality), whilst | focussed on the Technical
+
+Infrastructure supported by a technical team member.
+
+For the POCL Infrastructure strand, we had a series of meetings with each SP,
+which involved a “deep dive” into the relevant parts of their solution. We set an
+agenda for each session, specific to each SP’s proposed solution (based on our
+
+analysis of their proposals from Rugby), so that they could assemble the relevant
+
+Page 13 of 75
+
+WITN05970100
+WITNO05970100
+43.
+
+44.
+
+45.
+
+experts or set up demos, and then had a full day per session on their site. Each
+candidate SP was offered an equal amount of time | believe, so that the process
+
+was and could be seen to be fair.
+
+It was of course up to the SP how effectively they used that time to their benefit,
+and whether this was treated as an opportunity or a chore; my internal meeting
+notes from the time (WITN0597_01/05-11) indicate that at times Pathway seemed
+defensive and keen to avoid scrutiny, whereas the other two SPs were more open
+
+and used the sessions to talk up their offering.
+
+For Pathway, the POCL Infrastructure Strand had majored on the use and role of
+the Escher Riposte product as a core part of their infrastructure, as well as
+covering a range of other topics. Presentations and papers were produced on
+specific topics, further questions asked, demos seen and risks raised. We tried
+to make these sessions as interactive as possible to understand both the SP and
+their solution. The SPs could also raise questions of us, which we then took back
+to the Programme (and Sponsors if needed) for resolution. At least one of the
+Pathway sessions included representatives from Escher, to answer specific
+
+questions we might have there.
+
+Internal notes from the individual Pathway sessions are attached in a series of
+seven “POCL Infrastructure Demo — Meeting Notes” (WITN0597_01/05-11),
+covering an introductory session together with six substantive meetings
+(WITN05970140, WITNO5970106, WITNO5970107, WITN05970108,
+
+WITN05970141, WITN05970109, and WITN05970139). These notes cover
+
+Page 14 of 75
+
+WITN05970100
+WITNO05970100
+46.
+
+47.
+
+48.
+
+49.
+
+topics, risks and questions raised, plus a commentary on the SP’s behaviour and
+
+are therefore fairly “frank” in places.
+
+In addition to the meetings with Pathway, we also visited An Post in Dublin (the
+Irish Post Office), where the Escher Riposte product was already in successful
+use for automation of their counter network (and still is), including the payment of
+benefits in Ireland, and saw their system in operation in two live Post Offices in
+
+addition to meeting An Post management.
+
+| also visited Escher Group Ltd in Boston in December 1995, along with the group
+leader of the End-to-End Demo Stream (Naresh Mohindra), to get more details on
+the Riposte product, the organisation, their plans and their relationship with
+Pathway, as part of managing that risk. Notes from that session are attached in
+“POCL Infrastructure/End-to-End Demo — Meeting Report — Escher Site Visit”
+
+(WITNO597_01/12, WITN05970142).
+
+For the avoidance of doubt, the same process was followed with the other two
+Service Providers, including Demo meetings and site visits where relevant, and
+
+risks were raised and discussed with those SPs too.
+
+| have been asked to describe and explain the risks identified in ICL Pathway’s
+proposed technical solution. Risks were raised against each of the three Service
+Providers during the Demonstrator Stream and continued once the formal ITT
+
+responses were received. | think Risks from earlier phases (including the Rugby
+
+Page 15 of 75
+
+WITN05970100
+WITNO05970100
+50.
+
+51.
+
+evaluation of the original responses) were also inherited into this phase for
+
+continuity.
+
+Risks were shared with the respective SPs to give them a chance to mitigate or
+respond. A formal SPRR (Service Provider Risk Register) was managed by the
+PDA, to which individual teams could input, giving programme-wide visibility. The
+Risk Register could also be used to raise Questions which might then
+
+subsequently be cleared or converted to real Risks.
+
+| do not have access to the full Risk Register but from the notes | have | know the
+risks we raised on Pathway during the Demonstrator phase (even if subsequently
+cleared) included:
+
+a. Risks relating to the use of the Escher Riposte product — from what |
+
+remember there were several:
+
+i. PWY002 - one “commercial” covering the size/stability of Escher
+
+(given the dependency that POCL/Fujitsu would have on them)
+
+ii. PWY009 — that Riposte was unproven at this scale, covering the
+
+scalability/manageability of Riposte (including regarding changes
+
+that we were told would be needed or were planned)
+
+iii. PWY057 - one covering Pathway’s ability to manage Escher and
+
+the contractual relationships
+
+Page 16 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+iv. PWY059 — that Pathway may not be able to maintain a
+
+development path for Riposte in line with POCL’s needs
+
+b. Risk on EPOS: “The EPOS package appears to need significant
+development to meet the POCL requirements. The timescale of Q1 1996
+may not be achievable’. Note this was not strictly part of the POCL
+Infrastructure scope (EPOSS was Application) but | believe | raised it
+due to the relationship with Riposte (see “note on splitting Pathway Risk
+
+re EPOSS” (WITN0597_01/13, WITN05970110)).
+
+c. PWY011 - Risk on use of touch screen and effect on transaction timings
+
+d. PWY048 - Risk on software distribution solution
+
+e. PWY064 — Robust Storage of Data in Single Counter Post Office
+
+f. PWY066 — Potential use of Dongles on Counter PC.
+
+52. The document “Risk Register Analysis” (WITN0597_01/14, POL00028150)
+created by the Procurement Team in February 1996 provides the status of the
+uncleared risks against the three Service Providers as of the end of Stage 3 of the
+procurement (effectively after the Demonstrator). This includes risks from the
+Requirements/Solution team and CNT (Core Negotiating - Commercial) team as
+well as from the Demonstrator activity. For Pathway, this includes risks PWY002
+
+(“Size of Escher”), PWY009 (“Riposte is Unproven”) and PWY066 (“Strong
+
+Page 17 of 75
+53.
+
+54.
+
+55.
+
+Sequence Numbering” /“Dongles”) mentioned above, as well as a number of other
+
+risks from other strands.
+
+Similar risks were raised against the other Service Providers, so the presence of
+these on Pathway was not, per se, surprising. This was a mechanism for formally
+recording concerns and giving the SPs the chance to provide more information or
+reconsider, before reaching the formal ITT. We received papers or presentations
+from the various SPs which enabled some risks to be downgraded or cleared. |
+remember that | thought this process was good in theory in that it incentivised the
+Service Providers to “take us seriously’, in that they knew that outstanding risks
+
+could count against them.
+
+The Inquiry has provided two Pathway Risk Responses for which | was the
+BA/POCL Risk Owner, which are useful examples of the process and the use of
+
+the Risk Process to bring clarity/remove ambiguity from the solution.
+
+Risk PWY064 sought to gain clarity on Pathway’s solution for robust storage of
+data in single position offices (where there would be no second PC to which
+Riposte would replicate data), and where data may be exposed should the link to
+the centre be down. Pathway had made a number of statements about options
+for the use of a removable second hard disk and a Mirror Service during the
+Demonstrator meeting but we used the Risk Process to have this formalised — we
+could not evaluate it purely based on verbal statements in a meeting on what they
+
+‘could do’. Once Pathway produced this paper (“Pathway Risk Response —
+
+Page 18 of 75
+
+WITN05970100
+WITNO05970100
+56.
+
+57.
+
+58.
+
+PWY064”, WITNO597_01/15, FUJ00078025), | believe the risk was cleared (and
+
+this went forward into their solution).
+
+Risk PWY066 related to a case where, in Demonstrator meetings, there appeared
+to be contradictions between Pathway and their subcontractor (Escher) over the
+proposal to use “dongles” (small plug-in secure storage devices) to mitigate a
+particular multiple failure scenario. In this case we raised a risk to get clarity as
+to what Pathway was proposing and actually going to implement, and therefore on
+what basis we should be evaluating the solution. Pathway’s response (“Pathway
+Risk Response — PWY066”, WITN0597_01/16, FUJ00078026) shows that they
+were proposing a solution which did not include the “dongle” solution, and gave
+
+their detailed reasoning.
+
+Some risks were not cleared and therefore were fed forward into the Evaluation
+and Selection decision; those for Pathway were, once the contract was awarded,
+then carried forward into the next phase of the project for monitoring and
+mitigation. For the Escher/Riposte related risks, for instance, this continued to
+be tracked throughout the Programme. Document “Escher Dependency — An
+Analysis” (WITN0597_01/17, WITN05970117) shows the state of this Risk area in
+
+April 1998.
+
+The Inquiry disclosed a “Top Ten Pathway Risks : Status 8.9.95” document, as
+part of FUJ00078000 (WITNO597_ 01/18), which appears to summarise Pathway’s
+internal view of the Risks (both those raised by BA/POCL and those by Pathway).
+
+1 do not believe | would have seen this document at the time but it provides a useful
+
+Page 19 of 75
+
+WITN05970100
+WITNO05970100
+59.
+
+60.
+
+61.
+
+summary of risks across all areas from the Pathway viewpoint, during the pre-
+
+award stage.
+
+| have been asked to describe and explain how ICL Pathway’s bid for the project
+was evaluated against the technical, management and commercial criteria used
+during the procurement process. Once the Demonstrator Phase had been
+completed, a new ITT was issued and for functional/technical evaluation the SPs
+submitted their responses, still based on the requirements in the Statement of
+Service Requirements (SSR). The SSR has several hundred numbered
+requirements, spread across the various Services (e.g. OPS, APS, EPOSS, BES
+etc), and the SPs provided responses for each SSR question. | think the SSR was
+updated where needed prior to the ITT (based on clarifications from the SPs in the
+
+Demonstrator).
+
+Once the three SPs submitted their response to the ITT, they were reviewed and
+evaluated by the Demonstrator Stream (from a functional/technical viewpoint), in
+parallel with other groups covering Contracts, Financial, and Partnership
+evaluation. | do not believe the Demo team had any involvement in those aspects
+
+outside of the functional/technical.
+
+For the functional/technical review, the solutions were evaluated as part of a
+detailed two-week (I think) off-site workshop known as Amazon, scoring the
+responses against 44 Demonstrator topics across the 6 Demonstrator Steams (for
+instance, there were 8 topics in the POCL Infrastructure group). There were also
+
+inputs from other groups such as a “IT Strategic Concurrence” from the Strategy
+
+Page 20 of 75
+
+WITN05970100
+WITNO05970100
+62.
+
+63.
+
+64.
+
+65.
+
+Group in POCL, for instance see “Fax from Bob King” (WITN0597_01/19,
+
+POL00031277).
+
+These 44 topics had been mapped in advance to 10 “Value Factors”, so that the
+scores could then be summarised up into 10 “Value Factors” per SP. This whole
+scheme was managed by the Procurement team, with the job of the individual
+
+Demonstration Stream evaluations to score the responses.
+
+The process is described in detail in “Final Evaluation Report” (WITN0597_ 01/04,
+POL00028152) and “Supplier Scores in Respect of Value Factors”
+
+(WITN0597_01/03, POL00031154) created by the Procurement team.
+
+For contractual reasons there was actually a second ITT which took place in 1996,
+although | do not remember this changing the technical solution at all — this was
+all related to risk transfer and commercials. The formal decision was, | believe,
+
+taken based on this second ITT, but this was all handled on the Contracts side.
+
+| have been asked about my understanding of the reasons for ICL Pathway being
+selected as the chosen provider of the automated accounting system. Pathway
+was selected as the Service Provider as part of an overall evaluation and selection
+process which included not only Value Factors (coming out of technical evaluation
+of the solution by both parties) but also a Commercial, Risk Transfer and
+Partnership evaluation by both BA and POCL, covering both Benefits Payments
+
+and Post Office services. The overall process is described in the “Final Evaluation
+
+Page 21 of 75
+
+WITN05970100
+WITNO05970100
+66.
+
+67.
+
+68.
+
+69.
+
+Report” (WITN0597_01/04, POL00028152), and the decision was taken by an
+
+Evaluation Board with senior representatives from each Sponsor.
+
+My understanding from reading document “Final Evaluation Report”
+(WITN0597_01/04) is that Pathway were the only one of the three SPs who were
+considered PFl-compliant regarding fraud risk transfer for BA; the other two SPs
+were not PFl-compliant. Ironically of course, BA then withdrew from the project
+
+in 1998/1999 rendering this factor in the decision rather irrelevant.
+
+| think it is important to note that this process resulted in BA and POCL jointly
+selecting Pathway as the overall Service Provider for the entire set of BA and
+POCL services; it was not POCL selecting a supplier purely for its “automated
+accounting system” as has been suggested. The procurement was for a complex
+package of services for two Contracting Authorities, and what became the Horizon
+EPOSS system was only one constituent part. Put simply, there was no
+
+opportunity for “pick and mix’.
+
+| think it would be fair to say that the majority of the technical evaluation focussed
+on the Technical Solutions being offered, rather than the Service Provider's
+capabilities, although some of risks raised did show we did consider to some
+
+degree soft aspects of the SP and their relationships with suppliers.
+
+Technically, the Pathway solution had some considerable advantages for POCL
+over those offered by IBM and CardLink. Specifically, the underlying Pathway
+
+solution allowed offline/disconnected operation with automated resynchronisation
+
+Page 22 of 75
+
+WITN05970100
+WITNO05970100
+should communications not be available, including off-line benefit payment, which
+in a network of 20,000 sites with the communications available in the late 1990’s
+was very important. | believe it was also the only solution of the three based on
+software in use in another country’s Post Office at the time (and of course later
+versions of the underlying Riposte have been used and are still in use in many
+
+Post Offices across the world to this date).
+
+70. However, the underlying technology of the POCL components was only part of the
+offering, and the whole programme depended on the overall Service Provider.
+Looking back, if a bad decision was made on selection, | believe it may have more
+been about the Service Provider in a PFI environment, rather than the technology
+they were using. As | raise later, this is where | feel the contract was weak and
+
+let us down.
+
+Development and Assurance
+
+71. | have been asked to describe and explain my involvement in the development
+and assurance of the Horizon IT System. Once the contract had been awarded to
+Pathway, the Demonstration Team migrated to new roles to provide Technical or
+Product Assurance of the emerging Pathway solution. This was arranged in a
+similar manner to the Demonstrator, with teams for various areas, and | was
+allocated the “POCL Infrastructure” as before, so responsible for the OPS (Office
+Platform Service) and TMS (Transaction Management Service), whilst others
+
+covered POCL Applications (including EPOSS) and the various BA services.
+
+Page 23 of 75
+
+WITN05970100
+WITNO05970100
+72. As | remember it, our role in Assurance was to try to monitor the development of
+the service to gain increasing confidence in the emerging Pathway solution, to
+assure its performance/security, whilst also trying to support them by providing
+access to resources in BA or POCL where needed (admittedly that was more
+
+relevant for the Applications teams).
+
+73. In addition to de-risking the project and facilitating the flow of information, we were
+also mindful of the fact that eventually there would need to be both a contractual
+acceptance of the solution/services and Release Authorisation decisions, and that
+gaining confidence and knowledge throughout the process should make this
+
+simpler — basically it was a means of avoiding surprises downstream.
+
+74. We attempted to engage with Pathway in a number of ways at various times, and
+for me both as responsible for POCL Infrastructure and during a stint when | was
+on the (BA-led) Fraud and Security Group. __ In particular, to give structure to the
+activity we provided various papers over time to our Pathway contacts on what
+information we needed, we had meetings with Pathway, and even for Technical
+Assurance set up a “Technical Assurance Forum” with Pathway with regular
+
+meetings with pre-set Agendas.
+
+75. The Terms of Reference for the Technical Assurance Forum explain our reasons
+to engage with this activity to inform Acceptance and Release Authorization. See
+draft version “Terms of Reference - Technical Assurance Forum”
+(WITN0597_01/20, WITN05970138) and an exemplar Agenda (for a session on
+
+Integrity in 1998) (WITN0597_01/21, WITNO5970129).
+
+Page 24 of 75
+
+WITN05970100
+WITNO05970100
+76. A number of papers from across that period explain our approach to Assurance,
+
+including:
+
+a.
+
+“The Level of Information Needed for Technical Assurance”,
+(WITNO597_01/22, WITNO5970113), from 1997. | do not recall whether
+| was explicitly asked to produce this paper by management or whether
+this was at my own initiative as part of setting up the Technical
+Assurance function (which was a reincarnation of the Design Assurance
+group). [This paper would have certainly been shared within the
+Assurance Teams in the PDA and | expect PDA management but | do
+
+not have access to email records to show how much further it went.]
+
+“Assuring Integrity, Accuracy and Robustness of the Service”
+(WITN0597_ 01/23, WITN05970116) which was shared with Pathway in
+1998, when trying to assure End-to-End operation. | believe it was
+produced at Pathway’s request to justify/explain our call for information,
+and was intended to show that our request was not unreasonable or
+unduly onerous. _ It is likely that this document was shared at least with
+Dick Long of Pathway (who was my contact at this point) although | do
+
+not have access to the email records to confirm this.
+
+“Route to Acceptance through Assurance and _ Testing”
+(WITNO597_01/24, WITN05970115) (draft), from early 1998 which
+outlined why reliance purely on Testing would be insufficient, and
+proposed closer working between Testing and Assurance. This paper
+
+was produced following a request from the PMT (PDA Programme
+
+Page 25 of 75
+
+WITN05970100
+WITNO05970100
+Management Team) in December 1997. [Although | only have a draft
+and do not have access to email records, | presume a completed version
+
+would have been shared in some form with the PMT].
+
+77. | have been asked to describe and explain the challenges that we faced in assuring
+the quality of the Horizon IT System. We hit problems early on in that Pathway
+refused to disclose certain documentation — especially design documentation - to
+the Assurance Team. They repeatedly claimed that this was because of the PFI
+rules — we were procuring services and had no rights of access to design or
+development documentation, and they were taking on the risk. This was the
+
+PFI “black box” problem mentioned earlier emerging.
+
+78. Anumber of the technical staff, at least those | dealt with, were helpful and in some
+cases more than happy to share information informally and take comments (after
+all, we had common aims and were fellow IT professionals). However, Pathway
+management obstructed such access, refusing access to documentation and |
+
+believe even cancelling meetings in some cases.
+
+79. | have been asked how we became aware of this obstruction by Pathway
+management. The problem hit us all the time but | remember in particular a
+meeting with Terry Austin (the Pathway Development Manager or similar) where
+he stated that he was prevented by the contract from sharing documentation. |
+also remember getting a call from Martin (or Martyn) Bennett, Pathway’s Security
+and Risk Manager, questioning (and | think cancelling) a meeting that his staff had
+
+set up with me to go through a particular technical security concern. However,
+
+Page 26 of 75
+
+WITN05970100
+WITNO05970100
+80.
+
+81.
+
+82.
+
+83.
+
+these are just a couple of examples of an ongoing problem throughout the
+
+development phase of the project.
+
+Rather perversely, we did make some progress on the POCL Infrastructure side
+(I say perversely as you might expect that the deeper into the software stack, the
+furthest from the application, the more reticent they might be, but the opposite
+seemed true) with Pathway people providing ‘informal’ access to a document
+known as the TED (Technical Environment Description). This technical
+infrastructure area was making progress and did not expose major problems,
+which might explain why the people here were more open. We also had more
+success in the underlying Security areas, as we had a specific requirement which
+
+required Pathway to create a Security Functional Specification (SFS).
+
+We also had some successes on the Infrastructure side through initiatives such
+as the Technical Assurance Forum, as mentioned earlier, although from what |
+
+remember some of these initiatives were sometimes rather short lived.
+
+In other areas however, in particular in the POCL Applications side, there was
+explicit refusal to allow access to design documentation for much of the time. 1
+suspect this was largely because such documentation did not exist at the time or
+that it was of such quality that opening it up to us would have exposed Pathway in
+
+this area.
+
+It may also have been as the POCL Infrastructure side was strict technology
+
+(hardware, protocols, communications, etc) based on integration of products
+
+Page 27 of 75
+
+WITN05970100
+WITNO05970100
+84.
+
+85.
+
+86.
+
+(albeit niche ones like Riposte), and so easier to handle, whereas the POCL
+Applications were bespoke, effectively ground-up developments, and Pathway
+
+were maybe more exposed.
+
+The result was that, except in areas where we had an explicit right in the Contract
+to a document (such as the SFS), we only had limited or partial visibility of the
+emerging Pathway systems, or of their design/development approach. This
+meant that we could not gain confidence of what Pathway were creating (or its
+suitability or fitness for purpose), or have confidence in how Pathway were
+
+developing (and therefore what Quality mechanisms were in place).
+
+One specific gap was any access to Software Quality information or metrics, such
+as number of bugs found in testing or the amount of rework being done, both of
+which are good indicators as to the stability or maturity of a product. We also
+had no real visibility of what design documents existed or in what state, even if we
+were not able to access the documents; this mean that we could not assess
+whether Pathway actually had created solid design documentation or had gone
+through a design process before commencing coding, or whether standard
+
+artifacts (like Data Dictionary documents) even existed.
+
+The POCL teams were involved in Joint Working with Pathway at various times
+(primarily in the Applications rather than Infrastructure area), to try to progress the
+project. Whilst this was beneficial overall, | remember flagging dangers there that
+Pathway could point to us having business representatives on-site to give false
+
+credibility to claims that Technical Assurance was being performed (when largely
+
+Page 28 of 75
+
+WITN05970100
+WITNO05970100
+87.
+
+88.
+
+89.
+
+what was happening was Issue Management). | remember raising this
+internally in a paper in 1998 “Product Assurance — A ReThink” (WITN0597_01/25,
+WITNO05970118). This would have certainly been shared within the Assurance
+Team but | do not recall how much further this went within the Programme, and
+
+again do not have access to email records.
+
+During 1997 there was a process by which Pathway issued draft Acceptance
+Specifications for the PDA’s review. This allowed Pathway to state, for each area,
+how they were meeting each Requirement, and point to the evidence or proposed
+evidence (e.g. a planned future document or test). One of these specifications
+was for the “POCL Infrastructure”, and although | do not have access to the actual
+document | reviewed, my comments to version 1.0 dated May 1997 are in exhibit
+WITNO0597_01/26 (“PDA Quality Review Comment Sheet - POCL Infrastructure
+Acceptance Specification”, FUJ00078984). These Acceptance Specifications
+
+continued to be updated and reviewed intermittently through to March 1999.
+
+My review comments provide a useful example of the problems we had, even for
+Acceptance, in the low level of information detail by Pathway. As just one
+example, for Requirements regarding an audit trail, it seems Pathway tried to
+satisfy by pointing to how the audit trail was stored/protected, but not what
+information was stored or what events were audited (see comments 14 and 21 in
+
+that review).
+
+| have been asked to what extent did POCL have adequate oversight of the design
+
+of the Horizon IT system. POCL had very limited oversight of the application
+
+Page 29 of 75
+
+WITN05970100
+WITNO05970100
+90.
+
+91.
+
+design of the system; formally we had access to a very few documents, informally
+to specific versions (not maintained) of a small number of other documents, and
+otherwise we had rather bitty information that we managed to obtain from specific
+activities or if we had raised specific risks in the evaluation (where maybe a paper
+
+might be provided).
+
+The team did the best we could but were very much dependent on the goodwill of
+individual team members in Pathway; for instance having “corridor discussions”
+with people we knew when visiting Pathway’s offices, or by information passed on
+
+by team members involved in “joint working” on the Pathway site in Feltham.
+
+However, it was obviously difficult to progress concerns which were based on
+information which came from these unofficial sources; it was very easy for
+information to be dismissed if we did not have evidence, with the ‘PFI card” applied
+again by Pathway. | seem to remember feeling that some of the DSS/BA people
+had greater comfort with the Pathway PFI approach than those of us from POCL,
+perhaps reflecting the difference in impact of the Contract to the two organisations
+(BA were contracting a relatively well-defined service and could more easily walk
+away if Pathway failed, whereas POCL were staking their entire future and could
+not easily walk away). | remember the phrase “The Absence of Evidence is not
+the Evidence of Absence’ being quoted when seeking help on this, | believe from
+someone on the BA side but | cannot recall who. However, what information we
+did get was reported within the PDA to try to build up a picture of the development,
+
+within the Assurance teams and to the PDA management.
+
+Page 30 of 75
+
+WITN05970100
+WITNO05970100
+92.
+
+93.
+
+94.
+
+There were at times opportunities for workshops to see the emerging product, and
+we made full use of these when we could, even if this tended to be “too late”
+compared with seeing upfront designs. Looking at my notes from early 1998 it
+seems | was involved in two workshops on EPOSS organised by Product
+Management (I believe by that point we had re-organised into a Technical Team
+— the old Infrastructure - and a Product Team — the old Applications), which
+included identifying non-compliances in the emerging EPOSS. My “Fortnightly
+Report - period to 19/01/98” (WITN0597_01/27, WITN05970143) refers. | cover
+EPOSS in more detail later. [The Fortnightly Reports in early 1998 were
+commissioned by and provided to John Meagher, who headed the Assurance
+Team at that point, and were most likely shared the rest of the Assurance team,
+with information then being fed up the management chain to the Programme
+
+Management Team (PMT).]
+
+| have been asked what issues did the lack of oversight create in relation to
+assuring the quality of the end product. The challenges and blockers to our
+Assurance activity from Pathway’s interpretation of PFI had a major impact in our
+ability to formally either assess the design or the quality of the emerging system
+being created by Pathway. By blockers, | mean the ongoing refusal by Pathway
+
+to share or provide information that we needed to fully do our job.
+
+It meant that the Pathway solution remained a “black box” in many respects (in
+particular in some of the applications), and | believe that had effects all the way
+through to Acceptance and beyond. It also forced an undue reliance on Testing
+
+to provide confidence in the system, and put a major, back-loaded, reliance on the
+
+Page 31 of 75
+
+WITN05970100
+WITNO05970100
+95.
+
+96.
+
+97.
+
+Acceptance Activity to demonstrate compliance. We raised our concerns in the
+paper “The Route to Acceptance Through Assurance and_ Testing
+(WITN0597_01/24, WITN05970115), as | felt strongly that Quality could not be
+assured purely through Testing, and Quality could not be retrofitted through
+Testing (a view | hold to this day after 40 years in IT). This document was
+written at the request of the PDA Programme Management Team (PMT), and,
+although | do not have access to the email records, | presume the completed
+version was provided to them. There is mention in my Fortnightly Report from
+19% Jan 1998 (WITN0597_01/27, WITN05970143) that this document was about
+
+to be sent to other relevant groups for review/comment.
+
+In some areas where we did manage to get access for Assurance, our confidence
+increased, to everyone’s benefit. As an example, as noted earlier we had raised
+a number of risks regarding Escher/Riposte, and were able to use these to get
+access to Escher and information on the Riposte product, and understand their
+development plans, which boosted confidence in the state of that product (and
+enabled us to reduce those risks accordingly) in the areas we were allowed to
+
+probe.
+
+One specific gap was that we had no visibility of quality or problems that occurred
+during Development, and therefore no formal means of managing POCL'’s risk
+
+from this — whether this be bugs, rework, or over-runs etc.
+
+It is worth mentioning specifically EPOSS, given its importance to this Inquiry.
+
+EPOSS was far more than a simple “point of sale” system, in that it had to be
+
+Page 32 of 75
+
+WITN05970100
+WITNO05970100
+capable of performing and recording a large range of transactions (from a stamp
+sale to a car tax renewal), along with cash/stock management and both individual
+teller (stock unit) and office accounting, including producing the cash account
+report each week. Much of this is peculiar to Post Offices and the exact rules
+
+specifically POCL, rather than just being another flavour of retail POS.
+
+98. Pathway’s ability to complete EPOSS in time being a risk which we had flagged in
+the Procurement stage. During 1997 the PDA became aware that work on
+EPOSS had been moved from Pathway to Escher in Boston “for completion’,
+suggesting that there were potential issues with the progress in Pathway (EPOSS
+had been listed as a Pathway, not Escher, creation). |am not sure how we found
+this out, but it is mentioned in an internal “Programme Review — Brainstorm on
+
+Suggestions” document dated October 1997 (WITNO597_ 01/25, WITN059701 14).
+
+99. As mentioned earlier, in early 1998 we had managed to get visibility of the
+emerging EPOSS and | assisted Product Management with reviewing via a series
+of workshops. | remember that we identified a number of issues, both around
+the application itself and Pathway’s design approach, which did not appear
+suitable for something of this complexity and importance, and also their
+
+consideration of Failure Conditions.
+
+100. 1! do not have access to documentation to show how these concerns were
+explicitly taken forward by Product Management, but my regular reports to my
+team leader (John Meagher) from the time covered this in some detail and | am
+
+confident that this information would have been reported upwards to Programme
+
+Page 33 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITN05970100
+
+Management. For instance, my “Fortnightly Report — Period to 19" January 1998”
+
+(WITNO0597_01/27, WITN05970143), included mention as follows:
+
+a. EPOSS - application: Evidence emerging from the EPOSS
+workshops that the emerging product is likely to be non-
+conformant in a number of areas, and will miss the
+(possibly unwritten) business rules in a larger number of
+areas. The product does not appear to be at the stage one
+would expect given the closeness to its entry to a testing
+phase - Pathway admitted to several “holes” where they
+don’t yet have a solution (eg Cash Account).
+
+b. EPOSS - design approach: Very concerned about Pathway’s
+(apparent) design approach for EPOSS, which is totally
+inappropriate for an application of this complexity -
+appears to be based on reverse engineering a product which
+has been cobbled together first by someone who is no longer
+with Pathway (and left little documentation) and since by
+Escher. This a very dangerous approach for a product of
+this nature and importance, and I do not believe that the
+risk can be adequately mitigated through testing alone.
+
+c. EPOSS - failure conditions: Significant concerns re
+operation of EPOSS - and the office platform in general -
+during ‘everyday’ failure conditions, such as loss of a
+terminal or of LAN connectivity, but similar issues likely
+to emerge in non-failure conditions with shared stock
+units. Pathway’s problem is basically that Riposte gives
+high integrity for data held on a “per terminal” basis -
+whereas the business requirement is for data to be
+accounted for on a “per SU” basis; they need to build the
+integrity for the latter using the facilities provided by
+the former. Trying to meet this need without a rigorous
+design method, and without proper failure analysis, is
+unlikely to succeed. Pathway appear not to understand the
+business impacts of failure of the accounting process (as
+opposed to failure of a transaction) and appear to want to
+rely on the “it’s not going to happen” philosophy. [Same
+may be true of other applications, given Release lc
+experience, but have less visibility].
+
+101. | have been asked to expand on the last paragraph in that excerpt where |
+stated “pathway appear not to understand the business impacts of
+
+failure of the accounting process (as opposed to failure of a
+
+Page 34 of 75
+WITN05970100
+WITNO05970100
+
+transaction) and appear to want to rely on the “it’s not going to
+happen” philosophy.”. | believe by this | meant that Pathway did not
+demonstrate an understanding the importance of the accounting role of EPOSS
+(including the balancing of cash/stock in each office) to POCL but were more
+focussed on what would happen to an individual customer transaction in times of
+failure. For example, if the system failed when performing a specific transaction
+it might affect the specific customer at the time but equally disastrous would be if
+that failure adversely affected the cash position at the end of the week. Rather
+than conducting a rigorous analysis of failure scenarios and showing that their
+design and solution would maintain integrity, they took the approach of
+undermining our suggested failure conditions (for instance, multiple concurrent
+failures in an office). With a target estate of 20,000 offices and 40,000 terminals
+such multiple failures were likely to be happen and, in my view, needed to be
+
+properly considered.
+
+102. | mention other issues on Quality in the section on the “Bird & Bird” review later.
+
+103. Finally on Assurance, | believe that Pathway viewed our desire for visibility and
+assurance as inappropriate and contrary to PFI. However, from our Assurance
+point of view, our experience was that Pathway’s approach to PFI had the effect
+of hiding deficiencies in their development approach from us. Given the delays
+and Quality problems which became visible in latter stages of the Programme, our
+
+attempts at Assurance seem fully justified.
+
+Page 35 of 75
+104. Note that a number of documents referred to in the Rule 9 Request relate to the
+so-called Release 1c or Congo. This was very much a “vanity” release of certain
+benefits payment functionality in a small number of offices, using a very early
+version of the software, without much of the contracted POCL functionality (e.g.
+EPOSS, Security) and from Assurance point of view largely a distraction from the
+main event. However, | do remember that despite its heavily cut-down nature
+there were problems with Release 1c around duplicates, with Recall and Reissue
+
+of benefits etc.
+
+Treasury Review
+
+105. | have been asked to describe the nature of my involvement in the Treasury
+Review of the Horizon IT System. | have very little recollection of the “Treasury
+Review” as a major project event, or of its objectives. There were a number of
+reviews from different bodies and outfits over the project and | was interviewed by
+
+a number, and this may have included the “Treasury Review”.
+
+106. However, | have found mention in a fortnightly report of mine from the time of
+assisting with discussions over Contract Realignment, specifically around the
+PAS/CMS boundary with POCL, in November 1998 related to the Treasury
+Review, and around the same time also looked at the PAS/BES boundary (that is,
+between the BA and the POCL side of benefit payments), but | cannot recall further
+details of the Review itself. From this is seems likely that | was called in to assist
+on some specific technical/system issues but did not have great visibility of the
+
+wider review.
+
+Page 36 of 75
+
+WITN05970100
+WITNO05970100
+107. | have been asked to what extent (if at all) the Treasury Review considered
+issues relating to the quality or fitness for purpose of the Horizon IT system. | was
+not aware of any consideration by the Treasury Review of the quality or assurance
+issues with Pathway, but as stated earlier | have little recollection of this review.
+However, if | had been interviewed, | am sure that | would have raised this
+
+vociferously, given what | had been flagging during 1998 in particular.
+
+108. | have been asked whether the Treasury Review was effective in considering
+such issues. | do not remember any significant changes or improvements in
+Pathway’s behaviour or attitude to Assurance or Quality emerging from the
+Treasury Review. | have checked my later fortnightly reports from end-1998 (at
+which point my function had been renamed from Technical Assurance to Service
+Characteristics, but was still attempting to gain assurance of the solution), and that
+in 19th December 1998 | reported: “We are still finding that Pathway are unwilling
+or unable to provide any detailed documentation to support our work, although
+they seem happy to provide information verbally via the Forums. Although better
+than nothing, this is not particularly efficient and should not be seen as a
+
+replacement for a proper Design Assurance process’.
+
+Proposed Weakening of Acceptance
+
+109. | have been asked what my understanding was of ICL Pathway’s proposals
+around acceptance in autumn 1998. In 1998, there was a suggestion that
+Contractual Acceptance (which would have opened up revenue for Pathway —
+noting that at this stage they were running significantly late and presumably over-
+
+budget) be tied to the Release Authorisation for a major release known as “New
+
+Page 37 of 75
+
+WITN05970100
+WITNO05970100
+Release 2” or NR2, rather than doing through the formal acceptance process. |
+do not know where this suggestion originated, whether it was from Pathway or
+
+from the aforementioned Treasury Review.
+
+110. I viewed this suggestion as quite dangerous and wrote a one-page paper with
+my reasons (“Acceptance at Release Authorisation’, WITN0597_01/29,
+WITN05970119/POL00028503). | presume this paper was provided into the
+Contracts team or other Programme Management, and although | do not have
+access to the email records, | can be confident it was received by POCL
+management this was disclosed to the Inquiry by POL (and by the Inquiry back to
+
+me).
+
+111. My primary objection was that | felt Pathway had largely obstructed our
+attempts on performing detailed Assurance during the course of the project,
+through “playing the PFI card’, and even by then | felt that some aspects of the
+development had a somewhat chequered history. By ‘playing the PFI card” |
+mean they used the fact that this was a PFI contract to deny us access to timely
+technical information and documentation on the solution or development activity,
+and repeatedly refuted such requests as being incompatible with the PFI. As a
+result, the Acceptance process had become even more important as a backstop
+for issues with the Assurance process. Signing away any contractual ability to get
+Assurance by giving Acceptance on the basis of one software release (which by
+nature excluded a number of deliverables and gave no control over quality) would
+
+remove that last protection.
+
+Page 38 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+112. It would also have provided for Acceptance on the basis of a decision to
+authorise a release, before that release had been deployed and therefore trialled
+
+in the live environment.
+
+113. Ihave been asked whether ICL Pathway’s proposals were acceptable to POCL.
+| cannot remember exactly what, if anything, was done with my recommendation,
+but from reading “Acceptance Board Minutes” (WITN0597_01/30, POL00028367),
+Acceptance was tied to the Live Trial and a release known as “CSR” (Core System
+Release), with no subsequent Acceptance of future releases. Reading the
+“Briefing on the New Contract” (WITN0597_01/31, WITN05970136) it would
+appear that my recommendation was maybe not fully accepted. _| would defer
+
+to the Contracts team for more info on this.
+
+Bird & Bird / Project Mentors Review
+
+114. There was a review performed of the Programme by Bird & Bird (POCL’s legal
+firm) and a consultancy called “Project Mentors” in March 1998, for which | believe
+| was interviewed. The Bird & Bird report itself is exhibit WITN0597_01/32,
+
+POL00038828.
+
+115. |cannot remember seeing the report at the time it was produced, but was invited
+to comment on it by POCL management in Jan 1999, and largely supported its
+findings. My notes from reviewing the report are present as “Notes from reading
+the Bird & Bird/Project Mentors Report” (WITN0597_01/33, WITN05970121). |
+cannot remember who in POCL invited me to review this, but | presume it was at
+
+Programme Director or Contracts team level.
+
+Page 39 of 75
+WITN05970100
+WITNO05970100
+
+116. The invitation to comment on the Bird & Bird report appeared to give me the
+opportunity in WITN0597_01/33 to (re-)flag and summarise many of the problems
+that we had seen from Pathway in the application design point of view, which had
+affected the Quality of the solution. Although there was nothing new in my
+document (we had been flagging this throughout) it is a fairly succinct summary
+which may be of use to the Inquiry. These observations included:
+
+a. Horizon (POCL) being denied visibility especially of application design,
+meaning we had no opportunity for independent “verification and
+
+validation” (V&V) or evidence that Pathway were doing any formal V&V
+
+b. Absence of high-level designs, and evidence of problems from a lack of
+
+design (even in Release 1c)
+
+c. Pathway adopting an “end of pipe” approach to quality, relying on “fix on
+
+fail’ for the applications.
+
+d. Little evidence of consideration of exception conditions or failure
+
+e. Over simplification of requirements and lack of understanding of the
+
+complete requirement set
+
+117. | have been asked to explain what | meant by ‘exception conditions’ in point d.
+above. In software engineering, this term is used to describe any set of events
+which do not represent the “happy flow” or normal expected operation. In the case
+
+in question, | would have been expecting that “exception conditions” considered
+
+Page 40 of 75
+might include power failure, local and wide area network failure, hardware failure
+of a terminal or device in an office, unexpected restarting of a terminal, a failed
+
+software update and the like, together with unplanned user activity.
+
+Withdrawal of Benefits Agency
+
+118. By 1998 it was obvious that the project was seriously behind schedule. There
+was some finger pointing between the parties — including between Pathway and
+BA regarding the readiness of a BA system CAPS. | do not remember all of the
+politics here with BA but it was clear that BA was losing patience with Pathway
+and it seemed the non-delivery by Pathway was seen as a reason for them to be
+able to withdraw from the Programme. There was of course also a change of
+government with Labour winning the 1997 General Election under Tony Blair (and
+
+the BA/POCL Programme was a creation of the previous regime).
+
+119. BA had always been a slightly reluctant partner in the Programme (given the
+relatively high cost of paying benefits through POCL, compared with other options)
+and the delays gave them the opportunity to re-consider other options, in particular
+
+driving Automated Credit Transfer (ACT) bank payments as the primary route.
+
+120. POCL, on the other hand, was still desperate for much needed automation at
+the counter, providing a platform to move forward their business, and even more
+so if a proportion of BA business was being lost, and some form of continuing with
+
+Pathway was the only option without returning to square one.
+
+Page 41 of 75
+
+WITN05970100
+WITNO05970100
+121. From what! understood there were discussions on whether to cancel the whole
+Programme (and this presumably led to work such as the Bird & Bird report
+mentioned earlier, to prepare a negotiating position), although in the end it was
+decided that POCL would go ahead with Pathway despite BA’s withdrawal. [See
+
+next section on Project Emerald].
+
+122. A deal was brokered, | believe by government, between BA, POCL and
+Pathway, and in 1999 a new, non-PFI contract was signed between Pathway and
+POCL, without BA, based on the slimmed down set of requirements having
+removed the BA-specific services (PAS, CMS, BES and FRMS | believe), and that
+this deal allowed BA to “walk away”. | have since become aware of documentation
+from National Archives which suggest much senior government involvement in this
+deal, however | cannot remember having any visibility of this wider political
+
+involvement at the time and therefore will not comment further.
+
+123. A useful briefing to POCL on the new Contract was issued by the Horizon’s
+Commercial team (‘Briefing on the New Horizon Contract”, WITN0597_01/31,
+
+WITN05970136).
+
+124. The new Contract was based on the same set of Requirements and sadly did
+not improve our ability to perform Assurance on the solution. By the time that the
+new Contract was finally signed in mid-1999, the system was already claimed to
+be fully developed, and in many ways therefore ‘the damage was done’ regarding
+Assurance (and | fear Quality). The Contract was signed as Acceptance activities
+
+were taking place and the Contract had no facility for us to go back and revisit the
+
+Page 42 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+problems of the previous few years, nor, as far | can remember, did it give us any
+
+further access to detailed documentation.
+
+125. The new Contract did not appear to be a particularly good deal for POCL, both
+commercially (largely taking back volume risk from Pathway and increasing
+POCL’s costs), and | think contractually weakening of the thresholds for
+Acceptance, and with Acceptance now tied to the Live Trial (Core System
+Release). However, this did allow POCL to continue with automation rather than
+
+having to start all over again, which was | believe seen as an advantage.
+
+126. In hindsight, POCL missed an opportunity to force an in-depth review of the
+emerging system, including examining all aspects of how the system had been
+created, to mitigate the gap caused by the earlier PFI approach, and to require
+Pathway to open up to POCL. As it happened, POCL were restricted to running
+the Acceptance activity with the same (BA-requirements removed) basis as
+
+existed in the original contract.
+
+127. In June 1999 | did look at potential exposures from the removal of BA
+requirements and schedules from the contract, with my findings documented in
+“Potential Exposures from Removal of DSS Requirements and New Contract”
+(WITNO0597_01/34, WITNO5970127). | cannot recall who commissioned this
+work or received my note but | presume it was done for the Contracts team. This
+flagged a few places where POCL were dependent on BA requirements or
+services (which would no longer exist). One | noted was that POCL had not
+
+contracted to obtain fraud information directly from Pathway, but were apparently
+
+Page 43 of 75
+intending to use BA’s Fraud Risk Management Service (FRMS) if they needed
+such information, and that therefore POCL would need to either now raise a
+Change Request to get this information or to source it “in-house” from TIP. | do
+
+not know what action POCL took here but this may be relevant later in the Inquiry.
+
+128. Whilst the withdrawal of BA did not affect the technical viability of the solution,
+this was fairly disruptive during 1999, just at a time when focus was needed on
+getting the project “over the wire”. This included, of course, the transition to
+
+being a wholly POCL project and the handover from BA people.
+
+129. POCL also kicked off early work on Network Banking, which was the proposal
+to add Banking functionality to the system to facilitate cash withdrawal at the
+
+counter, to try to “retain” the footfall for benefits recipients now paid by banking.
+
+130. More importantly, it did mean that a very large amount of effort and focus had
+been spent during the preceding 4 years on functionality and requirements which
+were no longer relevant, all the way back to selection of Pathway partly based on
+
+BA's risk transfer requirements.
+
+The Horizon IT System and Project Emerald
+
+131. | remember also getting involved in 1999 in a number of ‘what if?” or feasibility
+exercises in POCL looking at options for going forward with or without Pathway.
+This included an exercise known in POCL as “Project Emerald”, which | think was
+led by the Commercial team in POCL (rather than the Horizon team itself) but was
+
+drafted in for my Horizon knowledge. There were a number of ‘Option B’
+
+Page 44 of 75
+
+WITN05970100
+WITNO05970100
+proposals which | think kept the Pathway Horizon system but had different ways
+of handling benefit payments (including an Electronic Money Box proposed by
+Pathway, various aspects on using a Banking partner, as well as what POCL
+
+finally signed).
+
+132. However, | remember specifically looking at an Option C, if we terminated the
+contract with Pathway, exploring whether we could ‘salvage’ parts of the Pathway
+
+solution for a future automation initiative.
+
+133. “Option C - Considerations Around Future Use of Aspects of ICL Pathway
+Solution” (WITN0597_01/35, WITN05970146) which | drafted in May 1999 looked
+at some of the issues associated with potential future use of what Pathway had
+created and defined 5 possible levels of re-use of Pathway’s solution. In so doing
+it again raised concerns about the Pathway development approach, including
+around EPOSS, and the potential dangers should we look to take on aspects of
+their solution (including our lack of design knowledge and information on what we
+might be taking on). It also suggested some of the non-technical considerations
+(e.g. including “- does POCL have sufficient faith in Pathway to deliver?’, and “-
+are ICL Pathway “fatally wounded’?”) which are perhaps indicative of the
+
+sentiment in mid-1999.
+
+134. | cannot remember exactly what decision-making process happened with
+Project Emerald — this would have been above my level and may have included
+government - but in the end such esoteric options around cancellation were
+
+dismissed and POCL signed up the new ‘non-PFI’ contract with Pathway (and BA
+
+Page 45 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+were allowed to walk away), and as discussed as far as | remember earlier this
+
+contract did nothing to resolve the Assurance problems with Pathway.
+
+Live Trial (1999)
+
+135. | have been asked to describe and explain my involvement in the Live Trial of
+the Horizon IT System. For the Live Trial my role was in analysis and review of
+relevant Incidents that had been raised, as part of the overall Acceptance Process.
+| believe that the Live Trial was run by Business Service Management (BSM) in
+
+POCL, given it was “Live” and processing business transactions.
+
+136. | have been asked whether | considered the acceptance timetable to be
+sufficient. The Live Trial was defined within the Contract, with a specific duration
+of 8 weeks from May-July 1999. | believe the Live Trial was intended as the main
+input to Acceptance; however of course not all Acceptance Criteria were relevant
+or could be tested via the Trial (for instance, adherence to specific standards,
+
+delivery of documents).
+
+137. The Live Trial (and subsequent Acceptance process) would obviously have
+been of a major milestone to the Programme under normal circumstances, but for
+this PFI contract (based on a “black box’ approach by the supplier) with the
+challenges we had had with ongoing Assurance with Pathway, it took on greater
+importance. _ | think it is fair to say we had significantly less confidence on entry
+to Live Trial than we might have done had we been allowed to perform effective
+
+iterative Assurance throughout the Programme.
+
+Page 46 of 75
+138. Of course, monitoring of live operation in a relatively small set of offices for a
+small number of weeks did not make up for this lack of Assurance during
+
+development. However, this appeared to be the best that the contract could offer.
+
+139. | think it was important to view the Live Trial not as a one-off activity but as one
+step in an incremental process of increasing office numbers, increasing
+functionality and moving to full “live” processes, with appropriate ongoing
+monitoring. So although the Live Trial informed Acceptance, | believe it was
+
+generally accepted that this was not the end of the process.
+
+140. | do remember making writing a paper “Live Trial Stressing — A discussion
+paper” (WITN0597_01/36, WITN05970147) in January 1999 which proposed
+deliberately introducing certain failure scenarios into the Live Trial environment, in
+acontrolled manner, to help prove the service in a more representative and lifelike
+environment. The intention of this was to get maximum benefit out of the short
+duration Live Trial and improve the quality of decision on which the National
+Rollout would be authorised. _| only have a draft of this paper and as | do not
+have access to email records, | cannot be sure how widely it was circulated or
+what reception it was given, however | do not believe that this approach was ever
+followed. | am aware that the proposal might have been seen as radical and
+disruptive, however it was a genuine attempt to make up for the earlier deficiencies
+
+and lack of visibility we had suffered.
+
+141. | have been asked to describe my understanding of the nature, cause and
+
+severity of the Acceptance Incidents identified during the Live Trial. | remember
+
+Page 47 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+the Live Trial exposed many issues with Horizon, as supported by
+POCL00028357, “Pack of Al Forms” (WITN0597_01/37). These become visible
+to us via Acceptance Incidents (Als). These spanned a variety of areas, from
+training and helpdesk through accounting in EPOSS down to the underlying
+
+system stability, and included the interface to the POCL backend system TIP.
+
+142. Als were assigned out to owners in POCL or the Horizon Programme, and |
+remember specifically being involved (as owner or advisor) on Als regarding
+System Stability (Al298) regarding lockups and screen freezes, Software Updates
+(AI372) and the Feed to TIP (Al378). 1 know that there were also Als relating to
+
+EPOSS and the Cash Account in the POCL Applications area.
+
+143. My view was that these incidents were of significant severity, especially those
+which rendered the system unstable and by nature ‘encouraged’ the user to
+reboot. | remember we argued that the number of such incidents reported by
+users would be likely to be only a subset of the actual happening as once users
+learn the “turn it off and on again” approach they will not “waste” 15 mins ringing
+helpdesk with an office full of customers. Internally in POCL, these arguments
+can be seen developing in the working document “Al 298 — System stability” (“Al
+298 vO06d j”) (WITNO597_01/38, WITN05970120) which had multiple contributors
+from across the Acceptance Team and wider POCL. | believe these similar
+arguments were used in the Acceptance Workshops which took place with
+
+Pathway in 1999 when agreeing or disputing severity of incidents.
+
+Page 48 of 75
+144. Pathway were required to either fix or otherwise mitigate each incident, and |
+believe there was significant activity by Pathway to try to fix the problems. There
+was also additional functionality (for instance on EPOSS-TMS-TIP reconciliation)
+
+proposed to mitigate the problems around AI378.
+
+Acceptance
+
+145. | have been asked to describe and explain the nature of my role in acceptance
+of the Core System Release (CSR). For the Acceptance Process, | was one of a
+number of ‘Technical Experts’ assigned individual Acceptance Incidents,
+responsible for analysis of incidents, examination of evidence and rectifications
+plans provided by Pathway, allocating severities and recommending the action.
+This was a fairly reactive role considering incidents as they came in and were
+
+allocated to the relevant ‘expert’.
+
+146. By August 1999 there were a number of Als where adequate resolution had not
+been agreed and where they were “in dispute”. For these Als, there were a series
+of Al Dispute workshops. Between POCL and Pathway, and also attended by an
+independent expert, | believe a consultant from PA Consulting (Peter Copping),
+
+acting as a kind of adjudicator.
+
+147. The Als for which | was down as Technical Expert in POCL Infrastructure
+
+included:
+
+a. AI372 — System Management (software upgrade in the field had failed
+
+in some offices during the Live Trial)
+
+Page 49 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+b. Al391 — Physical Security deficiencies at central sites (Bootle and
+
+Wigan), identified from an Acceptance site inspection
+
+c. Al298 — System Stability (Lockups/Freezes)
+
+148. There were also Als in the POCL Applications area including:
+
+a. AI376 (Cash Account problems)
+
+b. Al378 (EPOSS-TIP feed for Cash Account),
+
+although | was not the “Technical Expert” on these. Further information on
+
+these incidents is contained in “Acceptance Incident Workshop 25 and 26
+
+August” (WITN0597_01/39, POL00028478)
+
+149. | have been asked for my assessment of ICL Pathway’s rectification plans and
+
+whether my assessment changed over time. | remember that it seemed Pathway
+
+were more interested in talking down severity of Als, rather than actually trying to
+
+engage to resolve issues, in what it felt was a war of attrition. This may have
+
+been connected with the fact that there were thresholds set in the Contract on the
+
+number of Als of each severity to allow Acceptance to be given.
+
+150. However, once it became clear that POCL would refuse Acceptance, | believe
+
+they did attempt to address issues more seriously and created more credible
+
+Page 50 of 75
+rectification plans. For instance, on Al378 they did propose (and | presume
+
+implemented) a new reconciliation process to detect errors.
+
+151. | have been asked what concerns | had about the accounting integrity of
+Horizon at the point at which CSR was accepted. Once Acceptance had taken
+place, there were further monitoring and mitigation activities in place to continue
+to gain confidence in the system. My view at the time was that we had dealt
+satisfactorily with each of the issues which had been found, but the overall stability
+of the system and integrity in the full live operation had still to be proven. So my
+concern was generally about the “unproven” nature of the system rather than
+knowledge of specific faults (outside of those where we had rectification plans
+
+agreed) — in other words what we still did not know.
+
+152. As discussed throughout this statement, the problems we had with Assurance
+during the Programme had restricted our ability to gain incremental confidence in
+the system, and the number of Acceptance Incidents in 1999 had further reduced
+our confidence, and indicated problems with Pathway’s approach to Development
+and Quality. We were also aware, at least informally, that Pathway had had
+problems with EPOSS and had sought help from Escher during development (as
+noted in “Programme Review — Brainstorm on Suggestions, (WITN0597_01/28,
+WITN05970114) and had concerns with the Quality of EPOSS (as described in
+“Fortnightly Report — period to 19/01/98” (WITN0597_01/27, WITN05970143) and
+elsewhere). But again, these concerns were of the unproven nature and of its
+
+chequered development history, rather than having knowledge of specific issues.
+
+Page 51 of 75
+
+WITN05970100
+WITNO05970100
+153. My expectation was that, as with any new system, there would be ongoing
+monitoring to build up confidence as the rollout progressed in 2000, and serious
+volumes of offices/transactions were achieved, and that if issues did appear then
+they would be investigated by Pathway and POCL. This process would hopefully
+
+allow confidence to be earnt and the system to be proven at scale.
+
+154. As | left the Post Office in very early 2000, | do not have visibility of whether this
+
+happened, and what monitoring was actually performed.
+
+Suspension of the Roll Out
+
+155. | have been asked to describe and explain my role in monitoring ICL Pathway’s
+compliance with the conditions imposed on acceptance of CSR.1 believe that
+POCL gave Contractual Acceptance in September 1999, however there was an
+agreement that certain “hangout” activities, linked to Als, had to be completed by
+November 1999. From what! remember, it seemed likely that Pathway would not
+complete these activities by this time and therefore POCL prepared to apply
+
+pressure by suspending the rollout, an option allowed in the Contract.
+
+156. There were two specific Als where | was involved (Al298 System Stability and
+AI376 EPOSS-TIP Data Integrity) which fell into this category, together with an
+issue with Reference Data integrity which emerged during the trial. The
+Reference Data issue did not have an Al number as it was raised after Acceptance
+but was still considered by POCL to be a non-compliance with one of the formal
+
+requirements (although | am not sure Pathway agreed).
+
+Page 52 of 75
+
+WITN05970100
+WITNO05970100
+157. For Al298 on System Stability the information provided by the Horizon System
+Helpdesk (HSH) was insufficient to be able to facilitate the analysis of faults in this
+area, and we recommended additional monitoring and better recording, at
+Pathway’s expense. We also looked at comparable systems to define a metric
+for acceptable level of reboots, so we had something which could be measured —
+
+| believe we settled on something like one reboot per 3-4 months per terminal.
+
+158. There are a number of documents which provide more detail on what we did
+around AI298. | believe a similar approach would have been followed for the other
+
+Als by other members of the team.
+
+159. Document “Incident 298 (System Stability)” | (WITNO597_01/40,
+WITN05970125) contained an analysis | performed, based on the concern that
+Pathway had not put forward a Resolution Plan at this point, but were rather relying
+
+on individual fixes to improve the figures.
+
+160. Document “Al298 — System Stability” (“Al 298 vO06d j”) (WITNO597_01/38,
+WITN05970120) contains a markup with comments of a document created by the
+Acceptance Team regarding the status of A298 as of the 20" Aug 1999. This
+
+included defining the problem, the business impact and the business severity.
+
+161. Document “Al 298 — comments on Pathway’s 2-9-99 plan” (WITN0597_01/41,
+WITN05970145) contains the output of more detailed analysis of failure statistics
+for a 4-week monitoring period. This showed mixed results, with some issues not
+
+reducing in number of occurrences even after applying a fix.
+
+Page 53 of 75
+
+WITN05970100
+WITNO05970100
+162. Document “Acceptance Headlines (input to HMT 20/10/99)” (WITN0597_01/42,
+WITN05970130) provided an update on the activities from the Acceptance
+
+Resolution plan, including updates on the monitoring activity for Al298.
+
+163. My document “Al298 - Approaches to Restoring Stability and Integrity” from
+September 1999 (WITN0597_01/43, WITN05970133) recommended that in
+addition to fixing the individual problems which had been identified, and then
+monitoring, that we needed to proactively re-visit the product (a kind of
+retrospective Assurance); it also recommended that we re-visit the development
+approach which had contributed to this problem in the first place, so that we
+
+avoided further problems.
+
+164. The “ICL Pathway Action Record” dated 17/9/99 (WITNO597_01/44,
+FUJ00079174) records that (for Al298) Pathway had work underway to ‘analyse...
+to establish what changes to the development and testing strategies might be
+appropriate to mitigate the risks of similar incidents occurring...”. | cannot
+remember the details of what was eventually proposed but this appears a case
+where the leverage we had in Acceptance process forced Pathway to do more (or
+
+give us visibility of more) than just follow a “fix on fail” approach.
+
+165. | have been asked what checks were put in place to monitor the data integrity
+issues and whether we considered them satisfactory. For Al376 on the Integrity
+of Data to EPOSS-TIP, Pathway were required to develop new integrity controls.
+
+Note that this Al related to integrity of the feed from EPOSS to TIP (that is,
+
+Page 54 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+exported from Horizon), rather than specifically around integrity within the EPOSS
+
+system within Horizon.
+
+166. Document “Rollout Decision — Demand Position Paper” (WITN0597_01/45,
+POL00028551) contains details of what we required here in November 1999.
+Note that this paper shows we had clearly tried to learn from the problems of the
+PFI days by making very explicit what visibility we needed, not just a “fix”,
+
+including:
+
+a. “logical assurance of authorised design document’,
+
+b. “analysis of all previous root causes to determine that errors would be
+
+detected”
+c. “Testing to a jointly agreed strategy and high-level test plan”
+d. Dual running including under stress conditions, failure conditions etc.
+167. As far | can remember we considered that these additional controls would be
+satisfactory, for the purpose of the integrity of the feed of EPOSS to TIP and to
+meet the needs of the specific Al. The inclusion of point b. above was intended
+
+to ensure that the new controls were satisfactory to pick up all known problems,
+
+rather than following the “fix on fail’ approach we had seen in the past.
+
+Page 55 of 75
+168. | have been asked to describe the problems which emerged relating to
+reference data, including effect on accounting integrity and their mitigation. There
+were problems identified with Reference Data processing, that is importation of
+data created by POCL which defined products and/or the cash account detail.
+Others were more closely involved in this but from what | remember this related to
+problems when POCL submitted changed reference data (something which might
+happen when new products are introduced, or the cash account lines to which
+
+products report change), and how the Pathway system reacted to this.
+
+169. | remember a series of workshops were organised between various POCL
+groups (noting that the POCL central systems here were outside of the remit of
+
+Horizon) and Pathway to jointly work up solutions.
+
+170. | believe that the Reference Data issue could, at times, produce problems on
+the EPOSS-TIP interface (similar to Al376), specifically during a change to
+
+reference data.
+
+171. | cannot remember the detail of the resolution on the Reference Data issue but
+| believe although POCL cooperated in the solution this was viewed as a Pathway
+issue as the Contract required them to integrate with the POCL reference data
+
+feed.
+
+172. It is probably worth mentioning that in early 1999, | remember being tasked with
+looking at what options might exist for going live without a working TIP interface,
+
+effectively having the Horizon offices produce a paper cash account and paper
+
+Page 56 of 75
+
+WITN05970100
+WITNO05970100
+feeds and these being processed as if the office was still manual. This was one
+of several attempts by POCL to decouple the rollout from known problem areas in
+Horizon, should Pathway fail to solve these in time. Clearly this was seen as a
+risk area at the start of 1999, some months before Acceptance. Document
+“Contingency Options for Non-Availability of EPOSS Feed to TIP”
+(WITN0597_01/46, WITNO5970122) was my report from this exercise. | cannot
+recall who was sent this document, and do not have access to email records of
+the time, but | presume that it would have included the Programme Director and/or
+team, and together with colleagues in TIP who helped with the report. However, |
+do remember it was considered ‘sensitive’ and may not have been widely
+
+circulated.
+
+173. There was another incident related to Pathway processing of reference data
+updates of which | have no recollection from the time but for which it appears that
+| was asked by POCL management to review Pathway’s explanation. In document
+“ICL Pathway Progress Summary for Input to Horizon/Pathway Delivery Meeting
+27" October 1999” (WITNO597_01/47, FUJ00079184) (Page 15-18) it appears
+that a potentially serious bug had emerged in live running in October 1999 which
+had potential to affect the Accounting Integrity in live offices (at that point around
+
+1000 offices | believe).
+
+174. The bug was apparently caused by the application of incorrect reference data
+to the live estate, which revealed a design/code fault which meant that Internal
+Transfers (movement of cash/stock between Users in the office) were incorrectly
+
+processed, and specifically that invalid data was written by EPOSS.
+
+Page 57 of 75
+
+WITN05970100
+WITNO05970100
+175. This was a case where Pathway had to fix the operational impact of at the bug
+by injecting additional ‘correction’ messages (data) into this office to restore the
+accounting position, in addition to fixing the reference data/software to avoid a re-
+
+occurrence.
+
+176. From the narrative in WITNO597_01/47 it appears that | had been asked to
+review this issue by someone from POCL who was present at the regular
+“Horizon/Pathway Delivery Meeting” (I do not believe that was a meeting series |
+attended). | cannot recall who asked me to review this issue, and how we had
+been informed of the issue, or even whether we had been proactively officially told
+of it and the resolution, or whether it only emerged through questioning at this
+meeting. [For the avoidance of doubt, the initials “JF” used in that document
+
+appear to refer to an attendee from Pathway and not me.].
+
+177. Asa result it seems | raised a number of questions/concerns with Pathway
+about how it had happened, what they have done to fix it and (specifically) around
+
+what controls were in place around applying a “fix” to live data.
+
+178. | suspect this was the first time that the need for Pathway to make adjustments
+to live office data had been reported to POCL and the need for such intervention
+was Clearly of concern to POCL. The notes record that POCL Audit were being
+asked to review, however | do not have visibility of any outcome of that review, or
+
+whether this such centrally inserted corrections became a regular event.
+
+Page 58 of 75
+
+WITN05970100
+WITNO05970100
+179. The answers from Pathway (which were copied into the meeting notes in
+WITN0597_01/47) suggest that Pathway had already applied the fix (the past
+tense was used in their response). The notes says that Authorization to insert
+correcting data was given in Pathway by their Customer Service Director, and
+does not mention any prior agreement from POCL. Note that the fix was applied
+centrally (not via explicit remote access to the counter terminal) but still obviously
+
+affected the data in offices, as was required to resolve the problem.
+
+End of Involvement
+
+180. Ihave been asked when my involvement in the Horizon IT System came to an
+end. | left the Post Office at the start of February 2000, as the Horizon Programme
+was wound down and moved to business as usual. At this point the responsibility
+for managing Pathway had migrated to the “Business as Usual” units which had
+been set up in POCL — for instance | believe there was the Business Service
+Management group managing and monitoring day-to-day operations. Work had
+started at that point on New Products, including Network Banking, but again in a
+
+“Business as Usual” manner, with new groups in POCL working on these.
+
+181. In my last few weeks at The Post Office | wrote, at the invitation of the MD of
+the Post Office Network Unit (the owning business unit), a brain-dump paper which
+| called “A Reflection on the Last 5 Years: Lessons, Issues and Key Points’, and
+covered my outgoing view of Horizon (WITN0597_01/48, WITN05970123). This
+document is, | believe, useful as a contemporaneous view of the state of Horizon
+at that point, as well as trying to learn from the problems we had experienced in
+
+the previous five years.
+
+Page 59 of 75
+
+WITN05970100
+WITNO05970100
+182. For completeness, | should mention that during my subsequent time working
+for Escher Group Ltd (who acquired Anshe Ltd, the company | joined after leaving
+the Post Office), | did have occasional, rather superficial and intermittent, contact
+with Fujitsu mostly in support of certain attempts by Escher to sell further software
+to them for use in POCL/POL. | believe this included (unsuccessfully) attempting
+to sell an Escher accounting module (known as “Asset Manager”) to Fujitsu,
+probably in around 2003, amongst others. At that time | believe that during
+
+meetings with Fujitsu the Horizon system was portrayed as being fairly successful.
+
+Concerns when Rollout Restarted
+
+183. | have been asked what concerns | had about the accounting integrity of
+Horizon when rollout recommenced in or around January 2000. | cannot
+remember any concerns specifically around Accounting Integrity itself when the
+rollout recommenced around January 2000, with the exception of the Als which
+were already in progress on Data Integrity for EPOSS-TIP. | believe we followed
+due process on dealing with Acceptance Incidents and Rectifications, and
+everything that had been discovered had been progressed and fixed or had a plan
+
+to be fixed.
+
+184. | did of course still have general concerns around the unproven nature of
+system, based around the challenges that we had had with attempting to gain
+Assurance throughout the previous few years, and which | have covered in detail
+
+earlier in this statement.
+
+Page 60 of 75
+
+WITN05970100
+WITNO05970100
+185. | believe that the feeling in POCL was that, despite all the problems and delays,
+we had finally, several years late, got to a system which could move to the next
+stage with rollout, and POCL could actually see how it worked for real.’ This did
+not mean that people felt the system was perfect, and certainly | had concerns
+about the lack of Assurance and how they had got to this point, but in the
+circumstances going cautiously to the next stage was maybe not unreasonable.
+The question to ask is maybe whether due caution was applied once rollout
+
+recommenced.
+
+186. Personally, it felt unsatisfactory that due to the PFI contract and Pathway’s
+interpretation, we had such a difficulty in providing assurance, with the problems
+with Acceptance proving the point and justifying our concerns. So my general
+feeling was that the system was not yet “proven” but that such proof would now
+have to come (or not) in live operation. To a degree, we had lost the previous
+
+battles and the only option was now trialling in live operation.
+
+187. | have been asked what action | took to report concerns to others in POCL. My
+
+general concerns etc are documented in some detail the Horizon “brain-dump”
+document “Lessons, Issues and Key Points’ (WITN0597_01/48, WITN05970123)
+mentioned earlier. The concerns about the lack of Assurance had been
+
+documented many times throughout the project and | am sure were well known in
+
+POCL.
+
+Page 61 of 75
+
+WITN05970100
+WITNO05970100
+188. However, that document had a Section C “Future Risk Areas’, and within that
+
+a topic “C6. Some technical capability still to be proven’: The introductory
+
+paragraphs to that section states:
+
+a
+
+“This section outlines a number of technical areas which it would be wise
+to “watch”, although they are not the subject of any outstanding
+Acceptance Incidents. They should not be taken as predictions of things
+which are yet to go wrong, more as a list of possible areas of weakness
+which could ‘trip us up” in the future, especially as the number of offices
+
+increases at the planned rollout rate up to the target full population.”
+
+“There is an argument, based on the same principles as used to justify,
+albeit not to great effect, the need for assurance during development,
+that states the need for ongoing assurance during the live operation of
+the service and associated system. We do not appear to have any
+contractual basis to seek such involvement, however we may wish to
+negotiate with Pathway at the relevant time to seek some confidence
+
+that these issues are indeed under control.”
+
+189. | think itis important to note that there should have been no surprises to anyone
+
+in POCL in that document — this was my attempt to bring together the big issues
+
+(as | saw them) in a single place for future use. | have no visibility of whether the
+
+information or suggestions in that document were taken forward by POCL.
+
+Page 62 of 75
+
+WITN05970100
+WITNO05970100
+Looking Back — POCL Scrutiny of Testing, Trial and Acceptance
+
+190. | have been asked to look back and consider the effectiveness of POCL’s
+testing, trial and acceptance of the Horizon IT System. Looking back, | feel that
+POCL performed as effective a scrutiny as was supported by the Contract,
+however that throughout the project we had been let down by the Contract, and in
+particular the influence of PFI. The replacement of the original Contract in mid-
+1999 with a non-PFI version, once the vast majority of the development had been
+completed without our scrutiny, could not cure those problems. As discussed
+earlier, the new Contract in 1999 did not open up any additional avenues for
+Assurance, and no opportunities for a pause for a full technical/design review were
+
+offered.
+
+191. | believe that individual POCL staff generally did the best they could do given
+the nature of the contract(s) with Pathway and with Pathway’s behaviour and
+
+attitude towards POCL, and towards Assurance in particular.
+
+192. Looking at the documents for that time, it appears that POCL took a reasonably
+‘hard line’ with Pathway during the Acceptance Process in 1999, at least as hard
+a line as the Contract allowed. | am sure at that point there was desire within
+POCL to get the project moving, and pressure being applied from Pathway, but
+
+POCL did hold out on the outstanding Als to get a resolution.
+
+193. I did not have any visibility of the final decision-making process which led to the
+
+rollout restarting.
+
+Page 63 of 75
+
+WITN05970100
+WITNO05970100
+194. The Acceptance Incident process, including the Dispute Process, was | believe
+followed rigorously by POCL, and Pathway did fix a large number of issues with
+Horizon during 1999. Sadly, Acceptance could only be withheld based on
+uncleared Acceptance Incidents or unmet Requirements, rather than unproven
+
+reliability characteristics.
+
+195. In summary, | felt that the team did as well as could have been done given the
+
+Contract, but that the Contract was inadequate.
+
+196. We had a Service Provider who largely blocked and dismissed our attempts at
+Assurance, and the nature of the contract prevented POCL from having adequate
+visibility of the problems it seems Pathway were having in Development. The
+Assurance Team members consistently flagged the problems with Assurance to
+the PDA and subsequently POCL Horizon management, and worked persistently
+and doggedly to get what they could from Pathway, but sadly it appeared that we
+
+were constrained by the Contract and no long-term solutions were found.
+
+197. We know that in its submission to the DTI in 1999 Pathway continued to claim
+that the PDA had been “managing ... in a manner inconsistent with the principles
+of PFI’, and claiming “huge amount of senior management time being devoted to
+issues which were constantly raised by the PDA” (WITN0597_01/49,
+WITNO05970144). | believe that the problems with Horizon show that more, rather
+
+than less, Assurance activity by the PDA was needed.
+
+Page 64 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+198. Looking back | also find it somewhat surprising that despite the number of
+outside experts and reviews from various consulting firms, a “PFl-suitable”
+contract was not implemented — something which met the requirements of PFI but
+also allowed the PDA to effectively “police” the provider. Sadly, despite all the
+outside experts, | do not remember any such advice on how to manage Assurance
+in a PFI environment being given to us. In trying to manage our part of an IT
+procurement of this complexity under PFI rules it felt at times as if we were
+
+“bleeding edge’.
+
+199. In particular, | believe we should have had further contract requirements around
+“characteristics” around reliability, integrity etc with measurable targets, and more
+onus on the Service Provider to actively prove compliance, as well as explicit
+requirements for the Service Provider to provide visibility of design documentation,
+fault logs, etc in a timely manner during development. The contract that we had
+gave Pathway every incentive to keep us shut out, treating our attempts at
+involvement for assurance as an unwelcome distraction, leaving us unsighted and
+
+Pathway free to make their own decisions on Quality.
+
+200. 1|do remember, in 1999 perhaps, performing some research looking at industry
+standards for software characteristics, what we might call the “ities”, and in
+particular looking at a standard ISO9126. This covered characteristics such as
+reliability, usability, efficiency, maintainability etc. If we had had some contractual
+support to evaluating Pathway against such characteristics, we might have had
+
+more success.
+
+Page 65 of 75
+201. | also do remember raising a concern that there was not adequate “hostile
+testing” or stress testing visible to us, and wrote a paper proposing that we
+undertook a programme of “hostile testing”. The draft document “Hostile Testing”
+dated 6/10/1999 (WITN0597_01/50, WITN05970124) refers, although sadly |
+
+have not been able to locate a completed version.
+
+Looking Back — Fitness for Purpose at Rollout
+
+202. | have been asked to look back to consider whether the Horizon IT System was
+fit for purpose at the point it was rolled out, and if not, why it was accepted and
+rolled out. Looking back, given the somewhat chequered history of the
+development of Horizon, including the problems with Assurance, the withdrawal
+of BA, the number of Acceptance Incidents, the number of late changes to Als,
+and the need for the Suspension of Rollout to get remediations completed, it would
+be hard to argue that the system or Pathway’s overall service would have
+magically become “fit for purpose” for a full national rollout and immediate switch
+
+to Business as Usual.
+
+203. However, the expectation was, | believe, that there would be extensive
+
+monitoring/handholding during the rollout and first national running.
+
+204. | do believe there was also a general view in POCL that they had to get this
+system into real live operation in a representative number of offices to really see
+how it operated, and therefore that it should commence rollout and then use the
+live operation for monitoring and to build up confidence in the system — and that
+
+they would not benefit from holding it back once known problems were fixed (even
+
+Page 66 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+if they could). | was not directly involved in the decision, which was taken at a far
+higher level, but that was my assumption. [I have been asked who | considered
+held this expectation; | cannot point to a specific individual or individuals, but |
+believe it was widely held that real experience of the system in live was needed to
+
+move the project forward.]
+
+205. From a Contractual point of view, | am not sure whether POCL could have
+prevented rollout once Pathway had completed the Al remedial actions. | have
+seen that there was some opportunity for a “veto” from POCL on specific grounds
+
+but do not know what those grounds were.
+
+206. Given the problems in 1999 from Acceptance, and throughout the project, |
+believe clearly that the system (and Pathway) had some significant way to go to
+gain confidence — to a degree in 1999 this was a classic “don’t start from here”
+situation. It is very difficult to retrofit quality to an IT system, and it would appear
+from our experience that Pathway had applied a ‘fix on fail’ approach to some
+areas (e.g. EPOSS), with many fixes being applied in 1999 to get it through
+
+Acceptance.
+
+207. This was not an ideal basis from which to move forward and it would have been
+appropriate to apply some healthy scepticism to the operation of the system over
+the first few years. | think a key question for the Inquiry to ask is what gave POCL
+such confidence in Horizon to start using it for prosecutions of Subpostmasters,
+especially after the rather chequered history of the system from 1996-2000 and in
+
+particular the experiences of 1999.
+
+Page 67 of 75
+Other Matters to Assist the Chair
+208. There are a number of other points which | would like to raise in this statement
+
+which | hope may assist the chair.
+
+209. Firstly, much was made in the litigation and by Fraser J of the issue of “remote
+access” by Fujitsu to Horizon counters. | have no recollection of this being
+discussed by Pathway during the procurement or being documented by them in
+any of the documents such as the SADD (Service Architecture Definition
+Document), the SFS (Security Functional Specification) or the TED (Technical
+Environment Description) version of which we had sight during the procurement.
+| obviously do not have access to these documents but it would be illuminating to
+know whether this access was documented and how/when it was introduced in to
+Horizon — and whether any form of change control or impact assessment was
+performed. There was also a Penetration Testing exercise undertaking by, |
+believe, PA Consulting on behalf of the Programme around 1998, and it would be
+
+useful to know whether that feature was present at that time.
+
+210. Secondly, | believe that significant changes were made to the accounting and
+reporting requirements on Horizon in the first few years of live running, including
+the removal of the Cash Account and replacement by a Branch Trading Statement
+in the early 2000s. _ | believe it would be beneficial for the Inquiry to investigate
+what changes were made and what, if any, improvements to working practices
+were introduced before these changes were implemented to avoid the quality
+
+problems that we had seen in 1998/9.
+
+Page 68 of 75
+
+WITN05970100
+WITNO05970100
+211. Thirdly, from my later experience with implementing counter automation
+systems for other Posts using the underlying Riposte product, | know the power of
+the “audit trail” provided by Riposte Message Server and what investigations can
+be performed by analysing the available data. Whilst | realize that Pathway’s
+EPOSS was a bespoke application, and | do not know in detail what data EPOSS
+stored in Riposte, | am surprised that more has not been made of the availability
+
+of this data in investigations regarding discrepancies in offices.
+
+212. From what | recollect from the procurement, the Pathway solution was
+supposed to archive detailed message data to WORM (Write Once Read Many)
+disks for longer term retention, such that data would be available should it be
+needed for investigations or legal use. This should have made the provision of
+underlying office data for analysis relatively straightforward if required. This
+archive capability should have been described in the Pathway TED (Technical
+Environment Description) document, although | do not have access that document
+
+to check.
+
+213. Fourthly, | would hope that the Inquiry will investigate why/how unexplained
+discrepancies and subsequent prosecutions occurred under two totally separate
+versions of Horizon — the original Horizon procured by the PDA as discussed in
+this statement, and the later Horizon HNG-X which had a totally different online
+architecture and was introduced around 2009. HNG-X was, | believe, a complete
+
+bottom-up redevelopment at the front end (counter) at least.
+
+Page 69 of 75
+
+WITN05970100
+WITNO05970100
+WITN05970100
+WITNO05970100
+
+Statement of Truth
+
+| believe the content of this statement to be true
+
+Signed
+
+Dated 7 September 2022
+
+Page 70 of 75
+Index to First Witness Statement of Jeremy Peter Folkes
+
+— Meeting Report #7”
+
+No | Exhibit Number Document Description URN
+
+01 > WITNO597_01/01 “Objectives of the WITNO5970101
+Demonstrator Stream”
+
+02 ~=WITNO597_01/02 “POCL Infrastructure Demo | WITN05970102
+Strand — Summary of
+Demonstrator Activity”
+
+03 =WITN0597_01/03 “Supplier Score in Respect | POL00031154
+of Value Factors"
+
+04 = WITNO597_01/04 “Final Evaluation & POL00028152
+Selection: Final Team
+Report”
+
+05 = WITNO597_01/05 POCL Infrastructure Demo | WITNO5970140
+— Introductory Meeting
+
+06 ~=WITNO597_01/06 “POCL Infrastructure Demo | WITN05970106
+— Meeting Report #1”
+
+07 | WITNO597_01/07 “POCL Infrastructure Demo | WITNO5970107
+— Meeting Report #2”
+
+08 WITNO597_01/08 “POCL Infrastructure Demo | WITN05970108
+— Meeting Report #3”
+
+09 = WITNO597_01/09 “POCL Infrastructure Demo | WITN05970141
+— Meeting Report #4”
+
+10 | WITNO597_01/10 “POCL Infrastructure Demo | WITN05970109
+— Meeting Report #5”
+
+1 WITNO597_01/11 “POCL Infrastructure Demo | WITN05970139
+
+Page 71 of 75
+
+WITN05970100
+WITNO05970100
+12
+
+WITNO597_01/12
+
+“POCL Infrastructure/End-
+to-End Demo — Meeting
+Report - Escher Site Visit”
+
+WITNO5970142
+
+13
+
+WITNO597_01/13
+
+“Note re splitting Pathway
+Risk re EPOSS”
+
+WITN05970110
+
+4
+
+WITNO597_01/14
+
+“Risk Register Analysis” —
+Alan Fowler
+
+POL00028150
+
+15
+
+WITNO0597_01/15
+
+“Pathway Risk Response
+for PWY064”
+
+FUJ00078025
+
+16
+
+WITNO597_01/16
+
+“Pathway Risk Response
+for PWY066”
+
+FUJ00078026
+
+17
+
+WITNO597_01/17
+
+“Escher Dependency — An
+Analysis”
+
+WITNO5970117
+
+18
+
+WITN0597_01/18
+
+“Pathway Risk
+
+Processes/Top Ten Risks :
+
+Status 8.9.95”
+
+FUJ00078000
+
+19
+
+WITNO597_01/19
+
+Fax from Bob King re
+Strategic Compliance and
+TIP interface
+
+POL00031277
+
+20
+
+WITNO0597_01/20
+
+“Terms of Reference —
+Technical Assurance
+Forum (DRAFT)”
+
+WITN05970138
+
+21
+
+WITNOS97_01/21
+
+“Technical Assurance
+Forum — Meeting 2 —
+Integrity (1)”
+
+WITN05970129
+
+22
+
+WITNO597_01/22
+
+“The Level of Information
+Needed for Technical
+Assurance”
+
+WITN05970113
+
+Page 72 of 75
+
+WITN05970100
+WITNO05970100
+23 WITNO0597_01/23 “Assuring Integrity, WITNO5970116
+Accuracy and Robustness
+of the Service”
+
+24 ~~ WITNO597_01/24 “The Route to Acceptance | WITN05970115
+Through Assurance and
+Testing”
+
+25 | WITNO597_01/25 “Product Assurance — A WITNO5970118
+Re-Think”
+
+26 | WITNO597_01/26 “PDA Quality Review FUJ00078984
+Comment Sheet for POCL
+Infrastructure Acceptance
+Specifications” - Jeremy
+Folkes comments 3/6/97.
+
+27 | WITNO597_01/27 “Fortnightly Report — period | WITN05970143
+to 19/01/98”
+
+28 ~WITNO597_01/28 “Programme Review — WITNO5970114
+Brainstorm on
+Suggestions”
+
+29 ~=WITNO0597_01/29 “Acceptance at Release WITN05970119
+Authorisation”
+
+Original copy of
+POL00028503
+
+30 = WITNO0597_01/30 “Acceptance Board POL00028367
+Minutes”
+
+31 WITNO597_01/31 “Briefing on the New WITN05970136
+Horizon Contract”
+
+32 =| WITNO597_01/32 “Independent Consultant POL00038828
+
+Review of BA/POCL
+Programme - Bird and
+Bird/Project Mentors
+Report”
+
+Page 73 of 75
+
+WITN05970100
+WITNO05970100
+33 WITN0597_01/33 “Notes from reading the WITNO5970121
+Bird & Bird/Project Mentors
+Report”
+
+34 = WITNO597_01/34 “Potential exposures from | WITN05970127
+removal of DSS
+requirements/new contract”
+
+35 | WITN0597_01/35 “Project Emerald - Option C | WITN05970146
+- Considerations Around
+Future Use of Aspects of
+ICL Pathway Solution”
+
+36 | WITNO597_01/36 “Live Trial Stressing — A WITN05970147
+Discussion Paper”
+
+37 | WITNO597_01/37 Pack of Als from 1999 POL00028357
+
+38 = WITNO597_01/38 “Al298 — System Stability” | WITN05970120
+
+39 | WITNO597_01/39 Acceptance Incident POL00028478
+Workshop Pack 25 and 26"
+August 1999
+
+40 WITNO597_01/40 “Incident 298 (System WITNO5970125
+Stability)”
+
+41 | WITNO597_01/41 “Comments on 2/9/99 WITN0O5970145
+Rectification Plan for
+Al298”
+
+42 | WITN0597_01/42 “Acceptance Headlines - WITN05970130
+input to HMT 20/10/99”
+
+43 | WITNO597_01/43 “Al298 — Approaches to WITN05970133
+
+restoring stability and
+integrity”
+
+Page 74 of 75
+
+WITN05970100
+WITNO05970100
+44
+
+WITNO0597_01/44
+
+“Acceptance Workshop —
+ICL Pathway Action
+Record”
+
+FUJ00079174
+
+45
+
+WITNO597_01/45
+
+Rollout Decision Demand
+Position Paper
+
+POL00028551
+
+46
+
+WITNO597_01/46
+
+“Contingency Options for
+Non-Availability of EPOSS
+Feed to TIP”
+
+WITN05970122
+
+a7
+
+WITNO597_01/47
+
+“ICL Pathway Progress
+Summary for Input to
+Horizon/Pathway Delivery
+Meeting 27" October 1999”
+
+FUJ00079184
+
+48
+
+WITNO597_01/48
+
+“A Reflection on the Past
+Five Years: Lessons,
+Issues and Key Points”
+
+WITN05970123
+
+49
+
+WITNO0597_01/49
+
+ICL Pathway Submission to
+Trade and Industry Select
+Committee, June 1999
+(from parliament.uk
+website)
+
+WITNO5970144
+
+50
+
+WITNO0597_01/50
+
+“Hostile Testing — A
+Discussion Paper”
+
+WITN05970124
+
+Page 75 of 75
+
+WITN05970100
+WITNO05970100

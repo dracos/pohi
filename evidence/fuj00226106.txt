@@ -1,82 +1,74 @@
-                                                                                                                                                                       FUJO0226106
-                                                                                                                                                                     FUJO0226106
+FUJ00226106
 
+FUJ00226106
+From: Barnes Gerald[/O=EXCHANGE/OU=ADMINGROUP1/CN=RECIPIENTS/CN=BARNESG]
 
+Sent: Tue 16/04/2013 9:05:41 AM (UTC)
 
+To: Dunks Andyi “GRO,
 
-From:                            Barnes Gerald[/O=EXCHANGE/OU=ADMINGROUPI/CN=RECIPIENTS/CN=BARNESG]
-Sent:                            Tue 16/04/2013 9:05:41 AM (UTC)
-To:                              Dunks Andy ._._.-._._.-._._.-._._._._._._._.-._._._._._._._._._._._._._
-                                                                  GRO                            CSPOA Security                             GRO
-                                                                                                                       .-._._._._._.-._._.-._._.-._._._._._._._.-.-.-.-.-.-.-.-.-.-.-.-....
-                                                                             Ro_. . . . . .
-Cc:                              Bains Rajbinder ._._._._._._._._._._._._._._.                    ._._._._._._._.
-                                                                                                             ; Goddard. Steve .---- ----------------------
-                                                                                              _Spurgeon Adam[ _ _ _ -•-- -_c_Ro
-                                 SDI _._._._._._._._._._._._.cRo._._._._._._._._._._._._._._._._t                                         -                --
-                                 Holmes Alan;                          GRO
-Subject:                         RE: Possibility of missing transactions
+Ce: Bail
 
- Hi Andy,
+Subject: RE: Possibility of missing transactions
 
-             I will come down in a few minutes.
+Hi Andy,
+| will come down in a few minutes.
 
- Regards,
-         Gerald Barnes
+Regards,
+Gerald Barnes
 
- From: Dunks Andy
- Sent: 16 April 2013 08:51
- To: Barnes Gerald; CSPOA Security
- Cc: Bains Rajbinder; Goddard Steve SD; Spurgeon Adam; Holmes Alan
- Subject: RE: Possibility of missing transactions
+From: Dunks Andy
 
- Gerald,
- Can you confirm that we are talking about as far back as Sept 2009 ?
+Sent: 16 April 2013 08:51
 
- Are you able to pop down and explain and show us what we are to look for, as we will need to put together some time
- scales to complete this task.
+To: Barnes Gerald; CSPOA Security
 
- Thanks
+Cc: Bains Rajbinder; Goddard Steve SD; Spurgeon Adam; Holmes Alan
+Subject: RE: Possibility of missing transactions
 
- Andy Dunks
- Security Operations Post Office Account
+Gerald,
+Can you confirm that we are talking about as far back as Sept 2009 ?
 
- Fujitsu
- LovelaceRoad,Bracknell, Berkshire, RG 12 8SN
- Tel: ._._._ GRO
- Web: hat : Lyk.fuiitsu.com
+Are you able to pop down and explain and show us what we are to look for, as we will need to put together some time
+scales to complete this task.
 
+Thanks
 
-        Please consider the environment - do you really need to print this email?
+Andy Dunks
+Security Operations Post Office Account
 
+Fujitsu
 
+Love Berkshire, RG12 8SN
 
- From: Barnes Gerald
- Sent: 15 April 2013 17:41
- To: CSPOA Security
- Cc: Bains Rajbinder; Dunks Andy; Goddard Steve SD; Spurgeon Adam; Holmes Alan
- Subject: Possibility of missing transactions
+Email: andy.dunk:
+Web: http://ukfujits
 
- Hi,
+= Please consider the environment - do you really need to print this email?
 
-           A serious flaw has recently been spotted in the audit code. It was introduced in the fix to PCO187097 quite
- some time ago (but post HNGx). There is a small possibility of missing transactions on generated spreadsheets if the
- query handling was run during the evening Query Manager shutdown. Please raise an A priority PEAK on this issue
- and send it to Audit-Dev. In the meantime for any ARQ run which results in transaction spreadsheets examine the
- QueryHandler.log in its ARQ folder and check for the line "Shutdown Signalled - Process terminating" and if it occurs
- rerun the query. You may consider it necessary to check previous ARQs run. If you do you can check the RFI close log
- for the line "Shutdown Signalled - Process terminating" and if it occurs rerun the query as a precaution. I believe you
- keep copies of the close logs but if you do not they are always themselves archived on the audit system and can be
-                                                                                     FUJO0226106
-                                                                                   FUJ00226106
+From: Barnes Gerald
 
+Sent: 15 April 2013 17:41
 
+To: CSPOA Security
 
+Cc: Bains Rajbinder; Dunks Andy; Goddard Steve SD; Spurgeon Adam; Holmes Alan
+Subject: Possibility of missing transactions
 
+Hi,
+
+A serious flaw has recently been spotted in the audit code. It was introduced in the fix to PC0187097 quite
+some time ago (but post HNGx). There is a small possibility of missing transactions on generated spreadsheets if the
+query handling was run during the evening Query Manager shutdown. Please raise an A priority PEAK on this issue
+and send it to Audit-Dev. In the meantime for any ARQ run which results in transaction spreadsheets examine the
+QueryHandler.log in its ARQ folder and check for the line “Shutdown Signalled - Process terminating” and if it occurs
+rerun the query. You may consider it necessary to check previous ARQs run. If you do you can check the RFI close log
+for the line “Shutdown Signalled - Process terminating” and if it occurs rerun the query as a precaution. | believe you
+keep copies of the close logs but if you do not they are always themselves archived on the audit system and can be
 retrieved.
 
 Regards,
-        Gerald Barnes
+Gerald Barnes
 
 Gerald Barnes
 Senior Software Engineer
@@ -84,20 +76,18 @@ Business & Application Services
 
 Fujitsu
 Lovelace Road, Bracknell, Berks, RG12 8SN
-Tel: ._._._;_..._c.o          or InternallyL,      ,.   9,   ,_
+or Internallyi
 
+Email: Gerald. Barnesq_
+Web: http://uk. fujitsu.
 
+m
 
-Email: Gerald.Barnes,         GRO
-                   ~._._._._._._._._._._._._._.;
-Web: http'//uk.fuiitsu.com
+| f@ yin:
 
+Fujitsu is proud to partner with Shelter, the housing and homeless charity
 
+= Please consider the environment - do you really need to print this email?
 
-
-Fujitsu is proud to partner with Smelter, the housing and homeless charity
-
-Reshaping ICT, Reshaping Business in partnership with Fl .com
-
-       Please consider the environment - do you really need to print this email?
-
+FUJ00226106
+FUJ00226106

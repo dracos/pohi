@@ -1,0 +1,702 @@
+WITN04810100
+WITN04810100
+
+Witness Name: Mark Joseph Jarosz
+Statement No.: WITN0481_01
+
+Exhibits: WITN0481_01/1 — WITN0481_01/6
+Dated: 9 August 2022
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF MARK JOSEPH JAROSZ
+
+|, MR MARK JOSEPH JAROSZ, will say as follows:
+
+INTRODUCTION
+
+1. | am currently a Lead Domain Architect at Fujitsu Services Limited (“Fujitsu”), a
+position that | have held since August 2017. | am not involved in the Horizon project
+at present, and have had no involvement in it since 2012.
+
+2. This witness statement is made on behaif of Fujitsu to assist the Post Office Horizon
+IT Inquiry with the matters set out in the Rule 9 Request provided to Fujitsu on 11
+March 2022 and a series of follow-up questions provided to me by the Inquiry on 1
+July 2022 (the “Request’). It is based on my direct knowledge of relevant matters.
+
+3. The topics set out in the Inquiry’s Request that | am able to respond to relate to events
+that took place a long time ago, and more than 22 years ago in many cases. | have
+addressed, in particular, my involvement in the design and development of the
+network aspects of the Legacy Horizon system in the period prior to the national
+
+rollout, as well as my role as a security architect on Horizon Online in the period 2010
+
+Page 1 of 22
+WITN04810100
+WITN04810100
+
+to 2012. | have tried to remember these events as best | can, but have not always
+been able to do so.
+
+4. Where | have seen documents relevant to the Inquiry’s Request for the purpose of
+preparing this statement or where | have referred to documents, these documents
+are referred to using references WITN0481_01/1 — WITN0481_01/6 and are listed in
+the index accompanying this statement. To the extent that these documents have not
+already been provided to the Inquiry, they are exhibited to this statement.
+
+BACKGROUND
+
+5. | joined the ICL group in January 1983 and eventually became employed by ICL
+Pathway Limited (“ICL Pathway’). Prior to that, | worked for a customer of ICL
+Pathway as a computer programmer for four years. | joined the ICL group as a
+customer support executive for a range of computers that ICL Pathway sold at the
+time, though ended up learning about networks from a more experienced colleague
+on one of the projects that | was working on.
+
+6. In most IT systems, there is typically a need for a network solution to provide
+connectivity between computer systems (servers / workstations) and appliances
+within and across multiple locations. In the network context, performance modelling
+predicts a range of network measures informing the selection of components and
+technology to meet the IT system’s required service levels.
+
+7. My involvement in the Horizon project began in around 1995, and | remained involved
+until around 2012. My roles during this period were:
+
+a. 1995 — 1996: Sizing & Performance Consultant
+
+b. 1996 — 2010: Solution Architect — Networking
+
+Page 2 of 22
+WITN04810100
+WITN04810100
+
+c. 2010 — 2012: Solution Architect — Security
+
+8. | reviewed a slide deck titled ‘HNG-X Network Architecture’ dated 23 March 2007
+(WITN0481_ 01/1) that | prepared in order to refresh my memory about my roles on
+the Horizon project.
+
+9. For the entire period that | worked on the Horizon project, | was involved in the
+network aspects of the Horizon system, including those applications that directly
+utilised the network, with my role changing to mainly cover security from 2010 to 2012.
+This statement is given on that basis.
+
+THE BID FOR THE HORIZON PROJECT
+
+10.As | stated above, my involvement with the Horizon project began in around 1995,
+around the time the project team was bidding for the project. At the time, people with
+my background were generally made available to projects on assignment. Once my
+work completed on a project, my team lead or | would find another assignment for
+me. | was in the final few weeks of my role on my previous project, and | heard that
+some colleagues in the same team were starting work on a bid for the Post Office
+and they needed someone who could do performance modelling.
+
+11.1 went to ICL Pathway’s office in Feltham to meet with the Horizon bid team. My
+recollection is that the team was Liam Foley, Tony Oppenheim, Dave Cooke, Dave
+Hollingsworth, and Tony Hayward. Liam Foley was the Sales Director and he
+managed the team. Tony Oppenheim dealt with the commercials. Dave Hollingsworth
+was the Chief Architect. | recall that he, Dave Cooke and Tony Hayward were the
+
+main people working on the bid documentation.
+
+Page 3 of 22
+WITN04810100
+WITN04810100
+
+12.When | joined the project, a number of decisions on the Horizon project's networking
+solution had already been made. | was not involved in these decisions.
+
+a. First, it had been decided that the network supporting Horizon would run on
+ISDN. ISDN is a form of “dial-on-demand” technology. With a “dial on demand”
+network, a connection is established only when needed. if the Data Centre
+Router tries to send out data destined for a branch and the connection is off,
+then the router will automatically establish (hence dial) a connection, send the
+information, and close the connection when no more data is flowing (an “idle
+timeout’). Similarly, an appropriate Horizon counter in a branch (specifically,
+the ISDN card in that counter) will behave in a similar manner in terms of
+sending traffic. The key advantage of ISDN was its cost effectiveness. The
+alternative, at the time, was to use “always-on” leased lines, which could cost
+several thousand pounds a year each.
+
+b. Second, it had been decided that a messaging product called Riposte, which
+had been developed by the Escher Group (“Escher”) would be used. A
+messaging product ensures that information is synchronised across an IT
+system. In Horizon’s case, Riposte carried messages both between Horizon
+branch counters in the same branch (for instance, about transactions) and
+between the branch counters and the central data centres in Wigan and
+
+Bootle.
+
+Page 4 of 22
+WITN04810100
+WITN04810100
+
+13.In my first few weeks on the Horizon project, | formed a number of views about the
+decisions that had been made prior to me joining the Horizon project:
+
+a. Afundamental aspect of ISDN technology is that it relies on phone calls as the
+means of transferring data between the branch and the data centre. This
+means there could be a risk of too many phone calls occurring at once, causing
+an overload. However, since most Post Office branch counter transactions
+were Offline (in the sense that they did not require network connectivity to the
+data centre at the time of being carried out), there would be significantly
+reduced call volumes and, therefore, lower risk with an ISDN solution.
+
+b. The ISDN service was not universal, therefore an alternative network solution
+was needed for Post Office branches that could not get ISDN service (e.g. in
+rural areas).
+
+c. Comprehensive capacity modelling, which entails analysis of the volume of
+use that the network may receive (for example, in terms of the number of ISDN
+calls that might be made, the duration of calls, or the number of concurrent
+calls), was needed to specify solution components for ISDN call handing to
+support business volumes and to validate whether ISDN provided sufficient
+bandwidth for the busiest branches to synchronise transactions. This formed
+part of my role as a sizing and performance consultant, as | explain at
+paragraph 15 below.
+
+14.Liam Foley generally managed the relationship with Escher. Early in my involvement
+
+with the bid, he and | went to a meeting near Gatwick airport to meet Michael Murphy,
+
+Page 5 of 22
+WITN04810100
+WITN04810100
+
+the President of Escher at the time. This was really an interview for Escher to decide
+if they were happy to work with me on the network performance modelling.
+
+15.1 was brought onto the bid team as a Sizing and Performance Consultant. Dave
+Hollingsworth was the Chief Architect of the solution at the time, and | effectively
+reported into him. The role of a Sizing and Performance Consultant is to do the
+following:
+
+a. Analyse business volumes to determine the capacity and performance
+requirements that IT services and infrastructure needed to meet (in my case
+this was in relation to the network aspects of Horizon)
+
+b. Create models that predict the performance and capacity of the operational
+service based on the proposed solution design and the requirements the
+solution needed to meet, which enables those involved in solution design to
+test their designs.
+
+c. Influence solution component selection and the quantity of equipment required
+based on the results of modelling, so as to ensure that the predicted
+performance and capacity of the solution meets the defined targets.
+
+16. My initial role was to work with Escher to do performance modelling on Riposte. At
+the time of the bid, we expected the Horizon solution would be in about 20,000
+branches, with an average of two counters per branch, ranging from one counter to
+25 counters per branch. All branches had to connect to the Riposte Servers in the
+data centres to replicate messages. The performance modelling | carried out included
+working out the number of ISDN circuits each data centre required to operate Riposte
+
+effectively. | have reviewed certain documents identified by the Inquiry with URNs
+
+Page 6 of 22
+WITN04810100
+WITN04810100
+
+FUJ00077839, FUJ00077838, FUJ00077942, FUJ00077850, FUJ00077848 and
+FUJ00058148, however these did not substantively assist me in improving my
+recollections of this period.
+
+17.From my perspective, ICL Pathway had a good and productive working relationship
+with Escher. We had regular face-to-face meetings with key Escher staff such as
+Michael Murphy (Escher’s Chief Executive Officer) and Andrew Sutherland (Escher’s
+Chief Architect). However, | note that | did not attend all the meetings with Escher,
+only those that concerned Riposte and that were relevant to my performance
+modelling work.
+
+18.At this initial stage, | did have some concerns about whether the Riposte messaging
+solution would effectively scale to approximately 20,000 branches, as it had not been
+proven to work at that scale before. This was not a concern that was unique to me,
+but was a known issue that was actively discussed within the bid team and with
+Escher.
+
+19.Managing the issue of scaling Riposte was not within my area of responsibility.
+However, | do recall, from my general involvement on the architecture team, that this
+concern was eventually addressed in the deployment phase (during and prior to the
+pilots and rollout of Horizon). Alan Ward, who was the Chief Architect, decided to
+divide the Post Office branch estate into four equal parts (each having a similar
+number of branches), with the Gateway counters in each part connected to their own
+set of Riposte correspondence servers at the data centre. Each of the four parts was
+known as a “Riposte cluster”. This splitting of the Post Office estate therefore
+
+addressed the scaling concerns with Riposte. My recollection is that it was decided
+
+Page 7 of 22
+WITN04810100
+WITN04810100
+
+that four clusters was suitable, following testing at ICL Pathway’s offices in Bracknell.
+A performance test rig, known as the Riposte Counter Simulator and which simulated
+traffic from the estate, was used.
+
+20.My role subsequently started to evolve on the project. Instead of just performance
+modelling, | worked on making sure the network solution we intended to put forward
+in the bid was actually viable, in the context of meeting performance and capacity
+requirements (which | had conducted analysis in relation to as explained at paragraph
+15(a) above). As | explain in greater detail at paragraphs 20(a) and 20(b) below,
+instead of only focusing on performance modelling, this entailed also working with
+vendors and network designers towards the objective of designing a solution that
+delivered the required performance measures. This work was necessary to
+demonstrate that the proposed network solution could meet capacity and
+performance requirements, and that it was capable of delivery and being supported.
+In my experience, it was standard for work of this nature to be conducted on large
+scale and bespoke IT project. This work was not carried out because of concerns that
+the network solution would not be viable. This work involved:
+
+a. Working with vendors supplying the network components such as Cisco,
+Eicon Technology, BT, and Energis.
+
+b. Understanding the protocols and communication patterns for applications
+communicating over the network. The main two applications (that is customers
+for the network) during this period were the Riposte Message Server and
+Tivoli. | have explained the role of Riposte above. Tivoli was an IBM product
+
+used to provide systems management for the overall solution. In the context
+
+Page 8 of 22
+WITN04810100
+WITN04810100
+
+of branch networking, Tivoli carried out the following operations on branch
+
+counters: software distribution, collection of events / logs and script execution.
+
+21.Prior to me joining the bid team, the approach to how Riposte would be used on
+Horizon had also been decided and this operated as follows:
+
+a. There would be a Riposte message server on every Horizon counter. The
+Riposte message server participates in replication and stores messages
+locally in a message store.
+
+b. In most Post Office branches, there were multiple Horizon counters. If a
+Riposte message was created on one counter (for instance, because a
+transaction had occurred on that counter), that message was forwarded to
+every other counter in the branch. Sometimes, a counter would forward a
+message but not every other counter might receive it. The counters exchanged
+“markers” every five or ten seconds. Those markers enabled the counters to
+detect if another counter has a message on it that it did not have, triggering
+the relevant message to be resent. In Riposte’s terminology, the counters
+within a single branch were known as “permanent neighbours”.
+
+c. Ina single counter branch, there were two Riposte message servers built into
+a single Horizon counter. One Riposte message server would write its
+messages to a permanent hard disk, and the other to a removable hard disk.
+While | mention this feature here, it was not a part of the design at the time of
+the bid. This was a later change to the solution (post bid) to address the
+potential issue of a workstation failure resulting in the potential loss of
+
+messages in the event that the Riposte message store on that workstation
+
+Page 9 of 22
+WITN04810100
+WITN04810100
+
+contained messages that had not been replicated elsewhere. We referred to
+this as a single point of failure problem. | note that this solution was not
+developed in response to an incident at a branch, but rather was identified as
+a potential issue that needed to be accounted for.
+
+. The purpose of this approach was to build resilience. By replicating messages,
+the system created multiple copies of a message on each message store. In
+other words, even if one counter was down, all other counters would “know”
+the messages on the counter that was not functioning.
+
+. One of the counters in every branch would be a “gateway node”. This was the
+only counter configured to interact with the central Riposte message servers
+located in the data centres. The “gateway node” would transfer messages to a
+server in the data centre. The “gateway node” was fitted with an ISDN network
+card. This enabled it to access the ISDN network and call the data centre. The
+card and the software drivers required for it to operate on the Horizon counter
+were made and developed by a German company called Eicon. The “gateway
+node” and the data centre were known as “non-permanent neighbours”.
+Within the “gateway node”, there was a parameter called an unconnected
+broadcast interval. This was set to 15 minutes. Every 15 minutes, the “gateway
+node” would compare its current “marker” with what it last received from the
+data centre server. If its marker was different from the last one received from
+the data centre server, it would then try and connect to the server. In other
+words, the “gateway node” would determine if it was out of sync with the data
+
+centre server and then try to synchronise itself. Additionally, any priority
+
+Page 10 of 22
+WITN04810100
+WITN04810100
+
+message created in the branch would result in an attempt to forward the
+message to all message servers in the specified group, including message
+servers which must be reached via non-permanent connections (such as the
+data centre’s servers). Priority messages provided a mechanism for enabling
+online transactions (this would include, for example, foreign benefit payments).
+The sending of priority messages is immediate to all neighbours, including
+unconnected non-permanent neighbours, and ahead of replication traffic. This
+enables counter applications and data centre applications to exchange
+sequences of messages comprising an online transaction. This would also
+result in an attempt at synchronisation of the gateway message store.
+
+g. The same mechanisms (unconnected broadcast interval and_ priority
+messages) mentioned above enabled the option to push information down
+from the data centre to individual branches. This functionality was required to
+disseminate information available centrally at the data centre but not held at a
+branch. For example, this functionality supported foreign benefit encashments
+(where the relevant branch would not hold any data locally about the person
+claiming the benefit) and enabled reference date distribution (e.g. an update
+to stamp prices).
+
+22.1 did not have any concerns about the use of Riposte in this manner.
+
+23.|n order to recollect how Riposte operated (as described above), | reviewed a draft
+Horizon Architecture Overview dated 16 June 2006 (WITN0481_01/2) and extracts
+of various Riposte AP] documentation that was included in software releases of
+
+Riposte from Escher over the period of my involvement in Horizon (specifically (i) a
+
+Page 11 of 22
+WITN04810100
+WITN04810100
+
+“RiposteCreateMessageEx” function summary (WITN0481_01/3), (ii) a
+“RiposteDefineNode” function summary (WITN0481_ 01/4), (iif) a
+“RiposteCreatePriorityMessage” function summary (WITN0481_01/5), and (iv) a
+“ConfigUnconnectedBroadcastinterval” function summary (WITN0481_01/6)).
+
+24.\n order for this design to function on the Horizon system, Escher needed to develop
+new software for use on Riposte.
+
+a. At the time, Riposte had only been deployed on “always-on” networks, like the
+ANPOST one in Ireland. To support the use of the ISDN network, it was
+necessary for the message server on the “gateway node” to stop
+communicating for periods, allowing the ISDN line to go idle. It was also
+necessary to provide a mechanism for restarting communication either to
+support priority messages or to periodically synchronise message stores with
+the servers at the central data centre. Escher needed to develop the software
+to support “non-permanent neighbours” on Riposte. My recollection is that it
+took about four weeks for Escher to develop the software required. | do not
+recall when the need for the software was noticed but | do recall it had been
+discussed for several months before it was developed.
+
+b. Escher also needed to develop a binary message store (implemented as one
+or more disk files) to support the much higher message rates that were
+expected on Horizon compared to ANPOST. The message store used
+previously in the ANPOST system was a text file.
+
+25.Eicon also needed to develop new software to support the ISDN aspects of the
+
+solution. My recollection is that these developments took about six months and the
+
+Page 12 of 22
+WITN04810100
+WITN04810100
+
+need for them was noticed during the bid preparation stage. The specific
+developments required were:
+
+a. The development of a new “dial on demand” driver. The Horizon counters
+operated on Windows NT4, which required a desktop icon to be manually
+clicked for dial-up to the ISDN network to occur. In contrast, with the “dial-on-
+demand” driver, if the gateway counter tries to send out data destined for the
+data centres and the ISDN connection is off, the driver will automatically
+establish a connection, send the information, and close the connection when
+no more data is flowing (triggering an idle timeout).
+
+b, The development of a configurable dial plan that would enable the “gateway”
+Horizon counter to call multiple numbers in sequence to connect to the data
+centre, in case of the failure of a line at the data centre.
+
+c. The development of a system for logging all ISDN calls, which would provide
+development and support staff a full record of all ISDN call attempts, whether
+they succeeded, and their duration.
+
+26.As part of the bid process, | also had to undertake work to determine whether the
+ISDN network solution we were proposing was sufficient to support Riposte. This
+work was for a similar purpose as that described at paragraph 18 above and entailed
+the following:
+
+a. | prepared a network sizing model. Post Office provided the workload
+definition for the model. This meant providing us with data on counter
+transactions per unit of time, by branch size. From Escher, we also got some
+
+estimates, based on live data from ANPOST, as to how many messages were
+
+Page 13 of 22
+WITN04810100
+WITN04810100
+
+exchanged on the Riposte system there and their sizes. This allowed the
+model to predict the likely duration of ISDN calls, the number of ISDN lines the
+data centres would require, and also predict that a single 64 kilobits per second
+ISDN line was sufficient bandwidth for branches of all sizes. This provided
+reassurance that the peak hour utilisation of the ISDN lines would be within
+the thresholds being proposed by the bid team.
+
+b. | spent some time speaking to staff at BT to determine how reliable ISDN calls
+were, though | do not recall the individuals that | spoke to.
+
+c. We also had to ensure we had the right technology in place at the data centres
+so that ISDN calls were answered and terminated successfully. Eicon’s initial
+solutions involved putting ISDN primary rate cards in the data centre servers.
+| suggested using an alternative CISCO technology. The Eicon solution was
+very bespoke, whereas the CISCO one was an industry standard which would
+be scalable and supportable.
+
+27.As a result of this work, the bid team internally convinced ourselves that the ISDN
+solution was sufficient.
+
+Bid documentation
+
+28.1 did not directly work on any bid documentation. | provided input on the proposed
+networking solution to Dave Hollingsworth and he included it in the bid documentation
+as he thought appropriate. | am aware that in the bid documentation there were
+
+sections about the use of ISDN in the solution.
+
+Page 14 of 22
+WITN04810100
+WITN04810100
+
+THE INITIAL GO LIVE PILOT
+
+29.1 recall the initial go live pilot scheme started in Stroud with about ten branches. | do
+not recall the date this started or the functions that were trialled, save for those that
+fell within my area of responsibility (and for which | provide more detail on at
+paragraphs 30 to 32 below).
+
+30.During this pilot, the network infrastructure to support the pilot (such as compact
+servers, network switches and ISDN routers) was deployed at ICL Pathway’s facility
+in Feltham.
+
+31.Riposte messaging did occur over an ISDN network during this pilot. However, the
+Horizon counters at the branches were always permanently connected to the ISDN
+network. This was because Escher had not yet developed the “non-permanent
+neighbour” functionality. Escher was only able to develop either the binary message
+store or the “non-permanent neighbour” functionality by the time of this pilot, and they
+were asked to prioritise the “binary message store” development (though | was not
+involved in making that decision). This was a limitation in the pilot, as Riposte
+communication was occurring over permanent ISDN calls, which was different from
+the target solution where intermittent ISDN calls would be used to establish
+communication between branches and the date centre. However, this was a limitation
+that was expected.
+
+32.1 do not recollect any specific problems, whether in my area of expertise or otherwise,
+
+that arose during this pilot.
+
+Page 15 of 22
+WITN04810100
+WITN04810100
+
+THE 200 —- 300 BRANCH PILOTS
+
+33.When the project moved into the next phase of pilots, we deployed the “non-
+permanent neighbours” technology.
+
+34.1 do not recall the date this pilot started or the functions that were trialled outside my
+area of expertise. | do not recall any problems occurring, whether in my area of
+expertise or otherwise, during this pilot.
+
+THE PILOT AND ROLLOUT OF NEW RELEASE 2
+
+35.My involvement during the period of the New Release 2 pilot (‘NR2 pilot”) was in
+scaling the network solution so we could achieve rollout. | do not recall the date on
+which this pilot started or the functions that were trialled outside my area of expertise.
+
+36.Alan Ward became the Chief Architect for the solution around that time and Terry
+Austin became Programme Director. They scaled up the team to prepare for the
+national rollout. | recall a number of people joined my team, including James
+Stinchcombe and Ben Thornton.
+
+37.1 recall reporting into Alan Ward, Richard Long (who led Applications) and lan Honor
+around the time of the NR2 pilot. | do not recall lan’s role.
+
+38. During the pilot, we observed a number of issues as we worked towards scaling the
+Horizon solution:
+
+a. We became concerned about how we were going to back up all the message
+stores in the data centre, given the volume of messages, and decided to move
+to EMC external storage. Rather than servers having their own data storage,
+we connected large storage arrays to the servers. | recall that one of the
+
+reasons external storage was selected was because EMC, the vendor which
+
+Page 16 of 22
+WITN04810100
+WITN04810100
+
+provided the storage, provided a backup/recover solution. However, there may
+have been other reasons as well.
+
+b. There was a recognition, as was contemplated during the bid stage, that
+although ISDN was the preferred network solution, ISDN was not available
+everywhere across the Post Office estate. ISDN had been selected as the
+preferred network as, in the case of most branches, it would meet Post Office’s
+requirements at the lowest cost. It was cheaper than the alternatives available
+at the time (which included BT kilo-stream leased lines and the use of the “very
+small aperture terminal” (‘VSAT”)) but was predicted to be available and
+sufficiently reliable at most branches.’ | recall that there were about 140
+branches where we could not use ISDN as the branches were very remote. In
+those cases, as ISDN was not available, we used VSAT as an alternate means
+of connection. VSAT is, effectively, a satellite connection and, as with any
+network solution, its reliability depends on the context in which it is deployed.
+For instance, VSAT reliability can be affected by inclement weather.
+
+c. We had concerns around how many outbound calls were made from the data
+centre by Tivoli, which caused Tivoli to overload the network. Tivoli provided a
+solution for software distribution and remote command execution — effectively
+an orchestration system. As part of its system management functions, Tivoli
+needed to communicate with branches. Sometimes, if Tivoli was required to
+carry out a software distribution to all Post Office branches, it would attempt to
+make concurrent ISDN calls to every branch in the estate. This exceeded the
+
+1 While | recall that ISDN was generally cheaper than VSAT or leased lines, | am not abie to particularise
+the specific cost differences between the networks at the time of the Horizon bid.
+
+Page 17 of 22
+WITN04810100
+WITN04810100
+
+concurrent call capacity of the ISDN network. Post Office did not require
+software updates to be delivered simultaneously to all branches and so we
+developed approaches to configure and control Tivoli. We would schedule
+Tivoli to run over a number of days or limit the number of branches that would
+receive an update at once.
+
+39.1 recall that there was testing in relation to the network solution during this period at
+ICL Pathway’s Feltham offices, but | do not recall any details about it.
+
+40.Beyond the points above, | do not recall the issues that arose during the NR2 pilot.
+However, | believe they were very typical of large scale IT projects of the time. | do
+not recall any particular issues that contributed to the delay of the NR2 pilot or the
+rollout of the Horizon system.
+
+HORIZON ONLINE
+
+41.1 had an ongoing role providing support on various network issues that arose on the
+Horizon project until around 2010. In 2010, my role changed to “Solution Architect —
+Security”, and | focused less on networks and more on the security aspects of the
+solution.
+
+42. As a Security Architect, | recall | primarily supported the Security team (which included
+Howard Pritchard and Donna Munro) on Payment Card Industry (“PCI”) audits. | am
+and was not an expert on PCI standards. However, my recollection is that these were
+independent audits of Post Office’s payment systems that were required by payment
+providers (for example, Visa or Mastercard). My role was to support the audit,
+
+including by providing material to the third party auditor about the Horizon system’s
+
+Page 18 of 22
+WITN04810100
+WITN04810100
+
+security processes. These audits did not directly relate to the design, piloting or rollout
+of Horizon Online.
+
+43.Prior to 2010 and my role as a Security Architect, | was involved in the rollout of new
+branch routers to Post Office branches (save for those branches where an ISDN
+connection was not reliably available, which continued to rely on VSAT technology).
+Slide 7 of WITN0481_01/1 sets out a planned timeline for this rollout. My recollection
+is that this rollout was a broader refresh of the network technology at Post Office
+branches and it was not done specifically to enable or support Horizon Online.
+
+44. | did not have responsibility for testing the network aspects of the Horizon Online
+solution, though | am aware, from my general involvement in the project, that testing
+was carried out prior to the pilots and rollout of Horizon Online to assess the impact
+of poor quality connections or connectivity failure. | recall there being several test rigs
+set up which used the same network technology as in the live environment. This
+would enable testing against characteristics similar to that in place in live service.
+Given this was not my area of responsibility, | am not aware of the results of these
+tests or any steps taken as a result of them.
+
+45.| do not have any specific recollection about my involvement in the pilots, acceptance
+
+and rollout of Horizon Online.
+
+Page 19 of 22
+WITN04810100
+WITN04810100
+
+ASSESSMENT OF CERTAIN ASPECTS OF THE HORIZON SYSTEM AND
+
+DEVELOPMENT PROCESS
+
+Robustness
+
+46.| am aware of the Inquiry’s definition of “robustness”.? | am only able to evaluate the
+Horizon system’s robustness from the perspective of my roles on networking and
+security, and | note that | had a much more limited involvement in relation to Horizon
+Online than its predecessor. It was also not my role to design or develop the
+applications that would have recorded/processed data on Horizon, including in
+relation to branch accounts. From that perspective, | did not have concerns about the
+robustness of Horizon, nor was | aware of any.
+
+47.While | may occasionally have attended meetings with representatives of the Post
+Office, it was not generally my role or responsibility, throughout my involvement in the
+Horizon project, to communicate with the Post Office or the government. As such, |
+am unable to comment on Post Office's or the government's awareness of any of the
+issues discussed in my statement.
+
+interaction between teams
+
+48.| moved from my initial role on the bid team into roles in the Solution Architecture
+team, which was responsible for defining the high-level solution and changes, taking
+
+account of new requirements.
+
+? Defined by the Inquiry as including: “(a) the accuracy and integrity of the data recorded and processed
+by the Horizon IT System (b) the extent to which deficiencies in the Horizon IT System were capable of
+causing and / or caused apparent discrepancies or shortfalls in the branch accounts (c) the ability of the
+Horizon IT System to identify errors in data and discrepancies or shortfalls in branch accounts and the
+cause of the same and (d) the ability of the Horizon IT System to continue to operate satisfactorily in the
+presence of adverse conditions.”
+
+Page 20 of 22
+WITN04810100
+WITN04810100
+
+49. As noted at paragraph 11 above, the bid team was a single small group of individuals
+and there was limited need for us to routinely interact with a wider set of teams.
+
+50. My overall recollection from my involvement on the Solution Architecture team was
+of regular and productive interaction with the other teams working on the project (e.g.
+the Design, Development, Test, and Operational teams), and that our interaction
+between teams was generally sufficient to resolve any issues that arose. This was
+helped by a number of the teams being located in the same building, initially at ICL
+Pathway’s office in Feltham, and then Bracknell.
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+Page 21 of 22
+WITN04810100
+WITN04810100
+
+INDEX TO FIRST WITNESS STATEMENT OF MARK JOSEPH JAROSZ
+
+Exhibit Description Date Control Number | URN
+Number
+
+WITN0481 | Slide deck titled “HNG- | 23 March | POINQ0104389F | FUJ00098218
+01/1 X Network 2007
+Architecture”
+
+WITN0481 | Horizon Architecture [16 June | POINQ0104388F | FUJ00098217 —
+01/2 Overview 2006
+
+WITNO0481 | “RiposteCreateMessag | Undated | POINQ0104391F | FUJ00098220
+01/3 eEx’” function summary
+
+WITN0481 | “RiposteDefineNode” Undated | POINQ0104393F | FUJ00098222
+01/4 function summary
+
+WITNO0481 | “RiposteCreatePriority | Undated | POINQ0104392F | FUJ00098221
+01/5 Message” function
+summary
+
+WITNO481  “UnconnectedBroadca | Undated | POINQ0104390F FUJ00098219
+01/6 _ stInterval” function
+ummary
+
+Page 22 of 22

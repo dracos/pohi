@@ -1,0 +1,792 @@
+WITN04760100
+WITN04760100
+
+Witness Name: Mark Andrew Ascott
+Statement No.: WITN0476_01
+
+Exhibits: WITN0476_01/1 - WITN0476_01/10
+Dated: 4 August 2022
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF MARK ANDREW ASCOTT
+
+|, MR. MARK ANDREW ASCOTT, will say as follows:
+
+INTRODUCTION
+
+1. | am currently a Lead Test Practitioner at Fujitsu Services Limited (“Fujitsu”), a
+position | have held since July 2008.
+
+2. This witness statement is made on behalf of Fujitsu to assist the Post Office Horizon
+IT Inquiry with the matters set out in the Rule 9 Request provided to Fujitsu on 11
+March 2022 and a series of follow-up questions provided to me by the Inquiry on 1
+July 2022 (the “Request’), to the extent | have direct knowledge of such matters.
+
+3. The topics from in the Inquiry’s Request of which | have knowledge of relate to events
+that took place many years ago. Such topics include the design and development of
+the Horizon system, acceptance criteria and testing. | have tried to remember these
+as best as | can. However, given the length of time, there may be certain matters
+where my recollection is more limited.
+
+4. Where | have included information from documents relevant to the Inquiry’s Request,
+
+these documents are referred to using references WITN0476_01/1_ to
+
+Page 1 of 25
+WITN04760100
+WITN04760100
+
+WITN0476_01/10 and are listed in the index accompanying this statement. To the
+extent that these documents have not already been provided to the Inquiry, they are
+exhibited to this statement.
+
+BACKGROUND
+
+5. In August 1998 | worked for a Fujitsu business unit known as the “The Solution
+Centre”. | had completed a three year assignment working at Canary Wharf, London.
+On my return to “The Solution Centre” | accepted an assignment with the ICL Pathway
+programme. My assignment to ICL Pathway Limited started in September 1998.
+Between September 1998 and December 1998, | worked for a Pathway testing team.
+| reported into John Lyon, a technical manager. There were around twelve members
+in this team at the time. The team comprised of Fujitsu employees and freelance
+contractors. In the team, | also worked with Garrett Simpson and Deborah
+Richardson.
+
+6. In January 1999, | was transferred into the Pathway organisation reporting into Alan
+D’Alvarez. My role changed from test to development and | was assigned to work in
+the Secure Builds Development (“Secure Builds-Dev’) team. Initially, | was the only
+member of the Secure Builds-Dev team. In this period, | worked with Belinda
+Fairthorne to set up the Windows NT4 Domain structure for the Bootle and Wigan
+data centres.
+
+7. In 2000, after a re-organisation of the Development teams, | worked for a team known
+as the Infrastructure Products Development Unit (“IPDU”). In this role, | reported to
+Pete Dreweatt who, in turn, reported to lan Morrison. Alongside IPDU was a
+
+development team known as the Applications Products Development Unit (“APDU”).
+
+Page 2 of 25
+WITN04760100
+WITN04760100
+
+My recollection is that Alan D’Alvarez headed up APDU. From 2000 — 2001 my
+
+responsibilities increased and | started leading other teams within IPDU. | was
+
+responsible for the FTMS-Dev, Audit-Dev, OCMS-Dev, Auto-Config-Dev and
+
+Maestro-Dev teams. These development teams consisted of two or three developers.
+
+The Maestro-Dev and Secure Builds-Dev consisted of one developer.
+
+. My recollection is that in 2002, a further reorganisation of the Development teams
+took place and IPDU and APDU merged into a single Development team. This new
+Development team was led by Alan D’Alvarez. After the merger, | reported into Mark
+Taylor and Mark Taylor reported to Alan D’Alvarez. Alan D’Alvarez reported into Peter
+Jeram, who led the Systems Integration (SI) unit.
+
+. | spent my working week split between Feltham and Bracknell. The Auto-Config-Dev
+team were located in Manchester. Circa 2004, this Manchester team relocated to
+
+Crewe.
+
+‘Morning Prayer” Meetings
+
+.At Pathway, we held “Morning Prayer” meetings which took place early each work
+day morning. | recall these meetings starting at 8:30am. | started to attend the
+Morning Prayer meetings when | was part of the IPDU development team. Morning
+Prayer meetings were hosted by senior managers and it was common for individuals
+such as Peter Jeram, Alan D’Alvarez and Gill Jackson to chair these meetings.
+Development Managers, Test Managers, PIT and SPTS Managers, Network
+Managers and the core architect leads such as James Stinchcombe, Simon Fawkes,
+
+Dave Johns and Alex Robinson would attend the “Morning Prayer” meetings.
+
+Page 3 of 25
+WITN04760100
+WITN04760100
+
+11. The focus of Morning Prayer meetings was to identify priority actions for the team to
+complete that day based on progress updates from the previous day. The priority
+PiniCLs/Peaks that were impacting progress in the test phases were frequently
+reviewed at these meetings. Delays from third-party suppliers (such as delays in
+purchasing licenses for software tools) were also reviewed at Morning Prayer
+meetings. Through the Morning Prayer meetings, the delivery teams developed a
+close working relationship.
+
+12.Under the leadership of Peter Jeram, the Systems Integration (SI) unit created an
+end-to-end process document which described the inputs, processes and outputs of
+each delivery team. This document defined the interface points between the teams.
+All the team members in S| contributed to this process document, and the whole team
+reviewed and agreed the document. Through the process of creating this process
+document, all the teams knew the interaction points between the teams.
+
+13.The development teams also hosted another weekly review meeting which
+considered Change Proposals. This review was known as the Engineering Change
+Control Board (ECCB). This meeting had the purpose of coordinating change impacts
+from the Development, PIT, SPTS and Test teams. Change Proposals were reviewed
+and a technical sponsor (someone from the team) for a given Change Proposal would
+provide a summary of the solution change or potential options for the change. These
+discussions would result in technical details being understood by all teams.
+
+14. The main output from the ECCB meetings was that teams were able to provide impact
+statements and list dependencies that could then be fed back into the Fujitsu POA
+
+Change Manager (Ken Westfield/Graham Chatten). The senior delivery team
+
+Page 4 of 25
+WITN04760100
+WITN04760100
+
+managers would also participate in Provisional Change Control Board (PCCB) with
+the aim of authorising Change Proposals for review with Post Office.
+15. By the end of August 2005, | left the Post Office Account (“POA”) to work on a different
+
+account but returned in July 2008.
+
+DESIGN AND DEVELOPMENT
+
+16.1 had limited involvement in the design and development of Horizon. | was aware that
+Horizon involved the use of an Escher counter but | cannot comment on the design
+and development of the general Horizon IT project in detail. Rather, | will comment
+on the design and development that | was responsible for in this period.
+
+17.|n my role as the File Transfer Managed Service (“FTMS”) Solution Design Authority,
+| was involved in updating a number of the relevant high-level designs and reviewing
+the low-level designs for the FTMS components.
+
+18. The design aspects that | was responsible for were based on the set of policy security
+documents that were in place at the time. These documents defined the parameters
+within which we had to work. For example, they contained policies in relation to
+access control that we implemented in the designs for our components. The versions
+of these documents that were in place during the period 1996 — 2000 are exhibited
+with the following references: WITN0476_01/1- WITN0476_01/5.
+
+19.My recollection is that Belinda Fairthorne was a key author/contributor to the
+production of these security policy documents. | used these security documents to
+develop Secure Build Windows scripts that the Secure Builds-Dev team provided to
+
+the Product Integration Team (PIT).
+
+Page 5 of 25
+WITN04760100
+WITN04760100
+
+20.1! regarded the security architects | worked with as subject matter experts and deferred
+to their knowledge and design thinking. If | did not understand part of their designs |
+would discuss my concerns with them so that | could gain a complete understanding
+of their designs. Once the NT domain designs were approved by the senior design
+team in Fujitsu and were due to be taken forward, | developed tooling and scripts that
+were used to implement the secure builds on the various Windows platforms. | also
+worked with the Product Integration Team (“PIT”) that was based in Feltham. This
+team incorporated the scripts into the work they were doing, which resulted in
+platforms being built and deployable.
+
+21.The wider design team was also based in Feltham. The senior designers that | worked
+with at the time of the early Horizon period included James Stinchcombe, Simon
+Fawkes, Nial Finnegan and Glenn Stephens. When a team was modifying designs,
+senior designers would guide such changes. Any design document would also have
+been reviewed, assessed and authorised by one of these senior designers.
+
+22.Design documents were produced in accordance with the Document Management
+processes in effect at the time. My recollection is that lqgbal Rahman was the Software
+and Document Change manager when | worked at the Feltham office (1999 — 2005).
+The software and documentation repository used in that period was PVCS (now
+called Dimensions). A document had to have a PVCS allocated document reference
+before it could be stored in PVCS.
+
+23.The design documents that | and my development team worked on were sent for a
+minimum of one review cycle amongst the team. Some documents completed two
+
+review cycles before entering the approval process.
+
+Page 6 of 25
+WITN04760100
+WITN04760100
+
+24.A reviewer matrix provided guidance on which teams were required as mandatory
+reviewers and which were required as optional reviewers. The document reference
+type provided guidance on who would provide approval for a high level design
+document. For most design documents, senior architects, subject matter expert
+designers and one or more senior development manager(s) were the approval
+authority. The reviewer matrix also provided guidance to document authors with
+respect to external recipients such as Post Office staff or other Third-Party Supplier
+recipients.
+
+25.Review cycles required document reviewers to submit comments using an excel
+spreadsheet which captured information metrics. A review cycle end date was
+indicated in the excel spreadsheet too. Once the review cycle end date had passed,
+the document author would update the document to address the comments received
+and update the excel spreadsheet so that the reviewer could see how their feedback
+had been addressed.
+
+26.Once the document author had addressed all the comments, document leads would
+prepare for a second review cycle, if needed, or prepare for the approval process.
+The version control and history sections and the footers would be updated to show a
+full integer number for the approved version. For example, a draft document at
+version 0.6 would become version 1.0 the first time that it went out on the approval
+process. Once a design document reached an approved status, the design could be
+
+used by development teams to begin the code writing cycle.
+
+Page 7 of 25
+WITN04760100
+WITN04760100
+
+ACCEPTANCE CRITERIA AND TESTING
+
+27.1 cannot comment on the complete testing process but | have set out below my
+knowledge of this area. | worked on unit testing from January 1999 to around October
+2001, which was part of the development team. In doing so, | devised a set of tests
+to demonstrate that coded changes were successfully made. Once components were
+declared ready to go, they would be registered in PVCS. The PIT would then produce
+scripts to enable the baselines or design parts to be deployed. Once deployable, the
+Service Provision of Test Services (“SPTS”) team would then build the test rigs.
+
+28.From 1999 to 2005, there were seven test rigs located in Feltham. Five of these rigs
+were operated by Fujitsu and two were operated by Post Office. Chris Young was the
+Post Office test manager who was responsible for the two Post Office controlled rigs.
+One of the two Post Office rigs was known as the Release Rig. | believe that the
+Release Rig provided Post Office with the ability to examine a release change before
+it was authorised for release into the Live service.
+
+29.At this time, the senior Fujitsu test managers would have been Kevin Barrett, Dave
+Royale, Gill Jackson, Deborah Richardson. The Fujitsu Provision of Test Service
+manager was Mike Anderson. Some of these Fujitsu managers would have worked
+closely with Chris Young to help complete his tasks. My recollection is that the
+relationship between Fujitsu and Chris Young and his Post Office colleagues that
+
+worked in Feltham was conducted in a professional manner based on mutual respect.
+
+Page 8 of 25
+WITN04760100
+WITN04760100
+
+| worked with this test team and helped them diagnose unexpected incidents and
+confirm issues for resolution.
+
+30. One of the Fujitsu test rigs was known as the Performance test rig. The Performance
+test rig was managed by a Performance test lead or a performance test manager.
+The test rig manager and an individual known as the “rig runner” worked with the
+SPTS manager/team members to co-ordinate release updates onto their rig. Each
+test rig had a rig runner. The rig runner role was key to making sure the test rigs were
+updated and ready for a release test phase to start.
+
+31.During a release test phase, the rig runner was responsible for making sure that the
+Maestro 24x7 batch scheduler was running and executing as designed for the release
+under test. The other test team members involved would check daily with the rig
+runner at the start of the day to confirm the rig was useable and in a valid state to
+conduct testing. When testers had a need for specific data to be loaded and installed
+they would make their requirements known to the rig runner and the rig runner would
+deploy the data requested.
+
+32.My recollection is that High Level Test Plans and Test Reports included Post Office
+staff as recipients and reviewers of draft and approved documents. The internal and
+external distribution list was determined/mandated in the document reviewers matrix.
+My recollection is that Post Office shared outputs for the test phases which they
+managed/owned with their Fujitsu counter parts.
+
+33. Functional testing conducted by POA required test cases that could be executed from
+Horizon counters that mimicked customer transactions and functional activities that
+
+Post Masters, Clerks and Crown Office staff would perform. For example, tests would
+
+Page 9 of 25
+WITN04760100
+WITN04760100
+
+be conducted that exercised purchasing stamps, postal orders, vehicle road tax,
+foreign currency, insurance policies. Test cases would have been performed to
+exercise purchasing stamps as a single item. But there were also test cases for
+purchasing stamps combined with other transaction types which would make up a
+“mixed basket”. These mixed baskets would lead to tests which exercise the
+“transaction settlement processes”. Tests would have been conducted to exercise
+Post Master/Crown Office tasks such as reporting and stock management. Tests
+would also have been conducted to confirm Horizon counters could be updated with
+reference data and the changes that new reference data would deliver.
+
+34.In the period 2008 — 2010 when HNG-X Release 1 was being developed, the SV&l
+test phase was the main phase where the new HNG-X Counter was tested in
+combination with the data centre systems. SV&I test cases for the HNG-X counter
+continued to include “use cases/user cases” as they had become known. These use
+cases/test scripts mimicked real transactions as they would occur in the Live
+Production service.
+
+35. The V&l “test pack” included test cases for the most popular reporting types and these
+tests were executed on Wednesday afternoons/evenings to mimic Post Master
+behaviour.
+
+DELT TESTING AND THE INDEPENDENT TESTING TEAM
+
+36.Fujitsu also used a DELT rig as part of the final testing cycle that we had in
+development. This was a test rig which had a number of various server / platform
+components produced by the development teams. The DELT rig was used to provide
+
+the development unit with a view that solution components being produced or
+
+Page 10 of 25
+WITN04760100
+WITN04760100
+
+modified were ready to be passed from development (“DEV”) into the independent
+test unit (“ITU”). The DELT rig was owned and managed by the development team.
+
+37.The DELT test phase was the final test phase of the development delivery plan.
+Before DELT testing took place, individual development teams contributing changes
+to a release would conduct unit/module testing. Some development teams would
+conduct component testing as well. Some development teams, such as the Database
+Host team, would have used the DELT test rig to examine their release deliverables.
+
+38.The DELT rig was maintained and operated by two members of the development
+team. My recollection is that they reported into the Database Host development
+manager.
+
+39.Prior to reaching the ITU test team, release changes/deliverables were
+processed/packaged by the Product Integration Team (“PIT”). Output from the PIT
+team was made available to the Service Provision of Test Services (“SPTS”) team.
+The SPTS team would build/update the test rigs so that ITU test teams could test the
+release deliverables. During the ITU test phases, the test plan would indicate when
+the Post Office test teams would have their two test rigs updated with the release
+under test. When that activity on the plan was reached, the SPTS team would
+build/upgrade the Post Office test rigs with the latest version of the release which
+would include defect fixes identified by the Fujitsu ITU testing phases.
+
+40.With respect to the final testing cycle, my recollection is that releases approved and
+
+signed-off ready for Live service by the ITU test team were prepared and handed to
+
+Page 11 of 25
+WITN04760100
+WITN04760100
+
+the POA/Pathway Customer Service Division for this organisation to conduct final
+testing before releasing into the Live Production service.
+
+41.On completion of DELT testing, an independent testing team at Feltham would then
+test the solution. The SPTS team would apply the release components to the test rigs
+that required those components. Once the SPTS team finished rolling out the code,
+the test team leader of a rig would take ownership of that rig and they would carry on
+their testing activities. In the 1999-2005 Horizon period, the Independent Test Unit
+comprised of Fujitsu employees and freelance staff contracted to work in the ITU test
+teams. | believe the senior ITU test manager would have reported to Terry Austin and
+then into Pete Jeram’s Systems Integration unit. The senior members of the ITU test
+team that | remember are Kevin Barrett, Dave Royale, Gill Jackson, Deborah
+Richardson, Harji Hothi, Hermia Figuieredo. Pete Dreweatt was also a member of this
+team managing the level 4 test plan.
+
+42.1n order to provide testing against Post Office requirements, the ITU test team
+organised its team members to achieve the required planned release deliverables.
+
+TESTING AND DELAY: NATIONAL ROLLOUT
+
+43.A key function of testing is to identify defects in system solution components, such as
+with the software code or infrastructure components. These all result in additional
+time being required to understand the defect/issue and identify a solution. Time is
+required to create the fix resolution and plan how the fix resolution is delivered. Time
+is also required to deliver the fix into the appropriate test environments and to retest
+the fix resolution and determine that the fix resolution has resolved the defect/issue.
+
+A defect found in the System Test environment could cause delays to testing a
+
+Page 12 of 25
+WITN04760100
+WITN04760100
+
+solution component in the SV&l test phase which in turn may cause delay to later test
+phases in the planned sequence.
+
+44. My recollection of the 1999 — 2005 Horizon period is that delays to release deliveries
+were mostly of a short duration, for example, 3 to 8 weeks. The use of a planning /
+time recording tool known as AMS Realtime planning helped track progress through
+the delivery of the entire Level 4 plan. POA stopped using the AMS Realtime planning
+tool in accordance with Corporate Fujitsu instructions for all Fujitsu organisations to
+move a single time recording system. In July 2008 when | re-joined POA, AMS
+Realtime was not in use.
+
+DEFECTS RAISED IN TESTING
+
+45.|f teams reported defects during testing, these would be logged in the PiniCL
+database and relevant ones would get assigned back to my team. We would then
+deal with them on a priority basis.
+
+46. There was also a quality filtering process (“QFP”) that sat within the development
+function. The QFP was introduced by Alan D’Alvarez when Alan was Head of
+Business Application Development. My recollection is that this process was
+introduced circa 2001-2002. The aim of the process was to identify Peaks/PinICLs
+that were causing blockages/stoppages to test phases and thus causing delays to
+release delivery plans. My team and | would then go through the QFP list of defects
+and state when the team could implement the fix. If a defect could not be fixed within
+a certain release window, we would look to deferring it to a future release, based on
+
+Post Office’s requirements.
+
+Page 13 of 25
+WITN04760100
+WITN04760100
+
+47.The QFPwas chaired by Lionel Higman. Lionel would create a spreadsheet listing all
+open Peaks / PinICLs raised by the ITU Test team or by the Post Office test team
+that were reported against the release being developed.
+
+48.The teams represented at the QFP meetings included: ITU test rig managers, the
+senior Development team manager and the Development team leaders/managers.
+Lionel would present the list of open peaks ordered by priority (A, B, C etc.). The
+senior Development manager would then ask the appropriate Development team
+manager to comment on current progress of the defect resolution. The ITU test rig
+managers would identify the negative impact that the peak was causing the test
+phase. Each PEAK on the list would be reviewed in turn with the output being an
+agreed date for the fix availability to the PIT team. This agreement was made between
+the Test and Development team. Peak priorities were reviewed and upgraded or
+downgraded as a result of the discussion held at QFP.
+
+49.The QFP assisted the ITU Test team by keeping the focus on fixing the high priority
+defects. To determine if a test phase had completed, an assessment against a set of
+exit criteria would be made. The criteria used would include an assessment against
+defect priorities. An assessment of the exit criteria would determine whether a test
+phase had completed. Such exit criteria would typically include how open defects
+would be handled. For example, typical defect exit criteria used by ITU test stated
+there could be zero priority A or B defects and no more than 5 priority C, D, E or Z
+defects open at the end of the test phase. If such criteria was not met, the test phase
+would not be completed. After the QFP meeting concluded, Lionel chased the Peak
+
+fix deliveries and confirmed to the Test team when they had arrived with the PIT team.
+
+Page 14 of 25
+WITN04760100
+WITN04760100
+
+The Test team would liaise with the PIT and SPTS teams to confirm the availability
+of the fixes to the test team via the SPTS team. | do not recall any Post Office test
+representatives attending QFP meetings.
+
+50.In July 2008 when | returned to POA, the HNG-X Release 1 Programme was no
+longer operating the QFP. About two months after | rejoined, Alan D’Alvarez and John
+Woods from Fujitsu Business Assurance were tasked with reviewing the HNG-X
+Release 1 Programme. Soon after this review completed, Alan D’Alvarez was
+reappointed to assist the HNG-X Release 1 Programme team. Shortly after rejoining,
+Alan re-instated the essence of the former QFP.
+
+JOINT TEST TEAM
+
+51.When | returned to POA in 2008, | joined what was known and referred to as the Joint
+Test Team. This team was based in Bracknell and consisted of around 75 people,
+around 25 of whom were Post Office employees. Fujitsu and Post Office worked
+together as a team to test the elements of the solution across the HNG-X test rigs.
+During the testing phases for HNG-X, there were regular governance meetings
+between Fujitsu and Post Office to discuss and resolve any issues.
+
+52. The senior Fujitsu ITU test manager was Pete Dreweatt. Initially, | reported into John
+Rogers, the SV&l test manager. Peter Rickson was the V&l test manager. Pete was
+supported by two senior test architects, George Zolkiewka and Peter Robinson.
+George and Peter had been instrumental in identifying the HNG-X release test
+approach/test strategy and designing the HNG-X test rigs, how many rigs would be
+
+required, how the rigs would be equipped, and what test tools would be required.
+
+Page 15 of 25
+WITN04760100
+WITN04760100
+
+53.On the Post Office side, the senior Post Office test manager was Andrew W
+Thompson. Andrew Thompson was supported by Lee Farman who fulfilled a role
+similar to George Zolkiewka and Peter Robinson. Changes to the test strategy had to
+be reviewed by George, Peter and Lee. All three had to agree how to approach
+changes, but Lee had the casting vote as the customer's representative.
+
+54.The Post Office team were responsible for the Quality Centre system. Fujitsu
+provided the platform and the network connectivity. Fujitsu provided the technical
+support in keeping the platform running. The Quality Centre application was
+administered by a Post Office team led by Gurjit Dhillion. Gurjit’s team produced
+regular reports on test progress from the data that was accumulating in QC. These
+reports were shared by Gurjit with Andrew Thompson. After Andrew had reviewed
+the reports they were shared with Pete Dreweatt.
+
+55.Chris Young and James Brett were Post Office-supplied test managers but Chris
+Young moved off the Programme. James was responsible for the Release Migration
+test phase known as Release Migration which used the RVMig test rig. As the HNG-
+X Release 1 programme made progress, James Brett took on responsibility for the
+Accreditation test phase known as RVACC. James also managed the Post Office
+team responsible for Counter Performance Testing which was a part of the overall
+Volume and Integrity test phase.
+
+56.Both Pete Dreweatt and Andrew Thompson reported into Mark Burley who was the
+Post Office Executive Programme Manager for HNG-X Release 1. Pete was
+
+responsible for managing and maintaining the Joint test plan.
+
+Page 16 of 25
+WITN04760100
+WITN04760100
+
+57.The System Test team was staffed by Fujitsu-only staff. The Security test team
+comprised of one Fujitsu-provided tester and one Post Office-provided tester. Both
+these team members reported into a Post Office lead manager who was John
+Halfacre. The Security testers conducted their testing mainly using the SV&I test rig.
+Some of their testing needed to be performed on the RVMIG, RVACC and V&l rigs.
+Liaison with the test rig owners was required and planning needed to be co-ordinated
+to avoid disruption and ensure the rig was updated with code releases so that valid
+security tests could be conducted.
+
+58.The Counter Performance Test team consisted of two Post Office supplied testers
+who reported into James Brett with a dotted line into me as test manager for the
+Volume & Integrity test phase.
+
+59.For the duration of the HNG-X Release 1 Programme | observed the staff from Post
+Office and Fujitsu working together as one team in an amicable and friendly
+atmosphere of mutual respect. Both Post Office and Fujitsu had objectives to achieve
+for themselves and joint shared objectives to achieve. There were times when the
+Post Office staff met to be briefed on Post Office business and Fujitsu was not
+involved in these meetings. Likewise for Fujitsu, there were times when Fujitsu test
+managers met to be briefed on situations and scenarios which Post Office did not
+need to know or did not need to know until a trigger point had passed.
+
+V&I TESTING
+
+60. Within two months of joining the Joint Test Team, | became the test manager for the
+
+V&I test phase (around August/September 2008).
+
+Page 17 of 25
+WITN04760100
+WITN04760100
+
+61.In V&I testing, we identified a number of issues with the HNG-X solution design that
+needed re-working between the branch access layer servers and the Oracle
+databases.
+
+62. It took the design team a while to work out how to resolve these issues. As a result,
+the original timespans for the pilots were extended. | recall that the pilot stayed in
+‘medium pilot’ for a considerable while, involving 500 branches. The next step was to
+roll out HNG-X to a further 500 branches (1000 in total) but a decision was made to
+introduce branches more gradually, and the rollout was increased by 250 branches
+instead.
+
+63.The V&l test team produced a number of test reports detailing the results obtained
+and the behaviour observed during the three separate volume testing cycles. The test
+reports detail the tests performed, the results observed, deviations from the test plan
+and the defects raised and how they were resolved and addressed. The document
+references and titles are:
+
+a. TST/SOT/REP/0008 — VOLUME AND PERFORMANCE TEST REPORT —
+PHASE 1 (WITN0476_01/6);
+b. TST/SOT/REP/0866 — VOLUME AND PERFORMANCE TEST REPORT —
+PHASE 2 (WITN0476_01/7); and
+c. TST/SOT/REP/0926 — VOLUME AND PERFORMANCE TEST REPORT —
+PHASE 3 (WITN0476_01/8).
+64. The first two test reports above corresponded to the HNG-X Performance/Stress High
+
+Level Test Plan (TST/SOT/HTP/0003) (WITN0476_01/9). The third report above
+
+Page 18 of 25
+WITN04760100
+WITN04760100
+
+corresponds to the Counter Performance High Level Test Plan (TST/SOT/HTP/0008)
+(WITN0476_01/10).
+
+65. Throughout the V&I test phases | worked closely with the Belfast UNIX, Wintel/NT
+and Database Administrators teams to ensure that incidents and operational issues
+that were impeding the test phases were resolved quickly. For example, DNS name
+changes / IP address changes could be resolved at agreed times or database
+partition table space could be extended so that we could reset a test and prepare
+another test run.
+
+66.As we approached the final tasks for the V&l team, and these were being completed
+and ticked off, | had regular telephone calls with the Belfast operations team lead to
+keep him appraised of when the V&l test rig was expected to be handed over to their
+control. My recollection is that the final defect fix testing was performed against
+Release INT14.25 (Pre-release HNG-X Release 1).
+
+67. The decision to relinquish control of the V&l rig was taken by the HNG-X programme
+managers. | provided confirmation that the V&l team had completed all of its required
+tasks. The HNG-X programme managers assessed and confirmed that the milestone
+of no further activities were required from the V&l test team / test rig. The achievement
+of this milestone confirmed the instruction to hand the V&l rig over to the Belfast
+Operations team.
+
+68.1 did not attend any of the meetings held by the Belfast Operations team and the
+Project Manager responsible for the transformation as they worked up the list of
+activities / tasks that were required to transform the V&lI rig from a test environment
+
+into the Live Production environment.
+
+Page 19 of 25
+WITN04760100
+WITN04760100
+
+69.1 was aware that the Belfast Operations team would perform the following tasks as a
+result of conversations with the Belfast Operations team:
+
+a. The test only platforms that were part of the V&I rig would be disconnected
+from the network by network change to prevent them from accessing the
+Live Production environment or being used by members of the Joint test
+team to connect to any Live Production platform. V&l platforms were built
+with either a platform name prefix of “Iprp” indicating a Live Production
+platform or “Ivip” indicating a test only platform. Network changes were
+made to disconnect all platforms that had a prefix name of “Ivip”.
+
+b. All V&l test team member MicroSoft Active Directory login accounts were to
+be deleted.
+
+c. Alltest data created and entered into the BDB, BDS, BRSS, NPS, DAT data
+base platforms by the test phase was to be deleted/purged.
+
+d. All test data created on the SSN and SSC platforms to be deleted/purged.
+These platforms were used by the testers to collect defect/incident evidence
+and transfer that evidence back into the POA corporate network for input to
+tools such as Peak / PinICL and QC.
+
+e. Network configuration changes to disconnect the V&I counter estate.
+
+f. Network configuration changes to enable the Live production counter estate
+to make connection with the VPX layer.
+
+g. Cryptography/Key Management changes to enable the Live production
+counter estate to make connection with the Branch Access Layer (BAL
+
+platforms).
+
+Page 20 of 25
+WITN04760100
+WITN04760100
+
+70. The bullet points above are a sub-set of tasks that the Belfast Operations teams would
+have performed to create / enable the platforms in IRE11 and the standby platforms
+in IRE19 to be declared as ready for Live Productions operations. My recollection is
+that once HNG-X Live Operations commenced, the HNG-X release names changed
+from INT14.nn to HNG-X Release 1.0n and from that point defect fixes were tested
+using the SV&I test rig until the build of the LST test rig and the migration of the LST
+tig from the old Horizon to the HNG-X Release 1 solution had completed.
+
+71.1 remained the V&l test manager after the rig was passed to Belfast Operations.
+Initially there were only admin / tidy up tasks for me to do before the HNG-X
+Programme management team confirmed that the old Horizon test rigs could be
+decommissioned. With my SPTS manager responsibilities | was tasked with
+managing the dismantling of the Horizon rigs.
+
+ISSUES WITH HNG-X
+
+72.The V&l Performance Test Reports | identified earlier describe: tests that were
+executed; results obtained; Peaks raised; and performance data. The results are
+presented as graphic data.
+
+73.The peaks raised against failed performance tests were assigned to the Systems
+Qualities Architects. Dave Chapman and Mital Unalkat were the architects that
+oversaw these performance tests. They assessed the results data and identified the
+fix resolution activities required with the help of other Architects/SMEs. Once fix
+resolutions were delivered and deployed onto the V&l rig, Dave and Mital would
+provide the test team with guidance on how to reset the rig for the failed tests to be
+
+repeated. After a rerun, the architects would analyse the results. Once they had
+
+Page 21 of 25
+WITN04760100
+WITN04760100
+
+completed their analysis, Dave and Mital would confirm the success or failure of a
+performance test. The same process was used for successful performance tests.
+74.For the Integrity and Resilience non-functional testing, reports with the naming
+convention ‘TST/SOT/REP/nnnn’ were produced to detail the results of this test
+activity. My recollection is that failures were occurring in the systems monitoring
+alerting and eventing solution.
+
+75.These defects resulted in a review that Alan D’Alvarez participated in that led to
+Fujitsu POA proposing that HNG-X Release 1 proceed into Live service and pass
+through a Post Office Acceptance Gateway with the risk posed by these
+monitoring/alerting defects being mitigated by Fujitsu POA providing additional man
+power to watch, monitor and alert if required any unexpected behaviour of the Live
+Production service. The Belfast Operations team then included additional people to
+provide manual monitoring of the Live Production service.
+
+76.The decision to introduce HNG-X Counter branches in smaller numbers was to
+mitigate risk(s) identified during a previous pilot phase. The final decision on resizing
+the number of HNG-X Counter branches was taken by Post Office. My recollection is
+that Mark Burley and Will Russell were the main decision makers. | believe Will
+Russell represented the Post Office Service Delivery/Service Introduction team within
+Post Office.
+
+77.\ don’t recall the start and end dates of each of the three pilot phases, nor the specific
+issue which arose from the pilot phases. | recall that the V&l test team conducted 25
+consecutive days of volume/performance testing in January/February 2010. This
+
+testing was supported by Andy Thomas and Martin Tongue. After completing the 25
+
+Page 22 of 25
+WITN04760100
+WITN04760100
+
+days of testing the Peaks under test would have been confirmed as resolved/fixed.
+The details of relevant Peaks are included in the V&l Test Reports mentioned above.
+
+78.| also recall that there were six Acceptance gateway reviews which were held jointly
+between Fujitsu POA and Post Office. My recollection is that the output/results from
+the V&l test phase contributed to the decision-making at Acceptance gateway 4, 5
+and 6. | believe that the outputs/results from the SV&l, RVACC and RVMig test
+phases contributed to the decision-making at Acceptance gateways 1, 2 and 3. My
+recollection is that senior architects such as Dave Johns and senior Fujitsu
+Programme Managers such as Alan D’Alvarez and Vince Cochrane represented
+Fujitsu POA at the Acceptance gateway reviews.
+
+79.1 believe that each Branch migration pilot phase resulted in the results observed
+during the pilot phase to be assessed by Post Office and findings discussed with
+Fujitsu POA. | believe that each pilot phase review resulted in decision-making for the
+next action step. | believe that decision-making to proceed would have assessed
+issues, defects reported and still open, and risks that could be encountered by moving
+to the next pilot phase.
+
+80.My recollection is that the relationship between Fujitsu POA and Post Office was
+pragmatic. To me, it felt like the Programme delivery finish line was approaching,
+there were issues to be resolved to make forward progress. | remember both
+organisations at the Joint Test Team level continued to co-operate with each other to
+overcome the difficulties. | believe we worked pragmatically together to complete the
+tasks assigned to the Joint Test team. In my experience, when compared with other
+
+programme delays, the delays encountered during the HNG-X Release 1 Counter
+
+Page 23 of 25
+WITN04760100
+WITN04760100
+
+rollout pilots were relatively short in duration. The delays were weeks/months
+
+compared against years.
+
+Statement of Truth
+
+{ believe th i
+Signed:
+
+pated: 4tLe Avasst 20°22
+
+Index to the First Witness Statement of Mark Andrew Ascott
+
+Description Date Control Number URN
+WITNO476_01/1 RS/POL/0003 17 April 1997 POINQ0123668F FUJ00117497
+(Version 1)
+WITNO476_01/2 RS/POL/0003 24 February POINQ0094160F FUJ00087989
+(Version 2)
+1998
+WITNO476_01/3 RS/POL/0003 18 December POINQ0094164F FUJ00087993
+(Version 3)
+1998
+WITNO476_01/4 RS/REQ/012 21 October 1998 | POINQ0094162F FUJ00087991
+(Version 3)
+WITNO476_01/5 RS/REQ/012 22 December POINQ0094165F FUJ00087994
+(Version 4)
+1998
+WITN0476_01/6 | TST/SOT/REP/0008 | 16 November POINQ0123675F FUJ00117504
+2009
+WITNO476_01/7 | TST/SOT/REP/0866 | 17 September | POINQ0104133F FUJ00097962
+2010
+
+Page 24 of 25
+WITN04760100
+
+WITN04760100
+WITN0476_01/8 | TST/SOT/REP/0926 | 6 October 2010 | POINQ0123676F FUJ00117505
+WITNO0476_01/9 | TST/SOT/HTP/0003 | 12 September POINQ0123669F FUJ00117498
+2008
+WITN0476_01/10 | TST/SOT/HTP/0008 | 27 March 2009 | POINQ0123674F FUJ00117503
+
+Page 25 of 25

@@ -1,0 +1,745 @@
+POL00030393
+POL00030393
+
+10 AUG 1999 - S21
+
+Electronic memo
+
+To David W Miller/POCL/POSTOFFICE@POSTOFFICE, Bruce
+McNiven/POCL/POSTOFFICE@POSTOFFICE, Keith K
+Baines/POCL/POSTOFFICE@POSTOFFICE, Keith
+Falconer/POCL/POSTOFFICE@POSTOFFICE, Andrew
+Radka/POCL/POSTOFFICE@POSTOFFICE, Christopher French@MAILHUB,
+John Meagher/POCL/POSTOFFICE, Naresh Mohindra@MAILHUB, David X
+Smith/POCL/POSTOFFICE, Gail Morley/POCL/POSTOFFICE, Don
+Grey/POCL/POSTOFFICE, Ann Nevinson/POCL/POSTOFFICE@POSTOFFICE
+
+cc Min Burdett/POCL/POSTOFFICE, Graeme Seedall/POCL/POSTOFFICE, Mark
+Burley/POCL/POSTOFFICE, David
+McLaughlin/POCL/POSTOFFICE@POSTOFFICE, Peter G
+Jones/POCL/POSTOFFICE
+
+Hard Copy To
+
+Hard Copy cc
+
+From Ruth Holleran/POCL/POSTOFFICE
+
+Date 09/08/99 19:15
+
+Subject Fwd: POCL Acceptance and Business Impact Assessment
+All
+
+POCL Business impact assessment against proposed high severity Als positioned as work in
+progress and to meet deadline of close of play today.
+
+We need to refine and polish assessments further over the next 24 hours in the event some of
+these may go forward into dispute. | will liaise direct with Keith Baines on this.
+
+| would welcome any comments to strengthen our position.
+
+Ruth
+
+To
+ce
+Hard Copy To
+Hard Copy cc
+
+From Ruth Holleran/POCL/POSTOFFICE
+
+Date 09/08/99 19:06
+
+Subject POCL Acceptance and Business Impact Assessment
+Mike
+
+Please find attached details of POCL's draft business impact for the proposed High severity
+rating incidents.
+
+Ruth Holleran
+POL00030393
+POL00030393
+
+Draft High Impact.do
+POL00030393
+
+POL00030393
+POCL Business Impact Analysis of Proposed High Acceptance Incidents
+Prepared on 9" August by Ruth Holleran - Draft - Work in Progress
+Incident No Business Description Business Impact Current Position including Pathway | POCL
+rectification requirements. Severity | Severity
+376 The business impact of these three The ICL Pathway service is an integral part of _| 376 376 376
+410 requirements are the same, and so are POCL'’s client accounting system - indeed the High High
+411 described together here. service is an accounting service. As such it The POCL position is that this incident is
+accounts for turnover of £140 billion per annum | high severity and that the analysis 410 410
+376. Data Integrity - TIP derived cash involving some 3 billion transactions. Given provided by Pathway is unacceptable for | None High
+account not equal to electronic cash the scale of this system even the smallest of the following reasons:
+account received by TIP. defects is capable of generating error within the 411 411
+accounts of very significant amounts. i) There is no explanation as to how None High
+
+In certain circumstances transactions are
+recorded at the outlet with a missing
+attribute, e.g. start time and mode. The
+
+reason these attributes are omitted has not
+yet been explained by Pathway. At the end
+of the day, Pathway’s TPS harvester polls
+
+the transactions from the outlets and
+validates them before they are passed to
+
+TIP. Any transactions with these attributes
+
+omitted will fail the validation and not be
+passed to TIP.
+
+Pathway also poll the weekly cash account
+
+from each outlet and passes this to TIP.
+Transactions with missing attributes are
+
+correctly recorded on the cash account and
+
+are passed from the outlet, via the TPS
+harvester into TIP. One of the processes
+currently performed by TIP is to derive a
+cash account from the daily transaction
+
+A major component of the current system is the
+matching of the underlying transaction stream
+to summary totals on the cash account. There
+are currently logged incidents where both the
+underlying transaction stream is incomplete and
+transactions are being “missed” when the
+service accumulates the summary cash account
+line. These faults were identified as a result of
+special controls put in place by POCL to
+monitor the live trial and not by any system
+based control operated by ICL Pathway which
+in turn are part of POCL’s requirements. It is
+not known when if at all ICL Pathways controls
+would have detected these fundamental and by
+inference whether such controls are effective.
+
+POCL has not seen a detailed description of the
+faults creating the missing data neither has it
+seen any description of how and when these
+
+Pathway propose to meet R891/02 -
+i.e. the need for them to reconcile the
+two streams of data.
+
+ii) There is no explanation on the real
+cause of the problem, i.e. the reason
+why the data attributes are omitted in
+the first place?
+
+iii) further detail is required on the fix,
+e.g. if the date is omitted from the
+first transaction of the day, first
+transaction for a SU, etc. The
+solution does not indicate what date
+the TPS harvester applies in these
+scenarios and why.
+
+iv) The solution does not explain how it
+will prevent transactions being
+recorded against the incorrect mode,
+e.g. a remittance as a serve customer
+transaction. Invalid item transaction
+modes could result.
+
+POL00030393
+
+POL00030393
+Incident No Business Description Business Impact Current Position including Pathway | POCL
+rectification requirements. Severity | Severity
+
+files and compare this with the cash
+account received from Pathway. This
+process - which is only being performed
+on a temporary basis - has revealed
+differences as a result of the above.
+
+The cause of this incident is that, on
+occasions, the counter system records a
+transaction without all the data attributes
+for the transaction which are required by
+the TPS harvester to send it on to TIP.
+However this does not impact the
+transaction being recorded in the cash
+account file sent to TIP.
+
+Pathways proposed fix involves the TPS
+harvester inserting the required data as
+follows:
+
+i) inserting the start time based on the
+end time of the previous transaction;
+ii)
+
+in every occasion
+
+The fix was applied on 3/8 and we need to
+
+allow a full cash account period for
+
+monitoring before this can be cleared due
+to the multiplicity of data integrity issues.
+
+This is the period over which the original
+
+test was performed. (NB the cash account
+
+for w/e 4" August; week 19 can only be
+partially included as the fix was applied
+
+inserting the mode as ‘Serve Customer’
+
+faults will be fixed. ICL Pathway have
+admitted that they do not yet understand the
+root cause of the problem A workround has
+been offered but by ICL Pathways own
+admission this will not present a complete
+solution to the faults in the service nor has
+POCL had visibility of the testing plan to ensure
+that the fix does not introduce further problems.
+
+It is a fundamental of any accounting system
+that it provides a complete and accurate record
+of all transactions. The ICL Pathway system
+does not support this fundamental. For example
+in week 17 there were 89 differences in 20
+outlets which extrapolates to 5500 differences
+over the entire network. For week 18 there
+were 2451 differences experienced in 67 outlets
+which extrapolates to 150k differences over the
+entire network.
+
+These “gaps” in data will ultimately be reflected
+in balance sheet accounts. The nature of these
+gaps is such that POCL will not be able to
+readily explain them. To this end our external
+auditors operating within generally accepted
+accounting practice will insist that any debit
+balances are written to Profit and Loss account
+whilst credit amounts are retained on the
+balance sheet. Given the nature of the errors
+concerned the potential is for these write offs to
+be significant threatening the business
+performance against shareholder targets and
+
+v) The analysis does not explain
+whether the fix is temporary or
+permanent. If it is temporary, the
+analysis needs to state why a
+permanent fix is not being applied at
+this stage, when the permanent fix
+will be applied, what the permanent
+fix will be and how we will know
+whether the permanent fix works.
+
+vi) Changing the transaction data in this
+way impacts on the audit trail, i.e. the
+transaction data received by TIP will
+be different to that leaving the outlet
+as the attributes are added.
+
+vii) The proposal to reduce the severity
+from high to medium if the frequency
+falls is unacceptable because the
+principle here is that if it happens
+once, it means incidents can occur
+and hence the fix is not working
+correctly. Only a frequency rate of
+zero - during an agreed period of
+monitoring - should enable the
+severity rating to be changed.
+
+viii) If we accept the temporary fix, we
+need to understand how we will
+monitor any permanent fix as the TIP
+processing in this area is only a
+temporary measure. We will rely on
+Pathway’s reconciliation of the two
+data streams and we will therefore
+need to assure ourselves that their
+
+POL00030393
+
+POL00030393
+Incident No Business Description Business Impact Current Position including Pathway | POCL
+rectification requirements. Severity | Severity
+
+during the week.) Any analysis provided
+by Pathway should explain how they
+propose to comply with R891/02 - which
+effectively means they should be doing the
+reconciliation currently being performed
+by TIP.
+
+410
+
+This incident was previously recorded
+under AI376. However as the effect is
+different, this now stands alone. It refers to
+a scenario resulting in the TIP derived cash
+account, calculated from Pathways daily
+transaction files, exceeding the transaction
+totals in the Pathway cash account. (Refer
+to description of AI376 for more detail on
+this process). It is this latter cash account
+stream that feeds the POCL accounting
+processes via CBDB.
+
+Pathway analysis - provided against AI376
+- indicates the root cause as being a change
+in the POCL data attributes relating to a
+particular item (product). Some products
+are available to all outlets, others to only a
+
+potentially as a going concern.
+
+These balances are also the basis of settlement
+with clients. Failure to settle accurately with
+clients could place POCL in breach of contract.
+Many clients have a right of audit. For
+government clients this is usually the National
+Audit Office. The results of such audits can
+feature in NAO opinions on the accounts of
+Government Agencies. Such comments are a
+matter of public record. Integrity failures
+could thus become a matter of public record
+damaging the reputation of POCL. Integrity
+is one of the major attributes of the brand
+such damage would, therefore, be
+substantial.
+
+Finally this level of difference is operationally
+unsustainable. The level of resource necessary
+to investigate and resolve these differences is
+significant at the 5500 level and at the higher
+level the resource requirements are impractical
+i.e. there would be a complete breakdown of
+POCL’s back end accounting as the effort
+required would be unsustainable - error levels
+are currently running at twice the normal pre-
+horizon baseline. In addition, the absolute
+increase at the 5500 level would increase error
+processing costs by £8.3m per annum and
+effectively double the size of the TP workload.
+
+processes for doing this
+reconciliation are acceptable.
+
+ix) the frequency suggested by Pathway
+does not match the result identified
+by TIP.
+
+As with AI 410, and AI 411, POCL
+regard Pathway as non compliant on
+R891/02 and require a proposal from
+Pathway for reconciliation of the 2 data
+streams within the Pathway domain
+before closure of this incident which is
+judged by POCL to be high.
+
+410
+
+Requirement 818/08 states ‘EPOSS shall
+be a robust Service, including features
+to:
+
+a) check internal consistency, reporting
+errors, warning of non critical errors
+and preventing critical errors;
+
+refuse deletions if there is a
+dependent business data which would
+lead to inconsistency of data within
+the Service Infrastructure;
+
+c) make Reference Data available at the
+counter terminals;
+
+check Reference Data consistency
+and report exceptions.
+
+b)
+
+d)
+
+The POCL view is that this criterion has
+
+POL00030393
+
+POL00030393
+Incident No Business Description Business Impact Current Position including Pathway | POCL
+rectification requirements. Severity | Severity
+
+portion of the network. This is expressed
+through an attribute setting of ‘core’ or
+‘non-core’.
+
+4i1
+
+This incident was previously recorded
+under AI376 but has been separated as the
+cause is now understood to be different.
+Similarly to AI 376, the detailed
+transaction stream was incorrect as
+transactions were not passed from TPS to
+TIP resulting in the cash account stream
+being greater than the transaction stream.
+(Refer to description of AI376 for more
+detail on this process).
+
+The problem was manifested through a
+reconciliation failure on 2451 cash account
+lines across 67 outlets during week 18. It is
+not known how many transactions were
+lost although this must be a minimum of
+
+not been met, particularly in relation to
+part ‘b’.
+
+POCL also require evidence that
+integrity checks in support of R818/08
+are sufficient for all Business data. In the
+absence of this evidence, the integrity of
+the data that drives the central
+accounting process is in question. This
+incident is therefore adjudged high in
+line with AI376 and AI411.
+
+As with AI 376, and AI 411, POCL
+regard Pathway as non compliant on
+R891/02 and require a proposal from
+Pathway for reconciliation of the 2 data
+streams within the Pathway domain
+before closure of this incident which is
+judged by POCL to be high
+
+411
+
+‘The Pathway rectification proposed for
+TIP incident 889 appears acceptable to
+POCL at a high level. However a date
+for the fix to the agents software is
+required as is a detailed proposal of how
+Pathways processes are intended to work
+- this proposal needs to be agreed by
+POCL and should explain how Pathway
+will identify missing transactions, given
+this was only identified by TIP.
+
+POL00030393
+POL00030393
+
+Incident No
+
+Business Description
+
+Business Impact
+
+Current Position including
+rectification requirements.
+
+Pathway
+Severity
+
+POCL
+Severity
+
+2451 which constitutes serious client
+settlement and outlet reconciliation
+failures. This applies regardless of the
+value of these transactions - which may net
+out to a negligible amount.
+
+The analysis from Pathway indicates that
+the root cause is a wholesale ‘data
+replication’ failure due to conflicting
+system processes following an unusual
+failure condition
+
+A date is also required for recovery of
+the missing transactions and this needs to
+be agreed with TIP.
+
+As with AI 376, and AI 410, POCL
+regard Pathway as non compliant on
+R891/02 and require a proposal from
+Pathway for reconciliation of the 2 data
+streams within the Pathway domain
+before closure of this incident which is
+judged by POCL to be high.
+
+298
+
+Evidence from live trial shows that the
+counter system is subject to ‘lockups’ and
+‘system freezes’, where the system halts in
+mid-processing giving the user no
+opportunity to take any corrective action
+other than re-booting the system. This is
+either exhibited by the system hanging or
+presenting a blank blue screen. The user is
+forced to ring the HSH and is advised to
+reboot the system.
+
+This incident related to criterion 536-01.
+“Peripheral and input devices supplied as
+part of the elements of the Service
+
+Infrastructure on which OPS is provided
+shall be reliable, robust and easy to use”.
+
+Estimate of outlet cost (this impact should be
+updated when Pathway System management log
+report is received):
+
+1
+
+POCL analysis based on telephone review
+with outlets. This indicates that 56 outlets
+affected in week 19 with system freeze.
+
+. POCL estimated that on average 40 minutes
+
+to: log call with help desk; re-boot system;
+recover transactions (1 and 2 position
+offices) undertaken in manual fall-back
+mode.
+
+. Indicate, conservatively, a cost of £2.6
+
+million per annum.
+
+Other impacts not quantified:
+
+1.
+
+2.
+
+Extreme frustration and loss of confidence
+by sub-postmasters in the system.
+
+Adverse impact on customers perception of
+the service
+
+. Increase in HSH and NBSC Helpdesk calls
+
+to authorise the need to re-boot
+
+Pathway analysis received 9/8. This was
+based on HSH log, and not an analysis of
+re-boots from their System Management
+Log as requested by POCL. Pathway
+indicate that the HSH log reduces this
+incident to acceptable numbers.
+However, outlets are learning that the
+recovery action is to re-boot, and are not
+calling the Help Desk for many
+incidents. Therefore POCL has
+discounted the HSH log data in this
+instance.
+
+In addition, Pathway have not given
+
+POCL confidence that they understand
+
+the root cause of these system freezes
+
+and lock-up. Reduction in severity will
+
+require:
+
+1. Root cause analysis discussed with
+POCL
+
+2. Rectification plan agreed
+
+Low
+
+High
+
+POL00030393
+
+POL00030393
+Incident No Business Description Business Impact Current Position including Pathway | POCL
+rectification requirements. Severity | Severity
+4. OBCS - unable to perform 100% checks on | 3. Pathway reporting accurate numbers
+order books without recourse to HSH - of incidents from the outlets
+therefore increase in transaction time - 4. To reduce to Medium - no more
+assumed extra time 119 seconds per than 10 outlets per week (observed
+transaction. over a period of 2 weeks for the 299
+5. Client SLA/confidence LT outlets)
+6. Risk of errors and impact on TP due to 5. To reduce Incident to low - no more
+increased errors in fall-back than 2% per week of outlets with
+7. Severe disruption to POCL's critical system freezes and lockups observed
+operating process over a 5 week period
+6. To clear incident - to be agreed.
+300 Evidence from live trial indicates that The analysis of the business impact is similar to | No Pathway analysis seen. Low High
+
+should the printer fail during operation, the
+system may lock up rather than handling
+the error normally. This has been
+observed even when the printer has only
+run out of paper. This has been observed
+in the back office printer, and its main
+impact has been on the time it takes to
+produce the cash account.
+
+This incident related to criterion 536-01.
+“Peripheral and input devices supplied as
+part of the elements of the Service
+Infrastructure on which OPS is provided
+shall be reliable, robust and easy to use”.
+
+298.
+
+Estimate of outlet cost (this impact should be
+updated when Pathway System management log
+report is received):
+
+1. POCL analysis based on telephone review
+with outlets. This indicates that 56 outlets
+(NB this is a coincidence - this is not the
+same 56 affected by other system freezes)
+affected in week 19 with system freeze.
+
+2. POCL estimated that on average 40 minutes
+to: log call with help desk; re-boot system;
+recover balance position.
+
+3. Indicate, conservatively, a cost of £2.6
+million per annum.
+
+Other impacts not quantified:
+
+1. Frustration and loss of confidence by sub-
+
+Pathway have not given POCL
+confidence that they understand the root
+cause of these system freezes and lock-
+ups due to printing problems. Reduction
+in severity will require:
+
+1. Root cause analysis discussed with
+
+POCL
+
+. Rectification plan agreed
+
+3. Pathway reporting accurate numbers
+of incidents from the outlets
+
+4. To reduce to Medium - no more
+than 10 outlets per week (observed
+over a period of 2 weeks for the 299
+LT outlets)
+
+5. To reduce Incident to low - no more
+than 4% per week of outlets with
+system freezes and lockups observed
+over a5 week period
+
+N
+
+POL00030393
+
+POL00030393
+Incident No Business Description Business Impact Current Position including Pathway | POCL
+rectification requirements. Severity | Severity
+postmasters in the system. 6. To clear incident - to be agreed.
+2. Impact on customers’ perception of the
+service
+3. HSH and NBSC Helpdesk calls
+4. Client SLA/confidence
+5. Risk of errors and impact on TP
+372 This incident addresses failures in In the LT2 implementation, 288 out of 299 Pathway have submitted, as part of their | Pending | High
+
+Pathway’s system management function outlets were upgraded by 10:30 on Monday. 8 | analysis of the incident, a report which
+following problems observed as part of the | of the offices were still outstanding at close of __| has been reviewed by POCL. However,
+implementation of the LT2 maintenance business the following Wednesday representing | the report is insufficient to close the
+
+release. 2.7% of the outlets. Extrapolating this to the —_| incident with many questions remaining
+full network would mean that some 500 outlets | unanswered. These questions (39 in
+
+The incident related to: would not be upgraded - this is unacceptable. number) have been put to Pathway on 8
+Even though it appears that user intervention August and we await a reply.
+
+537-01 may have been part of the problem, we have no
+
+476-05 confidence that Pathway could manage even a Until our questions are satisfactorily
+
+476-04 performance with the same results to the full answered and an appropriate rectification
+network because the difference in scale will plan has been agreed this incident
+compound any difficulties. remains of High severity.
+
+This description represents a post hoc analysis
+and at the time Pathway were not able to advise
+which outlets had not been upgraded as
+planned. In addition, a number of outlets were
+left with a corruption to a .dll file which
+subsequently resulted in corruption of business
+data. The business impact has a dual
+perspective: firstly, the failure to implement a
+release successfully in all outlets and secondly,
+the ineffective rectification of the problem.
+
+POL00030393
+POL00030393
+
+Incident No
+
+Business Description
+
+Business Impact
+
+Current Position including
+rectification requirements.
+
+Pathway
+Severity
+
+POCL
+Severity
+
+The business impact is:
+
+1. outlets may not be able to sell products
+
+2. outlets may sell products they are not
+authorised to sell
+
+3. outlets may sell products at the wrong price
+
+4. outlets may wrongly account for items
+
+5. outlets are likely to have an increased error
+rate
+
+6. circumstances are possible where the outlets
+would be unable to use the horizon system
+
+218
+
+Training Course cash account module is
+inadequate
+
+POCL’s review of the training rectification
+analysis will be issued on 10" August. Business
+impact already explained.
+
+384
+
+Sequent failover time
+
+Awaiting Pathway’s report of re-test results
+
+Loss of accounting integrity due to
+printing failures
+
+To follow
+

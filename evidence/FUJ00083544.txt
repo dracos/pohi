@@ -1,0 +1,724 @@
+FUJ00083544
+FUJ00083544
+
+To: ‘Mark Jarosz’ ]
+
+From: Jenkins Gareth Gi[/O=ICl =ICL TT CONSULTANCY/CN=RECIPIENTS/CN=GARETH.JENKINS]
+Sent: Fri 11/3/2000 9:34:04 AM (UTC)
+
+Subject: FW: PC0056922: PinICL - call transferred to Escher-Dev
+
+63479.DIAG_EVT.zip
+
+Mark,
+| don't know if you've been ‘phoned about this one. It seems to have been passed to you on the Escher-dev stack.
+
+Attached is a zipped event log for the counter. The problem seems to have occurred at about 18:32 on 1/11 when Riposte reported
+the following error 82 "An unexpected error occurred while attempting to modify an entry in the run map. Timeout occurred waiting for
+lock. (0xC1090003)". From the text of the PinICL it sounds like this lock was causing problems until the counter was rebooted the
+following day. | assume that the problem is down to the previous Query from EPOSS, however | can't see why that would cause a one-
+off problem on this system.
+
+| don't know if it is relevant, but the machine appears to have been rebooted in the middle of the night a couple of days earlier (ie at
+02:00 and twice at 03:00 on 30/10). The counter appears to be at Cl4 (Riposte 6.0.2.27) and has been since the start of the Event Log
+(16/10/00).
+
+Regards
+Gareth
+
+email:
+
+Internal Phone:
+External Phone:
+External Mobile Phoni
+Internal Mobile Phone: :
+
+ICL
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+Website : http://www.icl.com
+
+This e-mail is intended only for the addressee named above. As this
+e-mail may contain confidential or privileged information if you are
+
+not, or suspect that you are not, the named addressee or the person
+responsible for delivering the message to the named addressee, please
+telephone us immediately. Please note that we cannot guarantee that this
+message or any attachment is virus free or has not been intercepted and
+amended. The views of the author may not necessarily reflect those of
+the Company.
+
+International Computers Limited, Registered in England no 96056,
+Registered Office 26, Finsbury Square, London, EC2A 1SL.
+
+> -----Original M
+> From: pinicl@
+
+> Subject: PC0056922: PinICL - call transferred to Escher-Dev
+
+>
+>
+
+> Title: PinICL - call transferred to Escher-Dev
+
+>
+
+> Call Number : PCO056922
+
+> Systemname : PinICL
+
+> Event : Call arrived on team
+
+> Summary : Cl4 - FAD367642 - error committing declarations
+> Priority tA
+
+> Target Date : 03/11/00 09:16:49
+
+> Assigned Team : Escher-Dev [Escher Development preview team]
+> Assignee : No Assignee
+
+> Subject Product +: EPOSS & DeskTop
+> Product Group : EPOSS & DeskTop
+> Call Type : Live - Cl4
+> Contact Surname : EDSC
+> Actioned Team : Not Actioned
+
+> Actionee : No Actionee
+
+> Response Category _: Incident Under Investigation
+> Target Release :CSR-CI4R
+
+> Call Logger : Customer Call
+
+> Call Loggers Team : EDSC [EDSC support team]
+> Top Reference : E-0011015130
+
+> Contact Details : EDSC
+
+> Pathway
+>
+
+>
+
+> References
+>
+
+RIGINATOR
+
+> ORIGREF : E-0011015130
+>
+
+> CONSUMERREF : E-0011015130
+>
+
+> PowerHelp : E-0011015130
+>
+
+>
+
+>
+
+> Call Progress
+
+>
+
+> 02/11/00 09:16:49 - By Customer Call
+
+> CALL PC0056922 opened
+
+>
+
+> 02/11/00 09:16:52 - By Customer Call
+
+> CALL PC0056922:Priority B:CallType L - Target 07/11/00 09:16:49
+>
+
+> 02/11/00 09:16:52 - By Customer Call
+
+> 01/11/00 19:15 PM reports error message whentrying to
+
+> re-declare her cash.
+
+> 01/11/00 19:18 uk081285
+
+> Information: Guided caller thru re-declaration :
+
+> Stk bal/dec cash/highlight previous dec/select/amend to
+
+> current cash on hand/finish
+
+> Error message says " error committing declarations"
+
+> Voiced call to Dave in smc who requested | pass the call
+
+> over to them. caller advsd and ref no given
+
+> 01/11/00 20:58 UK061815
+
+> Information: User "ADA001" advises that when a SU (CASH)
+
+> decleration is
+
+> made the decleration would not be accepted" - searched kel
+
+> for Error committing" - nothing
+
+> Searched events from web PAGE for counter #1 - "An
+
+> unexpected error occured wgike attempting to modify an entry in the
+> run map. Timeout occured waitng for lock" and also critical
+
+>" Error Number - 2147221504 Error Des: The Riposte
+
+> PutObject function call returned an error> this happend while"
+
+> 01/11/00 21:05 UK061815
+
+> Information: searched kel with criteria of "Error Desc" - found
+
+> kel:GSales2149L.htm - There are x2 instances of riposte running on
+> counter, Down loaded all event logs for counter #1 file id is
+
+> = 63479 - searched event logs for corrupt index's and -
+
+> none found, will pass this call to edsc1 for further
+
+> investigation
+
+> 01/11/00 22:16 GB082711
+
+> Repeat Call: Pm is still waiting for a phone call it has been three
+> hours since this issue arose. Please ring imidiately
+
+> The pm is only still available due to living on the
+
+> proberty.
+
+> 02/11/00 09:14 GB082641
+
+> Information: Voiced Babara/EDSC to see who was working on the
+> call, when
+
+> | check for the PC number we found that the call had not
+
+> gone over the OTI. Will reopen the OTI.
+
+> 02/11/00 09:15 GB082641
+
+> ReOpen OTI: * NULL TEXT SUPPLIED *
+
+FUJ00083544
+FUJ00083544
+FUJ00083544
+FUJ00083544
+
+>
+> 02/11/00 09:16:53 - By Customer Call
+> F} Call details
+
+>
+
+> 02/11/00 09:16:53 - By Customer Call
+
+> Diagnostician name:
+
+> Customer opened date 01/11/2000 19:15:01
+
+>
+
+> 02/11/00 09:24:40 - By Customer Call
+
+> EMPTY 02/11/00 09:20 GB082302 HSH1 Information: as pm is trying to
+> redeclarre cash to alter she is getting
+
+> error in declaration of cash declaration error in committing
+> list.
+
+> Pm tried to create a new declaration for the difference
+
+> and got the same message. 02/11/00 09:24 GB082302 HSH1
+> Information: KEL
+
+> Title: Cl3 to Cl4 Declarations Trial Balance
+
+> Discrepancy
+
+> KEL Reference: JBallantyne589M.htm
+
+> Created on: 14 September 2000
+
+> Created by: John Ballantyne
+
+> KEL Status: Information
+
+> PinICL number: PC0054018
+
+> Powerhelp number: E-0009133878
+
+> Release: CSR+
+
+> Product: EPOSSReconciliation
+
+> Last updated on: 15 September 2000
+
+> Last updated by: John Ballantyne
+
+> Keywords: CI3 to Cl4 Declarations Trial Balance
+
+> Discrepancy
+
+> The above kel outlines the problem 02/11/00 09:24 GB082302
+> HSH1 Information:
+
+> called pm on the advise of sara in smc to get the messages
+> pm is getting , pm would like call back as is now trading
+
+> manually and is not being called back to get problem solved
+>
+
+> 02/11/00 09:38:18 - By Customer Call
+
+> EMPTY 02/11/00 09:35 UK061916 SMC1 Information: 09:30 -
+> Voiced Diane Rowe at
+
+> SSC to raising of call to 'A’.
+
+> 09:31 - Voiced SMC TM Andrea Fellows to 'A' priority.
+
+>
+
+> 02/11/00 09:38:02 - By Barbara Longley
+
+> The call summary has been changed from:-
+
+> PM reports error message whentrying to re-declare
+
+> The call summary is now:-
+
+> Cl4 - FAD367642 - error committing declarations
+
+>
+
+> 02/11/00 09:38:02 - By Barbara Longley
+
+> Target Release updated to CSR-Cl4R
+
+>
+
+> 02/11/00 09:38:03 - By Barbara Longley
+
+> CALL PC0056922:Priority A:CallType N - Target 03/11/00 09:16:49
+>
+
+> 02/11/00 09:38:02 - By Barbara Longley
+
+> Product EPOSS & DeskTop added
+
+>
+
+> 02/11/00 09:38:05 - By Barbara Longley
+
+> F} Response :
+
+>
+
+> 02/11/00 09:38:05 - By Barbara Longley
+
+> HSH have said this call should be raised to ‘A’ priority.
+> [END OF REFERENCE 22624316]
+
+>
+
+> 02/11/00 09:38:05 - By Barbara Longley
+> Responded to call type N as Category 40 -Incident Under Investigation
+>
+
+> 02/11/00 09:38:53 - By Barbara Longley
+FUJ00083544
+FUJ00083544
+
+> The response was delivered to: PowerHelp
+>
+
+> 02/11/00 09:38:53 - By Barbara Longley
+
+> The Call record has been assigned to the Team Member: John Ballantyne
+>
+
+> 02/11/00 09:38:53 - By Barbara Longley
+
+> Defect cause updated to 99:General - Unknown
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/11/00 09:40:45 - By Customer Call
+
+> EMPTY 02/11/00 09:37 UK061916 SMC1 Information: This call has
+> been raised to
+
+> 'A’ as PO is manual due to
+
+> being unable to roll over SU due to events being genreated by
+> gateway whihc SSC are actioning as per KEL.
+
+> 09:35 - Paged Pathway DM to ‘A’ priority.
+
+> 09:38 - DM Mike Woolgar rang in. | explained situation and
+
+> he requested that he be paged again if situation not
+
+> resolved by 13:00.
+
+> 09:40 - voiced Denise Miller.
+
+>
+
+> 02/11/00 09:53:34 - By John Ballantyne
+> F} Response :
+
+>
+
+> 02/11/00 09:53:36 - By John Ballantyne
+
+> Investigating
+> [END OF REFERENCE 22624922]
+>
+
+> 02/11/00 09:53:38 - By John Ballantyne
+
+> Responded to call type N as Category 40 -Incident Under Investigation
+>
+
+> 02/11/00 09:54:28 - By John Ballantyne
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 02/11/00 10:30:53 - By Customer Call
+
+> EMPTY 02/11/00 10:29 HSHtemp12 HSH1 Information: nbsc chasing
+> A priority
+
+> call. nbsc say pm is on manual, pm
+
+> was called this morning by 2nd line and told nonsense. pm is
+
+> very angry and feels that she is being messed
+
+> about.contacted edsc who states that havent called pm. called smc is
+> checking with the person who was dealing whether they called pm.
+> will call back.nbsc says will call back in 20 mins if no
+
+> resolution.
+
+>
+
+> 02/11/00 10:43:01 - By Customer Call
+
+> EMPTY 02/11/00 10:36 HSHtemp12 HSH1 Information: if nbsc ring
+> back on this
+
+> call please contact an stsa. has
+
+> given a 20 minute deadline in which she is calling us back.
+
+>
+
+> 02/11/00 10:46:19 - By John Ballantyne
+> F} Response :
+
+>
+
+> 02/11/00 10:46:20 - By John Ballantyne
+
+> Spoke to Les - passing call over urgently. Advised user to
+
+> reboot as she was
+
+> stuck in a loop (Declare/fail) and contact NBSC as to extending CAP.
+> message store and Event log audit logs coming
+
+> [END OF REFERENCE 22628873]
+
+>
+
+> 02/11/00 10:46:20 - By John Ballantyne
+> Responded to call type N as Category 40 -Incident Under Investigation
+>
+
+> 02/11/00 10:46:35 - By John Ballantyne
+
+> The response was delivered to: PowerHelp
+>
+
+> 02/11/00 10:50:49 - By John Ballantyne
+> New evidence added - message store & event log
+
+>
+
+> 02/11/00 10:50:56 - By John Ballantyne
+
+> The Call record has been transferred to the Team: QFP
+>
+
+> 02/11/00 10:50:58 - By John Ballantyne
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/11/00 10:56:14 - By John Ballantyne
+
+> F} Response :
+
+>
+> 02/11/00 10:56:15 - By John Ballantyne
+> KEL Title: Error commiting declarations
+
+> KEL Reference: JBallantyne5245K.htm
+Created on: 02 November 2000
+
+Created by: John Ballantyne
+
+KEL Status: Information
+
+PinICL number: PC0056922
+
+Powerhelp number: E-0011015130
+
+Release: CSR+
+
+Product: Counter
+
+Keywords: Error commiting declarations
+
+> [END OF REFERENCE 22630159]
+
+>
+
+vvvVVVVV
+
+> 02/11/00 10:56:15 - By John Ballantyne
+
+> Responded to call type N as Category 40 -Incident Under Investigation
+>
+
+> 02/11/00 10:56:18 - By John Ballantyne
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 02/11/00 11:06:02 - By John Ballantyne
+
+> New evidence added - Audit log c1 01/11
+
+>
+
+> 02/11/00 11:22:37 - By Les Ong
+
+> The Call record has been transferred to the Team: EPOSS-FP.
+>
+
+> 02/11/00 11:22:38 - By Les Ong
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/11/00 11:48:01 - By Les Ong
+
+> The Call record has been transferred to the Team: EPOSS-Dev
+>
+
+> 02/11/00 11:48:02 - By Les Ong
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/11/00 11:48:28 - By Les Ong
+
+> The Call record has been assigned to the Team Member: Martin McConnell
+>
+
+> 02/11/00 11:48:29 - By Les Ong
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/11/00 12:07:37 - By Customer Call
+
+> EMPTY 02/11/00 12:10 HSHtemp12 HSH1 Contacted: contacted
+> nbsc. advised as
+
+> edsc update
+
+>
+
+> 02/11/00 13:03:29 - By Customer Call
+
+> EMPTY 02/11/00 13:06 UK061916 SMC1 Information: Paged Mike
+> Woolgar at 13:00
+
+> as per his earlier request as
+
+> this call not resolved yet.
+
+>
+
+> 02/11/00 13:11:41 - By Customer Call
+
+> EMPTY 02/11/00 13:13 UKO61916 SMC1 Information: Mike Woolgar
+> called in at
+
+> 13:10
+
+> | updated him on events since | last spoke to him and he
+
+> requested that he be paged again at 15:00 if issue still not
+
+FUJ00083544
+FUJ00083544
+FUJ00083544
+FUJ00083544
+
+> resolved.
+
+>
+
+> 02/11/00 15:16:52 - By Martin McConnell
+
+> In my first analysis of the messagestore supplied, it would
+
+> appear that the
+
+> declarations being written away were done so at the time that
+
+> the EOD process
+
+> kicked in. The message which indicates the Riposte failure
+
+> (putpersistentobject) should have allowed the user at least
+
+> to have backed
+
+> out and start again, which seems to happen satisfactorily when these
+> conditions are simulated on a development system. As Les has indicated
+> earlier a system restart should be sufficient to get them
+
+> back and working
+
+> OK, in which case | would suspect this call should be dropped
+
+> toa'B’. Will
+
+> see if | can simulate the failure whilst in the midst of an
+
+> EOD scenario.
+
+>
+
+> 02/11/00 15:44:29 - By Customer Call
+
+> EMPTY 02/11/00 15:48 GB082484 SMC1 Information: Paged Mike
+> again as per his
+
+> last request as gone 3pm and
+
+> call still not resolved. Awaiting his call back to advise.
+
+>
+
+> 02/11/00 15:51:10 - By Customer Call
+
+> EMPTY 02/11/00 15:52 GB082484 SMC1 Information: Mike called
+> to advise that
+
+> if call not resolved by 18:00
+
+> then to page the duty manager again.
+
+> Call updated as requested.
+
+>
+
+> 02/11/00 17:26:02 - By Martin McConnell
+
+> I've talked to Brian Orzell about the ‘lock’ errors written
+
+> away by Riposte
+
+> and it would appear this is an indication of Riposte being
+
+> rather sick. There
+
+> are several DIl's and excecutables all being told to go away
+
+> becuase of this
+
+> locking problem. Either some application has left some write lock on
+> inadvertantly or Riposte is sick as described. A reboot
+
+> should sort this out
+
+> or try redeclaring on an alternate system. Brian Orzell has
+
+> sugested routing
+
+> this for the attention of Mark Jarosz.
+
+>
+
+> 02/11/00 17:26:03 - By Martin McConnell
+
+> The Call record has been transferred to the Team: QFP
+>
+
+> 02/11/00 17:26:03 - By Martin McConnell
+
+> Hours spent since call received: 3 hours
+
+>
+
+> 02/11/00 18:20:04 - By Customer Call
+
+> EMPTY 02/11/00 18:16 GB083168 SMC1 Information: Paged Pathway
+> Duty Manager
+
+> ref this call & asked him to
+
+> contact SMC.
+
+>
+
+> 02/11/00 18:52:56 - By Customer Call
+
+> EMPTY 02/11/00 18:26 GB083168 SMC1 Information: Received call
+> from Pathway
+
+> Duty Manager & updated him re
+
+> progress of this call.
+
+> He would like Duty manager to be paged again at 10:00 on
+
+> 3/11/00 if this call is still unresolved.
+
+> Shift handover updated accordingly.
+
+>
+
+> 03/11/00 08:41:33 - By Lionel Higman
+FUJ00083544
+FUJ00083544
+
+> The Call record has been transferred to the Team: Escher-Dev
+>
+> 03/11/00 08:41:33 - By Lionel Higman
+
+> Hours spent since call received: 0 hours
+>

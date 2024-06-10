@@ -1,0 +1,291 @@
+FUJ00121071
+
+FUJ00121071
+To: Jenkins Gareth GI[
+Ce: ray.jacksoni
+From: ian.oakleyé ke
+Sent: Fri 2/16/2007 5:04:51 PM (UTC)
+Subject: | RE: Fw: T30 Release - Impact on Stock Rems
+Gareth
+| think we are saying very similar things here Gareth. So no problem with
+your reply. Should this action or additional resources be required I'm
+sure this can be discussed with the appropriate people. I'm just please to
+know that this information is available and may be able to help the current
+situation.
+Regards
+lan Oakley
+Project Manager
+80 Old Street
+London
+EC1V 9NN
+"Jenkins Gareth GI"
+inking, To: — <ian.oal
+cc: <ray.jacksoni Gary.blackburn& >, "Stewart
+
+Mike" <Mike.Stewart 2
+16/02/2007 15:01 Subject: RE: Fw: T30 Release - Impact on Stock Rems
+
+lan,
+
+| don't recall offering to keep an eye on these branches. What | said
+
+was that there was data available that was passed to Post Offices Back
+end system that would show such adjustments, and that we might be able
+to intercept such data as it flowed through.
+
+I'm not in a position to commit any resources to do additional
+monitoring of such data on our side. That would need to be discussed
+with our Operations people (Mike Stewart in the first instance).
+
+Regards
+Gareth
+
+Gareth Jenkins
+Distinguished Engineer
+Applications Architect
+Post Office Account
+
+FUJITSU
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+Internal:
+
+Internal:
+
+Gareth.Jenkins;
+http://uk.fujitsu.com
+
+Fujitsu Services Limited, Registered in England no 96056, Registered
+Office 22 Baker Street, London, W1U 3BW.
+
+This e-mail is only for the use of its intended recipient. Its contents
+are subject to a duty of confidence and may be privileged. Fujitsu
+Services does not guarantee that this e-mail has not been intercepted
+and amended or that it is virus-free.
+
+__dk; Jenkins Gareth GI
+- Impact on Stock Rems
+
+I've spoken to Gareth who has confirmed that it would be possible for
+Fujitsu to keep an eye on the 570 branches for the next month or so , to
+cover the balancing periods, to see if any of the branches adjust stock
+in
+
+a significant way that then leads to a significant loss. These could
+
+then
+
+be flagged up and contacted later to help them correct the problem.
+
+Is this feasible or of any help?
+Regards
+
+lan Oakley
+Project Manager
+80 Old Street
+London
+
+EC1V 9NN
+
+c
+x.
+Mobil
+
+Gary Blackburn
+
+o-TO%.W..... Dave
+
+Hulberté_ GRO ndy Z McLean/elt:
+
+Julie
+
+Jackson/ef”
+
+7} lan Oakley/et_
+
+Subject: Fw: T30 Release
+- Impact on Stock Rems
+
+Dave , Andy
+Bad news.
+
+On further investigation today we have established that the POC file
+actually matches POLFS. This means that we still don't know what value
+stock has been returned by these 570 branches. Further more the only way
+
+FUJ00121071
+FUJ00121071
+we
+
+could find out would be for someone at Swindon to find the specific
+pouches
+
+and physically open each one and count the stock.
+
+This rules out a proactive recovery plan.
+
+| have ensured that both NBSC and HSD have scripts to deal with any
+queries
+
+relating to stock from these branches.
+
+Each branch that is identified will be contacted by Paul Lebeter's team
+and
+
+a TC will be issued.
+
+4 branches have already been identified through this process.
+
+regards
+Gary
+
+Systems Live Service Manager
+Post Office Ltd
+Operations
+
+1st Floor, Post Office Ltd, Cortonwood Business Park, Cortonwood Drive,
+BARNSLEY, S73 0TB
+
+STD Phon
+|: N/A, Mobe:
+
+External Email: gary.blackburr._,.
+----- Forwarded by Gary Blackburn/e;
+
+jon 16/02/2007 12:14 -----
+
+Dave Hulbert
+"Andy McLean"
+
+cc: "Gary Blackburn"
+
+ubject: Fw: T30 Release
+- Impact on Stock Rems - Monday 12th February
+
+Andy
+See update below.
+
+Not much progress to day. The dilemna for Gary is approaching branches
+is
+
+proactive but opens the risk of litigation in future ie we're telling
+
+570
+
+branches that horizon may have caused a discrepancy -low risk but a risk
+
+being reactive doesn't feel right as we've caused the problem for
+branches
+
+but this may be the right option in this situation.
+
+We'll update tomorrow.
+
+Dave
+
+From: Gary Blackburn
+Sent: 15/02/2007 16:14
+
+FUJ00121071
+FUJ00121071
+To: Paul Lebeter; Jane Smith
+
+Cc: Dave Hulbert; Torstein Godeseth; Martin Box; Andrew Price; Ray
+Jackson; lan Oakley; Julie Edgley; Antonio Jamasb
+
+Subject: T30 Release - Impact on Stock Rems - Monday 12th February
+
+Paul , Jane
+
+Scenario:-
+
+Whilst the T30 release was out in the branch network, Monday 12th Feb
+only
+
+for all bar 120 branches that were incommunicado during the initial
+regression process. We have a potential situation whereby a branch
+completing a stock rem out on that day could have a discrepancy due to
+the
+
+fact that not all stock physically returned by the branch may have been
+deducted by Horizon from the stock on hand table, this despite the fact
+that the rem slip produced matched the physical stock returned.
+
+Latest position:-
+
+We have a possible 570 branches that were affected by last weekends
+T30
+
+release, now regressed.
+
+The pouch ID's have been identified by Fujitsu
+
+The branches who sent those pouches have also been identified, and
+the
+
+value of the stock returned from each has been established from the
+POC
+
+file.
+
+We still don't know which of these branches has actually got a
+
+discrepancy due to the problem.
+
+Next Steps:-
+
+Identify which of those branches have a discrepancy between Horizon
+and
+
+the rem slip.- Options here are to contact the branches or wait and
+
+react to calls made into NBSC,HSD. - | will arrange a conference call
+to
+
+discuss way forward tomorrow AM.
+
+Process for issue of TC's to the branches affected to be agreed and
+tied
+
+in with communication ?
+
+regards
+Gary
+
+Systems Live Service Manager
+Post Office Ltd
+Operations
+
+1st Floor, Post Office Ltd, Cortonwood Business Park, Cortonwood Drive,
+BARNSLEY, S73 0TB
+
+Postline: STD Phon
+, Fax: N/A, VoiceMail: N/A, Mobe:
+
+External Email: gary.blackburn_
+
+Royal Mail Group PLC registered in England and Wales registered number
+4138203 registered office 148 Old Street London EC1V 9HQ
+
+FUJ00121071
+FUJ00121071
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+disclose, reproduce, copy or distribute the contents of this
+communication.
+
+If you have received this in error, please contact the sender and then
+delete this email from your system.
+
+SARIS III ISO IO ISO I KO III II III III IIIA II ADI STIS IS ASI DSS AIS SOS OS SASSI I IA
+
+Royal Mail Group PLC registered in England and Wales registered number
+4138203 registered office 148 Old Street London EC1V 9HQ
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then
+delete this email from your system.
+
+FUJ00121071
+FUJ00121071

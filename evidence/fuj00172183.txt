@@ -1,433 +1,368 @@
-                                                                                                                                                         FUJO0172183
-                                                                                                                                                     FUJO0172183
+FUJ00172183
+FUJ00172183
 
+Peak Incident Management System
 
+Call Reference PC0200468 Call Logger Deleted User -- Security Ops
+Release Targeted At -- HNG-X 02.07.10.00 Top Ref AUDIT EXTRACT SVR_0207_D051-D050
+Call Type Live Incidents Priority B -- Business restricted
+Contact Deleted Contact Call Status __ Closed -- Fix Released to Call Logger
+Target Date 26/08/2010 Effort (Man Days) 4.00
+Summary Horizon Audit Spreadsheet Producing Duplicate Transactions
+All References Type Value
+Product Baseline AUDIT_EXTRACT_SVR_0207_V051-V050
+Product Baseline AUDIT EXTRACT SVR_ 0207 D051-D050
+Release PEAK PC0201352
+DeviIntRel-Director ITU SV&I
+Impact
+cn ey ae
+Unknown 23-Jun-2010 19:44:16
 
-                                          Peak Incident              nage ent System
-Call Reference PCO200468                          Call Logger         Deleted User -- Security Ops          -
-Release        Targeted At -- HNG-X 02.07.10.00 Top Ref               AUDIT EXTRACT SVR 0207 D051-
-Call Type      Live Incidents                     Priority            B -- Business restricted
-Contact        Deleted Contact                    Call Status         Closed -- Fix Released to Call Logger
-Target Date    26/08/2010                         Effort (Man Days) 4.00
-Summary        Horizon Audit Spreadsheet Producing Duplicate Transactions \                           ~.
-All References Type                                Value
-               Product
-                  d     Baseline                   AUDIT EXTRACT
-                                                            EX RAC SVR  S    0207 V051 -V50  0
-               Product Baseline                    AUDIT_EXTRACT—SVR_0207 D051-D050
-               Release PEAK                        PCO201352
-               DevIntRel-Director                  ITU SV&I                              a.
+From Penny - In a nut shell the HNG-X application is not removing duplicate transactions (which may have
+been recorded twice on the Audit Server) and they are appearing in the ARQ returns. For the old Horizon
+application Riposte automatically removed duplicate entries. An initial analysis shows that one third of all
+ARQ returns (since the new application has been in play) have duplicated transactions
 
+Progress Narrative
 
+foate:21-dun-2010 12:22:48 User:Penny Thomas
 
+CALL PC0200468 opened
 
-Date:21-Jun-2010 12:22:48 User:Penny Thomas                  -
-                                                     a x ~ mu   ~   a re    ~    h                   as                  CY~~~ntia4         n       wi~r ~e
-CALL PCO200468 opened                                                                     ~ 5                 )   Ao~e                                        2.
-Details ontcrod arc:-
-Summary. Horizon Audit Spreadsheet Producing. Duplicate Transacticr}s      a , f ,a.:<,          ~          ,; ~x ,~,~~,;;; ,,,,~,~~ .~~,,~~z, ;;
-Call Type:L                                                         . .0
-                        -a                               -
-                                     ..,  . .... . . . .                              ,.... .,       . .;
-Call Priority:A
-Target Release:HNG-X Rel. 'Ind.
-Routed to:QFP - Unassigned
+Details entered are:-
 
+summary:Horizon Audit Spreadsheet Producing Duplicate Transactions
+call Type:1
 
+call Priority:a
 
-Date:21-Jun-2010 12:22:48 User:Penny Thomas
+target Release: HNG-X Rel. Ind.
+
+outed to:QFP - Unassigned _
+
+jDate:21-Jun-2010 12:22:48 Uscr:Penny Thomas
 [Start of Response]
-Horizon Audit Spreadsheet Producing Duplicate Transactions.
+#orizon Audit Spreadsheet Producing Duplicate Transactions.
 
-While performing an audit retrieval for branch 072128 duplicate transactions have been found on 3 June 09. Initial analysis show:;
+hile performing an audit retrieval for branch 072128 duplicate transactions have been found on 3 June 09. Initial analysis shows
 that duplicate records are held in 2 different audited TMS files.
 
-Alan Holmes has details.
-
+lan Holmes has details.
 FAO Audit Dev
+
 [End of Response]
-Response code to call live Tnci.dents/Defects(L) as Potential. Problem Tdentified(38)
+Response code to call Live Incidents/Defects(L) as Potential Problem Identified(38)
 
+jDate:24-dun-2010 12:37:04 User:Lionel Higman
+fhe Call record has been transferred to the team: Audit-Dev
 
+Date:24-Jun-2010 14:08:29 Uscr:Andrew Mansfield
+[the Call record has been assigned to the Team Member: Gerald Barnes
 
-Date:21-Jun-2010 12:37:04 User:Lionel Higman
-The Call record has been transferred to the team: Audit-Dev
+Oate:22-Jun-2010 10:18:36 Uscr:Gerald Barnes
 
+{Start of Response]
 
-
-Date:21-Jun-2010 14:08:29 User:Andrew Mansfield
-The Call record has been assigned to the Team Member: Gerald Barnes
-
-
-
-Date:22-Jun-2010 10:18:36 User:Gerald Barnes
-[Start of Response]
-The processing is done by QueryDLL.dll. The way it works is that it processes all the results in a given file building up an
+[the processing is done by QueryDIL.dll. The way it works is that it processes all the results in a given file building up an
 internal table of transaction sequences for that file. Then at the very end of processing the file it dumps the internal table to
 the RFIQueryFileSequence table. It does not cross check the transactions in one file against those in another file.
 
-Two solutions are possible.
+two solutions are possible.
+Ihe “easy solution".
+@ each transaction is processed a check is made in the RFIQueryFileSequence table and if it is already there the transaction is
 
-The "easy solution".
-
-   each LransacLion is processed a Check is made in Lhe RFIQueryFileSequence Lable and it iL is already there Lhe LraiisacLiun is
 ignored writing a warning to the query log. The problem with this solution is that a query needs to be made to the database for
-every transaction
+levery transaction.
 
-The   more difficult   solution'
-                                                                                                                                                                                                                                         FUJO0172183
-                                                                                                                                                                                                                               FUJO0172183
-The internal table which at the moment, is built, up on a per file basis is changed to being built up on a per query basis. 'Phe
-check for duplicate transactions is then done within the internal table. This i.s a much more thorough approach hut will take much
-more work.
+the "more difficult solution".
+
+FUJ00172183
+FUJ00172183
+
+fhe Internal table which at the moment is built up on a per file basis is changed to being built up on @ per query basis, The
+check for duplicate transactions is then done within the internal table. This is a much more thorough approach but will take much
+jore work.
+
 [End of Response]
-Response code to call type L as Category 40 -- Pending -- Incident Under Investigation
-Hours spent since call received: 5 hours
 
+esponse code to call type L as Category 40 -- Pending -- Incident Under Investigation
 
+fours spent since call received: 5 hours
 
-  te:22-Jun-2010 10:19:58 User:Gerald Barnes
-  oduct HNG-X Platforms -- ARC - Audit Server (version unspecified) added.
+Jbate:22-Jun-2010 10:19:58 Uscr:Gerald Barnes
+Product HNG-X Platforms -- ARC = Audit Server (version unspecified) added.
 
+pate:22-Jun-2010 10:40:21 User:Gerald Barnes
+flarget Date/Time updated: new value is 28/06/2010 12:22
+Development Cost updated: new cost is 4 (Man Days)
+(Start of Response]
 
+DEVELOPMENT IMPACT OF FIX:
 
-Date:22-Jun-2010 10:40:21 User:Gerald Barnes
-Target Date/Time updated: new value is 28/06/2010 12:22
-Development Cost updated: new cost is 4 (Man Days).
-[Start of Response]                                   ka.
-                                                    p
-DEVELOPMENT IMPACT OF FIX:          `,.    \.
+SPECIFY THE HNG-X PLATFORMS IMPACTS!
 
-     FY THE HNG-X PLATFORMS IMPACTED:
+[the platform is the “Audit Server" and that has been entered.
+IECHNICAL SUMMARY:
 
- e platform. is the "Audit Server                     and that has been entered.
-                                                                 \m-~icq,                         tilt
-  CHNICAL SUMMARY
+his change will affect QueryDLL.dll on the audit servers.
 
- is change will affect QueryDLL.dll on the audit servers.'
+LIST OF KNOWN DIMENSIONS DESIGN PARTS AFFECTED BY THE CHANGE:
+|AUDIT_EXTRACT_SVR
 
-  ST OF KNOWN DIMENSIONS DESIGN PARTS AFFECTED BY THE CHANGE:
+|ARE ANY OF THESE DESIGN PARTS AFFECTED BY APPROVED CPs/PEAKS in HNGX Release 2:
 
-      EXTRACT
+Yes. They are affected by CP0336. If the fix is targeted pre Release 2 then the PEAK will need to be cloned for a Release 2 fix
+too.
 
-    ANY OF THESE
+RELEASE 2 IMPACT:
+ves - see above.
 
-  s_ They are affected by CP0336. If the fix is targeted pre Release 2 then the PIAK will need to be cloned for a'Release 2 f x
-  o .
-                                                                                              I                    '              w            }                  \             s.:-_ s
-                         ue ,.-                                                                                                                                                                .                                 a
-                                                                                                                       l.
-  LEASE 2 IMPACT:
+DEPENDENCIES:
 
-    - see above.
+here are no particular dependencies.
 
-   ENDENCIES:
+DOES THE FIX REQUIRE ANY MANUAL, DEPLOYMENT BASELINES:
 
-   re are no
+[fhe integration team will be able to turn this delivery into a fully automatic deployment.
 
-   S THE FIX
+DEV EFFORT IN MANDAYS:
 
-    integrati
+two solutions have been identified and explained in my previous response. The “easy solution" would take 2 days. The "more
+j4ifficult solution" will take 4 days. It is a matter of whether performance will be acceptable for the "easy solution” which
 
-    EFFORT IN MANDAYS:
-
-Two solutions have been identified and explained in my previous response. The "easy solution" would take 2 days. The "more
-difficult solution" will take 4 days. It is a matter of whether performance will be acceptable for the "easy solution" which
 involves querying a database table for every single transaction. A test will need to be performed to see how long the database
-query would take.
+jauery would take.
 
-          ON USER:
+IMPACT ON USER:
 
-   asionally duplicate tran:;acti.ons are listed in the spreadsheets produced and presented to court for prosecution cases. Thee;,:
-    give the defence team grounds to question the evidence.
+ccasionally duplicate transactions are listed in the spreadsheets produced and presented to court for prosecution cases. These
+can give the defence team grounds to question the evidence.
 
-   ACT ON OPERATIONS              t er`Ceti       v, a?         ~ s~as.          *     ~.,,~4' qr.       .+erg*             ~u        ~[,   'c+ (t                                                 Wrf"             r4B          wa.           Z
+IMPACT ON OPERATIONS:
+[there is no particular operational impact.
 
-   re is no particular operational impact[i
+AVE RELEVANT KELS BEEN CREATED OR UPDATED?
 
-   E RELEVANT EELS BEEN CREATED OR UPDATED?
+jo KELs have been created for this since we Intend to fully resolve the issue shortly.
 
-   KELs have been created for this
+IMPACT ON HORIZON TO HNGX BRANCH MIGRATIONS
 
-          ON HORIZON TO HNGX BRANCH ML
+here is no particular migration effect.
 
- ere is no particular migration ef
+IMPACT ON TEST:
 
-   ACT ON TEST:
+loueries and filtering need to be done using TMS files with duplicate transactions within them.
+InISKS (of releasing and of not releasing proposed fix):
 
-Queries and filtering need to be dune using TMS files with duplicate transactions within them.
-
-RISKS (of releasinc and of not releasing proposed fix):
-                                                                                                                                                                                                                          x   .,C~~''S
-If we do not fix this problem our spreadsheets presented in court are liable tobe brought into doubt if duplicate transaction:.
+if we do not fix this problem our spreadsheets presented in court are liable to be brought into doubt if duplicate transactions
 are spotted.
-                                                     'a   a ,       a            ( 3          Y ( 'a-cap tt° a-Y   L    ima-ia-                    1'   R   ''k       '   ~v :'St'g^T4   .te              a 3 \ti w. `~   *~'cS 'i       'P*   i   ~xt
-                                                                                          A                                                                                                    ~9h ~'
-LIST OF LIKELY DELIVERABLES.                  "                             `'
 
- eryDLL.dll
+I.ISt OF LIKELY DELIVERABLES:
+loueryDiL.d11
 
-  em nr mur anrnm rr or nnv nrr rvrnrn rr~n mur nn~onern nrr rr ec.
+List OF THE ABOVE ALREADY DELIVERED FOR THE PROPOSED RELEASE:
+jone
 
+LIST OF THE ABOVE ALREADY DELIVERED TO A RELEASE LATER THAN THAT PROPOSED:
 
+FUJ00172183
+FUJ00172183
 
+ueryDun.dnT
+LIST OF THE ABOVE LIKELY TO BE REDELIVERED INTO THE PROPOSED OR A LATER RELEASE:
 
-  ST O.
-                                                                                                                                                                                             FUJO0172183
-                                                                                                                                                                                   FUJO0172183
-  e ryDLT.. d I I
+QueryDLL.dll is a recent component introduced for HNGx and has not yet fully bedded down and so it is likely to change as
+jproblems such as this one are spotted.
 
-  ST OF THE ABOVE LIKELY TO BE REDELIVERED INTO THE PROPOSED OR A LATER RELEASE:
+[End of Response]
 
-QueryDLL.dll is a recent component introduced for HNGx and has not yet fully bedded down and so it is likely to change
-problems such as this one are spotted..
-[End of Response]                         4        a ~a ' iy. T1'6B9 r
-Response code to call type L as Category' 55 ' fending -- ,'wive fix Impact Supplied  "             a nd    T  ao
+Response code to call type L as Category 55 -- Pending -- Live Fix Impact Supplied
+
 Hours spent since call received: 1 hours
 
+Date:22-Jun-2010 10:40:43 Uscr:Gerald Barnes
+[fhe call Target Release has been moved to Proposed For -~ HNG-X 01.23
 
+JDate:22-un-2010 10:41:10 Uscr:Gerald Barnes
+the Call record has been transferred Eo the team: RelMngmntForum
 
+Date: 23-dun-2010 09:30:43 User:Penny Thomas
+[initial analysis of all ARQ returns since the HNG-X application has been implemented identifies approximately one third (of all
+lreturns) have duplicate entries. This is now extremely urgent.
 
-     :22-Jun-2010 10:40:43 U.a i :Gerald Barnes
-     call Target Release has been moved to Proposed Foe -- HNG-X 01.23
+Penny
 
-
-
-
-     :22-Jun-2010 10:41:10 User:Gerald Barnes
-     Call record has been transferred to the team: RelMngmntForum
-
-
-
-
-  te:23-Jun-2010 09:30:43 U.; ::Penny Thomas
-  itial analysis of ail ARC returns since the HNG-X application has been implemented identifies approximately one third (of at !
-  turns) have duplicate entries. This is now extremely urgent.
-  nny
-
-
-
-
-Date:28-Jun-2010 16:15:17 User:Gerald Barnes
+pate:28-Jun-2010 16:15:17 User:Gerald Barnes
 [Start of Response]
-All work in complete. I attach test materials and a zip of the source. It is ready to go at Release 1. tor Release 2 the fix will.
-need merging into the current Release 2 source.
+
+1 work is complete. I attach test materials and a zip of the source. It is ready to go at Release 1. For Release 2 the fix will
+Inced merging into the current Release 2 source.
+
 [End of Response]
-Response code to call type L as Category 46.     Bending  grpduct Errox Frxed~ ~           §~,      ~      `i ~ ~ ~    z~ •~
-Hours spent since call received: 28 hours  et $t6
-                                                                                                                                                                                                                    ^'d.:.':
-                                                                                                                                                                                          k^~"xx;T:.:
-                              R     t       Z     `.1;:~?iFo41   .   iY ,      aii~               '   ';   iC   .~j~+2~Z'   u;      ~.          .`,2~.. .:   el~~`z..',~   }Z*`2'•1"X~i             ~xa 'Ui~'   Y
 
-
-
-         -Jun-2010 16:15:54 U::. ~r:Gerald Barnes
-           Added -   . L    a~_,i.
-
-
-Date:28-Jun-2010 16:16:28 User:Gerald Barnes
-Evidence Added - 3   .   . J fix
-                                 ,Frio 'fie'` '@ X44 as=*;: K^r ~t          k\" kerapapr 'r m "       repe "       "~vz     r~u*. 'a'.a-mx 3~        ejet9r9. a tas4               u+         t $r    aC
-
-Date:29-Jun-2010 11:07:11    r:Christopher Hammond
-RMF:
-Awaiting confirmation of business workaround from Penny Thomas
-
-
-
-
-  te:06-Jul-2010 10:33:46 U;   :Christopher Hammond
-  e call Target Release ha., b rn     i    Targeted At -- HNG-X 02.07.10.00
-
-
-
-
-  Lo:06-Jul-2010 11:20:21 Usoi :Tyrone Cozens
-  e Call record has been transferred to the team: Audit-Dev
-
-
-
-
-  to:06-Jul-2010 14:05:38 User:Gerald Barnes
-  e Call record has been ,.:;signed to the Team Member: Gerald Barnes
-
-
-
-
-  Le:07-Jul-2010 13:39:00 User:Gerald Barnes
-  Terence Added: Product Baseline AUDIT' VXTIACT SVR 0207 V051-V050
-
-
-
-
-Date:07-Jul-2010 13:41:51 User:Gerald Barnes
-[Start of Response]
-                                                                                                                                                               c, ,
-                                                                                                                                                             gti'
-Fixed by QueryDLL.dll Version 2.0.0.8 delivered in workset AUDIT EXTRACT SVR 0207 V051-V050
-
-Note that details of any duplicate transactions found are listed in QueryHandler.log.                                                                                                           z    3"
-[End of Response]
 Response code to call type L as Category 46 -- Pending -- Product Error Fixed
-Hours spent since call received: 4 houra
 
+Hours spent since call received: 28 hours
 
+[Date:28-dun-2010 1
+evidence Added - Tes
 
+jbate:28-dun-2010 16
+Jsvidence Added = Sourc
 
-  te:07-Jul-2010 13:42:15 User:Gerald Barnes
-  e Call record has been transferred to the team: Dev-lnt-Ref
+jDate:29-un-2010 11:07:11 User:Christopher Hammond
+EMF:
 
+waiting confirmation of business workaround from Penny Thomas
+Date:06-Jul-2010 10:33:46 User:Christopher Hammond
+the call Target Release has been moved to Targeted At -- HNG-X 02.07.10.00
 
+jbate:06-dul-2010 11:20:21 Uscr:Tyrone Cozens
+[the Call record has been transferred to the team: Audit-Dev
 
+jbate:06-Jul-2010 14:05:38 Uscr:Gerald Barnes
+[fhe Call record has been assigned to the Team Member: Gerald Barnes
 
-Date:07-Jul-2010 14:49:11 User:PIT Automated User
+bate:07-dul-2010 13:39:00 User:Gerald Barnes
+lkeference Added: Product Baseline AUDIT EXTRACT SVR_0207_v051-v050
+
+jbate:07-dul-2010 13:41:51 User:Gerald Barnes
 [Start of Response]
+Fixed by QueryDLL.dll Version 2.0.0.8 delivered in workset AUDIT EXTRACT SVR 0207 v051-v050.
+
+jote that details of any duplicate transactions found are listed in Querylandler.log.
+[End of Response]
+
+Response code to call type L as Category 46 -- Pending -- Product Error Fixed
+
+Hours spent since call received: 4 hours
+
+Date:07-Jul-2010 13:42:15 User:Gerald Barnes
+[the Call record has been transferred to the team: Dev-Int-Rel
+
+ldate:07-dul-2010 14:49:11 Uscr:PIT Automated User
+[Start of Response]
+
 Assigning to Integrator
-[End of Response]
-Response code to ca11 type T, as Category 48 (Fix
-The incident has been transferred to the Team: Dr
-                                                                                                                                                                                                                                                                                            FUJO0172183
-                                                                                                                                                                                                                                                                                     FUJO0172183
-The incident has been assigned to the Team Member: Geoff Tnglis
 
+{End of Response]
 
+response code to call type L as Category 48 (Fix Released to PIT)
+lhe incident has been transferred to the Team: Dev-Int-Rel
 
+FUJ00172183
+FUJ00172183
 
-Date:07-Jul-2010 17:19:13 User:PIT Automated User
-Reference Added: PrducL Baseline AUDTT EXTRACT SVR 02.07 D051-DC50 (TOP Pc^Cot ,n,7 ,)
+ffhe Incident has been assigned to the Team Mambo:
 
+Geert Inglis
 
+Jbate:07-dul-2010 17:19:13 User:PIT Automated User
+lkeference Added: Product Baseline AUDIT EXTRACT SVR_0207_D051-D050 (TOP Reference)
 
-
-Date:07-Jul-2010 17:19:13 Unea :PIT Automated User
+loate:07-dul-2010 1
 [Start of Response]
+
 Peak has been test installed in Integration. Moving to holding stack awaiting release
-[End of Response]
-Response code to call type L as Category 47 (Fix Processed by PIT)° '
-The incident has been transferred  to the Team  Int-Rel
+{End of Response]
 
-       4~N~x           ^~"~i~r~~"eSl'~..     ,e,0*~~~;Aa'a`Na,"~~a'~:ra             ~~~:         "~~~"v?~,'~~ia~r;~~"+i.~~?i~'~et~~~v                     .~F.~~:'~~c~;t~~~ks~s~ "e"t.'~n.~~/                'tk~^   'h~S,sX3~'~i.'~'.g~~u.,' "r¢~i v                    .~     ^~`v~iS~ss'~~'•sc'.~'~'            ~'yc]-.
+kesponse code to call type L as Category 47 (Fix Processed by PIT)
 
-Uate:09-Jul-2010 11:13:52 User:Lionel Higman
-The call Priority 1-_as neen changed from A to B
- bne of 51 ''A' priority calls being downgraded to B in response to:
+fhe incident has been transferred to the Team: Int-Rel
+
+9:13 User:PIT Automated User
+
+jDate:09-dul-2010 11:13:52 User:Lionel Higman
+fhe call Priority has been changed from A to B
+ne of 51 ''A'’ priority calls being downgraded to B in response to:
 
 Lionel,
-Sheila [Bamber] and I have had to review the attached peaks as part of the readiness review for LST release 2. We have had a look
-and agree that none of them are true A priorities. Can you downgrade them all to B?s for us?
-Cheers
-Pat [Lywood]
 
+sheila [Bamber] and I have had to review the attached peaks as part of the readiness review for LST release 2. We have had a look
+land agree that none of them are true A priorities. Can you downgrade them all to B?s for us?
+cheers
 
+Pat. [Lywood]
 
+jDate:09-gul-2010
+Reference Added:
 
-Date:09-Jul-2010 12:12:37 lk..car:Tyrone Cozens
-Reference Added: Release PEAK SCOW 01352     u caws                                                                                                                              ; c aan        m           nx                   NS                                                         L1G #      ~ r.          k_
-                        -- — ------                                                                                                                                                                     ~               ap                S                            e      e~     ~
+Tyrone Cozens
 
-
-Da
-Date12-Jul-2010  16:2 5 :3 2 k.er- :Vi - es h Pandya
-[Start o Response]                                   ;;          -
-This baseline was released via manual release note.              =
-[End of Response]
-Response code to call type L as Category 49 -- Pending -- Fix Available for IndependentTest
-
-
-
-
-DaLe:12-Jul-2010 16:25:39 Used :Vijesh Pandya
-The Call record has been transferred  to the team:                                                                       Live Supp.Test                           1                                                 g9L
-                                                                                                                                                                       .~ ...ce. ~...,,:::.:~,•..            '.''S~`':       ~ ,.\':      ":~' :~'..                                        ::mac
-                                                                                                                                                                      z> ;:¢ =•~a3,. '~~ti ''6:~~,a~.'";'~.;           ~.~~;> ~eZ ` " 4'`c ~B'~:i+t 'k ^ `i~,,.'~                   ¢SFr :a'~'m~'-          ~'
-
-
-Date:30-Jul-2010 08:31:59     :Sheila Bamber
-[Start o_ Response]
-This peak has been tested in LST and fix will be released with Release 2 data centre
-[End of Response]
-Response code to call type L as Category 60
-
-
-
-
-Date:30-Jul-2010 09:56:18 LLOrt :John Rogers
-Testing successfully completed and documented in LST Test Script_ 1n1
-
-
-
-
-Date:23-Aug-2010 13:45:58 User:PIT Automated User
+Jbate:12-gul-2010
 [Start of Response]
- being processed as part of UNKNOWN
+
+[this baseline was released via manual release note.
+
 [End of Response]
-Response code to call type L as Category 48 (Fix Released to P1'1)
-Target Date updated: new value is 25/08/2010 18:30
 
+response code to call type L as Category 49 -- Pending -- Fix Available for IndependentTest
 
+‘Vijesh Pandya
 
+Jbate:12-Jul-2010 16:25:39 User:Vijesh Pandya
+{the Call record has been transferred to the team: Live Supp.Test
 
-Date:24-Aug-2010 08:11:06 User:PIT Automated User
+bate: 30-gul-2010 0
 [Start of Response]
-Being processed as part of UNKNOWN
+
+[this peak has been tested in LST and fix will be released with Release 2 data centre
 [End of Response]
-Response code to call type L as Category 48 (F ix Released to PI1)
-Target Date updated                     new value is 26/08/2010 18 30                                                                                                     a~           ~                ~                           ti r                ~~~y                   ~~             ~
-                                                 e        \,,,`
-                              a                                                                                                                                               r5rO                   ce''                                                             nnpaaema-
-       ,                    F   --                                                                                       ,                                                                                      ,;.s`Ks n•.            < -•u?.. - ~ ma w
-    _,...~`'`.. . __,. _. .  :...0 .. .,. _l. . °~. •.. .... .. .. ,.., .,, .. . .,~~ .sa.:...i+'~.._. .'ai3... ~.us,u,:                                                  "u~.'~'' .          _..~::~~ic                .a?:   .h~~~`'~'~_~;~a,,6..~h.~+~'•¢.r.. ~; , z+ :~C,~.a.. a~tTi~`~L~r.     z. '
 
-       ~`~+~  ~. 4,       ,
-                       . .~.`               ~s ., 5.:~•      .a         K,                                                     rte,       ~k              ~:.. `. 12:,
-                                                                                                                                                      n , ..G~     >~•          r          a,' : ,>. . <: ~s , ~=r""'~~1.~
-                                                                                                                                                                                                                       " i";~>;,.,~:t :. ,:g `             .,ti';v `~`~::
-                                                                                                                                                                                                                                                                             "'.lia~<,~~ , .t:~. ..,T. '~,`~:.,'
-             ~~,.,
-        .._ .... . s..
-                   . "~~'._..~?:L ,.                   , >)~`
-                                           .~a.,...,.~ti...°   . &
-                                                           , _,.2. ~;a. .>. -•
-                                                                             .
-                                                                          ~y>..  . ,
-                                                                                   " <~:
-                                                                               ..x'~,^..
-                                                                                      _.., o.....     ~    .: ~                      .:~?
-                                                                                                  _ ..~~...........R~;,..~".,...~•~...._.  _,:tl~~.,
-                                                                                                                                               ^.a...       •a..       ii~'s
-                                                                                                                                                                        ..'ti.. . . -~~• ~>,..  ,
-                                                                                                                                                                                               .~ rt.  x.:  ]..
-                                                                                                                                                                                                           .. a,..
-                                                                                                                                                                                                              et.~ . ,       , _h~: _~~ ~~_,.:
-                                                                                                                                                                                                                                          . ~? .  <;,)i   ,  h~i     .1>.,' ~K„    ~..   .
-                                                                                                                                                                                                                                                                                        ~`.,,C`.`•. :.
+lkesponse code to call type L as Category 60
 
+1:59 User:Sheila Bamber
 
-  I i :O1-Sep-2010 13:17:14 User:Penny Thomas
-[Start or Response]
-Fix successfully deployed, closing call .
+jbate:30-dul-2010 09:56:18 User:Jdohn Rogers
+testing successfully completed and documented in L
+
+Test Script 157
+
+Joate:23-Aug-2010 13:45:58 Uscr:PIT Automated User
+[Start of Response]
+
+Iseing processed as part of UNKNOWN
+
+[End of Response]
+
+lkesponse code to call type L as Category 48 (Fix Released to PIT)
+ffarget Date updated: new value is 25/08/2010 18:30
+
+lOate:24-Aug-2010 08:11:06 Uscr:PIT Automated User
+[Start of Response]
+
+lseing processed as part of UNKNOWN
+
+[End of Response]
+
+Response code to call type L as Category 48 (Fix Released to PIT)
+target Date updated: new value is 26/08/2010 18:30
+
+jbate:01-Sep-2010 13:17:14 User:Penny Thomas
+[Start of Response]
+
+ix successfully deployed, closing call.
 Penny
+
 [End of Response]
-Response code to call type L as Category 71 -- Final -- Fix Released to Call Logger
-Routing to Call Logger following Final Progress update.
+
+Response code to call type L as Category 71
+routing to Call Logger following Final Progr
 Defect cause updated to 14 -- Development - Code
-                                                                                                                                                FUJO0172183
-                                                                                                                                            FUJO0172183
 
+Fix Released to Call Logger
 
+FUJ00172183
+FUJ00172183
 
- ate:01-Sep-2010 13:17:24 User:Penny Thomas
- ALL P 020046ft rinsa ] Category 1 Type L
+Date:01-Sep-2010 13:17:24 Uscr:benny Thomas
+CALL PCO200468 closed: Category 71 Type L
 
-                                a,  „' :y  .w:b~i~          '.e•    ,`~      •x`   ; y,   ?s,.,   `, ',                       ' ,Za
-    ~,.«     e           "'!
-           ~•~•~~c~~,a~c>,~~sns ~+~1?i~.~~za   ,~~;'   sa   ~~1~taS~      •~~~~b                          ti'i   u` ' .   z           ^:vim:`        kY
+Root Cause Development - Code
 
+Logger Deleted User -- Security Ops
 
+Subject Product Estate Management -- Audit (version unspecified)
+Assignee Deleted User -- Security Ops
 
-Root Cause                                 Development - Code
-Logger                                     Deleted User-- Security Ops
-Subject Product                            Estate Management -- Audit (versio:
-Assignee                                   Deleted User -- Security Ops
-Last Progress                              O 1-Sep 20.10 13:17 -- Penny Thoma
-
+Last Progress 01-Sep-2010 13:17 -- Penny Thomas

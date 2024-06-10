@@ -1,0 +1,1667 @@
+POL00030283
+
+POL00030283
+FUJITSU S80 Release Note - Deferred PEAKS List - Ref: CS/REN/032
+FUJITSU SERVICES Counter Version: 1.0
+Commercial-in-Confidence Date: 13/10/2005
+
+Document Title:
+Document Type:
+Release:
+
+Abstract:
+Document Status:
+Originator & Dept:
+
+Internal Distribution:
+
+External Distribution:
+
+Approval Authorities:
+
+S80 Release Note - Deferred PEAKS List - Counter
+
+Release Note
+
+S80
+
+This document details those Peaks that are outstanding at S80
+Approved
+
+Sarah Payne, Service Introduction CS
+
+Graham Welsh, Jane Collins, Rob Chorley, Peter Goodwin,
+
+Marc Reardon, Jamie Dixon
+
+(See PA/PRO/O10 for Approval roles)
+
+Name Role Signature Date
+Graham Welsh FS Service Introduction
+Manager
+Marc Reardon POL Release Manager
+©Copyright Fujitsu Services Ltd 2005 Commercial-in-Confidence Page: 1 of 32
+
+POL-008391;393/1
+POL00030283
+
+POL00030283
+FUJITSU S0 Release Note Deferred PEAKS List - Veet CSIREN (O32
+FUJITSU SERVICES .
+Commercial-in-Confidence Date: 13/10/2005
+0.0 Document Control
+0.1 Document History
+Version No. Date Reason for Issue Associated
+CP/PEAK/PPRR
+Reference
+0.1 23/02/05 Initial draft
+0.2 13/07/2005 | 2" draft CP3918
+0.2 Review Details
+Review Comments by:
+Review Comments to: Sarah Payne
+Mandatory Review
+FS Service Introduction Manager Graham Welsh
+FS Technical Design Authority Gareth Jenkins
+CS Infrastructure & Availability Manager Carl Marx
+Post Office Ltd Marc Reardon
+Post Office Ltd Jamie Dixon
+Optional Review
+Role Name
+Issued for Information — Please restrict this
+distribution list to a minimum
+FS Technical Manager (POA Test Manager) Debbie Richardson
+FS Senior Project Manager Peter Dreweatt
+FS Programme Manager Bill Reynolds
+CS Director Dave Baldwin
+CS Business Services Manager Richard Brunskill
+CS Security Manager Bill Mitchell
+CS Release Manager John Budworth
+CS System Support Centre Manager Mik Peach
+CS Problem Manager Lionel Higman
+( * ) = Reviewers that returned comments
+©Copyright Fujitsu Services Ltd 2005 Commercial-in-Confidence Page: 2 of 32
+
+POL-0083918;;393/2
+POL00030283
+POL00030283
+
+Ref: CS/REN/032
+
+FUJITSU S80 Release Note - Deferred PEAKS List -
+FUJITSU SERVICES Counter Version: 1.0
+
+Commercial-in-Confidence
+
+Date: 13/10/2005
+
+0.3. Associated Documents
+
+Reference Version | Date
+
+Title
+
+Source
+
+PA/TEM/001
+
+Fujitsu Services Document
+Template
+
+PVCS
+
+Unless a specific version is referred to above, reference should be made to the current
+approved versions of the documents.
+
+N.B. Printed versions of this document are not under change control.
+
+0.4 Abbreviations/Definitions
+
+Abbreviation
+
+Definition
+
+0.5 Changes in t
+
+his Version
+
+Version Changes
+0.1 None
+1.0 Minor grammatical corrections & updates to PEAKs lists
+
+0.6 Changes Expected
+
+Changes
+
+None
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 3 of 32
+
+POL-0083918;;393/3
+POL00030283
+
+POL00030283
+FUJITSU S80 Release Note - Deferred PEAKS List - Ref: CS/REN/032
+FUJITSU SERVICES Counter Version: 1.0
+Commercial-in-Confidence Date: 13/10/2005
+
+0.7 Table of Contents
+
+1.0 INTRODUCTION
+
+2.0 TABLE OF PEAKS DEFERRED FROM PREVIOUS RELEASES........ccsssessssssesseessessees 6
+
+3.0 Table of Peaks identified during S80 testing
+
+©Copyright Fujitsu Services Ltd 2005 Commercial-in-Confidence Page: 4 of 32
+
+POL-0083919-/393/4
+POL00030283
+POL00030283
+
+FUJITSU S80 Release Note - Deferred PEAKS List - Ref: CS/REN/032
+FUJITSU SERVICES Counter Version: 1.0
+Commercial-in-Confidence Date: 13/10/2005
+
+1.0 Introduction
+
+This document is an addendum to the S80 Release Note detailing those Peaks, which
+remain outstanding once $80 has been implemented. This document only includes Peaks
+that impact on the counter. Data Centre PinICLs are detailed within document
+CS/REN/031
+
+The Peaks were either: -
+
+Peaks which were outstanding at S60, S70 or S75 and had previously been
+targeted at S80 or
+
+Raised in S80 testing and agreed to be deferred
+
+©Copyright Fujitsu Services Ltd 2005 Commercial-in-Confidence Page: 5 of 32
+
+POL-0083918;;393/5
+g/€0e/4
+
+fee)
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter
+FUJITSU SERVICES
+Commercial-in-Confidence
+
+Ref:
+Version:
+
+Date:
+
+POL00030283
+POL00030283
+
+CS/REN/032
+1.0
+13/10//2005
+
+2.0 Table of Peaks deferred from previous releases
+
+There are none.
+
+©Copyright Fujitsu Services Ltd 2005 Commercial-in-Confidence
+
+Page: 6 of 32
+
+POL-0083919_06
+e0e/4
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+3.0 Table of Peaks identified during S80 testing
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+PCO113449 Cc S80A CTR: Layout of SU Trial balance This is considered a low priority fix as the Low Future Release
+required information is displayed correctly. Accepted by
+Stock Unit Trial Balance Report differs from IRF (#01)
+the layout specified in the UI (EA/IFS/011) in
+that it is missing a blank line before the line
+"VALUE STOCK & MOP".
+PCO113835 Cc S80A - further logon checks after TC logon The preferred option is for Transaction Low Future Release
+
+prompt
+
+The Declaration/Correction and Revaluation
+UI (EA/IFS/012) states that the Transaction
+Correction Check should be the LAST logon
+check to be performed. On the first logon on
+of the day at a counter it is NOT the last - the
+APS Disaster Recovery/Fallback checks are
+the last.
+
+Corrections to be the last check, however it is
+not essential, as the Corrections are not being
+made to APS transactions. If we were to go
+ahead with the changes at this stage it would
+involve changes to three components, which
+could result in further problems, amounting to
+instability.
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 7 of 32
+
+POL-0083919_07
+g/€0e/4
+
+POL00030283
+POL00030283
+
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+PCO113851 Cc S80A - Format of Branch TP displayed This is considered a low priority fix and Low Future Release
+. . although introduces an inconsistency, the
+Having rolled an Office out of TPO7 into impact is ‘oi Accepted by
+: . pact is negligible. IRF (#0
+
+TPO8, selection of the 'Select Branch TP' icon (#01)
+
+displayed the message "The branch is
+
+currently in Trading Period 8." This should be
+
+'08' for consistency with other screens/reports
+PCO113979 Cc S80A CTR: Reval warning marks SU as dirty | This is a design issue rather than a coding bug. Low Future Release
+
+Prior to S80, a product price change causes Ad ae could and should allow stock units Accepted by
+
+each stock unit to marked as ‘dirty’, preventing | ' P& ToVved over as inactive after a price IRF (#01)
+
+the stock unit from being rolled over as
+‘Inactive’ (in case it holds any of the stock
+which would need to be revalued).
+
+From Point 50 this is no longer necessary
+(since stock can no longer be revalued) but
+stock units are still marked as 'dirty' on receipt
+of a price change and therefore still cannot be
+rolled over as inactive.
+
+change but it is just operating as it did prior to
+$80 (i.e. counter staff wont have to do
+anything more than they currently have to do).
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 8 of 32
+
+POL-0083919_08
+6/€0€/4
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+PCO114197 Cc S80A MIG: Screens displayed at logon This is a screen flicker and would require the Low Future Release
+: an introduction of an intermediate screen. As Accepted b
+The desktop menu is displayed before the APS | there is no opportunity for any action to be IRE rO y
+Tecovery prompts. At 70/75 this was not the | taken on the screen, i.e. button presses the F (#01)
+case, all prompts were displayed before the impact is considered low and a fix not
+first display of the desktop menu. recommended.
+PCO114419 D S80A-CTN-No space in pop-up screen of B- No impact, cosmetic change. Low Future Release
+Snapshot Accepted by
+The screen displayed while the Balance IRF (#01)
+snapshot is printing has the text 'Printing
+Report Balance Snapshot (By volume)’. There
+is no space after the word 'Snapshot'
+PCO115028 Cc S80B-MIG-In MIGROI user CAP still shows | This has not changed at S80; it has always Low For closure.
+
+as 01
+
+When logging in as MIGROI user and
+performing a migration. The System
+displayed CAP 30 automatically and
+migration was completed successfully.
+However, the information on the bottom right
+hand corner of the desktop appeared as below.
+
+Stock: DEF
+
+been like this when you log in to a new
+counter in the DEF SU. This is therefore
+recommended for closure
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 9 of 32
+
+POL-0083919_09
+OL/eoe/s
+
+POL00030283
+
+POL00030283
+red Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+
+User: MIGROI
+
+(Share)
+
+CAP 01/BP 01
+
+This was corrected once the MIGROI user is
+
+logged out and logged back in.
+PCO11S319 Cc S80A-CTR-Stock Adjust should report adjust | This is not considered to be an essential fix Low Future Release
+
+failure because it will only occur if the data is not A ted b
+
+. . ified incorrectl aay ened
+
+The failure to record volume adjustment Speci y- IRF (#01)
+
+transactions for AirLetter Single and Game
+
+License Red, even though there Was NO error To protect against this possibility a fix should
+
+reported to the UI. The failure is caused by the . .
+
+. : : be considered in a Future Release.
+
+adjustment price being outside the min/max
+
+value range for the products, so the transaction
+
+is rejected by EPOSSCore.
+PCO115852 Cc S80 - CTR - SAN gives -ve Cash volume This is a code error but the problem has been Low Future Release
+
+adjustment
+
+Cash adjustment shows as negative on the
+Transaction Log for a Stock Adjust Negative.
+
+The Cash was subsequently shown to have
+been adjusted correctly on a SU Balance
+snapshot, but it is inconsistent with other
+reports. It should be shown as a positive value
+
+in the system since before S80 and doesn’t
+appear to be causing any significant
+confusion.
+
+A KEL should be raised and a fix considered
+in a Future Release.
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 10 of 32
+
+POL-0083919_10
+Lb/eoe/d
+
+POL00030283
+POL00030283
+
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+
+because the Cash has actually been adjusted in
+
+a positive sense.
+PCO116211 Cc S80 B - ETU icon missing after session tfr Historically the menus formed a disconnected | Medium | Future Release
+
+When transferring a session from one counter,
+which is on the Mobile Phone E Products
+Services screen, to another counter for the first
+time the Vodafone icon disappears.
+
+If the user prevs out of this screen and goes
+back into the Mobile Phone E Products
+Services screen, the icon reappears.
+
+hierarchy in that each submenu has a single
+parent menu, and thus the branches of the
+menu tree always move outwards from the
+root and never join back onto other branches.
+To avoid large-scale reference data
+duplication, at S60 release some submenus
+that are shared by 2 of more branches have
+been introduced. For example, the 'Mobile E
+prods’ menu is specified just once in reference
+data but it appears on both the following
+menus: -
+
+Transactions/Serve Customer/Other Products
+Transactions/Serve Customer/Other
+Products/Travel
+
+This sharing of menu data appears to be
+confusing the Desktop when it restores the
+customer session on a destination counter
+during a session transfer. The Desktop fails to
+display the icon on the first (top left) button on
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 11 of 32
+
+POL-0083919_11
+ZL/eoe/s
+
+POL00030283
+POL00030283
+
+roo Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+
+Target Release
+
+the shared menu, if that icon has never been
+displayed on that counter since the Desktop
+was last cycled. It is only menus shared in this
+way that experience the problem. The list of
+menus affected in this way is given below.
+
+Transactions/Serve Customer/Other
+Products/Mobile E prods
+Transactions/Serve Customer/Other
+Products/Travel/Mobile E prods
+
+Transactions/Serve
+Customer/Functions/smartpost Admin
+Transactions/Non Acc
+Data/Functions/smartpost Admin
+Transactions/Non Acc Data/Other Non
+Acc/Functions/smartpost Admin
+
+Transaction/Remittances/Out ADC.
+Transaction/Remittances/Out ADC/Stock/Out
+ADC
+
+On the basis that this will be a rare occurrence
+and the fact that Reference Data to deliver
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 12 of 32
+
+POL-0083919_12
+eLeoe/a
+
+POL00030283
+
+POL00030283
+red Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+approximately 100 additional buttons would
+be required, we do not suggest this is fixed at
+S80. Recommend for Future Release.
+PCO116293 Cc S80B CTR: SU imbalance warning clears This is not a new problem at $80 and the Low Future Release
+automatically problem of SP imbalance is not a regular Accepted by
+If there is an imbalance in a SU then a occurrence, Also, the message tablet Is IRF (#01)
+ee ge . . displayed for the duration of time it takes to
+warning is displayed at rollover. This warning int th
+has a "Continue" button and should not be print the report.
+cleared until the clerk presses the button, but it
+actually clears by itself. So if you're not
+looking at the screen you may miss seeing this
+message.
+PCO116581 Cc S80B CTR Trans Corrections OnLine Err A new report definition would be required for Low Future Release
+
+message
+
+If a Transaction Correction fails to process at
+the counter the correct message appears on
+screen and on the print out, however the top of
+the receipt print out also includes the text 'On-
+line services unavailable’. This is obviously
+misleading and would probably be reported to
+NBSC by the Post Master when he called with
+the reference number for the failed TC.
+
+this printed slip, the suggestion is as it is only
+visible to the PM and since it is only used for
+when he is going to call NBSC as long as the
+text is regarded as irrelevant this would not
+cause an issue.
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 13 of 32
+
+POL-0083919_13
+vLicoeia
+
+POL00030283
+POL00030283
+
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+PCO116972 Cc S80C - Session transfer with mails items on Development have analysed the problem and Low Future Release
+
+stack
+
+In the course of testing it has been found that
+session transfer with Track and Trace items on
+the stack is taking longer than does session
+transfer with non-Track and Trace items on
+the stack. The length of time it takes has
+varied - on some occasions it has been almost
+as quick (a few seconds) as a session transfer
+with non-track and trace items but on other
+occasions it has taken as much as 3 and a half
+minutes.
+
+concluded the following:
+
+i) All session transfers are thought to be
+slower within 2 migration windows:
+
+(1) From Counter Roll-out (Point 20) until
+the end of the CAP when the CBDB is
+switched off
+
+(2) The last CAP until the first TP inclusive
+
+(ii) However transfers with mails transactions
+appear to be taking significantly longer at S80
+compared with S75.
+
+As T&T is only in pilot until post $90, it is
+likely that this problem will not be an issue for
+the bulk of the estate.
+
+Part (i) we can’t do anything about - it is
+believed to be only a problem during S80 CAP
+to TP migration. So the recommendation is
+that we publish a KEL.
+
+Part (ii) is under investigation with Escher.
+Component showing problem is Escher
+
+desktop, so a fix at S80 is unrealistic. If an
+Escher fix is identified and can be supplied
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 14 of 32
+
+POL-0083919_14
+SLicoeia
+
+POL00030283
+POL00030283
+
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+within the necessary timescales this could
+potentially be included at S90.
+PCO117023 Cc S80 E2E: Pouch dispatch msg wrong for nil This problem has existed since before S80 and Low Future Release
+pouch foes not appear to be causing any problem in Accepted by
+. IRF (#01)
+When an ACC card is scanned when there are
+no pouches to collect, the system A KEL will be raised and the call closed.
+displays a message 'Pouch Despatch
+Successful’, however this is immediately
+followed by another message 'No Pouches to
+Despatch’.
+PCO117096 Cc S80C-T&T- Error on speed bulk receipt. Low risk cosmetic change. Low $90
+There is an inconsistency between the Accepted by
+Mails/Bulk Mails receipts and the Speed Bulk IRF (#01)
+receipt.
+The Mails/Bulk Mails receipt states: - Posted
+after Last Collection?
+The Speed Bulk receipt states: - Posted After
+Last Collection?
+The 'A' in "After" is in uppercase on the Speed
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 15 of 32
+
+POL-0083919_15
+9L/eoe/d
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+
+Bulk receipt and in lower case on the
+
+Mails/Bulk Mails receipts.
+
+For consistency the 'a' should be in lower case
+
+on all receipts.
+PCO117173 Cc S80C CTR: Format of SU Snapshot The problem here is consistency as the SU Low Future Release
+
+. __ | Snapshot should be identical to the SU Final Accepted b
+
+Format of new-style SU snapshot report does | Balance Report. The missing lines will IRE (#01) y
+
+not conform to the design - it should not always be zero. This would be a medium
+
+contain lines for Discrepancy Shortages change in the code and is therefore not
+
+Transferred or Discrepancy Excess recommended at this stage.
+
+Transferred
+PCO117310 Cc S80 E2E: First logon displays malformed Raised as an incident during end-to-end Low Future Release
+
+screen testing but subsequently agreed to be of a low
+
+priority and deferrable to a future release.
+
+On the first logon of the day, the DESKTOP.
+
+screen is displayed for a few seconds with a
+
+number of empty ‘white boxes’.
+PCO117852 Cc S80C-TCO-Print error results in Option list The only reasons a failure would occur at the Low Future Release
+
+again
+
+If an error occurs while processing a
+Transaction Correction (TC) and the Print
+
+counter is if the TC was for a Non Core
+product not available at that office or if the
+end date of the product or mode has passed
+(after the TC products and modes were
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 16 of 32
+
+POL-0083919_16
+Lbeoe/s
+
+POL00030283
+POL00030283
+
+[oo] Ref: S,
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version: CSIREN/032
+FUJITSU SERVICES ersion: 1.0
+
+Commercial-in-Confidence Date: 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+option is selected, after the Error has printed validated by TPS). These situations are
+the user will not be returned immediately to unlikely to arise in live and this peak has
+the TC list screen. They will briefly see either | therefore been moved to Future Unspecified.
+the TC settlement options or the
+Housekeeping Menu before being returned to
+the list of TCs. The user will briefly see one of
+the following screens:
+(a) The settlement options list again i.e.
+‘Make Good: Cash’, ‘Settle Centrally’,
+etc, if the TC just attempted had
+“Accept Now’ then ‘Make Good’ or
+“Settle Centrally’ selected before the
+error.
+(b) The Housekeeping Menu if the TC just
+attempted had 'Assign to HO'" 'Send to
+P&L' or 'Stock WO' selected before
+the error.
+PCO118048 Cc S80D-CTR-Isolated node warning * 2 on Coding error results in two different Low Future Release
+some reports components issuing warning message (so a fix Accepted by
+would require changes to both components). IRF (#01)
+On the gateway with the slave disconnected - Affects 4x reports in total.
+if the Processed Transaction Correction report | Problem does not affect functionality.
+is printed, the isolated node warning appears
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 17 of 32
+
+POL-0083919_17
+sLieoe/a
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+twice. KEL Mscardifield1738R raised and proposed
+that a fix is considered at a Future Release
+PCO119894 Cc S80D-TCO-text appears bottom right The current mode is being flashed up at the Low Future Release
+-Detail/Options pottom RH on the sereeh. The (Esches) Accepted by
+When Accept Now then Make Good: Cash is esktop component Is Coing this . IRF (#01)
+in: n automatically whenever the mode is changed.
+selected from the 'Display Transaction . . on
+5 . Ly . ‘ This happens elsewhere in the existing product
+Correction Options' screen white text saying . . .
+"A 1 but is particularly noticeable in the new
+cept Now' appears T ion C tion functions
+briefly at the bottom right hand corner of the Tansaction Correction functions
+screen, just below the 'OK' button. It KEL Mscardifield4232P has been raised and
+disappears when the ‘Transaction Correction proposed that a fix is considered at a Future
+Completed' screen appears. Release.
+PCO119913 Cc S80D - CTR - SU Trial balance layout See also PCO113449. Low Future Release
+This is an error in the coding of the report but Accepted by
+Missing and additional blank lines appearing does not affect functionality. IRF (#01)
+on the SU Trial Balance Propose fixing at a Future release
+PC0119991 Cc S80D Dev: MiMan into TP mode - report The scenario where an office is MiManed, will Low Future Release
+
+problem
+
+An office is Mimaned into TP Mode and a
+report produced which includes selection of a
+
+only impact a small number of offices. The
+report can still be produced and its content is
+correct (it is only the selection picklist which
+is wrong) and the problem disappears after the
+first Trading Statement is produced.
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 18 of 32
+
+POL-0083919_18
+6L/e0e/4
+
+POL00030283
+POL00030283
+
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+TP (e.g. Transaction Log). The TP selection KEL Mscardifield2626L has been raised and
+picklist for the report shows the current TP as_| proposed that a fix is considered at a Future
+'CAP' - e.g. instead of showing TP7 it shows Release.
+CAP7.
+PCO0120060 D S80D CTR: Reprint error message overlaps Cosmetic fix, considered to be of no Business Low Future Release
+tablet Impact. Accepted by
+Select Reprints/SU Balance and select a stock IRF (#01)
+
+unit.
+Select Continue without selecting a CAP/TP
+
+At S75 the message displayed is split across 2
+lines
+
+No CAP/BP Criteria
+
+specified
+
+At S80 the message is displayed on a single
+line
+No TP/BP Criteria specified.
+
+This makes the message too long to fit into the
+error tab
+
+The final letter (d) overlaps the RH edge of
+the tab
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 19 of 32
+
+POL-0083919_19
+ozeoe/4
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version: 1.0
+FUJITSU SERVICES am
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+PC0120245 Cc S80D DCS: Can settle cheque by debit card This is an unlikely scenario and not a new Medium | Future Release
+The Settlement menu was selected with re a S80. Itis only a problem rine Accepted by
+nothing on the stack (i.e. via the Functions ettlement menu 1s on Isplay wit nothing on IRF (#01)
+menu). ‘Cheque! was the selected and a value the stack a under normal circumstances where
+of £30 entered. This correctly showed on the a cheque is used in part payment against, say,
+stack as 'Pay £30.00. A Debit Card was a TV licence, then the max and default
+inserted in the Pin Pad and Chip and Pin amounts for the Debit card payment are
+selected. Since there was no money owed by calculated correctly.
+the customer the system should not have
+allowed a debit card payment to be made.
+Instead the amount display showed session
+total -30.00, max amount 30.00, default
+amount 0.00 and a DC transaction for £30.00
+was completed. The stack now showed that
+the customer was to be paid £60.
+PC0120467 D S80D-CRE-Printing report APS trans list Only this report is affected and, while the text Low Future Release
+(S80) (ss) is unnecessary, r has no impact on the Accepted by
+When the APS transaction report is printing, at production or content of the report. IRF (#01)
+an S80 counter, the Printing report tablet has
+the message: 'Printing Report APS
+Transaction List (S80)'. The text '(S80)' is
+superfluous.
+PC0120468 Cc S80D-CRE-Misce Trans report shown as 0/s This is not a new problem at S80 and is highly Low | Future Release
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 20 of 32
+
+POL-0083919_20
+bz/eoe/s
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version: 1.0
+FUJITSU SERVICES am
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+unlikely to occur in Live. For the problem to Accepted by
+The 'Summaries' button was selected from the | °°°¥" it is necessary NOT to have performed IRF (#01)
+Balancing menu and the picklist of any of the transactions normally included on
+outstanding reports displayed. That picklist this report, e.g. Parcel Traffic and BdC, and to
+included the Miscellaneous Transactions have performed non DVLA APS transactions
+report. The report was selected and printed. It (which are not included on the report). The
+was empty. part of the system that determines what
+appears on the outstanding summaries pick list
+does not recognise that all other APS
+transactions are excluded from the report.
+PC0120471 Cc S80D-CBL-adj stock: no error on invalid po The problem only arises if adjustment price is Low Future Release
+
+fee
+
+In Adjust stock, if an attempt is made to adjust
+a product and that product has an ‘adjustment
+price’ which is not within the product min/max
+value then the adjustment is not made and an
+error event is written to the event log.
+
+If an attempt is made to adjust a Postal Order
+product and the associated PO fee product has
+an adjustment price which fails the min/max
+value validation then, again, the system does
+not make the adjustment but this time it DOES
+
+set on PO fee products (don't believe this will
+be the case in Live) AND the reference data is
+incorrectly specified (e.g. the min/max values
+are wrong). The system will behave as it
+should - no adjustment is made - but the lack
+of diagnostic information will make it a bit
+more difficult to diagnose the problem. No
+Business Impact - proposed for fixing at a
+future release.
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 21 of 32
+
+POL-0083919_21
+eze0e/s
+
+POL00030283
+
+POL00030283
+red Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+NOT write an error to the event log.
+PC0120509 Cc S80D-CBL-Discrepancies after attempted This problem dates from before S80 - i.e. is Medium | Future Release
+inact ro present in the S75 counter. The scenario is an Accepted by
+unusual one and one which does not appear to IRF (#01)
+In this test the office had two stock units, S1 have ever happened in Live. A fix at this
+and II. I] is inactive but holds a product, stage would be considered high risk and it is
+which has been re-valued and as such, the SU__| therefore proposed to raise a KEL and propose
+cannot be rolled over as inactive. In $1 all a fix for a Future Release.
+declarations were made without discrepancy.
+An attempt was then made to roll Il over as
+inactive. The appropriate error was displayed.
+Still in S1, the 'Discrepancies' button was then
+selected and discrepancies were displayed for
+cash and stamps. The value of the
+discrepancy in each case was the value
+calculated for I.
+PC0120545 D S80D-CRE-bal reports: blank lines after tfr While this DOES comply with the layout Low Future Release
+
+in/out
+
+On Balance reports there are two blank lines
+after the 'Transfers In' line (and before the first
+Rem in line) and only one blank line after the
+‘Transfers Out' line (and before the first Rem
+
+given in the IFS (EA/IFS/011), it is
+inconsistent. Cosmetic fix, with no Business
+Impact, suggests the document is amended to
+reflect.
+
+Accepted by
+IRF (#01)
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 22 of 32
+
+POL-0083919_22
+ez/eoe/s
+
+POL00030283
+
+POL00030283
+[oo] Ref: S,
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version: CS/REN/032
+FUJITSU SERVICES ersion: 1.0
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+Out line).
+PC0120670 D S80 Frequency of CMService Msgs if ADSL | This problem is not new at S80 and has no Low Future Release
+Disconnect Business Impact; the impact is to the support Accepted by
+eams in diagnosis of the problem. IRF (#01)
+If, atan ADSL office, the ADSL connection is
+lost the CMService constantly outputs a
+warning message (ID 125) approx every 60
+seconds and an error message (ID 132) after
+every five ID 125 messages.
+PCO0120783 Cc S80D-CTN-Mob E-prods button not locked Though this is inconsistent behaviour of the Low Future Release
+when offline buttons and both should be displayed as Accepted b
+locked in this scenario, any button driven ETU pied ®Y
+. I » any IRF (#01)
+The 'Mobile E prods' button transaction attempted could not be completed
+(Transactions/Serve Customer/Other if there is no on-line connection.
+Products/Mobile E prods) is disabled when the
+off-line indicator is on display. However, this
+button also occurs on the Other
+Products/Travel submenu and that second
+instance of the 'Mobile E prods’ button does
+not get disabled when the off-line indicator is
+on.
+PCO120812 D S80D-CTR-Incorrect message header & No No Business impact, cosmetic fix only. Low Future Release
+
+space
+
+Accepted by
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 23 of 32
+
+POL-0083919_23
+pz/eoe/a
+
+POL00030283
+
+POL00030283
+red Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+IRF (#01)
+The message displayed when a stock unit is
+rolled over with a discrepancy (post Point 50)
+has the header 'Discrepancy Transferred’. The
+screen shot for this message in the IFS
+(EA/IFS/013, section 4.2.10) has the header as
+‘Discrepancy Transfer’.
+Also, in the text of the message there is no
+space between the sign of the discrepancy
+figure and text '(Loss)' or (Gain)' (e.g. £50
+loss appears as '£50.00-(Loss)'.
+PCO120873 Cc S80D-MIG-Event log has CAP in heading We believe this to be a low Business Impact Low Future Release
+after P50 and as such recommend fixing in a Future
+Accepted by
+Release. IRF (#01)
+The Event Log reports continue to show 'CAP'
+in the column headings after Point 50:
+SU USER CAP BP NODE
+DATE AND TIME EVENT TITLE
+EVENT DESCRIPTION
+PCO121001 Cc S80 E2E Ib: Parcel Traffic pick list re- Raised as an incident during end-to-end Low Future Release
+
+displayed
+
+testing but subsequently agreed to be of a low
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 24 of 32
+
+POL-0083919_24
+Sz/eoe/s
+
+POL00030283
+
+POL00030283
+[oo] Ref: S,
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version: CSIREN/032
+FUJITSU SERVICES ersion: 1.0
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+When £0.00 Value, 0 quantity Parcel Traffic priority and deferrable to a future release.
+entries are made for each ‘product’ in the PT
+pick list, a message tablet is output alerting the
+user to the zero entries. When the message is
+confirmed that the zero entries are correct, the
+pick list screen is re-displayed for a second or
+two before the receipt is printed.
+The pick list is not re-displayed when
+quantities other than zero are used, nor is it re-
+displayed for this scenario on an S75 counter.
+PCO121136 Cc S80D-CTN-Rem/Tfr reversal receipts show This has been looked at by Phil Hemmingway Low Documentation
+vol 0.00 (Design). He notes that the content of reversal update
+
+On Rem and transfer in and out receipts,
+volume stock items are shown with value
+blank. If a Tfr out is reversed or a Rem In/Out
+volume stock transaction is reversed then the
+receipt produced is a 'normal' session receipt,
+which has unit price/value zero ('0.00') for the
+volume stock products.
+
+receipts is not specified in the Report
+Production User Interface document
+(EA/IFS/011). However he believes that
+‘stating an item has been reversed at zero item
+value, giving a total reversal value of zero is
+correct and representative of what has
+happened.’
+
+He therefore believes there is 'no fault’ but
+suggests that the IFS is updated to record the
+fact that volume stock products appear on
+reversal receipts with value 0.00.
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 25 of 32
+
+POL-0083919_25
+9z/eoe/s
+
+Fe)
+FUJITSU
+
+FUJITSU SERVICES:
+
+S80 Release Note - Deferred PEAKS List - Counter
+
+Commercial-in-Confidence
+
+Ref:
+Version:
+
+Date:
+
+POL00030283
+POL00030283
+
+CS/REN/032
+1.0
+13/10//2005
+
+Peak
+
+Priority
+
+Description
+
+Analysis and Proposal
+
+Severity
+
+Proposed
+Target Release
+
+Update: PO Ltd has requested that this be
+fixed at S80. The peak has been further
+discussed by design and development and both
+are strongly of the opinion that to make such a
+change at this point would carry considerable
+risk. Currently, the reversal receipt is a generic
+session receipt (i.e. it is already different from
+the Rem and Transfer receipts). This is
+because 'reversal' is also a generic function
+(used for all modes). To accommodate the
+change, reversal functions and receipts that are
+specific to Rems and Transfers would have to
+be developed. If a change is required then the
+details need to be agreed between FS and
+POL.
+
+PC0121249
+
+S80D-CBL-Office snapshot has Reval
+up/down
+
+Post Point 50, the office snapshot still contains
+‘Reval Up' and 'Reval Down' lines. These
+should not be present (and are not present on
+SU Balance snapshot and Trial and Final
+balance reports).
+
+We believe this to be a low Business Impact
+and as such recommend fixing in a Future
+Release.
+
+Low
+
+Future Release
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 26 of 32
+
+POL-0083919_26
+Lz/e0e/4
+
+POL00030283
+
+POL00030283
+red Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+
+PCO121314 Cc S80 E2E 1b: CD Giro slip Despatch Date in yr | This has already been accepted by PO Ltd as Low Future Release
+
+1-9 deferrable and the related incident updated
+
+accordingly.
+
+The peak was raised during E2E testing
+
+(Incident 2659).
+
+Girobank pre-printed stationery reports were
+
+produced at Office D (506 880), cycle 1b, day
+
+10. The space to the right of the datestamp box
+
+has a space for printing of the Stock Unit,
+
+Week Number and Balance Period, shown in
+
+the format of AA:09:01. This is being printed
+
+as AA: 9:01."
+PCO121925 Cc S80 E2E 2: Shared SU Cash dec Gain after Development believes that this incident (and a | Medium | Future Release
+
+mig > TP
+E2E Cycle 2 Incident 2783
+
+A cash declaration was made in "Stock
+Balancing" for the amount displayed on the
+Snapshot. When the Cash Variance was
+checked afterwards a Gain of £45.05 was
+displayed.
+
+second similar incident in Cycle 3) was caused
+by a problem in Riposte and that that problem
+is an existing and very intermittent ‘live’
+problem. The concern has been that the E2E
+incidents suggested that the problem - a
+Riposte procedure does not return details of all
+transactions when called to build the ‘balance
+tree' - is occurring more frequently at S80.
+
+However, in automated testing in which the
+test scenario was repeated more than 10,000
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 27 of 32
+
+POL-0083919_27
+8z/eoe/d
+
+Fe)
+FUJITSU
+
+FUJITSU SERVICES:
+
+S80 Release Note - Deferred PEAKS List - Counter
+
+Commercial-in-Confidence
+
+Ref:
+Version:
+
+Date:
+
+POL00030283
+POL00030283
+
+CS/REN/032
+1.0
+13/10//2005
+
+Peak
+
+Priority
+
+Description
+
+Analysis and Proposal
+
+Severity
+
+Proposed
+Target Release
+
+The discrepancy was the cash value of the
+transactions performed on the stock unit after
+rolling into Branch Trading."
+
+times, the problem did not occur once. It is
+suspected that the rig set up on E2E has
+contributed to the problem occurring and there
+is no reason to believe that live will see any
+more instances once at S80.
+
+As stated above the underlying cause would
+require an Escher delivery. This would not be
+available for S80 or S80R. Development will
+continue to investigate to identify whether a
+‘work round' change could be made in our
+code.
+
+PCO121959
+
+S80D EMV: Retail card with invalid LUHN
+
+When a card fails the LUHN check, the
+customer is still asked to enter a PIN, before
+the error is reported to the clerk. This is
+different behaviour to pre-S80.
+
+This change in behaviour is thought to have
+occurred between the 557 (S70) and the 560
+(S75) versions of the PINPad.
+
+It is an unlikely occurrence (corrupt card or
+hardware problem) and the error is handled
+cleanly if it ever should occur.
+
+The PEAK will be treated as a low priority
+Hypercom problem for further investigation at
+S90. We recommend that this PEAK should
+be deferred until a later release.
+
+Low
+
+Future Release
+
+PC0122000
+
+S80 E2E 2: 'Date produced' for B.Trading
+
+This is felt to be of low Business Impact.
+
+Low
+
+Future Release
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 28 of 32
+
+POL-0083919_28
+6z/e0e/4
+
+POL00030283
+
+POL00030283
+od Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+reprint
+E2E Incident 1937
+For a reprint of a Branch Trading statement all
+screens now show correct captions but 'Date
+Produced line is still missing from the
+Produce Report screen.
+PC0122003 Cc S80 E2E 2: Vol stock sort order Office/SU On investigation Development have found that | Medium | Future Release
+snaps this problem, which affects all products that
+. do not have a Level 1 Primary Mapping, has
+E2E I it 279.
+neiden 795 existed in Live since 2001. On that basis, Po
+Stock Unit and Office Snapshots were Ltd have already signalled their willingness to
+produced at Office B (501 680) today (Cycle | accept deferral until a future release.
+2, Day 8). On referral to the "Stock Volumes"
+section, the £1 Littlewoods Lotto Scratchcards
+appeared before the £2 ones on the Office
+Snapshot, but the other way around on the
+Stock Unit Snapshot.
+PCO0122856 Cc S80 E2E 3: Reprint for blank OW Redeem Stp | This problem is felt to have a low business Low Future Release
+
+report
+E2E Cycle 3 incident 3032
+
+When re-printing a "Redeemed Savings
+
+impact and a change for S80 would, at this late
+stage, be risky. It is therefore proposed that it
+should be fixed at a Future Release.
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 29 of 32
+
+POL-0083919_29
+oe/eoe/s
+
+Fe)
+FUJITSU
+
+FUJITSU SERVICES:
+
+S80 Release Note - Deferred PEAKS List - Counter
+
+Commercial-in-Confidence
+
+Ref:
+Version:
+
+Date:
+
+POL00030283
+POL00030283
+
+CS/REN/032
+1.0
+13/10//2005
+
+Peak
+
+Priority
+
+Description
+
+Analysis and Proposal
+
+Severity
+
+Proposed
+Target Release
+
+Stamps" report, there is an option to print a
+report that is blank. This particular report
+seems to be produced by the implied cut-off
+
+being set at the roll over of the Trading Period.
+
+The report was printed at Office E (004 038)
+and had the date range of 04/07/2005 -
+04/07/2005. There was a Trading Statement
+produced on this date at this office."
+
+PCO122911
+
+Cc
+
+S80 E2E 3: T&T Mails Dsptch Report Page 2
+header
+
+E2E Cycle 3 Incident 3019
+
+Mails Despatch" report for "All Carriers" was
+produced at Office E (004038) which included
+transactions for both Royal Mail and
+Parcelforce. The header from page 2 was
+printed on the bottom of page lof the report.
+This office uses the "Epson" back office
+printer. When the same scenario was
+completed at Office F (505 038) the header
+was printed correctly. Office F uses the "OKI"
+back office printer."
+
+The problem only occurs where EPSON
+printers are used and has minimal business
+impact. PO Ltd has already agreed that the
+associated incident should be deferred.
+
+Low
+
+S90R
+
+PCO122916
+
+S80D: T&T Mails Dsptch Report shows
+
+The problem is not a serious one - the report
+
+Low
+
+Future Release
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 30 of 32
+
+POL-0083919_30
+be/eoe/s
+
+POL00030283
+
+POL00030283
+[oo] Ref: S,
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version: CSIREN/032
+FUJITSU SERVICES ersion: 1.0
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+Target Release
+details n/a includes all of the data that is available - and
+only arises for transactions that are more than
+
+If a Mails Despatch Report is reprinted for a 42 days old.
+
+period for which the original transactions have
+
+been archived then, as per design, the report
+
+includes for each archived transaction the
+
+message "T & T details not available. The data
+
+has been archived. NaN' followed by the
+
+barcode. The text 'NaN' should not be
+
+included.
+PC0122950 Cc S80 E2E 3: Txn Corr report for A&L shows Various Products (e.g. 108, 111, 135, 166, Low Future Release
+
+A&&L
+E2E Cycle 3 Incident 3019
+
+"4 Transactions Corrections were received at
+Office E (004 038) for items 6790, 6791, 6792
+and 6793. The names for these products are
+"A&L Deposit TC", "A&L Withdrawal TC",
+"NS&I Deposit TC" and "NS&I Withdrawal
+TC". The names are displayed correctly on the
+counter screen, although when the outstanding
+transaction corrections report is printed, they
+are shown as "A&&L Deposit TC", "A&&L
+
+173, 177-179, 181-186) contain a double
+ampersand in one or more of the Short,
+Medium and Long name attributes. This is
+necessary to allow the single ampersand to be
+displayed on the screen. Existing reports,
+which include these products, suppress the
+second ampersand. The Transaction
+Correction reports (new at S80) do not.
+
+Given that only a relatively small number of
+TCs are likely to be affected and the problem
+is cosmetic with low business impact, it is
+proposed that it is fixed at a future release.
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 31 of 32
+
+POL-0083919_31
+zeeoe/a
+
+POL00030283
+POL00030283
+
+roo Ref: CS/REN/032
+FUJITSU S80 Release Note - Deferred PEAKS List - Counter Version:
+ersion: 1.0
+FUJITSU SERVICES
+Commercial-in-Confidence Date: — 13/10//2005
+Peak Priority | Description Analysis and Proposal Severity | Proposed
+
+Target Release
+
+Withdrawal TC", "NS&&I Deposit TC" and
+"NS&&I Withdrawal TC" respectively."
+
+©Copyright Fujitsu Services Ltd 2005
+
+Commercial-in-Confidence
+
+Page: 32 of 32
+
+POL-0083919_32

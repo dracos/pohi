@@ -1,0 +1,541 @@
+WITN08100100
+WITNO8100100
+
+Witness Name: Sudip Sur
+Statement No.: WITN08100100
+Dated: 21 March 2023
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF SUDIP SUR
+
+|, MR SUDIP SUR, will say as follows:
+
+INTRODUCTION
+1. | am a former employee of Fujitsu Services Limited (“Fujitsu”). | left Fujitsu in
+
+2017 and | am currently retired.
+
+2. This witness statement is made to assist the Post Office Horizon IT Inquiry (the
+“Inquiry”) with the matters set out in the Rule 9 Request provided to me on 23
+January 2023 (the “Request’). | was assisted in preparing this statement by
+
+Morrison Foerster, who represent Fujitsu in the Inquiry.
+
+3. The topics set out in the Request concern events that occurred between 5 and
+23 years ago. | have set out my best recollection of these events in this
+statement, which relate to (i) the Known Error Log (“KEL”) system, (ii) PinICL
+and Peak systems, (iii) Fujitsu’s System Support Centre (“SSC”) (also called the
+Software Support Centre), (iv) the identification and rectification of bugs, errors
+
+or defects (“bugs”) in the Horizon IT system (“Horizon”), and (v) remote access
+
+Page 1 of 15
+WITN08100100
+WITNO8100100
+
+to Horizon. | have tried my best to remember these events, but it has been many
+years since | worked at Fujitsu and on Horizon, and my memory is vague on
+
+many specific issues.
+
+BACKGROUND
+
+4. | completed my high school education in India, as well as my first undergraduate
+degree, which was from Calcutta University, Kolkata. Following this, | completed
+a second undergraduate degree in Electronic and Electrical Engineering at the
+University of Manchester, England. | then completed a Masters Degree in Power
+
+Electronics at Loughborough University, England.
+
+5. Following university, | worked with a few different companies before joining ICL
+Limited (“ICL”) many years ago. My initial professional life was in computer
+hardware engineering and after completing my Masters Degree, | worked
+professionally to design and develop communications equipment and other
+electronic hardware. | recall | first joined ICL in 1982 as a professional computer
+hardware engineer. After a few years | left ICL to work for Racal Milgo as
+Principal Hardware designer before rejoining ICL 1987. During my second stint
+at ICL, | started working in software engineering, and rapidly trained up to
+
+become a software engineer.
+
+6. | joined the SSC during the year 2000 as a third line technical software support
+engineer. When | joined the SSC, it was called the European Development
+Support Centre (“EDSC”) and | served under its manager Mik Peach. | later
+reported to Steve Parker, who became SSC manager soon after Mik Peach left
+Fujitsu. When | joined the SSC, Horizon was already live in numerous Post Office
+
+branches. | worked in the SSC until | retired during the year 2017.
+
+Page 2 of 15
+WITN08100100
+WITNO8100100
+
+KEL SYSTEM
+7. The KEL system was written primarily by SSC. We would call a known error
+
+logged on the KEL system as a KEL.
+
+8. The KEL system was used by the SSC to log all known and reported errors, and
+to provide instructions on how postmasters should avoid such errors or what to
+do if such errors occurred. As far as | remember, the frontline support team
+(known as the Horizon Support Desk or “HSD”) and the second line support team
+(known as the Systems Management Centre or “SMC”), had read-only access to
+KELs. The Management Support Unit (“MSU”) had read access as well as KEL
+
+template creation for the SSC team to investigate problems.
+
+9. As far as | recall, MSU team members had regular contact with the Network
+Business Support Centre (“NBSC”) to report responses sent by SSC after an
+investigation or other error-related issues. The MSU team had the responsibility
+to monitor events or errors reported from the data centre in the form of different
+“event reports”, but | cannot remember the exact names of these reports. MSU
+would raise Peak calls and pass them to SSC for investigation. After an
+investigation, SSC would provide responses to MSU via the Peak system
+regarding why the event was raised, and if there was any reconciliation needed
+for postmasters (at paragraph 23(b) below, | provide an example of this process).
+MSU's responsibility was to communicate responses provided by SSC to NBSC
+if needed, and NBSC would do the reconciliation. The MSU also received
+exception reports generated from the data centre due to abnormal/failed
+transactions. Following such failure/s MSU would raise Peaks as well as a new
+
+template KEL/s if necessary.
+
+Page 3 of 15
+WITN08100100
+WITNO8100100
+
+10. KELs were written mainly for members of HSD and SMC. At Fujitsu, HSD were
+the main point of contact for postmasters. The KEL database had a facility for
+reported problems, and my recollection tells me that HSD and SMC had access
+to search the KEL database for reported problems. If no KEL was found then it
+was their duty to raise an incident explaining the problem and highlight that no
+
+KEL existed.
+
+11. In my view, the KEL system served its purpose if used correctly, wisely and with
+patience. During my time with SSC, | experienced some HSD staff acting a little
+impatiently or not reading the KEL at all, or reading the KEL and not taking
+appropriate action to pass the call to SSC for action. My recollection tells me
+that this problem was mainly with the HSD where staff turnover was high, which
+| understood through my telephone conversations with HSD colleagues, and not
+all staff were fully trained on how to access or search the KEL system. If HSD
+staff did not find a KEL they would raise an incident call suggesting no KEL
+existed. When the call was investigated by SSC and a KEL was found the
+
+incident would be sent back with the KEL details to help postmasters.
+
+PINICL AND PEAK SYSTEMS
+12. The Peak system is a call logging system. We would call an incident logged on
+
+the Peak system as a Peak or call.
+
+13. Peak calls were used to report various errors, for example, Horizon counter error,
+potential software error, data centre error, postmaster reported errors. The Peak
+system was developed within SSC and was widely used by the SSC and the
+fourth line software development team. In my view, the Peak system served its
+
+purpose for logging software errors, usability issues, and to help postmasters via
+
+Page 4 of 15
+WITN08100100
+WITNO8100100
+
+HSD and MSU team members. | cannot remember much about the PinICL
+
+system as it has been many years since | used it.
+
+14. As far as | remember, the calls logged on the Peak system were prioritised as
+
+follows:
+
+a. Priority A: Business stopped, postmaster unable to run business.
+
+b. Priority B: Business not stopped but Horizon functionality failing.
+
+c. Priority C: Business not stopped but postmaster needs help or advice.
+
+15. There were other lower priorities for calls but | cannot remember the details. HSD
+initially assigned the call priority based on their experience and the reported
+
+problem. SSC were able to upgrade or downgrade priorities if necessary.
+
+16. Peak calls would be considered closed:
+
+a. When an error was resolved by delivering a software fix.
+
+b. After providing a workaround. If the reported problem had a higher
+priority ("A” or “B”), the SSC would call the postmaster as a matter of
+courtesy and pass on information about the known issue and
+
+workaround.
+
+c. Providing a KEL number that described the known issue reported in the
+past. SSC would pass the KEL number to HSD to convey the known
+
+issue and workaround to postmasters or the call logger.
+
+d. If the Peak call was an enhancement request and not a design fault. As
+
+far as | remember, enhancement requests would be made if a reported
+
+Page 5 of 15
+WITN08100100
+WITNO8100100
+
+problem was found to be “no error” and the system was working as per
+design specifications agreed with Post Office Limited (“POL”). For
+enhancement requests, the Peak would be sent to the development
+team to register the request. Once the request has been registered, the
+call was returned to the call logger to convey the message to the
+postmaster. The error condition was also included in the enhancement
+request list, if | recall correctly, for management meetings with POL,
+
+which was not involved in.
+
+SOFTWARE SUPPORT CENTRE
+
+17. SSC team members were highly technical and highly motivated to help POL and
+postmasters. Within SSC, the team was split to provide different levels and types
+of support. Different members within the SSC specialised in different technical
+areas, for example, Horizon counter issues, data centre and transaction
+harvesting, and transaction reconciliation issues. My primary role was to deal
+with Horizon counter issues, printer issues, Pinpad issues, and many other
+
+problems that | am unable to recall.
+
+18. | do not know what qualifications or experience were required to be a member of
+the SSC, this would be better answered by the SSC manager. One thing that
+was common was that all SSC members had a software engineering
+
+background.
+
+19. When | joined the SSC, the team had a flat structure under manager Mik Peach.
+Everyone under the manager, as far as | remember, was a “Systems Support
+Specialist’. The team structure changed after Mik Peach left Fujitsu and Steve
+
+Parker became the SSC manager. Under Steve Parker there were several
+
+Page 6 of 15
+20.
+
+21.
+
+22.
+
+WITN08100100
+WITNO8100100
+
+smaller teams and each team had a team leader and | was under the leadership
+of John Simpkins. As | mention above, | worked in the SSC from 2000 to 2017.
+
+When | left the SSC, | believe there were 25 or less team members.
+
+After | joined the SSC, | received Horizon product training and was given a
+mentor. No new joiners were thrown into the deep end after joining. My mentor
+guided and helped me learn the security aspects of Horizon and the strict security
+procedure on how to access live Horizon counters and data centres to support
+Post Office business. Accessing live counters on a read-only basis was an
+essential part of SSC’s support role, we needed the read-only access to live
+counters in order to investigate problem/s reported by postmasters. Most of my
+work at the SSC using remote access was performed using read-only access.
+For example, when a postmaster reported a network banking transaction failure,
+| needed read-only access to live counter log files from the counter to analyse
+what “key presses” the postmaster had done and why the transaction failed. SSC
+
+also had write access, which | explain below at paragraphs 33 to 38.
+
+Peak calls were monitored every day during working hours. One of SSC
+members referred to as the ‘Pre-Scanner’ had the duty to check each incoming
+Peak call and assign the call to an SSC member according to the priority of the
+call or nature of the reported fault. Higher priority Peak calls, where a
+postmaster’s business had stopped or there was a major incident at the data
+centre, were sometimes dealt with more than one SSC member, involved the
+
+fourth line development team, or both.
+
+The SSC team were the “Third Line Support” in the overall support services
+
+structure, and SSC worked closely with the HSD (first line support) and SMC
+
+Page 7 of 15
+WITN08100100
+WITNO8100100
+
+(second line support) whenever possible to action Peak calls. Any calls
+
+registered with an “A” priority raised by a postmaster were actioned swiftly.
+
+23. My recollection of the working relationship between the SSC and MSU has faded
+
+to some extent, but | can recall that:
+
+a. MSU had close dealings with the NBSC.
+
+b. MSU was responsible for monitoring major incidents reported from data
+centres or POL, and the SSC worked closely with MSU to resolve and
+respond to any major incidents raised and provide help and advice to
+NBSC. | cannot remember any specific Peak calls for major incidents
+raised by MSU. However, | do remember that, for example, MSU raised
+“A” priority “State 4 exception” banking transaction incidents. These
+“State 4 exceptions” were raised automatically from the data centre after
+a banking transaction although authorised by the bank was not
+successfully completed by the postmaster. Such Peak calls were passed
+to SSC for investigation. SSC then investigated the calls and provided a
+response back to MSU to report back to NBSC for any financial
+reconciliation if necessary. As far as | remember, most of such incidents
+were caused as a result of “poor networking”. The authorisation
+message from the bank sometimes did not reach the Post Office branch
+on time due to delayed communications. When this happened, the
+transaction at the counter would fail (time out) and the postmaster would
+
+not honour the transaction request from customer.
+
+24. | am aware that some SSC members and management had contact with the
+
+NBSC, but | personally did not have any direct dealings with the NBSC.
+
+Page 8 of 15
+WITN08100100
+WITNO8100100
+
+25. | cannot comment on whether the SMC referred an appropriate number
+proportion of calls to the SSC, as my recollection of such matters has faded
+
+significantly.
+
+IDENTIFICATION AND RECTIFICATION OF BUGS, ERRORS OR DEFECTS
+
+26. In the Request, the Inquiry has asked me to set out my recollection of the
+
+identification and rectification of:
+
+a. The bugs identified in Appendix 2 (“Appendix 2”) of Bates and others v.
+Post Office Limited (No. 6) “Horizon Issues” [2019] EWHC 3408 (QB)
+with the findings made at Appendix 1 (“Appendix 1”), except for bugs
+
+16, 17, 21, 22 and 29.
+
+b. Any other bugs that had the potential to cause apparent discrepancies
+or shortfalls in branch accounts, or undermine the reliability of Horizon
+
+to accurately process and record transactions.
+
+27. Aswell as looking at Appendix 1 and Appendix 2, | have been shown Peaks and
+KELs where my name is mentioned, which are said to relate to the bugs identified
+in Appendix 2 (except for bugs 16, 17, 21, 22 and 29). My recollection of the
+software bugs SSC had to deal with, and the process Fujitsu would follow when
+a software bug was identified, has faded significantly. | cannot remember dealing
+with or being aware of any of the bugs referred to in paragraph 26 above, but my
+understanding of the process that Fujitsu would follow when a software bug was
+
+identified is as follows:
+
+a. The SSC member would be assigned the Peak call as | mention in
+
+paragraph 21 above. As far as | recall, the SSC member would
+
+Page 9 of 15
+WITN08100100
+WITNO8100100
+
+investigate the problem by attempting to recreate the fault on the SSC’s
+test rig and the Live System Test (“LST”) rig, and this process could
+involve more than one SSC member. Any Peaks registered with an “A”
+priority that involved a Post Office’s business being stopped or severely
+affected were investigated urgently. The LST rig represented the latest
+level of Horizon counter software and it was normally used by the test
+team to carry out a set of tests prior to releasing software to the live
+
+estate.
+
+. If the root cause could not be identified by SSC, the Peak would be
+transferred to the fourth line development team for help and further
+investigation. The development team had, as far as | recall, full access
+
+to Peak calls for response.
+
+. If the root cause was due to a software bug and there was no
+workaround, | understand that the Peak would be added to a list and wait
+for authorisation for the software fix to go ahead. This part of the process
+was outside my remit, and a different team would be responsible for
+
+obtaining authorisation, which | believe was from Fujitsu and POL.
+
+. Once the software fix had been produced by the fourth line development
+team, it would go through a LST rig to ensure the bug had been fixed
+
+without affecting other parts of Horizon.
+
+. Once the software fix received approval, it would go out to the live
+system and the Peak would be closed. As far as | remember it was the
+responsibility of MSU to communicate with NBSC and HSD to
+communicate with affected end users.
+
+Page 10 of 15
+28.
+
+29.
+
+30.
+
+31.
+
+WITN08100100
+WITNO8100100
+
+If the fault was recreated and there was a workaround which was easy and
+acceptable to the postmaster who reported the issue, the SSC member who was
+dealing with the Peak would contact the postmaster who reported the problem to
+discuss the workaround. As | mention above at paragraph 16(b), SSC used to
+discuss such issues with postmasters as a matter of courtesy and depending on
+priority. If the postmaster was happy with the workaround suggested by the SSC
+member, the Peak call would be closed and a KEL would be recorded
+recommending the workaround if the problem was reported again by another
+
+postmaster. | cannot remember if workarounds could be rejected by postmasters.
+
+The SSC had policies and procedures in place to deal with different business
+issues within Horizon. | cannot recall any policies as to what information may or
+may not be passed to postmasters. | am unaware and cannot recall there being
+any practice, policies or procedures regarding what information could be
+
+provided to postmasters in relation to potential bugs.
+
+Where | did not have sufficient time and resources to deal with a particular Peak,
+| would have asked for the Peak to be assigned to someone else, who would be
+able to deal with the problem better. As far as | remember, SSC found resources
+from within or from other teams when needed. If | was dealing with a problem
+and then realised | was not the right person to deal with that problem, or | was
+busy dealing with another Peak which had higher priority, the Peak would be
+reassigned to someone else who had the time or was better equipped to deal
+
+with it.
+
+| am unable to explain how the SSC investigated problems suspected to relate
+
+to third-party software as my specialist area did not involve such issues. It was
+
+Page 11 of 15
+WITN08100100
+WITNO8100100
+
+outside my remit. For example, underlying Escher software was outside my
+speciality. When dealing with a problem, if | suspected there was a bug that might
+be due to Escher software, | would pass the Peak to someone else who had
+
+dealings with Escher software.
+
+32. SSC team members always investigated Peak calls to identify whether the
+reported problems were caused by underlying software. There was a clear
+process when a potential software bug was identified, and | was never put under
+any pressure to hide a potential bug in Horizon from anyone, including
+postmasters and POL. During my time at the SSC, | spoke with postmasters
+
+many times but | cannot recall specific discussions.
+
+REMOTE ACCESS
+33. During my time at the SSC, all SSC team members had remote access to
+
+Horizon counters as well as data centres except the new joiners.
+
+34. SSC team members used remote access on read-only basis for investigations
+into problems, and write access was only used when POL authorised the SSC to
+make necessary changes. | can recall using remote access personally on a read-
+
+only basis, but not a write basis, in Legacy Horizon.
+
+35. |can recall using remote access personally on a read-only and write basis using
+HNGxX. Any write access went through a very strict protocol and required
+approval from POL. | cannot remember the details after so many years leaving
+Fujitsu. | can remember one scenario, where there were many postmasters who
+were for some reason unable to rollover their Post Office branch accounts
+regularly. Once a financial accounting year had passed, and the Post Office
+branch was still experiencing the same issue, further intervention would be
+
+Page 12 of 15
+36.
+
+37.
+
+38.
+
+WITN08100100
+WITNO8100100
+
+required from POL. In this situation, it was POL’s responsibility, as far as |
+remember, to investigate the problem and ask Fujitsu to make any data
+amendments in the data centre to put the Post Office branch in the “current
+
+financial year”, so that the Post Office branch could run normally.
+
+As far as | recall, Fujitsu and POL had a contractual arrangement to manage the
+live Horizon estate. The contractual agreement is totally outside my area, but |
+believe this involved accessing the live estate on a read-only basis for
+investigation into problems. Any write access to the live estate required POL
+involvement and prior written authorisation, and all access was recorded and
+witnessed normally by another SSC who would be familiar with what was being
+
+done.
+
+As a member of the SSC, | used remote access to Horizon counters on a read-
+only basis to collect relevant counter log files to investigate what a postmaster
+had or had not done which may have caused a reported error. For example,
+when a postmaster reported a banking transaction failure, the relevant log files
+would highlight what may have happened. Other examples of issues that | would
+investigate included reported counter printer or Pinpad installation errors. | am
+
+unable to recall any specific times where | used write access.
+
+Remote access was done via correspondence servers to counter workstations,
+and the SSC only used secure workstations and servers to gain remote access.
+| cannot remember the names of the tools | used to access workstations and
+servers remotely. As far as | remember, remote access was always recorded
+with the name of the SSC team member and a date/time stamp of when the SSC
+
+team member had logged in and out of an SSC secure workstation.
+
+Page 13 of 15
+WITN08100100
+WITNO8100100
+
+GENERAL
+
+39. In the Request, the Inquiry has asked me if | believe postmasters had access to
+adequate advice and assistance in how to use Horizon. As | mentioned in
+paragraph 3 above, it has been many years since | worked at Fujitsu and on
+
+Horizon, and my memory is vague on specific issues.
+
+40. Ican recall that during my work with Horizon, and sometimes personally dealing
+with postmasters, | felt that not all postmasters had the training they needed to
+run a banking and financial business. | came across some postmasters not
+following Post Office’s business procedures for Horizon. For example, many
+postmasters had a local grocery shop and Horizon tills were used for combined
+grocery sales as well as Horizon business, and this type of work practice affected
+regular Horizon cash declarations. Horizon needed cash declarations to be
+completed every day, and during my time at the SSC responding to Peaks,
+another example | can recall were postmasters experiencing problems with
+Horizon because they did not count and declare the cash stored in the till, which
+would cause a discrepancy. These problems may have been due to a lack of
+
+training and assistance.
+
+41. The Inquiry has asked me what, if any, changes to the support services provided
+by Fujitsu would have improved the advice and assistance received by
+postmasters. With hindsight, | believe the support desks (first line, second line,
+SSC and fourth line) could have been better structured. | felt that the support
+desks were run as separate business centres, and there should have been a
+more coordinated effort. Perhaps the SSC should also have been more involved
+
+in dealing with postmasters.
+
+Page 14 of 15
+WITNO8100100
+WITNO8100100
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+Page 15 of 15

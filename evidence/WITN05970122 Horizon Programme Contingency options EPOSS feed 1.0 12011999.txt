@@ -1,0 +1,1101 @@
+RESTRICTED COMMERCIAL
+
+POCL Horizon Programme
+Bringing Technology to Post Offices and Benefit Payments
+
+CONTINGENCY OPTIONS FOR NON-AVAILABILITY OF EPOSS FEED TO TIP
+
+Author: Bob Booth/Jeremy Folkes Version: Issue 1.0
+Authority: John Meagher 12th January 1999
+Reference: _ jf/contingency for eposs ver 1.doc
+
+Contents Page
+
+1. PURPOSE.
+
+2. BACKGROUND ..
+
+2.1. Overview ...
+2.2. Errors being experienced
+Mitigation...
+2.4. Interim vs. Operational TIP..
+2.5. Summary of data sent to TIP ..
+
+3. ASSUMPTIONS...
+
+4. OPTIONS CONSIDERED.
+
+4.1, Cash Account Options..
+4.1.1, Option 1 - full solution
+4.1.2, Option 2 - no electronic cash accoun
+4.1.3, Option 3 - no cash account, full EPOSS. a
+4.1.4, Option 4 - no cash account, core EPOSS, automated transactions only
+4.1.5, Option 5 ~ no cash account, no core EPOS'
+
+4.2. Supporting BES documentation ..
+4.2.1, Option 1 - full solution
+42.2. Option 2-no electronic feed.
+42.3. Option 3 ~ no EPOSS but electronic fed..
+
+4.3. BES settlement reports
+43.1. Option 1 - full solution
+43.2. Option 2 no electronic feed
+
+4.4, Royal Mail Management Information.
+4.4.1, Option 1 - full solution ..
+44.2. Option 2- system generated, no electronic fe fe
+4.4.3, Option 3 - manual generation and feed.
+4.4.4, Option 4 - no feed...
+
+4.5. Transaction Warehousing,
+45.1, Option 1 - full solution
+4.5.2. Option 2 - no feed...
+
+5. IMPACT OF OPTION SI
+
+5.1. Option summar
+5.2. Risks
+3. Benefit .
+
+RESTRICTED COMMERCIAL.
+
+«:\~data\info\ postal uk\ po - horizon working and edited documents initial Page ~ 1 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+6, CONCLUSION ....
+
+1
+
+11.
+
+1.2.
+
+13.
+
+24.
+
+2.1.1.
+
+2.1.2.
+
+2.1.3,
+
+PURPOSE
+
+This paper explores various contingency options which could be considered
+to allow Horizon New Release 2 to go ahead in the absence of a proven
+capability of the ICL Pathway solution to feed the POCL iTIP system.
+
+Nothing contained within this paper shall be deemed or construed as
+affecting existing contractual obligations between ICL Pathway, the DSS
+and/or POCL.
+
+Given the sensitive nature of the paper, it has not been subject to widespread
+consultation, and in particular this work has not involved ICL Pathway. The
+assistance of Peter Jones and Martin Box of the TIP project is, however,
+gratefully acknowledged.
+
+BACKGROUND
+
+Overview
+
+The EPOS service being, developed by ICL Pathway as part of the Horizon
+programme includes in its design a feed of data to the POCL back end
+systems via the TIP interface. This interface consists of various file types that
+contain transactions, client summaries, BES summary transactions, stock
+information and an electronic version of the Cash Account. EPOSS is
+intended to be, in part, data driven, through data provided to ICL Pathway
+from the POCL Reference Data Project (RDP) which ties into the TIP system
+that is also fed by RDP.
+
+During the Model Office and End to End test phases with the ICL Pathway
+Horizon solution, significant problems have been experienced in using, the
+data stream provided by ICL Pathway. It is believed that ICL Pathway may
+not be able to fix these problems within the necessary timescales to enable
+the full data feed to TIP to be proven without causing a severe impact on the
+New Release 2 timescales.
+
+Given the political and commercial imperatives around these timescales, it
+has therefore been deemed prudent to consider possible contingency
+arrangements involving alternative feeds to the POCL back end systems
+should these problems not be resolved for New Release 2.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 2 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+2.2,
+
+2.2.1,
+
+2.2.2.
+
+2.2.4.
+
+Errors being experienced
+The problems that have been experienced include:
+
+. inability to make files available to TIP;
+
+. no balanced cash accounts in first phases of testing;
+
++ files containing wrongly dated transactions;
+
+. files containing incorrect versions of reference data;
+
+. files containing ‘spurious’ outlets, not known to RDP or TIP;
+
++ files containing transactions that cannot be performed according to the
+submitted reference data and business rules - causing TIP to
+abnormally end (abend) processing;
+
++ files resubmission taking several days and then being rejected as the
+“hand crafted’ fixes invalidate the file integrity - totals etc..
+
+As can be seen, the problems being experienced appear to be occurring
+across the board and are not confined to one or two specific areas. This
+means that that there is not just one area that is deficient and in need of
+attention but several.
+
+The problems are believe to be wholly within the ICL Pathway domain, in
+that the output files from Pathway are non-compliant with the agreed
+Application Interface Specification. To date, during the Model Office
+Rehearsal and End to End phases, there have been no significant faults raised
+on TIP asa result of the testing with ICL Pathway.
+
+There is no evidence to suggest that the ‘content’ errors are confined to the
+feed to TIP. Indeed the nature of the problems would suggest that the paper
+reports and processing within the outlet would be suffering many of the
+same faults as the resultant feed to TIP. The computerised nature of TIP
+makes such faults easier to find and more rigorous than any manual
+checking that may be being performed.
+
+It is also possible that transactions can be performed outside of POCL’s
+expectations by non-enforcement of the reference data rules. The resultant
+transaction will not have a place on in-outlet reports - including the cash
+account - and may therefore ‘disappear’, only appearing on the TIP
+transaction stream.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 3 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+24.
+
+24.1.
+
+2.4.3,
+
+Mitigation
+
+Work is ongoing to address the faults in the system. Several faults are
+attributable to the testing environment itself and would not be anticipated in
+true running. However, MOR/MOT and E2E are not user acceptance
+testing, and the Horizon Service should have been functionally tested before
+entry to this phase and thus several of the faults should not have occurred.
+
+Interim vs. Operational TIP
+
+Interim TIP (iTIP) was conceived as a short term stop gap to prove the
+interface between POCL and ICL Pathway. As an interim system, originally
+developed to meet a much earlier go-live date, it has limited functionality,
+however, it was designed to accept the interface that the long term
+Operational TIP (OpTIP) would require.
+
+OpTIP has a wider remit than just the ICL Pathway feed, as it will
+additionally subsume several POCL legacy systems, and utilise the data that
+
+is received from ICL Pathway (rather than just passing it on).
+
+iTIP can therefore be considered as a stop gap solution that pre-proves the
+ICL Pathway feed, and provides some limited business gains.
+
+Summary of data sent to TIP
+
+There are four main file types specified to pass from ICL Pathway to TIP, as
+summarised in the following table:
+
+BES Summary BES Settlement Reports BES Settlement reports to PMSR.
+Transaction files | Individual record for each PoS | ¢ BES supporting,
+transaction. These include documentation (ABED
+elements of the services such as equivalent)
+BES to allow POCL to maintain
+its accounting integrity. # Royal Mail Management
+Information (RMMI) for
+former ECCO offices
+Client Summary | Client summaries Not used by iTIP
+Cash Account Electronic cash account Feed of Cash Account to CBDB
+and Stock
+RESTRICTED COMMERCIAL.
+‘)\“data\~info\ _postal\uk\ pol - horizon\ working and edited documents\ initial Page ~ 4 of 23
+
+submission\ contingency for eposs ver I.doc
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+Holdings
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 5 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+RESTRICTED COMMERCIAL
+
+3. ASSUMPTIONS
+
+For the avoidance of doubt, the following assumptions have been made
+about the ICL Pathway/TIP working environment:
+
+* EPOSS encompasses the POCL PoS functions which support APS, BES
+and OBCS as well as the ‘pure’ POCL stock movements;
+
+¢ the interface that Interim TIP has defined will be taken over by
+Operational TIP!; for the purpose of this document there is no difference
+between the two systems as far as the ICL Pathway system feed is
+concerned;
+
+* the TIP interface has been agreed for many months, with only minor
+clarification and additions of new functions e.g. 2/3 week cash accounts.
+
+¢ The existing counter functions will not be any less at NR2 than they are at
+Te.
+
+¢ TIP has several business functions, the main ones being:
+1) electronic transmission of the cash account.
+
+TIP presents the Horizon electronic cash account to CBDB as if it had
+come from the DPU, effectively spoofing the DPU interface to CBDB;
+
++ CBDB can receive Cash Account data for an office from either the DPU
+or TIP. CBDB will accept the first instance for a particular cash account
+week, and raise an exception if a second copy is received;
+
+during the Release 1c > New Release 2 migration period, the DPU will
+key ICL Pathway produced paper Cash Accounts? (prior to the
+availability of the electronic NR2 feed from ICL Pathway);
+
+once an office has successfully migrated to Horizon, the paper Cash
+Account from that office will not be routinely keyed, and therefore no
+comparison will be done against the electronic feed. The paper copy
+will, however, be received and filed
+
+1 There are opportunities to increase the efficiency of OpTIP by changes to the interface and
+potentially to ease the workload on ICL Pathway by changes, however the underlying data
+requirement that has been stated for iTIP will be sufficient to feed OpTIP which is scheduled for
+October 1999.
+
+2 This is subject to the acceptability of the presentation of the ICL Pathway cash account, currently
+there are issues surrounding the size of type face which DPU require to move from 8 point to 12
+point.
+
+8 It is unclear whether any checks are in place to handle “manual amendments” if the sub-postmaster
+annolates the document with corrections prior to signature.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 6 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+2) TIP produces the supporting BES documentation from the EPOSS
+transaction elements - i.e. effectively takes over the function performed
+by ABED in Release 1c.
+
+3) TIP provides the rolling BES settlement reports which feed into PMSR
+for information on reconciliation;
+
+4) TIP supports the Royal Mail Management Information (RMMI) feed
+that is currently taken from ECCO+ outlets;
+
+5) TIP receives all the transactions performed on the Horizon system and
+validates them against the reference data that it has received from the
+POCL RDP system - the same system that feeds ICL Pathway Horizon.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 7 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+RESTRICTED COMMERCIAL
+
+4, OPTIONS CONSIDERED
+
+The following table summaries potential options based on the availability of
+various proven aspects of the ICL Pathway solution.
+
+Notk: For the purposes of this discussion, EPOSS has been (slightly
+artificially) divided into “data capture/reporting” and “cash account
+production”.
+
+Taking each of the major business functions identified in turn, i.e.
+
+1) Cash account
+
+2) Supporting BES documentation
+3) BES settlement reports
+
+4) RMMI
+
+5) Transaction warehousing
+
+Given the scope of the paper the cash account issue will receive most
+attention.
+
+41, Cash Account Options
+
+- | Full NR2 v The target NR2 statu
+2. | No TIP feed v v * ‘Assumes paper cash
+account is correct.
+
+3. | No ICL Pathway v x x Assumes ICL Pathway
+Cash Account - but EPOSS is solid .
+still key all
+transactions
+
+4. | No ICL Pathway partial * Fd EPOSS supporting, the
+Cash Account - performance of APS
+keying of automated and BES transactions.
+transactions only
+
+5. | No ICL Pathway * * * Effectively the Rle BES
+Cash Account - no solution, with APS
+EPOSS to support added.
+automated
+transactions
+
+RESTRICTED COMMERCIAL.
+
+«:\~data\info\ postal uk\ po - horizon working and edited documents initial Page ~ 8 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+4.1.1, Option 1 - full solution
+
+This is the target NR2 contracted-for status, with full implementation of the
+TIP interface. It should be noted that the cash account processing is an office
+function.
+
+APS TIP feed
+
+BES = EPOSS Cash account
+
+transaction
+processing,
+PoS capture ~~
+
+OBCS Paper feed
+
+This paper is to address the contingency should the above not be achievable.
+
+Functional boxes are shown lightly shaded, with data flows indicated by the
+arrows.
+
+Where an option precludes a link, the link is crossed out.
+Where an option precludes a functional box, the box is shaded dark.
+
+Where an option changes a functional box, the box is inverted (white on
+black).
+
+Where an option introduces new functions, these are shown in unshaded
+boxes.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 9 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+RESTRICTED COMMERCIAL
+
+4.1.2. Option 2 - no electronic cash account
+
+APS
+pes | J BPoss Cash account
+transaction cessin,
+PoS capture Processmne. ~~
+OBCS Paper feed
+
+In this option the feed to TIP is considered unworkable but the remainder of
+the solution is deemed to be fit for use. The EPOSS solution would have to
+be capable of producing a valid paper cash account and of correctly
+accounting for business within the office, enforcing all the relevant business
+rules.
+
+Assumes:
+
+¢ EPOSS operates in all areas apart from interface to TIP.
+
+DN: Given that the electronic and paper cash accounts are both produced from the
+same data source in EPOSS - a necessity if one is to accurately reflect the other - it
+seems unlikely this option will actually occur; for this to be of use, the “problem”
+would need to be within the data transfer to TIP, rather than its processing at the
+counter. Evidence to date suggests that the problems are within the counter in the
+correct adherence to business rules - what a product can be used for - and the
+processing of the Cash Account mapping. Such problems are believed to apply
+equally to both electronic and paper Cash Accounts in the ICL Pathway domain.
+
+Keying from EPOSS paper cash account When the feed is established, DPU
+is an existing activity that will be proven procedures would need amending.
+during Release 1c>2 migration period.
+
+DPU entry is low risk.
+
+Allows the same counter procedures to} Feed to TIP would not be proven in Live
+be used from Day 1. When the feed is Trial (until full service offered)
+enabled only DPU procedures change.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 10 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+4.1.3. Option 3 - no cash account, full EPOSS
+
+APS
+
+BES EPOSS
+
+transaction
+PoS capture
+
+OBCS New rollover processing
+
+In this option, neither the paper nor the electronic Cash Accounts from
+EPOSS are deemed to be fit for purpose. However, EPOSS would continue
+to be used for transaction capture, summary production and stock control.
+Some method would be necessary to handle the rollover of Cash Account
+Periods (to enable the correct reporting of transactions);
+
+Assumes:
+¢ that the deficiencies in EPOSS are restricted to the Cash Account
+production process and are not “structural”;
+
+¢ that the carrying forward of data from week to week, the feed of data to
+APS and for BES etc. is sound;
+
+¢ the correct implementation of business rules, including those within
+reference data, is proven;
+
+¢ current output has all the data for a manual cash account.
+
+Allows offices to switch to NR2 Considerable training is likely to be required to
+enable users to complete a Cash Account from the
+
+EPOSS output
+
+Allows EPOSS training to be Difficult to sell to users - why key transactions if
+given and used in live operation | no Cash Account is produced from such effort ?
+
+Difficult to roll over ECCO offices - it offers less
+functionality than ECCO and these offices would
+need to revert to manual Cash Accounting for
+which they are not experienced.
+
+Integrity of EPOSS may be compromised when
+new rollover processing introduced
+
+Need to cut over to the full solution at a later date,
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 11 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+RESTRICTED COMMERCIAL
+
+| re-training ete.
+
+4.1.4, Option 4 - no cash account, core EPOSS, automated transactions only
+
+EPOSS.
+transaction
+capture
+
+New rollover processing,
+
+In this option, EPOSS would not be used for non-automated transactions,
+and the Cash Account would be produced manually from standard paper
+
+records. The user would only use portions of the EPOSS engine to transact
+APS, BES and OBCS transactions, possibly settling to “cash” at each point.
+Customer sessions would cease to have real meaning and the majority of
+reports would therefore be meaningless, however reports could be run for
+APS and BES to contribute to the manual cash account,
+
+Assumes:
+
+EPOSS can perform the transactions and produce the relevant reports
+needed for APS, BES and OBCS entries on the manual cash account;
+
+¢ solutions exist to handling cash account rollover ete.;
+
+* current output has all the data for a manual cash account.
+
+DN: how would reconciliation and settlement be affected?
+
+Minimal changes to Compromises the solution with key elements
+
+remaining,
+application software.
+
+unproven - invalidates the purpose of a live trial
+
+Still need to migrate to full use - will need a “second”
+migration to move over the stock position etc.
+
+Difficult to roll over ECCO offices - it offers less
+functionality
+
+May need to revert to Rlc processes for reconciliation ete.
+
+Training will need to cater for this
+have to re-educate the us
+
+Solution, would need to
+to use the full system.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 12 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+Ability to produce meaningless reports may discredit
+system and/or weaken financial controis on office
+
+RESTRICTED COMMERCIAL
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 13 of 23
+
+submission\ contingency for eposs ver I.doc
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+4.1.5, Option 5 - no cash account, no core EPOSS
+
+New rollover processing and
+substitution for EPOSS and reporting
+
+In this option, EPOSS would not be present at all as an accounting, engine
+(although presumably the Access Control functionality etc. would exist).
+APS, BES and OBCS would be used in some standalone mode, in a similar
+manner to the existing BES application on Release 1c.
+
+Assumes:
+. APS, BES and OBCS can be built without EPOSS
+
+. additional reports can be introduced into APS, BES and OBCS to
+provide outputs for the manual Cash Account (this functionality would
+have been present in EPOSS)
+
+Introduction of magnetic card and bar Training will need to cater for thi
+coded APS for POCL with corresponding solution, would need to have to re-
+transaction stream to ICL Pathway. educate the users to use the full system.
+
+Very late changes to applications.
+
+Effectively this is Rlc plus APS.
+
+Still need to migrate to full use - will need
+a “second” migration to move over the
+stock position ete.
+
+Difficult to roll over ECCO offices - it
+offers less functionality.
+
+May need to revert to Rie processes for
+reconciliation etc.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 14 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+RESTRICTED COMMERCIAL
+
+4.2, Supporting BES documentation
+
+1. | Full NR2 v v The target NR2 status.
+
+2. [ No TIP feed v * Assumes paper reports correct.
+
+3. | No EPOSS but BES * v 1e counter functions, but NR2
+transactions data centre
+
+4.2.1. Option 1 - full solution
+
+This is the target NR2 contracted-for status, with full implementation of the
+TIP interface. It should be noted that the gathering of transactions to
+generate the BES documentation is largely an office function (the exception
+being help desk generated transactions), augmented by central processing
+
+within the ICL Pathway domain.
+
+4.2.2. Option 2 - no electronic feed
+
+This is where the central system can not extract the transactions for supply to
+TIP for processing, or the file transfer from the central system to TIP is
+
+inoperative.
+
+Assumes:
+
+© EPOSS and BES work harmoniously in all areas except for delivery of flow
+
+to TIP;
+
+¢ Paper reports and existing manual processes sustainable;
+
+© Central facilities can still feed ABED as at 1c;
+
+¢ Common Basis of Settlement operates correctly.
+
+No change to the counter software.
+
+Compromises the solution and may make
+the process unauditable.
+
+Counter procedures may have a minimal
+impact and this would be to leave the
+current practices in place.
+
+Some element of re-training may be
+required.
+
+No worse than 1c.
+
+Wholly dependant on ICL Pathway feed.
+
+RESTRICTED COMMERCIAL.
+
+:\~data\~info\ _postal\uk\ pol - horizon\_working and edited documents\ initial
+
+submission\ contingency for eposs ver I.doc
+
+12th January 1999 Issue 1.0
+
+Page ~ 15 of 23
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+4.2.3, Option 3 - no EPOSS but electronic feed
+
+This is where the outlet is effectively running a 1c set of functions, not tied
+into EPOSS, but the central systems can interface to a TIP NR2 interface.
+
+Assumes:
+
+© 1c functionality can support the NR2 interface;
+
+‘oves aspects of the TIP interface ant
+provides additional information.
+
+Does not prove NR2 counter with NR2
+data centre.
+
+Re-iraining would be required.
+
+RESTRICTED COMMERCIAL.
+:\~data\info\ _postal\uk\pol - horizon\_working and edited documents\ initial Page ~ 16 of 23
+
+submission\ contingency for eposs ver I.doc
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+43,
+
+BES settlement reports
+
+43.1. Option 1 - full solution
+
+This is the target NR2 contracted-for status, with full implementation of the
+TIP interface. It should be noted that the rolling reports are a function of
+Common Basis of Settlement which is based on transactions from the outlets
+and help desk generated transactions.
+
+43.2, Option 2 - no electronic feed
+
+This option applies where the central system can not package the CBoS
+reports or transmit them to TIP. Note that this feed is different from the
+other data passed to TIP in that it is created centrally, by CBoS functionality
+in PAS, rather than originating from the office. __ It is therefore not related,
+per se, with EPOSS failure, however as it relates to failure of the feed to TIP it
+is still considered relevant to this discussion.
+
+Assumes
+
+© CBoS is functioning as a pre-requisite of the BES functionality going live.
+
+the settlement reports are electronic CBoS reports, consequently, it forces
+reconciliation onto the paper CBoS records.
+
+Allows service to go live without needing | Does not prove interface from Pathway to
+
+all of the central functionality or feed to TIP.
+TIP.
+
+Leaves the interface unproven for late
+
+version of TIP.
+
+Requires change to reconciliation
+
+processes.
+
+RESTRICTED COMMERCIAL.
+‘)\“data\~info\ _postal\uk\ pol - horizon\ working and edited documents\ initial Page ~ 17 of 23
+
+submission\ contingency for eposs ver I.doc
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+4.4. Royal Mail Management Information
+
+44,1. Option 1 - full solution
+This is the target NR2 contracted-for status, with full implementation of the
+TIP interface. It should be noted that the generation of transactions to
+generate the RMMI flow is an office function, augmented by central
+processing.
+
+44,2, Option 2 - system generated, no electronic feed
+
+Manual transmission of the Royal Mail data created from in-office system
+reports.
+
+Assumes:
+
+¢ Base information is available within Horizon for extraction.
+
+¢ EPOSS operates in all areas apart from the RMMI TIP feed! Commented [TPO1]:
+
+Maintains service to client. New Horizon reports liable to be needed
+
+New office procedures needed to extract
+reports and dispatch to central site
+
+New central functionality needed to
+consolidate received information from
+offices
+
+Leaves the interface unproven for later
+versions of TIP
+
+44,3, Option 3 - manual generation and feed
+
+Manual collection and generation of the Royal Mail data.
+
+RESTRICTED COMMERCIAL.
+
+«:\~data\info\ postal uk\ po - horizon working and edited documents initial Page ~ 18 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+RESTRICTED COMMERCIAL
+
+Maintains service to client.
+
+New Horizon reports liable to be needed
+
+Process to manually construct the
+information is laborious - hence only
+ECCO outlets currently supply it
+
+Leaves the interface unproven for later
+versions of TIP
+
+44.4, Option 4-no feed
+
+Given that only ECCO outlets currently produce this data, it may be
+pragmatic to negotiate with the client - Royal Mail - to temporarily cease the
+supply of data from ex-ECCO Horizon offices during, the Live Trial and
+
+potentially early stages of the rollout.
+
+Removes the issue.
+
+Reduced service to client.
+
+Leaves the interface unproven for later
+versions of TIP.
+
+RESTRICTED COMMERCIAL.
+:\~data\info\ _postal\uk\pol - horizon\_working and edited documents\ initial Page ~ 19 of 23
+
+submission\ contingency for eposs ver I.doc
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+45, Transaction Warehousing
+45.1. Option 1 - full solution
+
+This is the target NR2 contracted-for status, with full implementation of the
+TIP interface. It should be noted that the generation of transactions to
+generate the RMMI flow is an office function.
+
+In addition to the warehousing for later data mining, the validation within
+TIP checks that products have been used in valid modes (e.g. Postal Order
+fees have not been remitted) and that the correct version of POCL Reference
+Data is in use at outlets.
+
+4.5.2. Option 2-no feed
+
+In this option the feed to TIP of the transactions gernerated at the outlet can
+not be transferred to TIP.
+
+Assumes:
+
+¢ The outlet is functioning correctly and that the problem is restricted to the
+harvesting (extraction) of the transactions from the correspondence
+servers and / or beyond.
+
+Removes the issue. Reduced function to POCL.
+
+Leaves the interface unproven for later
+versions of TIP.
+
+Removes the ability to centrally police
+the versions of reference data in use a the
+outlets and whether the products are
+being used in line with POCL reference
+data.
+
+RESTRICTED COMMERCIAL.
+
+«:\~data\info\ postal uk\ po - horizon working and edited documents initial Page ~ 20 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+l Post y
+OFFICE
+
+RESTRICTED COMMERCIAL
+
+5.1.
+
+IMPACT OF OPTION SELECTION
+
+There are various scenarios that colour the major business functions that TIP
+offers. These range from the full NR2 solution through to no electronic feed
+to TIP to inability to produce suitable automated output in the outlet with
+various shades in between.
+
+Based on the premise that the Horizon system must be viable to a degree,
+certain options can be discounted as without them the live trialt would be
+invalidated. Based on the further premise that certain functions can, as a
+concession, be lived without for a time, a middle ground of viable,
+compromised functions can be reached.
+
+Option summary
+
+4.1.1 full solution v
+
+4.1.2 no electronic C/A
+
+4.1.3 no C/A, full EPOSS
+4.1.4 no C/A, core EPOSS, auto txn only v
+4.1.5 no C/A, no core EPOSS v
+
+4.2.1 full solution
+4.2.2 no electronic feed
+
+4.2.3 no EPOSS, electronic feed v
+
+4.4.2 manual generation and feed
+4.4.3 no feed
+
+v
+4.4.2 system generation, no electronic feed v
+v
+v
+
+4.5.1 full solution . y
+4.5.2 no feed v
+
+4 This assumes that the target is live trial and not an intermediate release for other reasons,
+
+RESTRICTED COMMERCIAL.
+
+«:\~data\info\ postal uk\ po - horizon working and edited documents initial Page ~ 21 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+RESTRICTED COMMERCIAL
+
+5.2,
+
+5.3.
+
+The table above summarises an opinion of where such lines may be drawn
+and then investigates the issues surrounding the remaining options.
+
+Note: these options are TIP centric. However, there is no evidence to support
+the view that where there are deficiencies in the data ICL Pathway are
+supplying to TIP the outlet equivalent is without fault.
+
+Risks
+
+¢ if we go live with a “part” functioning EPOSS solution, what confidence
+exists with the other part? Can POCL rely on a such a system for its
+accounting? Indeed, would faults be created by, or attributed to, the cut
+down nature.
+
+what is the validity of the “Live Trial” if the significant functionality - e.g.
+Cash Account production - cannot be proven. Could “Live Trial”
+sensibly commence until full EPOSS was in place with all its’ outputs
+working? Would a ‘Id’ phase that deployed the NR2 data centre
+architecture and better, but not NR2 complete data centre and counter
+functions be of merit?
+
+¢ how do you migrate from a partial solution to the full solution - will a
+migration tool be required, how much faith would you have?
+
+* reconciliation processes may rely on the EPOSS data - how will
+reconciliation be performed without such data ?
+
+© Options 4.1.4 - and in some respects 4.1.3 - almost revert the system to not
+having an EPOSS system. In this case, what is the additional
+functionality provided by a Child Benefit-only NR2, apart from APS.
+Functionally, the release would become “Ric with APS” rather than
+“NR2”.
+
+Benefit
+
+¢ Provides some ability for a form of New Release 2 to be installed, albeit
+in cut down form, without a dependency on full EPOSS. Allows some
+visible progress to be shown, including the cutover to dual data centre
+operation, introduction of Automated Payments, and potentially offers an
+incremental route to the full New Release 2 service.
+
+¢ May allow focus on changes to allow ICL Pathway to meet an interface in
+time for Operational TIP
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 22 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0
+
+WITNO5970122
+WITN05970122
+WITNO5970122
+WITN05970122
+
+RESTRICTED COMMERCIAL
+
+6. CONCLUSION
+
+From the summary table in the previous section, the conclusion is that the
+feed from ICL Pathway to TIP is not mandatory for value to be gained from a
+limited deployment.
+
+Providing a minimum of 1¢ counter functionality is maintained, and this is
+augmented with APS and PoS all working in conjunction with EPOSS at the
+counter (including EPOSS reporting but possibly not a system cash account)
+there are significant gains to be made.
+
+However, whether such gains should warrant the title ‘Live Trial’, and
+whether such a system is considered suitable for Acceptance, is questionable.
+Although it may be possible to install a cut down version of NR2 without full
+EPOSS in a limited number of offices, the functionality offered may not make
+it possible to achieve the full aims of the ‘Live Trial’ and may therefore force
+the need for further downstream trialling activities before a National Rollout
+could be commenced.
+
+RESTRICTED COMMERCIAL
+
+:\~data\~info\ posta uk\pol- horizon), working and edited documents initial Page ~ 23 of 23
+suibmission\ contingency for eposs ver Loe
+
+12th January 1999 Issue 1.0

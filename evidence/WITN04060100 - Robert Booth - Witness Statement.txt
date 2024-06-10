@@ -1,0 +1,4140 @@
+WITNO04060100
+WITN04060100
+
+Witness Name: Robert Booth
+
+Statement No.: WITN 0406R9_1
+
+Exhibits: WITN 0406R9_1/1 — WITN 0406R9_ 1/106
+Dated: 16 September 2022
+
+THE POST OFFICE HORIZON IT INQUIRY
+
+First Witness Statement of Robert Booth in the Post Office Horizon IT Inquiry
+
+|, Robert Booth, of Finsbury Dials, 20 Finsbury Street, London, EC2Y 9AQ, SAY
+
+AS FOLLOWS:
+
+1. 1am a Solutions Architect for Post Office Limited ("POL"). Whilst my given name
+is Robert Booth, | am generally known as Bob Booth and there will be
+
+references in documents to me under both names.
+
+2. Except where | indicate to the contrary, the facts and matters contained in this
+witness statement are within my own knowledge. Where any information is not
+within my personal knowledge, | have identified the source of my information or
+the basis for my belief. The facts in this witness statement are true to the best
+
+of my knowledge and belief.
+
+3. This witness statement has been prepared in response to the request made by
+the Horizon IT Inquiry (the "Inquiry") pursuant to Rule 9 of the Inquiry Rules
+2006, dated 21 July 2022 (the "21 July Rule 9 Request"). In this witness
+statement, | address each of the questions set out in the Annex to the 21 July
+
+Rule 9 Request.
+
+Page 1 of 80
+WITNO04060100
+WITN04060100
+
+4, Where | refer to specific documents in this statement, these are the documents
+
+that the Inquiry provided to me for review. They are identified by the Inquiry's
+
+unique reference number for that document.
+
+DEFINED TERMS
+
+5. In this statement, | have used a number of acronyms and defined terms. | have
+
+set out a definition of each, as | have introduced them. However, for
+
+convenience, | also set out the definitions of these acronyms and defined terms
+
+below:
+
+AE!
+APS
+BA
+BES
+CAPO
+CIT
+
+EUC
+EPOSS
+Fujitsu
+HAPS
+HNG-A
+
+HNG-X
+
+Horizon
+
+Inquiry
+
+Application Enrolment Identity
+Automated Payment System
+
+Benefits Agency
+
+Benefits Encashment Service
+
+Card Account at Post Office, aka POCA
+
+Code and Integration Testing — internal Fujitsu
+development and testing
+
+End User Compute
+
+Electronic Point of Sale System
+
+Successor to ICL Pathway in approximately 2002
+Host Automated Payment System
+
+Current Horizon implementation on supported Java
+version, run in conjunction with the Tower providers
+
+Fujitsu rewrite of the original Escher/Riposte Horizon
+system when Fujitsu managed the total service
+
+The Horizon IT System
+Also used as generic term for all the iterations
+
+Also used to refer to the original Escher/Riposte
+based system
+
+The Horizon IT Inquiry
+
+Page 2 of 80
+LST
+
+paystation
+
+ICL Pathway
+
+PCI
+PDA
+PFI
+POCA
+POCL
+
+POL
+
+SV&l
+
+TUPE
+
+WITNO04060100
+WITN04060100
+
+Live System Test — promotion of release candidate in
+test environment to confirm it was releasable
+
+Standalone terminal for low value payments of bills
+and token top ups with low level of training required.
+Separate from Horizon
+
+ICL Pathway which later became Fujitsu in
+approximately 2002
+
+Payment Card Industry
+
+Programme Design Authority
+
+Private Finance Initiative
+
+Post Office Card Account, aka CAPO
+
+Post Office Counters Limited which later became
+Post Office Limited in 2001
+
+Post Office Limited which succeeded Post Office
+Counters Limited in 2001
+
+System Validation and Integration — first formal
+integration stage, later stages visible to POL
+
+Transfer of Undertakings (Protection of Employment)
+Regulations 1981 or Transfer of Undertakings
+(Protection of Employment) Regulations 2006
+
+In this statement, | have referred to both POCL and POL as well as ICL Pathway
+
+and Fujitsu. When | first became involved with Horizon, POCL and ICL Pathway
+
+were the relevant company names and they later became POL and Fujitsu; |
+
+have tried to use the appropriate name depending on the time frame. Similarly,
+
+Alliance & Leicester later became Santander and Link later became Vocalink.
+
+For consistency, throughout this statement | have referred to these companies
+
+as Alliance & Leicester and Link respectively.
+
+Page 3 of 80
+WITNO04060100
+WITN04060100
+
+BACKGROUND
+
+1. Please set out a brief professional background.
+Educational background
+
+7. | have a degree in Mechanical Engineering from the University of Surrey.
+Sep 84 — Sep 90: CAP > SEMA > Schlumberger SEMA
+
+8. In September 1984, | joined Computer Analysts and Programmers Ltd ("CAP")
+as a graduate in the industrial division as a programmer. CAP merged with
+Sema-Metra SA in 1988 to form Sema Group plc, which in turn was acquired
+by Schlumberger in 2001. By the time | left Schlumberger Sema, | was a Team
+Leader in the financial division involved with real time dealing room trading
+
+systems.
+Oct 90 - May 03: Post Office
+
+9. In October 1990, | joined Post Office Counters Limited ("POCL") as a Team
+Leader for the in-house development of an electronic point of sale system,
+ECCO+, which was part of the counter automation of Post Office's directly
+managed offices (these are also known as Crown Offices). | led one of the front
+office development teams and later moved into a design and business liaison
+
+role.
+
+10. | subsequently moved on to consolidating the disparate email systems in the
+Royal Mail Group before joining the already established POCL Private Finance
+Initiative ("PFI") team. The PFI team had been set up specifically to handle the
+procurement of what became the Horizon System. | did not join at the very
+
+beginning and | cannot recall the exact date | joined the PFI team, but it was
+
+Page 4 of 80
+11.
+
+12.
+
+13.
+
+WITNO04060100
+WITN04060100
+
+likely to be in 1994 or 1995, on the basis that the tender process for the system
+took place in early 1996. | explain my role at this time in detail in response to
+question 2 below but | worked on the Horizon project in various roles roughly
+
+through to June 2003 and then again in 2014.
+
+In 2003, | was part of the Post Office team that worked on enabling chip and
+PIN cards for payment and banking where the Benefits Agency's Post Office
+Card Account product (“POCA”) was treated as a bank. Horizon was the largest
+connected retail network in Europe, and leading edge with colour touch
+screens, scales, bar code readers and PIN pads. | subsequently worked on the
+replacement of the original banking switch (connecting Horizon to the Link
+network, Alliance & Leicester Bank and POCA) in use by Post Office at the time
+
+(IBM Connex) to a Fujitsu solution.
+Jun 03 - Oct 06: Xansa > Steria (TUPE from Post Office)
+
+In June 2003, | was transferred from Post Office to Xansa (became Steria) and
+continued to work primarily on Post Office projects. Whilst at Xansa, | continued
+working on the Post Office Horizon chip and PIN project until it was completed,
+
+although | cannot remember the date that project completed.
+
+After the chip and PIN project was completed, | became technical lead for the
+development and deployment of the paystation programme. Paystation was a
+project with an estate of 12,500 standalone terminals separate from Horizon. It
+transacted bill payments, smart card (Quantum gas) and smart key recharging
+
+(Talexus electricity), as well as phone top-ups and debit/credit card payment.
+
+Page 5 of 80
+14,
+
+15.
+
+16.
+
+WITNO04060100
+WITN04060100
+
+Nov 06 - Mar 14: Post Office
+
+In November 2006, | resigned from Xansa and re-joined Post Office as an
+employee and led the technical strand for a standalone biometric capture
+solution, Application Enrolment Identity (“AEI”). This solution was implemented
+and deployed servicing UK Border Agency (later to become UK Visas and
+Immigration), the Driver and Vehicle Licensing Agency and the Security
+Industry Authority, providing a light touch interface to Horizon to allow for
+sharing of the physical peripherals and allowing customers to pay for the
+
+transaction using standard Horizon services.
+Apr 14 - Mar 20: Atos (TUPE from Post Office)
+
+In April 2014, | was transferred under TUPE to Atos where | worked on the Post
+Office counter hardware refresh evaluation and implementation for both HQ and
+branches, including new hardware, new network and porting HNG-X to HNG-
+A. This was primarily moving to modern functionally equivalent hardware and
+operating system and worked with Computacenter who took over the
+management of the counter estate to achieve this. Fujitsu ported the HNG-X
+application to a current Java version, HNG-A, that would run on the new
+hardware and delivered this into user acceptance having internally tested the
+
+port first.
+
+Following on from ad-hoc consultancy, in 2019 | moved onto my current project
+of making the Post Office payment and banking solution compliant with the
+current Payment Card Industry ("PCI") standards. A major part of this was
+changing the way the PIN pads communicated with the POS and how the
+
+transactions were routed to Link (and thence the banks) and to Global
+
+Page 6 of 80
+WITNO04060100
+WITN04060100
+
+Payments for credit/debit card and a minor piece of work for handling Travel
+
+Money Cards.
+Apr 20 — Present: Post Office TUPE from Atos
+
+17. In April 2020, | was transferred under TUPE from Atos back to Post Office
+where | have continued work on the PCI project which has just completed
+
+rollout.
+2. Please set out the background to your involvement in the Horizon project.
+
+18. Not having had continuous employment with Post Office, | do not have any day
+books relating to that period and with matters going back over twenty years |
+am unable to give precise dates and roles and have set out things as best as |
+can remember them. | cannot be sure that these are true memories and not
+affected by later knowledge or reinterpretation of matters after the event. As
+other material comes to light, this may change my recollection but my answers
+
+here are as | remember things.
+Background to Horizon
+
+19. For context, Horizon has moved through several evolutions in its life and has
+generally been referred to as "Horizon" throughout by branch staff. It has not
+materially changed in function (it still records sales, facilitates payment and
+delivery of transactions, performs accounting, has user management etc.) but
+
+the underlying technology has changed.
+
+a. Atthe time of the award, Horizon was based on the Riposte product from
+Escher which was used for the national rollout and several iterations
+
+thereafter.
+
+Page 7 of 80
+WITNO04060100
+WITN04060100
+
+b. Horizon then moved to Horizon Next Generation and was labelled
+HNG-X as there were discussions that | was not privy to around options
+and option “X” was agreed upon. At this time it was also known as
+Horizon Online as one of the changes was that every basket was
+committed online in real time, rather than updates to the centre occurring
+whenever a connection was established which could leave several
+baskets waiting to be uploaded to the data centre. HNG-X was a fresh
+counter code implementation but used the same hardware, allowing the
+migration to be performed with on-site assistance at a peak of circa 300
+branches a week. As well as the counter change, the data centre that
+interacted with the counters changed in line though back end interfaces
+were protected as much as possible to minimise disruption to connected
+
+parties.
+
+c. With the push to adopt Towers models — where there would be several
+suppliers potentially competing for work — POL split the Fujitsu single
+supplier service into several services. Computacenter delivered new
+hardware and a Windows 10 operating environment that they managed
+and Fujitsu ported the HNG-X counter to HNG-A which was a modern
+
+Java implementation and accommodated the new hardware and drivers.
+
+Throughout my involvement with Horizon, POCL had contractual relationships
+with ICL Pathway, and POCL clients such as Alliance & Leicester and Link.
+However, there was no direct contractual relationship between ICL Pathway
+and these parties in regard to the work POCL required to interface into Horizon.
+ICL Pathway would document their solution at an interface level or high-level
+infrastructure level, which BA/POCL and later just POCL (including myself)
+
+Page 8 of 80
+21.
+
+22.
+
+WITNO04060100
+WITN04060100
+
+would then use to agree with the relevant third party, or the third party would
+provide their interface for ICL Pathway to conform to. Sometimes there were
+
+ICL Pathway/third party workshops but always facilitated by POCL.
+
+Once interfaces were agreed and elements of data to be captured were
+identified, the revised workflows and other documents would be produced by
+Fujitsu and then |, along with colleagues, would review and agree these
+specifications. The lower level implementation detail and testing were not
+shared and POL would subsequently test at an end user level as part of User
+Acceptance Testing that would feed any defects and/or observations back to
+be amended or noted at Acceptance meetings as outstanding with mitigations,
+where the overall recommendation was passed up to the Release Authorisation
+
+Board for release authorisation.
+
+As in any development lifecycle, there would have been issues found and rated
+as "High", "Medium" or "Low". High referred to fundamental problems with the
+product, Medium referred to problems with the product that were not fatal and
+had an acceptable workaround (but a limit to the number of workarounds that
+would be reasonably accommodated was in place) and Low referred to
+problems that did not materially affect the operation of the product such as text
+alignment (but again there was a limit to the number of Lows to ensure the end
+user experience was good). By the time Acceptance occurred, there would be
+fewer issues with the product and Acceptance would not be recommended with
+any Highs, and only some Mediums would be permitted whilst there would be
+a bigger limit on Lows. The Acceptance status was then passed on to the
+
+Release Authorisation Board for a release authorisation verdict.
+
+Page 9 of 80
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+WITNO04060100
+WITN04060100
+
+Involvement with Horizon
+
+My first involvement with Horizon was when | joined the established POCL PFI
+
+team, as explained in response to question 1 above.
+
+When | joined the POCL PFI team, | was initially involved as a junior member
+of the technical evaluation team, collating business requirements from analysts
+and working with POCL and BA to set out some of the baseline technical
+
+requirements for what was to become Horizon.
+
+| was part of the team which scored the tenders on a predefined matrix, which
+was then combined with other strands and led to the award of the Horizon
+contract to ICL Pathway. | remember attending meetings with bidders, but not
+
+the specifics as it was a long time ago.
+
+The evaluation and delivery team were, as | recall, in silos with the back office
+(e.g. settlement, billing, remuneration) separate from the front office
+(transaction capture / interaction with clerk and customer) where | was placed.
+There were other strands including security, service management, contracts
+and the commercial terms and conditions etc. but | cannot recall the precise
+
+strands or breakdown of responsibilities.
+
+Following the award of the Horizon contract to ICL Pathway, | worked with the
+Benefits Agency ("BA") as part of the POCL team in refining the requirements
+and implementation to deploy the first generation of Horizon. This was based
+on the Escher Riposte product which was in use until circa 2009 when it was
+replaced by a Fujitsu written Java application and Oracle based data centre.
+The Escher Riposte product was, and still is, a messaging product where a
+
+message is generated at a counter and replicated to partners be they within the
+
+Page 10 of 80
+28.
+
+29.
+
+WITNO04060100
+WITN04060100
+
+branch or within the data centre. For single position branches there were two
+discs in the machine, with the second disc being the partner such that data was
+always stored on at least two media. Once data had been replicated to the data
+centre, it was available for harvesting and delivery to clients. In terms of
+process, requirements set by BA/POCL were set out in a requirement catalogue
+and ICL Pathway would then set out acceptance criteria of how they were going
+to meet each requirement. BA/POCL would then assess the approach and
+these would be agreed; ICL Pathway would then submit evidence in line with
+
+the criteria to allow POCL to asses if the criteria were met.
+
+In respect of Horizon, | was broadly involved in the design of the front-end
+magnetic card acceptance and client interface for the Post Office Card Account
+("POCA") which was also known as Card Account at Post Office ("CAPO") or
+the Benefits Payments Card ("BPC"). This was the front-end transaction
+capture for bill payment and banking and payment. This referred to the clerk-
+customer interaction for basic bill payment where a customer would present a
+token (magnetic card or barcoded bill) along with monies to credit their account.
+| also worked on back-end interfaces to the clients to deliver transactions to
+them and get authorisation verdicts from them, and fed into the reconciliation
+of the counter view and the client view. The back office was responsible for
+invoicing (payment for work done by Post Office), settlement (the exchange of
+monies tendered by the customer) and remuneration (payment to the branch
+
+for chargeable work that was undertaken).
+
+My main role was as a point of presence at the Fujitsu site in Feltham, being
+physically present on site to allow Fujitsu to discuss matters face-to-face which
+| could then take back to the relevant experts. Both POCL and BA staff were in
+
+Page 11 of 80
+30.
+
+31.
+
+WITNO04060100
+WITN04060100
+
+a single room in Feltham, separate to Fujitsu, with no unaccompanied access
+to Fujitsu areas. This allowed attendance at document review meetings and
+undertaking of reviews of Fujitsu provided documents with other BA and POCL
+colleagues. These documents consisted of mainly technical interface
+documents but | also provided ad-hoc advice on other types of documents.
+Being physically on site, | would have acted as a "document champion" for
+POCL; this role was to provide a point of contact for Fujitsu in relation to the
+review of documents, but | was not necessarily the subject matter expert. |
+would have acted as a single point of contact for Fujitsu and as a conduit to the
+relevant subject matter experts, facilitating discussion and collating comments
+before sending these comments back to Fujitsu. Whilst they were involved, BA
+had the senior presence at Feltham and greater access to ICL Pathway and |
+reported into several different managers within the Post Office infrastructure
+over the period and recall at least two management consultancies (French
+
+Thornton and PA Consulting) into whom | also reported at one stage or another.
+
+When BA withdrew from Horizon, there was no substantive change in my role
+of being a point of contact for Fujitsu and reviewing the Fujitsu documents. The
+main difference was that | felt that my views were given more weight as any
+concerns | raised would be moderated by Post Office as opposed to BA where
+
+the single BA product outweighed the needs of all the POL products.
+
+My recollection is that the original Horizon rolled out with the payment
+mechanism being a bar-coded book. However, in 2003, work began to move
+to chip and PIN as the payment mechanism since there was a change coming
+in 2005 which moved payment liability to retailers if they did not have a chip
+and PIN payment facility. The IBM Connex banking switch in use at the time
+
+Page 12 of 80
+32.
+
+33.
+
+WITNO04060100
+WITN04060100
+
+would have needed enhancement to support chip and PIN and | think there was
+a tender process, but the result was that Fujitsu developed equivalent banking
+and payment support to allow card acceptance, including chip and PIN. |
+continued my involvement in payment and banking, reviewing technical Fujitsu
+documents and liaising with POCL clients: Streamline (for payment, later
+retendered and awarded to Global Payments), POCA and Alliance & Leicester
+who were directly connected to Horizon, and Link who were directly connected
+
+to Horizon and acted as a switch to access the other POCL banking clients.
+
+| then moved away from Horizon and worked on various other Post Office
+initiatives, the main ones being the technical strand lead of a separate
+paystation project, after which | was the technical strand lead for the separate
+
+biometric AEI project.
+
+After this gap away from direct Horizon involvement, | would have been called
+upon ad-hoc on matters relating to Horizon due to my previous involvement,
+though | cannot recall any specific queries. | became involved in the POL
+Towers Procurement around 2014. One element of the POL Towers
+Procurement, as far as Horizon was concerned, was to replace the aged
+counter hardware, necessitating the porting of HNG-X to an updated Java and
+Windows 10 environment. There were initially five Towers involved, which
+impacted Horizon and broke up the Fujitsu monolith into a multi-vendor
+environment where there would be competitive tension between the vendors to
+try and achieve a more cost effective and faster solution. This resulted in a
+network Tower won by Verizon, an End User Compute hardware ("EUC")
+Tower for administration and counter hardware and engineers won by
+Computacenter (but now retendered and with DXC), a Front Office Application
+
+Page 13 of 80
+34.
+
+35.
+
+WITNO04060100
+WITN04060100
+
+Tower won by IBM to replace Horizon (counter, data centre, client connections,
+reconciliation i.e. everything that Fujitsu were delivering to POL) but later
+cancelled, a data centre Tower that was not awarded and the individual
+suppliers maintained their own data centres, and a System Integrator Tower
+
+won by Atos but now expired and reverted back to POL.
+
+| was involved in the EUC Tower and focussed on the replacement of Post
+Office branch hardware. To facilitate the move from HNG-X on the old NT4 to
+the new Windows 10, the migration approach agreed was to upgrade the
+HNG-X Java implementation to a modern Java that would run on Windows 10
+("HNG-A"). This would allow the swap of network and hardware in one visit
+leaving the clerk with familiar HNG software and it was planned there would be
+a later (after approximately three months rolling deployment) upgrade over the
+wire to the IBM solution. With the cancellation of IBM counter solution, the HNG-
+A solution and infrastructure and processes used by HNG-A have continued to
+
+be used to provide POL's counter service.
+
+Since 2018, | have been involved in the implementation of a solution removing
+card data from the HNG-A system to allow POL to gain PCI accreditation. This
+
+project is currently ongoing.
+
+Page 14 of 80
+WITNO04060100
+WITN04060100
+
+DESIGN AND DEVELOPMENT
+
+3. Please consider: FUJ00085352 (WITN 0406R9_1/1); FUJ00003487 (WITN
+0406R9_1/2); FUJ00058486 (WITN 0406R9_1/3); FUJ00058484 (WITN
+
+0406R9_1/4); POL00028188 (WITN 0406R9_1/5)
+
+a. Please describe your role in the design and development of the Horizon IT
+
+system.
+
+36. | have reviewed documents WITN 0406R9_1/1, WITN 0406R9_1/2, WITN
+0406R9_1/3, WITN 0406R9_ 1/4, WITN 0406R9_1/5 identified in respect of Q3
+but have not limited my responses to Q3 in relation to these documents. Please
+
+read this response in conjunction with my response to Q2.
+
+37. Horizon continues to evolve and be developed. My role in the design and
+development of Horizon was as part of a team reviewing Fujitsu produced
+technical material (e.g. screen designs, process flows, etc.) and liaising with
+third parties as required, (as described in paragraph 21 above). It should be
+noted that Fujitsu only shared high level designs against the requirements; low
+level designs, and code were never shared or made available for review. It
+should also be noted that the documents to review could be quite large and
+reviews would be restricted to the changes detailed by Fujitsu e.g. the change
+history would state "section 3.2 amended" and that would then be reviewed and
+
+the remainder of the document may not have been reviewed.
+
+38. In terms of the design and development, my role was ‘up front’, reviewing the
+high-level designs, input to screen flows, agreeing interface specifications etc.
+
+and being available for questions during the testing of the implementation,
+
+Page 15 of 80
+39.
+
+40.
+
+WITNO04060100
+WITN04060100
+
+which could occur at any point. The implementation was carried out by Fujitsu,
+
+and then by POL testers and followed the structure below.
+Development Lifecycle
+
+The lifecycle followed a process where Fujitsu internally undertook Code and
+Integration Test (“CIT”) and development, before moving onto System
+Validation and Integration (“SV&I") where the code was placed on test rigs
+alongside the rest of the system and potentially connected to client test
+systems. Fujitsu would typically spend two weeks locating and fixing issues —
+as would be expected in a life cycle — before resetting the rig with improved
+code and running their tests again, with a third cycle where the code would be
+
+a release candidate.
+
+During SV&I, POL testers had first sight of the screens and reports and feeds
+to systems and would be able to highlight anything that was incorrect (e.g. an
+interpretation or requirement that needed amending as it did not work, or
+addressing text where a previously unidentified error message was required)
+and validate the User Acceptance Test (“UAT”) scripts that POL would later
+run. POL would run UAT which is very end user and business process
+orientated, confirming screens flowed as expected. This phase could not cover
+technical tests such as communication failures, for example, where cables
+became disconnected, it would not be known if it was before or after a message
+was sent so the expected behaviour would not be known and the test would not
+be repeatable; only by stopping the code and removing the cable and resuming
+code execution could this be tested — a technical intervention that POL were
+reliant on Fujitsu for. This phase also did not cover volume or concerted
+
+performance testing (though it would note if the end user experience was slow).
+Page 16 of 80
+41.
+
+42.
+
+43.
+
+WITNO04060100
+WITN04060100
+
+POL depended on Fujitsu's technical lower level testing to address these
+conditions. The final phase is Live System Test (“LST”) where Fujitsu would
+promote the new code on the LST test rigs to confirm that the migration stages
+
+and internal run books saying what has to happen are correct.
+
+With testing complete, a Release Board would have the evidence presented
+along with Fujitsu's recommendation and then would authorise proceeding to
+Live if the evidence supported the decision. Live would be firstly in a Model
+Office environment, a Live counter just like all the other counters but with no
+access to the public. This allowed live connections to be proven, new transitions
+to be exercised and to confirm the promotion occurred successfully, before
+typically moving to a pilot set of branches for a period. Though testing is
+thorough, Live branches will put through more transactions and operate the
+system in different ways — not always in accordance with instructions — and the
+pilot period allows anomalies to be identified, and if necessary, remedial action
+
+to be taken. The software is then deployed to the estate.
+Later involvement with Horizon
+
+After a period without direct involvement in Horizon, | resumed my involvement
+in the design and development of Horizon in 2014 as part of the POL Towers
+
+Procurement as described at paragraphs 33 to 34 above.
+
+In relation to Landis & Gyr / Quantum and Talexus, (WITN 0406R9_1/4), | had
+previous experience from the paystation implementation of these technologies
+and concepts. Though the Quantum product was released, | do not believe that
+
+the Talexus solution was deployed on Horizon.
+
+Page 17 of 80
+WITNO04060100
+WITN04060100
+
+44. In relation to Data Reconciliation (WITN 0406R9_1/1), | would have been
+involved in review and looking at how exceptions would be spotted and if
+necessary rectified. This would have looked at matters such as the timing of
+arrival of transactions from various feeds and what happened if they arrived out
+of sequence and/or did not match etc. i.e. the logical cases that had to be
+accommodated and turned into lower level and database and code designs by
+
+Fujitsu which were not shared.
+
+45. In relation to other matters, | am unable to recall the circumstances of the events
+and provide any more detail than what is already set out in the documents
+identified in relation to Q3. However, | would guess that my involvement with
+HAPS was to support John Bruce with the AP files from Horizon to HAPS to AP
+
+clients.
+
+46. In all cases, my involvement with Horizon was at the review of the high-level
+designs provided by Fujitsu as implementation specifications and more detailed
+material was not shared with me. External interfaces would have been shared
+and agreed with the external parties, and would have been checked to ensure
+that the high-level design met the requirements. It did not, however, go into the
+
+lower level detail of how Fujitsu would achieve this.
+
+b. What understanding did you have of any technical issues with the ICL
+
+Pathway solution in February to May 1997?
+
+47. | have reviewed documents WITN 0406R9_1/1, WITN 0406R9_1/2, WITN
+0406R9_1/3, WITN 0406R9_1/4, WITN 0406R9_1/5 but they do not assist my
+recollection in relation to this question. Please read this response in conjunction
+
+with my response to Q2.
+
+Page 18 of 80
+WITNO04060100
+WITN04060100
+
+48. | do not recall any specific issues or general issues with the ICL Pathway
+
+solution and would not be able to narrow down to specific timeframe if | did.
+
+c. Were you involved in addressing any technical issues between February to
+
+May 1997?
+
+49. | have reviewed documents WITN 0406R9_1/1, WITN 0406R9_1/2, WITN
+0406R9_1/3, WITN 0406R9_ 1/4, WITN 0406R9_1/5 but they do not assist my
+recollection in relation to this question. Please read this response in conjunction
+
+with my response to Q2.
+
+50. | do not recall any specific issues or general technical issues and would not be
+
+able to narrow down to specific timeframe if | did.
+d. What did your role as ‘PDA Acceptance Test Manager’ for ‘APS/HAPS' entail?
+51. Please read this response in conjunction with my response to Q2.
+
+52. Horizon had an interface to the Host Automated Payment System ("HAPS"),
+which was a mechanism to deliver payments to various end clients. The role of
+Programme Design Authority ("PDA") Acceptance Test Manager entailed the
+review of ICL Pathway supplied documents where they set out their responses
+to Acceptance criteria to demonstrate compliance. It should be noted that | did
+not undertake direct testing, nor did | have any test resource that | was
+responsible for; my role was limited to document reviews and evaluation of
+written responses from ICL Pathway. The responses included satisfying criteria
+by Test, where ICL Pathway would state the success of their testing, but could
+
+also include a document review or a simple statement.
+
+Page 19 of 80
+WITNO04060100
+WITN04060100
+
+e. What concerns did POL have about the reliability and robustness of the
+
+Horizon system between February to May 1997?
+
+53. | have reviewed documents WITN 0406R9_1/1, WITN 0406R9_1/2, WITN
+0406R9_1/3, WITN 0406R9_1/4, WITN 0406R9_1/5 but they do not assist my
+recollection in relation to this question. Please read this response in conjunction
+
+with my response to Q2.
+
+54. ‘It should be noted that POL had requirements and Fujitsu developed the
+solution to meet those requirements, but POL did not see the low-level design,
+code or testing. By the time testing was shared there would have been relatively
+few bugs, but the point of testing is to uncover bugs so they can be fixed before
+
+the code goes live.
+
+55. My general recollection is limited to the areas | was involved with and looking
+back, | cannot recall any specific concerns. As in any development lifecycle, |
+expect that there were issues, but if these issues were known prior to release
+and not resolved they would have been categorised at Acceptance as
+described at paragraph 22 above. If issues were identified in the live phase, |
+cannot remember the process that was followed at that time to deal with them.
+An issue in the development cycle could range from a disagreement about
+whether an acceptance criteria is a test or document review or it could be a
+
+problem identified during testing.
+
+f. How would you describe the relationship between BA/POCL and ICL Pathway
+
+in June 1997?
+
+56. | have reviewed documents WITN 0406R9_1/1, WITN 0406R9_1/2, WITN
+
+0406R9_ 1/3, WITN 0406R9_1/4, WITN 0406RQ9_1/5 but they do not assist my
+
+Page 20 of 80
+WITNO04060100
+WITN04060100
+
+recollection in relation to this question. Please read this response in conjunction
+
+with my response to Q2 at paragraph 29 above.
+
+57. | do not recall anything specific about the relationship between BA/POCL and
+ICL Pathway and my recollection may be limited due to the nature of my
+involvement as a junior member of the technical evaluation team at the time
+and then being based in Feltham. In general terms, there was a feeling of POCL
+being the junior partner with BA having a closer and more senior relationship
+
+with the ICL Pathway.
+
+4. Please consider: FUJ00058252 (WITN 0406R9_1/6); FUJ00000561 (WITN
+
+0406R9_1/7).
+
+a. What did you perceive as the risks to the Pathway Solution from the
+
+introduction of frame relay as preferred to the non-ISDN solution?
+
+58. | have reviewed documents WITN 0406R9_1/6 and WITN 0406R9_1/7
+identified in respect of Q4 but have not limited my responses to Q4 in relation
+
+to these documents.
+
+59. _| believe the frame relay technology for connecting all the branches to the data
+centre was a proposal that was withdrawn. This seems to be supported by the
+documents (WITN 0406R9_ 1/6; WITN 0406R9_1/7); VSAT (a satellite dish with
+an Earth Station that the local router plugged into negating the need for any
+wired connection to the branch) was used in its place and is still in use, albeit
+
+in a later guise, today.
+
+Page 21 of 80
+WITNO04060100
+WITN04060100
+
+b. What was your understanding of the issues with network communications
+
+and lack of access around the time of the Horizon rollout?
+
+60. | have reviewed documents WITN 0406R9_1/6 and WITN 0406R9_1/7 but they
+
+do not assist my recollection in relation to this question.
+
+61. Whilst not directly involved with network communications, from memory of
+anecdotal information at the time, ISDN was new and not available across the
+country, but BA/POCL would provide a volume of lines and diverse enough
+coverage to give sufficient impetus to make it viable and cost effective for British
+
+Telecommunications to deploy ISDN at a reasonable, universal, cost.
+
+62. As | was not directly involved in the day to day rollout of Horizon | cannot
+comment on any specific issues, and | do not recall any specific issues being
+
+brought to me to assist with, including network communications.
+
+5. Please consider: FUJ00078768 (WITN 0406R9_1/8); FUJ00058397 (WITN
+
+0406R9_1/9); FUJO0078883 (WITN 0406R9_1/10)
+a. What did your role as ‘TIP Authority Test Manager’ in July 1998 entail?
+
+63. | have reviewed documents WITN 0406R9_1/8, WITN 0406R9_1/9, and WITN
+0406R9_1/10 identified in respect of Q5 but have not limited my responses to
+Q5 in relation to these documents. Please read this response in conjunction
+
+with my response to Q2.
+
+64. Whilst | cannot remember what "TIP" stands for, the role of TIP Authority Test
+Manager would have entailed the review of ICL Pathway supplied technical
+documents and, along with colleagues, providing feedback on those
+
+documents. It should be noted that | did not undertake direct testing, nor have
+
+Page 22 of 80
+WITNO04060100
+WITN04060100
+
+any test resource that | was responsible for; my role was limited to document
+
+reviews.
+
+b. What technical defects / issues were you aware of as a result of the pilot in
+
+June 1999?
+
+65. | have reviewed documents WITN 0406R9_1/8, WITN 0406R9_1/9, and WITN
+
+0406R9_1/10 but they do not assist my recollection in relation to this question.
+
+66. | am unable to recall being made aware of any technical defects or issues as a
+result of the pilot in June 1999. | would only be aware of any technical defects
+
+or issues brought to review meetings.
+c. What was the result of the identification of such technical defects / issues?
+
+67. | have reviewed documents WITN 0406R9_1/8, WITN 0406R9_1/9, and WITN
+0406R9_1/10 but they do not assist my recollection in relation to this question.
+Please read this response in conjunction with my response to Q2 at paragraph
+
+22 above.
+
+68. | am unable to recall the results of the identification of any such technical
+defects or issues. In general terms, the approach would be a review of
+presented material, categorisation of any issues identified as described in my
+response to Q2 and a recommendation on next steps would have been made
+
+for senior management to agree.
+d. Did this prompt further testing?
+
+69. | have reviewed documents WITN 0406R9_ 1/8, WITN 0406R9_1/9, and WITN
+
+0406R9_1/10 but they do not assist my recollection in relation to this question.
+
+Page 23 of 80
+WITNO04060100
+WITN04060100
+
+Please read this response in conjunction with my response to Q2 at paragraph
+
+22 above.
+
+70. 1! am unable to recall if this prompted further testing. In general terms, | would
+have expected any issues categorised as High or Medium to have an agreed
+set of steps that would lead to the resolution of the problem, normally with an
+
+agreed plan to accompany it.
+
+71. The role of TIP Authority Test Manager would have entailed the review of ICL
+Pathway supplied technical documents and, along with colleagues, providing
+feedback on those documents. As explained above, it should be noted that |
+did not undertake direct testing, nor have any test resource that | was
+responsible for; my role was limited to document reviews and the documents
+
+would not have had low level detail in them.
+e. What was your role in this between June to November 1999?
+
+72. | have reviewed documents WITN 0406R9_ 1/8, WITN 0406R9_1/9, and WITN
+
+0406R9_1/10 but they do not assist my recollection in relation to this question.
+73. | amunable to recall my role in relation to this between June to November 1999.
+
+6. Please consider: FUJ00001493 (WITN 0406R9_1/11); FUJ00088005 (WITN
+0406R9_1/12); FUJ00001441 (WITN 0406R9_1/13); FUJ00088068 (WITN
+
+0406R9_1/14)
+
+a. What involvement did you have in ensuring the security and integrity of the
+
+data in the Horizon System from 1999 to 2004?
+
+74. | have reviewed documents WITN 0406R9_1/11, WITN 0406R9_ 1/12, WITN
+
+0406R9_1/13, WITN 0406R9_1/14 but have not limited my responses to Q6 in
+
+Page 24 of 80
+WITNO04060100
+WITN04060100
+
+relation to these documents. Please read this response in conjunction with my
+
+response to Q2.
+
+75. 1 am unable to recall my involvement in ensuring the security and integrity of
+the data in Horizon from 1999 to 2004. Looking at the documents, they are not
+familiar and | assume | was acting as a gateway into others within Post Office
+for more detailed review as | was co-located with ICL Pathway at Feltham.
+Though | am aware of general security principles, | am not a security specialist
+and would have deferred to specialists such as Sue Lowther (WITN
+
+0406R9_1/14).
+
+b. What processes did you understand were in place for access control and user
+
+administration in 1999?
+
+76. | have reviewed documents WITN 0406R9_ 1/11, WITN 0406R9_1/12, WITN
+0406R9_1/13, WITN 0406R9_1/14 but they do not assist my recollection in
+
+relation to this question.
+
+77. | am unable to recall what processes were in place for access control and user
+administration in 1999 as this was not my area. In respect of counter login, |
+believe there would have been a general approach of branch users having just
+enough access to do their jobs, but | cannot recall the detail. In addition, while
+| remember the use of a memory card to ensure there was a token as well as a
+PIN to start up and then username and password to log on to the counter
+system | cannot recall any details of these measures. | would have deferred to
+
+security specialists and collated their feedback.
+
+Page 25 of 80
+WITNO04060100
+WITN04060100
+
+c. What processes did you understand were in place for access control and user
+administration in 2000? Did they change during that year? If so, please
+
+explain why.
+
+78. | have reviewed documents WITN 0406R9_1/11, WITN 0406R9_1/12, WITN
+0406R9_1/13, WITN 0406R9_1/14 but they do not assist my recollection in
+
+relation to this question.
+79. 1am unable to recall the processes in place at the time and if they did change.
+d. What effect did this have on the rollout of the Horizon Programme?
+
+80. | have reviewed documents WITN 0406R9_1/11, WITN 0406R9_1/12, WITN
+0406R9_1/13, WITN 0406R9_1/14 but they do not assist my recollection in
+
+relation to this question.
+
+81. | do not know what effect this had on rollout of Horizon as rollout was not my
+
+area and | do not recall being made aware of any issues.
+
+e. What was your understanding of the issues that arose with security / data
+
+integrity within the Horizon system from 1999 to 2004?
+
+82. | have reviewed documents WITN 0406R9_ 1/11, WITN 0406R9_1/12, WITN
+0406R9_1/13, WITN 0406R9_1/14 but they do not assist my recollection in
+
+relation to this question.
+
+83. | am unable to recall being made aware of any issues that arose with the
+
+security or data integrity within Horizon from 1999 to 2004.
+
+Page 26 of 80
+WITNO04060100
+WITN04060100
+
+7. Please consider: FUJ00078292 (WITN 0406R9_1/15); FUJ00058366 (WITN
+
+0406R9_ 1/16); FUJ00001670 (WITN 0406R9_1/17)
+
+a. What involvement did you have in the design of the Interface Specifications
+
+for the Horizon system in June/July 1997?
+
+84. | have reviewed documents WITN 0406R9_1/15, WITN 0406R9_1/16, and
+WITN 0406R9_ 1/17 but have not limited my responses to Q7 in relation to these
+
+documents. Please read this response in conjunction with my response to Q2.
+
+85. Whilst | am unable to recall anything specific to June/July 1997, in general
+terms | would have been a reviewer for the ICL Pathway supplied documents
+as well as any documents originating from third parties if they had them (e.g.
+Horizon connecting to a standard offering). | would have input to any
+deficiencies or ambiguities that | and my colleagues found during our review.
+The implementation of our comments would have fallen to ICL Pathway and
+
+would not have been shared with us.
+
+b. Were you aware of any issues or defaults in the design specifications in
+
+June/July 1997?
+
+86. | have reviewed documents WITN 0406R9_1/15, WITN 0406R9_1/16, and
+WITN 0406R9_1/17 but they do not assist my recollection in relation to this
+
+question. Please read this response in conjunction with my response to Q2.
+
+87. | am unable to recall any issues or defaults in the design specifications in
+June/July 1997. All designs go through iterations up to and during testing and
+subsequently if issues arise in live. Without the change history detail, | cannot
+
+extrapolate further but would not be surprised by iterations. However, | would
+
+Page 27 of 80
+WITNO04060100
+WITN04060100
+
+not have had sight of lower level designs or issues resolved within ICL Pathway
+
+before the designs were shared with BA/POCL.
+
+c. What involvement did you have in the design of the Interface Specifications
+
+during the rollout in early 2000?
+
+88. | have reviewed documents WITN 0406R9_1/15, WITN 0406R9_1/16, and
+WITN 0406R9_1/17 but they do not assist my recollection in relation to this
+
+question. Please read this response in conjunction with my response to Q2.
+
+89. | am unable to recall what Interface Specifications were being worked on in
+early 2000, but would have reviewed the Interface Specifications along with
+
+colleagues and any third parties if present at that time.
+
+d. FUJ00001670 (WITN 0406R9_1/17): what was your understanding for the
+updates to this version of the document which included removing the comment
+on "system shortfall" and adding a comment on "liability due to system
+shortfall" in section 3.3, at the same time as the document classification
+
+changed to "COMMERCIAL IN CONFIDENCE"?
+
+90. | have reviewed document WITN 0406R9_1/17. | was listed as an “optional
+reviewer" on the document and may not have reviewed the document. Whilst
+the comments on "system shortfall" and "liability due to system shortfall" appear
+to have been removed as set out in the document history section, the section
+provides no context to this change and does not assist my recollection in
+
+relation to this question.
+
+91. | am unable to recall the reason behind these changes and whether they had
+any bearing on the change in document classification to "COMMERCIAL IN
+
+CONFIDENCE".
+
+Page 28 of 80
+WITNO04060100
+WITN04060100
+
+8. Please consider: FUJ00079076 (WITN 0406R9_1/18); FUJO0001368 (WITN
+0406R9_1/19); FUJ00001379 (WITN 0406R9_1/20); FUJ00001378 (WITN
+0406R9_1/21); FUJ00001377 (WITN 0406R9_1/22); FUJ00058190 (WITN
+
+0406R9_ 1/23)
+
+a. What was your understanding of the ‘OPS / TMS boundary issue'in December
+
+1998?
+
+92. | have reviewed documents WITN 0406R9_1/18, WITN 0406R9_ 1/19, WITN
+0406R9_1/20, WITN 0406R9_1/21, WITN 0406R9_1/22 and WITN
+0406R9_1/23 but they do not assist my recollection in relation to this question.
+Whilst the documents refer to correspondence dated 2 December 1998, this
+
+correspondence is not attached.
+
+93. However, document WITN 0406R9_ 1/24 (FUJ00079077) may clarify the 'OPS
+
+/ TMS boundary issue’. At comment 7, the document states:
+
+94. "...0fthe OPS/TMS boundary issue concerning whether the Service boundary
+between OPS and TMS shall be defined as the physical separation between an
+outlet and a point in the ICL Pathway Data Centres, or as the programmatic
+interface between the APS/BES/OBCS/EPOSS/PCDF counter applications
+
+and the TMS message store."
+
+95. Based on this comment, | believe the issue was one of ambiguity of definition
+of what the boundary was — physical or programmatic - between the branch
+(OPS data centre) where the branch would interact with the data centre to lodge
+transactions and access clients online. | believe the purpose of the definition
+was to give the potential for “competitive tension” in that, if there was a defined
+
+interface between the branch and the centre, a third party could use the
+
+Page 29 of 80
+WITNO04060100
+WITN04060100
+
+interface and it would allow another supplier to bid for work in conjunction with
+or in competition with ICL Pathway. This was never taken forwards and the
+
+challenges to implement this would have been immense.
+
+b. What involvement did you have in the design of the OPS / TMS design
+
+specifications in February to May 2000?
+96. Please read this response in conjunction with my response to Q2.
+
+97. Myrole in the design of the OPS / TMS design specifications would have been
+as a reviewer of the ICL Pathway documents as they were the author and
+
+supplier of the specifications.
+
+c. Were you aware of any issues or defaults in the design specifications in
+
+February to May 2000? Please explain your answer.
+
+98. | have reviewed documents WITN 0406R9_1/18, WITN 0406R9_ 1/19, WITN
+0406R9_1/20, WITN 0406R9_1/21, WITN 0406R9_1/22 and WITN
+0406R9_1/23. Whilst the documents specify the usage of the design
+specifications, these specifications were never passed on to a third party and
+
+exercised so | cannot comment on their accuracy and completeness.
+
+99. | am unable to recall any issues or defaults in the design specifications in
+February to May 2000. These would only have come to light if the documents
+had been passed to a third party with a specific task to actively engage with
+Fujitsu to interface with OPS / TMS. These were very much a place holder
+should POL take that step and would have involved far more detailed
+engagement dependent on the third party and what was being integrated. This
+was never taken forwards and the challenges to implement this would have
+
+been immense.
+
+Page 30 of 80
+WITNO04060100
+WITN04060100
+
+d. In your view, were the issues with the OPS / TMS overcome? Please explain
+
+your answer.
+100. Please read this response in conjunction with my response to Q8a.
+
+101. | believe the issue referred to here was one of terminology and that it was
+
+resolved as programmatic rather than a physical boundary.
+
+9. Please consider: FUJ00001444 (WITN 0406R9_1/25); FUJ00001677 (WITN
+0406R9_1/26); FUJ00001818 (WITN 0406R9_1/27); FUJ00001756 (WITN
+
+0406R9_1/28)
+
+a. What involvement did you have in the development of counter hardware and
+
+software design specifications in 2000?
+
+102. | have reviewed documents WITN 0406R9_1/25, WITN 0406R9_1/26, WITN
+0406R9_1/27, and WITN 0406R9_1/28 but have not limited my responses to
+Q9 in relation to these documents. Please read this response in conjunction
+
+with my response to Q2.
+
+103. Whilst | cannot be certain of the time period, based on the above documents |
+would have reviewed the hardware configurations and highlighted any gaps that
+| spotted and ensured an element of future proofing. For instance, | would have
+ensured that the PIN Entry Device also had a smart card reader and that
+
+additional communication ports for peripherals were included.
+
+104. | was not involved in usability of the hardware in relation to repetitive stress
+injury etc. as POL engaged specialist ergonomists such as Robin Ellis of RED
+
+Design Ergonomics to assess usability and liaised with them.
+
+Page 31 of 80
+WITNO04060100
+WITN04060100
+
+105. In terms of overall process, a workflow would have been agreed via the
+business analysts with the product owners and married to any technical
+constraints to arrive at a signed off solution from ICL Pathway. In this context,
+a workflow refers to a series of steps a customer and clerk would need to take
+
+with the system to successfully complete a transaction.
+
+b. What was your understanding of how faults were reported to the Horizon
+
+System Helpdesk in 2000?
+
+106. | have reviewed documents WITN 0406R9_1/25, WITN 0406R9_1/26, WITN
+0406R9_1/27, and WITN 0406R9_1/28 but they do not assist my recollection
+in relation to this question as the Horizon System Helpdesk was not within my
+
+strand.
+
+107. However, in general terms, | believe that then, as now, the branch calls the
+helpdesk to raise a ticket with any hardware or software faults or concerns but
+
+these processes were not my area.
+
+c. What involvement did you have in the development of counter hardware and
+
+software design specifications in 2002 and 2003?
+
+108. Whilst | am unable to recall details specific to 2002 and 2003, | would have had
+a similar involvement in the development of counter hardware and software
+
+design specifications as | have set out in Q9a.
+
+d. What was your understanding of the training and/or advice that
+Subpostmasters / mistresses received on the various designs and updates to
+
+the counter screens between 2000 and 2003?
+
+109. | believe Training was a separate strand from the POCL Infrastructure strand |
+
+was involved with. Normal practice is for the design documents and test output
+
+Page 32 of 80
+WITNO04060100
+WITN04060100
+
+(screen shots, sample reports) to be used to construct user guides and training
+material, but | cannot recall if this was the case between 2000 and 2003.
+Training is also another consideration for release authorisation but | cannot
+recall whether this would have been a relevant consideration during this time
+
+period.
+
+10. Please consider: FUJ00000603 (WITN 0406R9_1/29); FUJ00001681 (WITN
+0406R9_1/30); FUJ00001684 (WITN 0406R9_1/31); FUJ00001702 (WITN
+
+0406R9_ 1/32); FUJO0001742 (WITN 0406R9_1/33).
+
+a. Please describe your involvement in the design of the Horizon IT system once
+
+it was rolled out.
+
+110. | have reviewed documents WITN 0406R9_1/29, WITN 0406R9_ 1/30, WITN
+0406R9_1/31, WITN 0406R9_1/32, and WITN 0406R9_1/33 but have not
+limited my responses to Q10 in relation to these documents. Please read this
+
+response in conjunction with my response to Q2.
+
+111. Once Horizon was rolled out, | would have moved on to the next initiative and
+been involved in changes to introduce new functions or amend existing
+functions as part of a business sponsored or Fujitsu change control and
+reviewing any deferred items (if there were any), collating requirements,
+
+reviewing Fujitsu responses and liaising with third parties as required.
+
+b. What understanding did you have of any technical issues during the autumn
+
+/ winter of 2002?
+
+112. | have reviewed documents WITN 0406R9_ 1/29, WITN 0406R9_1/30, WITN
+0406R9_ 1/31, WITN 0406R9_1/32, and WITN 0406R9_1/33. The documents
+
+show the inclusion of a beep, a change to retention period and general
+
+Page 33 of 80
+WITNO04060100
+WITN04060100
+
+documentation of the system but they do not assist my recollection in relation
+
+to this question.
+113. 1 do not recall any specific technical issues during the autumn / winter of 2002.
+11. Please consider: FUJ00001753 (WITN 0406R9_1/34)
+
+a, What was your involvement in the rollout of EPOSS at Post Office Counters
+
+in 2003?
+
+114. | have reviewed document WITN 0406R9_1/34. WITN 0406R9_1/34 is a
+processes and procedures document that does not appear to contain any
+information relating to the rollout of EPOSS and does not assist my recollection
+in relation to this question.
+
+115. | cannot recall being actively involved in the rollout of EPOSS in 2003. As | have
+set out in Q2, during 2003 work was starting with the capability to introduce chip
+
+and PIN and that would have been my focus.
+b. Were you aware of any testing of EPOSS before it was rolled out?
+
+116. 1 have reviewed document WITN 0406R9_1/34 but it does not assist my
+
+recollection in relation to this question.
+
+117. 1|donothave any reference documents as to what changed or what was tested
+and released in this period. However, | assume that the normal development
+lifecycle of test reports into acceptance and gating were performed as | have
+
+described in Q2.
+c. What technical issues / defects arose during the testing phase?
+
+118. | have reviewed document WITN 0406R9_1/34 but it does not assist my
+
+recollection in relation to this question.
+
+Page 34 of 80
+WITNO04060100
+WITN04060100
+
+119. lam unable to recall any technical issues or defects that arose during the testing
+
+phase.
+d. What technical issues / defects arose during the rollout?
+
+120. | have reviewed document WITN 0406R9_1/34 but it does not assist my
+
+recollection in relation to this question.
+
+121. | am unable to recall any technical issues or defects that arose during the
+
+rollout.
+
+e. How prepared were the Subpostmasters / mistresses for the rollout? Please
+explain your answer.
+
+122. | have reviewed document WITN 0406R9_1/34 but it does not assist my
+
+recollection in relation to this question.
+
+123. | am unable to recall what changes occurred at this time nor the degree of
+communication that would have occurred as the actual rollout was outside the
+
+scope of my area.
+
+12. Please consider: FUJ00001819 (WITN 0406R9_1/35); FUJ00001719 (WITN
+
+0406R9_ 1/36); FUJ00001631 (WITN 0406R9_1/37)
+a. What role did you play in the contract extension for Horizon in autumn 2003?
+
+124. | have reviewed documents WITN 0406R9_1/35, WITN 0406R9_1/36, and
+WITN 0406R9_1/37 but have not limited my responses to Q12 in relation to
+
+these documents.
+
+125. | do not remember any explicit work at this time in relation to the Horizon
+contract extension but may well have been involved. Looking at the documents,
+
+| would have supplied input to the lead POL architect (probably Torstein
+
+Page 35 of 80
+WITNO04060100
+WITN04060100
+
+Godeseth at that time) as and when requested, reviewing Fujitsu statements of
+actual volumes to "right-size" the Horizon system going forwards. Right-sizing
+a system refers to looking at actual business workload volumes and adjusting
+the technical capacity of a system to meet this demand. Where technical
+capacity exceeded demand, right-sizing could also involve considering the
+potential for any cost savings. The documents together with the question
+suggests a contract extension took place, but | cannot recall the term of the
+contract and whether autumn 2003 would have been when work on an
+
+extension was undertaken.
+
+b. What role did you play in the process of managing capacity and business
+workload volumes that the Horizon system would support under a contract
+
+extension?
+
+126. Whilst | am unable to recall playing a specific role in the context of a Horizon
+contract extension, in general terms | would have critiqued workload figures and
+projections produced by Fujitsu to ensure things such as Christmas peaks were
+
+included.
+
+Page 36 of 80
+WITNO04060100
+WITN04060100
+
+ACCEPTANCE
+
+13. Please consider: FUJ00079089 (WITN 0406R9_1/38); FUJ00079077 (WITN
+
+0406R9_1/24); FUJ00079087 (WITN 0406R9_1/39); FUJ00079081 (WITN
+
+0406R9_1/40); FUJ00079083 (WITN 0406R9_1/41); FUJ00079141 (WITN
+
+0406R9_1/42); FUJ00079143 (WITN 0406R9_1/43); FUJ00001463 (WITN
+
+0406R9_1/44); FUJ00079176 (WITN 0406R9_1/45); POL00028357 (WITN
+
+0406R9_1/46); FUJ00078793 (WITN 0406R9_1/47); FUJ00079173 (WITN
+
+0406R9_1/48); POL00028359 (WITN 0406R9_1/49); POL00028355 (WITN
+
+0406R9_1/50); POL00028332 (WITN 0406R9_1/51)
+
+a. What role did you play in the changes made to the Acceptance criteria and/or
+
+terms in order for the Horizon system to be accepted between December 1998
+
+to June 1999?
+
+127.
+
+128.
+
+| have reviewed documents WITN 0406R9_ 1/38, WITN 0406R9_ 1/24, WITN
+0406R9_ 1/39, WITN 0406R9_ 1/40, WITN 0406R9_ 1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, and WITN 0406R9_1/51 but have not limited my
+
+responses to Q13 in relation to these documents.
+
+As part of the POL technical evaluation team (reporting to Jeremy Folkes (POL
+Senior Technical Lead) and then Torstein Godeseth (POL Technical Lead)), |
+would have reviewed ICL Pathway's proposed acceptance criteria and
+suggested amendments or additional coverage where any gaps or ambiguity
+was identified, or where a criterion could be better met (more fully, or with less
+
+effort) elsewhere to optimise the process without diminishing the quality of the
+
+Page 37 of 80
+WITNO04060100
+WITN04060100
+
+outcome. Once these acceptance criteria were established and agreed by all
+parties, | would have been part of the review panel to ascertain if criteria had
+
+been met and then to help produce and collate a recommendation.
+
+129. As the documents show, WITN 0406R9_1/47, WITN 0406R9_1/24, WITN
+0406R9_1/40, WITN 0406R9_1/41 WITN 0406R9_1/39, WITN 0406R9_ 1/38,
+WITN 0406R9_1/42, WITN 0406R9_1/43, WITN 0406R9_1/48, WITN
+0406R9_1/45, WITN 0406R9_1/51, WITN 0406R9_1/50, WITN 0406R9_ 1/46,
+WITN 0406R9_1/49 some acceptance incidents were raised (i.e. reflecting that
+certain failures had occurred) and rectified and amended which is what testing
+and acceptance are about and to be expected with seniors agreeing the
+
+position (WITN 0406R9_ 1/45, WITN 0406R9_ 1/51).
+
+b. What understanding and/or knowledge did you have of the results of any
+
+software testing prior to Acceptance?
+
+130. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_ 1/24, WITN
+0406R9_ 1/39, WITN 0406R9_1/40, WITN 0406R9_1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, and WITN 0406R9_1/51 but these documents do not
+
+assist my recollection in relation to this question.
+
+131. 1am unable to recall the results of any software testing prior to Acceptance. In
+general terms, | would have deferred to the Test team specialists to give input
+on the suitability of releases. However, based on my experience, | do not
+believe that ICL Pathway would have presented an Acceptance pack that they
+
+did not believe would get a significant number of items signed off. Prior to
+
+Page 38 of 80
+WITNO04060100
+WITN04060100
+
+Acceptance, the development lifecycle (as described more fully at paragraph
+39 above) would have seen the code move through CIT, SV&l and possibly
+UAT and LST, and Acceptance would have addressed criteria in batches as
+and when evidence was available. A test pack may have been incomplete (i.e.
+missing criteria would not be tabled for acceptance) but would have been
+
+incremental to allow progress to be made in manageable batches.
+
+132. It should also be noted that ICL Pathway development was behind closed
+doors, and only outstanding defects that were present would be declared to
+
+POCL when it began its User Testing.
+
+c. Were there external pressures to accept the Horizon System? If so, from
+
+whom?
+
+133. There is always a desire to complete a project and to avoid working on it past
+the point of diminishing returns. For instance, whilst Acceptance would not be
+recommended with any issues graded "High", a certain number of "Lows" would
+be permitted as part of the development lifecycle described at Q2 above.
+However, | do not recall any shortcuts being requested, and the acceptance
+criteria would have required entries against them showing how they had been
+
+satisfied and if not, why they had not been met.
+
+134. It is worth noting that ICL Pathway did draw boundaries that were not to be
+crossed in terms of access to lower level designs and correlation of unit/system
+
+tests to design to confirm all paths had been considered and tested.
+
+Page 39 of 80
+WITNO04060100
+WITN04060100
+
+d. What understanding did you have of any technical difficulties / issues
+
+between June to September 1999?
+
+135. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_ 1/24, WITN
+0406R9_ 1/39, WITN 0406R9_1/40, WITN 0406R9_ 1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, and WITN 0406R9_1/51. Even with the documents |
+cannot recall any understanding that | had at the time and | can only comment
+
+on how | would now interpret the issues raised in these documents.
+
+136. WITN 0406R9_1/51 is a management note that | was not copied on and would
+not have seen at the time, but provides a high level summary of the outstanding
+issues with the system. The issues included data not being harvested correctly
+and machines being rebooted due to lock-ups. | do not know how many
+branches would have been live at this time. Though mentioned in the note, | am
+unsure of what meetings and discussions | was involved in as the distribution
+
+list was of managers one, two or three levels up from myself.
+
+137. WITN 0406R9_1/48 suggests these issues occurred in Live Trial with 299
+outlets. This means the issues occurred pre rollout and in a ‘controlled’ but real-
+life environment to tease out issues in the new IT system. Reviewing the
+documents in that light, the presence of bugs is not welcome, but it justifies the
+Live Trial approach where testing prior to a Live Trial would only reveal so
+much. When a release is tested the testers would follow the scripts to exercise
+the code and attempt to break the system by abandoning half way through and
+so on. However, a Live Trial exposes the system to real end users who may not
+
+have read the training material and interpret and follow paths that had not been
+Page 40 of 80
+WITNO04060100
+WITN04060100
+
+considered. There would also be higher concurrent volumes and a wider set of
+customer bar codes, magnetic cards and behaviours, which would potentially
+
+expose defects not found in test.
+
+e. What understanding did you have of software defects such as incomplete
+transactions receipts, payment mismatches and duplicate transactions between
+
+June to September 1999?
+
+138. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_ 1/24, WITN
+0406R9_1/39, WITN 0406R9_ 1/40, WITN 0406R9_1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, and WITN 0406R9_1/51. Even with the documents |
+cannot recall any understanding that | had at the time and | can only comment
+
+on how | would now interpret the issues raised in these documents.
+
+139. 1am unable to recall details of any software defects and only in reading the
+referenced documents do | see that there were these issues. Even with the
+documents | cannot recall any understanding that | had at the time and
+comment would be based on my current interpretation of the documents rather
+
+than recollection at the time.
+
+140. f. What concerns did POL have about the reliability and robustness of the
+
+Horizon system between June to September 1999?
+
+141. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_1/24, WITN
+0406R9_ 1/39, WITN 0406R9_1/40, WITN 0406R9_1/41, WITN 0406R9_ 1/42,
+
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+
+Page 41 of 80
+WITNO04060100
+WITN04060100
+
+0406R9_ 1/46, WITN 0406R9_1/47, WITN 0406R9_1/48, WITN 0406R9_1/49,
+
+WITN 0406R9_1/50, and WITN 0406R9_1/51.
+
+142. 1 do not know what POL’s view about the reliability and robustness of Horizon
+between June to September 1999 was. As a large organisation, | would not
+expect POL to have a singular view on any given issue. From the supplied
+documents, | can only interpret that the Live Trial surfaced items that needed
+
+resolution prior to rollout.
+
+g. Please consider: FUJ00079154 (WITN 0406R9_1/52); FUJ00079158 (WITN
+0406R9_1/53); POL00028364 (WITN 0406R9_1/54); POL00028360 (WITN
+0406R9_1/55). What role did you play in the Acceptance Incident Resolution
+
+Workshops in summer 1999?
+
+143. | have reviewed documents WITN 0406R9_1/52, WITN 0406R9_1/53, WITN
+0406R9_1/54 and WITN 0406R9_ 1/55 but they do not assist my recollection in
+
+relation to this question.
+
+144. | am unable to recall any Acceptance Incident Resolution Workshops, and if |
+did would not be able to confine the workshop to a summer 1999 time period.
+In general terms, my involvement would have been to critique ICL Pathway's
+responses to incidents and ensure the incidents were resolved to Post Office's
+(myself included) satisfaction. | would have had support from senior Post Office
+architects (Jeremy Folkes or Torstein Godeseth) in the technical evaluation
+team and other Post Office colleagues in the acceptance space (e.g. Tony
+
+Houghton (POL Acceptance)).
+
+Page 42 of 80
+WITNO04060100
+WITN04060100
+
+145. Whilst | do not remember this, reading the documents ‘cold’ shows that | was
+assigned incident AlI372 to manage which refers to an upgrade activity that
+
+failed to upgrade all of the offices targeted.
+
+146. The memo that is shown as being written by me, WITN 0406R9_ 1/53, has light
+italic comments which | assume are ICL Pathway internal comments that were
+
+not shared with me at the time, and | do not know who made them.
+
+h. FUJ00079154 (WITN 0406R9_1/52): what did you understand by POL's
+"ongoing concerns" with the transaction data following the test condition being
+
+met in July 1999?
+
+147. | have reviewed document WITN 0406R9_1/52. | am unable to recall what
+POL's “ongoing concerns” related to and whether | was made privy to these
+
+concerns.
+
+i. What did you understand were the issues with system management in summer
+
+1999?
+
+148. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_1/24, WITN
+0406R9_ 1/39, WITN 0406R9_ 1/40, WITN 0406R9_ 1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, WITN 0406R9_1/51, WITN  0406R9_1/52
+(FUJ00079154), WITN 0406R9_ 1/53 (FUJ00079158), and WITN 0406R9_1/54
+(POL00028364) but they do not assist my recollection in relation to this
+
+question.
+
+149. 1am unable to recall any issues with system management in summer 1999 and
+
+can only infer what these issues might be from the supplied documents. It would
+
+Page 43 of 80
+WITNO04060100
+WITN04060100
+
+appear that not all outlets were updated and judgement calls were made by ICL
+Pathway during the upgrade process, though there may have been involvement
+from other POCL staff (Rod Stocker is mentioned in the documents). | do not
+
+appear to have been involved with these decisions.
+
+j. In summer 1999, did POL have confidence in the robustness/reliability of
+
+Fujitsu's ability to provide the Horizon system?
+
+150. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_1/24, WITN
+0406R9_1/39, WITN 0406R9_ 1/40, WITN 0406R9_1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, WITN 0406R9_1/51, WITN 0406R9_1/52
+(FUJ00079154), WITN 0406R9_ 1/53 (FUJ00079158), and WITN 0406R9_ 1/54
+(POL00028364) but they do not assist my recollection in relation to this
+
+question.
+
+151. | am unable to recall anything about POL's confidence in the
+robustness/reliability of Fujitsu's ability to provide Horizon in summer 1999. |
+can only interpret the supplied documents and cannot speak for the wider POL
+business. From the documents supplied, POCL were aware of several items
+that did not work as expected and were managing the risks they were aware of,
+seeking answers from ICL Pathway on why things did not go as expected and
+
+assurances that lessons had been learnt and problems identified.
+
+Page 44 of 80
+WITNO04060100
+WITN04060100
+
+k. What was your understanding of other technical defects / issues at this stage
+
+following the pilot programme?
+
+152. | have reviewed documents WITN 0406R9_ 1/38, WITN 0406R9_ 1/24, WITN
+0406R9_ 1/39, WITN 0406R9_ 1/40, WITN 0406R9_ 1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, WITN 0406R9_1/51, WITN 0406R9_1/52
+(FUJ00079154), WITN 0406R9_ 1/53 (FUJ00079158), and WITN 0406R9_1/54
+(POL00028364) but they do not assist my recollection in relation to this
+
+question.
+
+153. |am unable to recall any other technical defects or issues at this stage following
+the pilot programme. | can only comment on the documents that | have now
+been referred to, with the risk of hindsight rather than being able to answer
+
+about my understanding at that stage.
+
+1. Were you aware of any of the following issues in summer 1999: with counter
+systems being subject to lockups; screen freezes requiring re-boots; receipts
+
+not matching payments and reference data issues?
+
+154. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_ 1/24, WITN
+0406R9_ 1/39, WITN 0406R9_ 1/40, WITN 0406R9_ 1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_1/48, WITN 0406R9_ 1/49,
+WITN = 0406R9_1/50, WITN 0406R9_1/51, WITN 0406R9_1/52
+
+(FUJ00079154), WITN 0406R9_ 1/53 (FUJ00079158), and WITN 0406R9_ 1/54
+
+Page 45 of 80
+WITNO04060100
+WITN04060100
+
+(POL00028364) but they do not assist my recollection in relation to this
+
+question.
+
+155. Whilst | am unclear on timeframe, | do recall that a policy of rebooting the
+counter each night was instigated due to an issue that, if the counter was left
+up for an extended period (1 cannot recall how long) it could freeze or result in
+a blue-screen. | am unable to remember whether the cause of this problem was
+a memory leak (a program reserving memory but then not releasing it once
+finished) or something else. The nightly reboot seemed to clear the problem
+
+and reduced or eliminated its incidence.
+
+156. It is important to note that 23 years ago NT4 was not as stable as modern
+Windows machines and therefore a degree of "blue screen of death" (also
+
+known as "BSOD") errors were expected in systems of that era.
+157. 1am unable to recall any issues with receipts or reference data.
+
+m. To what extent did time pressures prevent further testing before the end of
+
+1999?
+
+158. | have reviewed documents WITN 0406R9_1/38, WITN 0406R9_1/24, WITN
+0406R9_ 1/39, WITN 0406R9_ 1/40, WITN 0406R9_ 1/41, WITN 0406R9_ 1/42,
+WITN 0406R9_1/43, WITN 0406R9_1/44, WITN 0406R9_1/45, WITN
+0406R9_ 1/46, WITN 0406R9_ 1/47, WITN 0406R9_ 1/48, WITN 0406R9_ 1/49,
+WITN 0406R9_1/50, WITN 0406R9_1/51, WITN 0406R9_1/52
+(FUJ00079154), WITN 0406R9_ 1/53 (FUJO0079158), and WITN 0406R9_ 1/54
+(POL00028364) but they do not assist my recollection in relation to this
+
+question.
+
+Page 46 of 80
+WITNO04060100
+WITN04060100
+
+159. 1am unable to recall whether or to what extent time pressures prevented further
+testing before the end of 1999. However, | doubt if there was a known issue
+that had significant risk of occurring things would have proceeded as the effort
+to correct the issue and reputational damage would have hampered user
+
+acceptance of the system and made deployment more difficult in the future.
+
+14. Please consider: FUJ00078754 (WITN 0406R9_1/56); FUJ00079086 (WITN
+0406R9_1/57);  FUJ00058189 (WITN 0406R9_1/58); FUJ00058194 (WITN
+0406R9_1/59); FUJ00001889 (WITN 0406R9_1/60); POL00028508 (WITN
+
+0406R9_1/61)
+a. What role did you play in the Acceptance Incidents process in early 2000?
+
+160. | have reviewed documents WITN 0406R9_1/56, WITN 0406R9_ 1/57, WITN
+0406R9_1/58, WITN 0406R9_1/59, WITN 0406R9_1/60 and WITN
+
+0406R9_1/61 but they do not assist my recollection in relation to this question.
+
+161. | am unable to recall the role | played in the Acceptance Incidents process
+definitively or confine my answer to early 2000. In general terms, my
+involvement would have been to critique ICL Pathway's responses to incidents
+and ensure the incidents were resolved to Post Office's (myself included)
+satisfaction. | would have had support from senior Post Office architects
+(Jeremy Folkes or Torstein Godeseth) in the technical evaluation team and
+
+other Post Office colleagues in the acceptance space (e.g. Tony Houghton).
+b. To what extent did POL satisfy itself that the Acceptance Criterion had been
+
+met before proceeding with Acceptance?
+
+162. BA/POCL would have required responses to all the acceptance criteria and
+
+accepted the answers as sufficient or, flagged as risks those that were not
+
+Page 47 of 80
+WITNO04060100
+WITN04060100
+
+Passed with rectification actions to move them to a Pass state, which may have
+included deferral (i.e. criterion was not required at that stage) where agreed by
+
+all parties.
+
+c. What did your role covering the POCL programme management in August
+
+2000 entail?
+
+163. | have reviewed documents WITN 0406R9_1/56, WITN 0406R9_1/57, WITN
+0406R9_1/58, WITN 0406R9_1/59, WITN 0406R9_1/60 and WITN
+
+0406R9_1/61 but they do not assist my recollection in relation to this question.
+
+164. | am unable to recall my role covering the POCL programme manager Mike
+Woolley in August 2000 in any detail. In general terms, my role would likely
+have involved attending meetings, writing up outcomes and holding decisions
+where possible, giving steers and escalating any decisions that | would not
+
+normally have made that had to be made.
+d. What understanding did you have of any defects / issues in 2000?
+
+165. | have reviewed documents WITN 0406R9_1/56, WITN 0406R9_1/57, WITN
+0406R9_1/58, WITN 0406R9_1/59, WITN 0406R9_1/60 and WITN
+
+0406R9_1/61.
+
+166. As in any development lifecycle, | expect that there were issues and some of
+these are documented in the referenced material. However, | am unable to
+recall any specific defects or issues and would not be able to confine them to
+
+the specified time period even if | did.
+
+Page 48 of 80
+WITNO04060100
+WITN04060100
+
+e. What role did you have in the Horizon Generic Release Acceptance Process
+
+in September 2004?
+
+167. | have reviewed documents WITN 0406R9_1/56, WITN 0406R9_1/57, WITN
+0406R9_1/58, WITN 0406R9_1/59, WITN 0406R9_1/60 and WITN
+
+0406R9_1/61 but they do not assist my recollection in relation to this question.
+
+168. |amunable to recall what role | had in the Horizon Generic Release Acceptance
+Process in September 2004. In broad terms, | would have been involved in
+general acceptance activity but the above forum and date does not bring
+anything to mind.
+
+15. Please consider: FUJ00001680 (WITN 0406R9_1/62); FUJ00001895 (WITN
+
+0406R9_ 1/63)
+a. To what extent did you contribute to the Business Continuity Framework?
+169. Ihave reviewed documents WITN 0406R9_1/62 and WITN 0406R9_ 1/63.
+
+170. From the documents supplied, | was a reviewer and would have provided input
+to the service managers to clarify points they may have had about the system
+
+without the need to go to ICL Pathway.
+
+b. Do you believe this Framework was effective in dealing with failures in the
+
+core Fujitsu services when they arose? Please explain your answer.
+171. \have reviewed documents WITN 0406R9_1/62 and WITN 0406R9_ 1/63.
+
+172. The Framework set out an approach and was used by the Business Continuity
+team who were the leads and end customer for this. My input was more on
+technical accuracy as it related to POCL's business. As | did not use the
+
+Framework, | cannot comment on its efficacy.
+
+Page 49 of 80
+c. What role did the Framework play in the Acceptance Review process?
+
+WITNO04060100
+WITN04060100
+
+173. | have reviewed documents WITN 0406R9_1/62 and WITN 0406R9_1/63 but
+
+these documents do not assist my recollection in relation to this question.
+
+174. | amunable to recall what role the Framework played in the Acceptance Review
+
+process. The Framework may have been another strand in the acceptance
+
+process which | was not involved in.
+
+NETWORK BANKING SERVICES
+
+16. Please consider: FUJ00001740 (WITN 0406R9_1/64); FUJ00001624 (WITN
+
+0406R9_1/65);
+0406R9_1/67);
+0406R9_1/27);
+0406R9_1/70);
+0406R9_1/72);
+0406R9_1/74);
+0406R9_1/76);
+0406R9_1/78);
+0406R9_1/80);
+0406R9_1/82);
+0406R9_1/84);
+
+0406R9_1/86);
+
+FUJ00001623
+
+FUJ00088053
+
+FUJ00001812
+
+FUJ00001902
+
+FUJ00001890
+
+FUJ00003485
+
+FUJ00001891
+
+FUJ00001903
+
+FUJ00001905
+
+FUJ00001842
+
+FUJ00001885
+
+FUJ00003484
+
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+
+(WITN
+
+0406R9_1/66);
+0406R9_1/68);
+0406R9_1/69);
+0406R9_1/71);
+0406R9_1/73);
+0406R9_1/75);
+0406R9_1/77);
+0406R9_1/79);
+0406R9_1/81);
+0406R9_1/83);
+0406R9_1/85);
+
+0406R9_1/87);
+
+0406R9_ 1/88); FUJ00001933 (WITN 0406R9_ 1/89)
+
+FUJ00001632
+
+FUJ00001756
+
+FUJ00001838
+
+FUJ00001883
+
+FUJ00001906
+
+FUJ00003486
+
+FUJ00001958
+
+FUJ00001904
+
+FUJ00001907
+
+FUJ00001884
+
+FUJ00003483
+
+FUJ00001932
+
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+(WITN
+
+(WITN
+
+a. What role did you play in the design and development of the software required
+
+for the rollout of the Network Banking Services throughout Post Office branches
+
+from 2002 to 2005?
+
+Page 50 of 80
+WITNO04060100
+WITN04060100
+
+175. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_1/65, WITN
+0406R9_1/66, WITN 0406R9_ 1/67, WITN 0406R9_ 1/68, WITN 0406R9_ 1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_1/73, WITN 0406R9_1/74, WITN 0406R9_1/75,
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+0406R9_1/79, WITN 0406R9_ 1/80, WITN 0406R9_1/81, WITN 0406R9_ 1/82,
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89. Please read this response in conjunction with my response to
+
+Q2.
+
+176. | am unable to recall the role | played in the design and development of the
+software required for the rollout of the Network Banking Services in detail nor
+am | able to break down my involvement into specific time periods. | believe |
+worked with a colleague, Jason Crellin, who led on the IBM migration, whilst |
+focussed on the chip introduction. However, broadly speaking, my involvement
+would have been during the transition from the IBM Connex banking switch to
+a Fujitsu solution which supported chip and PIN payments around 2003. Around
+this time, | would also have been involved in the selection of the PIN Entry
+
+Device to be used.
+
+177. As POL had the contractual relationship with IBM and POL clients such as
+POCA, Alliance & Leicester, Link and Streamline, when Fujitsu took over the
+banking switch, POL, myself included, would have facilitated any meetings
+between these parties. However, | would have handed off to the POL testing
+function any liaison with Link and Streamline regarding their testing, as Horizon
+was, ‘just another connection’ to them and Streamline and Link used their
+
+Page 51 of 80
+WITNO04060100
+WITN04060100
+
+standard take on and acceptance approach with POL. | would have liaised more
+with Alliance & Leicester and EDS Citibank (later JP Morgan) in respect of
+POCA/CAPO and the technical interface between the parties as these were
+
+one-off connections between the bank and Horizon.
+
+178. Fujitsu would have had requirements and responded with solutions. | would
+have been involved in formulating the requirements with business analysts and
+the business itself and reviewing Fujitsu's responses for completeness and
+
+reuse.
+
+179. The banking design approach agreed upon for the rollout of the Network
+Banking Services was to use the Link model. Link are a switch allowing Horizon
+to connect to tens of different banks and each bank has a standard interface to
+Link. This interface was mimicked by Horizon so that Alliance & Leicester and
+POCA saw Horizon as another Link type interface — simplifying their integration
+and, as Horizon connected out to Link, it also simplified the design and
+
+implementation for Horizon.
+
+180. The payment sector change of retailer liability on 18 January 2005 drove
+adoption of chip and PIN by POL and it was decided to do banking at the same
+time to harmonise the counter experience and counter changes. The IBM
+Connex changes were significant and a decision to move to a Fujitsu solution
+
+was made.
+
+181. Bespoke extensions for POCA were made from the adoption of banking card
+use instead of bar codes, the most notable being a new transaction type to
+allow a customer to withdraw up to a daily limit whatever was in their account
+
+to mimic the emptying of a Green Giro. Customers on benefit who needed their
+
+Page 52 of 80
+WITNO04060100
+WITN04060100
+
+entire benefit — a large percentage — would otherwise have had to do a balance
+enquiry and then ask for the balance as two transactions, increasing time, cost,
+
+errors and also disclosing to those around them how much they were taking.
+
+182. As the development was for real time authorisations, | believe ePay (initially for
+mobile phone top ups) was developed at the same time and Fujitsu decided to
+
+share some platforms when they came to implement and reconcile.
+
+183. Each banking connection had its own Interface Specification (Alliance &
+Leicester were not privy to the POCA solution and vice versa etc.) even though,
+
+from a Fujitsu perspective there was a large amount of repetition.
+
+184. The goal was to reuse to minimise development and support costs and reduce
+
+time to market.
+
+b. What did your role as ‘Solutions Architect’ for POL entail during the design
+
+and rollout phase?
+
+185. As a Solutions Architect for POL, | reviewed the design and connection
+approaches proposed by IBM for the banking switch (and later Fujitsu’s
+replacement of the IBM switch when chip & PIN was introduced) and the
+relevant POL client and fed into the acceptance criteria and acceptance from a
+technical perspective, agreeing specific acceptance criteria and the acceptance
+method and evaluating the evidence submitted by Fujitsu. This would not have
+been at the low level or code review but would have had the medium level of
+say interconnections between Fujitsu and POCA, agreeing the number of
+processor interfaces and how they were cycled through for availability and
+resilience. | would also have been involved in the migration plan, to assure that
+
+the risks being put forward by Fujitsu were understood by senior release board
+
+Page 53 of 80
+WITNO04060100
+WITN04060100
+
+members. Whilst | would have been involved in any live issues that arose, |
+
+cannot recall any specific issues and the outcome of any resultant meetings.
+
+186. Part of my remit would have been to ensure that a reusable solution and an
+industry standard approach was being used to ease the introduction and
+replacement of clients at a future date. For example, this could be where there
+was a retender for a Merchant Acquirer for payment or to introduce another
+
+directly connected bank.
+
+187. | was also involved in the PIN pad selection and customisation, in consultation
+with ergonomists and the business to get a device that could support PIN entry,
+
+and also have future capability.
+
+c. What knowledge and/or understanding did you have of any testing that was
+
+conducted prior to the rollout of Network Banking Services?
+
+188. As | recall, Link and Streamline accreditation testing was undertaken by the
+POCL test team to gain sign off from those parties in the same way as other
+major new connections would be signed off by them. The purpose of this testing
+was to ensure compatibility between Horizon and Link or Streamline
+respectively. | believe there was also sign off from Alliance & Leicester for their
+connection and POCA for theirs but | do not have any reference documents to
+
+confirm this.
+
+189. Prior to the accreditation testing, | believe Fujitsu conducted their own tests with
+a simulator product and before rollout there would have been POL User
+
+Acceptance Testing.
+
+190. 1! would expect that all these tests would have fed into a gating process but |
+
+have no reference documents to confirm or evidence this.
+
+Page 54 of 80
+WITNO04060100
+WITN04060100
+
+d. What were the results of such testing? What, if anything, was changed
+
+following the testing?
+
+191. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_1/65, WITN
+0406R9_1/66, WITN 0406R9_ 1/67, WITN 0406R9_1/68, WITN 0406R9_ 1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_ 1/73, WITN 0406R9_1/74, WITN 0406R9_1/75,
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+0406R9_ 1/79, WITN 0406R9_ 1/80, WITN 0406R9_ 1/81, WITN 0406R9_ 1/82,
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89 but these documents do not assist my recollection in relation to
+
+this question.
+
+192. 1am unable to recall the results of the testing conducted prior to the rollout of
+Network Banking Services. As noted in my response to Q2, | would expect there
+to be iterations in any development lifecycle and but | am unable to recall
+
+anything specific.
+
+e. What knowledge and/or understanding did you have of any technical issues /
+
+defects in the Network Banking Services prior to rollout?
+
+193. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_1/65, WITN
+0406R9_1/66, WITN 0406R9_1/67, WITN 0406R9_1/68, WITN 0406R9_ 1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_1/73, WITN 0406R9_1/74, WITN 0406R9_1/75,
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+
+0406R9_1/79, WITN 0406R9_1/80, WITN 0406R9_1/81, WITN 0406R9_1/82,
+
+Page 55 of 80
+WITNO04060100
+WITN04060100
+
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89 but these documents do not assist my recollection in relation to
+
+this question.
+
+194. | am unable to recall any technical issues or defects in the Network Banking
+Services prior to rollout. As noted in my response to Q2, | would expect there
+to be iterations in any development lifecycle and but | am unable to recall
+
+anything specific.
+
+f. What knowledge and/or understanding did you have of any technical issues /
+
+defects in the Network Banking Services during rollout?
+
+195. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_1/65, WITN
+0406R9_ 1/66, WITN 0406R9_ 1/67, WITN 0406R9_1/68, WITN 0406R9_ 1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_ 1/73, WITN 0406R9_1/74, WITN 0406R9_1/75,
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+0406R9_1/79, WITN 0406R9_ 1/80, WITN 0406R9_1/81, WITN 0406R9_ 1/82,
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89 but these documents do not assist my recollection in relation to
+
+this question.
+
+196. | am unable to recall any technical issues or defects in the Network Banking
+Services during rollout. As noted in my response to Q2, | would expect there to
+be iterations in any development lifecycle and but | am unable to recall anything
+
+specific.
+
+Page 56 of 80
+WITNO04060100
+WITN04060100
+
+g. What concerns did POL have about the reliability and robustness of the
+
+Horizon system from 2002 to 2005?
+
+197. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_1/65, WITN
+0406R9_1/66, WITN 0406R9_1/67, WITN 0406R9_1/68, WITN 0406R9_1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_ 1/73, WITN 0406R9_ 1/74, WITN 0406R9_1/75,
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+0406R9_ 1/79, WITN 0406R9_ 1/80, WITN 0406R9_ 1/81, WITN 0406R9_ 1/82,
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89 but these documents do not assist my recollection in relation to
+
+this question.
+
+198. | am unable to recall any specific concerns about the general reliability and
+robustness of Horizon and cannot speak for the wider POL business. The move
+of the banking engine from IBM to Fujitsu (as described in my response to Q2
+at paragraph 31) would seem to indicate high level confidence at giving new
+additional and significant work to Fujitsu. Following standard practice, any
+incident or risk that was identified would have been managed; it would be
+accepted (unlikely to occur or small impact), had a plan to resolve, had an
+agreed workaround, or been a show stopper and had to be fixed before release
+
+would be permitted.
+
+Page 57 of 80
+WITNO04060100
+WITN04060100
+
+h. Did POL have any concerns about Fujitsu's ability to deliver the Network
+
+Banking Services?
+
+199. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_1/65, WITN
+0406R9_1/66, WITN 0406R9_ 1/67, WITN 0406R9_1/68, WITN 0406R9_ 1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_ 1/73, WITN 0406R9_1/74, WITN 0406R9_1/75,
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+0406R9_ 1/79, WITN 0406R9_ 1/80, WITN 0406R9_ 1/81, WITN 0406R9_ 1/82,
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89 but these documents do not assist my recollection in relation to
+
+this question.
+
+200. 1!am unable to recall any specific concerns and cannot speak for the wider POL
+business. The move of the banking engine from IBM to Fujitsu (as described in
+my response to Q2 at paragraphs 31) would seem to indicate high level
+
+confidence at giving new additional and significant work to Fujitsu.
+
+i. What understanding and/or knowledge do you have of how prepared
+Subpostmasters / mistresses were for the rollout? Did they receive any training
+
+on the new counter screens or processes for network banking?
+
+201. | have reviewed documents WITN 0406R9_1/64, WITN 0406R9_ 1/65, WITN
+0406R9_1/66, WITN 0406R9_ 1/67, WITN 0406R9_1/68, WITN 0406R9_ 1/27,
+WITN 0406R9_1/69, WITN 0406R9_1/70, WITN 0406R9_1/71, WITN
+0406R9_ 1/72, WITN 0406R9_ 1/73, WITN 0406R9_1/74, WITN 0406R9_1/75,
+
+WITN 0406R9_1/76, WITN 0406R9_1/77, WITN 0406R9_1/78, WITN
+
+Page 58 of 80
+202.
+
+WITNO04060100
+WITN04060100
+
+0406R9_1/79, WITN 0406R9_ 1/80, WITN 0406R9_1/81, WITN 0406R9_ 1/82,
+WITN 0406R9_1/83, WITN 0406R9_1/84, WITN 0406R9_1/85, WITN
+0406R9_1/86, WITN 0406R9_1/87, WITN 0406R9_1/88 and WITN
+0406R9_1/89 but these documents do not assist my recollection in relation to
+
+this question.
+
+| am unable to recall how prepared counter staff were for the rollout or the
+training they received. This was not my area and would have been covered by
+
+the POL Training team.
+
+17. Please consider: FUJ00001916 (WITN 0406R9_1/90); FUJ00002066 (WITN
+
+0406R9_1/91); FUJ00002068 (WITN 0406R9_1/92); FUJ00001953 (WITN
+
+0406R9_1/93); FUJ00002045 (WITN 0406R9_1/94); FUJ00002169 (WITN
+
+0406R9_1/95); FUJ00001954 (WITN 0406R9_1/96); FUJ00001959 (WITN
+
+0406R9_1/97); FUJ00002069 (WITN 0406R9_1/98); FUJ00002171 (WITN
+
+0406R9_1/99); FUJ00002108 (WITN 0406R9_1/100); FUJ00002044 (WITN
+
+0406R9_1/101); FUJ00002170 (WITN 0406R9_1/102); FUJ00002067 (WITN
+
+0406R9_1/103); FUJ00002005 (WITN 0406R9_1/104); FUJ00002238 (WITN
+
+0406R9_ 1/105)
+
+a, What role did you play once the Network Banking Services had been rolled
+
+out across the Post Office Estate from 2005 to 2010?
+
+203.
+
+| have reviewed documents WITN 0406R9_ 1/90, WITN 0406R9_ 1/91, WITN
+0406R9_ 1/92, WITN 0406R9_ 1/93, WITN 0406R9_ 1/94, WITN 0406R9_ 1/95,
+WITN 0406R9_1/96, WITN 0406R9_1/97, WITN 0406R9_1/98, WITN
+0406R9_1/99, WITN 0406R9_1/100, WITN 0406R9_1/101, WITN
+
+0406R9_1/102, WITN 0406R9_1/103, WITN 0406R9_1/104 and WITN
+
+Page 59 of 80
+WITNO04060100
+WITN04060100
+
+0406R9_1/105. Please read this response in conjunction with my response to
+
+Q2.
+
+204. | reported to David Gray (possibly Clive Reed at one stage) as part of the Post
+Office Design Authority, with my area of interest being the banking and payment
+area. During this period, | moved away from Horizon to other Post Office
+
+projects but would have been contacted ad-hoc for input on ‘random’ areas.
+
+205. Reviewing the referenced documents, it would appear that “PIN change” and
+“CAPO Withdrawal Correction” were introduced, the latter being introduced to
+correct a misunderstanding at the counter where the customer withdraws the
+
+wrong amount and wants to correct it — it was not a bug that needed correction.
+
+206. There was also an update to the Link interface versions in this period which |
+do not remember nor any of the other small changes cited in the version history
+
+of these documents.
+
+b. What did your role as ‘Solutions Architect’ for POL entail once Network
+
+Banking Services were installed at Post Office Counters?
+
+207. When the banking service was deployed, | moved onto a different work strand
+
+of paystation which was separate from Horizon.
+
+c. What knowledge and/or understanding did you have of any technical issues /
+
+defects or bugs in the Network Banking Services from 2005 to 2010?
+
+208. 1! have reviewed documents WITN 0406R9_1/90, WITN 0406R9_1/91, WITN
+0406R9_1/92, WITN 0406R9_1/93, WITN 0406R9_1/94, WITN 0406R9_ 1/95,
+WITN 0406R9_1/96, WITN 0406R9_1/97, WITN 0406R9_1/98, WITN
+
+0406R9_1/99, WITN 0406R9_1/100, WITN 0406R9_1/101, WITN
+
+Page 60 of 80
+WITNO04060100
+WITN04060100
+
+0406R9_1/102, WITN 0406R9_1/103, WITN 0406R9_1/104 and WITN
+
+0406R9_ 1/105.
+
+209. !am unable to recall being made aware of any technical issues, defects or bugs
+in the Network Banking Services from 2005 to 2010. However, the documents
+| have been referred to show there were some issues during this period, and |
+may have been involved in an ad-hoc manner whilst working in other areas due
+
+to my background involvement.
+
+d. What concerns did POL have about the reliability and robustness of the
+
+Horizon system from 2005 to 2010?
+
+210. | have reviewed documents WITN 0406R9_1/90, WITN 0406R9_1/91, WITN
+0406R9_ 1/92, WITN 0406R9_ 1/93, WITN 0406R9_ 1/94, WITN 0406R9_1/95,
+WITN 0406R9_1/96, WITN 0406R9_1/97, WITN 0406R9_1/98, WITN
+0406R9_1/99, WITN 0406R9_1/100, WITN 0406R9_1/101, WITN
+0406R9_1/102, WITN 0406R9_1/103, WITN 0406R9_1/104 and WITN
+0406R9_1/105 but these documents do not assist my recollection in relation to
+
+this question.
+
+211. !amunable to recall any specific concerns and cannot speak for the wider POL
+business. However, in this period there was a major change of the system from
+the Escher Riposte product to HNG-X which included a Java counter and
+
+Oracle centre which | believe was based on commercial considerations.
+
+Page 61 of 80
+WITNO04060100
+WITN04060100
+
+18. Please consider: POL00031810 (WITN 0406R9_ 1/106).
+
+a. What understanding / knowledge did you have of Pathway bugs in spring
+
+2002?
+
+212. |have reviewed WITN 0406R9_ 1/106. Whilst the document was copied to me,
+| do not recall any positive action from myself and the document does not assist
+
+my recollection in relation to this question.
+
+213. 1 do not recall any specific or general Pathway bugs and would not be able to
+
+place any bugs | recalled to a specific time period.
+
+b. To what extent did you believe that Fujitsu were taking these bugs seriously
+
+enough?
+
+214. | have reviewed WITN 0406R9_1/106 but the document does not assist my
+
+recollection in relation to this question.
+
+215. |am unable to recall bugs that were around at the time and the action taken in
+regard to them so | am unable to comment. From reading the cited document,
+it would appear there was an issue and the discussion centred more on whether
+it was a bug for Fujitsu to fix (their cost) or a change for POL to sponsor and
+pay for.
+
+19. Are there any other matters that you consider will assist the Chair?
+
+216. | note that whilst some of the documents contain my name, the context in which
+my name arose were actions items for people to ask me to do something, or
+where | was being cited as a source. | was not present for or privy to some of
+
+these documents before receiving them from the Inquiry as part of this Witness
+
+Statement submission.
+
+Page 62 of 80
+WITNO04060100
+WITN04060100
+
+217. It should be noted that Fujitsu were the authors and providers of material and
+owned (and still own) the ultimate decision in design and implementation. POL
+
+was and is only able to review material submitted to it in good faith.
+
+218. Finally, as mentioned earlier, these matters have occurred over 20 years ago
+in some cases. With no day books or additional reference material, some of my
+responses may be inaccurate and contain a degree of blurring as to what
+happened when and whether things did happen or not. My responses do reflect
+what | can recall to the best of my ability but my recollection may be influenced
+due to the passage of time and on reading the referenced documents 20 years
+
+on.
+Statement of truth
+
+| believe the content of this statement to be true.
+
+Signed:
+
+Dated: 16" September 2022
+
+Witness Name: Robert Booth
+
+Page 63 of 80
+WITNO04060100
+WITN04060100
+
+Statement No.: WITN 0406R9_1
+Exhibits: WITN 0406R9_1/1 — WITN 0406R9_1/106
+Dated: 16 September 2022
+
+THE POST OFFICE
+
+HORIZON IT INQUIRY
+
+WITNESS STATEMENT OF ROBERT
+BOOTH
+
+Herbert Smith Freehills LLP
+Exchange House
+
+Primrose Street
+
+London
+
+EC2A 2EG
+
+Ref: 2066/9100/31048180
+
+Page 64 of 80
+WITNO04060100
+WITN04060100
+
+Witness Name: Robert Booth
+
+Statement No.: WITN 0406R9_1
+
+Dated: 16 September 2022
+
+THE POST OFFICE HORIZON IT INQUIRY
+
+Index to the exhibits to the First Witness Statement of Robert Booth in the
+Post Office Horizon IT Inquiry
+
+No.
+
+Exhibit Number
+
+Document
+
+Description
+
+Control Number
+
+URN
+
+WITN 0406RQ9_1/1
+
+Network Banking
+End to End
+Reconciliation
+Reporting
+(Withdrawn)
+
+POINQ0091523F
+
+FUJ00085352
+
+WITN 0406R9_1/2
+
+Landis & Gyr
+Quantum
+Specification H1
+1290 6974
+
+POINQO009658F
+
+FUJ00003487
+
+WITN 0406R9_1/3
+
+Letter from BA-
+POCL to ICL
+Pathway dated 9
+June 1997.
+
+POINQ0064657F
+
+FUJ00058486
+
+Page 65 of 80
+WITNO04060100
+WITN04060100
+
+WITN 0406R9_1/4
+
+Action points and
+notes from the
+BA/POCL
+Programme
+Pathway Release
+2 and 3 Progress
+Review Meeting
+No. 4 held on 17
+April 1997
+
+POINQO064655F
+
+FUJ00058484
+
+WITN 0406R9_1/5
+
+Acceptance of
+Operational Trial
+v1.0
+
+POL-0024670
+
+POL00028188
+
+WITN 0406R9_1/6
+
+Frame Relay Risk
+Analysis v2.0
+
+POINQ0064423F
+
+FUJ00058252
+
+WITN 0406R9_1/7
+
+ICL Pathway
+Change Control
+Note No. 633b
+
+POINQ0006732F
+
+FUJ00000561
+
+WITN 0406R9_1/8
+
+Performance
+Summary Report
+for New Release
+2 v2.0
+
+POINQ0068356F
+
+FUJ00078768
+
+WITN 0406R9_1/9
+
+New Release 2 -
+Acceptance Test
+Specification
+Update Status
+v17.0
+
+POINQO064568F
+
+FUJ00058397
+
+10.
+
+WITN 0406R9_1/10
+
+Revisions to the
+Testing &
+Integration
+Approach for
+Pathway Release
+CSR+ v2.0
+
+POINQ0068471F
+
+FUJ00078883
+
+Page 66 of 80
+WITNO04060100
+WITN04060100
+
+11.
+
+WITN 0406R9_1/11
+
+NR2 Access
+Control And User
+Administration
+Processes and
+Procedures
+
+Description v2.0
+
+POINQO007664F
+
+FUJ00001493
+
+12.
+
+WITN 0406R9_1/12
+
+CSR+ Access
+Control And User
+Administration
+Processes and
+Procedures
+
+Description v1.0
+
+POINQ0094176F
+
+FUJ00088005
+
+13.
+
+WITN 0406R9_1/13
+
+CSR+ Access
+Control And User
+Administration
+Processes and
+Procedures
+
+Description v4.0
+
+POINQ0007612F
+
+FUJ00001441
+
+14,
+
+WITN 0406R9_1/14
+
+Security
+Functional
+
+Specification v7.0
+
+POINQ0094239F
+
+FUJ00088068
+
+15.
+
+WITN 0406R9_1/15
+
+Direct Interface
+Testing
+Specification -
+Pathway to HAPS
+v1.1
+
+POINQ0067880F
+
+FUJ00078292
+
+16.
+
+WITN 0406R9_1/16
+
+Direct Interface
+Testing
+Specification -
+Pathway to HAPS
+v2.0
+
+POINQ0064537F
+
+FUJ00058366
+
+17.
+
+WITN 0406R9_1/17
+
+Horizon -
+
+Streamline
+
+POINQ0007841F
+
+FUJ00001670
+
+Page 67 of 80
+WITNO04060100
+WITN04060100
+
+Application
+Interface
+
+Specification v1.1
+
+18.
+
+WITN 0406R9_1/18
+
+ICL Pathway POINQO0068664F
+Comments on
+POCL
+Infrastructure
+Acceptance
+Specification
+dated 17
+December 1998
+
+FUJ00079076
+
+19.
+
+WITN 0406R9_1/19
+
+Generalised API | POINQ0007539F
+for OPS/TMS v1.0
+
+FUJ00001368
+
+20.
+
+WITN 0406R9_1/20
+
+Generalised API | POINQ0007550F
+for OPS/TMS v1.0
+—Appendix B —
+Cryptography and
+
+Key Management
+
+FUJ00001379
+
+21.
+
+WITN 0406R9_1/21
+
+Generalised API | POINQ0007549F
+for OPS/TMS v1.0
+— Appendix A —
+SmartMan
+
+Interfaces
+
+FUJ00001378
+
+22.
+
+WITN 0406R9_ 1/22
+
+Generalised API POINQ0007548F
+for OPS/TMS v1.0
+Appendix C -
+System
+Management
+
+FUJ00001377
+
+23.
+
+WITN 0406R9_ 1/23
+
+ICL Pathway POINQ0064361F
+Monthly Progress
+Report — February
+2000
+
+FUJ00058190
+
+Page 68 of 80
+WITNO04060100
+WITN04060100
+
+24.
+
+WITN 0406R9_1/24
+
+ICL Pathway
+Memorandum re:
+POCL
+Infrastructure
+Acceptance
+Specification
+dated 22
+December 1998
+
+POINQO068665F
+
+FUJ00079077
+
+25.
+
+WITN 0406RQ9_1/25
+
+CSR+ Operating
+Environment:
+Processes and
+Procedures
+
+Description v3.0
+
+POINQ0007615F
+
+FUJ00001444
+
+26.
+
+WITN 0406R9_1/26
+
+Counter
+Hardware Design
+Specification v8.0
+
+POINQ0007848F
+
+FUJ00001677
+
+27.
+
+WITN 0406R9_1/27
+
+Counter
+Hardware Design
+Specification v9.0
+
+POINQ0007989F
+
+FUJ00001818
+
+28.
+
+WITN 0406R9_1/28
+
+Network Banking
+Service
+Processes and
+Procedures
+
+Description v1.0
+
+POINQO007989F
+
+FUJ00001756
+
+29.
+
+WITN 0406R9_1/29
+
+ICL Pathway
+Change Control
+Note No. 683
+
+POINQ0006774F
+
+FUJ00000603
+
+30.
+
+WITN 0406R9_1/30
+
+TMS Architecture
+Specification v1.0
+
+POINQ0007852F
+
+FUJ00001681
+
+31.
+
+WITN 0406RQ9_ 1/31
+
+TMS Hardware
+Design
+Specification v0.5
+
+POINQ0007852F
+
+FUJ00001684
+
+Page 69 of 80
+WITNO04060100
+WITN04060100
+
+32.
+
+WITN 0406RQ9_1/32
+
+Technical Design
+Standard v2.0
+
+POINQ0007873F
+
+FUJ00001702
+
+33.
+
+WITN 0406R9_1/33
+
+TMS Architecture
+Specification v2.0
+
+POINQ0007913F
+
+FUJ00001742
+
+34.
+
+WITN 0406R9_ 1/34
+
+CSR¢+ Electronic
+Point of Sale
+Service:
+Processes and
+Procedures
+
+Description v7.0
+
+POINQ0007924F
+
+FUJ00001753
+
+35.
+
+WITN 0406R9_1/35
+
+Horizon Capacity
+Management and
+Business
+
+Volumes v2.0
+
+POINQO007990F
+
+FUJ00001819
+
+36.
+
+WITN 0406R9_1/36
+
+Horizon Capacity
+Management and
+Business
+
+Volumes v1.0
+
+POINQO007890F
+
+FUJ00001719
+
+37.
+
+WITN 0406R9_1/37
+
+Horizon New
+Service Business
+
+Volumes v2.0
+
+POINQ0007802F
+
+FUJ00001631
+
+38.
+
+WITN 0406R9_ 1/38
+
+ICL Pathway
+Memorandum re:
+POCL
+Infrastructure
+Acceptance
+Specification
+dated 2
+December 1998
+
+POINQ0068677F
+
+FUJ00079089
+
+39.
+
+WITN 0406R9_1/39
+
+ICL Pathway
+Memorandum re:
+POCL
+
+Infrastructure
+
+POINQ0068675F
+
+FUJ00079087
+
+Page 70 of 80
+Acceptance
+Specification
+dated 26
+February 1999
+
+40.
+
+WITN 0406RQ9_1/40
+
+ICL Pathway
+Memorandum re:
+POCL
+Infrastructure
+Acceptance
+Specification
+dated 10 March
+1999
+
+POINQO068669F
+
+FUJ00079081
+
+41.
+
+WITN 0406R9_1/41
+
+ICL Pathway
+Memorandum re:
+POCL
+Infrastructure
+Acceptance Pack
+— Segment 3
+dated 23 April
+1999
+
+POINQ0068671F
+
+FUJ00079083
+
+42.
+
+WITN 0406R9_1/42
+
+ICL Pathway
+Memorandum re:
+POCL
+Infrastructure
+Acceptance Pack
+— Segment 5
+dated 28 May
+1999
+
+POINQ0068729F
+
+FUJ00079141
+
+43.
+
+WITN 0406R9_ 1/43
+
+ICL Pathway
+Memorandum re:
+POCL
+Infrastructure
+
+Acceptance Pack
+
+POINQ0068731F
+
+FUJ00079143
+
+Page 71 of 80
+
+WITNO04060100
+WITN04060100
+
+WITNO04060100
+WITN04060100
+
+— Segment 4
+actions and late
+segment 5 dated
+15 June 1999
+
+44,
+
+WITN 0406RQ9_ 1/44
+
+POCL
+Infrastructure
+Acceptance Test
+v2.0
+
+POINQ0007634F
+
+FUJ00001463
+
+45.
+
+WITN 0406R9_1/45
+
+Acceptance
+Workshop (7)
+Action Points
+dated 17
+September 1999
+
+POINQ0068764F
+
+FUJ00079176
+
+46.
+
+WITN 0406R9_1/46
+
+Acceptance
+Incident Form
+dated 5 April 1999
+
+POL-0024839
+
+POL00028357
+
+47.
+
+WITN 0406R9_1/47
+
+ICL Pathway NR2
+Progress
+Summary for
+Input to Horizon /
+Pathway Delivery
+Meeting 18th
+August 1999
+
+POINQ0068381F
+
+FUJ00078793
+
+48.
+
+WITN 0406R9_1/48
+
+Acceptance
+Proposal for
+Acceptance
+Incident 372
+
+POINQ0068761F
+
+FUJ00079173
+
+49.
+
+WITN 0406R9_1/49
+
+Al 314 — Third
+Party
+Procurements
+v1.0
+
+POL-0024841
+
+POL00028359
+
+50.
+
+WITN 0406R9_1/50
+
+Acceptance
+
+Incident Hotlist
+
+POL-0024837
+
+POL00028355
+
+Page 72 of 80
+WITNO04060100
+WITN04060100
+
+dated 13 August
+1999
+
+51.
+
+WITN 0406RQ9_1/51
+
+Minutes of
+Horizon
+Programme
+Management
+Resolution
+Meeting dated 12
+August 1999
+
+POL-0024814
+
+POL00028332
+
+52.
+
+WITN 0406R9_1/52
+
+ICL Pathway
+Actions Following
+Acceptance
+Incidents
+Resolution
+Workshop on 27-
+28 July 1999
+
+POINQ0068742F
+
+FUJ00079154
+
+53.
+
+WITN 0406R9_ 1/53
+
+Email from Bob
+Booth to Dave
+Hollingsworth re:
+Al 372 — System
+management of
+LT1 to L2 dated 6
+August 1999
+
+POINQ0068746F
+
+FUJ00079158
+
+54.
+
+WITN 0406R9_ 1/54
+
+Output from
+Tranche 3
+Acceptance
+Incident
+Workshop on 10
+August 1999
+
+POL-0024846
+
+POL00028364
+
+55.
+
+WITN 0406RQ9_1/55
+
+Meeting Output —
+Acceptance
+Incidents
+Discussed at
+
+POL-0024842
+
+POL00028360
+
+Page 73 of 80
+WITNO04060100
+WITN04060100
+
+Meeting on 11
+August 1999
+
+56.
+
+WITN 0406R9_1/56
+
+Pathway-to-TIP
+Interface
+Acceptance
+
+Review Pack v0.3
+
+POINQ0068342F
+
+FUJ00078754
+
+57.
+
+WITN 0406RQ9_1/57
+
+Notes from POCL
+Infrastructure
+Acceptance
+Meeting —
+Segment 4 dated
+2 June 1999
+
+POINQ0068674F
+
+FUJ00079086
+
+58.
+
+WITN 0406R9_1/58
+
+ICL Pathway
+Monthly Progress
+Report — January
+2000
+
+POINQ0064360F
+
+FUJ00058189
+
+59.
+
+WITN 0406R9_1/59
+
+ICL Pathway
+Monthly Progress
+Report — August
+2000
+
+POINQ0064365F
+
+FUJ00058194
+
+60.
+
+WITN 0406R9_1/60
+
+Horizon Generic
+Release
+Acceptance
+
+Process v1.0
+
+POINQOO008060F
+
+FUJ00001889
+
+61.
+
+WITN 0406R9_1/61
+
+Concluding
+Pathway
+
+Acceptance v0.1
+
+POL-0024990
+
+POL00028508
+
+62.
+
+WITN 0406RQ9_1/62
+
+Business
+Continuity
+Framework v6.0
+
+POINQ0007851F
+
+FUJ00001680
+
+63.
+
+WITN 0406R9_1/63
+
+Business
+Continuity
+Framework v9.0
+
+POINQOO08066F
+
+FUJ00001895
+
+Page 74 of 80
+WITNO04060100
+WITN04060100
+
+64.
+
+WITN 0406R9_ 1/64
+
+Network Banking
+End to End
+Reconciliation
+
+Reporting v5.0
+
+POINQ0007911F
+
+FUJ00001740
+
+65.
+
+WITN 0406R9_1/65
+
+Network Banking
+Engine — Horizon
+Application
+Interface
+Specification
+v2.0c
+
+POINQ0007795F
+
+FUJ00001624
+
+66.
+
+WITN 0406R9_1/66
+
+Reference Data
+System:
+Application
+Interface
+Specification
+Reference Data to
+Pathway v5.2
+
+POINQ0007794F
+
+FUJ00001623
+
+67.
+
+WITN 0406R9_1/67
+
+PIN Pad Product
+Specification v4.0
+
+POINQ0007803F
+
+FUJ00001632
+
+68.
+
+WITN 0406R9_1/68
+
+Security
+Functional
+
+Specification v6.0
+
+POINQ0094224F
+
+FUJ00088053
+
+69.
+
+WITN 0406R9_1/69
+
+ETU Technical
+Interface
+Specification:
+Horizon to e-pay
+v1.0
+
+POINQ0007983F
+
+FUJ00001812
+
+70.
+
+WITN 0406R9_1/70
+
+NBX —- POCA
+Technical
+Interface
+Specification
+(TIS) v1.0
+
+POINQO008009F
+
+FUJ00001838
+
+Page 75 of 80
+WITNO04060100
+WITN04060100
+
+71.
+
+WITN 0406RQ9_1/71
+
+NBX — POCA
+Technical
+Interface
+Specification
+(TIS) v2.0
+
+POINQ0008073F
+
+FUJ00001902
+
+72.
+
+WITN 0406R9_1/72
+
+NBX — A&L
+Technical
+Interface
+Specification
+(TIS) v1.0
+
+POINQO0008054F
+
+FUJ00001883
+
+73.
+
+WITN 0406R9_1/73
+
+NBX — LINK
+Technical
+Interface
+Specification
+(TIS) v1.0
+
+POINQ0008061F
+
+FUJ00001890
+
+74.
+
+WITN 0406R9_1/74
+
+NBX - FI
+Reconciliation
+and Settlement
+File Format AIS
+v2.0
+
+POINQ0008077F
+
+FUJ00001906
+
+75.
+
+WITN 0406R9_1/75
+
+NBX - A&L
+Application
+Interface
+Specification
+(AIS) v3.0
+
+POINQOO09656F
+
+FUJ00003485
+
+76.
+
+WITN 0406R9_1/76
+
+NBX - A&L
+Application
+Interface
+Specification
+(AIS) v4.0
+
+POINQO009657F
+
+FUJ00003486
+
+77.
+
+WITN 0406R9_1/77
+
+NBX — CAPO
+Application
+Interface
+
+POINQ0008062F
+
+FUJ00001891
+
+Page 76 of 80
+WITNO04060100
+WITN04060100
+
+Specification
+(AIS) v2.0
+
+78.
+
+WITN 0406R9_1/78
+
+NBX —- CAPO
+Application
+Interface
+Specification
+(AIS) v3.0
+
+POINQ0008129F
+
+FUJ00001958
+
+79.
+
+WITN 0406R9_1/79
+
+Horizon — Card
+Account Mapping
+v1.0
+
+POINQ0008074F
+
+FUJ00001903
+
+80.
+
+WITN 0406RQ9_1/80
+
+Horizon — LINK
+Mapping v1.0
+
+POINQ0008075F
+
+FUJ00001904
+
+81.
+
+WITN 0406RQ9_1/81
+
+Horizon — A&L
+Mapping v1.0
+
+POINQ0008076F
+
+FUJ00001905
+
+82.
+
+WITN 0406R9_1/82
+
+NBX — Business
+
+Parameters v1.0
+
+POINQ0008078F
+
+FUJ00001907
+
+83.
+
+WITN 0406R9_1/83
+
+Network Banking
+End to End
+Reconciliation
+Reporting v6.0
+
+POINQ0008013F
+
+FUJ00001842
+
+84.
+
+WITN 0406R9_1/84
+
+Post Office Ltd to
+Fujitsu Services
+EMV Retail PIN
+Pad Reference
+Data Interface
+Specification v1.0
+
+POINQO008055F
+
+FUJ00001884
+
+85.
+
+WITN 0406R9_1/85
+
+Post Office Ltd to
+Fujitsu Services
+EMV Banking PIN
+Pad Reference
+Data Interface
+
+Specification v1.0
+
+POINQO008056F
+
+FUJ00001885
+
+Page 77 of 80
+WITNO04060100
+WITN04060100
+
+86.
+
+WITN 0406R9_1/86
+
+NBX — LINK
+Application
+Interface
+Specification
+(AIS) v2.0
+
+POINQO009654F
+
+FUJ00003483
+
+87.
+
+WITN 0406R9_1/87
+
+NBX — LINK
+Application
+Interface
+Specification
+(AIS) v3.0
+
+POINQOO09655F
+
+FUJ00003484
+
+88.
+
+WITN 0406R9_1/88
+
+EMV Banking:
+User Interface
+Design Proposal
+v2.0
+
+POINQ0008103F
+
+FUJ00001932
+
+89.
+
+WITN 0406R9_1/89
+
+EMV Retail: User
+Interface Design
+
+Proposal v2.0
+
+POINQ0008104F
+
+FUJ00001933
+
+90.
+
+WITN 0406R9_1/90
+
+PIN Pad Product
+Specification v5.0
+
+POINQ0008087F
+
+FUJ00001916
+
+91.
+
+WITN 0406R9_1/91
+
+NBX — CAPO
+Application
+Interface
+Specification
+(AIS) v4.0
+
+POINQ0008237F
+
+FUJ00002066
+
+92.
+
+WITN 0406R9_1/92
+
+Horizon — Card
+Account Mapping
+v2.0
+
+POINQ0008239F
+
+FUJ00002068
+
+93.
+
+WITN 0406RQ9_ 1/93
+
+Horizon — LINK
+Mapping v2.0
+
+POINQ0008124F
+
+FUJ00001953
+
+94.
+
+WITN 0406R9_ 1/94
+
+Horizon — LINK
+Mapping v3.0
+
+POINQ0008216F
+
+FUJ00002045
+
+95.
+
+WITN 0406R9_1/95
+
+Horizon — LINK
+Mapping v4.0
+
+POINQ0008340F
+
+FUJ00002169
+
+Page 78 of 80
+WITNO04060100
+WITN04060100
+
+96.
+
+WITN 0406R9_1/96
+
+Horizon — A&L
+Mapping v2.0
+
+POINQ0008125F
+
+FUJ00001954
+
+97.
+
+WITN 0406R9_1/97
+
+NBX — Business
+Parameters v2.0
+
+POINQ0008130F
+
+FUJ00001959
+
+98.
+
+WITN 0406R9_1/98
+
+NBX — Business
+
+Parameters v4.0
+
+POINQ0008240F
+
+FUJ00002069
+
+99.
+
+WITN 0406R9_1/99
+
+NBX — Business
+Parameters v5.0
+
+POINQ0008342F
+
+FUJ00002171
+
+100.
+
+WITN 0406R9_ 1/100
+
+Post Office Ltd to
+Fujitsu Services
+EMV Retail PIN
+Pad Reference
+Data Interface
+
+Specification v2.0
+
+POINQ0008279F
+
+FUJ00002108
+
+101.
+
+WITN 0406R9_ 1/101
+
+NBX — LINK
+Application
+Interface
+Specification
+(AIS) v4.0
+
+POINQ0008215F
+
+FUJ00002044
+
+102.
+
+WITN 0406R9_ 1/102
+
+NBX — LINK
+Application
+Interface
+Specification
+(AIS) v5.0
+
+POINQ0008341F
+
+FUJ00002170
+
+103.
+
+WITN 0406R9_ 1/103
+
+NBX - Fl
+Reconciliation
+and Settlement
+File Format AIS
+v3.0
+
+POINQ0008238F
+
+FUJ00002067
+
+104.
+
+WITN 0406R9_1/104
+
+Application
+Interface
+
+Specification:
+
+POINQ0008176F
+
+FUJ00002005
+
+Page 79 of 80
+WITNO04060100
+WITN04060100
+
+Horizon to e-pay
+v5.0
+
+105.
+
+WITN 0406R9_1/105
+
+Application POINQ0008409F
+Interface
+Specification:
+Horizon to e-pay
+v6.0
+
+FUJ00002238
+
+106.
+
+WITN 0406R9_1/106
+
+Email from POL-0028712
+Andrew J Perkins
+to Nicholas
+Samuel re: Cost
+Challenge:
+CCN965 Change
+to stock unit cash
+on hand total time
+dated 24 May
+2002
+
+POL00031810
+
+Page 80 of 80

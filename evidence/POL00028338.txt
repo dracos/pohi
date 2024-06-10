@@ -1,0 +1,116 @@
+AI 211 - Receipts and Payments DRAFT Commercial in Confidence
+
+1.
+
+2.
+
+4.
+
+AI 211 - Receipts and Payments Mismatch
+
+Dispute
+Severity Assessment: Pathway: Closed POCL: Medium
+Rectification Plan: Not agreed =
+
+Description of the Deficiency
+
+A large number of incidents have been reported during the live trial period whereby the
+receipts and payments totals do not balance on the outlet weekly Cash Account. This exposes
+a lack of integrity in the double entry accounting functions of the Horizon system, contrary to
+requirement 803.
+
+Initially this problem was assumed to be related to migration errors, however the symptoms
+have persisted beyond outlets’ migration weeks. A rectification plan was agreed and
+implemented for identified occurrences. It was thought that this had cured the problem, but
+on-going monitoring identified a further incident in the first week of August. This incident
+is thought to be due to outlet equipment swap-out introducing pre-LT2 software. It was
+agreed at the MR session on 12" August that, should the underlying cause be due to Pathway
+problems with configuration management, that this should continue to be considered under
+this Acceptance Incident.
+
+Severity Rating
+
+Pathway's Severity Rating: Closed
+POCL's Severity Rating: Medium
+
+The severity is still assessed by POCL as medium because of the continued occurrences of
+incidents following the introduction of LT2 and that the cause of the replacement equipment
+incident is not yet understood.
+
+Business Impact (these are generic impacts and lack quantification, however,
+given the status, Ruth may not wish to invest too much effort. (JM)
+
+‘The business impact of continued occurrences of receipts and payments mis-balances, in
+addition to the lack of confidence in the accounting information provided by Horizon
+threatening the integrity of the Post Office overall accounts, can be summarised as:
+
+* POCL's ability to settle with clients in a timely and accurate way is threatened, leading
+toa lack of confidence and a consequent reduction in business.
+© POCL are likely to have to write off an increased value of errors.
+
+¢ Increased resource requirements in TP to investigate and record incidents.
+
+¢ — NBSC and BSM would require additional resource to handle a greater number of calls
+and problems.
+
+¢ — Users would spend a greater amount of time resolving incidents with the helpdesks and
+with TP during balancing.
+
+* — Additional resource would be required to maintain audit records and to perform audits.
+
+The business impact of configuration management problems at the outlet depends on the
+differences in the release content. In the specific circumstances of the LT2 release, they
+would be those for receipts not equalling payments, together with all other deficiencies which
+were rectified by LT2.
+
+Version 0.5 Page |. 15/08/99
+
+POL00028338
+POL00028338
+
+AI 211 - Receipts and Payments DRAFT
+
+Commercial in Confidence
+
+5.
+
+Rectification Status
+
+Prior to the introduction of LT2 Pathway identified a number of root causes to the problem:
+. Errors entered during the migration process;
+
+. Single sided sales transactions in certain circumstances; .
+. Print preview corrupting the carried forward figure; 7
+Restarting an interrupted balancing process corrupting the brought forward figure
+° Newly created stock units corrupting the brought forward figure.
+
+Pathway have upgraded the migration software to identify a misbalance at migration time
+and to provide HFSOs with limited correction facilities. POCL have accepted that some
+errors may still occur during migration.
+
+Fixes were introduced into the LT1 system to correct the singled sided sales problem and the
+print preview corruption. The revised balancing process introduced at LT2 addressed the two
+other identified causes.
+
+Prior to the introduction of LT2 incident were occurring at a rate of around 30-50 outlets per
+week. Following LT2 it was anticipated no further incidents would arise, other than the
+accepted migration problem.
+
+Since the introduction of LT2 there have been some re-occurrences of the incident although
+at a much reduced rate (less than 10 in three weeks). Some of these have been attributed to
+migration errors which are accepted, other were caused by the software corruption on the
+LT2 upgrade (which has now been fixed, but does raise questions over the upgrade process
+see Al 373).
+
+The remaining incident was related to an office where Horizon equipment was replaced
+during the Cash Account period. The reason for the imbalance in this last case is the reason
+why this Acceptance Incident cannot be closed. Pathway are pursuing the latest incident
+whereby Pathway will investigate the incident, agree the cause and rectification plan with
+POCL. The status therefore at Acceptance is Medium should we receive and agree the
+rectification plan.
+
+Version 0.5 Page 2. 15/08/99
+
+POL00028338
+POL00028338
+

@@ -1,0 +1,95 @@
+FUJ00087194
+FUJ00087194
+
+OCP 17510 Completed
+
+Write corrective bureau message for FAD 183227
+
+A single SC message 183227-7-1101211 was written in error on 26th November
+at 12:43:17, selling 1000 US dollars, with no corresponding settlement line. To
+remove the effects of this message at both the branch and on POLFS, we will
+insert a new message to negate the effects of the original message.
+
+Justification: If the change is not made in the counter messagestore (before the
+stock unit is balanced on Wednesday), the branch will have an unexpected gain of
+£484 (or thereabouts - depends on exchange rate), and a receipts and payments
+mismatch, This gain would have to be resolved at the branch. There would also
+be an inconsistency between the branch and POLFS to be resolved. By correcting
+the problem locally, the branch may not be aware of the problem, and there will
+be no inconsistency between the branch and POLFS.
+
+When: Planned for 10/12/2007 17:00 with a duration of 10 mins
+
+Extra detail: The original message had ProductNo:5129, Qty:1, SaleValue:484,
+PQty:1000. The new message will have Qty:-1, SaleValue:-484, PQty:-1000, with
+other attributes (including exchange rate) as before.
+
+The message will include a comment to show it has been inserted to resolve this
+problem (this will not be visible to the branch).
+
+This change will first be applied to a copy of the messagestore within the SSC
+environment, and the stock unit then rolled over to make sure there are no
+unexpected consequences.
+
+Neither the new nor the old message will be included in data sent to POLFS.
+
+Gary Blackburn (POL) is already aware of this issue.
+
+Regression: None . Regression will take 0
+Comments
+
+Victoria Hancock
+From: julie.edgley@
+Sent: 10 December :
+To: RMGA Operational Change
+Subject: Re: CHASE FOR APPROVAL : OCP 17510 Write corrective bureau
+message for FAD 183227
+
+Hi Gaby,
+
+POL approve this change.
+
+As soon as I saw the branch name, I realised that this is the one that
+Gary spoke to Anne Chambers about earlier.
+
+I don't need to call to discuss, thank you.
+
+FUJ00087194
+FUJ00087194
+
+8/16/2016 View OCP
+Kind Regards
+Julie
+
+Change Control
+
+Anne Chambers (POA SSC Support) wrote at 11/12/2007 12:54:
+Implementation delayed by problems with test rig. Details of inserted message
+are on PC0152014.
+
+Other details
+
+Raised by: Anne Chambers 10/12/2007 12:25
+
+Monitored by: SSC
+
+Peak: PC0152014
+
+Change at location: Counter
+
+Change type: Messagestore
+
+Machine ID: H18322700107
+
+Priority and risk Properties
+Priority: High New equipment: No
+Risk: Low System build affected: No
+
+Required on LST rigs: No
+
+Required on Lewes rigs: No
+
+Approval status
+
+Action status
+

@@ -1,0 +1,642 @@
+WITNO6090100
+WITN06090100
+
+Witness Name: Andrew John Dennis Simpkins
+Statement No.: WITNO609_01
+Exhibits: WITNO609_01/1 — WITNO609_04/18
+Dated: 13'" September 2022
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF Andrew John Dennis Simpkins
+
+This statement has been prepared in response to the Rule 9 Request of 8" June 2022
+
+and covers the topics of Horizon planning, testing, acceptance, live trial and rollout.
+Brief Professional Background
+
+1. My professional background is in Information Technology Management and
+Management Consultancy. After a brief period as a Programmer, | joined the
+Management Consultancy practice of Coopers & Lybrand in 1978 where |
+worked as a systems analyst and project manager on a range of IT projects
+delivering retail and reinsurance accounting systems. | later undertook a
+number of IT strategic planning assignments reporting to one of the IT Division
+directors. | joined TSB (subsequently Lloyds TSB) in 1988 where | had senior
+management roles reporting to the IT Director in the areas of internal
+consultancy, programme management and IT strategic planning. In 1992 | was
+the lead IT Manager on a joint IT and Finance Division project to upgrade the
+Bank's financial reporting systems (reporting to the Finance Director) and was
+subsequently appointed a member of the IT Division’s Management Team
+responsible for financial systems reporting to the IT Director. | joined French
+
+Thornton in 1997 as a Managing Consultant, where | worked on large-scale
+
+1| 20
+WITNO6090100
+WITN06090100
+
+public sector IT projects for the Post Office, Inland Revenue, and the
+Department of the Environment. In these roles | would typically report both to a
+Director on the client side and to one in French Thornton (or Serco after its
+takeover of French Thornton). | was a freelance consultant between 2007 and
+2013 and then took an academic role on a Masters’ leadership programme
+before retiring in 2018.
+
+2. | should note that the events | have been asked to comment on occurred 23 to
+25 years ago. | have therefore had to rely on the 58 sets of documents | was
+provided with to remind me of much of the detail of what took place. There are
+gaps in the chronology of these documents covering my initial planning work
+between June and August 1998 and for the period of the Live Trial from late
+April to July 1999. Also, | only had access to some examples rather than a
+continuous series of the minutes and status reports of the regular Horizon
+
+checkpoint meetings.
+
+Background to My Involvement in the Horizon Project
+
+3. French Thornton provided consultancy services to Post Office Counters Limited
+(POCL) and | was assigned to the Horizon Project and its Programme
+Management Team in April 1998. (When | refer to the ‘Horizon Team’ below, |
+mean only the POCL team). My role was focussed on Release Management
+which was concerned with the negotiation and co-ordination of agreed plans
+between POCL, ICL Pathway and the Benefits Agency (BA), and with the
+
+release authorisations for the entry into Live Trial and Rollout. | was neither
+
+2/20
+WITNO6090100
+WITN06090100
+
+involved in commercial or contractual negotiations between POCL and ICL
+Pathway nor in negotiations between POCL and the Government. | was aware
+that there were serious commercial and contractual issues, for example from
+ICL Pathway’s earlier delays in delivering the Programme, and that any
+replanning of the project had to be undertaken within the terms and constraints
+of the contract. For example, neither POCL nor BA had the contractual right to
+tell ICL Pathway to extend a period of testing as this could be interpreted as
+causing a delay. The Post Office’s key sanction was to decline the quality of the
+system submitted by ICL Pathway for release authorisation into live running.
+Therefore, agreement that the contractual acceptance specifications had been
+satisfied prior to National Rollout, was the critical quality control step in the
+
+Programme.
+
+Release Management and Programme Replanning — April to September 1998
+
+4. At the time | joined Horizon, ICL Pathway acknowledged they were working to
+‘high-risk’ dates for delivery, in other words dates that were unlikely to be
+achieved. It was also clear to me that there was a lack of clarity around the
+complex integration of tasks required from ICL Pathway, POCL and BA to
+deliver the multiple elements that were to be included in the Horizon service. |
+began work on developing and negotiating a co-ordinated plan, visible to all
+parties, which showed all the key steps leading up to National Rollout of the
+first release (NR2), the inclusion of multiple benefits, and a subsequent release
+
+(NR2+) which was to include the Logistics Feeder Service. The overall
+
+3 | 20
+WITNO6090100
+WITN06090100
+
+methodology of the Programme was not unusual or contentious in terms of test
+cycles of both the office counter system and the end-to-end interfaces, a final
+Model Office Test, followed by release authorisation for the Live Trial and then,
+subject to acceptance, National Rollout. The challenge was to develop a
+comprehensive and integrated plan of the required key activities of ICL
+Pathway, POCL and BA, with dates that were considered achievable based on
+experience to date, estimates of the work to be completed, and including
+provisions for contingency. It is important to understand that the Horizon service
+required not only the ICL Pathway software deliverables but integration with,
+and changes to, the POCL and BA systems, a large-scale staff training
+programme, and the establishment of ongoing ‘service management’ functions
+comprising the users’ help desk and technical support to the live system.
+
+. The work on planning was given extra impetus by the Treasury Review of the
+Programme in the summer of 1998 due to the need to increase confidence in
+deliverability. At that time, myself and others on the Horizon Team proposed a
+key change in the implementation approach to reduce risk. This was to deliver
+Child Benefit as the only benefit in the initial Rollout and to follow this with a
+second release providing card payment of multiple benefits. This approach
+decoupled the dependency between Horizon and the BA CAPS system for the
+initial implementation and resulted in a more robust plan. In September 1998,
+following a lengthy period of discussions and meetings, an overall integrated
+plan based on this premise was accepted by all parties — the Horizon Level 1
+plans (WITNO609_01/1). This plan proposed that three test cycles that had
+started in August 1998 would be followed by a final Model Office and End-to-
+
+se 4| 20
+WITNO6090100
+WITNO06090100
+
+End test and complete by Christmas 1998. There would then follow a first
+release authorisation, the migration and take-on of additional offices, the
+commencement of the Live Trial in March 1999 and National Rollout in July
+1999. The plan included contingency periods due to uncertainties over the
+period of testing that would be required. The BA took a particularly sceptical
+view of the timescales for Pathway testing and delivery. The Horizon Release
+Management Team wrote an internal briefing note in September, Response to
+Concerns (included in WITNO609_01/2) which sought to provide a balance
+between BA concerns and ICL Pathway’s more optimistic outlook that testing
+could be completed before Christmas. It was recognised, however, that this
+date could not be guaranteed and the plan at this stage included a further four
+weeks contingency for testing.
+
+.. The motivation behind the September plan was to set out a more realistic
+timescale for delivery of the Programme. It was not a response to business or
+financial pressures to achieve high-risk dates. | presented the plan to the leader
+of the Treasury Review and the Review's comments in October largely
+supported the plan and indeed identified areas which could potentially ‘unlock’
+time and bring forward the date of National Rollout. Their view on the
+Programme plan and dates was included in a Presentation to CAPS Board
+which | gave on 15! January 1999 (WINT0609_01/3). In September 1998,
+however, we did not yet have experience of how the system would perform in
+intensive testing and the live environment. It was understood that sufficient
+testing time and live proving was essential if POCL was to have confidence that
+the Horizon system had met the contractual acceptance criteria. The
+
+5 | 20
+WITNO6090100
+WITNO06090100
+
+Programme also put in place a schedule of meetings and checkpoints to
+
+monitor and assess progress as the testing period unfolded.
+
+The Testing Period August to early December 1998
+
+7. The initial progress reports on testing during this period appeared positive with
+the test cycles running to schedule and the progressive elimination of faults (or
+‘PinICLs’) by ICL Pathway. Horizon was a complex system requiring hundreds
+of test cases and scripts covering the counter plus the interfaces to the POCL
+and BA systems. Testing cycles required the investigation, clearing and
+retesting of hundreds of fault reports, not in itself unusual on a Programme of
+this size.
+
+8. In late October with the completion of the second of three test cycles, a Testing
+Review was conducted, where it became clear that serious concerns had arisen
+with the accounting and reconciliation processes, especially with the cash
+account production in the test outlets and with the accounting results passed to
+the POCL back-end system (TIP). See ‘Proving the TIP Interface - Draft Report’
+(WITNO609_01/4). The completion in mid-November of the third cycle of MOT
+and the second pass of End-to-End testing did not lead to a substantive
+improvement in the situation. | submitted a briefing note to the Horizon Team
+after completion of the third cycle on 20" November, Briefing Note on Status of
+Testing 20" November 1998 (WITN0609_01/5), which concluded that ‘while
+counter activity is showing progressive improvements in quality, we have not
+
+demonstrated the end-to-end data and financial integrity of the system to the
+
+6| 20
+WITNO6090100
+WITN06090100
+
+extent that is required for entry to the final MOT and E2E run’. | summarised
+the principal areas of concern as errors in cash account production, reference
+data inconsistencies, errors in counter reports that prevented reconciliation at
+the outlets, and report reconciliation problems with the major interfaces to the
+TIP, BES, and HAPS systems.
+
+. lt was agreed between the Horizon Team and ICL Pathway that these faults
+had to be addressed to give an assurance of the quality of the system before
+the start of the final Model Office Test. This meant deferring the Model Office
+and End-to-End final pass of testing into late January.1999. This would in turn
+result in delays to office migration, Live Trial, and Rollout with consequences
+for the time of contractual acceptance. | provided a full summary of the status
+of testing and its impact on the plan to the Horizon Team and ICL Pathway
+management in a memo of 4" December 1998 — Horizon Testing and
+Programme Plan — Current Status (WINT0609_01/6). This included the
+statement on behalf of the Horizon Team that ‘Our position remains, however,
+that based on the nature of the business processes involved we need to see
+clear evidence of, firstly, a stable accounting and reconciliation position in the
+outlet followed, secondly, by the transfer of accurate data across the
+TIPS/HAPS/BES and reference Data interfaces.’ At this point in early
+December 1998, there was therefore an unequivocal assessment regarding the
+seriousness of faults that had been found in these first cycles of testing. ICL
+Pathway accepted the need to address these faults and that additional testing
+
+time was required.
+
+7120
+WITNO6090100
+WITNO06090100
+
+Fault Clearance and Re-Scheduling of Plans — December 1998 to January 1999
+
+10. The situation described above led to an intensive period during December and
+January where ICL Pathway sought to clear faults, and. POCL conducted ‘pre-
+proving’ tests to check that faults had been cleared. These actions were
+essential before entry to the final cycles of Model Office and End-to-End testing
+as these would need to provide the evidence that the system was in a sufficient
+state to enter the Live Trial. The additional testing activities had an impact on
+the Programme plan and on the dates that had been proposed by the Treasury
+Review. In summary, about 6 weeks was added to the testing time and National
+Rollout was put back by about a month from late July to end August. David
+Miller and myself presented a detailed report on the status of testing and the
+impact on plans in a Presentation to CAPS Board on 15" January 1999
+(previously referred to as WINTO609_01/3). This meeting and presentation
+were part of a wider process at the time of maintaining alignment on plans with
+BA and their CAPS system not only for the initial Child Benefit Rollout (NR2)
+but also the concurrent activities of moving towards the testing and live trial of
+multi-benefit functionality proposed for September 1999 and the development
+and testing of the first main upgrade to the system (NR2+ later renamed as
+CSR+) that was also to take place in 1999. All of these inter-related activities
+required me to continually synchronise and agree plans between POCL, BA
+
+and ICL Pathway during 1999.
+
+8| 20
+WITNO6090100
+WITN06090100
+
+Final Model Office and End-to-End Testing — February to March 1999 ~
+
+11.Following the fault clearance activity by ICL Pathway, and the pre-proving
+testing by Horizon staff, the final cycles of End-to-End and Model Office Testing
+commenced in February 1999. | was not personally involved in the execution
+or evaluation of testing, as this fell to the specialist testing teams but | was
+copied on progress reports and the final evaluation reports. These reports, End
+to End Testing Evaluation Report (WINT0609_ 01/7), and Model Office Testing
+Evaluation Report (WINT0609_01/8) provided detailed information on these
+exercises and the identification and rectification of faults. The reports do show
+significant progress had been made but there were still a number of concerns.
+Both cycles ran to schedule with no slippage and a large majority of previously
+identified faults were reported as cleared. Some new faults were identified,
+however, and these were subject to a subsequent short phase of ‘Target
+Testing’ to ensure they had been corrected. Several reported incidents
+remained but the assessment of the Horizon Team and wider POCL
+management were that these were not critical ‘show-stoppers’ for the Live Trial
+period. There were, however, concerns regarding the complexity of parts of the
+system for the staff in the outlets. These concerns emphasised the need for
+adequate training of staff especially in complex areas such as stock unit
+balancing and the recording of losses and gains within the wider task of office
+accounting. Another area identified as needing careful attention in live running
+
+was the ongoing reconciliation of accounting data between the outlets and the
+
+9] 20
+WITNO6090100
+WITN06090100
+
+back-end systems and the accurate synchronisation of updates to the live
+reference data which could impact the accuracy of reporting. These were
+important observations that would need to be addressed in the Live Trial and in
+National Rollout, and indeed in ongoing operation of the system.
+
+12. By late March 1999, the Programme had therefore come to the crucial decision
+point of whether to grant ‘Release Authorisation’ for the start of the Live Trial.
+The Horizon Team and key POCL stakeholders were supportive of doing so but
+BA claimed that the number of incidents reported in the final End-to-End and
+MOT cycles required that a further cycle of tests should be carried out. The
+Horizon Team disagreed with this assessment based on the limited benefit of
+another test cycle compared to the value to be gained from monitoring and
+evaluating the experience of actual users in a limited Live Trial. The Live Trial
+would also provide vital evidence on the adequacy of training, user guides, and
+the help desk. When agreement could not be reached with BA on release
+authorisation, POCL decided to grant release authorisation on its own. The
+earlier decision to limit the initial Rollout to include only Child benefit meant
+there was no necessary dependence on changes to BA systems so this was
+contractually possible. On 20" April a letter was sent from the Post Office Chief
+Executive to the BA Chief Executive informing him of the decision to proceed
+and urging his co-operation — Letter from Stuart Sweetman to Peter Mathison
+
+(WINTO609_01/9).
+
+The Live Trial Period April to July 1999
+
+e 10| 20
+WITNO6090100
+WITN06090100
+
+13.It was expected that issues would be identified in the Live Trial, which is of
+course the reason for running such an exercise. | was appointed the ‘Live Trial
+Manager’ for the Horizon Team following a presentation | gave to the Team on
+24' February included in Horizon Management Team Meeting — Managing the
+Live Trial (WINTO609_01/10). The Live Trial required the involvement of many
+different units within POCL, as well as teams within ICL Pathway. My role was
+not to have ‘hands-on’ involvement in the outlets but to co-ordinate the plans
+and reporting for the Live Trial by the various participants, and to ensure errors
+or ‘incidents’ were raised and addressed. Severity rankings were allocated to
+incidents separately by POCL and ICL Pathway. These rankings often did not
+agree in terms of whether they were ‘Low’, ‘Medium’ or ‘High’ which led to
+extended discussions and negotiations. Cash account accuracy problems,
+concerns over the adequacy of staff training to deal with this complex activity,
+and the high number of resulting calls to the help desk, which were often not
+dealt with quickly or easily, all featured among the ‘High’ incidents, as did
+ongoing issues with the transfer of accounting data into the POCL systems.
+These concerns began to extend the period of Live Trial and delay the decision
+on Rollout. While faults continued to be cleared, there were still a number of
+high priority incidents outstanding in August 1999, as shown in the summary at
+13' August 1999 in the Acceptance Incident Hot List (WINTO609_01/11).
+
+14.The authorisation and acceptance process leading to National Rollout had
+commenced before the formal end of the Live Trial as per the contract. Given
+the contractual terms around acceptance of the system this became a complex
+and detailed process which required POCL and ICL Pathway to agree the
+
+© 11] 20
+WITNO6090100
+WITN06090100
+
+severity and action required on all outstanding incidents, and whether incidents
+had been satisfactorily rectified and closed. A series of meetings over several
+weeks monitored the evidence of the Live Trial and debated the status of
+incidents and progress, or lack of it, towards acceptance. The minutes of one
+Management Resolution Meeting on 12'* August (WINTO609_01/12) gives
+examples of the analysis and actions proposed on incidents. | was aware that
+there were also substantive legal and commercial issues to be managed at this
+stage although | was not personally involved in these. Difficulties in reaching
+agreement on the severity and rectification of incidents began to delay National
+Rollout from the target date of 23° August 1999. Release authorisation for
+National Rollout was deferred to end September but it was agreed to add more
+Offices to the Live Trial. This was seen as helping to de-risk the authorisation
+and acceptance decisions and the Rollout by giving further evidence of live
+performance and of the rollout processes, as explained in ‘Acceptance —
+Additional Offices’ (WINTO609_01/13). | continued to revise the overall
+Programme plan to reflect these changes and to help assess their implications
+
+for Rollout, and the subsequent phases of multi-benefit and the NR2+ release.
+
+The Delay over Acceptance, Release Authorisation and the Start of National
+
+Rollout — August to December 1999
+
+15. During this period the live offices were monitored for ongoing problems in such
+key areas of system stability (‘lockouts’ or screen freezes), cash account
+
+discrepancies, and the performance of the help desk with regard to resolving
+
+12 | 20
+WITNO6090100
+WITN06090100
+
+calls from outlets, particularly regarding cash accounts. | attended several
+progress meetings on acceptance during August, for example on 315 August
+1999 — as minuted in Acceptance Update 4 (WINTO609_01/14). | provided
+input, in the light of the delays, on how the transition to Rollout could best be
+managed in the period running up to Christmas 1999 and into January 2000 as
+for example in a memo 1999 Rollout | issued on 14‘ September
+(WINT0609_01/15). | was not involved in the finalisation of the agreement on
+acceptance and in the commitment to Rollout although | was kept informed of
+progress in case of the potential need for replanning if Rollout was further
+postponed, as noted for example in the Extract from Rollout-out Decision
+included in the papers for the Roll-out 2000 Pre-Checkpoint Meeting on 15
+
+November 1999 (WINT0609_ 01/16).
+
+My Change of Role to the CSR+ Project
+
+16.With the transition to the stage of National Rollout there was a reorganisation
+and downsizing of the Horizon Team. | was retained by POCL in the autumn of
+1999 to work on the second release of the Horizon system, ‘NR2+ (renamed
+‘CSR+’) which provided the ‘Logistics Feeder Service’. | worked with the POCL
+project manager on the development and testing of this release and was no
+longer involved in planning and monitoring the National Rollout and continuing
+live operation of Horizon.
+
+17. By late January 2000 the contractual acceptance process was largely complete.
+
+There were 9 medium and 48 low severity incidents outstanding and a ‘New
+
+13 | 20
+WITNO6090100
+WITN06090100
+
+Acceptance Process’ was documented and put in place to deal with these
+(WINTO609_01/17). The Process transferred responsibility for the resolution of
+many of those incidents to the development and testing teams and POCL
+managers who with the completion of the NR2 (or CSR) release were now
+working under the NR2+ (or CSR+) project.
+
+18.CSR+ was a smaller and more manageable project that did not face the
+complex issues described above with the first major Horizon release. Its
+development and testing broadly ran to plan during 2000. Among my
+responsibilities was to agree and authorise such documents as the ‘Service
+Introduction for the Logistics Feeder System’ (LFS) (WINT0O609_01/18) which
+set out how the deployment of the LFS system would be integrated with the
+ongoing process of National Rollout of NR2. | was released from the
+
+Programme in September before CSR+ went live.
+
+Concluding Remarks
+
+19. Finally, | will make some concluding remarks on my understanding of the
+Horizon system at the time | ceased to be involved with the National Rollout,
+and some further reflection | hope may be of assistance to the Chair.
+
+20. Would it be correct to say that the Horizon system was rushed into live operation
+without adequate testing and that this simple explanation accounts for the
+problems that followed? From my personal experience, and the documentation
+| have referred to, | do not believe this view is by any means accurate or
+
+sufficient.
+
+age 14] 20
+WITNO6090100
+WITNO06090100
+
+21. During the period from April 1998 to late 1999 when | was continually involved
+in preparing, revising and agreeing plans with ICL Pathway and the BA, | never
+felt put under pressure by Post Office management to propose plans that |
+considered high risk and driven by business or financial pressures other than
+to achieve a successful delivery. The Programme plan issued in September
+1998 sought to give adequate time to each major phase and included
+contingency for potentially longer testing and trial periods. The Treasury Review
+largely supported the plan and even suggested it might be possible to
+accelerate it. As explained above, when the first cycles of testing in the autumn
+of 1998 showed the system was failing on key requirements, an extended
+period of testing was introduced and later the Live Trial was extended and the
+Rollout delayed in order to give more time to resolve problems.
+
+22.1 do not believe the situation, when | finished my work on the NR2 release in
+autumn 1999, can be characterised as one where the Horizon system was
+moving into National Rollout with lots of known serious bugs. The ‘hot list’
+reports produced during acceptance did reveal a number of continuing
+problems but there were no high priority incidents outstanding at final
+acceptance. | am not suggesting, of course, that there were no faults in the
+system. No major IT project can claim to deliver a 100% fault free system and
+it would be naive to think that it could. However, the point | would draw attention
+to in my statement is not that the Horizon project had to fix a lot of errors in
+testing (that is what testing is for) but rather that the testing proved such a
+
+lengthy and difficult process. | would like to explain this some more.
+
+15 | 20
+WITNO6090100
+WITN06090100
+
+23.As | have summarised above, the Horizon system with its key accounting
+aspects was tested from August 1998 through to the end of the Live Trial a
+whole year later in August 1999. Yet problems were still being found with such
+key outputs as the cash account. The issue was not merely a matter of
+individual errors but rather the underlying complexity and fragility of the branch
+accounting system. This can be seen from examples in documents | have
+already referred to. Here is a statement from my memo of 20" November 1998
+
+(WITNO609_01/5):
+
+‘errors are still outstanding on a significant number of the counter reports and
+client summaries which are preventing effective internal reconciliation of data
+
+within the outlet’ (emphasis in the original).
+
+24.Here is another example from the memo | wrote two weeks. later
+
+(WITNO609_01/6) that there was:
+
+‘an action for POCL to define and agree additional business rules in the event
+that mapping problems give rise to imbalances in the cash account (which
+
+should only be an exceptional circumstance in live running).’
+
+25. These point to endemic rather than individual faults in the system, that is they
+arise from design issues not isolated programming flaws.
+
+26. Similar points can be drawn from the Evaluation Reports for End to End Testing
+and Model Office. Here is a quote from page 7 of the End to End report
+
+(WITNO609_01/7):
+
+16 | 20
+WITNO6090100
+WITN06090100
+
+‘It was necessary to apply fixes to the counter environment to either move
+forward, or to improve the quality of the test results ie. the incorrect cash
+account mapping for a stock item would have caused mis-balancing Cash
+
+Accounts in all offices.’
+
+27. The practical implications of the complexity can be seen from this example on
+
+page 7 in the Model Office report (WINT0609_01/8):
+
+‘Although no fault in system functionality, certain areas of the solution (e.g.
+
+Shared Stock Unit operation) proved difficult for live users to comprehend.’
+
+28.A comparison | can draw with my wider IT axosiienes may help here. |
+mentioned in my professional background that | worked on various accounting
+systems at Coopers & Lybrand. When | think back on these systems they were
+designed with a clarity of structure and content in their financial reporting, and
+their underlying information flows. This had several benefits. It made testing the
+system relatively straightforward and hence reduced the time to do so. Efficient
+and effective testing made the live system more robust. If a fault was somehow
+missed in testing, and occurred in live running, the client was also able to
+identify it quickly and call for support. These were not characteristics that |
+witnessed with the Horizon system.
+
+29.While | was not personally involved in the specification or testing of the Horizon
+system, the evidence | saw of the protracted difficulties in testing showed a lack
+of transparency in how the system worked. This explains why the branch staff
+had difficulties with cash accounts, and stock unit balancing, as reported during
+
+the Live Trial. | have read the published testimony of some of the postmasters
+
+17 | 20
+WITNO6090100
+WITN06090100
+
+and postmistresses and | noticed that these raised the same issue. It was very
+difficult for them to identify if, where and how errors had occurred in the system.
+
+30.At the time | left Horizon | was not so much worried as to whether known faults
+had been fixed. It was rather that the system delivered into Rollout had an
+ongoing vulnerability to error due to its complexity and lack of transparency.
+When errors arose over time during live operation, as they do in all systems, it
+would be difficult if not impossible for postmasters and postmistresses to
+understand what had gone wrong. So a situation arose where they could not
+validate the integrity of their own financial information, and yet they were held
+accountable for it:
+
+3
+
+=
+
+.| trust this statement is helpful to the Inquiry and | would be pleased to offer
+
+whatever further help | can.
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+GR
+
+Signed:
+
+Dated: mh Sepkember 2022
+
+age 18| 20
+WITNO6090100
+WITNO06090100
+
+Index to First Witness Statement of Andrew John Dennis Simpkins
+
+No. | Exhibit Number Document Description URN
+
+1 WITNO609_01/1 Horizon Level 1 plans POL00028437
+
+2 WITNO609_01/2 Responses to Concerns | POL00028436
+briefing note included with
+other documents — under
+‘Letter from Andrew
+Simpkins to Vince Gaskell’
+but not sent with the letter
+
+3 WINT0609_01/3 Presentation to CAPs Board | POL00028411
+— 15" January 1999
+
+4 WITNO609_01/4 Proving the TIP Interface | POL00028435
+Draft Report
+
+5 WITNO609_01/5 Briefing Note on Status of | POL00028431
+Testing - 20 November
+1998
+
+6 WITNO609_01/6 Horizon Testing and | POL00028429
+Programme Plan - Current
+Status 4" December 1998
+
+7 WINTO609_01/7 End to End Testing | POL00028419
+Evaluation Report
+
+8 WINT0609_01/8 Model Office Testing | FU00058445
+Evaluation Report
+
+9 WINT0609_01/9 Letter from Stuart Sweetman | POL00028405
+to Peter Mathison
+
+10 | WIN9TO609_01/10 | Horizon Management Team | POL00028372
+Meeting — Managing the Live
+Trial
+
+11 | WINTO609_01/11 | Acceptance Incident Hot List | POL0028355
+
+12. | WINTO609_01/12_ | Management Resolution | POL00028332
+Meeting — 12" August 1999
+
+13. | WINTO609_01/13 | Acceptance - Additional | POL00028344
+Offices ees
+
+| WINTO609_01/14 | Acceptance Update 4 —| POL00028473
+| Output and Actions
+
+15 | WINTO609_01/15 | 1999 Rollout POL00028461
+
+16 | WINTO609_01/16 | Extract from — Rollout-out | POLO00028559
+Decision paper in the papers
+for the Roll-out 2000 Pre-
+
+ze 19 |: 20
+WITNO6090100
+WITNO06090100
+
+Checkpoint Meeting of 15"
+November 1999
+
+17. | WINTO609_01/17 | The = New — Acceptance | POL00028508
+Process
+18. | WINTO609_01/18 | Service Introduction of the | FUJO0001385
+
+Logistics Feeder System
+
+20 | 20

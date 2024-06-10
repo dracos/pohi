@@ -1,0 +1,92 @@
+POL00029084
+POL00029084
+
+Message
+
+From: Mark.Wright2¢
+
+Sent: 28/09/2010 15:
+
+To: Steve.Bansal
+
+Subject: FW: Receipts payments missmatch issue
+
+Attachments: Lost Discrepancies.doc
+
+right Mark
+: September 2010 14:21.
+ikins Gareth GI; Stewart Mike; Woolgar Mike; Card Cheryl; Salawu Saheed; Bowen Ian; Bothick Sandie
+me Jon; Evans Steve (BRAQ1); Miller Kevin; Simpkins John; Parker Steve (PostOfficeAccount)
+RE: Receipts payments missmatch issue
+
+Gareth,
+Initial comments:
+
+1. Happy to run the extract from the BRSS. Cheryl, can look at this please.
+
+2. Tivoli only gives us a 30 day view of events. lan, does it store more than that? If so could you arrange an extract
+please
+
+3. To do any fix we would need a lot more detail on exactly what was required.
+
+4. Agree that the calls don't seem to have been raised correctly. Saheed/Sandie not sure where the responsibility for
+counter events currently is, but we need to plug this gap.
+
+5. Mike(s) we need someone to run with this and engage the customer please.
+
+Cheryl can you check out the attachment and let me know any comments or areas I've missed. Thanks.
+
+Regards,
+Mark.
+
+enkins Gareth GI
+‘ September 2010 13:50
+ght Mark
+me Jon; Evans Steve (BRAO1)
+Receipts payments mismatch issue
+
+Mark,
+
+The attached note summarises the problem and describes what we need to do to identify the full scope of the problem
+and discuss with POL if / how we fix the problem.
+
+<< File: Lost Discrepancies.doc >>
+Initially I'd appreciate your feedback on the note and also with initiating the data retrieval identified in Section 3 to fully
+scope the problem.
+
+We probably need to formally raise this as a problem with POL. I'm not sure how this is done, but presumably you can
+initiate that. We should then plan to do the initial analysis and provide POL with a view as to the scope and then agree
+how to progress it.
+
+I'm happy to continue to be involved in assisting with the analysis and discussion with POL, but presumably the bulk of the
+work can be done by SSC.
+
+Jon is easily able to reproduce the problem in a development environment and we are planning to recreate the scenario
+and attempt a fix in that environment in the next couple of days. However it is probably worth starting on the data
+extraction to ascertain the full scope of the issue asap since it has probably been around since day one and data more
+than 6 months old is being dropped from BRSS, so the sooner we run the queries the better.
+
+Happy to get together to agree how to progress this.
+
+POL-0025566
+POL00029084
+POL00029084
+
+In terms of process, do you want me to attach this note to Peak PC0204765 and return the Peak to SSC?
+Regards
+
+Gareth
+
+Gareth Jenkins
+Distinguished Engineer
+Applications Architect
+Royal Mail Group Account
+
+httpv//uk fulitsu.com
+
+ee Please consider the environment - do you reaily need to print this email?
+
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu
+Services does not guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+POL-0025566

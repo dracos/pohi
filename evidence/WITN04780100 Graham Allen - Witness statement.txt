@@ -1,0 +1,669 @@
+WITN04780100
+WITN04780100
+
+Witness Name: Graham Allen
+
+Statement No.: WITN0478_01
+
+Exhibits: WITN0478_01/1 — WITNO478_01/17
+Dated: 4 August 2022
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF GRAHAM ALLEN
+
+|, MR GRAHAM ALLEN, will say as follows:
+
+INTRODUCTION
+
+1. | am the Operations Manager for Post Office Account at Fujitsu Services Limited
+(‘Fujitsu’), a position that | have held since January 2022. This role incorporates part
+of my previous role in managing most of the teams that deliver application changes
+to the Horizon Online applications.
+
+2. This witness statement is made on behalf of Fujitsu to assist the Post Office Horizon
+IT Inquiry with the matters set out in the Rule 9 Request provided to Fujitsu on 11
+March 2022 and a series of further questions provided to me by the Inquiry on 1 July
+2022 (the “Request”), to the extent | have direct knowledge of such matters.
+
+3. The topics set out in the Request relate to events that took place more than 12 years
+ago. These topics relate to the initial and high-volume pilots of Horizon Online in the
+period 2007 to 2010, and the robustness of Horizon Online. In preparing this witness
+statement, | have provided information to the best of my ability where my recollection
+
+is strong; however, there are questions and events where my recollection is limited.
+
+Page 1 of 21
+WITN04780100
+WITN04780100
+
+4. In preparing this statement, | have refreshed my memory by reviewing
+contemporaneous documents relating to the questions asked by the Inquiry in the
+Request. Where relevant to the Request, these documents are referred to using
+references WITN0478_01/1 — WITN0478_01/17 and are listed in the index
+accompanying this statement. To the extent that these documents have not already
+been provided to the Inquiry, they are exhibited to this statement.
+
+BACKGROUND
+
+5. | joined ICL Retail in 1991 as a Graduate Developer, later progressing and becoming
+an Application Development Manager. In 2007 | started working on the project to
+implement Horizon Online (the “Project”). From about 2012 to 2017, | did not work
+on the Post Office Account at Fujitsu, and | was not involved in any projects or other
+work relating to Horizon Online. In 2017, | returned to the Post Office Account and
+started again working on matters relating to Horizon Online.
+
+6. The Project had two parts:
+
+a. developing a brand new branch application, called ‘the counter’; and
+b. migrating the datacentre applications to a new datacentre.
+
+7. When | joined the Project, it was halfway through its delivery and the initial pilot was
+due to commence. | recall that the architecture for Horizon Online was nearing
+completion, the design and development of the applications was underway, and the
+installation of hardware in the datacentre had commenced. Alan D’Alvarez had
+completed a review of the delivery challenges the Project was experiencing at the
+time, and had made recommendations concerning how the Project could be
+
+improved. My development teams would have been involved in implementing the
+
+Page 2 of 21
+WITN04780100
+WITN04780100
+
+recommendations from the review that were taken forward, but | do not recall what
+these were.
+
+. The development teams that | oversaw had approximately 100 to 150 staff. | was
+responsible for ensuring these teams had enough resources to support the Project,
+and helping to resolve conflicts in resourcing or technical challenges. My teams only
+worked on Horizon Online. The resources | was responsible for were the people
+working on the design and development of software, including any amendments to
+the software. In terms of other resources relating to staffing, there were multiple other
+disciplines including project and programme managers, hardware and software
+architects, hardware engineers, and release specialists among many others. Other
+resources not relating to people and staffing included facilities and space, hardware,
+software tools and all things required to deliver an IT programme. Whilst this was my
+primary role, my role changed over time and my experience in applications
+development and the understanding | gained of the Horizon Online system allowed
+me to assist with understanding, describing, communicating and resolving issues as
+necessary.
+
+. My team and | reported into the Head of Applications, Barbara Perek, who reported
+into the Programme Director, who at the time | joined was Martyn Hughes. The
+members of the Project team changed for various reasons until Alan D’Alvarez, who
+was the Programme Manager of the Project at the time of the pilot and rollout of
+Horizon Online. Fujitsu is a matrix organisation and so the Head of Applications,
+myself and all my team worked for Application Services, which was part of Core
+
+Services and were on assignment to the Project. | recall observing that there was
+
+Page 3 of 21
+WITN04780100
+WITN04780100
+
+generally good interaction between all teams involved in the Project, including teams
+from Fujitsu and the Post Office, and | am not aware of any technical or operational
+issues that could not be resolved due to poor interactions or relationships amongst
+individuals or teams working on the Project. | was also involved in Fujitsu’s internal
+‘weekly programme boards’, where the team managers and project managers
+reviewed the progress of the Project, and any challenges being faced, with the
+Project’s senior management. | cannot recall any of the specific discussions in these
+weekly programme boards in relation to the Project but they were mainly focussed on
+the many issues that occurred and needed to be resolved.
+
+10.The Project also involved a team from Post Office Limited (the “Post Office”), and
+there were communication mechanisms in place regarding project progress and
+about which Post Office branches were to be migrated from the existing Horizon
+system (now referred to as “Legacy Horizon”) to Horizon Online, as well as success
+markers for those Post Office branch migrations. This process was planned and
+operated by the implementation team. | do not recall being responsible for any
+specific communication mechanisms. Having reviewed the ‘Notes of Horizon Next
+Generation Joint Progress/Release Board Meeting of 25 February 2010’
+(WITN0478_01/1) and ‘HNG — Post Office Highlight Report (for Joint Release Board)’
+dated 3 March 2010 (WITN0478_01/2), | do recall being involved in a weekly joint
+steering board meeting, which is an example of a communication mechanism
+involving Post Office and Fujitsu during the pilot and rollout of Horizon Online where
+
+the progress of Post Office branch migrations was discussed.
+
+Page 4 of 21
+WITN04780100
+WITN04780100
+
+11.Post Office staff were often on site in Fujitsu’s office in Bracknell (“Bracknell”) and at
+the time, the Post Office were operating a joint test team with Fujitsu based at
+Bracknell and so Post Office employees were always present. Based on my
+experience, the relationship between Fujitsu and the Post Office was a typical
+customer and supplier relationship, which was naturally challenging if project
+timelines were running later than anticipated for example. Whilst | do not recall
+specific issues that occurred at the time, | do recall that when | joined there was an
+expectation the Project would be completed in approximately six months, which as
+we know now took approximately three years. This gives an indication that there were
+significant challenges to overcome.
+
+12.1 was not involved in any contractual matters relating to Horizon Online, nor aware
+with any certainty of Fujitsu’s or the Post Office’s contractual obligations in relation to
+Horizon Online.
+
+TECHNICAL ISSUES IDENTIFIED DURING THE INITIAL PILOT
+
+13.Horizon Online initially experienced many issues, which in my experience, were
+typical of large IT projects, both in terms of the volume and types of issues. As | was
+responsible for overseeing the development teams, technical issues would only be
+escalated to me if the issue was complex or serious. An example of a complex or
+serious issue is where the issue is affecting Post Office branches, likely to cause a
+delay to project timelines, or needs particular focus from one or more of my teams.
+Given how long ago these events took place, my recollection of specific technical
+
+issues that were identified during the initial pilot of Horizon Online is limited.
+
+Page 5 of 21
+WITN04780100
+WITN04780100
+
+14.1 can recall that the first night of the Horizon Online pilot was problematic. The
+mechanism of migrating a branch from Legacy Horizon to Horizon Online was
+complicated; the branch could not trade on a mixture of the two systems and was
+therefore designed to ensure that sufficient counters switched over or the whole
+branch rolled back automatically. | cannot recall the cause of the failure, how serious
+the technical issue was, or the impact of the technical issue on those first branches;
+| only recall being woken early on a Saturday morning to join calls to help support the
+people diagnosing the problem. However, having reviewed the documents which |
+reference below at paragraph [14(b)], | am able to provide the following information:
+a. The initial technical issues experienced during the initial pilot related to the
+
+upgrade mechanism for migrating Post Office branches from Legacy Horizon to
+Horizon Online. These technical issues resulted in some branch migrations being
+unsuccessful and two Post Office branches not being able to trade for part of the
+first day following their migration to Horizon Online until those branches were
+rolled back to Legacy Horizon. As the initial pilot was a significant step for the
+Project, | was part of the team involved in co-ordinating teams to investigate and
+resolve the issue.
+
+b. Following the resolution of the initial technical issues noted at paragraph [14(a)],
+there were some further issues with three Post Office branches, which required
+significant attention and hence my involvement. Two of these issues would have
+resulted in discrepancies in Post Office branch accounts, which were resolved
+and the root cause of the issues fixed before the initial pilot was continued. ‘Root
+
+Cause Analysis’ reports were produced at the time which indicated what occurred
+
+Page 6 of 21
+WITN04780100
+WITN04780100
+
+for two of the issues, for example, the ‘Issue of Duplicate Settlements found at
+Derby’ (WITN0478_01/3) and ‘Rollover Issues at Warwick’ (WITN0478_01/4). At
+the time, these issues were monitored jointly by Fujitsu and Post Office in an
+‘HNG-X Daily Issues’ report, which was discussed during meetings concerning
+‘Horizon Next Generation Implementation’. Examples of these documents are the
+‘HNG-X Daily Issues’ report (WITN0478_01/5) and notes of the ‘Horizon Next
+Generation Implementation’ meeting on 8 February 2010 (WITN0478_01/6),
+which were emailed to Post Office and Fujitsu employees, including myself, on 8
+February 2010 (WITN0478_01/7).
+15.1 can also recall the following issues:
+
+a. There were constraints which made it harder to deliver the technical solutions.
+For example, the newly developed counter application still had to work on the
+Microsoft NT4 Operating System (“NT4”), as it was viewed as too expensive to
+upgrade to more current technology. This created challenges for the architecture
+and development of the application. | do not recall being involved in the decisions
+concerning whether to upgrade the operating system in Post Office branches
+from NT4, and | do not have knowledge of which persons or entities considered
+such an upgrade as too expensive, however | assumed that it was the Post Office
+at the time. | cannot recall further specific instances of other constraints that
+related to the Project.
+
+b. The work required to deliver the Project was greater than what was expected
+when the work was proposed and contracted, and therefore took longer to deliver.
+
+As the Project progressed in detail, a lot of additional work was uncovered. As |
+
+Page 7 of 21
+WITN04780100
+WITN04780100
+
+was not responsible for any aspect of the commercial agreement between Fujitsu
+and Post Office, | have no knowledge as to whether Fujitsu charged Post Office
+for this additional work. | recall that there was a ‘Capped Time and Materials’
+arrangement, however | cannot explain what these arrangements were. | can
+recall that there were three specific reasons why the work required was greater
+than expected, and in my experience these three issues occur on many projects:
+
+i. | When contracts relating to large IT projects are entered, the exact detail of
+how something will be achieved is not always known and assumptions
+have to be made regarding how it will be done. If those assumptions prove
+false, work and costs may increase.
+
+ii. Work can simply take longer than originally thought; this can also have
+knock-on effects and delay the next part or stage of the project, causing
+costs to increase.
+
+iii. Products that are relied upon or otherwise important to the operation of the
+system do not do exactly what is expected, or detailed development work
+uncovers unknown problems.
+
+There were challenges around explaining the requirements to the development
+
+teams in a way that allowed them to understand what they needed to do. For
+
+example, the Horizon Online counter application needed to be functionally
+equivalent to the Legacy Horizon application but to ensure no infringement of
+intellectual property rights, developers were not allowed access to the Legacy
+
+Horizon application. Hence, if requirements were not very detailed (which they
+
+were not in my recollection in all cases), it was much harder to develop the
+
+Page 8 of 21
+WITN04780100
+WITN04780100
+
+application. My understanding is that Post Office set the requirements in a system
+called ‘Doors’, which was managed by Post Office. Fujitsu had a Requirements
+Manager who managed the requirements on behalf of Fujitsu, and who would
+have distributed the requirements to the relevant Fujitsu teams. | recall that there
+was a mechanism to trace that requirements had been met and have this agreed
+by Post Office, but beyond this, | cannot recall being involved in the process day
+to day nor recall any more detail as to how this operated or how the requirements
+were provided to the development teams.
+
+16. Other technical issues would have been in relation to specific Post Office branches,
+involving matters such as printers not working, or an issue with the connection
+between the network and the counter at the branch. | recollect an awareness of these
+technical issues but no specific details, however | would have made aware of such
+technical issues as | received information typically via email about the volume of
+incidents affecting Post Office branches. For example, on 27 May 2010, | received an
+email from Graham Welsh (Migration Governance Manager for the Royal Mail Group
+Account at Fujitsu) (WITN0478_01/8). The email was sent to a number of Fujitsu and
+Post Office employees, and attached to the email was a ‘HNGX trends and restarts’
+report dated 27 May 2010 (WITN0478_01/9), which contained information concerning
+incident trends relating to the migration of Post Office branches from Legacy Horizon
+to Horizon Online.
+
+SUSPENSION OF THE HIGH-VOLUME PILOT
+
+17.The high-volume pilot was suspended due to a problem involving Horizon Online’s
+
+databases. Shortly before the high-volume pilot was suspended, approximately one
+
+Page 9 of 21
+WITN04780100
+WITN04780100
+
+thousand Post Office branches had been migrated to Horizon Online. During this time
+an issue occurred that caused the database to crash, due to a bug in the Oracle
+database management software (the “Oracle Database Issue”).
+
+Horizon Online’s databases
+
+18.The Horizon Online database in the datacentre is designed to be resilient; the
+database is a four node cluster that balances the load from the Post Office branches.
+The database is designed to work at maximum load with only three of these nodes
+operating.
+
+19.The Post Office branches need the database to be able to operate. The technical
+issue was that one of the database nodes had a problem; instead of the other nodes
+being able to take the load, the communications layer in the Oracle database
+management software between the four nodes exhibited a problem which caused the
+other three nodes to crash as well.
+
+20. In going through this | am conscious that | cannot fully explain the cause of the issue
+that broke the first node. | have some recollection that the interaction of the ‘Branch
+Access Layer’, which sits between the counters and the database, was placing undue
+load on the database and causing the initial failure. However, | note that Oracle
+prepared a ‘Root Cause Analysis’ report (“Oracle RCA Report”) for Fujitsu in relation
+to the Oracle Database Issue dated 5 July 2010 (WITN0478_01/10), which explains
+the cause of the issue.
+
+21.The Horizon Online system is reliant on the database. The counter application was in
+effect directly accessing the database, and without it, the counter could not process
+
+transactions and could not work, and | do not believe the Post Office had a manual
+
+Page 10 of 21
+WITN04780100
+WITN04780100
+
+back-up system. In my experience, the decision not to have a manual back-up system
+is a business decision based on the likelihood of the risk occurring, the impact of
+having a Post Office branch shut down and the cost of having a manual back-up
+system. | do not and would not have had access, at the relevant time, to the
+information necessary to determine if Post Office should have had a manual back-up
+system. In my professional experience, in the case of Post Office, many of the
+transactions are complicated by their nature, as they require a connection between
+the Post Office branch to systems outside of the branch in order to complete the
+transaction, and a manual back-up system would only cover certain transactions such
+as selling stamps, which are simpler in that they do not require a connection outside
+the branch to complete the transaction. For this reason, whilst there is benefit in a
+manual back-up system to keep a branch open, such a back-up system would not
+allow the full range of transactions to occur. | do not recall there being any discussions
+between Fujitsu and Post Office about whether Post Office should have had a manual
+back-up system. However, | believe that at the time, Post Office had the architectural
+understanding of how the Horizon Online system was reliant on the database and the
+consequences if that database experienced failure.
+
+22.Consequently, the Post Office had to close those branches that were affected by the
+Oracle Database Issue as they could not trade. There were several repeated
+incidents, which occurred over multiple weeks, where Post Office branches had to
+close.
+
+23.The Subpostmasters of Post Office branches affected by the Oracle Database Issue
+
+would have generally received an ‘error message’. The type of error message would
+
+Page 11 of 21
+WITN04780100
+WITN04780100
+
+depend on the stage of the transaction. An example would be that the transaction
+‘timed out’.
+
+Escalation of the issue and suspension of the high-volume pilot
+
+24. The escalation process that was followed in response to the Oracle Database Issue
+was the same as any ‘Priority 1 Incident’ at Fujitsu. When Post Office branches
+experience and report system failures, the matter is referred to Fujitsu’s service team,
+and a communication is sent to all relevant technical staff and management. A ‘bridge’
+is then set up, which is a conference call with all of the people who might be able to
+resolve the problem.
+
+25. Independently of these reports from Post Office branches, Fujitsu’s technical support
+teams could also see that there was a problem as part of its ongoing monitoring.
+Technical support staff could see that something was going wrong on the system
+before it happened. | cannot categorically say how this specific issue was identified
+by the technical support staff as | was not present with them at the time that the
+problem was identified. However, | do recall that the general process for system
+monitoring involved issues being flagged to technical support staff, such as memory
+or disk space being utilised beyond expected levels. If one or more of these monitored
+areas were flagged as operating outside of the normal or expected levels and
+worsening, this indicated to the technical support staff that an issue was likely to
+occur. After seeing a chain of events occur once or twice, the technical support staff
+would learn the pattern and predict that the problem would reoccur shortly. In many
+instances, this monitoring would allow technical staff to fix issues before they
+
+impacted Post Office branches, however in this instance, they could not.
+
+Page 12 of 21
+WITN04780100
+WITN04780100
+
+26.Soon after the issue was identified, it was escalated to the Project's senior
+management, and | was part of a team who assisted in managing the issue.
+
+27.1 was not involved in the decision to suspend the high-volume pilot, which involved
+the Project’s senior management. Once it was identified that the problem was causing
+Post Office branches to close, the high-volume pilot would have been suspended. |
+cannot recall who was involved in the decision to suspend the high-volume pilot,
+however | do recall that from Fujitsu, Alan D’Alvarez was involved in the discussions.
+
+28.Following the suspension of the high-volume pilot, the Post Office Account was put
+on ‘Corporate Red Alert’. Fujitsu has a standard Corporate Red Alert process, which
+involves a daily call with senior staff from the relevant programme and Fujitsu to
+provide updates, try to resolve the problem, and then escalate the matter within
+Fujitsu or to any third parties. | do not recall being involved in the ‘red alert’
+discussions relating to the suspension of the high-volume pilot, but | recall assisting
+with the process of resolution.
+
+STEPS TAKEN TO RESOLVE TECHNICAL ISSUES PRIOR TO ROLLOUT
+
+Fujitsu’s processes for resolving technical issues
+
+29.The implementation and development teams involved in the Project followed the
+processes described in Fujitsu’s technical documents for resolving issues. These
+documents outline the steps that are to be taken by Fujitsu employees to resolve
+technical issues, which were followed in the case of the issues identified during the
+Horizon Online pilots and rollout. An example of a technical document specifically
+relating to my team and the interactions for resolving issues is the ‘Operational Level
+
+Agreement for 4" line support of HNGX’ dated 14 January 2010 (WITN0478_01/11).
+
+Page 13 of 21
+WITN04780100
+WITN04780100
+
+30.Where technical issues were raised as part of the implementation process (i.e., the
+migration of Post Office branches as part of the Horizon Online pilots and rollout),
+Fujitsu dealt with those issues in the usual way: PEAKs would have been raised, and
+the development teams would have been involved in resolving the PEAKs. Higher-
+level issues would have also been discussed at the weekly programme board
+meetings. | do not recall being concerned in relation to the volume of PEAKs that
+were raised at the time, and | do not recall being concerned that PEAKs were not
+being addressed effectively, including in relation to Fujitsu communicating with Post
+Office about the existence of PEAKs. However any PEAKs that were identified as
+causing a discrepancy in branch accounts, such as the PEAK relating to the issue
+noted at paragraph [14(b)] above, would have caused me concern at the time.
+31.Once a Post Office branch was ‘live’, any issues — technical or otherwise — would
+have fallen into standard support procedures. This generally involved the branch
+raising the issue with the helpdesk, which could then refer the issue to the support
+teams. However, as my role at this time was concerned with the implementation of
+Horizon Online, | was not involved with the helpdesk or support teams and my work
+did not involve the standard support procedures beyond my teams being 4" Line
+Support, as detailed in the operational level agreement document that | mentioned
+above (WITN0478_01/11). For this reason, | cannot provide further details about how
+issues were raised or the standard support procedures based on my own knowledge.
+Resolving technical issues identified during the initial pilot of Horizon Online
+32.As | have explained in this statement above at [13], Horizon Online experienced a
+
+number of technical issues that are typically experienced in large IT projects. These
+
+Page 14 of 21
+WITN04780100
+WITN04780100
+
+technical issues were resolved by following the normal processes that were in place
+at that time to identify, diagnose and resolve these types of issues. | was not generally
+involved in resolving these types of technical issues unless they were complex or of
+particular significance. For these reasons, | cannot recall what steps were taken to
+resolve specific technical issues identified during the initial pilot of Horizon Online.
+
+33.Whilst | was involved in resolving certain technical issues during the initial pilot, as |
+have noted at paragraph [14] of my statement above, | cannot recall if any of these
+technical issues remained unresolved through the rollout of Horizon Online. It is
+common practice in any IT project for technical issues that are typically experienced
+to remain unresolved during rollout, as long as each technical issue is assessed as
+not causing unexpected business impact. These issues would be resolved in further
+releases at a later date. In my experience, it is common for parties involved in a large
+IT project to agree to such arrangements.
+
+Resolving technical issues identified during the high-volume pilot
+
+34.The Oracle Database Issue was a complex and significant technical issue, which
+required detailed data from log files and an in-depth understanding of the workings of
+Oracle software. The issue was extremely difficult to diagnose and the resolution
+involved many technical support staff from many teams. For these reasons, | was
+more directly aware of this issue and part of the team involved in helping the teams
+resolve it. At the time, | recall that the occurrence of the issue was not predictable,
+and finding the trigger and the cause for the Oracle Database Issue within the log
+files required highly specialised staff. There were multiple strands of investigation and
+
+many different resolutions and changes applied to resolve the Oracle Database Issue
+
+Page 15 of 21
+WITN04780100
+WITN04780100
+
+and its associated problems, which in my experience, indicates it was not a simple
+problem to identify and resolve. In the end, it was the resolution provided by Oracle
+that allowed the high-volume pilot and rollout to complete.
+
+35.Fujitsu increased the number of staff working to identify the cause of the Oracle
+Database Issue. The development teams considered the problem related to Oracle,
+and Fujitsu then raised the issue with Oracle.
+
+36. Fujitsu engaged Oracle’s support team and then Oracle’s professional services team,
+and paid for their senior staff to come on site at Bracknell. The issue was eventually
+escalated to Oracle’s senior management. This process took a number of weeks.
+Fujitsu managed the escalation of the issue with Oracle. As far as | can recall, the
+Post Office was not involved in the escalation of the issue with Oracle, but | recall that
+Post Office was aware of the Oracle Database Issue.
+
+37.Oracle maintained for some time that the way Fujitsu was using their product was the
+cause of the issue, and Fujitsu argued it was using Oracle’s product in accordance
+with Oracle’s technical documents. Following further investigations by Oracle and a
+robust conversation between Fujitsu and Oracle, Oracle agreed that the cause of the
+problem was within Oracle. Examples of the correspondence between Fujitsu and
+Oracle, which involve individuals who were involved in the liaison between Fujitsu
+and Oracle, include:
+
+a. an email from Richard Watt (Oracle) dated 26 May 2010 (WITN0478_01/12)
+attaching version 1.7 of the Oracle RCA Report (WITN0478_01/13);
+b. an email chain involving Fujitsu and Oracle employees dated 30 May 2010
+
+(WITNO478_01/14);
+
+Page 16 of 21
+WITN04780100
+WITN04780100
+
+c. an email chain involving Fujitsu and Oracle employees dated 1 June 2010
+(WITN0478_01/15); and
+
+d. an email from Richard Watt (Oracle) dated 7 June 2010 (WITN0478_01/16)
+attaching version 1.8 of the Oracle RCA Report (WITN0478_01/17).
+
+38.The emails noted in paragraphs [37(a)] and [37(d)] above also indicate that feedback
+from myself and Jim Singh caused Oracle to adjust the wording in the Oracle RCA
+Report as to the root cause of the Oracle Database Issue, which is noted at page 4
+of versions 1.7 and 1.8 of the Oracle RCA Reports.
+
+39. It had become apparent that Horizon Online was using Oracle’s product in a way that
+was pushing an element of Oracle to its limit, which had not been done before. Oracle
+diagnosed the problem and then developed a software fix (known as a ‘software
+patch’) (the “Oracle Fix”), which was provided to Fujitsu. Fujitsu then took steps to
+prove the effectiveness of the solution, test it, and roll it out.
+
+40.Before the Horizon Online system went ‘live’, volume and performance testing was
+completed on the volume testing environment, which was built on the hardware that
+would make up the live system. However, once Horizon Online went live, the Project
+did not have a separate volume testing system to test the Oracle Fix. To test the
+effectiveness of the Oracle Fix and prove that it would resolve the Oracle Database
+Issue, the teams created the Oracle Database Issue in another test environment by
+expanding it sufficiently to create an environment which was sufficient to replicate the
+issue and demonstrate that the fix would resolve the problem. Fujitsu then applied
+the Oracle Fix to the live solution, which resolved the issue, and continued monitoring
+
+the matter.
+
+Page 17 of 21
+WITN04780100
+WITN04780100
+
+41.Following this, an agreement was reached between Fujitsu and the Post Office to
+start the rollout again. The migration of further Post Office branches then resumed,
+and | do not recall there being further problems concerning the database.
+
+42. Following the resolution of the Oracle Database Issue, there continued to be technical
+issues of a more individual and typical nature, however | cannot recall any specific
+technical issues nor how they were resolved. These technical issues would not have
+been generally raised with me, for the reasons | outline in [13] in this statement.
+
+THE ROBUSTNESS OF HORIZON ONLINE
+
+43.During and after my involvement with the Project, | did not have any concerns
+regarding the robustness of Horizon Online. In my opinion as an IT professional, all
+IT systems have issues and | have highlighted that two of these issues caused
+discrepancies in Post Office branch accounts during the initial pilot of Horizon Online,
+and that these issues were identified, communicated and resolved. Whilst | cannot
+recall any other specific issues affecting the accuracy and integrity of the data
+recorded and processed by Horizon Online, it is likely there would have been other
+such issues, however | do not recall being made aware of any issues that were not
+identified, communicated and resolved appropriately. At the relevant time, | was and
+continue to be aware of the importance of data accuracy and integrity in relation to
+causing discrepancies and shortfalls, and | recall that this understanding of the
+importance of data accuracy and integrity was shared within Fujitsu.
+
+44.| am aware that Horizon Online has processes to reconcile and audit transactions
+and that these processes are designed to identify errors in data and identify
+
+discrepancies and shortfalls but | am not an expert in this so cannot be more specific.
+
+Page 18 of 21
+WITN04780100
+WITN04780100
+
+45.1 am aware that Horizon Online has a number of built in back-up mechanisms,
+resilience and dual-running systems that are designed to allow Horizon Online to
+continue to operate in adverse conditions. For example, the Branch Access Layer
+that | mentioned at paragraph [20] above has several instances (or copies) running
+that work together and Horizon Online is designed to operate if one or more of these
+fail. Another example is the four node cluster | described at paragraph [18] above.
+And ultimately, there is a Disaster Recovery site for the Data Centre.
+
+46.| have no awareness of any specific communication concerning the information that
+was provided to the Post Office or the government by ICL Pathway concerning the
+
+matters discussed in paragraph [45] of my statement.
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+Dated: La Dugust 2 ee
+
+Page 19 of 21
+WITN04780100
+
+WITNO4780100
+INDEX TO FIRST WITNESS STATEMENT OF GRAHAM ALLEN
+Exhibit Description Date Control Number URN
+Number
+WITNO478 | Notes of Horizon 25 February | POINQ0100477F | FUJ00094306
+_01/1 Next Generation 2010
+Joint
+Progress/Release
+Board Meeting of 25
+February 2010
+WITNO0478 | HNG — Post Office | 3 March POINQ0100476F | FUJ00094305
+_01/2 Highlight Report (for | 2010
+Joint Release
+Board)
+WITNO478 | Issue of Duplicate 29 January | POINQ0123649F | FUJ00117478
+_01/3 Settlements found 2010
+at Derby report
+WITNO478 | Rollover Issues at 29 January | POINQ0123651F | FUJ00117480
+01/4 Warwick report 2010
+WITNO478 | HNG-X Daily Issues | 5 February | POINQO099092F | FUJ00092921
+01/5 RAG Report 2010
+WITNO478 | Notes of Horizon 8 February | POINQ0099093F | FUJ00092922
+_01/6 Next Generation 2010
+Implementation
+Issues
+WITNO478 | Email dated 8 8 February | POINQ0099091F | FUJ00092920
+01/7 February 2010 2010
+WITNO478 | Email dated 27 May | 27 May POINQ0100924F | FUJ00094753
+_01/8 2010 2010
+WITNO478 | HNGX Trends and | 27 May POINQ0100925F | FUJ00094754
+01/9 Restarts report 2010
+WITNO478 | Oracle Root Cause | 5 July 2010 | POINQ0123660F | FUJ00117489
+_01/10 Analysis report
+version 2
+WITNO478 | Operational Level 14 January | POINQ0086254F | FUJ00080083
+_01/11 Agreement for 4th 2010
+line support of
+HNGX
+WITNO478 | Email dated 26 May | 26 May POINQ0123652F | FUJ00117481
+01/12 2010 2010
+
+Page 20 of 21
+WITN04780100
+
+WITNO4780100
+
+WITNO0478 | Oracle Root Cause | 26 May POINQ0123653F | FUJ00117482
+_01/13 Analysis report 2010
+
+version 1.7
+WITNO0478 | Email chain dated 30 May POINQ0123654F | FUJ00117483
+_01/14 30 May 2010 2010
+WITNO478 | Email chain dated 1 | 1 June 2010 | POINQ0123655F | FUJ00117484
+01/15 June 2010
+WITNO478 | Email chain dated 7 | 7 June 2010 | POINQ0123656F | FUJ00117485
+_01/16 June 2010
+WITNO478 | Oracle Root Cause | 4 June 2010 | POINQ0123657F | FUJ00117486
+_01/17 Analysis report
+
+version 1.8
+
+Page 21 of 21

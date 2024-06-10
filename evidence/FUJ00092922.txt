@@ -1,0 +1,329 @@
+Notes of Horizon Next Generation Implementation
+
+Issues at Coton, Warwick and Derby
+
+Monday 8" February 2010
+
+Distribution:
+
+FUJ00092922
+FUy00092922
+
+Mark Burley MB Programme Manager (POL)
+
+John Wheeler JW. PMO Manager (POL)
+
+Kevin Tallboy KT Planning Manager (POL)
+
+Will Russell WR Migration Manager (POL)
+
+Alan D’Alvarez AD Programme Director — HNG (Fujitsu)
+Lee Farman LF Test Manager (POL)
+
+Phil Norton PN Acceptance Manager (POL)
+
+lan Trundell IT HNG Design Authority (POL)
+Graham Welsh GW. Customer Services (Fujitsu)
+
+Graham Allen GA Development Manager (Fujitsu)
+Barry Evans BE Migration Team (POL)
+
+Stuart Rye SR Independent Solution Review (Fujitsu)
+Gareth Jenkins GJ Solution Architect (Fujitsu)
+
+Chris Donnington CD Deployment Manager (Fujitsu)
+Geoff Butts GB Programme Manager (Fujitsu)
+
+1 Actions and Points to Note from meeting
+
+For clarity the Actions below, where applicable, have been moved to a Daily Issues
+table that will be maintained from now on.
+
+ions and Points from meeting of 28” January
+
+CWD.11 GA
+GW
+
+DERBY. Confirm target date for
+implementation of the fix for the
+Double Settlement issue .
+
+19:00 29/01 — Tactical fix expected
+into live 04/02. Full plan for
+strategic fix expected by 01/02.
+01/02 C/fwd. Belief is that this can
+be completed by 4" February,
+confirmation to be provided at
+15:30 meeting.
+
+01/02 15:00 C/fwd. Confirmed as
+targeted for 4"" February. All
+testing dates are subject to
+resolution of LST rig network issue.
+02/02 C/fwd. Tactical fix remains
+on track to exit test on 4" Feb.
+Strategic fix has been targeted for
+inclusion in RO1.08.
+
+GA to confirm that a plan is in place
+(and available to POL) to ensure.
+strategic fix will be included in
+RO1.08.
+
+03/02 — as above.
+
+04/02 C/fwd. In test today, needs.
+to run overnight. Sign off expected
+
+Moved
+to Daily
+Issues
+Table
+
+Ref: CWD Issue meeting 100202 Update.doc
+
+Page 1 of4
+
+FUJ00092922
+FUy00092922
+
+tomorrow. Targeted for
+deployment on Saturday.
+05/02 C/fwd. BAL tactical fix
+signed off tday. Scheduled to be
+deployed to Live tomorrow. GW to
+arrange test to MB when this is
+complete.
+08/02 Closed — Moved to Daily
+Issues Table
+New Actions and Points from meetings of 2" February
+CWD.28 AD Pete Jobson has begun 03/02 not due — due 04/02 Moved
+investigating if it would be 04/02 C/fwd. Work in progress. to Daily
+possible to interrogate the PJ will have a better view later Issues
+Horizon data for branches about | today. It may be possible to adda _ | Table
+to migrate to see if a series of suitable check to the current set of
+pre-migration checks could be pre-migration checks.
+tun to spot the Coton and 05/02 C/fwd. In progress.
+Warwick issues before the 08/02 Closed — Moved to Daily
+branches migrate. Issues Table
+CWD.32 | GW _ | Share information as soon as 03/02 C/fwd. Remains under Moved
+possible regarding Screen Freeze | investigation. Note it is a screen to Daily
+issue and subsequent perceived | delay rather than freeze. Further Issues
+problem with Card Account update tomorrow. Table
+transaction recovery. 04/02 C/fwd.
+05/02 C/fwd. GA to issue paper on
+findings to date.
+08/02 Closed — Moved to Daily
+Issues Table
+New Actions and Points from meetings of 3" February
+CWD.38 | AD, MB | Profile after the next 10. For 04/02 C/fwd. No further forward as | Moved
+the avoidance of doubt, the 10 we can not say with certainty at this | to Daily
+branches planned for the night of | stage what the schedule should be. | Issues
+5" Feb have already been Further update tomorrow. Table
+postponed. 05/02 C/fwd. Proposed ongoing
+However, it was agreed the schedule has been drafted by AD.
+profile for the next 250 still cannot | and will be circulated today for
+be confirmed, notably pending review and then discussion on
+news on the Coton/Warwick long | Monday 8" February.
+term fix (see CWD.06 above). 08/02 Closed — Moved to Daily
+None of the branches is yet Issues Table
+aware of a proposed migration
+date, so this is getting critical in
+terms of communication and
+support planning.
+To be reviewed as a matter of
+urgency at the Joint Board on 4"
+Feb.
+New Actions and Points from meetings of 4" February
+CWD.40 BE Arrange for Warwick to perform a | 05/02 C/fwd. In progress, BE will | Moved
+further BTS, to confirm that there | work with Warwick to confirm the to Daily
+are no ongoing problems and that | necessary process changes have Issues
+
+Ref: CWD Issue meeting 100202 Update.doc
+
+Page 2.0f4
+
+FUJ00092922
+FUy00092922
+
+the issues experienced to date
+only occur with the initial BTS
+after migrating.
+
+been implemented.
+08/02 Closed — Moved to Daily
+Issues Table
+
+Table
+
+CWD.41
+
+GA
+
+Fujitsu to analyse the BTS data at
+Warwick ahead of action CWD.40
+to assess if the BTS is likely to be
+successful.
+
+05/02 C/fwd. In Progress.
+08/02 Closed — Moved to Daily
+Issues Table
+
+Moved
+to Daily
+Issues
+Table
+
+New Actions and Points from meetings of 5” February
+
+CWD.43
+
+BE
+
+Lapworth — Giro issue:
+Investigations point to the
+transaction not being resubmitted
+after problem occurred. BE to
+review business processes with
+Lapworth before the perform their
+BTS.
+
+08/02 Closed — Moved to Daily
+Issues Table
+
+Moved
+to Daily
+Issues
+Table
+
+CWD.44
+
+info
+
+Lapworth — SQL fix is scheduled
+to be deployed 07:30 Monday.
+BTS will be run on Tuesday.
+
+For Information
+
+CWD.45
+
+GW
+
+Investigate the root cause for the
+Migration button “Padlocked” at
+Walthamstow office:
+
+08/02 Closed — Moved to Daily
+Issues Table
+
+Moved
+to Daily
+Issues
+Table
+
+CWD.46
+
+BE
+
+Confirm to which counter position
+the ‘Padlocked’ migration button
+appeared.
+
+08/02 Closed — Moved to Daily
+Issues Table
+
+Moved
+to Daily
+Issues
+Table
+
+CWD.47
+
+AD
+
+Schedule meeting to review the
+revised proposed on going rollout
+schedule for MVP and HVP.
+
+08/02 Closed
+
+Closed
+
+CWD.48
+
+info
+
+Volume Testing: Performance
+testing has now commenced.
+The revised schedule completion
+date is now 17" February.
+Impact of this change will be
+assessed at the plan review
+scheduled for Monday.
+
+For Information
+
+CWD.49
+
+info
+
+RO1.08. On going schedule
+included in proposed schedule.
+Key dates now reported as:
+e¢ DC upgrade — 27" Feb
+« Counter Upgrade — 3'¢
+March
+
+For Information
+
+CWD.50
+
+info
+
+Feedback has been received by
+Fujitsu from G4 on how they
+could support Saturday Branch
+Router Rollout. However; the
+proposal is unacceptable and is
+now in discussion. Further
+update next week.
+
+For Information
+
+CWD.51
+
+GA
+
+Provide an update email at 17:00
+(approx) on Saturday and
+
+08/02 Closed
+
+Closed
+
+Ref: CWD Issue meeting 100202 Update.doc
+
+Page 3 of 4
+
+FUJ00092922
+FUs00092922
+
+Sunday, summing up progress
+made during the day.
+
+CWD.52 info | Routers for PHUs have been
+signed off by Test
+
+For Information
+
+See Branch Trading Statement Schedule Table Below: Table to be reviewed and amended
+
+(corrected as necessary) on Monday 8" February.
+
+Moved to Daily Issue Tracker
+
+Ref: CWD Issue meeting 100202 Update.doc
+
+Page 4 of 4
+

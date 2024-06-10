@@ -1,1093 +1,1277 @@
-                                                                                    WITNO9710100
-                                                                                  WITNO9710100
+WITNO9710100
+WITNO9710100
 
+Witness Name: Peter James Sewell
+Statement No.: WITN09710100
 
+Dated: 8 September 2023
 
+POST OFFICE HORIZON IT INQUIRY
 
-                                                  Witness Name: Peter James Sewell
+FIRST WITNESS STATEMENT OF PETER JAMES SEWELL
 
-                                                     Statement No.: WITNO9710100
-
-                                                           Dated: 8 September 2023
-
-
-
-                      POST OFFICE HORIZON IT INQUIRY
-
-
-
-
-          FIRST WITNESS STATEMENT OF PETER JAMES SEWELL
-
-
-
-
-I, MR PETER JAMES SEWELL, will say as follows:
-
+|, MR PETER JAMES SEWELL, will say as follows:
 
 INTRODUCTION
+1. | am a former employee of Fujitsu Services Limited (“Fujitsu”), having left
 
-  1.    I am a former employee of Fujitsu Services Limited ("Fujitsu"), having left
+the company in November 2009.
 
-        the company in November 2009.
+2. This witness statement is made to assist the Post Office Horizon IT Inquiry
+(the “Inquiry”) with the matters put to me in a Rule 9 Request dated 26 July
+2023 (the “Request’), to the extent | have or had direct knowledge of such
 
+matters.
 
-  2.    This witness statement is made to assist the Post Office Horizon IT Inquiry
+3. The topics covered by the Request concern events that occurred over 13
+years ago and relate to audit data from the Horizon IT system (“Horizon”)
+and audit queries (also known as audit retrieval queries or “ARQs’”). | have
+tried to remember these matters to assist the Inquiry as much as possible,
+however, due to the time that has passed, my recollection is limited. For this
 
-        (the "Inquiry") with the matters put to me in a Rule 9 Request dated 26 July
+reason, the content of my witness statement focuses largely on the
 
-        2023 (the "Request"), to the extent I have or had direct knowledge of such
+Page 1 of 18
+WITNO9710100
+WITNO9710100
 
-        matters.
+documents that the Inquiry has referred me to in the Request, which | have
 
+referenced below using the Inquiry’s Unique Reference Numbers.
 
-  3.    The topics covered by the Request concern events that occurred over 13
+4. ! was assisted in preparing this statement by Morrison Foerster, the
 
-        years ago and relate to audit data from the Horizon IT system ("Horizon")
-
-        and audit queries (also known as audit retrieval queries or "ARQs"). I have
-
-        tried to remember these matters to assist the Inquiry as much as possible,
-
-        however, due to the time that has passed, my recollection is limited. For this
-
-        reason, the content of my witness statement focuses largely on the
-
-
-
-
-                                   Page 1 of 18
-                                                                                     WI TN09710100
-                                                                                   WITNO9710100
-
-
-
-
-      documents that the Inquiry has referred me to in the Request, which I have
-
-      referenced below using the Inquiry's Unique Reference Numbers.
-
-
- 4.   I was assisted in preparing this statement by Morrison Foerster, the
-
-      recognised legal representatives for Fujitsu in the Inquiry.
-
+recognised legal representatives for Fujitsu in the Inquiry.
 
 PROFESSIONAL BACKGROUND
+5. | joined ICL in 1990. In late 1997, | first joined ICL’s Post Office Account team
+(‘POA’) as a Project Manager working on various tasks. These included
+managing a development team who wrote the code for auto configuration
+whereby a counter PC was switched on and introduced to the estate,
+managing a third-party supplier who developed the roll out program, and
+managing a development team to provide a training facility on the counter. |
+would also interview staff applying for jobs on the Horizon project. My
 
- 5.   1 joined ICL in 1990. In late 1997, 1 first joined ICL's Post Office Account team
+manager at the time was Dick Long.
 
-      ("POA") as a Project Manager working on various tasks. These included
+6. In 2002, | joined the POA security team in a similar capacity as a Project
+Manager. My work in this role included writing an anti-virus implementation
+procedure via a change proposal to make it ready to introduce to the live
+estate. | was also responsible for sample testing the pin pads prior to release
+to the outlets and maintaining a record of units tested and the test results. |
+provided support to the security manager, Bill Mitchell, who was later
 
-      managing a development team who wrote the code for auto configuration
+replaced by Brian Pinder.
 
-      whereby a counter PC was switched on and introduced to the estate,
+7. During 2007, the security team was split into policy and operations teams,
+both reporting to a new security manager, Howard Pritchard. At this point |
 
-      managing a third-party supplier who developed the roll out program, and
+had the role of Operations Team Manager. My responsibilities were
 
-      managing a development team to provide a training facility on the counter. I
+Page 2 of 18
+WITNO9710100
+WITNO9710100
 
-      would also interview staff applying for jobs on the Horizon project. My
+managerial in nature, namely business as usual tasks and supporting Mr
 
-      manager at the time was Dick Long.
+Pritchard.
 
+8. A summary of my professional background, including a summary of my
 
- 6.   In 2002, I joined the POA security team in a similar capacity as a Project
+qualifications and career (prior to joining Fujitsu) is set out below.
 
-      Manager. My work in this role included writing an anti-virus implementation
+Organisation Qualification or Role(s) Period
 
-      procedure via a change proposal to make it ready to introduce to the live
+Southend Municipal College | O Levels 1970
 
-      estate. I was also responsible for sample testing the pin pads prior to release
+Carreras Rothmans Computer Operator 1970-1978
+Computer Programmer
 
-      to the outlets and maintaining a record of units tested and the test results. I
+Ford Motor Company Computer Programmer 1978-1980
 
-      provided support to the security manager, Bill Mitchell, who was later
-
-      replaced by Brian Pinder.
-
-
- 7.   During 2007, the security team was split into policy and operations teams,
-
-      both reporting to a new security manager, Howard Pritchard. At this point I
-
-      had the role of Operations Team Manager. My responsibilities were
-
-
-
-
-                                  Page 2 of 18
-                                                                                       WITNO9710100
-                                                                                     WITNO9710100
-
-
-
-
-         managerial in nature, namely business as usual tasks and supporting Mr
-
-         Pritchard.
-
-
- 8.      A summary of my professional background, including a summary of my
-
-         qualifications and career (prior to joining Fujitsu) is set out below.
-
-
-       Organisation                    Qualification or Role(s)        Period
-
-       Southend Municipal College      0 Levels                        1970
-
-       Carreras Rothmans               Computer Operator               1970-1978
-                                       Computer Programmer
-
-       Ford Motor Company              Computer Programmer             1978-1980
-
-       Southend Borough Council        Senior Programmer               1980-1990
-                                       Development Manager
-
-
+Southend Borough Council | Senior Programmer 1980-1990
+Development Manager
 
 BACKGROUND
+9. The Inquiry has asked me to set out the role | had in relation to each of the
 
- 9.      The Inquiry has asked me to set out the role I had in relation to each of the
+following matters in connection with Horizon, both in its first iteration (known
 
-         following matters in connection with Horizon, both in its first iteration (known
+as “Legacy Horizon’) and the second iteration (known as “HNGx’):
 
-         as "Legacy Horizon") and the second iteration (known as "HNGx"):
+a. Post Office Limited (“POL”) disciplinary matters;
 
+b. matters relating to those accused of criminal offences;
 
-          a. Post Office Limited ("POL") disciplinary matters;
+c. matters relating to criminal or civil proceedings;
 
+d. witness evidence in any proceedings; or
 
-          b. matters relating to those accused of criminal offences;
+e. the extraction of audit data.
 
+10. In responding to this question and setting out my role, the Inquiry has
 
-          c. matters relating to criminal or civil proceedings;
+referred me to the following documents,
 
+Page 3 of 18
 
-          d. witness evidence in any proceedings; or
+which
 
+have reviewed:
+11.
 
-          e. the extraction of audit data.
+12.
 
+WITNO9710100
+WITNO9710100
 
- 10.     In responding to this question and setting out my role, the Inquiry has
+FUJ00122130, FUJ00122131, FUJ00122134, FUJ00122151,
+FUJ00122152, FUJ00122153, FUJ00122154, FUJ00122189,
+FUJ00122190, FUJ00122197, FUJ00122198, FUJ00122203,
 
-         referred me to the following documents, which I have reviewed:
+FUJ00122204, FUJ00122217 and FUJ00122218.
 
+| did not have a role in relation to the matters listed in subparagraphs 9(a)-
+(d) above. In relation to subparagraph 9(e), in 2007, | became the Operations
+Team Manager within the security team (as noted above), overseeing
+Penelope (Penny) Thomas, Andy Dunks and Neneh Lowther. My
+responsibilities were managerial only. Ms Thomas was a specialist in ARQs
+and reported to me, which included providing weekly updates regarding
+outstanding ARQs and court dates. However, | did not have a personal role
 
-                                     Page 3 of 18
-                                                                                      WITNO9710100
-                                                                                    WITNO9710100
+in relation to the extraction of audit data (i.e., | did not perform ARQs myself).
 
+The Inquiry has also asked me to set out the nature of my working
+relationship with Gareth Jenkins, Penny Thomas and Anne Chambers and
+to detail what | understood to be their roles in respect of matters relating to
 
+the provision of evidence in court proceedings. | have set this out below.
 
+a. Gareth Jenkins was an “Applications TDA (Technical Design Authority)”;
+he provided the security team (mainly Ms Thomas) with technical advice
 
-      FUJ00122130,          FUJO0122131,          FUJ00122134,         FUJ00122151,
+and guidance and provided evidence in court.
 
-      FUJO0122152,          FUJO0122153,          FUJ00122154,         FUJ00122189,
+b. Penny Thomas was in litigation support, providing POL with ARQ data.
 
-      FUJ00122190,          FUJ00122197,          FUJ00122198,         FUJO0122203,
+Ms Thomas was an ARQ specialist and a member of the security team.
 
-      FUJ00122204, FUJO0122217 and FUJ00122218.
+c. Anne Chambers was a technical designer who worked in the Software
 
+Support Centre (“SSC”). Mrs Chambers provided the security team
 
-11.   I did not have a role in relation to the matters listed in subparagraphs 9(a)—
+Page 4 of 18
+WITNO9710100
+WITNO9710100
 
-      (d) above. In relation to subparagraph 9(e), in 2007, I became the Operations
+(mainly Ms Thomas) with technical support advice and guidance and
 
-      Team Manager within the security team (as noted above), overseeing
-
-      Penelope (Penny) Thomas, Andy Dunks and Neneh Lowther. My
-
-      responsibilities were managerial only. Ms Thomas was a specialist in ARQs
-
-      and reported to me, which included providing weekly updates regarding
-
-      outstanding ARQs and court dates. However, I did not have a personal role
-
-      in relation to the extraction of audit data (i.e., I did not perform ARQs myself).
-
-
-12.   The Inquiry has also asked me to set out the nature of my working
-
-      relationship with Gareth Jenkins, Penny Thomas and Anne Chambers and
-
-      to detail what I understood to be their roles in respect of matters relating to
-
-      the provision of evidence in court proceedings. I have set this out below.
-
-
-      a. Gareth Jenkins was an "Applications TDA (Technical Design Authority)";
-
-          he provided the security team (mainly Ms Thomas) with technical advice
-
-          and guidance and provided evidence in court.
-
-
-      b. Penny Thomas was in litigation support, providing POL with ARQ data.
-
-          Ms Thomas was an ARQ specialist and a member of the security team.
-
-
-      c. Anne Chambers was a technical designer who worked in the Software
-
-          Support Centre ("SSC"). Mrs Chambers provided the security team
-
-
-
-                                  Page 4 of 18
-                                                                                   WITNO9710100
-                                                                                 WITNO9710100
-
-
-
-
-            (mainly Ms Thomas) with technical support advice and guidance and
-
-            provided evidence in court.
-
+provided evidence in court.
 
 RELATIONSHIP WITH POL
 
-  13.   The Inquiry has asked me to describe any circumstances in which I would
+13. The Inquiry has asked me to describe any circumstances in which | would
+have contact with POL in relation to issues concerning Horizon, including the
 
-        have contact with POL in relation to issues concerning Horizon, including the
+relevant contacts and the nature of my relationship.
 
-        relevant contacts and the nature of my relationship.
+14. | had contact with Sue Lowther, the POL Security Manager. | had detailed
+knowledge of the Horizon project, including the relevant people, their roles,
+and where to find information, and so would attend security meetings
+between managers, Bill Mitchell (later, Brian Pinder) in the POA security
 
+team and the POL security team on a monthly basis to provide support.
 
-  14.   I had contact with Sue Lowther, the POL Security Manager. I had detailed
+15. | liaised with Alan Simpson at POL to review incident management, mainly
+of counter down time. | worked directly with the POA customer service team
 
-        knowledge of the Horizon project, including the relevant people, their roles,
+and so could provide Mr Simpson with information on the counters.
 
-        and where to find information, and so would attend security meetings
+16. | was also in contact with Graham Ward at POL, and his manager Dave
+Posnett. Mr Ward was the Casework Manager who requested ARQs and Mr
+Posnett was the Fraud and Risk Manager. Mr Ward liaised directly with Ms
+Thomas on ARQ matters, and he regularly visited ICL’s Feltham and then
+Bracknell offices to meet with Ms Thomas. When | became the Operations
+Team Manager in the security team, | wanted to meet the POL team and |
+believe Ms Thomas and | had at least two meetings with Mr Ward and Mr
+Posnett. | do not recall discussing the specifics of ARQ data with Mr Ward or
+Mr Posnett; while | was Operations Team Manager, Mr Ward continued to
 
-        between managers, Bill Mitchell (later, Brian Pinder) in the POA security
+liaise with Ms Thomas in relation to this.
 
-        team and the POL security team on a monthly basis to provide support.
-
-
-  15.   I liaised with Alan Simpson at POL to review incident management, mainly
-
-        of counter down time. I worked directly with the POA customer service team
-
-        and so could provide Mr Simpson with information on the counters.
-
-
-  16.   I was also in contact with Graham Ward at POL, and his manager Dave
-
-        Posnett. Mr Ward was the Casework Manager who requested ARQs and Mr
-
-        Posnett was the Fraud and Risk Manager. Mr Ward liaised directly with Ms
-
-        Thomas on ARQ matters, and he regularly visited ICL's Feltham and then
-
-        Bracknell offices to meet with Ms Thomas. When I became the Operations
-
-        Team Manager in the security team, I wanted to meet the POL team and I
-
-        believe Ms Thomas and I had at least two meetings with Mr Ward and Mr
-
-        Posnett. I do not recall discussing the specifics of ARQ data with Mr Ward or
-
-        Mr Posnett; while I was Operations Team Manager, Mr Ward continued to
-
-        liaise with Ms Thomas in relation to this.
-
-
-                                   Page 5 of 18
-                                                                                     WITNO9710100
-                                                                                   WITNO9710100
-
-
-
+Page 5 of 18
+WITNO9710100
+WITNO9710100
 
 ARQ DATA FROM HORIZON AND THE PROSECUTION SUPPORT SERVICE
+17. | The Inquiry has asked me to set out my recollection as to the process for
+providing audit data to POL and explain the structure and function of Fujitsu’s
+Prosecution Support Service and my role in relation to the service. The
+Inquiry has also referred me to FUJ00155212, FUJ00155214 and
 
- 17.   The Inquiry has asked me to set out my recollection as to the process for
+FUJ00155413, which | have reviewed.
 
-       providing audit data to POL and explain the structure and function of Fujitsu's
+18. | recall that Fujitsu had contractual requirements with respect to the provision
 
-       Prosecution Support Service and my role in relation to the service. The
+of audit data, which included:
 
-       Inquiry has also referred me to FUJ00155212, FUJO0155214 and
+a. the retrieval and analysis of archived Riposte message store data,
 
-       FUJ00155413, which I have reviewed.
+including event logs, and calls to the Horizon Helpdesk;
 
+b. responding to ARQ requests from POL for Horizon branch transaction
 
- 18.   I recall that Fujitsu had contractual requirements with respect to the provision
+data and the retrieval of event logs and Horizon Helpdesk calls; and
 
-       of audit data, which included:
+c. providing witness statements and attending court when requested to
 
+support the ARQ data supplied.
 
-       a. the retrieval and analysis of archived Riposte message store data,
+19. | did not have a direct role in relation to the provision of ARQ data to POL,
+however, as noted above at paragraph 11, | was Ms Thomas’ line manager
+in 2007. Ms Thomas was the security team member primarily responsible for
 
-          including event logs, and calls to the Horizon Helpdesk;
+the provision of ARQ data to POL.
 
+20. | do not know if the processes described above varied in relation to Legacy
 
-       b. responding to ARQ requests from POL for Horizon branch transaction
+Horizon and HNGx.
 
-          data and the retrieval of event logs and Horizon Helpdesk calls; and
+21. — In relation to the structure and function of the Prosecution Support Service,
 
+there was one security team member who primarily provided this service with
 
-       c. providing witness statements and attending court when requested to
+Page 6 of 18
+WITNO9710100
+WITNO9710100
 
-          support the ARQ data supplied.
+another team member to provide back-up support when needed. These two
+security team members would respond to ARQ requests from the POL
+Casework Manager and carry out data extractions from audit files. This data
 
+was then sent securely to POL via a CD-ROM.
 
- 19.   I did not have a direct role in relation to the provision of ARQ data to POL,
+22. The technical support for this role was primarily Gareth Jenkins, with the help
+of various technical support staff within the Horizon technical teams,
 
-       however, as noted above at paragraph 11, I was Ms Thomas' line manager
-
-       in 2007. Ms Thomas was the security team member primarily responsible for
-
-       the provision of ARQ data to POL.
-
-
- 20.   I do not know if the processes described above varied in relation to Legacy
-
-       Horizon and HNGx.
-
-
- 21.   In relation to the structure and function of the Prosecution Support Service,
-
-       there was one security team member who primarily provided this service with
-
-
-
-
-                                   Page 6 of 18
-                                                                                     WITNO9710100
-                                                                                   WITNO9710100
-
-
-
-
-        another team member to provide back-up support when needed. These two
-
-        security team members would respond to ARQ requests from the POL
-
-        Casework Manager and carry out data extractions from audit files. This data
-
-        was then sent securely to POL via a CD-ROM.
-
-
-  22.   The technical support for this role was primarily Gareth Jenkins, with the help
-
-        of various technical support staff within the Horizon technical teams,
-
-        including the SSC.
-
+including the SSC.
 
 ARQ PROCESS ISSUES
-
-The incident at Craigpark and the "ARQ Service Issue"
-
-  23.   The Inquiry has asked me for a detailed account of (i) an incident that
-
-        occurred at the Craigpark Post Office branch (FAD code 141832)
-
-        ("Craigpark") and how it related to the ARQ process and the reliability of
-
-        data, (ii) the approach to witness evidence that followed the issue at
-
-        Craigpark, and (iii) a certain issue or issues regarding ARQ data variously
-
-        referred to as an "ARQ Service Problem", "ARQ Service Issue", "Prosecution
-
-        Support Urgent Issue" and a "Security Incident" in the 2008/early 2009 period
-
-        ("ARQ Service Issue"). In responding to these questions, I have reviewed
-
-        the following documents as referenced in the Request: FUJ00154823,
-
-        FUJ00154824,         FUJ00154841,         FUJ00154842,         FUJ00155455,
-
-        FUJO0155448,         FUJO0155474,         FUJ00155476,         FUJ00155478,
-
-        FUJO0155492,         FUJO0155498,         FUJ00155456,         FUJ00155231,
-
-        FUJO0155232,         FUJO0155263,         FUJ00155271,         FUJ00155272,
-
-        FUJO0155274,         FUJ00155276,         FUJ00154828,         FUJ00155278,
-
-        FUJO0155397,         FUJO0155367,         FUJ00155402,         FUJ00155371,
-
-        FUJO0155373,         FUJO0155257,         FUJ00155265,         FUJ00155268,
-
-
-                                   Page 7 of 18
-                                                                                    WI TN09710100
-                                                                               WITNO9710100
-
-
-
-
-      FUJ00155270,        FUJ00155409,          FUJ00155412,       FUJ00155421,
-
-      FUJ00155422,        FUJ00154833,          FUJ00154835,       FUJ00155241,
-
-      FUJ00155242,        FUJ00155371,          FUJ00155378,       FUJ00155385,
-
-      FUJ00155386,        FUJ00155387,          FUJ00155388,       FUJ00155389,
-
-      FUJ00155391,        FUJ00155392,          FUJ00155390,       FUJ00155394,
-
-      FUJ00155399, FUJ00155400 and FUJ00122604.
-
-
-24.   The ARQ Service Issue was related to the incident at Craigpark. The incident
-
-      at Craigpark concerned an event log issue that highlighted errors with the
-
-      End of Day ("EOD") process which caused some transactions to freeze and
-
-      create an event error. The issue identified at Craigpark raised questions
-
-      regarding the integrity of data supplied to POL as part of the ARQ service.
-
-
-25.   Having reviewed contemporaneous records regarding the incident at
-
-      Craigpark (for example, FUJ00155397), I recall that the issue was identified
-
-      following a detailed technical investigation by Fujitsu technical staff, who
-
-      found out that transactions running during the EOD process had caused a
-
-      lock in processing and a Riposte error event was written to the event log. It
-
-      was identified that this problem had been caused by a previous bug fix, which
-
-      was introduced into Legacy Horizon's live estate in May 2007. Whilst this
-
-      investigation was running, a manual exercise was carried out to examine the
-
-      event log data from ARQ data associated within the dates of May 2007 and
-
-      November 2008.
-
-
-26.   I became aware of the issue when error events were discovered whilst
-
-      examining event data during an ARQ extraction for Craigpark. There were
-
-      several meetings and discussions between Mr Jenkins, Mrs Chambers and
-
-
-
-                                 Page 8 of 18
-                                                                                  WITNO9710100
-                                                                                WITNO9710100
-
-
-
-
-      Ms Thomas, and other managers and support staff. I was usually invited to
-
-      these meetings; however, my input was very limited as I did not always
-
-      understand the technical details in relation to the ARQ extraction. As
-
-      manager, my objective was to find out what went wrong and identify the
-
-      appropriate individuals to resolve the issue. The task of resolving any issues
-
-      were left to the technical staff, including those I have named above. There
-
-      were many meetings that took place to find a resolution to the problem; these
-
-      were mainly between the technical staff. I cannot recall who attended these
-
-      meetings, but I believe some of the meetings were documented.
-
-
-27.   When the error was identified, it raised questions regarding the integrity of
-
-      ARQ data previously supplied to POL. Previous ARQ data was analysed and
-
-      events stripped out to check other event errors. A change proposal was then
-
-      raised by Alan Holmes to incorporate this manual process of performing
-
-      additional counter event checks into the ARQ service to enable analysis of
-
-      counter event messages (as shown in FUJ00155272) and check for any
-
-      other event errors. As the change proposal concerned the security team's
-
-      function, it required a sponsor/owner from the security team, and I was made
-
-      sponsor for this particular change proposal. As sponsor of the change
-
-      proposal, I was invited to meetings to discuss the wording of the change
-
-      proposal, but again my input was very limited as I lacked the technical
-
-      knowledge. The meetings were run by Mr Holmes, and individuals like Ms
-
-      Thomas and possibly Mr Jenkins would have been present. The change
-
-      proposal was enhanced to incorporate the manual process into the ARQ
-
-      application and remove manual intervention in the ARQ process for the
-
-      HNGx solution. Once the analysis of the problem was completed, Fujitsu's
-
-
-                                 Page 9 of 18
-                                                                                  WITNO9710100
-                                                                                WITNO9710100
-
-
-
-
-      senior manager of the POA customer service team, Steve Denham, was
-
-      given a presentation of the change proposal and why it was being raised.
-
-      Once the change proposal was approved, the work on implementing the
-
-      changes could begin and changes to the HNGx ARQ application could be
-
-      introduced. I do not recall any discussions regarding POL's likely reaction to
-
-      the proposed changes.
-
-
-28.   Following the discovery of the additional event error (noted above at
-
-      paragraph 25), there was discussion over amending the wording of the
-
-      witness statements provided by Fujitsu to POL to include the additional
-
-      checks. There were several meetings (some of which I was present at), and
-
-      emails exchanged on how to make these changes. From reviewing the
-
-      documents provided to me by the Inquiry, it looks like no substantial changes
-
-      were made to the witness statement to reflect the changes to the ARQ
-
-      service. There may have been smaller revisions made to the witness
-
-      statement, but I do not have any recollection of this.
-
-
-29.   I believe POL were informed of the ARQ Service Issue and the change
-
-      proposal once the full impact of the potential problem was established. In
-
-      relation to POL's involvement in investigations relating to the issue, there
-
-      were emails exchanged between Fujitsu and POL discussing the problem.
-
-      The problem was recognised as sensitive as the event errors raised
-
-      questions regarding the integrity of ARQs. I believe the POL legal team were
-
-      also consulted and they reviewed the situation with the POL management
-
-      team to provide their input. There was a change in the approach taken to
-
-      reviewing event errors related to cases being pursued by POL when this
-
-
-
-
-                                 Page 10 of 18
-                                                                                       WI TN09710100
-                                                                                     WITNO9710100
-
-
-
-
-      issue arose, and the manual process was introduced and continued to be
-
-      run to check event logs for potential problems. POL requested that Fujitsu
-
-      process the outstanding cases and complete the event analysis as soon as
-
-      possible. Both POL and Fujitsu staff worked together to agree on a workable
-
-      solution due to the sensitive nature of the problem.
-
-
-30.   Senior management from Fujitsu and POL were involved and kept up to date
-
-      with progress. Fujitsu senior management communicated with POL senior
-
-      management on the matter, and both were constructive to agree a solution.
-
-      I believe Fujitsu and POL senior management were concerned with ensuring
-
-      that the necessary checks were carried out on the ARQ data retrospectively
-
-      once the issue had been identified. In turn, they were concerned with getting
-
-      the change proposal approved so that the new changes could be
-
-      incorporated into HNGx code.
-
-
-31.   In relation to the resolution of the issue, the fix for the software issue relating
-
-      to the EOD process was delivered to the live estate in October 2008. The
-
-      issue of manually analysing event logs was replaced by introducing this
-
-      automatically into the application for the HNGx solution once the change
-
-      proposal was approved and the additional filtering was introduced in the
-
-      retrieval application. The tactical solution would have to continue during the
-
-      lifetime of the Legacy Horizon audit system. As can be seen from
-
-      FUJ00155476, the change proposal was finalised and approved on 31
-
-      March 2009.
-
-
-
-
-                                  Page 11 of 18
-                                                                                    WITNO9710100
-                                                                                  WITNO9710100
-
-
-
+The incident at Craigpark and the “ARQ Service Issue”
+
+23. The Inquiry has asked me for a detailed account of (i) an incident that
+occurred at the Craigpark Post Office branch (FAD code 141832)
+(‘Craigpark”) and how it related to the ARQ process and the reliability of
+data, (ii) the approach to witness evidence that followed the issue at
+Craigpark, and (iii) a certain issue or issues regarding ARQ data variously
+referred to as an “ARQ Service Problem”, “ARQ Service Issue”, “Prosecution
+Support Urgent Issue” and a “Security Incident” in the 2008/early 2009 period
+(‘ARQ Service Issue”). In responding to these questions, | have reviewed
+the following documents as referenced in the Request: FUJ00154823,
+FUJ00154824, FUJ00154841, FUJ00154842, FUJ00155455,
+FUJ00155448, FUJ00155474, FUJ00155476, FUJ00155478,
+FUJ00155492, FUJ00155498, FUJ00155456, FUJ00155231,
+FUJ00155232, FUJ00155263, FUJ00155271, FUJ00155272,
+FUJ00155274, FUJ00155276, FUJ00154828, FUJ00155278,
+FUJ00155397, FUJ00155367, FUJ00155402, FUJ00155371,
+
+FUJ00155373, FUJ00155257, FUJ00155265, FUJ00155268,
+
+Page 7 of 18
+24.
+
+25.
+
+26.
+
+WITNO9710100
+WITNO9710100
+
+FUJ00155270, FUJ00155409, FUJ00155412, FUJ00155421,
+FUJ00155422, FUJ00154833, FUJ00154835, FUJ00155241,
+FUJ00155242, FUJ00155371, FUJ00155378, FUJ00155385,
+FUJ00155386, FUJ00155387, FUJ00155388, FUJ00155389,
+FUJ00155391, FUJ00155392, FUJ00155390, FUJ00155394,
+
+FUJ00155399, FUJ00155400 and FUJ00122604.
+
+The ARQ Service Issue was related to the incident at Craigpark. The incident
+at Craigpark concerned an event log issue that highlighted errors with the
+End of Day (“EOD”) process which caused some transactions to freeze and
+create an event error. The issue identified at Craigpark raised questions
+
+regarding the integrity of data supplied to POL as part of the ARQ service.
+
+Having reviewed contemporaneous records regarding the incident at
+Craigpark (for example, FUJ00155397), | recall that the issue was identified
+following a detailed technical investigation by Fujitsu technical staff, who
+found out that transactions running during the EOD process had caused a
+lock in processing and a Riposte error event was written to the event log. It
+was identified that this problem had been caused by a previous bug fix, which
+was introduced into Legacy Horizon’s live estate in May 2007. Whilst this
+investigation was running, a manual exercise was carried out to examine the
+event log data from ARQ data associated within the dates of May 2007 and
+
+November 2008.
+
+| became aware of the issue when error events were discovered whilst
+examining event data during an ARQ extraction for Craigpark. There were
+
+several meetings and discussions between Mr Jenkins, Mrs Chambers and
+
+Page 8 of 18
+WITNO9710100
+WITNO9710100
+
+Ms Thomas, and other managers and support staff. | was usually invited to
+these meetings; however, my input was very limited as | did not always
+understand the technical details in relation to the ARQ extraction. As
+manager, my objective was to find out what went wrong and identify the
+appropriate individuals to resolve the issue. The task of resolving any issues
+were left to the technical staff, including those | have named above. There
+were many meetings that took place to find a resolution to the problem; these
+were mainly between the technical staff. | cannot recall who attended these
+
+meetings, but | believe some of the meetings were documented.
+
+When the error was identified, it raised questions regarding the integrity of
+ARQ data previously supplied to POL. Previous ARQ data was analysed and
+events stripped out to check other event errors. A change proposal was then
+raised by Alan Holmes to incorporate this manual process of performing
+additional counter event checks into the ARQ service to enable analysis of
+counter event messages (as shown in FUJ00155272) and check for any
+other event errors. As the change proposal concerned the security team’s
+function, it required a sponsor/owner from the security team, and | was made
+sponsor for this particular change proposal. As sponsor of the change
+proposal, | was invited to meetings to discuss the wording of the change
+proposal, but again my input was very limited as | lacked the technical
+knowledge. The meetings were run by Mr Holmes, and individuals like Ms
+Thomas and possibly Mr Jenkins would have been present. The change
+proposal was enhanced to incorporate the manual process into the ARQ
+application and remove manual intervention in the ARQ process for the
+
+HNGx solution. Once the analysis of the problem was completed, Fujitsu’s
+
+Page 9 of 18
+28.
+
+29.
+
+WITNO9710100
+WITNO9710100
+
+senior manager of the POA customer service team, Steve Denham, was
+given a presentation of the change proposal and why it was being raised.
+Once the change proposal was approved, the work on implementing the
+changes could begin and changes to the HNGx ARQ application could be
+introduced. | do not recall any discussions regarding POL’s likely reaction to
+
+the proposed changes.
+
+Following the discovery of the additional event error (noted above at
+paragraph 25), there was discussion over amending the wording of the
+witness statements provided by Fujitsu to POL to include the additional
+checks. There were several meetings (some of which | was present at), and
+emails exchanged on how to make these changes. From reviewing the
+documents provided to me by the Inquiry, it looks like no substantial changes
+were made to the witness statement to reflect the changes to the ARQ
+service. There may have been smaller revisions made to the witness
+
+statement, but | do not have any recollection of this.
+
+|! believe POL were informed of the ARQ Service Issue and the change
+proposal once the full impact of the potential problem was established. In
+relation to POL’s involvement in investigations relating to the issue, there
+were emails exchanged between Fujitsu and POL discussing the problem.
+The problem was recognised as sensitive as the event errors raised
+questions regarding the integrity of ARQs. | believe the POL legal team were
+also consulted and they reviewed the situation with the POL management
+team to provide their input. There was a change in the approach taken to
+
+reviewing event errors related to cases being pursued by POL when this
+
+Page 10 of 18
+30.
+
+31.
+
+WITNO9710100
+WITNO9710100
+
+issue arose, and the manual process was introduced and continued to be
+run to check event logs for potential problems. POL requested that Fujitsu
+process the outstanding cases and complete the event analysis as soon as
+possible. Both POL and Fujitsu staff worked together to agree on a workable
+
+solution due to the sensitive nature of the problem.
+
+Senior management from Fujitsu and POL were involved and kept up to date
+with progress. Fujitsu senior management communicated with POL senior
+management on the matter, and both were constructive to agree a solution.
+| believe Fujitsu and POL senior management were concerned with ensuring
+that the necessary checks were carried out on the ARQ data retrospectively
+once the issue had been identified. In turn, they were concerned with getting
+the change proposal approved so that the new changes could be
+
+incorporated into HNGx code.
+
+In relation to the resolution of the issue, the fix for the software issue relating
+to the EOD process was delivered to the live estate in October 2008. The
+issue of manually analysing event logs was replaced by introducing this
+automatically into the application for the HNGx solution once the change
+proposal was approved and the additional filtering was introduced in the
+retrieval application. The tactical solution would have to continue during the
+lifetime of the Legacy Horizon audit system. As can be seen from
+FUJ00155476, the change proposal was finalised and approved on 31
+
+March 2009.
+
+Page 11 of 18
+WITNO9710100
+WITNO9710100
 
 My handover
+32. The Inquiry has asked me to set out any handover or discussions of ongoing
+work | recall having with Andy Dunks or others following my move to another
+role. In doing so, | have reviewed FUJ00155498 and FUJ00155507 as
+referenced in the Request. | recall speaking with Mr Dunks about him
+continuing the meetings with Mr Simpson regarding incident management.
+These meeting were mainly based on reviewing lost time on the counters.
+There were no other handovers made and | retired after this in November
 
-  32.     The Inquiry has asked me to set out any handover or discussions of ongoing
-
-          work I recall having with Andy Dunks or others following my move to another
-
-          role. In doing so, I have reviewed FUJO0155498 and FUJO0155507 as
-
-          referenced in the Request. I recall speaking with Mr Dunks about him
-
-          continuing the meetings with Mr Simpson regarding incident management.
-
-          These meeting were mainly based on reviewing lost time on the counters.
-
-          There were no other handovers made and I retired after this in November
-
-          2009.
-
+2009.
 
 GENERAL
+33. | There are no other matters that | would like to draw to the attention of the
 
-  33.     There are no other matters that I would like to draw to the attention of the
-
-          Chair of the Inquiry.
-
+Chair of the Inquiry.
 
 Statement of Truth
 
-I believe the content of this statement to be true.
+| believe the content of this statement to be true.
 
-
-
-
-Signed:
-           GRO
 Dated: 8 September 2023
 
+Page 12 of 18
+WITNO9710100
+WITNO9710100
 
-
-
-                                     Page 12 of 18
-                                                                           WI TN09710100
-                                                                         WITNO9710100
-
-
-
-
- INDEX TO THE FIRST WITNESS STATEMENT OF PETER JAMES SEWELL
+INDEX TO THE FIRST WITNESS STATEMENT OF PETER JAMES SEWELL
 
 Exhibit
-                Document Description                URN      Control Number
- No.
-          Email from Penny Thomas to Gareth
-          Jenkins and Neneh Lowther with
-  1.      subject 'CS Witness Statement          FUJ00122130 POINQ0128344F
-          Amendment', dated 24 November
-          2005.
-  2       Witness statement of Gareth Jenkins    FUJ00122131 POINQ0128345F
-          dated 3 October 2005.
-          Email from Gareth Jenkins to Penny
-          Thomas, Neneh Lowther with subject
-  3                                              FUJ00122134 POINQ0128348F
-          'Re: CS Witness Statement', dated
-          28 November 2005.
-          Email from Penny Thomas to Peter
-          Sewell and Gareth Jenkins with
-  4                                              FUJ00122151 POINQ0128365F
-          subject 'Re: Witness Statement
-          Review' dated 7 December 2005.
-          Undated witness statement of           FUJ00122152 POINQ0128366F
-  5
-          Penelope Anne Thomas
-          Email from Penny Thomas to Peter
-          Sewell and Gareth Jenkins with         FUJ00122153 POINQ0128367F
-  6
-          subject 'Re: Witness Statement
-          Review', dated 7 December 2005.
-  7       Undated witness statement of
-                                                 FUJ00122154 POINQ0128368F
-          Penelope Anne Thomas
-          Email from Brian Pinder to Andy
-          Dunks and Peter Sewell with subject    FUJ00122189 POINQ0128403F
-  8
-          `Gaerwen Witness Statement', dated
-          22 March 2006.
-          Witness Statement of William Leslie    FUJ00122190 POINQ0128404F
-  9
-          Mitchell, dated 22 March 2006.
-          Email chain last dated 23 March
-          2006 between Neneh Lowther,
-  10.     Gareth Jenkins, Penny Thomas,          FUJ00122197 POINQ0128411F
-          Graham Ward and Brian Pinder with
-          subject `Re: Gaerwen'.
-          Witness Statement of Gareth Jenkins
-  11.                                            FUJ00122198 POINQ0128412F
-          dated 23 March 2006.
-          Email from Gareth Jenkins to Neneh
-          Lowther and Brian Pinder with          FUJ00122203 POINQ0128417F
-  12
-          subject `Re: Gaerwen' dated 23
-          March 2006.
-          Witness statement of Gareth Jenkins    FUJ00122204 POINQ0128418F
-  13.
-          dated 23 March 2006.
-          Email from Gareth Jenkins to           FUJ00122217 POINQ0128431F
-  14.
-          Graham Ward and Neneh Lowther
+No.
 
+Document Description
 
+URN
 
-                                 Page 13 of 18
-                                                                            WI TN09710100
-                                                                          WITNO9710100
+Control Number
 
+Email from Penny Thomas to Gareth
+Jenkins and Neneh Lowther with
+subject ‘CS Witness Statement
+Amendment’, dated 24 November
+2005.
 
+FUJ00122130
 
+POINQ0128344F
 
-Exhibit
-                Document Description                 URN      Control Number
- No.
-          with subject 'Re: Gaerwen' dated 28
-          March 2006.
-          Witness statement of Gareth Jenkins
-  15.                                             FUJ00122218 POINQ0128432F
-          dated 24 March 2006.
-          Email dated 22 January 2008 from
-          RMGA Document Management to
-          multiple individuals with subject
-  16.     'Horizon Document for Review:           FUJ00155212 POINQ0161406F
-          RS/PRO/049 — VO.2 — Horizon Event
-          Logging Process for Operational
-          Security'.
-          Horizon Event Logging Process for
-  17.     Operational Security - RS/PRO/049 -     FUJ00155214 POINQ0161408F
-          version 0.2 dated 22 January 2008.
-          Horizon Event Logging Process for
-  18.     Operational Security - RS/PRO/049 -     FUJ00155413 POINQ0161607F
-          version 0.3, dated 3 February 2009.
-          Email chain last dated 14 August
-          2008 between Penny Thomas,
-  19.     Gareth Jenkins, Alan Holmes and         FUJ00154823 POINQ0161018F
-          others with subject 'Branch 141832
-          Craigpark'.
-          Record of meeting dated 13 August       FUJ00154824 POINQ0161019F
-  20.
-          2008.
-          HNG-X Change Proposal No. 4867          FUJ00154841 POINQ0161036F
-  21
-          dated 26 February 2009.
-          Email chain last dated 20 April 2009
-          between Gerald Barnes, Gareth
-          Jenkins, Anne Chambers and Penny
-  22.                                             FUJ00154842 POINQ0161037F
-          Thomas with subject 'ARQ 023
-          241007 LPD 6 May 09 (and possible
-          filter change)'.
-          Excel document with filename 'HNG-
-  23.                                             FUJ00155455 POINQ0161649F
-          X CF Impact Web Dump 0336.
-          Email from Diane Tribe to the RMGA
-          Change Management mailbox with
-  24.     subject 'HNG-X CP0336 (PVCS             FUJ00155448 POINQ0161642F
-          4867) - Impact Web Dump', dated 24
-          March 2009.
-          HNG-X Change Proposal - HNG-X           FUJ00155474 POINQ0161668F
-  25.
-          No. 4867 dated 26 February 2009.
-          Royal Mail Group Account Change
-          Management Change Control Board,
-  26.                                       FUJ00155476 POINQ0161670F
-          Meeting Number 530 dated 31 March
-          2009.
+Witness statement of Gareth Jenkins
+dated 3 October 2005.
 
+FUJ00122131
 
-                                  Page 14 of 18
-                                                                            WI TN09710100
-                                                                          WITNO9710100
+POINQ0128345F
 
+Email from Gareth Jenkins to Penny
+Thomas, Neneh Lowther with subject
+‘Re: CS Witness Statement’, dated
+28 November 2005.
 
+FUJ00122134
 
+POINQ0128348F
 
-Exhibit
-                Document Description                 URN      Control Number
- No.
-          HNG-X Change Proposal No. 4867-         FUJ00155478 POINQ0161672F
-  27
-          dated 26 February 2009.
-          Email from David Hinde to George
-          Zolkiewka copying Graham Allen and
-          others with subject 'Urgent - FOR
-          IMPACT - HNG-X CP0336 (Release:         FUJ00155492 POINQ0161686F
-  28
-          HNG-X) - Enable analysis of Counter
-          event messages within the HNG-X
-          Audit solution', dated 26 August
-          2009.
-          Email from George Zolkiewka to
-          RMGA Change Management and
-          David Hinde with subject 'HNG-X
-  29.     CP0336 (Release: HNG-X) - Enable        FUJ00155498 POINQ0161692F
-          analysis of Counter event messages
-          within the HNG-X Audit solution',
-          dated 13 October 2009.
-          Email from David Hinde to RMGA
-          Change Management, Peter Sewell
-          and Penny Thomas with subject
-  30.     'CP0336 - Enable analysis of            FUJ00155456 POINQ0161650F
-          Counter event messages within the
-          HNG-X Audit solution', dated 24
-          March 2009.
-          Email chain last dated 12 August
-          2008 between Penny Thomas, Alan
-  31.                                             FUJ00155231 POINQ0161425F
-          Holmes, Peter Sewell and others with
-          subject 'Branch 141832 Craigpark'.
-          Email chain last dated 12 August
-          2008 from Peter Sewell to Gareth
-  32.                                             FUJ00155232 POINQ0161426F
-          Jenkins with subject 'Branch 141832
-          Craig ark'.
-          Email from Anne Chambers to Penny
-          Thomas dated 16 September 2008
-  33.                                             FUJ00155263 POINQ0161457F
-          with subject `Riposte Timeout waiting
-          for lock events'.
-          Email from Alan Holmes to Peter
-          Sewell, Roy Birkinshaw and Gareth
-  34.                                             FUJ00155271 POINQ0161465F
-          Jenkins with subject 'Counter Audit
-          CP', dated 13 October 2008.
-          HNG-X Change Proposal dated 13
-  35.                                             FUJ00155272 POINQ0161466F
-          October 2008.
-          Email chain last dated 15 October
-          2008 between Gareth Jenkins,
-  36.                                             FUJ00155274 POINQ0161468F
-          Penny Thomas and others with
-          subject 'Counter Audit CP'.
+Email from Penny Thomas to Peter
+Sewell and Gareth Jenkins with
+subject ‘Re: Witness Statement
+Review’ dated 7 December 2005.
 
+FUJ00122151
 
+POINQ0128365F
 
-                                  Page 15 of 18
-                                                                            WI TN09710100
-                                                                          WITNO9710100
+Undated witness statement of
+Penelope Anne Thomas
 
+FUJ00122152
 
+POINQ0128366F
 
+Email from Penny Thomas to Peter
+Sewell and Gareth Jenkins with
+subject ‘Re: Witness Statement
+Review’, dated 7 December 2005.
+
+FUJ00122153
+
+POINQ0128367F
+
+Undated witness statement of
+Penelope Anne Thomas
+
+FUJ00122154
+
+POINQ0128368F
+
+Email from Brian Pinder to Andy
+Dunks and Peter Sewell with subject
+‘Gaerwen Witness Statement’, dated
+22 March 2006.
+
+FUJ00122189
+
+POINQ0128403F
+
+Witness Statement of William Leslie
+Mitchell, dated 22 March 2006.
+
+FUJ00122190
+
+POINQ0128404F
+
+10.
+
+Email chain last dated 23 March
+2006 between Neneh Lowther,
+Gareth Jenkins, Penny Thomas,
+Graham Ward and Brian Pinder with
+subject ‘Re: Gaerwen’.
+
+FUJ00122197
+
+POINQ0128411F
+
+11.
+
+Witness Statement of Gareth Jenkins
+dated 23 March 2006.
+
+FUJ00122198
+
+POINQ0128412F
+
+12.
+
+Email from Gareth Jenkins to Neneh
+Lowther and Brian Pinder with
+subject ‘Re: Gaerwen’ dated 23
+March 2006.
+
+FUJ00122203
+
+POINQ0128417F
+
+13.
+
+Witness statement of Gareth Jenkins
+dated 23 March 2006.
+
+FUJ00122204
+
+POINQ0128418F
+
+14.
+
+Email from Gareth Jenkins to
+Graham Ward and Neneh Lowther
+
+FUJ00122217
+
+POINQ0128431F
+
+Page 13 of 18
+WITNO9710100
+WITNO9710100
 
 Exhibit
-                Document Description                 URN      Control Number
- No.
-          Email from Alan Holmes to Steve
-          Evans, Penny Thomas, Gareth
-  37.     Jenkins and others withy subject 'RE:   FUJ00155276 POINQ0161470F
-          AUDIT - CP update', dated 20
-          October 2008.
-          HNG-X Change Proposal dated 20
-  38.                                             FUJ00154828 POINQ0161023F
-          October 2008.
-          Meeting invite scheduled for 24
-  39.     October 2008 with subject 'Updated:     FUJ00155278 POINQ0161472F
-          Audit CP — Words'.
-          Email chain last dated 23 December
-          2008 between Graham Allen, Steve
-  40.     Evans, Peter Sewell, Alan Holmes,       FUJ00155397 POINQ0161591F
-          Penny Thomas, Gareth Jenkins with
-          subject 'Audit and PC0152376'.
-          Email chain last dated 12 November
-          2008 between Steve Evans, Penny
-  41.     Thomas, Peter Sewell and others         FUJ00155367 POINQ0161561F
-          with subject 'RE: Audit Strengthening
-          CP - Words for Review'.
-          Email from Steve Evans to Gerald
-  42.     Barnes with subject 'Audit Issue',      FUJ00155402 POINQ0161596F
-          dated 8 January 2009.
-          Meeting invitation scheduled for 26
-          November 2008 with subject
-  43.                                             FUJ00155371 POINQ0161565F
-          'Updated: Audit Strengthening CP
-          Review/Refresh'.
-          Email from Penny Thomas to Peter
-  44.     Sewell with subject 'ARQ Service',      FUJ00155373 POINQ0161567F
-          dated 1 December 2008.
-          Email from Roy Birkinshaw to Penny
-          Thomas, Peter Sewell, Alan Holmes
-  45.     and others dated 5 September 2008       FUJ00155257 POINQ0161451F
-          with subject 'Recent Exercise to
-          review Audit in Horizon'.
-          Email from Penny Thomas to Peter
-          Sewell dated 18 September 2008
-  46.                                             FUJ00155265 POINQ0161459F
-          with subject whether to check event
-          errors for cases outside of advice'.
-          Email from Gareth Jenkins to Peter
-          Sewell and Penny Thomas with
-  47                                              FUJ00155268 POINQ0161462F
-          subject 'Checking ARQ Events',
-          dated 8 October 2008.
-          Email from Penny Thomas to Peter
-  48.     Sewell with subject 'Checking ARQ       FUJ00155270 POINQ0161464F
-          events' dated 13 October 2008.
+No.
 
+Document Description
 
+URN
 
+Control Number
 
-                                  Page 16 of 18
-                                                                             WI TN09710100
-                                                                           WITNO9710100
+with subject ‘Re: Gaerwen’ dated 28
+March 2006.
 
+15.
 
+Witness statement of Gareth Jenkins
+dated 24 March 2006.
 
+FUJ00122218
+
+POINQ0128432F
+
+16.
+
+Email dated 22 January 2008 from
+RMGA Document Management to
+multiple individuals with subject
+‘Horizon Document for Review:
+RS/PRO/049 — V0.2 — Horizon Event
+Logging Process for Operational
+Security’.
+
+FUJ00155212
+
+POINQ0161406F
+
+17.
+
+Horizon Event Logging Process for
+Operational Security - RS/PRO/049 -
+version 0.2 dated 22 January 2008.
+
+FUJ00155214
+
+POINQ0161408F
+
+18.
+
+Horizon Event Logging Process for
+Operational Security - RS/PRO/049 -
+version 0.3, dated 3 February 2009.
+
+FUJ00155413
+
+POINQ0161607F
+
+19.
+
+Email chain last dated 14 August
+2008 between Penny Thomas,
+Gareth Jenkins, Alan Holmes and
+others with subject ‘Branch 141832
+Craigpark’.
+
+FUJ00154823
+
+POINQ0161018F
+
+20.
+
+Record of meeting dated 13 August
+2008.
+
+FUJ00154824
+
+POINQ0161019F
+
+21.
+
+HNG-X Change Proposal No. 4867
+dated 26 February 2009.
+
+FUJ00154841
+
+POINQ0161036F
+
+22.
+
+Email chain last dated 20 April 2009
+between Gerald Barnes, Gareth
+Jenkins, Anne Chambers and Penny
+Thomas with subject ‘ARQ 023
+241007 LPD 6 May 09 (and possible
+filter change)’.
+
+FUJ00154842
+
+POINQ0161037F
+
+23.
+
+Excel document with filename ‘HNG-
+X CP Impact Web Dump 0336.
+
+FUJ00155455
+
+POINQ0161649F
+
+24.
+
+Email from Diane Tribe to the RMGA
+Change Management mailbox with
+subject ‘HNG-X CP0336 (PVCS
+4867) - Impact Web Dump’, dated 24
+March 2009.
+
+FUJ00155448
+
+POINQ0161642F
+
+25.
+
+HNG-X Change Proposal - HNG-X
+No. 4867 dated 26 February 2009.
+
+FUJ00155474
+
+POINQ0161668F
+
+26.
+
+Royal Mail Group Account Change
+Management Change Control Board,
+Meeting Number 530 dated 31 March
+2009.
+
+FUJ00155476
+
+POINQ0161670F
+
+Page 14 of 18
+WITNO9710100
+WITNO9710100
 
 Exhibit
-                Document Description                  URN      Control Number
- No.
-          Email from Penny Thomas to Steve
-          Denham, Howard Pritchard, Peter
-  49.     Sewell with subject `Outlet Checking     FUJ00155409 POINQ0161603F
-          List - Audit Issue', dated 27 January
-          2009.
-          Email chain last dated 3 February
-          2009 between Anne Chambers,
-  50.     Penny Thomas and others with             FUJ00155412 POINQ0161606F
-          subject `Outlet Checking List - Audit
-          Issue'.
-          Email from Penny Thomas to Steve
-          Denham, Peter Sewell with subject        FUJ00155421 POINQ0161615F
-  51.
-          `Security Incident', dated 4 February
-          2009.
-          Email from Penny Thomas to Steve
-          Denham with subject `Outlet              FUJ00155422 POINQ0161616F
-  52.
-          Checking List - Audit Issue', dated 4
-          February 2009.
-          Email chain last dated 15 December
-          2008 from Penny Thomas to Graham
-  53.     Allen, David Hinde, Adam Cousins         FUJ00154833 POINQ0161028F
-          and others with subject 'Proposed
-          Slides for ARQ Service Issue'.
-          PowerPoint presentation titled
-  54.                                              FUJ00154835 POINQ0161030F
-          `Prosecution Support Urgent Issue'
-          Email chain last dated 28 August
-          2008 between Gareth Jenkins, Roy         FUJ00155241 POINQ0161435F
-  55.
-          Birkinshaw and David Johns with
-          subject `Potential Audit Issue.doc'.
-          Document titled `Potential Audit Issue
-  56.                                              FUJ00155242 POINQ0161436F
-          — Horizon'.
-          Email chain last dated 4 December
-          2008 between Penny Thomas,
-  57.                                              FUJ00155378 POINQ0161572F
-          Howard Pritchard and Peter Sewell
-          with subject 'ARQ Service problem'.
-          Email from Penny Thomas to David
-          Hinde, Graham Allen and others with
-  58.     subject `Proposed Slides for ARQ         FUJ00155385 POINQ0161579F
-          Service Issue', dated 11 December
-          2008.
-          PowerPoint presentation titled
-  59                                               FUJ00155386 POINQ0161580F
-          `Prosecution Support - Urgent Issue'.
-          Email from Penny Thomas to
-          Graham Allen, David Hinde and            FUJ00155387 POINQ0161581F
-  60.
-          others with subject 'Proposed Slides
-          for ARQ Service Issues'.
+No.
 
+Document Description
 
+URN
 
-                                   Page 17 of 18
-                                                                             WI TN09710100
-                                                                           WITNO9710100
+Control Number
 
+27.
 
+HNG-X Change Proposal No. 4867-
+dated 26 February 2009.
 
+FUJ00155478
+
+POINQ0161672F
+
+28.
+
+Email from David Hinde to George
+Zolkiewka copying Graham Allen and
+others with subject ‘Urgent - FOR
+IMPACT - HNG-X CP0336 (Release:
+HNG-X) - Enable analysis of Counter
+event messages within the HNG-X
+Audit solution’, dated 26 August
+2009.
+
+FUJ00155492
+
+POINQ0161686F
+
+29.
+
+Email from George Zolkiewka to
+RMGA Change Management and
+David Hinde with subject ‘HNG-X
+CP0336 (Release: HNG-X) - Enable
+analysis of Counter event messages
+within the HNG-X Audit solution’,
+dated 13 October 2009.
+
+FUJ00155498
+
+POINQ0161692F
+
+30.
+
+Email from David Hinde to RMGA
+Change Management, Peter Sewell
+and Penny Thomas with subject
+‘CP0336 - Enable analysis of
+Counter event messages within the
+HNG-X Audit solution’, dated 24
+March 2009.
+
+FUJ00155456
+
+POINQ0161650F
+
+31.
+
+Email chain last dated 12 August
+2008 between Penny Thomas, Alan
+Holmes, Peter Sewell and others with
+subject ‘Branch 141832 Craigpark’.
+
+FUJ00155231
+
+POINQ0161425F
+
+32.
+
+Email chain last dated 12 August
+2008 from Peter Sewell to Gareth
+Jenkins with subject ‘Branch 141832
+Craigpark’.
+
+FUJ00155232
+
+POINQ0161426F
+
+33.
+
+Email from Anne Chambers to Penny
+Thomas dated 16 September 2008
+with subject ‘Riposte Timeout waiting
+for lock events’.
+
+FUJ00155263
+
+POINQ0161457F
+
+34.
+
+Email from Alan Holmes to Peter
+Sewell, Roy Birkinshaw and Gareth
+Jenkins with subject ‘Counter Audit
+CP’, dated 13 October 2008.
+
+FUJ00155271
+
+POINQ0161465F
+
+35.
+
+HNG-X Change Proposal dated 13
+October 2008.
+
+FUJ00155272
+
+POINQ0161466F
+
+36.
+
+Email chain last dated 15 October
+2008 between Gareth Jenkins,
+Penny Thomas and others with
+subject ‘Counter Audit CP’.
+
+FUJ00155274
+
+POINQ0161468F
+
+Page 15 of 18
+WITNO9710100
+WITNO9710100
 
 Exhibit
-                Document Description                  URN      Control Number
- No.
-          PowerPoint presentation titled
-  61.     `Prosecution Support Urgent Issue        FUJ00155388 POINQ0161582F
-          slide presentation'.
-          Email from Penny Thomas to
-          Graham Allen, Adam Cousins, Steve
-  62.     Evans and others with subject 'New       FUJ00155389 POINQ0161583F
-          Witness Statement Request
-          Support', dated 16 December 2008.
-          Email from Penny Thomas to Steve
-          Evans, Graham Allen and others with
-  63.     subject 'New Witness Statement           FUJ00155391 POINQ0161585F
-          Request Support', dated 16
-          December 2008.
-          Email from Steve Denham to
-          Graham Allen, Adam Cousins, Steve
-  64.     Evans and others 'Re: Updated: ARQ       FUJ00155392 POINQ0161586F
-          Service issue - Meeting invite', dated
-          17 December 2008.
-          Excel document with filename 'New
-  65.     Witness Statement Request Support        FUJ00155390 POINQ0161584F
-          11122008No3'
-          Email from Peter Sewell to David
-          Hinde, Penny Thomas, Adam
-          Cousins, Graham Allen, Steve
-          Evans, Alan Holmes, Howard
-  66.                                              FUJ00155394 POINQ0161588F
-          Pritchard, Steve Denham with
-          subject 'Proposed slides for ARQ
-          service Issue' dated 19 December
-          2008.
-          Email from Penny Thomas to Dave
-  67.     Posnett with subject 'Security           FUJ00155399 POINQ0161593F
-          Incident', dated 7 January 2009.
-          Email from Penny Thomas to Howard
-          Pritchard, Wendy Warham and Steve
-  68.                                              FUJ00155400 POINQ0161594F
-          Denham with subject Security
-          Incident', dated 8 January 2009.
-  69.     Draft witness statement dated 2008.      FUJ00122604 POINQ0128818F
-          Email from Andy Dunks to Peter
-          Sewell with subject `Transfer of
-  70.                                              FUJ00155507 POINQ0161701F
-          information', dated 23 November
-          2009.
+No.
 
+Document Description
 
+URN
 
+Control Number
 
-                                   Page 18 of 18
-
+37.
+
+Email from Alan Holmes to Steve
+Evans, Penny Thomas, Gareth
+Jenkins and others withy subject ‘RE:
+AUDIT - CP update’, dated 20
+October 2008.
+
+FUJ00155276
+
+POINQ0161470F
+
+38.
+
+HNG-X Change Proposal dated 20
+October 2008.
+
+FUJ00154828
+
+POINQ0161023F
+
+39.
+
+Meeting invite scheduled for 24
+October 2008 with subject ‘Updated:
+Audit CP — Words’.
+
+FUJ00155278
+
+POINQ0161472F
+
+40.
+
+Email chain last dated 23 December
+2008 between Graham Allen, Steve
+Evans, Peter Sewell, Alan Holmes,
+Penny Thomas, Gareth Jenkins with
+subject ‘Audit and PC0152376’.
+
+FUJ00155397
+
+POINQ0161591F
+
+a.
+
+Email chain last dated 12 November
+2008 between Steve Evans, Penny
+Thomas, Peter Sewell and others
+with subject ‘RE: Audit Strengthening
+CP - Words for Review’.
+
+FUJ00155367
+
+POINQ0161561F
+
+42.
+
+Email from Steve Evans to Gerald
+Barnes with subject ‘Audit Issue’,
+dated 8 January 2009.
+
+FUJ00155402
+
+POINQ0161596F
+
+43.
+
+Meeting invitation scheduled for 26
+November 2008 with subject
+‘Updated: Audit Strengthening CP
+Review/Refresh’.
+
+FUJ00155371
+
+POINQ0161565F
+
+44,
+
+Email from Penny Thomas to Peter
+Sewell with subject ‘ARQ Service’,
+dated 1 December 2008.
+
+FUJ00155373
+
+POINQ0161567F
+
+45.
+
+Email from Roy Birkinshaw to Penny
+Thomas, Peter Sewell, Alan Holmes
+and others dated 5 September 2008
+with subject ‘Recent Exercise to
+review Audit in Horizon’.
+
+FUJ00155257
+
+POINQ0161451F
+
+46.
+
+Email from Penny Thomas to Peter
+Sewell dated 18 September 2008
+with subject ‘whether to check event
+errors for cases outside of advice’.
+
+FUJ00155265
+
+POINQ0161459F
+
+47.
+
+Email from Gareth Jenkins to Peter
+Sewell and Penny Thomas with
+subject ‘Checking ARQ Events’,
+dated 8 October 2008.
+
+FUJ00155268
+
+POINQ0161462F
+
+48.
+
+Email from Penny Thomas to Peter
+Sewell with subject ‘Checking ARQ
+events’ dated 13 October 2008.
+
+FUJ00155270
+
+POINQ0161464F
+
+Page 16 of 18
+WITNO9710100
+WITNO9710100
+
+Exhibit
+No.
+
+Document Description
+
+URN
+
+Control Number
+
+49.
+
+Email from Penny Thomas to Steve
+Denham, Howard Pritchard, Peter
+Sewell with subject ‘Outlet Checking
+List - Audit Issue’, dated 27 January
+2009.
+
+FUJ00155409
+
+POINQ0161603F
+
+50.
+
+Email chain last dated 3 February
+2009 between Anne Chambers,
+Penny Thomas and others with
+subject ‘Outlet Checking List - Audit
+Issue’.
+
+FUJ00155412
+
+POINQ0161606F
+
+51.
+
+Email from Penny Thomas to Steve
+Denham, Peter Sewell with subject
+‘Security Incident’, dated 4 February
+2009.
+
+FUJ00155421
+
+POINQ0161615F
+
+52.
+
+Email from Penny Thomas to Steve
+Denham with subject ‘Outlet
+Checking List - Audit Issue’, dated 4
+February 2009.
+
+FUJ00155422
+
+POINQ0161616F
+
+53.
+
+Email chain last dated 15 December
+2008 from Penny Thomas to Graham
+Allen, David Hinde, Adam Cousins
+and others with subject ‘Proposed
+Slides for ARQ Service Issue’.
+
+FUJ00154833
+
+POINQ0161028F
+
+54.
+
+PowerPoint presentation titled
+‘Prosecution Support Urgent Issue’
+
+FUJ00154835
+
+POINQ0161030F
+
+55.
+
+Email chain last dated 28 August
+2008 between Gareth Jenkins, Roy
+Birkinshaw and David Johns with
+subject ‘Potential Audit Issue.doc’.
+
+FUJ00155241
+
+POINQ0161435F
+
+56.
+
+Document titled ‘Potential Audit Issue
+— Horizon’.
+
+FUJ00155242
+
+POINQ0161436F
+
+57.
+
+Email chain last dated 4 December
+2008 between Penny Thomas,
+
+Howard Pritchard and Peter Sewell
+with subject ‘ARQ Service problem’.
+
+FUJ00155378
+
+POINQ0161572F
+
+58.
+
+Email from Penny Thomas to David
+Hinde, Graham Allen and others with
+subject ‘Proposed Slides for ARQ
+Service Issue’, dated 11 December
+2008.
+
+FUJ00155385
+
+POINQ0161579F
+
+59.
+
+PowerPoint presentation titled
+‘Prosecution Support - Urgent Issue’.
+
+FUJ00155386
+
+POINQ0161580F
+
+60.
+
+Email from Penny Thomas to
+Graham Allen, David Hinde and
+others with subject ‘Proposed Slides
+for ARQ Service Issues’.
+
+FUJ00155387
+
+POINQ0161581F
+
+Page 17 of 18
+WITNO9710100
+WITNO9710100
+
+Exhibit
+No.
+
+Document Description
+
+URN
+
+Control Number
+
+61.
+
+PowerPoint presentation titled
+‘Prosecution Support Urgent Issue
+slide presentation’.
+
+FUJ00155388
+
+POINQ0161582F
+
+62.
+
+Email from Penny Thomas to
+Graham Allen, Adam Cousins, Steve
+Evans and others with subject ‘New
+Witness Statement Request
+Support’, dated 16 December 2008.
+
+FUJ00155389
+
+POINQ0161583F
+
+63.
+
+Email from Penny Thomas to Steve
+Evans, Graham Allen and others with
+subject ‘New Witness Statement
+Request Support’, dated 16
+December 2008.
+
+FUJ00155391
+
+POINQ0161585F
+
+64.
+
+Email from Steve Denham to
+Graham Allen, Adam Cousins, Steve
+Evans and others ‘Re: Updated: ARQ
+Service issue - Meeting invite’, dated
+17 December 2008.
+
+FUJ00155392
+
+POINQ0161586F
+
+65.
+
+Excel document with filename ‘New
+Witness Statement Request Support
+11122008No3’
+
+FUJ00155390
+
+POINQ0161584F
+
+66.
+
+Email from Peter Sewell to David
+Hinde, Penny Thomas, Adam
+Cousins, Graham Allen, Steve
+Evans, Alan Holmes, Howard
+Pritchard, Steve Denham with
+subject ‘Proposed slides for ARQ
+service Issue’ dated 19 December
+2008.
+
+FUJ00155394
+
+POINQ0161588F
+
+67.
+
+Email from Penny Thomas to Dave
+Posnett with subject ‘Security
+Incident’, dated 7 January 2009.
+
+FUJ00155399
+
+POINQ0161593F
+
+68.
+
+Email from Penny Thomas to Howard
+Pritchard, Wendy Warham and Steve
+Denham with subject ‘Security
+Incident’, dated 8 January 2009.
+
+FUJ00155400
+
+POINQ0161594F
+
+69.
+
+Draft witness statement dated 2008.
+
+FUJ00122604
+
+POINQ0128818F
+
+70.
+
+Email from Andy Dunks to Peter
+Sewell with subject ‘Transfer of
+information’, dated 23 November
+2009.
+
+FUJ00155507
+
+POINQ0161701F
+
+Page 18 of 18

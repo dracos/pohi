@@ -1,702 +1,508 @@
-                                                                                                     POL00073838
-                                                                                                   POL00073838
-
-
-
-                                                        Filed on behalf of the:        Cla':mant
-                                                                     Witness:     Ann Chambers
-                                                                   Statement:                 1
-                                                                     Exhibits:            "AC1"
-                                                                  Date made:             8/8/06
-
-
-
-IN THE HIGH COURT OF JUSTICE                                         Claim No. HQ05X02706
+Filed on behalf of the: Claimant
+Witness: Ann Chambers
+Statement: 1
+Exhibits: "act"
+Date made: 8/8/06
+IN THE HIGH COURT OF JUSTICE Claim No. HQO5X02706
 QUEENS BENCH DIVISION
+BETWEEN:
+POST OFFICE LIMITED Claimant/Part 20
+Defendant
+- and -
+LEE CASTLETON Defendant/Part
+20 Claimant
 
-
-           ►'A
-
-
-
-
-                                POST OFFICE LIMITED                       Claimant/Part 20
-                                                                                Defendant
-                                       - and -
-                                   LEE CASTLETON                            Defendant/Part
-                                                                               20 Claimant
-
-
-
-
-                      WITNESS STATEMENT OF ANN CHAMBERS
-
-
-
+WITNESS STATEMENT OF ANN CHAMBERS
 
 I, ANN CHAMBERS of Fujitsu Services, Lovelace Road, Bracknell, Berkshire, RG12
 8SN WILL SAY AS FOLLOWS:
 
+1.
 
-1.   I am a [insert job title] employed by Fujitsu.     I have worked for Fujitsu since
-     [insert date].      I am responsible for [insert                     I have a working
-                                                         details].
+I am a [insert job title] employed by Fujitsu. I have worked for Fujitsu since
+[insert date]. 1 am responsible for [insert details]. 1 have a working
+knowledge of the computer system known as Horizon, which is a computerised
+accounting system used by Post Office Limited (Post Office). I am authorised by
+Fujitsu Services to undertake extractions of audit data held on the Horizon system
+and to obtain information regarding system transaction information processed on
+the Horizon system.
 
+I make this Witness Statement from facts within my own knowledge unless
+otherwise stated. References to page numbers in this Witness Statement are to
+page numbers of Exhibit “AC1” to this Witness Statement.
 
+Any records to which I refer in my statement form part of the records relating to
+the business of Fujitsu Services. These were compiled during the ordinary course
+of business from information supplied by persons who have or may reasonably be
+supposed to have personal knowledge of the matter dealt with in the information
 
+1A_1194765_1 1
 
-     knowledge of the computer system known           Horizon, which is a computerised
-                                                 as
-
-
-
-
-     accounting system used by Post Office Limited (Post Office). I am authorised by
-     Fujitsu Services to undertake extractions of audit data held on the Horizon system
-     and to obtain information regarding system transaction information processed on
-     the Horizon system,
-
-
-2.   I make this Witness Statement from facts within my own knowledge unless
-     otherwise stated.   References to page numbers in this Witness Statement are to
-     page numbers of Exhibit "AC1" to this Witness Statement.
-
-
-3.   Any records to which I refer in my statement form part of the records relating to
-     the business of Fujitsu Services. These were compiled during the ordinary course
-     of business from information supplied by persons who have or may reasonably be
-     supposed to have personal knowledge of the matter dealt with in the information
-
-
-
-
-1A_1194765_1                               1
-                                                                                              POL00073838
-                                                                                            POL00073838
-
-
-
-
-     supplied, but are unlikely to have any recollection of the information or cannot be
-     traced. As part of my duties, I have access to these records.
-
+POL00073838
+POL00073838
+supplied, but are unlikely to have any recollection of the information or cannot be
+traced. As part of my duties, I have access to these records.
 
 Horizon System Helpdesk and National Business Support Centre
 
+4.
 
-4.   An important element of the support provided to subpostmasters and Counter
-     Clerks is the Horizon System Helpdesk (HSH). The HSH is the Horizon user's first
-     'port of call' in the event of their experiencing a problem with the Horizon system
-     or requiring advice and guidance. If the system were to malfunction, upon
-     discovery Horizon users (Post Master, Counter Clerk) would raise a call to the HSH
-     seeking clarification or advice. Comprehensive processes and procedures exist to
-     manage the receipt, analysis and final disposition of calls made to the HSH. All
-     calls to the HSH are captured by the Audit Server and stored as part of the overall
-     Audit Trail . HSH is a service run by Fujitsu for the Post Office.
+An important element of the support provided to subpostmasters and Counter
+Clerks is the Horizon System Helpdesk (HSH). The HSH is the Horizon user’s first
+‘port of call’ in the event of their experiencing a problem with the Horizon system
+or requiring advice and guidance. If the system were to malfunction, upon
+discovery Horizon users (Post Master, Counter Clerk) would raise a call to the HSH
+seeking clarification or advice. Comprehensive processes and procedures exist to
+manage the receipt, analysis and final disposition of calls made to the HSH. All
+calls to the HSH are captured by the Audit Server and stored as part of the overall
+Audit Trail. HSH is a service run by Fujitsu for the Post Office.
 
+The Post Office also provides a service to subpostmasters and Counter Clerks
+called the National Business Support Centre (NBSC). This has a helpline which
+subpostmasters can call to try to resolve any business related queries.
 
-5.   The Post Office also provides a service to subpostmasters and Counter Clerks
-     called the National Business Support Centre (NBSC). This has a helpline which
-     subpostmasters can call to try to resolve any business related queries.
-
-
-6.   I have been asked to provide details and confirmation on the reports that monitor
-     faults, polling failures, equipment failures and calls for advice and guidance
-     logged by the Horizon System Helpdesk recorded during the period December
-     2003 to April 2004 for the Marine Drive branch - FAD Code 213337.
-
+I have been asked to provide details and confirmation on the reports that monitor
+faults, polling failures, equipment failures and calls for advice and guidance
+logged by the Horizon System Helpdesk recorded during the period December
+2003 to April 2004 for the Marine Drive branch - FAD Code 213337.
 
 Tivoli Event Logs
 
-
-7.   Horizon operates under the Microsoft Windows NT operating system. In this
-     operating system        event is any significant occurrence in the system or in an
-                        an
-
-
-
-
-     application that requires users to be notified. For critical events such as a server
-     breakdown or an interrupted power supply, there may be an Alert message on a
-     control screen. For many other events that do not require immediate attention,
-     this operating system adds information to an event-log file to provide information
-     without disturbing normal work. This event logging service starts automatically
-     each time a computer running Windows NT is started. In the Horizon system
-     these events are collected by the Tivoli Event Monitor and are captured by the
-     Audit Server and stored as part of the overall Audit Trail.
-
-
+Horizon operates under the Microsoft Windows NT operating system. In this
+operating system an event is any significant occurrence in the system or in an
+application that requires users to be notified. For critical events such as a server
+breakdown or an interrupted power supply, there may be an Alert message on a
+control screen. For many other events that do not require immediate attention,
+this operating system adds information to an event-log file to provide information
+without disturbing normal work. This event logging service starts automatically
+each time a computer running Windows NT is started. In the Horizon system
+these events are collected by the Tivoli Event Monitor and are captured by the
+Audit Server and stored as part of the overall Audit Trail.
 
 Non Polling Reports
 
+8.
 
+A daily report is produced that lists those branches that have not polled for 24
+hours, and the number of days they have been ‘out of contact’. Polling : Branches
 
-8.   A daily report is produced that lists those branches that have not polled for 24
-     hours, and the number of days they have been 'out of contact'. Polling : Branches
+1A_1194765_1 2
 
-
-
-
-IA_1194765_1                                 2
-                                                                                                               POL00073838
-                                                                                                             POL00073838
-
-
-
-
-     are `contacted' periodically by the Correspondence Layer (where all transactions
-     for all branches are stored prior to despatch to other systems) to deposit and
-     collect information pertinent to that branch. This reduces the telephony costs
-     incurred were branches to be permanently connected to the Correspondence
-     Layer. Branches can operate in a disconnected state for up to 27 days.
-
-
+POL00073838
+POL00073838
+are ‘contacted’ periodically by the Correspondence Layer (where all transactions
+for all branches are stored prior to despatch to other systems) to deposit and
+collect information pertinent to that branch. This reduces the telephony costs
+incurred were branches to be permanently connected to the Correspondence
+Layer. Branches can operate in a disconnected state for up to 27 days.
 
 HSH Call Logs
 
+10.
 
+11.
 
-9.   The Tivoli Event Logs and Non Polling Reports for the period December 2003 to
-     April 2004 are contained in the call logs at pages [ I.                      [Ann is this correct, or
-     are these different from the attached logs?]                     Details of the calls and an
-     overview of them is set out in date order below:
+12.
 
+13.
 
+The Tivoli Event Logs and Non Polling Reports for the period December 2003 to
+April 2004 are contained in the call logs at pages[]. [Ann is this correct, or
+are these different from the attached logs?] Details of the calls and an
+overview of them is set out in date order below:
 
-10. 9    December 2003, 9.54am, call                reference                                    The sub-
+9 December 2003, 9.54am, call reference e-0312090261 The sub-
+postmaster had a power blip following which, the keyboard was not accepting the
+PMMC card, which is used by sub-postmasters to log onto their terminal. The Post
+Master was advised to reboot his terminal. He rebooted, inserted his PMMC/pin
+and was happy to continue. The call was then closed.
 
+20 January 2004, 2.05pm, call reference e-0401200574 - this is a log
+simply to record that there was an ASDL update from ISDN [please explain
+what ASDL and ISDN stand for]. This was a scheduled visit to the Marine
+Drive branch to install broadband. The upgrade was completed, but the
+broadband was not turned on at that time.
 
+28 January 2004, 11.13am, call reference e-0401280325 - the call was
+taken by Dane Meah at HSH from the caller who stated that there were
+discrepancies going through the system for three weeks in a row. The caller was
+advised that the problem would need to be thoroughly investigated by the
+National Business Support Centre (NBSC) before the issue could be investigated
+because a software problem and the caller was transferred to the NBSC and the
+call closed.
 
+29 January 2004, 10.26am, call reference e-04012903568 - a call was
+taken by Mary Rainbow at HSH. The sub-postmaster reported that he was having
+problems on his system connected to remittances (REMs). The Sub-postmaster
+has to enter a remittance when he receives a delivery of new stock. He stated
+that every time he entered in the new stock, it left him with a discrepancy. The
 
-                                                                   e-0312090261
-     postmaster had a power blip following which, the keyboard was not accepting the
-     PMMC card, which is used by sub postmasters to               onto their terminal . The Post
-                                                            log
+1A_1194765_1 3
 
+POL00073838
+POL00073838
+14,
 
+15.
 
+16.
 
-     Master was advised to reboot his terminal. He rebooted, inserted his PMMC/pin
-     and was happy to continue. The call was then closed.
+17.
 
+18.
 
+Sub Post master was transferred to the NBSC, since this was a business issue and
+the call was closed.
 
-11. 20 January 2004, 2.05pm, call reference e-0401200574 - this is a log
-     simply to record that there was an ASDL update from ISDN [please explain
-     what ASDL and ISDN stand                      This was a scheduled visit to the Marine
-                                       for].
+2 February 2004, 8.49am, call reference e-0402020111 - Ben Horseman at
+HSH took a call from Cath at NBSC who stated that terminal (node) 2 had failed
+to initialise and that he also has “operational integrity violation has been
+detected” and “unable to connect to the repost service”. The Post Master was
+advised that he would be called back whilst the counter is reviewed.
 
+Both counters had been upgraded with ADSL (Broadband). The Sub-postmaster
+called back at 9.18am and was advised to reboot. It was recommended that an
+engineer swap or adjust the base unit on terminal 2. At approximately 3.30am,
+the PCs do a refresh [what does this mean?] and occasionally this can cause an
+installation failure. An un-operational integrity violation points to a refresh not
+starting up properly. An engineer was sent out to sort out the base unit and
+node. The engineer arrived on site at 1.30pm, replaced the node and the call was
+closed.
 
+13 February 2004, 10.41am, call reference e-0402130261 - call was taken
+by John Lockyear at HSH. The sub-postmaster had stated that he had a rem
+issue and this was referred to NBSC. The call was then closed.
 
+13 February 2004, 10.46am, call reference e-0402130267 - this call was
+taken by Tony Law at HSH, referred from Marie at NBSC. The sub-postmaster
+had stated that his system was doubling up cash declarations and cutting off
+cheques, yet they still apparently appeared the next day. NBSC advised that they
+had checked that he was cutting everything off properly and that the catch figures
+were being done correctly. The sub-postmaster had insisted on a system check
+being carried out. He said that the problem had been happening for five weeks
+and that every time stock had been remmed in, they had a loss that night. The
+sun-postmaster also stated that the cheques he had recorded on the 10" were
+showing on the 11" February as well.
 
-     Drive branch to install_; broadband.           The upgrade was completed, but the
-     broadband was not turned on at that time.
+The call was escalated to Heather Dryden at HSH. As a sub-postmaster is
+supposed to send cheques to the EDS Processing Centre each evening, the next
+day you would expect to see the cheque figures cleared to zero on the Horizon
+system. The sub-postmaster, initially stated that this had happened more than
+once, but when Heather went through his cheques, it had happened just the once.
+It appears that the sub-postmaster forgot to cut off and the cheque listing had
 
+1A_1194765_1 4
 
+POL00073838
+POL00073838
+POL00073838
+POL00073838
 
-12. 28 January 2004, '11.13am, call reference e-0401280325 - the call was
-     taken by Dane Meah at HSH from the caller who stated that there were
-     discrepancies going through the system for three weeks in a row. The caller was
-     advised that the problem would need to be thoroughly investigated by the
-     National Business Support Centre (NBSC) before the issue could be investigated
-     because a software problem and the caller was transferred to the NBSC and the
-     call closed.
-
-
-
-13. 29 January 2004, 10.26am, call reference e-04012903568 - a call was
-     taken by Mary Rainbow at HSH. The sub-postmaster reported that he was having
-     problems on his system connected to remittances (REMs). The Sub-postmaster
-     has to enter a remittance when he receives a delivery of new stock.                         He stated
-     that every time he entered in the new stock, it left him with a discrepancy. The
-
-
-
-
-1A_1194765_1                                   3
-                                                                                               POL00073838
-                                                                                             POL00073838
-
-
-
-
-     Sub Post master was transferred to the NBSC, since this was a business issue and
-     the call was closed.
-
-
-
-14. 2 February 2004, 8.49am, call reference e-0402020111 - Ben Horseman at
-     HSH took a call from Cath at NBSC who stated that terminal (node) 2 had failed
-     to initialise and that he also has "operational integrity violation has been
-     detected" and "unable to connect to the repost service". The Post Master was
-     advised that he would be called back whilst the counter is reviewed.
-
-
-
-15. Both counters had been upgraded with ADSL (Broadband). The Sub-postmaster
-     called back at 9.18am and was advised to reboot. It was recommended that an
-     engineer swap or adjust the base unit on terminal 2. At approximately 3.30am,
-     the PCs do a refresh [what does this mean?] and occasionally this can cause an
-     installation failure.   An un-operational integrity violation points to a refresh not
-     starting up properly.      An engineer was sent out to sort out the base unit and
-     node. The engineer arrived on site at 1.30pm, replaced the node and the call was
-     closed.
-
-
-
-16. 13 February 2004, 10.41am, call reference e-0402130261 - call was taken
-     by John Lockyear at HSH.        The sub-postmaster had stated that he had a rem
-     issue and this was referred to NBSC. The call was then closed.
-
-
-
-17. 13 February 2004, 10.46am, call reference e-0402130267 - this call was
-     taken by Tony Law at HSH, referred from Marie at NBSC. The sub-postmaster
-     had stated that his system was doubling up cash declarations and cutting off
-     cheques, yet they still apparently appeared the next day. NBSC advised that they
-     had checked that he was cutting everything off properly and that the catch figures
-     were being done correctly. The sub-postmaster had insisted on a system check
-     being carried out.      He said that the problem had been happening for five weeks
-     and that every time stock had been remmed in, they had a loss that night. The
-     sun -postmaster also stated that the cheques he had recorded on the 10 ,11 were
-     showing on the 11u1 February as well .
-
-
-
-18. The call was escalated to Heather Dryden at HSH.             As a sub-postmaster is
-     supposed to send cheques to the EDS Processing Centre each evening, the next
-     day you would expect to see the cheque figures cleared to zero on the Horizon
-     system. The sub-postmaster, initially stated that this had happened more than
-     once, but when Heather went through his cheques, it had happened just the once.
-     It appears that the sub-postmaster forgot to cut off and the cheque listing had
-
-
-
-
-1A_1194765_1                                  4
-                                                                                                             POL00073838
-                                                                                                           POL00073838
-
-
-
-
-     two days worth of cheques in it. There is no option to cut off retrospectively ie if
-     the sub-postmaster reveals that he has not cut off the previous days cheques,
-     they will show up the next day and a failure to cut off previously cannot be
-     corrected later. However, the point is that the system will not put the cheques in
-     the balance and process them twice.          It will reconcile each cheque against the
-     transaction.
-
-
+two days worth of cheques in it. There is no option to cut off retrospectively ie if
+the sub-postmaster reveals that he has not cut off the previous days cheques,
+they will show up the next day and a failure to cut off previously cannot be
+corrected later. However, the point is that the system will not put the cheques in
+the balance and process them twice. It will reconcile each cheque against the
+transaction.
 
 19. 16 February 2004, 8.32am, call reference e-0402160081 - David Lawrence
-     at HSH took a call from Marie at NBSC. The sub-postmaster had called NBSC to
-     state that both his terminals were at Post Office Log On (POLO), but were
-     rebooting ok subsequently. The call was therefore closed.
+at HSH took a call from Marie at NBSC. The sub-postmaster had called NBSC to
+state that both his terminals were at Post Office Log On (POLO), but were
+rebooting ok subsequently. The call was therefore closed.
 
+20. 16 February 2004, 11.12am, call reference e-0402160628 - Tony Law took
+a call from Pat at NBSC. The sub-postmaster had stated that he needed an OBCS
+check. This is the bar code reader that each sub-postmaster has at their terminal
+and was used for pension books. The OBCS was checked and the results given
+[do we know what the result was?]. The call was then closed.
 
-
-20. 16 February 2004, ii.12am, call reference                                          - Tony Law took
-
-
-
-
-                                                                       e-0402160628
-     a call from Pat at NBSC. The sub postmaster had stated that he needed an OBCS
-     check. This is the bar code reader that each sub postmaster has at their terminal
-     and was used for pension books. The OBCS was checked and the results given
-     [do we know what the result was?]. The call was then closed.
-
-
-
-21. 25 February 2004, 11.03am, call reference                                         - A call was taken
-                                                        e-0402250454
-
-
-
-
-     by Mary Rainbow. The clerk reported that they had been having problems on the
-     system with balancing that week, which seemed to be related to stock being
-     remmed in through the week. The clerk reported that over the past 7 weeks,
-     they have had losses every week and at one point they had a problem with cash
-     on hand, but they found that this was an issue with ID numbers that had been
-     resolved. The           also reported that last week when they rolled over they put a
-                     clerk
-
-
-
-
-     loss into the suspense account and then took the computer terminal back to the
-     trial balance which came out with a zero net discrepancy to start the new week
-     with. The clerk reported that she had printed out a balance snapshot on Monday
-     and that looked OK, but since then they had remmed in some stock which
-     appears to have given them a loss.
-
-
+21. 25 February 2004, 11.03am, call reference e-0402250454 - A call was taken
+by Mary Rainbow. The clerk reported that they had been having problems on the
+system with balancing that week, which seemed to be related to stock being
+remmed in through the week. The clerk reported that over the past 7 weeks,
+they have had losses every week and at one point they had a problem with cash
+on hand, but they found that this was an issue with ID numbers that had been
+resolved. The clerk also reported that last week when they rolled over they put a
+loss into the suspense account and then took the computer terminal back to the
+trial balance which came out with a zero net discrepancy to start the new week
+with. The clerk reported that she had printed out a balance snapshot on Monday
+and that looked OK, but since then they had remmed in some stock which
+appears to have given them a loss.
 
 22. The clerk was advised that she would need to check her stock position for last
-     week and then check her reins in summary. This would show the stock that she
-     should be holding and that figure could be compared with the stock showing in
-     the adjust stock [what does this mean?] and this would highlight any problems
-     with the stock on hand. The clerk was advised that we would need her to take
-     her computer terminal to trial balance this evening and come back to us before
-     she rolls over so that we can take down any details she can give us. The clerk
-     confirmed that they are working on a shared stock unit and would call back if
+week and then check her rems in summary. This would show the stock that she
+should be holding and that figure could be compared with the stock showing in
+the adjust stock [what does this mean?] and this would highlight any problems
+with the stock on hand. The clerk was advised that we would need her to take
+her computer terminal to trial balance this evening and come back to us before
+she rolls over so that we can take down any details she can give us. The clerk
+confirmed that they are working on a shared stock unit and would call back if
 
+1A_1194765_1 5
+POL00073838
+POL00073838
 
-
-
-IA_1194765_1                                  5
-                                                                                               POL00073838
-                                                                                             POL00073838
-
-
-
-
-     further assistance was required.         The balance sheet would show the old
-     discrepancy until they can do a trial balance. The call was then closed.
-
-
+further assistance was required. The balance sheet would show the old
+discrepancy until they can do a trial balance. The call was then closed.
 
 23. 25 February 2004, 12.03pm, call reference e-0402250553 - a call was taken
-     by Robert Congerton. [Is he at the NBSC?]. The clerk had told the NBSC she
-     had problems regarding the balance. The NBSC were advised that HSH had told
-     the PM to call back tonight when they had a net discrepancy on the cash account.
-     The call was then closed.
-
-
+by Robert Congerton. [Is he at the NBSC?]. The clerk had told the NBSC she
+had problems regarding the balance. The NBSC were advised that HSH had told
+the PM to call back tonight when they had a net discrepancy on the cash account.
+The call was then closed.
 
 24. 25 February 2004, 12.12pm, call reference e-0402250565 - Call was taken
-     by Nicola Goodson at HSH. Jane at the NBSC had a call In relation to a call that
-     had been closed.
-
-
+by Nicola Goodson at HSH. Jane at the NBSC had a call in relation to a call that
+had been closed.
 
 25. 25 February 2004, 4.56pm, call reference e-0402251011- Call was taken by
-     Niall Vincent, because a critical event was seen stating "error message. An error
-     has occurred = see the audit log".        This call was not generated by the sub-
-     postmaster calling the help desk, but by the System Management Centre (SMC)
-     which automatically triggers a call when there is an unusual event. The call was
-     referred to the SSC [what does that stand for?],           the SMC closed their call.
-                                                           so
-
-
-
-
-26. 25 February 2004, 5.33pm, call reference e-0402251077 - Call was taken
-     by Kuljinder Bhachu at HSH. The sub-postmaster reported that the branch was
-     getting, large discrepancies for the past few weeks.           The closed calls were
-     reviewed and it was noted that a number of calls had been logged regarding
-     discrepancies and that the NBSC had been in contact with the sub-postmaster
-     could not find any user error. Kuljinder spoke to Sandra at NBSC. They checked
-     the            events and the system appeared to be OK. Given that a critical event
-           Tivoli
-
-
-
-
-     had been noted earlier that day, the event logs were downloaded for review. The
-     sub-postmaster advised that the problem had started ever since the BT engineer
-     came to move the BT box for preparation for the installation of the ADSL.
-     Kuljinder recommended that SSC investigate why the sub-postmaster is
-     experiencing large discrepancies. A known error log (KEL) reference was given
-     and the problem was re-assigned within HSH to group EDSC1 [what does this
-     stand for?].
-
-
-
-      At this point I investigated the matter. The critical event earlier that day was
-     part of a storm ie       a central problem causing lots of event storms which had
-     occurred over the entire Horizon system that night as a result of a faulty software
-     fix. The KEL had nothing to do with the discrepancies.
-
-
-
-
-IA_1194765_1                                  6
-                                                                                            POL00073838
-                                                                                          POL00073838
-
-
-
-
-27. Various built in checks occur at the end of each day. For example, the gate way
-     terminal will total all the transactions. The gate way terminal will only send in
-      information from these built in checks, once all the terminals in the branch have
-     communicated with it.      Reports are only produced if there are discrepancies. A
-     weekly cash account is produced and sent to the data centre.          The gate way
-     terminal will do daily cash accounts. This is summarised weekly and compared to
-     the weekly branch cash account to check for discrepancies. The data centre also
-      produces a weekly cash account which is compared to the branch weekly cash
-     accounts. There are therefore effectively three weekly cash accounts:
-
-     a)     The branch weekly cash accounts;
-
-     b)     The branch daily accounts, which is accumulated at the weekend; and
-
-     c)     The data centre weekly cash account.
-
-
-
-28. I checked the discrepancies between these three accounts and found none.
-     Cheques were handled correctly (as far as the system was concerned). I also
-     checked the rems were correct which they were apart from one day when the
-     sub-postmaster forgot to cut off the cheques. I also noticed that occasionally the
-     sub-postmaster's identification declaration number was used incorrectly. For
-     example if a sub-postmaster uses number 01 and enters £10,000 and then
-     changes their number and uses 11 to record it elsewhere, the system will think
-     that the branch has £20,000 whereas it only has £10,000. The clerks used 2
-     declaration numbers for daily cash handling, but this would not affect the weekly
-     balance. I went through°the transactions day by day and compared them with the
-            night declarations. I expected to find:
-     over
-
-
-
-
-     a)     Starting cash position;
-
-     b)     Transaction; and
-
-     c)     A system cash figure which should be close to the actual cash holding.
-
-
-
-29. I was surprised to discover that at the end of the day, the cash the branch
-     declared in the drawer was tens, hundreds or thousands of pounds stray from
-     what they had recorded on the system. This meant that it was possible that the
-     sub-postmaster was not accurately recording all transactions on the system,
-     although if that had been the case, an error notice or error notices would have
-     been generated to explain the discrepancy.
-
-
-
-30. There was no evidence whatsoever of any system problem. I therefore asked
-      HSH to revert to the sub-postmaster and explain that we have investigated and
-
-
-
-
-1A_1194765_1                                  7
-                                                                                            POL00073838
-                                                                                          POL00073838
-
-
-
-
-     the discrepancies are caused by the difference between the transactions they
-     have recorded on the system and the cash they have declared and are not being
-     caused by the software or hardware.
-
-
-
-31. 4 March 2004, 8.42am, call reference e-0403040165 - A call was taken by
-     Hayley Minnis, a HSH retail line manager. The caller reported discrepancies in the
-     office and was advised to speak to NBSC about this, since it was not a HSH issue.
-     The call was then closed.
-
-
-
-32. 4 March 2004, 11.28am, call reference e-0403040524- A call was taken by
-     Elspeth Neilson. The sub-postmaster's line manager stated that the sub-
-     postmaster was getting large discrepancies. They were advised that the
-     discrepancies are caused by the difference between the transactions they have
-     recorded on the system and the cash they have declared and are not being
-     caused by the software or hardware. The cats was then closed.
-
-
-
-33. 23 March 2004, 11.44pm, call reference e-0403230583 - Call was taken by
-     Jacqueline Wilcock at HSH. The auditor wanted to know when the base unit had
-     been exchanged at the Marine Drive branch. They were advised that it was
-     exchanged on 2 February 2004. The call was then closed.
-
-
-
-34. 23 March 2004, 2.20pm, call reference e-0403230628 - Call was taken by
-     David Dawe at HSH. Brett from the NBSC asked for a One Shot Password (OSP)
-     for the auditor. An OSP is issued so that the auditor can log on to the sub-
-     postmaster's system. An OSP was given and the call was closed.
-
-
-
-35. 1 April 2004, 12.45pm, call reference e-0404010718 - A call was taken by
-     Adam Goldstein at HSH. The new sub-postmaster stated that the screen had
-     frozen. A check was carried out which showed the events were normal [what
-     does this mean?] and the sub-postmaster was advised to reboot. The call was
-     then closed.
-
-
-
-36. 19 April 2004, 9.57am, call reference e-0404190387 - A call was taken by
-     Elspeth Neilson at HSH. The Retail Line Manager (RLM) stated that there had
-     been discrepancies on the system since the base unit was swapped in February
-     and wanted to know why. The RLM was advised that events appeared to be
-     normal and that a health check had been passed. The sub-postmaster was happy
-     to continue unassisted. The RLM stated that the new sub-postmaster had been in
-
-
-
-
-1A_1194765_1                               8
-                                                                                                                      POL00073838
-                                                                                                                    POL00073838
-
-
-
-
-       the office and there had not been any discrepancies in the balance. The RLM was
-       advised to contact NBSC for advice on balancing. The call was closed.
-
-
-
-37. 21 April 2004, 9.10am, call reference e-0404210187 - A call was taken by
-        David Dawe. The sub-postmaster stated that the gateway was saying to enter the
-        PMMC and that the screen had been blue for 10 minutes. The sub-postmaster had
-       to wait for the screen to clear. The sub-postmaster was told to wait for 20
-       minutes and as that screen was normal and the sub-postmaster was told to call
-       back if this had not changed within the next 20 minutes. The call was then
-       closed.
-
-
-
-38. 21 April 2004, 1.32pm, call reference e-0404210701 - A call was taken from
-        Bernard Michael at SMC. This was an SMC call                              related to a software upgrade.
-
-
-
-
-                                                                     and
-       It was when ADSL (broadband), that had been installed in 20 January 2004, was
-       actually switched on. The call was then closed once the switch over to ADSL had
-       been successful.
-
-
-
-39. 23 April 2004, 3pm, call reference e-0404230660 - A call was taken by
-       Jason Lockyear. The sub-postmaster wanted to                                 if he could get a list of his
-                                                                           know
-
-
-
-
-       calls and of software. The sub-postmaster was advised to contact NBSC for a full
-       list and the call                  then
-                                   was
-
-
-
-
-                                                   closed.
-
-
-
+Niall Vincent, because a critical event was seen stating “error message. An error
+has occurred = see the audit log”. This call was not generated by the sub-
+postmaster calling the help desk, but by the System Management Centre (SMC)
+which automatically triggers a call when there is an unusual event. The call was
+referred to the SSC [what does that stand for?}, so the SMC closed their call.
+
+26, 25 February 2004, 5.33pm, call reference e-0402251077 - Call was taken
+by Kuljinder Bhachu at HSH. The sub-postmaster reported that the branch was
+getting large discrepancies for the past few weeks. The closed calls were
+reviewed and it was noted that a number of calls had been logged regarding
+discrepancies and that the NBSC had been in contact with the sub-postmaster
+could not find any user error. Kuljinder spoke to Sandra at NBSC. They checked
+the Tivoli events and the system appeared to be OK. Given that a critical event
+had been noted earlier that day, the event logs were downloaded for review. The
+sub-postmaster advised that the problem had started ever since the BT engineer
+came to move the BT box for preparation for the installation of the ADSL.
+Kuljinder recommended that SSC investigate why the sub-postmaster is
+experiencing large discrepancies. A known error log (KEL) reference was given
+and the problem was re-assigned within HSH to group EDSC1 [what does this
+stand for?].
+
+At this point I investigated the matter. The critical event earlier that day was
+part of a storm ie a central problem causing lots of event storms which had
+occurred over the entire Horizon system that night as a result of a faulty software
+fix. The KEL had nothing to do with the discrepancies.
+
+1A_1194765_1 6
+27.
+
+28.
+
+29.
+
+30.
+
+Various built in checks occur at the end of each day. For example, the gate way
+terminal will total all the transactions. The gate way terminal will only send in
+information from these built in checks, once all the terminals in the branch have
+communicated with it. Reports are only produced if there are discrepancies. A
+weekly cash account is produced and sent to the data centre. The gate way
+terminal will do daily cash accounts. This is summarised weekly and compared to
+the weekly branch cash account to check for discrepancies. The data centre also
+produces a weekly cash account which is compared to the branch weekly cash
+accounts. There are therefore effectively three weekly cash accounts:
+
+a) The branch weekly cash accounts;
+b) The branch daily accounts, which is accumulated at the weekend; and
+
+c) The data centre weekly cash account.
+
+I checked the discrepancies between these three accounts and found none.
+Cheques were handled correctly (as far as the system was concerned). I also
+checked the rems were correct which they were apart from one day when the
+sub-postmaster forgot to cut off the cheques. I also noticed that occasionally the
+sub-postmaster’s identification declaration number was used incorrectly. For
+example if a sub-postmaster uses number 01 and enters £10,000 and then
+changes their number and uses 11 to record it elsewhere, the system will think
+that the branch has £20,000 whereas it only has £10,000. The clerks used 2
+declaration numbers for daily cash handling, but this would not affect the weekly
+balance. I went through the transactions day by day and compared them with the
+over night declarations. I expected to find:
+
+a) Starting cash position;
+b) Transaction; and
+
+c) Asystem cash figure which should be close to the actual cash holding.
+
+I was surprised to discover that at the end of the day, the cash the branch
+declared in the drawer was tens, hundreds or thousands of pounds stray from
+what they had recorded on the system. This meant that it was possible that the
+sub-postmaster was not accurately recording all transactions on the system,
+although if that had been the case, an error notice or error notices would have
+been generated to explain the discrepancy.
+
+There was no evidence whatsoever of any system problem. I therefore asked
+HSH to revert to the sub-postmaster and explain that we have investigated and
+
+1A_1194765_1 7
+
+POL00073838
+POL00073838
+31.
+
+32.
+
+33.
+
+34,
+
+35,
+
+36.
+
+POL00073838
+POL00073838
+
+the discrepancies are caused by the difference between the transactions they
+have recorded on the system and the cash they have declared and are not being
+caused by the software or hardware.
+
+4 March 2004, 8.42am, call reference e-0403040165 - A call was taken by
+Hayley Minnis, a HSH retail line manager. The caller reported discrepancies in the
+office and was advised to speak to NBSC about this, since it was not a HSH issue.
+The call was then closed.
+
+4 March 2004, 11.28am, call reference e-0403040524- A call was taken by
+Elspeth Neilson. The sub-postmaster’s line manager stated that the sub-
+postmaster was getting large discrepancies. They were advised that the
+discrepancies are caused by the difference between the transactions they have
+recorded on the system and the cash they have declared and are not being
+caused by the software or hardware. The call was then closed.
+
+23 March 2004, 11.44pm, call reference e-0403230583 - Call was taken by
+Jacqueline Wilcock at HSH. The auditor wanted to know when the base unit had
+been exchanged at the Marine Drive branch. They were advised that it was
+exchanged on 2 February 2004. The call was then closed.
+
+23 March 2004, 2.20pm, call reference e-0403230628 - Call was taken by
+David Dawe at HSH. Brett from the NBSC asked for a One Shot Password (OSP)
+for the auditor. An OSP is issued so that the auditor can log on to the sub-
+postmaster’s system. An OSP was given and the call was closed.
+
+1 April 2004, 12.45pm, call reference e-0404010718 - A call was taken by
+Adam Goldstein at HSH. The new sub-postmaster stated that the screen had
+frozen. A check was carried out which showed the events were normal [what
+does this mean?] and the sub-postmaster was advised to reboot. The call was
+then closed.
+
+19 April 2004, 9.57am, call reference e-0404190387 - A call was taken by
+Elspeth Neilson at HSH. The Retail Line Manager (RLM) stated that there had
+been discrepancies on the system since the base unit was swapped in February
+and wanted to know why. The RLM was advised that events appeared to be
+normal and that a health check had been passed. The sub-postmaster was happy
+to continue unassisted. The RLM stated that the new sub-postmaster had been in
+
+1A_1194765_1 8
+37.
+
+38.
+
+39.
+
+the office and there had not been any discrepancies in the balance. The RLM was
+advised to contact NBSC for advice on balancing. The call was closed.
+
+21 April 2004, 9.10am, call reference e-0404210187 - A call was taken by
+David Dawe. The sub-postmaster stated that the gateway was saying to enter the
+PMMC and that the screen had been blue for 10 minutes. The sub-postmaster had
+to wait for the screen to clear. The sub-postmaster was told to wait for 20
+minutes and as that screen was normal and the sub-postmaster was told to call
+back if this had not changed within the next 20 minutes. The call was then
+closed.
+
+21 April 2004, 1.32pm, call reference e-0404210701 - A call was taken from
+Bernard Michael at SMC. This was an SMC call and related to a software upgrade.
+It was when ADSL (broadband), that had been installed in 20 January 2004, was
+actually switched on. The call was then closed once the switch over to ADSL had
+been successful.
+
+23 April 2004, 3pm, call reference e-0404230660 - A call was taken by
+Jason Lockyear. The sub-postmaster wanted to know if he could get a list of his
+calls and of software. The sub-postmaster was advised to contact NBSC for a full
+list and the call was then closed.
 
 Conclusion
 
+40.
 
-
-40. There are no reasonable grounds for believing that the information stored on the
-        Horizon system would be inaccurate because of improper use of the computer
-       terminal. To the best of my knowledge and belief, during the material time, the
-        Horizon system was operating properly at the Marine Drive branch or if not, any
-       respect in which it was not operating properly was not such as to affect the
-       production of audit record or accuracy of their contents.
-
-
-
+There are no reasonable grounds for believing that the information stored on the
+Horizon system would be inaccurate because of improper use of the computer
+terminal. To the best of my knowledge and belief, during the material time, the
+Horizon system was operating properly at the Marine Drive branch or if not, any
+respect in which it was not operating properly was not such as to affect the
+production of audit record or accuracy of their contents.
 
 I believe that the facts stated in this witness statement are true.
 
+SIQNEW .eecseseesseesceseeee
 
-Signed ......................................................
-             ANN CHAMBERS
+Date
 
+ANN CHAMBERS
 
-Date .........................................................
+1A_1194765_1 9
 
+POL00073838
+POL00073838
+1A_1194765_1
 
+Plymouth PL1 3AE
 
+POL00073838
 
-1A_1194765_1                                                     9
-                                                                       POL00073838
-                                                                     POL00073838
+POL00073838
+Filed on behalf of the: Claimant
+Witness: ‘Ann Chambers
+Statement: 1
+Exhibits: "ACL"
+Date made: 8/8/06
 
+IN THE HIGH COURT OF JUSTICE
+QUEENS BENCH DIVISION
 
+BETWEEN:
 
+POST OFFICE LIMITED
 
-                                           Filed on behalf of the:        Claimant
-                                                        Witness:     Ann Chambers
-                                                      Statement:                 1
-                                                        Exhibits:            "ACi"
-                                                     Date made:             8/8/06
+-and-
+LEE CASTLETON
 
+WITNESS STATEMENT OF ANN
+CHAMBERS
 
+BOND PEARCE LLP
+Ballard House
+West Hoe Road
 
+Solicitors for the Claimant/Part 20
+Defendant
 
-               i
-                              - and -
-                           LEE CASTLETON
+Claim No. HQO5X02706
 
+Claimant/Part 20
+Defendant
 
+Defendant/Part 20
+Claimant
+Filed on behalf of the Claimant
+Witness A Chambers
+Statement: 1
+Exhibits: "act"
+Date made: 8/8/06
+IN THE HIGH COURT OF JUSTICE Claim No.
+QUEENS BENCH DIVISION
+BETWEEN:
+POST OFFICE LIMITED Claimant/Part 20
+Defendant
+- and -
+LEE CASTLETON Defendant/Part
+20 Claimant
 
+EXHIBIT "ACi"
 
-                   WITNESS STATEMENT OF ANN
-                          CHAMBERS
-                       {
-
-
-
-
-               BOND PEARCE LIP
-               Ballard House
-               West Hoe Road
-               Plymouth PL1 3AE
-
-                       GRO
-               Ref: SJD3.348035,134
-
-
-
-
-1A 11A4705 1
-                                                                                               POL00073838
-                                                                                             POL00073838
-
-
-
-                                                    Filed on behalf of the:       Claimant
-                                                                  Witness:     A Chambers
-                                                               Statement:                1
-                                                                  Exhibits:          "AC1"
-                                                               Date made:           8/8/06
-
-
-
-                                                                              Claim No.
-
-
-
-
--141i5~ 4409
-
-
-                                                                       Claimant/'Part 20
-                                                                             Defendant
-
-
-
-
-                                    .■
-                                   *iM      d4E
-
-
-
-This is the Exhibit marked "AC1" referred to in the Witness Statement of Ann
-Chambers dated                   August 2006.
-
-
-
+This is the Exhibit marked “AC1” referred to in the Witness Statement of Ann
+Chambers dated August 2006.
 
 1A_1194765_1
-
+
+POL00073838
+POL00073838

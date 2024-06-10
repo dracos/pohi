@@ -1,431 +1,322 @@
-                                                                                                                               POL00029114
-                                                                                                                             POL00029114
+POL00029114
+POL00029114
 
+This DRAFT document contains confidential information relating to Post Office Limited. It is
+intended for the named recipients only and should not be disseminated further.
 
+Review of Key System Co
 
+Horizon in Horizon
 
-                   This DRAFT document contains confidential information relating to Post Office Limited. It is
-                   intended for the named recipients only and should not be disseminated further.
+System
 
+Controls Post Office Limited
 
+Legally Privileged & Strictly Confidential
 
+Draft Report: 11/005 Assurance Review
 
-                                                                                Legally Privileged & Strictly Confidential
-                                Draft Report: 11/005
-                                                                                           Assurance Review
+February 2012
 
-                                                                                             February 2012
-
-                                                              Internal Audit & Risk Management
-               Legally Privileged and Strictly Confidential
-
-
-
-
-Confidential
-                                                                                                                                                                                     POL00029114
-                                                                                                                                                                                   POL00029114
-
-
-
-
-               The Post Office Limited (POL) network of approximately 11,000 branches processes client and business transactions in excess of £100 billion annually. The
-               majority of transactions are conducted on behalf of third parties, for example, receiving payment for domestic utility bills and paying out from National Savings
-               accounts.
-
-               Customer transactions are captured on the Horizon (HNGX) electronic point of sale system in branches and transmitted to central systems (utility payment,
-               external banking and POLfinance systems) throughout the day. Overnight, daily summaries are transferred into the central accounting system, POL SAP. The
-               translation process between the two systems is enabled by the Reference Data System (RDS). An overview of the component parts of the HNGX system is
-               provided at Appendix A.
-
-               The overall objective of the review was to provide assurance that appropriate IT management disciplines provide a stable IT platform, and that suitable internal
-               controls operate over HNGX transactions and the extraction of these for central systems. In the area of management disciplines the review assessed controls
-               over: access to software; change management; capacity monitoring; and system resilience and disaster recovery. With regards to internal controls over
-               transactions the review covered: master data controls; transaction data; SAP Middleware; and batch updates.
-               The review also assessed the degree to which actions to address the issifps r     Fthe 2011 Ernst & Young (E&Y) Management Letter regarding the HNGX
-                                                                                           V//
-
-
-
-
-                                                                                                  os
-               control environment have been progressed by.management.                       Ivl UUU
-
-
-                                             II    II     II
-
-               IT Manag           4tWi ilines and HNGX Transaction Controls
-
-               The following control weaknesses were identified:
-
-               1.     System access: Access to HNGX in branches is by means of individual user accounts and passwords. However, particularly in sub-post offices, the same user
-                      accounts and passwords are often shared between branch staff. The use of individual user accounts is not always practical, e.g. in the case of single
-                      terminal branches where time would be lost continually switching between user accounts, and the number and geographical spread of sub-post offces
-                      makes it difficult for POL management to ensure access controls are enforced.
-                      Implication: The audit trailfor identifying the source of any transaction discrepancies could be unreliable.
-               2.     Resilience and Disaster Recovery: Fail-over from the live data centre to the back-up has not been tested since June 2009, although disaster recovery
-                      arrangements were tested during the migration to the new system in October 2009. Testing of the business continuity plan has been scheduled for the 24`^
-                      and 2511 of March 2012.
-                      Implication: The period of any inability to trade as a result of a major system outage moy be greater than anticipated.
-
-
-                                                                         Internal Audit & Risk Management
-                    Legally Privileged and Strictly Confidential                                                                                                  Page 2 of 9
-
-
-
+Internal Audit & Risk Management
+Legally Privileged and Strictly Confidential
 
 Confidential
-                                                                                                                                                                                         POL00029114
-                                                                                                                                                                                       POL00029114
+POL00029114
 
+POL00029114
 
+aaa RRR Ri aeeereererreeeeereeeeeereeereeeereeere ERR
 
+The Post Office Limited (POL) network of approximately 11,000 branches processes client and business transactions in excess of £100 billion annually. The
+majority of transactions are conducted on behalf of third parties, for example, receiving payment for domestic utility bills and paying out from National Savings
+accounts.
 
-                3.       Master data: No audit trail exists for change requests received by Fujitsu from the Network Business Support Centre (NBSC). Not all 'approved' requesters
-                         are documented or referred to on receipt of a change request. The membership of the Lotus Notes email groups, which are used to authorise the Master
-                         Data Teams to make changes to standing data, is not known and has not been subject to recent review. One of a sample of 10 change requests was found
-                         to have been handled via the "Fast track" process when it should have comethrough the normal process, resulting in reduced oversight of the change.
-                         Implication: It is difficult to detect and prevent inappropriate changes being made to master data.
-                4.       Transaction data: One of a sample of 5 monthly reconciliations between HNGX generated client transaction summaries and those created by the clients
-                         themselves was found not to have a second level review signature. Period-end Senior Management review is not formally signed-off, although it appears to
-                         be undertaken.
-                         Implication: Errors may not be identified, leading to possible discrepancies in client balances.
+Customer transactions are captured on the Horizon (HNGX) electronic point of sale system in branches and transmitted to central systems (utility payment,
+‘external banking and POL finance systems) throughout the day. Overnight, dally summaries are transferred into the central accounting system, POL SAP. The
+translation process between the two systems is enabled by the Reference Data System (RDS). An overview of the component parts of the HNGX system is
+provided at Appendix A.
 
-               Conclusion: IT disciplines around functional changes and capacity monitoring were found to be appropriately designed and also operating effectively. However,
-               access to the system in branches, particularly sub-post offices, can be by means of shared accouri .`'In addition, fail-over from the live data centre to the back-up
-               centre has not been tested since June 2009. This requirement is of particular importance, as highlighted by an outage in the system in December 2011. Testing
-               of the business continuity plan has been scheduled for March 2012; Controls designed to maintain the completeness, accuracy and integrity of transactional data
-               flows within HNGX were effective, with minor weaknesses noted around manual prddesses for the validation of master kiata and transaction data. No evidence
-               was found of material discrepancies arising from these issues.
+The overall objective of the review was to provide assurance that appropriate IT management disciplines provide a stable IT platform, and that suitable internal
+controls operate over HNGX transactions and the extraction of these for central systems. In the area of management disciplines the|review assessed controls
+‘over: access to software; change management; capacity monitoring; and system resilience and disaster-recovety. With Fegards to internal controls over
+transactions the review covered: master data controls; transaction data; SAP Middleware;/and batch updates:
 
-               Control Environment: Some improvement required.
-                                                                                                                               ,.
-                                                                                                                                 I
-                                                                                                                                 0 l~
-                                                                                                                                        j
-                                                                                                                                         J
-               E&Y Management Letter 2011                        -.    rlr,                       U
-                                                                             III
-               The 2011 E&Y Management Letter identified a numFb r f areas f1o~F1Jmproving HNGX and other POL IT system controls. This current Internal Audit & Risk
-               Management (IA&RM) review assessed the degree to &inich Hsanagement action plans have progressed to address the issues which related to HNGX. Progress
-               has been made in completing the<actions arising from the E&Y Management Letter. The E&Y recommendations that require most additional work relate to,
-               inappropriate access to software change management duties (incomplete segregation between software development and migration roles); the process forthe
-               identification and resolution of incidents; the recommendations that POL undertakes an architectural review, configure passwords in line with policy and perform
-               periodic scan of passwords as part of a penetration testing schedule. The penetration testing originally planned for January 2012 has been postponed to March
-               2012 as the business had to prioritise a test to meet Payment Card Industry (PCI) compliance duringJanuary.
-               The findings, summarised in Appendix B on page 9, have been shared with E&Y and reflect our assessment as at the end of January 2012.
+The review also assessed the degree to which actions to address the issues raised in the 2011 Ernst & Young (E&Y) Management Letter regarding the HNGX
+control environment have been progressed by management:
 
+rclusion
 
+Key Findings and C
 
+IT Management Disciplines and HNGX Transaction Controls,
+The following control weaknesses were identified:
 
-               We agree with this report and its findings, and will act to progress the action plan within the agreed timescales —Lesley) Sewell
+1. System access: Access to HNGX in branches is by means of individual user accounts and passwords. However, particularly in sub-post offices, the same user
+accounts and passwords are often shared between branch staff. The use of individual user accounts is not always practical, e.g. in the case of single
+terminal branches where time would be lost continually switching between user accounts, and the number and geographical spread of sub-post offices
+makes it difficult for POL management to ensure access controls are enforced.
 
-                                                                           Internal Audit & Risk Management
-                     Legally Privileged and Strictly Confidential                                                                                                     Page 3 of 9
+Implication: The audit trail for identifying the source of any transaction discrepancies could be unreliable.
+2. Resilience and Disaster Recovery: Fall-over from the live data centre to the back-up has not been tested since June 2009, although disaster recovery
 
+arrangements were tested during the migration to the new system in October 2009. Testing of the business continuity plan has been scheduled for the 24""
+and 25" of March 2012.
 
+Implication: The period of any inability to trade as a result of a major system outage may be greater than anticipated.
 
+EEE Internal Audit & Risk Management oe
+
+Legally Privileged and Strictly Confidential Page 2 of 8
 
 Confidential
-                                                                                                                                                                      POL00029114
-                                                                                                                                                                    POL00029114
+POL00029114
 
+POL00029114
 
+3. Master data: No audit trail exists for change requests received by Fujitsu from the Network Business Support Centre (NBSC]. Not all ‘approved! requesters
+are documented or referred to on receipt of a change request. The membership of the Lotus Notes email groups, which are used to authorise the Master
+Data Teams to make changes to standing data, is not known and has not been subject to recent review. One of a sample of 10 change requests was found
+to have been handled via the “Fast track” process when it should have come through the normal process, resulting in reduced oversight of the change.
 
+Implication: itis difficult to detect and prevent inappropriate changes being made to master data.
 
-                                                                 Summary Findings -IT Management Disciplines
+4, Transaction data: One of a sample of § monthly reconciliations between HNGX generated client transaction summaries and those created by the clients
+‘themselves was found not to have a second level review signature. Period-end Senior Management review is not formally signed-off, although it appears to
+be undertaken.
 
+Implication: Errors may not be identified, leading to possible discrepancies in client balances.
 
+Conclusion: IT disciplines around functional changes and capacity monitoring were found to be appropriately designed and also-operating effectively. However,
+‘access to the system in branches, particularly sub-post offices, can be by means of shared accounts. In addition, fail-over from the live data centre to the back-up
+centre has not been tested since June 2009. This requirement is of particular importance, as highlighted by an outage in the system in December 2011, Testing
+of the business continuity plan has been scheduled for March 2012, Controls desigried to maintain the completeness, accuracy and integrity of transactional data
+flows within HNGX were effective, with minor weaknesses noted around manual-processes for the validation of master data and transaction data. No evidence
+was found of material discrepancies arising fram these issues,
 
+Control Environment: Some improvement required.
 
-                                                                                                                                                        t
-                             Access to Software:                                  HNGX access in branches, particularly sub-post offices, is often
-                   Walked through and sample tested access                         via shared accounts. Access security controls over the "back
-               arrangements for branch, POL and Fujitsu technical                 end" HNGX environment (including Credence / TI) were found
-                                 support staff,                                         to be effective, as were physical security controls.
+E&Y Management Letter 2011
 
+‘The 2011 E&Y Management Letter identified @ fumber of ateas for improving HNGX and other POL IT system controls. This current Internal Audit & Risk
+Management (IA&RM) review assessed the degree-to which management action plans have progressed to address the issues which related to HNGX. Progress
+has been made in completing the actions arising from the E&Y Management Letter. The E&Y recommendations that require most additional work relate to’
+inappropriate access to software change management duties (incomplete segregation between software development and migration roles); the process for the
+Identification and resolution of incidents; the recommendations that POL undertakes an architectural review, configure passwords in line with policy and perform
+periodic scan of passwords as part of a penetration testing schedule. The penetration testing originally planned for January 2012 has been postponed to March
+2012 as the business had to prioritise a test to meet Payment Card Industry (PCI) compliance during January,
 
+‘The findings, summarised in Appendix B on page 9, have been shared with ERY and reflect our assessment as at the end of January 2012.
 
+OE ————
 
-                                                                                                                                                        Li
-                              Chance Manaeement:
-                                                                                    Functional changes are initiated and progressed via agreed
-                    Inspected testing and release management
-                                                                                    processes and appropriately approved and tested prior to
-                   processes, walked through and sample tested
-                                                                                                migration to the live environment.
-                               completed changes.
+‘We agree with this report and its findings, and will act to progress the action plan within the agreed timescales ~ Lesley J Sewell
 
+EEE Internal Audit & Risk Management oe
 
-
-
-                                                                                                                                                        t
-                                                                                       Transaction processing capacity, including processor
-                             Capacity Monitoring:                                      utilisation, disk space etc, is proactively managed and
-                  Reviewed and sample tested arrangements for
-                                                                                        monitored by Fujitsu including forecasting of future
-                        monitoring processing capacity.
-                                                                                                            requirements.
-
-
-
-
-                                                                                                                                                        t
-                        Resilience and Disaster Recovery:                         System design resilience is high with frequent failure testing of
-                   Inspected, walked through and sample tested                      individual components and sub-systems. "Warm" fail-over
-                 arrangements for ensuring resilience and disaster                 arrangements exist between the two data centres, although
-                                    recovery,                                              these have not been tested since June 2009.
-
-
-
-
-                                               Note: For details of systems and data flows, see "HNGX System Overview" at Appendix A.
-
-
-
-
-                                                                      Internal Audit & Risk Management
-               Legally Privileged and Strictly Confidential                                                                                           Page 4 of 9
-
-
-
+Legally Privileged and Strictly Confidential Page 30f 8
 
 Confidential
-                                                                                                                                                                  POL00029114
-                                                                                                                                                                POL00029114
+POL00029114
+POL00029114
 
+What was done
 
+Summary Findings - IT Manat
 
+What was found
 
-                                                              Summary Findings - Internal Controls Over Transactions
+ment Disciplines
 
+support staff.
 
+completed changes.
 
+Access to Software: HINGX access in branches, particularly sub-post offices, is often
+Walked through and sample tested access via shared accounts. Access security controls over the “back
+arrangements for branch, POL and Fujitsu technical_| | end” HNGX environment (including Credence / T!) were found
 
-                                                                                     Minor weaknesses were found around: helpdesk-initiated
-                                     Master Data:
-                                                                                        change requests; documentation and verification of
-                    Inspected master data input process and data                   "approved" requesters; and use of "fast-track" requests. Data
-                 validation routines and tested via walkthroughs and                 validation routines have been designed and implemented
-                              sample testing of changes.                                                    effectively.
+Inspected testing and release management
+processes, walked through and sample tested
 
+to be effective, as were physical security controls.
 
-                                                                                    Client account reconciliations are reviewed by team leaders
-                                  Transaction Data:
-                                                                                         and balances >f400k are reviewed by second line
-                 Reviewed and sample tested arrangements for the
-                                                                                    management. However, no formal senior manager sign-off
-                  reconciliation and validation of transaction data.
-                                                                                               exists for month-end probity reviews.
+Functional changes are initiated and progressed via agreed
+processes and appropriately approved and tested prior to
+‘migration to the live environment
 
+Reviewed and sample tested arrangements for
+monitoring processing capacity.
 
-                                 SAP Middleware:                                      A detailed functional specification has been defined and
-                 Inspected data validation controls and tested the                     agreed with Fujitsu, covering controls to validate the
-                   reconciliation of inputs to and outputs from                    completeness / accuracy of the interface to POL SAP. Controls
-                Middleware (which translates H NGX data to POL SAP                  relating to data transfer between SAP Middleware and POL
-                                 readable format).                                      SAP appear to be designed and operated effectively.
+‘Transaction processing capacity, including processor
+utilisation, disk space etc, is proactively managed and
+‘monitored by Fujitsu including forecasting of future
+requirements.
 
-                                  Batch Updates:                                   Effective batch processing / interface monitoring controls are
-                Verified data flows across key interfaces to assess                    in place, automated and managed via Tivoli Workflow
-               whether batch updates are completed accurately and                 Scheduler (TWS). Automated error alerts are raised by TWS to
-                 on time by means of walkthroughs and sample                         the Service Management team who escalate to either the
-                                      testing.                                    Logics Application Management team or Fujitsu for resolution,
+recovery.
 
+Inspected, walked through and sample tested individual components and sub-systems. “Warm” fail-over
+arrangements for ensuring resilience and disaster arrangements exist between the two dat
 
+System design resilience is high with frequent failure testing of
 
-                                               Note: For details of systems and data flows, see "HNGX System Overview" at Appendix A.
+centres, although
+these have not been tested since June 2009,
 
+Legally Privileged and Strictly Confidential
 
+Note: For details of systems and data flows, see “HNGX System Overview” at Appendix A,
 
-
-                                                                      Internal Audit & Risk Management
-               Legally Privileged and Strictly Confidential                                                                                         Page 5of9
-
-
-
-
-Confidential
-                                                                                                                                                                                     POL00029114
-                                                                                                                                                                                   POL00029114
-
-
-
-
-                                                                                    What is Being Done
-
-
-
-
-               1.     Complete an analysis of the potential misuse of individual Horizon user accounts and passwords in branches. Communicate to branch staff the requirement
-                      that accounts and passwords must only be used in accordance with Post Office policy. Priority 2 (John Scott — April 12)
-
-
-
-
-               2.     Agree with Fujitsu a date for full fail-over testing. Priority 2 (Lesley Sewell — Completed)
-                                                                                                            0      0                                     LLLVVVJJJ
-
-                                                                                                                          00
-               3.     Develop and deploys formal process for changerequests identified and            tLhi]ed by the NBSC Helpdesk. Priority 2 (Lesley Sewell —April 12)
-               4.     Confirm the current membership of Master Data Change and Propert Projects LotUS Not               ~grflu j- Usuring that only current team member
-                                                                                                         No~es~_~/r'~ 1~
-                                                                   Q
-                      addresses are included. Priority 2 (Lesley Sewell — April 12)
-                                                                                    ~~r U       lf ~N Jl ~li
-                                                                                                               U
-
-
-                                                   L
-
-
-                                                                                       No of
-                                                                       Importance     actions    Completed    by Jun 12
-                                                                       Priority 1
-                                                                       Priority2         4           1            3
-
-
-
-
-                                                                        Internal Audit & Risk Management
-                    Legally Privileged and Strictly Confidential                                                                                                     Page 6 of 9
-
-
-
+Internal Audit & Risk Management ——
+page of
 
 Confidential
-                                                                                                                                                                 POL00029114
-                                                                                                                                                               POL00029114
+POL00029114
+POL00029114
 
+Summary Findings
 
+‘Master Data:
+Inspected master data input process and data
+validation routines and tested via walkthroughs and
+‘sample testing of changes.
 
+‘Transaction Data:
+Reviewed and sample tested arrangements for the
+reconciliation and validation of transaction dat
 
-                                                                        Circulation List
+Inspected data validation controls and tested the
+reconciliation of inputs to and outputs from
+Middleware (which translates HNGX data to POL SAP
+readable format).
 
+Internal Controls Over Transaction:
 
-               Susan Crichton, Legal and Compliance Director                         Derek K Foster, Internal Audit & Risk Management Director
-               Christopher Day, Finance Director                                     Moya Greene, Chief Executive
-               Kevin Gilliland, Network and Sales Director                           Matthew Lester, Chief Financial Officer
+What wi und
 
-               Andy J Jones, Quality and Standards Manager                           Emily Pang, Chief of Staff
-                                                                                     Peter Tansley, Head of Risk & Assurance
-               Neil Lecky-Thompson, Head of Programmes and Planning
-                                                                                     Ernst & Young
-               Lesley J Sewell, Head of IT and Change
-               Paula Vennells, Managing Director
-               Mike Young, Chief Operating Officer
-                                                                                              QO~~C~ • °                        Ir II Q
+Minor weaknesses were found around: helpdesk:
+change requests; documentation and verification of
+“approved” requesters; and use of “fast-track” requests. Data
+validation routines have been designed and implemented
+effectively.
 
+tiated
 
+Client account reconciliations are reviewed by team leaders
+‘and balances >£400k are reviewed by second line
+management. However, no formal senior manager sign-off
+‘exists for month-end probity reviews.
 
+‘A detailed functional specification has been defined and
+‘agreed with Fujitsu, covering controls to validate the
+completeness / accuracy of the interface to POL SAP. Controls
+relating to data transfer between SAP Middleware and POL
+SAP appear to be designed and operated effectively.
 
-                                                               Internal Audit & Risk Management
-               Legally Privileged and Strictly Confidential                                                                                      Page 7 of 9
+Batch Update:
+Verified data flows across key interfaces to assess
+whether batch updates are completed accurately and
+‘on time by means of walkthroughs and sample.
+testing.
 
+Effective batch processing / interface monitoring controls are
+in place, automated and managed via Tivoli Workflow
+Scheduler (TWS). Automated error alerts are raised by TWS to
+the Service Management team who escalate to either the
+Logica Application Management team or Fujitsu for resolution.
 
+Legally Privileged and Strictly Confidential
 
+Internal Audit & Risk Management
 
-Confidential
-                                                                                                                                    POL00029114
-                                                                                                                                  POL00029114
+Note: For details of systems and data flows, see “HNGX System Overview” at Appendix A,
 
+fl
 
-
-
-                                                           Appendix A - HNGX System Overview
-
-
-
-
-                                                                                            Client Foes
-                      POST            APOP;Automated
-                     OFFICE
-                                    Payment Out Payment)               AP5 Harvester
-                                                                   (Automated Payments
-                                                                         Service)
-
-
-
-                                                                     Data Reconciliavon
-
-
-
-
-               E
-                                                                      TPS Harvester                  XI Mitltlleware
-                             HNGX
-                                      Branch Database                  Transaction                (concerts HOAX data   POL SAP
-                        (Horizon
-                                                                    Professing Service)               to SAP data)
-               so
-
-               OUI
-
-               UI
-               UI
-
-
-
-
-                                                                                          TI (Transaction Integrator)
-
-
-
+Page Sof 8
 
 Confidential
-                                                                                                                                                                                   POL00029114
-                                                                                                                                                                                 POL00029114
+POL00029114
 
-
-
-
-                                                              • rr'rr        rr    - rr      ..         1•    srr   ~              r
-
-
-
-
-               T.1            ti1l
-                                           Governance of outsourcing arrangement with Fujitsu: POL is responsible for the governance and risk and control          Substantial
-                1             High
-                                           frameworks and should have visibility and assurance over their design and operating effectiveness,                    progress made
-
-                                           Segregation of change management duties: Inappropriate access should be revoked and roles for development and         Further work
-                2             High
-                                           migration to live environment should be segregated.                                                                     required
-                                           Change management process: All changes should be appropriately authorised, tested and approved"p7)o o                   Substantial
-                3             High
-                                           deployment to live environment.                                                                                       progress made
-                                                                                                                                                                   Substantial
-                4             High         Privileged access: Privileged access to ITfunctions should be reviewedto determine whether it is appropriate.
-                                                                                                                                                                 progress made
-                                           Periodic POL-owned review of user accounts: To assist in the identification of inappF6priate access and                 Substantial
-                5             Med
-                                           poterstiut  regation of duties conflicts.                                      -                                      progress made
-                                           User ad ni=tration: Review the current user acce        I'    d strengthen the existing user administration process     Substantial
-                6             Med
-                                           within POL and third party service provid                    O 'i"                                                    progress made
-
-                                           Infrastructure I 'coal security settings:        a architectural review and periodic scan of passwords as part        Further work
-                7             Low
-                                           of apenetratio testing schedule.                                                                                        required
-                                           Password parameters: Review and update the Information Security policy and configure all applications in line with    Further work
-                8             Low
-                                           policy requirements.                                                                                                    required
-                                           Access to generic privileged accounts: Review across all applications. Consider replacing with individual               Substantial
-                9             Med
-                                           accounts and implement monitoring controls,                                                                           progress made
-                                           Incident identification and resolution: Regular review of the problem and incident management process to ensure       Further work
-               10             Low
-                                           incidents are identified, classified and resolved on a timely basis.                                                    required
-
-
-
-
-                                                                        Internal Audit & Risk Management
-               Legally Privileged and Strictly Confidential                                                                                                       Page 9 of 9
-
-
-
+POL00029114
+‘that accounts and passwords must only be used in accordance with Post Office policy. Priority 2 (John Scott — April 12)
+3. Develop and deploy a formal process for change requests identified and communicated by the NBSC Helpdesk. Priority 2 (Lesley Sewell — April 12)
+addresses are includéd. Priority 2 (Lesley Sewell — April 12)
+wae
+—$—$—<—<—$———— Internal Audit & Risk Management _S ooo
+Legally Privileged and Strictly Confidential Page 6 of 9
 
 Confidential
-
+POL00029114
+
+POL00029114
+susan Crichton, Legal and Compliance Director Derek k Foster, Internal Audit & Risk Management Director
+Christopher Day, Finance Director Moya Greene, Chef Executive
+Kevin Gilland, Network and Sales Director Matthew Lester, Chief Financial Officer
+‘Andy Jones, Quality and Standards Manager Emily Pang, Chief of Staff
+Neil Lecky-Thompson, Head of Programmes and Planning ipeter Tenissay, Hesd ot Risk Assurance:
+Lesley J Sewell, Head of IT and Change Esta Young
+Paula Vennells, Managing Director
+Mike Young, Chief Operating Officer
+——<——<—< internal Audit& Risk Management
+Legally Privileged and Strictly Confidential Page 7 of 9
+
+Confidential
+POL00029114
+POL00029114
+
+SSE
+
+EEE Internal Audit & Risk Management SS
+Legally Privileged and Strictly Confidential Page 8 of 9
+
+Confidential
+POL00029114
+POL00029114
+
+Appendi ing from 2011 E&Y Audit
+E&Y
+Finding Summary Status
+8 Rating
+
+1 tiign | Sovernance of outsourcing arrangement with Fujitsu POL is responsible for the governance and riskand control | Substantial
+
+18h | frameworks and should have visibility and assurance over their design and operating effectiveness. progress made
+
+3 High | S28regation of change management duties: Inappropriate access shoul be revoked and roles for developmentand | Further work
+migration to live environment should be segregated. required
+
+3 High | Change management process: All changes should be appropriately authorised, tested and approved priot to Substantial
+
+18h | deployment to live environment. progress made
+
+5 Substantial
+
+4 High | Privileged access: Privileged access to IT functions should be'réviewed to determine whether itis appropriate, progress made
+
+; eq | Periodic POL-owned review of user accounts: To assist in the identification of inappropriate access and Substantial
+
+potential segregation of duties conflicts. progress made
+
+é Med) /_) Useradministration: Review the current user access policy arid strengthen the existing user administration process | Substantial
+
+Within POL and third party service providers: progress made
+
+z u Infrastructure logical secuiity settings: Undertake architectural review and periodic scan of passwords as part Further work
+‘OW | of a penetration testing schedule. required
+
+a Low | Password parameters: Review and update the Information Security policy and configure all aplicationsin line with | Further work
+policy requirements. required
+
+° Meg | Aceessto generic privileged accounts: Review across all applications. Consider replacing with individual Substantial
+
+accounts and implement monitoring controls. progress made
+
+io Low | Incident identification and resolution: Regular review of the problem and incident management process to ensure | Further work
+incidents are identified, classified and resolved on a timely basis. required
+
+fe Internal Audit & Risk Management 2
+
+Legaly Privileged and Strictly Confidential Page 9 of 3
+
+Confidential

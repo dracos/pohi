@@ -1,155 +1,129 @@
-                                                                                                     POL00001569
-                                                                                                   POL00001569
+POL00001569
+POL00001569
 
+Witness Statement
 
-
-
-Witness Statement                                                                    L:O
 (CJ Act 1967, s9; MC Act 1980, ss
 5A(3)(a)
- and 5B, MC Rules 1981, r 70)
 
+and 5B, MC Rules 1981, r 70)
 
+Statement of GARETH IDRIS JENKINS
 
-
-Age if under 18      Over 18                (If over 18 insert 'over 18')
+Age if under 18 Over 18 (If over 18 insert ‘over 18’)
 
 This statement (consisting of pages each signed by me) is true to the best of my knowledge
-and belief and I make it knowing that, if it is tendered in evidence, I shall be liable to
-prosecution if l have wilfully stated in it anything which I know to be false or do not believe true.
+and belief and | make it knowing that, if it is tendered in evidence, | shall be liable to
+prosecution if | have wilfully stated in it anything which | know to be false or do not believe true.
 
-Dated the        8      day of   February 2010
+Dated the 8 dayof February 2010
 
 Signature
 
-
-I have been employed by Fujitsu Services, working on the Post Office Account, formally ICL
+| have been employed by Fujitsu Services, working on the Post Office Account, formally ICL
 Pathway Ltd, since 1996 as a Customer Solutions architect, involved in many aspects of design
 and implementation of the computer system known as Horizon. This is a computerised
 accounting system used by Post Office Ltd.
 
-I have been asked if issues found at Callender Square Post Office in Falkirk could have caused
-the discrepancies in the case of SEEMA MISRA. At this stage, I am not aware of the details of
-the problems in Callender Square Post Office in Falkirk. However I expect to be able to find out
+| have been asked if issues found at Callender Square Post Office in Falkirk could have caused
+the discrepancies in the case of SEEMA MISRA. At this stage, | am not aware of the details of
+the problems in Callender Square Post Office in Falkirk. However | expect to be able to find out
 the details of that case and also to compare the failing scenarios with the detailed logs that are
 to be extracted for the SEEMA MISRA case and should then be able to make it clear if the
 scenario is relevant.
 
-I have been asked to make comments on the 3rd Interim Technical expert's report to the
+| have been asked to make comments on the 3rd_Interim Technical expert's report to the
 Court prepared by Charles Alastair McLachlan, a Director of Amsphere Consulting Ltd.
 
-I have listed below the statement contained within the above mentioned report in italics and
-recorded my comment beneath in bold. For ease i have retained the original number
+| have listed below the statement contained within the above mentioned report in italics and
+recorded my comment beneath in bold. For ease | have retained the original number
 reference.
 
-1.2.1     Source of problem — End to end EPOSS transaction flow: the equipment failure
+1.2.1 Source of problem — End to end EPOSS transaction flow: the equipment failure
 user guide provided identifies at subsection 14 a process for identifying lost EPOSS
 
+Signature Signature witnessed by
 
-Signature                                 Signature witnessed by
-05011 (Side A)                                                                           Version 3.0 11/02
-                                                                                                                                                                         POL00001569
-                                                                                                                                                                       POL00001569
+C8011 (Side A) Version 3.0 11/02
 
+POL-001087F/575/1
+POL00001569
+POL00001569
 
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
+Continuation of statement of GARETH IDRIS JENKINS
 
-    (CJ Act 196?, s9; MC Act 1980, ss 5A(3)(a) and 58, MC Rules 1981, r 70)
+transactions. The implication is that EPOSS transactions can be lost due to equipment
+failures. Without access to the sub post office data records and the intermediate data
+records in the end to end process it will not be possible to identify the extent to which
+this may explain the accounting discrepancies.
 
-    Continuation of statement of                                  GARETH IDRIS JENKINS
+No request has been made to Fujitsu for any data relating to this branch. The logs would show
+any equipment failures and replacement which might possibly relate to lost transactions.
 
+1.2.2 Source of problem — Poor integration: the helpdesk reports provided in Andy
+Dunks 2nd statement identify a series of problems with the network, printer and the pin
+terminal. It has not been possible to test whether this could give rise to inconsistent
 
-i         ii        i4r.isi           ii        fl'T'1tt1UliuLi1                                                                                             f
+data capture and transmission at the sub post office.
 
+Not sure what this is about. What exactly is required?
 
+1.2.3 Source of problem — systems issues causing incomplete/inconsistent processing
+of transactions between sub post office and central systems: the reports provided in
+Andy Dunks 2nd statement identify a number of cases in which the user was required to
+‘re-boot’ the terminal. It has not been possible to test whether this could give rise to
 
+inconsistent data records in the sub post office.
 
-    No request has been made to Fujitsu for any data relating to this branch. The logs would show
-    any equipment failures and replacement which might possibly relate to lost transactions.
+Again without examining the logs it isn’t possible to progress this.
 
+1.3 Hypothesis: Errors in operator data entry are not properly reconciled by the Post
+Office finance function or by the Horizon system: without access to the system files it is
+not possible to determine whether this is the case.
 
+Again what is being requested? I've not seen any logs and | don’t believe that they have been
+requested so how can this be progressed without them?
 
+1.3.1 Source of problem — lack of reconciliation of EPOSS transactions end to end:
 
-                                                       iis    •        r'.                                     •   f •. '.           :•           •
+Signature Signature witnessed by
 
-    i .                   .        lI.I
+csottA Version 3.0 11/02
 
+POL-001087F/575/2
+POL00001569
+POL00001569
 
-    Not sure what this is about. What exactly is required?
+Witness Statement
+(CJ Act 1967, 9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
+Continuation of statement of GARETH IDRIS JENKINS
 
+without access to the system data files it is not possible to determine whether this is the
 
-                              '.            •:                                                             •                 •                        •
-
-
-
-
-               i   • of       niiun                   ii           i         • ` '      ': i
-                                                                                        !-         •   •                         •        f   1                  ![.
-
-
-
-ItiM•                         dataF        si    'isiteITI1            -         •   •' •o s   •
-
-
-
-    Again without examining the logs it isn't possible to progress this.
-
-
-
-
-    Again what is being requested? I've not seen any logs and I don't believe that they have been
-    requested so how can this be progressed without them?
-
-
-
-
-    Signature                                                                         Signature witnessed by
-    CSC11A                                                                                                                                                vremon : O 11102
-
-                                                                                                   2
-
-
-                                                                                                                                                      I L11] E1111III:       i4.1b
-                                                                                                  POL00001569
-                                                                                                POL00001569
-
-
-
-
-(CJ Act 9967, s9; MC Act 1980, es 5A(3)(e) and 5B, MC Rules 1981, r 70)
-
-Continuation of statement of             GARETH IDRIS )ENKIINS
-
-
-
-
-case,.
+case.
 
 What is being requested?
 
-
-
+1.3.2 Source of problem - lack of reconciliation of other transactions end to end:
+without access to the system data files it is not possible to determine whether this is the
 
 case.
 
 Agreed, so the Logs need to be retrieved and examined.
 
-
-
 There is no reason to believe that the information in this statement is inaccurate because of the
 improper use of the computer. To the best of my knowledge and belief at all material times the
 computer was operating properly, or if not, any respect in which it was not operating properly, or
-was out of operation was not such as to effect the information held on it. I hold a responsible
+was out of operation was not such as to effect the information held on it. | hold a responsible
+
 position in relation to the working of the computer.
 
+Signature Signature witnessed by
 
+cSO11A Version 3.0 11/02
 
-
-Signature                                            Signature witnessed by
-CS011A                                                                                Version 3.0 11102
-
-                                                              3
-
-                                                                                      I L11]   1i         i.f
-
+POL-001087F/575/3

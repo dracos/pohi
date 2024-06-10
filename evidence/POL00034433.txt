@@ -1,0 +1,960 @@
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+Horizon Online Migration Non-conformance Process
+
+1. Background
+
+The delivery of Horizon Online is a key business strategy in delivering some of the cost savings
+that underpin bringing the business back into profit by 2011. The key dates for delivery of the
+Horizon Online rollout will be communicated by the Horizon Online Programme Team
+
+The migration from the existing Horizon software to the new Horizon Online software will require
+the branch to undertake a migration process on the system, which involves printing and checking
+some basic reports, migrating the branch and then, once migrated, setting up all users with
+compliant passwords. It is therefore necessary to have processes in place to deal with branches
+that do not migrate on their scheduled date and formalise arrangements between the Horizon
+Online project and Network Directorate.
+
+The purpose of this document therefore is to:
+
+1. Outline the Network Directorate approach to dealing with branch non-conformance with regard
+to Horizon Online migration.
+
+2. Formalise the arrangements and requirements between the Horizon Online project and Network
+Directorate. It has been assumed for the purposes of this document that the Horizon Online
+Project will have an Issues Resolution Team (IRT), which will be the first point of
+escalation for branches that have not migrated as scheduled.
+
+3. Provision of Management Information required by the Horizon Online Project.
+
+4. Outline resource requirements and costs associated with Network supporting the non-
+conformance process.
+
+Shaun Turner Page 1 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+2. Non-conformance and Training Completion Processes.
+This section will be split to cover the two types of potential non-conformance and training
+completion. These are as follows:
+
+= Section 2.1 covers the non-conformance related to the router installation
+
+=" Section 2.2 documents the processes to tackle branches that do not migrate on the
+prescribed day.
+
+= Section 2.3 details the approach to those branches that do not complete any of the training
+modules in advance of migration.
+
+2.1 Router Installation Non-conformance
+
+This section covers the approach to be taken to branch non-conformance during the router
+installation rollout. The installation of the router in branch is prerequisite for migration
+onto the Horizon Online platform. The rollout is being coordinated between the HOP and Fujitsu
+Services to ensure minimised impact on the branch network and that Fujitsu engineering resource
+can deliver the installations. Barring the largest branches in the network, where the router
+will be installed out of normal branch hours, the installations will take place in branch hours
+and will normally not require more than a hour for installation to be completed. Branches will
+receive advance contact from the Fujitsu engineer to confirm the date and time window (AM or PM)
+of the installation. It is anticipated that due to some of the mitigating actions the numbers of
+escalations for router installation non-conformance should be relatively small.
+
+2.1.1 Dimensions of Non-conformance
+The following have been identified as the branch non-conformance scenarios that could arise
+during the router rollout:
+
+1. Branch refusal to have the router installed.
+1.1. Refusal of installation for unconnected reasons (e.g. other grievances with the
+business, branch about to transfer etc
+
+Shaun Turner Page 2 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+1.2. Refusal of installation on the assigned date (i.e. branch wants to reschedule). This
+could be advised when the engineer initially contacts the branch to confirm arrangements or
+when the engineer actually arrives on site.
+
+1.3. Refusal due to branch being unhappy about closure and loss of business.
+
+2. Branch cannot be contacted to confirm installation. These should only be escalated in cases
+where Fujitsu has attempted contact with the branch on at least three occasions on different
+days when the branch is open.
+
+. Recent unplanned closure at the branch.
+
+4. Unable to conduct router installation due to branch system problems.
+
+w
+
+NOTE: 1.2 and 1.3 above will be mitigated against to a certain degree due to the fact that the
+branch will initially be offered 2/3 options for installation dates.
+
+2.1.2 Escalation Process
+
+Initial escalation for router installation will, in the vast majority of cases, be from Fujitsu
+Services to the HOP Issues Resolution Team, where they have not either not been able to install
+a router or have not been able to contact a branch to confirm installation. All escalations into
+Network Directorate from the IRT should be done by e-mail on the agreed spreadsheet template
+into the Post Office Migration Support Team (POMST) containing the following information:
+
+=" Branch Details (including FAD, Name, Segment, National Multiple, Head of BD, BDM, Tel No.)
+
+= Proposed New Date of Installation (if appropriate)
+
+=" Reason for the escalation
+
+=" Details of conversation(s) already held with branch (including name of person spoken too
+and date/time of contact)
+
+= Resolution Date
+
+= Indicate cases where delay to router installation will impact migration date. In some
+cases, the router installation could be occurring as little as 2 or 3 days before
+migration.
+
+Shaun Turner Page 3 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+The table below gives the actions required by the IRT and POMST for the different non-
+
+conformance scenarios.
+the issue and need to escalate. All of the activities are in a numbered priority order,
+
+POMST will only need to undertake their actions where IRT cannot resolve
+
+with IRT
+
+having first responsibility for trying to address the issue before escalating to POMST to follow
+their process.
+
+Scenario
+
+IRT Activities
+
+POMST Activities
+
+Refusal of installation
+Branch about to
+transfer
+
+Branch about to close
+Temporary SPMR issued
+Unconnected branch
+grievance
+
+Personal emergency
+Straight refusal
+(including claims of
+being too busy)
+
+Lack of training
+Branch unhappy at
+having to close for
+installation.
+
+1
+
+2
+
+Reschedule installation with
+Fujitsu if reason for refusal is
+on list of valid reasons (e.g.
+sudden family bereavement).
+Section 2.1.4 below gives a
+break down of the reasons
+
+IRT will make initial attempt to
+persuade the branch to install
+router before escalating. This
+should be done in line with
+agreed scripting.
+
+3) Contact the branch and run
+through standard script. The
+purpose of the phonecall is to
+persuade the branch to permit
+the router installation and
+advise them of the consequences
+of not doing so. The script
+will include the opportunity to
+give a verbal warning to the
+branch in cases where there is
+no legitimate reason for
+refusing the router
+installation. A standard data
+capture log will be completed
+for any of these calls. For
+National Multiple branches the
+SAM will be contacted instead
+of the branch.
+
+Permanently closing branches
+flagged back to IRT with
+closure date to be dropped from
+programme.
+
+5) Send data capture log to
+
+4
+
+Shaun Turner
+\@"MVDVYYYY" ]
+
+Network Coordination Team
+
+Page 4 of 19
+
+Network Support
+
+[DATE
+
+POL00034433
+POL00034433
+
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+Scenario IRT Activities POMST Activities
+
+Network Support Admin team to
+add to branch record on EFC
+SAM will liase direct with the
+National Multiple partner to
+resolve the issue at the
+branch. All other branches
+refusing installation at this
+stage should be flagged to the
+Contracts Advisor who will
+initiate the corrective action
+process.
+
+6
+
+Branch cannot be 1) Check that Fujitsu have been 3) Check EFC to see if branch has
+contacted using the correct number and been closed or is still closed.
+that the branch is open from the Inform IRT of any closures and
+Configuration Database if known, the anticipated
+Check the NBSC Weekly Closure reopening date.
+report to see if the branch is 4) Branch Open - Attempt contact
+closed. with the branch once more and
+if available advise them of the
+installation using agreed
+script.
+Branch Open But Not Contactable
+— Send branch standard letter
+by Recorded Delivery asking
+them to contact POMST within 48
+hours. If the preferred Fujitsu
+router installation date is
+known the letter will just give
+
+2
+
+5
+
+Shaun Turner Page 5 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+POL00034433
+
+POL00034433
+
+Scenario
+
+IRT Activities
+
+POMST Activities
+
+that date and explain to the
+branch that Fujitsu and POL
+have been trying to contact
+them, but as there has been no
+answer, the letter is the
+notification that the
+installation will be taking
+place.
+
+6) For any National Multiple
+branch escalate to SAM for
+liaison with multiple partner.
+
+7) If necessary arrange for
+BDM/OFS/NS Manager to go out to
+the branch.
+
+Recent unplanned closure |1) If reasons for closure are 3) Check EFC to see if there is a
+known, are legitimate and the known reason for the branch
+branch reopen date is known, closure. Inform IRT of any
+then IRT should agree closures and if known, the
+rescheduled date with Fujitsu anticipated reopening date.
+
+2) Check the NBSC Weekly Closure 4) Attempt to contact the branch
+report to see if the branch has in cases where there is no
+reported the reason for closure known reason for closure.
+to the NBSC. 5) Branch Open But Not Contactable
+
+— Send branch standard letter
+by Recorded Delivery asking
+them to contact POMST within 48
+hours. If the preferred Fujitsu
+router installation date is
+known the letter will just give
+
+Shaun Turner
+\@"MVDVYYYY" ]
+
+Network Coordination Team
+
+Page 6 of 19
+
+Network Support
+
+[DATE
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+POL00034433
+
+POL00034433
+
+Scenario
+
+IRT Activities
+
+POMST Activities
+
+6
+
+7)
+
+that date and explain to the
+branch that Fujitsu and POL
+have been trying to contact
+them, but as there has been no
+answer, the letter is the
+notification that the
+installation will be taking
+place.
+
+For any National Multiple
+branch escalate to SAM for
+liaison with multiple partner.
+If necessary arrange for
+BDM/OFS/NS Manager to go out to
+the branch
+
+Branch System Problems
+
+1) Liaise with Fujitsu to agree a
+
+new install date once the branch
+system issues have been
+confirmed as resolved.
+
+No actions required from POMST
+
+2.1.3 POMST Responsibilities
+
+In all cases of escalations it is imperative that POMST:
+
+e Keep IRT informed of progress
+be done via daily exchange of
+e Advise IRT if resolution will
+require liaison between POMST
+
+Fujitsu.
+
+Shaun Turner
+\@"MVDVYYYY" ]
+
+Network Coordination Team
+
+Page 7 of 19
+
+Network Support
+
+including when and how the issue has been resolved. This should
+information on the spreadsheet.
+take the branch beyond its agreed installation date.
+and IRT on prospective reschedule dates that can be met by
+
+This will
+
+[DATE
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+e¢ Longer-term branch closures will need to be monitored such that the IRT can be notified in
+cases where the branch reopens within the project period, so that a router installation can be
+scheduled.
+
+e Record summary of intervention activity and escalation to contact points on the EFC to support
+potential future remedial action
+
+e POMST will be responsible for maintaining the master spreadsheet of all escalations.
+
+2.1.4 Non-conformance Reasons
+
+The table below gives a breakdown of the various reasons that a branch may give for refusing a
+router installation and stipulates in each case if they are to be considered a valid reason
+(i.e. one that requires no explanation). The list below is not exhaustive and if uncertain the
+IRT should contact POMST to discuss individual cases.
+
+Ref Reason Type Description/Examples Valid
+REAS-1. Office Management Branch being managed by a temporary SPMR No
+Issue National or local multiple branch - Area Manager No
+input required.
+Branch being run by relief SPMR (holiday cover) No
+Absentee SPMR - Staff unwilling to agree to No
+router installation
+REAS-2. Closure/Transfer Retail refurbishment closure on the day of Yes
+
+install (Please note: These do not go through
+the OBC process and are most likely in the
+National Multiple network
+
+Unplanned closure on the day of install (e.g. Yes
+
+robbery, flood, power cut)
+
+Branch will be closing (temporarily) No
+Shaun Turner Page 8 of 19 [DATE
+
+\@"MVDVYYYY"]
+
+Network Coordination Team Network Support
+POL00034433
+
+POL00034433
+HNG_NC_PROCESS-v4.2 &
+Version 4.2 (June 09)
+Ref Reason Type Description/Examples Valid
+Branch will be closing (permanently) Yes - if
+within
+timescale for
+rollout
+REAS-3. Refusal to allow Branch refusal due to unconnected grievance (e.g. No
+install transaction corrections)
+Branch refusal due to branch having to close and No
+lose footfall
+Branch too busy to allow engineer access No
+REAS-4. System Problems Branch has technical issues with the Horizon Yes
+system preventing installation of router.
+REAS-5. Personal Emergency Medical emergency of SPMR or family Yes
+Bereavement Yes
+Illness Yes
+
+2.1.5 Timescales
+The timescales for the router non-conformance process are outlined below:
+
+1. Day 0 - Non-conformance identified
+
+2. Day 1/2 - IRT actions to resolve and reschedule without the need for escalation
+
+3. Day 3/4 - POMST initial contact with the branch or checking of records dependent on reason for
+non-installation. For non-valid refusals a verbal warning will be issued by POMST if the branch
+is still unwilling to accept the installation.
+
+4. Day 5/6 - Escalation by POMST to Contracts Advisor or Senior Account Manager
+
+5. Day 9/10 - Contracts Advisor/SAM report back on resolution to POMST
+
+6. Day 10/11 - POMST report back to IRT on branch.
+
+Shaun Turner Page 9 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+2.2 Migration Non-conformance
+
+This section documents the processes for dealing with any branches that fail to migrate. Fujitsu
+will produce daily MI detailing the branches that have failed to migrate on the prescribed date.
+The following assumptions have been made with regard to the migration and the MI:
+
+e Any escalations required into Network will have those branches that could not migrate due to
+technical reasons stripped out by Fujitsu/IRT.
+
+e In cases where the branch misses the migration date the icon will disappear from the Horizon
+system and will have to be scheduled to go back on. The current assumption is that the icon
+will not be able to appear any sooner than 5 working days after the initial date, due to the
+restrictions of the OBC process. This is the same process each time the branch fails to
+migrate and adds greater risk into the process.
+
+e The project has to meet its final migration date as advised by the Horizon Online Progamme.
+Having only one branch not migrated means that the old Horizon platform cannot be turned off
+and the costs of dual running could be substantial. It is therefore recommended below that
+there be flexibility in the process described to reduce the number of steps as the deadline
+approaches and, secondly, that there be an exceptions process to deal with those cases that
+cause particular issues (e.g. Absentee subpostmasters). The Exceptions Process and the issues
+around tail end management are discussed in more detail in Section 2.4 below.
+
+e Section 2.3 outlines that the training plan for branches now included on site migration
+support at all branches. This means that a branch’s failure to migrate will most likely arise
+either when the branch is contacted by either the IRT or, NBSC or POMST field resource in
+advance of the visit, or when the POMST field resource arrives on site and is refused access
+or the branch refuses to migrate during the process itself.
+
+2.3 Non-completion of Training
+Branches will be advised to complete training prior to migration onto the Horizon Online
+platform. It should be noted however that none of the training is mandatory and failure to
+
+Shaun Turner Page 10 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+complete will not prevent the branch from migrating onto the new software.The branch will have
+the following training options:
+
+e All branches will receive on site migration support onto the new Horizon Online platform; this
+will be on the day of migration and will include support with the migration process through to
+conclusion and a short introduction to the new software.
+
+e Horizon test and confirmation - All branches will have the facility to do this prior to
+migration. Once a branch has migrated the facility to complete this test will not be available
+
+e Online test via website - For any branch that has access to the Internet and wishes to
+complete by this method.
+
+The training pack will be sent out to branches 3 weeks prior to their migration dates with the
+on-site migration support attending on the scheduled migration date. . Along with the two
+interactive tests mentioned above (Horizon and website), this approach should give branches
+sufficient initial knowledge to be comfortable operating the new Horizon Online software from
+opening on the first day. . This process for training non-completion is based on the following
+three assumptions:
+
+e All branches should at least complete the Horizon test and confirmation.
+
+e The Horizon test and confirmation should be completed before the scheduled migration date
+and attendance by the Horizon Online Trainer
+
+e Branches that have not completed the Horizon test will not be stopped from migrating or
+trading on Horizon Online, but they will be expected to conclude the test within 7 days
+of migration.
+
+2.3.1 Actions for Non-completion of Training
+
+POMST will be provided with management information on a daily basis that will show the status of
+all branches in the rollout and their current status with regard to the training highlighted
+above. POMST field resource will be supplied with this data prior to their visit to the branch
+
+Shaun Turner Page 11 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+on the scheduled migration date and will check to see if the branch has completed the Horizon
+online test. Any branches that have not completed the test will be challenged on the visit and a
+commitment sort that they do the test within a week of migration.
+
+2.3.2 Escalation Process
+The IRT will receive regular management information updates on what training a branch has
+completed. The timeline for branches with regard to training non-completion will be as follows:
+
+e 3 weeks prior to migration following dispatch of training pack - Phonecall from NBSC will be
+made to the branch to ensure they are on track for migration; part of this call will be to
+remind branches of the need to complete the confirmation on Horizon that they have undertaken
+the training.
+
+e 1 week prior to migration - Phonecall from NBSC to branches that have not done any of the
+training to remind them to complete it.
+
+* 1 or 2 days prior to scheduled migration date - The POMST field resource checks the management
+information to see if the branch they are visiting the following day has completed the Horizon
+test. POMST field resource contacts the branch to confirm the appointment and reminds the
+branch to complete the Horizon test in cases where they have not already done so.
+
+e Day of scheduled migration —- POMST field resource attends branch to carry out migration
+support, and as part of the visit checks to see if the branch has done the Horizon
+confirmation training. If the branch has completed the training the POMST field resource
+should check the receipts in branch and make a note to state they have seen them. If the
+branch has not completed the Horizon Test the POMST field resource should advise the branch
+that they must complete a manual copy of the training within 7 days and they will receive a
+letter from the Contracts Advisor asking for confirmation that they have done so. The paper
+copy of the test should be retained in branch as proof of completion of the test.
+
+e 8 days after scheduled migration date - Network Support Admin will issue a letter to any
+branch identified by POMST field resource has not completing Horizon Test on date of
+migration. The letter will carry a reply slip for the branch to confirm that they have now
+
+Shaun Turner Page 12 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+completed the training. Returned slips should be scanned in and added to the branch record on
+the EFC.
+
+The flowchart embedded below is the high level process showing the interactions between the
+three groups involved in dealing with potential migration non-conformance; the Horizon Online
+Project IRT, the POMST field resource and the POMST Admin Team The process covers the basic
+process with links into the processes to deal with Exceptions (Section 2.4) and Corrective
+Action (Section 2.4.1).
+
+Shaun Turner Page 13 of 19 [DATE
+\@"MVDVYYYY" ]
+Network Coordination Team Network Support
+POL00034433
+
+POL00034433
+——~ /ANBSCS
+/21 Exception’ (chested cal) /5.1RT)
+( Process for tai | { to branch / poust \
+management \ wis before / | pain agree |
+negemeNG_NC_PROCESS-v4.2 aigration) feschedule /
+Version 4.2 (June 09) a
+y A
+20 POMST Admin > o> =
+: . 4 Rescheduie:
+escalate via the 2. Branch retuses~ 3. Valid refusal
+exceptions process <Cimigration date? > Y°5 << "reason? > 28-088 beyond tall >
+and notify IRT . 7 “ end!
+No No i
+v ¥ 7 Yes
+43 POMST field BIRT escalate to |
+18. POMST Admin tect POMST Admin to
+Nop reschedule the branch | __! ranch to confirm seek resolution octet
+‘for new migration date Inigraton sopport prior to migration the exceptions
+; in liaison wath RT ions Support vist Procens
+x T
+¥
+ves y 9 POMST Admin
+23 Veli retusa 414 Branch refuses: |
+_ reason? Yes ~<migration date? ne
+> - . ‘Multiples branch
+No sent on to SAM |
+415 POMST field aN [rors
+resource attend 40 Attempt me Process
+branch to provide “Yes ~ sucvesstul?_-~ ome ent /
+migration support NN menegement,
+¥ —
+16 Branch migration
+Yes << failed due to non-
+No ‘conformance?
+No Y
+(17 Branch \
+migration |
+\ completed / -
+24 POMST field ‘Keonoh 42 POMST Admin
+/ A Reschedule
+pont minting <Goes beyond ta >—Yes—> tention pores
+reason for abortin ena? y "
+ing visi NS and notify IRT
+[26. POMST Admin No
+|
+| contact branch to aR en
+
+| confirm new
+| migration support
+LL aisit to the branch
+
+27. Branch
+
+‘contact branch and
+issue verbal warning if
+necessary. National
+‘Multiples branch sent
+‘on to SAM, New date
+
+agreed with IRT
+refuses >
+migration date?”
+a Yes
+No
+Y 19
+Shaun Turner [ Page 14%£19 [DATE
+\@"MVDVYYYY"] _ 28:POMST attend | 29 POMST field 30 POUST Admin 733. °*
+Network Coordination moration sap | souren exctte comple dttsand| niet Scion and )
+1 miar ‘Pron | to POMST advising initiate orrective ny)
+| of second failure action process \ on ing /
+
+J
+
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+2.4. Exceptions Process & Tail End Management
+There will be a need to set up an exceptions process to deal with those branches that:
+
+e Still fail to conform after being taken through the full non-conformance process detailed
+above.
+
+e Are unable to migrate due to valid mitigating circumstances
+
+e Branches unable to migrate for various reasons that have not been anticipated.
+
+e Circumstances prevent migration before the milestone date for all branches to be migrated
+(date will be advised by Horizon Online Programme)
+
+It is anticipated that only small numbers of branches should be required to go through the
+Exceptions Process (EP) and that responsibility for managing the exceptions will be given to an
+Exceptions Manager within Network, who will log, track and crucially bring together any parties
+responsible for resolution. The Exceptions Manager responsible for managing the EP will be
+notified daily by POMST of any branches that require escalation via e-mail, along with the
+details of previous contacts with the branch.
+
+The Manager will then be responsible for managing any branches through to resolution. This will
+
+involve bringing together key stakeholders to ensure that the issues at the branch are resolved.
+The Exceptions Manager will have responsibility for ensuring the logging of all escalations and
+
+ensuring that information is transparent to the other key stakeholders involved in the migration
+rollout (principally IRT and POMST).
+
+The table below outlines the anticipated stakeholders that would need to be brought into resolve
+issues at branches:
+
+Issue Preventing Rollover [ Stakeholders [ Potential Solutions |
+Shaun Turner Page 15 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+POL00034433
+
+POL00034433
+
+Issue Preventing Rollover Stakeholders Potential Solutions
+Non-conformance or branch refusal to Relevant Contracts Contact with the branch from
+rollover Advisor the Contracts Advisor with
+
+Business Development
+Manager (if applicable)
+Senior Account Manager (if
+
+consideration given to
+terminating the contract
+Visit from the BDM to
+
+applicable) migrate the branch.
+Branch temporarily closed at short Relevant Field Change Arrange with SPMR for them
+notice Advisor or a POL representative to do
+
+BDM or Scheduling Team
+(where branch needs POL
+representative to attend)
+Senior Account Manager
+(if applicable)
+
+the migration
+
+In cases where the branch is
+going to be closed for a
+protracted period (e.g. major
+structural damage), will need
+to liaise with FCA about kit
+removal and new FAD re-roll
+
+Personal emergency at branch
+prevented rollover
+
+Business Development
+Manager (if applicable)
+Senior Account Manager
+
+(if applicable)
+
+Scheduling Team for
+
+Centrally Supported
+
+Arrange with branch for
+migration to occur, by a
+trained individual or POL
+representative if the SPMR is
+not able to.
+
+Issue with a Temporary SPMR
+
+Relevant Contracts
+Advisor
+Temp SPMR Manager
+
+Liaise with Temporary SPMR
+Manager and Contracts Advisor
+to ensure migration.
+
+In cases where a Temp is
+running the branch whilst the
+actual SPMR is
+
+Access issue to branch
+
+Scheduling Team if visit
+
+POL Representative to attend
+
+Shaun Turner
+\@"MVDVYYYY" ]
+
+Network Coordination Team
+
+Page 16 of 19
+
+Network Support
+
+[DATE
+POL00034433
+
+POL00034433
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+Issue Preventing Rollover Stakeholders Potential Solutions
+necessary the branch
+
+= If no access and migration
+is possible before the end of
+rollout, the branch will have
+to be closed via OBC and re-
+rolled.
+
+The Exceptions Manager will also take primary responsibility for dealing with those branches
+that fall into the tail end management process. It is currently anticipated that the migrations
+schedule allows for a 2-week mop up periodat the end of the migration rollout. This is crucial,
+as any branches remaining during this period will have to be managed closely, as the business
+cannot afford to have any branches on the current Horizon software platform beyond the end of
+rollout. The Exceptions Manager will be responsible for recommending to Network stakeholders, in
+cases where migration will not be possible by the end of rollout, that a branch be closed in
+Reference Data via the OBC process. This is not a decision that can be taken lightly as it will
+mean the branch being closed for potentially up to 30 days. It is recommended that Network have
+a ‘decisions panel’ operating each week throughout the last month of rollout to take decisions
+on any branches falling into the exceptions process as the deadline approaches.
+
+The Exceptions Manager will be additionally responsible for the following:
+
+= Attempting to resolve all escalations within 14 days.
+
+=" Weekly conference calls (moving to daily in the last month of rolloit) to discuss progress on
+branches in the escalations process with IRT and POMST representatives
+
+=" Keeping Network stakeholders informed of number of branches migrated against target and any
+early warnings if the tail end management is likely to see larger numbers than expected.
+
+=" Link from POMST into the corrective action process. This makes sense due to the fact that
+although a branch may justify corrective action, if it is also going into the tail end of the
+rollout when this occurs, that situation will need to be managed also.
+
+Shaun Turner Page 17 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+=" Liasing with External Communications, Flag Case Team and the NFSP if required for some of the
+more sensitive cases.
+
+2.4.1 Corrective Action
+
+Section 2.4 above outlines the Exceptions Manager in Network as the link into the Corrective
+Action process. This is due to the fact that the Corrective Action process may still not be
+responsive enough to ensure a branch is migrated before the end of rollout, particularly if the
+branch in question is towards the end of the rollout. The escalation points for the Corrective
+Action process are as follows:
+
+= Crown Offices - Exceptions Manager to liase direct with the BDM for the branch
+=" National Multiples - The relevant Senior Account Manager
+=" Agency Branches - The relevant Contracts Advisor
+
+The standard corrective action process for dealing with branches will be initiated by the
+relevant Contracts Advisor or, in the case of National Multiples, the relevant SAM. The
+Contracts Advisor/SAM will liase directly with the BDM in the case of any Account Managed
+branches. Corrective action against branches is an established process with defined steps to be
+followed, although the process will be expedited in the case of agency branches by the fact that
+a verbal warning will have already been issued by POMST in the telephone conversation with the
+branch. Contracts Advisors and SAMs will be advised of the impact of branches not migrating by
+the end of rollout and this will be built into their communications with branches and National
+Multiple partners.
+
+Shaun Turner Page 18 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support
+POL00034433
+POL00034433
+
+HNG_NC_PROCESS-v4.2
+Version 4.2 (June 09)
+
+3. Management Information Provision
+
+In addition to the management information stipulated in the previous sections of the document,
+the HOP has MI requirements on Network to ensure smooth and effective management of the project.
+These requirements are summarised below:
+
+= Temporary SPMR branches - Weekly
+
+=" Unplanned Closures (non-critical) - Weekly
+
+= Unplanned Closures (critical) - Daily
+
+=" Branches scheduled for audits the following week - Weekly
+
+= Branches that are scheduled for transfer - Weekly
+
+=" Branches not completing branch trading statements on time - Daily
+
+Shaun Turner Page 19 of 19 [DATE
+\@"MVDVYYYY" ]
+
+Network Coordination Team Network Support

@@ -1,0 +1,3120 @@
+ICL Pathway
+
+POL00029165
+
+POL00029165
+
+Horizon System Audit Manual (CSR) Ref-|A/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+Document Title:
+
+Document Type:
+
+Horizon System Audit Manual (CSR)
+
+Manual
+
+Abstract: This manual describes the Horizon Operational,
+Operational Support and Commercial systems and data
+flows in sufficient detail to enable members of the
+Horizon Audit Community to understand them for audit
+purposes.
+
+It also addresses the appropriate Criteria of
+Requirements 697, 699, 816 and 829 insofar as it
+provides information relating to the composition of and
+access to the ‘audit trail’ as defined in those
+Requirements and its admissibility for PACE certification.
+
+Status: DRAFT
+
+Distribution: Martyn Bennett Paul Redwood (Horizon)
+Chris Paynter (POIA)
+
+Library
+
+Author: Jan Holmes
+
+Comments to: Jan Holmes
+
+Comments by: ASAP
+COMMERCIAL IN CONFIDENCE Page 1 of 68
+
+© 2000 ICL Pathway Ltd
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+0 Document control
+0.1 Document history
+
+Version Date Reason
+
+0.1 01/07/98 Initial draft
+
+0.2 09/10/98 Following informal feedback from HS (POCL), PM (DSS) & GR
+
+(DSS). Inclusion of details from Audit Data catalogue and links
+to Commercial Audit Trail.
+
+0.3 11/12/98 Following formal feedback from HS (POCL), GR(DSS) &
+LB(DSS). Internal issue only.
+
+1.0 13/04/99 Raised to issue status following corrections made after
+Acceptance Review Segment 1.
+
+14 01/06/99 Removal of all references to DSS/BA following their withdrawal
+from Horizon. Changes to title of PO Internal and Network
+Auditors.
+
+1.2 24/06/99 Following comments received from POIA
+
+1.3 17/01/00 Insertion of commercial audit trail details. Other minor changes
+
+including reference to recently agreed OSP procedure.
+
+0.2 Approval authorities
+
+Name Position Signature Date
+M. Bennett Director, QRM
+J. Holmes Pathway Audit Manager
+
+0.3 Associated documents
+
+Reference Vers Date Title Source
+[1] CR/FSP/006 2.6 09/04/99 Audit Trail Functional Specification
+[2] SD/DES/072 1.0 25/06/98 Audit Data Storage & Retrieval HLD
+[3] IA/SPE/001 1.0 21/01/99 OBCS Audit Trail Specification
+[4] IA/SPE/002 1.0 02/02/99 APS Audit Trail Specification
+[5] IA/SPE/004 Ref only EPOSS Audit Trail Specification
+[6] JIA/SPE/008 0.1 27/11/98 Audit Data Catalogue (NR2)
+
+COMMERCIAL IN CONFIDENCE Page 2 of 68
+ICL Pathway
+
+POL00029165
+POL00029165
+
+Horizon System Audit Manual (CSR) Ref-|A/MAN/004
+
+Version:1.3
+
+Date:17/01/00
+
+0.4 Abbreviations
+
+0.5
+
+[Acronym Meaning
+
+APS Automated Payments Service
+
+iBSU [Business Support Unit
+
+jesR Core System Release (previously known as NR2)
+
+Jesr+ Core System Release + (previously known as NR2+)
+
+ject Digital Linear Tape
+
+jow Data Warehouse
+
+JFPoss Electronic Point of Sale Service
+
+JESNS Electronic Stop Notice System
+
+HAPS
+
+HLD High Level Design
+
+JHSH Horizon System Help Desk
+
+Joas IOBCS Access Services
+
+joscs (Order Book Control Service
+
+jose (One Shot Password
+
+fPoct Post Office Counters Limited
+
+POIA Post Office Internal Audit
+
+JPONA Post Office Network Audit
+
+form Quality & Risk Management
+
+JRomc Reference Data Management Centre
+
+ROS Reference Data Service
+
+JRED Reconciliation Exception Database
+RFI Request For Information
+
+ISIS Strategic Information Service
+
+ITIP \Transaction Information Processing
+
+ITMS \Transaction Management System
+Changes v1.2 to v1.3
+
+Removal of Hilary Stewart & Ruth Stinchcombe from distribution.
+Revised RED schematic at 7.1.3.
+
+Reference to OSP procedure at 11.1.6.
+
+Revised Special Assistance Billing wording at 12.1.3.
+
+COMMERCIAL IN CONFIDENCE
+
+Page 3 of 68
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+0.7 Table of content
+AINtODUCTION. eee cece eeceeeeec ec ee ee eeeeeeececeeeeeeeeceseeneetstsssensenseesseiseetetsseeeeseeese 8
+QSCOPE Loe. eeceecceceseecesceseeseseesesseseesesacseceesseeecseeaeeaeesesececsecseeaeeeesecaeeseeesseereeeeeee 8
+3Terminology.......... 9
+4What is Horizon? eee eceeeeee ee eeeee cece cece eee ee ceeeeeeteeeeaeeneeeeseeeeeneneeeeeeeeeeeee 10
+4.1Background.
+4.2Horizon Services Overview
+4.3Central Systems Overview................:ceccececceceseeseeceeeeeeeseeeeeeeseeeeeeseeeeeee 11
+4.4Distribution Mechanism Overview...............::cccccseseeseceeeseeseeeseeeeeseeees 12
+
+4.5Counter Systems Overview.
+4.6Horizon System Helpdesk Overview.
+
+5The Horizon Services & Systems
+5.1Diagramming Conventions. ..............:.cccceceeceseeseeseeeeseeeeeeeseeeeeeeneeseeseeees 13
+6Horizon Operational Services.............cccscsceseceeeseeeeseseeeeeeeesceeseeeeeeecaceseeseees 14
+
+6.1Order Book Control Service...
+6.1.1Control Notice Processing.
+6.1.2Benefit Book Receipt. a
+6.1.3Benefit Book Handover... 2... eececeeec estes eeee eset eeeeeeeeeeeeeeeeteeees 16
+6.1.4Benefit Encashment.................ccccece cece cece cee cee eee eeceeeeeeeeneeeeeeeees 18
+6.2Automated Payments Service.
+6.2.1Standard Payment Using Token.
+
+6.2.2Payment Reversal
+6.2.3Automated Payments Reconciliation..............0..:ccececeeeeeeeeeteneeee 22
+6.3Electronic Point of Sale Service... eee ececeeeseeeeesseeeeeseeeeeeeeeeeeenees 23
+6.3.1Sale of EPOSS Product.
+6.4Horizon System Help Desk...
+6.4.1Service OVErView...... ee cece eee eeeseeeeeeeeeeeeseeeeneeteteeeneneeeneeeetes
+6.4. 2SCHEMALIC....... ee cece cece eee ee ee eeeeeeeeeeeeeeeeeseeteeeeneneeeseseteeseeeseeates 25
+6.4.3Data Input Streams...
+6.4.4Data Output Streams.
+7Horizon Operational Support Services. oe
+7.1Reconciliation Exception Database (APS/EPOSS)...............:cceeeeee 27
+7.1.1System Overview (APS)..........::ccceseseeeseeeeeseeeeeeeeseeeceseeeeseeeeneaes 27
+
+COMMERCIAL IN CONFIDENCE Page 4 of 68
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+7.1.2System Overview (EPOSS)............:ccceeceeeceeseseeeeeeeereeeseseereneeeeeee 29
+7A. BSCHEMALIC..... eee cece eee es ec eceeeeeeeee eee eeeeeeeeceeeeeeeceseteeeeneeeenees 29
+
+7.1.4Data Input Streams....
+7.1.5Data Output Streams.
+
+7.1.6Data Retention Requirement. ..................:cecesceceeceseeceeeeeeeeeeseesees 30
+7.2Reference Data Management Centre.............ccccccessseeeeeseseseeeeeeseeeeeees 31
+
+7.2.1System Overview.
+
+7.2.2Schematic..
+
+7.2.3Data Input Streams.
+
+7.2.4Data Output Streams... eee eee eee eeeeeeeeceeeeeeeeseseeeeeeeeeeeeeee 34
+
+7.2.5Data Retention Requirements. ......0.....0.00c cece eeeeee eee eeeeeeeeee 34
+
+8ICL Pathway Commercial Systems...
+
+8.1Service Level Contract Administration
+
+8.1.10verview.
+8.1. 2SCHEMALIC...... eee cece ee eeee cece ee eeeeeeeeeeeeeeeeseeseeeeneneneeseseeseteseeates 35
+8.1.3Data Input Streams... ceeecccecececeseseseseseeeeeeseseseeecscaeecseeeeeeeeas 36
+
+8.1.4Changes to Standing Data.
+8.1.5Data Output Streams.
+
+8.1.6Data Retention Requirement. .................0.0:.:cceeeeeeeeeeeeeeeeeees 37
+QOperational Audit Data... 2... eeeeeeccecceceececceceeeeceeeeeceeeeseeececeseeeseesteeeeeeee 38
+9.1Audit Track Content And Maintenance. ................cceceeeeeeeeeeeeeeeeeees 38
+
+9.2Audit Data Retention Policy
+9.2.1Operational Services Audit Data
+9.2.2Operational Support Services Audit Data..........0.0.. eee 38
+9.2.3Commercial Systems Audit Data... eee eeeeeeeeeeeeeneeeeenees 38
+9.30rder Book Control Service.
+9.4Data Warehouse/MIS..
+9.5Automated Payments Service:
+9.6Transaction Processing. ...............:cceccccecesesesesceeeeeeeeeseeeeeeeeeeeeeeseeeeeeeees
+9.7Reference Data... cececececceceeeeseceeeseeseeeeeeeeeseeeeeeeeeeesesineeneeesesaeanees 46
+10Operational Audit Data Archive Server.
+
+10.10verview. 50
+
+10.2Archiving and Storing Audit Data oe
+10.2. 1OVErVIOW....... eee eee ecece cece eseeececeeeeeeeeeeeeeseeceneneieeseteneceeseenseceeeeeets 50
+10.2.2Audit Track Gatherer... ceeecececeeeseeeeeeeeeeseeneeeeeeneeseseeneens 52
+
+COMMERCIAL IN CONFIDENCE Page 5 of 68
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+10.2.3Audit Track Sealer... ceceeseceeeeeceseeeeeeeeeeeeeeeeseeeeeececeeeeeneee 52
+10.2.4Audit Track Hoardel...............cececeececee eee eeeeeeceeeeeeceeneneeeeeeeeeeeee 52
+
+10.2.5Audit Track Deleter.
+10.3Retrieving and Extracting Audit Data.
+10.3.1 OVEPVIOW. 0... ee eeeccececeseeseceeseeeeeeceeeneeeeneeneeeseeenseteseeeeeesseeneeeeee 54
+10.3.2Request For Information. ..........0.....cccccceceeeeeeeeeeeseeseeseneeeeseeeeees 54
+10.3.3Marking Files and Tapes.
+10.3.4Audit Track Retriever.
+10.3.5Audit Data Check Seal
+10.3.6Audit Trail Extractor... eee ee eeeeeeeeeeeeeeeeeeeneeseeaneeeeees 54
+10.4Archived Audit Data Usage... cece ceeeeeeseeeeeeeeeseeeneneeeeee 54
+10.4.1Proving Integrity of Processing.
+10.4.2Investigation Support.
+10.4.3Bulk Extraction
+110Obtaining Access to Operational Audit Data..............ceceeeceeceeeteeeeeeeeeeeeee 56
+11.1Access Control POlicy..........ccccececcseesseeseeseseseeeeecseseseseeeseseseeeeeeseseeeee 56
+11.1.1ICL Pathway’s Internal Auditors.
+11.1.2Post Office Auditors.
+
+11.1.3POCL Emergency Managet.................ceseceeeceeeseseseeeeeeeeeeeeees 57
+11.1. 4POCL <Client> Auditors... cece eee eeeeeeeeeeeeeeteeeeeeeeeees 58
+11.1.5Authorities AQents....... 2... ce eee cece ee eeece eee eeceeeeeceeeeeeeeneeeeeee 58
+
+11.1.6One Shot Passwords.
+11.2Requesting Audit Data Extractions
+11.2.1Pre - REqQuisites........... cece eee cee cece eeceececeeceeceeeeeeeeeeeeeeaeaees 58
+11.2.2Requesting Audit Data... eee ecceceeeeeeeeeeeeeeeeneeeeeeeeeneeeees 58
+12Commercial Audit Records (R697
+12.1Included Items..
+
+12.1.1|Invoicing Records.
+12.1.2Change Control Documentation. ..................eeeeeeeeeeeeeeeeeeees 62
+12.1.3Special Assistance INVOICES. ............. ce cceceeceseeeeceseeceeeeeeeeeeeeeeees 63
+12.1.4Development Activity Invoices...
+12.1.5Contracts with Sub-Contractors.
+12.2Excluded Items
+D2.BCAVCAS ose eeeeee eee ecceceeseeeeeeeceeecececereececaceceeeeeeeseseneeeneneeseceseneeeeees 64
+
+130btaining Access to Commercial Audit Data & Records........0.......ceeeeee 65
+COMMERCIAL IN CONFIDENCE Page 6 of 68
+
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+13.1Access Control Policy.
+14Conducting Joint Audits.
+
+14.1General
+
+14.2Joint Working Framework. .............ccccccceceeceseceseeeeeeseeseeeseeeeeeseeeneeeeee 66
+14.2. 1PlANMINg..... eee ee cece ccc eecesceceeceseeseeceececeeeeeeeeeeseeecseeseeesteseeeeeeeeees 66
+14.2.2Terms of Reference... ec ceceeeceeeeeeseeeeeeeeseeeeeeeeeeeeeeeeseaeeeeeees 67
+14.2.3Detailed Audit Schedules... cece eee eeeeeeeeeeeeeereeeeees 67
+14.2 ARESOUICES. oe ee eee ee ee ee cece tence eeeeeeeeeeeeeceteneneeneteseseseseeeeeesatass 67
+14.2.5Reporting Arrangement.................. cece eee ceees cece eeeeeeeeeeeeeeeees 67
+
+14.2.6Corrective Actions Review.
+
+14.2.7Process Review and Improvemen
+
+COMMERCIAL IN CONFIDENCE Page 7 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+1 Introduction
+
+This document is intended for the community of auditors who are involved in
+auditing the Horizon system and describes Horizon so that auditors can
+understand the business processes and data flows involved. It is structured
+to lead the reader through Horizon so that a general level of understanding
+and knowledge can be obtained. It does not set out to be an exhaustive
+decomposition of the total solution.
+
+It provides information in support of the Horizon system meeting
+Requirements 697 (General - Audit: Access), 699 (General - Audit: Trail),
+816 (POCL Applications - EPOSS: Audit) and 829 (General - Security:
+Prosecution Support).
+
+It is supported by a number of related documents that describe the
+Operational Services audit trails [3][4][5], the relevant Commercial Systems
+audit trails and the audit data itself [6] in more detail.
+
+The business processes include all systems and services that make up
+Horizon including :
+
+Operational Services
+a. APS - Automated Payments Service.
+b. EPOSS - Electronic Point of Sale Service.
+
+c. OBCS - Order Book Control Service, including OBCS Access Service
+(OAS).
+
+d. HSH - Horizon System Help Desk.
+Operational Support Services
+
+a. RED - Reconciliation Exceptions Database.
+
+c. RDMC - Reference Data Management Centre.
+Commercial Systems.
+
+a. SLCA - Service Level Contract Administration.
+
+Change Control is also included as any changes to any of the above
+Services can only be achieved through the agreed Change Control process
+which has its own audit trail of documentation associated with it.
+
+The document describes how access to the ‘audit trail’ is achieved and
+establishes a framework for joint working where this is deemed appropriate.
+
+2 Scope
+The information in this document is relevant to Horizon at Core System
+
+Release, that being the named Release following BA withdrawal and
+equivalent to the old New Release 2 (NR2).
+
+COMMERCIAL IN CONFIDENCE Page 8 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+3 Terminology
+
+Each organisation that constitutes the Horizon Community of Auditors will
+have their own set of standard definitions and terminology and their auditing
+policies and practices will be defined and described in Audit Manuals.
+However, there is some terminology that is specific to Horizon :
+
+Audit Tracks Defined in [1] as “a record of activities made within a
+subsystem for one or more of its interfaces.”
+
+Audit Trail Defined in [1] as “one or more such tracks.”
+In addition this document uses the following terms throughout :
+
+POCL Post Office Counters Ltd. The organisation responsible
+for operating the outlets through which Horizon will be
+delivered to the end customer.
+
+COMMERCIAL IN CONFIDENCE Page 9 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+41
+
+4.2
+
+What is Horizon?
+
+Background
+
+Horizon was the total solution to the joint requirement of the Department of
+Social Security and Post Office Counters Limited which asked for the
+provision of a facility to transact most Post Office business and, in particular,
+the payment of benefits on each PO outlet counter across the UK.
+
+Following the withdrawal of the Benefit Agency from the contract on 24" May
+1999 the Horizon solution was de-scoped to deliver Post Office services only.
+However, the basic architecture and principles of Horizon have not changed
+with BA’s withdrawal.
+
+It achieves this through the provision of a number of SERVICES at the Post
+Office Counter delivered via the logical SYSTEM componentry shown in
+
+Figure 1.
+Pathway Central
+—_—TZ=_—d
+Links to POCL and Systems
+their clients
+
+Help Desk
+
+Distribution
+Mechanism
+
+Post Office
+Counter Systems
+
+Figure 1 : Overview of Horizon Logical Components
+Horizon Services Overview
+
+The services available at Core System Release are :
+
+e Order Book Control Service (OBCS) that ascertains the validity of a BA
+order book before payment is made. Note that this is a Post Office Service
+and subject to a separate contractual agreement between the Post Office
+and DSS
+
+« Electronic Point of Sale Service (EPOSS) that enables PostMasters to
+conduct general retail trade at the counter and sell products on behalf of
+their clients.
+
+COMMERCIAL IN CONFIDENCE Page 10 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+4.3
+
+« Automated Payments Service (APS) support for utility companies and
+others who provide incremental payment mechanisms based on cards and
+other devices.
+
+Each service is separate but all are delivered through the system architecture
+as shown in Figure 2. New services can be added simply by defining the
+business requirement, designing and constructing the software and utilising
+the existing architecture to deliver the service to the Post Office Counter.
+
+Order
+ESNS oBcs TT] oncs Book
++ Control
+Service
+Electronic
+RDS EPOSS T™s wan See} EPoss | | Panto!
+RDMC Service
+P| Automated
+HAPS APS | |Payments
++ Service
+Customer Distribution Wide Area PO Counter
+‘Systems Central (Host) Systems Mechanism Network Systems
+
+servies ppt
+
+Figure 2 : An Overview of Horizon Services and the Architecture
+Central Systems Overview
+
+The central systems comprise substantial computers running large relational
+databases with on-line access for the Help Desk service.
+
+The central systems are responsible for:
+e Receiving information from POCL and its clients
+
+« Storing incoming information and in some cases using it to modify existing
+information
+
+e Transforming it into a format suitable for the counter applications
+
+e Passing information to the counter applications via the distribution
+mechanism
+
+COMMERCIAL IN CONFIDENCE Page 11 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+44
+
+4.5
+
+46
+
+e Receiving information back from the counter applications via the
+distribution mechanism
+
+e Storing returned information
+e Passing information back to POCL and its clients
+
+e Summarising information into an appropriate format for management
+information access
+
+Distribution Mechanism Overview
+
+The distribution mechanism takes one logical stream of information from the
+central systems and fans it out to the almost 20,000 outlets across the UK.
+Conversely, it receives input from the almost 20,000 outlets and funnels it in
+to one logical stream.
+
+Counter Systems Overview
+
+The counter systems provide interactive support for all staff in every Post
+Office and are capable of operating even if they lose their connection to the
+centre. Other than in fallback mode all outlet transactions take place directly
+through this facility and the result of every transaction is captured and
+returned to POCL. The results of certain specific transactions are returned
+directly to the DSS and others to automated payment clients of POCL.
+
+If the counter system is not available for any reason the Post Office operates
+in fallback mode whereby transactions are authorised on a case by case
+basis by the Horizon System Helpdesk. On return of the counter details of
+transactions made in fallback mode are input in bulk by the Post Master.
+
+Most of the transactions that occur at the counter are unplanned in that
+nothing exists to represent an individual transaction until a customer walks up
+to the counter and asks for some service or product.
+
+Horizon System Helpdesk Overview
+
+This provides POCL outlet staff with a single point of contact for dealing with
+all problems relating to the system procedures and the Horizon system
+installed in outlets.
+
+COMMERCIAL IN CONFIDENCE Page 12 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+5 The Horizon Services & Systems
+
+5.1. Diagramming Conventions
+
+Within each Horizon Service, be it Operational or Operational Support a
+number of business processes are enacted in order to deliver the required
+customer interaction. Similarly the Pathway Commercial Systems initiate
+business processes in order to deliver the required end product. Each
+business process requires data to allow it to operate and generates data to
+confirm the transaction and report the outcome.
+
+Diagramming conventions have been used as shown as shown in Figure 3 :
+
+Data Flow
+Process = —
+
+Data Store
+
+iaman-03
+
+Figure 3 : Diagramming Conventions
+A process is an IT component that manipulates the data in some way.
+
+An external entity is a component that sits outside the scope of the diagram
+but communicates with a process within it. Conventionally, flows between
+external entities are not shown, but in this case they are shown where they
+add to the overall understanding of the diagram.
+
+A data store is a mechanism which holds data in a persistent manner for a
+significant amount of time. In this context significant means longer than the
+processing time of the processes to which it connects. Thus transient data is
+NOT held within a data store.
+
+The data flow arrows indicate the nature and direction of the data between
+processes, external entities and data stores.
+
+The following sections provide a ‘Level 1’ decomposition of the various
+business processes enacted at Core System Release (CSR). Each consists
+of the data flow diagram for that element of the service and a brief resume.
+
+COMMERCIAL IN CONFIDENCE Page 13 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+6 Horizon Operational Services
+
+6.1 Order Book Control Service
+
+6.1.1 Control Notice Processing
+Data Flow Diagram
+
+&
+
+Stop/Recall/Purge
+
+CORN File i]
+
+OBCS Host Stop/Recall/Purge
+i
+
+System > Central Stop!
+FAD Code Redirect!
+Retuin List
+Stop/Recall/Purge
+Transaction
+Management
+System
+
+‘Stop/Recall/Purge
+
+!
+
+‘OBCS (Counter
+
+5 Stop/RecallPurge
+
+Local Stop
+List
+
+iaman-06
+
+Resume
+
+ESNS transmit a single Control Notice for an Order Book. This Notice may be
+to Stop or Impound an Order Book on next presentation, or to Purge existing
+Control Notices from the Central and Local databases.
+
+The Control Notice is compared with the Central CRN (Customer Reference
+Number) database and a separate CN record generated for each Post Office
+where the Order Book has been previously submitted. The FAD code is
+added to the CN record and passed to TMS where the CN records are
+distributed to each Post Office at which point they are added to the Local CN
+database.
+
+Further Information
+IA/SPE/001 : OBCS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE Page 14 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+6.1.2 Benefit Book Receipt
+Data Flow Diagram
+
+Transaction Result
+
+BCS Host M 1
+pian) = Central Stop
+Redirect!
+i Retum List
+Stop Notices
+Transaction Result
+Transaction
+Management
+System
+Stop Notices
+Transaction Result
+.
+fe oacs !
+ol (Counter) | J“ Pr Loos Stop
+Local CRN Redirect!
+File N 1 Return List
+
+Local CRN Enquiry + Result
+Local Stop enquiry + result
+Central CRN enquiry + result
+
+Order Book
+
+Transaction Result
+
+iaman-07
+
+Resume
+
+The Post Office receives a new Order Book (OBs may be received in
+batches) from the Benefits Agency and is ‘accepted’ by the Post Master. Any
+Control Notices that exists for the OB are applied after which the OB is either
+available for collection by the beneficiary or is immediately impounded and
+returned to the Benefits Agency.
+
+Transactions confirming the actions taken are sent back, via TMS to OBCS.
+Further Information
+IA/SPE/001 : OBCS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE Page 15 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+6.1.3 Benefit Book Handover
+
+Data Flow Diagram
+
+Transaction Result
+OBCS Host
+System
+Transaction Result
+Transaction
+Management
+System
+Transaction Result
+‘oBcs ‘Stop Instruction . ]
+(Counter) ||“ Local Stop!
+Redirect!
+\ Retum List
+
+Transaction Result Stop Instruction
+
+Stopped Order Book
+
+Order Book
+(unles stopped)
+
+Form of Authority or
+Expired Book
+
+Form of Authority
+
+Benefits
+‘Agency
+
+laman-08
+
+Resume
+A benefit claimant arrives at the Post Office with an appropriate form of
+
+authority to pick up the new Order Book. This may be an expired OB or some
+
+other form as notified to the claimant.
+
+The Local CN database is checked to see if any Control Notices have been
+received since the book was ‘accepted’ and if not, the OB is ‘activated’ and
+handed to the beneficiary.
+
+Transactions recording the result of the activity are sent back to ESNS via
+TMS and OBCS.
+
+COMMERCIAL IN CONFIDENCE Page 16 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+This is normally followed by a benefit encashment.
+Further Information
+IA/SPE/001 : OBCS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE Page 17 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+6.1.4 Benefit Encashment
+
+Data Flow Diagram
+
+S
+
+‘Transaction Result
+
+OBES Host i
+System > Central Stop!
+Redirect!
+i Retum List
+‘Transaction Result Stop Notice
+Transaction
+Management
+System
+Stop Notice
+Transaction Result
+ee ‘opcs Stop Notice s i
+—_ 1 Counter) | Lal Stop
+Local CRN Redirect!
+File N Retum List
+‘Stop Notice
+Transaction Result
+‘Stopped Order Book
+Post Office
+Cash +
+Benefit Book +
+Benefit Book {Milk Tokens}
+
+laman-09
+
+Resume
+
+Having obtained the new Order Book, or already being in possession of one,
+the beneficiary wishes to encash one of the foils for a benefit payment.
+
+The book is presented to the Post Master and the local CN database checked
+for any Control Notices that should be applied. Depending on the outcome of
+that check there could be one of three outcomes :
+
+e The benefit is paid to the claimant and the book returned to him/her.
+e The benefit is paid but the book is impounded afterwards.
+
+e The book is impounded immediately and no benefit is paid.
+
+Further Information
+
+IA/SPE/001 : OBCS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE Page 18 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+6.2 Automated Payments Service
+
+6.2.1 Standard Payment Using Token
+
+Data Flow Diagram
+
+AP Transaction Details
+
+POCL RDS AP Host TPS
+Type A&B
+Reoronee Data AP Transaction Details
+Full Transaction Details
+Reference Data All Reference Data Transaction
+Management || Management
+Centre System Full Transaction Details
+
+type All Reference Data
+
+Reference Data 1
+
+‘Automated AP Transaction Details
+Payments, || EPoss
+Service
+
+Bill Payment (barcode)
+Pre-payment (Card)
+Money
+
+Bill Payment (barcode)
+Pre-payment (Card)
+Money
+
+Receipt
+
+laman-10
+
+Resume
+
+Automated Payments enables members of the public to pay bills from various
+utilities and other organisation who have a bill paying agreement with the
+Post Office. It also allows for pre-payment of money against future use of a
+utility.
+
+The customer presents the utility bill or card and cash to the Post Master who
+issues a receipt. Transaction details are sent to POCL HAPS at Farnborough
+and POCL TIP at Chesterfield for subsequent processing and reconciliation
+with their clients.
+
+Further Information
+
+IA/SPE/002 : APS Audit Trail Specification
+COMMERCIAL IN CONFIDENCE Page 19 of 68
+
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+6.2.2 Payment Reversal
+Data Flow Diagram
+
+Business Rules AP Transaction Details,
+Reference Data
+
+POCL RDS
+
+Business Rules
+Reference Data
+
+AP Host TPS
+
+A iy
+
+AP Transaction Details
+
+Full Transaction Details
+
+ae aE Business Rules
+jeference Data Reference Data Transaction
+
+Management ]| Management
+Centre System Full Transaction Details
+
+Business Rules
+Reference Data
+
+il
+
+‘Automated AP Transaction Details
+Payments || EPOSS
+Service
+
+i
+
+Original Payment Receipt
+
+Reversal Receipt
+Money
+
+Jaman-25
+
+Original Payment Receipt
+
+Resume
+
+There will be times when the POCL Customers wishes to change or reverse
+entirely an Automated Payment transaction made earlier. APS allows this to
+happen as long as certain POCL Business Rules surrounding reversals are
+
+met :
+
+a. Transactions shall only be reversed in the office in which the original
+transaction took place
+
+b. A transaction cannot be reversed if it has been forwarded to POCL or
+the Client
+
+c. A transaction must be available for reversal until the end of business
+day on which the transaction was performed
+
+d. Eligibility for reversal is subject to the constraints of the token
+
+technology of the transaction and the AP Client Specification
+COMMERCIAL IN CONFIDENCE Page 20 of 68
+
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+The Customer must have the Original Printed Receipt before the reversal can
+commence. If the rules applicable to the scheme have been met, and the
+original transaction is still available to be reversed, it will be and the money
+returned to the Customer. A second, Reversal Receipt, is produced by the
+system and handed to the Customer.
+
+Further Information
+IA/SPE/002 : APS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE Page 21 of 68
+ICL Pathway Horizon System Audit Manual (CSR)
+
+Ref:IA/MAN/004.
+Version:1.3
+Date:17/01/00
+
+POL00029165
+POL00029165
+
+6.2.3. Automated Payments Reconciliation
+
+Data Flow Diagram
+
+Y
+
+AP Host
+
+y
+
+.
+
+All
+Transactions
+
+Resume
+
+Transaction
+Processing
+‘System
+
+Y Y
+
+5
+
+.
+
+1
+
+‘Automated
+Payments
+Reconeiliation
+
+"AP,
+Transactions
+
+l
+
+AP Reconciliation
+Report
+
+—
+
+laman-26
+
+‘All
+Transactions
+
+AP Transactions are reconciled on a daily basis by Horizon. The
+reconciliation is between AP transactions to be sent to POCL and those to be
+
+sent to each POCL <Client>.
+
+Reconciliation is used to demonstrate that the same transactions have been
+sent to each party and if not an explanation can be found.
+
+Further Information
+
+IA/SPE/002 : APS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE
+
+Page 22 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+6.3 Electronic Point of Sale Service
+
+6.3.1 Sale of EPOSS Product
+Data Flow Diagram
+
+Reference Data
+
+Y
+
+Reference Data
+Management
+Centre
+
+Reference Data
+
+! EPOSSTransacton
+
+Transaction Details
+Management
+System
+
+EPOSS Transaction Reference Data
+Details
+Poss
+Transaction Details Reference Data
+Sale Product Receipt
+
+laman-13
+
+Resume
+
+The customer selects one, or a number, of consumer products that are
+available for sale within the Post Office. These may be products being sold by
+PO on behalf of another organisation, eg. DVLA car tax discs, or pure
+consumer goods, eg. sweets. Only those goods that are identifiable on the
+menu hierarchy may be sold in an outlet and this is controlled through the
+transmission of reference data from the Post Office to the counter via the
+Reference Data Management Centre.
+
+Variable information about the products, eg, price. is also sent to the outlet
+via reference data.
+COMMERCIAL IN CONFIDENCE Page 23 of 68
+
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+Further Information
+IA/SPE/004 : EPOSS Audit Trail Specification
+
+COMMERCIAL IN CONFIDENCE Page 24 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+6.4
+
+6.4.1
+
+6.4.2
+
+6.4.3
+
+Horizon System Help Desk
+
+Service Overview
+
+The Horizon System Helpdesk (HSH) deals with all technical and operational
+calls related to the Horizon environment or the data feeds into Horizon from
+Post Office Counters Ltd and their clients. It provides a single point of contact
+for outlet staff and Horizon operation staff.
+
+Schematic
+The following diagram shows the main data flows within HSH.
+
+DSS Staff )
+
+|!
+
+oo ee Feo
+
+Outet Based ges ifcidents Unplanned Outlet
+
+erossnags Incidents
+
+Horizon System
+Helpdesk
+
+Call Re-
+direction
+
+ther
+Helpdesks
+
+laman-19.ins
+
+Data Input Streams
+
+From POCL outlet staff, calls relating to system procedures and Horizon
+system equipment installed in outlets
+
+From DSS staff, OBCS queries via the ITSA Service Helpdesk.
+
+From POCL (HAPS) staff, EPOSS and APS queries via the POIT Helpdesk.
+
+COMMERCIAL IN CONFIDENCE Page 25 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+6.4.4
+
+From POCL Regional HQ, unplanned office closure details via the POCL
+Regional Helpdesk.
+
+From ICL Pathway, calls relating to any element of the Horizon system.
+Data Output Streams
+Essentially all output streams will consist of the advice and guidance
+
+requested by the incoming call. In some instances the call will be re-directed
+to an alternative Helpdesk more appropriate to the nature of he incident.
+
+COMMERCIAL IN CONFIDENCE Page 26 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+Horizon Operational Support Services
+
+Reconciliation Exception Database (APS/EPOSS)
+
+System Overview (APS)
+
+The role of the BSU is to ensure that all APS transactions that occur at the
+Post office counter reach the intended Clients. The transaction details must
+pass across a number of system boundaries that may cause rejections (or
+non-deliveries) which have to be progressed by the BSU with the assistance
+of other ICL Pathway units.
+
+The BSU will generate reports on those incidents and record them on the
+BSU APS Reconciliation Exception Database (RED). Each new incident will
+generate a RED report that is updated and ensures that an audit trail is
+available for each incident.
+
+The RED report is used for two reasons:
+
+« to inform POCL Chesterfield and Farnborough of the details of the APS
+transaction(s) which have been rejected (undelivered) and to give them the
+correct transaction details so that they can be forwarded to the correct
+Clients for settlement, and
+
+e to inform POCL Chesterfield and Farnborough that the incident has been
+cleared and, when agreed between ICL Pathway and POCL, closed.
+
+There are potentially 6 types of incident that may be dealt with through RED
+(APS) :
+
+a. Incidents at ICL Pathway Central Systems
+
+The APS Host prepares APS Transaction files for transmission to POCL
+HAPS. The TPS Host prepares will also create AP Transaction files as well
+as TPS Transaction files for TIP. The ICL Pathway Central Systems will
+receive both sets of AP Transaction files and reconcile the two files on a
+transaction by transaction basis. Files that pass validation are sent straight to
+HAPS.
+
+If there are any differences then these discrepancies are stored in the APR as
+discrepancies.
+
+b. Unmatchd Reversals
+
+The ICL Pathway Host APS also checks to see that any reversed transactions
+have a matching pair of transaction details i.e. that there is an original and a
+reversed transaction.
+
+If the Host APS has a reversed transaction to which it can not find the
+original, then the reversal is rejected by the Host and put into an APS
+exceptions table. Every entry that goes into this table causes an event to be
+raised.
+
+COMMERCIAL IN CONFIDENCE Page 27 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+c. Incidents on APS Reconciliation Reports
+
+The BSU will receive a number of APS reports from ICL Outsourcing (CFM)
+everyday and these reflect the APS transactions that have occurred at Post
+Offices using the APS during the previous business day.
+
+This report shows the number and value of the APS transactions which have
+been transferred to HAPS and to TIP for the previous business day. The
+report will show any timing delay exceptions which are normally resolved the
+following day. However, some exceptions are more than merely timing delays
+in which case they become ‘Confirmed Exceptions’ and have to be resolved
+by the BSU.
+
+d. Incidents at HAPS Farnborough
+
+HAPS receives AP transactions files from ICL Pathway APS daily. It carries
+out a validation check on the files, merges the APS files with other Post office
+transaction files (i.e. APT and ECCO transactions) and then sorts the
+transactions by Client. The data collated enables POCL Farnborough to
+inform the Clients of their transaction payments for the previous accounting
+day.
+
+HAPS may reject individual transactions if the Client ID details on those
+transactions are not recognisable by the system.
+e. Incidents at TP Chesterfield
+
+POCL Chesterfield receives transaction data from the HAPS data stream and
+the TPS data stream. The HAPS data must pass through a pre-APACHI
+validation check before accepted by APACHI. The validation process checks
+all the data details to ensure that the right payments go to the right Clients.
+
+The system causes a number of transactions to appear duplicated which
+would be picked up by the pre-APACHI validation check.
+
+f. Incidents at the AP Client
+
+AP Clients receive their APS payments from the Settlement team at POCL
+Chesterfield on a daily basis.
+
+There are two categories of Clients :
+e Girobank who acts on behalf of a number of Utility and Service companies.
+e Non-Girobank Clients whom POCL Chesterfield deals with directly.
+
+The Public Customer may query their Utility bill with regards to payments
+made at the Post office, e.g. a payment has been shown incorrectly or does
+not appear on the Customer's bill.
+
+The Customer will initially contact the AP Client with their query. The AP
+Client may be able to resolve the query without taking the incident further.
+However if the Client is unable to resolve the incident, then they will contact
+POCL at Chesterfield and ask them to resolve the incident.
+
+COMMERCIAL IN CONFIDENCE Page 28 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+7.1.2 System Overview (EPOSS)
+
+ICL Pathway is not responsible for directly reconciling EPOSS transactions.
+There is an obligation to pass raw transaction data to POCL TP daily,
+followed by a completed post office Cash Account on a (generally) weekly
+basis. POCL are then responsible for reconciling the individual transactions
+to the Cash Account totals to provide a national picture.
+
+However, on occasions, due to system constraints, e.g. reversals being
+prevented due to Cash Account roll over etc, an office may well submit a
+Cash Account to POCL TP, which is known to be incorrect. In such cases,
+POCL TP will require full details of the transaction in question to enable the
+reconciliation and settlement or the error notice procedures to be effected. An
+incident is therefore raised via the HSHD and passed to BSU who will
+complete the appropriate RED entry advising POCL of the correct transaction
+or settlement values.
+
+7.1.3 Schematic
+
+=e
+
+POCL TP seal eeaiocan
+= ES Eo
+acta vane{dos Faltare Inmatched Reversals isctepancies
+APACHI Validation Failures APS Incidents: . jag - APR Discyepanch
+—
+mae
+=
+=
+=
+.
+1 ‘required 1
+Sy =
+SURED Management —_
+
+Perens Adjesenens
+
+I
+Wars
+Fanboroinh {hint
+
+aman 08
+
+Gi
+
+COMMERCIAL IN CONFIDENCE Page 29 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+7.1.4 Data Input Streams
+
+APS Reconciliation Report from ICL Outsourcing
+APS Summary Report from ICL Outsourcing
+
+Ten Day Exception Report from ICL Outsourcing
+Polling Exception report from ICL Outsourcing
+APS Discrepancy Table from APS Host
+
+PinICLs with details of Incident to be investigated
+
+Data Output Streams
+
+RED Report to originator of incident
+
+Copy of RED Report to HAPS Farnborough, TP Chesterfield & Horizon
+Service Management
+
+Data Retention Requirements
+
+RED Reports are retained for 7 years.
+
+COMMERCIAL IN CONFIDENCE Page 30 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+7.2 Reference Data Management Centre
+
+7.2.1
+
+System Overview
+
+The Reference Data Management Centre (RDMC) is a the mechanism which
+receives reference data from both POCL and from within Pathway and
+delivers it to the various parts of the Horizon system. RDMC includes
+
+a.
+
+Procedures to handle the receipt, validation and storage of reference
+data
+
+Change control facilities to manage the controlled release of reference
+data to the Pathway system
+
+Data transformation procedures which handle the ‘enrichment’ of
+reference data into the format required by the Pathway Counter
+Applications.
+
+Delivery of reference data to the Pathway Counter Applications to
+support the processing of EROSS and APS. EPOSS and APS counter
+processing functionality is generic and the individual transactions are
+driven to a great extent by reference data parameters
+
+Delivery of reference data to other areas of the Pathway system such
+as TPS, MIS and APR
+
+RDMC does not support any BA reference data.
+
+COMMERCIAL IN CONFIDENCE Page 31 of 68
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+7.2.2 Schematic
+Type 'B’ &'C*
+Reference Data
+|) <
+: Reference Data C=ED =
+SOO Reference Data Loading
+Type"
+Reference Data
+REFERENCE
+DATA
+MANAGEMENT
+CENTRE
+Reference Data
+Cour ow Ps AR
+cenraen
+Reference Data
+i
+Counter TMS 7
+Journal
+iaman-29 ins
+7.2.3 Data Input Streams
+Reference data is categorised as
+Type A POCL owned reference data delivered via the formal automated
+interface
+Type B POCL owned reference data delivered other than via the formal
+automated interface.
+Type C Pathway owned reference data which supports the Counter
+
+Application System.
+
+COMMERCIAL IN CONFIDENCE Page 32 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+Type A Data
+
+This reference data is delivered by POCL via a formally agreed interface.
+The data consists of outlet, client, product and automated payment token
+definitions. It is transferred from POCL to Pathway using FTMS.
+
+RDMC processes each file of reference data delivered by POCL and returns
+error details and process statistics to POCL via FTMS. FTMS will ensure all
+data transfer information required for auditing is available for collection by the
+Archive Server.
+
+Type B Data
+
+This consists of reference data which is supplied by POCL but was not
+included in the formally agreed Type A interface — mainly because the
+requirements for and / or the decision to supply the data was taken at a late
+stage in the Release 2 design. The data consists of cash accounting
+mappings, scales tariffs, product discount and product migration definitions.
+
+Formal procedures are agreed with POCL to support the delivery of this data
+from POCL to Customer Services. Customer Services then manages the
+preparation of the data for input to RDMC with the support of Counter
+Development.
+
+An audit record is maintained by the archive server of all reference data files
+received by RDMC and of the associated error details and process statistics.
+
+Type C Data
+
+This consists of reference data which Counter Development supply to
+support the Pathway Counter application. The best example of this type of
+reference data is the menu hierarchy definition. The data is delivered by
+Counter Development to Customer Services.
+
+Customer Services manage the loading of the data into RDMC. An audit
+record is maintained by the archive server of all reference data files received
+by RDMC and of the associated error details and process statistics.
+
+Rollout Auto-Config Data
+
+At a specific point in the automatic configuration of new POCL outlets, the
+auto-config process sends details of the offices to be rolled out to RDMC by
+creating data files in the RDMC environment. The data is loaded
+automatically into RDMC where it triggers the delivery of reference data for
+the newly rolled-out offices to other areas of the Pathway system.
+
+An audit record is maintained by the archive server of all reference data files
+received by RDMC and of the associated error details and process statistics.
+
+COMMERCIAL IN CONFIDENCE Page 33 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+7.2.4
+
+7.2.5
+
+Data Output Streams
+
+Reference Data to Pathway Counter Applications
+
+RDMC delivers new and changed reference data to the Pathway Counter
+Applications via a Reference Data Agent process (R_LD_ALL). This process
+reads generic views of the reference data within RDMC and extracts details
+of reference data changes. The agent process then converts the data into
+attribute grammar format for and delivers it to the Correspondence Server
+level.
+
+RDMC maintains a audit record of when each set of input data is delivered to
+the Correspondence Server.
+
+Delivery of Reference Data to Other Pathway Systems
+
+RDMC delivers changes to outlet, client and product reference data to MIS
+each day. An audit record is maintained by RDMC of when each set of input
+data is delivered to MIS.
+
+Additionally, RDMC provides an up-to-date view of outlet and client details to
+the TPS and APR host system
+
+Data Retention Requirements
+
+RDMC operates as a fully replicated system across two sites offering
+immediate resilience in the event of failure. Data is transmitted a number of
+times each day between RDMC and the POCL RDS system at Huthwaite via
+dedicated ISDN lines.
+
+In the event of failure, fallback processors and links are in place.
+Reference Data received from POCL into RDMC is retained for 18 months.
+
+COMMERCIAL IN CONFIDENCE Page 34 of 68
+ICL Pathway
+
+Horizon System Audit Manual (CSR)
+
+POL00029165
+POL00029165
+
+Ref:|A/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+ICL Pathway Commercial Systems
+
+Service Level Contract Administration
+
+Overview
+
+SLCA, and its associated reporting system Service Level Agreement
+Monitoring (SLAM) are used to compare the performance of the Horizon
+system against a number of measures established in the contract Schedule
+BO3. It does this by taking information feeds from the Data Warehouse (DW)
+and running these against special formulae, again established in the contract.
+SLAM is used to report the outcome of these calculations to the Horizon
+Service Management Group, a Pathway/POCL committee.
+
+Schematic
+The following diagram shows the main data flows within SLCA.
+
+Horizon
+TPS Harvester copes APS ROMC Voscae Manual input
+
+‘Transaction File File Ref Data
+Timing Data Delivery Times. Delivery Times. Delivery Times
+
+Helpbesk
+
+Rollout, Training,
+Timing Data ‘te,
+
+= ea
+te
+Contract ‘Standing Administration
+
+Tandng
+Data
+Changes
+
+=
+
+SLAM
+Reports
+
+Service
+Management
+Group
+
+iaman-t8 ins
+
+COMMERCIAL IN CONFIDENCE
+
+Page 35 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+8.1.3
+
+Data Input Streams
+
+Transaction Data (Automatic Feed)
+
+Transaction timing data is taken by the TPS Harvester.
+Helpdesk timings are taken from the Horizon Helpdesk.
+File delivery times are taken from OBCS and APS.
+Reference Data delivery times are taken from the RDMC.
+All the above are held as Oracle tables within the DW.
+Transaction Data (Manual Feed)
+
+There are a number of manual data feeds into SLCA, all of which result in
+Oracle tables within the DW, eg. Achievement of Rollout, achievement of
+Training.
+
+Standing Data
+
+SLA parameters (as defined by the contract) are held as Oracle tables within
+the DW.
+
+Mathematical formulae used to calculate achievement (as defined in the
+contract) are held as Oracle tables within the DW.
+
+Changes to Standing Data
+
+Changes to the SLA Parameters and mathematical formulae are allowed via
+an Administration Facility within the SLCA system. Physical access to this
+facility is strictly controlled and password controls are used to control logical
+access.
+
+Changes to the parameters and/or formulae require pre-authorisation through
+the Change Control process before they can be applied. ACCN number must
+exist for each change.
+
+Records of changes to Standing Data, including Contract, Contract SLA,
+Performance Measure and Liquidated Damages are maintained in an
+AUDIT_DETAILS table within the Oracle database :-
+
+e For each field in the Contract table created, amended or deleted a record
+of the change.
+
+e For each field in the Contract SLA table created, amended or deleted a
+record of the change.
+
+e For each field in the Performance Measures table created, amended or
+deleted a record of the change.
+
+e For each field in the Liquidated Damages table created, amended or
+deleted a record of the change.
+
+COMMERCIAL IN CONFIDENCE Page 36 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+8.1.5
+
+Data Output Streams
+
+Data output from the various calculations are passed to Service Level
+Agreement Monitor (SLAM) where they are converted into graphs and
+histograms for presentation to interested groups among them the
+POCL/Pathway Service Management Group. SLAM is a passive system
+insofar that it does not carry out any processing other than to transform tables
+of numbers into graphical representations.
+
+Remedy Calculations are generated by SLCA for subsequent application
+during the quarterly invoicing cycle within the Common Charging System.
+These values are held as Oracle tables within the DW.
+
+Data Retention Requirements
+
+Requirement 697 calls for this data to be retained for 7 years.
+This data is not archived onto the audit archive DLTs.
+
+COMMERCIAL IN CONFIDENCE Page 37 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+9.1
+
+9.2
+
+9.2.1
+
+9.2.2
+
+9.2.3
+
+Operational Audit Data
+
+This section deals with the generation of audit data that is of interest to the
+community of auditors.
+
+Audit Track Content And Maintenance
+
+A logical description of the audit tracks established within Horizon can be
+found in the Audit Trail Functional Specification [1]. The physical
+manifestation of the audit tracks is the production of various files, transfer
+control files, archived database tables and the host databases themselves,
+some of which are archived to the Audit Archive, some of which are
+maintained as live databases subject to regular backup.
+
+The following sections identify, for each Horizon service, the physical
+representation of the audit tracks described in [1]. A more complete
+description can be found in the Audit Data Catalogue [6].
+
+Audit Data Retention Policy
+
+Operational Services Audit Data
+
+Audit data relating to the Operational Services described in this manual is
+retained for not less than 18 months.
+
+Operational Support Services Audit Data
+
+Audit data relating to RED Case Histories is retained for 18 months.
+Audit data relating to RED Outputs is retained for 7 years
+
+Audit data relating to RDMC is retained for 18 months.
+Commercial Systems Audit Data
+
+Audit data relating to the Commercial Systems described in this manual is
+retained for 7 years.
+
+COMMERCIAL IN CONFIDENCE Page 38 of 68
+ICL Pathway
+
+Horizon System Audit Manual (CSR) Ref-|A/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+9.3 Order Book Control Service
+
+Customer Ref
+ESNS i Al | OBCS Host (B] ia oe ——
+Book Order Totals
+[8]
+OBCS Agent
+oa IN] | TMS Journal
+jaman-22a
+Ref | Name Direction Description
+[A] | OP Transaction OBCS Host > | Outward file containing details of all Order Book
+File ESNS transactions made at PO Counters.
+Exceptions File OBCS Host > | Outward file containing details of exceptions
+ESNS found when validating Control Output Files
+received from DSS. File sent even when empty.
+!OP Control ESNS > Inward file containing details of transactions to
+Output File OBCS Host support Order Book encashments.
+[Audit Control File IESNS > OBCS Inward file containing details of files transferred in
+Host jacross the interface.
+Ref | Name Direction Description
+[B] | TMS_TX_LOCAL_ | OBCS Host> | Contains details of stops received from ESNS
+STOPS TMS for customers that OBCS knows about.
+arc-excptns OBCS Contains details of exceptions that have
+database occurred during the database archiving
+tables processes.
+laud$ |The generic Oracle audit trails table.
+Ref | Name Direction Description
+[IN] | Riposte messages | TMS Journal All messages written to the Correspondence
+server.
+
+COMMERCIAL IN CONFIDENCE
+
+POL00029165
+POL00029165
+
+Page 39 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+9.4 Data Warehouse/MIS
+
+[DN : To be reviewed when Codification of Heads of Agreement finalised]
+
+Horizon Help
+Desk
+1P3)
+Y
+PASICMS Host HT et ee ee RODS Host
+IR]
+Y
+Internal Audit
+Data
+iaman-22¢
+Ref |Name Direction [Description
+(R] {Internal Audit MIS Note that MIS has its own archiving system at
+Files INR2 and is specifically excluded from the
+loperational audit archive.
+Ref |Name Direction Description
+[X] [Mitel Call Log Mitel > MIS. [Contains all Mitel call log details for that day
+[Control File Mitel > MIS. [Control file containing details of transmitted files.
+Lock File Mitel > MIS. Lock file indicating that file transmission is
+
+Icomplete.
+
+IFTMS Control File Mitel > MIS [Control Files for files transferred from Mitel.
+
+IBT Call Log IBT > MIS [Contains all BT call log details for that day
+[Control File IBT > MIS [Control file containing details of transmitted files.
+Lock File IBT > MIS Lock file indicating that file transmission is
+Icomplete.
+FTMS Control File | BT > MIS Control Files for files transferred from BT.
+IHSH Call Log IHSH > MIS \Contains all HSH call log details for that day
+[Control File IHSH > MIS [Control file containing details of transmitted files.
+
+COMMERCIAL IN CONFIDENCE Page 40 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+Ref |Name Direction [Description
+[X] [Lock File IHSH > MIS Lock file indicating that file transmission is
+cont’ Icomplete.
+id
+IFTMS Control File [HSH > MIS \Control Files for files transferred from HSH.
+
+COMMERCIAL IN CONFIDENCE Page 41 of 68
+ICL Pathway
+
+Horizon System Audit Manual (CSR)
+
+Version:1.3
+Date:17/01/00
+
+Ref:|A/MAN/004
+
+POL00029165
+POL00029165
+
+9.5 Automated Payments Service
+
+HAPS: AP Clients
+v 7
+[kK] tu
+~
+RDDS Host APS Host
+Vs
+APR Host APS Agent
+Correspondence IN] ieee
+Seners
+iaman-224
+Ref |Name Direction [Description
+(K] [Transaction File IAPS Host > [Automated Payments transactions from APS
+HAPS lback to HAPS.
+[TXN Control File IAPS Host > IHAPS transactions control file indication files
+IHAPS lsent by APS.
+IFTMS Control Files |APS Host > \Contains FTMS details of files to be sent to
+HAPS HAPS
+IFTMS APS Host > [Contains the FTMS acknowledgement from the
+|Acknowledgement |HAPS remote end of link for files sent.
+File
+Errors File IHAPS > AP. Errors relating to HAPS Transaction File.
+Host
+Confirmation File IHAPS > AP \Confirmation file that a transmitted file has
+[Host passed validation.
+IFTMS Control Files |HAPS > AP \Contains FTMS details of files transferred from
+Host HAPS
+
+COMMERCIAL IN CONFIDENCE
+
+Page 42 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+Ref | Name Direction Description
+[L] | This is the audit This interface will not be used until NR2+,
+point for files therefore no data files are captured.
+transferred
+between APS
+Clients and APS
+Ref | Name Direction Description
+IN] | Riposte messages | TMS Journal All messages written to the Correspondence
+server.
+
+COMMERCIAL IN CONFIDENCE Page 43 of 68
+ICL Pathway
+
+POL00029165
+POL00029165
+
+Horizon System Audit Manual (CSR) Ref-|A/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+9.6 Transaction Processing
+
+TIP
+WJ]
+RDMC Host PI TPS Host RDDS Host
+il
+TPS Agent A) APR Host
+ie ue IN] Correspondence
+Sener
+jaman-22e
+Ref |Name Direction [Description
+[J] {Transaction File TPS Host > TIP |TIP transactions in multi structured subfiles
+IFTMS Control Files |TPS Host > TIP |Contains FTMS details of files to be sent to TIP.
+IFTMS TPS Host > TIP |Contains the FTMS acknowledgement from the
+[Acknowledgement remote end of link for files sent.
+File
+Errors Details File ITIP > TPS Host |Errors relating to TIP Transaction File.
+
+Erroneous Data File
+
+|TIP > TPS Host
+
+File which was found to contain errors returned
+together with the error details file.
+
+IFTMS
+
+Control Files
+
+[TIP > TPS Host
+
+\Contains FTMS details of files transferred from
+ITIP
+
+COMMERCIAL IN CONFIDENCE Page 44 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+Ref | Name Direction Description
+[P] | This is the audit There is no data archived from the RDMC
+
+point for data
+
+database at NR2 and thus any audit
+information required will be available from the
+
+transformation
+within the RDMC online service.
+database.
+Ref | Name Direction Description
+IN] | Riposte messages | TMS Journal All messages written to the Correspondence
+server.
+
+COMMERCIAL IN CONFIDENCE Page 45 of 68
+ICL Pathway
+
+Horizon System Audit Manual (CSR) Ref-|A/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+9.7 Reference Data
+
+POCL RDS
+A
+IM]
+y
+RDMC Host (Pl fa TPS Host
+y
+eae RDDS Host ‘APR Host
+y
+RDMC Agent APS Host
+y
+crercae N | TMs Journal
+iaman-22t
+[Ref Name Direction [Description
+[M] |POCL Reference IRDMC Host > Errors associated with the POCL supplied
+Data Errors File IPOCL RDS Reference Data.
+IPOCL Reference IRDMC Host > [Errors associated with the POCL supplied
+Data Statistics File [POCL RDS Reference Data.
+IFTMS Control Files |RDMC Host > Contains FTMS details of files to be sent to
+IPOCL RDS IRDMC Host from POCL.
+IFTMS IRDMC Host > |Contains the FTMS acknowledgement from the
+[Acknowledgement |POCL RDS remote end of link for files sent.
+File
+IPOCL Reference IPOCL RDS > __|POCL supplied Class ‘A’ Reference Data as
+Data File IRDMC Host defined in BP/IFS/007.
+IFTMS Control Files [POCLRDS > _ [Contains FTMS details of files to be sent to
+IRDMC Host IRDMC Host from POCL.
+
+COMMERCIAL IN CONFIDENCE
+
+POL00029165
+POL00029165
+
+Page 46 of 68
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+IRef |Name Direction [Description
+[M] |EPOSS Reference |RDMC IEPOSS Reference Data defined as Class ‘C’ in
+,|Data File IRD/IFS/011.
+Cont’
+id
+IEPOSS Load Error |RDMC IEPOSS Reference Data errors associated with a
+File Load File.
+IEPOSS Load IRDMC. IEPOSS Reference Data statistics associated with|
+Statistics File la Load File.
+Roll-Out Reference |RDMC Roll-Out Reference Data stating outlets activated
+Data File las defined in RD/IFS/015.
+Roll-Out Load Error |RDMC Roll-Out Reference Data errors associated with a
+File Load File.
+Roll-Out Load IRDMC Roll-Out Reference Data statistics associated
+Statistics File with a Load File.
+Scales Reference IRDMC. IScales Reference Data stating outlets activated
+Data File las defined in RD/IFS/014.
+Scales Load Error |RDMC \Scales Reference Data errors associated with a
+File Load File.
+[Scales Load IRDMC. \Scales Reference Data statistics associated with
+Statistics File la Load File.
+[Additional Products |RDMC Additional Products Reference Data stating
+Reference Data File joutlets activated as defined in RD/IFS/015.
+(Additional Products + |RDMC [Additional Products Reference Data errors
+Load Error File lassociated with a Load File.
+(Additional Products |RDMC Additional Products Reference Data statistics
+Load Statistics File lassociated with a Load File.
+\Cash Account IRDMC. \Cash Account Mapping Reference Data stating
+IMapping Reference outlets activated defined as Class ‘B’ in
+Data File IRD/IFS/012.
+Cash Account IRDMC Cash Account Mapping Reference Data errors
+IMapping Load Error lassociated with a Load File.
+File
+(Cash Account IRDMC |Cash Account Mapping Reference Data statistics
+IMapping Load lassociated with a Load File.
+IStatistics File
+Ref | Name Direction Description
+[P] | This is the audit There is no data archived from the RDMC
+
+point for data
+transformation
+within the RDMC
+database.
+
+database at NR2 and thus any audit
+information required will be available from the
+online service.
+
+POL00029165
+
+POL00029165
+
+COMMERCIAL IN CONFIDENCE
+
+Page 47 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+Ref | Name Direction Description
+IN] | Riposte messages | TMS Journal All messages written to the Correspondence
+
+server.
+
+COMMERCIAL IN CONFIDENCE Page 48 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+10
+
+10.1
+
+Operational Audit Data Archive Server
+
+Overview
+
+Audit data generated at various points in the Horizon solution is gathered
+periodically and placed on DLT for long term storage. Files containing audit
+data are generated by the various applications and systems and are placed
+into special directories established for audit purposes. These are periodically
+polled by the Audit Track Gatherer and the files drawn down into the audit
+archive server and placed on DLT.
+
+The Archive Server can be decomposed to show its component parts and a
+brief description of how they function. Figure 4 shows the basic componentry
+and Figures 5 and 6 the data flows that take place between them for archiving
+and retrieving audit data respectively.
+
+Audit
+Data
+
+Audit Track Audit Track Audit Track Audit Track ——
+Gatherer Deleter Sealer Hoarder Ce
+
+q
+Audit Track Audit Track ea Archive
+Extracto Retriever DLT Tapes
+
+Figure 4 : Componentry of the Audit Archive Server
+
+10.2 Archiving and Storing Audit Data
+
+10.2.1 Overview
+
+Essentially the activity here is to Gather all audit data files that have been
+placed into the appropriate directories, calculate a checksum seal value for
+each file (establishing a data integrity control) and placing the sealed file onto
+a DLT for storage
+
+COMMERCIAL IN CONFIDENCE Page 49 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+Applications Audit Archive & Storage
+Audit Fle
+—— avorr =
+Audit Fle DELETER a>
+— 7
+<> avoir =
+Audit File PT] GATHERERS e|
+TS
+<-> avoir Avot =
+Audit File P| GATHERERS ‘e)| AUDIT SEALER Lam HOARDER | rl.
+— T N-TMS
+=> = a = =
+Audit Fle GATHERERS Seal DB . a0
+ee” N-TMS(W) N-TMS(B)
+—_> Gatherer =
+Audit Fle Directory -—- =
+— N-TMS(W)
+Audit Fle
+—
+iaman-23.ins
+
+Figure 5 : Data Flow - Audit Data Archive & Storage
+
+COMMERCIAL IN CONFIDENCE Page 50 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+10.2.2 Audit Track Gatherer
+
+Gathers Audit Tracks that have been generated within Horizon. The majority
+of these tracks are created on different platforms and are gathered onto
+temporary disk storage on the Archive Server.
+
+Gathering is implemented using Windows NT remote disk access facilities for
+Correspondence Server, Tivoli Object Database and External Gateway Audit
+Tracks. NFS is used to collect files from Unix systems in particular the
+database applications, e.g. OBCS. The Audit Tracks are gathered at regular
+intervals. The Scheduling of the transfers varies with the type of Audit Point
+and the locations from which the tracks are gathered and is controlled via the
+Maestro scheduling facilities of Horizon.
+
+Multiple instances of the Audit Track Gatherer can be configured on a single
+Archive Server.
+
+10.2.3 Audit Track Sealer
+
+Before Audit Tracks are hoarded a seal is calculated for the file. The seal is
+stored on the Archive Server in a database which links the seal to the file.
+
+When an Audit Track is retrieved its seal is recalculated and checked against
+the value in the database.
+
+10.2.4 Audit Track Hoarder
+
+Transfers Audit Tracks from the Disk Storage on the Archive Server onto long
+term storage media (DLT tapes). This component is implemented using the
+Legato NetWorker product.
+
+10.2.5 Audit Track Deleter
+
+The Audit Track Deleter is responsible for the deletion of Audit Tracks from
+the machines on which they were generated after they have been gathered.
+The point in the processing of an Audit Track (by the Archive Server) at which
+the original copy of each gathered file is deleted is configurable. Audit Track
+Deletion takes place between the completion of Audit Track Gathering and
+some (configurable) time after the completion of Audit Track Hoarding for any
+particular Audit Track file.
+
+The Audit Track Deleter is also responsible for regularly producing a list of
+files processed by the Archive Server.
+
+COMMERCIAL IN CONFIDENCE Page 51 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+10.3 Retrieving and Extracting Audit Data
+
+LEGATO AUDIT SERVER AUDIT WORKSTATION
+
+jew Cheah s
+‘Seal Table Data
+Seal DB Integrity
+‘Assurance
+
+. =
+This JOURNAL
+Tyr (Full) =
+<a "
+
+avort FE copy Notepad
+a] ree ] eetntever exracteaat J) || uTuiry Furies | O | ~|
+mS
+oo pos OTtee
+
+Internal Audit
+
+WW)
+
+‘ORACLE
+= wl] TABLE wm pugedorcie Discoverer
+=| REBUILD Tables
+TMS (Ful)
+
+OPERATIONAL ENVIRONMENT Woon oermacroR
+Direct ink to
+Live Oracle = Live databases
+Retrieve Database
+“epee -
+LEGATO TAPE identty LeGaTo USER Ienity & Mark coUNTER
+conto. | [Taper inrenrace | ft —Requresies vereruinanr | ft—"~Patway— at —} Request or
+nema at
+were RF to
+Taman 24ins fut Ponts &
+
+Figure 6 : Data Flows - Audit Data Retrieval & Extraction
+
+COMMERCIAL IN CONFIDENCE Page 52 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+10.3.1 Overview
+
+This is where audit data is retrieved from the DLT, based on Request(s) For
+Information made by Post Office Internal Audit, and presented for further
+extraction or placed on CD-ROM or other suitable media for despatch to the
+RFI originator.
+
+The following paragraphs are ordered to reflect the actual processing of a
+Request For Information (RFI) by ICL Pathway Internal Audit.
+
+10.3.2 Request For Information
+
+POIA will request audit data via Request For Information form (RFI). This will
+contain a description, in business terms, of the times, outlets, events, items
+and activities that the Auditors are interested in. This request has to be
+interpreted by Pathway Internal Audit and mapped onto the Audit Points and
+Files described earlier in this manual.
+
+10.3.3 Marking Files and Tapes
+
+Based on this interpretation as many files of audit data that are needed to
+satisfy the request are ‘marked’ for retrieval. Legato is notified of these files
+and it in turn identifies the DLTs containing these files. Legato provides
+system prompts for Operators to load tapes and it copies the data into a local
+buffer area.
+
+10.3.4 Audit Track Retriever
+
+Polls the Legato buffer area and retrieves any data files found into temporary
+disk storage (Export File) on the Archive Server prior to the extraction of
+relevant data for use by the auditors. The Retriever provides a second copy
+of the file which is input to the Check Seal function.
+
+10.3.5 Audit Data Check Seal
+To assure the integrity of the audit data while on the DLT the checksum seal
+for the file is re-calculated by the Audit Track Sealer (10.2.3) and compared
+
+to the original value calculated when the file was originally written to the DLT.
+The result is maintained in a Check Seal Table.
+
+10.3.6 Audit Trail Extractor
+
+This is a ‘catch all’ facility that uses various tools to extract or reform the
+retrieved audit data in accordance with the RFI. It also places the information
+onto a CD-ROM, or other suitable media, for despatch to the RFI originator.
+
+10.4 Archived Audit Data Usage
+
+The audit data maintained in the audit archive can be used for a number of
+purposes :
+
+e Proving processing integrity.
+
+e Supporting or substantiating investigations.
+
+COMMERCIAL IN CONFIDENCE Page 53 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+e ‘Bulk’ extraction.
+10.4.1 Proving Integrity of Processing
+
+To prove the integrity of a process during a regular System Audit. Data that is
+available on the day(s) that the audit takes place can be used and may be
+taken from the archive or direct from the system. Audits of this type are likely
+to be run or led by Pathway Internal Audit.
+
+10.4.2 Investigation Support
+
+The term ‘investigation’ is used in its broadest sense and does not limit itself
+to fraud. Any RFI is likely to be associated with a specific business event, eg.
+An encashment, a bill payment, an outlet, a beneficiary. It is anticipated that
+the majority of this type will be based on the TMS Journal, or will use it as a
+start point. See section [11.2] for details of how to raise an RFI.
+
+10.4.3 Bulk Extraction
+
+Although the term ‘bulk extraction’ is used, the amount of audit data retrieved
+may be relatively small. However, the underlying principle is that a chunk of
+data will be extracted from the archive and despatched to the requester for
+their further analysis. It is anticipated that the majority of this type will be
+based on the TMS Journal although POIA may also request information from
+other files (OBCS, etc). See section [11.2] for details of how to raise an RFI.
+
+COMMERCIAL IN CONFIDENCE Page 54 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+11
+
+11.1
+
+Obtaining Access to Operational Audit Data
+
+Requirement 699.
+
+Access Control Policy
+
+The access to, and availability of, audit data is dependent on which audit role
+requires it :
+
+e ICL Pathway Auditor.
+
+e POCL Auditor.
+
+e POCL Emergency Manager.
+e POCL <Client> Auditor.
+
+e Authority’s Agents.
+
+11.1.1 ICL Pathway’s Internal Auditors
+
+ICL Pathway’s auditors, who will be based at the ICL Pathway Headquarters
+in Feltham, can access the ICL Pathway datacentres, at Wigan and Bootle,
+via secured links. They can also operate out of the Datacentres where this is
+more convenient or appropriate.
+
+When routed to a particular campus, the auditor will only be permitted to
+access files at that site.
+
+Access to Riposte Journals at the ICL Pathway central sites will avoid the
+need to access the journals held at the Post Office outlets.
+
+11.1.2 Post Office Auditors
+
+POCL and POCL <Client> Audit functions will have access to:
+e POCL SIS audit track (selective),
+
+e POCL Client audit track (selective), and
+
+e the Systems Management track.
+
+Although classed as a single Audit role Post Office Auditors fall into two
+categories, Post Office Network Auditors and Post Office Internal Auditors.
+Network Auditors require access to audit trail information at the local sites.
+This will account for the bulk of the day-to-day audit activity undertaken by a
+large team of experienced auditors. Internal Auditors will usually satisfy their
+audit trail information needs through Requests For Information made to the
+Pathway Audit function.
+
+Access to POCL audit trails, particularly the TMS Journal, is seen as a strict
+POCL preserve. If any third parties require access to it, for evidential
+purposes or fraud investigation, then the access will be via POST OFFICE
+INTERNAL AUDIT.
+
+Local Access
+
+COMMERCIAL IN CONFIDENCE Page 55 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+Network Auditors will use the same reporting functionality as provided to
+support the Electronic Point Of Sale Service (EPOSS). This entails
+production of various standard reports which the auditor may use instead of
+the local Post Office Manager.
+
+In addition to the standard EPOSS reports, Network Auditors have access to
+a suite of special reports and logs available to them via a special
+authentication process including a one-shot password.
+
+The “events” of interest will be non-transactional activities which have
+ongoing significance, including:
+
+e user log-on/off,
+
+e stock unit allocations/transfers/remittances,
+e unauthorised access attempts, and
+
+« change of access permissions.
+
+Central Access
+
+In exceptional cases, Network Auditors may require access to this information
+held centrally via the audit archive. This would apply:
+
+e following equipment loss or damage at the local outlet,
+
+« where an operational system is not expected to be re-established during
+the day of the auditor's visit, and
+
+e if it is necessary to view an historical record.
+
+Network Auditors will not be allowed direct access to information outside the
+POCL OPS domain and any information needed will be supplied to them by
+the Internal Auditors who will themselves obtain it via the ICL Pathway
+Auditors.
+
+11.1.3, POCL Emergency Manager
+
+In exceptional circumstances, the Post Office Manager:
+«® may not be available (as a result of death or injury), or
+may not provide co-operation (when under fraud investigation).
+
+In such cases, an auditor may need to reassign roles to new users and reset
+access permissions following transfer of business from one Post Office
+Manager to another.
+
+The POCL Emergency Manager role can be used by selected PO Auditors
+when they require additional capabilities in the absence of a Post Office
+Manager. It provides the normal auditor functions plus the Post office
+Manager functions, including user administration.
+
+The POCL Emergency Manager may delete and create a Post Office
+Manager Role and produce a cash account for a broken period.
+
+COMMERCIAL IN CONFIDENCE Page 56 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+11.1.4 POCL <Client> Auditors
+
+There is no direct access to the system by POCL <Client> Auditors. Post
+Office and ICL Pathway’s Auditors will access the system on their behalf and
+provide all necessary information that the POCL <Client> Auditors are
+permitted to see. They are expected to operate through the PO Internal
+Auditors.
+
+11.1.5 Authority’s Agents
+Schedule A03 identifies other parties that may be granted audit rights to
+Pathway and/or the Horizon system. They are :
+e External auditors of the Authority.
+e Other authorised agents.
+« Successor organisations to those identified above.
+
+Access by any of these organisations must be co-ordinated in the first
+instance by the Authority for whom the Agent is operating and the
+requirements of the JWF should, where possible, be observed.
+
+11.1.6 One Shot Passwords
+
+One Shot Passwords (OSP) are transacted through the Horizon System
+Helpdesk (HSH) and are available to POCL Post Masters, selected Retail
+Network Managers and Network Auditors. Each request for an OSP will result
+in a verification dialogue with the HSH and, potentially a Service
+Management Centre supervisor.
+
+Details of the OSP can be found in the document ‘Authentication of User for
+Release of One Shot Password by Horizon System Helpdesk’, reference
+PCL/BSM/SEC/001 v1.2 dated 09/12/99.
+
+11.2 Requesting Audit Data Extractions
+
+11.2.1 Pre - Requisites
+
+Post Office Internal Audit will be expected to identify Auditors who are
+authorised to raise an RFI. It is not anticipated that this list will exceed two
+names.
+
+It is the responsibility of Post Office Internal Audit to notify Pathway Internal
+Audit of any changes to this list.
+
+11.2.2 Requesting Audit Data
+All requests for audit data extractions must come to Pathway Internal Audit in
+
+the form of a Request For Information. This is a free format request but must
+contain a minimum of the following :
+
+a. Originator identity (name, address, contact ‘phone)
+b. Priority; Urgent (<48hours); Routine (<5 days); Other (Specify)
+
+COMMERCIAL IN CONFIDENCE Page 57 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+c. Enquiry reference if standard enquiry. Plus any allowable variables
+
+d.
+
+within the standard enquiry.
+Search details if not standard enquiry.
+
+COMMERCIAL IN CONFIDENCE
+
+Page 58 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+12
+
+12.1
+
+Commercial Audit Records (R697)
+
+Requirement 697 Criteria 1 :
+
+The CONTRACTOR and his sub-contractors shall keep or cause to be kept
+Records (including financial records) of all Services, covering materials and
+Services provided, timesheet records, contracts let to sub-contractors and
+Charges levied to the AUTHORITIES. These Records shall not be more
+detailed than those held by the CONTRACTOR for its own audit purposes.
+
+Included Items
+
+12.1.1 Invoicing Records
+
+System Overview
+
+Although the generation of an Invoice is a manual activity, and the core
+Invoice values and frequencies are determined by the Contract between
+POCL and ICL Pathway, there are a number of variable elements that are
+applied to each Invoice :
+
+e Transaction volumes where the actual transaction count is compared to a
+benchmark value and an adjustment factor calculated.
+
+e Outlet availability during the Invoice period.
+
+e Numbers of outlets actually rolled-out during NRO compared to original
+target.
+
+e Liquidated damages arising from failures to achieve SLA commitments.
+The Contract also allows for RPI adjustments.
+
+Interim, or ad-hoc, invoices can be generated at any time although these do
+not become committed and are used for internal reporting purposes only.
+
+COMMERCIAL IN CONFIDENCE Page 59 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+Schematic
+
+The following diagram shows the main data flows within the Invoicing
+
+process.
+
+Data
+Warehouse
+
+Transaction
+Volume
+Report
+
+SLCA (bw ) RoDB
+
+Reconellation
+Exception
+Database
+
+Manual Debit
+& Credit
+Instructions
+
+SLA Liquidated we Volumes
+
+Dambges Adjustments
+
+Contract |
+
+Payment
+
+Generate Invoice
+‘Schedules >}
+
+(Manual)
+
+Invoices
+
+faman-17.ins
+
+Data Input Streams
+Transaction Data
+
+Transaction volume data taken by the TPS Harvester.
+
+Qutlet Data
+
+Outlet availability data. (NB Source of this data not yet finalised).
+Count of Outlets rolled-out taken from Roll-out database.
+
+Contractual Data
+
+Capital sum payments during National Roll-out. Based on the later of a pre-
+defined date or cummulative number of Post Offices rolled out.
+
+COMMERCIAL IN CONFIDENCE
+
+Page 60 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+Operating fees during operating period. Monthly fee subject to Transaction
+and Availability factors.
+
+Transaction Component factor. A 7% factor based on actual transactions
+made compared to an agreed benchmark value.
+
+Outlet Cost Component factor. A 32% factor based on the availability of
+outlets during the Invoicing period.
+
+Manual Data
+Debit Instructions from RED.
+Credit Instructions from RED.
+
+These are manual notifications that are applied to the Invoice during its
+production cycle. (There are, currently, no identified occurrence that might
+cause a RED Instruction to be raised but it is included for completeness.)
+
+Changes to Contractual Data
+
+Changes to any element of the Contractual data can only be achieved
+through formal negotiation between the two parties.
+
+Output Stream
+
+The invoicing suite of documents consists of the following :
+
+a. Capital Payment Invoice
+
+b. Operating Fee Invoice
+
+c. Advice Note for OF.
+
+d Credit Note for service credits.
+
+e General Invoice for ad-hoc supply of goods and services.
+f. RPI Adjustment Tracking Schedule.
+
+Data Retention Requirements
+
+Requirement 697 calls for these records and data to be retained for 7 years.
+
+12.1.2 Change Control Documentation
+Change Control is an agreed process through which changes to the Horizon
+are defined, notified, impacted and costed, authorised and controlled.
+
+Documents that are output from the process and which represent the audit
+trail of proposed changes and their outcome are :
+
+Change Request : used by POCL to request changes of Pathway.
+
+Change Proposals : used by Pathway to progress the change
+through the Change Control process.
+
+Change Control Note : used by Pathway to request approval for a
+change from the POCL.
+
+Supplier Change Request : used by Suppliers to request changes to
+
+their services to Pathway.
+COMMERCIAL IN CONFIDENCE Page 61 of 68
+
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+CCB Meeting Minutes =: used to record the outcome of Change Control
+Boards where individual Change Proposals are
+
+reviewed.
+Retention : Contract life or seven years whichever is the greater.
+
+12.1.3 Special Assistance Invoices
+
+Schedule A03 of the Codified Agreements enables Pathway to charge the
+POCL for costs incurred in assisting POCL with audit activity following
+contract termination. Records relating to time spent and expenses will be
+maintained on a case by case basis.
+
+Retention : Contract life or seven years whichever is the greater.
+
+12.1.4 Development Activity Invoices
+
+Where Fixed Price contracts are entered into on the basis of estimates
+documented in Change Control Notes (CCN) or elsewhere then the CCN
+under which the work is authorised forms the commercial record. Where work
+is conducted on a Time and Material basis records relating to time spent on
+that work will be maintained. Note that that this element includes studies
+undertaken as part of the Change Control process.
+
+Retention : Contract life or seven years whichever is the greater.
+
+12.1.5 Contracts with Sub-Contractors
+
+12.2
+
+12.3
+
+Access is limited to contractual and service related arrangements.
+Retention : Contract life or seven years whichever is the greater.
+
+Excluded Items
+
+The following items are outside the scope of ‘Records’ as defined in R697 :
+a. Financial arrangements with Pathway sub-contractors.
+
+b. Financial and employment arrangements with Pathway employees,
+both direct and contract.
+
+c. The ICL Pathway Business Case.
+
+d. General accounting information including funding.
+
+e. Reports from and to ICL Group or Fujitsu.
+
+There may be other documents or records that are subsequently added to
+this list.
+
+Caveats
+
+There are two caveats that apply to the above lists :
+
+a. Special access to records not identified as ‘included’ may be granted
+on a case by case basis, subject to request and approval at the
+appropriate level.
+
+COMMERCIAL IN CONFIDENCE Page 62 of 68
+POL00029165
+
+POL00029165
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+b. The scope of access to records identified as ‘included’ must be agreed
+
+as part of agreeing Terms of Reference for an audit as described in the
+Joint Working Framework.
+
+It is possible that records and/or documents will be identified during an audit
+that were not included in the original Terms of Reference. Pathway Internal
+Audit will facilitate the release of these records and/or documents through the
+appropriate channels subject to the records not being on the ‘Excluded’ list.
+
+COMMERCIAL IN CONFIDENCE Page 63 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+13
+
+13.1
+
+Obtaining Access to Commercial Audit Data &
+Records
+
+Requirement 697.
+Access Control Policy
+
+Access to audit data defined as ‘Commercial’ under Requirement 697 is
+limited to that data which forms part of those Pathway systems of direct
+interest and relevance to POCL. These are currently the Common Charging
+System, Service Level Contract Administration and Service Level Agreement
+Monitor.
+
+Access to non-IT records that contribute to the Commercial audit trail will only
+be available during audits conducted in accordance with the Joint Working
+Framework. Access will be restricted to those records that are germane to the
+provision of Services under the contract.
+
+It is not anticipated that Post Office Internal Audit will request Commercial
+audit data extractions in isolation but will seek to conduct joint audits with
+Pathway Internal Audit into this aspect of the Horizon business. Joint audits
+should be conducted in accordance with the Joint Working Framework.
+
+COMMERCIAL IN CONFIDENCE Page 64 of 68
+POL00029165
+
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+
+Version:1.3
+Date:17/01/00
+
+14
+
+14.1
+
+14.2
+
+Conducting Joint Audits
+
+General
+
+Requirement 697 provides for access to ICL Pathway’s premises, facilities,
+Services, documentation, information, staff, procedures, timesheets and other
+data in those areas that are directly involved with the operation of POCL
+Services and associated systems, by auditors from the Post Office or their
+representatives. Other external auditors, including POCL<Client> auditors,
+are expected to deal with Pathway via PO Internal Audit respectively.
+
+From ICL Pathway’s perspective the term Joint Working applies to all levels
+of involvement from members of a fully integrated audit team to merely
+hosting external auditors and facilitating visits to ICL Pathway locations. It
+also covers audits that may be undertaken into Commercial or Operational
+activities.
+
+Each audit organisation will operate to its own detailed audit processes and
+standards within a framework that enables joint agreement on planned audits,
+terms of reference for audits and the sharing of audit reports and results.
+
+Joint Working Framework
+
+The Schedules AO3 establish the contractual framework for the conduct of
+audits by the Authority or their Agents. The JWF provides a working
+interpretation of the Schedules but does not superceeded or make redundant
+any part of them as a result.
+
+14.2.1 Planning
+
+Joint audits can be planned or unplanned although the majority are expected
+to be planned. Where PO Internal Audit anticipate conducting audits within
+Pathway they would normally build them into their respective Audit Plans and
+notify Pathway Internal Audit.
+
+Similarly, where the ICL Pathway Audit Plan identifies an area where
+complementary audits by the Post Office could improve the value of the audit
+they will be encouraged to support the Pathway activity with resource
+managed either by ICL Pathway or by themselves.
+
+Accepting that some audits may be unplanned every effort must be given to
+providing adequate notice, say 3 months, of an impending visit.
+
+COMMERCIAL IN CONFIDENCE Page 65 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+
+Date:17/01/00
+
+14.2.2 Terms of Reference
+
+Whether planned or unplanned Terms of Reference must be established for
+any Joint or External Audits and agreed by all parties. The ToRs may be
+supported by detailed schedules to be agreed nearer to the start date of the
+audit. The Terms of Reference should contain at least the following
+information :
+
+e Scope of work to be undertaken.
+
+e Proposed dates for the audit and initial schedule.
+
+e Proposed resources for the audit.
+
+e Details of any site visits to be undertaken as part of the audit.
+e Reporting arrangements for the audit.
+
+Once agreed the Terms of Reference should be shared and agreed with the
+auditee.
+
+14.2.3 Detailed Audit Schedules
+
+Depending on the nature and scope of the proposed audit it may be
+necessary to establish and agree Detailed Audit Schedules. Again these
+should be shared with the auditee, especially if the scope of the audit is in
+any way restricted or special arrangements for site visits and personnel
+interviews have to be made.
+
+14.2.4 Resources
+
+It is anticipated that adequate resources will be provided to conduct the audit.
+Where an audit crosses domain boundaries, eg. if an end-to-end audit of an
+Horizon service was being conducted, Post Office or Pathway resources will
+be allocated to specific tasks within their own area to protect commercial
+sensitivity.
+
+14.2.5 Reporting Arrangements
+
+There is likely to be sensitivity over the reporting arrangements, especially
+the extent to which audit reports and findings are disseminated within
+organisations. To avoid difficulty it is imperative that agreement on this
+subject is reached during the establishment of the Terms of Reference and
+has the full support of the auditee.
+
+14.2.6 Corrective Actions Review
+
+After an agreed period, established in AO3 as 30 days, a Corrective Action
+Plan will be established identifying how instances of non-compliance will be
+rectified and how audit recommendations will be addressed. The CAP will
+establish timescales for implementation and these will be monitored as part of
+the ongoing review of the audit results by the participating audit group.
+
+COMMERCIAL IN CONFIDENCE Page 66 of 68
+POL00029165
+POL00029165
+
+ICL Pathway Horizon System Audit Manual (CSR) Ref:IA/MAN/004
+Version:1.3
+Date:17/01/00
+
+14.2.7 Process Review and Improvement
+
+At the end of each Joint Audit the lead auditors from participating group
+should arrange to conduct a Post Audit Review to assess performance and
+areas for improvement. The views of the auditee will be taken into account.
+
+COMMERCIAL IN CONFIDENCE Page 67 of 68

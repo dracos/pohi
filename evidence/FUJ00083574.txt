@@ -1,0 +1,396 @@
+FUJ00083574
+FUJ00083574
+
+fo: Gareth.Jenkins@ Gareth.Jenkins@
+From: Mark Jarosz}
+Sent: Mon 11/27/2000 9:44:07 AM (UTC)
+
+Subject: RE: PC0057957: PinICL call assigned to you
+
+Gareth,
+From your description it sounds as though we potentially have a recipe for a
+reproducible case.
+
+| will try this today and also in parallel chase Drew for a response on what
+this event means and whether we should be concerned.
+
+Regards
+Mark
+
+Dance Original Message----
+> From: Gareth.Jenkins.
+> Sent: Friday, Novembe!
+
+> Subject: FW: PCOUS7Y57 PINICL call assigned to you
+>
+
+>
+> Mark,
+>
+
+> This PinlCL is related to PinlICL 56922 which you looked at a
+
+> couple of weeks
+
+> ago.
+
+>
+
+> I've had a look through the message store and the event log and
+
+> have noticed
+
+> that at the time of this failure (00:01:56) that there is an LFS
+
+> background
+
+> task running. It has written a BLOB to the message store at 00:01:46 and
+> then writes a further BLOB at 00:02:38. It is presumably doing message
+> store scans in between (hence the timeout?).
+
+>
+
+> | suspect it is significant that the Riposte Error is 10 secs
+
+> after the BLOB
+
+> is written (since | assume that the timeout is 10 secs!).
+
+>
+
+> As the PinICL says, this seems to be happening fairly frequently.
+
+> As far as
+
+>I can tell, the application is carrying on OK in this case. Since the
+
+> failure is at midnight, then Riposte is likely to be reloaded fairly soon.
+
+>
+
+> | think we do need a definitive statement from Drew as to whether
+
+> this event
+
+> is benign, or what problems we could have when it happens. Could
+
+> it be due
+
+> to an application error? Do we need to get more info on when
+
+> these problems
+
+> occur. It is clear that the circumstances in this case are very different
+
+> from those in the original PinICL.
+
+>
+
+> Attached is the Event Log (zipped .xls format) and an extract from the
+
+> message store at the time of failure. Relevant Date is 16/11/00.
+
+>
+
+> I've assigned the PinICL to you on Escher-Dev.
+
+>
+
+> Regards
+
+>
+
+> Gareth
+
+>
+
+> email:
+
+> Internal Phone:
+
+> External Phone:
+
+> External Mobile Phone:
+
+> Internal Mobile Phone:
+>
+
+> ICL
+
+> Lovelace Road, Bracknell, Berkshire, RG12 8SN
+
+> Website : http:/Awww.icl.com
+
+>
+
+> This e-mail is intended only for the addressee named above. As this
+
+> e-mail may contain confidential or privileged information if you are
+
+> not, or suspect that you are not, the named addressee or the person
+
+> responsible for delivering the message to the named addressee, please
+
+> telephone us immediately. Please note that we cannot guarantee that this
+> message or any attachment is virus free or has not been intercepted and
+> amended. The views of the author may not necessarily reflect those of
+
+> the Company.
+
+>
+
+> International Computers Limited, Registered in England no 96056,
+
+> Registered Office 26, Finsbury Square, London, EC2A 1SL
+
+> > ---Original Message-
+>> From: pinicl(_ GRO
+
+> > Subject: PC0057957: paeL Call assigned to you
+>>
+
+>>
+
+> > Title: PinICL call assigned to you
+
+>>
+
+> > Call Number : PC0057957
+
+> > Systemname : PiniICL
+
+> > Event : Call assigned to team member
+
+> > Summary : FAD260801 - Timeout occurred waiting for lock.
+> > Priority 1B
+
+> > Target Release : CSR-CI4R
+
+>>
+
+>>
+
+> > Call Progress
+
+>>
+
+> > 16/11/00 14:04:26 - By Customer Call
+
+> > CALL PC0057957 opened
+
+>>
+
+> > 16/11/00 14:04:29 - By Customer Call
+
+> > CALL PC0057957:Priority B:CallType L - Target 21/11/00 14:04:26
+>>
+
+> > 16/11/00 14:04:29 - By Customer Call
+
+> > 16/11/00 13:24 @00.01 16-11-00 A critical event was registered on
+> > H26080100101 Stating: An unexpected error occurred while attempting to
+> > modify an entry in the run map. Timeout occurred waiting for lock.
+> > (0xC1090003). KEL Reference: JBallantyne5245K.htm
+
+> > 16/11/00 13:25 SMCtemp3
+
+> > Information: @00.01 16-11-00 A critical event was registered on
+
+> > H26080100101 Stating: An unexpected error occurred while attempting
+> > to modify an entry in the run map. Timeout occurred waiting
+
+> > for lock. (0OxC1090003). KEL Reference:
+
+> > JBallantyne5245K.htm. An event log will be downloaded for
+
+> > onward transfer to
+
+>>SSC.
+
+> > 16/11/00 14:03 SMCtemp3
+
+> > Information: The event log has been downloaded. The file ID is 67964,
+> > this shows all events on the counter. Please peruse this and
+
+> > investigate the events.
+
+>>
+
+> > 16/11/00 14:04:30 - By Customer Call
+> > F} Call details
+
+>>
+
+> > 16/11/00 14:04:30 - By Customer Call
+
+> > Diagnostician name:
+> > Customer opened date 16/11/2000 13:24:42
+
+FUJ00083574
+FUJ00083574
+>>
+
+> > 16/11/00 14:13:19 - By Barbara Longley
+
+> > The call summary has been changed from:-
+
+>> @00.01 16-11-00 A critical event was registered 0
+> > The call summary is now:-
+
+> > FAD260801 - Timeout occurred waiting for lock.
+
+>>
+
+> > 16/11/00 14:13:19 - By Barbara Longley
+> > Target Release updated to CSR-CI4R
+
+>>
+
+> > 16/11/00 14:13:20 - By Barbara Longley
+
+> > CALL PC0057957:Priority B:CallType N - Target 21/11/00 14:04:26
+>>
+
+> > 16/11/00 14:13:19 - By Barbara Longley
+> > Product Infrastructure KMS added
+
+>>
+
+> > 23/11/00 10:15:08 - By Pat Carroll
+> > F} Response :
+
+>>
+
+> > 23/11/00 10:15:11 - By Pat Carroll
+> > PRESCAN,
+
+> > [END OF REFERENCE 23160785]
+
+>>
+
+> > 23/11/00 10:15:11 - By Pat Carroll
+
+> > Responded to call type N as Category 40 -Incident Under Investigation
+>>
+
+> > 23/11/00 10:15:34 - By Pat Carroll
+
+> > The response was delivered to: PowerHelp
+>>
+
+> > 23/11/00 10:15:37 - By Pat Carroll
+
+> > The Call record has been assigned to the Team Member: John Ballantyne
+>>
+
+> > 23/11/00 10:15:39 - By Pat Carroll
+
+> > Defect cause updated to 99:General - Unknown
+
+> > Hours spent since call received: 0 hours
+
+>>
+> > 23/11/00 11:10:34 - By John Ballantyne
+> > F} Response :
+
+>>
+
+> > 23/11/00 11:10:35 - By John Ballantyne
+
+> > This event was reported in PC0056922, this call has been
+
+> > closed but the
+
+> > comments from Mark Jarosz, were that if calls of this nature
+
+> > were > 1 per
+
+> > month then further investigation should be carried out. In this case |
+> > presume that archiving was processing and there was still an
+
+> > outstanding lock
+
+>> on the run table. | presume that the reload of Riposte at
+
+> > cleardesk will
+
+> > release the locks. Investigating frequency of event in the estate.
+> > [END OF REFERENCE 23163800]
+
+>>
+
+> > 23/11/00 11:10:36 - By John Ballantyne
+
+> > Responded to call type N as Category 40 -Incident Under Investigation
+>>
+
+> > 23/11/00 11:10:50 - By John Ballantyne
+> > The response was delivered to: PowerHelp
+>>
+
+> > 23/11/00 11:45:18 - By John Ballantyne
+
+> > New evidence added - Text message store Audit/Event logs
+>>
+
+> > 23/11/00 11:45:19 - By John Ballantyne
+> > F} Response :
+
+>>
+
+> > 23/11/00 11:45:20 - By John Ballantyne
+
+> > This event has some 129 counters reporting this and also MBOCORO2 and
+> > MBOCOR0O3 has reported this event although it may be expected
+> >on the Corr
+
+FUJ00083574
+FUJ00083574
+> > servers. | think this needs investigating Please state what
+
+> > evidence is
+
+> > required will attach Eventlog/message store & audit logs for
+> > this outlet.
+
+> > [END OF REFERENCE 23165836]
+
+>>
+
+> > 23/11/00 11:45:20 - By John Ballantyne
+
+> > Responded to call type N as Category 40 -Incident Under Investigation
+>>
+
+> > 23/11/00 11:45:30 - By John Ballantyne
+> > The response was delivered to: PowerHelp
+>>
+
+> > 23/11/00 11:45:32 - By John Ballantyne
+
+> > The Call record has been transferred to the Team: QFP
+
+>>
+
+> > 23/11/00 11:45:32 - By John Ballantyne
+
+> > Defect cause updated to 41:General - in Procedure
+
+> > Hours spent since call received: 0 hours
+
+>>
+
+> > 23/11/00 13:17:50 - By Lionel Higman
+
+> > The Call record has been assigned to the Team Member: Gareth Jenkins
+>>
+
+> > 23/11/00 13:17:50 - By Lionel Higman
+> > Hours spent since call received: 0 hours
+>>
+
+>
+>
+
+FUJ00083574
+FUJ00083574

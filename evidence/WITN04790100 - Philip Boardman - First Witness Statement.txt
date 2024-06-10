@@ -1,562 +1,442 @@
-                                                                                       WITNO4790100
-                                                                                    WITN04790100
+WITN04790100
+WITN04790100
 
+Witness Name: Philip Kevin Boardman
+Statement No.: WITN0479_01
 
+Exhibits: WITN0479_01/1 — WITN0479_01/4
+Dated: 4th August 2022
 
+POST OFFICE HORIZON IT INQUIRY
 
-II Il:t.].1uLsiiT.T1
+FIRST WITNESS STATEMENT OF PHILIP KEVIN BOARDMAN
 
-1. I am the Service Architect for Post Office Account at Fujitsu Services Limited
+|, MR PHILIP KEVIN BOARDMAN, will say as follows:
 
+INTRODUCTION
 
+1. | am the Service Architect for Post Office Account at Fujitsu Services Limited
+(Fujitsu), a position that | have held since 1 April 2014.
 
 2. This witness statement is made on behalf of Fujitsu to assist the Post Office Horizon
+IT Inquiry with the matters set out in the Rule 9 Request provided to Fujitsu on 11
+March 2022 and a series of further questions provided to me by the Inquiry on 1 July
+2022 (Request), to the extent | have direct knowledge of such matters.
+
+3. The topics set out in the Request concern events that occurred many years ago. |
+have tried to remember these events to the best of my ability. However, given the
+time that has passed, my recollection of certain matters is limited.
+
+4. In preparing this statement, | have refreshed my memory by reviewing
+contemporaneous documents relating to the questions asked by the Inquiry in the
+Request. Where | have seen documents relevant to the Request, these documents
+
+are referred to using references WITN0479_01/1 — WITN0479_01/4 and are listed in
+
+Page 1 of 13
+WITN04790100
+WITN04790100
+
+the index accompanying this statement. To the extent that these documents have not
+already been provided to the Inquiry, they are exhibited to this statement.
 
-    IT Inquiry with the matters set out in the Rule 9 Request provided to Fujitsu on 11
+BACKGROUND
 
-    March 2022 and a series of further questions provided to me by the Inquiry on 1 July
+5. | joined ICL PLC as a Business Analyst in November 1989.
 
-    2022 (Request), to the extent I have direct knowledge of such matters.
+6. | have reviewed the questions listed in Appendix 1 of the Request. Many of these
+questions relate to matters that occurred before | started working on the Post Office
+Account at Fujitsu, or concern matters that are unrelated to my current or previous
+roles and responsibilities at Fujitsu.
+
+7. | can provide information relating to the Inquiry’s questions concerning
+‘Modifications’, due to my involvement and work with Post Office Limited (Post
+Office) on the IMPACT Programme (Programme) as a Business Process
+Consultant.
+
+THE IMPACT PROGRAMME
+
+The Programme and the nature of Fujitsu’s involvement
+
+8. The Programme was initiated, managed and led by Post Office, and it was concerned
+with Post Office replacing and improving its cash flow management and back-end
+accounting system processes to make them more efficient and automated.
+
+9. In the Autumn of 2002, Fujitsu was engaged by Post Office to provide consulting
+services in relation to the Programme, and deliver any changes to the Horizon IT
+System (Horizon) that were required as part of the Programme. The consultancy
+services provided by Fujitsu included the requirements analysis and elaboration
+consultancy, that | provided, and specialist technical consultancy on the feasibility
+
+and relative complexity of developing solutions to meet those requirements, provided
+
+Page 2 of 13
+WITN04790100
+WITN04790100
+
+by solution architects Gareth Jenkins (for Horizon) and Luxmi Selvarajah (for software
+designed by the company, SAP). My role was limited to assisting Post Office to
+identify and elaborate its requirements, which were documented, as described at
+paragraph [12] of my statement below. The consulting services that | provided are
+further described at paragraphs [14]-[17] of my statement below, and the changes
+that were delivered to Horizon, as far as | can recall, are described within paragraphs
+[24]-[36] of my statement below.
 
-3. The topics set out in the Request concern events that occurred many years ago. I
+10. Initial activities within the Programme, at this stage known as the ‘End to End Re-
+Architecting Programme’, included performing a series of workshops and analyses to
+produce a feasibility study document identifying a series of opportunities for Post
+Office to develop and implement. The document was titled, ‘End to End Re-
+Architecture Feasibility Study Business Requirements’ dated 21 February 2003
+(Feasibility Study) (WITN0479_01/1).
 
-    have tried to remember these events to the best of my ability. However, given the
+11.1 also assisted in preparing a proposal by Fujitsu to Post Office titled, ‘Fujitsu Services
+input to Feasibility Study for End to End re-Architecting of Post Office Systems’ dated
+24 March 2003 (Fujitsu Proposal) (WITN0479_01/2). This proposal was Fujitsu’s
+response to the requirements identified in the Feasibility Study, and it set out a
+number of transformation projects and ‘End to End releases’. My recollection is that |
+worked on an earlier draft of this proposal document, where | am named as an author.
 
-    time that has passed, my recollection of certain matters is limited.
+12.To progress these opportunities through the Programme, then re-labelled IMPACT,
+Post Office developed two conceptual designs, to my knowledge, which then became
 
-4. In    preparing this statement,     I   have   refreshed   my memory by    reviewing
+the drivers for the Programme:
 
+Page 3 of 13
+WITN04790100
+WITN04790100
 
+a. The first conceptual design was for Post Office’s new back-end accounting
+system to be known as the Post Office Limited Financials System (POL-FS). This
+conceptual design was known as ‘PO Ltd Financial Systems Release 3
+Conceptual Design’ dated 1 June 2004 (POL-FS Conceptual Design)
+(WITNO479_ 01/3).
 
-    Request. Where I have seen documents relevant to the Request, these documents
-                                                                                            WITNO4790100
-                                                                                          WITN04790100
+b. The second conceptual design concerned the changes that Post Office required
+Fujitsu to make to the existing Horizon system to enable the interactions with this
+POL-FS system and with Post Office’s cash management and distribution
+system, the SAP Advanced Distribution System (SAPADS), that Post Office was
+also developing at the time. This conceptual design was known as the ‘Branch
+Trading Reporting, Management and Control and Transaction Management
+Conceptual Design’ document dated 3 March 2004 (Branch Trading
+Conceptual Design) (WITN0479_01/4).
 
+(together, the Conceptual Design Documents)
 
+13.Fujitsu was not involved in the development of POL-FS or SAPADS, which were
+delivered by the Prism Alliance. SAPADS was being developed by the Prism Alliance
+before my involvement with Post Office Account, and | have no direct knowledge of
+the procurement relating to SAPADS. | recall there was a form of competitive
+tendering process for the work to develop POL-FS and | assisted in preparing
 
+Fujitsu’s proposal into that process (i.e., the Fujitsu Proposal), however | have no
 
-   the index accompanying this statement. To the extent that these documents have not
+direct knowledge as to the basis upon which Post Office selected Prism Alliance to
 
+perform the work relating to POL-FS, rather than Fujitsu.
 
+Page 4 of 13
+WITN04790100
+WITN04790100
 
+My role and involvement with the Programme
 
-6. 1 have reviewed the questions listed in Appendix 1 of the Request. Many of these
+14.At the relevant time, | was part of the Requirements, Architecture and Systems
+Design team (known as RASD), reporting into the Post Office Account Chief Architect.
+| had a good working relationship with both Post Office and Fujitsu colleagues and
+collectively we had good interactions with colleagues more widely across both Post
+Office and Fujitsu.
 
-   questions relate to matters that occurred before I started working on the Post Office
+15.1 became involved in the Programme in my capacity as a Business Process
+Consultant to help Post Office improve its cash flow management and back-end
+accounting processes and understand the resulting changes that would be required
+to Horizon. The particular skills | provided were in relation to business process
+analysis, workshop facilitation and requirements identification and elaboration, and
+supporting Post Office business analysts (in particular, Dave Parnell) in defining and
+documenting Post Office’s requirements in the Conceptual Design Documents.
 
-   Account at Fujitsu, or concern matters that are unrelated to my current or previous
+16.1 initially assisted Post Office to conduct a business process flow analysis to
+understand its business requirements, predominantly for improved cash flow
+management and back-end accounting.
 
-   roles and responsibilities at Fujitsu.
+17.Much of my involvement in the Programme and the business process analysis was
+concerned with providing advice and guidance to help Post Office understand what
+could be done to improve the flow of information to then improve Post Office’s cash
+flows. Post Office’s requirements to change the cash accounting process were
+identified and developed as part of this process. The Programme was driven and
+shaped by Post Office’s business needs, as were documented in section 3 of each of
 
-7. 1 can    provide   information    relating   to   the   Inquiry's   questions   concerning
+the Conceptual Design Documents. My work on the Programme included:
 
+Page 5 of 13
+WITN04790100
+WITN04790100
 
+a. determining the current data flows and preferred data flows to improve its cash
+and stock management;
 
+b. facilitating workshops;
 
-   Consultant.
+c. advising Post Office on how to approach business process improvement;
 
+d. preparing the process flow diagrams relating to cash flow management and back-
+end accounting systems, which appear in the Conceptual Design Documents;
 
+e. suggesting and advising on the approach of documenting the cash accounting
+and management processes; and
 
+f. providing advice and training on how to use these tools to document Post Office’s
+requirements.
 
-   accounting system processes to make them more efficient and automated.
+18. Below | explain the changes that were made as a result of the Programme to the cash
+flow management and back-end accounting systems, and the key drivers for these
+changes.
 
+Post Office’s cash flow management processes
 
+19.At the time | was engaged to work on the Programme, it was explained to me that the
+key driver for the Programme was Post Office’s business needs following a decision
+by the Department for Work and Pensions (DWP) concerning the payment of benefits.
+These drivers were explained by Stephen Hirst, Post Office’s Finance Director/Chief
+Financial Officer and Sue Harding, Post Office’s overall manager for the Programme,
+in initial meetings.
 
-   services in relation to the Programme, and deliver any changes to the Horizon IT
+20.The DWP paid benefits by issuing weekly Giro cheques to benefits recipients, which
+could be retrieved at Post Office branches. The DWP would also advance the funds
 
-   System (Horizon) that were required as part of the Programme. The consultancy
+that were required for Post Office to pay out the Giro cheques issued to benefits
 
-   services provided by Fujitsu included the requirements analysis and elaboration
+Page 6 of 13
+WITN04790100
+WITN04790100
 
+recipients, which provided Post Office with a source of cash flow. Post Office also
+relied in part on the footfall of these customers for its business.
 
-
-   and relative complexity of developing solutions to meet those requirements, provided
-                                                                                                WITN04790100
-                                                                                              WITNO4790100
-
-
-
-
-   identify and elaborate its requirements, which were documented, as described at
-
-   paragraph [12] of my statement below. The consulting services that I provided are
-
-   further described at paragraphs [14]—[17] of my statement below, and the changes
-
-   that were delivered to Horizon, as far as I can recall, are described within paragraphs
-
-
-
-10. Initial activities within the Programme, at this stage known as the 'End to End Re-
-
-
-
-
-                                                       i
-               -        i         .    i           —        —•        —   —   i. -i      -i
-
-
-
-   (Feasibility Study) (WITN0479 01/1).
-
-11. 1 also assisted in preparing a proposal by Fujitsu to Post Office titled, `Fujitsu Services
-
-   input to Feasibility Study for End to End re-Architecting of Post Office Systems' dated
-
-                               'ski•       ..: ,           ~•1'   ♦   !          •,iii
-     ~          ~~
-
-
-
-   response to the requirements identified in the Feasibility Study, and it set out a
-
-   number of transformation projects and 'End to End releases'. My recollection is that I
-
-   worked on an earlier draft of this proposal document, where I am named as an author.
-                                                                                                                                         WITNO4790100
-                                                                                                                                       WITN04790100
-
-
-
-
-        system to be known as the Post Office Limited Financials System (POL-FS). This
-
-
-
-
-        (WITN0479_01/3).
-
-   b.   The second conceptual design concerned the changes that Post Office required
-
-        Fujitsu to make to the existing Horizon system to enable the interactions with this
-
-
-
-        system, the SAP Advanced Distribution System (SAPADS), that Post Office was
-
-              r •-         - rr                     -                  r               r-   f                    •               I:
-
-
-              _f   f                  f   s                  .•-   -       r       i   f        f                        r
-
-          i                 ~I                r         •i             •. -i                              11~'                    .•
-
-        [. iiI i.                II1                               '
-                                                  _pYAYaII[ITh!ZiULI1
-
-
-
-13. Fujitsu was not involved in the development of POL-FS or SAPADS, which were
-
-
-
-
-   tendering process for the work to develop POL-FS and I assisted in preparing
-                                                                               -            ~
-                       f    r     .       •              •    •                                     r~r    .         f       -          i
-                                                                                             WITNO4790100
-                                                                                           WITN04790100
-
-
-
-
-14.At the relevant time, I was part of the Requirements, Architecture and Systems
-
-         •   -   (.~i'TZ1,Ili7:7=T.`l>t]
-                      •                  -i •             •   -' • 1-   ,   •   j
-
-
-
-   collectively we had good interactions with colleagues more widely across both Post
-
-   Office and Fujitsu.
-   •..            •      •       •   A
-                                         •isIEi iii   .                             ~' •
-
-
-
-   Consultant to help Post Office improve its cash flow management and back-end
-
-   accounting processes and understand the resulting changes that would be required
-
-
-
-
-16. 1 initially assisted Post Office to conduct a business process flow analysis to
-
-   understand its business requirements, predominantly for improved cash flow
-
-   management and back-end accounting.
-
-17. Much of my involvement in the Programme and the business process analysis was
-
-
-
-   could be done to improve the flow of information to then improve Post Office's cash
-
-   flows. Post Office's requirements to change the cash accounting process were
-                                                                                       WITNO4790100
-                                                                                     WITNO4790100
-
-
-
-
-        Fki.HhIi1IIIaIhTXs1IIiI1II   . _ii[.Wk   1III •   r   [SI   1 IH1iJt.AVLIt*Iif*]
-
-
-
-
-   107=F.MMM3•       •     ••
-
-
-
-   d.   preparing the process flow diagrams relating to cash flow management and back-
-
-        end accounting systems, which appear in the Conceptual Design Documents;
-
-
-
-        and management processes; and
-
-
-
-        requirements.
-
-18. Below I explain the changes that were made as a result of the Programme to the cash
-
-
-
-   changes.
-
-
-
-
-   key driver for the Programme was Post Office's business needs following a decision
-
-
-
-   These drivers were explained by Stephen Hirst, Post Office's Finance Director/Chief
-
-   Financial Officer and Sue Harding, Post Office's overall manager for the Programme,
-
-   in initial meetings.
-
-
-
-
-   that were required for Post Office to pay out the Giro cheques issued to benefits
-                                                                                        WITNO4790100
-                                                                                     WITN04790100
-
-
-
-
-   relied in part on the footfall of these customers for its business.
-
-
-
-   recipients, and would instead pay benefits directly into recipients bank accounts. The
-
-   DWP had also decided to cease its practice of pre-paying Post Office the funds
-
-   needed to pay benefits recipients. Instead, the DWP would allow Post Office to take
-
-   out loans from the DWP on commercial terms and at commercial interest rates.
+21.The DWP had decided to stop paying benefits by issuing Giro cheques to benefits
+recipients, and would instead pay benefits directly into recipients’ bank accounts. The
+DWP had also decided to cease its practice of pre-paying Post Office the funds
+needed to pay benefits recipients. Instead, the DWP would allow Post Office to take
+out loans from the DWP on commercial terms and at commercial interest rates.
 
 22.As a result of these decisions, there was a drive within Post Office to improve and
+implement changes to its cash flow management processes, to reduce the amount of
+cash held by Post Office and minimise any interest paid on loans taken out by Post
+Office.
 
-   implement changes to its cash flow management processes, to reduce the amount of
+23.As can be seen from the ‘Business Proposition’ statements in section 3 of each of the
+Conceptual Design Documents, the scope of business needs under consideration
+were broad and considerations for flexibility were included.
 
-
-
-   Office.
-
-
-
-
-   were broad and considerations for flexibility were included.
-
-
+Changes to the cash flow management process
 
 24.As a result of the Programme, one of the changes to the cash flow management
+process included Post Office providing benefits recipients with facilities to withdraw
+money out of their bank accounts at Post Office branches, to allow these customers
+to continue retrieving their benefits at Post Office. This change required Horizon to
+then support network banking, which it did not at the time. As the scope of my role
+was limited to supporting Post Office in its business process analysis to identify and
+elaborate their requirements, | have no direct knowledge, nor am | qualified, to
 
-   process included Post Office providing benefits recipients with facilities to withdraw
+describe the impact that the switch to support network banking had upon Horizon.
 
-   money out of their bank accounts at Post Office branches, to allow these customers
+Page 7 of 13
+WITN04790100
+WITN04790100
 
-   to continue retrieving their benefits at Post Office. This change required Horizon to
+Due to the limited scope of my role, | am also unable to comment on the scale,
+achievability and risks of the tasks or changes that were brought about by the
+Programme at the time, and | do not recall being involved in any discussions between
+Fujitsu and Post Office concerning these matters at the time.
 
+25. Another change involved Post Office encouraging local retailers to bank through Post
+Office, so that the overall money deposits would assist Post Office to offset cash
+required for withdrawals. It was understood that this would allow Post Office to locally
+recycle cash rather than having to source cash elsewhere, for example, through a
+loan.
 
+Post Office’s back-end accounting system
 
+26. In addition to the changes to Post Office’s cash flow management processes, another
+key change was made to Post Office’s back-end accounting system.
 
-   describe the impact that the switch to support network banking had upon Horizon.
-                                                                                          WITNO4790100
-                                                                                       WITN04790100
+27.The key driver of this change was that Post Office’s overnight batch accounting
+system, which had been developed by Post Office in-house, was old and in need of
+replacement. Post Office documented other considerations that were relevant to the
+development of POL-FS in the POL-FS Conceptual Design, as summarised in section
+3 of the document and further defined in subsequent sections.
 
+28.Consequently, another requirement that was identified as part of Post Office’s
+business analysis was to develop a modern back-end accounting system.
 
+Changes to the cash accounting process
 
+29.It was explained to me that prior to the implementation of Horizon, Post Office’s
+accounting system involved a cash flow statement (also known as the ‘cash account
 
-   achievability and risks of the tasks or changes that were brought about by the
+form’) being manually produced (i.e. by hand) at the Post Office branch. This cash
 
+Page 8 of 13
+WITN04790100
+WITN04790100
 
+account form was then physically signed and sent to Post Office’s administration
+offices in Chesterfield (Chesterfield) for the relevant reconciliation and accounting
+processes to take place.
 
-   Fujitsu and Post Office concerning these matters at the time.
-
-25.Another change involved Post Office encouraging local retailers to bank through Post
-
-   Office, so that the overall money deposits would assist Post Office to offset cash
-
-   required for withdrawals. It was understood that this would allow Post Office to locally
-
-   recycle cash rather than having to source cash elsewhere, for example, through a
-
-   I   IN
-
-
-
-
-   replacement. Post Office documented other considerations that were relevant to the
-
-   development of POL-FS in the POL-FS Conceptual Design, as summarised in section
-
-   3 of the document and further defined in subsequent sections.
-
-28. Consequently, another requirement that was identified as part of Post Office's
-
-   business analysis was to develop a modern back-end accounting system.
-
-
-
-29. It was explained to me that prior to the implementation of Horizon, Post Office's
-
-
-
-   form') being manually produced (i.e. by hand) at the Post Office branch. This cash
-                                                                                          WITNO4790100
-                                                                                       WITN04790100
-
-
-
-
-   offices in Chesterfield (Chesterfield) for the relevant reconciliation and accounting
-
-   processes to take place.
-
-
-
-   when Horizon was implemented. Horizon simply automated the production of Post
-
-   Office's existing 'cash account form'. The format and information contained in the
-
-   cash account produced by Horizon was not different from the previous cash account
-
-   form. This cash account form was generated by Horizon and printed at the Post Office
-
-   branch for the sub-postmaster to physically sign and send to Chesterfield.
+30.These aspects of Post Office’s back-end accounting processes were not updated
+when Horizon was implemented. Horizon simply automated the production of Post
+Office’s existing ‘cash account form’. The format and information contained in the
+cash account produced by Horizon was not different from the previous cash account
+form. This cash account form was generated by Horizon and printed at the Post Office
+branch for the sub-postmaster to physically sign and send to Chesterfield.
 
 31.As a result, Post Office received electronic transaction data via Horizon, while
-
-   continuing its pre-existing processes of entering physical cash account data that was
-
-
+continuing its pre-existing processes of entering physical cash account data that was
+sent by Post Office branches to Chesterfield.
 
 32.Once received at Chesterfield, Post Office would reconcile the accounting data
+received via Horizon and the physically received cash account data. If Post Office
+identified discrepancies or other issues as part of the reconciliation process, it would
+issue changes and updates back to the relevant Post Office branch, which would take
+time to correct.
 
-   received via Horizon and the physically received cash account data. If Post Office
+33.At the time that Horizon was implemented, | was not involved with Post Office Account
+and have no knowledge as to the reasons for the decisions that were made in relation
+to Post Office’s back-end accounting processes. Post Office’s back-end accounting
+processes were updated as a result of the Programme and subsequent development
+projects. The various changes identified as required by the Programme were to be
 
-   identified discrepancies or other issues as part of the reconciliation process, it would
+implemented at different times in accordance with Horizon software releases that
 
-   issue changes and updates back to the relevant Post Office branch, which would take
+Page 9 of 13
+WITN04790100
+WITN04790100
 
-   time to correct.
-
-33.At the time that Horizon was implemented, I was not involved with Post Office Account
-
-   and have no knowledge as to the reasons for the decisions that were made in relation
-
-
-
-   processes were updated as a result of the Programme and subsequent development
-
-
-
-   implemented at different times in accordance with Horizon software releases that
-                                                                                           WITNO4790100
-                                                                                        WITN04790100
-
-
-
-
-           •               -    1       -          !   •           :1      • si• -•
-
-
-
+were known as ‘Release S60’, ‘Release S70’ and ‘Release S80’, as proposed in the
+Conceptual Design Documents.
 
 34.As a result of the Programme, the branch trading statement was developed as part
+of Horizon, as a replacement to the cash account form. One of the principal
+differences was that branch trading statements were no longer to be printed out and
+physically sent to Chesterfield, instead the data would be electronically sent to POL-
+FS. These processes are described in the Branch Trading Conceptual Design,
+including in sections 9.1.10 and 10.1.6.6. Horizon was to be changed so that sub-
+postmasters performing the accounting process at their branch would receive a
+‘confirmation’ screen to record that the accounts had been finalised for that
+accounting period, with the options: ‘OK’ or ‘Cancel’. If accepted by the sub-
+postmaster, the branch trading statement would be electronically sent to Chesterfield.
+| do not recall why the decision was made to only provide sub-postmasters the options
+of ‘OK’ or ‘Cancel’, and | do not know if other options were considered. Having
+reviewed the Conceptual Design Documents, however, | note that section 8.1.17 of
+the Branch Trading Conceptual Design contains a flow diagram noting the process
+for confirming the branch trading statement, including the ‘Confirm Trading Statement
+Accuracy’ decision point (i.e., the ‘confirmation’ screen) and two options: ‘Yes’ and
+‘No’. It is my understanding that selecting the ‘negative’ option (whether it was ‘No’ or
+‘Cancel’) allowed the sub-postmaster to make adjustments before confirming the
+branch trading statement was accurate. Due to the nature of my role and involvement
+
+with the Programme, however, | have no knowledge concerning how the
+
+Page 10 of 13
+WITN04790100
+WITN04790100
+
+‘confirmation’ screen and any associated options were presented in the Horizon user
+interface that was subsequently developed as a result of the Programme.
+
+35.1 am also aware that as a result of the Programme, the cash accounting period was
+changed from weekly to monthly. This change is noted in the Conceptual Design
+Documents. However, | cannot recall why the cash accounting period was changed.
+
+THE LOCAL SUSPENSE ACCOUNT FUNCTION
+
+36.As part of my work on the Programme, | can see that there were a number of
+requirements around suspense accounts documented in the Branch Trading
+Conceptual Design. It is likely that | had several detailed conversations about
+suspense accounts in the context of the changes made as part of the Programme,
+however as these conversations occurred 18 to 19 years ago, | cannot recall what
+was said or any actions that may have followed directly as a result of those
+conversations. Having reviewed the Conceptual Design Documents, however, | am
+reminded that the changes to be made to the usage of the local suspense account
+function as a result of the Programme are documented in section 3.2.1, in particular
+in sub-paragraphs 11, 12, 18 and 21, and in section 6.7 of the Branch Trading
+Conceptual Design. It is documented that these changes included a new facility of
+‘Transaction Corrections’, which were to be created centrally by Chesterfield staff in
+POL-FS, before being transferred to Horizon to be transacted in the Post Office
+branch. The ‘Transaction Corrections’ facility was implemented to correct
+discrepancies in Post Office branch accounts in a more timely manner than the
+process that was in use before the facility was implemented, which involved
+
+transmittance of physical ‘Error Notice’ documents or vouchers. It is also documented
+
+Page 11 of 13
+WITN04790100
+WITN04790100
+
+in section 8.3.5.1 of the POL-FS Conceptual Design how POL-FS would be used to
+reconcile, investigate and resolve discrepancies identified against cash remittances
+from cash centres to branches, or vice versa, which | recall had been identified as
+significant drivers of values in suspense accounts.
+
+CONSULTATION WITH END USERS
+
+37.As | mentioned earlier in this statement at paragraph [8], the Programme was Post
+Office’s programme, so all consultation with end users of Horizon and any training
+were Post Office’s responsibility. ‘Requirement BT-052’ in the Requirements
+Catalogue in Appendix A of the Branch Trading Conceptual Design identifies training
+as a Post Office responsibility: “Training will be required at the Branches in support
+of the new business processes, it is currently assumed that this will be provided by
+POL.”
+
+38.As the Programme involved changes being made to Horizon, it is likely that Fujitsu
+provided educational material to assist Post Office with any training, and | recall
+Fujitsu providing some support guide materials. However, | was not involved in the
+works to deploy the changes resulting from the Programme, and | do not recall what
+
+these support guide materials were, nor their contents.
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+Dated: Ath August 2022
+
+Page 12 of 13
+WITN04790100
+
+WITNO4790100
+INDEX TO FIRST WITNESS STATEMENT OF PHILIP BOARDMAN
+Exhibit Description Date Inquiry URN
+Number Reference /
+Control Number
+
+WITN End to End Re- 21 POINQ0104369F | FUJ00098198
+0479_01/1 | Architecture Feasibility February
+
+Study Business 2003
+
+Requirements
+WITN Fujitsu Services input 24 March | POINQ0104340F | FUJ00098169
+0479 01/2 | to Feasibility Study for 2003
 
-   of Horizon, as a replacement to the cash account form. One of the principal
+End to End re-
 
-   differences was that branch trading statements were no longer to be printed out and
+Architecting of Post
 
-   physically sent to Chesterfield, instead the data would be electronically sent to POL-
+Office Systems
+WITN PO Ltd Financial 1 June POINQ0096319F | FUJ00090148
+0479_01/3 | Systems Release 3 2004
 
-   FS. These processes are described in the Branch Trading Conceptual Design,
+Conceptual Design
+WITN Branch Trading 3March | POL-0035360 POL00038878
+0479_01/4 | Reporting, 2004
 
+Management and
 
+Control and
 
-   postmasters performing the accounting process at their branch would receive a
+Transaction
 
-   `confirmation' screen to record that the accounts had been finalised for that
+Conceptual Design
 
-
-
-
-   I do not recall why the decision was made to only provide sub-postmasters the options
-
-
-
-   reviewed the Conceptual Design Documents, however, I note that section 8.1.17 of
-
-
-
-   for confirming the branch trading statement, including the `Confirm Trading Statement
-
-   Accuracy' decision point (i.e., the `confirmation' screen) and two options: 'Yes' and
-
-   'No'. It is my understanding that selecting the `negative' option (whether it was 'No' or
-
-
-
-   branch trading statement was accurate. Due to the nature of my role and involvement
-                                               •
-                                                                                        WITNO4790100
-                                                                                     WITN04790100
-
-
-
-
-35. 1 am also aware that as a result of the Programme, the cash accounting period was
-
-   changed from weekly to monthly. This change is noted in the Conceptual Design
-
-   Documents. However, I cannot recall why the cash accounting period was changed.
-
-
-
-36.As part of my work on the Programme, I can see that there were a number of
-
-   requirements around suspense accounts documented in the Branch Trading
-
-   Conceptual Design. It is likely that I had several detailed conversations about
-
-
-
-   however as these conversations occurred 18 to 19 years ago, I cannot recall what
-
-   was said or any actions that may have followed directly as a result of those
-
-   conversations. Having reviewed the Conceptual Design Documents, however, I am
-
-   reminded that the changes to be made to the usage of the local suspense account
-   am
-
-
-
-
-   Conceptual Design. It is documented that these changes included a new facility of
-
-   `Transaction Corrections', which were to be created centrally by Chesterfield staff in
-
-   POL-FS, before being transferred to Horizon to be transacted in the Post Office
-
-   branch. The 'Transaction Corrections' facility was implemented             to correct
-
-   discrepancies in Post Office branch accounts in a more timely manner than the
-
-
-
-   transmittance of physical 'Error Notice' documents or vouchers. It is also documented
-                                              •
-                                                                                       WITNO4790100
-                                                                                    WITN04790100
-
-
-
-
-    reconcile, investigate and resolve discrepancies identified against cash remittances
-
-    from cash centres to branches, or vice versa, which I recall had been identified as
-
-    significant drivers of values in suspense accounts.
-               i.iraii:i
-
-
-
-
-                                    i.iuii
-
-
-
-
-                                             i
-37.As I mentioned earlier in this statement at paragraph [8], the Programme was Post
-
-    Office's programme, so all consultation with end users of Horizon and any training
-
-
-
-
-    of the new business processes, it is currently assumed that this will be provided by
-
-
-
-
-    provided educational material to assist Post Office with any training, and I recall
-
-    Fujitsu providing some support guide materials. However, I was not involved in the
-
-   works to deploy the changes resulting from the Programme, and I do not recall what
-
-    these support guide materials were, nor their contents.
-
-
-
-1FThi111]                  IVT1ii
-
-I believe the content of this statement to be true.
-
-
-
-
-                                             Page 12 of 13
-                                                                                  WITN04790100
-                                                                              WITNO4790100
-
-
-
-
-Exhibit           Description             Date         Inquiry          URN
-Number                                               Reference /
-                                                   Control Number
-WITN        End to End Re-              21         POINQ0104369F    FUJ00098198
-04790111    Architecture Feasibility    February
-            Study Business              2003
-            Requirements
-
-WITN        Fujitsu Services input      24 March   POINQ0104340F    FUJ00098169
-047901/2    to Feasibility Study for    2003
-            End to End re-
-            Architecting of Post
-            Office Systems
-
-WITN        PO Ltd Financial             1 June    POINQ0096319F    FUJ00090148
-0479_01/3   Systems Release 3          1 2004
-            Conceptual Design
-
-WITN        Branch Trading              3 March    POL-0035360      POL00038878 it
-047901/4    Reporting,                  2004
-            Management and
-            Control and
-            Transaction
-            Conceptual Design
-
+Page 13 of 13

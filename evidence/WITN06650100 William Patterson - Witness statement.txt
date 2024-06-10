@@ -1,0 +1,4020 @@
+WITNO6650100
+WITNO06650100
+
+Witness Name: William Paul Patterson (on behalf of Fujitsu Services Limited)
+Statement No.: First
+
+Exhibits: FSL_03/1 to FSL_03/144
+
+Dated: 28 September 2022
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST CORPORATE STATEMENT OF FUJITSU SERVICES LIMITED
+
+I], MR. WILLIAM PAUL PATTERSON (known as Paul Patterson), will say as follows:
+
+INTRODUCTION
+
+1. | ama director of Fujitsu Services Limited (“Fujitsu”) and am duly authorised to
+make this statement on its behalf. | am personally committed to doing everything
+possible to support the Inquiry’s process. The Human Impact phase of the Inquiry
+reinforced the devastating impact on postmasters lives and that of their families.
+lam truly sorry and, on behalf of Fujitsu, wish to apologise to the postmasters for
+our role in this. As a company, we are fully committed to the Inquiry process, to
+understand what went wrong, and to learn from it.
+
+2. | make this statement in response to the Inquiry’s Rule 9 Request for a corporate
+statement addressing issues relevant to Phases 2 and 3 of the Inquiry (the
+“Request”). This Request was dated 17 August 2022 and required a response
+by Friday 16 September 2022. | am informed by Morrison Foerster, the
+Recognised Legal Representative for Fujitsu in the Inquiry, that an extension to
+this deadline has been agreed for the response to the issues relevant to Phase
+
+3 to 14 October 2022. Accordingly, this statement deals only with the issues
+
+Page 1 of 77
+WITNO6650100
+WITNO06650100
+
+relevant to Phase 2, namely Questions 1 - 43 as set out in Appendix 1 to the
+Request.
+
+The Chair has asked for a ‘Corporate Statement’, that is a statement usually
+given by an individual of sufficient seniority within a relevant body to encapsulate
+a wider range of information than the individual's personal recollections and
+which exhibits or refers to a range of relevant contemporaneous documents.
+
+| do not have first-hand knowledge of many of the matters which are set out in
+this statement given the period which it covers. As such | explain at the outset
+how the information in this statement has been compiled. For the purposes of
+preparing the responses | have been assisted by a team of individuals within
+Fujitsu and Morrison Foerster. This is due to the vast amount of documentation
+and sources of evidence which have had to be reviewed for a time period
+stretching over 25 years. This team has provided to me the documents which are
+referenced in this statement and exhibited at FSL_03/1 to FSL_03/144, and
+which are the principal source of my knowledge of its contents.
+
+In general, responses to questions are drawn from documentary sources. These
+documents have been exhibited and/or referenced in accordance with the
+Inquiry’s Protocol on Witness Statements.
+
+Inevitably, a detailed request of this nature in the context of a factual background
+which covers such a large period of time and involves so many technical details,
+voluminous documentary material, and a large number of individuals (many of
+whom are no longer at Fujitsu) presents challenges. | do not myself have detailed
+technical knowledge of the Horizon System and am very much reliant upon
+
+Fujitsu staff with the relevant technical expertise.
+
+Page 2 of 77
+WITNO6650100
+WITNO06650100
+
+THE HORIZON SYSTEM
+7. The term “Horizon” is often used to collectively describe the IT systems provided
+by Fujitsu (and its various predecessor entities) to Post Office Limited (“POL”)
+(and Post Office Counters Limited (“POCL”), as it was previously known).
+Technology has, however, evolved significantly during that time and, accordingly,
+the system and associated services have also changed and evolved to reflect
+changing business requirements. The various phases of the Horizon System,
+including its genesis in the “Pathway Programme” are set out below.
+Pathway Programme
+8. In 1996, Pathway Group Limited’ (“Pathway Group”) was awarded a tripartite
+agreement with the Department of Health and Social Security (the “DSS”) and
+POCL to provide a solution (internally within the Pathway Group known as the
+“Pathway Programme’) envisaged to:
+a. “Bring automation to all 38,000 counter positions of the 19,300 Post
+Offices currently in the network’; and
+b. transform Benefit Payments from a paper based to a card based
+service by providing “magnetic strip cards to 19 million benefit
+customers in order that they may collect their payments.” (FSL_03/1).
+9. The development of the Pathway Programme proved significantly more complex
+than the contracting parties had anticipated. There followed a period of extensive
+negotiations between the contracting parties. However, the DSS determined that
+
+it no longer wished to proceed with the Pathway solution and, in May 1999, the
+
+1 The relationship between Pathway Group Limited and Fujitsu is described in more detail in paragraphs
+below.
+
+Page 3 of 77
+WITNO6650100
+WITNO06650100
+
+DSS and ICL Pathway Limited (as Pathway Group was then known, “ICL
+
+Pathway”) entered into an agreement terminating the tripartite arrangement.
+
+10. The departure of the DSS reflected a fundamental change to the Pathway
+Programme. One of the core functional specifications of the system which ICL
+Pathway was contracted to provide — an automated system for the payment of
+benefits — was no longer part of the project. Rather than abandon the project
+completely, a decision was taken to complete the computerisation of the Post
+Office branch network, preserving that aspect of the original Pathway
+Programme. That system became known as the “Horizon System” or
+“Horizon”.
+
+11. The Horizon System has changed over time in response to changing POCL /
+POL requirements. However, there have been three broad ‘phases’ of Horizon:
+
+a. ‘Legacy Horizon’;
+b. | HNG-X or ‘Horizon Online’; and
+c. | HNG-A or ‘Horizon Anywhere’.
+
+Legacy Horizon
+
+12. “Legacy Horizon” was the original iteration of the Horizon System, in operation
+between 1999 and 2010.
+
+13. Legacy Horizon used Riposte software from Escher, a third-party specialist
+provider to post offices in other countries, to replicate data between counters at
+
+the branches and correspondence servers in the data centres.
+
+14. Within the period 1999 to 2010, the Horizon System went through a number of
+
+substantial changes.
+
+Page 4 of 77
+WITNO6650100
+WITNO06650100
+
+HNG-X or ‘Horizon Online’
+
+15. HNG-X or ‘Horizon Online’ was rolled out to the majority of Post Office branches
+by 31 August 2010. HNG-X was a replacement of the Legacy Horizon system.
+The core technical change of HNG-X was the replacement of the Riposte system
+with a system of direct transmission from the counter to the data centre.
+
+HNG-A or ‘Horizon Anywhere’
+
+16. HNG-A or ‘Horizon Anywhere’ was progressively rolled out to branches from
+2016. The development of HNG-A was driven by the need to replace ageing
+Windows NT4 branch counter technology with a Windows 10 operating system.
+
+CONTRACTING PARTIES AND FINANCING
+
+17. During the time that the Pathway Programme and the Horizon System has been
+in place, a number of changes have been made to the various contracting
+entities. Set out below by way of background is a description of these changes
+and the relationship of the various entities to Fujitsu and its parent group.
+
+Corporate Structure
+
+18. ICL Pathway was first incorporated on 19 January 1995 under the name
+Maidhaven Limited. On 5 April 1995, Maidhaven Limited changed its name to
+Pathway Group Limited and, on 15 June 1995, a Special Resolution was passed
+to allot shares as follows to:
+
+a. International Computers Limited (“ICL”) (47 shares?);
+b. — Girobank PLC (“Girobank’) (36 shares); and
+
+c. DeLa Rue PLC (“De La Rue”): (15 shares)
+
+2 By 31 January 1996, this had been increased to 49 shares.
+Page 5 of 77
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+WITNO6650100
+WITNO06650100
+
+On 29 May 1996, Pathway Group changed its name to ICL Pathway and, in
+September 1996, the share capital of ICL Pathway was increased by 20,000,000
+ordinary shares of £1, all of which were allotted to ICL. By 25 February 1997,
+the remaining shares held by Girobank and De La Rue were transferred to ICL,
+at which time ICL’s shareholding stood at 20,000,100 shares.
+
+As shown in the annual return dated 7 February 2000, in August 1999, ICL
+Pathway’s share capital increased again to 151,700,100 ordinary shares of £1
+(an increase of 130,700,000). On 27 March 2002, ICL Pathway then changed its
+name to Fujitsu Services (Pathway) Limited.
+
+During this time the sole shareholder of ICL was ICL PLC. This entity was
+majority owned, ultimately, by Fujitsu Limited (the exact corporate structure can
+be provided to the Inquiry separately if required), and ICL PLC became a wholly
+owned subsidiary of Fujitsu on 30 September 1998. The names of ICL and ICL
+PLC were changed on 2 April 2002 to Fujitsu Services Limited and Fujitsu
+Services Holdings PLC, respectively, when the relevant ICL entities rebranded
+as “Fujitsu”. The contract for the Horizon System was then novated from Fujitsu
+Services (Pathway) Limited to Fujitsu Services Limited on or around 1 April 2003,
+as it remains to the present day.
+
+Fujitsu Services (Pathway) Limited was dissolved on 3 January 2013. Fujitsu
+remains a wholly owned subsidiary of Fujitsu Services Holdings PLC
+Separately, Post Office Counters Limited changed its name to Post Office
+
+Limited on 1 October 2001.
+
+Page 6 of 77
+WITNO6650100
+WITNO06650100
+
+Financing
+
+24. The Inquiry has asked Fujitsu to explain how Fujitsu financed the cost of
+developing new software for the Horizon System prior to the national roll out.
+
+25. The Pathway Programme was based on a Private Finance Initiative (“PFI”)
+structure, with the cost of designing and developing the contract solution to be
+financed by the service providers. Project financing through a variety of banks
+was obtained in addition to a variety of service provider working capital
+arrangements.
+
+26. ICL Pathway Asset Company Limited was established as a fully owned
+subsidiary of ICL Pathway to act as a special purpose vehicle for funding
+(FSL_03/2).
+
+27. In addition to the financial arrangements explained above, Fujitsu draws the
+Inquiry’s attention to the provision of a capital injection by Fujitsu Limited into ICL
+PLC to restore its consolidated net worth in accordance with banking covenants
+ICL PLC held at that time. The capital injection was effected by the issue of
+263,400,000 new ordinary shares in June 1999. Fujitsu Limited paid
+£131,700,000 for these shares.
+
+28. The financing arrangements were altered when ICL Pathway entered into the
+agreement with POCL dated 28 July 1999, with the removal of the PFI structure.
+
+OVERVIEW OF ICL PATHWAY’S BID FOR THE HORIZON PROJECT
+
+29. Fujitsu has been asked by the Inquiry to provide an overview of ICL Pathway’s
+bid for the Pathway Programme and to answer certain questions about that
+process.
+
+30. The opportunity to tender for the opportunity to deliver what later became known
+
+as Horizon was advertised on or about 30 August 1994 by a notice published in
+
+Page 7 of 77
+WITNO6650100
+WITNO06650100
+
+the Official Journal of the European Communities (the “OJEC Notice”)
+(FSL_03/3).
+
+31. The OJEC Notice was placed on behalf of what were then known as:
+
+a. the DSS (which was also commonly referred to as the Benefits
+Agency ((the “BA”)) in documents referred to in this statement); and
+b. POCL.
+
+32. The contractual opportunity was broadly described as the computerisation of
+post office counter services including the support of authorisation, payment and
+accounting for the DSS and other Government departments.
+
+33. ICL expressed its interest to tender and submitted to DSS and POCL (the
+“Contracting Authorities”) a statement of capability and interest on or about
+23 September 1994 (the “Statement of Capability and Interest”) (FSL_03/4).
+
+34. The Statement of Capability and Interest was expressed to be from ICL and a
+“consortium” of partners comprised of:
+
+a. De La Rue Group (said to be the Uk’s leading provider of magnetic
+card and associated technology at the time),
+
+b. | Hambros (investment merchant bank experienced in PFl commercial
+structuring),
+
+c. An Post (the state owned provider of postal services in Ireland),
+
+d. Escher Group (the supplier of the Riposte software solution), and
+
+e. Girobank (a financial services company owned by Alliance and
+Leicester at that time).
+
+35. The Statement of Capability and Interest indicated that, for the computerisation
+of post office branches, ICL had “chosen to work with the Irish Post Office, An
+
+Post, and the software consultancy group Escher, to ensure that these
+
+Page 8 of 77
+36.
+
+37.
+
+WITNO6650100
+WITNO06650100
+
+requirements can be met with an integrated solution specification designed for
+this purpose”. This was because An Post had successfully automated its post
+office counter business and had used software developed by Escher Group to
+do so. This system had “put An Post's counters business in an ideal position to
+develop the full potential of its retail sales ability and advance its customer
+service standards”.
+
+ICL and other prospective service providers which responded to this OJEC
+Notice were provided with a prospectus entitled “Bringing Technology to Post
+Offices and Benefit Payments” on or about 5 October 1994. They later received
+on 19 October 1994 a Request for a Statement of Capability issued on or about
+(the “POCL/BA Request for a Statement of Capability”) (FSL_03/5). The
+purpose of the POCL/BA Request for a Statement of Capability was to provide
+more information about the tender opportunity and to allow the BA and POCL to
+shortlist potential prime contractors on the basis of their respective ‘Statements
+of Capability’. Shortlisted service providers were to receive a more detailed
+specification of requirements in due course.
+
+The POCL/BA Request for a Statement of Capability sets out a procurement
+strategy at Annex A. This refers to POCL/BA’s intention to select a “single prime
+contractor... to source a strategic IT infrastructure... for all POCL applications,
+and to develop the initial BA benefit payment application”. The strategy also
+refers to potential prime contractors being required to set up and operate a “pilot
+system and service”. The initial state of the pilot was to “be a demonstrator which
+must establish credibility of the prime contractor's proposed solution, both from
+
+a technical and usability perspective, whilst the latter state (to be referred to as
+
+Page 9 of 77
+38.
+
+WITNO6650100
+WITNO06650100
+
+the operational trial) will focus on refinement of the solution and final proving of
+the detailed operational aspects prior to roll-out of the infrastructure”.
+
+A provisional timetable for the procurement process is also set out Annex A to
+the POCL/BA Request for a Statement of Capability. In summary, this provides:
+
+a. Stage 1 — Establish Playing Field (August — November 1994). The
+
+purpose of this stage was to establish whether there was sufficient
+interest and capability to run a full competition in line with the
+procurement strategy.
+
+b. Stage 2 — Innovation and Clarification (December 1994 — March
+1995). This stage was to involve the issue of a Statement of Service
+Requirements document (the “SSR”) which service providers were to
+respond to by submitting written proposals. Shortlisted service
+providers were then to be invited to enter into contract negotiations in
+parallel with mounting their demonstrator programmes.
+
+c. Stage 3 — Contractor Negotiation / Pilot Commencement (March —
+
+September 1995). The objective of this stage was to agree the draft
+contracts for the application development and service provision and
+for demonstrations of the proposed solutions to occur. This process
+was aimed at evaluation and risk assessment of potential solutions.
+
+d. Stage 4 — Evaluation and Selection (October — December 1995).
+
+During this stage, the service providers were to be asked to submit
+tenders on the basis of agreed draft contracts, following evaluation of
+which a prime contractor would be selected.
+
+e. Stage 5 — Pilot Operational Trials (after December 1995). Following
+
+the selection of a prime contractor the operational trials were to
+
+Page 10 of 77
+39.
+
+40.
+
+41.
+
+WITNO6650100
+WITNO06650100
+
+commence to, (i) refine and prove the preferred prime contactor’s
+
+solution for the IT infrastructure and BA application, and (ii) establish
+
+the detail of a roll-out programme.
+Annex B to the POCL/BA Request for a Statement of Capability contained a
+questionnaire which all service providers responding to the request were
+required to complete. This included questions about financial standing of the
+service provider and any consortium members.
+ICL submitted a Statement of Capability on or about 19 November 1994
+(FSL_03/6). This contained information about ICL’s and its consortium
+members’ relevant capabilities and experience. It also stated that the ICL
+consortium had established a joint team at a location to analyse and define in
+detail the proposed solution, recognising that the full SSR had yet to be issued.
+A separate bid opportunity was also advertised at this time for what was known
+as the Automation of London Post Offices (“ALPS”) project or the ALPS/ESNS
+project. This programme was intended to introduce by August 1995 some level
+of automation at Post Office branches within the M25 region. This was to include
+an Electronic Stop Notice facility (‘ESNS”) to mitigate fraud in benefits
+distribution. ESNS did this by accessing a national ‘stop list’ of benefit books to
+perform validation checks on order books presented in Post Office branches by
+recipients of benefits payments (FSL_03/7). Whilst we have not been able to
+identify the original bid materials for this opportunity, it was a tender which ICL
+won and worked on before the completion of the “Bringing Technology to Post
+
+Offices and Benefit Payments” Procurement in May 1996.
+
+Page 11 of 77
+42.
+
+43.
+
+44.
+
+45.
+
+46.
+
+WITNO6650100
+WITNO06650100
+
+In 1995, ICL, De La Rue and Girobank established a new company, Pathway
+Group, to participate in the tender process and to perform any subsequent
+contract if it won the tender.
+
+On 13 April 1995, the DSS and POCL issued the SSR to shortlisted service
+providers, including the newly established Pathway Group (FSL_03/7). The SSR
+contained a detailed description of the functional requirements behind the
+services to be provided following the procurement.
+
+In terms of the proposed commercial and contractual basis of the procurement
+opportunity, paragraph 8.3.3 of the SSR states that the service requirements
+were to be met by a service contract or contracts which conform to the
+requirements of the PFI.
+
+Pathway Group submitted a proposal in response to this SSR on or about
+8 June 1995 (the “Pathway Group Response”) (FSL_03/8). This was a
+substantial document extending to hundreds of pages. The Pathway Group
+Response contained technical proposals and specifications regarding Pathway
+Group’s proposed solution to deliver the “Benefit Payment Services” and the
+“POCL Strategic Infrastructure Services”, in additions to details relating to
+matters such as Quality Management Systems.
+
+Finally, Annex 6 of the Pathway Group Response sets out details of relevant
+experience qualifying Pathway Group, its various shareholders and its proposed
+sub-contractors to deliver the opportunity specified in the SSR. This information
+includes reference to the ALPS / ESNS project ICL had delivered to Post Office
+branches within the M25 motorway boundary, which is relevant to a question
+which the Inquiry has asked Fujitsu to answer in relation to prior experience ICL
+
+had in relation to delivering automated payment or accounting systems.
+
+Page 12 of 77
+WITNO6650100
+WITNO06650100
+
+47. The procurement process led by the Contracting Authorities continued and
+Pathway Group became a shortlisted service provider. The other shortlisted
+service providers are understood to have been IBM and ‘Cardlink’ (see for
+example the minutes of the Pathway Group Board meeting on 15 March 1996
+(FSL_03/9)).
+
+48. By the end of 1995, a draft contract and commercial terms were shared and
+commented on by shortlisted service providers (see for example a first draft of
+Pathway Group’s response to the draft contract dated 29 December 1995 at
+FSL_03/10). However, it is apparent that the Contracting Authorities perceived
+various shortcomings and risks with the Pathway Group Response. These risks
+were the subject of scrutiny and questions by the Contracting Authorities during
+the early part of 1996. Key risk areas perceived with Pathway Group’s Response
+were noted in the minutes of a Pathway Group Board meeting on 15 March 1996
+(FSL_03/9) as being:
+
+a. _ Financial structure;
+b. Fraud liability; and
+c. Reliance on Escher.
+
+49. Nevertheless, on 29 February 1996, the Contracting Authorities invited Pathway
+Group to submit a formal tender (see the letter from Patricia Kelsey, Head of
+Procurement for BA/POCL, to Jim Morley, Programme Director of Pathway
+Group, FSL_03/11). Pathway Group put in its tender submission on or about 21
+March 1996 which, after some modification to respond to the invitation to re-
+tender issued on or around 16 April 1996, was re-submitted on or about 22 April
+1996 (see the Managing Director's Report prepared for the Pathway Group
+
+Board meeting on 25 April 1996, FSL_03/12).
+
+Page 13 of 77
+WITNO6650100
+WITNO06650100
+
+50. Subsequently, on or about 15 May 1996 Pathway Group was awarded the
+service contracts to computerise all the UK's c.19,000 Post Offices and
+simultaneously automate the system for paying DSS benefits to at least
+19 million claimants. The arrangements were set out in three related contracts
+dated 15 May 1996 (the “Related Agreements’):
+
+a. | anagreement between the DSS and Pathway Group for, inter alia, the
+provision by Pathway Group of services relating to a benefit payment
+card (the “DSS Agreement’);
+
+b. an agreement between POCL and Pathway Group for, inter alia, the
+provision by Pathway Group of the “POCL Service Infrastructure” and
+“POCL Services”; (the “POCL Agreement’); and
+
+c. an agreement among the DSS, POCL and Pathway Group for the
+supply of a service infrastructure and the provision of certain services
+which were of common interest to both the DSS and POCL (the
+“Authorities’ Agreement”)
+
+51. Shortly after the Related Agreements were entered into, Pathway Group
+changed its name to ICL Pathway and arrangements were made to increase
+ICL’s shareholding in ICL Pathway. Less than six months after the allotment of
+these shares, ICL became the sole shareholder of ICL Pathway.
+
+DESIGN, DEVELOPMENT AND PILOT OF THE SERVICES SOLUTION
+
+52. Fujitsu has been asked by the Inquiry to describe and explain the key stages in
+the design and development of the Horizon System during the period 1996-2000
+and this is addressed in the following sections of this statement.
+
+53. Under the Related Agreements, it was ICL Pathway’s responsibility to design,
+
+develop, integrate and establish a services solution. Under the PFI principles
+
+Page 14 of 77
+WITNO6650100
+WITNO06650100
+
+governing the Related Agreements, once accepted and rolled out, ICL Pathway
+could recoup its solution investment from charges based on transaction volumes
+across the remaining terms of the Related Agreements.
+
+54. In the Pathway Group Response during the tender process, Pathway Group
+recognised that the service solution would take significant time to design and
+develop and that benefits such as fraud encashment ‘savings’ would be delayed.
+It was on this basis that proposals were made by Pathway Group to take a
+phased approach to the implementation of existing solutions which could then be
+built on to deliver successive increments of functionality? (FSL_03/8).
+
+55. The contractual requirements of the service to be provided had been articulated
+by the Contracting Authorities during the tender process and were set out in the
+Related Agreements. Solution responses provided by ICL Pathway were also
+incorporated into the Related Agreements and later into the agreement signed
+between ICL Pathway and POCL in July 1999 (the “Codified Agreement’).
+
+56. The parties agreed in the Related Agreements and during the governance of the
+design and development programme to develop components of contractual
+services up to a certain level of functionality so that these service components
+could be trialled in pilot sites and upgraded with new layers of functionality or
+service components.
+
+57. The Programme Delivery Authority (“PDA”) was established by the Contracting
+Authorities to oversee design, development and implementation work. The PDA
+was comprised of individuals from POCL and DSS, in addition to external
+consultants. In or around April 1998, the PDA was replaced with a team within
+
+POCL led by the Horizon Programme Director, a POCL Board position, who had
+
+3 Paragraph 8.2.1.4.1 section 8 of Pathway’'s response to the SSR.
+Page 15 of 77
+58.
+
+59.
+
+WITNO6650100
+WITNO06650100
+
+POCL signing authority in relation the Authorities’ Agreement (FSL_03/13 and
+FSL_03/14).
+
+On or about 16 August 1996, the first version of a master plan for delivery of the
+programme was issued by the PDA (FSL_03/15). This initial master plan set out
+strategic milestones and provided detail in relation to parties’ activities and
+responsibilities as well as a framework for ongoing management. The third and
+final version of the master plan was issued by the PDA on 8 April 1997 (the
+“Master Plan”) (FSL_03/16). This document noted that any further changes
+would be subject to the formal PDA change control process.
+
+In summary, the Master Plan envisaged the following strategic milestones:
+
+a. Release 1A, also called the ‘Initial Go Live’: to implement software
+introducing Child Benefits payments by card. It was planned to be
+installed at a single Post Office branch by 23 September 1996,
+followed by further installations of the same at an additional 9 Post
+Office branches by 21 October 1996.
+
+b. Release 1B, as another component of the pilot phase: to introduce the
+automation of the Order Book Control System (“OBCS”) at
+approximately 200 Post Office branches, which was to go live and be
+made available for customer use by 28 April 1997.
+
+c. Release 1C, to extend OBCS functionality and introduce the Benefit
+Payment Service (“BPS’) for restricted live use by 30 June 1997.
+
+d. Release 1E, to extend OBSC and BPS functionality and to introduce
+Electronic Point of Sale Service (“EPOSS”) functionality and
+Automated Payment Systems (“APS”) for use in full trial by 8
+
+September 1997.
+
+Page 16 of 77
+60.
+
+WITNO6650100
+WITNO06650100
+
+e. Release 1, would contain all agreed Release 1 functionality from
+Release 1A to 1E for full use by 21 November 1997.
+
+There were factors and events which led to deviations from the Master Plan.
+
+EARLY DESIGN ACTIVITIES
+
+61.
+
+62.
+
+63.
+
+Under the Authorities’ Agreement, the parties were required to agree a detailed
+specification of the services so that a detailed design document of the service
+architecture could be produced (Clause 401 of Authorities’ Agreement,
+FSL_03/17). Paragraph 2.2 of Schedule B7 of the Authorities’ Agreement
+required Pathway Group to supply the Contracting Authorities with a Functional
+Specification within one week of execution of the Related Agreements and for
+this be agreed by a target date of 30 June 1996.
+
+The Functional Specification issued by Pathway Group on 22 May 1996 stated
+that it had been prepared with a view to it being converted into the Service
+Architecture Design Document (“SADD”) required by Clause 401.1 in the
+Authorities’ Agreement (FSL_03/18). In this way, it was intended that there would
+be a “complete description and unbroken audit trail of changes proposed and
+changes agreed”. Version 6 of the Functional Specification is dated 26 July 1996
+(FSL_03/19).
+
+A SADD was also prepared by ICL Pathway‘. Fujitsu has not yet located a
+complete copy or final version of the issued SADD, although it is understood that
+
+the SADD was issued on or about 27 September 1996.
+
+4 Pathway Group Limited changed its names to ICL Pathway Limited with effect from 29 May 1996
+
+Page 17 of 77
+WITNO6650100
+WITNO06650100
+
+INITIAL GO LIVE
+
+64. The Initial Go Live (“IGL”) was based on software Release 1A, which facilitated
+the automation of the payment of child benefits and piloted the use of payment
+cards at 10 branches in the Stroud area.
+
+65. Arelease notice for IGL was produced by ICL Pathway on or about 6 September
+
+1996 (FSL_03/20). The release notice entitled “ICL Software Baseline Release
+Notice Issue 1” provides:
+“the Release Notice for the IGL1 Software Baseline...contains the definition of
+the contents of the baseline and provides a checklist of media and associated
+documentation to be used in the Build of the IGL1 Live system. This software
+baseline reflects the software that was used during the UAT testing prior to
+6/9/96", where UAT stands for User Acceptance Testing.
+
+66. The release notice states, however, that: “at the time of publication of this
+document, further problems are being investigated which are likely to require
+further updates to this software baseline. Such updates will be provided as
+‘patches’ to this baseline, and will be covered by separate Release notices. Refer
+to PinICL for the latest status of problems found during UAT’.
+
+67. PinlCL was a proprietary incident management system which Pathway used to
+manage any incidents arising during the development and subsequent operation
+of the services being delivered to the Contracting Authorities.
+
+68. An update to the release notice was subsequently issued on or about
+17 September 1996 entitled “IGL1 Software Updates Release Notice Issue 2.0”
+
+(FSL_03/21). This provides:
+
+Page 18 of 77
+69.
+
+70.
+
+71.
+
+72.
+
+73.
+
+WITNO6650100
+WITNO06650100
+
+“This document is the Release Notice for updates to the IGL1 Software
+Baseline...The revised baseline reflects the software that has been upgraded
+following UAT testing, in the period between 11/9/96 and 17/9/96’.
+
+Update 2.0 of the ICL Pathway IGL1 Software Baseline also refers to key team
+members who were involved in the development and testing of Initial Go Live
+(FSL_03/22).
+
+The first installation of Release 1A occurred on or about 23 September 1996 at
+the Leonard Stanley branch in Gloucestershire. This was followed by installations
+of Release 1A at a further nine Post Office branches from 21 October 1996.
+
+At each of these Post Office branches, a single set of counter equipment was
+installed to support Initial Go Live, comprising a PC, a printer, a bar code reader
+and a magnetic card reader. Only one counter position per Post Office branch
+was installed.
+
+On 29 November 1996, the Pathway Quality Manager at that time, David Groom,
+visited five of the IGL Post Office branches (Whitehall, Caincross, Ebley, Kings
+Stanley and Leonard Stanley) to carry out a quality audit involving an inspection
+of the installation of Release 1A and a discussion with the postmasters working
+at those branches on their experiences of implementation. The audit findings,
+including key customer comments, were recorded in a quality audit report
+prepared by Mr Groom in January 1997 (FSL_03/23).
+
+A Lessons Learned report was prepared by ICL Pathway in November 1996.
+This report includes a summary of the design and testing work that was
+undertaken in relation to the IGL phase and sets out resultant lessons learned
+
+(FSL_03/24).
+
+Page 19 of 77
+WITNO6650100
+WITNO06650100
+
+THE PILOT PHASE (RELEASE 1B)
+74. As set out in the Master Plan (FSL_03/15), a Pilot phase was to follow IGL. This
+
+pilot phase began with Release 1B which is understood to have provided the
+OBCS, in addition to minimal elements of the EPOSS service necessary to
+support OBCS. Release 1B was installed at approximately 190 branches in the
+North East, South Wales and South West of England from May 1997 onwards.
+75. Prior to the installation of Release 1B, post office branches required:
+
+a. ‘Outlet’ surveys and preparation;
+
+b. User Awareness;
+
+c. User Training;
+
+d. Installation of equipment at branches; and
+
+e. Support Services.
+
+76. Further details of the implementation activities associated with Release 1B are
+contained in the Implementation Strategy dated 30 May 1997 (FSL_03/25), and
+in the documents cross referred to in that release strategy.
+
+77. \n terms of cotemporaneous programmatic documents, the “Release 1b - Order
+Book Control Service Processes and Procedures” document (FSL_03/26) sets
+out the elements of the OBCS service application to be delivered in Release 1B.
+
+78. There were delays to and issues with the implementation of Release 1B. In the
+minutes of the ICL Pathway Board meeting on 7 May 1997 (FSL_03/27), it was
+reported that Release 1B was “working satisfactorily” in only one Post Office at
+that time. Terry Austin, the then Programme Director, reported to the board that:
+“The late release of Issue 1b had been principally as a result of bugs in the
+connection between the Post Office and the HQ Data Centres. Considerable
+
+regression testing was necessary following resolution of these bugs, in order to
+
+Page 20 of 77
+WITNO6650100
+WITNO06650100
+
+check that other parts of the system were not affected. This had impacted on the
+timescale for Release 1c, now expected to be six to eight weeks late (ie August).
+By the end of the week we hoped to be back on course with Release 1b, in a
+total of twenty Post Offices”
+
+79. Then Managing Director of ICL Pathway, John Bennett, also reported that
+surveys of the post offices continued and “there were many which appeared to
+have inadequate counter space and other facilities, including electrical, ISDN etc
+links.”
+
+80. Consequences of the delay were summarised by Mr Bennett, as including the
+“the likelihood of achieving a roll-out to significantly less than the projected
+number of Post Offices by the year end”.
+
+81. Itis also apparent from these minutes that both POCL and the Benefits Agency
+were involving external consultants to review programme progress. Mr Bennett
+said that the PDA had asked Andersen Consulting to review progress. POCL
+declined to be involved in this review and had instead asked French Thornton to
+conduct a separate review.
+
+THE PILOT PHASE (RELEASE 1C)
+
+82. The objective of Release 1C was to introduce the BPS (consisting of (i) Card
+Management Services, or “CMS”, (ii) Payment Authorisation Service, or “PAS”,
+and (iii) Benefit Encashment Service, or “BES”). Further details of the content of
+this release are set out in the “Release 1c Contents Description” dated 22
+September 1997 (FSL_03/28).
+
+83. Release 1C was to be implemented at the 10 IGL Post Office branches operating
+
+Release 1A and the approximately 190 Post Office branches operating Release
+
+Page 21 of 77
+84.
+
+85.
+
+86.
+
+WITNO6650100
+WITNO06650100
+
+1B. Release 1C went live on or about 20 November 1997 at 205 Post Office
+branches with approximately 330 counters (FSL_03/29).
+
+There were delays to and issues with Release 1C’s development and
+implementation and this resulted in a re-planning of release delivery and changes
+to the programme timetable. By the early summer of 1997, it was reported to the
+Board of ICL PLC (sole shareholder of ICL) that Release 1C had slipped from
+August to October 1997 (FSL_03/30). One of the reasons cited for this delay
+was the complexity of the solution. Issues were recorded in ICL Pathway’s PinICL
+database as incidents and were tracked and reported as part of agreed testing
+of Release 1C.
+
+A subset of these incidents were recorded in a document entitled the “Known
+Problem Register at 1c” dated 26 August 1997 (FSL_03/31). By way of
+background, the Known Problem Register (or “KPR”) was used by ICL Pathway
+to record known problems which were not intended to be resolved by means of
+product change in a target Release. It was intended to provide visibility of such
+problems for evaluation of the business risk to BA/POCL and/or ICL Pathway.
+
+It is understood from the KPR for Release 1C that the assessment of whether an
+issue could be added to the KPR was undertaken by an ICL Pathway PinICL
+Impact Assessment Team (or, “PIAT”). Incidents recorded in PinlICLs were
+classified according to the priority at which the incident was being progressed.
+The classifications used were: (i) Category A - Programme stopped; (ii) Category
+B - Progress stopped; (iii) Category C - Progress restricted; and (iv) Category D
+- Non-urgent. These classifications were based on business impact assessments
+conventionally defined as: High, Medium, Low and None. For further information
+
+regarding the classifications applied in ICL Pathway’s PinICL records, please see
+
+Page 22 of 77
+WITNO6650100
+WITNO06650100
+
+the submission made on behalf of Fujitsu on 13 September 2022, in response to
+a Rule 9 Request dated 29 April 2022.
+
+87. Matters relating to the implementation of Release 1C were recorded in Weekly
+Progress Reports relating to each of the POCL designated regions (see for
+example, FSL_03/32 in respect the North East region, and FSL_03/33 and
+FSL_03/34 in respect of the South Wales and South West region). Technical
+deficiencies identified during Release 1C were escalated through the PinICL
+system, as described above, and formed the subject of various reports and
+change documents such as the, (i) Phase 1c - Post Implementation Report dated
+31 March 1998 (FSL_03/35), (ii) monthly Release 1C Operations Reports such
+as FSL_03/36, and (iii) Release 1C Change Request — Lost Transactions &
+Duplicate Payments Change Request dated 21 January 1998 (FSL_03/37).
+
+88. On 19 September 1997, an ICL Pathway Memorandum (FSL_03/38) was
+produced in relation to Model Office Testing activities for Release 1C. The memo
+was prepared by Terry Austin and explains that the baseline codeset for Release
+1C submitted for Model Office testing was to be finalised on 19 September 1997,
+with Model Office testing due to start on 6 October 1997.
+
+89. Release 1C then went live on or about 20 November 1997 at approximately 200
+Post Offices branches (FSL_03/29).
+
+NR2 DESIGN, DEVELOPMENT AND PREPARATION FOR ACCEPTANCE
+
+90. Fujitsu has been asked by the Inquiry to identify and explain which factors caused
+or contributed to the delay in implementation of the live trial of the Horizon
+
+System.
+
+Page 23 of 77
+WITNO6650100
+WITNO06650100
+
+91. In responding to the Inquiry’s request, Fujitsu sets out high level explanations
+that were reported at the time of the causes and contributions towards delay to
+the programme, and does not warrant their accuracy.
+
+92. The previous section of this statement addresses delays which occurred to the
+Pilot phase of the programme. There were consequential delays to the
+remainder of the plan for Release 1 and Release 2. Towards the end of 1997, it
+is understood that there was a re-plan to withdraw Release 1e and Release 2
+and create a New Release 2 (“NR2”) as described in version 2 of the “New
+Release 2 Contents Description” document prepared by ICL Pathway
+(FSL_03/39).
+
+93. The aforementioned document stated that NR2 was being planned to be used
+as the baseline release, “to enable the Live Trial and contractual acceptance
+process”.
+
+ACCEPTANCE PREPARATION IN 1997
+
+94. A procedure for acceptance of the Operational Trial had been prepared by the
+PDA, of which the third and final phase was Live Trial (FSL_03/40). The
+procedure specified that the Live Trial was to be made up of three stages:
+
+a. Acceptance Preparation;
+b. Acceptance Testing; and
+c. Contractual Acceptance.
+
+95. The final stage of Contractual Acceptance was to be confirmed by the
+Acceptance Board within five working days of the end of Live Trial. The
+Acceptance Board could either reject, accept or partially accept the ICL Pathway
+
+Services. This decision would then be given to the Release Authorisation Board.
+
+Page 24 of 77
+WITNO6650100
+WITNO06650100
+
+96. The procedure also contained requirements for the establishment of an
+Acceptance Board, Acceptance Groups, and the responsibilities of key roles
+such as the Acceptance Manager, the Acceptance Incident Manager and other
+extensive Acceptance Preparation activities.
+
+THE RELATIONSHIP TO CAPS
+
+97. The Customer Accounting and Payment System (“CAPS”) project was a DSS
+managed development project. It is Fujitsu’s understanding that there was a
+dependency between this CAPS project and the Live Trial and Acceptance of
+NR2. The system ICL Pathway was developing was required to interface to the
+CAPS system, meaning the progress of CAPS affected Pathway Releases.
+
+98. Itis amatter of public record in the NAO report prepared by John Bourn in August
+2000 that there were delays to the CAPS project and that this had an impact on
+the design and development of the services solution ICL Pathway was
+responsible for delivering.
+
+THIRD PARTY AND INTERNAL AUDITS OF PROGRAMME DELIVERY
+
+99. It is understood that BA, POCL and ICL co-sponsored and commissioned an
+independent review by PA Consulting into the weaknesses and risks in the
+programme.
+
+100. In addition, Fujitsu has identified and disclosed to the Inquiry internal audit
+reports containing references to contemporaneous actions which were
+undertaken by ICL Pathway concerning its performance. For example, a series
+of internal audits were undertaken which contained analysis of and
+recommendations to improve quality management issues. The audits continued
+over a number of years but, initially, they were referred to as (mid stage quality
+
+audits (‘MSQA’”) and cited criticisms in the PA Consulting report. For example,
+
+Page 25 of 77
+WITNO6650100
+WITNO06650100
+
+a Report on the “Release 2 Process Improvement Programme” produced on or
+about 18 June 1998 stated:
+
+“A review of the Pathway project (Release 1) was carried out during 1997 by PA
+Consulting Ltd (PA). One of the observations raised during that review was that
+while ICL Pathway possessed processes and standards, their deployment and
+subsequent compliance by members of the project team could be improved. A
+corrective action programme was put in place inside Pathway to address the
+many observations and recommendations made. This report presents the results
+of that programme, culminating in the sequence of Mid Stage Quality Audits
+conducted between December 1997 and May 1998” (FSL_03/41).
+
+THE IMPACT OF THE PFI STRUCTURE
+
+101. Under PFI principles ICL Pathway bore the risk (and therefore the cost) of delays
+to the acceptance of the contract solution. There were exceptions to this, for
+example, if it could be shown that the delay was caused by certain actions or
+omissions by the Contracting Authorities (such as delay to the development of
+CAPS releases), but the onus was on ICL Pathway to demonstrate that delay
+should result in extensions of time and compensation.
+
+102. At the end of 1997, ICL Pathway was facing significant potential financial losses
+over the lifetime of the contract as a result of the Pathway Programme.
+
+103. A position paper dated 5 March 1998 (the “ICL Position Paper”) set out, on a
+without prejudice basis, the ICL position that the DSS had ‘breached’ basic PFI
+principles and was not meeting its obligations in relation to the availability of the
+CAPS system (FSL_03/42). In addition, the ICL Position Paper highlighted a
+
+number of core issues relating to the initial specification and changes to the
+
+Page 26 of 77
+WITNO6650100
+WITNO06650100
+
+Contracting Authorities’ requirements, which adversely impacted the stability of
+design and software developments to meet these changing requirements.
+
+ISSUES WITH THE DEVELOPMENT AND TESTING OF NR2
+
+104. Fujitsu understands from contemporaneous reporting that there were issues with
+the development of NR2 and this was causing further risk and delay to the plans
+to take NR2 to Live Trial.
+
+105. By March 1998, it was reported internally at ICL Pathway that during testing of
+various ‘product drops’ there were a high level of category ‘B’ priority PinICLs not
+achieving the required time for fixes (FSL_03/43). The reason for the delay was
+reported to be the “high Development workload”. It was also reported that the
+category ‘A’ priority rating for PinICLs was not being fully utilized as there was a
+reluctance to set PinICLs to ‘A’ priority due to its definition of “Programme
+Stopped”. Slower progress than planned was being made in a number of the
+test phases. In particular, EPOSS and BPS system tests were behind plan.
+
+106. In an internal ICL Pathway note prepared on or about 29 April 1998, it was
+reported that the Live Trial was being scheduled to occur in January 1999,
+followed by national rollout commencing in April 1999 (FSL_03/13). However,
+there were issues arising from Reference Data and the testing of EPOSS as
+much of the detailed functionality of EROSS was, in effect, contained within
+Reference Data, and the contract level specification was open to a range of
+detailed interpretations. The note stated that to objectify this detail, ICL Pathway
+and POCL had agreed to develop the service through prototyping and this activity
+had identified many issues related to the automation of existing business
+
+processes and took longer than planned.
+
+Page 27 of 77
+WITNO6650100
+WITNO06650100
+
+107. Issues agreeing the Release Contents Definition (the “RCD”) of Release 2 were
+also identified as a factor. Significantly, the note refers to the RCD striking a
+balance between the principle enshrined in the “Final (Drop Down) version of the
+contract that not all functionality will be delivered in the first general release and
+the concerns expressed by sponsors as to those features and functions they
+were prepared to live without for a period”. The Authorities had not signed off
+the RCD, instead indicating that sign off would only occur if certain conditions
+were met. The note submits that this, together with various changes which
+seemingly went against the above-mentioned principle, had “destabilised the
+design baseline”.
+
+108. Over the summer of 1998, testing of NR2 continued but there were issues with
+the release being identified in testing and delays to forecast completion of testing
+activities which potentially impacted planned timescales for the commencement
+of national roll out. The “large number of incidents (PinICL's) to be resolved” was
+identified to the ICL Pathway board in August 1998 as being a key risk to the
+plan for national roll out to commence in April 1999 (FSL_03/44).
+
+RENEGOTIATIONS OF THE RELATED AGREEMENTS AND PREPARATIONS
+
+FOR ACCEPTANCE
+
+109. The above-mentioned disputes and delays to the Pathway Programme had been
+escalated within Government. An independent review commissioned by HM
+Treasury Review in 1998 was expected to issue a report of its findings in July
+1998 (‘HMT Report’) (FSL_03/45).
+
+110. The report explored 6 options for proceeding with the programme, of which two
+were recommended and would be the subject of further ministerial discussion
+
+(FSL_03/46).
+
+Page 28 of 77
+WITNO6650100
+WITNO06650100
+
+111. Option 1 proposed the introduction of a benefit payment card to co-exist with new
+POCL banking and financial services that would allow benefits to be paid by
+automatic credit transfers (“ACT”). The DSS would then transfer to full ACT at
+that time.
+
+112. Option 2 proposed reducing the scope by removing the benefit payment card
+component completely, relying solely on POCL to develop an ACT based
+benefits solution, and entailed ICL Pathway being compensated for the reduced
+scope of contract.
+
+113. There then followed a period negotiation as to the future of the Pathway
+Programme which ultimately continued until the Related Agreements were
+terminated in May 1999 and a new agreement, the Codified Agreement, was
+entered into between ICL Pathway and POCL in July 1999.
+
+CSR ACCEPTANCE CRITERIA AND TESTING
+
+114. Fujitsu has been asked by the Inquiry to identify and explain the acceptance
+criteria for the Horizon System as well as other associated questions regarding
+the testing which was undertaken of the system prior to its acceptance. In
+addition, Fujitsu has been asked by the Inquiry to identify and explain the factors
+which caused or contributed to the delay in acceptance and roll out of the Horizon
+System.
+
+115. On the issues of robustness and fitness for purpose of the Horizon System, the
+Inquiry has also asked Fujitsu to explain what was known by ICL Pathway at the
+time of acceptance and national rollout regarding the accuracy and integrity of
+the data recorded and processed on the Horizon System, and the extent to which
+deficiencies in the Horizon System were capable of causing or caused apparent
+
+discrepancies or shortfalls in branch accounts.
+
+Page 29 of 77
+WITNO6650100
+WITNO06650100
+
+116. Acceptance of the Core System Release (“CSR Acceptance”) was based on
+criteria described in the Codified Agreement. Schedule A11 of the Codified
+Agreement provided that Acceptance Tests were to be performed against agreed
+Acceptance Specifications during a Core Observation Period. CSR Acceptance
+was to occur if certain thresholds of Acceptance Incidents and_ their
+classifications were not exceeded during the three week Operational Trial
+Review that followed the Core Observation Period.
+
+117. Each Acceptance Test was envisaged to demonstrate that the relevant
+Acceptance Criteria had been met. Acceptance Criteria for each of the
+contractual service areas were specified in the relevant schedules of the Codified
+Agreement and are set out in Part 2 of Appendix 1 to this statement.
+
+118. The Acceptance Tests to be used for CSR Acceptance were described in the
+agreed Acceptance Specifications listed in Annex 2 to Schedule 11 by reference
+to Contract Change Notes (“CCNs’). Generally, these Acceptance Specifications
+established responsibilities between the parties for executing the testing
+described in the specifications. The relevant acceptance specifications are more
+particularly set out in Part 1 of Appendix 1 to this statement. Each party
+nominated a Test Manager and other representatives to conduct acceptance
+testing.
+
+119. In a later version of the Codified Agreement (FSL_03/47), the following testing
+documents were referred to as being relevant to the Operational Trial: The
+General Testing Policy, version 2.0 (30 September 1996) (FSL_03/48); The
+Testing and Integration Strategy, version 2.0 (30 September 1996) (FSL_03/49);
+and Revisions to the Testing and Integration Approach for Pathway Release 2,
+
+version 2.0 (24 October 1997) (FSL_03/50).
+
+Page 30 of 77
+WITNO6650100
+WITNO06650100
+
+120. POCL and ICL Pathway were operating a Live Trial of the CSR release in 299
+Live Trial Post Offices by the time the Codified Agreement was entered into
+(FSL_03/51). 23 more Post Office branches were also due to be added to the
+Live Trial cohort. This Live Trial was being conducted on what was known as LT1
+(short for Live Trial 1). LT2 (short for Live Trial 2) was to follow.
+
+121. KPRs were also prepared for CSR. As explained above, these documents
+recorded known problems which were not intended to be resolved by means of
+product change to the Core System Release prior to the Live Trial (e.g.
+FSL_03/52). Further details of the release content of CSR LT2 are set out ina
+document entitled “ICL Pathway Core System Release Contents Description”
+which was issued on or about 25 June 1999 (FSL_03/53).
+
+122. Two of the pre-conditions specified for CSR Acceptance in Schedule A11 of the
+Codified Agreement were that the thresholds for faults should be met and a
+timetable should be agreed to resolve outstanding faults. The fault thresholds for
+CSR Acceptance provided that there should be no high severity (category A)
+faults, no more than 20 medium severity (category B) faults, and no more than
+10 category B faults in respect of any one CSR acceptance specification
+(FSL_03/54).
+
+123. As explained below, these pre-conditions were not achieved and CSR
+Acceptance was not achieved by the 16 August 1999 target date specified in the
+Codified Agreement.
+
+124. In these circumstances, paragraph 3.1 of Schedule A11 to the Codified
+Agreement entitled ICL Pathway to a period of three months to remedy the
+outstanding defaults at its own expense and to re-submit the Core System
+
+Release for its second CSR Acceptance Test (FSL_03/54). The basis upon
+
+Page 31 of 77
+WITNO6650100
+WITNO06650100
+
+which the parties agreed to continue working after 16 August 1999 was set out
+in the Supplemental Agreement dated 20 August 1999 (FSL_03/55). At the end
+
+of the CSR Operational Trial Review Period on 16 August 1999, there were:
+a. 9 faults (the “Agreed Category B Faults”), which both parties agreed
+were category B faults, being Acceptance Incidents 342, 361, 371,
+
+211, 372, 390, 395, 314 and 408;
+
+b. 3 faults (the “Disputed Category A Faults”), which ICL Pathway
+considered to be category B faults but which POL believed were
+
+category A faults, being Acceptance Incidents 376, 298 and 218;
+
+c. 2 faults (the “Disputed Category B Faults”), which ICL Pathway
+considered to be low severity category C faults but which POCL
+believed were category B faults, being Acceptance Incidents 378 and
+
+391; and
+
+d. 1 alleged fault (the “Unagreed Fault”), which ICL Pathway believed
+was not an Acceptance Incident but which POCL believed to be a
+
+category B fault, being Acceptance Incident 369.
+
+125. The Supplemental Agreement recorded the parties’ agreed programme of work
+with a view to achieving CSR Acceptance and release authorisation by
+24 September 1999. This included, (i) a further “Limited Trial Period” between
+the date of the Supplemental Agreement and 17 September 1999, and (ii) joint
+workshops for the purpose of agreeing resolution plans for the Agreed Category
+B Faults, the Disputed Category B Faults and, if appropriate, the Unagreed Fault.
+
+PA Consulting was also involved in these workshops.
+
+Page 32 of 77
+WITNO6650100
+WITNO06650100
+
+126. On 24 September 1999, CSR Acceptance and authorisation by the Release
+Authorisation Board for national rollout were deemed to have been achieved by
+the terms of the Second Supplemental Agreement signed that day (FSL_03/56).
+The Second Supplemental Agreement recorded the following 13 Acceptance
+Incidents (as well as category C faults) as outstanding at the date of the
+Agreement: Acceptance Incidents 211, 218, 298, 314, 342, 369, 372, 376, 378,
+390, 391, 408 and 412 (FSL_03/56)°. The parties agreed to use reasonable
+endeavours to resolve each Acceptance Incident in accordance with rectification
+plans set out in the Second Supplemental Agreement and a new Acceptance
+Resolution Timetable.
+
+127. For each Acceptance Incident listed in Part B of Schedule 1 of the Second
+Supplemental Agreement, Schedule 2 contained a reference to an existing
+rectification plan in addition to certain new ongoing obligations for the parties as
+set out in Schedule 5. Schedule 2 also sets out the basis upon which each of
+the outstanding Acceptance Incidents could be closed. Appendix 2 to this
+Statement contains a table setting out the referenced contemporaneous
+rectification plans.
+
+128. The Second Supplemental Agreement required ICL Pathway to use its
+reasonable endeavours to resolve each of the outstanding Acceptance Incidents
+in accordance with the obligations therein, rectification plans listed at Schedule
+2 to the Second Supplemental Agreement and in accordance with the
+Rectification Timetable. Further, by paragraph 3.6 of the Second Supplemental
+Agreement, ICL Pathway was required to “co-operate and join with POCL in
+
+providing such information to the Post Office’s auditors as such auditors may
+
+° Part B of Schedule 1 to the Second Supplemental Agreement.
+Page 33 of 77
+WITNO6650100
+WITNO06650100
+
+reasonably require in order to satisfy themselves that the audit reports of the Post
+Office and POCL should not be qualified or contain a fundamental uncertainty
+paragraph as a result of the circumstances giving rise to Acceptance Incident
+376”.
+
+129. The Second Supplemental Agreement required POCL to conduct, on a weekly
+basis, the creation of a cash account from individual transaction data received
+by it across the TIP interface. POCL was to compare these cash accounts with
+the electronic cash account received from ICL Pathway across the TIP interface.
+Any discrepancies between these accounts were to be reported to ICL Pathway
+and investigated by it with any necessary co-operation of POCL. A charge was
+payable by ICL Pathway to POCL for POCL’s performance of this TIP Integrity
+Checking process.
+
+130. If POCL decided to postpone the resumption of roll out, by Clause 6 of the
+Second Supplemental Agreement the parties were required to meet as soon as
+reasonably practicable with a view to agreeing and documenting a plan for
+retesting and demonstrating satisfaction of the acceptance criteria which had not
+previously been satisfied. A revised roll out programme would then take effect
+once the acceptance criteria had been demonstrably satisfied (FSL_03/56).
+
+131. Summaries for input into delivery meetings between ICL Pathway and POCL
+which occurred in October and November 1999 set out progress against the 13
+outstanding incidents (FSL_03/57, FSL_03/58, FSL_03/59, and FSL_03/60).
+
+132. At the meeting of the ICL Pathway Board on 24 November 1999 (FSL_03/61), it
+was reported that Horizon had been rolled out to some 1,856 Post Office
+branches. Nevertheless, it was also reported that a major acceptance review was
+
+taking place later that day to examine the “three big acceptance incidents” which
+
+Page 34 of 77
+WITNO6650100
+WITNO06650100
+
+were un-resolved. The principal concern at this stage appears to have been the
+operation of reference data in the end-to-end model.
+
+133. On 14 January 2000, a Special Delivery Meeting took place between ICL
+Pathway and POCL to review progress and determine whether roll out should
+resume on 24 January 2000. In a note of that meeting circulated to ICL Pathway
+and POCL, it was noted that certain Acceptance Incidents remained unresolved,
+although each had an “agreed way forward and robust checks in place to address
+the original concems’. \t was then agreed that (i) if actions were in place to
+address the outstanding elements of agreement, and (ii) if no issues arose prior
+to signing a third supplemental agreement, there was no requirement for a further
+meeting (FSL_03/62). Those outstanding elements of agreement were described
+as including the completion of the final weekly checks to confirm the satisfactory
+deployment of the Accounting Integrity Control Release, and a review of decision
+activities by POCL’s lawyers.
+
+134. On 19 January 2000, a Third Supplemental Agreement was concluded
+(FSL_03/63). Among other things, the Third Supplemental Agreement required
+POCL and ICL Pathway to continue co-operating in order to, (i) comply with
+obligations in relation to the Help Desk, (ii) develop operational procedures to
+support the accounting integrity control over the TIP interface, (iii) introduce new
+and detailed processes in relation to TIP data transfer rules, and (iv) improve end
+to end management of Reference Data over the Core System.
+
+135. By Clause 5 of the Third Supplemental Agreement, ICL Pathway warranted that
+it had conducted, with reasonable skill and care, an analysis of the effectiveness
+of the design of the Accounting Integrity Control Release and associated
+
+measures described in Clause 5 and Schedule 4. Further, ICL Pathway
+
+Page 35 of 77
+WITNO6650100
+WITNO06650100
+
+warranted that it had accurately reported all material results of such analysis to
+POCL and agreed that it would develop, test, deploy and provide POCL with
+adequate documentation of, “processes designed to prevent recurrence of Cash
+Account Discrepancies which result from incorrect manual adjustment of data by
+[ICL PathwayJ’. In respect of bi-directional product types or methods of payment,
+ICL Pathway also agreed that it would develop, test and deploy either software
+(for existing products) or processes (for new products or payments introduced
+after the date of the agreement) “to prevent recurrence of Cash Account
+Discrepancies which result from incorrect treatment of the sign (+or-) of data
+values at the Pathway to TIP interface”.
+
+136. Additionally, to address specific reference data errors introduced in respect of
+certain products referred to in Schedule 4, ICL Pathway agreed to co-operate
+with POCL and assist POCL to prevent recurrence of similar unintended effects
+of reference data changes by:
+
+a. developing a diagnostic tool (the “attribute checker”) to predict the
+effect of applying all reference data changes;
+
+b. assisting POCL to put in place appropriate authorisation processes;
+and
+
+c. co-operating with POCL to define business rules and procedures for
+applying the attribute checker and the above-mentioned authorisation
+processes.
+
+137. Further, until the end of the TIP Integrity Checking Period, ICL Pathway agreed
+to make available “appropriate experts to explain to POCL [ICL Pathway’s]
+analysis of all root causes of Cash Account Discrepancies and the measures
+
+which [ICL Pathway] implemented in order to prevent the recurrence of any Cash
+
+Page 36 of 77
+WITNO6650100
+WITNO06650100
+
+Account Discrepancies which would not have been detected by the Accounting
+Integrity Control Release’.
+
+138. Finally, by Clause 6 of the Third Supplemental Agreement, the parties agreed to
+amend paragraph 3.6 of Schedule G01 of the Codified Agreement in the manner
+set out in Schedule 5 to the Third Supplemental Agreement. In summary, this
+introduced new obligations and new or amended definitions such as “Cash
+Account Error” and “Data Error’. ICL Pathway was required to apply, throughout
+the term of the Codified Agreement, “all defensive measures and checks
+described [in Schedule G01] in order to detect Data Errors and Not Data Errors”.
+
+139. Widespread errors were defined as errors, discovered by ICL Pathway (whether
+through Help Desk calls or otherwise), affecting cash accounts in more than 100
+Post Office branches in any one Cash Account period. In respect of widespread
+errors, ICL Pathway was required to (i) notify POCL immediately in accordance
+with the procedures set out in the CCD entitled “TPS Reconciliation and Incident
+Management” and (ii) undertake the activities specified in more detail in the
+remainder of Paragraph 3.6, including transmitting repaired transaction data to
+POCL over the TIP interface and issuing Manual Error Reports to POCL.
+
+140. On 20 March 2000, POCL informed ICL Pathway that the four-week TIP Integrity
+Period had elapsed without the discovery of any Cash Account Discrepancies
+not found by the Accounting Integrity Control Release. Further, POCL indicated
+it had received satisfactory explanations from ICL Pathway for the Cash Account
+
+discrepancies found (FSL_03/64).
+
+Page 37 of 77
+WITNO6650100
+WITNO06650100
+
+‘STEADY STATE’ SERVICE
+
+141. In early 2000 rollout activities had resumed and by the time of the ICL Pathway
+Board meeting on 23 February 2000 (FSL_03/65), it was reported that the rollout
+had reached 300 post offices branches in a single week and the 3,000 branch
+rollout milestone would soon be reached.
+
+142. Issues continued to be reported in relation to the progress of the programme,
+including major issues with ICL Pathway’s service performance to the Post
+Offices now operating CSR. For example, by May 2000 at least two corporate
+“Red Alerts” had been raised in relation to service performance (FSL_03/66).
+
+143. An internal audit report had been conducted of the Horizon system help desk
+during this time (FSL_03/67). This audit referred to concerns about the quality
+of service being provided by the Horizon System Helpdesk and, in particular,
+concern about a number of specific SLA measures (answering of calls within 20
+seconds (80%) and 40 seconds (99.9%), and the failure to answer a call before
+the caller rings off (abandoned calls) which should not exceed 1%.
+
+144. In examining these matters, the audit refers to the ‘Wednesday Peak’. This was
+described as the weekly ‘spike’ of work on Wednesdays associated with Cash
+Accounts and Balancing. The workload on this day was described as
+“anomalous” and was providing “real challenge” in balancing the need to meet
+SLAs while operating within a sensible staffing model that takes account of the
+total call pattern over a week. Consideration was being given at this time to the
+implementation of Interactive Voice Recognition systems (IVR) to mitigate the
+problem that the “phone is just allowed to ring until such time as the PM gives up
+
+or is answered by a Helpdesk Agent”. However, it was also noted that any
+
+Page 38 of 77
+WITNO6650100
+WITNO06650100
+
+benefits associated with introducing IVR had to be measured against increasing
+public hostility to such mechanisms.
+
+145. Other issues discussed in the audit report included the confusion caused by the
+parallel operation of the Horizon system help desk and POCL's National
+Business Support Centre, as well as the impracticality of resourcing the Horizon
+system help desk to meet the Wednesday spike in calls. It recommended re-
+positioning POCL's National Business Support Centre so that it operated in front
+of the Horizon System Helpdesk and not in parallel. In this way, the NBCS could
+act as the primary interface for postmasters and filter “only those calls as are
+appropriate to the HSH”, thus reducing call volumes and improving response
+times. The report also observed that the parallel positioning of these two call
+centres was inefficient as mis-directed calls had to be routed to the alternative
+centre and this was causing confusion for Post Masters when deciding which
+centre to call.
+
+146. Fujitsu understands that operational issues will be addressed further in Phase 3
+of the Inquiry.
+
+END USER CONSULTATION
+
+147. The following section of this statement addresses the Inquiry’s questions in
+relation to consultation with end users (i.e. postmasters and other branch
+employees, referred to collectively as “postmasters”).
+
+148. Fujitsu has identified a number of methods by which feedback was sought from
+postmasters. These include:
+
+a. User Satisfaction Surveys: The format and content of the survey is set
+out in the “User Satisfaction Survey & Measurement Process for
+
+Implementation” (FSL_03/68). Appendix 1 to this document provides
+
+Page 39 of 77
+WITNO6650100
+WITNO06650100
+
+examples of the questionnaires to be used in respect of various
+activities, such as when modification are made to a Post Office branch
+or cabling is installed. No completed versions of this questionnaire
+have yet been identified.
+
+Service Visit Reply Cards: It is understood that Service Visit Reply
+Cards were completed by engineers during call-outs to Post Office
+branches. A feedback card attached to the Reply Card allowed the
+postmaster to briefly comment on the quality of the service provided
+by the engineer during their visit (including any related contact through
+the Horizon System Helpdesk) (see for example the ICL Pathway
+“Customer Service: Service Management Operations Manual” from
+1998, FSL_03/69) . The feedback resulting from these Service Visit
+Reply Cards have not yet been located. However, Monthly Progress
+Reports prepared by ICL Pathway prior to completion of the national
+rollout, such as that for December 1999, note that Service Visit Reply
+Cards were being retumed relatively regularly at that time and that the
+percentage of satisfied responses was generally high. (FSL_03/70).
+
+Management Care Visit Programme: The Management Care Visit
+
+Programme is said to have involved senior ICL Pathway
+representatives visiting selected Post Office branches and collecting
+feedback using a predefined interview pack. It is understood that the
+Programme was due to be performed annually. ICL Pathway planned
+to attend a small number of Post Office branches towards the end of
+1997 with around 200 more due to be visited in 1998 (FSL_03/71).
+
+The ICL Pathway Monthly Progress Report for January 1998 notes,
+
+Page 40 of 77
+WITNO6650100
+WITNO06650100
+
+for example, that the Programme had been completed for 1997,
+concentrating entirely on Release 1B. Although the satisfaction rate
+for 1997 was over 90%, criticism centred on the logistics surrounding
+postmaster training (FSL_03/72). Fujitsu understands that the
+Management Care Visit Programme will be examined in more detail
+during Phase 3 of the Inquiry.
+
+d. Telephone survey: A telephone survey of Post Office branches that
+migrated from IGL to Release 1C was undertaken. The ICL Pathway
+Monthly Progress Report for November 1997 notes that the survey
+raised “some positive comments and some concerns” but reiterated
+that the issues raised during the survey were being progressed.
+
+e. Separately, as noted in the ICL Pathway Monthly Progress Reports
+for February 1998 (FSL_03/73) and April 1998 (FSL_03/74), it
+appears that POCL also undertook a survey of 50 Post Office
+branches, which was later supplemented with interviews with a further
+20 postmasters. It appears from these Monthly Progress Reports as
+though POCL presented the results of the surveys to ICL Pathway,
+which ICL Pathway then used as input into future training events.
+
+THE CASH ACCOUNT AND MODIFICATIONS INTRODUCED BY THE IMPACT
+
+PROGRAMME
+
+The Cash Account
+
+149. Fujitsu has been asked by the Inquiry to describe issues identified during the
+development of the software known as the Cash Account prior to national roll out
+and to address certain questions about the modifications to the Horizon system
+
+introduced by POCL’s IMPACT programme.
+
+Page 41 of 77
+WITNO6650100
+WITNO06650100
+
+150. By way of background, the Cash Account was a formal report of the accounting
+position for Post Office branches and provided a periodic summary of all
+transaction activities within the branch (FSL_03/75). The report was produced
+once for each Cash Account Period, normally 1 week but could be a 2 or 3 week
+period (to allow for holidays, for example). The Cash Account was derived from
+the balance totals relating to stock units and included a report on the current
+position of each branch's Suspense Account (FSL_03/75).
+
+151. It is understood that, within branches at the commencement of national roll-out,
+the Cash Account was prepared using a paper-based system. One of the
+functions of EPOSS in the Horizon System was to produce an electronic copy of
+the Cash Account. Once finalised, the electronic Cash Account was stored and
+transmitted to POCL’s TIP system (FSL_03/75). Until the amendments
+introduced by the POCL’s Impact Programme (described below), the Cash
+Account was printed out by postmasters, who were required to physically sign
+and send Cash Account forms to POCL’s Chesterfield offices for relevant
+reconciliation and accounting processes to be undertaken by POCL.
+
+152. The primary vehicle for recording issues arising from the development and
+testing activities prior to CSR Acceptance and national roll out was the PinICL
+system. Fujitsu has conducted searches of PiniCL records dated before
+24 January 2000 (being the resumption of national roll out following the
+suspension to investigate accounting integrity issues escalated during
+Acceptance Testing).
+
+153. As a result of these searches, Fujitsu has identified approximately 2,000 PinICLs
+containing the phrase “cash account”. Of these, approximately 250 PinlICLs were
+
+recorded as incidents relating to the Cash Account as a ‘product’ and, of these,
+
+Page 42 of 77
+WITNO6650100
+WITNO06650100
+
+approximately 50 PinICLs contain the words “imbalance” or “discrepancy”
+(including variations of these words). Fujitsu has disclosed to the Inquiry, and
+subsequently to the Inquiry’s Expert IT Witness, all PinICL records created
+before 31 December 2000. This includes all the PinICLs referred to in this
+paragraph.
+
+154. Two of these PinICLs (PC0036116 and PC0034332, FSL_03/76 and FSL_03/77,
+respectively) relate to Acceptance Incident 376 which was the subject of scrutiny
+pursuant to the acceptance approval arrangements discussed above. In relation
+to Al 376, investigations were undertaken by ICL Pathway to determine the
+cause of the issue and rectify it (FSL_03/78). Following analysis of “all
+occurrences where the (TIP) derived cash accounf’ did not equal the “actual cash
+account’, |\CL Pathway contended that there was “no suggestion or indication”
+that there was a fault in the “calculation or reporting of the actual Cash Account’.
+Following further monitoring of branches on the live estate, in late 1999, it
+seemed to become apparent that many instances of the reconciliation issues
+were caused by deficiencies in the Reference Data controlled and supplied by
+POCL to ICL Pathway (FSL_03/79).
+
+155. In September 1999, Pathway proposed an Acceptance Resolution Plan for
+Al 376. The proposed rectification was the accounting integrity control described
+above set out in a high-level design document, ‘Logical Design for EPOSS/TIP
+Reconciliation Controls’ (FSL_03/80).
+
+156. Other Acceptance Incidents also scrutinised as part of those arrangements were:
+
+a. Al 211 (identified April 1999), relating to a receipts and payments
+
+mismatch on the Cash Account. The incident was believed to have
+
+Page 43 of 77
+WITNO6650100
+WITNO06650100
+
+been fixed as part of the changes to the balancing process introduced
+at LT2 (FSL_03/78).
+
+b. AlL378 (identified July 1999), relating to the Cash Account sub file not
+containing Cash Account records, which held up the processing of the
+Cash Account within POCL’s back end systems. A fix was applied and
+POCL was to conduct monitoring to determine whether the issue re-
+arose (FSL_03/78).
+
+c. Al394 (identified June 1999), relating to re-prints of the Cash Account
+showing differences from the original report. The issue was attributed
+to postmasters undertaking certain actions when completing the Cash
+Account report. To avoid these problems, a modification to the ‘Report
+Broker’ was introduced at LT2 (FSL_03/78).
+
+d. Al410 (identified July 1999), relating to transactions received in the
+daily transaction file not being represented on the electronic Cash
+Account. ICL Pathway suggested that POCL adopt a process that
+would enable them to achieve its business objective “without doing an
+illegal reference data change” (FSL_03/78).
+
+157. Ata special meeting on 14 January 2000, POCL approved the start of the roll out
+on 24 January 2000. POCL noted that there were further checks to be completed
+by TIP in relation to the deployment of the integrity control, and reserved its right
+
+to suspend roll out until TIP had completed these checks (FSL_03/62).°
+
+® During the meeting POCL and ICL Pathway also noted that further work needed to be done on
+reaching contractual agreement on the third supplemental agreement.
+
+Page 44 of 77
+WITNO6650100
+WITNO06650100
+
+Changes to the Cash Account introduced by the Impact Programme
+
+158. A business process change programme was announced by POL (as POCL was
+then known) which would change the accounting procedures undertaken by
+postmasters in their branches. This was to be facilitated by the introduction of a
+new POL finance system known as “POLFS’”, which the Horizon System was to
+interface with. Modifications to the Horizon System and associated services
+performed by Fujitsu were required and these needed to be defined, impacted
+and managed using the contractual change mechanisms of the Codified
+Agreement.
+
+159. Fujitsu understands that the Impact programme was initially referred to by the
+parties as the End-to-End programme. It was renamed Impact Programme
+(IMProved ACcounTing) by POL towards the end of 2003 (FSL_03/81).
+
+160. Initially, the Impact programme was split into a number of projects:
+
+a. Impact Project 1 and 3 (described in a contract variation entitled CCN
+1131) (FSL_03/82); and
+
+b. Impact Project 2 (described in a contract variation entitled CCN 1132)
+(FSL_03/83).
+
+161. Both CCNs were to be introduced in a new release of software known as Release
+S60 that would upgrade the Post Office branch estate (FSL_03/82). There were
+to be further projects aligned to later planned releases (S70 and S80), generally
+delivered annually by Fujitsu.
+
+162. More detailed explanations of the POLFS programme and the associated
+modifications anticipated to Horizon are set out in the solution definition
+
+document for “POL SAP Finance System (Release 1)” (FSL_03/84).
+
+Page 45 of 77
+WITNO6650100
+WITNO06650100
+
+163. Other design documents which Fujitsu has identified and which are exhibited to
+the Statement are described in the table at Appendix 3 to this statement.
+
+THE HNG-X OR ‘HORIZON ONLINE’ MODIFICATION
+
+164. The Inquiry has asked various questions of Fujitsu about the technical issues
+which arose during the pilots of HNG-X and the steps that were taken to resolve
+these issues prior to the acceptance and roll out of HNG-X.
+
+Overview of the HNG-X Acceptance Process
+
+165. The progress of the HNG-X system through the Live Pilot and into rollout is
+intertwined with the HNG-X Acceptance process. The HNG-X Acceptance
+process, which refers to the Live Pilot, is set out at Schedule B6.3 of the HNG-X
+Agreement, as amended from time to time (see, for example, Version 5 of the
+HNG-X Agreement dated 23 February 2009 at FSL_03/85).
+
+166. Progression through the HNG-X acceptance process was controlled by a series
+
+of HNG-X Acceptance Gateways described as follows in:
+
+HNG-X Acceptance Gateway 1 Readiness for Router Roll Out
+HNG-X Acceptance Gateway 2 Readiness for Data Centre Migration
+HNG-X Acceptance Gateway 3 Readiness for Live Pilot
+
+HNG-X Acceptance Gateway 4 Readiness for Branch Migration
+HNG-X Acceptance Gateway 5 Readiness for XP Roll-Out’
+
+HNG-X Acceptance Gateway 6 End of Live Monitoring
+
+167. In order to pass through an HNG-X Acceptance Gateway, the following
+
+conditions needed to be satisfied:
+
+7 However, by the time of Version 7 of the HNG-X Agreement dated 10 May 2010, Acceptance Gateway
+5 was no longer being used (FSL_03/86).
+
+Page 46 of 77
+WITNO6650100
+WITNO06650100
+
+a. all the HNG-X Acceptance Criteria in relation to that particular HNG-X
+Acceptance Gateway had to be achieved;
+b. there were no outstanding HNG-X Acceptance Incidents with High
+Severity; and
+c. the number of HNG-X Acceptance Incidents with Medium Severity
+were below specified thresholds, and agreed workarounds were in
+place for all Low and Medium Severity HNG-X Acceptance Incidents.
+168. There were various meetings held to oversee the pilot and rollout and to manage
+these acceptance processes, some of which are referred to below in this
+statement. These include, for example, acceptance board meetings and joint
+progress meetings. According to Schedule B6.3 of the HNG-X Agreement, the
+Live Pilot was to commence after Acceptance Gateway 3 and end at Acceptance
+Gateway 4. These Gateways were achieved on 21 January 2010 (see the
+Acceptance Report for HNG-X Acceptance Gateway 3) (FSL_03/87) and 29
+June 2010 (see the Acceptance Report for HNG-X Acceptance Gateway 4
+(FSL_03/88 and FSL_03/89) respectively.
+Acceptance Gateway 3 and Start of Live Pilot
+169. The live pilot strategy that was adopted was to comprise three sequential phases:
+a Low Volume Pilot, a Medium Pilot, and a High Volume Pilot.
+Low Volume Pilot
+170. On 21 January 2010, the Acceptance Board gave a qualified approval to proceed
+through Acceptance Gateway 3 (Readiness for Live Pilot) (FSL_03/87). It was
+reported that there were 146 Low Severity Acceptance Incidents and 2 Medium
+
+Severity Acceptance Incidents. The Acceptance Board decided that its decision
+
+Page 47 of 77
+WITNO6650100
+WITNO06650100
+
+was subject to the delivery of “high priority fixes in “Reset 4”— to be delivered as
+part of Maintenance Release 01.08”.
+
+Medium Volume Pilot
+
+171. According to the minutes of the Horizon Release Authorisation Board meeting
+dated 28 January 2010, it was planned at that time for the Medium Volume Pilot
+to begin on 28 January 2010 with 10 branches migrating, followed by a further
+250 branches migrating between 1 and 4 February 2010 (FSL_03/90). The
+Service Review Book for February 2010 records that 7% of all incoming calls to
+the Horizon Service Desk were from branches that had migrated to HNG-X,
+despite the fact that only a small percentage of the Post Office branches were
+using HNG-X (FSL_03/91).
+
+172. It is recorded in the slide deck for the HNG-X Joint Steering Board Meeting of 18
+March 2010 that the restart of the Medium Volume Pilot had been approved and
+that the pilot would re-commence on 18 March 2010 (FSL_03/92).
+
+High Volume Pilot
+
+173. The High Volume Pilot proceeded on 25 March 2010. The next day, the High
+Volume Pilot was suspended due to live service issues experienced by HNG-X
+migrated branches. This involved approximately 400 branches being unable to
+trade for four hours on 25 March 2010 (FSL_03/93). There were database
+hanging incidents on 26, 27 and 29 March 2010 and the Belfast Datacentre had
+a power supply issue overnight on 30 March 2010 (Delivery Assurance Weekly
+Update — 1 April 2010: FSL_03/94). For periods of the trading day on 26 and 27
+March 2010 there was a complete loss of HNG-X service (FSL_03/95).
+
+174. On 31 March 2010, Fujitsu's service delivery of the HNG-X contract was put onto
+
+an internal “Corporate Red Alert” (FSL_03/96).
+
+Page 48 of 77
+WITNO6650100
+WITNO06650100
+
+175. A Corporate Alert Manager was assigned to oversee the matter (FSL_03/97) and
+regular communications were shared with POL by Fujitsu. For example, see the
+email dated 21 April 2010 from Vince Cochrane to various POL recipients
+(FSL_03/98) and the email dated 17 May 2020 from Jim Singh to various POL
+recipients (FSL_03/99). The problem was thought to have been caused by an
+Oracle database issue (FSL_03/100). A ‘patch’ was developed and sent through
+by Oracle to Fujitsu. This was reported to have been installed on 4 April 2010
+(HNG-X Joint Progress Meeting dated 15 April 2010: FSL_03/101).
+
+176. The Service Review Book for April 2010 noted: “the HNGx rollout programme
+was still suspended and a number of HNG service impacting incidents were
+experienced. The on-going root cause analysis and subsequent corrective
+actions for the BAL/BDB issues are being reported on a daily basis by our
+Problem Manager as part of the Red Alert. Daily progress reports have been
+made available to [Post Office]’ (FSL_03/102).
+
+177. On 6 April 2010, James Stinchcombe (Principal Solution Architect) was
+requested by Alan D’Alvarez to conduct an independent technical review into the
+stability of HNG-X (FSL_03/103).
+
+178. On 27 April 2010 Mr Stinchcombe completed work on a report regarding recent
+problems with the Post Office service titled “Post Office Red Alert — Independent
+Technical Review” (FSL_03/95). It appears that this report was also shared with
+POL on 27 April 2010 (FSL_03/104).
+
+179. The report provides the following context to Mr Stinchcombe'’s findings:
+
+“There have been a number of problems with the Post Office service over the
+last few weeks, with the most severe being complete loss of the HNG-X Service
+
+on 26th and 27th March, with Horizon Banking being severely impacted on 1st
+
+Page 49 of 77
+WITNO6650100
+WITNO06650100
+
+April (with 80% of transactions failing). This has resulted in the account being
+placed on Red Alert. As a result, an independent technical review has been
+requested to look at the specific problems and also take a wider perspective.
+This is short assignment to provide feed back to both the account and the Public
+Sector business unit.
+This report is split down into the different areas considered and provides
+recommendations on how things can be improved. Given this is a short
+assignment it has not been possible to do a comprehensive review of all areas
+of the solution and where further investigation by the account would be desirable
+this is included. The problems that are causing the Red Alert are not a single
+issue and there is no “magic bullet” to solve them. The teams need to continue
+
+to resolve the known issues while continuing to investigate the problems. It is
+
+likely that additional issues will emerge as the solution continues to be
+
+investigated.”
+180. The report contained various recommendations which are summarised in the
+table below:
+Excerpts from report narrative Recommendations
+Capacity
+The live system has good capacity | R1: Urgently review the
+
+monitoring, with performance data
+being available in near real time. This
+has allowed a comprehensive look at
+the capacity of key components of the
+system.
+
+The evidence from the capacity
+monitoring shows that the problems
+with HNG-X are being caused by
+stability issues rather than capacity. It
+is the instability of the service (as
+highlighted in the next section) that is
+
+implementation of a hardware upgrade
+for the servers for NPS. This will be the
+most effective solution to the problem.
+
+R2: Consider in the very short term,
+whether simple measures could be
+made to reduce memory usage on the
+NPS (e.g. by reducing the Oracle
+cache size or turning off some
+services) to improve stability.
+
+Page 50 of 77
+
+WITNO6650100
+WITNO06650100
+
+Excerpts from report narrative
+
+Recommendations
+
+perceived by the end users as
+“timeouts”.
+
+R3: Do not allow further rollout of HNG-
+X until the BRS is stable and keeping
+up (maximum of 1 day behind).
+
+R4: Engage an expert in Oracle
+performance to review the
+performance of BRS to understand the
+existing performance and how to
+improve it.
+
+R5: Review Volume Testing with
+regards to memory usage for agents /
+BAL to ensure that memory footprint
+on servers is accurate.
+
+R6: Consider information from those
+HNG-X Branches already live to see
+whether data being generated is
+representative.
+
+R7: Complete performance & stress
+testing before rolling out HNG-X to full
+volumes.
+
+Stability
+
+As covered in the previous section,
+many problems in the current solution
+seem to be being caused by “stability”
+issues (i.e. things don’t work correctly)
+as opposed to capacity (i.e. there is
+insufficient resource to do the work).
+
+Due to the operational immaturity of
+HNG-X, it is to be expected that there
+will be some problems, however many
+of those already identified have not yet
+had fixes applied. This makes
+diagnosing the remaining problems
+difficult.
+
+More importantly, during the recent
+period of instability there have been
+
+R8: Apply all known fixes to live that
+will resolve stability issues as quickly
+as possible. This is needed to reduce
+both the likelihood of failures and also
+allow the remaining problems to be
+diagnosed.
+
+Page 51 of 77
+
+WITNO6650100
+WITNO06650100
+
+Excerpts from report narrative
+
+Recommendations
+
+more low level failures than would be
+expected. This in turn has resulted in
+more recovery actions. Since the
+recovery itself has a number of
+problems (see “Recoverability”) this in
+tum causes significant business
+problems.
+
+Recoverability
+
+There is clear evidence from the
+solution that both Horizon (as a result
+of the PCI changes) and HNG-X are
+not able to recover correctly from
+failures.
+
+The most worrying are reconciliation
+BIMS exceptions — these are failures
+that require manual intervention by
+both Fujitsu and Royal Mail. Many of
+these failures result in end customers
+of the Post Office not being paid
+money (the exception shows that a
+bank believes it has paid out the
+money, whereas the Horizon/HNG-X
+system knows it did not pay out in
+reality).
+
+R9: Urgently Review causes of failures
+causing BIMS exceptions for both
+Horizon and HNG-X. Ensure these are
+fixed before further rollout of the HNG-
+X solution.
+
+Supportability
+
+One of the problems with the live
+system at the moment is the ability to
+monitor the solution. There are two
+broad areas that need to be monitored:
+
++ Failures in the solution — technical
+faults that may or may not result in loss
+of service.
+
++ “Wellness” — is the system behaving
+as expected at a business level?
+
+The second is particularly important as
+it makes up for any shortfalls in the
+monitoring solution. It is also needed to
+ensure it know (sic) that the system
+has recovered from any failures.
+
+R10: Review current issues with
+monitoring solution to make sure they
+are given appropriate priority. Ideally,
+these should be fixed before HNG-X is
+rolled out further to ensure that
+incidents can be responded to in a
+timely way (this is understood is (sic)
+being considered as part of the second
+work stream in the Red Alert).
+
+R11: Review approach to monitoring of
+live based on lessons learnt with the
+current problems to see if the solution
+provided is sufficient — particularly with
+the need to monitor “wellness” in
+
+Page 52 of 77
+
+WITNO6650100
+WITNO06650100
+
+Excerpts from report narrative
+
+Recommendations
+
+There are a number of known
+problems with the current monitoring
+solution and as a result often the first
+thing operations know there is a
+problem is when Post Masters phone
+up to say there is a problem. Working
+out what is the root cause of the
+incident is then difficult as many
+problems end up with similar behaviour
+as far as the Post Master is concerned
+(e.g. timeouts).
+
+business terms that are understood by
+Post Office.
+
+R12: Review how problems are
+diagnosed on HNG-X in the light of
+recent experience to understand the
+gaps and their business impact.
+
+R13: Until the CTO joins, consider
+nominating one of the senior architects
+to provide technical leadership across
+the design teams and provide a single
+point of contact.
+
+181. Meanwhile, the High Volume Pilot remained suspended whilst the criteria for
+
+182.
+
+restarting remained under review. In addition, “major incidents” were reported to
+
+have occurred on 5 May and 7 May 2010, at the HNG-X Joint Progress Meeting
+
+of 13 May 2010 (FSL_03/105).
+
+Oracle subsequently reported to Fujitsu that three changes (one bespoke patch
+
+and two setting changes) should provide a fix to the database problem (Delivery
+
+Assurance - Weekly Update on Post Office / HNG-X 13 May 2010: FSL_03/106).
+
+This was implemented and, on 9 June 2010, the High Volume Pilot was restarted
+
+(HNG-X Joint Progress Meeting of 24 June 2010: FSL_03/107). On 21 June
+
+2010, Fujitsu’s corporate Red Alert on the HNG-X contract was downgraded
+
+(HNG-X Joint Progress Meeting of 24 June 2010: FSL_03/107).
+
+ACCEPTANCE GATEWAY 4 AND COMPLETION OF ROLLOUT
+
+183. On 29 June 2010, an Acceptance Board meeting was held
+
+in relation to
+
+Acceptance Gateway 4 (Readiness for Branch Migration) and approval to
+
+proceed through it was granted as follows:
+
+Page 53 of 77
+
+WITNO6650100
+WITNO6650100
+
+“Approval is given to proceed through AG4. This approval is given without
+prejudice to any claims for loss or damages arising out of the delays to the date
+of planned completion of end May 2010 up to the date hereof and in respect of
+any additional delay arising out of the default of Fujitsu” (FSL_03/88 and
+FSL_03/89)
+
+184. The High Volume Pilot completed on 30 June 2010 and the full branch migration
+rollout began on the same day (FSL_03/108 and FSL_03/109).
+
+185. The Acceptance Report for HNG-X Acceptance Gateway 4 is exhibited to this
+statement (FSL_03/88). This report details the technical issues considered by
+the HNG-X Acceptance Board in reaching its decision.
+
+CONCLUSION
+
+186. This concludes Fujitsu's response to the Phase 2 aspects of the Inquiry’s
+Request. Fujitsu is continuing to consider the Phase 3 questions put to it in the
+Request, and intends to respond by providing the Inquiry with a further witness
+
+statement.
+
+Statement of Truth
+
+Page 54 of 77
+WITNO6650100
+WITNO06650100
+
+INDEX TO THE FIRST CORPORATE STATEMENT OF FUJITSU SERVICES
+
+LIMITED
+Exhibit No. Document Description Control No. URN
+FSL_03/1 Document titled "The Horizon | POINQ0125796F | FUJ00119603
+Programme - Top Level
+Briefing"
+FSL_03/2 | ICL Pathway Monthly Progress | POINQ0064333F | FUJ00058162
+Report - June 1997
+FSL_03/3 Official Journal of the POINQ0124377F | WITNO37701
+European Communities dated 02
+30 August 1994
+FSL_03/4 Statement of Capability and POINQ0125750F | FUJ00119557
+Interest dated 23 September
+1994
+FSL_03/5 Request for a Statement of | POINQ0104400F | FUJ00098229
+Capability dated 19 October
+1994
+FSL_03/6 | Statement of Capability dated | POINQ0104401F | FUJ00098230
+19 November 1994
+FSL_03/7 Statement of Service POINQ0104402F | FUJ00098231
+Requirements dated March
+1995
+FSL_03/8 Pathway Group Response POINQ0104403F | FUJ00098232
+dated 8 June 1995
+FSL_03/9 Minutes of Pathway Group POINQ0067426F | FUJ00077838
+Board meeting dated 15 March
+1996
+FSL_03/10 | Document titled "Pathway Draft | POINQ0125751F | FUJ00119558
+Contract Response" dated 29
+December 1995
+FSL_03/11 Letter from BA/POCL to Jim POINQ0125752F | FUJ00119559
+Morley dated 29 February
+1996
+FSL_03/12 Minutes of Pathway Group POINQ0123502F | FUJ00117331
+Board meeting dated 25 April
+1996
+
+Page 55 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/13
+
+Document entitled "ICL
+Pathway Ltd - BA/POCL/ICL
+Review" dated 29 April 1998
+
+POINQ0125793F
+
+FUJ00119600
+
+FSL_03/14
+
+CCN 237 submitted on 15 April
+1998
+
+POINQ0125794F
+
+FUJ00119601
+
+FSL_03/15
+
+PDA Master Plan, Version 1
+dated 16 August 1996
+
+POINQ0125756F
+
+FUJ00119563
+
+FSL_03/16
+
+PDA Master Plan, Version 3.0
+dated 8 April 1997
+
+POINQO0064656F
+
+FUJ00058485
+
+FSL_03/17
+
+Authorities Agreement, Version
+5 dated 15 May 1996
+
+POINQ0125753F
+
+FUJ00119560
+
+FSL_03/18
+
+Functional Specification dated
+22 May 1996
+
+POINQ0125754F
+
+FUJ00119561
+
+FSL_03/19
+
+Functional Specification,
+Version 6.0 dated 26 July 1996
+
+POINQ0125755F
+
+FUJ00119562
+
+FSL_03/20
+
+IGL1 Software Baseline
+Release Notice dated 6
+September 1996
+
+POINQ0125757F
+
+FUJ00119564
+
+FSL_03/21
+
+IGL1 Software Updates
+Release Notice - Issue 2 dated
+17 September 1996
+
+POINQ0125759F
+
+FUJ00119566
+
+FSL_03/22
+
+Update 2.0 to IGL1 Software
+Baseline dated 17 September
+1996
+
+POINQ0125758F
+
+FUJ00119565
+
+FSL_03/23
+
+Delivered Quality Audit Report
+- IGL Post Offices, Stroud
+dated 23 January 1997
+
+POINQ0064448F
+
+FUJ00058277
+
+FSL_03/24
+
+Initial Go Live - Lessons Learnt
+
+Report dated 12 November
+1996
+
+POINQ0064449F
+
+FUJ00058278
+
+FSL_03/25
+
+Implementation Strategy
+(Release 1b) dated 30 May
+1997
+
+POINQ0125762F
+
+FUJ00119569
+
+FSL_03/26
+
+Release 1b Order Book
+Control Service Processes and
+Procedures dated 15 April
+1997
+
+POINQ0123839F
+
+FUJ00117667
+
+Page 56 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/27
+
+Minutes of ICL Pathway Board
+meeting dated 7 May 1997
+
+POINQ0064319F
+
+FUJ00058148
+
+FSL_03/28
+
+Release 1c Contents
+Description dated 22
+September 1997
+
+POINQ0125786F
+
+FUJ00119593
+
+FSL_03/29
+
+Presentation entitled "ICL
+Pathway Bringing Technology
+to Post Office Counters and
+Benefit Payments", undated
+
+POINQ0125787F
+
+FUJ00119594
+
+FSL_03/30
+
+Minutes of ICL PLC Board
+meeting dated 23 July 1997
+
+POINQ0064323F
+
+FUJ00058152
+
+FSL_03/31
+
+Known Problem Register at
+Release 1c, Version 0.3 dated
+26 August 1997
+
+POINQ0067680F
+
+FUJ00078092
+
+FSL_03/32
+
+Phase 1C (North East) Weekly
+Progress Report dated 2
+December 1997
+
+POINQ0064508F
+
+FUJ00058337
+
+FSL_03/33
+
+Live Trial South Wales South
+West - Weekly Progress
+Report dated 8 June 1998
+
+POINQ0064520F
+
+FUJ00058349
+
+FSL_03/34
+
+Live Trial South Wales South
+West - Weekly Progress
+Report dated 13 July 1998
+
+POINQ0064530F
+
+FUJ00058359
+
+FSL_03/35
+
+Phase 1C - Post
+Implementation Report dated
+31 March 1998
+
+POINQ0064519F
+
+FUJ00058348
+
+FSL_03/36
+
+Service Management -
+Release 1C Operations Report
+dated 13 March 1998
+
+POINQ0064512F
+
+FUJ00058341
+
+FSL_03/37
+
+Release 1C Change Request -
+Lost Transactions & Duplicate
+Payments dated 21 January
+1998
+
+POINQ0067724F
+
+FUJ00078136
+
+FSL_03/38
+
+ICL Pathway Memorandum
+with subject "Model Office Test
+(DROP3)" dated 19 September
+
+1997
+
+POINQ0067684F
+
+FUJ00078096
+
+Page 57 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/39
+
+New Release 2 Contents
+Description, Version 2.0 dated
+24 February 1998
+
+POINQ0125792F
+
+FUJ00119599
+
+FSL_03/40
+
+Acceptance of the Operational
+Trial dated 22 May 1997
+
+POINQ0125760F
+
+FUJ00119567
+
+FSL_03/41
+
+Report on Release 2 Process
+Improvement Programme
+dated 18 June 1998
+
+POINQ0064630F
+
+FUJ00058459
+
+FSL_03/42
+
+Letter from Keith Todd to
+Stuart Sweetman dated 10
+March 1998 enclosing original
+letter to Peter Mathison dated
+6 March 1998 and the ICL
+Position Paper
+
+POL-0027601
+
+POL00031117
+
+FSL_03/43
+
+ICL Pathway Programme
+Office Monthly Report - March
+1998
+
+POINQ0067864F
+
+FUJ00078276
+
+FSL_03/44
+
+ICL Pathway Monthly Progress
+Report, August 1998
+
+POINQ0064329F
+
+FUJ00058158
+
+FSL_03/45
+
+Pathway Programme Monthly
+Report dated 10 July 1998 -
+Version 1.0
+
+POINQ0064345F
+
+FUJ00058174
+
+FSL_03/46
+
+ICL Pathway - Review 28 July
+98
+
+POINQ0125795F
+
+FUJ00119602
+
+FSL_03/47
+
+Codified Agreement between
+POCL and ICL Pathway Ltd
+dated 21 June 2002 - Version
+4.0
+
+POINQ0125816F
+
+FUJ00119623
+
+FSL_03/48
+
+General Testing Policy,
+Version 2.0 dated 30
+September 1996
+
+POINQ0007699F
+
+FUJ00001528
+
+FSL_03/49
+
+Testing & Integration Strategy
+document dated 30 September
+1996
+
+POINQ0007444F
+
+FUJ00001273
+
+FSL_03/50
+
+Revisions to the Testing &
+Integration Approach for
+Pathway Release 2 - Version
+2.0 dated 24 October 1997
+
+POINQ0007438F
+
+FUJ00001267
+
+Page 58 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/51
+
+ICL PLC Board Minutes dated
+20 July 1999
+
+POINQ0009902F
+
+FUJ00003731
+
+FSL_03/52
+
+Known Problem Register dated
+6 July 1999
+
+POINQ0068390F
+
+FUJ00078802
+
+FSL_03/53
+
+ICL Pathway Core System
+Release Contents Description
+dated 25 June 1999 - Version
+
+1.0 - PA/STR/012
+
+POINQ0085459F
+
+FUJ00078801
+
+FSL_03/54
+
+Codified Agreement between
+POCL and ICL Pathway Ltd
+dated 28 July 1999
+
+POINQ0006242F
+
+FUJ00000071
+
+FSL_03/55
+
+Supplemental Agreement
+between POCL and ICL
+Pathway dated 20 August
+1999
+
+POINQ0125799F
+
+FUJ00119606
+
+FSL_03/56
+
+Second Supplemental
+Agreement between POCL
+and ICL Pathway Limited
+dated 24 September 1999
+
+POINQ0124313F
+
+FUJ00118149
+
+FSL_03/57
+
+ICL Pathway Progress
+Summary for Input to Horizon /
+Pathway Delivery Meeting,
+dated 13 October 1999
+
+POINQ0068768F
+
+FUJ00079180
+
+FSL_03/58
+
+ICL Pathway Progress
+Summary for Input to Horizon /
+Pathway Delivery Meeting
+dated 27 October 1999
+
+POINQ0068772F
+
+FUJ00079184
+
+FSL_03/59
+
+ICL Pathway Progress
+Summary for Input to Horizon /
+Pathway Delivery Meeting
+dated 10 November 1999
+
+POINQ0124324F
+
+FUJ00118160
+
+FSL_03/60
+
+ICL Pathway Progress
+Summary for Input to Horizon /
+Pathway Delivery Meeting
+dated 24 November 1999
+
+POINQ0124345F
+
+FUJ00118181
+
+FSL_03/61
+
+ICL Pathway Board Meeting
+Minutes dated 24 November
+1999
+
+POINQ0009831F
+
+FUJ00003660
+
+Page 59 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/62
+
+Notes of Horizon/Pathway
+Special Delivery Meeting on 14
+January 2000, sent by Dick
+Brazear to POCL and ICL
+employees
+
+POL-0024991
+
+POL00028509
+
+FSL_03/63
+
+Third Supplemental Agreement
+dated 19 January 2000
+
+POINQ0125815F
+
+FUJ00119622
+
+FSL_03/64
+
+Letter from Keith Baines to
+Tony Oppenheim dated 20
+March 2000
+
+POINQ0124352F
+
+FUJ00118188
+
+FSL_03/65
+
+ICL Pathway Ltd Board
+Minutes dated 23 February
+2000
+
+POINQ0009842F
+
+FUJ00003671
+
+FSL_03/66
+
+ICL Pathway Ltd Board
+Minutes dated 9 May 2000
+
+POINQ0009853F
+
+FUJ00003682
+
+FSL_03/67
+
+Audit of the Horizon System
+Helpdesk Version 1.0 dated 28
+April 2000
+
+POINQ0086852F
+
+FUJ00080681
+
+FSL_03/68
+
+User Satisfaction Survey &
+Measurement Process for
+Implementation dated 25 June
+1999
+
+POINQO0064669F
+
+FUJ00058498
+
+FSL_03/69
+
+ICL Pathway Customer
+Service: Service Management
+Operations Manual Version 1.0
+
+dated 24 August 1998
+
+POINQ0064667F
+
+FUJ00058496
+
+FSL_03/70
+
+ICL Pathway Monthly Progress
+Report - March 1999
+
+POINQ0064351F
+
+FUJ00058180
+
+FSL_03/71
+
+ICL Pathway Management
+Care Visit Programme
+Procedure dated 7 August
+1997
+
+POINQ0064663F
+
+FUJ00058492
+
+FSL_03/72
+
+ICL Pathway Monthly Progress
+Report - December 1997
+
+POINQ0064337F
+
+FUJ00058166
+
+FSL_03/73
+
+ICL Pathway Monthly Progress
+Report - February 1998
+
+POINQ0064340F
+
+FUJ00058169
+
+Page 60 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/74
+
+ICL Pathway Monthly Progress
+Report - April 1998
+
+POINQ0064342F
+
+FUJ00058171
+
+FSL_03/75
+
+EPOSS Functional Description
+Version 4.0 dated 5 March
+1999
+
+POINQ0085448F
+
+FUJ00079277
+
+FSL_03/76
+
+PinICL PC0036116
+
+POINQ0042822F
+
+FUJ00036651
+
+FSL_03/77
+
+PinICL PC0034332
+
+POINQ0044162F
+
+FUJ00037991
+
+FSL_03/78
+
+Collection of Acceptance
+
+Incident Forms for various
+
+incidents (various dates in
+1999)
+
+POL-0024839
+
+POL00028357
+
+FSL_03/79
+
+Letter from John Bennett to
+Dave Smith dated 4 November
+1999 with subject line "End-to-
+End Review of Reference Data
+
+Management"
+
+POL-0025044
+
+POL00028562
+
+FSL_03/80
+
+ICL Pathway Logical Design
+for EPOSS/TIP Reconciliation
+Controls Version 0.8 dated 22
+
+December 1999
+
+POINQ0007538F
+
+FUJ00001367
+
+FSL_03/81
+
+E-mail dated 17 October 2003
+from Keith Baines to Colin
+Lenton-Smith, copying Liam
+Foley and Hilary Forrest with
+subject Programme Name
+Change"
+
+POINQ0125817F
+
+FUJ00119624
+
+FSL_03/82
+
+Change Control Note #1131b
+
+POINQ0007098F
+
+FUJ00000927
+
+FSL_03/83
+
+Change Control Note #1132a
+
+POINQ0007099F
+
+FUJ00000928
+
+FSL_03/84
+
+Solution Definition Document -
+POL SAP Finance System
+(Release 1)
+
+POINQ0125819F
+
+FUJ00119626
+
+FSL_03/85
+
+Version 5 of the HNG-X
+Agreement dated 23 February
+2009
+
+POINQ0006247F
+
+FUJ00000076
+
+FSL_03/86
+
+Version 7 of the HNG-X
+Agreement dated 10 May 2010
+
+POINQ0006249F
+
+FUJ00000078
+
+Page 61 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/87
+
+Acceptance Report for HNG-X
+Acceptance Gateway 3 dated
+23 February 2010
+
+POINQ0103097F
+
+FUJ00096926
+
+FSL_03/88
+
+Acceptance Report for HNG-X
+Acceptance Gateway 4 dated
+7 July 2010
+
+POINQ0103394F
+
+FUJ00097223
+
+FSL_03/89
+
+Horizon Next Generation
+Acceptance Gate 4 - Joint
+Board Meeting No. AG4-01
+
+dated 29 June 2010
+
+POINQ0103483F
+
+FUJ00097312
+
+FSL_03/90
+
+Horizon Next Generation
+Release Authorisation AG3 -
+Board Meeting No. AG3-07
+
+dated 28 January 2010
+
+POINQ0103482F
+
+FUJ00097311
+
+FSL_03/91
+
+Service Review Book for
+February 2010 dated 12 March
+2010
+
+POINQ0100590F
+
+FUJ00094419
+
+FSL_03/92
+
+Presentation titled "HNG-X
+Joint Steering Board Meeting"
+dated 18 March 2010
+
+POINQ0100628F
+
+FUJ00094457
+
+FSL_03/93
+
+Presentation titled "Executive
+Steering Committee HNGX
+Update" dated 31 March 2010
+
+POINQ0125826F
+
+FUJ00119633
+
+FSL_03/94
+
+Delivery Assurance Weekly
+Update dated 1 April 2010
+
+POINQ0101244F
+
+FUJ00095073
+
+FSL_03/95
+
+Post Office Red Alert -
+Independent Technical Review
+James Stinchcombe, Principal
+
+Solution Architect dated 27
+April 2010
+
+POINQ0102621F
+
+FUJ00096450
+
+FSL_03/96
+
+Email from RED ALERTS to
+various recipients with subject
+"Corporate Red Alert Ref 1112
+- Post Office limited (RMGA) -
+Initial Report" dated 31 March
+
+2010
+
+POINQ0101233F
+
+FUJ00095062
+
+FSL_03/97
+
+E-mail from Van Achte Gaetan
+to ‘Amber Alerts' copying
+Gavin Bounds and David
+
+POINQ0101220F
+
+FUJ00095049
+
+Page 62 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+Keeling, with subject "RMGA
+Corporate Red Alert" dated 31
+March 2010
+
+FSL_03/98
+
+E-mail dated 21 April 2010
+from Vince Cochrane to
+various POL recipients with
+subject "HNG Red Alert fixes --
+update as of Wed the 21st"
+
+POINQ0101521F
+
+FUJ00095350
+
+FSL_03/99
+
+E-mail dated 17 May 2020
+from Jim Singh to various POL
+recipients with subject "Daily
+update - Red Alert Issues -
+17.05.2010"
+
+POINQ0101967F
+
+FUJ00095796
+
+FSL_03/100
+
+Presentation titled "Joint
+Progress Meeting HNG-X
+Update" dated 1 April 2010
+
+POINQ0101217F
+
+FUJ00095046
+
+FSL_03/101
+
+Presentation titled "HNG-X
+Joint Progress Meeting dated
+15 April 2010"
+
+POINQ0101403F
+
+FUJ00095232
+
+FSL_03/102
+
+Service Review Book for April
+2010 dated 17 May 2010
+
+POINQ0102629F
+
+FUJ00096458
+
+FSL_03/103
+
+E-mail 6 April 2010 from
+Graham Allen to John
+Brimicombe with subject "Red
+Alert - Independent Technical
+Review"
+
+POINQ0101265F
+
+FUJ00095094
+
+FSL_03/104
+
+E-mail chain last dated 27 April
+2010 between Alan D'Alvarez,
+Geoff Butts, Lee Farman and
+others with subject "Call with
+James Stinchcombe"
+
+POINQ0125824F
+
+FUJ00119631
+
+FSL_03/105
+
+Presentation titled "Joint
+Progress Meeting - HNG-X
+Update" dated 13 May 2010
+
+POINQ0101851F
+
+FUJ00095680
+
+FSL_03/106
+
+Delivery Assurance - Weekly
+Update 13 May 2010 - Post
+Office Ltd - HNGX
+
+POINQ0101943F
+
+FUJ00095772
+
+Page 63 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/107
+
+Presentation titled "Joint
+Progress Meeting - HNG-X
+Update" dated 24 June 2010
+
+POINQ0102435F
+
+FUJ00096264
+
+FSL_03/108
+
+Presentation titled "Executive
+Steering Board - HNG-X
+Update" dated 1 July 2010
+
+POINQ0103289F
+
+FUJ00097118
+
+FSL_03/109
+
+E-mail chain last dated 30
+June 2010 between Geoff
+Butts and others, with subject
+“update on HNG-X R11 Rollout
+FOR CASCADE"
+
+POINQ0103280F
+
+FUJ00097109
+
+FSL_03/110
+
+APS Acceptance Test v.3.0
+dated 16 July 1998
+
+POINQ0007453F
+
+FUJ00001282
+
+FSL_03/111
+
+DSS/POCL Implementation A
+(User Training/Procedures)
+Acceptance Specification v.3.0
+dated 20 August 1998
+
+POINQ0007677F
+
+FUJ00001506
+
+FSL_03/112
+
+Implementation Part C
+(Services) v. 2 dated 23 June
+1998
+
+POINQ0007678F
+
+FUJ00001507
+
+FSL_03/113
+
+MIS Services Acceptance Test
+Specification v. 1.0 dated 20
+October 1998
+
+POINQ0007641F
+
+FUJ00001470
+
+FSL_03/114
+
+OBCS Acceptance Test v.3.1
+dated 7 October 1998
+
+POINQ0125797F
+
+FUJ00119604
+
+FSL_03/115
+
+Security v.2.0 dated 16
+October 1998
+
+POINQ0007698F
+
+FUJ00001527
+
+FSL_03/116
+
+Service Levels Acceptance
+Test v.1.0 dated 21 October
+1998
+
+POINQ0007638F
+
+FUJ00001467
+
+FSL_03/117
+
+Audit Acceptance Specification
+v.2.0 dated 13 November 1998
+
+POINQ0125808F
+
+FUJ00119615
+
+FSL_03/118
+
+OBCS Acceptance Test v.4.0.
+dated 6 November 1998
+
+POINQ0125798F
+
+FUJ00119605
+
+FSL_03/119
+
+The ICL Pathway to TIP
+Interface Acceptance Test
+v.3.0 dated 27 November 1998
+
+POINQ0007635F
+
+FUJ00001464
+
+Page 64 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/120
+
+EPOSS Acceptance Test v.4.0
+dated 18 December 1998
+
+POINQ0064583F
+
+FUJ00058412
+
+FSL_03/121
+
+Help Desk Acceptance Test
+v.2.0 dated 11 December 1998
+
+POINQ0007457F
+
+FUJ00001286
+
+FSL_03/122
+
+Reconciliation Acceptance
+Test v.2.0 dated 22 December
+1998
+
+POINQ0125814F
+
+FUJ00119621
+
+FSL_03/123
+
+Implementation Part D -
+Rollout v.2.0 dated 21
+December 1998
+
+POINQ0068679F
+
+FUJ00079091
+
+FSL_03/124
+
+End to End Service v.1.0 dated
+24 December 1998
+
+POINQ0125812F
+
+FUJ00119619
+
+FSL_03/125
+
+Schedule 3 v.1.0 dated 24
+December 1998
+
+POINQ0125810F
+
+FUJ00119617
+
+FSL_03/126
+
+Policies & Standards v.1.0
+dated 11 January 1999
+
+POINQ0068333F
+
+FUJ00078745
+
+FSL_03/127
+
+POCL Infrastructure
+Acceptance Test v.2.0 dated
+31 March 1999
+
+POINQ0007634F
+
+FUJ00001463
+
+FSL_03/128
+
+Resolution Plan - Acceptance
+Incident 218 dated 23
+September 1999
+
+POINQ0125805F
+
+FUJ00119612
+
+FSL_03/129
+
+Acceptance Incident 298
+Resolution Plan v. 0.8 dated
+23 September 1999
+
+POINQ0125807F
+
+FUJ00119614
+
+FSL_03/130
+
+Development Of Manual
+Describing Use Of OPS, TMS
+and EPOSS APIs Within ICL
+
+Pathway v. 0.3 dated 7
+September 1999
+
+POINQ0125800F
+
+FUJ00119607
+
+FSL_03/131
+
+OBCS failures testing
+approach and rectification plan
+v. 0.2 dated 15 September
+1999
+
+POINQ0125804F
+
+FUJ00119611
+
+FSL_03/132
+
+Acceptance Proposal for
+Acceptance Incident 372 v. 0.4
+dated 16 September 1999
+
+POINQ0068761F
+
+FUJ00079173
+
+Page 65 of 77
+WITNO6650100
+WITNO06650100
+
+Exhibit No.
+
+Document Description
+
+Control No.
+
+URN
+
+FSL_03/133
+
+Acceptance Resolution Plan
+for Acceptance Incident 376 v.
+0.9 dated 23 September 1999
+
+POINQ0124314F
+
+FUJ00118150
+
+FSL_03/134
+
+Acceptance Resolution Plan or
+Acceptance Incident 378 v.0.3
+dated 16 September 1999
+
+POINQ0125803F
+
+FUJ00119610
+
+FSL_03/135
+
+Acceptance Resolution Plan
+for Acceptance Incident 391
+v.1.0 dated 13 September
+1999
+
+POINQ0125802F
+
+FUJ00119609
+
+FSL_03/136
+
+Resolution Plan for Al408-
+Horizon System Helpdesk v.
+0.5 dated 23 September 1999
+
+POINQ0125806F
+
+FUJ00119613
+
+FSL_03/137
+
+Acceptance Resolution Plan
+for Acceptance Incident 412
+v.0.2 dated 10 September
+1999
+
+POINQ0125801F
+
+FUJ00119608
+
+FSL_03/138
+
+PO Ltd Financial Systems -
+Release 3 - Conceptual Design
+dated 2003
+
+POINQ0096319F
+
+FUJ00090148
+
+FSL_03/139
+
+IMPACT Release 3 Counter
+Design for Balancing, Rollover
+and Stock Processing v. 2.0
+dated 12 September 2005
+
+POINQ0091295F
+
+FUJ00085124
+
+FSL_03/140
+
+IMPACT Release 3 Design
+Proposal v. 1.0 dated 30 April
+2004
+
+POINQ0096228F
+
+FUJ00090057
+
+FSL_03/141
+
+Impact Release 3 - Balancing
+and Trading Statement
+Production User Interface v.1.0
+dated 18 August 2004
+
+POINQ0096402F
+
+FUJ00090231
+
+FSL_03/142
+
+$80 Impact Release 3 EPOSS
+Counter Operational Support
+Guide v 1.0 dated 20 May
+2005
+
+POINQ0097363F
+
+FUJ00091192
+
+FSL_03/143
+
+Impact Release 3 - Counter
+Design for Declaration,
+
+POINQ0097261F
+
+FUJ00091090
+
+Page 66 of 77
+WITNO6650100
+
+WITN06650100
+Exhibit No. Document Description Control No. URN
+Correction and Revaluation v.
+2.0 dated 8 September 2005
+FSL_03/144 | Impact Release 3 - Balancing | POINQ0097175F | FUJ00091004
+
+and Trading Statement
+Production User Interface v.
+2.0 dated 31 October 2005
+
+Page 67 of 77
+Part 1:
+
+Appendix 1
+
+Schedule of Acceptance Specifications
+
+WITNO6650100
+WITNO6650100
+
+Acceptance Specifications
+CCN CSR Acceptance Specification Exhibit Reference
+
+0338 CR/ACS/006 APS v.3.0 FSL_03/110
+0340 IM/ACS/001 DSS/POCL Implementation A (User Training/Procedures) v.3.0 FSL_03/111
+0342 IM/ACS/003 Implementation Part C (Services) v. 2.0 FSL_03/112
+0343 CR/ACS/022 (previously CS/ACS/008, v. 0.1) MIS v. 1.0 FSL_03/113
+0344 CR/ACS/005 OBCS v.3.0 (v.3.1 located) FSL_03/114
+0345 RS/ACS/002 Security v.2.0 FSL_03/115
+0346 CR/ACS/019 Service Levels v.1.0 FSL_03/116
+0361 CR/ACS/011 Audit v.2.0 FSL_03/117
+0362 CR/ACS/005 OBCS v.4.0 FSL_03/118
+0370 CR/ACS/009 ICL Pathway to TIP Interface v.3.0 FSL_03/119
+0378 CR/ACS/008 EPOSS Acceptance Test Specification v-4.0 FSL_03/120
+0379 CR/ACS/018 Help Desk v.2.0 FSL_03/121
+
+Page 68 of 77
+WITNO6650100
+WITN06650100
+
+CCN CSR Acceptance Specification Exhibit Reference
+0380 CR/ACS/012 Reconciliation v.2.0 FSL_03/122
+0381 IM/ACS/005 Implementation Part D - Rollout v.2.0 FSL_03/123
+0382 RS/ACS/001 End to End Service v.1.0 FSL_03/124
+0383 CR/ACS/020 Schedule C3 v.1.0 FSL_03/125
+0388 CR/ACS/021 Policies & Standards v.1.0 FSL_03/126
+0458 CR/ACS/007 POCL Infrastructure v.2.0 FSL_03/127
+
+Page 69 of 77
+Part 2: Acceptance Criteria
+
+WITNO6650100
+
+WITNO06650100
+
+Service
+
+Schedule
+
+Acceptance Criteria
+
+OBCS
+
+HO2
+
+Subject to Clause 201.6, the OBCS shall meet the following Acceptance Criteria, namely
+that OBCS shall be as specified in Schedule HO1 and interwork with the POCL
+Infrastructure Services specified in Schedule G01, ensuring that: (a) data shall be
+received, stored, captured and sent in a secure manner, timeously and without
+corruption; and (b) OBCS shall be secured against fraudulent attack as far as the
+Codified Agreement requires; and (c) OBCS has the contingency arrangements
+specified in Schedules HO1 and HO9 and that all contingency arrangements can be
+implemented successfully; and (d) OBCS meets the maximum Contracted Transaction
+Times specified in Schedule HO8 and the Minimum Acceptable Thresholds specified in
+Schedule H08.
+
+POCL Infrastructure
+Services
+
+G04
+
+Subject to Clause 201.6 , the POLC Infrastructure Services shall meet the following
+Acceptance Criteria, namely that POCL Infrastructure shall be as specified in Schedule
+G01 and shall interwork with the Service Environment specified in Schedule 1 and the
+POCL Application Services and EPOSS specified in Schedules E01, F01 and H01,
+ensuring that: (a) data shall be received, stored, and transferred in a secure manner,
+timeously and without corruption; and having been validated as specified in Schedule
+BO8; and (b) data shall be secured against fraudulent attack as far as the Codified
+Agreement requires; and (c) the POCL Infrastructure Services have the contingency
+arrangements specified in Schedules G01 and G011 and that all contingency
+arrangements can be implemented successfully; and (d) the POCL Infrastructure
+Services meet the maximum Acceptable Thresholds specified in Schedule G10.
+
+EPOSS
+
+FO2
+
+Subject to Clause 201.6, the EPOSS shall meet the following Acceptance Criteria,
+namely that EPOSS shall be as specified in Schedule F01 and interwork with the POCL-
+Infrastructure Services specified in Schedule G01, ensuring that: (a) data shall be
+received, stored, captured and sent in a secure manner, timeously and without
+corruption; and (b) EPOSS shall be secured against fraudulent attack as far_as the
+
+Page 70 of 77
+WITNO6650100
+
+WITNO06650100
+
+Service
+
+Schedule
+
+Acceptance Criteria
+
+Codified Agreement requires; and (c) EPOSS has the contingency arrangements
+specified in Schedules FO1 and FO9 and that all contingency arrangements can be
+implemented successfully; and (d) EPOSS meets the maximum Contracted
+Transaction Times specified in Schedule F08 and the Minimum Acceptable Thresholds
+specified in Schedule F08.
+
+APS
+
+E02
+
+Subject to Clause 201.6, the APS shall meet the following Acceptance Criteria, namely
+that APS shall be as specified in Schedule E01 and interwork with the POCL -
+Infrastructure Services specified in Schedule G01, ensuring that: (a) data shall be
+received, stored, captured and sent in a secure manner, timeously and without
+corruption; and (b) APS shall be secured against fraudulent attack as far as the Codified
+Agreement requires; and (c) APS has the contingency arrangements specified in
+Schedules E01 and E09 and that all contingency arrangements can be implemented
+successfully; and (d) APS meets the maximum Contracted Transaction Times specified
+in Schedule E08 and the Minimum Acceptable Thresholds specified in Schedule E08.
+
+POCL
+
+Service
+
+Infrastructure
+
+BOS
+
+The POCL Service Infrastructure shall meet the following Acceptance Criteria, namely
+that the elements of the POCL Service Infrastructure shall be as specified in Schedules
+BO1 and BO2 and shall interwork with the POCL Service Environment specified in
+Schedule 1, and that the POCL Service Infrastructure shall be technically capable of
+supporting the provisions of the POCL Services to the standard necessary to ensure
+that: (a) data shall be received, stored and transferred in a secure manner, timeously,
+without corruption and having been validated as specified in Schedule B8; and b) data
+shall be secured against fraudulent attack as far as the Codified Agreement requires (b)
+data shall be secured against fraudulent attack as far as the Codified Agreement
+requires.
+
+Page 71 of 77
+Schedule of Acceptance Incidents and associated rectification plans as set out in the Second Supplemental Agreement
+
+WITNO6650100
+
+WITNO06650100
+
+Appendix 2
+
+No.
+
+Acceptance
+Incident
+
+Rectification Plans, Schedule 2, Second Supplemental Agreement (24 September 1999).
+
+Al211
+
+1.1. The Contractor shall apply each of the fixes detailed in the Acceptance Incident Analysis Form for
+AIN 211 (“Form 211”) by the date specified for such fix in Form 211. 1.2. Where no date is specified in
+Form 211 for the application of a fix, the Contractor confirms that that fix has been successfully applied
+for all Outlets to which Rollout has occurred as of the date of this Agreement. 1.3. The Contractor shall
+monitor the effectiveness of the action taken by it to resolve the incident. 1.4. When the monitoring
+referred to in paragraph 1.3 demonstrates over a period of four consecutive weeks that resolution of AIN
+211 has been achieved, then POCL will close AIN 211.
+
+Al218
+
+2.1. Each of the Contractor and POCL shall complete the steps and achieve the objectives applicable to
+it (the “218 Obligations”) detailed in section 3 and the Contractor shall meet the critical success factors
+(the “Criteria’) detailed in the table headed “Critical Success Factors” in Document CR/ACD/218
+(Version 0.5) (dated 23rd September, 1999) (FSL_03/128). 2.2. Each of the Contractor and POCL shall
+fulfil each of the 218 Obligations applicable to it and the Contractor shall ensure that all the Criteria are
+met by 31st December, 1999. 2.3. When the 218 Obligations and all the Criteria shall have been satisfied,
+then POCL will close AIN 218.
+
+Al298
+
+3.1. Each of the Contractor and POCL shall complete the steps and achieve the objectives applicable to
+it (the “298 Obligations”) detailed in section 5 of Document CR/ACD/298 (Version 0.8) (dated 23rd
+September, 1999) (“CR/ACD/298”) (FSL_03/129) and where that section identifies one party as fulfilling
+an action, the other party shall assist the aforementioned party to reach a successful conclusion
+(FSL_03/129). 3.2. Each of the Contractor and POCL shall complete each of the 298 Obligations
+applicable to it by the dates and to the standards set out in section 5 of CR/ACD/298. 3.3. Without
+prejudice to the generality of the above paragraphs 3.1 and 3.2, the criteria to be met in respect of AIN
+298 by 24" November, 1999 are as set out in Part A of Schedule 4 of this Agreement (FSL_03/56). 3.4.
+The Contractor shall, until closure of AIN 298, record and report to POCL such data as shall be necessary
+to enable POCL to calculate the number of Units being recorded as defined in paragraph 3 of Part A of
+Schedule 4 to this Agreement. 3.5. For the avoidance of doubt, it is agreed that the Contractor shall be
+
+Page 72 of 77
+WITNO6650100
+
+WITNO06650100
+
+No.
+
+Acceptance
+Incident
+
+Rectification Plans, Schedule 2, Second Supplemental Agreement (24 September 1999).
+
+permitted to continue the good business practice of carrying out planned reboots outside working hours,
+such planned reboots not to exceed an average of one per Counter Position per month. 3.6. Without
+prejudice to the generality of the above paragraphs 3.1 and 3.2, as described in paragraph 5.5.2 of
+CR/ACD/298, the Contractor shall produce and deliver to POCL by 30 October, 1999 the document
+referred to in that paragraph for review and agreement by 24" November, 1999 and the Contractor shall
+implement the provisions of that revised document by 24 November, 1999. 3.7. When the criteria in
+paragraph 3.3 and the obligations in paragraph 3.6 shall have been satisfied, POCL will close AIN 298.
+
+AI314
+
+4.1. The Contractor shall produce and deliver to POCL a document entitled “ICL Pathway Generalised
+API for OPS/TMS” (the “API Document”). 4.2. The Contractor shall produce the API Document in
+accordance with sections 2 (“Scope”), 3 (“Document Standards’) and 4 (“Content of ICL Pathway
+Generalised API for OPS/TMS”) of Document CR/SPE/007 (Version 0.3) (dated 7th September, 1999)
+(“CR/SPE/007”) (FSL_03/130). 4.3. The Contractor and POCL shall review the version of the API
+Document referred to in sub-paragraph 4.4(A) as described in section 3 of CR/SPE/007. 4.4. The
+Contractor shall produce and deliver the AP! Document to POCL: (A) as a version for review without the
+“Appendix” (as defined in paragraph 5(A) of CR/SPE/007) before 1st December, 1999; (B) as a revised
+version without the Appendix incorporating the changes arising from the review referred to in the above
+sub-paragraph 4.4(A) and paragraph 4.3 as a CCN before 28th December, 1999; and (C) with the
+Appendix before 1st February, 2000 as a CCN. 4.5. POCL will close AIN 314 on approval of the CCN
+referred to in sub-paragraph 4.4(C).
+
+AI342
+
+5.1. Until 1st October, 1999 the Contractor shall monitor the operation of the procedures detailed in the
+Acceptance Incident Analysis Form for AIN 342 (“Form 342”) under the heading “New Procedures”. 5.2.
+The Contractor shall ensure that the daily automatic and email reports described in Form 342 under the
+headings “Program Changes Required” and “New Procedures” (under sub-heading “b. Central
+Processing Delays”, paragraph 2) are produced. 5.3. When the monitoring detailed in paragraph 5.1, or
+such other monitoring as the parties may agree, demonstrates that AIN 342 has been resolved and the
+requirements of paragraph 5.2 are being fulfilled, POCL will close AIN 342 (FSL_03/56)
+
+AI369
+
+6.1. Each of the Contractor and POCL shall complete the steps and achieve the objectives applicable to
+it (the “369 Obligations”) detailed in the table (in two parts) extracted from Document BA/ACC/020
+(version 0.4) (dated 20th September) (FSL_03/131) and where that table identifies one party as fulfilling
+an action, the other party shall assist the aforementioned party to reach a successful conclusion. 6.2.
+
+Page 73 of 77
+WITNO6650100
+
+WITNO06650100
+
+No.
+
+Acceptance
+Incident
+
+Rectification Plans, Schedule 2, Second Supplemental Agreement (24 September 1999).
+
+Each of the Contractor and POCL shall complete each of the 369 Obligations applicable to it by 31st
+December, 1999. 6.3. When the 369 Obligations shall have been satisfied by the Contractor and POCL,
+POCL will close AIN 369. 6.4. On the completion of the Contractor's 369 Obligations where the Contractor
+has taken the lead on actions to be fulfilled (as referred to in BA/ACC/020), POCL shall confirm to the
+Contractor in writing that such obligations have been completed. However, this confirmation shall not
+affect any other of the Contractor's obligations to ensure that AIN 369 is ultimately resolved, in
+accordance with BA/ACC/020.
+
+AI372
+
+7.1. The Contractor shall complete the steps detailed in Document CR/ACD/372 (Version 0.4) (dated
+16th September, 1999) (“CR/ACD/372”) in paragraph 5.2: (A) at sub-paragraph 6 (headed “.dll checking”)
+by the time at which the step detailed in paragraph 7.4 below is completed; and (B) at sub-paragraph 3
+by the later of the completion of the steps detailed in sub-paragraphs 7.2(A) and 7.2(B) below plus one
+week (FSL_03/132). 7.2. The Contractor shall complete the steps detailed in CR/ACD/372 in paragraph
+5.2 at sub-paragraph 7, in the case of: (A) running the software distribution of the “Riposte Peripheral
+Server (Update Number 20)” by 16th December, 1999, although the Contractor shall aim to ensure
+distribution by 30th September, 1999; and (B) running the software distribution of the “Consolidated
+EPOSS/Counter Applications Upgrade” by 16th December, 1999, although the Contractor shall aim to
+ensure distribution by 15th October, 1999. 7.3. The Contractor shall supply the appropriate supporting
+documentation as described in paragraph 5.2 of CR/ACD/372 by 1st November, 1999. 7.4. The
+Contractor shall review the software distribution undertaken in pursuance of the above sub-paragraphs
+7.2(A) and (B) in accordance with paragraph 5.2.1 of CR/ACD/372 by 16" March, 2000, or if earlier, three
+months from the date on which the steps detailed in paragraph 7.2 above are both completed. 7.5. When
+the obligations referred to in sub-paragraphs 5.2(3) and 5.2(6) of CR/ACD/372, the software distributions
+referred to in the above paragraph 7.2, the supply of the supporting documentation referred to in
+paragraph 7.3 above; and the review of the software distribution referred to in paragraph 7.4 above shall
+have been completed, POCL will close AIN 372.
+
+AI376
+
+8.1. Each of the Contractor and POCL shall complete the steps and achieve the objectives applicable to
+it (the “376 Obligations”) set out in Document CR/ACD/376 (Version 0.9) (dated 23rd September, 1999)
+(“CR/IACD/376”) and where that document identifies one party as fulfilling an action, the other party shall
+assist the aforementioned party to reach a successful conclusion (FSL_03/133). 8.2. Each of the
+Contractor and POCL shall complete each of the 376 Obligations applicable to it by the dates and to the
+
+Page 74 of 77
+WITNO6650100
+
+WITNO06650100
+
+No.
+
+Acceptance
+Incident
+
+Rectification Plans, Schedule 2, Second Supplemental Agreement (24 September 1999).
+
+standards set out in CR/ACD/376. 8.3. When the TIP Integrity Checking Period ends, POCL will close
+AIN 376.
+
+AI378
+
+9.1. In accordance with the details set out in the Acceptance Incident Analysis Form for AIN 378 (“Form
+378”) and in Document CR/ACD/378 (Version 0.3) (dated 16th September, 1999), the Contractor
+confirms that it has analysed the incidents in Form 378 (FSL_03/134). 9.2 The Contractor shall apply a
+“Diagnostic”, which shall be effective by 1st October, 1999, which shall: (A) detect and prevent null Cash
+9.2 Account IDs, if necessary by forcing the Outlet to re-run the cash account process; and (B) log
+diagnostic messages to facilitate further analysis. 9.3. After a sufficient level of data has been acquired
+from the Diagnostic, the Contractor shall promptly determine the cause of TIP 916 and shall promptly
+apply an appropriate fix and monitor its application until the fix is successful for a continuous period of
+two weeks. 9.4 When the fix referred to in paragraph 9.3 shall have been successful for a continuous
+period of two weeks, POCL will close AIN 378.
+
+10.
+
+AI390
+
+10.1. As described in the Acceptance Incident Analysis Form for AIN 390 the Contractor shall introduce
+a facility whereby, subject to paragraph 10.2 below, following a crash of the APS at a counter and when
+undertaking session recovery or disaster recovery (for those transactions where a system receipt has
+been produced), the user shall still have the option of reserving a gap of transactions and delaying
+recovery to a more convenient time. 10.2. The facility detailed in the above paragraph 10.1 is subject to
+the qualification that in the event of a second crash occurring before the initial recovery is completed, the
+procedure shall be that the clerk shall undertake recovery of all those deferred transactions and then
+any other transactions that may have occurred as a result of the second crash. 10.3. The facility detailed
+in the above paragraph 10.1 shall be applied by the Contractor to all Outlets to which Roll-Out has
+occurred as at that date of application by 30th November, 1999 and the Contractor shall then monitor the
+facility. 10.4. When the monitoring referred to in paragraph 10.3 shall have demonstrated over a
+continuous period of two weeks that resolution of AIN 390 has been achieved, then POCL will close AIN
+390.
+
+11.
+
+Al391
+
+11.1. The Contractor shall complete the steps (the “391 Obligations”) detailed in paragraphs 5.1.2 and
+5.2 of Document CR/ACD/391 (Version 1.0) (dated 13th September, 1999) (“CR/ACD/391”) and POCL
+shall comply with its obligations under paragraph 5.2 of CR/ACD/391 (FSL_03/135). 11.2. The Contractor
+shall complete the 391 Obligations in accordance with the timetable and standards set out in paragraphs
+
+Page 75 of 77
+WITNO6650100
+
+WITNO06650100
+
+No.
+
+Acceptance
+Incident
+
+Rectification Plans, Schedule 2, Second Supplemental Agreement (24 September 1999).
+
+5.1.2 and 5.2 of CR/ACD/391.11.3. When the obligations (with the exception of the obligations relating
+to timetable) detailed in paragraphs 11.1 and 11.2 shall have been completed, POCL will close the
+incident.
+
+12.
+
+Al408
+
+12.1. Each of the Contractor and POCL shall complete the outstanding steps applicable to it (the “408
+Obligations”) set out in the table in paragraph 5.4 of Document CR/ACD/408 (Version 1.5) (dated 23rd
+September, 1999) (“CR/ACD/408”) (FSL_03/136). 12.2. Each of the Contractor and POCL shall complete
+to a satisfactory standard the 408 Obligations applicable to it in accordance with the timetable set out in
+the table in paragraph 5.4 of CR/ACD/408. 12.3. When the obligations (with the exception of the
+obligations relating to timetable) detailed in paragraphs 12.1 and 12.2 shall have been completed, POCL
+will close the AIN 408.
+
+13.
+
+Al412
+
+13.1. Each of the Contractor and POCL shall complete the steps and objectives applicable to it (the “412
+Obligations”), and all intermediate actions required to achieve those steps, set out in the table at Section
+6 of Document CR/ACD/412 (Version 0.2) (dated 10th September, 1999) (“CR/ACD/412”) and (with the
+exception of item 1 in that table) as described in more detail in section 5 of CR/ACD/412 (FSL_03/137).
+13.2. Each of the Contractor and POCL shall complete to a satisfactory standard the 412 Obligations
+applicable to it (and all intermediate steps and objectives) in accordance with the timetable set out at
+Section 6 of CR/ACD/412. 13.3. When the obligations (with the exception of the Obligations relating to
+timetable) detailed in paragraphs 13.1 and 13.2 shall have been completed, POCL will close incident
+412.
+
+Page 76 of 77
+Appendix 3
+
+Documents relating to the Impact Programme
+
+WITNO6650100
+WITN06650100
+
+Reference Document Title Exhibit Number
+BD/CDE/008 PO Ltd Financial Systems - Release 3 - Conceptual Design FSL_03/138
+EA/HLD/005 IMPACT Release 3 Counter Design for Balancing, Rollover and FSL_03/139
+
+Stock Processing
+EA/DPR/004 IMPACT Release 3 Design Proposal FSL_03/140
+EA/IFS/013 Impact Release 3 —- Balancing and Trading Statement Production User Interface FSL_03/141
+EP/SPG/001 S80 Impact Release 3 EPOSS Counter Operational Support Guide FSL_03/142
+EA/HLD/006 Impact Release 3 - Counter Design for Declaration, Correction and Revaluation FSL_03/143
+EA/IFS/013 Impact Release 3 - Balancing and Trading Statement Production User Interface FSL_03/144
+
+Page 77 of 77

@@ -1,0 +1,798 @@
+FUJ00094393
+
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+RMGA HNG-X Counter Application Review
+
+A review of the integrity of the HNG-X application relating capturing of sales and financial
+transactions at the Counter
+
+Reviewers: Alan D’Alvarez, RMGA Programme Director
+Geoff Butts, HNG-X Programme Manager
+Graham Allen, HNG-X Applications Engineering Manager
+Andy Thomas, HNG-X Counter Architect
+David Johns, Lead HNG-X Architect
+Maz Kostuch, Director of Service Delivery and Projects, PSD
+David Leask, Managing Customer Solution Architect, PSD
+
+Authors: Paul Roberts, Applications Architect, AS
+Stuart Rye, Managing Consultant, PSD
+
+1 Introduction
+
+1.1 Terms of Reference
+
+Following the occurrence of a transaction being duplicated on the HNG-X Branch database, Stuart
+Rye and Paul Roberts were asked to review the Counter Application architecture and design and
+ensure that it fully supports the need to protect the integrity of financial transactions.
+
+The scope is focused on the integrity of the Counter Application in relation to financial transactions
+captured at the Counter. It does not extend to data migration or other transient issues caused by the
+switch from Horizon to HNG-X.
+
+This report reflects the findings from a visit by Paul Roberts and Stuart Rye on 4" February 2010 and
+a follow up review with David Johns on 24" February.
+
+1.2 Background
+
+The objective of HNG-X programme is to develop a system with structural and operational
+characteristics that substantially reduce ongoing support and maintenance costs with respect to the
+current Horizon system. A key component of HNG-X is the Counter Application. In contrast to the
+Horizon Counter Application, the HNG-X version retains operational data (e.g. Reference Data) and
+business logic, but transactional information is stored directly in the Data Centre. The Counter side of
+the new applications is based principally on Java technology. The Counter hardware is reused from
+Horizon with the initial migration deploying the new application on the existing Windows NT 4.0
+operating system. Where it has been feasible to reuse components from the existing Horizon
+Counter, these have been carried forward into HNG-X
+
+It was in pilot with 12 branches, when on 27" January 2010, the Data Reconciliation Service (DRS)
+process detected an error in a banking transaction. Subsequent investigations revealed that the
+Branch database had two transactions with different JSN's but the same SSN? for a specific Counter
+on that day but the 3° Party banking system only had one transaction. The clerk did not know that a
+duplicate transaction had been created.
+
+There was one other occurrence, again at Derby, also a banking transaction. There was a concern
+that dual settlement of transactions with no banking or card component and not subject to DRS.
+actions might have occurred or occur in the future and would not be spotted. [Update: 22" February:
+Searches of the database since pilot launch and being run daily revealed one further incident of a dual
+settlement (this time without a banking transaction). There are over 100 branches live as of this date.]
+
+* JSN — Journal Sequence Number - Used for audit purposes and must be unique without gaps per each Counter.
+2 SSN — Session Sequence Number — Unique within the session and can be duplicated after a period of time
+
+Page 1 of 14 Version 2.0
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+The net effect would be that the Post Office and the Branch records would not match. Where this
+happens, the Post Office investigates the branch and Postmaster, with a view to retraining or even
+uncovering fraud.
+
+The new Counter Application records all financial transaction data in the Data Centre. The PC in the
+Branch runs the Counter Application (with other sub system components). It is critical that the central
+database properly records the actions at the Counter and reliably reflects the actions of the clerk.
+
+The development team concluded the failure was caused by a bug and a resolution has been
+identified which includes further measures to remove the possibility of this occurring in the future.
+
+The Counter development team were able to recreate the Derby error by heavily loading the
+processor in a terminal and double keying the “settlement” action.
+
+Further assurance is required that Fujitsu has got to the root cause and there are no other potential
+issues with the integrity of the HNG-X as a system of record.
+
+1.3 Approach to assurance
+
+Paul Roberts and Stuart Rye joined the HNGX team on Thursday 4" February. We met with the
+following people:
+
+* David Johns — Lead architect — 4 hours
+
+e Andy Thomas — Counter architect - 6 hours
+
+e Steve Porter - Counter development team — specific questions
+
+e Alan Holmes — Auditing - 15 minutes
+
+The following documents were provided:
+
+* _HNG-X_Solution_Architecture_Overview_2009-07-28.ppt
+ARCSOLARC0001_v4.1_Draft Overall Solution Architecture.doc
+ARCAPPARC0003 Counter Architecture.doc
+ARCAPPARC0009 Counter Business Architecture.doc
+REQCUSSTG0002 Branch Exception Handling Strategy.doc
+DESAPPIFS0012 BAL Service Interface Specification.doc
+
+eee ee
+
+Our approach was to:
+
+« Understand the business process — from the Counter to back end / 3 parties
+Understand the business risks and controls
+Understand the system architecture, risks and controls
+Explore the specific failure in Derby and its resolution
+Explore any other areas of risk where the Post Office and Branch could end up with a
+variance due to a system error.
+
+The review was conducted with the assumption that the HNG-X system was a technology upgrade
+and not a business process reengineering project. Business requirements and controls in HNG-X
+should be the same as the current Horizon platform. It was declared that the Counter Application has
+been re-written based on Business specifications provided by the Post Office since the Horizon
+Counter Application had been developed using a third party product.
+
+2 ‘Findings
+
+2.1 General
+
+e The HNG-X system does represent a technology migration, with no material changes in business
+function. However, the development team involved in the Counter Application was largely drawn
+from people with no familiarity of the current platform, partly because the skills base is different
+and partly due to the fact the Horizon Counter Application had been developed using a third party
+product which would not feature in the HNG-X solution.
+
+Page 2 of 14 Version 2.0
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+« There are no material changes to business requirements. However, the adoption of a real time
+transactional system has increased traffic to and from the remote database and therefore the
+process time. Time at the counter is critical to the Post Office so a decision was made to find
+efficiencies where possible. In particular, the settlement process for cash only payment was.
+improved, with the removal of an extra button press previously required to complete settlement.
+The Post Office also took the opportunity to make simple process changes..
+
+2.2 Business Process (see Appendices)
+
+« The business process is essentially the capture and settlement of a complex retail shopping
+transaction. Customers can, inter alia, purchase stamps, mobile ‘phone top-ups, send
+Moneygrams and withdraw cash using their Bank card. They can settle their basket with a range
+of methods — cash, vouchers, cards.
+
+e The clerk logs the customer's transactions in a basket (just like online shopping). These could be
+a mix of all types of transactions. Each basket has an identifier called an SSN assigned when the
+basket is opened. These are specific to the Counter and basket but not unique as the SSN is
+reset to 0 after 999,999. A basket cannot be opened whilst another is open.
+
+e Once complete, payment is taken for relevant items and/or cash paid out for a withdrawal and the
+basket settled i.e. recorded on the central database and flushed from the Counter. Each basket
+at the database is assigned a unique and auditable reference called a JSN. (A JSN is assigned to
+any auditable data that is recorded at the data centre. Baskets represent 90%+ of these.)
+
+« Banking transactions i.e. deposit, withdrawal relating to partner banks and withdrawal from other
+banks against a debit card are processed at the time of presentation. Withdrawals are authorised
+with the issuing bank directly or via VocaLink when the card is presented and the payment
+processed immediately. Authorisation is a pre-requisite to the transaction being accepted and
+added to the basket. A unique identifier is generated for the banking transaction at the point of
+the authorisation request. If authorisation fails, a zero value (failed) Banking transaction is added
+to the basket.
+
+« Payment (or part payment) of a basket with a debit or credit card is handled through Streamline,
+with the Post Office acting in the role of a merchant. Payment is pre-authorised and reserved via
+Streamline when the card is presented. Authorisation is a pre-requisite to the basket being settled.
+If authorisation fails, the basket cannot be settled and must be settled another way.
+
+e Banking and card transactions are reconciled at the end of the day by the Data Reconciliation
+Service (DRS) which reconciles the Counter and Bank views of what transactions have occurred.
+A payment file is generated for the reserved card transactions which are processed in batch.
+
+2.3. Settlement
+
+The clerk indicates the transaction is settled in two ways: “Fast Cash” and “Settle”. There is a button
+for each. Each triggers a process resulting in the basket being logged on the database.
+
+« Fast Cash
+
+o “Fast Cash’ in that the clerk has only one key to press. They can do this when the
+transaction is settled by cash only.
+
+© This places an entry for the cash amount in the basket which sets the total to nil and the
+basket settles.
+
+« Settle
+
+o The clerk uses “settle” to bring up a menu of settlement options where the customer is
+paying by means other than cash only. The clerk records the relevant settlement
+methods and amounts. Each amount is logged in the basket. Once the basket reaches
+“nil”, the basket settles.
+
+co If the basket is already “nil”, the “settle” button goes straight to settlement.
+
+When the basket settles, the Counter confirms with the Branch database that the basket is set to “nil”
+i.e. all payment received / cash paid out. On receipt of confirmation from the database that the
+basket has been properly captured and committed, the process of flushing the basket is started. In
+some cases a receipt is printed and cached based on the basket details before it is flushed, in others
+
+Page 3 of 14 Version 2.0
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+the receipt is cached (usually for a banking only transaction, where the receipt is printed at the point
+of authorisation and no other items are present). Once these procedures are complete, the basket is
+flushed.
+
+2.4 Reversal Settlement
+
+This occurs when a customer returns due to some error being made. For example, | bought 2" class
+stamps but | needed 1* class stamps or the customer was bought and/or sold the wrong item.
+
+There are two different reversals that can be performed:
+e Customer returns with receipt within a specific time window
+
+o This initiates a reversal settlement process and is referred to as an “existing reversal”.
+The process inserts a “reserve” transaction on the database before settling the reversal.
+The clerk is guided through the reversal process. Where all the original basket content is
+selected, the basket is auto settled and there is no opportunity for it to be submitted twice.
+If only part of the original basket content is selected, the normal settlement screen is
+displayed with the “settle” button disabled. This screen could potentially allow double
+settlement but not by the same keystrokes that were use in the Derby case.
+
+« Customer returns without receipt or with receipt outside the specific time window
+
+© This will follow the same process as for a normal settlement and is known as a “new
+reversal”. The financial amounts will be a different polarity. This process is protected by
+the same controls as for a normal settlement.
+
+2.5 Controls
+
+« Control over the data capture process (for example, disabling input from peripherals such as the
+touch screen, bar code, scales etc.) is supposed to be maintained and integrity provided by
+ensuring the clerk or peripherals cannot initiate out of sequence events. (This control failed in
+Derby.)
+
+e Banking transactions have an end of day control run by the DRS which reconciles the intra-day
+authorisations with the end of day settlement. This will alert duplicate or missing entries.
+Banking transactions have a unique identifier. These cannot be duplicated.
+
+e All other financially relevant 3° party interfaces (in particular Moneygram) have business logic
+built into the process to prevent duplication or a loss of a transaction. With Moneygram, the clerk
+is forced to acknowledge the point of financial settlement in the process and there is a specific
+input button presented after this point to commit the funds. There is no opportunity for this to be
+repeated or initiated by any other means.
+
+«The JSN has a uniqueness constraint as it is used for auditing purposes. It is also “dense”
+meaning that there should be no gaps for a given Counter. It is valid for a Counter to send
+transactions with a duplicate JSN, for example during a retry process. In this scenario, if the
+transaction is already stored in the Branch database, it will fail on the uniqueness constraint which
+will force a comparison of the transaction to be stored and the transaction already stored. If they
+are the same, the to-be stored transaction is discarded. A discrepancy in the transactions will
+force an error to be raised and the Counter will be logged off.
+
+« The SSN is not unique and is repeated after 1 million Baskets per Counter.
+
+e Ifa basket is not successfully stored in the Branch database, the Counter performs a recovery
+procedure which will involve retrying the basket. If this fails, then the clerk must perform a
+rollback which clears the basket of non-recoverable transactions.
+
+2.6 Spotting the duplicate Derby basket
+
+«It was the end of day reconciliation of the banking transaction in the DRS that alerted Fujitsu to a
+problem. Transaction settlement requests were presented for two transactions with the same
+unique transaction identifier and the second one was rejected. This revealed the presence on the
+HNG-X database of two duplicate, absolutely identical baskets with the same SSN and contents
+but different JSNs. Essentially, the Counter had submitted the same basket twice to the Branch
+database which had logged each as unique, with different assigned JSNs. Pre-authorisation only
+happened once as this took place before the basket was settled.
+
+Page 4 of 14 Version 2.0
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+2.7 Cause of the duplicate basket
+
+e In the old Horizon system, the clerk was required to press “Fast Cash” and then “Settle” to settle.
+In the new system, they only need to press “Fast Cash”.
+
+e In Derby, the clerks concerned adopted the old procedure and pressed “fast cash” (which
+recorded the cash entry, set the basket total to “nil” and initiated the settlement process) and then
+“settle”. The settle button should not have been enabled but it was. As the basket was now at
+“nil’, the basket was settled again immediately.
+
+e There is nothing particular about Derby identified that indicated a greater risk of double settlement
+than any other location.
+
+2.8 The Resolution
+
+« The development team have developed and tested an immediate resolution within the Counter
+Application and are considering possible solutions involving the Branch database (see
+Appendices for process flows).
+
+e The Counter Application:
+
+o It was discovered that the peripheral input lock was released before the basket was
+flushed and the “Settle” button enabled. This allowed the clerk to activate the “Settle”
+button and because the basket was already set to nil, it was sent to the Branch database
+and caused the duplicate. The ability to press the “Settle” button was due to timing
+differences. The clerk was very efficient and following the old Horizon process. Windows
+was servicing another process. The Counter Application code has now been modified to
+flush the basket before the peripheral input lock has been released.
+
+o The development team also found another scenario when this could occur and as well as
+correcting this they have implemented additional code that highlights any further
+scenarios that have not been discovered. The additional code ensures that the Counter
+Application is in “Busy Wait’ state at the point the transaction is sent to the Branch
+database. The code does this irrespective of whether the state is already correct. If the
+state is not correct it produces an alert message on the Counter Application. This has
+only been adopted for the Development and Test environments.
+
+o A “flag” has been added to the basket that prevents duplicate settlement initiation. This is
+a belts and braces approach since the previous code changes should not require this
+functionality.
+
+* The database solutions:
+The solutions being considered are:
+
+o Check for duplicate SSN on receipt of a basket. If this is done real time, it will place a
+demanding overhead on the database.
+
+o Check for duplicate SSNs as part of an audit process during the overnight period.
+
+2.9 Stock check
+
+e Stock checks will highlight differences between the Post Office records and Branch records.
+Some post offices undertake daily checks, others weekly, others monthly.
+
+3 Conclusions
+Overall, the actions taken to redress the Derby issue are appropriate. We believe the Counter
+
+Application with the identified fix fully supports the need to protect the integrity of financial
+transactions.
+
+Specific conclusions are detailed below.
+
+Page 5 of 14 Version 2.0
+FUJ00094393
+
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+3.1
+
+3.2
+
+3.3
+
+3.4
+
+3.5
+
+3.6
+
+3.7
+
+3.8
+
+3.18
+
+Business controls for banking transactions will alert duplicate baskets containing banking
+transactions because of reconciliation checks in the DRS but there has not been a control for
+baskets with no banking transaction — this is now being addressed.
+
+Duplicate banking transactions with different identifiers cannot be created.
+
+The duplicate could have happened anywhere, not just Derby; (performance monitoring not
+enabled).
+
+Baskets cannot be “lost”. The JSN and associated checks provide confirmation that all
+transactions sent from the Counter are stored in the Branch database. Recovery procedures
+built into the Counter Application and Business Processes ensure transactions are not lost.
+
+Duplicate baskets cannot be created in the Counter Application and cannot be submitted to the
+database more than once following the resolution taken by the development team. This was
+less of a risk in the old technology but an increased risk with the adoption of the centralised
+financial transaction approach and the real-time transmission to the database from the Counter
+Application.
+
+The business control intended at the Counter recognises that dual settlement risk is inherent by
+having two buttons that could initiate settlement. The business requirement is that settlement
+can be initiated only once i.e. the use of one button to submit a basked disables the other.
+The implementation in the HNG-X Counter Application failed and enabled dual settlement.
+
+The Counter Application design did not have sufficient controls to prevent duplicate basket
+transmission (regardless of the control intended to limit initiation of settlement by different
+buttons).
+
+The peripheral input lock release occurred too soon in the process, and allowed “Settle” button
+to be pressed.
+
+The Counter Application fix adopts a belt and braces approach and is very strong.
+The design of the basket flag control is a good one
+
+The basket submission flag avoids the timing trap that the “Settle” button lock fell into and is
+enabled at the correct point in the process, just before the transmission to the Branch database.
+
+A basket cannot be flushed until confirmation is received that it has been properly committed
+and logged at the database.
+
+An SSN is associated with a basket. Per Counter, per day it can be used as check for
+duplication (within a population of 1 million)
+
+Given the strength of the implemented Counter Application controls a real-time check at the
+database for duplicate SSN receipt should not be necessary and would potentially decrease
+performance of the system
+
+An end of day procedure to detect duplicate SSN is acceptable.
+
+The “new reversal” process follows the settlement process but the transaction amounts have a
+different polarity. The “existing reversal” process is a guided process and the clerk does not
+have the opportunity to create duplicate transactions for full reversal. There may have been a
+risk with partial reversal. This risk has been removed by the fix.
+
+Other interactions do not create risk, e.g. post code look up, or have appropriate business and
+technical controls in place.
+
+It is unsure what testing has been performed to prove peripherals are disabled and enabled at
+the correct point in the Business Process.
+
+Page 6 of 14 Version 2.0
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+The Counter Application is quirky when ordering quantities of stamps. For example, it is
+possible for five stamps to be recorded as one stamp if the clerk does not interact with the
+Counter Application correctly.
+
+There is no practical control to stop under and overcharging for baskets caused by clerk error.
+For example, the clerk my give the wrong number or denomination of stamps.
+
+There seems to be no other risk of baskets undercharging.
+There is a solution to detect incorrect busy-wait states in the development and test
+
+environment which would be useful, with enhancement, in the live environment as an indicator
+of failing code.
+
+4 Recommendations
+
+44
+
+4.2
+
+43
+
+44
+
+4.5
+
+46
+
+Implement the fix as developed and tested.
+
+The “busy wait” check should be implemented in the Production environment but with an Error
+message being written the Windows Event log in preference to the Alert message. This Error
+message would be transmitted to the central database following the business as usual
+processes for detecting errors on the Counter PC and appropriate procedures put in place
+
+Do not implement the real time duplicate SSN check. Create an overnight batch report for
+SSN duplicates with the same JSN on same day. This could be run on the BRSS database if
+performance is an issue on the live database.
+
+Review peripheral disablement and enablement testing and where appropriate undertake more
+testing for specific use cases to check peripherals are in the correct state.
+
+Incorporate a duplicate SSN check in the Audit Retrieval process.
+Review and strengthen negative testing, if appropriate. The recent problems reflect the
+
+asynchronous nature of the new application and traditional or historic test cases may not reflect
+this.
+
+Page 7 of 14 Version 2.0
+HNG-X Counter Application Review
+
+FUJ00094393
+FUJ00094393
+
+25" February 2010
+
+Appendices High Level Business Flows
+
+1. Business Process -
+No banking transaction
+
+2. Business Process -
+Banking transaction
+
+Moneygram £100
+© ‘ele sarys 20
+1) Lidiass stamps £10
+
+Balanco 140
+
+Money
+
+Balance
+
+£100
+
+1" class stamps £30
+2° class stamps £10
+
+update
+
+Automatic basket
+
+‘Automatic update
+HNG-X database
+
+Cash withdrawal — £100
+‘Transaction 10: 000.0001
+
+Balance £100
+c4
+toms
+3" party systems:
+‘Authorisation
+
+‘Automatic update |__|
+HNG-X database
+
+Page 8 of 14
+HNG-X Counter Application Review
+
+FUJ00094393
+FUJ00094393
+
+25" February 2010
+
+3. Business Process — Card Settlement of Non-Banking Basket
+
+Moneygram £100
+class stamps £30
+
+2” class stamps _£10
+Balance £140
+
+Moneygram — £100
+1 class stamps £30
+2 class stamps £10
+Card payment _-£140
+Balance £0
+|, Automatic
+‘Authorised? Yes” [basket update
+
+»| Update HNG-x
+
+database
+
+Authorisation
+request
+
+Page 9 of 14
+HNG-X Counter Application Review
+
+FUJ00094393
+FUJ00094393
+
+System Flows - Derby Issue
+
+Banking Transaction — Derby Issue
+
+Clerk performs banking
+
+transaction
+
+Ceynter
+
+al \ oa
+
+Basket balanoed so
+need to selec settler
+method
+
+vent
+
+Bank
+
+3" Paty
+
+3° Party
+Database
+
+£18
+transaction
+
+ing Tonearene ong Transaction:
+
+DRS Recondlation Service
+
+: Al Basket
+Response ———p! Fast cash [ empty -
+L NJ nofag
+Peripheralnput
+Relhee
+Pr
+Re
+‘Store basket again
+Store transaction ok
+OK
+Banking Transaction
+Branch Database ranch Database
+a
+& £15 transacton
+ASN123, SSN450
+Response
+
+=
+
+Reconciliation failed
+because 3" Party only has
+fone £15 transaction
+
+Page 10 of 14
+
+25" February 2010
+
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+System Flows — Derby Issue Fix
+
+Banking Transaction — Derby Fix
+
+Clerk performs banking
+
+transaction The key citferences are:
+
+1, Flag on basket to stop second submission
+2. Peripheral input Lock Release occurs after basket is
+eared down
+
+3, The Busy/Wait function is executed before
+‘Asynchronous Comms occurs. This is regardless of
+whether Itwas already executing. It was not executing
+an Alet is generated in the DEV and TEST
+environments, but it is recommended an ERROR should
+be wnitten to the Windows Event Log soit can be
+detected at the Data Centre
+
+4, Recommendation for a report to fook for transactions
+wih same SSN, diflerent JSNs on the same day for the
+‘same counter. This will detect duplicate retail onty (no
+banking element) transactions
+
+-Resporse————->|
+
+Counter
+
+Store transaction
+
+Banking Transaction
+
+Response
+
+—Banking Transactions— 4
+
+DRS Reconciliation Service
+
+3" Party
+
+Reconciliation OK
+
+a
+
+Page 11 of 14
+HNG-X Counter Application Review
+
+FUJ00094393
+
+FUJ00094393
+
+25" February 2010
+
+System Flows — Post Fix Fast Cash
+
+‘Cash Payment Transaction
+Basket
+a —> empty —
+2 no flag
+€
+5 T
+fo] |
+= |
+|
+|
+|
+|
+Store transaction
+1 ii
+T T
+ox
+<>
+| Branch
+| Database |
+z £20
+oO transaction
+2
+S
+a
+&
+
+System Flows — Post Fix Chip & Pin Payment
+
+Page 12 of 14
+HNG-X Counter Application Review
+
+FUJ00094393
+FUJ00094393
+
+25" February 2010
+
+Chip and Pin Payment Transaction
+
+FT =
+
+Counter
+
+eaun|
+
+steriation
+Request
+cars Transactions
+|
+|
+ta
+RS Reconcliaion Service
+Pa
+z Database
+é £20
+z, reservation
+
+Reconciliation OK — all
+transactions match
+
+Page 13 of 14
+FUJ00094393
+FUJ00094393
+
+HNG-X Counter Application Review 25" February 2010
+
+System Flows — Post Fix Chip & Pin Payment - Comms Issue
+Chip and Pin Payment Transaction — Comms Failure
+
+i =
+
+Basket
+jae any
+rottag
+
+Counter
+
+| —__—_~_feean
+
+Store transaction
+
+‘Authorisation {
+Request is received by
+
+3 Party but no response is
+received by the Counter
+
+4 en
+Z
+| z
+— 8
+
+3" Party
+
+Z =
+Possible £20
+
+b Reconciliation OK
+: se because it is possible to
+
+the Branch database
+
+Page 14 of 14

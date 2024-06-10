@@ -1,0 +1,423 @@
+POL00029718
+POL00029718
+
+tol t4
+Oulrbaches gant 18 Cf23 bh?)
+
+Page
+
+Andrew Winn
+
+From: Jenkins Gareth Gl
+Sent: 04 May 2012 10:00
+
+To: Andrew Winn
+
+Subject: RE: Branches affected by Receipts Payments and Discrepancies issue
+
+Andy,
+Sorry it has taken me so long to get back to you.
+V've had a trawl back through my old emails and what I’ve found is the following:
+
+4. Both these Branches were in the original list associated with the “Lost Discrepancy” issue we had
+2010.
+
+2, lve found a comment saying that the loss with 422946 was primarily due to a Migration Issue a
+will be investigated separately”. (Email to Emma Langfield cc to you on $/1/11.)
+
+3. Apparently on 4/8/10 the Branch rolled SU AA from TP. 4 BP 4 into TP 4 BP 5 and also migrated th
+night. Looking in the Opening Figures table there are NO Opening Figures for TP 4 BP 5 (other thé
+dummy zero cash line). This means that the Cash of £21,975.83 and Discrepancies of £45.82 plus
+Stock have been lost. If these two figures are added together we get the £22,020.65 Receipts Pa’
+mismatch. | don’t know if this information was passed to POL. There was also an email from Ste’
+Parker to you on 5/1/11 mentioning this (but not all the detail).
+
+4. \canalso see that although 113459 was in the original list, it seems to have dropped off very ear
+
+This is because it wasn’t in the original list from POL and also the precise symptoms in terms ofe’
+
+left behind were different. |. can’t find any trace of any further investigation of this in my emails.
+
+Given that the discrepancy amounts in both cases was very large, I’d be surprised if they weren't
+
+properly investigated at the time, but they don’t seem to be included in the lists relating to the “
+
+Discrepancy” investigation.
+
+wo
+
+if you want this followed up further | suggest you raise it with the POL Problem Management team (Emr
+Langfield), who can get the Fujitsu Problem Management team to dig further.
+
+Regards
+
+Gareth
+
+Gareth Jenkins
+
+Distinguished Engineer
+Business Applications Architect
+Post Office Account
+
+FUJITSU
+Lovelace Road, Bracknell, Berkshire, RG12 8S)
+Tel:
+
+Please consider the environment - do you really need to print this email?
+POL00029718
+POL00029718
+
+Page ‘
+
+To: Jenkins Gareth GI
+Subject: FW: Branches affected by Receipts Payments and Discrepancies issue
+
+Hi Gareth
+
+Going back to the dark ages here I'm afraid. We had the receipts and payments issue post HNGX roll out th
+spent a lot of time on. There are a couple of branches that still seem to be outstanding 122946 & 113459 th:
+highlighted in red on the affected branches spreadsheet.
+
+The RPM spreadsheet is the one that was used to resolve the branch discrepancies. The two branches are
+on there.
+
+| seem to recall a couple of branches not fitting into the standard profile of all the other branches who had iss
+~ so I'm assuming it was those. | can’t find anything subsequently about them. Did these get investigated
+separately?
+
+Thanks
+And
+
+From: Paul Dann
+
+Sent: 05 October 2010 10:27
+
+To: Emma Langfield; Andrew Winn; Antonio Jamasb; Mark Weaver; Dave Hulbert; Ian Trundell; Alan X Simp
+Karen J White
+
+Subject: RE: Branches affected by Receipts Payments and Discrepancies issue
+
+All
+
+Please find attached analysis of POLFS for the affected branches, there are two branches that are not showi
+the amount as being stuck in discreps
+
+Cheers
+Paul
+
+From: Emma Langfield
+
+Sent: 04 October 2010 14:53
+
+To: Andrew Winn; Paul Dann; Antonio Jamasb; Mark Weaver; Dave Hulbert; Ian Trundell; Alan X Simpson; t
+J White
+
+Subject: FW: Branches affected by Receipts Payments and Discrepancies issue
+
+Afternoon
+
+Please see summary of issue attached as well as list of branches affected so far. | will be raising a conf call f
+1600 this afternoon.
+
+Kind regards
+Emma
+
+Live Service Team
+Service Delivery
+Post Office Limited
+
+POL00029718
+POL00029718
+
+Page‘
+
+right Mark; Woolgar Mike
+eits Payments and Discrepancies issue
+
+Emma,
+
+Please can you pass this on to anybody in POL who needs it. I don’t have a full list of who was on the call.
+As promised on the call, I've tidied up the list of affected Branches and put them into the attached spreadshe
+
+<<Affected Branches.xls>>
+
+I've also added in a further 11 Branches that raised events as part of last week’s rollovers.
+
+Some Branches in the list have not yet produced a BTS and so may not be aware of the problem (I've noted
+these in Col I).
+
+I've also added in the absolute value of the lost discrepancy so as to produce totals in Row 56 as requested |
+Andy Winn.
+
+Summary is:
+° 53 Rollovers affected
+° 2 Branches appear twice in the list (in one case it may be a duplicate of one error — this needs furtt
+
+investigation)
+
+° Net total is about £41K
+° Absolute total is about £46K
+° Only 4 cases where amount is over £1,000
+
+Note that in many cases the affected SU is missing from the spreadsheet. We know how to find this out, but
+not yet done so in all cases. We will clearly need to do that if we are to attempt to fix the issue in Horizon.
+
+Regards
+
+Gareth
+
+Gareth Jenkins
+Distinguished Engineer
+Applications Architect
+Royal Mail Group Account
+
+FUJITSU
+POL00029718
+POL00029718
+
+Discrepancies raised Xmas eve - results of investigation Page
+
+Andrew Winn
+
+From: Parker Steve (7
+Sent: 05 January 2011 1
+
+To: Andrew Winn; Duty Manager
+Ce:
+Subject: Discrepancies raised Xmas eve - results of investigation
+
+Andy, Emma
+These are the results of the investigations into the outstanding discrepancies.
+
+Summary
+
+Caused by action taken at branch — No further action being taken by RMGA
+3 branches are accepting discrepancies again immediately after TP rollover (071939, 196230, 2967
+
+1 branch closed without clearing final discrepancy (273311).
+
+Known system problems — actions already in place
+
+2 branches had two occurrences of the known R&P problem where discrepancies weren't carried
+forward (159632, 208020). These are explained on the spreadsheets previously sent to
+
+1 branch lost its opening figures due to delay completing rollover (412420). This has been previous
+raised with POSD in September which (I think) resulted in an auditor being sent into the site?
+
+Other problem — Further action being taken by RMGA
+1 branch (122946) had a problem during migration but appears to have had a receipts and paymen
+
+mismatch subsequently which may not have been investigated. We have raised a new incident for
+site (TFS 3421481 - PCO207483) and will progress.
+
+Details
+POL00029718
+POL00029718
+
+Discrepancies raised Xmas eve - results of investigation Page:
+
+071939 Charvil
+
+This branch created a new stock unit 01 on 24th August, in addition to AA which they had used for
+some time. For the next three months they did not keep the stock units properly in step, and had
+already accepted sizeable discrepancies a stock unit already in the new TP, before clearing and roll
+over the other stock unit in the older TP. They have now gone back to a single stock unit but are
+carrying forward a loss of around £909 (originally from August before new stock unit creation) whi
+they accept again immediately after rollover, so discrepancy account never empty. | can provide ft
+information if required.
+
+122946 Oaktree
+
+PC0202635 refers to a migration system problem at this branch, which aborted the migration and
+required remedial action. BTS after migration shows a large non-zero trading position. Needs furtt
+investigation into cause and consequences.
+
+159632 Bassaleg
+
+This branch had R&P mismatches in TP 4 (393.35) and TP 6 (-729.01) because the discrepancy was
+carried forward from one balance period to the next. If you add these together, you get -335.66, v
+is very close to the figure on the spreadsheet (-335.82). It's also what you get if you add up the
+numbers in pink on the ‘all discrep' sheet for the branch. So | think this is all caused by the known
+problem.
+
+196230 Thorney
+
+The loss of £127.61 (accepted 20-27 Oct) was cleared to cash on 17th Novat the end of TP 7, but
+immediately accepted again in TP 8. No problem.
+
+208020 Moor Park
+
+This branch had R&P mismatches in TP 6 (-33.82) and TP 6 (76.96) because the discrepancy was no’
+carried forward from one balance period to the next. If you add these together, you get 43.14, the
+figure on the spreadsheet. So | think this is all caused by the known problem.
+
+POL00029718
+POL00029718
+
+Discrepancies raised Xmas eve - results of investigation Page
+
+This branch closed on 27th August and the kit was removed soon afterwards. They rolled their st«
+unit imtoa new BP with a £2 gain, but did not do a final TP rollover and never cleared the discrepa
+
+2967 15 Clare
+
+On 5th Oct and 10th Nov, the branch accepted the discrepancy again immediately after TP rollove
+(loss G7pand gain 1.85 respectively). No problem.
+
+412420 The Crescent
+
+This branch had major problems because they rolled over some but not all stock units into a new”
+and after 62 days some opening figures were lost. | believe an auditor went in to sort out the brat
+and there will be inconsistencies in POLFS data (we mentioned this at the time - late September -
+don't know if anything was done to try to get POLFS back in line).
+
+Sent: @4 January 2011 1
+
+To: ‘Andrew Winn'; Duty Manager
+
+Cc: Stewart Mike
+
+Subject: RE: ISSUE - Receipts & Payments mismatch
+
+Andy / Emma
+Just to let you know, I have not dropped this one in the post Xmas lethal
+
+Work has started on it today and I'll update you tomorrow on progress.
+
+Steve
+
+To: Parker Steve;
+Cc: Duty Manager
+
+Subject: RE: ISSUE - Receipts & Payments mismatch
+POL00029718
+POL00029718
+
+Discrepancies raised Xmas eve - results of investigation Page:
+
+The idea of branch trading is that discrepancies are resolved at branch
+trading. Therefore the discrepancy account for each branch clears down
+roll over. We occasionally have had branches who have rolled their last
+stock unit and declared a new discrepancy on the same day. This is
+extremely rare and will in all probability be cleared out at the next br
+trading roll over.
+
+The additional branches identified may have a simple explanation as to w
+the value is there but it would feel extremely careless not to gain
+clarification that any other branches displaying the same characteristic
+the R&P branches (which should not have discrepancy values rolling forwa
+but do) are not a part of the same or a different problem.
+
+We have tried to exclude any branch that has not had a further branch
+trading roll over since the problem has become apparent.
+
+When I write to the impacted branches I want to be able to say that Fujii
+identified all impacted branches and have analysed each one to ensure th
+the corrective action POL need to take is correct. We would all look pre
+silly if someone then told us that their “other branch" has a similar
+looking problem but no one has identified that!!!
+
+With the current high profile on Horizon integrity I feel we need to
+understand what is happening at all these branches.
+
+Cheers
+
+Andy
+
+From: Parker ste ee GRO
+
+Sent: 24 December 2010 11:56
+
+To: Duty Manager; Wright Mark;
+GI; Woolgar Mike
+
+‘Jenkins Garet
+
+Cc: Andrew Winn; Antonio Jamasb
+Subject: RE: ISSUE - Receipts & Payments mismatch
+Emma,
+
+I have to admit to being confused by your request
+POL00029718
+POL00029718
+
+Discrepancies raised Xmas eve - results of investigation Page!
+these. Most of the branches you have identified here were not subject to
+that problem (except 159632 & 208020).
+
+As you know, in general we do not investigate discrepancies as they are
+generally a PM issue. We are unable to do anything about it because we dc
+know what cash is in the PMs till etc.
+
+Can you give me more detail please, in particular:
+
+a) Why are these discrepancies seen as something other than BAU
+
+b) What do P&BA mean by marooned or stuck
+
+Thanks
+
+Steve Parker
+
+Sent: 24 December 2010 11:10
+
+rt Mike; Jenkins Gareth GI; Woolgar Mike; Parker St
+
+Wright Mar;
+GRO
+
+Cc: andrew.winn@ GRO 5 antonio.jamast_ = GRO
+
+Subject: ISSUE - Receipts & Payments mismatch
+
+Morning
+
+Please see below from Product and Branch Accounting. They have identifiec
+some branches where values appear marooned in the P&BA discrepancy accour
+that either appear not to align to the values in the last Fujitsu
+spreadsheet or have not been identified as a part of this issue.
+
+As we wish to communicate with the branches in the new year can Fujitsu f
+a look at both the discrepancies in values on the identified branches anc
+have a look at why we are seeing stuck values at other branches.
+
+Also we need to have the reproduced copies of the branches trading
+statements (as they would have looked) so the letter can direct them to
+POL00029718
+POL00029718
+
+Discrepancies raised Xmas eve - results of investigation Page |
+
+Many thanks
+Emma
+
+Live Service Team
+
+Service Delivery
+
+(See attached file: all discrep.XLs)
+
+FESS OSCE OSA GSC ISSO SIGIGA CSCC ICC igor iO CCI GIO i aa a i kak kak kf ak
+
+Royal Mail Group Limited registered in England and Wales registered numbe
+
+4138203 registered office 3rd Floor, 10@ Victoria Embankment, London, EC4
+@HQ
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+disclose, reproduce, copy or distribute the contents of this communicatic
+
+If you have received this in error, please contact the sender and then
+delete this email from your system.
+
+FESS AICO CISICIICI OIG ICSI OSC IOC ISI I aia ICI ACK I IC I IR ICC KK a ack ak af aca Kak af a
+
+AC a CR GC AG IC IG CR AG AC CRG AO CR ORR RRR RE RO
+
+Mail Group Limited registered in England and Wales registered number 413€
+registered office 3rd Floor, 10@ Victoria Embankment, London, EC4Y @HQ Tr
+email and any attachments are confidential and intended for the addressee
+only. If you are not the named recipient, you must not use, disclose,
+
+reproduce, copy or distribute the contents of this communication. If you

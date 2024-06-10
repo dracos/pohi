@@ -1,0 +1,353 @@
+WITNO8080100
+WITNO8080100
+
+Witness Name: David Wilcox
+
+Statement No.: WITN08080100
+
+Dated: 16 March 2023
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST STATEMENT OF DAVID WILCOX
+
+|, David Wilcox, will say as follows...
+INTRODUCTION
+
+lam a former employee of ICL/Fujitsu_ and held the position of Reference
+
+Data Manager when working on the Post Office Account.
+
+This witness statement is made to assist the Post Office Horizon IT Inquiry
+
+(the “Inquiry”) with the matters set out in the Rule 9 Request dated 17 January
+
+2023 (the “Request”).
+
+Page 1 of 10
+1.
+
+WITNO8080100
+WITNO8080100
+
+| worked for ICL/Fujitsu from 1970 until | retired in 2012. The last role | had
+with the company was that of Reference Data Manager on the Post Office
+Account, known as Horizon to the Post Office.
+
+| joined ICL in 1970 working in Oxford as a peripheral engineer. | was sent on
+training courses to be able to fulfil that role. | was later trained on the 1906A
+mainframe system hardware and then developed skills working with the
+system software which, in time, led to me joining the Worldwide Support unit
+based in Bracknell. That unit was disbanded in 1980 and | then became the
+Small Systems Support Manager for the South West of England, based in
+
+Reading.
+
+In 1985 an opportunity arose in Iraq and | was there from 1985 until 1990,
+initially as the System Support Manager and later the Customer Support
+Manager, deputizing for the Country manager when he was out of the country.
+When we were forced to leave Iraq ICL moved me and several of my
+colleagues to Abu Dhabi where | worked as a support manager until the end
+
+of 1997.
+
+In the autumn of 1998 | joined the Post Office account as the Reference Data
+Manager, for a short time based in Feltham, then Bracknell for the remainder
+of my time in ICL/Fujitsu. | held the position of Reference Data Manager until
+my retirement in 2012. During the last 18-months or so before | retired | was
+less hands on the day to day running of Reference Data and spent a lot of my
+time documenting the systems and practices that had been developed by me
+
+and my team.
+
+Page 2 of 10
+5.
+
+WITNO8080100
+WITNO8080100
+
+One of the questions | have been asked by the Inquiry relates to the approach
+to bug fixing. One of the earliest things | learned as a hardware engineer is
+that hardware problems have to be fixed, there are rarely workarounds.
+
+When | moved over to supporting software | carried this approach with me
+and always attempted to fix problems rather than simply providing a
+
+workaround or suggesting that the user was wrong.
+
+BACKGROUND
+
+6.
+
+It should be noted that whilst | was the Reference Data Manager the
+ICL/Fujitsu Reference Data Team was not a part of the SSC and had no
+responsibility for software support on the Horizon system, nor access to any
+of the live Horizon system in the datacentre or the counters in Post Offices. In
+the last two years or so before | retired | reported to the SSC manager but my
+
+team still did not work in the SSC.
+
+The Horizon system is driven by its Reference Data. The task of the
+Reference Data Team (RDT) was to process Reference Data supplied from
+the Post Office, validate it as far as the team was able, pass the data on to
+Post Office staff for their validation and then release it to the Horizon system
+
+when instructed to do so by the Post Office RDT.
+
+Reference Data from Post Office was held in the RDMC (Reference Data
+
+Management Centre) database and, when release was authorised by Post
+
+Page 3 of 10
+WITNO8080100
+WITNO8080100
+
+Office, processed by the RDDPL (Reference Data Process to Live) database
+which passed the processed data to Correspondence Servers for delivery to
+the Post Office Counters. RDT had systems which mimicked the live RDDPL
+and Correspondence Servers which allowed both the ICL/Fujitsu and Post
+Office RDT’s to check/prove Reference Data on counters connected to the
+RDT systems before releasing it to the live system. The original RDT systems
+were run on servers based in Feltham which were later replaced with
+
+components on the new systems housed in Belfast.
+
+9. The four RDMC ‘streams’ were designated RDDT (RDT Testing — initial look
+at the Reference Data to see if there were any obvious mistakes — Test in this
+context is a slight misnomer), RDDIP (RDP Internal Proving — more
+exhaustive checks on the Reference Data before passing on to the Post
+Office RDT for their proving), RDDOP (Post Office RDT proving) and RDDPL
+(Live data). The release of Reference Data to each stream was controlled by
+RDMC workstations, which were only available to |CL/Fujitsu RDT. Team
+members in RDT had varying levels of control they could exercise in moving
+data through the streams and only more senior members of the team were
+
+allowed to ‘release to Live’.
+
+KEL System
+
+10. The purpose of the KEL (Known Error Log) database was to assist looking
+into a technical issue to determine if the issue, or a similar issue, had been
+
+seen before and if there was a resolution or workaround or possibly a request
+
+Page 4 of 10
+WITNO8080100
+WITNO8080100
+
+for more information.
+
+1
+
+a
+
+.| have been asked about the KEL system adequacy — as it has been many
+years since | used the KEL system | do not feel able to provide a complete
+response to this question. My recollections of the KEL is that sometimes it
+would be very helpful and at others difficult to track down similar issues.
+Often the problem of finding the entry you wanted was that the description of
+the problem in a KEL could be written from the perspective of the technician
+providing the resolution rather than how the problem manifested itself to the
+user. This was not a specific problem in the context of the Horizon system but
+a generic problem across many KEL type systems.
+
+12.1 have been asked about the KEL Process — as this is many years ago |
+cannot be certain that | can remember the specific process | would have used
+with any KEL system used within the Horizon system. In general with any
+KEL type system you enter a set of search criteria which would offer you a
+number of KEL entries to review. You may then have had options to refine
+your search within those offered for review or you may have had to look
+through them.
+
+PinICL and PEAK systems
+
+13.1 have been asked about the PinICL and PEAK systems — If | remember
+correctly these two systems were developed and run by the SSC. | believe
+that they were both adequate for their intended purpose.
+
+14.1 have been asked about the assignment and priority pf service tickets — to the
+
+best of my recollection service tickets were assigned to the team responsible
+
+for the major component identified on the ticket. If this turned out to be the
+
+wrong team the ticket would be transferred to the most appropriate team.
+
+Page 5 of 10
+WITNO8080100
+WITNO8080100
+
+Tickets were given a priority at creation time, the priority based on the severity
+of the problem. The priority could be changed during the lifetime of the ticket.
+15. Service ticket closure — to the best of my recollection a service ticket would be
+closed under one of the following conditions:
+15.1 the identified problem was already recorded in an earlier ticket or could
+be coupled with another ticket;
+
+15.2 asoftware fix was issued to overcome a defect in the software;
+
+15.3. a workaround was identified, possibly as an interim solution pending a
+longer term fix or development of a change/new part of the Horizon
+system;
+
+15.4 the problem as identified was due to a misunderstanding of the
+process;
+
+15.5 there was insufficient evidence to identify the described problem — as
+such this ticket may have been re-opened in the future
+
+ssc
+
+16. During the time that | was the Reference Data Manager neither |, nor any of
+my team members, were members of the SSC My team could well have
+been involved in helping the SSC when problems included Reference Data.
+As | was not a part of the SSC | do not feel able to comment on the way the
+SSC service was provided.
+
+17.1 understood the role of the SSC to provide Post Office and all of their staff,
+whether within the Post Office organisation or the staff at Post Offices,
+support for all aspects of the use of the Horizon system and to investigate the
+causes of failures and possibly supply interim fixes or workarounds. | seem to
+
+remember that there was a fraud section either within the SSC or elsewhere
+
+Page 6 of 10
+WITNO8080100
+WITNO8080100
+
+in the support service structure.
+
+18.1 cannot remember how many staff there were in the SSC or precisely what
+were their positions and roles. As | was not a member of the SSC | do not
+even know if | could have answered this any more accurately at the time | was
+working.
+
+19.1 have no knowledge of the specific requirement for working in the SSC. | do
+know that many of the people | worked within the SSC were technically very
+competent at their jobs and would have doubtless been chosen because of
+their previous experience.
+
+20.1 have been asked about training, work instructions, relationship to other
+helpdesks, 4" line support, SMC — | cannot make any comment on these
+questions in relation to the SSC.
+
+Identification of bugs, errors and defects
+
+21.1 have reviewed the bugs referenced in Appendix 1 of Bates and others v.
+Post Office Limited (No. 6) “Horizon Issues” [2019] EWHC 3408 (QB). | have
+no specific recollection of any of the bugs or any mechanisms employed to
+investigate or fix them. | am also unable to give any information how the SSC
+approached resolution of the bugs. | can say that | was never aware of any
+pressure to avoid finding or fixing bugs nor for passing information to Post
+Office employees. There may have been times when we were asked to hold
+back telling Post Office whilst the problem was investigated and we may well
+have been asked to allow senior management to inform Post Office in the first
+instance but ultimately | believe we were allowed to discuss issues with our
+counterparts in the Post Office.
+
+Remote Access
+
+Page 7 of 10
+WITNO8080100
+WITNO8080100
+
+22.Once more | have to stress that | was never a member of the SSC. However
+|, and some members of my team, had remote access to the RDT parts of the
+
+Horizon system in order to use the proving equipment specifically available to
+
+RDT.
+
+23.1 have been asked a number of questions in relation to remote access.
+
+23.1 | and my team would use Remote access for the purpose of processing
+Reference Data from receipt from Post Office through the systems
+available to the ICL/Fujitsu Reference Data teams prior to release to
+the live system;
+
+23.2 RDT had anumber of RDMC workstations which were used to control
+the delivery of Reference Data to the stages of processing through the
+RDT environments and release to the live environment;
+
+23.3 RDT had access to correspondence servers within the RDT
+environment but not to the live correspondence servers;
+
+23.4 RDMC workstations were only available in the secure environment in
+Bracknell. In addition, some of my team, had remote access to RDT
+systems through a Windows based laptop but that access only became
+available when the updated systems based in Belfast became operational.
+| cannot name any specific tool;
+
+23.5 As mentioned above, RDMC workstations were only available within
+the secure environment in Bracknell. Access to Bracknell was with an
+electronic identification pass which was required to enter the Bracknell
+building and then to any floor/office area to which the individual was
+permitted access. Where remote access was permitted we had to use
+
+passwords and a device which was time-syncd with a security server
+
+Page 8 of 10
+WITNO8080100
+WITNO8080100
+
+within the live system (| believe housed in Belfast);
+
+23.6 | have no knowledge of the audit data from any of the security systems;
+
+23.7 To the best of my recollection we had read only access to the
+databases on the RDT systems, and the Live RDMC database. The only
+way anyone could change Post Office Reference Data was by supplying a
+new file of data to the RDMC. | seem to remember that we had slightly
+more access to RDT correspondence servers. However, if any changes
+were made within the RDT environment, such changes could not be
+transmitted to the live service.
+
+General
+
+24.1 do not feel competent to answer the question about the level of information
+or advice given to SPMs as | was never directly involved with the provision of
+that information.
+
+25.1 have been asked about the causes of problems with the Horizon system —
+This is an extremely difficult question to answer, especially so in my case as |
+was not aware there were problems of the level that have come to light since |
+retired. | can say that there were times when Post Office technical advisors
+would ask for changes or developments on the Horizon system without
+consulting anyone who used the system and this may well have resulted in
+confusion in the Post Offices. Several of the staff on the Post Office RDT had
+worked in Post Offices and were familiar with the way in which things were
+done in a Post Office and yet their views were often not sought or simply
+ignored by those in the Post Office requesting the change/development. |
+believe that the early members of the Post Office RDT, who had to prove the
+
+Reference Data, were chosen for the very reason that they had experience of
+
+Page 9 of 10
+WITNO8080100
+WITNO8080100
+
+how things were done in Post Offices and would have been an excellent
+source of information to those in the Post Office who were specifying the
+requirements for changes/enhancements to the Horizon system. There were
+several occasions when | attempted to get the person in the Post Office who
+had specified a change/enhancement to modify the methodology to conform
+to the way in which the Post Offices transacted and to discuss the way the
+counter presented the transaction with the Post Office RDT.
+
+26.1 have been asked, with hindsight, what if any, changes to the support
+services provided by Fujitsu would have improved the advice and assistance
+received by SPMs — as | was never directly involved in the support services
+referenced | do not believe | can offer any constructive criticism. The role of
+my team was to support the Post Office RDT and | believe that we did that
+
+effectively whilst | was the manager of ICL/Fujitsu RDT.
+
+Statement of Truth
+
+| believe tt
+
+Signed:__
+
+Dated:__16 March 2023
+
+Page 10 of 10

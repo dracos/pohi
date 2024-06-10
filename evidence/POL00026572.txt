@@ -1,28 +1,30 @@
-                                                                                     POL00026572
-                                                                                   POL00026572
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-
-
-                                 1
-
-
-To Dave Smith, Managing Director      From Rod Ismay, Head of Product &
+To Dave Smith, Managing Director From Rod Ismay, Head of Product &
 Branch Accounting
-   Mike Moores, Finance Director           2 August 2010
-   Mike Young, Chief Technical & Services Officer
+Mike Moores, Finance Director 2 August 2010
+
+Mike Young, Chief Technical & Services Officer
 
 Cc Mark Burley, Head of Projects (IT) Mike Granville, Head of Regulatory
+
 Relations
-   Lesley Sewell, Head of IT          Rob Wi lson, Head of Criminal Law (RM
+
+Lesley Sewell, Head of IT Rob Wilson, Head of Criminal Law (RM
 Group)
-   Andy McLean, Head of Service Delivery Mandy Talbot, Principal Lawyer (Civil)
-   John Scott, Head of Security       Keith Woollard, Head of Compliance
-   Lynn Hobbs, GM Network Support Michele Graves, Executive Correspondence
+
+Andy McLean, Head of Service Delivery Mandy Talbot, Principal Lawyer (Civil)
+
+John Scott, Head of Security Keith Woollard, Head of Compliance
+
+Lynn Hobbs, GM Network Support Michele Graves, Executive Correspondence
 Manager
-   Sue Huggins, Head of Network Planning & Change
 
-
+Sue Huggins, Head of Network Planning & Change
+Horizon — Response to Challenges Regarding Systems Integrity
 
 Post Office Ltd has, over the years, had to dismiss and prosecute a number of
 subpostmasters and Crown staff, following financial losses in branches. A
@@ -34,15 +36,16 @@ have at times received national media coverage and in some cases been
 taken up by local MPs. Most recently, Channel 4 has proposed a news article
 about this area.
 
-This paper has been compiled as an objective, internal review of POL's
+This paper has been compiled as an objective, internal review of POL’s
 processes and controls around branch accounting. It includes an overview of
-   • POL's control environment and POL's response to accounting errors
-   • IT systems — Horizon versus Horizon Online and resolution of known
-       issues
-   • Third party perspectives — Court judgments, media and audit
-   • Statistics on branch accounting issues, suspensions and prosecutions
+e POL’s control environment and POL’s response to accounting errors
+e |T systems — Horizon versus Horizon Online and resolution of known
+issues
+e Third party perspectives — Court judgments, media and audit
+e Statistics on branch accounting issues, suspensions and prosecutions
 
 Executive Summary
+
 The allegations to which we are responding follow on from cases where
 thousands of pounds were missing at audit. We remain satisfied that this
 money was missing due to theft in the branch — we do not believe the account
@@ -55,22 +58,20 @@ running costs and change management. It is not being done because of any
 doubt about the integrity of Horizon.
 
 The integrity of Horizon is founded on its tamper proof logs, its real time back
-ups and the absence of "backdoors" so that all data entry or acceptance is at
+ups and the absence of “backdoors” so that all data entry or acceptance is at
 branch level and is tagged against the log on ID of the user. This means that
 ownership of the accounting is truly at branch level.
-                                                                                     POL00026572
-                                                                                   POL00026572
 
+Page 1 of 36
+POL00026572
+POL00026572
 
-
-
-                                 1
-
+CONFIDENTIAL
 
 Subpostmasters are trained to use the system, they have support material in
 branch and there is a wealth of helpline support available. Some transactions
 and processes could be made more intuitive, but the support is there for
-queries.
+queries
 
 Accounting errors do happen through user mistakes, but these can be
 explained and resolved case by case. Systems issues have also arisen but
@@ -82,34 +83,29 @@ into question.
 When POL takes a subpostmaster to court we have strong processes for the
 compilation of evidence, compassionate factors are borne in mind and we
 have a high success rate. This does depend on ensuring that the courts
-focus on the facts of transaction logs and not on speculation about the "what
-ifs".
+focus on the facts of transaction logs and not on speculation about the “what
+ifs”.
 
 There are several improvement opportunities for POL and these are set out in
-Appendix 1. They do not undermine POL's assertion regarding the integrity of
+Appendix 1. They do not undermine POL’s assertion regarding the integrity of
 Horizon, but they would tackle some of the other noise which complainants
 feed on. They may also help when POL does take action.
 
+Page 2 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
+1. POL’s Controls
 
-                                                                  i'' TOMM411C1f
-                                                                                    POL00026572
-                                                                                  POL00026572
-
-
-
-
-                                1
-
-
-1. POL's Controls
 POL has extensive controls within Horizon and in the communication of
 branch accounting records to the central finance systems (primarily the
 POLFS system). POL also has clear processes for the recruitment and
 training of staff and for access to support services such as Helplines.
 
-7 (a) systems
+1 (a) Systems
+
 The independent IT consultancy Gartner has described the Horizon Online
 architecture as first rate and the existing Horizon system has had positive
 press. Horizon and HOL were both designed with the principle that only
@@ -123,171 +119,190 @@ high recently and is a top priority for IT
 
 The system depends on the quality and accuracy of data entry by users, and
 on branches controlling the permissions levels that they grant to their users.
-POL. has enabled controls at a branch level for the prevention and detection of
+POL has enabled controls at a branch level for the prevention and detection of
 errors and these are supplemented in P&BA.
 
 Hardware and software development, installation, enhancement and
+
 maintenance
-• Change management — formal processes and decision points with
-  authority levels
-« Extensive testing including user acceptance tests
-« Trained engineers on site and with requirements for proof of ID when
-  working
+
+e Change management — formal processes and decision points with
+authority levels
+
+e Extensive testing including user acceptance tests
+
+e Trained engineers on site and with requirements for proof of ID when
+working
 
 Physical Access, Systems Users and log-ons
-« Physical security processes for branches to prevent unauthorised staff on
-   site
-• Leaver / joiner controls for allowing and removing access to Horizon
-• All users require log on IDs and passwords
-• The person in charge in the branch can set the appropriate levels of
-   access for different users
-• All transactions and events are tagged and traceable to the user
-« Security is designed and managed in accordance with respected national
-   and international standards such as ISO / IEC 27001. It is subject to
-   regular independent audits
 
-Transaction automation — minimising manual entry! choice and enabling
+e Physical security processes for branches to prevent unauthorised staff on
+site
+
+e Leaver / joiner controls for allowing and removing access to Horizon
+
+e All users require log on IDs and passwords
+
+e The person in charge in the branch can set the appropriate levels of
+access for different users
+
+e All transactions and events are tagged and traceable to the user
+
+e Security is designed and managed in accordance with respected national
+and international standards such as ISO / IEC 27001. It is subject to
+regular independent audits
+
+Transaction automation — minimising manual entry / choice and enabling
+
 validation of entries
-• Use of cards, tokens, barcodes and system reference data to minimise
-    manual data entry
-• Cash centre automation and CCTV in the event of branches disputing
-    cash rems (England only
+
+e Use of cards, tokens, barcodes and system reference data to minimise
+manual data entry
+
+e Cash centre automation and CCTV in the event of branches disputing
+cash rems (England only
 
 Business continuity and systems recovery
-                                                                                    POL00026572
-                                                                                  POL00026572
+Page 3 of 36
+CONFIDENTIAL
 
-
-
-
-                                  1
-
-
-•   Alerts for failed transactions in branch and centrally eg. for power cut or
-    severed lines
+e Alerts for failed transactions in branch and centrally eg. for power cut or
+severed lines
 
 Transaction recording, back up and proof against tampering
-• Sequential referencing of transactions, customer baskets and associated
-   user IQs. Prevents gaps, duplication or anonymous transactions
-• Transaction back ups — back up server updated as each transaction is
-   completed
-• Audit file and "read only" control — transaction records securely sealed
-• Events such as branch balancing are also securely recorded and are
-   traceable
-• System drives double entry accounting and ensures it remains in balance
+
+e Sequential referencing of transactions, customer baskets and associated
+user IDs. Prevents gaps, duplication or anonymous transactions
+
+e Transaction back ups — back up server updated as each transaction is
+completed
+
+e Audit file and “read only” control — transaction records securely sealed
+
+e Events such as branch balancing are also securely recorded and are
+traceable
+
+e System drives double entry accounting and ensures it remains in balance
 
 Interfaces to central finance systems
-• Automated interface checklists, batch schedules and exception reports
-• Batch controls ("BLE" and "BIMS") between branch, middleware and
-   finance systems
-• Non polled reports if no data is received from a certain branch
-• SAP system and middleware — daily checks for stuck data and for
-   exceptions (iDocs)
-• Reconciliation and alignment of different data feeds — eg. between data to
-   clients and to POL
-                                                                                           POL00026572
-                                                                                         POL00026572
 
+e Automated interface checklists, batch schedules and exception reports
 
+e Batch controls (“BLE” and “BIMS”) between branch, middleware and
+finance systems
 
+e Non polled reports if no data is received from a certain branch
 
-                                                             1
+e SAP system and middleware — daily checks for stuck data and for
+exceptions (iDocs)
 
+e Reconciliation and alignment of different data feeds — eg. between data to
+clients and to POL
 
-          r     W'
+Page 4 of 36
 
+POL00026572
+POL00026572
+CONFIDENTIAL
 
-I       E!1~.'L! II UII I! -.   II OUL-W-JIU &UJN F.f■ !if   III 1II
+1 (b) Processes
 
-    "Accurate accounting is not difficult for well run branches" — the systems and
-    support are in place for branches to maintain comprehensive, accurate and
-    timely accounts, and transactions can only arise in Horizon from actions of the
-    subpostmaster or their staff.
+Accounting and control in branch
 
-    Branch accounting is included in induction training and support is available in
-    service.
+“Accurate accounting is not difficult for well run branches” — the systems and
+support are in place for branches to maintain comprehensive, accurate and
+timely accounts, and transactions can only arise in Horizon from actions of the
+subpostmaster or their staff.
 
-    Horizon operates on a "double entry" accounting basis and maintains a
-    balanced trading position. Staff are then responsible for ensuring that they
-    record transactions and methods of payment promptly and accurately. They
-    have the tools, and they are encouraged to do physical checks.
+Branch accounting is included in induction training and support is available in
+service.
 
-    Mistakes do occur (intentionally and unintentionally) and this is where
-    supervisory checks are important in the branch and where detection
-    processes from central teams would come into play.
+Horizon operates on a “double entry” accounting basis and maintains a
+balanced trading position. Staff are then responsible for ensuring that they
+record transactions and methods of payment promptly and accurately. They
+have the tools, and they are encouraged to do physical checks.
 
-    Balancing routines
+Mistakes do occur (intentionally and unintentionally) and this is where
+supervisory checks are important in the branch and where detection
+processes from central teams would come into play.
 
-    • Daily cash declarations — an event where staff at each till position count and
-      report their physical cash holdings and Horizon then flags up any difference
-      compared to the system
-    • Cut off routines (daily and weekly) — for onward submission to P&BA /
-      Clients / Suppliers
-    • Weekly Balance Period Rollovers — a full check and declaration of all
-      branch assets and comparison to trading records_ Discrepancies can be
-      ringfenced for resolution in suspense
-    • Monthly Trading Period Rollover — as above but requires the discrepancies
-      to be resolved either by putting cash in or "settling centrally" to a debt
-      ledger managed from P&BA
-    • Branch Trading Statement, physical signature and retention — a monthly
-      requirement
-    • Other control reports in branch eg. Balance Snapshots, Transaction Logs,
-      Suspense Reports, Daily Sales, Reversals etc. These help identify errors
-      and internal fraud and are available to subpostmasters at any time
+Balancing routines
 
-    Transaction capture
+e Daily cash declarations — an event where staff at each till position count and
+report their physical cash holdings and Horizon then flags up any difference
+compared to the system
 
-    •      Automated products — cards, tokens and barcodes force a transaction into
-           the system because the clerk has to scan or swipe something
-    •      Matching routines for stand alone kit — branches may forget or make
-           mistakes in recording transactions at kit such as the ATM, Lottery terminal
-           or PayStation. P&BA get a feed from the terminal to compare to Horizon
-           and alert the branch to errors / omissions
-    •      Balancing routines to detect omission of stock sales — physical stock
-           checks spot these
-                                                                                 POL00026572
-                                                                               POL00026572
+e Cut off routines (daily and weekly) — for onward submission to P&BA /
+Clients / Suppliers
 
+e Weekly Balance Period Rollovers — a full check and declaration of all
+branch assets and comparison to trading records. Discrepancies can be
+ringfenced for resolution in suspense
 
+e Monthly Trading Period Rollover — as above but requires the discrepancies
+to be resolved either by putting cash in or “settling centrally” to a debt
+ledger managed from P&BA
 
+e Branch Trading Statement, physical signature and retention — a monthly
+requirement
 
-                                1
+e Other control reports in branch eg. Balance Snapshots, Transaction Logs,
+Suspense Reports, Daily Sales, Reversals etc. These help identify errors
+and internal fraud and are available to subpostmasters at any time
 
+Transaction capture
 
-•   Cut off routines to detect omissions or misclassifications of vouchers
-    encashed and methods of payment accepted — the control is the physical
-    match against the system
-•   System reference data — eg. postage and travel insurance have
-    embedded price tables
+e Automated products — cards, tokens and barcodes force a transaction into
+the system because the clerk has to scan or swipe something
+
+e Matching routines for stand alone kit — branches may forget or make
+mistakes in recording transactions at kit such as the ATM, Lottery terminal
+or PayStation. P&BA get a feed from the terminal to compare to Horizon
+and alert the branch to errors / omissions
+
+e Balancing routines to detect omission of stock sales — physical stock
+checks spot these
+
+Page 5 of 36
+
+POL00026572
+POL00026572
+POL00026572
+POL00026572
+
+CONFIDENTIAL
+
+Cut off routines to detect omissions or misclassifications of vouchers
+encashed and methods of payment accepted — the control is the physical
+match against the system
+
+System reference data — eg. postage and travel insurance have
+embedded price tables
 
 IT systems interventions and response to outages / disconnections
 
-    Incomplete transactions — systems could fail or lines could be
-    disconnected during online banking transactions. This could mean that
-    customer money has changed hands without the system being updated or
-    vice versa. IT controls would detect these outages and raise recovery
-    alerts to the branch such that the branch can check and update the
-    accounts if needed. This has been a more frequent issue recently with
-    "screen freezes" and "POCA outages" but recovery instructions have been
-    issued to branches to enable them to deal with any issues
+Incomplete transactions — systems could fail or lines could be
+disconnected during online banking transactions. This could mean that
+customer money has changed hands without the system being updated or
+vice versa. IT controls would detect these outages and raise recovery
+alerts to the branch such that the branch can check and update the
+accounts if needed. This has been a more frequent issue recently with
+“screen freezes” and “POCA outages” but recovery instructions have been
+issued to branches to enable them to deal with any issues
 
 Independent checks in branches
 
-•   Around 2,000 branch audits are conducted each year, driven by risk model
-«   All branches are receiving a high level cash count during migration to
-    Horizon Online
-•   Area managers may from time to time enquire about branch accounts
-    during visits
-                                                                                  POL00026572
-                                                                                POL00026572
+Around 2,000 branch audits are conducted each year, driven by risk model
+All branches are receiving a high level cash count during migration to
+Horizon Online
 
+Area managers may from time to time enquire about branch accounts
+during visits
 
+Page 6 of 36
+CONFIDENTIAL
 
-
-                                 1
-
-
-
+Accounting and control in P&BA
 
 Central controls over accounting are primarily in the Product & Branch
 Accounting team (P&BA) but also include activity in cash centres and alerts
@@ -304,73 +319,83 @@ checks on individual account balances.
 
 Complete, timely and accurate data feeds
 
-•   Joint working and alerts with IT teams in respect of expected interfaces,
-    batch routines and any incidents of data getting stuck in transmission
-•   Reference data and account mappings — these are secured in the system
-    and there is segregation of duties around changes
+e Joint working and alerts with IT teams in respect of expected interfaces,
+batch routines and any incidents of data getting stuck in transmission
 
+e Reference data and account mappings — these are secured in the system
+and there is segregation of duties around changes
 
+Data matching
 
-•   P&BA data matching — comparison of stand alone branch terminal data
-    against entries in Horizon (for ATM, Camelot, PayStation, Sodexho
-    Asylum Seekers, Post & Go)
-•   A&L paper matching — comparison by A&L of paper vouchers sent in by
-    branches against Horizon daily and weekly summaries
-•   Cash and bureau in transit matching — checks of what branches recorded
-    as sent or received compared to what cash centres recorded
-•   Cheques in transit — comparison of what branches reported as sent
-    against what the cheque processor physically receives
-•   Matching routines — automated routines with defined parameters and rules
+e P&BA data matching — comparison of stand alone branch terminal data
+against entries in Horizon (for ATM, Camelot, PayStation, Sodexho
+Asylum Seekers, Post & Go)
+
+e A&L paper matching — comparison by A&L of paper vouchers sent in by
+branches against Horizon daily and weekly summaries
+
+e Cash and bureau in transit matching — checks of what branches recorded
+as sent or received compared to what cash centres recorded
+
+e Cheques in transit — comparison of what branches reported as sent
+against what the cheque processor physically receives
+
+e Matching routines — automated routines with defined parameters and rules
 
 Error resolution
 
-•   Thresholds and policy — P&BA operates a "maintained error" policy
-    whereby differences below defined values are written off and not
-    investigated further on certain products
-•   Client enquiries — issues of completeness or timeliness of data files may
-    results in amendments to data in POL systems or client systems
-•   Customer enquiries — response to ad hoc queries received at P&BA and
-    Customer Care
-•   Branch ownership — branches are advised of issues and referred to
-    Operations Manuals
-•   Judgmental write offs and authority levels — P&BA has defined authority
-    levels for write offs and requirements for rationale which would not set
-    adverse precedents in branches
-•   Transaction corrections — "double entry" adjustments sent to branches for
-    their acceptance. There is no "back door" to force them into branch
-                                                                                 POL00026572
-                                                                               POL00026572
+e Thresholds and policy —- P&BA operates a “maintained error” policy
+whereby differences below defined values are written off and not
+investigated further on certain products
 
+e Client enquiries — issues of completeness or timeliness of data files may
+results in amendments to data in POL systems or client systems
 
+e Customer enquiries — response to ad hoc queries received at P&BA and
+Customer Care
 
+e Branch ownership — branches are advised of issues and referred to
+Operations Manuals
 
-                                 1
+e Judgmental write offs and authority levels - P&BA has defined authority
+levels for write offs and requirements for rationale which would not set
+adverse precedents in branches
 
+e Transaction corrections — “double entry” adjustments sent to branches for
+their acceptance. There is no “back door” to force them into branch
 
-    accounts. Visibility is key to ensure ownership of the issue and prevent
-    any risk of arguments about "back doors"
-•   Dispute process — this has been communicated to branches whereby
-    transaction corrections and discrepancies may be challenged by any
-    branch
-•   Prompt response — the commitment with Network is for 95% of issues
-    flagged within 3 months, but in practice most are soon after 1 month and
-    some key ones are next day
+Page 7 of 36
+
+POL00026572
+POL00026572
+POL00026572
+POL00026572
+
+CONFIDENTIAL
+
+accounts. Visibility is key to ensure ownership of the issue and prevent
+any risk of arguments about “back doors”
+
+Dispute process — this has been communicated to branches whereby
+transaction corrections and discrepancies may be challenged by any
+branch
+
+Prompt response — the commitment with Network is for 95% of issues
+flagged within 3 months, but in practice most are soon after 1 month and
+some key ones are next day
 
 Account reconciliation, probity and audit
 
-    Individual accounts are subject to reconciliation with checks against
-    expectations and supporting evidence
-    Reconciliations are also subject to external audit
-    Internal audit reviews are conducted each year on 'Critical Business
-    Processes" and these have covered some processes within P&BA
-                                                                                     POL00026572
-                                                                                   POL00026572
+Individual accounts are subject to reconciliation with checks against
+expectations and supporting evidence
 
+Reconciliations are also subject to external audit
 
+Internal audit reviews are conducted each year on “Critical Business
+Processes” and these have covered some processes within P&BA
 
-
-                                  1
-
+Page 8 of 36
+CONFIDENTIAL
 
 The interaction of P&BA, Network, Audit, Security and Legal
 
@@ -385,81 +410,94 @@ branches were a surprise visit by auditors or investigators may be needed.
 P&BA also works closely with the civil and criminal law teams in the support of
 court actions.
 
+Conformance and Fraud Risk monitoring and intervention
 
+e Accounts checks based on past experience of poor conformance and
+fraud routes
 
-•   Accounts checks based on past experience of poor conformance and
-    fraud routes
-•   Prompt dialogue with branches enforcing the awareness that P&BA are
-    watching
-•   Joint working groups with Security etc — eg. Fraud Forum and Losses
-    Group
-•   Joint work with Cash Services on unusual cash trends and postings in
-    branches
-•   Cash delivery and collection optimisation to minimise the scope for theft in
-    branch
+e Prompt dialogue with branches enforcing the awareness that P&BA are
+watching
+
+e Joint working groups with Security etc - eg. Fraud Forum and Losses
+Group
+
+e Joint work with Cash Services on unusual cash trends and postings in
+branches
+
+e Cash delivery and collection optimisation to minimise the scope for theft in
+branch
 
 Debt Recovery
 
-•   Visibility of issues in branch — anomalies in the accounts or in physical
-    stocks are visible from standard reports and basic stock counts. This
-    creates a foundation for ownership
-•   Acceptance of debt by the branch — branches do actively choose options
-    in Horizon
-•   Contractual responsibility for losses — this is clear in the subpostmaster
-    contract
-•   Enquiries and transaction corrections — branches are informed of issues to
-    enable to them prevent future recurrence of the same themes
-•   Statements and reminders — there are clear processes and milestones for
-    reminders
-•   Repayment schedules are agreed with Network management and with
-    sensitivity to financial hardship of the payee
+e Visibility of issues in branch — anomalies in the accounts or in physical
+stocks are visible from standard reports and basic stock counts. This
+creates a foundation for ownership
+
+e Acceptance of debt by the branch — branches do actively choose options
+in Horizon
+
+e Contractual responsibility for losses — this is clear in the subpostmaster
+contract
+
+e Enquiries and transaction corrections — branches are informed of issues to
+enable to them prevent future recurrence of the same themes
+
+e Statements and reminders — there are clear processes and milestones for
+reminders
+
+e Repayment schedules are agreed with Network management and with
+sensitivity to financial hardship of the payee
 
 Suspension and follow on
 
-•   Auditors have defined processes for their tests in branch and defined
-    escalation routes
-•   Decisions riot to suspend an agent require authority on a tiered basis
-    within the Network
+e Auditors have defined processes for their tests in branch and defined
+escalation routes
+
+e Decisions not to suspend an agent require authority on a tiered basis
+within the Network
 
 Legal action
-                                                                                        POL00026572
-                                                                                      POL00026572
 
+Page 9 of 36
 
+POL00026572
+POL00026572
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-                                  1
+When discrepancies are identified, the case goes to Investigations to
+decide whether there is a criminal case to be pursued
 
+Decisions on taking civil or criminal action involve qualified legal experts
+Qualified decisions are made as to pursuing a specific debt under “theft” in
+the criminal court or pursuing “false accounting” where the value awarded
+can involve the judge
 
-•   When discrepancies are identified, the case goes to Investigations to
-    decide whether there is a criminal case to be pursued
-•   Decisions on taking civil or criminal action involve qualified legal experts
-•   Qual ified decisions are made as to pursuing a specific debt under "'theft" in
-    the criminal court or pursuing "false accounting" where the value awarded
-    can involve the judge
-•   Court proceeding are driven by the Legal Team
-•   Decisions not to continue legal action, to resolve out of court or to write off
-    are taken with informed authority and consciously with a view to not setting
-    a precedent
-•   Decisions do take a variety of circumstances into account including
-    compassionate factors as well financial cost I benefit. We consider POL
-    errs more to the compassionate side than the draconian side in its legal
-    actions
-•   Criminal prosecutions are not based on cost I benefit. As a "Prosecuting
-    Authority" Royal Mail has to ensure a consistently robust treatment of
-    crime not based purely on value
-•   Standard approach to statements for court including what should have
-    happened and what actually happened
-                                                                                    POL00026572
-                                                                                  POL00026572
+Court proceeding are driven by the Legal Team
 
+Decisions not to continue legal action, to resolve out of court or to write off
+are taken with informed authority and consciously with a view to not setting
+a precedent
 
+Decisions do take a variety of circumstances into account including
+compassionate factors as well financial cost / benefit. We consider POL
+errs more to the compassionate side than the draconian side in its legal
+actions
 
+Criminal prosecutions are not based on cost/ benefit. As a “Prosecuting
+Authority” Royal Mail has to ensure a consistently robust treatment of
+crime not based purely on value
 
-                                 1
+Standard approach to statements for court including what should have
+happened and what actually happened
 
+Page 10 of 36
+CONFIDENTIAL
 
-1 (c) Kecruitment and i rains
+1 (c ) Recruitment and Training
+
 Agents are recruited based on business cases, credit checks and behavioural
 interviews. Agents are then responsible for the recruitment of their own staff.
 
@@ -470,17 +508,17 @@ progressed for legal reasons.
 Training is provided to Subpostmasters at induction. They are then
 responsible for onward training of their own staff. Subsequent training or
 communications happen when significant new products or processes are
-deployed. _ Branch staff are also required to take and pass appropriate
+deployed. . Branch staff are also required to take and pass appropriate
 compliance checks to comply with legislations e.g. relating to Financial
 Services.
 
 Training and targetry have increasingly focussed on sales. Whilst regulatory
 compliance has rightly had more airtime there may be a need to reinforce
 awareness of the key accounting routines in branch and to facilitate more of a
-"self help" model with greater accountability.
-
+“self help” model with greater accountability.
 
 1 (d) Support
+
 Support is available to branches through 3 main channels — Operational
 Instruction manuals, the Network Business Support Centre (NBSC) and
 Network line management.
@@ -488,68 +526,71 @@ Network line management.
 Over time, however, branches have accumulated contact points in many parts
 of POL and in suppliers and clients. This has therefore undermined the
 consistency of support. A project is under way within Service Delivery to
-clarify "Single Point of Contact" and this will be a helpful step.
+clarify “Single Point of Contact” and this will be a helpful step.
 
 Network Business Support Centre (NBSC)
 
-•   A tiered helpline which can refer callers to more specialist support lines.
-    The NBSC operates 8.15am to 6pm (Monday to Friday) but extended to
-    8pm on Wednesdays where more accounting support is required, and 8.30
-    — 2.00 on Saturdays. Emergency support such as for Security is available
-    24/7.
-•   The NBSC has a knowledgebase of standard guidance to advise branches
-    (which is generally the same information that branches have in their
-    support manuals). The knowledgebase has been updated for Horizon On
-    Line and has received praise from recent independent reviews.
-•   The NBSC will refer specific calls and trends to expert domains such as
-    P&BA for accounting or Fujitsu for software issues.
-•   The NBSC have weekly operational review meetings with Fujitsu's Service
-    Desk.
+e A tiered helpline which can refer callers to more specialist support lines.
+The NBSC operates 8.15am to 6pm (Monday to Friday) but extended to
+8pm on Wednesdays where more accounting support is required, and 8.30
+— 2.00 on Saturdays. Emergency support such as for Security is available
+24/7.
 
-Suppliers
-                                                                                  POL00026572
-                                                                                POL00026572
+e The NBSC has a knowledgebase of standard guidance to advise branches
+(which is generally the same information that branches have in their
+support manuals). The knowledgebase has been updated for Horizon On
+Line and has received praise from recent independent reviews.
 
+e The NBSC will refer specific calls and trends to expert domains such as
+P&BA for accounting or Fujitsu for software issues.
 
-
-
-                                 1
-
-
-•   Branches have contact numbers for various suppliers for technical support
-    (hardware/software issues). Some of these are options off the NBSC call
-    plan.
-•   Whilst branches sometimes stray into accounting queries whilst on the
-    phone, we always instruct suppliers to refer the branch back to the NBSC.
+e The NBSC have weekly operational review meetings with Fujitsu’s Service
+Desk.
 
 Suppliers
 
-    Branches have contact numbers for various suppliers. These may be for
-    engineering matters but can stray into accounting eg. with Wincor Nixdorf
-    on ATMs
+Page 11 of 36
+
+POL00026572
+POL00026572
+POL00026572
+POL00026572
+
+CONFIDENTIAL
+
+e Branches have contact numbers for various suppliers for technical support
+(hardware/software issues). Some of these are options off the NBSC call
+plan.
+
+e Whilst branches sometimes stray into accounting queries whilst on the
+phone, we always instruct suppliers to refer the branch back to the NBSC.
+
+Suppliers
+
+e Branches have contact numbers for various suppliers. These may be for
+engineering matters but can stray into accounting eg. with Wincor Nixdorf
+on ATMs
 
 Reference material
 
-•   Counter Operations Manual — paper based file with monthly updates for
-    insertion
-•   Horizon Online Help — the incoming replacement for the paper based
-    operations manual
-•   Operations Focus — weekly updates and guidance on transactions and
-    services
-•   Memoview — messages direct to the Horizon terminal
-•   Various magazines which may include "training content" eg. SubSpace
-                                                                                       POL00026572
-                                                                                     POL00026572
+e Counter Operations Manual — paper based file with monthly updates for
+insertion
 
+e Horizon Online Help — the incoming replacement for the paper based
+operations manual
 
+e Operations Focus — weekly updates and guidance on transactions and
+services
 
+e Memoview — messages direct to the Horizon terminal
 
-                                  1
+e Various magazines which may include “training content” eg. SubSpace
 
+Page 12 of 36
+CONFIDENTIAL
 
 2. IT Systems
-
-
+Horizon
 
 Horizon was developed as an electronic point of sale to replace archaic paper
 based accounting processes. It utilised hardware in branches which had
@@ -558,14 +599,18 @@ security. Data was replicated between units in the branch and once it
 reached the central data centres it was replicated between those.
 
 This gave three strengths which are important in terms of the allegations
-being made:
-1. Horizon infrastructure was robust from a security and access perspective
-2. It was resilient in terms of being able to continue customer service and to
-   hold data in a queue in the event of incidents, and
-3. It had strong back up and integrity features with data backed up in branch
-   and centrally
 
-This provided a strong audit trail . Further narrative from Fujitsu is included at
+being made:
+
+1. Horizon infrastructure was robust from a security and access perspective
+
+2. It was resilient in terms of being able to continue customer service and to
+hold data in a queue in the event of incidents, and
+
+3. It had strong back up and integrity features with data backed up in branch
+and centrally
+
+This provided a strong audit trail. Further narrative from Fujitsu is included at
 Appendix 3.
 
 Horizon v Horizon Online (HNG)
@@ -577,149 +622,143 @@ individual branches. Horizon Online is made up of a combination of new and
 migrating components.
 
 Counter
-     No data stored locally, all data is stored centrally on Branch Database
-     System in now completely online so it is not possible to transact
-     without connectivity to the data centre
-     Solution uses existing equipment in Branch (base unit, keyboard,
-     screen pin pad, scales etc)
+e No data stored locally, all data is stored centrally on Branch Database
+e System in now completely online so it is not possible to transact
+without connectivity to the data centre
+e Solution uses existing equipment in Branch (base unit, keyboard,
+screen pin pad, scales etc)
 
 Router
-  « Improved backup connections using the mobile network
-  ® New Branch Router to allow discrete counter connection to data centre
-     without reliance on Gateway PC
+e Improved backup connections using the mobile network
+e New Branch Router to allow discrete counter connection to data centre
+without reliance on Gateway PC
 
-
-   •   Secure VPN's used to connect to data centres
+Network
+e Secure VPN’s used to connect to data centres
 
 Data Centre
-   ® Infrastructure now located in state of the art datacentres in Belfast
-      Bladeframe infrastructure provides faster, more reliable infrastructure
-   • Full resilience - solution is n+1 (ie additional capacity to allow for
-      failures)
-   • Storage and backups are faster and more resilient spanning data
-      across the two data centres
-                                                                                 POL00026572
-                                                                               POL00026572
+e Infrastructure now located in state of the art datacentres in Belfast
+e Bladeframe infrastructure provides faster, more reliable infrastructure
+e Full resilience - solution is n+1 (ie additional capacity to allow for
+failures)
+e Storage and backups are faster and more resilient spanning data
+across the two data centres
 
+Page 13 of 36
 
+POL00026572
+POL00026572
+POL00026572
+POL00026572
 
-
-                                1
-
-
-
+CONFIDENTIAL
 
 Security
-   • No data held locally in Branch
-   • Vulnerability scanning, reporting and patching systems. Intrusion
-      Detection/Prevention systems in key areas.
-   • Segmented architecture with firewalls and routers protecting traffic in
-      and out of sensitive domains including cardholder environment
-                                                                                    POL00026572
-                                                                                  POL00026572
+e No data held locally in Branch
+e Vulnerability scanning, reporting and patching systems. Intrusion
+Detection/Prevention systems in key areas.
+e Segmented architecture with firewalls and routers protecting traffic in
+and out of sensitive domains including cardholder environment
 
+Page 14 of 36
+POL00026572
+POL00026572
 
-
-
-                                 1
-
+CONFIDENTIAL
 
 3. Known IT Issues and Their Non Applicability to the Allegations Made
+(a) Screen Freeze / Recovery
 
-   (a) Screen Freeze I Recovery
+Many Horizon Online branches have been frustrated by system outages.
+The root causes have been clarified and resolved and this is evidenced in
+the accelerated rollout.
 
-   Many Horizon Online branches have been frustrated by system outages.
-   The root causes have been clarified and resolved and this is evidenced in
-   the accelerated rollout.
+Branches were frustrated when they could not serve at all, but were also
+concerned about accounts integrity when transactions were cut of in mid-
+flow.
 
-   Branches were frustrated when they could not serve at all, but were also
-   concerned about accounts integrity when transactions were cut of in mid -
-   flow.
+However, transaction alerts were in place and revised operational
+instructions have now been issued to enable branches to complete or to
+cancel the accounting entries dependent on whether they physically
+completed the cash transaction with the customer. Further detail is
+included at Appendix 4.
 
-   However, transaction alerts were in place and revised operational
-   instructions have now been issued to enable branches to complete or to
-   cancel the accounting entries dependent on whether they physically
-   completed the cash transaction with the customer.     Further detail is
-   included at Appendix 4.
+(b) Barcode Sticking
 
-   (b) Barcode Sticking
+A small number of branches have experienced a situation where a
+customer transaction (eg. a bill payment) sticks on the details of the
+preceding transaction. In some cases the branch has spotted it
+immediately but in some cases it has only come to light when the
+customer complains that they are being chased for an “unpaid” bill.
+Incidents go back to 2005.
 
-   A small number of branches have experienced a situation where a
-   customer transaction (eg. a bill payment) sticks on the details of the
-   preceding transaction. In some cases the branch has spotted it
-   immediately but in some cases it has only come to light when the
-   customer complains that they are being chased for an "unpaid" bill.
-   Incidents go back to 2005.
+Up to now it had been understood that it related to a version of scanners
+where POL did not know which other branches had the same version. It
+was not therefore possible to isolate other branches. It was also a rare
+event on the scanners themselves. It was not a systematic failure with
+every transaction on the particular scanner.
 
-   Up to now it had been understood that it related to a version of scanners
-   where POL did not know which other branches had the same version. It
-   was not therefore possible to isolate other branches. It was also a rare
-   event on the scanners themselves. It was not a systematic failure with
-   every transaction on the particular scanner.
+Fujitsu have investigated this and now advised that it is not hardware
+related — it is a Riposte software issue. It will cease to be a problem with
+Horizon Online, as HOL does not use Riposte.
 
-   Fujitsu have investigated this and now advised that it is not hardware
-   related — it is a Riposte software issue. It will cease to be a problem with
-   Horizon Online, as HOL does not use Riposte.
+This issue does not appear to have arisen in any of the legal cases in
+question and the incidents have been resolved at all the branches where it
+has been noted. This is not considered a systematic integrity issue for
+Horizon and it should be resolvable from the facts of records in the
+Horizon transaction logs.
 
-   This issue does not appear to have arisen in any of the legal cases in
-   question and the incidents have been resolved at al l the branches where it
-   has been noted. This is not considered a systematic integrity issue for
-   Horizon and it should be resolvable from the facts of records in the
-   Horizon transaction logs.
+(c) Non Polling
 
-   (c) Non Polling
+Small numbers of branches fail to poll due to issues such as telephone
+lines being dug up. The system holds the data in a queue so this does not
+undermine integrity. It just affects the timeliness of data, and this is
+catered for in decision making by P&BA. The issue goes away with
+Horizon Online as the data store is online not in branch.
 
-   Small numbers of branches fail to poll due to issues such as telephone
-   lines being dug up. The system holds the data in a queue so this does not
-   undermine integrity. It just affects the timeliness of data, and this is
-   catered for in decision making by P&BA. The issue goes away with
-   Horizon Online as the data store is online not in branch.
-                                                                                 POL00026572
-                                                                               POL00026572
+Page 15 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-
-
-                             1
-
-
-
+(d) File delivery failures
 
 These do not affect branch records but have meant P&BA and clients may
 not have received a days transactions. This is a priority fix for IT, but
-carries a PR risk_
+carries a PR risk.
 
-     •   •ii   s]I I.IE1i
+(e) Horizon / POLFS differences
 
-In 2005, P&BA moved onto a SAP system (POLES). This was an
+In 2005, P&BA moved onto a SAP system (POLFS). This was an
 exceedingly complex IT migration and there were some issues in
 management of the cut off which meant P&BA was out of synch with some
 branches in terms of opening balances for cash and bureau. This did not
 affect the integrity of Horizon and has been catered for in error resolution
 with branches, but it has affected service to some branches ie. Where
 decision making on cash supply was based on wrong data centrally.
+
 Some issues have continued to come to light recently but this is now under
-control . It is not relevant to the allegations.
-                                                                              POL00026572
-                                                                            POL00026572
+control. It is not relevant to the allegations.
 
+Page 16 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-
-                          1
-
-
-
+4. Third Party Comment — Court Decisions, Media and Audit
+4. (a) Court Decisions
 
 There have been cases, when taken to court by POL, where the
 defence has claimed that the accounting system Horizon was at fault
-and that there were incidents such as "ghost transactions" or `electrical
-supply issues" which have corrupted the Horizon records.
+and that there were incidents such as “ghost transactions” or “electrical
+supply issues” which have corrupted the Horizon records.
 
 With 2 notable exceptions, POL has been able to rebut these
 assertions by ensuring a focus on the facts of the Horizon transaction
 logs and a request for the defence to be specific about which
-transactions they consider to be '`ghost" and why.
+transactions they consider to be “ghost” and why.
 
 Since 2005, which was the start of the existing case management
 system, there have been 382 Criminal Law cases forwarded for legal
@@ -729,106 +768,103 @@ found not guilty but this was nothing to do with any Horizon challenge
 and 42 cases were not carried forward. There is no suggestion in any
 of these 42 that POL had any concerns itself about Horizon — the
 decisions not to proceed included compromised passwords preventing
-a case against the individual, "not in the public interest" such as where
+a case against the individual, “not in the public interest” such as where
 there were medical issues, decisions by the Procurator Fiscal not to
 proceed (which he need not narrate) and inability to identify the
 suspect.
 
-There are three `landmark" cases which feature in the arena of
+There are three “landmark” cases which feature in the arena of
 challenges to Horizon.
 
-   Clevelleys (2001) — subpostmistress dismissed in 2001 soon after
-   Horizon was introduced. The defence produced a report which
-   showed how Horizon "could" have caused an error and POL did not
-   have the audit transaction logs to refute the claim. POL settled out
-   of court for £187k, but subsequently improved the retention of audit
-   transaction logs. This case would not have the same outcome
-   today because of improved liaison between Fujitsu and POL and
-   availability of logs.
+1. Clevelleys (2001) — subpostmistress dismissed in 2001 soon after
+Horizon was introduced. The defence produced a report which
+showed how Horizon “could” have caused an error and POL did not
+have the audit transaction logs to refute the claim. POL settled out
+of court for £187k, but subsequently improved the retention of audit
+transaction logs. This case would not have the same outcome
+today because of improved liaison between Fujitsu and POL and
+availability of logs.
 
 2. Castleton (2004) — Lee Castleton claimed that Horizon was faulty
-   and found other subpostmasters to back him. However, POL
-   presented the audit transaction log to his solicitor who promptly
-   advised Castleton there was no basis to his case. Castleton
-   sacked him, lost the case, was found liable for £300k and went
-   bankrupt. The judge decided there was "no flaw" in the Horizon
-   system and said "the logic of the system is correct....the conclusion
-   is inescapable that the Horizon system was working properly in all
-   material aspects". This case appeared to have put a stop to
-   allegations, however, Castleton has continued to promote lobby
-   groups, assisted others to find no win no fee layovers and remains
-   vocal in the press. Various publications have in turn quoted him,
-                                                                               POL00026572
-                                                                             POL00026572
+and found other subpostmasters to back him. However, POL
+presented the audit transaction log to his solicitor who promptly
+advised Castleton there was no basis to his case. Castleton
+sacked him, lost the case, was found liable for £300k and went
+bankrupt. The judge decided there was “no flaw” in the Horizon
+system and said “the logic of the system is correct....the conclusion
+is inescapable that the Horizon system was working properly in all
+material aspects”. This case appeared to have put a stop to
+allegations, however, Castleton has continued to promote lobby
+groups, assisted others to find no win no fee laywers and remains
+vocal in the press. Various publications have in turn quoted him,
 
+Page 17 of 36
+CONFIDENTIAL
 
+but we have made a strategic decision across the group so far to
+quietly respond to each individual rather than mount a pro-active
+PR campaign.
 
-
-                           1
-
-
-   but we have made a strategic decision across the group so far to
-   quietly respond to each individual rather than mount a pro-active
-   PR campaign.
-
-3. Alderley Edge (2010) .....The subpostmaster, Mr Darlington, did
-   plead guilty in Macclesfield Magistrates Court to false accounting,
-   but POL had initially pursued him for theft and had to reduce the
-   charge to false accounting due to printer issues with the legibility of
-   branch trading reports. Press comment has focussed on certain
-   comments by the judge. The judge said he had issues with the
-   proof of size of the loss and also said "there are issues relating to
-   the Post Office computer system which I do not feel able to judge®.
-   Critics of Horizon therefore focus on these comments rather than
-   the fact that Mr Darlington pleaded guilty.
+. Alderley Edge (2010) — The subpostmaster, Mr Darlington, did
+plead guilty in Macclesfield Magistrates Court to false accounting,
+but POL had initially pursued him for theft and had to reduce the
+charge to false accounting due to printer issues with the legibility of
+branch trading reports. Press comment has focussed on certain
+comments by the judge. The judge said he had issues with the
+proof of size of the loss and also said “there are issues relating to
+the Post Office computer system which | do not feel able to judge”.
+Critics of Horizon therefore focus on these comments rather than
+the fact that Mr Darlington pleaded guilty.
 
 In summary for POL, the record of prosecutions does support the
 assertion that the subpostmasters have been guilty rather than that
 Horizon is faulty. However, this does not stop speculation about the
-system. It is not possible to stop people saying "..what if.."
+system. It is not possible to stop people saying “..what if..”
 
 There have been no cases challenging Horizon Online yet, but POL
 remains as confident about the integrity of HOL as it does about
 Horizon. IT Security have also reviewed incidents, with no common
 theme or trend arising such as to confirm an integrity issue.
-                                                                              POL00026572
-                                                                            POL00026572
 
+POL00026572
+POL00026572
 
+Page 18 of 36
+CONFIDENTIAL
 
-
-                          1
-
-
-
-
+4. (b) Media
 Media and public discussion about Post Office systems has included:
 
-1  TV -- S4C's "Tara Now" programme in September 2009- This
-   included similar individuals to those involved in the current internet
-   groups. Welsh MP David Jones was proposing a Commons debate
-   about Post Office IT systems on the back of it. Comments were
-   made by NFSP ET which were supportive of POL but these were
-   not included
-2. TV — Channel 4 continue their investigations and had proposed a
-   main news slot
+1. TV-S4C’s ‘Tara Naw” programme in September 2009. This
+included similar individuals to those involved in the current internet
+groups. Welsh MP David Jones was proposing a Commons debate
+about Post Office IT systems on the back of it. Comments were
+made by NFSP ET which were supportive of POL but these were
+not included
+
+2. TV—Channel 4 continue their investigations and had proposed a
+main news slot
+
 3. The Grocer magazine — various articles linking back to Mr Castleton
-4. Computer Weekly — links to articles including "MP seeks answers
-   over Post Office IT systems", "Post Office slammed by MPs over
-   Horizon system" and "Bankuptcy, prosecution and disrupted
-   livelihoods — Postmasters tell their story". This in turn led to
-   discussions with MPs to rebut the suggestion that POL was
-   delivering Horizon Online as a cover up to tackle errors in the basic
-   Horizon system
-5. Accountancy Age — similar comments and suggestions from "IT
-   experts" that POL should get an independent review commissioned
-6. Internet — "Justice For Subpostmasters Alliance (jfsa.org.uk)" and
-   "Postofficevictims.org.uk"
+
+4. Computer Weekly — links to articles including “MP seeks answers
+over Post Office IT systems”, “Post Office slammed by MPs over
+Horizon system” and “Bankuptcy, prosecution and disrupted
+livelihoods — Postmasters tell their story”. This in turn led to
+discussions with MPs to rebut the suggestion that POL was
+delivering Horizon Online as a cover up to tackle errors in the basic
+Horizon system
+
+5. Accountancy Age — similar comments and suggestions from “IT
+experts” that POL should get an independent review commissioned
+
+6. Internet — “Justice For Subpostmasters Alliance (jfsa.org.uk)” and
+“Postofficevictims.org.uk”
 
 To date, POL has ridden the wave of press comment but chosen not to
 pro-actively mount our own media campaign.
 
-
+4. (c ) Independent Review and Audit Angles
 
 POL has actively considered the merits of an independent review. This
 has been purely from the perspective that we believe in Horizon but
@@ -836,28 +872,30 @@ that a review could help give others the same confidence that we have.
 
 Our decision between IT, Legal, P&BA, Security and Press Office has
 continued to be that no matter what opinions we obtain, people will still
-ask "what if" and the defence will always ask questions that require
+ask “what if’ and the defence will always ask questions that require
 answers beyond the report. Further such a report would only have
 merit as at the date of creation and would have to be updated at the
 point at which Horizon or the numerous component platforms were
 upgraded.
 
 Ernst & Young and Deloittes are both aware of the issue from the
-media and we have discussed the pros and cons of reports with them
+media and we have discussed the pros and cons of reports with them.
 Both would propose significant caveats and would have limits on their
 ability to stand in court, therefore we have not pursued this further.
 
-The external audit that E&Y perform does include tests of POL's IT and
+The external audit that E&Y perform does include tests of POL’s IT and
+
 finance control environment but the audit scope and materiality mean
 that E&Y would not give a specific opinion on the systems from this.
-                                                                            POL00026572
-                                                                          POL00026572
 
+Page 19 of 36
 
+POL00026572
+POL00026572
+POL00026572
+POL00026572
 
-
-                         1
-
+CONFIDENTIAL
 
 It is also important to be crystal clear about any review if one were
 commissioned — any investigation would need to be disclosed in court.
@@ -869,75 +907,72 @@ imprisonments.
 
 The reviews and audits that are currently conducted include an annual
 LINK security standards audit which has been satisfactorily signed off.
-Future audits will include PCI DSS (Payment Card Industry Standards)
-and IS027001 Certification (covering data centre operation from the
-start of HOL and the whole of Fujitsu's HOL service from any day now)
-                                                                                         POL00026572
-                                                                                       POL00026572
+Future audits will include PC] DSS (Payment Card Industry Standards)
+and 1SO27001 Certification (covering data centre operation from the
 
+start of HOL and the whole of Fujitsu’s HOL service from any day now)
 
-
-
-                                    1
-
+Page 20 of 36
+CONFIDENTIAL
 
 4. (d) Allegations on websites and in magazines
-
-Comments on the "Justice For Subpostmasters" site (Jfsa.org.uk)
+Comments on the “Justice For Subpostmasters” site (Jfsa.org.uk)
 
 After years of being forced to suffer in silence, the injustices that have been
 forced upon many Subpostmasters by the Post Office are being exposed
 across the country. No longer will the Post Office be able to hold a financial
-gun to the head of a Subpostmaster. .. . . . .
+gun to the head of a Subpostmaster.......
 
-. .. . . . . ."The problem is that the Post Office Horizon system is so flawed that
+settee "The problem is that the Post Office Horizon system is so flawed that
 nobody knows how to fix it, but in the meantime subpostmasters are
 continuing to be made to suffer."
 
- - . - . . .JFSA has access to IT experts, forensic accountants, a criminal law firm
+cece JFSA has access to IT experts, forensic accountants, a criminal law firm
 and a major national firm of solicitors who are acting for us in civil
 matters........
 
-•   There has to be an independent investigation into the introduction,
-    operation, reliability and accuracy of Horizon.
+e There has to be an independent investigation into the introduction,
+operation, reliability and accuracy of Horizon.
 
-•   A complete change in the way subpostoffices are managed by the Post
-    Office. Together with a new and fairer contract for subpostmasters that
-    removes the pin--head dancing around a subpostmaster being an agent or
-    an employee. A new contract that actually covers the use of IT in
-    subpostoffices.
+e Acomplete change in the way subpostoffices are managed by the Post
+Office. Together with a new and fairer contract for subpostmasters that
+removes the pin-head dancing around a subpostmaster being an agent or
+an employee. A new contract that actually covers the use of IT in
+subpostoffices.
 
-•   An ombudsman or an independent third party has to be introduced
-    between the Post Office and the subpostmaster who would hear appeals
-    in issues of disagreement, as currently the Post Office act as judge, jury
-    and executioner.
+e An ombudsman or an independent third party has to be introduced
+between the Post Office and the subpostmaster who would hear appeals
+in issues of disagreement, as currently the Post Office act as judge, jury
+and executioner.
 
-•   Finally, the removal of the cosy relationship between the Post Office and
-    the Federation has to happen (described by many as when the Post Office
-    says jump, the Federations only answer is, how high). This could easily be
-    achieved by establishing an extra and alternative representative
-    subpostmaster body.
+e Finally, the removal of the cosy relationship between the Post Office and
+the Federation has to happen (described by many as when the Post Office
+says jump, the Federations only answer is, how high). This could easily be
+achieved by establishing an extra and alternative representative
+subpostmaster body.
 
 Response to these allegations
 
 Independent investigation
-Third party experts have been involved in Horizon's design, test and rollout
+
+Third party experts have been involved in Horizon’s design, test and rollout.
 Subpostmasters have been involved in defining requirements and in user
 acceptance testing. We do not consider a report necessary. Even if one
-were produced, it could not prevent speculative "what if' questions.
+were produced, it could not prevent speculative “what if’ questions.
 
 Subpostmasters Contract and NFSP Relationship
 These are not relevant to the integrity of the system.
 
 Independent Appeals
-                                                                                  POL00026572
-                                                                                POL00026572
 
+Page 21 of 36
 
+POL00026572
+POL00026572
+POL00026572
+POL00026572
 
-
-                                1
-
+CONFIDENTIAL
 
 POL gives considerable resource to hearing both sides of the argument. Our
 history of write offs supports the view that we are sensitive. Our success in
@@ -945,26 +980,27 @@ court cases does not suggest an independent appeals process is needed
 
 Other common challenges include:
 
-"Ghost transactions"
+“Ghost transactions”
+
 Horizon has secure access controls, transaction logs and no back doors. All
 transactions are initiated or authorised in branch. No defendant has yet
-identified and substantiated a "ghost transaction"
+identified and substantiated a “ghost transaction”
 
-"Horizon did not let me access the records of all transactions recorded
-against my branch"
+“Horizon did not let me access the records of all transactions recorded
+against my branch”
+
 Horizon does have transaction logs which are accessible in branch.
 Transaction corrections issued by P&BA are also visible on receipt and for
 later enquiry in the branch.
-                                                                                       POL00026572
-                                                                                     POL00026572
 
+Page 22 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-
-                                      1
-
-
-
+5. Branch Accounting Issues — Most Common Issues and Work to
+Tackle Them
 
 POL conducts around 80 million customer sessions and 230 million
 transactions per month, in the service of around 700 corporate and
@@ -978,33 +1014,34 @@ In 2009/10, P&BA issued 153,000 transaction corrections (TCs) to branches
 consolidation for a month of a sequence of daily accounting errors by a
 branch. The most common themes for TCs were:
 
-Type                          % of total   Volume    Proposed solution
+Type % of total Volume Proposed solution
 
 Caused by branch
-     Camelot                     31         48,283   "Ping" automated data feed
-     Cash rems from branches     11         19,994   Branch conformance reminders
-     A&L banking and Giro cheques 8         11,863   Branch conformance reminders
-     Cheques sent to EDS          6          8,585   Branch conformance reminders
-     Aon                          4          5,694   Pricing automation rolled out
-     Bureau                       4          5,410   Branch conformance reminders
-     PayStation                   3          4,423   "Ping" automated data feed
-     Other                       18         27,331
 
-                                     85    131,583
+Camelot 31 48,283 “Ping” automated data feed
+Cash rems from branches 11 19,994 Branch conformance reminders
+A&L banking and Giro cheques 8 11,863 Branch conformance reminders.
+Cheques sent to EDS 6 8,585 Branch conformance reminders
+Aon 4 5,694 Pricing automation rolled out
+Bureau 4 5,410 Branch conformance reminders
+PayStation 3 4,423 “Ping” automated data feed
+Other 18 27,331
+85 131,583
 Not caused by branch
-      ATM retracts                     5     7,864   Branch awareness of retracts
-      Cash rems to branch              4     5,426   Cash centre conformance
-      Stock rems from stock centre     2     3,833   Stock centre conformance
-      Other                            4     4,957
 
-                                     100   153,663
+ATM retracts 5 7,864 Branch awareness of retracts
+Cash rems to branch 4 5,426 Cash centre conformance
+Stock rems from stock centre 2 3,833 Stock centre conformance
+Other 4 4,957
+
+100 153,663
 
 Branch errors included under and over statement of transactions and the
 omission of activities of both a deposit and a withdrawal nature.
 
 The average value of a TC to credit cash balances was £546 and the average
 for a credit was £527. Many individual TCs were small, but some such as
-banking deposits where the transaction was miskeyed with too many zero's
+banking deposits where the transaction was miskeyed with too many zero’s
 could be in the hundreds of thousands of pounds.
 
 The decision to issue small value TCs is based on giving the branch the
@@ -1014,17 +1051,15 @@ value items. The NFSP have been supportive of this approach.
 
 Whilst it is undesirable for this level of errors and corrections, the wider
 evidence does not suggest a problem of data integrity or a systematic failure
-in systems or processes. The correction level is less than 0.01 % of the
+in systems or processes. The correction level is less than 0.01% of the
 underlying 230 million transactions per month. Furthermore the majority of
 branch audits are satisfactory.
-                                                                                   POL00026572
-                                                                                 POL00026572
 
+Page 23 of 36
+POL00026572
+POL00026572
 
-
-
-                                 1
-
+CONFIDENTIAL
 
 Turnaround times for notifiying issues to branches are underpinned by an
 agreement with the network for 95% of issues to be notified within 3 months.
@@ -1042,287 +1077,278 @@ TCs are not an indicator of systems integrity issues. They are a reflection of
 poor adherence to defined processes. Nevertheless the underlying errors
 create noise in the system and an environment where it is easier to make the
 broader allegations.
-                                                                                                                 POL00026572
-                                                                                                               POL00026572
 
+Page 24 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
+6. Branch Audits and Outcomes
 
-                                                1
+Branch audits are driven by a risk model which has taken input from relevant
+teams across POL. Cash audits are also specifically being done as part of
+the Horizon Online migration. These latter are not full audits, but they would
+be expected to flush out situations where a significant amount of money was
+missing.
 
+The overall audit results for the last 4 years are as follows:
 
+Reason for Suspension
 
+‘Agents Bankruptcy 7 ‘Other (POCAT
+Period Audits | suspended | Audit shortage | Administration | Property | Police Action)
+[2007/08 1685 790 184 1 3 2
+[2008/09 2326 229 27 a i 7
+[2009/10 2303 214 199) 7 3 i
+[2010/71 (Aprito June) | 458 a 37 0 3 7
 
- Branch audits are driven by a risk model which has taken input from relevant
- teams across POL. Cash audits are also specifically being done as part of
- the Horizon Online migration. These latter are not full audits, but they would
- be expected to flush out situations where a significant amount of money was
- missing.
+Outcome
+Resigned to Died during
 
- The overall audit results for the last 4 years are as follows:
-                                                          Reason for Suspension
-                                  Agents                , Bankruptcy /           Other (POCA!
- Period                  Audits suspended Audit shortage Administration Property Police Action)
- 2007/08                  1685     190          184            1           3            2
- 2008109                  2326     229          217            4           1            7
- 2009110                  2303     214          199            1           3           11
- 2010111 (Apr to June)    458       41          37             0           3            1
-
-
-
-
-                                                                         Outcome
-
-                                                           Resigned to               Died during
-                                  Agents     Summary         Avoid       Reinstate    period of     Case not
- Period                  Audits suspended   Termination    Termination       d       suspension    concluded
- 2007108                  1685     190          94             60           36            0            0
- 2008109                  2326     229         117             53           56            3            0
- 2009110                  2303     214          94             72           48            0            0
- 2010111 (Apr to June)    458       41          17              9            6            0            9
-
+Agents Summary Avoid —_|Reinstate|_ period of Case not
+Period Audits| suspended | Termination | Termination d suspension | concluded
+[2007/08 1685 790 94 60 36 0 0
+[2008/09 2326 | _229 447 53 56 3 0
+[2009/70 2303 214 94 72 48 0 0
+[2010/11 (Aprto June) | 458 a 7 9 6 0 9
 
 Losses in branches can be caused through several reasons, but the most
 common is typically the theft of cash and the subsequent cover up by
 falsification of accounting balances. The approaches and detection
 mechanisms include:
 
+Approach Detection Mechanism
+Falsely declare cash balances — e Tighter (lower) cash holdings give
+eg. branch has £40k, staff steal branches less scope to falsify cash
+£10k but continue to declare without having to appeal for more
+holdings of £40k deliveries
+e Monitoring of unusual trends in cash
+balances
 
- Approach                                            Detection Mechanism
- Falsely declare cash balances —                     . Tighter (lower) cash holdings give
- eg. branch has £40k, staff steal                       branches less scope to falsify cash
- £10k but continue to declare                           without having to appeal for more
- holdings of £40k                                       deliveries
-                                                     • Monitoring of unusual trends in cash
-                                                         b lances
------ ---- --- ----------- - --------- ----          • Branch
-                                                          a     audit
- Falsify value of cash sent to cash                  • Checks on contents at the cash
- centre                                                 centre (under CCTV in England and
-                                                        supervised in Scotland)
-Journal between cash and                             . Daily matching of cheques
-cheques in branch, then claim to                        despatched by branches compared
-have sent cheques to EDS for                            to receipts at EDS
+e Branch audit
+
+Falsify value of cash sent tocash |e Checks on contents at the cash
+
+centre centre (under CCTV in England and
+supervised in Scotland)
+
+Journal between cash and « Daily matching of cheques
+
+cheques in branch, then claim to despatched by branches compared
+
+have sent cheques to EDS for to receipts at EDS
+
 processing
-Claim that customers paid by                         .    Checks on returned stamps at
-"savings stamp" and that the                              Chesterfield
-stamps were sent off or lost                         •    Current migration of stamps to
-                                                          budget cards
- Falsification of inpayment and                      .    Favoured products have gradually
-                                                                                     POL00026572
-                                                                                   POL00026572
 
+Claim that customers paid by e Checks on returned stamps at
 
+“savings stamp” and that the Chesterfield
 
+stamps were sent off or lost e Current migration of stamps to
+budget cards
 
-                                1
+Falsification of inpayment and e Favoured products have gradually
 
+Page 25 of 36
+POL00026572
+POL00026572
 
-outpayment transactions and             been eliminated by automations
-values                              .   Remaining items such as "Giro
-                                        cheques" are checked by A&L and
-                                        evidence returned to us where gaps
-                                        arise between point of sale summary
-                                        and physical "cheques" sent in
+CONFIDENTIAL
+
+outpayment transactions and been eliminated by automations
+values e Remaining items such as “Giro
+cheques” are checked by A&L and
+evidence returned to us where gaps
+arise between point of sale summary
+and physical “cheques” sent in
 
 Issues can arise in branch cash balances due to inadvertent keying errors by
 the branches. The branch auditors would check this out with P&BA before
 getting to a point of proposing suspensions and terminations.
 
+Page 26 of 36
+CONFIDENTIAL
 
-
-
-                                                               I' .Ts[ I Ii ~CI1
-                                                                                  POL00026572
-                                                                                POL00026572
-
-
-
-
-                                 1
-
-
-
-
+Appendix 1 - Improvement Areas
 Branch awareness and ownership / accountability
 
-   1  Branch training — to raise awareness of key Horizon reports and scope
-      for self help
-   2. Absentee managers — to identify and address absentee
-      subpostmasters and managers
-   3. Ownership and accountability in branch — to improve the standard of
-      ownership
-   4. Password security — local commitment to not sharing passwords and to
-      locking keyboards when away from the counter (could be built into
-      Subpostmasters contract)
-   5. Prioritisation of conformance and accounting in the supervision and
-      targetry of branches
-   6. Cash remittances — better conformance by branches in making up
-      contents of rems
+1. Branch training — to raise awareness of key Horizon reports and scope
+for self help
+
+2. Absentee managers — to identify and address absentee
+subpostmasters and managers
+
+3. Ownership and accountability in branch — to improve the standard of
+ownership
+
+4. Password security — local commitment to not sharing passwords and to
+locking keyboards when away from the counter (could be built into
+Subpostmasters contract)
+
+5. Prioritisation of conformance and accounting in the supervision and
+targetry of branches
+
+6. Cash remittances — better conformance by branches in making up
+contents of rems
 
 Single points of contact and speed of turnaround
 
-   1. Single point of contact — to rationalise and communicate contact points
-      for branches
-   2. Incident response — to improve response times and clarity of ownership
+1. Single point of contact — to rationalise and communicate contact points
+for branches
+2. Incident response — to improve response times and clarity of ownership
 
 Readiness for court, focus on facts and strategy for dealing with public
 allegations
 
-   1  Single accountability — for co-ordinating and responding to challenges
-      and allegations
-   2. Court cases — to ensure consistent use of Horizon transaction logs and
-      explanations. To include the resourcing point between criminal and
-      civil prosecutions
-   3. Consider contract change with Fujitsu to increase access to "ARQ
-      transaction logs" and whether POL uses its contractual allowance for
-      the right priorities
-   4. Learning points from the Alderley Edge case — care when amending a
-      plea from theft to false accounting. Even where a defendant has
-      pleaded guilty to ensure that allegation that POL has suffered no loss
-      can be refuted at Court
-   5. Case management system — to give single view of records between
-      P&BA, Network, Legal, IT, Service Delivery and Security
-   6. Press comment — to reconsider our media stance in light of past court
-      case outcomes
-   7. Pro-active briefings — ensuring key stakeholders do understand the
-      facts
-   8. Review strategy for response to allegations and speculation
+1. Single accountability — for co-ordinating and responding to challenges
+and allegations
 
-Plain Engl ish instructions
-                                                                                      POL00026572
-                                                                                    POL00026572
+2. Court cases — to ensure consistent use of Horizon transaction logs and
+explanations. To include the resourcing point between criminal and
+civil prosecutions
 
+3. Consider contract change with Fujitsu to increase access to “ARQ
+transaction logs” and whether POL uses its contractual allowance for
+the right priorities
 
+4. Learning points from the Alderley Edge case — care when amending a
+plea from theft to false accounting. Even where a defendant has
+pleaded guilty to ensure that allegation that POL has suffered no loss
+can be refuted at Court
 
+5. Case management system — to give single view of records between
+P&BA, Network, Legal, IT, Service Delivery and Security
 
-                                 1
+6. Press comment — to reconsider our media stance in light of past court
+case outcomes
 
+7. Pro-active briefings — ensuring key stakeholders do understand the
+facts
 
+8. Review strategy for response to allegations and speculation
 
+Plain English instructions
+
+1. Processes and instructions need to be clearer and punchier
+
+Page 27 of 36
+
+POL00026572
+POL00026572
+POL00026572
+POL00026572
+
+CONFIDENTIAL
 
 Systems
 
-   1  Client file delivery and online services — to complete the improvements
-      under way
-   2. Software code changes and proof of authorisation — to improve the
-      sign off process and documentary evidence of sign off. This has been
-      a criticism in the 2009/10 external audit. It did not apply to Horizon, but
-      was a theme from reviews of Credence change control
-   3. Manual transactions — continued automation and greater use of user
-      entry checks
-   4. Cash remittances — automation of Scottish centres to same level as
-      England
-   5. Stock remittances and accounting — to improve tracking between
-      branch and stores and to make branch recording easier
+1. Client file delivery and online services — to complete the improvements
+under way
+
+2. Software code changes and proof of authorisation — to improve the
+sign off process and documentary evidence of sign off. This has been
+a criticism in the 2009/10 external audit. It did not apply to Horizon, but
+was a theme from reviews of Credence change control
+
+3. Manual transactions — continued automation and greater use of user
+entry checks
+
+4. Cash remittances — automation of Scottish centres to same level as
+England
+
+5. Stock remittances and accounting — to improve tracking between
+branch and stores and to make branch recording easier
 
 Process and control documentation — improving accountability and version
 control
 
 Balance of firmness and compassion
-   1. Benchmark POL suspension and prosecution rates against other
-      retailers
-   2. Continue acknowledging hardship but could fairly charge interest on
-      debt
+1. Benchmark POL suspension and prosecution rates against other
+retailers
+2. Continue acknowledging hardship but could fairly charge interest on
+debt
 
-
+Minimising opportunity — keeping cash down and closing enquiries quickly
 
 Internal Audit — consider alignment with existing Critical Business Process
 and Control reviews
-                                                                                                                                              POL00026572
-                                                                                                                                            POL00026572
 
+Page 28 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-
-                                                       1
-
-
-
+Appendix 2 — Current Cases With Possible Challenges to Horizon
+Criminal Law Cases
 
 As of April there were 12 live cases where it was thought the defence team
-were challenging the integrity of Horizon- Case notes are below- In several
-cases these do beg a larger question of "where is the cash" rather than "what
-could be wrong in the data". It will be important that POL and Group marshall
+were challenging the integrity of Horizon. Case notes are below. In several
+cases these do beg a larger question of “where is the cash” rather than “what
+could be wrong in the data”. It will be important that POL and Group marshall
 our resources to ensure a robust and consistent approach to responding to
 these criminal cases as well as to the other population of civil cases.
-            cc    Date           Loss £k Other pertinent information(i.e. magistrates comments or external audit done)
-                                         cur unaie eonnrrre:r ,rna. nc, normai casn nosing ngures were ri u region or t4u,uuu. ne
-                                         then stated that due to a number of Horizon technical problems he had not been paying nor
-                                         out to customers and had therefore generated a build up of cash. Forensic Accountants used
-                  2005 to 2008       169 by Defence.
 
-                                         Ms Hodgson explained that she had seen a planned order on Horizon in October 2008 asking
-                                         for £25,000 to £30,000 to be returned. She stated that she did not have this amount to return
-                                         so started altering the figures at this time to agree with the Horizon figures. Throughout Ms
-                                         Carmichael insisted that she believed this to be an administration error and had not stolen any
-                  2007 to 2009        32 of the money.
+[Post Office Date Loss Ek Other pertinent information(i.c. magistrates comments or external audit done)
+Pir Unale eonrirmed that nis normal eas noting ngures were Ifthe region oF £4u,0UU. ne
 
+then stated that due to a number of Horizon technical problems he had not been paying money|
+ut to customers and had therefore generated a build up of cash. Forensic Accountants used
+Newsome 2005 to 2008 169 by Defence.
 
-                                           When asked why the office had been over £11,000 short on the day of the audit, again Ms
-                                           Hodgson stated that this was due to mistakes. She claimed that she didn't always count the
-                                           cash & stock properly and instead relied on the Horizon data.
+Ms Hodgson explained that she had seen a planned order on Horizon in October 2008 asking
+for £25,000 to £30,000 to be returned. She stated that she did not have this amount to return|
+so started altering the figures at this time to agree with the Horizon figures. Throughout Ms
+Carmichael insisted that she believed this to be an administration error and had not stolen any
 
-                  2008 to 2009        18
+JArrochar 2007 to 2009 32 of the money.
 
-                                         When asked to explain how the shortage had occurred Mr Dawson stated that he had made an
-                                         error during the summer of 2009, consisting of incorrectly entering a cash deposit into Horizon
-                                         of around £31,800 rather than £3,180. He then stated that when he balanced that night
-                                         Horizon showed that he was £40,000 to £45,000 short rather then the expected £28,000 to
-                                         £29,000. Mr Dawson claimed that the Horizon system was ancient and was due for renewal in
-                                         January 2010. He also stated that he was aware of other offices that had experienced
-                                         electrical glitches causing unexplained losses. When asked to give examples of these Mr
-                                         Dawson stated that he would need to ask their permission before relaying any details. He has
-                  2009                16 not provided any further information, (electrical fault data) despite requests.
+When asked why the office had been over £11,000 short on the day of the audit, again Ms
+Hodgson stated that this was due to mistakes. She claimed that she didn’t always count the
+cash & stock properly and instead relied on the Horizon data.
 
-                                         Audit conducted, shortage identified. Majority of loss was in the cash, Sub-postmaster believes
-                                         problem witn ATM. Sub-postmaster also runs Conway Road SPSO (440514) which was audited
-                                         the following day, small shortage identified. Letter received from Solicitor stating suspect has
-                                         been il l, but can be interviewed the week commencing 1 March to 5 March 2010 . Allegation
-                                         that the Horizon data is not correct("ATM data haywire.") Unknown whether this defence will
-   Colwyn         Up to 2008          44 be presented in court.
+Kirkoswald 2008 to 2009 18
 
+When asked to explain how the shortage had occurred Mr Dawson stated that he had made an
+error during the summer of 2009, consisting of incorrectly entering @ cash deposit into Horizon
+of around £31,800 rather than £3,180. He then stated that when he balanced that night
+Horizon showed that he was £40,000 to £45,000 short rather than the expected £28,000 to
+£29,000. Mr Dawson claimed that the Horizon system was ancient and was due for renewal in
+January 2010. He also stated that he was aware of other offices that had experienced
+electrical glitches causing unexplained losses. When asked to give examples of these Mr
+Dawson stated that he would need to ask their permission before relaying any details. He has
 
-                                           Interviewed SPMR in June 2009, admitted to false accounting, but denied theft. Solicitor now
-                                           alleging that the Horizon data is incorrect.
-                  2008 to 2009        25
+Pitlochry 2008 16 not provided any further information, (electrical fault data) despite requests.
+Audit conducted, shortage identified. Majority of loss was in the cash, Sub-postmaster believes
+problem with ATM. Sub-postmaster also runs Conway Road SPSO (440614) which was audited
+the following day, small shortage identified, Letter received from Solicitor stating suspect has
+been ill, but can be interviewed the week commencing 1 March to 5 March 2010 . Allegation
+that the Horizon data is not correct("ATM data haywire.) Unknown whether this defence will
+Jold Colwyn —_Up to 2008 44 be presented in court,
+Interviewed SPMR in June 2009, admitted to false accounting, but denied theft. Solicitor now
+alleging that the Horizon data is incorrect.
+Rinkfield 2008 to 2009 25
+Accused changed plea to not guilty. Fresh court process underway.
+Lazy Hill 2007 to 2009 3
+Pleaded guilty in Macclesfield magistrates court. Sentenced to 3 months imprisonment
+suspended. Awaiting court transcripts in order to verify if the magistrate did make comments,
+lAlderiey Edge 2008 to 2009 45 as per press releases,
+‘Accused suggesting Horizon data to blame, although no specific transactions identified. Trial
+|West Byfleet 2006 to 2009 75 date set 15 March 2010
+Told auditors on the day of the audit that he would be short. Disputing the amount, (60K) and
+opposed to auditors finding of 74K, and "technical faults.” Did not raise Horizon at all during
+Willesden 2008 to 2009 75 the PACE interview.
+Porters Avenue 72 Offender instructed a forensic accountant to analyse the data/transactions
+Matfielé 41 No specific transactions given relating to the Horizon database
 
+Page 29 of 36
+POL00026572
+POL00026572
 
-                                           Accused changed plea to not guilty. Fresh court process underway.
+CONFIDENTIAL
 
-    Hill          2007 to 2009
-                                         Pleaded guilty in Macclesfield magistrates court. Sentenced to 3 months imprisonment
-                                         suspended. Awaiting court transcripts in order to verify if the magistrate did make comments,
-           Edge   2008 to 2009        45 as per press releases.
-
-
-
-                                         Accused suggesting Horizon data to blame, although no specific transactions identified. Trial
-    Byfleet       2006 to 2009        75 date set 15 March 2010
-
-
-                                         Told auditors on the day of the audit that he would be short. Disputing the amount, (60K) and
-                                         opposed to auditors finding of 74K, and "technical faults." Did not raise Hon izen at all during
- illesdan         2008 to 2009        75 the PACE interview.
-
-
-
-       Avenue                         72 Offender instructed a forensic accountant to analyse the data/transactions
-
-
-
-
-                                      41 No specific transactions given relating to the Horizon database
-                                                                                    POL00026572
-                                                                                  POL00026572
-
-
-
-
-                                 1
-
-
-
+Civil Law Cases
 
 Current Civil cases where allegations about Horizon are an issue and where
 proceedings have been issued are limited to the case of Deborah Poble
@@ -1333,7 +1359,7 @@ to the Horizon system to examine it to challenge a long list of alleged defects
 with Horizon. His list was substantially culled from allegations made in the
 Grocer magazine. POL rejected his demands robustly and Poble collapsed
 consenting to a charge being issued against her property. This was sold in
-October to pay the debt of£28,961 _
+October to pay the debt of£28,961.
 
 There are a number of cases on which Legal are advising on the merits of
 whether civil claims should be brought. These include the Alderley Edge
@@ -1343,32 +1369,36 @@ general allegations have been made.
 
 Lastly there is the threat of a class action by Shoosmith solicitors who appear
 to be acting for a number of aggrieved subpostmasters.
-                                                                                       POL00026572
-                                                                                     POL00026572
 
+Page 30 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
+Appendix 3 - Fujitsu Report on Horizon Data Integrity
 
-                                     1
-
-
-
-
-C Copyright Fujitsu Services Ltd 2009 Ref: ARC/GEN/REP/0004
+© Copyright Fujitsu Services Ltd 2009 Ref: ARC/GEN/REP/0004
 COMMERCIAL IN CONFIDENCE AND WITHOUT PREJUDICE Version: 1.0
 Uncontrolled if Printed or Distributed Date: 02/10/2009
 
-
 Document Title: Horizon Data Integrity
-Document Reference: ARC/GE N/REP/0004
+
+Document Reference: ARC/GEN/REP/0004
+
 Document Type: Report (REP)
+
 Release: N/A
+
 Abstract: This document describes the measures that are built into Horizon
 to
+
 ensure data integrity. Note that it only covers Horizon and not HNG-X
 (Horizon Online).
+
 Document Status: Final Draft
-Author & Dept: Gareth I Jenkins
+
+Author & Dept: Gareth | Jenkins
 
 1 Purpose
 
@@ -1385,7 +1415,7 @@ Note that this document only covers Horizon. It does not cover HNG-X
 
 2 Horizon Data Integrity
 
-The Horizon system is designed to store all data locally on the counter's hard
+The Horizon system is designed to store all data locally on the counter’s hard
 disk. Once the data has been successfully stored there it is then replicated
 (copied) to the hard disks of any other counters in the branch (and in the case
 of a single counter branch to the additional external storage on the single
@@ -1399,33 +1429,30 @@ disconnected from the data centre), then further attempts are made to
 replicate the data at regular intervals until it is finally copied successfully.
 Once the data reaches the Data Centre a further copy is taken and added into
 the audit trail where it is available for retrieval for up to 7 years. Data in the
-audit trail is "sealed" with a secure checksum that is held separately to ensure
+audit trail is “sealed” with a secure checksum that is held separately to ensure
 that it has not been tampered with or corrupted.
 
 Every record that is written to the transaction log has a unique incrementing
+
 sequence number. This means it is possible to detect if any transitions
 records have been lost.
-                                                                                         POL00026572
-                                                                                       POL00026572
 
+Page 31 of 36
+POL00026572
+POL00026572
 
-
-
-                                   1
-
-
-
+CONFIDENTIAL
 
 While a customer session is in progress, details of the transactions for that
-customer session are normally held in the computer's memory until the
-customer session (often known as the "stack") is settled. At that point all
+customer session are normally held in the computer’s memory until the
+customer session (often known as the “stack”) is settled. At that point all
 details of the transactions (including any methods of payment used) are
 written to the local hard disk and replicated (as described above). It should be
 noted that double entry bookkeeping is used when recording all financial
 transactions, ie for every sale of goods or services, there is a corresponding
-entry to cover the method of payment that has been used. When a "stack" is
+entry to cover the method of payment that has been used. When a “stack” is
 secured it is written in such a way that either all the data is written to the local
-hard disk or none of it is written. This concept of "atomic writes" is also taken
+hard disk or none of it is written. This concept of “atomic writes” is also taken
 into account when data is replicated to other systems (ie other counters,
 external storage or the data centre).
 
@@ -1437,7 +1464,7 @@ such replication will have been successful. For example if there is a Network
 Failure followed by a Terminal failure there is a slight risk that transactions in
 the intervening period could be lost.
 
-All data that is written includes a "checksum" value (known as a CRC) which
+All data that is written includes a “checksum” value (known as a CRC) which
 is checked whenever the data is read to ensure that it has not been corrupted.
 Any such corruptions detected on reading will result in failures being recorded
 in the event logs which are held on the local hard disk for a few days for
@@ -1450,33 +1477,37 @@ to the user.
 
 Whenever data is retrieved for audit enquiries a number of checks are carried
 out:
+
 1. The audit files have not been tampered with (ie the Seals on the audit files
 are correct)
+
 2. The individual transactions have their CRCs checked to ensure that they
 have not been corrupted.
+
 3. A check is made that no records are missing. Each record generated by a
 counter has an incremental sequence number and a check is made that there
 are no gaps in the sequencing.
 
-
-
+3 Scenarios
 It should be noted that these scenarios are all to do with equipment failures
 and these will always be visible to Fujitsu through the event logs which are
+
 retained.
-                                                                                      POL00026572
-                                                                                    POL00026572
 
+3.1 A counter fails
 
+Page 32 of 36
+POL00026572
+POL00026572
 
-
-                                  1
-
+CONFIDENTIAL
 
 When a counter fails, there are two possible scenarios:
-[Lit can be successfully restarted
-LI]L]It cannot be successfully restarted, so needs to be physically replaced
+“jdt can be successfully restarted
+
+| It cannot be successfully restarted, so needs to be physically replaced
 In each case the Data Integrity considerations are different and so are
-described separately below_
+described separately below.
 Once the counter has been restarted (regardless of whether or not it has been
 replaced) recovery may be carried out if recoverable transactions are
 detected on the counter. This is also discussed below.
@@ -1488,7 +1519,7 @@ present on the counter and so is available for use. If the User is in any doubt
 as to whether a transaction had been completed or not prior to the failure they
 can use the transaction logs to confirm one way or the other.
 
-
+3.1.2 The Counter is Physically Replaced
 
 In this case there is no data on the local hard disk of the replacement counter.
 However, since the data should have been replicated to other counters in the
@@ -1503,32 +1534,32 @@ Note that the hard disks are encrypted so there is no danger of data
 protection issues once the old counter has been removed (or if it is stolen).
 
 When a counter is physically replaced, there is a possibility that not all data
-has been successfully replicated to another system prior to the fai lure. In this
+has been successfully replicated to another system prior to the failure. In this
 scenario it is essential that the user confirms what the last successful
 transaction on that counter was, again by using the transaction logs.
-                                                                                      POL00026572
-                                                                                    POL00026572
 
+Page 33 of 36
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-                                 1
-
-
-      itiii i.iI!51"'- •iit
+3.1.3 Transaction Recovery
 
 Some classes of transaction generate recovery data as they go along, so as
 to ensure that in the event of a failure between the transaction starting and the
 basket being secured, there is sufficient information available to enable the
 transaction to be recovered. On Horizon there are two separate mechanisms
 to cover different classes of transaction:
-1[IBanking Recovery
-  I Li AP Recovery
+
+| Banking Recovery
+ciCAP Recovery
 
 Both these mechanisms are automatically invoked during Log On, should the
 system detect that there has been a possible failure. These are described
 below.
 
-
+3.1.3.1 Banking Recovery
 
 This covers credit card and debit card transactions and e-Top-Up transactions
 as well as online banking transactions.
@@ -1548,7 +1579,7 @@ In some cases the user is prompted to confirm whether or not the transaction
 has completed successfully and the response from that prompt is used to
 generate the completion record.
 
-
+3.1.3.2 AP Recovery
 
 In the case of Automated Payments (AP), the user is asked if they wish to
 carry out AP recovery and they have the option of doing so immediately or
@@ -1563,59 +1594,62 @@ incomplete AP transactions on the counter up until the one specified by the
 user are completed at recovery time. To assist with this process, each AP
 transaction has a unique, incrementing sequence number which is printed on
 the receipt.
-                                                                                     POL00026572
-                                                                                   POL00026572
 
+Page 34 of 36
+CONFIDENTIAL
 
-
-
-                                  1
-
-
-Fujitsu understand that these processes are defined in Post Office's Horizon
+Fujitsu understand that these processes are defined in Post Office’s Horizon
 User Guides.
 
+3.2 A counter has a “Blue Screen of Death"
 
-
-This is just a special case of a counter failure, so please see section 31
+This is just a special case of a counter failure, so please see section 3.1
 above.
 
-
+3.3 There are package collisions on networks
 
 The replication protocols used to copy details of transactions between
 counters and also between the gateway counter and the data centre ensure
-that the data is copied successfully_
+that the data is copied successfully.
 
 Should packets collide on the network (or should there be any other network
 issues such as the IT communications link failing) then the replication
 protocols will ensure that the data is re-sent. Such retries will continue until
 the data is finally successfully transmitted.
-                                                                                                      POL00026572
-                                                                                                    POL00026572
 
+Page 35 of 36
 
+POL00026572
+POL00026572
+POL00026572
+POL00026572
 
+CONFIDENTIAL
 
-                                     CONFIDENTIAL
+Appendix 4 - Screen Freeze / Recovery
 
-Appendix 4 - Screen Freeze I Recovery
+The HNG-X architecture allows transactions to be built up on the counter in a basket.
+Simplistically, the settlement of the basket is the point at which the clerk is informed that
+the customer transactions have been committed to the Data Centre and thus the signal
+to the clerk to complete the exchange of goods and money with the customer.
+However, some customer transactions have a more immediate effect as they happen; for
+instance they generate valuable artefacts or involve interactions with external systems
+before the point of settlement. Examples of such customer transactions are:
 
-   The HNG-X architecture allows transactions to be built up on the counter in a basket.
-   Simplistical ly, the settlement of the basket is the point at which the clerk is informed that
-   the customer transactions have been committed to the Data Centre and thus the signal
-   to the clerk to complete the exchange of goods and money with the customer.
-   However, some customer transactions have a more immediate effect as they happen; for
-   instance they generate valuable artefacts or involve interactions with external systems
-   before the point of settlement. Examples of such customer transactions are:
+e = On-line Banking
 
-   •   On-line Banking
-   •   Settlement with Credit / Debit Card
-   •   E-Top ups
-   •   DVLA Transactions
-   •   APOP Generic Online (including Postal Orders and Moneygram)
-   Should such customer transactions have been included in a basket that failed to complete
-   (eg due to system freeze, loss of connection), then some action is required to recover the
-   customer transaction and return the overall system into a consistent state. In order to
-   support this, recovery data is stored at the Data Centre regarding recoverable
-   transactions to assist with the recovery process.
-
+« Settlement with Credit / Debit Card
+
+e E-Top ups
+
+« DVLA Transactions
+
+e APOP Generic Online (including Postal Orders and Moneygram)
+
+Should such customer transactions have been included in a basket that failed to complete
+(eg due to system freeze, loss of connection), then some action is required to recover the
+customer transaction and return the overall system into a consistent state. In order to
+support this, recovery data is stored at the Data Centre regarding recoverable
+transactions to assist with the recovery process.
+
+Page 36 of 36

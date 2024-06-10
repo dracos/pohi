@@ -1,878 +1,868 @@
-                                                                                                                     FUJO0225940
-                                                                                                                FUJO0225940
+FUJ00225940
+FUJ00225940
 
+Peak Incident Management System
 
+Call Reference PC0204310 Call Logger _Customer Call_ -- EDSC
+Release Targeted At -- HNG-X 03.20 Top Ref PC0206867
 
-                                            Peak Incident Management System
-Call Reference PC 0204310
-C                                                         Call Logger
-                                                                ogge          _Customer Call --BDSC '.,
-Release        Targeted At -- HNG-X 03.20                 Top Ref             PCO206867
-               HNG-X Data Centre Raised
-Call Type                                                 Priority            B -- Progress Stopped
-               Incidents/Defects
-                                                                              Closed Programme approved No fix
-Contact         EDSC                                      Call Status
-                                                                              required
-                                                          Effort (Man
-T rge Date
-Target                   10         ~::_:         ~                           0   -
+HNG-X Data Centre Raised an
+Call Type Incidents/Defects Priority B -- Progress Stopped
+Contact EDSC Call Status Closed -- Programme approved - No fix
 
-Summary
-   mm          Duplicate
-                  p    e JSN detected
-                                ect d
-All References Type                                       Value
-               Product Baseline                           BAL SRVOSRROUTING0320 V239                         .,. ,,..,,
-                                                          BAL SRV OSR 0320 V238 &                                          .: }
-                Product Baseline
-                                                          BAL SRV OSR ROUTING 0320 V238
-                Product Baseline                          BAL SRV OSR 0320 D239
-                TRIOLE for Service                        2858551
-                Release PEAK                              PCO20 867-              =
-                Product Baseline                          BAL SRV OSR 0320 V239
-                SSCKEL
-                 SC                                       KELMi th vnh
-                                                                    ataJ 1937S
-                Dev nt e D rec,tor                        Livee Su Test
-                                                                     et
-                Product Baseline                          BAL SRV OSR ROUTING 0320 D239
+required
+Effort (Man
+
+Target Date 16/09/2010 Days) 0
+Summary Duplicate JSN detected
+All References Type Value
+
+Product Baseline BAL_SRV_OSR_ROUTING_0320_V239
+
+BAL_SRV_OSR_0320_V238 &
+
+Product Baseline BAL_SRV_OSR_ROUTING_0320_V238
+
+Product Baseline BAL_SRV_OSR_0320_D239
+TRIOLE for Service 2858551
+_ Release PEAK PC0206867
+Product Baseline BAL_SRV_OSR_0320_V239
+SSCKEL KEL MithyanthaJ1937S
+DevIntRel-Director Live Supp.Test
+Product Baseline BAL_SRV_OSR_ROUTING_0320_D239
 Impact
-                User                                      Date
-Statement
-               Unknown                                        02-Nov-2010 1622 59
-               Support overhead currently 30 incidents in 5 days. Resoluton will mean that any future occurrences will
-               have a different root cause and require investigation. Such incidents are currently getting masked by the
-               volume associated with this Peak with consequential risk to the integrity of the audit trail used for litigation
-               support.
-Progress Narrative                  ..:• d .,. „ .... , ..: ...                . , .. , :. ,
+S cteat User Date
+Unknown 02-Nov-2010 16:22:59
+Support overhead currently 30 incidents in 5 days. Resoluton will mean that any future occurrences will
+have a different root cause and require investigation. Such incidents are currently getting masked by the
+volume associated with this Peak with consequential risk to the integrity of the audit trail used for litigation
+support.
+Progress Narrative
 
- te:13-Sep-2010 18:56:56 User: Customer Call_
- LL PCO204310 opened
- tails entered are:-
- mmary:As per Catherine
- 11 Type:J
- 11 Priority:B
- rget Release:HNG-X 01.
- uted to:EDSC - Unassi
+fdate:13-Sep-2010 18:56:56 User: Customer Call_
+cALL PC0204310 opened
 
+Details entered are:-
 
+lsummary:As per Catherine Obeng Reopen: OSR A0063 : [20560] : [112136-1-PP-0809-9] - Exception raised while p
+call Type
 
-Date:13-Sep-2010 18:56:56 User: Customer Call
-                                                                                                                     FUJO0225940
-                                                                                                                  FUJO0225940
+call Priori
+lfarget Rele.
+
+INCIDENT MANAGEMENT
+Date/Time Raised: Sep 13 2010 6:51PM
+
+priority: B
+contact Name:
+contact. Phone
+originator: XX
+riginator's referen
+product Serial No:
+
+Product Site: HNG SMC
+
+: 2858551
+
+serve critical alert @ 8/9/2010 10:07 on |.
+
+critical alert in text:
+SR AO063 : [20560] : [112136-1-PP-0809-9] - Exception raised while processing message event - Serious system error:[ Duplicate JSN
+letected - failed to insert journal record ] Caught Exception inclass com. fujitsu.poa-bal.osr.event .RequestEvent :Thread def
+
+dent History:
+
+2010-09-13 18 © [ Jayendrappa, Sunil Kumar]
+HINT : AHDO5439: Copied from Incident 2835511
+
+FUJ00225940
+FUJ00225940
+
+2010-09-13 18:51:39 [ Jayendrappa, Sunil Kumar)
+
+Jzneun_en_rmg : Open Notification
 
 2010-09-13 18:51:39 [ Jayendrappa, Sunil Kumar]
-zneun on_rmg : Open Notification
 
-2010-09-13 18:51:39 [ Jayendrappa, Sunil Kumar
-zneut en rmg : Transfer Notification
+eneut_en_rmg : Transfer Notification
 
 2010-09-13 18:52:44 [ Jayendrappa, Sunil Kumar]
-FLD : FIELD='summary' OLD='OSR A0063 : [20560] : [112136-1-PP-0809-9] - Exception raised while processing message event - Serious
-system error:[ Duplicate JSN detected - failed to insert journal record   NEW='As per Catherine Obeng Reopen: OSR A0063 : [20560]
-[112136-1-PP-0809-9] - Exception raised while processing message event - Serious system error:[ Duplicate. JSN detected - failed to
-insert journal record
 
-2010-09-13 18:53:30 [ Jayendrappa, Sunil Kumar]
-LOG : Node name /Server name     GRO
-Service Details:
+fb : FIELD="summary' OLD="OSR A0063 : [20560] : [112136-1-PP-0809-9] - Exception raised while processing message event - Serious
+system error:[ Duplicate JSN detected ~ failed to insert journal record ' NEW='As per Catherine Obeng Reopen: OSR A0063 : [20560] =
+[112136-1-PP-0809-9] - Exception raised while processing message event - Serious system error:{ Duplicate JSN detected - failed to
+insert journal record *
+2010-09-13 18:53:30 [ Jayendray
+L0G : Node name /Server name
+service Detail:
+SR AO0G3 : [20560] : {112136-1-PP-0809-9] - Exception raised while processing message event - Serious system error: [ Duplicate JSN
+lletected - failed to insert journal record | Caught Exception inclass com. fujitsu.poa-bal.osr.event .RequestEvent:Thread def
 
- SR A0063 : [20560] . [112136-1-PP-0809-9] - Exception raised while processing message event - Serious sysLen. error:[ Duplicate JSN
-detected - failed to insert journal record ] Caught Exception inclass com.fujitsu.poa.bal.osr.event.RequestEvent:Thread def
-Date : 8/9/2010
-Time of accourrence : 10:07
-KEL : MithyanthaJ1937S
+pate + 8/9/2010
+
+[time of accourrence : 10:07
+
+KEL : MithyanthaJ1937s
 
 2010-09-13 18:53:58 [ Jayendrappa, Sunil Kumar]
-LOG : Old Peak Provider Ref: PCO204088
 
-Jonnalagadda, Naresh 08/09/2010 17:03 00:00:41 Field Update
-FIELD='zCloseCategory' OLD='' NEW='RMGA.O Operational.OP02 Central Systems Software failure'FIELD='zinclocode' OLD='' NEW='Admin'
+oc : Old Peak Provider Ref: PC0204088
 
-Jonnalagadda, Naresh 08/09/2010 17:03 Transfer Notification - REGA
-Transfer Notification
+Kumar]
 
-Jonnalagadda, Naresh 08/09/2010 11:03 Notify End User Closed EN RMG
-Closure Notification
+\ionnalagadda, Naresh 08/09/2010 17:03 00:00:41 Field Update
+IFIELD='zCloseCategory’ OLD='* NEW-'RMGA.O Operational.OP02 Central Systems Software failure'FIELD='zinclocode' OLD="' NEI
 
-Jonnalagadda, Naresh 08/09/2010 17:03 Close
+Admin’
+
+Wonnalagadda, Naresh 08/09/2010 17:03 Transfer Notification - RMGA
+transfer Notification
+
+Wonnalagadda, Naresh 08/09/2010 17:03 Notify End User C
+losure Notification
+
+osed EN RMG
+
+\ionnalagadda, Naresh 08/09/2010 17:03 Close
 KEL : MithyanthaJ1937S - issue resloved hence closing this call
 
-POWebService, 01 08/09/2010 17:01 Notify End User Resolve EN RMG
+PoWebService, 01 08/09/2010 17:01 Notify End User Resolve EN RMG
 Resolution Notification
 
-POWebService, 01 08/09/2010 17:01 00:00:00 Resolved
-Status changed from 'Open' to 'Resolved
+PoWebService, 01 08/09/2010 17:01 00:00:00 Resolved
+status changed from ‘Open’ to ‘Resolved’
 
-POWebService, 01 06/09/2010 17:01 00:00:00 Delay Service Type
-The Service Type(s) on a ticket were delayed
+PoWebService, 01 08/09/2010 17:01 00:00:00 Delay Service Type
+the Service Type(s) on a ticket were delayed
 
- TI 08/09/2010 17:01 00:00:00 OTI Resolved
-Provider Ref: PCO204088
-Resolution Details: Update by Catherine Obeng:Category 67 -- Final -- Solicited Known Error:This is a known problem where a request
+PI 08/09/2010 17:01 00:00:00 OTI Resolved
+
+Provider Ref: Pc0204088
+
+kesolution Details: Update by Catherine Obeng:Category 67 -- Final -- Solicited Known Error:This is a known problem where a request
 times out in the meantime, a retry with the same request Id success. As per above mentioned KEL, because the 1st message was
-rejected as a duplicate, there are no implications on the integrity of the data and therefore no issues of concern. Please close
+Irejected as a duplicate, there are no implications on the integrity of the data and therefore no issues of concern. Please close
 this call as KEL.
 
- TI 08/09/2010 10:20 00:00:00 OTI Provider Status Update
+PI 08/09/2010 10:20 00:00:00 OTT Provider Status Update
 Update by John Charlton:Call routed to Team:EDSC Member:Catherine Obeng
 
-
 2010-09-13 18:55:16 [ Jayendrappa, Sunil Kumar]
-TR : Please investigate.
+IR : Please investigate.
 
 2010-09-13 18:55:48 [ Jayendrappa, Sunil Kumar]
-zneut en rmg : Transfer Notification
+Jzneut_en_tmg : Transfer Notification
 
+Jbate:14-Sep-2010 08:10:50 Uscr:Lorraine Guiblin
+Reference Added: SSCKEL Mithyanthadi937S
 
+jbate:14-Sep-2010 08:12:06 User:Lorraine Guiblin
+Product. HNG-X Platforms -~ BAL Server (BAL) (version unspecified) added.
 
-Date:14-Sep-2010 08:10:50 User:Lorraine Guiblin
-Reference Added: SSCKRT• Mi thy.anthaJ l 9775
-
-
-Date:14-Sep-2010 08:12:06 User:Lorraine Guiblin
-Product HNG-.X Platforms -- RAT, Server (RAT.) (version unspecified) added.
-
-
-
-Date:14-Sep-2010 08:12:28 User:Lorraine Guiblin
-The Call record has been assigned to the Team Member: Catherine Obeng
+|Daté:14-Sep-2010 08:12:28 Uscr:Lorraine Guiblin
+[the Call record has been assigned to the Teait Member: Catherine Obeng
 Progress was delivered to Consumer
-                                                                  a
 
-
-
-
-                                                                                              a
-
-
-
-
-                                                                                                  .
-
-
-
-
-Dato:14-Sep-2010 10:29:47 User:Catherine Obeng
+bate:14-Sep-2010 1
 [Start of Response]
-Below is the output from the BRSS when I run the query described in the KEL.
+Below is the output from the BRSS when I run the query described in the KEL:
 
-SQL> select journal_header
+9:47 Uscr:Catherine Obeng
+
+ISoL> select journal _header
 2 from ops$brdb.brdb_rx_message_journal
 3 where FAD HASH = 13
-4 and BRANCH ACCOUNTING CODE = 112136
-5 and JOURNAL SEQ NUMBER = 2454507
-6 ;
-                                                                                                                                      FUJO0225940
-                                                                                                                                   FUJO0225940
-  UKNA I._H KAI1h5
-  ------------------------------------------------------------------------------------
-  ST: LabclEvcntServicc
-  thorizatien-Signature:
-  HgVopuXXYwvzgft25FDzerSpdajrpbky+kniKjvVKMfXrEkg5PeFggoBMZHF04z/SDDISFYmOhdplIwCgsFllPkiPLuunvojTUupzKLGYXixlAiFUti/AJ7bAUiZ6g0I31
-  yB2VAioYc/Rqu9Sd99Pw9YlwwcpaOjkpKXg6vA=
-  ntent-Length: 864
-  try: true
-  gMessagelD: 112136-1-PP-0809-10
-  ntent-Encoding: gzip
-  N: 2454507
 
+Ja and BRANCH ACCOUNTING CODE = 112136
+ls and JOURNAL SEQ NUMBER = 2454507
 
-In discussion with Andy Thomas this morning, I will gather evidence from the OSR/BAL logs before forward to 4GDC.
+a
+
+FUJ00225940
+FUJ00225940
+
+POURNAT_HEADER
+Post: LabelEventServi
+uthorization-Signature:
+
+loi HgVopuxxYwvsqft25FDzerSpdaj rpbky+kmk j vVKMEXrEkg5PeF ggoBMZAF04z/SDDISFYmOhdp1 IwCgsF11Pki PLuunvojTUupzKLGYXix1Ai FUti /AJTAUL
+yIyB2VAio¥c/Rqu9Sd99Pw9Y lwwcpad | kpKXq6vA=
+
+lcontent-Length: 864
+
+Retry: true
+
+lReqMessageID: 112136-1-PP-0809-10
+
+content-Encoding: gzip
+
+isn: 2454507
+
+in discussion with Andy Thomas this morning, I will gather evidence from the OSR/BAL logs before forward to 4GDC.
 [End of Response]
+
 Response code to call type J as Category 40 -- Pending -- Incident Under Investigation
-Response was delivered to Consumer
 
+lresponse was delivered to Consumer
 
+[Date:14-Sep-2010 12:34:30 Uscr:Catherine Obeng
+idence Added - 01 mes - File will be Obfuscated and made available to download soon.
 
-Date:14-Sep-2010 12:34:30 User::Catherine Obeng
-Evideu   Added - O1 mes — File will be Obfuscated and made available Lu download soon.
+jbate:14-Sep-2010 12:35:08 Uscr:Catherine Obeng
+evidence Added - 01 poc ~ File will be Obfuscated and made available to download soon.
 
+[Date:14-Sep-2010 12:36:56 User:Catherine Obeng
+|nvidence Obfuscated File (CTRMSG) Added - Node01 Mes
 
-Date:14-Sep-2010 12:35:08 User:Catherine Obeng
-Eviden,:( Added - 01 puc - File will be Obfuscated and made available Lu download Noun.
+jDate:14-Sep-2010 12:37:39 Uscr:Catherine Obeng
+lsvidence Obfuscated File (CTRPOC) Added - N.
 
-
-Date:14-Sep-2010 12:36:56 II: r :Catherine Obeng
-Evidence Obfuscated File (CTRMSG) Added - NvdeOl Mea Lug
-
-
-Date:14-Sep-2010 12:37:39 U:i,gr:Catherine Obeng
-Evidence Obfuscated File (CTRPOC) Added - Node01 PLC Logs
-
-
-Date:14-Sep-2010 14:36:51 User:Catherine Obeng
-[Start of Response]                                                        ._._._     ._._.
-Currently awaiting evidence gathering from the ACE Blade, platform Id isL_._._._._ORO       _      in order to determine message queues,
-authorisation messages etc.
-[End of Response]
-Response code to call type J as Category 40 -- Pending -- Incident Under Investigation
-Response was delivered to Consumer
-                                                                sl   vv.         Z                       Pti$       &    at$               w .
-
-
-
-
-                                                                                                                                                 pis
-Date:14-Sep-2010 17:02:58 User:Catherine Obeng
-Evidence Added - --  Blade     File.
-                                   Loo
-
-
-
-
-Date:14-Sep-2010 17:04:26 U:;. r:Catherine Obeng
+jbate:14-Sep-2010 14:36:51 Uscr:Catherine Obeng
 [Start of Response]
-Requested evidence is now attached. QFP please route onto to 4LSiG
+
+currently awaiting evidence gathering from the ACE Blade, platform Id is
+Juthorisation messages etc.
+
 [End of Response]
-Response code to call type J as Category 40 -- Pending -- Incident
+
+Response code to call type J as Category 40 -- Pending -- Incident Under Investigation
+kesponse was delivered to Consumer
+
+2 in order to determine message queues,
+
+jbate:14-Sep-2010 17:02:58 Uscr:Catherine Obeng
+lsvidence Added =
+
+lbate:14-Sep-2010 1
+[Start of Response]
+
+Requested evidence is now attached. QFP please route onto to 4LS/GDC.
+
+[End of Response]
+
+esponse code to call type J as Category 40 -- Pending -- Incident Under Investigation
 Response was delivered to Consumer
 
+4:26 User:Catherine Obeng
 
-
-  te:14-Sep-2010 17:04:33 Ii  :Catherine Obeng
-  e Call record has been transferred to the team: QFL                                      < ..,
-                                                            _              .         .
-                 a   i;..oroa,+   ra     ,                                                                      .       _. .,.
-
-
-
-
-Date:15-Sep-2010 08:19:17 User:Ravindra Kumar
-The Call record has been transferred to the team: xOSR_GDC
-The Call record has been assigned to the Team Member: Jeevan Mithyantha
+jbate:14-Sep-2010 17:04:33 User:Catherine Obeng
+[fhe Call record has been transferred to the team: QFP
 Progress was delivered to Consumer
 
+joaté:15-Sep-2010 08:11:21 User:Lionel Higman
+fhe Call record has been transferred to the team: xCtr_GDC
 
+User:Lionel Higman Confirmed that this Incident may be passed to the external company with the attached eviden
+progress was delivered to Consumer
 
- ate:16-Sep-2010 12:24:02 User:Jeevan Mithyantha
- his peak has been raised due to "Duplicate JSN" issue occured in BAL/OSR while processing "LabelEventService                    request
+a
+3
 
- rom the DB record, its been clear that JSN "2454507" was inserted due to request id "12136-1-PP-0809-10".
+Jbate:15-Sep-2010 08:19:17 User:Ravindra Kumar
+[the Call record has been transferred to the team: xOSR_GDC
 
- rom the counter message logs, we could see that "12136-1-PP-0809-9" and "12136-1-PP-0809-10" both had same JSN, since "12136-1-PP-
- 809-9" was timed out.
+fhe Call record has been assigned to the Team Member: Jeevan Mithyantha
+Progress was delivered to Consumer
 
-  think this is the issue with late arrival of the request in BAL/OSR (not sure thogh).
+Date:46-Sep-2010 12:24:02 User:Jeevan Mithyantha
+this peak has been raised due to “Duplicate JSN” issue occured in BAL/OSR while processing "
 
-ndy has suggested to look into ACE blade logs, to check whether the OSR instances for which these requests had gone to were
-istening/wcrking normally.
+abelEventService" request.
 
- o investigate further on this, I would like to have OSR message.log & osr.log extract for request ids "12136-1-PP-0809-9" & "12136-
- -PP-0809-10".
-                                                                                                                                                                                                                                   FUJO0225940
-                                                                                                                                                                                                                            FUJO0225940
+from the DB record, its been clear that JSN "2454507" was inserted due to request id "12136-1-PP-0809-10".
 
- 12136-1 -PP-080+-10" han gone to •i-•-•-•-
-                                   ;        GRo                                          )055)           Wnt sore               hoot
-                                                                                                                               a_            the       oter    one.
+From the counter message logs, we could see that "12136-1-PP-0809-9" and "12136-1-PP-0809-10" both had same JSN, since "12136-1-PP-
+jos09-9" was timed out.
 
+| think this is the issue with late arrival of the request in BAL/OSR (not sure thogh).
 
+landy has suggested to look into ACE blade logs, to check whether the OSR instances for which these requests had gone to were
+histening/working normally.
 
+{fo investigate further on this, I would like to have OSR message.log & osr-log extract for request ids "12136-1-PP-0809-9" & "12136-
+i-PP-0809-10".
 
-Date:16-Sep-2010 12:27:56 User:Jeevan Mithyantha
-The Call record has been transferred to the team: EDSC                                                                                                                                                                                    N             N
-User:Jeevan Mithyantha Confirmed that this Incident may be passed to the external company with the attached evidence
-Progress was delivered Co Consumer
+FUJ00225940
+FUJ00225940
 
+"12136-1-PP-0809-10" has gone to . Not sure about the other one.
 
+Jbate:16-Sep-2010 12:27:56 User:Jeevan Mithyantha
+[the Call record has been transferred to the team: EDSC
 
+lUser:Jeevan Mithyantha Confirmed that this Incident may be passed to the external company with the attached evidence.
+Progress was delivered to Consumer
 
-1) l_r=:16-Sep-2010 12:28:40 U.  :Lorraine Guiblin                                                                                                                                                                                                               ! .
-The Call record has been assiji,ed    l I ho team Member: Catherine                                                                Obeng              ,:                                                                                                    ,.•,,,~;`
-Progress was delivered    to Consumer
+[Date:16-Sep-2010 12:28:40 User:Lorraine Guiblin
+[the Call record has been assigned to the Team Member:
+Progress was delivered to Consumer
 
-                                                                                              , » ti.                                                                                                                              .' S•
-                '~.~'ft?~' N9'~
-    kC"~~~~"m>'?sx          ~*. 'à~Y'a,"~.-~"°~o.~'~.
-                                                    ":b9*:s,:   . "~45m".+~..^~`'ra'*Y
-                                                       _3.. ~'' SM                 n s~,"i i~~41.  >~   ~"   •e~ "`~;xai~;s~,S'*.~R'',nil§; ~a°Fic.
-                                                                                                                                                ~•          '~
-                                                                                                                                                       pM~~F~"`~t3~
-                                                                                                                                                                  '~k̀    ~~'~;' k.'E
-                                                                                                                                                                    ,"G':+`~          a
-                                                                                                                                                                                  ~a,~l,~!~'"°~v~~y~
-                                                                                                                                                                                                   ~"e~~~~~"'v~+~~           ta'      C•'\,'":~,"3r5n•i~`~:s~>{ya°
-                                                                                                                                                                                                                                         ~l"~, ~'~~,~,fc
+atherine Obeng
 
-Date:20-Sep-2010 09:52:38       Catherine Obeng
-Evidence Added - 112136-10 me=;ad.Lxl - File wi ll be Obfuscated and made available to download soon
+jDate:20-Sep-2010 09:52:38 Us
+evidence Added - 112136-10 me
 
+sr:Catherine Obeng
+ad. txt = File will be Obfuscated and made available to download soon.
 
-  te:20-Sep-2010 09:53:44                               :Catherine Obeng
-  idence Added - 1,    I .r                           .Yoi.i-lU                                                                                  _                                           - :.:: . .. . .. .:..r:   ..   ;::.                . . . .. :€
+jDate:20-Sep-2010 09:53:44 Uscr:Catherine Obeng
+evidence Added - 12136-1- 09-10
 
+Date:20-Sep-2010 09:59:25 User:Catherine Obeng
+Jnvidence Obfuscated File (BALMSG) Added ~ 12136
 
-     20-Sep-2010 09:59:25 U:.,.,i :Catherine Obeng
-     nce Obfuscated File (BALMSG) Added -          -1-PP0809 10 .
-
-
-Date:20-Sep-2010 10:07:17 User:Catherine Obeng
+bate: 20-Sep-2010 i
 [Start of Response]
-SAL osr/message logs for MesgRgstlD 12136-1-PP-0809-10 are now attached. Returning call to
-[End of Response]
-Response code to call type J as Category 40 -- Pending -- Incident Under Investigation r'3i+x(
+
+BAL. osr/message logs for MesgRqstID 12136-1-PP-0809-10 are now attached. Returning call to 41S.
+{End of Response]
+
+lkesponse code to call type J as Category 40 -- Pending -- Incident Under Investigation
+lkesponse was delivered to Consumer
+
+7:17 User:Catherine Obeng
+
+JDate:20-Sep-2010 10:08:29 Uscr:Catherine Obeng
+the Call record has been transferred to the team: x0SR_GDC
+
+lUser:Catherine Obeng Confirmed that this Incident may be passed to the external company with the attached evidence.
+Progr s delivered to Consumer
+
+[Date:21-Sep-2010 08:46:39 Uscr:deevan Mithyantha
+It have requested OSR logs (both osr.log & OSR message log) for request ids "12136-1-PP-0809-9" & "12136-1-PP-0a09-10"
+
+tached logs contains the extract for request ID "12136-1-PP-0809-10", but missed the logs for "12136-1-PP-0809-9".
+
+Please extract the same for request id "12136-1-PP-0809-9"
+
+[Date:21-Sep-2010 08:46:54 Uscr:Jeevan Mithyantha
+Action placed on Team:xOSR GDC, User:Jeevan Mithyantha
+
+jDate:21-Sep-2010 08:47:11 Uscr:Jeevan Mithyantha
+[the Call record has been transferred to the team:
+User: Jeevan Mithyantha Confirmed that this Incident may be passed to the external company with the attached evidence.
+Progress was delivered to Consumer
+
+JDate:21-Sep-2010 09:01:12 Uscr:Lorraine Guiblin
+[the Call record has been assigned to the Team Member: Catherine Obeng
+Progress was delivered to Consumer:
+
+Date:21-Sep-2010 10:39:05 Use::Catherine Obeng
+[fhe call summary has been changed from:-
+
+las per Catherine Obeng Reopen: OSR A0063 : [20560] : [112136-1-PP-0809-9] - Exception raised while p
+[fhe call summary is now:-
+
+Branch 112136 Duplicate JSN 112136-1-PP-0809-9 Exception raised
+
+jDate:21-Sep-2010 15:52:37 Us
+evidence Added - 112136 9 M
+
+SriCatherine Obeng
+sLogbk - File will be Obfuscated and made available to download soon.
+
+Date:2i1-Sep-2010 15:54:25 User:Catherine Obeng
+Evidence Added ~ RequestMesId 112136-1-
+
+809-9
+
+Dat c:21-Sep-2010 15:55:04 Uscr:Catherine Obeng
+evidence Deleted - RequestMesId 112136-1-PP-0809-9
+
+lDate:21-Sep-2010 5:50 User:Catherine Obeng
+bvidence Added -
+
+FUJ00225940
+FUJ00225940
+
+[bate:21-Sep-2010 16:01:01 User:catherine Obeng
+lnvidence Obfuscated File (BALMSG) Added - Reques
+
+bate:21-Sep-2010 1
+[Start of Response]
+
+jore evidence has been gathered and attached here. Returning call to $LS
+
+{End of Response]
+
+esponse code to call type J as Category 40 -- Pending -- Incident Under Investigation
 Response was delivered to Consumer
 
+5:14 User:Catherine Obeng
 
+Date:21-Sep-2010 16:06:19 User:Catherine Obeng
 
+the Call record has been transferred to the team: x0SR_GDC
 
-  te:20-Sep-2010 10:08:29 User:Catherine Obeng
-  e Call record has been transferred to the team: xOSR_GDC
-  er:Catherine Obeng Confirmed that this Incident may be passed to the external company with the attached evidence.
-  ogress was delivered to Consumer
+User:Catherine Obeng Confirmed that this Incident may be passed to the external company with the attached evidence.
+Progress was delivered to Consumer
 
+Date:22-Sep-2010 09:32:12 User:Venu Anamalla
+the Call record has been assigned to the Team Member: Jeevan Mithyantha
+Progress was delivered to Consumer
 
+[Dat e:22-Sep-2010 1.
+Analysis
 
+2:18 Uscr:Jeevan Mithyantha
 
- ate:21-Sep-2010 08:46:39 User:Jeevan Mithyantha
-  have requested OSR logs (both oer.log & OSR message log) for request ids "12136-1-PP-0809-9" & "12136-1-PP-0809-10".
+rrom the OSR logs, I found that retried "LabelEventService" request with request id "112136-1-PP-0809-10" executed before the
+original request with request id "112136-1-PP-0809-9
 
- ttached logs contains the extract for request. ID "12136-1-PP-0809-10", but missed the logs for "12136-1-PP-0809-9".
+ain this has happened due to some network glitch. And hence the arrival of the messages in BAL/OSR got delayed.
 
- lease extract the same for request id                                        12136-1-FP-0809-9
+probable solution
 
+in order to get rid of these kind of errors/exceptions due to delayed arrivals, we could modify the code in BAL/OSR side.
 
+In MessageJournalDAO, if SQLException occurs (i.e. if a JSN already exists in BRDB, then system will check the journal xml contents
+jonly if its a retried request.
 
+instead, we could check the journal xml contents irrespective of retry or original request. If the contents are same, then we could
+lavoid throwing exception from OSR side and could be ending up in a warning message.
 
-  te:21-Sep-2010 08:46:54 User:Jeevan Mithyantha
-  tion placed on Team:xOSR GDC, User:Jeevan Mithyantha
+nyhow, from counter side this won't affect anything, since original request would have timed out and retried one will be
+successful.
 
+JDate:22-Sep-2010 14:24:51 User:Jeevan Mithyantha
+Routing to Venu for review.
 
+[Date:22-Sep-2010 14:25:00 User:Jeevan Mithyantha
+[fhe Call record has been assigned to the Team Member: Venu Anamalla
+Progress was delivered to Consumer
 
+pate:23-Sep-2010 08:49:35 User:Venu Anamalla
+tlooks like the root cause could be similar to peak PC0203208 (OSR paused for some time).
 
-  te:21-Sep-2010 08:47:11 User:Jeevan Mithyantha
-  e Call record has been transferred to the team: EDSC
-  er:Jeevan Mithyantha Confirmed that this Incident may be passed to the external company with the attached evidence.
-  ogress was delivered to Consumer
+rs in similar manner to the one mentioned in
 
+But, this peak could be used to address how to avoid Duplicate JSN issue, when it oc
+this peak.
 
+lanyhow, we are addressing the OSR imbalance/pause problem in peak PC0203208.
 
+Please go ahead with the Fix Impact.
 
-  te:21-Sep-2010 09:01:12 !!:r.%.r:Lorraine Guiblin
-  e Call record has been assigned to the Tear:: Member: Catherine Obeng
-  ogress was delivered to Consumer
+jbate:23-Sep-2010 08:50:07 Uscr:Venu Anamalla
+[the Call record has been assigned to the Team Member: Jeevan Mithyantha
+Progress was delivered to Consumer
 
+Dat ¢:23-Sep-2010 09:19:22 User:deevan Mithyantha
+[DEVELOPMENT IMPACT OF FIX:
 
+SPECIFY THE HNG-X PLATFORMS IMPACTE!
+ts Platforms details updated? - YES
 
+TECHNICAL SUMMARY:
+technical details explained above. This fix would affect 1 java file.
 
- ate:21-Sep-2010 10:39:05 User:Catherine Obeng
- he call summary has been changed f.rxn:-
- s per Catherine Obeng Reopen: OSR A0063 : [20560] : [112136-1-PP-0309
- he call summary is now:-
- ranch 112136 Duplicate JSN 112136-1-PP-0809-9 Exception raised
+|uIST OF KNOWN DIMENSIONS DESIGN PARTS AFFECTED BY THE CHANGE:
 
+ANY OF THESE DESIGN PARTS AFF
 
+CTED BY APPROVED CPs/PEAKS in HNGX Release 2:
 
+FUJ00225940
+FUJ00225940
 
-  te:21-Sep-2010 15:52:37 ll:.ci. :Catherine Obeng
-  idence Added - 112136_9_MesLogbk - File will be Obfuscated and made available to download soon.
+RELEASE 2 IMPACT:
 
+DEPENDENCIES:
+jone
 
-  te:21-Sep-2010 15:54:23 u. :Catherine Obeng
-  idenc  Added -  ~yoor tt`.Easi i
+JOOS THE FIX REQUIRE ANY MANUAL DEPLOYMENT BASELINES:
+No
 
+[DEV EFFORT IN MANDAYS:
+0.5 day including development and testing
 
-  te:21-Sep-2010 15:55:04 U: r :Catherine Obeng
-  idence Deleted - RequestMesld 112136-1-PP-0809-9                                                                                                                                                               .
+HMPACT ON USER:
+[there isn't any direct impact on the user.
 
+IMPACT ON OPERATIONS:
+[Benefit of fix that may not visible to end user
 
+[journal message contents.
 
+larrival of the message in BAL side. $0, during this time to avoid Duplicate JSN issue, this fix would
 
-IDat_e:21-Sep-2010 15:55:50 User:Catherine Obeng                                                                                  1b3                 . fhr LoSS                                                 '          \                                 w    y
-  vidence Added - OSRLogs u>r RequestMes_d 112136-1-PP-0809-9
-                                                                                                                                                                                                                                                               „ ~P
-                                                                                                                                                                                                               FUJO0225940
-                                                                                                                                                                                                            FUJO0225940
-     :21-Sep-Zulu lb:ul:u1 User:Catherine Obeng
-     Once Obfuscated File (BALMSG) Added     ;                          M   II 1121 9-I-P -
+]ZAVE RELEVANT KELS BEEN CREATED OR UPDATED?
+ves.
 
+IMPACT ON HORIZON TO HNGX BRANCH MIGRATIONS
+jone
 
-Date:21-Sep-2010 16:05:14 User:Catherine Obeng
-[Start o` Response]
-Kore evidence has boon gathered and attached hero. Returning call to $LS
-[End of Response]
-Response code to call type J as Category 40 --Pending  -- Incident Under Inves LiyaLwii -'~el                                                                    '.~'•4,a'"'?~^°F'~~ ~"~
-Response was delivered to Consumer
+IMPACT ON TEST:
+at independent test coverage/scenarios does development recommend?
 
+| We could recreate the scenario mentioned in this peak, by starting OSR in DEBUG mode.
 
+| Do a settlement transaction with any product in the basket, say 1st class stamp.
 
- ate:21-Sep-2010 16:06:19 User:Catherine Obeng
- he Call record has been transferred to the team: xOSRGDC-
- ser:Catherine Obeng Confirmed that this Incident may be passed to the eixternal'°company wlf'h' ihe atf'ached'
- rogress was delivered to Consumer
+| Put a breakpoint in OSR, where the settlement request thread will suspend for some time
 
+| Settlement will time out in counter side and retry request will be sent to OSR.
 
+| Execute the retry request normally in OSR.
 
+|: Counter will get response and settlement will be completed normally.
 
- n order to get rid of these kind of errors/exceptions due to delayed arrivals, we could modify the code in BAL/OSR side.
+| Now, execute the original settlement request in OSR. Will get SQLException for duplicate JSN entry,
+should log a warning message and will stop executing in filter stage itself.
 
- n MessageJcurnalDAO, if SQLException occurs (i.e. if a JSN already exists in BRDB, then system will check the journal xml contents
- sly if its a retried request.
+hat CIT test coverage does development recommend?
+| In CCIT, this particular scenario can't be tested, since we can't reproduce the late arrival of the
 
- nstead, we could check the journal xml contents irrespective of retry or original request. If the contents are same, then we could.
- void th-owing exception from OCR side and could be ending up in a warning message                                       ti
+InISKS (of releasing and of not releasing proposed fix):
+Fix is of low risk.
+even though there won't be any direct impact on the end user, RISK of not releasing this fix would be
 
- nyhow, Lion counter side this won't affect am/thing, since original request would have Limed out and retried one will be                                                                                                  <`
- uccessful.                                                                                                                                                                                                               \
+LIS? OF LIKELY DELIVERABLES:
+essageJournalDAO. java
 
+| With this fix, we could avoid throwing Duplicate JSN exception, in case if the JSN was inserted by s
 
+imilar request i.e. with same
 
-   e:22-Sep-2010 14:24:51 Uses;,leevan;                        anther
-   ting to Venu for review
-                                                                                                                                                                      '.F....-
+le have observed many scenarios in LIVE, where the retried request executed before the original request in BAL/OSR, due to delay in
 
-     :zz-sep-zvly l9:za:vu user:,eevan mitnyantna
-     Call record has been assigned to the Team Member: Venu Anamal
-     ress was delivered to Consumer
+be important.
 
+but with the ew fix, it
 
+request in OSR side.
 
- ate:23-Sep-2010 08:49:35 User:Venu Anamalla
- looks like the root cause could be similar to peak PCO203208 (OSR paused for some time).
+medium.
 
- nit, this peak could be used to address how to avoid Duplicate JSN issue, when it occurs in similar manner to the one mentioned in
- his peak.
+JDate:23-Sep-2010 09:20:03 Uscr:Jeevan Mithyantha
+kouting to Venu for review.
 
- nyhow, we are addressing the OSR imbalance/pause problem in peak PCO203208.
+|Date:23-Sep-2010 09:20:11 User:Jeevan Mithyantha
+[fhe Call record has been assigned to the Team Member: Venu Anamalla
+Progress was delivered to Consumer
 
-
-
-
-  te:23-Sep-2010 08:50:07 User:Venu Anamalla
-  e Call record has been assigned to the Team Member: Jeevan Mithyantha
-  ogress was delivered to Consumer
-
-
-
- ate:23-Sep-2010 09:19:22 User Jeevan Mlthyantha
- EVELOPMENT IMPACT OF FIX
-
- PECIFY THE HNG-X PLATFORMS IMPACTED .                 Sc . s*Ys, l                           .                   r ~'"           ~fi , *~
-                                           ... ..,. ,..:.<:.::::.. . ..,. , ...~..   . . .. .         .,,...:.tea.,... :.,...rte...., ...                 In a:
- s Platforms de aids updated    YES-                                ~                                        ..                                                     `                           p' v~~~.:`'ah+ ~,~i
-                     .. . '-           '.:,N~ '~".`" , k"t.T .'~97 ?~~~,00~1?
-                                                     •                               M :1x~`.~ ~~~-'.   ~;~;     ~~' ~ :o~tiG~` '                          c
-                                                                                                                                             ctii~~~~5~~ ~ ~1'ii "A~~`~.'e , <'~ ~o.C'fi"?
- ECHNTCAT SUMMARY_                                                                       -                                                                       4~       •.\'`~' ,~ .:,'   `'' r    . ~c
- ethnical details  explained            above. This fix         would affect         1       java file                                          \-          an                In an
-
- IST OF KNO[nN DIMENSIONS DESIGN PARTS AFFECTED BY THE CHANGE
-                                                                                                                                                                                                                                                                                       FUJO0225940
-                                                                                                                                                                                                                                                                                FUJO0225940
-
-               2 1NPACT:
-
-
-
-
-    S THE"'FIX'REOUIRE"ANY MANUAL'DEPLOYMENT"
-
-
-  V
-                                                                                          ,~.a,5":a? :'~~ ~~~IeGri3~3~~'"~'~r.'i*~\               ~      ~~ ~~ ' ' °a `S:n,~ ' '~ ..:? ~ °:'z ~ 5~~4`,                      `l           ~           .~ ra?ar         ~F '+~" \ a. , s~:,                '^ •„~1 \..i..~,r''•
-                                                                                                                4±*•'?                                                                                                                   '. T.                                                          y;,'    %,;
-                                                                                              n           ^!.            :1:,"4.\fi       ~.:EA   M.za                 '+''k'c'~:        il      vrq,        +'   1T.`i     'a. ~+ce;                ,~i..:
-                                                                                                                                                                                                                                                                          i%'~•r'ti~
-                                                                                                                                                                                                                                                                                              ,a                      '"`?R,   q•,
-                                                                                                                                                           •L»:~   =',~.
- [PACT ON L _ ER.                                                       _..... . . ..> _...... .. . . .. ;~....... . . ... . .. .. . ......--......> _ -,... ...                          .. _.,.... .:... ..`... 3,.....             ..tea: . .:v .,.    ~~S~a                       ~:, i
-                                                                         .,_'1p ri<=n ~,"k~:.                   .kv~+": ,,,. a,i           (                 ~. rx. ~ , ~~.)+.':x^.                                          •F~`G'z,a"?`:I,,~W                 ~.:.~' :~'C$;`bl'?a'          :''?
- .ere run t any direct lmpact       ac                   h u e ._......_....._
-                                                        the                                       •?
-                                                                                                             .......~           ..,,-...,h~,.1                ,..... .      ........ ..',`._. .\"..,                        ;-..-~:> : •. t+ma           r61St
-
-
-                      ,., ."di&.r;,: .k~:... ... ~;.. k -~.°.F..
-                     --~                                 :-+cx-.R-
-                                                                 ~": :)r.. .~~~    •w:'. ~\                                       . ...."t>
-                                                                                                                   7a ", >t'+'a' *~~'\
-                                                                                          .. ;,... ... \:~`:`£~;".i3+.~                "~'          ..... ~~`\'h
-                                                                                                                                               .:.'~^~nfS:. ,::....~.a~
-                                                                                                                                                                 9a,   1"~s̀°.    l '~ 'v'0+
-                                                                                                                                                                                       ,.~1~,~: .              1~a` ,.,..' i~ T~.,:~~`a ii^%~ti~
-                                                                                                                                                                                                          "i~'>~~~~;.1`                                ~.. . ~~~5~.~1.<:.         `Ai•, n~ ~. ~:~~
- [PACT ON OPERATIONS.
-  nefiL of fix that inay not visible to end user,                                                                                       ~".°`
-  With this fix, we could avoid throwing Duplicate JSN exception;''ili'case if the JSN wasinserted by similar request i.e. with same
-  urnal message contents.
-
-   have observed many scenarios in LIVE, where the retried request executed before the original request in BAL/OSR, due to delay in
-  rival of the message in BAL side. So, during this time to avoid Duplicate JSN issue, this fix would be important.
-
-  VE RELEVANT EELS BEEN CREATED OR UPDATED?                                                                                                                                                                                                                                                  ~'?' `'`•'`:::~;"':
-  5 .
-
-
-
-      ACT ON HORIZON TO HNGX BRANCH MIGRATIONS
-
-
- [PACT ON TEST:
- .at independent test                          coverage/scenarios                        does development recommend?
-
-  We could recreate the scenario mentioned in this peak, by starting OSR in DEBUG mode:         ~~   == `:•:
-  Do a settlement transaction with any product in the basket, say lit class stamp.              i         ., ;,v"2' nx,'•c Y u Q ~~"'                                                                                                                                                                                     ',",.~„
-  Put a breakpoint in OSR, where the settlement request thread will suspend for some time
-  Settlement will time out in counter side and retry request will be sent to OSR.                       s
-  Execute the retry request normally in OSR.
-  Counter will get response and settlement will be completed normally.
-  Now, execute the original settlement request in OSR. Will get SQL xception for duplicate JSN entry, but with the ew fix, it
-  ould log a warning message and will stop executing in filter stage itself
-                                                                                                                                                                                    'I   S z a              y.    'Na             t6,e           1      8L'     ~~.~." ,•t>`F3 is hC   'SE     6'ru ,                    ' `
-                                                                                                                                                                                                                                                                                                          Ib~
-  at CIT test coverage does development recommend?
-  In CCIT, this particular scenario can't be tested, since we can't reproduce the late arrival of the request in OSR side~SS ~,~,ar
-
- SKS (of releasing and of not releasing proposed fix)    ._-`„~     ,   Y    ~~        \       1O                                                                                                                                                                           a                y'
-                                                                                             -               t
-  x is of low risk.
- •en though there won't be any direct impact on the end user, RISK of not releasing this fix would be medium.
-
-  ST OF LIKELY DELIVERABLES                                                                                                                                    :r~\
-                                                                              a            a ~~3           n     ~                    i               ~r ~             F                                k          k             _
-                                                                                                                                                                                                                                  eat $@                fi      ~ ~v             q                "n,
-  ssa eJournalDAO. ava     ,..<. .                                 ..    ..                ,.                   .. .                                     s.<., ..   .• . ..              ... _                    a•::..,
-
-
-
-        :23-Sep-2010 09:20:03 User:Jeevan Mithyantha
-        ing to Venu for review.
-
-
-
-  te:23-Sep-2010 09:20:11 User:Jeevan Mithyantha
-  e Call record has been assigned to the 'team Member: Venu Anamalla
-  ogress was delivered to Consumer
-
-
-
-Dat; :23-Sep-2010 09:49:04 Ur:^r:Venu Anamalla
+bate: 23-Sep-2010 09:49:04 User:Venu Anamalla
 [Start of Response]
+
 Fix Impact looks ok.
+
 [End of Response]
-Response code to call type J as Category 41..,
-Response was delivered to Consumer<:i'5:c•'ia =cs: :
 
+Response code to call type J as Category 41 ~
+lkesponse was delivered to Consumer
 
+Pending -- Product Error Diagnosed
 
-  te:z -bep-zuiu xx:3u:14 user:ue
-  e Call record has been assigned
-  ogress was delivered to Consume
+Date:23-Sep-2010 11:30:14 User:Jeevan Mithyantha
+[the Call record has been assigned to the Team Member: Jeevan Mithyantha
 
+progress was delivered to Consumer
 
+jDate:24-Sep-2010 13:09:13 User:Jeevan Mithyantha
+INGX CODE FIX
 
-  te:24-Sep-2010 13:09:13 rlc^r:Jeevan Mithyantha
-  GX CODE FIX
+FIX DESCRIPTION
+Described Above.
 
+PROPOSED BRANCH
+rap
 
-  X DESCRIPTION
-  scribed Above.
-                                                                                                                                                                                      FUJO0225940
-                                                                                                                                                                                 FUJO0225940
+COUNTER JAVA FILES CHANGED
+lone.
 
- ist changed files indicting if each file was added, updated or deleted. If no files changed, state None.
+FUJ00225940
+FUJ00225940
 
- OUNTER REFDATA FILES CHANGED
- one.
+[COUNTER PDL FILES CHANGED
+nist changed files indicting if each file was added, updated or deleted. If no files changed, state None.
 
+COUNTER REFDATA FILES CHANGED
+jone.
 
+SHARED CODE FILES CHANG!
+jone.
 
- HARED CODE FILES CHANGED
- one.
+BAL JAVA CODE FILES CHANGED
 
- AL JAVA CODE FILES CHANGED
+h) MessageJournalFilter. java
+2) MessageJournalDAO. java
 
- )MessageJournalFilter.java
- )MessageJournalDAO.jave
+sql, FILES CHANGED
+lone.
 
- 2L FILES CHANGED
- one.
+THER FILES CHANGED.
 
- THEE FILES CHANGED
- one.
+PPROPRIATE CODE COMMENTS
 
- PPROPRIATE CODE COMMENT:'
- es.
+re
 
- EPENDENCTES
- one.
+[DEPENDENCIES
+lone.
 
- ELATED PROBLEMS
- one.
+RELATED PROBLEMS
+jone.
 
- NIT TESTING EVIDENCE
- creen shot of successful execution test cases has been attached.
+UNIT TESTING EVIDENCE
+screen shot of successful execution test cases has been attached.
 
- iso, did manual testing as described above in the fix impact. Attached log extracts.
+lAlso, did manual testing as described above in the fix impact. Attached log extracts.
 
- EGRESSION TEST CLASS
- essageJournalFilterTest.java
+TESTCCLASS.
+fessagedournalFilterTest java
 
- ACKWARDS COMPATIBILITY
- /A - Framework change.
+IBACKWARDS COMPATIBILITY
+/A ~ Framework change.
 
- EVELOPMENT DOCUMENTATION
- one.
+DEVELOPMENT. DOCUMENTATION
+jone.
 
- EQUIREMENTS DOCUMENTATION
+REQUIREMENTS DOCUMENTATION
+jone.
 
+HELE
+None.
 
-   P
+[Date:24-Sep-2010 13:12:17 User:Jeevan Mithyantha
+3 part of regression test, we had alread a test class named MessageJournalFilterTest. To the same, I have included a new test case
+Jramed "testDuplicateJSN_PC0204310" to test the scenario in this peak.
 
+Joate:24-Sep-2010 13:12:45 User:Jeevan Michranehe
+evidence Added - Code changes - Patch
 
+jDate:24-Sep-2010
+lsvidence Added - 1%
 
+712:59 User:Jeevan Mithyantha
 
-  te:24-Sep-2010 13:12:17 User:Jeevan Mithyantha
-   part uL regressiun test, we had alread a test class named MessageJournalF'ilter`Pest. To the same, I have included a new test case
-  med "testDuplicateJSN PCO204310" to test the scenario in this peak.
+Date: 24-Sep-2010
+evidence Added -—
 
+Date:24-Sep-2010 13:13:42 Uscr:Jeevan Mithyantha
 
+Routing to Venu for review.
 
-Date:24-Sep-2010 13:12:45 C,sr:Jeevan Mithyantha
- video:  Added -   .~  V      -   toi-~
+jbate:24-Sep-2010 13:13:51 Uscr:Jeevan Mithyantha
+fhe Call record has been assigned to the Team Member: Venu Anamalla
+Progress was delivered to Consumer
 
+Joate:04-Oct-2010 12:09:33 User:Venu Anamalla
+code fix template looks plausible.
 
-Date:24-Sep-2010 13:12:59 User:Jeevan Mithyantha                                                                                                                                                           'A!.
- ,videnca Added - i st :viclence
-                                                                'i\
-                                                               sq     YZ   A ar   .pai   chf YAx   a    1M   0   „ -AT:",~     ..    "e    S   -kl't)hl"""' @ MO r
-                                                                                                                                                               Y     ee   Fiai   am m2 i   q1'   C+.   S
+code patches and test details are OK.
 
+Jbate:04-Oct-2010 12:09:45 User:Venu Anamalla
+[the Call record has been assigned to the Team Member: Jeevan Mithyantha
+Progress was delivered to Consumer
 
+FUJ00225940
+FUJ00225940
 
-Date:24-Sep-2010 13:13:18 11:r..,r :Jeevan Mithyantha
-Evident, Added -       .vi          -
-
-
-Datc:24-Sep-2010 13:13:42 Usex:Jeevan Mithyantha
-Rout .nn t.   u        m
-                                     8Yati"2a s,, ke ~i~+~ `   '%rttNFm Mo-sa4pl'L'                fF                  tG8m1   zt0. w.v i r 9a¢r
-
-
-  te:24-Sep-2010 13:13:51 User:Jeevan Mithyantha
-  e Call record has been assigned to the Team Member: Venu Anamalla
-  ogress was delivered to Consumer
-
-
-
-       :u4-ucr--Lulu1L:u7:.  user:venu a
-        fix template looks plausible.
-
-        catches and test details are OK.
-
-
-
-
-  te:04-Oct-2010 12:09:45 User:Venu Anamalla
-  e Call record has been assigned to the Team Member: Jeevan Mithyantha
-  ogress was delivered to Consumer
-                                                                                                                                                    FUJO0225940
-                                                                                                                                                 FUJO0225940
-Date:08-Oct-2010 10:23:01 User:Jeevan Mithyantha
+Date:08-Oct-2010 10:
 [Start of Response]
 
-[End of Response]
-Response code to call type J as Category 46 --          Pending --    Product Error       Fixed
+3:01 User:deevan Mithyantha
+
+{End of Response]
+lkesponse code to call type J as Category 46 -- Pending -- Product Error Fixed
 Response was delivered to Consumer
 
+JDatc:19-Oct-2010 15:11:52 User:Martin Tonge
+new Business Impact has been added:
 
+[this Peak will reduce the support overhead because it will reduce the number of alerts associated with duplicate JSN's. It will
 
-Date:19-Oct-2010 15:11:52 User:Martin Tonge
-  new Business Impact has been added:
-This Peak will reduce the support overhead because it will reduce tie number of alerts associated                             with duplicate     JSN's. it will
-also mean that any future occurrences will have occurred for a different reason and would require                             investigation.     Such incidents    ai
+jalso mean that any future occurrences will have occurred for a different reason and would require investigation, Such incidents are
+
 currently getting masked by the occurrences associated with this Peak.
 
-There is no immediate benefit       to the customer other     than support      engineers    no longer       need to worry about these         types of alert    and
+[there is no immediate benefit to the customer other than support engineers no longer need to worry about these types of alert and
 can focus on other alerts.
 
-Currently   this   type of error   generates   a relatively   high frequency of Alerts            on a daily    basis,    masking other   types    of error.
+currently this type of error generates a relatively high frequency of Alerts on a daily basis, masking other types of error.
 
+Date: 20-Oct-2010 15:52:02 User:_Customer Call_
+Severity Count
 
+OSR AQ063 : [20559] : [318518-3-10-2014-26] - [ Duplicate JSN detected - failed to insert
+journal record ] Caught Exception inclass com. fujitsu.poa-bal.osr.event .RequestEvent :Thread generic brdb queue pool-12-thread-12
+service URI: GenericBRDBModification Critical 1
 
-Date:20-Oct-2010 15:52:02 User: Customer Call_
-Last Occurrence    Node   Summary   Severity      Count
-20/10/2010 15:47:25       GRO    _  OSR A0063 : [20559] : [318518-3-I0-2014-26] - [ Duplicate JSN detected - failed to insert
-j uurnal record   Caught ExcepLion inelass corn. fujlLsu.pop.bal.osr.evenL.RequesLEvenL:Tlir:ead generic _brdb_queue puol-12-Lhread-12
-Service URI: GenericBRDBModification     Critical     1
+Jat ¢:22-Oct-2010 12:20:11 User:Prashanth Pamidimukkala
+product HING-X Platforms -- BAL Server (BAL) (version unspecified) added,
 
+jDate:22-Oct-2010 12:20:32 User:Prashanth Pamidimukkala
+fhe call Target Release has been moved to Proposed For -- HNG-X 03.20
 
+jDate:25-Oct-2010 12:27:05 Uscr:Prashanth Pamidimukkala
+ction has been removed from the call
 
-Date:22-Oct-2010 12:20:11 User:Prashanth Pamidimukkala
-Product HNG-X Platforms -- SAL Server (BAL) (version unspecified)                added.
+bate:25-Oct-2010 12:28:00 User:Prashanth Pamidimukkala
+ction placed on Team:RelMngmntForum
 
+JDate:27-Oct-2010 14:11:41 User:John Boston
+{the call Target Release has been moved to Targeted At -~ HNG-X 03.20
 
+[Date :27-Oct-2010 14:11:53 User:John Boston
+MF 26/10/10 Agreed - Targeted for 03.20.
 
-Date:22-Oct-2010 12:20:32 User:Prashanth Pamidimukkala
-The call Target Release has been moved to Proposed For --            HNG-X 03.20
+Date: 27-Oct-2010 14:11:56 User:John Boston
+ction has been removed from the call
 
+0ate:02-Nov-2010 16:17:18 User:Steve Parker
+[fhe call summary has been changed from:~
 
+Branch 112136 Duplicate JSN 112136-1-PP-0809-9 Exception raised
+[fhe call summary is now
+jbuplicate JSN detected
 
-Date:25-Oct-2010 12:27:05 User:Prashanth         Pamidimukkala
- ction has been removed from the
+Date:02-Nov-2010 16:22:59 Uscr:Steve Parker
+[the Business Impact has been update
+support overhead currently 30 incidents in 5 days. Resoluton will mean that any future occurrences will have a different root cause
+land require investigation. Such incidents are currently getting masked by the volume associated with this Peak with consequential
+risk to the integrity of the audit trail used for litigation support.
 
-
-
-Date:25-Oct-2010 12:28:00 User:Prashanth         Pamidimukkala
- ction placed on Team:RelMngmntFurum
-
-
-
-Date:27-Oct-2010 14:11:41 User:John Boston
-The call Target Release has been moved to Targeted At --             HNG-X 03.23
-
-
-
-Date:27-Oct-2010 14:11:53 Ucer:John Boston
-REF 26/10/10 Agreed - Targeted for 03.20.
-
-
-
-Date:27-Oct-2010 14:11:56 User:John Boston
- ction has been removed from the call
-
-
-
-Date:02-Nov-2010 16:17:18 User:Steve Parker
-The call sunrnary has been changed from: -
- ranch 112136 Duplicate JSN 112136-1 -PP-0809-9 Exception raised
-The call surrrnary is now: -
-Duplicate JSN detected
-
-
-
-Date:02-Nov-2010 16:22:59 User:Steve Parker
-The Business Impact has been updated:
-Support overhead currently   30 incidents  in 5 days. Resoluton will mean that any future occurrences will have a different   root cause
-and require investigation.   Such incidents are currently    getting masked by the volume associated with this Peak with consequential
-risk to the integrity   of the audit trail  used for litigation    support.
-
-
-
-Date:02-Nov-2010 16:26:34 User:Steve Parker
-03.20 is not due until early next year. Given an average of 30 calls                / week this       will    result     in approx 300 support     incidents    before
+Jbate:02-Nov-2010 16:26:34 Uscr:Steve Parker
+Jo3.20 is not due until early next year. Given an average of 30 calls / week this will result in approx 300 support incidents before
 resolution representing 100 MD effort at 3rd line.
 
+JDate:5-Nov-2010 15:07:17 Uscr:deevan Mithyantha
+jpplied patches to CTRO3 20 00 RELEASE and smoke tested successfully.
 
+Following file has been committed to CTRO3_20 00 RELEASE branch.
+Hh) MessageJournalFilter.java -- 1.28.14.1
 
-Date:15-Nov-2010 15:07:17 Ucer:Jeevan Mithyantha
- pplied patches to CTR03_20_00_RELEASE and smoke tested           successfully.
+2) MessageJournalDAO. java -- 1.7.48.1
+8) BranchAccessFilters/junittest /MessageJournalFilterTest.java -- 1.15.164.1
 
-Following file     has been committed to CTR03 20 00 RELEASE branch.
+FUJ00225940
+FUJ00225940
 
-1) MessageJcurnalFilter.java     -- 1.28.14.1
-2) MessageJcurnalDAO.java -- 1.7.48.1
-3) BranchAccessFilters/junittest/MessageJournalFilterTest.java             --   1.15.164.1
-                                                                                                                                                                                                                                                                                 FUJO0225940
-                                                                                                                                                                                                                                                                        FUJO0225940
-4)    HranchAccessr'1 Iters/Jnni ttest./heant actnry.xrn I                                                                  --         I .YU.H.             I
+fa) BranchAccessFilters/junittest/beantactory-aml == Te
 
+Jbate:16-Nov-2010 08:09:00 User:Jeevan Mithyantha
+lAction placed on Team:xCtr_GDC
 
+lbate:16-Nov-2010 08:09:13 User:Jeevan Mithyantha
+[fhe Call record has been transferred to the team: xCtr_REL GDC
+Progress was delivered to Consumer
 
+jDate:22-Nov-2010 10:57:22 Usecr:Kishor GaneshRao
 
-Date:16-Nov-2010 08:09:00 tJser:Jeevan Mithyantha
+[this peak has not been verified in 4LS CCIT due to the fact that it is not reproducible.
+tn CCIT, this particular scenario can't be tested, as we can't reproduce the late arrival of the request in OSR side.
 
+ut note that this has been successfully tested in the GDC DEV rig by using the Debug option.
 
+lDate:22-Nov-2010 10:57:46 User:Kishor GaneshRao
 
+Reference Added: Product Baseline BAL SRV OSR 0320 V238 @ BAL SRV_OSR ROUTING 0320 v238
 
-Date:16-Nov-2010 08:09:13 U:.
-                            - er::Jeevan Mithyantha
-The Call record has been transferred to the team: xCtr RELGDC
-Progress was delivered to Consumer            .__:                                                                                                                                                 :                     r
+Jate:22-Nov-2010 10:57:48 User:Kishor GaneshRao
+TOP Reference set to: Product Baseline BAL_SRV_O:
 
+0320 _V238 & BAL_SRV_OSR_ ROUTING 0320 _v238
 
+JDate:22-Nov-2010 1
+FIX RELEASE CHECKLIST
 
+9:21 User:Kishor GaneshRao
 
-Date:22-Nov-2010 10:57:22 User:Kishor GaneshRao
+lrIX IMPACT TEMPLATE FULLY COMPLI
+ves
 
-Rig: 4LS CCIT
-                                                                                                                             4 :' <.     +c~~Z"\rX~. S' '
-                                                                                                                                         ~~
-                                                                                                                                                                R"F2z, 'sY
-
-
-Release.   BAL03.20.00.OD
- a.,elrne.  BAL SRV OSR 0 320 V238 & BAL SRV OSR ROUTING 0320V2 38r ~a,;ti~;':        ::..<. . ,.:.. ,_;'sue,i~~.:'~;::~~~~`5.,~?>~i~;^,~~nz
-                                                                               -~~ ~•r~?;~N~'~',~:,,.''~;;;.~>,,'~~:•                             Y_.;,~~~;   .~~• ?M '} ~~ ~e~~~.: <;i;~ . ~~n,,
-                                                                                                                                                                                             `'~~.;=~"'"      ~;`: '?v.r.~.,.:
-                                                                   •.-;., ..;:-~.                                             ,~y' ~.v ~.J_. ..,:~        A..                                     ..    ul_ .~~e,...^3:.
-                                                                  .... . ~~.       ..X.....     . .. _. ..... .. .. ..  ..z ...\.._. .. . .     ..~.. ....~v                 -                  :1.~....        CCU: ~
-                                                                       •~.,,t           ~-_
-This peak has not been verified    in 4LS CCIT due to the fact that
-                                                                h        i     i s • not re rod ci                        -'       .'"'~    h `~ ~             '"*.`~     ~d       '-''`'' ' `:•'%          ~".~`.'"'~"'~a"'
-                                                                                                                                                                                                                     ff ~"."•.
-
-In CCIT, this particular scenario can't be tested, as we can't reproduce the late arrival of the request in OSR side
-
-                                                                                                                                                                                                                                                         50     es     so
-But note               that         this          has been successfully                                tested             in      the       GDC DEV rig                      by using      the         Debug option
-
-          a        H
-                       :'
-                         iSF                                               x ~                                  4                                     \-:<            \        ~j a -<                              1 - ~9.~7k             7'
-                                                                                                                                                                                                                                     til, . °c',+l`ia~ae+`~' Z
-                                                                                                                                                                                                                                                              ~~ "•tit' : :~~~~'.`"• `•a~`C,.i
-                                                                                                                                                                                                                                                                                        ~~,      @          Vii;
-                                                                                                                                                                                                                                                                                                     v:~;:Z ~.
-      .> ... _..,.. ._ :aw..                      .. r+..1 .>k :-
-                             ..,.....A ,.k."e ... .~                 'N'
-                                                                    ...... . ... _~.... ~£ . ~ ,N+
-                                                                                               _\...   .,.< .       .. . .L~....;"s`+ti'~~34
-                                                                                                                                   . .. .    ..                                          ~,'   \        ~ . .fie:            ;:: ~:';;,,_>-                  kar
-
-
-
-
-Date:22-Nov-2010 10:57:46 User:Kishor GaneshRao
-Reference Added: Product Baseline BAL SRV OSR 032Q V238 &BAL SRV OR                                                                                                             ROUTING 03 0 V238
-                                                                                                                                                  5    5
-
-
-
-
-     Lc:22-Nov-2010 10:57:48 User:Kishor GaneshRao
-       Refe-ence set Lo: Product Baseline BAL SRV OSR 0320 V238 & BAL SRV OSR ROUTING 0320 V238                                                                                                                                                 e       '!           ~'- ----~           -
-
-
-
-
-Date:22-Nov-2010 10:59:21 User:Kishor GaneshRao
-N:X RELEASE CHECKLIST
-
-
-
-FIX IMPACT TEMPLATE FULLY COMPLETED?
-Yes
-
-RMF APPROVAL GRANTED?
-Yes
+IMF APPROVAL GRANTED?
+ves
 
 CODE REVIEW TEMPLATE FULLY COMPLETED?
-Yes
+ves
 
 CODE REVIEW PASSED?
-Yes
+ves
 
 CODE CHECK-IN BRANCH SPECIFIED?
-Yes
+ves
 
- LL CHECKED-IN FILES HAVE PEAK REFERENCE IN CVS COMMENT?
-Yes
+JALIL, CHECKED-IN FILES HAVE PEAK REFERENCE IN CVS COMMENT?
+ves
 
-FIX PASSED CIT AND REGRESSION TESTING?
- O, this fix has not been verified in CIT due to the fact that we are not able to reproduce the same, but note that this has been
+TX PASSED CIT AND REGRESSION TESTING?
+No, this fix has not been verified in CIT due to the fact that we are not able to reproduce the same, but note that this has been
 verified successfully in GDC DEV rig by the developer.
 
-EEL UPDATED TO REFLECT PEAK FIX?
-Yes
+KEI, UPDATED TO REFLECT PEAK FIX?
+ves
 
-CIT TEST SCRIPT UPDATED TO REFLECT PEAK?
- Jo, due to the fact that the change cannot be tested in CIT.
+cIT TEST SCRIPT UPDATED TO REFLECT PEAK?
+INo, due to the fact that the change cannot be tested in CIT.
 
-CIT TEST. RESULTS PUBLISHED?
-Yes
-  FUJO0225940
-FUJO0225940
-
+cI TEST RESULTS PUBLISHED?
+ves
+
+bate: 22-Nov-2010 11:18:12 User:Kishor GaneshRao
+[the Call record has been assigned to the Team Member: Kishor GaneshRao
+progress was delivered to Consumer
+
+Date:01-Dec-2010 15:20:03 Uscr:PIT Automated User
+Reference Added: Product Baseline BAL SRV _OSR_0320_V239
+Reference Added: Product Baseline BAL SRV_OSR ROUTING 0320 V239
+
+jbate:02-Dec-2010 15:15:04 Uscr:PIT Automated User
+Reference Added: Product Baseline BAL SRV_OSR ROUTING 0320 D239
+
+FUJ00225940
+FUJ00225940
+
+bate:02-Dee-2010 15:20:03 Uscr: Pit Automated User
+Reference Added: Product Baseline BAL _SRV_OSR 0320 D239
+
+Date:03-Dec-2010 09:39:46 User:Kishor GaneshRao
+[Start of Response]
+
+loving the Peaks to INT
+
+[End of Response]
+
+esponse code to call type J as Category 48
+
+Date:03-Dec-2010 09:42:22 User:Kishor GaneshRao
+the Call record has been transferred to the team: Development calls ready for Integration
+the Call record has been assigned to the Team Member: Unassigned_
+
+Date: 06-Dec-2010 14:3)
+Reference Added: Relea
+
+21 User:Tyrone Cozens
+EAK PCO206867
+
+JDate:30-Dec-2010 11:32:02 User:Sheila Bamber
+lfested in LST - Please close
+
+jbate:30-Dec-2010 11:32:18 User:Sheila Bamber
+[the Call record has been transferred to the team: Live Supp.Test
+
+the Call record has been assigned to the Team Member: Release to Live
+Progress was delivered to Consumer
+
+jate:16-Mar-2011 17:20:54 User:Mark Ascott
+[the Call record has been transferred to the team: RM-x
+Progress was delivered to Consumer
+
+Jate:22-Nov-2011 13:34:57 Uscr:John Simpkins
+[Start of Response]
+
+identified for closure following review of open un-targeted peaks in October 2011. Closure requested by Saheed Salawu
+[End of Response]
+
+Response code to call type J as Category 63
+
+service Response was delivered to Consumer
+
+Joate:22-Nov-2011 13:34:59 User:John Simpkins
+caLL Pc0204310 closed: Category 63 Type J
+
+Root Cause General - Unknown
+Logger _Customer Call_ -- EDSC
+Subject Product HNG-X Platforms -- BAL Server (BAL) (version unspecified)
+
+Assignee _ Customer Call_ -- EDSC
+Last Progress 22-Nov-2011 13:34 -- John Simpkins

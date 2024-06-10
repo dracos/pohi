@@ -1,614 +1,602 @@
-                                                                                                                                                                                              POL00028360
-                                                                                                                                                                                         POL00028360
+POCL Confidential
+(meeting attended by POCL only)
 
+This table includes the following incident categories:
+0 Agreed 'High' severity by POCL and Pathway
+1 Agreed ‘Medium’ severity by POCL and Pathway
+2 Agreed ‘Low’ severity by POCL and Pathway
+3 To be addressed at TIP meeting on 29 July
 
+Acceptance Incidents Discussed at Meeting 11th August
 
+MEETING OUTPUT
 
-      POOL Confidential                                                               MEETING OUTPUT                                                                            12th Augtyst '99
-      (meeting attended by POCL only)                             Acceptance Incidents Discussed at MeeLing 11th August
+4 Monitoring with a view to close
 
-  This table includes the following incident categories:
-          0 Agreed 'High' severity by POCL and Pathway                         4 Monitoring with a view to close         8 Closed pending joint action
-          1 Agreed'Medium'severity by POCL and Pathway                         5 Closed                                 9G Timely resolution forecast. To be reviewed at T3 workshop
-          2 Agreed 'Low' severity by POCL and Pathway                          6 Closed pending Pathway action          9B Timely resolution in doubt. To be reviewed at T3 workshop
-          3 To be addressed at TIP meeting on 29 July                          7 Closed pending POCL action             10 Incident status and/or severity disputed
+5 Closed
 
+6 Closed pending Pathway action
+7 Closed pending POCL action
 
+POL00028360
 
+POL00028360
+™
 
-                                                                BEFORE 11/8 MEETING            AFTER 1118 MEETING
-                                                            SeverIty Severity              Severity Severity                  <;-
-A_Spec        AI   Description                           ' . t(PWY)   (POCL) ' Category' : :(PWY)   (POCL) Category         Rmrk        '   t
+8 Closed pending joint action
+9G Timely resolution forecast. To be reviewed at T3 workshop
+9B Timely resolution In doubt. To be reviewed at T3 workshop
+10 Incident status and/or severity disputed
 
+12th ‘“é ‘99
 
+3°" BEFORE‘11/8 MEETING | AFTER 11/8 MEETING
+= eS RG eT “Severity [Seventy]. Soverity | Soverity a ce ; 3
+A‘Spec. ..._|:- Al] Description © IMPWY) ||: (POCL):‘|Category|-(PWY) ‘| \(Poct) [Category _|:Remarks
+[Dispute on severity. Mark Burley to respond to Pathway
+TIP 342_| TIP data file delivery SLA breach Low Medium 10 Low Medium 10 whether closed by end 11/8
+Monitoring continues in live environment.Dispute on severitys~|
+Duplicate records and files over TIP Mark Burley to respond to Pathway whether closed by end
+TIP 361 |Interface. Low Medium. 10 Low Medium 10 11/8,
+Business Impact by 4:00 11/8, Bob Cragg. PWY to give
+detailed reports to Bob Cragg up to close of business on 11/8.
+Late transactions over 9 days old on IBC to reconcile PWY and POCL data and respond by close of
+TIP 371 |HAPS system. Low | Medium 10 Low _|_ Medium 10 _|business 12/8. If reconciliation Is successful possibly ‘low’
+Pathway to provde detalled analysis of root causes and fixes.
+to Mark Burley by 11/8. POCL to review and respond by 16/8.
+Derived cash account not equal to Pathway say fix to be Implemented 12/8 and forecast severity
+TIP 376 |electronic cash account High High 10 High High 10 to be revised to ‘medium’.
+- |TIP done Business Impact. Pathway say fix to be
+implemented 10/8. POCL to monitor In live environment.
+|AIS contraventlor/Data Integrity on Pathway to re-Issue Incident analysis by 11/8 and Mark Burley
+TIP 378 |the cash account (TIP) Low Medium 10 Low Medium 10 to expedite business Impact analysis.
 
+Page 1
 
-                                                                                                                           Dispute on severity. Mark Burley to respond to Pathway
-TIP           342 TIP data file delivery SLA breach         Low       Medium         10         Low       Medium   10      whether closed by end 11/8
+POL00028360
 
+POL00028360
+POCL Confidential MEETING OUTPUT tath ‘és
+(meeting attended by POCL only) Acceptance Incidents Discussed at Meeting 11th August .
+This table includes the following incident categories:
+0 Agreed ‘High’ severity by POCL and Pathway 4 Monitoring with a view to close 8 Closed pending joint action
+1 Agreed ‘Medium’ severity by POCL and Pathway 5 Closed 9G Timely resolution forecast. To be reviewed at T3 workshop
+2 Agreed ‘Low’ severity by POCL and Pathway 6 Closed pending Pathway action ‘9B Timely resolution In doubt. To be reviewed at T3 workshop
+3 To be addressed at TIP meeting on 29 July 7 Closed pending POCL action 10 Incident status and/or severity disputed
+BEFORE 11/8 MEETING AFTER 11/8 MEETING _
+: T ; MGT Soverty | Soverlty |. Saverity | Soverity |. a 7
+|A-Spec ‘Al_|'Description . |" (eet key (PwyY) (POCL) ||Category | (PWY)''| (POCL) [Category | Remarks ”
+Severity downgraded because:
 
+* Originally part of 376
 
-                                                                                                                           Monitoring continues in live environment.Dispute on severity;---
-                  Duplicate records and files over TIP                                                                     Mark Burley to respond to Pathway whether closed by end
-TIP           361 Interface.                                Low       Medium         10         Low       Medium   10      11/8.
+* POCL understands cause
 
++ Rectification plan presented and agreed
 
-                                                                                                                            Business Impact by 4:00 1118, Bob Cragg. PWY to give
-                                                                                                                            detailed reports to Bob Cragg up to close of business on 11/8.
-                  Late transactions over 9 days old on                                                                      BC to reconcile PWY and POCL data and respond by close of
-TIP           371 HAPS system.                              Low       Medium          10         Low      Medium   10       business 1218. If reconciliation is successful possibly 'low'
+* ICL putin fix 10/8
 
+* outstanding Issue on reconcillation covered by 376
 
-                                                                                                                            Pathway to provde detailed analysis of root causes and fixes
-                                                                                                                            to Mark Burley by 1118. POCL to review and respond by 16/8.
-                  Derived cash account not equal to                                                                         Pathway say fix to be implemented 12/8 and forecast severity
-TIP           376 electronlc cash account                   High       High           10        High        High   10       to be revised to'medium'.
+Loss of data integrity when changing
+
+TIP 410 [products from core to non-core None | _High 10 None_| Low Incident to be removed from this list
+
+Severity downgraded because:
+* Originally part of 376- POCL understands cause
++ ROQtieatitergitmupresvated and agreed
+« RaichiGitatidix ft8 presented and agreed
+* outstanding issue on reconciliation covered by 376
++ outside Core Observation Period (confirmed position John
+Cook)
 
-
-                                                                                                                            TIP done Business Impact. Pathway say fix to be
-                                                                                                                            Implemented 1018. POCL to monitor In live environment.
-                  AIS contravention/Data Integrity on                                                                       Pathway to re-issue Incident analysis by 1118 and Mark Burley
-TIP           378 the cash account (TIP)                    Low       Medium          10         Low      Medium   10       to expedite business Impact analysis.
-
-
-
-                                                                                                Page 1
-                                                                                                                                                                                         POL00028360
-                                                                                                                                                                                     POL00028360
-
-
-
-
-      POCL Confidential                                                          MEETING OUTPUT                                                                            12th Au     t'99
-      (meeting attended by POCL only)                        Acceptance Incidents Discussed at Mee ting 11th August
-
-  This table includes the following incident categories:
-          0 Agreed 'High severity by POCL and Pathway                     4 Monitoring with a view to close           8 Closed pending joint action
-          1 Agreed Medium' severity by POCL and Pathway                   5 Closed                                   9G Timely resolution forecast. To be reviewed at T3 workshop
-          2 Agreed 'Low severity by POCL and Pathway                      6 Closed pending Pathway action            9B Timely resolution In doubt. To be reviewed at T3 workshop
-          3 To be addressed at TIP meeting on 29 July                     7 Closed pending POCL action               10 Incident status and/or severity disputed
-
-
-
-
-                                                            BEFORE 11/8 MEETING              AFTER 1118 MEETING
-                                                          every Severity                 SeverIty Soverity
-A_Sec : '     At .. 'Descriptlori .                      (PWY)    (POCL)' Category        (PWY)'   (POCL) Category. • Remarks
-                                                                                                                      Severity downgraded because:
-                                                                                                                       • Originally part of 376
-                                                                                                                       • POCL understands cause
-                                                                                                                       • Rectification plan presented and agreed
-                                                                                                                       • ICL put in fix 10/8
-                                                                                                                       • outstanding issue on reconciliation covered by 376
-                  Loss of data integrity when changing                                                                    Incident to be removed from this list
-TIP           410 products from core to non-core         None      High          10        None        Low
-                                                                                                                         Severity downgraded because:
-                                                                                                                          • Originally part of 376• POCL understands cause
-                                                                                                                          • R tificatihngitmdprcae~ed and agreed
-                                                                                                                          • RticpGtatidixgllt8prosented and agreed
-                                                                                                                          • outstanding Issue on reconciliation covered by 376
-                                                                                                                          • outside Core Observation Period (confirmed position John
-                                                                                                                          Cook)
-
-                                                                                                                          Incident to be removed from this list
-                  Correspondence server not
-TIP           411 replicating properly in bulk           None      High          10        None        Low
-
-
-
-
-                                                                                            Page 2
-                                                                                                                                                                                                    POL00028360
-                                                                                                                                                                                                POL00028360
-
-
-
-          POCL Confidential                                                               MEETING OUTPUT                                                                              12th Au     t'99
-          (meeting attended by POCL only)                              Acceptance Incidents Discussed at Mee ting 11th August
-  This table includes the following Incident categories:
-              0 Agreed 'High' severity by POCL and Pathway                         4 Monitoring with a view to close           8 Closed pending joint action
-              1 Agreed 'Medium' severity by POCL and Pathway                       5 Closed                                   9G Timely resolution forecast. To be reviewed at T3 workshop
-              2 Agreed 'Low' severity by POCL and Pathway                          6 Closed pending Pathway action            9B Timely resolution in doubt. To be reviewed at T3 workshop
-              3 To be addressed at TIP meeting on 29 July                          7 Closed pending POCL action               10 Incident status and/or severity disputed
-
-
-
-
-                                                                ;..k
-                                                                   BEFORE 11/8 MEETING                AFTER 11/8'MEETING
-                                                                       ., over y                  Severity Severity
-•
-A_5pec            Al   Descrlptlon                            ..(P.WY)   (POCL) Category           (RWY)   ;(POCL) ' Category.   Remarks
-                                                                                                                                 Severity under review, may be downgraded:
-                                                                                                                                   • Rectification plan Implemented and results show worked
-                                                                                                                                   • Some remaining incidents due to reference data
-                                                                                                                                   • 1 incident reported possibly due to kit swap out re-
-                                                                                                                                   introducing pro-LT2 shv                            ,
-                                                                                                                                   • Action with Pathway to investigate
-                                                                                                                                   • possible that combination of builds have not been tested
-                      Receipts and payments not equal on                                                                           properly
-EPOSS             211 cash account                              None       Medium         10        None      Medium     10
-                                                                                                                                  Incident to be removed from this list and closed:
-                                                                                                                                   • Rectification plan Implemented via LT2
-                      Differences in reprints of Cash                                                                              • No incidences since LT2
-EPOSS             394 Account report & the original report      None       Medium         10        None       None       5
-
-
-
-
-                      Training course Cash Account                                                                                POCL training report issued to Pathway confirming 'high'
-Training          218 module inadequate.                       Medium       High          10       Medium       High     10       severity. Pathway to respond.
-
-
-
-
-                      Systems management (not all 299
-Rollout           372 offices successfully upgraded to LT2)     None       High/Med       10        None      Medium     10       In dispute on severity and rectification.
-
-
-
-
-                                                                                                     Page 3
-                                                                                                                                                                                                   POL00028360
-                                                                                                                                                                                             POL00028360
-
-
-
-
-       POCL Confidential                                                               MEETING OUTPUT                                                                              12th Au       t'99
-       (meeting attended by POCL only)                           Acceptance Incidents Discussed at Mee tang 11th August
-  This table Includes the following Incident categories:
-           0 Agreed'High severity by POCL and Pathway                      4 Monitoring with a view to close              8 Closed pending Joint action
-           1 Agreed'Medium' severity by POCL and Pathway                   5 Closed                                      9G Timely resolution forecast. To be reviewed at T3 workshop
-           2 Agreed Low' severity by POCL and Pathway                      6 Closed pending Pathway action               9B Timely resolution in doubt. To be reviewed at T3 workshop
-           3 To be addressed at TIP meeting on 29 July                     7 Closed pending POCL action                  10 Incident status and/or severity disputed
-
-
-
-
-                                                             BEFORE 1118 MEETING               AFTER 11/8 MEETING
-                                                           every:' ,  every,                 ever.    Severity
-
-
-
-
-                                                                                                   ;
-
-
-
-
-                                                                                                       r
-A Spec         Al         p
-                    Description                           (PWY) '. ' POCL).,                (PWY) ..: _(POCL) Category       Remarks
-
-
-
-
-                                                                              Catego
-                   Physical Security of Lytham St Annes                                                                     Security grills still not installed; POCL will close incident when
-Security       368 Computer Room                           Low       Medium            10    Low           Medium   10      Pathway confirm Installation is complete.
-
-
-
-                                                                                                                            Pathway rectification plan agreed . Bob Booth to furnish Ruth
-                   Deficiency in physical security at                                                                       Holleran/Min Burdett with wording to sustain 'medium'
-Security       391 Bootle &Wigan                           Low       Medium            10    Low           Medium   10      severity.
-
-
-
-                                                                                                                            Pathway analysis doomed unsatisfactory. Bob Cragg to
-                                                                                                                            provide description and severity assessment by 4pm 1118.
-APS            390 Recovery of APS transactions            Low       Medium            10    Low           Medium   10      Calum Craig to expedite.
-
-
-
-                                                                                                                             Mark Burley to speak with TP 1118 to ascertain if number of
-                   Duplicate AP transaction reference                                                                        instances of this Incident is sufficiently low to warrant
-APS            395 numbers                                 Low       Medium            10    Low           Medium   10       downgrading severity.
-
-
-
-
-                                                                                             Page 4
-                                                                                                                                                                                                  POL00028360
-
-
-                                                                                                                                                                                          POL00028360~
-
-
-      POCL Confidential                                                            MEETING OUTPUT                                                                                 121h Au       t'99
-      (meeting attended by POCL only)                              Acceptance Incidents Discussed at Mee ting 11th August
-
-  This table includes the following Incident categories:
-          0 Agreed'High' severity by POCL and Pathway                          4 Monitoring with a view to close          8 Closed pending joint action
-          1 Agreed 'Medium' severity by POCL and Pathway                       5 Closed                                  9G Timely resolution forecast. To be reviewed at T3 workshop
-          2 Agreed'Low' severity by POCL and Pathway                           6 Closed pending Pathway action           9B Timely resolution in doubt. To be reviewed at T3 workshop
-          3 To be addressed at TIP meeting on 29 July                          7 Closed pending POCL action              10 Incident status and/or severity disputed
-
-
-
-
-                                                              BEFORE 1118'MEETING                 AFTER 11/8 MEETING
-                                                           Severity   over                      every Severity
-A_Spec        Al   Description                           I (PWY)    .(POCL)4 Category          (PWY)   (POOL)' . Category,: Remarks
-
-
-                                                                                                                            Pathway provided new analysis; POCL to review. Pathway to
-                                                                                                                            ring around outlets to confirm diagnosis based on Week 19
-                  Counter system subject to lockups &                                                                       calls. Dave McLaughlin review of figures from Horizon log
-POCL Infra    298 screen freezes requiring re-boots.         Low        High         10          Low        High    10      confirms POCL severity assessment.
-                                                                                                                            Incident to be removed from this list and closed:
-                                                                                                                              • Pathway suggested A1300 was part of AI298
-                                                                                                                              • Following POCL investigation, unable to substantiate
-                                                                                                                              A1300 In own right
-POCL Infra    300 System lockups on printer failure         None        High          10        Nono       None     5
-                                                                                                                             Incident to be removed from this list and closed:
-                                                                                                                              • Pathway suggested A1301 was part of A1211
-                                                                                                                              • AI211 is now'low' severity and there have be no further
-                                                                                                                              instances of doubling up of openeing balance problem
-                                                                                                                              since LT2
-POCL Infra    301 Printer failure integrity problems         None       High          10        None        None     5
-
-
-
-                                                                                                                             Pathway to re-Issue incident analysis. John Cook and Bob
-                  Provision of tech. documentation for                                                                       Booth to discuss further. John Cook to provide justification for
-POCL Infra    314 TP suppliers Inadequate.                   None      Medium         10        None      Medium    10       M by 4:001118
-
-
-
-
-                                                                                                 Pago 5
-                                                                                                                                                                                                  POL00028360
-                                                                                                                                                                                              POL00028360
-
-
-
-
-       POCL Confidential                                                                MEETING OUTPUT                                                                              12th Au     t'99
-       (meeting attended by POCL only)                               Acceptance Incidents Discussed at Mee ting 11th August
-  This table includes the following incident categories:
-             0 Agreed 'High' severity by POCL and Pathway                        4 Monitoring with a view to close         8 Closed pending joint action
-             1 Agreed'Medium' severity by POCL and Pathway                       5 Closed                                 9G Timely resolution forecast. To be reviewed at T3 workshop
-             2 Agreed'Low' severity by POCL and Pathway                          6 Closed pending Pathway action          9B Timely resolution in doubt. To be reviewed at T3 workshop
-             3 To be addressed at TIP meeting on 29 July                         7 Closed pending POCL action             10 Incident status and/or severity disputed
-
-
-
-
-                                                                 BEFORE 1118 MEETING '!          AFTER 1118 MEETING
-                                                               every, .. Severity              every, Severity
-A_Spec '        Al    Description                             (PWY)      (POCL) Category - .,i(PWY). ' (POCL) Category        Remarks
-
-
-
-                                                                                                                             POCL to respond to Pathway by close of business 1118. MinB
-                    Scanner reliability in relation to OBCS                                                                  to discuss with Kevin Corrigan. POCL may downgrade
-POCL Infra      369 transactions                              None      HighiMed       10         None      Medium   10      severity to'low'.
-                                                                                                                             Incident to be removed from this list:
-                                                                                                                               • POCL reviewed results of Pathway rectification plan
-                                                                                                                               • Generally satisfactory but a few issues still outstanding
-POOL Infra      384 Sequent failover time                     None        High         10         None        Loar
-
-
-                                                                                                                             Pathway rectification plan needs to be more quantitative
-                                                                                                                             regarding resources and more detailed regarding actions to be
-                   Failure of the Horizon System                                                                             implemented to improve service levels for LT2. Dmac & MinB
-Service Levels 408 helpdesk to support the network             Low       Medium        10         Low       Medium   10      to develop Business Impact
-
-
-
-
-                                                                                                  Page 6
-                                                                                                  POL00028360
-                                                                                                POL00028360
-
-                                                                   (Z,, t4 i
-.-.--                                                                                      t2   18 k
-
-   O                                                                                 13 AUG 1999 -- g6O
-        Summary of Overall Position
-
-        1. Position at end of last Acceptance workshop on 10 August (Recognised by ICL
-           Pathway).
-           The last of the 3 acceptance incident meetings between POCL and ICL Pathway
-           concluded with the POCL Hotlist containing:
-
-           Disputed Acceptance Incidents:
-                8 High      (one of these 376, was previously agreed as high)
-                2 High/Medium
-               12 Medium (two of these were previously agreed medium)
-               22
-
-          However, a lot of work was due to be complete during 11 August, and a revised
-          position is now proposed by POCL.
-
-        2. Results of work on 11 August
-           The POCL review of the actions today has concluded that of the disputed
-           acceptance incidents
-
-        Chanties POCL would accent
-
-        High's closed        2     (300, 301)
-        high's to low        3     (410, 411 [both subject to 376 actions], and 384)
-        Medium closed        1     (394)
-        Medium to low        1     (211)
-
-
-          These are shown in attachment 1
-
-        3. Position POCL enters Management Resolution Meeting
-
-        3 High          - 376     Data integrity on TIP files
-                        - 298     System instability (lockups and reboots)
-                        -218      Training
-        12 Medium "               (including the two former high/med
-
-
-        The summary of acceptance incidents table is shown in attachment 2      r'
-
-        On this basis, grounds for not accepting will rest on:
-        ■ the 3 disputed high severity incidents
-        ■ inability to agree resolution plan for the medium Acceptance incidents.
-                                                                                           POL00028360
-                                                                                         POL00028360
-
-
-
+Incident to be removed from this list
+Correspondence server not
+
+replicating properly in bulk None High 10 None Low
+
+TIP 4
+
+Page 2
+
+POCL Confidential
+(meeting attended by POCL only)
+
+Acceptance Incidents Discussed at Meeting 11th August
+
+This table includes the following incident categories:
+
+0 Agreed ‘High’ severity by POCL and Pathway
+
+1 Agreed ‘Medium’ severity by POCL and Pathway
+
+2 Agreed ‘Low’ severity by POCL and Pathway
+
+MEETING OUTPUT
+
+4 Monitoring with a view to close
+5 Closed
+6 Closed pending Pathway action
+
+8 Closed pending joint action
+9G Timely resolution forecast. To be reviewed at T3 workshop
+9B Timely resolution in doubt. To be reviewed at T3 workshop
+
+12th ‘“é ‘99
+
+POL00028360
+POL00028360
+—q
+
+3 To be addressed at TIP meeting on 29 July 7 Closed pending POCL action 10 Incident status and/or severity disputed
+BEFORE 11/8 MEETING AFTER 11/8 MEETING’
+Pa 7 7 a q yf, Seventy |-Soverlty |... | Soverlty | Seventy; 1 7 1
+A. Spec LAL! | Description 0 Lr SL (PWY)" | (POCL): [Category | (PWY): | \(POCL) “|Category.:| Remarks - * ie : 2
+Severity under review, may be downgraded:
+* Rectification plan Implemented and results show worked
+* Some remaining incidents due to reference data
+* 1 incident reported possibly due to kit swap out re-
+Introducing pre-LT2 shy
+* Action with Pathway to investigate
+* possible that combination of builds have not been tested
+Receipts and payments not equal on properly
+|EPOSS. 211 |cash account None Medium 10 None__|_Medium 10
+Incident to be removed from this list and closed:
+pin i ints of ash * Rectification plan implemented via LT2
+ifferences in reprints of Cas! 7
+IEPOSS 394 |Account report & the original report__| None _| Medium | __10 None_| None 5 Notnokieneas sinoal LTS
+Training course Cash Account POCL training report issued to Pathway confirming ‘high’
+Training 218 |module inadequate. Medium High 10 Medium. High 10 severity. Pathway to respond,
+Systems management (not all 299
+Rollout 372 |offices successfully upgraded toLT2) | None} High/Med 10 None Medium 10 In dispute on severity and rectification.
+
+Page3
+
+POCL Confidential
+(meeting attended by POCL only)
+
+Acceptance Incidents Discussed at Meeting 11th August
+
+This table includes the following incident categories:
+
+POL00028360
+POL00028360
+
+MEETING OUTPUT 42th s”
+
+0 Agreed 'High’ severity by POCL and Pathway 4 Monitoring with a view to close 8 Closed pending Joint action
+1 Agreed ‘Medium' severity by POCL and Pathway 5 Closed 9G Timely resolution forecast. To be reviewed at T3 workshop
+2 Agreed ‘Low’ severity by POCL and Pathway 6 Closed pending Pathway action 9B Timely resolution in doubt. To be reviewed at T3 workshop
+3 To be addressed at TIP meeting on 29 July 7 Closed pending POCL action 10 Incident status and/or severity disputed
+BEFORE 11/8 MEETING |!" AFTER 11/8 MEETING .
+; Te Severity] Severlty | — “‘Soverity | Soverity =
+A: Spec Al_|:Description ! (PWY) __ | (POCL):|Category. |. (PWY) | (POCL) [Category | Remarks ie
+Physical Security of Lytham St Annes Security grills still not installed; POCL will close Incident when
+Security 368 |Computer Room Low Medium 10 Low Medium. 10 Pathway confirm installation Is complete.
+Pathway rectification plan agreed . Bob Booth to furnish Ruth
+Deficiency In physical security at Holleran/Min Burdett with wording to sustaln ‘medium’
+Security 391 [Bootle & Wigan Low Medium 10 Low Medium 10 severity.
+Pathway analysis deemed unsatisfactory. Bob Cragg to
+provide description and severity assessment by 4pm 11/8.
+APS 390 {Recovery of APS transactions Low Medium. 10 Low Medium 10 Calum Craig to expedite.
+Mark Burley to speak with TP 11/8 to ascertain if number of
+Duplicate AP transaction reference instances of this incident Is sufficiently low to warrant
+JAPS 395 [numbers Low Medium 10 Low Medium. 10___|downgrading severity.
+
+Page 4
+
+POL00028360
+
+POL00028360
+POCL Confidential MEETING OUTPUT 12th ‘é ‘99
+(meeting attended by POCL only) Acceptance Incidents Discussed at Meeting 11th August .
+This table includes the following incident categories:
+0 Agreed ‘High’ severity by POCL and Pathway 4 Monitoring with a view to close 8 Closed pending joint action
+1 Agreed ‘Medium’ severity by POCL and Pathway 5 Closed 9G Timely resolution forecast. To be reviewed at T3 workshop
+2 Agreed ‘Low’ severity by POCL and Pathway 6 Closed pending Pathway action 9B Timely resolution in doubt. To be reviewed at T3 workshop
+3 To be addressed at TIP meeting on 29 July 7 Closed pending POCL action 10 Incident status and/or severity disputed
+BEFORE 11/8 MEETING - \ AFTER 11/8 MEETING
+orn? Ty. P Severity ] “Severity |. ~~ | Severlty 7 Severity al x: 5 T
+A_Spec ‘Al_| Description ee te et i} (PWY)-_|_(POCL) “|Category "| (PWY) | (POCL)' [Category -'| Remarks A
+Pathway provided new analysis; POCL to review. Pathway to
+ring around outlets to confirm diagnosis based on Week 19
+[Counter system subject to lockups & calls. Dave McLaughlin review of figures from Horizon log
+/POCL Infra 298 |screen freezes requiring re-boots. Low High 10 Low High 10 ___|confirms POCL severity assessment.
+incident to be removed from this list and closed:
++ Pathway suggested AI300 was part of Al298
++ Following POCL investigation, unable to substantiate
+AI300 In own right
+POCL Infra. 300 |System lockups on printer failure None High 10 None None 5
+Incident to be removed from this list and closed:
++ Pathway suggested AI301 was part of Al211
+* Al211 Is now ‘low’ severity and there have be no further
+Instances of doubling up of openeing balance problem
+. since LT2
+POCL Infra 301 _|Printer failure Integrity problems None High 10 None None 5
+Pathway to re-Issue Incident analysis. John Cook and Bob
+Provision of tech. documentation for Booth to discuss further. John Cook to provide justification for]
+POCL Infra 314 [TP suppliers Inadequate. None Medium 10 None__| Medium 10 IM by 4:00 11/8
+Page 5
+
+POCL Confidential
+(meeting attended by POCL only)
+
+Acceptance Incidents Discussed at Meeting 11th August
+
+This table includes the following incident categories:
+
+0 Agreed ‘High’ severity by POCL and Pathway
+
+MEETING OUTPUT
+
+4 Monitoring with a view to close
+
+POL00028360
+
+POL00028360
+
+8 Closed pending joint action
+
+12th ses
+
+1 Agreed ‘Medium' severity by POCL and Pathway 5 Closed 9G Timely resolution forecast. To be reviewed at T3 workshop
+2 Agreed ‘Low’ severity by POCL and Pathway 6 Closed pending Pathway action 9B Timely resolution In doubt. To be reviewed at T3 workshop
+3 To be addressed at TIP meeting on 29 July 7 Closed pending POCL action 10 Incident status and/or severity disputed
+BEFORE 11/8 MEETING: ! AFTER 11/8 MEETING —*
+re z 7 TET 7 Severity, ].. Severity r Severity] Severity 5 z FD
+A_Spec Al_.| Description 4 HPWY) ||" (POCL)- [Category (PWY).-| (POCL) [Category | Remarks
+IPOCL to respond to Pathway by close of business 11/8. MinB
+Scanner reliability in relation to OBCS to discuss with Kevin Corrigan. POCL may downgrade
+POCL Infra 369 |transactions None High/Med 10 None Medium 10 severity to ‘low’.
+incident to be removed from this list :
+* POCL reviewed results of Pathway rectification plan
+* Generally satisfactory but a few issues still outstanding
+POCL Infra 384 |Sequent failover time None High 10 None Low,
+Pathway rectification plan needs to be more quantitative
+regarding resources and more detailed regarding actions to be|
+Failure of the Horizon System Implemented to improve service levels for LT2. Dmac & MinB
+Service Levels} 408 {helpdesk to support the network Low Medium 10 Low Medium. 10___|to develop Business impact
+
+Page 6
+
+Frow Rote bllocn, 21 2144
+
+43 AUG 1999 - 86°
+
+Summary of Overall Position
+
+1. Position at end of last Acceptance workshop on 10 August (Recognised by ICL
+Pathway). Ge
+The last of the 3 acceptance incident meetings between POCL and ICL Pathway
+concluded with the POCL Hotlist containing:
+
+Disputed Acceptance Incidents:
+8 High (one of these 376, was previously agreed as high)
+2 High/Medium
+12 Medium (two of these were previously agreed medium)
+22
+
+However, a lot of work was due to be complete during 11 August, and a revised
+position is now proposed by POCL.
+
+'2. Results of work on 11 August
+
+The POCL review of the actions today has concluded that of the disputed
+acceptance incidents
+
+Changes POCL would accept
+
+High’s closed 2 (300, 301)
+
+high’s to low 3. (410, 411 [both subject to 376 actions], and 384)
+Medium closed 1 (394)
+
+Medium to low 1 (211)
+
+These are shown in attachment 1
+
+3. Position POCL enters Management Resolution Meeting
+
+3 High -376 Data integrity on TIP files
+. -298 System instability (lockups and reboots)
+-218 Training
+12 Medium (including the two former high/med
+
+The summary of acceptance incidents table is shown in attachment2
+
+On this basis, grounds for not accepting will rest on:
+™ the 3 disputed high severity incidents
+™ inability to agree resolution plan for the medium Acceptance incidents.
+
+POL00028360
+POL00028360
 
 The most worrying Incident is : 298 System Instability
-• Pathway have'not explained satisfactorily why these occur
-• they have requested an extension to the time to conclude their analysis. This gives
-  us insufficient time to respond so we have refused
-  the frequency of occurrence has not been clearly established or agreed
-       • we have rung around samples of offices
-       • we have received the ICL HSH logs while awaiting Pathway analysis
-       • we have suggested ways for Pathway to get more detail on freezing
-• Some of these occurrences maybe the responsibility of POCL (the SPMR rebooting
-  without good reason)                                                          -
-• this could cost £1.8m per annum and inconvenience 1 million customers a month.
+¢ Pathway have 'not explained satisfactorily why these occur
+they have requested an extension to the time to conclude their analysis. This gives
+us insufficient time to respond so we have refused
+© the frequency of occurrence has not been clearly established or agreed
+¢ we have rung around samples of offices
+© we have received the ICL HSH logs while awaiting Pathway analysis
+¢ we have suggested ways for Pathway to get more detail on freezing
+© Some of these occurrences maybe the responsibility of POCL (the SPMR rebooting
+without good reason) ‘
+¢ this could cost £1.8m per annum and inconvenience 1 million customers a month.
 
 The Clear High is: 376 TIP - Data Integrity
 376 is a clear high (as it was originally agreed by Pathway as high) but Pathway are
 making progress:
-        Pathway had a codified work around:
-        • implemented 3/8
-        • Pathway will not confirm that this solves all the problem
-        • We need a full Accounting period to be sure, but will accept 2 full clear
-           weeks. (We have had periods of low occurrences, so one week of zero
-           occurrences could be followed by a non zero week). The second full week
-           will occur on 18u' cash account and would flow through our systems for
-           checking on 2311.
+Pathway had a codified work around:
+& implemented 3/8
+™ Pathway will not confirm that this solves all the problem
+™ We need a full Accounting period to be sure, but will accept 2 full clear
+weeks. (We have had periods of low occurrences, so one week of zero
+occurrences could be followed by a non zero week). The second full week
+will occur on 18" cash account and would flow through our systems for
+checking on 234,
 
-We will only get the Pathway root cause analysis today 11`x'' Pathway claim they will
-have an adequate rectification plan by Friday 13`h. These problems are caught by
-"matching" at TIP, but this facility will not be available in roll out.
+We will only get the Pathway root cause analysis today 11"" Pathway claim they will
+
+have an adequate rectification plan by Friday 13". These problems are caught by
+
+“matching” at TIP, but this facility will not be available in roll out.
+
 So POCL want:
+
 a) a solution that meets the requirements: i.e. a full reconciliation in the Pathway
-   domain (before the data gets to TIP)
+domain (before the data gets to TIP)
+
 b) to agree the rectification plan
+
 c) the rectification proven
 
 NB. Problem 891 looked good after 1 week but then became clear the rectification
 had failed.
 
-The high cost of work around incident: 218 Training
-                                                                         r
-
-
-
-
+The high cost of work around incident: 218 Training :
 Training has not been adequate. Training is not just the course but other events. With
 ICL, we have worked on a range of solutions. While these solutions have improved
 the position, staff have only been able to cope as well as they do, because of HFSO
 support.
+
 This is shown in attachment 3
 
 Details of all the disputed Medium and High severity incidents will be sent by Ruth
 Holleran in time for the meeting.
 
+POL00028360
+POL00028360
 
+POL00028360
+POL00028360
 
+Criterion
 
-                                       2
-                                                                                                      POL00028360
-                                                                                                    POL00028360
+Severity from to
 
+Reason
 
+410 Loss of data
+integrity when.
+changing products
+from core to non-core
 
+High to low
 
-                         Severity from to                    Reason
-          Criterion
-410 Loss of data         High to low                         • Originally part of 376
-integrity when                                               • POCL understands cause
-changing products                                            • Rectification plan presented and
-from core to non-core                                          agreed
-                                                             • ICL put in fix 10/8
-                                                             • outstanding issue on
-                                                               reconciliation covered by 376
+© Originally part of 376
 
-411 Correspondence       High to Low/None                    • Originally part of 376
-server not replicating                                       • POCL understands cause
-properly in bulk                                             • Rectification plan presented and
-                                                               agreed (confirm BoBo)
-                                                             • outstanding issue on
-                                                               reconciliation covered by 376
-                                                             • outside core observation period
-                                                                confirmed position John Cook)
-211 Receipts not =       Medium to-Low- contested, See Bob   • Rectification plan implemented
-payments                 Booth Memo                            and results show worked
-                                                             • Some remaining incidents due to
-                                                               reference data
-                                                             • 1 incident reported possibly due
-                                                               to kit swap out re-introducing
-                                                               pre-LT2 slw
-                                                             • Action with Pathway to
-                                                               investigate
-                                                             • possible that combination of
-                                   •                           builds have not been tested
-                                                               properly
-                                                             • reduced-to-low-even-witlrtltiS
-                                                               action-outstanding
-394 differences          Medium to closed                    • rectification plan implemented
-between reprints of                                            via LT2
-cash account                                                 • No incidences since LT2
-300 System lockup on     High to closed                      • Pathway suggested this was part
-printer failure                                                of AI298
-                                                             • Following POCL investigations
-                                                               unable to substantiate AI300
-                                                               incident in own right
-                                                             • Will close provided Pathway
-                                                               consider printer incidents part of
-                                                               A1298
-301 printer failure      High to closed                      • Pathway Suggested that A1301
-resulting in data                                              was a cause of A.211
-integrity loss                                               • As AI21I now low and no further
-                                                               incidents of doubling up of
-                                                               opening balance problem since
-                                                               LT2 - now closed
-384 scquent failovcr     High to low                         • POCL reviewed results of
-                                                               rectification plan
-                                                             • generally satisfactory but a few
-                                                               issues still outstanding
+© POCL understands cause
 
+© Rectification plan presented and
+agreed
 
+¢ ICL put in fix 10/8
 
+© outstanding issue on
+reconciliation covered by 376
 
-                                              3
-                                                                                                                                                                               POL00028360
-                                                                                                                                                                           POL00028360
+411 Correspondence
+server not replicating
+properly in bulk
 
+High to Low/None
 
-                             I
+© Originally part of 376
 
+¢ POCL understands cause
 
+¢ Rectification plan presented and
+agreed (confirm BoBo)
 
+© outstanding issue on
+reconciliation covered by 376
 
-                                                   ACCEPTANCE INCIDENT SUMMARY Q 11T11 AUGUST 1999
-High Priority I
-A Spec Al           Description                 Severity   Business Impact                       Status                                  Proposed Actions
+© outside core observation period
+(confirmed position John Cook)
 
-TIP        376      Derived cash account        High                                             Pathway claim to have delivered an      ICL have timed out on the retest so
-                    from daily txns sent to                                                      additional fix. They will have          this is a failure to meet the
-                    TIP is not equal in all                                                      evidence from live environment on       acceptance conditions.
-                    cases to the weekly                                                          13/8. POCL will have evidence on        Alternatively it could be proposed
-                    electronic cash account                                                      16/8 but need at least 3 weeks          to
-                                                                                                 continuous observation i.e. cannot      1. Agree additional time required
-                                                                                                 be proven prior to 18/8.                    to verify corrections in live
-                                                                                                 In addition Pathway need to deliver     2. Agree time for Pathway to
-                                                                                                 an internal reconciliation process to       deliver their internal
-                                                                                                 check daily txn files and the weekly        reconciliation and the period
-                                                                                                 cash account always agree.                  over which it needs to be
-                                                                                                 External auditors expected to               observed in live
-                                                                                                 confirm this requirement
+211 Receipts not =
+payments
 
-POCL       298      Counter system is subject   High       A failure rate per terminal of one    Pathway cannot yet provide a            1. Need better analysis of
-Infra               to an unacceptable                     per month in full steady,state will   comprehensive root cause analysis          incidents reported to HSH from
-                    frequency of lockups                   equate to 30000 lost hours of         but have claimed occurrence is             Pathway (and BSM)
-                    which requires reboot of               counter staff time per month          within industry tolerance which         2. Need comprehensive resolution
-                    terminal(s) affected.                  (40000 terminals x 45 minutes) or     POCL dispute e.g 76 system                 plan
-                                                           £1.8m per annum.                      freezes reported in week 19. Also       3. Establish whether Gartner,
-                    Al 300 (printer related                In addition the number of             there have recently been 164               Meta etc can provide
-                    lockups) now proposed                  customers impacted by the loss of     instances of HSH advising offices          benchmark comparisons
-                    as combined with this Al               serving time per month is up to I m   to reboot within a 5 day period.
-                                                                                                 This equates to a reboot per
-                                                                                                 terminal of one per month
+Medium te-Low- contested, See Bob
+Booth Memo
 
-Training   218      Training course for         High                                             Evidence evaluated from additional      Awaiting Pathway response to
-                    managers inadequate                                                          offices.                                BMc letter
-                                                                                                 BMc has written to J Dicks -
-                                                                                                 performance still not acceptable
-                                                                                                 due to high level of required
-                                                                                                 support in offices from HPSOs
+¢ Rectification plan implemented
+and results show worked
 
+© Some remaining incidents due to
+reference data
 
+© 1 incident reported possibly due
+to kit swap out re-introducing
+pre-LT2 s/w
 
+¢ Action with Pathway to
+investigate
 
-12/08/99   page 1
-                                                                                                                                                                               POL00028360
-                                                                                                                                                                           POL00028360
+* possible that combination of
+builds have not been tested
+properly
 
+e =reducedtetloweven-with-this
+action-outstanding:
 
-                                   u
+394 differences
+between reprints of
+cash account
 
-                                                                                                                                                                           0
-     Medium Priority Incidents
+Medium to closed
 
-     A_Spec     Al       Description                Severity   Business Impact                      Status                               Actions
+rectification plan implemented
+* via LT2
+¢ No incidences since LT2
 
-     Rollout    372      Quality of systems         Medium                                          Pathway resolution plan evaluated    Agree approach to retest or
-                         management (upgrade                                                        but cannot be satisfactorily         redemonstration of upgrade
-                         problems during LT2)                                                       demonstrated pre 18/8                processes ideally with greater
-                                                                                                                                         number of offices
+300: System lock up on
+printer failure
 
-     POCL       369      Scanner reliability in,    Medium                                          BA have raised issue with POCL       BA letter being evaluated
-     Infra               relation to OBCS                                                           regarding frequency of failure
-                         transactions
+High to closed
 
-     TIP        371      Late transactions over 9   Medium                                          Latest Pathway and POCL evidence     Awaiting latest evaluation
-                         days old on HAPS                                                           being evaluated to establish
-                         system                                                                     whether requirement is being met
+© Pathway suggested this was part
+of AI298
 
-     APS        390      Recovery of APS            Medium                                          Pathway resolution not yet
-                         transactions                                                               acceptable
-U)
-     APS        395      Duplicate AP transaction   Medium     Creation of duplicate transactions   Original problem now appears         Resolution needs confirmation
-                         reference numbers                     results in over or under payment     resolved but system remains
-                                                               with clients                         vulnerable to keying error.
-                                                                                                    Pathway verbal proposal has been
-                                                                                                    made to modify screen entry
+¢ Following POCL investigations
+unable to substantiate AI300
+incident in own right
 
-     TIP        361      Duplicate records and      Medium                                          Part of original incident appears    Pathway analysis and resolution
-                         files over TIP interface                                                   corrected by LT2 but duplicate AP    required
-                                                                                                    txns still occurring
+© Will close provided Pathway
+consider printer incidents part of
+A298
 
-     TIP        378      AIS contravention/data     Medium                                          Pathway claim fix provided and       Assess documentation and live
-                         integrity error orrcash                                                    evidence will be available by 13/8   experience on 13/8
-                         account
+301 printer failure
+resulting in data
+integrity loss
 
+High to closed
 
+¢ Pathway Suggested that AI301
+was a cause of A}211
 
-     Medium Priority Incidents continued
+¢ As AI211 now low and no further
+incidents of doubling up of
+opening balance problem since
+LT2 - now closed
 
+384 sequent failover
 
+High to low
 
-     12/08/99   page 2
-                                                                                                                                                       P0L00028360
-                                                                                                                                                   POL00028360
+© POCL reviewed results of
+rectification plan
 
+© generally satisfactory but a few
+issucs still outstanding
 
+High Priority Incidents
 
+ACCEPTANCE INCIDENT SUMMARY @ 11™ AUGUST 1999
 
-A Spec     Al       Description                Severity   Business Impact   Status                               Actions
+POL00028360
 
-Security   368      Physical security of       Medium                       Security grills not yet installed    Awaiting confirmation of action
-                    Lytham St Anncs                                                                              from Pathway
-                    computer room
+____ POL00028360
 
-Security   391      Deficiency in physical     Medium                       Resolution plan.not agreed with      Agree outstanding actions
-                    security at Bootle and                                  POCL
-                    Wigan
+ASpec AI Description Severity Business Impact Status Proposed Actions
+TIP 376 Derived cash account. * High + ~ Pathway claim to have delivered an ICL have timed out on the retest so
+from daily txns sent to additional fix. They will have this is a failure to mect the
+TIP is not equal in all evidence from live environment on —_ acceptance conditions,
+cases to the weekly 13/8, POCL will have evidence on —_Alternatively it could be proposed
+electronic cash account 16/8 but necd at least 3 weeks to
+. continuous observation i.e. cannot 1. Agree additional time required
+be proven prior to 18/8, to verify corrections in live
+In addition Pathway need to deliver 2. Agree time for Pathway to
+an internal reconciliation process to deliver their internal
+check daily txn files and the weekly reconciliation and the period
+cash account always agree. over which it needs to ‘be
+External auditors expected to observed in live
+confirm this requirement
+POCL 298 Counter system is subject High A failure rate per terminal of one Pathway cannot yet provide a 1, Need better analysis of
+Infra to an unacceptable per month in full steady, state will comprehensive root cause analysis incidents reported to HSH from
+frequency of lockups equate to 30000 lost hours of but have claimed occurrence is Pathway (and BSM)
+which requires reboot of counter staff time per month within industry tolerance which 2. Need comprehensive resolution
+terminal(s) affected. (40000 terminals x 45 minutes) or | POCL dispute e.g 76 system plan
+£1.8m per annum. freezes reported in week 19. Also 3. Establish whether Gartner,
+AI 300 (printer related In addition the number of there have recently been 164 Meta ete-can provide
+lockups) now proposed customers impacted by the lossof —_instances of HSH advising offices benchmark comparisons
+as combined with this AI serving time per month is up to 1m __ to reboot within a 5 day period,
+This equates to a reboot per
+terminal of one per month
+Training 218 Training course for High Evidence evaluated from additional Awaiting Pathway response to
+managers inadequate offices, BMc letter
+BMc has written to J Dicks -
+performance still not acceptable
+duc to high level of required
+support in offices from HFSOs
+12/08/99 page 1
 
-TIP        342      TIP data file delivery -   Medium                       Pathway rectification provided but   Agree closure process
-                    SLA breach                                              demonstration cannot be proved
-                                                                            prior to 18/8
+Medium Priority Incidents
 
-POCL       314      Provision of technical     Medium                       Pathway claim adequate detail has    Awaiting clarfication of POCL
-Infra               documentation for TP                                    been provided                        view
-                    suppliers inadequate                                    Contracts currently clarifying the
-                                                                            position
+POL00028360
+POL00028360
 
-Service    408      Failure of Horizon         Medium                       New HSH scripts only available for   Awaiting detailed Pathway
-Levels              System Help Desk to                                     review on 11/8                       proposals
-                    support the network                                     Call volume projections and
-                                                                            resource plans not available for
-                                                                            POCL assessment
+ASpec AI Description Severity Business Impact Status Actions
+Rollout 372 Quality of systems Medium Pathway resolution plan evaluated = Agree approach to retest or
+management (upgrade but cannot be satisfactorily redemonstration of upgrade
+problems during LT2) demonstrated pre 18/8 processes ideally with greater
+number of offices
+POCL 369 Scanner reliability in. Medium BA have raised issue with POCL BA letter being evaluated
+Infra relation to OBCS regarding frequency of failure
+transactions
+TIP 371 Late transactions over9 = Medium. Latest Pathway and POCL evidence Awaiting latest evaluation
+days old on HAPS being evaluated to establish
+system whether requirement is being met
+APS 390 Recovery of APS Medium Pathway resolution not yet
+transactions acceptable
+APS 395 Duplicate AP transaction Medium Creation of duplicate transactions Original problem now appears Resolution needs confirmation
+reference numbers results in over or under payment resolved but system remains
+with clients vulnerable to keying error,
+Pathway verbal proposal has been
+made to modify screen entry
+TIP 361 Duplicate records and Medium Part of original incident appears Pathway analysis and resolution
+files over TIP interface corrected by LT2 but duplicate AP —_ required
+txns still occurring
+TIP 378 AIS contravention/data Medium Pathway claim fix provided and Assess documentation and live
 
+integrity error orrcash
+account
 
+evidence will be available by 13/8
 
+experience on 13/8
 
-                                                  E
+Medium Priority Incidents continued
 
+12/08/99
 
-12/08/99   page 3
-
+page 2
+
+—
+
+POL00028360
+POL00028360 _
+
+A_Spece AI Description Severity Business Impact Status Actions
+Security 368 Physical security of Medium Sccurity grills not yct installed Awaiting confirmation of action
+Lytham St Annes from Pathway
+computer room
+Security 391 Deficiency in physical Medium Resolution plan not agreed with Agree outstanding actions
+security at Bootle and POCL
+Wigan
+TIP 342 TIP data file delivery - Medium * Pathway rectification provided but Agree closure process
+SLA breach demonstration cannot be proved
+prior to 18/8
+POCL 314 Provision of technical Medium Pathway claim adequate detail has = Awaiting clarfication of POCL
+Infra documentation for TP been provided view
+suppliers inadequate Contracts currently clarifying the «
+position
+o~ Service 408 Failure of Horizon Medium New HSH scripts only available for Awaiting detailed Pathway
+Levels System Help Desk to review on 11/8 proposals
+support the network Call volume projections and
+resource plans not available for
+POCL assessment
+Ss
+
+12/08/99 page 3.
+

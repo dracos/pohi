@@ -1,0 +1,707 @@
+FUJ00085864
+FUJ00085864
+
+| Bansal, Steve
+
+To:
+
+; McKeown. ‘kevin
+Sm SSC Duty Managert..
+From: Chambers, Anne O[/ UJITSU EXCHANGE SL GANIZRTIONIO XCHANGE ADMINISTRATIVE GROUP
+(FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=48A275057EBF49749F84B3B4B75]
+
+Sent: Thur 11/12/2015 5:20:07 PM (UTC)
+
+Subject: Outreach rems - further instances
+
+remin_2.txt
+
+Not sure who needs to know this, but just in case anyone is interested...
+| have found 4 more instances of the problem by scanning all the available BLE files (back to 14** May 2015). The analysis shows that
+the scan | did might not be sufficient to pick up all instances (if they remmed in currency but not cash at the same time). It could be
+
+redone if we need to be more confident that we have picked up all problems of this type.
+
+2 of the branches received TCs to correct the ‘miskeyed rems’ (presumably after contacting NBSC, or as a result of FSC noting an
+anomaly?). The other 2 remmed out a corresponding amount, to remove the discrepancy.
+
+lf the branches raised calls, they didn’t make it as far as TFS.
+
+Details attached (Gareth already has a copy of this).
+
+From: Chambers, Anne O
+
+Sent: 09 November 2015 1
+To: Parker, Steve <{_
+Cc: McKeown, Kevin
+<
+Subje
+
+ansal, Steve (BRAO1) <{ SSC Duty Manager
+
+17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666 -
+
+| have changed the wording as it is not as clear-cut as you would like.
+
+The issue affects only manual remittances and so is most likely to be encountered at outreach branches when completing a
+branch-to-branch remittance in. Out of the estate of around 11075 branches, there are currently around 950 branches
+where branch-to-branch rems are enabled; 473 of these are outreach branches.
+
+Examining the system, we have seen 5 occurrences in the last 3 months, all at outreach branches. We are not able to look
+back further.
+
+A receipt is printed for each rem in, and a transaction log search will show multiple rems for the same amount, each with
+different session numbers, so the branch is able to see that this problem has occurred.
+
+As | suspect the next thing | will be asked for is the affected branches, here they are:
+
+BRANCH Date AMOUNT (#) First session
+
+Number of rems
+
+106444 09-SEP-15 150
+
+820888
+110444 14-SEP-15 3000 816362 3
+214869 15-SEP-15 4000 23797 4
+224843 08-OCT-15 8000 12443 4
+207828 12-OCT-15 500 68293 5
+
+Anne
+
+FUJ00085864
+FUJ00085864
+
+external
+
+From: Parker, Steve
+Sent: 06 November 2015 08:54
+To: Chambers, Anne O <i
+Cc: McKeown, Kevin <
+
+‘Bansal, Steve (BRAO1) < SSC Duty Manager
+
+Subje: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666 -
+
+Anne,
+
+When we were talking about this last, you had some numbers which put the issue into perspective. Can you dig them out again on
+Monday please, I’m looking for something like: This issue is only seen at outreach branches, of which there are xxxxx (out of an
+estate of 11075 branches). Examining the system, we have seen x occurrences in the last 6 months.
+
+Thanks
+
+Steve
+
+From: McKeown, Kevin
+
+Sent: 05 November 2015 17:40.
+To: Bansal, Steve (BRAO1) <i
+<i
+Subjer
+
+_t SSC Duty Manager
+
+‘W: 17991774 { 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666 -
+Steve B
+
+Following on from the Computer Weekly article, we are aware of this issue. There is a fix pencilled in for release 13.05 — Peak
+246997.
+
+Kevin
+
+http://www.computerweekly.com/news/4500256860/Communication-Workers-Union-warns-subpostmasters-of-flaw-in-Post-
+Office-Horizon-accounting-system
+
+From: Chambers, Anne O
+
+Sent: 0S November 2015 17:36
+
+To: McKeown, Kevin
+
+Subject: FW: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666 -
+
+PC0246997 — fix proposed for 13.05
+
+From: Chambers Anne O
+
+Sent: 26 Octobe:
+To: Wicks Tony
+
+__GRO
+
+SSC Duty Manager <i Parker Steve
+
+Tony,
+
+As Steve pointed out, | raised KEL acha621P. | will amend it to include the avoidance action but | don’t think it is realistic to expect
+FUJ00085864
+FUJ00085864
+
+postmasters to avoid the problem by not pressing Enter multiple times; they are presented with a screen which tells them to press
+Enter to exit and so they do.
+
+To get out of the loop they have to press Cancel which gives them an error message saying they have not printed all their receipts
+(not true).
+
+| also tried to be careful about any recommendations as to what they should do about the discrepancy, we cannot advise on this as
+we don’t know whether there would be any knock-on effects (for example on POLSAP). All | did was point out what had happened
+elsewhere. NBSC (probably with POL FSC) need to advise on this. If it is found that remming out again does cause additional
+problems, other alternatives may need to be considered.
+
+(’m surprised this has not been reported to us before. Although it’s not in an area that has been changed in recent years, it may be
+that the info left lying around after the incomplete logon is now different and is more likely to result in the wrong screen being
+displayed.
+
+Anne
+
+GRO
+
+external ¢
+
+From: Parker Steve
+
+Sent: 23 October 2015 12:42
+To: Wicks Tony r -
+Cc: Bansal Steve (BI Chambers Anne O <i
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # [358666 -
+
+Tony
+Anne raised acha621P before going on leave
+Steve
+
+From: Wicks Tony
+
+Sent: 21 October 2015 10:05
+To: Chambers Anne O
+Cc: Bansal Steve (BRAO1) <f77-"" “3
+Subject: FW: 17991774 | 2248433 reach Service - hor
+
+Hi Anne,
+Vm aware you are on leave until Monday 26" October and I’m on leave on the Monday to Wednesday next week (W/C 26'"),
+
+Please see the e-mail chain below. From Peak and the e-mail chain | can see you did much of the investigation on this incident and
+as you can see in the following e-mail it was concluded that Post Master could be advised how to avoid this happening and what to
+do if they did get into a transaction discrepancy situation.
+
+Could you please produce a KEL covering this incident advising of the avoidance actions.
+
+Thank you
+Tony
+
+Tony Wicks
+
+Problem Manager
+
+Managed Infrastructure Services
+FUJITSU
+
+Lovelace Road, Bracknell, Berkshire. RG12.8SN
+
+FUJ00085864
+FUJ00085864
+
+From: Wicks Tony
+Sent: 20 October 2015
+To: Bothick Sandie <_.
+Cc: Bansal Steve (BRAO1) <;
+
+<i iq !
+
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666 -
+
+GRO
+
+Chambers Anne O
+
+Hi Sandie,
+
+Looking at Peak PC0246949 it appears to be derived from 17991774 and | found TfS incident A105041260. There is no Problem
+Record raised for this, however Peak PC0246997 was used by Development to investigate this. A code fix has been developed, but
+requires official testing and releasing. I've made enquires and unfortunately LST are unable to take the fix for testing in Release
+12.88 without significantly impacting that release to live.
+
+As the condition can be avoided by Post Masters, i.e., by making them aware of the condition and advising them not to press enter
+multiple times, | propose that this is KEL’ed and included in the counter Release 13.05.
+
+Regards
+Tony
+
+Tony Wicks
+
+Problem Manager
+
+Managed Infrastructure Services
+FUJITSU
+
+Lovelace Road, Bracknell, Berkshire. RG12 8SN
+
+From: Bothick Sandie
+
+Sent: 20 October 2015 12:06
+
+To: POA DutyManager
+
+Cc: Bansal Steve (BRAO1) <: SC Duty Manager<_ SGRO-
+Subject: FW: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666 -
+
+Hi POA DM
+Have PEAK make you aware of this issue?
+Do you have a PR open — please see below from Atos in RED.
+
+Below is what I sent to Atos earlier —
+Hi Katie
+
+Im coming in blind on this — Looking at the incident this is our update from PEAK
+
+TfS Connector 15/10/2015 15:57 00:00:00 Provider Desk Resolution POA-Horizon
+
+Provider Ref; PC0246949
+
+Resolution Details: Update by Anne Chambers:Category 70 -- Final -- Avoidance Action Supplied: We have found that if there is a logout before a
+user has fully logged on, then subsequently a pouch is remmed in manually (most likely at an outreach branch), then after the rem in slip has
+been printed, the same screen is redisplayed and the user is likely to press Enter again and duplicate the remittance, possibly several times. A
+different screen should be displayed which would prevent this happening.
+
+Arrem in slip is printed each time, showing the same details but different session numbers, and a transaction log search confirms the repeated
+rems.
+
+This is not an area that has changed for several years so it likely to have happened before but we have no record of it having been reported to
+us. I can only check back two months; I've found 4 other instances (outreach branches 214869, 106444, 110444, 207828) and all but the last
+FUJ00085864
+FUJ00085864
+
+removed the discrepancy by completing a rem out for the excess, which corrected the system cash holding. Branch 224843 may be able to do the
+same but NBSC should advise on this.
+
+We are continuing to investigate the problem (PC0246997), but any fix will not retrospectively change the branch accounts.
+
+So we are aware of the issue and are continuing to investigate but NBSC should be able to sort the discrepancy out in the
+meantime.
+
+By the sounds of it NBSC are just saying it our issue — which we are investigating — BUT they are missing the fact that they can sort
+the discrepancy out.
+
+Thanks Sandie
+
+From: Austin, Katie (ext) [f
+Sent: 20 October 2015 12:02
+To: Bothick Sandie <
+Cc: Austin, Katie (ext)
+Subject: FW: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Hi Sandie,
+
+Am looking for your assistance please! See below response from NBSC in regards to the issue at Dalmellington Outreach...
+Can you please let me know:
+
+Is this issue an open problem (if so is there a PR reference?)
+
+When was this issue first observed?
+
+Do we have any indications as to the potential root cause?
+What is the current action plan and associated timescales for resolution?
+
+tat
+
+<
+
+V'd be really grateful if you could share all the detail we have at this stage in order that | can respond to Anne and set expectations.
+
+Thank you!
+Katie
+
+From: Anne Allaker [. GRO ]
+
+Sent: Tuesday, October 20, 2015 11:57 AM
+
+To: Austin, Katie (ext); Kendra Dickinson; Rod Ismay; Dawn Brooks
+
+Cc: John Cawthorn; IT-Solutions R SMC PostOffice Incident Management; Thomas, Ian; Humphries, Ian; Ibrahim Kizildag
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Thankyou Katie,
+
+If this incident is caused by the branch action it may be right and proper for NBSC to offer the advice
+given below however I am concerned that there have been 4 incidents identified by Fujitsu with no
+explanation sitting behind them.
+
+NBSC cannot check what the branch has done on their Horizon system and do not understand the impact
+to the Branch Account hence the request for support from our colleagues in Finance Service Centre.
+
+Where incidents like this occur I would expect an explanation of the root cause to be supplied by Fujitsu
+via Atos so that both our Finance Service Centre and NBSC colleagues can be assured that the right
+advice is given, there is no impact to the branch account and a full audit trail is available. It does not feel
+right for Atos and Fujitsu to be giving instruction to NBSC to speak to branches with advice with
+insufficient information.
+
+If this has happened in this case it would be useful to see that in this email trail.
+
+Thanks
+FUJ00085864
+FUJ00085864
+
+Anne
+
+. Anne Allaker
+Support Services Transformation
+
+Programme
+
+From: Austin, Katie (ext) |
+Sent: 20 October 2015 10:36
+To: Kendra Dickinson; Rod Ismay; Dawn Brooks
+
+Cc: John Cawthorn; IT-Solutions R SMC PostOffice Incident Management; Thomas, Ian; Ian Humphries; Ibrahim Kizildag; Anne
+Allaker; Austin, Katie (ext)
+
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Thank you Kendra.
+
+I’ve asked Fujitsu to advise regarding the root cause however my immediate concern is rectifying the reported loss.
+Fujitsu have provided the following information which may be useful:
+
+As per Fujitsu, they have found found 4 other instances (outreach branches 214869, 106444, 110444, 207828) and all but the last
+removed the discrepancy by completing a rem out for the excess, which corrected the system cash holding. Branch 224843 may be
+able to do the same but NBSC should advise on this
+
+Many thanks,
+Katie
+
+From: Kendra Dickinsot
+Sent: Tuesday, October 20, 2015 10:32 AM
+To: Rod Ismay; Dawn Brooks
+
+Cc: John Cawthorn; IT-Solutions R SMC PostOffice Incident Management; Thomas, Ian; Humphries, Ian; Austin, Katie (ext);
+Ibrahim Kizildag; Anne Allaker
+
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Hi Rod/Dawn
+
+Could | enlist your help and support on the below issue please?
+
+Whilst | am happy for NBSC to try and support where they can, the concern | have with the below is we have no process for
+managing this type of issue and we are unable to see any of the back end accounting for this Branch. Therefore, any advice that we
+try and provide could end up making matters worse — this is already showing a £24k loss. | am not happy for NBSC to give advice
+
+on something that is not a process that exists within the knowledgebase.
+
+Similar to a disconnected session, NBSC would have no understanding as to the implications on branch accounting if they were to
+advise the branch as suggested below.
+
+From the explanation below, this appears to be a technical issue, however, | don’t know if you have any other previous similar
+scenarios that would advise on what the correct process should be for this particular situation?
+
+Many thanks
+
+Rgds
+FUJ00085864
+FUJ00085864
+
+kendra
+
+Kendra Dickinson
+Senior Contact Centre Relationship
+
+Manager
+Support Services
+
+From: Austin, Katie (ext) {
+Sent: 20 October 2015 09:53"
+To: Kendra Dickinson; Ibrahim Kizildag
+
+Cc: John Cawthorn; IT-Solutions R SMC PostOffice Incident Management; Thomas, Ian; Ian Humphries; Austin, Katie (ext)
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Hi Kendra,
+
+| can provide some background here which will hopefully explain why | suggested this call. The below issue was raised with lan
+Thomas by Helen Baker on 8" October:
+
+This morning Anne Remmed £8000 from core branch to outreach using barcode.
+
+When she accepted into outreach, and settled, horizon printed receipt, then another, then another, then another..she managed to
+stop it at four receipts of £8000 from the one barcode rem in transaction.
+
+She was concerned as she had never seen this before. She balanced core and it was correct, but outreach was £24,000 short.
+Although the core had sent only one lot of £8000, the outreach had accepted 4 lots of £8000 in one transaction!
+
+She has spoken to NBSC ref 1358666 who told her it was a technical issue.
+
+She then phoned the IT help desk ref: 17972295. She was unconvinced they understood the problem although they said they would
+probably ‘rectify remotely’. After waiting till the end of day, she called back and escalated to option 7 and spoke to Rich who told
+her to phone NBSC.
+
+| don't think the helpline understood what's happened. | can understand that as you would think it not possible. But, incredibly,
+Anne's outreach horizon now shows £24,000 short and it doesn't exist. As you can imagine, Anne is concerned and | have told her
+not to touch the outreach unit until this is resolved for her.
+
+The incident was passed to Fujitsu who have advised that in order to resolve the issue, the branch/NBSC must ‘complete a rem out
+for the excess to correct the cash holding’ which Fujitsu are unable to do. The NBSC has subsequently advised that they cannot
+assist as this is an IT issue however Fujitsu are also advising that they cannot assist. As a result, the issue has been passed back and
+forward for over a week.
+
+In order to resolve this as quickly as possible for the branch and avoid any further delays, | suggested a call between all parties to
+discuss and agree a way forward.
+
+| hope this helps.
+Thanks,
+Katie
+
+From: Kendra Dickinson } GRO
+Sent: Tuesday, October 20,2015 9/45 AM ~~
+To: Ibrahim Kizildag; Austin, Katie (ext)
+
+Cc: John Cawthorn
+
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Hi lb
+FUJ00085864
+FUJ00085864
+
+No can you please hold fire on this as | don’t think this is something NBSC potentially should be getting involved in. | need to read
+through this in detail.
+
+Reds
+
+kendra
+
+. Kendra Dickinson
+Senior Contact Centre Relationship
+Manager
+Support Services
+
+From: Ibrahim Kizildag
+
+Sent: 20 October 2015 09:28
+
+To: ‘Austin, Katie (ext)'
+
+Cc: Kendra Dickinson
+
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Hi Kendra;
+
+Please see attached email below , are you ok for NBSC team to join this conference call ?
+
+Kind Regards;
+Ibrahim Kizildag Team Leader
+
+NBSC
+Dearne House
+
+Cortonwood Drive
+Brampton
+Barnsley
+
+$73 OUF
+
+To: IT-Solutions R SMC PostOffice Incident Management; Ibrahim Kizildag
+Cc: Jaisinghani, Pavan; Austin, Katie (ext)
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Thank you Abhishek.
+Ibrahim — I’ve suggested we have this teleconference as this issue has been bouncing between Fujitsu and NBSC for some time.
+
+Can you please confirm who from the NBSC would be best placed to participate in order that we can schedule the call? The
+Incident Management Team will chair it.
+FUJ00085864
+FUJ00085864
+
+Many thanks,
+Katie
+
+From: IT-Solutions R SMC PostOffice Incident Management
+Sent: Monday, October 19, 2015 5:33 PM
+
+To: ibrahim.kizildaq@!
+Cc: Walker, Rob; Austin, Katie (ext)
+
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies # 1358666
+
+Hi Ibrahim,
+
+As this incident is not getting resolved can we have con-call set up between NBSC & Fujitsu.
+
+The Site had transaction discrepancy,
+
+As per Fujitsu, they have found found 4 other instances (outreach branches 214869, 106444, 110444, 207828) and all but the last
+removed the discrepancy by completing a rem out for the excess, which corrected the system cash holding. Branch 224843 may be
+able to do the same but NBSC should advise on this.
+
+Please can your team contact branch & check if your team can remove the discrepancy by 'completing a rem out for the excess to
+
+correct the system cash holding'
+
+Regards,
+
+Abhishek Rane
+Incident Management
+
+Embassy Tech Zone,
+Hinjewadi, Phase-2, Pune-411057
+
+Atos India
+
+From: IT-Solutions R SMC PostOffice Incident Management
+Sent: Monday, October 19, 201.
+
+Cc: Walker, Rob
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies
+
+Hi Team,
+
+Please can your team contact branch & check if your team can remove the discrepancy by ‘completing a rem out for the excess to
+correct the system cash holding’
+
+I've found 4 other instances (outreach branches 214869, 106444, 110444, 207828) and all but the last removed the discrepancy by
+completing a rem out for the excess, which corrected the system cash holding. Branch 224843 may be able to do the same but
+
+NBSC should advise on this.
+
+Regards,
+
+Abhishek Rane
+
+Hinjewadi, Phase-2, Pune-411057
+
+Atos India
+FUJ00085864
+FUJ00085864
+
+From: IT-Solutions R SMC PostOffice Incident Management
+Sent: Monday, October 19, 2015 12:39 PM
+
+To: 'nbscenquirest_
+Cc: Walker, Rob
+Subject: RE: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies
+
+ms
+
+Hi Team,
+
+Please can your team contact branch & check if your team can remove the discrepancy by 'completing a rem out for the excess to
+correct the system cash holding’
+
+Regards,
+
+Abhishek Rane
+Incident Management
+
+Embassy Tech Zone,
+Hinjewadi, Phase-2, Pune-411057
+
+Atos India
+
+From: IT-Solutions R SMC PostOffice Incident Management
+Sent: Friday, October 16, 201!
+To: NBSC Admin Team (i
+Cc: Walker, Rob
+
+Subject: 17991774 | 2248433 | Dalmellington Outreach Service - horizon | transaction discrepancies
+
+Hi Team,
+
+As per Fujitsu, please can your team contact branch & check if your team can remove the discrepancy by ‘completing a rem out for
+the excess to correct the system cash holding’
+
+Regards,
+
+Abhishek Rane
+
+Hinjewadi, Phase~
+
+Atos India
+
+Atos, Atos Consulting, Worldline and Canopy The Open Cloud Company are trading names used by the Atos group. The
+following trading entities are registered in England and Wales: Atos IT Services UK Limited (registered number
+01245534), Atos Consulting Limited (registered number 04312380), Atos Worldline UK Limited (registered number
+08514184) and Canopy The Open Cloud Company Limited (registration number 08011902). The registered office for each
+is at 4 Triton Square, Regent’s Place, London, NW1 3HG.The VAT No. for each is: GB232327983.
+
+This e-mail and the documents attached are confidential and intended solely for the addressee, and may contain confidential
+or privileged information. If you receive this e-mail in error, you are not authorised to copy, disclose, use or retain it.
+Please notify the sender immediately and delete this email from your systems. As emails may be intercepted, amended or
+lost, they are not secure. Atos therefore can accept no liability for any errors or their content. Although Atos endeavours to
+FUJ00085864
+FUJ00085864
+
+maintain a virus-free network, we do not warrant that this transmission is virus-free and can accept no liability for any
+damages resulting from any virus transmitted. The risks are deemed to be accepted by everyone who communicates with
+Atos by email.
+
+SX IBIS IIA IO III IO IIIS I III III III II ATID IIA IIIS SOI IASI ASI OI SOSA IIA
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient, you must
+not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in error, please contact
+the sender by reply email and then delete this email from your system. Any views or opinions expressed within this email are solely
+those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: Finsbury Dials, 20 Finsbury Street,
+London EC2Y 9AQ.
+
+Atos, Atos Consulting, Worldline and Canopy The Open Cloud Company are trading names used by the Atos group. The
+following trading entities are registered in England and Wales: Atos IT Services UK Limited (registered number
+01245534), Atos Consulting Limited (registered number 04312380), Atos Worldline UK Limited (registered number
+08514184) and Canopy The Open Cloud Company Limited (registration number 08011902). The registered office for each
+is at 4 Triton Square, Regent’s Place, London, NW1 3HG.The VAT No. for each is: GB232327983.
+
+This e-mail and the documents attached are confidential and intended solely for the addressee, and may contain confidential
+or privileged information. If you receive this e-mail in error, you are not authorised to copy, disclose, use or retain it.
+Please notify the sender immediately and delete this email from your systems. As emails may be intercepted, amended or
+lost, they are not secure. Atos therefore can accept no liability for any errors or their content. Although Atos endeavours to
+maintain a virus-free network, we do not warrant that this transmission is virus-free and can accept no liability for any
+damages resulting from any virus transmitted. The risks are deemed to be accepted by everyone who communicates with
+Atos by email.
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient, you must
+not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in error, please contact
+the sender by reply email and then delete this email from your system. Any views or opinions expressed within this email are solely
+those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: Finsbury Dials, 20 Finsbury Street,
+London EC2Y 9AQ.
+
+JX ISIS IIA IIB IIS IIA III II ISI III III TI III III III III ASI ASI AIS ASSIS IA
+
+Atos, Atos Consulting, Worldline and Canopy The Open Cloud Company are trading names used by the Atos group. The
+following trading entities are registered in England and Wales: Atos IT Services UK Limited (registered number
+01245534), Atos Consulting Limited (registered number 04312380), Atos Worldline UK Limited (registered number
+08514184) and Canopy The Open Cloud Company Limited (registration number 08011902). The registered office for each
+is at 4 Triton Square, Regent’s Place, London, NW1 3HG.The VAT No. for each is: GB232327983.
+
+This e-mail and the documents attached are confidential and intended solely for the addressee, and may contain confidential
+or privileged information. If you receive this e-mail in error, you are not authorised to copy, disclose, use or retain it.
+Please notify the sender immediately and delete this email from your systems. As emails may be intercepted, amended or
+lost, they are not secure. Atos therefore can accept no liability for any errors or their content. Although Atos endeavours to
+maintain a virus-free network, we do not warrant that this transmission is virus-free and can accept no liability for any
+damages resulting from any virus transmitted. The risks are deemed to be accepted by everyone who communicates with
+Atos by email.
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient, you must
+not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in error, please contact
+the sender by reply email and then delete this email from your system. Any views or opinions expressed within this email are solely
+those of the sender, unless otherwise specifically stated.
+FUJ00085864
+FUJ00085864
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: Finsbury Dials, 20 Finsbury Street,
+London EC2Y 9AQ.
+
+Atos, Atos Consulting, Worldline and Canopy The Open Cloud Company are trading names used by the Atos group. The
+following trading entities are registered in England and Wales: Atos IT Services UK Limited (registered number
+01245534), Atos Consulting Limited (registered number 04312380), Atos Worldline UK Limited (registered number
+08514184) and Canopy The Open Cloud Company Limited (registration number 08011902). The registered office for each
+is at 4 Triton Square, Regent’s Place, London, NW1 3HG.The VAT No. for each is: GB232327983.
+
+This e-mail and the documents attached are confidential and intended solely for the addressee, and may contain confidential
+or privileged information. If you receive this e-mail in error, you are not authorised to copy, disclose, use or retain it.
+Please notify the sender immediately and delete this email from your systems. As emails may be intercepted, amended or
+lost, they are not secure. Atos therefore can accept no liability for any errors or their content. Although Atos endeavours to
+maintain a virus-free network, we do not warrant that this transmission is virus-free and can accept no liability for any
+damages resulting from any virus transmitted. The risks are deemed to be accepted by everyone who communicates with
+Atos by email.

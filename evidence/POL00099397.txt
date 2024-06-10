@@ -1,18 +1,18 @@
-                                                                                                                   POL00099397
-                                                                                                                 POL00099397
-
-
-
+POL00099397
+POL00099397
 
 Message
-From:          Parker Steve PostOfficeAccount [                            GRO
-Sent:          08/08/2013 15:08:49
-To:            Andrew Winn; .-•,.----•--._._._._._CAA._._._._._._._._._._.__._ ._._.,
-CC:            Louise S Wilkins[                     GRO
-Subject:       RE: Gilmerton 148824
-Attachments:   imageO01.png; image002.png; image003.png; image004.png; image005.jpg; imageO06.png; image007.png;
-               image008.png; image009.png; referrall.doc
 
+From: Parker Steve (PostOfficeAccount):
+Sent: 208:
+
+To: L
+
+cc: Louise S Wilkin:
+
+Subject: RE: Gilmerton 148824
+Attachments: image001.png; image002.png; image003.png; image004.png; image005.jpg; image006.png; image007.png;
+image008.png; image009.png; referrall.doc
 
 Andy,
 
@@ -21,116 +21,106 @@ system.
 
 Steve
 
-
-
-From: Andrew Winn;                   GRO
-Sent: 08 August 201 0Y5 i9                      .
+From: Andrew Winn r
+Sent: 08 August 2013 0019
 To: Parker Steve (PostOfficeAccount)
 Cc: Louise S Wilkins
+
 Subject: RE: Gilmerton 148824
 
 Steve
 
-The branch have come back to request a "screen shot" of the authorisation request. How much angst would be involved
+The branch have come back to request a “screen shot” of the authorisation request. How much angst would be involved
 in recreating what it would have looked like?
 
 Cheers
 Andy
-    cc.
 
-From: Parker Steve (PostOfficeAccount)                  GRO
+From: Parker Steve (PostOfficeAccount);
 Sent: 17 July 2013 13:06
+
 To: Andrew Winn
-M+5fT.T ell1~E- r' a s 50I[ i.F1r
+
+Subject: Gilmerton and East Ham
 
 For Gilmerton, Dave has a bit more info which may be of interest. Having checked the file AIS in more detail:
 
-W032026.P
+W_032026.TP_
+DCS 2775  21AA593086 3  2RABOO3 201302011351120135212030NN 34197 1 1 -
+371.00 -1 HX 37100589 GBP 0100-148824-2-3584068-
 
-DCS    2775    21.AA 593086 3    2RAB003       201302011.3511201.352120 30NN 34197                        1      1    -
-371,00       -1 HAG     37100589           GBP      0100-148824-2-3584068-
-1          21    71154881 475116000000303920130201010 117543       0171000698001111
+1 21 71154881 475116000000303920130201010 117543 0171000698001111
 
-The highlighted text (589) is the authorisation code as entered by the Clerk. As you know, this is usually six digits
+The highlighted text (S89) is the authorisation code as entered by the Clerk. As you know, this is usually six digits
 whereas in this case it was just three. Either the clerk did the referral and then incorrectly entered the auth code or just
 entered a random number. No way to tell the difference.
 
 As for the original East Ham: 194002, Transaction date: 23/10/12, 09:20 Value: £2,703.95. As mentioned previously, we
-don't have direct access to audit to allow us to pull back the Credence feed file but we have managed to determine
-which feed file to Credence the transaction you want would have been in. If you're unable to get anything out of
-Credence for it, best suggestion I have is if you get your security team to make an ARQ, request saying that you want
+don’t have direct access to audit to allow us to pull back the Credence feed file but we have managed to determine
+which feed file to Credence the transaction you want would have been in. If you’re unable to get anything out of
+Credence for it, best suggestion | have is if you get your security team to make an ARQ request saying that you want
 
+POL-0098980
+POL00099397
+POL00099397
 
+“Any TIP feed files for Credence on 23/10/12 with a file name starting with “W_297036.TP_”. Put my name in the frame
+as well and then if our litigation team are not sure they can contact me.
 
+The litigation bit is all to do with chain of evidence for prosecutions and delivery in court. I’m sensitive about it because
+in the distant past one of my team was “persuaded” (by our side, not yours) to write an evidence statement without
+fully understanding the implications. As you know, our “professional witness” for these types of cases is Gareth Jenkins
+but in this case, because process was not followed, Gareth couldn’t do it and preparation for court became very difficult.
 
-                                                                                                                     POL-0098980
-                                                                                                                    POL00099397
-                                                                                                                  POL00099397
-
-
-
-"Any TIP feed files for Credence on 23/10/12 with a file name starting with "W._297036.TP.._". Put my name in the frame
-as well and then if our litigation team are riot sure they can contact me.
-
-The litigation bit is all to do with chain of evidence for prosecutions and delivery in court. I'm sensitive about it because
-in the distant past one of my team was "persuaded" (by our side, not yours) to write an evidence statement without
-fully understanding the implications. As you know, our "professional witness" for these types of cases is Gareth Jenkins
-but in this case, because process was not followed, Gareth couldn't do it and preparation for court became very difficult.
-
-I would think that HSD would send the call to us for guidance or have a script that says similar, I'm too remote from
+| would think that HSD would send the call to us for guidance or have a script that says similar, {’m too remote from
 them to be sure. Anyway, always happy to send you details that allow you to complete the investigation. At least them
 you'll know that the information required is there and what form it takes. You can define the evidence to your security
 team for any subsequent litigation request and they can just re-obtain the detail the official way. All transaction data is
-in the audit trail for 7 years. The only thing that disappears after a given time is support information — that includes
+in the audit trail for 7 years. The only thing that disappears after a given time is support information ~ that includes
 detailed counter diagnostic logs (from which we can determine button press information) which are only on the counter
 30 days.
 
 Right, must stop being diverted by more interesting things like this and get on with my finance forecast (yawn!)
 
 Steve
-                     . ................
-From: Andrew Winn::                                  _GRO
-                   12:08-_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
-Sent: 17 July 2013
+
+From: Andrew Winni
+Sent: 17 July 2013 12:08
 To: Parker Steve (PostOfficeAccount)
 Subject: RE: Gilmerton 148824
 
 Steve
+I think that is all | need. ft is all | would puil if it was within 3 months.
 
-I think that is all I need. It is all I would pull if it was within 3 months.
-
-Good point about litigation. I am aware that any evidence we put in front of a court must come through the right
-channel. I am dealing well before this point but have to be aware that any case may end up mm n court. I will typically
-say something like "I've asked Fujitsu to investigate and they have confirmed that a referral was made to your Horizon
-system........." So something like that might get waved around in court but the transactional data presented would need
+Good point about litigation. | am aware that any evidence we put in front of a court must come through the right
+channel. | am dealing well before this point but have to be aware that any case may end up min court. | will typically
+say something like “I’ve asked Fujitsu to investigate and they have confirmed that a referral was made to your Horizon
+system.........” So something like that might get waved around in court but the transactional data presented would need
 to come through approved channels.
 
-Clearly it gives more weight to my responses if I can show I have investigated properly. I guess if an enquiry like this
+Clearly it gives more weight to my responses if | can show | have investigated properly. | guess if an enquiry like this
 came through HSD they would give a similar but verbal response?
 
 Appreciate this.
 
 Andy
 
-From: Parker Steve PostOfficeAccount I                                                 GRO
+From: Parker Steve (PostOfficeAccount)
 Sent: 17 July 2013 09:52
+
 To: Andrew Winn
+
 Subject: Gilmerton 148824
 
 Andy,
 
 Initial information on Gilmerton (148824) shows that the transaction was a referral. Still working
 
+POL-0098980
+POL00099397
+POL00099397
 
-
-
-                                                                                                                  POL-0098980
-                                                                                                                  POL00099397
-                                                                                                                POL00099397
-
-
-
-NOTE: Not trying to teach you to suck eggs but thought I'd remind you that none of the information we dig out for you
+NOTE: Not trying to teach you to suck eggs but thought I’d remind you that none of the information we dig out for you
 like this can be used in litigation. Anything required for evidential purposes MUST come from the litigation support
 team.
 
@@ -141,96 +131,91 @@ Software Support Centre Manager
 Business & Application Services, Post Office Account
 
 Fujitsu
-Lovelace Road, Bracknell, Berkshire. RG12 8SN
-Tel
-mo
-                       ....
-                                  --•-•-•-•-•-•-•-•-•-•-•-•-•-•-
-Web: http://uk.fumitsu.com
 
+Lovelace Road, Bracknell, Berkshire. RG’
+Telit ~
 
+GRO
 
+Web: http:/uk.fujitsu.com
 
 Sent: 17 July 2013 09:21
 To: Parker Steve (PostOfficeAccount)
 
-Tracked down TIP file (Credence?) for :1.48824 as we have six months of files on the SSC server and found entry for the
+Tracked down TIP file (Credence?) for 148824 as we have six months of files on the SSC server and found entry for the
 £371 debit card MOP...
 
-W 032026.TP
+W_032026.1P_
+DCS 2775 21AA593086 3  2RABOO3 201302011351120135212030NN 34197 1 1 -
+371.00 “1 HX — 37100589 GBP 0100-148824-2-3584068-
 
-DCS 2775    2.1.AA 593086 3    2RA13003      20130201135112.01.35212.0 3ONN 34197                        1     1. -
-371.00    -1 HX       37100589           GBP      0100-148824-2-3584068-
-1       21     71154881 47.5116000000303920130201010 117543      0171000698001111
+1 21 71154881 475116000000303920130201010 117543 0171000698001111
 
 Has a response code of 10 to indicate it was a referral.
 
-From: Andrew Winn[                   .GRO
-Sent: 16 July 2013 16:01
+From: Andrew Winn
+Sent: 16 July 2013 16:
 To: Parker Steve (PostOfficeAccount)
 Cc: Louise S Wilkins
+
 Subject: FW: East ham 194002
 
 Hi Steve
 
-Would you be able to assist with this one? I've been trying for months to get the referral info from the raw logs as per
-Gareth's advice without success.
+Would you be able to assist with this one? I’ve been trying for months to get the referral info from the raw logs as per
+Gareth’s advice without success.
 
-Ironically I have had a subsequent challenge from fad 1.1.8824 relating to a debit card MOP of £371 1"t Feb. Is this
-                                                                                                    on
-
-
-
-
+Ironically | have had a subsequent challenge from fad 148824 relating to a debit card MOP of £371 on 1" Feb. Is this
 something that can be relatively easily pulled within the 6 month window when detailed data moves into archive?
 
 Appreciate any help
 
 Andy
-    GRO --•-•-•--
-
 
 From: Andrew Winn
+
 Sent: 03 July 2013 08:32
+
 To: Post Office Security
+
 Cc: John Dutton
+
 Subject: FW: East ham 194002
 
-
-
-                                                                                                                POL-0098980
-                                                                                                                        POL00099397
-                                                                                                                      POL00099397
-
-
-
+POL-0098980
+POL00099397
+POL00099397
 
 Hi
-I've received ARC), 61 but I still cannot see a response code field to show if a card referral was made on a bureau sale.
+lve received ARQ 61 but | still cannot see a response code field to show if a card referral was made on a bureau sale.
 Andy
 
-
-
 From: Andrew Winn
+
 Sent: 24 June 2013 15:09
+
 To: Post Office Security
+
 Cc: John Dutton
+
 Subject: FW: East ham 194002
 
 Hi
 Were you able to progress this request?
 Cheers
-Andy
-._. _GRO._._.
 
-From: Andrew Winn
+And
+
 Sent: 21 May 2013 08:10
+
 To: Post Office Security
+
 Cc: Robert N Atkinson; John Dutton
 Subject: FW: East ham 194002
 
 Hi
-I need an enhanced ARQ to interrogate Horizon records to determine if a debit: card authorisation code was system
+
+Ineed an enhanced ARQ to interrogate Horizon records to determine if a debit card authorisation code was system
 generated or manually input to Horizon for the above branch. The raw logs should indicate a referral message being
 shown. See detailed requirement in e mail chain below.
 
@@ -239,38 +224,30 @@ Transaction date: - 23/10/12, 9.20, £2,703.95
 Many thanks
 
 Andy Winn Relationship Manager
-Finance Service Centre, I Future Walk, Chesterfield 549 1 PF
-Desk
-Mob€          V    RO
+Finance Service Centre, 1 Future Walk, Chesterfield S49 1 PF
 
-                         .. ................
-From: Jenkins Gareth GIl                     GRO
+From: Jenkins Gareth
 Sent: 20 May 2013 16:59
 To: Andrew Winn
+
 Cc: Robert N Atkinson
 Subject: RE: East ham 194002
 
 Andy,
 
 When requesting an ARQ, POL can ask for additional info. When that happens, the guys in Fujitsu processing the
-request often come to me asking if the request can be made. At that point I can then tell them if the info is in the raw
-logs and advise of any additional charges to pull that out as a 1 --off. If this is the sort of thing you might want regularly,
-then the P01.. security team could raise a CR (Change Request) to enhance the info in the standard report: to include an
+request often come to me asking if the request can be made. At that point | can then tell them if the info is in the raw
+logs and advise of any additional charges to pull that out as a 1-off. If this is the sort of thing you might want regularly,
+then the POL security team could raise a CR (Change Request) to enhance the info in the standard report to include an
 additional field (eg resp_code).
 
-
-
-
-                                                                                                                      POL-0098980
-                                                                                                                 POL00099397
-                                                                                                               POL00099397
-
-
+POL-0098980
+POL00099397
+POL00099397
 
 Does that give you what you need?
 
-
-
+Regards
 
 Gareth
 
@@ -279,154 +256,128 @@ Distinguished Engineer
 Business Applications Architect
 Post Office Account
 
-FUJITSs.
-Lovelace :: aci, Bt"::„r k„e, Bz><kwh
-                                    rc, R612 &SW
-Tel
-Mobile:
-email:                                            GRO                                     -I
-Web:                           http://uk.fujitsucom
+HRipUOR Tafiistccony
 
-
-
+it
 
 Fujitsu is proud to partner with Shelter, the housing and homeless charity
 
 Reshaping ICT, Reshaping Business in partnership with FT.com
 
-           Please consider the environment - do you really need to print this email?
+ws Please consider the environment - de you really need to print this email?
 
+From: Andrew Winn!
+Sent: 20 May 2013 fe:zu
 
-
-
-From: Andrew Winn;                                   GRO
-                   1fi'.2D._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
-Sent: 20 May 2013
 To: Jenkins Gareth GI
+
 Cc: Robert N Atkinson
 Subject: RE: East ham 194002
 
 Hi Gareth
 
-We have found the field in Credence but the report only goes back 90 days so we can't access summary data it seems. I
-was hoping that if there was only the one transaction in the day I would have seen enough.
+We have found the field in Credence but the report only goes back 90 days so we can’t access summary data it seems. |
+was hoping that if there was only the one transaction in the day | would have seen enough.
 
-Do you know what route I should take to request the raw logs? Don't go hunting if you don't, I can start trawling here.
+Do you know what route | should take to request the raw logs? Don’t go hunting if you don’t, | can start trawling here.
 
 Cheers
 Andy
-                  ---------,
-           G RO
---------
 
-
-
-
-                                                         GRO
-From: Jenkins Gareth GI ._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._..
-Sent: 29 April 2013 09;53
+From: Jenkins Gareth G
+Sent: 29 April 2013 09:53
 To: Andrew Winn
+
 Cc: Robert N Atkinson
 Subject: RE: East ham 194002
 
 Andy,
-
 The field you want is Resp_code.
 
-This isn't in the standard ARO, extract, but is available in the raw bags. It is also passed to Credence (as
-RESPONSE_CODE), but I don't know if it is visible in the Credence reports.
+This isn’t in the standard ARQ extract, but is available in the raw logs. It is also passed to Credence (as
+RESPONSE_CODE), but | don’t know if it is visible in the Credence reports.
 
-
-
-
-                                                                                                               POL-0098980
-                                                                                                                 POL00099397
-                                                                                                              POL00099397
-
-
+POL-0098980
+POL00099397
+POL00099397
 
 A value of 10 indicates that the MA has requested a Referral, which means the Branch phoning up for an Auth Code
-which they then key in. There is no way we can confirm if the barnk was phoned or a random value keyed in, but this
+which they then key in. There is no way we can confirm if the bamk was phoned or a random value keyed in, but this
 would at least indicated that there was a Referral.
 
-I have access to data up to 6 month old (which should have included resp_code), but I see that we've just missed that,
-tirneframe.
+| have access to data up to 6 month old (which should have included resp_code}, but I see that we’ve just missed that
+timeframe.
 
-If you can't get: RESPONSE CODE from Credence, then you could request the raw logs (not part of the standard ARQ). If
-this is likely to be a common requirement, then amending the standard ARO to include Resp_code would be a simple
+If you can’t get RESPONSE_CODE from Credence, then you could request the raw logs (not part of the standard ARQ). If
+this is likely to be a common requirement, then amending the standard ARQ to include Resp_code would be a simple
 change, but require a CR.
-
 
 Regards
 
-
+Gareth
 
 Gareth Jenkins
 Distinguished Engineer
 Business Applications Architect
 Post Office Account
 
+ATSU
+elace Road, Brack
 
+http://uk. fujitsu.com
 
-
-                                            GRO
-                     http//uk.fuiitsu.com
-
-
-
-Ii                                          ..
 Fujitsu is proud to partner with Shelter, the housing and homeless charity
 
 Reshaping ICT, Reshaping Business in partnership with FT.com
 
+wy Pleas
 
-     Please i Or dd `I' the ery o]rtment - de you really o ed to print the i::Eaai ?
+rint this emait?
 
+‘onsidr the environment - de you really
 
-
-
-From: Andrew Winn;                                    GRO
+From: Andrew Winn
 Sent: 29 April 2013 09:01
 To: Jenkins Gareth GI
+
 Cc: Robert N Atkinson
 Subject: East ham 194002
 
 Hi Gareth
 
-This is a scenario I have had before were we have issued a IC to a branch on a bureau card payment where our card
+This is a scenario | have had before were we have issued a TC to a branch on a bureau card payment where our card
 processor state that no authorisation call was made (implying that the branch manually input an authorisation code that
 was not provided from the card processor) whereas the branch are adamant that authorisation was automatically
+
 provided.
 
-We normally do not progress these but I'm being put under pressure to provide evidence on this one. This may be the
-type of enquiry we get from 2 nd Sight anyway so thought I would raise an ARQ.
+We normally do not progress these but I’m being put under pressure to provide evidence on this one. This may be the
+type of enquiry we get from 2" Sight anyway so thought | would raise an ARQ.
 
-I can't see any more detail from what I got in Credence. Is there any way we can see the key strokes that would support
+I can’t see any more detail from what | got in Credence. Is there any way we can see the key strokes that would support
 a manual authorisation being input?
 
 Cheers
 
+POL-0098980
+POL00099397
+POL00099397
 
+Andy Winn Relationship Manager
 
+@ Finance Service Centre, 1 Future Walk, Chesterfield $49 1 PF
 
-                                                                                                               POL-0098980
-                                                                                                                    POL00099397
-                                                                                                                 POL00099397
+JOH EI OG ISO AIO IO IO IO SOO IIIS SOD I III ISO II ODI AISA IIIA AIA
 
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions.
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
 
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
 
-Andy \'Jinn Relationship Manager
-
-                       Finance Service Centre, 1 Future Walk, Chesterfield S49 I PF
-
-
-                       ---------------------------•-•-•----,
-
-
-                           G RO
-
-
-
+JOH SO ISO I AIO IOI IIIS IIIIIA IOI II III IO II IDI ADIT III IA
 
 This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
 you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
@@ -436,19 +387,7 @@ expressed within this email are solely those of the sender, unless otherwise spe
 POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
 LONDON EC1V 9HQ.
 
-
-
-
-This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
-you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
-error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
-expressed within this email are solely those of the sender, unless otherwise specifically stated.
-
-POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
-LONDON ECIV 9HQ.
-
-
-
+JOH ESO SO ISOS OOO IGOR IIIA IOI III IIIA IIIA I IAI IOI AIT
 
 This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
 you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
@@ -458,15 +397,11 @@ expressed within this email are solely those of the sender, unless otherwise spe
 POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
 LONDON EC1V 9HQ.
 
+JOH ISO I IDO ISO IOI IOI DO ISD I III OI III D I D IIIA AIA
 
-
-
-                                                                                                                 POL-0098980
-                                                                                                                    POL00099397
-                                                                                                                 POL00099397
-
-
-
+POL-0098980
+POL00099397
+POL00099397
 
 Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
 from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
@@ -475,82 +410,7 @@ This email is only for the use of its intended recipient. Its contents are subje
 be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
 free.
 
-Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London WIU
-3BW.
-
-Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London WIU
-3BW.
-
-PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
-Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
-
-Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
-Parkway, Birmingham Business Park, Birmingham, B37 7YU.
-
-
-
-This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
-you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
-error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
-expressed within this email are solely those of the sender, unless otherwise specifically stated.
-
-POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
-LONDON ECIV 9HQ.
-
-
-
-
-Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
-from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
-
-This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
-be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
-free.
-
-Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London WIU
-3BW.
-
-Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London WIU
-3BW.
-
-PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
-Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
-
-Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
-Parkway, Birmingham Business Park, Birmingham, B37 7YU.
-**********************************************************************
-
-
-
-
-This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
-
-
-
-                                                                                                                 POL-0098980
-                                                                                                                    POL00099397
-                                                                                                                 POL00099397
-
-
-
-you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
-error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
-expressed within this email are solely those of the sender, unless otherwise specifically stated.
-
-POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
-LONDON EC1V 9HQ.
-
-
-
-
-Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
-from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
-
-This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
-be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
-free.
-
-Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U.
 3BW.
 
 Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U
@@ -562,8 +422,67 @@ Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
 Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
 Parkway, Birmingham Business Park, Birmingham, B37 7YU.
 
+oR S SIRIUS ADI IIIA AIO II IDOI IOI IDI DDI IIIA IA
 
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
 
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
 
-                                                                                                                  POL-0098980
-
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U.
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+
+POL-0098980
+POL00099397
+POL00099397
+
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
+
+JOH SOI G I IOSD IO IUD ISI ODII SIDI S OI III AISI III IE
+
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U.
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+POL-0098980

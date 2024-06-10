@@ -1,0 +1,447 @@
+FUJ00083621
+FUJ00083621
+
+To: ‘Mark Jarosz'[_
+From: Jenkins Gareth Gl.
+Sent: Wed 5/8/2002 8:52:59 AM (UTC)
+Subject: FW: PC0075892: PinlCL - call transferred to Escher-Dev
+events_H31251100101_app.zip
+
+Mark,
+
+Any thoughts on this one? Unless there is something obvious to investigate | suggest we will probably need to write this off as a "one
+off". Is it worth trying to find out why the machine was rebooted?
+
+What seems to have happened is that all was going along fine on Wednesday 1/5/02. It was early closing and EOD ran through at
+13:30.
+
+Then at 16:24 get some Riposte Error 32s "Timeout while waiting for thread completion. ". These occurred at 5 second intervals. The
+machine then appears to have been rebooted (I've no idea whether these facts are related). Following the reboot, Riposte then
+initialises OK, but 2 mins later produces some more Error 32s at 17:29. Get a couple more at 18:25.
+
+Then at 18:40 get the first Error 89 "An unexpected error occurred while attempting to insert a message. Timeout occurred waiting for
+lock. (0xC1090003). ". These then occur at 10 second intervals until the 3am bounce when all goes back to normal. | also see that
+there are some unexpected Desktop messages as the problems start at 18:40.
+
+Zipped event log attached.
+
+Regards
+
+Gareth
+
+This e-mail is only for the use of its intended recipient. Its contents
+
+are confidential and may be privileged. Fujitsu Services does not
+guarantee that this e-mail has not been intercepted and amended or that
+it is virus-free.
+
+Gareth Jenkins
+
+Distinguished Engineer
+Riposte and Counter TDA; Pathway
+
+Fujitsu Services
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+
+Tel:
+Mobile:
+email:
+Web:
+
+Internal:
+
+Fujitsu Services Limited, Registered in England no 96056, Registered
+Office 26, Finsbury Square, London, EC2A 1SL
+
+> -----Original Messaa.
+> From: pinicl@,___ GRO
+
+: ~ Gareth Jenkins ;
+> Subjéct? PCO07S892Z" PinICL ~ Call transtérred to Escher-Dev
+>
+
+>
+
+> Title: PinICL - call transferred to Escher-Dev
+
+>
+
+> Call Number : PC0075892
+
+> Systemname : PinlICL
+
+> Event : Call arrived on team
+
+> Summary : FAD312511 -Critical event received on
+> H31251100101
+
+> Priority :B
+
+> Target Date : 08/05/02 10:00:14
+
+> Assigned Team : Escher-Dev [Escher Development preview team]
+> Assignee : No Assignee
+
+> Subject Product: Counter Common
+> Product Group : EPOSS & DeskTop
+> Call Type : Live use error
+
+> Contact Surname : EDSC
+
+>Actioned Team _: Not Actioned
+
+> Actionee : No Actionee
+
+> Response Category : Incident Under Investigation
+> Target Release —: BI_1S11R-Provisional
+
+> Call Logger : Customer Call
+
+> Call Loggers Team : EDSC [EDSC support team]
+> Top Reference : E-0205011981
+
+> Contact Details : EDSC
+
+> Pathway
+
+> Gateway contact
+
+> Mail:; Barbara y
+
+> References : ORIGINATOR ?PRelp
+>
+
+> ORIGREF : E-0205011981
+>
+
+> CONSUMERREF : E-0205011981
+>
+
+> PowerHelp : E-0205011981
+>
+
+>
+
+>
+
+> Call Progress
+
+>
+
+> 02/05/02 10:00:14 - By Customer Call
+
+> CALL PC0075892 opened
+
+>
+
+> 02/05/02 10:00:55 - By Customer Call
+
+> CALL PC0075892:Priority B:CallType L - Target 08/05/02 10:00:14
+>
+
+> 02/05/02 10:00:57 - By Customer Call
+
+> 01/05/02 22:41 Critical event received on H31251100101 @
+
+> 22.22 01 May 02.
+
+> NT_Base : 100* An unexpected error occurred while attempting
+> to insert a
+
+> message. Timeout occurred waiting for lock (0OxC1090003)
+
+> 01/05/02 22:50 uk081232
+
+> Information: NT Adapter has been stopped successfully
+
+> 01/05/02 22:50 uk081232
+
+> Information: Unloaded event log ID 145528
+
+> 01/05/02 22:51 uk081232
+
+> Information: Reassigning to MSS for investigation
+
+> 01/05/02 22:51 uk081232
+
+> REASSIGN: Call # E-0205011981 was Reassigned from Sheron Palmer,
+
+> Group SMC1 to Group SMC-MSS-SUPP,
+> 02/05/02 09:21 uk062605
+
+> REASSIGN: Call # E-0205011981 was Reassigned from Group SMC-MSS-SUPP
+
+> to Clive Robinson, Group SMC-MSS-SUPP
+
+> 02/05/02 09:21 uk062605
+
+> Information: Please re-assign this call to SSC - suspect a
+
+> table/Riposte
+
+> problem. BEFORE SENDING, PLEASE RE-START THE TEC_NT
+
+> ADAPTER, CONFIRM IS OPERATIONAL, THEN DOWNLOAD EVENT LOGS & FOLLOW
+
+> IEERP PROCEDURE.
+> 02/05/02 09:29 uk062605
+
+> REASSIGN: Call # E-0205011981 was Reassigned from Clive Robinson,
+
+> Group SMC-MSS-SUPP to Group SMC1
+> 02/05/02 09:32 uk084204
+
+> REASSIGN: Call # E-0205011981 was Reassigned from Group SMC1 to Niall
+
+> Vincent, Group SMC1
+
+> 02/05/02 09:43 uk084204
+
+> Information: Tec NT adaptor switched on & event log No 146139
+
+> downloaded
+
+> for previous two days.
+
+> 02/05/02 09:44 uk084204
+
+> REASSIGN: Call # E-0205011981 was Reassigned from Niall Vincent,
+> Group SMC1 to Group SMC Filter
+
+FUJ00083621
+FUJ00083621
+> Reassigning to EDSC stack for further investigation as per
+
+> SMC2 support comments.
+
+> 02/05/02 10:01 uk081632
+
+> REASSIGN: Call # E-0205011981 was Reassigned from Group SMC Filter to
+> Group EDSC1
+
+>
+
+> 02/05/02 10:01:17 - By Customer Call
+> F} Call details
+
+>
+
+> 02/05/02 10:01:18 - By Customer Call
+
+> Diagnostician name:
+> Customer opened date 01/05/2002 22:41:35
+>
+
+> 02/05/02 10:03:59 - By Barbara Longley
+
+> The call summary has been changed from:-
+
+> Critical event received on H31251100101 @ 22.22 0
+> The call summary is now:-
+
+> FAD312511 -Critical event received on H31251100101
+
+>
+
+> 02/05/02 10:03:59 - By Barbara Longley
+
+> Target Release updated to BI_1S11R-Provisional
+
+>
+
+> 02/05/02 10:03:59 - By Barbara Longley
+
+> Product EPOSS & DeskTop Counter Common added
+>
+
+> 02/05/02 10:57:50 - By Martin Harvey
+
+> F} Response :
+
+>
+
+> 02/05/02 10:57:50 - By Martin Harvey
+> PRESCAN: Done
+
+> [END OF REFERENCE 29556232]
+
+>
+
+> 02/05/02 10:57:50 - By Martin Harvey
+
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 02/05/02 10:57:52 - By Martin Harvey
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 02/05/02 10:57:52 - By Martin Harvey
+
+> The Call record has been assigned to the Team Member: John Simpkins
+>
+
+> 02/05/02 10:57:52 - By Martin Harvey
+
+> Defect cause updated to 99:General - Unknown
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/05/02 16:03:38 - By John Simpkins
+
+> F} Response :
+
+>
+
+> 02/05/02 16:03:39 - By John Simpkins
+
+> These events have stopped occuring now and the Tivoli
+
+> monitoring can be
+
+> restarted.
+
+> The events started at 17:29 on 1-May-2002 after the counter
+> was rebooted. The
+
+> counter produced one of these messages every 10 seconds
+> throughtout the night
+
+> until cleardesk restarted Riposte at 03:34. This cleared the
+> lock and trhe
+
+> system has been fine since.
+
+> [END OF REFERENCE 29563521]
+
+>
+
+> 02/05/02 16:03:39 - By John Simpkins
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 02/05/02 16:03:41 - By John Simpkins
+
+> The response was delivered to: PowerHelp
+>
+
+> 02/05/02 16:06:08 - By John Simpkins
+
+FUJ00083621
+FUJ00083621
+> F} Response :
+
+>
+
+> 02/05/02 16:06:08 - By John Simpkins
+
+> No system events recorded at the time of the error except the eventlog
+> service restarting.
+
+> [END OF REFERENCE 29563539]
+
+>
+
+> 02/05/02 16:06:09 - By John Simpkins
+
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 02/05/02 16:06:10 - By John Simpkins
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 02/05/02 16:10:25 - By John Simpkins
+
+> New evidence added - Application event log from the counter
+>
+
+> 02/05/02 16:10:26 - By John Simpkins
+
+> F} Response :
+
+>
+
+> 02/05/02 16:10:26 - By John Simpkins
+
+> Appears similar to a problem we had on the correspondence
+> servers sometime
+
+> back where a lock on the checkpoint would kill agents.
+
+> Attached application
+
+> log as evidence. Passing to development for comments.
+
+>
+
+> Riposte version 6.0.3.23 is used at this office.
+
+> [END OF REFERENCE 29563664]
+
+>
+
+> 02/05/02 16:10:26 - By John Simpkins
+
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 02/05/02 16:11:08 - By John Simpkins
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 02/05/02 16:11:19 - By John Simpkins
+
+> The Call record has been transferred to the Team: QFP
+>
+
+> 02/05/02 16:11:20 - By John Simpkins
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 02/05/02 16:17:43 - By Barbara Longley
+> F} Response :
+
+>
+
+> 02/05/02 16:17:43 - By Barbara Longley
+
+> Call currently assigned to QFP.
+
+> [END OF REFERENCE 29563852]
+
+>
+
+> 02/05/02 16:17:43 - By Barbara Longley
+
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 02/05/02 16:17:45 - By Barbara Longley
+> The response was delivered to: PowerHelp
+
+>
+
+> 02/05/02 22:41:16 - By Lionel Higman
+
+> The Call record has been transferred to the Team: Escher-Dev
+>
+
+> 02/05/02 22:41:16 - By Lionel Higman
+
+> Hours spent since call received: 0 hours
+
+>
+
+FUJ00083621
+FUJ00083621

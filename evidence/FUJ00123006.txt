@@ -1,305 +1,264 @@
-                                                                                                                           FUJO0123006
-                                                                                                                       FUJO0123006
+FUJ00123006
+FUJ00123006
 
+Royal Mail Group
+Witness Statement
 
-
-
-L'41gf1I11(JjjjJii
-
-     a
- w         i                                    o
-
+(CJ Act 1967, s9; MC Act 1980, ss
+5A(3)(a)
+and 5B, MC Rules 1981, r 70)
 
 Statement of Gareth Idris JENKINS
 
-Age if under              Over 18                     (If over 18 insert 'over 18')
+Ageifunder Over 18 (If over 18 insert ‘over 18')
 18
 
+This statement (consisting of 16 pages each signed by me) is true to the
+best of my knowledge and belief and | make it knowing that, if it is tendered
+in evidence, | shall be liable to prosecution if | have wilfully stated in it
+anything which | know to be false or do not believe true.
 
-
+Dated 6th dayof October 2010
+the
 
 Signature
 
+Further to my statements of 2nd February, 8th February 2010 and 9" March
+2010 | would like to add the following.
 
-
-Further to my statements of 2nd February, 8th February 2010 and 9t" March
-2010 I would like to add the following.
-
-
-I have examined the "Technical expert's report to the Court prepared by
-Charles Alastair McLachlan, a Director of Amsphere Consulting Ltd" which I
-received on 1S` October 2010.                         I have been asked by Post Office Ltd to
+| have examined the “Technical expert’s report to the Court prepared by
+Charles Alastair McLachlan, a Director of Amsphere Consulting Ltd” which |
+received on 1** October 2010. | have been asked by Post Office Ltd to
 provide a statement regarding to my views on the report with regard to the
 Horizon system and also about my analysis of the data regarding the
-transactions carried out in Branch 126023 which I understand to be the
+transactions carried out in Branch 126023 which | understand to be the
 Branch that the defendant managed.
 
+Signatur Signature witnessed
+e by
+Page 1 of 16
 
-Signatur                                            Signature witnessed
-e                                                   by
-                                                       Page 1 of 16
-GS011 (Side A)                                                                                               Version 5.0 05/07
-Royal Mail is a trading nano of Royal Mail Group plc. Registered number 4138203. Registered in England and Wales. Registered
-office: 148 Old street, LONDON, EC1V 9HQ
+Royal Mail is a trading name of Royal Mail Group ple. Registered number 4138203. Registered in England and Wales. Registered
 
+1
+FUJ00123006
+FUJ00123006
 
-                                                              I
-                                                                                                     FUJO0123006
-                                                                                                 FUJO0123006
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
+Continuation of statement of Gareth Idris JENKINS.
 
-
-
- Witness Statement
- (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
-
- Continuation of statement of             Gareth Idris JENKINS
-
-
-
-
-I would like to re-iterate that my expertise relates to the Horizon system only
-and not to Post Office Ltd's Back end systems. However such systems are
+| would like to re-iterate that my expertise relates to the Horizon system only
+and not to Post Office Ltd’s Back end systems. However such systems are
 irrelevant to the Branch accounts that are produced on Horizon since any
 externally initiated transactions (such as Transaction Corrections and
 Remittances which will be discussed later) must be authorised by a User of
-the Horizon system in the Branch before they are included in the Branch's
+the Horizon system in the Branch before they are included in the Branch’s
 accounts.
 
+In Section 1.2 of his report, Professor McLachlan lists a number of
+“Hypothetical issues” with the Horizon system. However there doesn’t
+appear to be a thorough justification as to why these might be relevant. |
+wonder if you might be prepared to use slightly stronger wording. There
+doesn’t appear to be any evidential bases for the hypotheses at all.
 
-HII              i'              rU                                                    iuiuir
-
-
-
-
-  o               r r'   -   •   b -.          r           r' .. '            r s '.
-             r
-
-
-
-
-Specifically, in section 1.2.1 he hypothesises that "The User Interface gives rise to
+Specifically, in section 1.2.1 he hypothesises that “The User Interface gives rise to
 incorrect data entry: poor user experience design and inadequately user experience testing can
-give rise to poor data entry quality.". Although I was not responsible for the Design
-and development of the Horizon user interface, I do know that one of the
-
-
-
-
+give rise to poor data entry quality.” Although | was not responsible for the Design
+and development of the Horizon user interface, | do know that one of the
+key goals of the User Interface was that it would be easy to use and that it
+could be used by Users with no IT experience. Please explain why the
+interface is easy to use — colour buttons, simply worded and highly visible
 instructions etc. Are any photos or diagrams of assistance to explain the
 user-friendly display to the jury?
 
+Signature Signature witnessed by
 
- Signature                                           Signature witnessed by
-                                                       Page 2 of 16
- CS011A                                                                                 Version 3.0 11/02
+Page 2 of 16
+CSO11A, Version 3.0 11/02
 
-                                                                2
-                                                                                                      FUJO0123006
-                                                                                                  FUJO0123006
+2
+FUJ00123006
+FUJ00123006
 
-
-
-
- Witness Statement
+Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
-
-
-
-In Section 1.2.2 there is the hypothesis that 'The Horizon system fails to properly
+In Section 1.2.2 there is the hypothesis that ‘The Horizon system fails to properly
 process transactions: accounting systems are usually carefully designed to ensure that accounts
-balance after each "double entry" transaction.'                  Horizon is indeed designed to use
-"double entry" transactions. Further Professor McLachlan refers to the need
+balance after each “double entry” transaction.. Horizon is indeed designed to use
+“double entry” transactions. Further Professor McLachlan refers to the need
+for database systems to use “‘two-phase’ commit” technologies. Again, Horizon
+is designed using such concepts. However in a distributed environment
+with multiple systems it is not possible to handle all failure scenarios through
+2-phase commit mechanisms. What has to be included in the design is
+what happens when the outcome of a 2-phase commit is indeterminate and
+Horizon’s design does that. | don’t understand this. Please use layman’s
+language.
 
-
-
-
-Finally, in Section 1.2.3 there is the Hypothesis that "External systems across the
+Finally, in Section 1.2.3 there is the Hypothesis that “External systems across the
 wider Post Office Limited Operating Environment provide incorrect externally entered
-information to the Horizon accounts through system or operator error outside Horizon.". I am
-
-not quite clear what Professor McLachlan is referring to here.                            However
-what I can say is that any transaction that is recorded on Horizon must be
+information to the Horizon accounts through system or operator error outside Horizon.”. | am
+not quite clear what Professor McLachlan is referring to here. However
+what | can say is that any transaction that is recorded on Horizon must be
 authorised by a User of the Horizon system who is taking responsibility for
-the impact that such a transaction (has) on the Branch's accounts. There
-
-
-
+the impact that such a transaction (has) on the Branch’s accounts. There
+are no cases where external systems can manipulate the Branch’s accounts
+without the Users in the Branch being aware and authorising the
 
 transactions.
 
+Signature Signature witnessed by
 
+Page 3 of 16
+CSO11A, Version 3.0 11/02
 
+3
+FUJ00123006
+FUJ00123006
 
- Signature                                          Signature witnessed by
-                                                      Page 3 of 16
- CS011A                                                                                  Version 3.0 11/02
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-                                                             3
-                                                                                              FUJO0123006
-                                                                                          FUJO0123006
+Continuation of statement of Gareth Idris JENKINS.
 
+In Section 2.2.1 of his report, Professor McLachlan outlines a number of
+limitations in the scope of his investigation. In some of these cases, they
+are irrelevant to the processing of transactions in Horizon.
 
-
-
- Witness Statement
- (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
-
- Continuation of statement of             Gareth Idris JENKINS
-
-
-
-
-Specifically, the report states "It was not possible to examine the process for introducing
+Specifically, the report states “It was not possible to examine the process for introducing
 Transaction Corrections that can give rise to changes in the cash that Horizon records at the
-branch".        As I have stated earlier in this statement, any Transaction
+branch”. As | have stated earlier in this statement, any Transaction
 Correction that has been generated by the external Post Office Ltd systems
-must be explicitly accepted into the Branch's accounts by an appropriate
-User.        In many cases there is the opportunity to reject the Transaction
+must be explicitly accepted into the Branch’s accounts by an appropriate
+User. In many cases there is the opportunity to reject the Transaction
 Correction allowing a separate process to agree whether or not it is valid
 before it is accepted into the accounts (perhaps give an example).
-Therefore, I would say that it is not necessary to examine the process for
+Therefore, | would say that it is not necessary to examine the process for
 generating Transaction Corrections. Please also explain how a transaction
-correction comes about. It isn't a mechanical message from the back-end
+correction comes about. It isn’t a mechanical message from the back-end
 but an evidence-based, human decision. An example may help — eg. Cash
-in pouch on inspection doesn't match the Horizon record.
+in pouch on inspection doesn’t match the Horizon record.
 
-
-The next Bullet states "It was not possible to examine the processes for Remittances (the
+The next Bullet states “It was not possible to examine the processes for Remittances (the
 movement of cash and stock) into and out of the branch that changes the cash and stock that
-Horizon records at the branch." Again, any Remittance into the Branch has to be
-
+Horizon records at the branch.” Again, any Remittance into the Branch has to be
 explicitly accepted by the User (who will have had the opportunity physically
 to count the cash) and a receipt is produced stating the amount that is being
 introduced into the Branch accounts. Should this differ in any way from the
 
+Signature Signature witnessed by
 
- Signature                                           Signature witnessed by
-                                                       Page 4 of 16
- CS011A                                                                          Version 3.0 11/02
+Page 4 of 16
+CSO11A, Version 3.0 11/02
 
-                                                               4
-                                                                                               FUJO0123006
-                                                                                           FUJO0123006
+4
+FUJ00123006
+FUJ00123006
 
-
-
-
- Witness Statement
+Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
-
-
+Continuation of statement of Gareth Idris JENKINS.
 
 amount recorded on the cash pouch or the amount of cash found inside the
-pouch, there are processes to query such differences. Therefore, I would
+pouch, there are processes to query such differences. Therefore, | would
 say that it is not necessary to examine the process for generating
 Remittances.
 
-
-The third bullet states "It was not possible to examine the processes for revaluing foreign
-currency which could change the value of cash held at the branch.".          Revaluation of
-
-
-
-
+The third bullet states “It was not possible to examine the processes for revaluing foreign
+currency which could change the value of cash held at the branch.”. Revaluation of
+currency doesn't affect the cash position. It purely affects the notional value
+of the Foreign Currency as it is reported in the accounts, but has no impact
+on the Cash (sterling) position. It’s only impact might be on the liability of
+the postmaster for any currency that is subsequently lost (which would need
+to be repaid at the current value). Note that revaluation can be positive or
 negative.
 
-
-Finally, the 4th bullet states "It was not possible to examine the processes of reconciliation
-conducted by the Post Office that could give rise to Transaction Corrections.".   As Stated
+Finally, the 4" bullet states “It was not possible to examine the processes of reconciliation
+conducted by the Post Office that could give rise to Transaction Corrections.”. As stated
 earlier this is not really relevant since any Transaction Corrections will have
 been accepted by the User into the Branch accounts and should not be
 accepted if not understood. Accepting a Transaction Correction implicitly
 means taking responsibility for that in accounting terms.
 
+Moving on to Section 2.2.2 of Professor McLachlan’s report which is titled
+Opportunities for Reconciliation. | accept that the Horizon system has not
+been designed to automatically provide vouchers for every transaction. It
 
+Signature Signature witnessed by
 
+Page 5 of 16
+CSO11A, Version 3.0 11/02
 
- Signature                                          Signature witnessed by
-                                                      Page 5 of 16
- CS011A                                                                           Version 3.0 11/02
+5
+FUJ00123006
+FUJ00123006
 
-                                                              5
-                                                                                            FUJO0123006
-                                                                                        FUJO0123006
-
-
-
-
- Witness Statement
+Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
-
-
-
+was not a requirement for Horizon to produce such vouchers and in fact
+there were specific requirements from Post Office Ltd regarding transaction
+times that preclude printing such records. Are you able to explain why? My
+experience as a user of Retail systems (such as supermarkets) is that such
 vouchers are not normally generated there either.
-
 
 In Section 2.3 of his report, Professor McLachlan looks at hypothetical
 issues with Data Entry. Section 2.3.1 looks at the calibration of the touch
-screen.        I accept the fact that a misaligned touch screen could certainly
+screen. | accept the fact that a misaligned touch screen could certainly
 cause confusion to the User and result in incorrect buttons being activated.
-However I don't understand how Professor McLachlan is suggesting that
+However | don’t understand how Professor McLachlan is suggesting that
 such a misalignment would cause discrepancies within the accounts
 (perhaps invite M to give examples). Presumably the instructions and
 figures produced on the screen would alert the user immediately to a
 problem.
 
-
-In section 2.3.2, Professor McLachlan states that "Poor user interface design can
-contribute to poor data entry quality and user ertrors.". I agree with this as a statement.
-
+In section 2.3.2, Professor McLachlan states that “Poor user interface design can
+contribute to poor data entry quality and user errors.”. | agree with this as a statement.
 However Professor McLachlan makes no attempt to explain in what way the
-Horizon User Interface design is "Poor". As I stated earlier one of the key
+Horizon User Interface design is “Poor”. As | stated earlier one of the key
 goals of the User Interface was that it would be easy to use and that it could
 be used by Users with no IT experience. A significant amount of effort was
 put into designing and agreeing the User Interface with Post Office Ltd.
 
+Signature Signature witnessed by
 
+Page 6 of 16
+CSO11A, Version 3.0 11/02
 
-Signature                                           Signature witnessed by
-                                                      Page 6 of 16
-CS011A                                                                         Version 3.0 11/02
+6
+FUJ00123006
+FUJ00123006
 
-                                                             6
-                                                                                                                     FUJO0123006
-                                                                                                                 FUJO0123006
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
+Continuation of statement of Gareth Idris JENKINS.
 
+In Section 2.3.3 of his report Professor McLachlan hypothesises that errors
+can be introduced by incorrect use of the “Fast Cash” button. In particular
+he challenges my analysis of unsuccessful Debit Card Transactions.
+Please set out your analysis of unsuccessful debit card transactions, in
+layman's terms. | would like this statement to be able to stand alone, as
+much as possible, to avoid all parties having to cross-refer to your other
+statements. | have re-checked the transaction for £7,000 on 11" January
+2007 and this transaction was actually settled by a Cheque and not cash.
+This was covered by case 1 in my email to his which is reproduced in
+Appendix | of his report. Therefore in this case the User must have been
+aware that the Debit Card transaction had failed in order to ask for a
+cheque. Even supposing the Cheque button was pressed in error for Fast
+Cash, then there would have been a discrepancy in the value of cheques
+and there is no evidence of such discrepancies.
 
-
-     Witness Statement
- (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
-
-     Continuation of statement of         Gareth Idris JENKINS
-
-
-II               WCICZil              11shill          1**I                    Fill ik h.)liT   F*IIiTiE]it.]ii
-
-
-
-
-                                        ii              IT lsf1lM*uI Mill           *SISIIz.]iI
-
-
-
-
-        •
-     iIIti                    i##              `II     -•'         #       #       •1t-   `i        #       A
-
-
-
-
-Later in this section, Professor McLachlan claims "the 'Fast Cash' button is
-demonstrated to be a source of data entry error (the reversals confirm this)."_                   I don't agree
-with that. I can see no evidence to support this statement. The fact that
+Later in this section, Professor McLachlan claims “the ‘Fast Cash’ button is
+demonstrated to be a source of data entry error (the reversals confirm this).”. | don’t agree
+with that. | can see no evidence to support this statement. The fact that
 there are reversals following a failed Debit card transaction is due to the fact
 that some transactions cannot be abandoned and need to be settled and
 then reversed. This was a specific requirement on Horizon from Post Office
@@ -307,385 +266,344 @@ Ltd. The fact that this has been done shows that the user was well aware of
 the failure of the Debit Card transaction and followed normal process when
 the failure occurred.
 
- Signature                                           Signature witnessed by
-                                                       Page 7 of 16
- CS011A                                                                                                 Version 3.0 11/02
+Signature Signature witnessed by
 
-                                                               7
-                                                                                             FUJO0123006
-                                                                                         FUJO0123006
+Page 7 of 16
+CSO11A, Version 3.0 11/02
 
-
-
+7
+FUJ00123006
+FUJ00123006
 
 Witness Statement
-(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 58. MC Rules 1981, r 70)
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
-
-
-
+Continuation of statement of Gareth Idris JENKINS.
 
 Professor McLachlan explores issues with training of the Users in section
-2.3.4 of his report. I support his finding regarding discrepancies in cash in
-almost every period. Can you expand on this and explain in layman's terms,
-perhaps giving a couple of examples? I do not understand exactly what M is
+2.3.4 of his report. | support his finding regarding discrepancies in cash in
+almost every period. Can you expand on this and explain in layman’s terms,
+perhaps giving a couple of examples? | do not understand exactly what M is
 referring to and your agreement might be interpreted as a concession that
-the Crown's case is entirely flawed. Discrepancies are always to be
+the Crown’s case is entirely flawed. Discrepancies are always to be
 expected. What is not to be expected is that daily errors will be ignored but
 that then, at the end of the branch trading period, the SPM will show a
 considerable deal of competence by balancing the branch with carefully
-fictitious figures. Isn't it usually possible for an SPM to discover the source
-of a mistake and correct it? Won't any SFM look under every possible stone
+fictitious figures. Isn’t it usually possible for an SPM to discover the source
+of a mistake and correct it? Won't any SPM look under every possible stone
 to find the cause of the problem? Isn't it implausible that there would be so
-many smal l mistakes leading to a £75,000 loss? Are there discrepancies
-that result in a surplus? If not, why should the "mistakes" always go one
+many small mistakes leading to a £75,000 loss? Are there discrepancies
+that result in a surplus? If not, why should the “mistakes” always go one
 way? M seems surprised that thefts over a long period should go
-undiscovered. This is rubbish_ If a SPM is cooking the books only an audit
-wi ll reveal the truth.                I also did an analysis of the daily cash movements
+undiscovered. This is rubbish. If a SPM is cooking the books only an audit
+will reveal the truth. | also did an analysis of the daily cash movements
+compared with the daily cash declarations and could see very little
+correlation between the two which indicates that the variances between the
+declared cash and the system cash figures were not being monitored very
+well within the Branch. | would agree that this could be down to Theft /
+Fraud, or incompetence by the Branch staff. isn’t theft rather more likely?
+Are these equally valid possibilities? Why would a SPM not monitor the
 
+Signature Signature witnessed by
 
+Page 8 of 16
+CSO11A, Version 3.0 11/02
 
-
-Signature                                           Signature witnessed by
-                                                      Page 8 of 16
-CS011A                                                                          Version 3.0 11/02
-
-                                                             8
-                                                                                                                    FUJO0123006
-                                                                                                                FUJO0123006
-
-
-
-
- Witness Statement
-(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
-
- Continuation of statement of              Gareth Idris JENKINS
-
-
-
-system wel l on a dally basis? Not to do so risks throwing their own money
-down the drain. However there is no evidence that this is down to any sort of
-System failure. Further I would suggest that smal l discrepancies are to be
-expected in such an environment due to mistakes in giving change etc. My
-understanding               is that        Post Office            investigators expect such smal l
-discrepancies in normal operation.
-
-
-
-
-           ► 1 ■!           •l
-
-
-
-
-                   !-        •                        - r   !r     -s         `r          !            `r!            !
-
-
-
-     -r                 -              - • !r                             r              11•   r   r     •
-
-               •            r`   !1r   !   rr                       -     -        - t         r               l     •
-
-
-
-
-at for this case. In particular, Professor McLachlan says "It demonstrates that
-there have been faults with the Horizon system which give rise to discrepancies that can cause
-losses. It is not reasonable to exclude the possibility of system problems when considering a case
-such as Misra. ". I would dispute that. It was clear from the Events generated
-
-
-
-
- Signature                                          Signature witnessed by
-                                                      Page 9 of 16
- CS011A                                                                                                Version 3.0 11/02
-
-                                                              9
-                                                                                                         FUJO0123006
-                                                                                                       FUJO0123006
-
-
-
+8
+FUJ00123006
+FUJ00123006
 
 Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-Continuation of statement of              Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
+system well on a daily basis? Not to do so risks throwing their own money
+down the drain. However there is no evidence that this is down to any sort of
+System failure. Further | would suggest that small discrepancies are to be
+expected in such an environment due to mistakes in giving change etc. My
+understanding is that Post Office investigators expect such small
+discrepancies in normal operation.
 
+Section 2.4 of Professor McLachlan’s report than describes 2 possible
 
+issues with Horizon.
 
-In section 2.4.2 Professor McLachlan describes a "travellers cheque stock
+| accept that there was an issue with the Post Office in Calendar Square
+Falkirk as descried in the email reproduced in Appendix C of the report and
+covered by a previous Witness statement | made on 8" February 2010. As |
+stated in the email, the problem was fixed in March 2006 and so is not
+relevant to the period of data that | have examined in this branch. Also,
+when the problem manifested itself it was clear from the various logs that
+there was a problem in the system. There is no evidence of such problems
+from the various logs that have been examined for this branch. Therefore |
+see no relevance for this problem to the period of data that is being looked
+at for this case. In particular, Professor McLachlan says “It demonstrates that
 
+there have been faults with the Horizon system which give rise to discrepancies that can cause
 
+losses. It is not reasonable to exclude the possibility of system problems when considering a case
+such as Misra. ”. | would dispute that. It was clear from the Events generated
+at the time in Calendar Square that there was a problem. No such events
 
+Signature Signature witnessed by
 
-                        •'            • ra-            •            •       •-   1/1   ••   •     ' •
+Page 9 of 16
+CSO11A, Version 3.0 11/02
 
- 1       ' /1                        -r        •           1            1        -•     •          •
+9
+FUJ00123006
+FUJ00123006
 
-
-
-
-Signature                                           Signature witnessed by
-                                                     Page 10 of 16
-CS011A                                                                                      Version 3.0 11/02
-
-                                                               10
-                                                                                                  FUJO0123006
-                                                                                              FUJO0123006
-
-
-
-
- Witness Statement
+Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
+have been seen in West Byfleet in the period in question and so this cannot
+be responsible for the losses in that period. Please provide your full
+explanation of why Callender SQ doesn’t apply, so that this statement can
+stand alone. The Defence are going to bang on about this. Please describe
+the symptoms and effect of the Callender Sq problem. These symptoms
+were immediately apparent to the users and the problem reported. If Misra
+had ever suffered from the problem you would presumably have expected
+her to be able to describe the problem. My understanding is that Misra is
+unable to describe at all wnat may have been going wrong with her system.
+According to her Defence Statement she simply put the losses down to theft
+by employees and/or incompetence. This appears to me to be ludicrously
+vague. She should at least be able to say where the losses were occurring.
+Are you not surprised that M’s reports appear to have received no guidance
+whatsoever from Misra? Were you surprised to see that Callender Sq was
+still an issue for M? Did you have any idea that he wanted the earlier logs
+before you received his fina! report?
 
+In section 2.4.2 Professor McLachlan describes a “travellers cheque stock
+problem”. | disagree with his description of what happens in this scenario.
+Horizon doesn’t attempt to control Travellers’ Cheques at a denominational
+level. In other words it only manages the total value (in dollars) of
+Travellers’ Cheques and doesn’t distinguish between $1,000 being held as
+10 $100 Travellers’ Cheque or as 50 $20 Travellers’ Cheques or any other
+combination. Horizon is only concerned with the fact that it holds Travellers’
+
+Signature Signature witnessed by
+
+Page 10 of 16
+CSO11A, Version 3.0 11/02
+
+10
+FUJ00123006
+FUJ00123006
+
+Witness Statement
+(CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
+
+Continuation of statement of Gareth Idris JENKINS.
 
 Cheques to a face value of $1,000. Therefore following through Professor
-McLachlan's scenario, the system initially has $1,000 of Travellers'
-Cheques. When a customer purchases one Travel lers' Cheque for $100,
-then this will be reflected by reducing the stock of Travellers' Cheques by
-100, leaving 900 Travellers' Cheques in stock. This would be reflected on
+McLachlan’s scenario, the system initially has $1,000 of Travellers’
+Cheques. When a customer purchases one Travellers’ Cheque for $100,
+then this will be reflected by reducing the stock of Travellers’ Cheques by
+100, leaving 900 Travellers’ Cheques in stock. This would be reflected on
 the Stock Report.
 
-
-
-
-discussed this scenario with me and that I "acknowledge that this is a known feature
+| also note that in this section Professor McLachlan states that he has
+discussed this scenario with me and that | “acknowledge that this is a known feature
 of Horizon and that the Post Office have not instructed Fujitsu to change the system to produce a
-meaningful stock report.". I don't recall any such discussion. I have seen such a
-
+meaningful stock report.”. | don’t recall any such discussion. | have seen such a
 scenario described in a separate report that Professor McLachlan has
-
-
-
-
+written for a separate case, and did explicitly check out the scenario and
+produced a report for Post Office Ltd refuting the description. Please set out
 here in simple terms how your experiments refuted the theory, again so this
-
-
-
-
+statement can stand alone. | do accept that there are some cases where the
+way in which Travellers’ Cheques can appear to be slightly misleading
+(please expand on what you mean - the Defence will otherwise exaggerate
+the significance of this comment), however there is nothing as blatantly
 incorrect with the system as Professor McLachlan suggests.
-Therefore I would contend that section 2.4.2 of the report is irrelevant. What
+
+Therefore | would contend that section 2.4.2 of the report is irrelevant. What
 do you think of his suggestion that a staff member will be tempted to make a
-manual correction to a perceived problem? Isn't this in fact something that
+manual correction to a perceived problem? Isn’t this in fact something that
 should never be done?
 
+Signature Signature witnessed by
 
- Signature                                          Signature witnessed by
-                                                     Page 11 of 16
- CS011A                                                                              Version 3.0 11/02
+Page 11 of 16
+CSO11A, Version 3.0 11/02
 
-                                                             11
-                                                                                            FUJO0123006
-                                                                                        FUJO0123006
+1
+FUJ00123006
+FUJ00123006
 
-
-
-
- Witness Statement
+Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
-
-
-
-In Section 2.5.1,                 Professor McLachlan looks again at Transaction
+In Section 2.5.1, Professor McLachlan looks again at Transaction
 Corrections. Here he refers to Appendix G of his report which describes
-some analysis I have done concerning transaction Corrections (my email on
+some analysis | have done concerning transaction Corrections (my email on
 this is actually is in Appendix D of the report). This shows that if we analyse
 all Transaction Corrections during the 13 month period that the net value is
-£1,840.         I've subsequently gone over the data again and found some
+£1,840. I’ve subsequently gone over the data again and found some
 additional transaction corrections that have been processed and the total
 net value of all such Transaction Corrections is actually slightly less namely
 £1,619.43.
 
-
 He then refers to a slightly wider scope that he has taken in Appendix J
 where he comes up with an absolute value of £82,918.35 (though a net
-value of £19.257.21).                  1 have now had a chance to examine this data in
-more detai l and have the fol lowing observations to make on Professor
-McLachlan's analysis:
+value of £19.257.21). | have now had a chance to examine this data in
+more detail and have the following observations to make on Professor
+McLachlan’s analysis:
 
+T still need to do this analysis, so I'll come back to this.
 
-             I still need to do this analysis, so I'll come hack to this.                  1
-Later on in the section Professor McLachlan states "There is no record of Misra
-requesting evidence in the transactions provided between 1 Dec 06 and 31 Dec 07. ". This iS
-
-incorrect. There was one such example on 13th December 2006 and two
-more on 14th March 2007. I accept that I had omitted these from my initial
+Later on in the section Professor McLachlan states “There is no record of Misra
+requesting evidence in the transactions provided between 1 Dec 06 and 31 Dec 07. ”. This is
+incorrect. There was one such example on 13" December 2006 and two
+more on 14 March 2007. | accept that | had omitted these from my initial
 analysis.
 
- Signature                                           Signature witnessed by
-                                                      Page 12 of 16
- CS011A                                                                        Version 3.0 11/02
+Signature Signature witnessed by
 
-                                                              12
-                                                                                                           FUJO0123006
-                                                                                                       FUJO0123006
+Page 12 of 16
+CSO11A, Version 3.0 11/02
 
+12
+FUJ00123006
+FUJ00123006
 
-
-
- Witness Statement
+Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
- Continuation of statement of            Gareth Idris JENKINS
-
-
-
+Continuation of statement of Gareth Idris JENKINS.
 
 Finally, towards the end of the section Professor McLachlan hypothesises
-"There are missing Transaction Corrections which would reduce the cash balance expected by the
-Horizon system (i.e. be in favour of Misra).". This may indeed be true. Why? Isn't
-
+“There are missing Transaction Corrections which would reduce the cash balance expected by the
+Horizon system (i.e. be in favour of Misra).”. This may indeed be true. Why? Isn't
 this wishful thinking by M? There is no evidential basis whatsoever for his
-assertion., Have the transaction corrections disappeared by magic? However
-my understanding is that normal ly branches are well aware of such errors
+assertion. Have the transaction corrections disappeared by magic? However
+my understanding is that normally branches are well aware of such errors
 and would have contacted Post Office Ltd to enquire as to why no
 Transaction Correction was being made in favour of the branch.
 
+Section 2.5.2 of the report discusses remittances. However | don’t
+understand the relevance of this discussion to the case. Professor
+McLachlan mentions that my analysis “identified a pattern or remittance transactions
+which is consistent with Misra’s statement that she declared cash held in remittance pouches in the
+safe which was not actually present.”._ In my view is this not an indication of guilt?
+Please rephrase and expand. It is surely surprising that a SPM should go to
+all the trouble of preparing scores of empty bags rather than trying to find
+out what the problem was. In fact Misra had considerable computer
+experience — you may want to speak to John Longman as to her CV.
 
-Section 2.5.2 of the report discusses remittances.                                     However I don't
-understand the relevance of this discussion to the case.                                     Professor
-McLachlan mentions that my analysis "identified a pattern or remittance transactions
-which is consistent with Misra's statement that she declared cash held in remittance pouches in the
-safe which was not actually present.". In my view is this not an indication of guilt?
+Section 2.5.3 then refers to incorrect transaction processing. However there
+is no indication as to what types of transaction processing may be incorrect.
+It should be noted that the Horizon counter application has recently been
+replaced and the last Horizon Counter migrated to the new system in
 
+Signature Signature witnessed by
 
+Page 13 of 16
+CSO11A, Version 3.0 11/02
 
-
- -r       -r and                          •     •        •1U1 1       fill•   -r   •
-
-
- Signature                                          Signature witnessed by
-                                                     Page 13 of 16
- CS011A                                                                                       Version 3.0 11/02
-
-                                                             13
-                                                                                          FUJO0123006
-                                                                                      FUJO0123006
-
-
-
+13
+FUJ00123006
+FUJ00123006
 
 Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-Continuation of statement of             Gareth Idris JENKINS
-
-
+Continuation of statement of Gareth Idris JENKINS.
 
 September 2010 and so there are no longer any Horizon counter systems to
-examine. Isn't it in fact impossible to perform helpful lab condition
+examine. isn’t it in fact impossible to perform helpful lab condition
 experiments? You would need a Misra clone. M shouldn't need to conduct
-experiments ® he should be guided by Misra who was on the scene at the
-time. Doesn't the fact that Misra appears to provide no guidance at al l
+experiments — he should be guided by Misra who was on the scene at the
+time. Doesn't the fact that Misra appears to provide no guidance at all
 suggest that there was no computer problem?
-   rn
 
+Professor McLachlan’s report than attempts to draw some conclusions in
+section 3.
 
-
-
-        raiiicJ
-
-
-
-
-Section 3.1 queries why it took Post Office Ltd so long to notice the pattern
-of discrepancies.                  Much of the detai led information regarding such
+Section 3.1queries why it took Post Office Ltd so long to notice the pattern
+of discrepancies. Much of the detailed information regarding such
 discrepancies is only available within the branch to assist the sub-
 postmaster in managing their branch and so is not routinely available to
-Post Office Ltd until and investigation is carried out as in this case. As I
+Post Office Ltd until and investigation is carried out as in this case. As |
 mention above, if the SPM is fiddling the accounts only an audit will uncover
-the problem_ Misra would have known this.
+the problem. Misra would have known this.
 
+Section 3.2 mentions screen calibration issues. While | can’t 10% rule out
+such issues as causing some issues. However | can’t see how this could
+account for anything like the full extent of the losses. Please rephrase. This
+will be taken as a damaging concession. You need to explain what is meant
+by “screen calibration issues”. Give simple examples if you can. How can
 
+Signature Signature witnessed by
 
+Page 14 of 16
+CSO11A, Version 3.0 11/02
 
-Signature                                           Signature witnessed by
-                                                     Page 14 of 16
-CS011A                                                                       Version 3.0 11/02
-
-                                                             14
-                                                                                          FUJO0123006
-                                                                                      FUJO0123006
-
-
-
+14
+FUJ00123006
+FUJ00123006
 
 Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-Continuation of statement of             Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
-
-
-
+any such issue lead to a deficiency? Above you only refer to the possibility
 of confusion arising, not a deficiency.
 
+Section 3.3 refers to Horizon issues. As stated earlier, the Calendar Square
+issue is irrelevant and there is no issue with Travellers’ Cheques.
 
+Finally in 3.4 is challenging the integrity of Post Office Ltd’s back end
+systems. My view is that any faults in these systems are irrelevant to the
+Branch accounts and hence the losses. This is because, as stated earlier,
+any transactions generated from a Post Office Ltd back end system must be
+explicitly accepted onto Horizon by a User and cannot be introduced into the
+Branch accounts without their knowledge.
 
-
-issue is irrelevant and there is no issue with Travellers' Cheques.
-
-
-
-
-to construct them.                 I assume that they are all generated from the raw
+| have not examined the data in the appendices in detail. | acknowledge
+that any emails included there from myself are correct, but have not
+examined the embedded spreadsheets in detail other than where explicitly
+referenced in this statement. | note that many of the appendices are not
+referenced from the report and there is no explanation as to the basis used
+to construct them. | assume that they are all generated from the raw
 transaction and event logs that were supplied to Professor McLachlan by
 Fujitsu at the request of Post Office Ltd.
 
+Signature Signature witnessed by
 
+Page 15 of 16
+CSO11A, Version 3.0 11/02
 
-
-Signature                                           Signature witnessed by
-                                                     Page 15 of 16
-CS011A                                                                       Version 3.0 11/02
-
-                                                             15
-                                                                                                                 FUJO0123006
-                                                                                                             FUJO0123006
-
-
-
+15
+FUJ00123006
+FUJ00123006
 
 Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-Continuation of statement of              Gareth Idris JENKINS
+Continuation of statement of Gareth Idris JENKINS.
 
+In addition to examining Professor McLachlan’s report, | have also been
+asked to look at Cash Balances and Cash held in Pouches awaiting
+collection through the period from December 2006 to December 2007.
 
+| T still need to do this analysis, so I'll come back to this.
 
-
- ~ -      ~          a •`        - •-      ~•      ~     ~-     -    ~-      fi t« ~ ~-   _   ~-   t1
-
-
-
-              I still need to do this analysis, so I'll cone hack to this.
-
-At some stage some general remarks wound be useful — how long Horizon
+At some stage some general remarks would be useful — how long Horizon
 has been in operation, how robust a system it is etc. What do you think of
-
-
-
-
+the suggestion that there may have been a problem with Misra’s equipment
+of which she was blissfully aware? What about Varsani’s statement that M
 chooses to ignore?
 
+Signature Signature witnessed by
 
+Page 16 of 16
+CSO11A, Version 3.0 11/02
 
-
-Signature                                              Signature witnessed by
-                                                        Page 16 of 16
-CS011A                                                                                              Version 3.0 11/02
-
-                                                               16
-
+16

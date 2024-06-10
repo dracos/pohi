@@ -1,0 +1,845 @@
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+Document Title:
+
+Document Type:
+Release:
+
+Abstract:
+
+Document Status:
+
+Originator & Dept:
+
+Contributors:
+
+Internal Distribution:
+
+External Distribution:
+
+Approval Authorities:
+
+Major Incident Report - Correspondence Servers online service
+9" May 2005.
+
+Report
+N/A
+
+Report covering management, investigation, resolution, root
+
+cause analysis and corrective actions of Major Incident
+PM0006760 / P10001523
+APPROVED
+
+Mike Stewart - POA Customer Services
+
+Peter Thompson — POA Customer Services
+Steve Parker — POA SSC
+Tony Wicks — POA Customer Services
+
+Carl Marx, Peter Thompson, Tim Roper, Peter Jeram, Colin
+Lenton-Smith, Mike Stewart, Tony Wicks, Peter Burden, Kevin
+Spence, Kathryn Simpson, Stacey Sutton, Liam Foley, Dave
+Baldwin, Richard Brunskill plus Contributors.
+
+Dave Hulbert, Gary Blackburn, Beverley Dunn, Dave Smith,
+Clive Reed.
+
+(See PA/PRO/010 for Approval roles)
+
+Name Role Signature Date
+Dave Baldwin FS POA Service Director
+Carl Marx FS CS Service Management
+Manager
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 1 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+oe) Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+0.0 Document Control
+0.1 Document History
+Version No. | Date Reason for Issue Associated
+ae ce i | | CP/PEAK/PPRR
+Reference
+0.1 09/05/2005 Initial Draft
+0.2 26/05/2005 Updated with comments and specific tables
+by Nikki Hawkins
+1.0 09/01/2006 Approval
+
+0.2 Review Details
+
+Review Comments by: 23-FEB-2006
+
+Review Comments to: Mike Stewart
+
+Mandatory Review
+
+FS CS Director Dave Baldwin *
+FS CS Service Management Manager Carl Marx *
+Optional Review
+
+FS Core Services Network Operations Manager | Dave Jackson
+
+FS Core Services Site Support Manager Paul Sandison
+
+FS CS Services NT/Unix Support Manager Andrew Gibson
+
+(* ) = Reviewers that returned comments
+
+0.3 Associated Documents
+
+Reference Version | Date Title Source
+
+PA/TEM/001 8.0 19/12/02 Fujitsu Services Document PVCS
+Template
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 2 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report - Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+Unless a specific version is referred to above, reference should be made to the current
+approved versions of the documents.
+
+0.4 Abbreviations/Definitions
+
+Abbreviation Definition
+
+ADSL Asymmetric Digital Subscriber Line
+BAS Broadband Access Server
+BCM Business Continuity Manager
+CFM3 Network Support Team POA
+DM Duty Manager
+
+FAD Financial Accounting Division
+HSH Horizon System Helpdesk
+
+IC Inter Connect
+
+LST Live System Testing
+
+PM Problem Manager
+
+PMDB Problem Management Database
+PO Post Office
+
+POA Post Office Account
+
+POL Post Office Limited
+
+RCA Root Cause Analysis
+
+SCT Service Continuity Team
+
+SMC Systems Management Centre
+0.5 Changes in this Version
+
+Version Changes
+
+10 Approval
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 3 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report - Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+0.6 Changes Expected
+
+Changes
+
+Following reviews. None
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 4 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+sO. Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+
+Commercial In Confidence Date: 09/01/2006
+0.7 Table of Contents
+1.0 INTRODUCTION...
+2.0
+3.0
+4.0
+5.0 SYMPTOMS AND BUSINESS IMPAC1
+6.0 INCIDENT MANAGEMENT
+7.0 PROBLEM MANAGEMENT
+8.0 CORRECTIVE ACTIONS...
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 5 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+1.0 Introduction
+
+This document details the initial incident that occurred within the live estate between 09:00
+and 10:00 for a four minute period on Monday 9" May 2005 and the activities that were
+carried out for the remainder of the business day by the appropriate POA Service
+Management and support teams.
+
+The incident that occurred within the live estate was a result of work activity at that time
+being carried out by support staff on the Correspondence Servers, which impacted online
+services with high transaction Reversals and Time Outs.
+
+Service request E-0505090917 was raised at the time in relation to this incident on the HSH
+Powerhelp Helpdesk system.
+
+2.0 Scope
+
+This report covers the following areas in relation to the incident:
+e¢ Summary of Incident
+e Service and Business Impact
+e Recovery Timeline
+¢ Root Cause
+
+e Action Plan / Corrective Actions
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 6 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+3.0 Management Summary
+
+The incident within the live estate occurred at the time that support staff were analysing the
+Correspondence Server volume capacity using the Riposte Volume Command.
+
+At this present moment the root cause of the incident isn’t known, as further investigations
+continue by the support teams.
+
+The purpose of this activity on the Correspondence Servers was to ensure that there available
+spare disk capacity across the Correspondence Server disk volumes for the Riposte message
+stores.
+
+The work activity was carried out as a precautionary measure as a result of an archiving job
+not completing following an event storm that occurred the previous week.
+
+The Riposte Volume command has been used on numerous occasions before with no impact
+to service, as it simply displays the details of Riposte Volumes.
+
+Running this command stops Riposte services running for a micro-second, and then starts
+(unlocks) the services again after the volume in taken. It is believed that in this instance, due
+to a bug in Riposte, the services did not start again. A peak (PC0120645) has been raised with
+Escher development.
+
+This caused the first degradation to service for 4 minutes between 9 and 10am. An event
+storm with messages from the Correspondence Servers stated that services were locked. As
+timeouts reduced to normal levels, the support teams diagnosed that the event storms and
+locks had cleared.
+
+At 1030am SSC started to be aware through events being generated that two of the clusters
+weren’t harvesting messages from the counters.
+
+Following further subsequent analysis by SSC support staff, in order to was made to restart
+the Riposte services on the impacted servers within clusters 1 & 2 respective following
+discussions between POL and POA senior management.
+
+This decision was justified by a high number of calls being received into the service desk and
+by the increase in the abandoned rate (section 5 Table B) at the desk between 12:00 — 13:00.
+
+The Riposte services were restarted at 13:05 on those servers in clusters 1& 2
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 7 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+As SSC continued to monitor the live estate it was clear that as the correspondence servers
+were in the process of synchronising the Riposte message stores within the clusters that this
+was having a performance impact on the live estate and timeouts were continuing to occur at
+the counters.
+
+SSC formulated a maintenance plan to resolve the impacts on the live estate which was
+agreed to be implemented that evening from 18:45.
+
+The work activity with regard to the maintenance plan concluded at 21:45 this involved
+restarting Riposte services on each of the clusters in order to ensure that the Correspondence
+servers were returned to normal operational status.
+
+4.0 Description of the fault and service failure
+
+The incident that occurred presently hasn’t a determined root cause and occurred within the
+live estate whilst the SSC were analysing the Correspondence Server volume capacity using
+the RiposteVolume Command. The purpose of this activity was to ensure that there available
+spare disk capacity across the Correspondence Server disk volumes.
+
+The work activity was carried out as a precautionary measure as a result of an archiving job
+not completing following an event storm that occurred the previous week.
+
+The RiposteVolume command has been used on numerous occasions before with no impact
+to service, as it simply displays the details of Riposte Volumes.
+
+Running this command stops Riposte services running for a micro-second, and then starts
+(unlocks) the services again after the volume in taken. It is believed that in this instance, due
+to a bug in Riposte, the services did not start again. A peak (PC0120645) has been raised with
+Escher development.
+
+This caused the first degradation to service for 4 minutes between 9 and 10am. An event
+storm with messages from the Correspondence Servers stated that services were locked. As
+timeouts reduced to normal levels, the support teams diagnosed that the event storms and
+locks had cleared.
+
+At 10:30am, the SSC balance monitor alerted that C12 responses for Clusters 1 and 2 were
+not being harvested. There were no other indications of service issues at this stage.
+Investigations isolated the fault to one server on each cluster which was processing 1% of
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 8 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+their normal transaction rate. NB if the servers had failed completely, then the counters would
+have automatically balanced across the remaining 3 servers. As the server was still running,
+this degraded the service to the counters connected.
+
+From a customer perspective, the customers would have noticed timeouts but a subsequent
+transaction retry attempt would have been successful (section 5 table A2).
+
+This Riposte fault has been seen on counters before but never at the data centre (PC0101472
+tefers - fix at S90).
+
+As the calls into the Helpdesk rose through the morning, the number of calls waiting reached
+~40 at 12:30, it was clear that the affected Correspondence Servers required reloading in
+order to restore these servers to normal operating speeds. Ie. the Riposte services were still
+locked.
+
+A decision was made by Senior POL and POA Management following advice from the
+support teams to stop and restart the Riposte services on a server within cluster], based on the
+number of transaction timeouts/events occurring via system management toolsets and the
+number of calls being received into the HSD.
+
+At 13:05 one of the Bootle Correspondence servers had the Riposte services stopped and then
+restarted. Whilst this activity was taking place the numbers of calls waiting reduced to 0 at
+the HSD service desk. During that activity, the percentage of transaction timeouts was less
+than 2%
+
+SSC staff continued throughout the remainder of the day to evaluate and monitor the live
+estate and to formulate an appropriate maintenance plan.
+
+The maintenance plan was derived to perform the remedial activity to the Correspondence
+servers that required the Riposte services to be stopped and restarted outside of Core hours on
+specific servers within clusters 1, 2 & 3 respectively.
+
+The activity plan and communication plan surrounding this activity was agreed by Service
+Management and support staff and approved through the OCP process (OCP11050).
+
+This maintenance activity was required to return the Correspondence servers to normal
+operational mode and ensure that the overnight harvesting activity could take place.
+
+As part of the OCP a decision was made to suspend harvesting until the remedial activity had
+taken place.
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 9 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report - Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+The maintenance activity started at 18:45 and concluded at 21:45 and at that point overnight
+harvesting was then initiated and subsequently completed successfully overnight via the
+Maestro Batch scheduler.
+
+5.0 Symptoms and Business Impact
+
+The following tables show the transaction profiles that have occurred for the four minute
+period for the previous four Monday’s detailing success and failure rates.
+
+Table A — Transaction table for business volumes
+
+TIMED TOTALS Transaction total Successes Fails Fails %
+LINK 14-Apr-05 2415 2411 4.00 | 0.17%
+Alliance & Leicester pic 11-Apr-05 1,034 1,028 8 | 0.77%
+card account at Post Office 11-Apr-05 35,990 35,956 34 | 0.09%
+e-pay Ltd 11-Apr-05 1,376 1,376 0 | 0.00%
+Streamline (Online Debit
+
+Card) 11-Apr-05 642 642 0 | 0.00%
+LINK 18-Apr-05 3,990 3,988 2| 0.05%
+Alliance & Leicester plc 18-Apr-05 1,041 1,040 1 0.10%
+card account at Post Office 18-Apr-05 34,558 34,531 27 0.08%
+e-pay Ltd 18-Apr-05 1,516 1,516 0 | 0.00%
+Streamline (Online Debit
+
+Card) 18-Apr-05 659 658 1 | 0.15%
+LINK 25-Apr-05 2,548 2,543 5 | 0.20%
+Alliance & Leicester pic 25-Apr-05 1,113 4,111 2| 0.18%
+e-pay Ltd 25-Apr-05 1,535 1,535 0 | 0.00%
+card account at Post Office 25-Apr-05 37,006 36,974 32 | 0.09%
+Streamline (Online Debit
+
+Card) 25-Apr-05 672 672 0 | 0.00%
+LINK 03-May-05 4,466 4,458 8 | 0.18%
+Alliance & Leicester pic 03-May-05 1,168 1,167 1 0.09%
+card account at Post Office 03-May-05 32,747 32,718 29 | 0.09%
+e-pay Ltd 03-May-05, 1,475 1,473 2| 0.14%
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 10 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+oo) Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+
+FUJITSU May 2005
+
+FUJITSU SERVICES
+
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+Streamline (Online Debit | |
+
+Card) 03-May-05, 1,337 1,335 2 | 0.15%
+
+LINK 09-May-05, 2,890 1,039 1,851 | 64.05%
+
+e-pay Ltd 09-May-05 1,088 561 527 | 48.44%
+Alliance & Leicester pic 09-May-05 1,300 468 832 | 64.00%
+
+card account at Post Office 09-May-05 39,853 14,333 25,520 | 64.04%
+
+Streamline (Online Debit
+
+Card) 09-May-05 925 396 529 | 57.19%
+Table A2
+
+This table shows the failure rate for the five minute period after the initial service impact in
+comparison to the failures detailed in Table A.
+
+Bank Receipt Date Transaction Volume Successes Fails Fails %
+Alliance & Leicester pic 09-May-05 1,210 1,204 6 0.50‘
+card account at Post Office 09-May-05 40,303 40,099 204 0.51°
+e-pay Ltd 09-May-05 1,449 1,414 35 2.42°
+Streamline (Online Debit
+
+Card) 09-May-05 691 673 18 2.60'
+LINK 09-May-05 2,652 2,626 26 0.98
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 11 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+
+od Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+Table B Help Desk Statistics:
+HSD 30 Minute SLA Conformance
+
+[ACD Total Tot! Avail Aban Abn] Abn JAban Aban Aban AbanACDACD Ans ACD[Ans] Ans Ave
+
+|calls Ans Call tobe 40 >40] >40 | 20 20. 40- > 60 Call In By Cali] 30] <30 | Agent
+
+lOffer Calls Aban Ans secs secs| SLA |secs 40 60 secs Fwd Out NACD Wili|secs] SLA | Logged in
+
+secs secs ReQ\ >1=80%
+
+or30 [3] 3]0]3]0]0 o7O]0]0]0];0]0]0 1
+oso [29[29| 0 [2][ 0 [0 ofo;ololojlo|o|o 3
+08:30 [718] 64 [34 [118] 6 | 28 T/s|7lalololo fo 2B
+09:00 [362| 97 [265] 362 | 43 [202 i [a7 | 4 li77[olo}o jo 25
+o9:30 [793] 70 [423/193] 412 [771 S| 7 )w@lslolol oo 2
+10:00 [121] 46 | 75 [121| 2 | 73 7{[1|/s8lesfolo|o fo 25
+1030 [eo] 70 | 19 [es | 8 | 11 a}s)2];e lolol oo 25
+1100 [eo | 75 | 24 [ea | 7 | 17 a;a[t]wlolo| o fo 2
+1130 [85 | 45 | 40 [es | 5 | 35 7[4]4farfolo|]o fo 25
+12:00 |320| 46 [274 |320| 27 [247 70 | 17 | 18 [20,0 ; 0] 0 |o 4
+12:30 [236] 45 [190 |235| 24 | 166 12/12 | 8 | 158] 0 a 6
+13:00 [83 | 55 | 26 | 61 | 6 | 20 7[S5|)4 [lolol o |2 14
+1330 [er | so]| 1 fer] 2 |e 7/7/71} efolo|]o|o 6
+14.00 [85 | 62 | 23 [a5 | 3 | 20 of3 {5s |wlolo| ojo 19
+14:30 [att] 7 | 33 [110 9 | 24 s;4)3|afolo] ot 20
+15:00 |132| 76 | 86 |132| 12 | 44 3/e)6|slolo| oo 2
+15:30 124] 74 | $3 [a2a[ 41 | 42 7/4 /7/afolo| oo 23
+16:00 [707] 44 | 63 |107| 14 | 49 @[é6 |m|[slolo|o|o 20
+16:30 [751] 54 | 97 [157/17 | 86 Tle lwlolol oo 9
+17-00 [62 | 24 | 38 | 62 | 13 | 25 2,4 )2)a;olo]o fo 3
+30 [ar [za [3s Paps] o sfololololo|o|o é
+1300 [3 [a+] 1]}2[o]7 ofo;o|;t{[i1fo|o|o 3
+130 fo; o]fofotojo|] - ;o;o;o};ololo] oo o
+1900 fo;olofoltojo] - )ofo;o};o;ojo| oo o
+1930 fotofololojo|] - |;o};o;o};ololo|o jo o
+zoo [O;of;ojof;o;o} - |ojo;ojo}fojo| oo 0
+[TOTAL] |2600 17148 1448 2596 218 =e 96 122 157 1073 1 +0 0 3 a | 388
+
+©Copyright Fujitsu Services Ltd 2005
+
+(Security Classification)
+
+Page: 12 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+Table C Overall daily Stats NBX
+
+09/05/2005 Transaction Successes 10/05/2005 FAILS
+Volume 08:38
+
+Deposit & other 1,031,243.00 993,774.00 96.37% 37,469
+Cheque Deposit | 2,119.00 1,874.00 88.44% 245
+DcP 90,328.00 75,113.00 83.16% 15,215
+ETU 77,155.00 67,858.00 87.95% 9,297
+Withdrawal 775,413.00 747,616.00 96.42% 27,797
+Combined 1,976,258.00 1,886,235.00 95.44% 90,023
+
+E Top Up Transaction failures displayed in the table above occurred due to the interface
+between Fujitsu and EPAY. When authorised transactions timeout at the counter a reversal is
+automatically generated by the counter. Transactions were timing out due to the
+Correspondence server problems on this day. EPAY's systems have to match the reversal to
+the original authorisation request. The reversal has to get to EPAY within a time limit of 10
+minutes.
+
+E-pay advise that there is a high probability of a Reversal being successful if it arrives within
+10 minutes of the original Sale Request. E-pay will attempt to reverse Transactions up to an
+hour after the original Sale Request, but advise that this is not likely to be successful. E-pay
+will not action a Reversal that arrives more than an hour after the original Sale Request.
+
+Because of the problems with Correspondence server replication on this day a number of
+these reversals did not get through within the time limits.
+
+Under normal circumstances, even if there has been a problem with a Correspondence server,
+the remaining correspondence servers in that cluster will ensure that the reversal is processed
+and handed off to the agents (of which there are also multiple instances) to pass to Epay.
+
+In the case of the issues on 9" May there were multiple correspondence servers running
+slowly without failing and the reversals did not get to Epay within the time limits. (ie if the
+Correspondence server had failed in totality, the others in the cluster would have run
+normally and the timing issue would not have occurred). This is the first recorded instance
+of this sort of Riposte problem on multiple correspondence servers on the project.
+
+The instance of this sort of issue is therefore very rare. In mitigation of the original issue SSC
+staff will no longer use the Riposte Volume Command during core hours until Escher have
+resolved the underlying bug.
+
+One possible solution is to mitigate the financial exposure that Epay change their processing -
+however this would be difficult as a customer could be using the credit on the phone
+immediately upon leaving a Post Office branch.
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 13 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+2 Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+For banking and debit/credit card transactions the process is that a counter requests a
+transaction, the financial institution accepts the transaction and the counter then confirms the
+transaction, which does not actually take place until the confirmation is received and can
+usually then be reversed up to 48 hours later. For an E-Topup transaction, Epay acts
+immediately on receipt of the request, issues an accept, and relies on the counter to reverse
+within 10 minutes.
+
+Although it would be better for clients to operate the full financial transaction
+request/accept/confirm (RAC) model, and it may be possible to persuade Epay to change
+their process, in practice this may be very difficult.
+
+Another option would be for Fujitsu, on early detection of a Correspondence server incident
+which could affect Epay transactions, to switch off the links to Epay to stop all transactions
+going through, however, this clearly would cause customer dissatisfaction and damage.
+
+6.0 Incident Management
+
+Date & | Action Owner Comments
+lime
+
+9/5/2005 | Contact from SSC to POA On-Line | Mike Woolgar
+SDM. Information provided, stating
+SSC were seeing alerts. SSC unable
+to quantify the problem. SSC stated
+they would update further once they
+knew more.
+
+09.25 hrs
+to 09.27
+
+09.28 to | Contact from HSH to POA On Mike Woolgar
+09.32 | Line SDM,_ stating that call E-
+ad been logged as an
+priority call, for On Line
+Banking issues and had been sent to
+SSC. They also expressed concern
+that POL SCT had been asking
+numerous questions to which they
+were unable to answer at this stage
+and went into detail. POA On Line
+SDM said that a call had already
+been received from SSC and they
+were already on the case. Similarly
+the questions and detail requested
+by POL SCT had slowed down this
+‘communication’. By taking longer
+than normal to discuss.
+
+09.32 to | POA On Line SDM called Nikki
+09.33 Hawkins. A message was left giving
+as_much detail _as_possible_in
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 14 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+POL00091917
+
+2 Major Incident Report - Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+
+FUJITSU SERVICES
+
+Version: 1.0
+
+Commercial In Confidence Date: 09/01/2006
+
+relation to the incident
+
+09.34 POA On Line SDM returned a call
+outstanding to SMC( following a
+pager message) that referred to
+seeing alerts on all types of NBX
+transactions, and that SSC were
+investigating
+
+09.33 10 | POA On-Line SDM called POL
+09.39 SCT. The line was engaged, but
+said if it was urgent please wait.
+POA On-Line SDM waited until cut
+of. This was repeated. Then POA
+On Line SDM contacted Beth
+Newton and informed her of
+situation and then finally managed
+to get hold of POL SCT at 3"
+attempt.
+
+09.40 POA On Line SDM updated Carl
+Marx and Peter Thompson on way
+though to visit SSC who had a left a
+message that they had more details.
+
+09.45 to | SSC updated POA Online SDM that
+09.53 there were approximately 23,500
+NBX transactions that had failed
+out of 62,000. They stated that this
+had been caused by them running a
+piece of sofiware to ‘manage space’
+on Correspondence Servers. They
+stated that this was supposed to be
+Non Intrusive, whereas it had in
+fact caused these problems
+
+09.54 POA On Line SDM updated Nikki
+-Hawkins
+
+09.55 POA On Line SDM updated POL
+SCT
+
+9/3105 | POA follow “across and up” | POA Service Management POA Service
+communication to POL Management follow
+defined communication
+escalation process
+
+9/5/05 SMC notified of high call rates to | Pat Carroll/Steve Parker SSC SSC continue to
+10:30 HSH and C12 responses not being investigate
+~ harvested on cluster] & 2
+
+9/5/05 Discussion between POL and POA | POA and POL management Decision to stop and
+Senior Management takes place. restart Riposte services
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 15 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+POL00091917
+
+POL00091917
+oo) Major Incident Report — Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+12:30 on cluster! in Bootle
+due to high call
+volumes to HSD and
+events generated by
+System — Management
+Toolsets
+98/5/05 MBCOROI & MBCORO2 stop and | Steve Parker ~ SSC OCP11049
+13-05 restart Riposte services
+9/5/05 MBCOROI & MBCORO2 returned | Steve Parker - SSC Call volumes reduced
+to service to HSD and timeouts
+13:35
+reduced.
+9/3/05 | Large delia marks observed on the | Steve Parker- SSC Riposte Message stores
+16-30 Cluster Servers out of step within
+cluster
+9/5/05 Maintenance Plan determined | Maintenance to be carried out on | Work to be carried out
+/OCP raised for activity Clusters 1,2,3 fo ensure harvesting
+17:00 .
+can be completed and
+message stores
+OCP11050
+97/5/05 Communication Bridge Opened POA Service Management/POA
+18:30 Support teams
+9/5/05 Maintenance Activity Plan Steve Parker SSC Work commenced on
+commenced clusters 1,2,3 stopping
+18:45
+and starting Riposte
+Servers
+9/5/05 Communication Bridge closed POA Service Management / POA
+21:30 Support Teams
+9/5/05 Maintenance Activity Plan } Steve Parker ~ SSC All remedial activity to
+2 concludes clusters 1,2,3
+21:45
+completed
+975/05 Overnight Harvesting commenced | Andrew Gibson Once the harvesting
+21-50 was initiated the Tip
+
+Files were produced by
+00:30
+
+©Copyright Fujitsu Services Ltd 2005
+
+(Security Classification)
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+
+Page: 16 of 17
+POL00091917
+
+POL00091917
+2 Major Incident Report - Correspondence Servers 9" Ref: CS/REP/216
+FUJITSU May 2005
+FUJITSU SERVICES
+Version: 1.0
+Commercial In Confidence Date: 09/01/2006
+
+7.0 Problem Management
+
+Mike Woolgar and Mike Stewart were the On-Line Service Managers and Mike Stewart is 0
+the Allocated Problem Manager for this incident on the PMDB. A Cross Domain Problem
+has logged on the PMDB and the references are PM0006760 / P10001523
+
+8.0 Corrective Actions
+
+Action to be taken By Whom By When Status Comments
+Review of network Neil 16/05/05 | Completed Analysis to determine if
+configuration in relation | Preston network layer and network
+to Correspondence performance contributed to
+Servers the incident
+Future use of the Riposte | SSC 9/05/05 Completed Governance
+
+Volume Command to be
+governance by OCP
+
+Progress Incident Call ‘ 9/05/05 Completed The peak PC0120645 was
+with Escher raised and sent to Esher.
+Esher could not recreate the
+fault and neither could the
+SSC or Development in any of
+the test systems. As now the
+command is banned from
+being used in “Live” time
+operation, requires to be
+approved on OCP for Out of
+Operational Hours use and as
+we cannot test this in the Live
+Operation again, no further
+action will be taken on the
+Peak by either Esher or
+
+Development.
+
+‘All minor changes to All Support | 10/03/05 | Completed All changes are supported by
+commands used or teams ocP
+
+changes in the use of associated
+
+commands should be to the POA
+
+subject to OCP account
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 17 of 17
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)

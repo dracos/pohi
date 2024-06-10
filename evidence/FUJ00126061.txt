@@ -1,0 +1,563 @@
+FUJ00126061
+FUJ00126061
+
+Message
+
+From: Jenkins Gareth Gl [/O=ICL/OU=ICL IT CONSULTANCY/CN=RECIPIENTS/CN=GARETH.JENKINS]
+Sent: 04/03/2004 10:34:50
+
+To: Gurney Bob [/O=ICL/OU=UKSouth FELO1/cn=Recipients/cn=GurneyB]}
+
+ce: Boardman Phil [/O=ICL/OU=EURO1/cn=Recipients/cn=BoardmanPK]
+
+Subject: RE: Reporting Requirements
+
+Bob,
+
+I'm happy with the proposed response to Tony, however this raises some interesting questions:
+Consider the following scenario:
+
+A branch is considered by Tony to be "Dodgy" and he goes in there one week into a 5 week trading period (say period
+2). They then roll the branch into period 3 which is a 4 week Trading Period. For the next 4 weeks, the new staff will get
+awarning message at each logon indicating that they are running in the wrong Trading Period (is that acceptable?). At
+the real end of the Trading Period, there is no need to roll over the branch since it is already in Period 3, this makes
+Period 3 an 8 week Trading period. After 6 weeks we start losing Transactions!
+
+With a one week CAP this is much less of an issue, in that having a 3 day followed by an 11 day Cash account is not
+much of a problem, but 1 week followed by 8 weeks is a problem.
+
+Is this one for Clive? (it clearly isn't one for Tony - unless we have to constrain what he does!)
+Regards
+
+Gareth
+
+This e-mail is only for the use of its intended recipient. Its contents are confidential and may be privileged. Fujitsu Services does not guarantee that this e-mail
+has not been intercepted and amended or that itis virus-free.
+
+Gareth Jenkins
+Distinguished Engineer
+Applications TDA
+
+Post Office Account
+
+Fujitsu Services
+
+From: Gurney Bob
+
+Sent: 04 March 2004 10:06
+
+To: Jenkins Gareth GI
+
+Cc: Boardman Phil
+
+Subject: FW: Reporting Requirements
+
+Gareth
+Please could you cast your eye over the following draft response to Tony U ....
+
+"The production of the Branch Trading Statement takes place following successful completion of ail of the the
+“end of trading period" activities required before the branch rolis-over to the next trading period, e.g. SU
+
+FUJ00126061
+FUJ00126061
+
+balancing activities, resolving variances, making good, clearing dockets, etc. On completion of the statement, all
+trading across the branch is performed in the next trading period.
+
+We had understood that Ben's requirement for an "interim" Branch Trading Statement was to obtain a local
+branch management view of the branch trading position during a branch trading period, i.e. not to roll-over to the
+next trading period. Currently the Office Snapshot Report is used for this purpose and there is no "interim" Cash
+Account facility.
+
+So, if | have understood your concern correctly, | suggest we need to consider what your current process
+
+is. If you currently produce a Cash Account and roll the branch over to a new CAP, then you will be able to do
+the equivalent with the Branch Trading Statement, i.e. this is not the situation that we had assumed was meant
+by Ben's "interim" statement. If, however, you currently use the Office Snapshot to assess the branch position,
+then you would continue to do so at S80.
+
+So, in summary, | suspect that your requirement will be met through producing additional Branch Trading
+Statements. This will have no effect on the back-end accounting system which will run from the daily trading
+summaries produced by Horizon and not the trading statement which is different from the current situation where
+CBDB is driven directly from the Cash Account. The daily trading summaries used by POL FS will include the
+results of any changes needed to balance the branch, address variances, processing of Transaction Corrections,
+ete.
+
+| hope that this explanation has clarified things but let me know if there are any outstanding issues."
+Regards
+
+Bob Gurney
+Fujitsu Services, Post Office Account
+
+FUJITSU SERVICES
+Forest Road, Feltham, Middx TW13 7EJ
+Mob :
+E-mai
+Web: _<hitp:/uk.
+
+Fujitsu Services Limited, Registered in England no 96056, Registered Office 26, Finsbury Square, London, EC2A 1SL
+
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu
+Services does not guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+Sent: 04 March 2004 09:15
+To: Gurney Bob; john.duttor
+Subject: RE: Reporting Requirements
+
+Jam a little unsure about the query around interim trading statements.
+
+In the case of an investigation, we would need to be able to go into an office and complete a full office
+balance which in the absence of a cash account would mean a Trading Statement would be required to
+provide a full office view.
+
+If we then close the office down having removed an offender and the Retail Line replace the
+subpostmaster and this happened mid period, then the office would need to produce another Trading
+statement as usual at the end of the trading period.
+
+I am not sure that the second Trading statement would need to have the data from the first included in
+this case, but we would need to be able to produce two statements within the same period.
+
+I believe we also discussed doing something similar for office where there was a large variance, in
+order that the postmaster was able to get a view of his office situation after checking his stock and cash,
+FUJ00126061
+FUJ00126061
+
+but this could be achieved through balancing all of the individual stocks and then doing an office
+snapshot presumably.
+
+If 1am confused and have got this all wrong please let me know.
+
+Regards
+Tony Utting
+(EGurney Bob <
+Gurney Bob
+01/03/2004 19:03
+<ben.gildersleve¢ Jenkins
+_Gareth GI
+i GRO |
+‘Subject7 RET Reporting Requirements ~~
+John
+
+Whilst Ben is on leave this week, I understand that the arrangements
+are
+
+that we should direct these IMPACT branch related requirement
+questions to
+
+you for guidance.
+
+1. Horizon Events to be Accessible via POL Sales MIS
+
+We are trying to tie down exactly which branch "events" Horizon needs
+to
+
+pass to the POL MI System for the purpose of central reporting (Item
+3.1 on
+
+the current Issues list). In the attached email, Gareth has
+summarised:
+
+* which events are currently passed to OPTip and which will therefore
+be available to MI
+
+* the events that Horizon currently records that aren't passed to
+OPTip and which will therefore not be passed to MI unless there is a
+specific requirement
+FUJ00126061
+FUJ00126061
+
+* new events associated with the IMPACT R3 requirement which it is
+understood should be passed to MI
+
+Please could you review the attached and confirm whether there is a
+requirement to pass any additional events to MI other than those
+indicated
+
+above.
+
+2. Branch Reporting
+2.1 Reporting on "Previous" Trading Periods
+
+Ben's email below confirms the requirement to be able to produce
+reprints of
+the following reports relating to the previous trading period:
+
+Stock Unit Balance: Reprint
+
+Cash Account: Reprint
+
+Office Weekly Counters Revenue Schedule: Reprint
+
+Office Weekly Inland Revenue Tax Credits P5589: Reprint
+Office Weekly P&A P2311MA: Reprint
+
+Office Weekly Redeemed Savings Stamps Summary: Reprint
+Track and Trace Manifest: Reprint
+
+Office Cash Variance Report: Reprint
+
+te te FOF
+
+We understand that these are the only reports that are required that
+relate
+
+to a "previous" trading period. We are currently investigating how we
+can
+
+cost effectively meet this requirement given that the underlying
+transaction
+
+data will no longer be available to re-create the reports. (Note for
+David/Clive: The reprint for previous period facility was not
+included in
+
+our costing submission for the business case).
+
+Ben added the Cash Variance Report to Gareth's list of existing
+reports that
+
+have the reprint option. Whereas the original list of reports seem to
+relate to particular periods, the Cash Variance Report can be
+produced at
+
+any time and so the question of which report should be reprinted
+arises.
+
+Should it be the position at the end of the previous trading period?
+
+The second question relates to the period which the original reports
+relate
+
+to. Once we move to a monthly Branch Trading Statement, what period
+is
+
+intended? Do the current weekly reports relate to a calendar, a Cash
+Account week or, in the future, a Monthly Trading Period? If it's
+weekly,
+
+when should we assume the start of week occurs? Please clarify.
+FUJ00126061
+FUJ00126061
+
+2.2 Requirement to produce "Interim" Branch Trading Statement within
+a
+Trading Period
+
+Ben has indicated that the requirement is to be able to produce an
+interim
+
+Branch Trading Statement at any time within a trading period. The
+problem
+
+is that the information from which the statement is produced and the
+associated process assumes that the Stock Units have previously been
+balanced. Currently there isn't a facility to produce an interim Cash
+Account report and the Office Snapshot is provided for this purpose.
+In
+
+view of the complexities/practicalities of meeting this requirement,
+please
+
+could you consider whether the Office Snapshot report would provide
+sufficient information to meet the intended requirement. If not, we
+need
+
+guidance on how an interim report should be constructed. Please
+advise.
+
+Regards
+
+Bob Gurney
+Fujitsu Services, Post Office Account
+
+FUJITSU SERVICES
+
+Forest Road, Feltham, Middx TW13 7EJ
+Mob :} . .
+E-mail: bob.gurneyt GRO i
+Web: < http://uk.fujitsu.com <http://services.fujitsu.com/> >
+Fujitsu Services Limited, Registered in England no 96056, Registered
+Office
+
+26, Finsbury Square, London, EC2A 1SL
+
+This e-mail is only for the use of its intended recipient. Its
+contents are
+
+subject to a duty of confidence and may be privileged. Fujitsu
+Services
+
+does not guarantee that this e-mail has not been intercepted and
+amended or
+
+that it is virus-free.
+
+Sitti Original Message-
+
+: February
+To: Jenkins Gareth GI
+
+Cc: 'Ben Gildersleve (POL)'; Gurney Bob; 'Clive Read (POL)'; 'Dave
+Parnell
+
+(POL)'; Boardman Phil; 'Tony Utting (POL)';
+
+john.dutton
+
+FUJ00126061
+FUJ00126061
+
+Subject: Re: Reporting Requirements
+
+Gareth
+
+My requirements are to keep all the reports below with re print
+facilities,
+
+except perhaps the redeemed savings stamps, depending on what happens
+with
+
+the remittance transaction for dockets and vouchers. Also, I assume
+the Cash
+
+Account reprint will become the Branch Trading statement reprint? I
+would
+
+also like copies of the Cash Variance report to be available as well.
+You've
+
+picked out the reports with reprint in their title, but are there any
+others? I've checked with John and he can't think of any.
+
+I would like reports to be available from Period 1, until the end of
+Period
+
+2. Then when the Branch rolls into Period 3, the reports for Period 1
+become
+
+unavailable.
+
+I would like the reports to be available quickly and easily, so
+whichever is
+
+the best solution to do this is fine with me. If the idea of storing
+the
+
+report itself is the best for speed of production, but is hugely
+expensive
+
+then come back. I'm sure Dave and Clive will have a view on this.
+
+If you want to check anything today come back to me, but next week
+while I'm
+
+off can direct your queries to John please.
+
+Ben
+
+Post Office Ltd
+
+Registered in England and Wales number: 2154540 Registered Office:
+80-86 Old
+
+Street LONDON EC1V 9NN.
+
+Inactive hide details for Jenkins Gareth GI "
+
+src=" 75110518@01032004-207a" width=16>Jenkins Gareth GI
+
+Jenkins Gareth GI |
+
+FUJ00126061
+FUJ00126061
+
+26/02/2004 16:28
+
+To: "'Ben Gildersleve (POL) '" |
+
+cc: Gurney Bob GRO
+
+rnell (POL) '"
+"'Clive Read (POL)'"
+"'Tony Utting (POL) '"
+
+“Subject: Reporting Requirements
+
+Ben,
+Following our conversation.
+
+You have indicated that there is a requirement to reprint old
+reports, so we
+
+potentially need to either store the raw data for a sufficient time
+to do
+
+this, or change the mechanism by which we produce reprints such that
+we
+
+store the original report and reprint the report rather than
+regenerate it.
+
+It is proposed that we do the latter.
+
+* Which reports need to support this? The following list gives all
+the Horizon reports which have "reprint" in their title:
+
+* Stock Unit Balance: Reprint
+
+Cash Account: Reprint
+
+Office Weekly Counters Revenue Schedule: Reprint
+
+Office Weekly Inland Revenue Tax Credits P5589: Reprint
+
+Office Weekly P&A P2311MA: Reprint
+
+Office Weekly Redeemed Savings Stamps Summary: Reprint
+
+Track and Trace Manifest: Reprint
+
+* How long we need to maintain such reports (ie 1, 2 or 3 Branch
+Trading periods or preferably number of days from when report first
+produced)
+
+te ee OF
+
+I've copied this to Tony in case he has any input to the requirements
+here
+from the security viewpoint.
+
+Note for Dave and Clive: No changes in this area were originally
+forecast,
+so these are all "extras".
+
+Regards
+
+Gareth
+
+FUJ00126061
+FUJ00126061
+
+This e-mail is only for the use of its intended recipient. Its
+contents are
+
+confidential and may be privileged. Fujitsu Services does not
+guarantee
+
+that this e-mail has not been intercepted and amended or that it is
+virus-free.
+
+Gareth Jenkins
+Distinguished Engineer
+Applications TDA
+
+Post Office Account
+
+Fujitsu Services
+
+Lovelace Road, Bracknell
+Tel:
+Mobile:{_
+email: Gareth.Jenkin
+Web: http://uk.fujitsu.com <http://uk.fujitsu.com>
+
+Berkshire, RG12 8SN
+
+Fujitsu Services Limited, Registered in England no 96056, Registered
+Office
+
+26, Finsbury Square, London, EC2A 1SL
+
+FEI IIS I IG I ISIC II II IIIS IC III III II II IC I I ok
+* This
+
+email and any attachments are confidential and intended for the
+addressee
+
+only. If you are not the named recipient, you must not use, disclose,
+reproduce, copy or distribute the contents of this communication. If
+you
+
+have received this in error, please contact the sender and then
+delete this
+
+email from your system.
+FEI III IOI ISI ITI IOI TI I dO i kk
+
+*
+
+Message-ID: <753F1E41ACB9D51190C00090277218D802B66823@WWMESSD206>
+From: Jenkins Gareth GI ~
+To: "'Daniel Hawthorne
+"'Clive Read (POL)'" 4
+cer "'"Dave Parnell (Pi
+
+, Gurney Bob
+
+Subject: Horizon Events
+Date: Fri, 27 Feb 2004 10:35:38 -0000
+MIME-Version: 1.0
+
+X-Mailer: Internet Mail Service (5.5.2653.19
+Content-Type: multipart/mixed; boundary="----
+FUJ00126061
+FUJ00126061
+
+_= NextPart_002_01C3FFBF.E98BB730"
+All,
+
+I've put together a note on events generated within Horizon and those
+currently sent to OPTIP.
+
+<<events.doc>>
+
+I'd appreciate some feedback as to what is required from the MIS
+system for
+
+inclusion in the CD so that we can include the necessary work in the
+S80
+
+developments.
+
+Regards
+Gareth
+
+This e-mail is only for the use of its intended recipient. Its
+contents are
+
+confidential and may be privileged. Fujitsu Services does not
+guarantee
+
+that this e-mail has not been intercepted and amended or that it is
+virus-free.
+
+Gareth Jenkins
+Distinguished Engineer
+Applications TDA
+
+Post Office Account
+
+Fujitsu Services
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+Internal:
+
+Fujitsu Services Limited, Registered in England no 96056, Registered
+Office
+26, Finsbury Square, London, EC2A 1SL
+
+>>>> C.htm attachment was removed from this email <<<<
+>>>> graycol.gif attachment was removed from this email <<<<
+>>>> ecblank.gif attachment was removed from this email <<<<
+
+>>>> C1 .htm attachment was removed from this email <<<<
+FUJ00126061
+FUJ00126061
+
+>>>> events.doc attachment was removed from this email <<<<
+
+2 i Fe a FE RC 2 a a a 6 Fe 2 oe oe a a a aC a 2 fe oe fe oe 2a a a Fe fe fe 26 oe oe oe a a 8 i ae fe oie ofc oe ae ae a a ai a eC aie aie aie This email and
+any attachments are confidential and intended for the addressee only. If you are not the named
+recipient, you must not use, disclose, reproduce, copy or distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then delete this email from your system.
+JES OSG SEI OSORIO ORI CHIOKIOKIOR IO IS IGS RII IS ISIGCICRIR ICRI GKIGKIOK IORI IORI

@@ -1,0 +1,659 @@
+WITNO04110100
+WITNO4110100
+
+Witness Name: John Graeme Simpkins
+Statement No.: WITN0411_01
+
+Exhibits: WITN0411_01/1 to WITN0411_01/4
+Dated: 4 August 2022
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
+
+|, MR JOHN GRAEME SIMPKINS, will say as follows:
+
+INTRODUCTION
+
+1. |am currently employed by Fujitsu Services Limited (“Fujitsu”) as a Team Leader
+within the Software Support Centre for the Horizon IT system. | have held this
+position since 2010.
+
+2. This witness statement is made on behalf of Fujitsu to assist the Post Office
+Horizon IT Inquiry with the matters set out in the Rule 9 Request provided to Fujitsu
+on 11 March 2022 and a series of follow-up questions provided to me by the
+Inquiry on 1 July 2022 (the “Request”), to the extent | have direct knowledge of
+such matters.
+
+3. The topics set out in the Inquiry’s Request relate to events that took place many
+years ago. Such topics include the design and development of the Horizon system,
+the pilot releases and the robustness of Horizon. | have tried to remember these
+events to the best of my ability. However, given the passage of time, there may be
+
+certain matters where my recollection is more limited.
+
+Page 1 of 19
+WITNO04110100
+WITNO4110100
+
+4. Where | have included information from documents relevant to the Inquiry’s
+Request, these documents are referred to using references WITN0411_01/1 to
+WITN0411_01/4 and are listed in the index accompanying this statement.
+
+BACKGROUND
+
+5. | joined ICL Pathway Limited (“ICL Pathway”) in July 1996 as an Application
+Developer in the European Development and Support Centre (“EDSC”), having
+worked previously at |CL Edacom since 1994. The EDSC was the precursor to the
+Software Support Centre (“SSC”), as the team is still known today. The
+development team became separate units.
+
+6. Shortly after joining ICL Pathway in 1996, | moved away from development work
+into a support role. | have remained in this support role ever since, firstly in the
+EDSC, then the SSC, working under various managers. During the period prior to
+the national rollout, my managers were Raj Aurora in 1996 and then Mik Peach
+from 1997 onwards. | then became a SSC Team Leader in 2010. There were three
+Team Leaders in the SSC which reported to the SSC Manager, who was Steve
+Parker at the time. The Team leader role included:
+
+a. maintaining the support rotas;
+
+b. assigning new projects to staff in the SSC, for example when new
+features were introduced, one or more SSC team members were
+assigned as the Subject Matter Expert (SME) to learn the details;
+
+c. carrying out personnel appraisals; and
+
+d. ensuring there was enough staff during holiday periods.
+
+7. The EDSC/SSC is the software third line support team. The team does not support
+the hardware or operating systems. The team had a good interaction with the
+
+testing teams and development to supply evidence and find possible ways to re-
+
+Page 2 of 19
+WITNO04110100
+WITNO4110100
+
+create defects on test equipment. We also interacted with sub-postmasters when
+gathering evidence or providing support. The EDSC/SSC was not responsible for
+reporting to Post Office. My understanding is the Service Management team
+reported on certain issues to Post Office. | was not directly involved in raising
+issues with Service Management. While | am not sure of the details, my
+understanding is the head of the SSC fed certain information to the Service
+Management team.
+
+8. Alongside my support work, | have also designed and developed some systems
+in use by the support teams and the wider Post Office Account, including the
+incident management system known as Peak. The Peak system came about when
+looking to replace the aging PinICL system. It was decided that the SSC had the
+correct skills to develop the solution. The data was migrated from PinICL into a
+newer database platform and we created a web-based front-end. We did some
+parallel running with the LST (Live Support Test) team before finally rolling it out
+across the account. There were no unresolved issues outstanding from this pilot
+and the speed and ease to develop the Peak system has kept it in use for the last
+18 years.
+
+DESIGN AND DEVELOPMENT
+
+9. While | was initially taken on as an Application Developer, | only remained in this
+role for a very short time and did not in fact develop any aspects of the Horizon
+system myself. During my time as an Application Developer, | worked with Dai
+Jones to learn the coding language being used at the time. This language was
+known as Visual Basic. A key role of the development team was to ensure that the
+Visual Basic coding being used by the team interfaced properly with Escher’s
+
+software product, Riposte, which | will come on to discuss in more detail later in
+
+Page 3 of 19
+WITNO04110100
+WITNO4110100
+
+this statement. Access to the Escher source code was only granted to the
+development team if absolutely necessary.
+
+PILOT - INITIAL GO LIVE (RELEASE 1A)
+
+10.Once we got to the Initial Go Live in 1996 (also known as Release 1A), we knew
+we would need to establish a team to support the system. In anticipation of the
+Initial Go Live, | volunteered to leave the development team and join the new
+support team. This team was also referred to as second line support. Raj Aurora
+was my manager and | recall that Caren Slack was the Team Leader. There were
+three lines of support in place during the Initial Go Live (first line, second line and
+Development), but this has since evolved to four lines of support. | was not
+involved in the decision-making behind the move to four lines of support, nor do |
+recall when this happened. The Service Management Centre (“SMC”) was the
+extra line of support that was added. They provided continuous monitoring of the
+live estate and also took on roles from other support teams via automation,
+knowledge bases and training.
+
+11.My team and | worked in a custom configured room in ICL Pathway’s offices in
+Feltham. There were three other teams all working from the same room, including
+the first line support team who answered calls from sub-postmasters, the EDSC
+where | worked, the operations teams and a banking benefits team. These teams
+were all from ICL Pathway, except for the banking team who were external - | think
+the bank in question may have been GiroBank. This arrangement was possible as
+the Initial Go Live was only a small pilot. There was also a back room which
+contained hardware.
+
+12.The Initial Go Live involved ten post office branches and involved the rollout and
+
+trial of one main function. This function was the provision of benefits to members
+
+Page 4 of 19
+WITNO04110100
+WITNO4110100
+
+of the public via a payment card (this was known as the Benefit Encashment
+Service (“BES")). Information related to benefit payments was transmitted via the
+Oracle database and downloaded to a particular Post Office branch. In most
+cases, benefits claimants would go to a nominated branch to collect payments
+using their payment card.
+
+13. | was not party to the design or development of the Oracle database but do not
+recall any concerns raised about the Oracle database or the system generally.
+Had there been any outstanding defects, these would likely have been recorded
+in the PinICL archives.
+
+14.To support the BES, Release 1A included certain other functions, including:
+
+a. PoLo (Post Office Log On): A two-factor authentication for the sub-
+postmasters to log on to the branch counter using a smart card holding
+a key;
+
+b. PUN (Pick up Notice): Letters were sent to benefits claimants telling
+them to collect their new benefit card from their nominated branch by
+scanning the bar-code contained in the letter;
+
+c. FTMS (File Transfer Management Service): Required to move files
+between the ICL Pathway data centres and the external parties’ data
+centres;
+
+d. Agents: Required to move data from the BES database to Riposte (and
+vice versa);
+
+e. Maestro scheduling software: Required to run the data centre processes
+
+— initially this was manually run by the operations team; and
+
+Page 5 of 19
+WITNO04110100
+WITNO4110100
+
+f. CAS (CAPS Access Service): The Virtual Machine Environment (“WME”)
+interface to the benefits agency (Customer Accounting and Payments
+Strategy).
+
+15.PoLo (see paragraph 14a above) was initially implemented for security purposes.
+It ensured that if a counter was stolen the messages could not be read. One issue
+| recall being present in the system at about this time related to PoLo. Sometimes
+the two-factor authentication process failed or the sub-postmaster would lose their
+PoLo card and the support team would speak to the sub-postmaster over the
+phone to reset the encryption and resolve the issue. When PoLo was first
+implemented, the recovery process was time consuming as it involved reading
+about 16 lines of 15 characters from the counter and the support team would have
+to enter these into the PoLo recovery workstation to generate a recovery key which
+was then keyed into the counter. This was later shortened to an automated
+process that meant the sub-postmaster only had to type in a single line of 15
+characters. | am not sure when this change took place.
+
+16.1 also recall there being issues with the network, which affected the timely
+transmission of data to and from the data centres. An application Counter Network
+Infrastructure Manager (CNIM) ran on the counter to detect for network outages,
+this information was sent to Tivoli for Quality of Service (QoS) monitoring. | believe
+the EDSC/SSC (using the NSAT application — Network Service Allocation Tool)
+could change the network configuration at a branch to try and improve the service.
+For example, by keeping the line open during working hours rather than
+connecting each 30 minutes or on demand. There were a number of network
+
+configurations, including Bronze, Silver, ISDN or Satellite.
+
+Page 6 of 19
+WITNO04110100
+WITNO4110100
+
+17.Regarding rectification of deficiencies in general, during Releases 1A, 1B and 1C
+(| cover the latter two releases in more detail below), my recollection is that there
+remained three support lines in place. The first line support team received calls
+from sub-postmasters regarding problems or issues they might be having. | think
+the system we had in place at the time to record these calls was called PowerHelp.
+If first line support could not resolve the issue and it was related to the software, it
+would be escalated to the second line support team. Matters that came through to
+the second line support team would be recorded initially in PowerHelp and then
+later in PinICL.
+18.|lssues that could not be resolved by second line support would be passed to the
+development team, who would use PiniCL to record their work after it was
+introduced. At the time of the release, significant individuals that | recall from first
+and second line support included:
+a. Sandie Bothick, Donna Munro (Horizon Service Helpdesk (HSH));
+b. Jan Ambrose, Richard Brunskill, Angela Shaw, Nicole Meredith, Hazel
+Salvat (Business Support Unit (“BSU”) / Management Support Unit
+MSU’);
+c. John Bradley, Mike Conneely, Adrian Chambers (Management System
+Support (“MSS”) / Systems Management Group (“SMG’)).
+19.Mark Taylor, lain Jannsens, Roy Birkinshaw were some of the development
+managers that | have come across.
+20.Both first and second line support teams operated out of Feltham during Release
+1A but, sometime during 1997, the EDSC (second line support) moved to offices
+
+in Bracknell and first line support moved to Stevenage. The Operations team
+
+Page 7 of 19
+WITNO04110100
+WITNO4110100
+
+moved to Ireland and the data centres moved to Bootle and Wigan. | think the
+development and test teams remained in Feltham.
+
+PILOT - RELEASES 1B AND 1C
+
+21.1 can see that in the Appendix to the Request, certain questions refer to further
+software releases at approximately 200-300 branches. | cannot recall the precise
+number of branches (or which branches they were), but this seems to me to be
+referring to Release 1B and Release 1C. Each of these releases added
+functionality to the system. In relation to Release 1B, | recall that the Order Book
+Control System (“OBCS’) was added. This functionality allowed benefits claimants
+to present their order books with slips to receive cash payments. An Oracle
+database was set up to record the details. The order book slips were scanned at
+the branch and checked against data from the Oracle database. OBCS data was
+sent and received via a VME interface (known as the OAS (OBCS Access
+Service)).
+
+22.Release 1C then added EPOSS-type functionality. EROSS means “Electronic
+Point of Sale System” and enabled branches to sell stamps and other products,
+perform bulk sales and apply discounts. This functionality included:
+
+a. reference data: configuration information such as products available to
+sell, the value of the products or the layout of the menu hierarchy; and
+
+b. user roles: different user roles would have permissions to perform
+activities such as create new users, create new stock units or reset
+passwords.
+
+23.At around this time a reporting function which harvested branch transactions and
+passed aggregated totals to Post Office was added in the form of a TPS
+
+(Transaction Processing System). The TPS batched up transactions performed by
+
+Page 8 of 19
+WITNO04110100
+WITNO4110100
+
+the branches and sent them to Post Office’s TIP (Transaction Information
+Processing) system. | think the TPS functionality was introduced as part of
+Release 1C but | am not certain of this.
+
+24.1 cannot recall if the Cash Account was incorporated into EPOSS by Release 1C
+or if that functionality was introduced later. | will come on to discuss the Cash
+Account later in this statement.
+
+25.| have reviewed an Investment and Strategy Committee Meeting document dated
+15 December 1997 (WITN0411_01/1), which relates to the roll-out of Release 1C.
+| do not recall any defects that were outstanding at the time Releases 1B and 1C
+were rolled out. However a manual investigation of the PinICL archive should
+identify which (if any) were outstanding at these times. To the extent that there
+were any known defects when these releases were rolled out, my understanding
+is that this would have been communicated to Post Office, either by the Service
+Management team (as noted at paragraph 7 above), or by other ICL Pathway
+teams. | was not involved in communications with Post Office in this regard, neither
+am | aware of how or if such issues were communicated to sub-postmasters.
+
+26.One issue | recall being present in the system at about the time of Releases 1B
+and 1C related to reports that sub-postmasters would print off. Sometimes parts
+of these reports were “cut-off’ whilst other transactions were performed in that
+review period. A report is cut-off (cleared) once the sub-postmaster has compared
+it to their receipts. This may include a list of OBCS foils they were sending back.
+Looking at PinICL PC0037808 (WITN0411_01/2), | understand that the issue
+arose where the sub-postmaster may have printed a report and stayed on the cut-
+off page whilst further transactions were performed on another counter. This would
+
+not have affected the branch account.
+
+Page 9 of 19
+WITNO04110100
+WITNO4110100
+
+27.Another problem | remember was that sometimes transactions failed to replicate
+between branch counters; this could cause confusion and re-keying (in paragraph
+51 below | provide some more detail regarding the replication of transaction data
+between counters). Re-keying transactions could cause discrepancies in the
+branch accounts as sometimes, a sub-postmaster would re-enter a missing
+transaction when a transaction on one counter was not replicated on another
+counter. As a result, there would be a duplicate transaction when the counters re-
+established contact.
+
+28.1 also recall there being issues with the print quality of scanned OBCS foils.
+
+29.| cannot remember how these specific problems were rectified, but | would echo
+my earlier comment that PinlCLs from the time may record how these issues were
+dealt with. When agreeing to close the call, the support team resolving the ticket
+would report the root cause of any ticket to the person that had raised the call. |
+cannot comment on how the service management team would then report any of
+these matters to Post Office.
+
+DELAY
+
+30.1 do not recall why there was a delay to the project and no specific technical issues
+come to mind. However, once the Benefits Agency withdrew from the project,
+there was a need to pivot the work being undertaken on the project as, until that
+time, much of the work done related to the payment of benefits.
+
+31.In terms of the reason for this change, | believe we were told that the Benefits
+Agency had decided that benefits would be distributed directly into people’s bank
+accounts and those without an account will have a special account for withdrawal
+only known as Post Office Card Account (POCA) or Card Account Post Office
+
+(CAPO). However, Post Office wanted to continue to computerise the branches
+
+Page 10 of 19
+WITNO04110100
+WITNO4110100
+
+and so the Pathway project would pivot from a PFI initiative to being a Post Office
+customer.
+
+32.Having reviewed the Chief Executive’s Report dated 7 May 1997
+(WITN0411_ 01/3), it seems as though the test teams identified defects that were
+fixed by redirecting developers from working on Release 1C to Release 1B before
+it was released, causing a delay in Release 1C. Having also reviewed the Chief
+Executive’s Report dated 15 July 1997 (WITN0411_ 01/4), it appears it relates to
+defects found in the testing of Release 1C. Such defects apparently caused an 8-
+week delay, with a further 7-week delay coming from delayed requirements and
+Post Office adding new requirements into a release.
+
+33. | also have no recollection of an internal audit being undertaken in relation to
+Release 1B and 1C.
+
+CASH ACCOUNT
+
+34.1 was not involved in the design or development of the Cash Account, but | played
+a role in supporting sub-postmasters when completing their Cash Account. |
+cannot be sure if my recollections of my work in relation to the Cash Account
+include the period prior to the rollout of the Horizon IT system or after the rollout,
+but | describe them below nevertheless.
+
+35.When the Cash Account was first introduced, sub-postmasters were required to
+complete and balance their Cash Account once a week. This was done on a
+Wednesday.
+
+36.The purpose of the Cash Account was to check, for each stock unit, whether the
+cash and stock physically held in the branches matched the amount of cash and
+
+stock recorded in Horizon. This was known as balancing.
+
+Page 11 of 19
+WITNO04110100
+WITNO4110100
+
+37.There would sometimes be discrepancies between the stock unit’s physical
+holdings figure (as manually counted by the sub-postmaster) and the figures
+calculated by the system. Such discrepancies could have been caused by a
+number of issues and were not necessarily system faults. As it relied on a manual
+counting process, the discrepancy would only be visible at the point of the sub-
+postmaster balancing their accounts. My team made it a practice to stay later on
+a Wednesday evening to assist sub-postmasters with balancing their Cash
+Accounts over the phone. For example, we would investigate messages in the
+branch Message Store, locate particular transaction references and provide
+advice on reversals. We also had access to developer support, who also typically
+stayed later on Wednesdays to assist.
+
+38.| have no knowledge of whether or how issues relating to the Cash Account were
+reported externally. Generally at this time, | think the reporting of issues to Post
+Office would have been the responsibility of the Service Management team.
+
+ACCEPTANCE CRITERIA AND TESTING
+
+39.As noted above, my role was in supporting the system. | was not therefore involved
+in the testing or acceptance of Horizon prior to the national rollout (or since). My
+team did, however, work closely with the test teams. From memory, the test teams
+interfaced with Post Office quite a lot. They would also have used the PinICL
+system for their defect reporting and analysis, including raising issues to be
+addressed/rectified during the test phase.
+
+ROBUSTNESS
+
+40. By way of background, in the Horizon IT system, each branch counter had its own
+database known as the Message Store. The individual counter Message Stores
+
+recorded transactions carried out on that particular counter (along with other data).
+
+Page 12 of 19
+WITNO04110100
+WITNO4110100
+
+The data from the Message Store would be replicated to the other counters in the
+branch, meaning that each counter had a complete copy of all the data from the
+other counters in that branch.
+
+41.1In addition, the data would also be replicated to the correspondence servers in the
+data centre. As data is written to each correspondence server, it is also written to
+a file which was securely stored on an Audit Server. At this time, there was one
+data centre in Wigan and another in Bootle. To decrease the chances of any data
+being lost, there would be two copies of the Message Store in Wigan and two
+copies in Bootle. | do not know how these data centres were selected or if there
+were any concerns about their locations as it was outside my job role. | am also
+unable to comment on the hardware and operating systems running in the data
+centre as they were not supported by the EDSC/SSC.
+
+42.|n addition to data replication, other checks were also undertaken to ensure the
+accuracy of the data being recorded. These included:
+
+a. Cyclic Redundancy Checks (CRC): These were checks of the Riposte
+Message Store which took place each time a message was read and
+which stopped the current operation if invalid messages were identified.
+In the event that an invalid message was identified, a Windows event
+would be raised to alert support. This was more common as the counters
+aged and disk errors increased. Windows also creates disk warning
+events when it detected signs of corruption and we would run a
+‘checkdsk’ to flag parts of the disk as not to be used. This check became
+used increasingly to identify hard disk corruption as hard disks aged.
+
+b. Payments and Receipts Checks: The counter software was a dual entry
+
+book keeping system so, for each transaction, an equal and balancing
+
+Page 13 of 19
+WITNO04110100
+WITNO4110100
+
+transaction must take place (e.g. sell a stamp and receive cash for the
+equal and opposite value). If the payments did not match the receipts’
+totals then an alert would have been displayed to the sub-postmaster
+and it would have been picked up by the data centre report, as
+mentioned below.
+
+c. Cash Account Checks: These were performed on transactions at the
+data centres, with issues then being reported to the MSU team.
+
+d. Each part of the Riposte software suite has a hash associated with it,
+these were also stored in the Message Store and were checked on start-
+up. The software hash was recalculated and checked against those in
+the Message Store. If they did not match, Riposte would not start up.
+This prevents doctored software from being introduced.
+
+43.Because the data from the individual counters was replicated to the
+correspondence server, which my team could access, we were able to review the
+counter data across the entire estate, identify any problems and potentially rectify
+them. For example, in the ‘Dalmellington’ Branch Out Reach issue, we were able
+to identify affected branches by searching for duplicate pouch IDs and then create
+a report of the affected branches that | believe was sent from the Fujitsu Service
+Management team to Post Office.
+
+44.To my knowledge, there would only be a difference between a counter and the
+data centre if a counter was replaced and all the messages had not recovered
+before Riposte came up or replicated to other neighbours or the counter was out
+of communication.
+
+45.Sometimes we would not make the correction ourselves and would instead inform
+
+Post Office of the issue through the MSU team. In terms of who was informed of
+
+Page 14 of 19
+WITNO04110100
+WITNO4110100
+
+when the ticket was rectified, this was managed on a case-by-case basis and
+would depend on who raised the PinlCL/Peak. Any investigation outcome would
+be updated on the support call and the closure agreement was required with the
+call raiser.
+
+46.At some point, although | do not recall whether this was before or after the national
+rollout, ICL Pathway / Fujitsu introduced an event monitoring system, as part of
+the Tivoli suite. | cannot comment on the operation of Tivoli in detail as the
+MSS/SMG teams were responsible for this. Microsoft Windows NT is the operating
+system that was used on the counters. It manages the three logs (security, system
+and application) itself, reporting about the operation of Windows. Other
+applications, including ours, could also post messages into these logs. Some
+events recorded on these logs were harvested by our own application, Tivoli.
+These events were then visible to the SMC who monitored the Tivoli event console
+and issues were dealt with appropriately by raising a ticket with PowerHelp, which
+may then be transferred to PiniCL for progression. These event logs were also
+available to the EDSC staff but only in an ad-hoc fashion.
+
+47.\n relation to the accuracy and integrity of the data recorded and processed on the
+Horizon system, | believed that the software worked well on the whole. However,
+there were a number of issues relating to accuracy and integrity which | discuss
+further below. | cannot comment on how general issues would be relayed to Post
+Office but, in respect of individual incidents, | believe that information was passed
+back to Post Office through the BSU/MSU or Service Management.
+
+48.In terms of deficiencies during this time, there were a number of difficulties arising
+from the Riposte product. These included malformed messages (which would be
+
+identified by the data centre checks) and replication issues.
+
+Page 15 of 19
+WITNO04110100
+WITNO4110100
+
+49.All messages required certain attributes (such as user ID, date, time) to be
+harvested and sent to third party systems. Where there was a missing or corrupted
+attribute in the message, it would be harvested but flagged as incorrect by TPS
+and not sent to third party systems. The TIP Repair Tool was used to repair these
+malformed messages. The tool identified and ring-fenced any messages that did
+not meet an expected criteria. For example, the message may be missing a user
+attribute, the date may be too short or a value may be too large. Following this,
+the MSU would raise a support ticket for each exception and the EDSC/SSC team
+would investigate and look for the correct information for the message. To my
+knowledge, a malformed message could potentially result in a receipts and
+payments mismatch but it would have been very unlikely to cause a discrepancy
+(i.e. a loss or a gain) as it would probably require two malformed messages, one
+for the receipt and one for the payments of equal amount.
+
+50.The main replication issue was that, when a transaction was performed on a
+counter which was not communicating to its neighbours, the transaction would not
+be replicated. If a report was later produced on another counter, sub-postmasters
+sometimes realised the transaction was missing and re-entered it manually
+themselves (known as re-key). As a result, when communication between the
+counters was later restored, the branch then had two copies of the same
+transaction (as the transaction had been entered manually at the branch again).
+This may then have led to the sub-postmaster experiencing a loss or gain.
+
+5
+
+=
+
+. There could be many root causes for replication failures between counters. This
+could include, network cable faults, hub faults for large branches, hardware faults,
+and issues with Riposte. Where it was a hardware and/or network issue, an
+
+appropriate engineer may have been required. Where it was a software issue, the
+
+Page 16 of 19
+WITNO04110100
+WITNO4110100
+
+events were monitored by second line support who would raise a ticket for first line
+support to contact the sub-postmaster to reboot the affected counter.
+
+52.At around 7 pm, each counter sent an “end of day” message. If a counter failed to
+send an “end of day” message, any transactions performed during the affected
+day would not be harvested into the TPS database (transactions sent to Post
+Office’s MIS systems) or the APS database (bill payments sent to multiple client,
+such as BT). This would not have a direct effect on the branch account. The
+support teams were also notified. Once a counter had failed to send an “end of
+day” message for several days, the team would try to recover the outstanding
+messages. This could be done by engineers using a special laptop to
+replicate/relay the outstanding messages over a branch telephone line or by
+retrieval into the secure support centre in Bracknell (BRAO1) with both the PMMC
+card & PIN supplied by the sub-postmaster.
+
+53.When Network Banking was introduced, the development team released a
+programme to monitor whether the counter became disconnected from the data
+centre. If it became disconnected, the software would disable the banking options
+and display an alert banner on the counter. If disconnected, the branch would also
+not write an “end of day” message.
+
+54. Another issue that | recall at this time related to reference data. One example was
+when a product was withdrawn before branches had remitted out all stock from
+their system. This may have resulted in a receipts and payments mismatch in the
+branch’s account. This would have been visible to the sub-postmaster when
+balancing and would also have been captured by monitoring from the data centre.
+As reference data was controlled by Post Office, in this case, the fix and
+
+communication of this to sub-postmasters would have been handled by them.
+
+Page 17 of 19
+WITNO04110100
+WITNO4110100
+
+55.By way of background, PinlCLs originated from various sources, including
+Powerhelp (from branches) and Fujitsu teams including development, test and
+release. Generally, | was not involved in development, test and release so can
+only comment on PinlCLs that originated from Powerhelp.
+
+56. The volume of PinICLs was manageable for the team. Although it was a long time
+ago, | do not recall any particular concerns in relation to the volume of PinlICLs
+and my recollection is that all Live raised incidents received into the EDSC/SSC
+were addressed effectively. Other teams that should be able to comment on this
+are the BSU/MSU team or the Service Management team.
+
+57.My interactions with sub-postmasters focused on resolving specific incidents
+raised to help keep counters and branches operating. | was not involved in the
+general reporting of issues to Post Office. As noted earlier in this statement, my
+understanding is that this would have been the role of the Service Management
+team. | do not recall the details of any specific conversations with sub-
+postmasters.
+
+CONSULTATION WITH END USERS
+
+58.1 am not aware of any practices or procedures that may have been in place to
+obtain input or feedback from sub-postmasters during the pilot and rollout of
+Horizon. However, as explained above, as a member of the EDSC and then SSC,
+| would sometimes speak to sub-postmasters on the phone to assist with issues
+
+(such as the Cash Account).
+
+Page 18 of 19
+WITNO04110100
+WITNO4110100_
+
+Statement of Truth
+| believe i ment to be true.
+Signed:
+
+pated: CY | G& | 2022
+
+Index to the First Witness Statement of John Graeme Simpkins
+
+[ ‘Description | Date | ControlNumber | = URN
+WITNO411_01/1 | Investment 20 » POINQ0067424F =| FUJ00077836
+| and Strategy | November |
+| Committee 1997 |
+Meeting |
+WITNO4114_01/2 | PCO037808 21 June | POINQO052009F | FUJ00045838
+2000 (last
+update
+status)
+WITNO414_01/3 | Chief 7 May POINQO067422F | FUJ00077834
+Executive's | 1997 /
+Report ~ May
+1997
+(PLC/97/8) |
+WITNO411_01/4 | Chief 15 July POINQ0067423F | FUJ00077835
+Executive's 1997
+Report — July
+1997
+{PLC/97/12)
+
+Page 19 of 19

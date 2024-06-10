@@ -1,517 +1,659 @@
-                                                                                           POLOO143075
-                                                                                         POL00143075
+POL00143075
+POL00143075
 
+Post Office Ltd — Strictly Confidential
 
+POST OFFICE LTD
+Briefing for Paula Vennells (Chief Executive) and
+Chris Day (Chief Financial Officer)
 
-                           Post Office Ltd — Strictly Confidential
+Post Office IT General Controls
+Ernst & Young Audit 2011/12
 
-                                                                                      POLO
-
-                                   POST OFFICE LTD
-                    Briefing for Paula Vennells (Chief Executive) and
-                            Chris Day (Chief Financial Officer)
-
-                                Post Office IT General Controls
-                                 Ernst & Young Audit 2011/12
-
-
-       Purpose
-
+1. Purpose
 The purpose of this paper is to provide an update on the:
 
-       1.1    Progress made in addressing the observations from the 2010/11 IT General
-              Controls Audit.
-       1.2    Implementation of a SAS70 (ISAE3402) style report.
-       1.2    Observations arising from the 2011/12 audit and the proposed Management
-              Response.
+1.1 Progress made in addressing the observations from the 2010/11 IT General
+Controls Audit.
 
-       Background
+12 Implementation of a SAS70 (ISAE3402) style report.
 
-       2.1    As part of the annual independent Financial Audit, Ernst & Young undertake
-              an audit of the core Post Office systems that support financial transactions,
-              namely:
-                     • Within the Post Office domain hosted by Fujitsu
-                                HNGX (product sales platform)
-                            o
+1.2 Observations arising from the 2011/12 audit and the proposed Management
+Response.
 
+23 Background
 
+2.1 As part of the annual independent Financial Audit, Ernst & Young undertake
+an audit of the core Post Office systems that support financial transactions,
+namely:
 
+« Within the Post Office domain hosted by Fujitsu
+o HNGX (product sales platform)
+o POLSAP (product and branch accounting and supply chain
+/ stock management)
+e Within the Royal Mail domain hosted by CSC.
+o SAP HR (human resources)
+o SAP ESFS (general ledger)
 
-                                POLSAP (product and branch accounting and supply chain
-                            o
+2.2 The focus of the IT General Controls audit for each of these systems covers:
+« Change Management
 
+o Only appropriately authorised, tested, and approved
+changes are made to applications, interfaces, databases,
+and operating systems.
 
+e Logical Access
 
+o Only authorised persons have access to data and
+applications (including programs, tables, and related
+resources) and that they can perform only specifically
+authorised functions (e.g., inquire, execute, update).
 
-                                / stock management)
-                     • Within the Royal Mail domain hosted by CSC
-                                SAP HR (human resources)
-                            o
+e¢ Operations
 
+o Data supporting financial information is properly backed up
+so such data can be accurately and completely recovered if
+there is a system outage or data integrity issue.
 
+o Programs are executed as planned and deviations from
+scheduled processing are identified and resolved in a timely
+manner.
 
+o IT Operations problems or incidents are identified, resolved,
+reviewed, and analysed in a timely manner.
 
-                                SAP ESFS (general ledger)
-                            o
+2.3. The 2010/11 audit resulted in a number of actions for Post Office and Fujitsu
+to address which were concluded by October 2011. The implementation of
+24
 
+POL00143075
+POL00143075
 
+Post Office Ltd — Strictly Confidential
 
+these actions has resulted in significant changes to our processes and to
+deliver improvements to our IT General Controls.
 
-       2.2    The focus of the IT General Controls audit for each of these systems covers:
-                     • Change Management
-                               Only appropriately authorised, tested, and approved
-                            o
+Given the timing of this year’s audit (January and February 2012), there was
+some time for these changes to have embedded. The improvements are
+evidenced in the findings of the 2011/12 audit where there are no high risk
+observations within the 7 identified (versus 10 last year) and only 25 specific
+recommendations (versus over 70 last year).
 
+Summary of the 2010/11 audit position
 
+3.1
 
+3.2
 
-                               changes are made to applications, interfaces, databases,
-                               and operating systems.
-                     • Logical Access
-                               Only authorised persons have access to data and
-                            o
+3.3
 
+3.4
 
+The 2010/11 audit identified 10 observations (classified as 4 high risk, 3
+medium and 3 low) with over 70 specific recommendations.
 
+In response to these observations, Post Office and Fujitsu agreed a series of
+actions (as identified in the Management Comments to the audit report for
+2010/11) to address the areas of risk identified.
 
-                               applications (including programs, tables, and related
-                               resources) and that they can perform only specifically
-                               authorised functions (e.g., inquire, execute, update).
-                     • Operations
-                               Data supporting financial information is properly backed up
-                            o
+A Post Office led Audit Steering Group was established to track and manage
+the agreed actions, with all being completed by the end of October 2011, as
+planned.
 
+Through an independent Royal Mail Group audit conducted on the Post
+Office systems (November 2011), it was agreed that all actions had been
+completed as planned. Two actions had minor activities still to be completed,
+which were addressed by December 2011. (See Appendix A for a summary
+statement for each of the 2010/11 observations as agreed with the RMG
+audit.)
 
+Update on the SAS70 (ISAE3402) style report implementation
 
+41
 
-                               so such data can be accurately and completely recovered if
-                               there is a system outage or data integrity issue.
-                               Programs are executed as planned and deviations from
-                            o
+4.2
 
+43
 
+One specific recommendation from the 2010/11 audit was to investigate the
+feasibility of having a SAS70 style report produced annually (now known as
+ISAE3402), with a view to establishing greater standardised controls and
+continuously evidenced compliance. Post Office have worked with Fujitsu
+and Ernst & Young to agree an initial way forward where Fujitsu will, at their
+own cost, engage Ernst & Young to produce such a report for the Fujitsu
+hosted Post Office systems within the scope of our annual IT General
+Controls audit.
 
+The Fujitsu ISAE3402 report will be introduced for FY2012/13. It will bring
+benefits to both Fujitsu and Post Office. Whilst initially Fujitsu will still require
+the same level of effort to support the ISAE3402 audit, over time the scope
+of that audit will be expanded to cover other standards (e.g. |SO27001, PCI,
+LINK). This results in economies for Fujitsu as only one audit is required for
+all those controls that are common across all standards. As the adoption of
+the annual ISAE3402 report embeds, the good practice of continuous
+evidencing of compliance will also deliver efficiencies, with each subsequent
+annual audit having more immediate access to evidence of control.
 
-                               scheduled processing are identified and resolved in a timely
-                               manner.
-                               IT Operations problems or incidents are identified, resolved,
-                            o
+Post Office will also benefit with the introduction of Fujitsu’s ISAE3402 report.
+With the initial scope covering the controls within the annual IT General
+Controls audit, our auditors will be able to draw on the ISAE3402 report as a
+trusted source of evidence. Where control is evidenced in that report,
+reduced investigation will be required by our auditors, with resulting
+efficiencies.
+44
 
+POL00143075
 
+POL00143075
 
+Post Office Ltd — Strictly Confidential
 
-                               reviewed, and analysed in a timely manner.
+In addition, Post Office IT & Change and Information Security functions are
+jointly aiming to adopt ISAE3402 good practices to establish a single audit
+framework to manage how Post Office maintains compliance with the
+controls across all required standards. This single audit framework will not
+only drive efficiencies for Post Office, similar to the benefits identified above,
+it will also drive improvements in the adoption of our policies and processes
+through the requirement for continuous evidencing of compliance.
 
-       2.3    The 2010/11 audit resulted in a number of actions for Post Office and Fujitsu
-              to address which were concluded by October 2011. The implementation of
-                                                                                                POLOO143075
-                                                                                              POL00143075
+Update on the 2011/12 audit
 
+5.1
 
+5.2
 
-                         Post Office Ltd — Strictly Confidential
+5.3
 
-           these actions has resulted in significant changes to our processes and to
-           deliver improvements to our IT General Controls.
+5.4
 
-     2.4   Given the timing of this year's audit (January and February 2012), there was
-           some time for these changes to have embedded. The improvements are
-           evidenced in the findings of the 2011/12 audit where there are no high risk
-           observations within the 7 identified (versus 10 last year) and only 25 specific
-           recommendations (versus over 70 last year).
+5.5
 
-     Summary of the 2010111 audit position
-
-     3.1   The 2010/11 audit identified 10 observations (classified as 4 high risk, 3
-           medium and 3 low) with over 70 specific recommendations.
-
-     3.2   In response to these observations, Post Office and Fujitsu agreed a series of
-           actions (as identified in the Management Comments to the audit report for
-           2010/11) to address the areas of risk identified.
-
-     3.3   A Post Office led Audit Steering Group was established to track and manage
-           the agreed actions, with all being completed by the end of October 2011, as
-           planned.
-
-     3.4   Through an independent Royal Mail Group audit conducted on the Post
-           Office systems (November 2011), it was agreed that all actions had been
-           completed as planned. Two actions had minor activities still to be completed,
-           which were addressed by December 2011. (See Appendix A for a summary
-           statement for each of the 2010/11 observations as agreed with the RMG
-           audit.)
-
-4.   Update on the SAS70 (ISAE3402) style report implementation
-
-     4.1   One specific recommendation from the 2010/11 audit was to investigate the
-           feasibility of having a SAS70 style report produced annually (now known as
-           ISAE3402), with a view to establishing greater standardised controls and
-           continuously evidenced compliance. Post Office have worked with Fujitsu
-           and Ernst & Young to agree an initial way forward where Fujitsu will, at their
-           own cost, engage Ernst & Young to produce such a report for the Fujitsu
-           hosted Post Office systems within the scope of our annual IT General
-           Controls audit.
-
-     4.2   The Fujitsu ISAE3402 report will be introduced for FY2012/13. It will bring
-           benefits to both Fujitsu and Post Office. Whilst initially Fujitsu will still require
-           the same level of effort to support the ISAE3402 audit, over time the scope
-           of that audit will be expanded to cover other standards (e.g. IS027001, PCI,
-           LiNK). This results in economies for Fujitsu as only one audit is required for
-           all those controls that are common across all standards. As the adoption of
-           the annual ISAE3402 report embeds, the good practice of continuous
-           evidencing of compliance will also deliver efficiencies, with each subsequent
-           annual audit having more immediate access to evidence of control.
-
-     4.3   Post Office will also benefit with the introduction of Fujitsu's ISAE3402 report.
-           With the initial scope covering the controls within the annual IT General
-           Controls audit, our auditors will be able to draw on the ISAE3402 report as a
-           trusted source of evidence. Where control is evidenced in that report,
-           reduced investigation will be required by our auditors, with resulting
-           efficiencies.
-                                                                                             POLOO143075
-                                                                                           POL00143075
-
-
-
-                         Post Office Ltd — Strictly Confidential
-
-     4.4   In addition, Post Office IT & Change and Information Security functions are
-           jointly aiming to adopt ISAE3402 good practices to establish a single audit
-           framework to manage how Post Office maintains compliance with the
-           controls across all required standards. This single audit framework will not
-           only drive efficiencies for Post Office, similar to the benefits identified above,
-           it will also drive improvements in the adoption of our policies and processes
-           through the requirement for continuous evidencing of compliance.
-
-5.   Update on the 2011/12 audit
-
-     5.1   Building on lessons learned from the 2010/11 audit, a more rigorous
-           management control approach was adopted for the 2011/12 audit. This
-           involved clear planning and communication to all parties well in advance of
-           required involvement. As a result the 2011/12 audit operated with a high
-           degree of cooperation across all parties and delivered on time. This is in
-           contrast to 2010/11 that required substantial senior management intervention
-           and delivered 3 months later than planned.
-
-     5.2   The 2011/12 audit found a demonstrable improvement from the 2010/11
-           audit across all previous observations and no high risk observations were
-           identified.
-
-     5.3   A total of 7 observations have been identified this year with only 25 specific
-           recommendations. Each of these observations built on the findings of the
-           2010/11 audit with Ernst & Young recommending further areas for
-           improvement or repeated recommendations where similar weaknesses
-           persist.
-
-     5.4   The proposed 2011/12 Management Response identifies how the agreed
-           actions from last year's audit sought to address any repeated weaknesses. In
-           addition, the responses identify where repeated weaknesses persist due to
-           legacy constraints, with policy and process being used to mitigate any
-           potential risks.
-
-     5.5   This year's responses also identify what further immediate actions will be
-           taken, e.g. re-iteration and communication of policy. In addition, new reviews
-           of policy and process are to take place to identify appropriate further
-           improvements.
-
-     5.6   A summary of this year's Ernst & Young recommendations and related
-           responses can be found in Appendix B.
-
-     5.7   Post Office Audit Steering Group will track and manage the progress of these
-           actions and report to the Post Office Audit Committee to agree each course
-           of action proposed, timeframes required and evidence completion of agreed
-           actions.
-
-6.   Recommendations
-
-     6.1   This paper is provided as a briefing paper only.
-
-
-                                                                              Lesley Sewell
-                                                                   Chief Information Officer
-                                                                                  May 2012
-                                                                                                                                     POLOO143075
-                                                                                                                                   POL00143075
-
-
-
-                                  Post Office Ltd — Strictly Confidential
+5.6
 
+5.7
+
+Building on lessons learned from the 2010/11 audit, a more rigorous
+management control approach was adopted for the 2011/12 audit. This
+involved clear planning and communication to all parties well in advance of
+required involvement. As a result the 2011/12 audit operated with a high
+degree of cooperation across all parties and delivered on time. This is in
+contrast to 2010/11 that required substantial senior management intervention
+and delivered 3 months later than planned.
+
+The 2011/12 audit found a demonstrable improvement from the 2010/11
+audit across all previous observations and no high risk observations were
+identified.
+
+A total of 7 observations have been identified this year with only 25 specific
+recommendations. Each of these observations built on the findings of the
+2010/11 audit with Ernst & Young recommending further areas for
+improvement or repeated recommendations where similar weaknesses
+persist.
+
+The proposed 2011/12 Management Response identifies how the agreed
+actions from last year’s audit sought to address any repeated weaknesses. In
+addition, the responses identify where repeated weaknesses persist due to
+legacy constraints, with policy and process being used to mitigate any
+potential risks.
+
+This year’s responses also identify what further immediate actions will be
+taken, e.g. re-iteration and communication of policy. In addition, new reviews
+of policy and process are to take place to identify appropriate further
+improvements.
+
+Asummary of this year’s Ernst & Young recommendations and related
+responses can be found in Appendix B.
+
+Post Office Audit Steering Group will track and manage the progress of these
+actions and report to the Post Office Audit Committee to agree each course
+of action proposed, timeframes required and evidence completion of agreed
+actions.
+
+Recommendations
+
+6.1
+
+This paper is provided as a briefing paper only.
+
+Lesley Sewell
+Chief Information Officer
+May 2012
+POL00143075
+POL00143075
+
+Post Office Ltd — Strictly Confidential
 Appendix A Summary status of the 2010/11 audit observations — as agreed with the
 RMG independent audit in November 2011.
 
+E&Y
+Rating
 
+Finding
 
+Summary Status
 
-1     High   Governance of outsourcing arrangement with Fujitsu: POL is responsible for the governance and risk and
-             control frameworks and should have visibility and assurance over their design and operating effectiveness.
-2     High   Segregation of change management duties: Inappropriate access should be revoked and roles for development
-             and migration to live environment should be segregated.
-3     High   Change management process: All changes should be appropriately authorised, tested and approved prior to
-             deployment to live environment.
-4     High   Privileged access: Privileged access to IT functions should be reviewed to determine whether it is appropriate.
+Governance of outsourcing arrangement with Fujitsu: POL is responsible for the governance and risk and
+control frameworks and should have visibility and assurance over their design and operating effectiveness.
 
-S     Med    Periodic POL-owned review of user accounts: To assist in the identification of inappropriate access and potentia
-             segregation of duties conflicts.
-6     Med    User administration: Review the current user access policy and strengthen the existing user administration
-             process within POL and third party service providers.
-7     Low    Infrastructure logical security settings: Undertake architectural review and periodic scan of passwords as part of,
-             a penetration testing schedule.
-8     Low    Password parameters: Review and update Information security policy and configure all applications in line with
-             policy requirements.
-9     Med    Access to generic privileged accounts: Review across all applications. Consider replacing with individual
-             accounts and implement monitoring controls.
-10    Low    Incident identification and resolution: Regular review of the problem and incident management process to
-             ensure incidents are identified, classified and resolved on a timely basis.
-                                                                                                                                                    POLOO143075
-                                                                                                                                          POL00143075
+‘Segregation of change management duties: Inappropriate access should be revoked and roles for development
+and migration to live environment should be segregated.
 
+3 High | Change management process: All changes should be appropriately authorised, tested and approved prior to
+deployment to live environment.
 
-                                                        Post Office Ltd - Strictly Confidential
+4 High | Privileged access: Privileged access to IT functions should be reviewed to determine whether it is appropriate,
 
+5 Med | Periodic POL-owned review of user accounts: To assist in the identification of inappropriate access and potential
+segregation of duties conflicts.
+
+G Med | User administration: Review the current user access policy and strengthen the existing user admir
+process within POL and third party service providers.
+
+istration
+
+7 Tow | infrastructure logical security settings: Undertake architectural review and periodic scan of passwords as part of
+a penetration testing schedule.
+
+8 low | Password parameters: Review and update Information security policy and configure all applications in line with
+policy requirements.
+
+9 Med | Access to generic privileged accounts: Review across all applications. Consider replacing with individual
+accounts and implement monitoring controls.
+
+10 low | Incident identification and resol Regular review of the problem and incident management process to
+ensure incidents are identified, classified and resolved on a timely basis.
+
+POL00143075
+
+POL00143075
+
+Post Office Ltd — Strictly Confidential
 
 Appendix B Summary of 2011/12 Ernst & Young audit recommendations and proposed Management Responses.
 
-E&Y Recommendations             Summary of the proposed Post Office Management Response
-1. Privileged Access.             • Definition: Privileged access describes the level of control where the user having this access can perform
-• Conduct a review of               all or nearly all tasks within the system e.g. SAP_ALL provides the capability to process and approve
-    privileged access for in        financial transactions within a SAP system. The purpose of SAP_ALL is to enable qualified
-    scope applications (HNG         administration users the capability to maintain the system.
-    and SAP)                      • Observations from last year: Observations from the last audit identified inappropriate privilege access
-• Revisit the need to grant         in HNGX and POLSAP.
-    access at SAP_ALL and         • Observations this year: This year repeats the same observations but notes a reduction in accounts
-    SAP NEW levels                  assigned with privileged access in POLSAP and reviewed inappropriate privileged access in HNGX.
-• Consider creating system        • What have we done to address the observations: Since the last audit the use of privileged accounts is
-    accounts to run scheduled       monitored so that the granting of this privilege must be justified, time bound and reviewed monthly by
-    jobs for POLSAP                 POL. There is continuing need for certain key system activities to be executed by the administration
-• Periodic review of the            teams with these privileges'. For example, for out of hour's support it is not possible to predict the
-    activities where SAP_ALL        privileges required to resolve any incident, therefore the use of encompassing privileges is justified.
-    and SAP_NEW are                 Further additional controls do not appear to be justified. However the rigour of the monthly check at the
-    retained.                       ISMF (Information Security Management Forum) will be tested to ensure it is adequate. If not steps will
-• Implement monitoring              be taken to optimise the checking of these accounts. The issues around privileged access are focused on
-    controls for 3" party           the possibility that a privileged user may abuse their access. Post Office believes that the existing process
-    suppliers.                      provide sufficient transparency and accountability to deter such activity. Post Office accepts that
-                                    deterrence is not as strong as prevention but in this case the operational impact of devolving SAP_ALL
-                                    privileges is believed to carry more risk of operational instability. Consequently, Post Office's attention
-                                    will address enhancing the process to ensure that lapses in record keeping can not easily occur in the
-                                    future; and that attention will be given to enhancing this accountability and transparency where possible.
-                                  • Risk Treatment: Post Office accepts there is risk associated with its use of privileged access but also
-                                    determines it is operationally appropriate (given the nature of operational support required). Post Office
-                                    also accepts there is further work that can be done on the related secondary controls to reduce the
-                                    existing risk.
+E&Y Recommendations
 
+Summary of the proposed Post Office Management Response
 
+1. Privileged Access.
 
+© Conduct a review of
+privileged access for in
+scope applications (HNG
+and SAP)
 
-                                                                                                                                     May 2002, Issue 7
-                                                                                                                                                   POLOO143075
-                                                                                                                                         POL00143075
+e Revisit the need to grant
+access at SAP_ALL and
+SAP_NEW levels
 
+e Consider creating system
+accounts to run scheduled
+jobs for POLSAP
 
-                                                      Post Office Ltd — Strictly Confidential
+e Periodic review of the
+activities where SAP_ALL
+and SAP_NEW are
+retained.
 
+e Implement monitoring
+controls for 3“ party
+suppliers.
 
-2. User Admin Process.           •   Definition: This is the process for the creation, modification and removal of user's access to a system. In
-• Strengthen the HNG user            particular HNGX and POLSAP.
-    admin process to retain      •   Observations from last year: Observations from the last audit identified the need to introduce the
-    approval documentation           retention of user application documentation to record the user application request. For POLSAP to
-    for access to the HNG            identify how the segregation of duties can be maintained and for HNGX Implement a standard user
-    estate                           administration process to include all creations, modifications and removal of access to HNGX
-• Strengthen the POLSAP          •   Observations this year. This year repeats much of the same with additional focus on revocation of users
-    user admin process to            who have left or moved on.
-    retain approval              •   What have we done to address the observations: There is a good strong process in place and the
-    documentation for                observations seem to be driven from some lapses in documentation e.g. some individuals did not record
-    temporary set up for cash        their name on the retained documentation. Post Office will work with Fujitsu to ensure the process is re-
-    centres.                         iterated to the user population and will work with Fujitsu to ensure the joiners / leaver's process is
-• Consider a monitoring              robust. Similarly in POLSAP we will re-iterate the process to the user population and ensure the
-    process for temporary set        monitoring process for third party users is robust.
-    up for cash centres.         •   Risk Treatment: Post Office accepts there is further work that can be done in terms of process
-• Re-communicate to cash             reiteration and monitoring to reduce the existing risk.
-    centre managers that the
-    standard process should be
-    followed for permanent
-    access modifications for
-    SAPADS.
-• Implement a monitoring
-    process for privileged
-    users within cash centres.
-• Where user admin is
-    controlled by a 3rd party
-    ensure adequate
-    monitoring controls.
-• For HNG and POLSAP
-    strengthen the process for
-    revocation of access when
-    employees contracts are
+Definition: Privileged access describes the level of control where the user having this access can perform
+all or nearly all tasks within the system e.g. SAP_ALL provides the capability to process and approve
+financial transactions within a SAP system. The purpose of SAP_ALL is to enable qualified
+administration users the capability to maintain the system.
 
+Observations from last year: Observations from the last audit identified inappropriate privilege access
+in HNGX and POLSAP.
 
-                                                                                                                                    May 2002, Issue 7
-                                                                        2
-                                                                                                                                                     POLOO143075
-                                                                                                                                           POL00143075
+Observations this year: This year repeats the same observations but notes a reduction in accounts
+assigned with privileged access in POLSAP and reviewed inappropriate privileged access in HNGX.
+What have we done to address the observations: Since the last audit the use of privileged accounts is
+monitored so that the granting of this privilege must be justified, time bound and reviewed monthly by
+POL. There is continuing need for certain key system activities to be executed by the administration
+teams with these privileges’. For example, for out of hour’s support it is not possible to predict the
+privileges required to resolve any incident, therefore the use of encompassing privileges is justified.
+Further additional controls do not appear to be justified. However the rigour of the monthly check at the
+ISMF (Information Security Management Forum) will be tested to ensure it is adequate. If not steps will
+be taken to optimise the checking of these accounts. The issues around privileged access are focused on
+the possibility that a privileged user may abuse their access. Post Office believes that the existing process
+provide sufficient transparency and accountability to deter such activity. Post Office accepts that
+deterrence is not as strong as prevention but in this case the operational impact of devolving SAP_ALL
+privileges is believed to carry more risk of operational instability. Consequently, Post Office’s attention
+will address enhancing the process to ensure that lapses in record keeping can not easily occur in the
+future; and that attention will be given to enhancing this accountability and transparency where possible.
+Risk Treatment: Post Office accepts there is risk associated with its use of privileged access but also
+determines it is operationally appropriate (given the nature of operational support required). Post Office
+also accepts there is further work that can be done on the related secondary controls to reduce the
+existing risk.
 
+May 2002, Issue 7
+POL00143075
 
-                                                      Post Office Ltd - Strictly Confidential
+POL00143075
 
+Post Office Ltd — Strictly Confidential
 
-3. Change Management             •   Definition: This is the process that determines that all programme changes are appropriately authorised,
-Process.                             tested and approved prior to implementation.
-• To enhance the change          •   Observations from last year: The observations from last year centred on the authorisation and testing
-    management process by            of changes prior to go live. Of the samples taken there were a number of observations where evidence of
-    retained evidence of             authorisations could not be found, evidence that testing took place or evidence that approval was not
-    authorisation, testing and       received. This was based on a sample of 18 changes in POLSAP and 15 in HNGX.
-    approval to promote          •   Observations this year: Observations were much the same but referred to instances where names were
-    accountability,                  not recorded on the appropriate documentation. The auditors noted that there were improvements in the
-• Define the responsibilities        process.
-    of all parties involved.     •   What have we done to address the observations: Post Office has further improved the process
-• Increase involvement in            regarding change management since the last audit. However, both Post Office and Fujitsu will amend
-    the change management            their processes to ensure that the name of the individual authorising, testing or approving changes is
-    process specifically for         recorded, as identified by the audit this year. It is noteworthy that Post Office does not always engage in
-    fixes and maintenance            the authorisation, testing and approval of maintenance changes or fixes as these are often BAU
-    changes.                         maintenance of the system and 19 of the 28 samples referred to maintenance or BAU changes. However,
-• Describe the overall               Post Office does validate and authorise security affecting changes such as patches and anti-virus updates
-    change management                and ensures that testing is performed by Fujitsu and retains an audit trail. Post Office will verify that the
-    process within                   classification of maintenance and fix changes and responsibilities is adequately documented between POL
-    documentation.                   and Fujitsu, and will update the documentation if it is found deficient. Post Office has a documented
-• Implement controls to              change process described in the Manage Improvement & Change document. All Post Office suppliers
-    ensure that 3`" party            have their own internal change processes.
-    service providers are in     •   Risk Treatment: Post Office accepts there is further work that can be done with respect to adequate
-    place and in operation.          documentation of actions taken and the classification of maintenance requirements to reduce the existing
+n
 
+. User Admin Process.
+Strengthen the HNG user
+admin process to retain
+approval documentation
+for access to the HNG
+estate
+Strengthen the POLSAP
+user admin process to
+retain approval
+documentation for
+temporary set up for cash
+centres.
 
+Consider a monitoring
+process for temporary set
+up for cash centres.
+Re-communicate to cash
+centre managers that the
 
+standard process should be
 
-                                                                                                                                      May 2002, Issue 7
-                                                                                                                                                POLOO143075
-                                                                                                                                      POL00143075
+followed for permanent
+access modifications for
+SAPADS.
 
+Implement a monitoring
+process for privileged
+users within cash centres.
+Where user admin is
+controlled by a 3" party
+ensure adequate
+monitoring controls.
 
-                                                  Post Office Ltd — Strictly Confidential
+For HNG and POLSAP
+strengthen the process for
+revocation of access when
+employees contracts are
 
+Definition: This is the process for the creation, modification and removal of user’s access to a system. In
+particular HNGX and POLSAP.
 
-4. Periodic user access      •   Definition: This regular process reviews whether a user has appropriate privileges' for the job / role that
-reviews and monitoring           they undertake.
-controls.                    •   Observations from last year: Requested that Post Office should implement a periodic review of
- • To consider the               appropriate access of users. The findings found 2 users out of 25 had left the business and I user had
-    implementation of a          inappropriate access.
-    periodic review of       •   Observations this year: This year's observation repeated that a review process be implemented based
-    appropriate access for       on the findings that one individual had access to the HNGX estate that was no longer required to.
-    HNG and POLSAP.          •   What have we done to address the observations: The processes that manage all user privileges have
-                                 been further improved from last year. The Fujitsu joiners / leavers process has improved; there is now a
-                                 monthly review of all movers and inactive users are identified after a pre-defined period of time. Annually
-                                 there is a full review of the user access and Fujitsu report on a regular basis on the user access status to
-                                 the Post Office Information Security Management Forum. These processes are considered sufficiently
-                                 robust. However, Post Office in conjunction with Fujitsu, will verify that adequate authorisation is
-                                 identified and recorded and where not will take appropriate steps to remediate. The issues around user
-                                 access management seem to be focused mainly on very infrequent lapses in the existing process.
-                                 Consequently, Post Office's attention will address enhancing that process to ensure such lapses cannot
-                                 easily occur in the future.
-                             •   Risk Treatment: Post Office considers its user access process to be sufficiently robust but accepts there
-                                 is further work that can be done to ensure that future lapses are avoided and reduce the existing risk.
+Observations from last year: Observations from the last audit identified the need to introduce the
+retention of user application documentation to record the user application request. For POLSAP to
+identify how the segregation of duties can be maintained and for HNGX Implement a standard user
+administration process to include all creations, modifications and removal of access to HNGX
+Observations this year: This year repeats much of the same with additional focus on revocation of users
+who have left or moved on.
 
+What have we done to address the observations: There is a good strong process in place and the
+observations seem to be driven from some lapses in documentation e.g. some individuals did not record
+their name on the retained documentation. Post Office will work with Fujitsu to ensure the process is re-
+iterated to the user population and will work with Fujitsu to ensure the joiners / leaver’s process is
+robust. Similarly in POLSAP we will re-iterate the process to the user population and ensure the
+monitoring process for third party users is robust.
 
+Risk Treatment: Post Office accepts there is further work that can be done in terms of process
+reiteration and monitoring to reduce the existing risk.
 
+May 2002, Issue 7
+POL00143075
 
-                                                                                                                                 May 2002, Issue 7
-                                                                    4
-                                                                                                                                                      POLOO143075
-                                                                                                                                            POL00143075
+POL00143075
 
+Post Office Ltd — Strictly Confidential
 
-                                                        Post Office Ltd — Strictly Confidential
+3. Change Management
+Process.
 
+To enhance the change
+management process by
+retained evidence of
+authorisation, testing and
+approval to promote
+accountability.
 
-5. Generic Privileged               •   Definition: A Generic privileged account describes a non user specific account which can perform all or
-Accounts.                               nearly all tasks within the system e.g. SAP_ALL provides the capability to process and approve financial
-• To consider a review of               transactions within a SAP system. The purpose of SAP_ALL is to enable qualified administration users
-    generic privileged                  the capability to maintain the system.
-    accounts and supporting         •   Observations from last year: Observations from the last audit highlighted that a number of users e.g. 10
-    infrastructure to determine         of 11 for system accounts 4 of 11 on database accounts etc., knew the password for specific accounts
-    if they can be replaced by          and asked that we consider replacing such accounts with individual specific owned accounts to promote
-    individual accounts.                accountability.
-• To consider monitoring            •   Observations this year: This year's observations repeated very much the same.
-    controls to help ensure         •   What have we done to address the observations: Since last year the processes that control access to
-    robust security practices           accounts, where these are privileged, generic privileged or user accounts has been further improved. The
-    are in place, particularly 3"       improvements mean that the use of generic privileged or privileged accounts can be tracked back through
-    party suppliers.                    an audit record to a particular person and authorisation for the use of the accounts and the defined period
-                                        for which he account is used. This is monitored and reviewed by Fujitsu at least monthly. All accounts are
-                                        reviewed at least annually and Fujitsu present reports to Post Office at the monthly Information Security
-                                        Governance Forum. The issues around generic privileged accounts seem to be focused partly on very
-                                        infrequent lapses in the existing process and partly on the risk that a privileged user might misuse their
-                                        access or their elevated privileges. Post Office accepts that deterrence is not as strong as prevention but
-                                        in this case the operational impact of devolving SAP_ALL privileges is believed to carry more risk of
-                                        operational instability. Post Office believes that the existing process provide sufficient transparency and
-                                        accountability to deter such activity. Consequently, Post Office's attention will address enhancing the
-                                        process to ensure that lapses in record keeping can not easily occur in the future; and that attention will
-                                        be given to enhancing this accountability and transparency where possible.
-                                    •   Risk Treatment: Post Office accepts there is risk associated with its use of generic privileged access but
-                                        also determines it is operationally appropriate (given the nature of operational support required). Post
-                                        Office also accepts there is further work that can be done on the related secondary controls to reduce the
-                                        existing risk.
+Define the responsibilities
+of all parties involved.
+Increase involvement in
+the change management
+process specifically for
+fixes and maintenance
+changes.
 
+Describe the overall
+change management
+process within
+documentation.
+Implement controls to
+ensure that 3" party
+service providers are in
+place and in operation.
 
+Definition: This is the process that determines that all programme changes are appropriately authorised,
+tested and approved prior to implementation.
 
+Observations from last year: The observations from last year centred on the authorisation and testing
+of changes prior to go live. Of the samples taken there were a number of observations where evidence of
+authorisations could not be found, evidence that testing took place or evidence that approval was not
+received. This was based on a sample of 18 changes in POLSAP and 15 in HNGX.
 
-                                                                                                                                       May 2002, Issue 7
-                                                                                                                                                      POLOO143075
-                                                                                                                                            POL00143075
+Observations this year: Observations were much the same but referred to instances where names were
+not recorded on the appropriate documentation. The auditors noted that there were improvements in the
+process.
 
+What have we done to address the observations: Post Office has further improved the process
+regarding change management since the last audit. However, both Post Office and Fujitsu will amend
+their processes to ensure that the name of the individual authorising, testing or approving changes is
+recorded, as identified by the audit this year. It is noteworthy that Post Office does not always engage in
+the authorisation, testing and approval of maintenance changes or fixes as these are often BAU
+maintenance of the system and 19 of the 28 samples referred to maintenance or BAU changes. However,
+Post Office does validate and authorise security affecting changes such as patches and anti-virus updates
+and ensures that testing is performed by Fujitsu and retains an audit trail. Post Office will verify that the
+classification of maintenance and fix changes and responsibilities is adequately documented between POL
+and Fujitsu, and will update the documentation if it is found deficient. Post Office has a documented
+change process described in the Manage Improvement & Change document. All Post Office suppliers
+have their own internal change processes.
 
-                                                        Post Office Ltd — Strictly Confidential
+Risk Treatment: Post Office accepts there is further work that can be done with respect to adequate
+documentation of actions taken and the classification of maintenance requirements to reduce the existing
+risk.
 
+May 2002, Issue 7
 
-6. Password parameters.            •   Definition: Password parameters are attributes that can be applied to the way a password is generated by
-• Review and update the                a system. And which may be forced on a user when selecting a password. For example the length of the
-    `RMG Security Policy' to           password, the mix of characters, the length of time a password exists before it must be renewed etc.
-    meet the generally                 Different systems and applications can and do employ widely differing sets of attributes and do not
-    accepted password                  necessarily agree on the value of these attributes. These then become technical constraints on setting and
-    settings as described in the       enforcing policy.
-    management letter.             •   Observations from last year: Observations last year was to review the RMG security Policy and update
-• Consider one single policy           the password settings accordingly for the network, application and supporting infrastructure components.
-    rather than multiple               Additionally the auditors recognised that the risk was mitigated by the level of controls in Active
-    policies and guidelines.           Directory and that this was considered to be a low risk.
-• Configure network,               •   Observations this year: The observations were much the same and they recognised that there had been
-    application and                    improvements to the observations raised last year.
-    infrastructure components      •   What have we done to address the observations: The ability to align all of the technical password
-    in line with the policy.           controls is significantly limited by the flexibility and range of options of password parameters provided by
-                                       the manufacturers. Given that HNGX has a significant number of legacy systems, this drives a lot of
-                                       differences that cannot be reconciled at all. However, as new systems are designed and brought on line
-                                       and new applications developed these differences will gradually disappear. The main reason for this is
-                                       that over time manufacturers have recognised the need for comprehensive and flexible options for
-                                       security settings.
-                                   •   Risk Treatment: Given legacy nature of its systems, Post Office considers that the password parameter
-                                       controls in place are sufficient to mitigate the risk exposure. Notwithstanding that, Post Office will
-                                                    monitor this to ensure
+w
+POL00143075
 
+POL00143075
 
+Post Office Ltd — Strictly Confidential
 
+4. Periodic user access
 
-                                                                                                                                      May 2002, Issue 7
-                                                                          6
-                                                                                                                                                        POLOO143075
-                                                                                                                                              POL00143075
+reviews and monitoring
 
+controls.
 
-                                                          Post Office Ltd — Strictly Confidential
+¢ To consider the
+implementation of a
+periodic review of
+appropriate access for
+HNG and POLSAP.
 
+Definition: This regular process reviews whether a user has appropriate privileges’ for the job / role that
+they undertake.
 
-7. Logical Security Settings.        •   Definition: Logical (as opposed to physical) security settings (or system security settings) is a generic
-• To consider specific                   term that can apply to any security parameter of a system or its supporting infrastructure.
-    encrypted password               •   Observations from last year: This was considered to be of low risk at the last audit. It considered that
-    settings for all Oracle              there were certain logical security weaknesses identified. Five observations were highlighted and three
-    databases and disabling the          were implemented. Of the two remaining the operational impact of HNGX was considered a marginal
-    default administrator                improvement in the logical access risk.
-    account and creating a           •   Observations this year: Observations were much the same.
-    new one with a strong            •   What have we done to address the observations: Last years observation was to encrypt the
-    password.                            LISTENER.ORA file. Fujitsu and Post Office considered that the impact of encrypting this file was a
-• To consider monitoring                 very marginal improvement to the logical access risk and a significant increase of the risk to the long term
-    controls to help ensure              stability of the service. However, Post Office will request Fujitsu to assess the cost and operational
-    robust security practices            impact of this change.
-    are in place, particularly 3`"   •   Risk Treatment: Post Office believes that the logical security controls in place are sufficient to mitigate
-    party suppliers.                     the risk exposure. Notwithstanding that, Post Office will continually monitor this to ensure continuing
+Observations from last year: Requested that Post Office should implement a periodic review of
+appropriate access of users. The findings found 2 users out of 25 had left the business and 1 user had
+inappropriate access.
 
+Observations this year: This year’s observation repeated that a review process be implemented based
+on the findings that one individual had access to the HNGX estate that was no longer required to.
 
+What have we done to address the observations: The processes that manage all user privileges have
+been further improved from last year. The Fujitsu joiners / leavers process has improved; there is now a
+monthly review of all movers and inactive users are identified after a pre-defined period of time. Annually
+there is a full review of the user access and Fujitsu report on a regular basis on the user access status to
+the Post Office Information Security Management Forum. These processes are considered sufficiently
+robust. However, Post Office in conjunction with Fujitsu, will verify that adequate authorisation is
+identified and recorded and where not will take appropriate steps to remediate. The issues around user
+access management seem to be focused mainly on very infrequent lapses in the existing process.
+Consequently, Post Office’s attention will address enhancing that process to ensure such lapses cannot
+easily occur in the future.
 
+Risk Treatment: Post Office considers its user access process to be sufficiently robust but accepts there
+is further work that can be done to ensure that future lapses are avoided and reduce the existing risk.
 
-                                                                                                                                        May 2002, Issue 7
-                                                                            7
-
+May 2002, Issue 7
+POL00143075
+
+POL00143075
+
+Post Office Ltd — Strictly Confidential
+
+5. Generic Privileged
+
+Accounts.
+
+© To consider a review of
+generic privileged
+accounts and supporting
+infrastructure to determine
+if they can be replaced by
+individual accounts.
+
+e To consider monitoring
+controls to help ensure
+robust security practices
+are in place, particularly 3
+party suppliers.
+
+Definition: A Generic privileged account describes a non user specific account which can perform all or
+nearly all tasks within the system e.g. SAP_ALL provides the capability to process and approve financial
+transactions within a SAP system. The purpose of SAP_ALL is to enable qualified administration users
+the capability to maintain the system.
+
+Observations from last year: Observations from the last audit highlighted that a number of users e.g. 10
+of 11 for system accounts 4 of 11 on database accounts etc., knew the password for specific accounts
+and asked that we consider replacing such accounts with individual specific owned accounts to promote
+accountability.
+
+Observations this year: This year’s observations repeated very much the same.
+
+What have we done to address the observations: Since last year the processes that control access to
+accounts, where these are privileged, generic privileged or user accounts has been further improved. The
+improvements mean that the use of generic privileged or privileged accounts can be tracked back through
+an audit record to a particular person and authorisation for the use of the accounts and the defined period
+for which he account is used. This is monitored and reviewed by Fujitsu at least monthly. All accounts are
+reviewed at least annually and Fujitsu present reports to Post Office at the monthly Information Security
+Governance Forum. The issues around generic privileged accounts seem to be focused partly on very
+infrequent lapses in the existing process and partly on the risk that a privileged user might misuse their
+access or their elevated privileges. Post Office accepts that deterrence is not as strong as prevention but
+in this case the operational impact of devolving SAP_ALL privileges is believed to carry more risk of
+operational instability. Post Office believes that the existing process provide sufficient transparency and
+accountability to deter such activity. Consequently, Post Office’s attention will address enhancing the
+process to ensure that lapses in record keeping can not easily occur in the future; and that attention will
+be given to enhancing this accountability and transparency where possible.
+
+Risk Treatment: Post Office accepts there is risk associated with its use of generic privileged access but
+also determines it is operationally appropriate (given the nature of operational support required). Post
+Office also accepts there is further work that can be done on the related secondary controls to reduce the
+existing risk.
+
+May 2002, Issue 7
+POL00143075
+
+POL00143075
+
+Post Office Ltd — Strictly Confidential
+
+6. Password parameters.
+
+e Review and update the
+‘RMG Security Policy’ to
+meet the generally
+accepted password
+settings as described in the
+management letter.
+
+e Consider one single policy
+rather than multiple
+policies and guidelines.
+
+e Configure network,
+application and
+infrastructure components
+in line with the policy.
+
+Definition: Password parameters are attributes that can be applied to the way a password is generated by
+a system. And which may be forced on a user when selecting a password. For example the length of the
+password, the mix of characters, the length of time a password exists before it must be renewed etc.
+Different systems and applications can and do employ widely differing sets of attributes and do not
+necessarily agree on the value of these attributes. These then become technical constraints on setting and
+enforcing policy.
+
+Observations from last year: Observations last year was to review the RMG security Policy and update
+the password settings accordingly for the network, application and supporting infrastructure components.
+Additionally the auditors recognised that the risk was mitigated by the level of controls in Active
+Directory and that this was considered to be a low risk.
+
+Observations this year: The observations were much the same and they recognised that there had been
+improvements to the observations raised last year.
+
+What have we done to address the observations: The ability to align all of the technical password
+controls is significantly limited by the flexibility and range of options of password parameters provided by
+the manufacturers. Given that HNGX has a significant number of legacy systems, this drives a lot of
+differences that cannot be reconciled at all. However, as new systems are designed and brought on line
+and new applications developed these differences will gradually disappear. The main reason for this is
+that over time manufacturers have recognised the need for comprehensive and flexible options for
+security settings.
+
+Risk Treatment: Given legacy nature of its systems, Post Office considers that the password parameter
+controls in place are sufficient to mitigate the risk exposure. Notwithstanding that, Post Office will
+continually monitor this to ensure continuing compliance.
+
+May 2002, Issue 7
+POL00143075
+
+POL00143075
+
+Post Office Ltd — Strictly Confidential
+
+7. Logical Security Settings.
+
+e To consider specific
+encrypted password
+settings for all Oracle
+databases and disabling the
+default administrator
+account and creating a
+new one with a strong
+password.
+
+e To consider monitoring
+controls to help ensure
+robust security practices
+are in place, particularly 3"
+party suppliers.
+
+Definition: Logical (as opposed to physical) security settings (or system security settings) is a generic
+term that can apply to any security parameter of a system or its supporting infrastructure.
+
+Observations from last year: This was considered to be of low risk at the last audit. It considered that
+there were certain logical security weaknesses identified. Five observations were highlighted and three
+were implemented. Of the two remaining the operational impact of HNGX was considered a marginal
+improvement in the logical access risk.
+
+Observations this year: Observations were much the same.
+
+What have we done to address the observations: Last years observation was to encrypt the
+LISTENER.ORA file. Fujitsu and Post Office considered that the impact of encrypting this file was a
+very marginal improvement to the logical access risk and a significant increase of the risk to the long term
+stability of the service. However, Post Office will request Fujitsu to assess the cost and operational
+impact of this change.
+
+Risk Treatment: Post Office believes that the logical security controls in place are sufficient to mitigate
+the risk exposure. Notwithstanding that, Post Office will continually monitor this to ensure continuing
+compliance.
+
+May 2002, Issue 7

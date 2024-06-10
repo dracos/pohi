@@ -1,0 +1,112 @@
+FUJ00117478
+FUJ00117478
+
+Issue of Duplicate Settlements found at Derby
+
+Ref: __ r:\hng plan x\architecture\end to end assurance\0129.dupsettle.doc
+Author: Gareth I Jenkins
+Date: 29/01/2010 16:46:00
+
+1. Introduction
+
+The purpose of this note is to describe the issues found at Derby this week with
+Duplicate settlements and present options for fixing the defect.
+
+2. The Problem
+
+There have been two cases in Derby Post Office of a Basket being recorded twice in
+the accounts. This is tracked via PEAK 193787.
+
+The two cases occurred on different days (26/1 and 27/1) and at different counters and
+with different Clerks. As in both cases the Baskets involved Banking transactions, the
+issue was detected by the DRS Reconciliation reports. A check was carried out on
+28/1 and at that time there were no other occurrences of the problem in Derby or any
+of the other HNG-X Branches.
+
+3. The Cause
+
+The cause of the problem is down to a bug at the counter. What happened was the
+
+following:
+
+1) The Clerk Selected Fast Cash to Settle a Basket
+
+2) The corresponding Cash Transaction was added to the Basket, and since this
+resulted in a Balanced Basket, the Basket was sent to the Data Centre for
+Settlement.
+
+3) The BAL successfully stored the transactions associated with the Basket and
+returned a response to the counter
+
+4) The User pressed the Settlement Button (erroneously).
+
+5) The Settlement component at the counter then called the Printer subsystem to
+see if a receipt required to be printed.
+
+The issue is down to steps 4) and 5). There is a small gap while one subsystem calls
+another during which user interaction may be picked up, and the Settle Button was
+pressed in this period. The Settlement function was then re-invoked and saw that
+there was a Basket in existence and as there was and it was balanced, it sent it to the
+BAL again.
+
+The original Basket cannot be destroyed until after the Receipts have been printed and
+so the basket had not yet been cleared down.
+
+d:\profiles\dalvareza\local settings\temporary internet files\olk16e\0129 dupsettle.doc Printed at 8:14 AM on.
+26/8/2022 Page | of 2
+4,
+
+41
+
+42
+
+FUJ00117478
+
+FUJ00117478
+
+Solution Options
+
+A fix for the issue can be delivered two parts:
+= Tactical solution implemented in the BAL
+= Strategic fix implemented at the counter
+
+These are detailed below.
+
+Tactical solution
+
+Three changes have been proposed for fixing this particular issue and it is
+recommended that all 3 are implemented:
+
+A check is put into the BAL that no records with the current basket’s SSN are held in
+BRDB_RX_REP_SESSION_DATA for this counter and Branch. This will protect
+against the current problem or any other related issues.
+
+This does have a performance impact, although the current view is that until we hit a
+significant number of branches [>2000] this will not cause any issues due to the
+current performance of the system. As such it is recommended that this change is
+removed before rollout. The fix has been designed so that it is controlled by an
+Application.properties file and so removing the change can be done by OCP.
+
+A plan for implementing this fix is being worked on and the team are looking to
+understand whether this can be implemented into Live by 4" February.
+
+Strategic solution
+
+The strategic fix is to make a change to the main BLO Class from which many
+business subsystems are derived. This change would ensure that whenever the
+asynchronous call mechanisms are used between BLOs, then a block is put on any
+user input between the calling BLO making the call and the receiving BLO receiving
+the call.
+
+The change is a straightforward code change to make. However, full regression
+testing of the counter is recommended. The change will be available tomorrow for
+testing in the development environment, running the automated regression test suite.
+
+Confirmation of how this will be intercepted in a counter drop is currently being
+considered, as is the suite of regression tests to be run in CIT and then the full test
+environment. As part of this exercise we would also identify exactly which Business
+Systems are affected to aid targeted testing. A full plan for deploying this into live
+will be produced by COP 1* February.
+
+d:\profiles\dalvareza\local settings\temporary internet files\olk16e\0129 dupsettle.doc Printed at 8:14 AM on.
+26/8/2022 Page 2 of 2

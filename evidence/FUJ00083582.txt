@@ -1,0 +1,33 @@
+FUJ00083582
+FUJ00083582
+
+To: Gareth Jenkins[Gareth. Jenkii
+From: Mark Jarosz|
+Sent: Fri 12/1/2000 2:12: ) (OTC
+Subject: Run Map Timeout (PC0057957)
+
+Hi Gareth,
+
+T can confirm (having checked with Drew) that a timeout of this sort is likely to be benign in the sense that it should not result ina
+message store corruption.
+
+However had the operation which was affected by this timeout been a message server internal operation, for example and index
+maintenance thread operation, then an additional error event should have been logged.
+
+Therefore a possibility is that an API call has timed out and the application is not checking for error events.
+In terms of progressing this I would suggest the following:
+
+(a) Get the LFS Agent code checked to confirm that all API calls have error checking. I am happy to do this if the developers are
+prepared to send me the source.
+
+(b) Continue to try and reproduce this problem. Knowing what the Agent is doing (either source code or some design documentation)
+would be useful.
+
+If you want me to contact the LFS team directly then please let me have a contact name.
+
+Many thanks
+Mark
+
+Mark Jarosz
+ICL Distinguished Engineer
+

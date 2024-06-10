@@ -1,156 +1,159 @@
-                                                                                                        FUJO0122218
-                                                                                                    FUJO0122218
+FUJ00122218
+FUJ00122218
 
+Witness Statement
 
-
-
-Witness tatement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a)
-  rtd 58, MC Rules 1981, r 70)
+and 5B, MC Rules 1981, r 70)
 
+Statement of Gareth Idris Jenkins
 
-
-
-Statement of              Gareth Idris Jenkins
-
-Age if under 18           Over 18                 (If over 18 insert 'over 18')
+Age if under 18 Over 18 (If over 18 insert 'over 18")
 
 This statement (consisting of 3pages each signed by me) is true to the best of my knowledge and
-belief and I make it knowing that, if it is tendered in evidence, l shall be liable to prosecution if I.
+belief and I make it knowing that, if it is tendered in evidence, I shall be liable to prosecution if I
 have wilfully stated in it anything which I know to be false or do not believe true.
 
-Dated             24th   day of March             2006
+Dated 24th dayof March 2006
 the
 
 Signature
 
-
 I have been employed by Fujitsu Services, working on the Post Office Account, formally ICL
 Pathway Ltd., since 1996 as a Customer Solutions Architect, involved in many aspects of design
 and implementation of the computer system known as Horizon, which is a computerised
+
 accounting system used by Post Office Ltd.
 
-
-Audit Record Queries's (ARQ's) 401, 459 and 460 requested information in relation to Gaerwen
-Post Office (Branch office code160604). I was asked to produce information relating to 'Nil'
+Audit Record Queries’s (ARQ’s) 401, 459 and 460 requested information in relation to Gaerwen
+Post Office (Branch office code! 60604). I was asked to produce information relating to ‘Nil’
 transactions during the periods specified. I have provided three spreadsheets which I now
-produce as Exhibits GIJ/0 1, GIJ/02 and GIJ/03. I'm not sure about this. I've had nothing to do
-with producing the spreadsheets. All I've done is made some statements based on what is in the
+produce as Exhibits GIJ/01, GIJ/02 and G1J/03. I’m not sure about this. I’ve had nothing to do
+with producing the spreadsheets. All I’ve done is made some statements based on what is in the
 spreadsheets. I assume that Neneh or Penny produced the spreadsheets, but I have no personal
 knowledge as to what was included within them and what was excluded. For all I know, you
-could have typed them up from scratch.
+
+could have typed them up from scratch
 
 The reports are formatted with the following headings:
 
 For ARQ 401
 
+Signature Signature witnessed by
 
-
-Signature                                        Signature witnessed by
-
-CS011A (Side A)                                                                            Version 3.0 11/02
-                                                                                                  FUJO0122218
-                                                                                                FUJO0122218
-
-
-
+CSO11A (Side A) Version 3.0 11/02
+FUJ00122218
+FUJ00122218
 
 Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-Continuation of statement of             Gareth Idris Jenkins
-
+Continuation of statement of Gareth Idris Jenkins
 
 Nodeld — The Counter Identifier at which the transaction took place
+
 Userld — The User Identifier of the user who was logged on when the transaction was carried out
 Date — Date of transaction
+
 TranType Decscription — The type of Transaction carried out together with a description of its
 meaning
+
 Amount — The amount of money that actually changed hands
+
 HTxnNum — The Unique identifier for a banking transaction
+
 RespCd Description — Response Code generated for a particular transaction together with a
 description of its meaning
 
 For ARQ 459 — Some of the columns as listed in 401 plus the following below
 
 Id — Same as Counter Id above
-Time — The time of transaction
+
+Time — The time of transaction.
+
 Application — Initiating Application (usually Banking)
+
 RtngGwy (Routing Gateway) - which is the identifier of the route to the financial institute
 where the transaction is going
+
 TranType — Same as TranType Description above
+
 PAN (Primary Account Number) — Account number on the card
+
 SaleValue - Same as Amount Above
+
 RespCd — same as RespCd Description above
 
 For ARQ 460 - Some of the columns as listed in 401 and 459 plus the following below
 
 Counter Position - Same as Counter Id above
 
-
 Should the spreadsheets be regenerated so that they are all in the same format and so that the
-correct text comes out for RespCd 23? I can't explain why the formats are different (I assume it
+correct text comes out for RespCd 23? I can’t explain why the formats are different (I assume it
 is changes to the tools used to generate them). There are three reasons why a zero value
-transaction maybe generated as part of the banking system:
-The transaction has no financial. effect (ie a Balance Enquiry or a PIN Change)
+transaction may be generated as part of the banking system:
+The transaction has no financial effect (ie a Balance Enquiry or a PIN Change)
 The transaction has been declined by the Bank
- (This is a really poor choice of words which seems to accept that failures in the system are
+
+(This is a really poor choice of words which seems to accept that failures in the system are
 normal and therefore may well support the postmasters claim that the system is to blame for the
-losses !! !!) Please can you suggest something better then? What we have here are genuine
+losses !!!!) Please can you suggest something better then? What we have here are genuine
 failures of the end to end system which are not part of normal operation, but are anticipated and
-the system is designed to cope with then. Some such failures could be engineered as part of a
-malicious attack (but that doesn't apply to those failures that appear in the evidence presented).
+the system is designed to cope with them. Some such failures could be engineered as part of a
+malicious attack (but that doesn’t apply to those failures that appear in the evidence presented).
 In all cases the system is designed to identify such failures and handle them in such a way that
-the Customer, the Postmaster, Post Office Ltd and the FIs are all clear as to the status of the
+the Customer, the Postmaster, Post Office Ltd and the Fls are all clear as to the status of the
 transaction and any necessary financial reconciliation takes place. I guess one option is to delete
 
-Signature                                           Signature witnessed by
-CS011A                                                                                 Version 3.0 11/02
-                                                                                                  FUJO0122218
-                                                                                                FUJO0122218
+Signature Signature witnessed by
 
-
-
+CSOt1A Version 3.0 11/02
+FUJ00122218
+FUJ00122218
 
 Witness Statement
 (CJ Act 1967, s9; MC Act 1980, ss 5A(3)(a) and 5B, MC Rules 1981, r 70)
 
-Continuation of statement of             Gareth Idris Jenkins
-
+Continuation of statement of Gareth Idris Jenkins
 
 the paragraph since it is purely an introduction to the following more detailed description.
 
 Each transaction has associated with it a Response Code field, which identifies what has
 happened. These values are included (together with their descriptions) in the spreadsheets
 produced. In summary:
-   RespCd = 1, means that the transaction was Authorised by the Bank. If it is for zero value,
+
+RespCd = 1, means that the transaction was Authorised by the Bank. If it is for zero value,
 then this means it had no Financial effect. In all the example, such transactions were PIN
 Changes or Balance Enquiries where this is indeed the case.
-   RespCd has a value between 2 and 10 means that the Financial Instituation declined the
+
+RespCd has a value between 2 and 10 means that the Financial Instituation declined the
 transaction. The actual value indicates why (eg 3 means that the PIN was invalid and 4 means
 Insufficient funds)
-   RespCd with a value greater than 10 implies some sort of system failure. The actual value
+
+RespCd with a value greater than 10 implies some sort of system failure. The actual value
 provides further information as to the nature of the failure within the overall system
 
-
 Within exhibits GIJ/1, 2 and 3, the following Response Code values explain the reasons for the
-'Nil' transactions :
+‘Nil’ transactions :
+
 1 - Authorised OK
+
 3 - Declined - Invalid PIN
+
 4 - Declined - Insufficient Funds
+
 6 - Declined - Usage (amount)
+
 8 - Declined - Other
-23 - Failed by Fl: Unexpected Response Code (Note this appears as Timeout in the spreadsheet)
+
+23 - Failed by FI: Unexpected Response Code (Note this appears as Timeout in the spreadsheet)
 26 - Failed by FI: System Unavailable - Return Card
 
-Note that the text varies in the AR.Qs, but the meaning is basically the same. (what does this
-mean, does it needs to be in the statement ?) I'm just repeating the point about the ARQs being
-in an inconsistent format. If anyone looks, they will spot this, so I thought I'd better say so.
-However I'm happy to delete the sentence if it will cause more problems.
+Note that the text varies in the ARQs, but the meaning is basically the same. (what does this
+mean, does it needs to be in the statement ?) I’m just repeating the point about the ARQs being
+in an inconsistent format. If anyone looks, they will spot this, so I thought I’d better say so.
+However I’m happy to delete the sentence if it will cause more problems.
 
+Signature Signature witnessed by
 
-
-
-Signature                                           Signature witnessed by
-CS011A                                                                                 Version 3.0 11/02
-
+CSOt1A Version 3.0 11/02

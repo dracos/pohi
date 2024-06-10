@@ -1,0 +1,408 @@
+FUJ00083722
+
+FUJ00083722
+To: Chambers Anne Of
+From: Jenkins Gareth GI ~~
+Sent: Mon 2/8/2010 4:01:13 PM (UTC)
+Subject: | RE: Callendar Square - FAD 160868
+Thanks Anne,
+
+Penny pointed out on Friday, that POL have not asked us to retrieve any data for this branch yet! Therefore we have no message
+stores to check against Event Logs.
+
+This will probably do me for now.
+Regards
+
+Gareth
+
+Gareth Jenkins
+
+Distinguished Engineer
+
+Applications Architect
+Royal Mail Group Account
+
+FUJITSU
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+Tel: Hl
+‘Wot
+old number will not work after 31/12/2009)
+Mobile:
+email: Gareth.Jenkins
+Web: http://uk. fujitsu.
+
+P Please consider the environment - do you really need to print this email?
+Fujitsu Services Limited, Registered in England no 96056, Registered Office 22 Baker Street, London, W1U 3BW.
+
+This e-mail is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may be privileged. Fujitsu
+Services does not guarantee that this e-mail has not been intercepted and amended or that it is virus-free.
+
+aan Original Message-----
+
+From: Chambers Anne O
+
+Sent: 08 February 2010 14:17
+
+To: Jenkins Gareth GI
+
+Subject: FW: Callendar Square - FAD 160868
+
+Gareth,
+
+KEL CObeng2025L (amongst others) - can you see KELs?
+
+I'd forgotten - this did give a discrepancy, but also a receipts and payments mismatch, if they persisted and rolled over (though it was
+usually obvious that something was wrong).
+
+And a flood of NT events (not 'riposte events'!) which SMC should have noticed at the time.
+
+Since we are now checking for these particular events, and did a catch up for old retrievals, can you say that the current branch did not
+have this problem??
+
+Anyway it stopped happening once $90 was installed (around 4th March 2006, according to info below)
+
+This particular problem would only affect branches with more than one stock unit. It happened several times at Callander Square,
+though we never found why they were so badly affected.
+
+Is this sufficient?
+
+From: Chambers Anne O
+FUJ00083722
+FUJ00083722
+
+Sent: 23 February 2006 11:29
+To: Stewart Mike
+Subject: RE: Callendar Square - FAD 160868
+
+Mike,
+| believe John has already responded to this, so don't know if you need any more from me...
+
+Haven't looked at the recent evidence, but | know in the past this site had hit this Riposte lock problem 2 or 3 times within a few weeks.
+This problem has been around for years and affects a number of sites most weeks, and finally Escher say they have done something
+about it. | am interested in whether they really have fixed it which it why | left the call open - to remind me to check over the whole
+estate once S90 is live - call me cynical but | do not just accept a 3rd party's word that they have fixed something!
+
+What | never got to the bottom of, having usually had more pressing things to do, was why this outlet was particularly prone to the
+problem. Possibly because they follow some particular procedure/sequence which makes it more likely to happen? This could still be
+worth investigating, especially if they have continuing problems, but | don't think it is worthwhile until we know the S90 position.
+
+Please note that KELs tell SMC that they must contact sites and warn them of balancing problems if they notice the event storms
+caused by the held lock, and advise them to reboot the affected counter before continuing with the balance. Unfortunately in practice it
+seems to take SMC several hours to notice these storms by which time the damage may have been done.
+
+_Anne
+
+-----Original Message--
+From: Stewart Mike
+Sent: 22 February 2006 14:31
+
+To: Simpkins John
+
+Cc: Chambers Anne O
+
+Subject: FW: Callendar Square - FAD 160868
+Importance: High
+
+John, Did you get time to look at this ? do we think all will be well after S90 counter rollout ?.
+Rgs Mike
+John, As Anne is away could | have your comments as you were involved as well.
+
+Rgs Mike
+
+Anne, You are always a good place to start, having read the call | see you have left the following note:Call E-0510120769
+
+Wed 01 February 2006 15:55 by PINICL / Saved: Wed 01 February 2006 15:55 Update by Anne Chambers:Category 40 -- Pending --
+Incident Under Investigation: The timeout events are apparently fixed in a new Riposte version released at S90 - see PC0126376. I've
+looked at problems reported on 31st Jan - can't see why the system reported disconnected nodes, nor why the same user could log on
+twice (except that this followed a session transfer which silently failed, for no obvious reason). | don't think there were any ill-effects. |
+think the best thing now is to see what happens after S90. I'll continue to keep this call open to remind me that this site should be
+checked then.
+
+| notice that in the early guise of this problem in the call it states the PM as Female:
+
+Wed 12 October 2005 17:39 by UK956078 / HSH1 Saved: Wed 12 October 2005 17:39 Pm was trying to transfer £2490 from node 7
+onto node 2. She states that she has accepted the transfer on node 2 but the system is not showing this. On node 7 it is showing
+pending transfer but it is not showing on node 2. It appears on her transfer sheet as cmpleated.
+
+At the bottom of this email re a magical £43k appearing and disapearing the PM is Male He reports:
+
+You may recall that in September the above office had major problems with their Horizon system relating to transfers between stock
+units.
+
+The Spmr has reported that he is again experiencing problems with transfers, (05.01.06) which resulted in a loss of around £43k which
+has subsequently rectified itself. | know that the Spmr has reported this to Horizon Support , who have come back to him stating that
+they cannot find any problem.
+
+Clearly the Spmr is concerned as we have just spent a number of months trying to sort out the first instance and he doesn't want a
+repeat performance. He is convinced that there is something wrong with his Horizon kit. | would be grateful if you could investigate
+FUJ00083722
+FUJ00083722
+
+this and give him any support that you can. I'm due to visit the office tomorrow to have a look at his paperwork and discuss the
+situation with him.
+
+So apologies for the long windedness but | have been given this by Liz as a problem so:
+1. Is there a problem at this branch ? is it Horizon kit or is there an issue with staff there ?
+2. If there is an issue is this S90 release the cure ? how confident are you/we it will fix the problem ?
+
+3. S90 counter release due week 4th March. Getting Sarah to check if this site is in the pilot 24th or just part of the general release 4th
+March.
+
+Appreciate your comments please
+
+Regards Mike
+
+oo Original Message-----
+
+From: Evans-Jones Liz
+
+Sent: 20 February 2006 10:57
+
+To: Stewart Mike
+
+Subject: RE: Callendar Square - FAD 160868
+Mike
+
+As per previous mail
+
+Liz
+
+Post Office Account: Service Delivery Team Manager FUJITSU SERVICES
+
+Mobile Number:
+Office Number: ;
+
+Original Message-
+From: gary.blackburn;
+
+60868
+
+Liz
+
+Please see Shaun's questions below. I'm not aware of other branches having this problem?
+
+If this is an isolated incident how confident are we that the fix will work and can they be moved up the pecking order for release?
+regards
+
+Gary
+
+Resolution Manager
+Post Office Ltd
+Operations
+
+1st Floor, Post Office Ltd, Cortonwood Business Park, Cortonwood Drive, BARNSLEY, S73 0TB
+
+Fax: N/A, VoiceMail: N/A, Mobex:
+
+Email: gary.blackburr,
+
+Forwarded by Gary Blackburn/e/POSTOFFICE on 17/02/2006 11:29 -----
+
+Shaun Turner
+
+To: Gary Blackburn/i GRO
+-17102/2006.10:53.
+GRO
+
+Brian
+
+Trotte!_
+
+Subject: RE: Callendar Square - FAD 160868(Document link: Gary Blackburn)
+
+Gary,
+FUJ00083722
+FUJ00083722
+
+Thanks for looking into this for us. Couple of questions occur: -
+
+Do we understand why this particular branch has been having problems? Or
+are there other branches in the network that have been having this
+problem?
+
+Can this branch be front ended on the counter release of S90 such that
+
+it gets the fix as soon as possible?
+
+The e-mail from Liz suggests that there may be a reoccurence following
+$90. What degree of certainty do we have that it will definitely be
+
+fixed?
+
+Sandra/Brian - Appreciate this is frustrating for the branch but from the e-mail below you can see that the branches issue should be
+fixed with the release of the S90 software. | have asked Gary above to see if we can put this branch to the front of the queue for the
+$90 release. In the meantime it is important that the branch continues to report any issues into HSD.
+
+Regards
+
+Shaun
+
+Service Support Manager
+
+Service Team
+
+Post Office Ltd
+
+Operations
+
+2nd Floor, The Markets DMB, 6/16 New York Street, LEEDS. LS2 7DZ
+
+Mobile:
+
+Gary Blackburn .
+To: Shaun Turner/_
+17/02/2006 10:17 ce:
+Subject: RE: Callendar Square - FAD 160868
+
+Shaun
+
+$90 fix for this problem, in the interim TC correction will have to continue. Let me know if you need any further assistance.
+regards
+
+Gary
+
+Resolution Manager
+Post Office Ltd
+Operations
+
+1st Floor, Post Office Ltd, Cortonwood Business Park, Cortonwood Drive, BARNSLEY, S73 0TB
+
+Subject: RE: Callendar Square - FAD 160868
+
+16/02/2006 08:54
+
+Hi Gary,
+FUJ00083722
+FUJ00083722
+
+| have checked the call and this issue is scheduled to be resolved in S90.
+$90 has already been deployed to the Datacentre and counter release is scheduled to start 04/03/06, due for completion 14/04/06.
+
+3rd line support has been discussing with the PM, and the last contact with the branch (according to Powerhelp) was on 1st Feb. The
+call has been left open for 3rd line to check to see if the issue reoccurs following s90.
+
+Please let me know if | can provide any other assistance with this matter.
+Thanks
+Liz
+
+Post Office Account: Service Delivery Team Manager FUJITSU SERVICES
+
+_— Original Messag
+
+From: gary.blackburni
+[mailto:gary.blackburn}
+Sent: 15 February 2006"%
+To: Liz.Evans-Jones!_
+Subject: Callendar Square - FAD 160868
+
+Liz
+
+| have had the incident detailed below forwarded to myself by our Service Line. The incident ref no is E- 0510120769, could you please
+update me on the corrective action plan as this still appears to be occurring within the branch.
+
+regards
+
+Gary
+
+Resolution Manager
+
+Post Office Ltd
+
+Operations
+
+1st Floor, Post Office Ltd, Cortonwood Business Park, Cortonwood Drive, BARNSLEY, S73 0TB
+
+STD Phone: 1, Fax: N/A, VoiceMail: N/A, Mobe:
+
+External Email: gary.blackburr
+
+— Forwarded by Gary Blackburn; on 15/02/2006 10:45 -----
+
+Shaun Turner
+
+Subject: Callendar Square - FAD 160868
+
+Gary,
+
+Need your advise on this branch. There appears to be an ongoing problem at this branch with transfers between SU's causing a
+receipts and payments mismatch. This first came to my attention some 3 or 4 months ago, when the branch was chasing up an error
+notice to account for a loss that they had that was related to the R & P mismatch. | believe in that case that FS had taken it on board
+and were investigating it as a problem (| seem to recall it had a PinICL number). | had to do some chasing around with P & BA to
+ensure that the error notice got issued, as there was a breakdown in processes between them and FS relating to the BIM report.
+
+Since then it appears to have happened again, although Fujitsu are saying no issue could be detected. | am concerned that there is a
+fundamental flaw with the branches configuration, and would be interested to know how FS put the first issue to bed.
+
+Let me know your thoughts.
+FUJ00083722
+FUJ00083722
+
+Shaun
+
+Service Support Manager
+
+Service Team
+
+Post Office Ltd
+
+Operations
+
+2nd Floor, The Markets DMB, 6/16 New York Street, LEEDS. LS2 7DZ
+
+Mobile:
+
+Turnerf,
+
+16/01/2006 08:19 Ge:
+
+Subject: Callendar Square - FAD 160868
+
+Shaun
+
+Further to Sandra's email, | visited the branch with Sandra last week and the Spmr provided clear documented evidence that
+something very wrong is occurring with some of the processors when carrying out transfers between stock units. To be absolutely sure
+from our side can we either carry out a thorough check of the alleged faulty processors or swap them out.
+
+Thanks
+
+Brian
+Contract & Service Manager a
+Area Intervention Office, 10 Brunswick Road Edinburgh EH7 5XX Telephone:
+
+External E-Mail brian.trotter:
+
+Trotteri, GRO i
+
+Subject: Callendar Square - FAD 160868
+
+Shaun
+
+You may recall that in September the above office had major problems with their Horizon system relating to transfers between stock
+units.
+
+The Spmr has reported that he is again experiencing problems with transfers, (05.01.06) which resulted in a loss of around £43k which
+has subsequently rectified itself. | know that the Spmr has reported this to Horizon Support , who have come back to him stating that
+they cannot find any problem.
+
+Clearly the Spmr is concerned as we have just spent a number of months trying to sort out the first instance and he doesn't want a
+repeat performance. He is convinced that there is something wrong with his Horizon kit. | would be grateful if you could investigate
+this and give him any support that you can. I'm due to visit the office tomorrow to have a look at his paperwork and discuss the
+situation with him.
+FUJ00083722
+FUJ00083722
+
+Regards
+Sandra
+
+Sandra MacKay
+Area Intervention Manager
+Sales & Service
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient, you must not
+use, disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then delete this email from your system.
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient, you must not
+use, disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then delete this email from your system.
+

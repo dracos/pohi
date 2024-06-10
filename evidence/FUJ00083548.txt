@@ -1,0 +1,311 @@
+FUJ00083548
+FUJ00083548
+
+; Brian Orzel[Brian.Orze! i
+
+To: ‘Mark Jarosz’
+Ce: Ballantyne John[John.Ballantyne:
+From: Jenkins Gareth GI[/O=ICL/OU=ICL IT CONSULTANCY/CN=RECIPIENTS/CN=GARETH.JENKINS]
+Sent: Tue 11/21/2000 8:20:19 AM (UTC)
+
+Subject: FW: PC0057478: PinICL - call transferred to Escher-Dev
+
+events _221328c3.zip
+
+Mark / Brian,
+
+I've had a look at this event log and | don't think there is anything really to worry about. Migration appears to have completed OK and
+the outlet is running fine on Cl4.
+
+I've seen a number of "verification failures" during migration before and | believe that they are to be expected during the various loads
+of Riposte before the counter reboot.
+
+However | am curious as to why we get the 3 errors mentioned in the PinICL. They occur at 20:26 on 9/11/00. All are identical: Facility
+MessageProcessor (11); Error 94 "An error occurred while attempting to destroy a checkpoint run. Timeout occurred waiting for lock.
+(0xC 1090003)". They seem to occur during the Riposte index rebuild immediately after the migration of the "real" message store. |
+assume that they are benign, but would appreciate confirmation from Mark before closing the PinICL.
+
+While | was looking at the event log | also noticed a number of other errors which hopefully Brian can explain. On a number of nights
+after migration (6 out of 9), there is an Error from DesktopShutdown for facility 1, Error 4 "Error Message: Failed to create the Desktop
+object while trying to bring down Desktop. Therefore we killed the process directly.". Each time it is put out as part of the ClearDesk
+closedown function. ClearDesk continues OK, so again it isn't serious, but we need to avoid any errors being generated at the counter
+as part of ClearDesk (since they cost Pathway 3p each for a ‘phone call!). Have you seen this before Brian? Any idea what it means?
+Should this be passed to Kevin (we can always get a separate PinICL raised if it helps)? | couldn't find a KEL on it. John: is there a
+separate PinICL or a KEL on this one?
+
+| attach the event log in .xls format (zipped) and will assign the PinICL to me on Escher-Dev until | get feedback from you both.
+Regards
+Gareth
+
+email:
+
+Internal Phone:
+External Phone:
+
+External Mobile Phon:
+Internal Mobile Phone:
+
+ICL
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+Website : http://www.icl.com
+
+This e-mail is intended only for the addressee named above. As this
+e-mail may contain confidential or privileged information if you are
+
+not, or suspect that you are not, the named addressee or the person
+responsible for delivering the message to the named addressee, please
+telephone us immediately. Please note that we cannot guarantee that this
+message or any attachment is virus free or has not been intercepted and
+amended. The views of the author may not necessarily reflect those of
+the Company.
+
+International Computers Limited, Registered in England no 96056,
+Registered Office 26, Finsbury Square, London, EC2A 1SL
+
+> From: pinicko~ mailto:piniclic,
+> Sent: 20 November 2000 20
+>To: h Jenkins j..
+
+> Subject" PC0057478: PinICL - call transferred to Escher-Dev
+>
+
+>
+
+> Title: PinICL - call transferred to Escher-Dev
+>
+
+> Call Number : PC0057478
+
+> Systemname : PinICL
+> Event : Call arrived on team
+
+> Summary : Cl4 -critical error was registered on
+
+> H22132800103
+
+> Priority :B
+
+> Target Date : 14/11/00 20:00:00
+
+> Assigned Team : Escher-Dev [Escher Development preview team]
+> Assignee : No Assignee
+
+> Subject Product: Counter Common
+
+>Product Group: EPOSS & DeskTop
+
+> Call Type : Live - Cl4
+
+> Contact Surname : EDSC
+
+> Actioned Team : Not Actioned
+
+> Actionee : No Actionee
+
+> Response Category : Incident Under Investigation
+> Target Release : CSR-CI4R
+
+> Call Logger : Customer Call
+
+> Call Loggers Team : EDSC [EDSC support team]
+> Top Reference : E-0011093401
+
+> Contact Details : EDSC
+
+> Pathway
+
+> Gateway contact
+
+> Mail: Barbara.Longley;
+
+> References : ORIGINATOR ?PReélp
+>
+
+> ORIGREF : E-0011093401
+>
+
+> CONSUMERREF : E-0011093401
+>
+
+> PowerHelp : E-0011093401
+>
+
+>
+
+>
+
+> Call Progress
+
+>
+
+> 09/11/00 21:52:14 - By Customer Call
+
+> CALL PC0057478 opened
+
+>
+
+> 09/11/00 21:52:18 - By Customer Call
+
+> CALL PC0057478:Priority B:CallType L - Target 14/11/00 20:00:00
+>
+
+> 09/11/00 21:52:18 - By Customer Call
+
+> 09/11/00 21:50 A critical error was registered @20.25 09-11
+
+> on H22132800103
+
+> Stating: An error occurred while attempting to destroy a
+
+> checkpoint run.
+
+> Timeout occurred waiting for lock (0xC1090003). No suitable kel.
+
+> 09/11/00 21:55 SMCtemp3
+
+> Information: A critical error was registered @20.25 09-11 on
+
+> H22132800103 Stating: An error occurred while attempting to destroy a
+> checkpoint run. Timeout occurred waiting for lock
+
+> (0xC 1090003). No suitable kel.
+
+>
+
+> 09/11/00 21:52:18 - By Customer Call
+> F} Call details
+>
+
+> 09/11/00 21:52:18 - By Customer Call
+> Diagnostician name:
+
+> Customer opened date 09/11/2000 21:50:53
+>
+
+> 10/11/00 09:21:46 - By Barbara Longley
+
+> The call summary has been changed from:-
+
+> Accritical error was registered @20.25 09-11 on H2
+> The call summary is now:-
+
+> Cl4 -critical error was registered on H22132800103
+>
+
+> 10/11/00 09:21:46 - By Barbara Longley
+
+> Target Release updated to CSR-Cl4R
+
+>
+
+FUJ00083548
+FUJ00083548
+> 10/11/00 09:21:46 - By Barbara Longley
+
+> CALL PC0057478:Priority B:CallType N - Target 14/11/00 20:00:00
+>
+
+> 10/11/00 09:21:46 - By Barbara Longley
+
+> Product EPOSS & DeskTop Counter Common added
+
+>
+
+> 16/11/00 11:06:39 - By Gary Maxwell
+
+> F} Response :
+
+>
+
+> 16/11/00 11:06:39 - By Gary Maxwell
+
+> PRESCAN - Probably needs to go to Development for explanation
+
+> of event. Raise
+
+> KEL once one is received.
+
+> [END OF REFERENCE 22988389]
+
+>
+
+> 16/11/00 11:06:39 - By Gary Maxwell
+
+> Responded to call type N as Category 40 -Incident Under Investigation
+>
+
+> 16/11/00 11:06:46 - By Gary Maxwell
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 16/11/00 11:06:47 - By Gary Maxwell
+
+> The Call record has been assigned to the Team Member: John Ballantyne
+>
+
+> 16/11/00 11:06:48 - By Gary Maxwell
+
+> Defect cause updated to 99:General - Unknown
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 20/11/00 17:32:02 - By John Ballantyne
+> New evidence added - Event log Counter 3
+
+>
+
+> 20/11/00 17:32:03 - By John Ballantyne
+> F} Response :
+
+>
+
+> 20/11/00 17:32:03 - By John Ballantyne
+
+> Attaching event log for dev. Looks like this has happened
+
+> while migrating
+
+> Riposte to version 6 and there are some .dll's failing verification.
+> [END OF REFERENCE 23079711]
+
+>
+
+> 20/11/00 17:32:03 - By John Ballantyne
+
+> Responded to call type N as Category 40 -Incident Under Investigation
+>
+
+> 20/11/00 17:32:05 - By John Ballantyne
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 20/11/00 17:32:06 - By John Ballantyne
+
+> The Call record has been transferred to the Team: QFP
+>
+
+> 20/11/00 17:32:07 - By John Ballantyne
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 20/11/00 20:14:49 - By Lionel Higman
+
+> The Call record has been transferred to the Team: Escher-Dev
+>
+
+> 20/11/00 20:14:50 - By Lionel Higman
+
+> Hours spent since call received: 0 hours
+
+>
+
+FUJ00083548
+FUJ00083548

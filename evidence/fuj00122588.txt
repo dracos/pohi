@@ -1,131 +1,109 @@
-                                                                                                             FUJ00122588
-                                                                                                           FUJ00122588
+FUJ00122588
+FUJ00122588
 
+HNG«x CP - Strengthen the HNGx Audit Solution, and enable analysis of Counter Event
 
-
-HNGx CP — Strengthen the HNGx Audit Solution, and enable analvsis of Counter Event
 messages.
+Originator: Alan Holmes
+Change Owner: Pete Sewell
 
-Originator:               Alan Holmes
-Change Owner:             Pete Sewell
-Technical Sponsor:        Alan Holmes
+Technical Sponsor: Alan Holmes
 
+The Audit System_and ARQ (Audit Record Queries) Service
 
+= Weare contractually obliged to support the Prosecution Support Service via CS, and provide
+historical extracts of data from the Audit archive (7yrs data), used in legal proceedings often
+to prove accusations of fraud against Postmasters.
 
-The Audit System and ARQ (Audit Record Queries) Service
+= The completeness of the data extracts provided is assumed, and witness statements state as
+much (see last page).
 
-    •   We are contractually obliged to support the Prosecution Support Service via CS, and provide
-        historical extracts of data from the Audit archive (7yrs data), used in legal proceedings often
-        to prove accusations of fraud against Postmasters.
+= The service has worked by providing extracts of Riposte messagestore data only.
 
-    •   The completeness of the data extracts provided is assumed, and witness statements state as
-        much (see last page).
-
-    •   The service has worked by providing extracts of Riposte messagestore data only.
-
-    •   This service (worth the best-part of the annual £850k security revenue - PS) will remain to
-        2015 and beyond.
+= This service (worth the best-part of the annual £850k security revenue - PS) will remain to
+2015 and beyond.
 
 Problem
 
-    •   PCO152376 highlighted that in certain error conditions in the EOD process Riposte cannot be
-        relied upon to write a consistent set of messages to the local store.
+= PCO152376 highlighted that in certain error conditions in the EOD process Riposte cannot be
+relied upon to write a consistent set of messages to the local store.
 
-    •   This particular issue has been fixed (Dev: PCO164429 / Release: PCO165710, currently being
-        distributed to Live), but it is very probable that similar problems exist in the Horizon system.
+= This particular issue has been fixed (Dev: PC0164429 / Release: PCO165710, currently being
+distributed to Live), but it is very probable that similar problems exist in the Horizon system.
 
-    •   Therefore the process of providing data now needs to include the extraction and cross-
-        checking of Event data to help identify where data integrity might be compromised.
+= Therefore the process of providing data now needs to include the extraction and cross-
+checking of Event data to help identify where data integrity might be compromised.
 
-    •   The statements currently asserted in Witness Statement cannot be guaranteed in all cases
-        (even after this CP) (see example on last page) but this CP seeks to strengthen the process and
-        allow us to reliably identify where the assertion can or cannot be made.
+= The statements currently asserted in Witness Statement cannot be guaranteed in all cases
 
+(even after this CP) (see example on last page) but this CP seeks to strengthen the process and
+allow us to reliably identify where the assertion can or cannot be made.
 
-Current Process
+Process
 
-    ■   Many manual steps, requiring great care and skill from individual resources, obvious potential
-        for human error.
+Curre
 
-    ■   Data distributed or transferred over too many platforms/media: inherently insecure.
+= Many manual steps, requiring great care and skill from individual resources, obvious potential
+for human error .
 
-    •   Tactical solution, post PC0152376 has introduced further manual steps.
+* Data distributed or transferred over too many platforms/media: inherently insecure.
+* Tactical solution, post PC0152376 has introduced further manual steps.
 
 Solution
 
-    ■   Manual process needs to be automated wherever possible for a permanent HNGx solution
+= Manual process needs to be automated wherever possible for a permanent HNGx solution
 
-    ■   Reduce the steps in the process, and over time allow the refinement of filters used during
-        event extraction, reducing the overall data load and task
+= Reduce the steps in the process, and over time allow the refinement of filters used during
+event extraction, reducing the overall data load and task.
 
-    •   We cannot totally automate the process; we require permanent skilled part-time resource to
-        perform the events-analysis.
+= We cannot totally automate the process; we require permanent skilled part-time resource to
+perform the events-analysis.
 
-
-
-
-Confidential                                    1 of 2
+Confidential lof2
 v0.1
+
 Last printed:00/00/0000 00:00:00
-Last saved: 24110/2008 16:00
-                                                                                                              FUJO0122588
-                                                                                                            FUJO0122588
+Last saved: 24/10/2008 16:00
 
-
-
-
-HNGx CP — Strengthen the HNGx Audit Solution, and enable analvsis of Counter Event
+HNG«x CP - Strengthen the HNGx Audit Solution, and enable analysis of Counter Event
 messages.
 
-Originator:                  Alan Holmes
-Change Owner:                Pete Sewell
-Technical Sponsor:           Alan Holmes
-
-
+Originator: Alan Holmes
+Change Owner: Pete Sewell
+Technical Sponsor: Alan Holmes
 Costs
 
-     ■    Current costs (of skilled resource, scheduled to leave end of Nov)
-              o Extraction, filtering, manual work - 1.5d/ week
-                   Event extraction, checking and analysis — 2d/week (currently performed by Gareth
-               o
+= Current costs (of skilled resource, scheduled to leave end of Nov)
+co Extraction, filtering, manual work - 1.5d/ week
+o Event extraction, checking and analysis ~ 2d/week (currently performed by Gareth
+Jenkins/Anne Chambers)
 
+= Strengthening and Automation of process via this CP
+o SSmd
 
+= Ongoing costs (Post CP)
+o Extraction, filtering, manual work - 0.5d/ week
 
-
-                   Jenkins/Anne Chambers)
-
-     ■    Strengthening and Automation of process via this CP
-              o 55md
-
-     •   Ongoing costs (Post CP)
-                 Extraction, filtering, manual work - 0.5d1 week
-               o
-
-
-
-
-            o Event extraction, checking and analysis — 2d/week (performed by identified
-                resource), possibly reducing to id/week as filters are extended
+o Event extraction, checking and analysis ~ 2d/week (performed by identified
+resource), possibly reducing to Id/week as filters are extended
 
 Benefit/Risk
 
-          Strengthen the process or weaken the witness statement in all cases
+= Strengthen the process or weaken the witness statement in all cases
 
-     ■   If we cannot better identify where data integrity can or cannot be guaranteed, then we are in
-         breach of contract and may:
+= Ifwe cannot better identify where data integrity can or cannot be guaranteed, then we are in
+breach of contract and may:
 
-              o    Be fined heavily
-              o    Not be able to offer the ARQ service, or will undermine confidence in the service.
+o Be fined heavily
+© Not be able to offer the ARQ service, or will undermine confidence in the service.
 
-     ■    We need to reduce the reliance on current skilled resource, and make the process imminently
-          transferable
+= We need to reduce the reliance on current skilled resource, and make the process imminently
+transferable
 
-     ■    Reduce on-going cost of the parts of the process which are manual, and automate the use of
-          filters Co allow that reduction to continue
-
+= Reduce on-going cost of the parts of the process which are manual, and automate the use of
+filters to allow that reduction to continue
 
 Witness Statement extract:
-
 
 An audit of all information handled by the TMS is taken daily by copying all new messages to archive
 media. This creates a record of all original outlet transaction details including its origin - outlet and
@@ -135,11 +113,11 @@ records that occurred in every Outlet. They therefore provide the ability to com
 record of the same transaction recorded in two places to verify that systems were operating correctly.
 Records of all transactions are written to audit archive media.
 
-
-
-
-Confidential                                        2 of 2
+Confidential 2of2
 v0.1
+
 Last printed:00/00/0000 00:00:00
-Last saved: 24110/2008 16:00
-
+Last saved: 24/10/2008 16:00
+
+FUJ00122588
+FUJ00122588

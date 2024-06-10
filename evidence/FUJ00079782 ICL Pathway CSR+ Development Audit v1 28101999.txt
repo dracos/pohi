@@ -1,0 +1,2569 @@
+FUJ00079782
+
+FUJ00079782
+(cL CSR+ Development Audit Ref TA/REP/o15
+Version: 1.0
+Pothway Date: 28/10/99
+Document Title: CSR+ Development Audit
+Document Type: Audit Report
+Abstract: This Report is the output from an audit of the CSR+
+development activities and presents a snapshot view
+during September 1999. It details the results of the
+investigation and provides an opinion as to the state of
+process compliance and capability.
+Status: Issue
+Distribution: John Bennett Mike Coombs
+Terry Austin Martyn Bennett
+Peter Jeram John Hunt
+Graham Chatten Dave Groom
+Library
+Author: Jan Holmes - Audit Manager
+Comments to: Jan Holmes - Audit Manager
+Comments by:
+COMMERCIAL IN CONFIDENCE Page 1 of 48
+
+© 1999 ICL Pathway Ltd
+FUJ00079782
+
+FUJ00079782
+(cL CSR+ Development Audit Ref TA/REP/o15
+Version: 1.0
+
+Pothway Date: 28/10/99
+O Document controt
+0.1 Document history
+
+Version Date Reason
+
+O.1 20/10/99 Initial Draft
+
+1.0 28/10/99 Following feedback and some additional work (see para 0.4)
+0.2 Approvol authoritiey
+
+Name Position Signature Date
+
+Martyn Bennett Director Quality & Risk
+0.3 Associated documenty
+
+Reference Vers Date Title Source
+fi] IA/REP/oo2 1.0 04/12/97 MSQA Audit Report #1 - Design
+[2] IA/REP/o03 1.0 03/03/98 MSQA Audit Report #2 - Development
+[3] IA/REP/oo5 0.2 17/04/98 +MSQA Audit Report #3 - TI
+[4] IA/REP/oo6 0.2 18/05/98 MSQA Audit Report #4 - T&I
+[5] IA/REP/oo4 1.0 18/06/98 Release 2 Process Improvement
+Programme
+[6] IA/REP/oo8 0.3. 29/09/98 Report on EPOSS PinICL Task Force
+[7] IA/REP/oog ou 21/09/99 Report on EPOSS Solutions
+[8] TD/STD/oo1 3.0 29/04/99 Host Application Database Design &
+Interface Standards (HADDIS)
+
+[9] IA/REP/o17 0. 20/10/99 Data WareHouse MSQA
+
+COMMERCIAL IN CONFIDENCE Page 2 of 48
+FUJ00079782
+
+FUJ00079782
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+0.4 Changes Made (v0.1 — v4.0)
+
+The summarised improvements at 3.1.1 have been qualified.
+Additional statistical information has been presented at 4.2.1.
+Rewording in 5.4 - Risk Management.
+
+Revised recommendation in 5.5 - Planning Process.
+Additional paragraph and recommendation at 5.6.5
+
+New 5.7 - CSR+ Documentation.
+
+New 5.8 - CSR Documentation.
+
+Addition to 5.9 re Quality Planning and SMP production.
+
+COMMERCIAL IN CONFIDENCE Page 3 of 48
+ICL CSR+ Development Audit
+Pathwoy
+
+FUJ00079782
+FUJ00079782
+
+Ref: IA/REP/o15
+Version: 1.0
+Date: 28/10/99
+
+0.5 Table of content
+
+UMtrOMUCTION .....ccesesscesseeseeeseesesseeseesseesecsseeseesssssessucsseessssuessecsussseesessessessssseeseseseeses
+Scope & CONMUCE oo. ciceceeecessessesecessesessesssseeseseceseeesesessesesssesesseseeeeneeeasaeeeenees
+2AAUIt SCOPE oe. ecseecsecseessessessessesseesseeseessessesseeseeseesnees
+
+2.2Audit Conduct...
+2.3Acknowledgement
+2.4Report Main Body Structure .
+2.5Next Steps.
+
+3Management Summary .
+
+3.1Overall AssessMment......c.ccssecssssessssesseseesessesseseeesestsneeeseeasssesesseensseansaeeneeeeaees
+3.2Retrospective WOFK ......cccceccessesecsesesseesssesesseessseesesseeessessssssessessesessesseeneeesees
+3.3Inconsistent Work Practices and Documentation .........cccseesesseesseeteeneeees
+B-GEVIdENCE woes eesessesessesteseesessesteseeseseseesesessssessesesseesssseenssesnssneseseeseeeenes
+
+3.5Release Management .........cssecseessecseeseessesseeseeseeseees
+
+3.6Review of NR2 MSQA
+
+4Detailed Findings - Development Unit Teams ..........sccsecseeeeseseeseesesseeeneeseeaee
+
+4.1POCL Products
+
+4...1Automated Payments Service ....c..cccceseseesesseseeesseseeseetessesesseeeseeness
+
+4.1.2Logistics Feeder System...
+
+A4AZAQONIS oc ccceccccececeseeseseeestesesseseeseesessesteseenssnesees
+
+4.2POCL Infrastructure ...........6
+
+4.2.1Electronic Point of Sale Service
+
+4.2.2Reference Data Management Centre/RDDS ........ceeseeseesseeeeennes
+4.2.3Transaction Processing Service .......sccscssessesesesseeteseeseesesteseessseeeeneenes
+
+4.3GeNeTIC PLOUUCES.... cece eeseesesteetenssneeeseeenssneeee
+
+4.3.1Roll-Out Database
+
+4.3.2Operational Change Management System ........s:ssesseseesssseesteeeeneees
+4.3.3Data Warehouse .......ceccecssessesseeseseeseceessesnssesesseensssssesseeneseansaseneneenees
+
+4.4Systems Infrastructure .......cececsesecsesesseessesseessessesssessesseessessecsnesnessseseesseess
+
+4.5Security
+5Detailed Findings - Other Areas.
+
+ow OMT ePennna
+
+an)
+
+3
+
+12
+
+12
+
+12
+
+sesseeseesessenseseessaseeeeseesses 16
+
+«17
+17
+19
+20
+
+sessseeesseesecssseseseveeseesseses 21
+
+ee 2
+
+22
+
+COMMERCIAL IN CONFIDENCE
+
+Page 4 of 48
+FUJ00079782
+FUJ00079782
+
+(cL CSR+ Development Audit Ref TA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+5.1Functional Requirements Capture........ccseccecsesesseeseseesssneeseesesseesesseees 26
+5.2Non Functional Requirements Capture .........cccsseceseeseseeseesesseeseseees 20
+5.3Security Management Requirement.........ccccessecseeseeeseeseeseeseessesseeseesseesees 27
+5.4Risk Management .........c.cccccseessesessecssssseeseesseeseessssesseesseesetsneeseesesseeseseeeies 28
+5.5Planning Process .......sssessessessseeseessecseessessesseesseesesssessecsesseeseessessessnssseesesssees 2Q
+5.6Process & Standards.....cssccsssesssecseseesesesestenssesesersesseaseneeeeeneasseeeeeereees 30
+5.7CSR+ Documentation .0.....ececceceseseeeeseeseeeeeesesseneeeseeeeteneeeeeeneeeeereeeeeees SL
+5.8CSR Documentation...
+
+5.9Quality Improvement Initiatives oes tesesesee tenes 33,
+5.A0ISOQOO1 Registration ........cccccesecseseeseesessesseseeseeseseesesesesseseseseeseessseeseeeeee SS
+5.uRelease Management..........scsesseesseessseesssecsseesssesssecssesssseessuessseesssssssecsseeeass 36
+5.12Intranet Development
+6Review of NR2 MSQA Recommendations .........ececeeeeeseseesteeeenteseneeneeees 38.
+
+GAIMtrOdUCHION... ieee eects ZO
+6.2Audit of Design
+
+6.2.1Summary Of FindiNgS.........ssseeeseesseesseecsessseesseessessueessessnesssesseees ZO
+
+6.2.2Pathway Response
+
+6.2.3Current View
+6.3Audit of Development .
+6.3.1Summary of Finding:
+6.3.2Pathway Response..
+
+6.3-3CUITENt VIEW oo... eeeeseeseseeeeeeseeesteseseeestsensacseesenssesesreeesetetsrseseerees 3Q)
+6.4Audit of Technical Integration..........scccseesesseseeseessesseeseeeneestesneensesteenees 3
+6.4.1Summary Of Findings ........eeeeeseesseess essences 3
+6.4.2Pathway Response ......cscccesessesesssseseseeeseseesesesesssesesnesneseseseas 3O
+
+6.4.3Current View ....
+6.5Audit of Test & Integration .........cccsesessecseesseessssesseesseesecssessesssssesseeseenees 40
+6.5.1Summary Of FIndings.......ccsesecssesesseeseesseesesseesessessesesseessssesssesees ZO
+6.5.2Pathway Response ......ccssecessesseseesesseseeseeesseseesesessessssessseesssnessseeeas ZO
+G.GCONCIUSION oo... ceeeeeceseseeseseseceeeesesesesecueneseseseetenesceesesnsaesesteteseaesesteeaeaseeetetenses GO.
+
+7Annex A - Terms of Reference .....ccccccsccessessesseseesesnssesssesnsseseseseessneseseeesnees Gl
+
+COMMERCIAL IN CONFIDENCE Page 5 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+2.4
+
+22
+
+Introductiow
+
+The audit forms part of the 1999 programme of planned Internal Audits into
+aspects of ICL Pathway’s organisation and activities. It presents an update to
+the findings of the NR2 Mid Stage Quality Audits undertaken between
+December 1997 and May 1998.
+
+Originally planned as four separate audits to take place during Qi & Qz2 of 1999,
+the CSR+ MSQAs were amalgamated and delayed to Q3 to accommodate the
+re-organisation of the Development Directorate that took place during May.
+
+The main aim of the audit was to provide assurance to Pathway Management
+about the status of the CSR+ design, development and testing activities,
+principally within the Development Directorate. Principally a review of process
+and compliance it also considered management processes, including
+communication, organisation and resource planning and includes a review of
+the status and deployment of the corrective actions that emerged from the
+previous NR2 (CSR) Mid Stage Quality Audit.
+
+As the audit progressed it became clear that some avenues of enquiry led
+beyond the Development Directorate and some findings and recommendations
+reflect this scope extension.
+
+Scope & Conduct
+
+Audit Scope
+
+The scope of the audit was defined in Terms of Reference that were distributed
+to interested parties on 8" September 1999. These are attached at Annex A to
+the report.
+
+Audit Conduct
+
+The audit was conducted on various dates between 8‘ September and 7"
+October 1999 by Jan Holmes and Ian Honnor from Quality & Risk.
+
+The May re-organisation introduced the concept of parallel Delivery Units
+within Development, each containing teams addressing specific product design,
+development and system testing. Delivery Unit Managers were interviewed to
+gain an understanding of their organisation, scope of work and methods
+employed. These were followed by interviews at Team Leader level in both
+development and system test areas. B&TC Team Leaders were also interviewed
+resulting in some 35 interviews taking place over a four week period. The larger
+
+COMMERCIAL IN CONFIDENCE Page 6 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+2.3
+
+2.4
+
+25
+
+than anticipated number of interviews has had two detrimental affects on the
+audit timetable :
+
+a. The production of the draft report was delayed by two weeks.
+
+b. Some areas have not been completely addressed at the time of final
+report publication.
+
+In particular the report does not cover the OSD Dublin audit nor does it cover
+the System Testing groups. Supplementary reports will be produced.
+
+Acknowledgement
+
+There never is a good time to conduct a wide ranging audit such as this and
+Acceptance pressures during September exacerbated an already tight
+Development schedule. Both Ian and I enjoyed total support and co-operation
+during the audit and for that we wish to record our appreciation.
+
+Report Maiw Body Structure
+
+The remainder of this report is structured as follows :
+
+Section 3 provides a management summary that draws together the main
+findings of the audit. While it can be read in isolation it can only provide an
+overview and does not necessarily reflect the totality of recommendations
+made.
+
+Section 4 is a detailed analysis of the Delivery Units, down to product team
+level, and identifies what was found during the audit. It, and the associated
+Working Papers - not presented in the report - provide the evidence for the
+recommendations made.
+
+Section 5 presents findings and recommendations in areas not directly related
+to any specific Delivery Unit team.
+
+Next Steps
+
+During w/c 8 November I shall be putting together the Corrective Action Plan
+(CAP) and discussing with the relevant Directors and Managers the actions to
+be put in place to address the recommendations. Note that at this stage
+recommendations can be challenged and those challenges will be reflected in
+the CAP.
+
+Once completed the CAP will be presented to the Pathway Audit Committee
+(PAC) [*] for ratification. (The concept of the PAC is being piloted on this audit
+and, if successful, will become the model for future post audit activity).
+
+Progress of the CAP will be monitored during the coming weeks and months
+and reported to the PAC at regular intervals.
+
+COMMERCIAL IN CONFIDENCE Page 7 of 48
+FUJ00079782
+
+FUJ00079782
+ICL CSR+ Development Audit Ref; IA/REP/o15
+
+Version: 1.0
+Pathway Date: 28/10/99
+
+[*] Pathway Audit Committee : Managing Director, Deputy Managing Director,
+Director Quality & Risk.
+
+COMMERCIAL IN CONFIDENCE Page 8 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+
+Pathway Date: 28/10/99
+
+3B Management Summary
+
+3.1 Overall Auessment
+
+3.1 In talking to members of the Management Team prior to commencing the field
+
+3.1.2
+
+work it was clear that they wanted assurances that things had improved since
+NR2, that the CSR+ Release was being developed in a more controlled manner,
+and that they could expect a more stable, resilient product as a result. It is
+therefore pleasing to report that, notwithstanding the detailed observations and
+recommendations made in this report, there is an overall improvement in the
+application of process, review and standards to the CSR+ products. These can
+be summarised as follows :
+
+Appropriate documentation has, to a great extent, been developed at the
+right time in the lifecycle.
+
+Informal reviews of content have been conducted, at best by email comment
+cycle.
+
+Informal code reviews have been conducted between Developers and Team
+Leaders.
+
+Unit and link testing has been conducted, although this ranges from
+informal to rigorous.
+
+The most significant change has been in the attitude of the Team Leaders
+interviewed where all expressed a personal interest and desire to improve
+things and ‘do it right’. This is a marked change to NR2 where Team Leaders
+were under too much pressure to even think about doing it right, just
+delivering.
+
+However, the following balancing factors have to be applied :
+
+The documentation produced, particularly at the lower level of detail (LLDs,
+Test Scripts), are not consistently developed against the Online Standard
+templates.
+
+Email comment cycles alone are not suitable vehicles for document reviews.
+They are usually limited to reviews of content, not the application of design
+principles or a rigorous end-to-end review of the design against
+requirements. Moreover, participation by selected reviewers is not
+mandatory. Some Team Leaders asserted that theses had been carried out
+but there was no evidence to support these claims.
+
+There are no underpinning standards for C or VB code, the primary
+languages used. Many Team Leaders imposed standards based on their own
+examples of best practice and applied these when conducting reviews. The
+remains, however, no universal standard in use across the programme
+
+COMMERCIAL IN CONFIDENCE Page 9 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+3.2
+
+3.24
+
+3.3
+
+3.34
+
+33.2
+
+although work is currently underway to address this shortfall, With the
+exceptions of RODB and Security there is no evidence of these reviews
+taking pace.
+
+¢ The unit and link testing approach was variable. Some teams had conducted
+full regression testing while another had tested only the CSR+ changes -
+although plans were in place to develop regression scripts and subsequently
+exercise them. Others had undertaken very informal testing without the
+benefit of scripting.
+
+Details can be found in the main body of the report.
+
+Retrospective Work
+
+A number of the Development Teams have identified incomplete elements of
+documentation, especially Low Level Designs and Unit and Link Test
+documents. Some had already identified work to remedy these shortcomings
+and were prepared (and preparing) to develop missing documentation from
+earlier baselines to improve the situation for future Releases.
+
+This retrospective work should be supported by the organisation and should be
+taken into account in any resource planning that may be underway. However, it
+must be planned and I recommend that Delivery Unit Managers are tasked with
+developing ‘Get Well Plans’ for their retrospective units to deal with the missing
+or incomplete deliverables.
+
+Inconsistent Work Practices and Documentation
+
+Scrutiny of the detailed report shows that there are differences in the way that
+development teams operate and inconsistency in the work products that they
+produce. There is still a general lack of awareness of the Online Standards and
+the depth and richness of guidance that is available there. Work carried out by
+the CSE during June and July identified the degree of use (and non-use) by
+development teams, although the justification for not using them has not been
+explored to any extent.
+
+The consolidated audit report from the NR2 MSQAs [5] identified concerns
+around awareness and deployment of the Online Standards but omitted to
+make any concrete recommendations as to how to improve either. The audit
+has identified a considerable change in attitude within the delivery units
+although there remains the challenge of delivery schedules to be met and a
+general lack of awareness of the Online Standards.
+
+COMMERCIAL IN CONFIDENCE Page 10 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+3.4
+
+3-41
+
+3.5
+
+3.54
+
+The current work to convert the existing helpfile OLS to a full intranet provides
+an ideal opportunity to re-launch them and I recommend that an awareness
+programme is launched to overcome the apparent lack of knowledge of the
+coverage and content of the OLS. This must be backed up with effective
+management checks ensuring that the key controls are exercised.
+
+Evidence
+
+One of the key areas considered during the audit was the existence of evidence
+to support the development lifecycle. Evidence of work done is a vital
+component of ISO registration which can be crudely broken down into ‘Say
+what you're going to do; do it, now prove it’. This is obviously a gross over
+simplification but evidence lies at the core of the registration process. Verbal
+assurances that such a review has taken place, or that this testing happened,
+however honest and truthful represent anecdotal evidence at best and this
+would not be acceptable to an ISO Assessor.
+
+There was an abundance of verbal assurances that lifecycle reviews had taken
+place but very little hard evidence, in the form of walkthrough notes, document
+comment sheets, review meeting minutes, etc existed. Having moved from the
+NRz position where even anecdotal evidence was hard to find Pathway must now
+formalise the documenting and retention of review outcomes. Not only does this
+provide evidence of review but can also be used to measure the effectiveness of the
+review process itself, an important element of continuous process improvement.
+
+Release Management
+
+Although covered in the detailed report this is discussed here since it is the core
+process that drives the Pathway business outside Operations and the immediate
+Roll Out activities. Following the 18‘ August ratification of the process the
+failure to appoint a Project Manager to implement and deploy it across the
+programme has meant that at least 2 months of potential benefit to CSR+ has
+been lost.
+
+The appointment of a Project Manager to implement and deploy the Release
+Management process should be made at the earliest opportunity.
+
+COMMERCIAL IN CONFIDENCE Page u of 48
+FUJ00079782
+
+FUJ00079782
+(cL CSR+ Development Audit Ref TA/REP/o15
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+3.6 Review of NR2 MSQA
+
+3.6.1 The results of the NR2 MSQAs are presented at Section 6. Although
+considerable effort and expense had been put into certain of the
+recommendations, eg the OPENframework Initiative, it has been difficult to
+establish if any benefit accrued from that work. The work currently underway
+to produce a comprehensive Non Functional Requirements Catalogue suggests
+that the changes to the OLS documentation templates made following this
+initiative did not bring about the required outcome.
+
+3.6.2. Many of the minor issues around documentation naming and numbering
+
+conventions remain although some of the ‘bigger issues’, eg improving the test
+environments available to unit and link testing have been achieved. As
+identified in the Overall Assessment there have been considerable
+improvements in the production of low level documentation and unit and link
+testing, both areas previously identified as major weaknesses.
+
+COMMERCIAL IN CONFIDENCE Page 12 of 48
+FUJ00079782
+
+FUJ00079782
+ICL CSR+ Development Audit Ref; IA/REP/o15
+
+Version: 1.0
+Pathway Date: 28/10/99
+
+4 Detailed Findings - Development Unit Teamy
+
+This section of the report presents the detailed findings of the audit based on
+interviews with Development Unit Team Leaders and scrutiny of available
+documentation. It is organised by Development Unit teams and allows
+management to consider the variances in approach where these occur.
+
+Release 17 of the Pathway Online Standards were used as a basis for the
+compliance element of the audit.
+
+There are a number of recommendations that emerge that apply, in whole or in
+part, to all Delivery Units.
+
+4.1 POCL Products
+
+4.1.1 Automoted Payments Service
+
+Commentary - APS Counter
+
+The Counter element of APS has been completely re-written for CSR+. The
+decision was taken before the re-organisation and was justified following an in-
+depth review of the code when it was considered to be un-maintainable and
+incapable of being enhanced to accommodate the new Smartcard functionality.
+The approach taken was to reverse engineer a suite of Low Level Design
+documents from the existing code, validate against the High Level Design and
+re-code.
+
+Documentation has been developed at all levels, compliant with existing
+Pathway standards, and there is evidence of reviews having taken place through
+the retention of earlier versions.
+
+Commentary - APS Host
+
+There is no evidence of reviews having taken place on Design documentation
+but the Team Leader has asserted that a specific activity to review and apply the
+QA Checklist criteria will be conducted during the system test support period.
+It was not possible to trace any direct relationship between the unit test scripts
+and modules and the Team Leader was only able to provide a broad estimate
+(between 200 & 400) of scripts executed.
+
+COMMERCIAL IN CONFIDENCE Page 13 of 48
+ICL
+Pathwoy
+
+CSR+ Development Audit
+
+FUJ00079782
+FUJ00079782
+
+Ref: IA/REP/o15
+Version: 1.0
+Date: 28/10/99
+
+Stage Management
+Plan
+
+No
+
+No
+
+Product Breakdown
+
+No, but ~95% of deliverables
+
+No, but HLD and 12 supporting
+
+Structure believed to be on Plan LLDs on Plan
+High Level Design Yes (2). Yes (1).
+
+OLS Compliant. OLS Compliant.
+Low Level Design(s) Yes (~60). Yes (12).
+
+Not OLS Compliant.
+
+OLS Compliant.
+
+Interface Specification
+
+Yes (14).
+OLS Compliant.
+
+No
+OLS Compliance n/a.
+
+Specification Reviews
+
+Informal desktop review with
+APS Host Designer and relevant
+Developer.
+
+No evidence of reviews.
+
+Documents sent to Delivery
+Manager.
+
+Evidence of review through
+retention of earlier versions of
+document.
+
+QA Checklists
+(Specifications)
+
+QA Checklist identifies
+documents only but no quality
+criteria as required by form.
+
+Review dates between 09/98 and
+08/99.
+
+No.
+
+Code & Code Reviews
+
+~u4 mixed modules
+
+Established own coding
+standards.
+
+Informal desktop reviews only
+and no evidence available,
+
+Used coding standards based on
+previous VME work.
+
+Informal desktop reviews prior
+to testing. No evidence available.
+
+QA Checklists (Code)
+
+No
+
+No
+
+Test Documentation
+
+No Unit or Link Test Strategy.
+
+Unit test scripts exists but
+difficult to ascertain numbers
+since no naming conventions
+used, shared scripts between
+modules. Estimated at between
+200 and 4oo separate scripts.
+
+No Test Report
+
+Test Strategy generated.
+
+Informal unit testing prior to
+code being transferred into Link.
+Link test scripts generated and
+test environments complete with
+Smartcard peripherals.
+
+Results recorded in daybooks.
+
+Bugs maintained in discrete bug
+database which also identified
+CSR to CSR+ fixes,
+
+No Test Report.
+
+QA Checklist (Test
+Documentation)
+
+No
+
+COMMERCIAL IN CONFIDENCE
+
+Page 14 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+4.1.2 Logisticy Feeder Systew
+
+LFS is a new product for CSR+ and was developed following the production of a
+Business Requirements Document, originally signed in May 1998 but not finally
+agreed until August 1999 following further negotiations.
+
+Commentary - LFS Counter
+
+Although code has been delivered the delivery and updating of supporting
+documentation, and the associated reviews, were severely affected when the
+LFS (Counter) team was reduced from 5 to 2 as a result of effort being re-
+directed to EPOSS Acceptance and PinICL clearance, and staff resignation.
+
+The Team Leader estimated that there was something in the region of 2 months
+work to produce the work products currently missing.
+
+A major concern in this area is the absence of formal unit and link test scripts,
+again attributable to staff shortage.
+
+Commentary — LFS Host
+
+Other than evidence of reviews and instances of non compliance with
+documentation standards, the level of management control in this area was
+considered to be good.
+
+COMMERCIAL IN CONFIDENCE Page 15 of 48
+ICL
+Pathwoy
+
+CSR+ Development Audit
+
+FUJ00079782
+FUJ00079782
+
+Ref: IA/REP/o15
+Version: 1.0
+Date: 28/10/99
+
+Stage Management No No
+
+Plan
+
+Product Breakdown No. No.
+
+Structure
+
+High Level Design Yes (1). Yes (Common HLD with Host).
+OLS Compliant. OLS Compliant.
+
+Low Level Design(s) Yes (47). Yes (1). Note that this single LLD
+
+OLS Compliant.
+
+contains details for all LFS
+modules.
+
+OLS Compliant.
+
+Interface Specification
+
+No. Interface details are
+incorporated into HLD.
+
+No
+
+Specification Reviews
+
+Informal desktop review with
+relevant Developer.
+
+No evidence of reviews.
+
+Informal desktop review with
+relevant Developer. However,
+could not be sustained following
+team size reduction.
+
+No evidence of reviews.
+
+QA Checklists
+(Specifications)
+
+QA Checklist identifies HLD
+only but no quality criteria as
+
+QA Checklist identifies HLD
+only but no quality criteria as
+
+required by form. required by form.
+Review date 04/99. Review date TBA.
+Code & Code Reviews | 59 application and 7 common ~7
+modules. Established own coding
+Established own coding standards by example.
+standards by example. Informal desktop review with
+Informal desktop reviews only _| relevant Developer. However,
+and no evidence available, could not be sustained following
+team size reduction.
+Spreadsheet of results
+maintained when reviews were
+taking place.
+QA Checklists (Code) | No No
+
+Test Documentation
+
+Single document covering Unit
+& Link testing strategy and
+plans.
+
+Not OLS Compliant.
+59 (1 per module) Unit test
+
+No Unit or Link Test Strategy.
+
+No Unit Test Scripts other than a
+number of more complex cases
+that exist in Team Leader's
+daybook.
+
+Documentation)
+
+scripts exist. No Test Report.
+No Test Report.
+QA Checklist (Test No No
+
+COMMERCIAL IN CONFIDENCE
+
+Page 16 of 48
+FUJ00079782
+
+FUJ00079782
+ICL CSR+ Development Audit Ref; IA/REP/o15
+
+Version: 1.0
+Pathway Date: 28/10/99
+
+COMMERCIAL IN CONFIDENCE Page 17 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref: IA/REP/o15
+
+Pathwoy
+
+Version: 1.0
+Date: 28/10/99
+
+41.3 Agenty
+
+Commentary
+
+Time constraints precluded a detailed review of Agent development at BRAo1
+and any observations are based solely on the evidence of information passed to
+the Programme Office when requesting QA Checklists.
+
+Stage Management
+
+Yes but not Release specific.
+
+Plan
+Product Breakdown Document register maintained.
+Structure
+High Level Design Yes (7).
+Not OLS Compliant. A&TC Standard used.
+Other Specification Yes (13)
+
+Not OLS Compliant. A&TC Standard used.
+
+Specification Reviews
+
+Informal email comment cycles.
+
+No evidence of reviews.
+
+QA Checklists No.
+
+(Specifications)
+
+Code & Code Reviews 154 modules.
+‘Complicated’ code subject to desk check.
+No evidence of reviews.
+
+QA Checklists (Code) | No.
+
+Test Documentation
+
+No Unit or Link Test Strategy.
+Informal Unit testing only.
+
+Formal deliveries subject to automated scripts to carry out
+regression test. Results retained for these tests.
+
+No Test Report.
+
+QA Checklist (Test
+Documentation)
+
+No
+
+COMMERCIAL IN CONFIDENCE Page 18 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+4.2 POCL Infrostructure
+
+4.2.1 Electronic Point of Sale Service
+
+Commentary
+
+From the CSR+ perspective the development of the EPOSS product has been
+successful with software drops being made according to planned schedules and
+confidence in the team that future drops will also be achieved on time.
+
+Unfortunately EPOSS continues to be resource hungry in dealing with live
+problems associated with CSR and in ensuring that these fixes are brought
+forward and incorporated into the CSR+ product.
+
+The EPOSS Task Force Report [6] raised the question of the maintainability and
+resilience of the EPOSS code following the 6 week PinICL blitz where some 550
+PinICLs were processed. Since then a further ~996 PinICLs have been raised -
+using the ‘Product = EPOSS and Target Release = IR-CSR or PDR-CSR’ search
+criteria - and these can only have had a detrimental effect on the quality of the
+code. In particular the maintainability, resilience and potential for change
+aspects must be subject to doubt. The report also identified many instances of
+poor programming technique and application of coding standards and while
+CSR+ changes have been reviewed by the Team Leader no attempts have been
+made to address the significant body of code not affected. There is also
+anecdotal evidence that EPOSS components used by other applications are
+fragile and cause problems for the calling application, Print Server was
+mentioned by both LFS and APS Counter teams.
+
+To further support the recommendation statistics on EPOSS & Desktop PinICLs
+raised sine 1stOctober 1998 were obtained. The selection criteria used were :
+
+Release = NR2 or CSR; From 1/10/98 to 28/10/99; Product Group = EPOSS &
+DeskTop; Product = EPOSS
+
+October 98 B3 99
+November 98 88 79
+December 98 90 50
+January 99 75 57
+February 99 147 68
+March 99 13 47
+April 99 BO 55
+May 99 266 44
+June 99 292 B
+July 99 307 56
+
+COMMERCIAL IN CONFIDENCE Page 19 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+August 99 260 50
+September 99 269 52
+October 99 439 84
+
+The figures indicate that the problems facing EPOSS during the Task Force
+period have not diminished. Of greater concern are the non-EPOSS PinICLs
+within the group suggesting that there are still serious quality problems in this
+vital, customer facing element of the system.
+
+The EPOSS Solutions Report [7] made specific recommendations to consider the
+re-design and re-write of EPOSS, in part or in whole, to address the then known
+shortcomings. In light of the continued evidence of poor product quality these
+recommendations should be re-considered.
+
+Stage Management
+
+Structure
+
+No
+Plan
+Product Breakdown No
+
+High Level Design
+
+Yes (5) but content limited to a related Change Proposal.
+
+OLS Compliant.
+
+Low Level Design Yes (3) but content limited to the component affected by the
+Change Proposals.
+Not OLS Compliant.
+
+Interface Specification | No
+
+Specification Reviews
+
+Informal with EPOSS Developer. Has involved EPOSS TDA.
+
+No evidence of reviews.
+
+QA Checklists Yes.
+
+(Specifications)
+
+Code & Code Reviews Informal with developer.
+No evidence of reviews.
+
+QA Checklists (Code) Yes.
+
+Test Documentation
+
+No Unit or Link Test Strategy.
+LLD contains section on unit testing required.
+
+No Test Report.
+
+QA Checklist (Test
+Documentation)
+
+Yes.
+
+COMMERCIAL IN CONFIDENCE Page 20 of 48
+ICL CSR+ Development Audit Ref: IA/REP/o15
+
+Pathwoy
+
+Version: 1.0
+Date: 28/10/99
+
+FUJ00079782
+FUJ00079782
+
+4.2.2 Reference Data Management Centre/RDDS
+
+Commentary
+
+In common with some other areas the Team Leader has a planned action to
+review both CSR+ and CSR documentation during October and November.
+
+A particular concern in this area is the complete absence of any formal unit
+and/or link testing strategies, plans or scripts. Given reference data’s central
+role in the successful operation of the system this, of all areas, should be subject
+to rigorous and formal testing.
+
+Effort should be expended, as soon as practicable, into developing a full suite of
+unit and/or link test scripts, and a formal test strategy for future releases of
+
+RDMC/RDDS should be established.
+
+Stage Management No
+Plan
+Product Breakdown No, but list of deliverable documents provided.
+Structure
+High Level Design Yes (2).
+OLS Compliant.
+Low Level Design Yes (39).
+OLS Compliant.
+Other Specification Yes (8)
+
+OLS Compliant.
+
+Specification Reviews
+
+Informal email comment cycles.
+
+No evidence of reviews.
+
+QA Checklists Yes.
+(Specifications)
+Code & Code Reviews | ~437 modules.
+
+Desktop reviews carried out on basis of complexity. ~50% code
+reviewed.
+
+No evidence of reviews.
+
+QA Checklists (Code)
+
+Yes.
+
+Test Documentation
+
+No Unit or Link Test Strategy.
+Informal Unit testing only.
+
+No Test Report.
+
+QA Checklist (Test
+Documentation)
+
+Yes.
+
+COMMERCIAL IN CONFIDENCE
+
+Page 21 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pi wag Date: 28/10/99
+
+4.2.3 Transaction Processing Service
+
+Commentary
+
+Generally, this area was felt to be well controlled. The scope of unit testing was
+limited to the CSR+ changes, due mainly to the absence of any CSR test
+documentation and the Team Leader has accepted an activity to develop a full
+suite of unit test scripts to enable full regression testing and improve testing for
+future releases. The absence of test documentation is common to other areas
+and this retrospective work is being commended to others in a similar position.
+
+Stage Management No
+Plan
+
+Product Breakdown No.
+Structure
+
+High Level Design Yes (1).
+
+OLS Compliant.
+
+Low Level Design Yes (30). Likely to increase by 3 following CP2186.
+Not OLS Compliant.
+
+Specification Reviews Informal email comment cycles.
+
+No evidence of reviews.
+
+QA Checklists No.
+(Specifications)
+
+Code & Code Reviews No evidence of reviews.
+QA Checklists (Code) | No
+
+Test Documentation _| Unit & Link Test Strategy incorporated into System Test Strategy.
+
+Unit testing only against CSR+ changes and results captured
+through updating the scripts.
+
+No Test Report.
+
+QA Checklist (Test No
+Documentation)
+
+COMMERCIAL IN CONFIDENCE Page 22 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pi wag Date: 28/10/99
+
+4.3 Generic Producty
+
+4.3.1 RoU-Out Dotobose
+
+Commentary
+
+Although this project has had more than its fair share of change and
+uncertainty regarding requirements and how it is to be implemented it was
+found to be well controlled from a process perspective. In common with other
+areas there was little evidence of design specification reviews although the
+presence of the Review and Approve checklists, introduced by the Project
+Manager, was welcome.
+
+Stage Management Yes. Produced January 1999.
+Plan
+Product Breakdown No.
+Structure
+High Level Design Yes (1).
+OLS Compliant.
+Low Level Design Yes (1).
+
+OLS Compliant.
+
+Other Specification Yes (1)
+OLS Compliant.
+
+Specification Reviews Informal email comment cycles.
+No evidence of reviews.
+
+QA Checklists No.
+(Specifications)
+
+Code & Code Reviews | ~36 modules.
+
+Review & Approve checklist introduced as evidence of code reviews
+having been carried out.
+
+QA Checklists (Code) | No.
+
+Test Documentation No Unit or Link Test Strategy.
+
+Unit testing has taken place although documents offered as scripts
+were more akin to Test Reports showing actual results as well as
+expected.
+
+QA Checklist (Test No.
+Documentation)
+
+COMMERCIAL IN CONFIDENCE Page 23 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+4.3.2 Operotionel Change Management Systew
+
+This system was just entering the development phase and the Team Leader was
+putting together the activity schedule to present to the Programme Office.
+Specification documentation exists, High Level Design, Low Level Design and
+Interface Specification which the Team Leader understands to have been
+reviewed by the TDA prior to handover. She anticipates having to update the
+LLDs in order to introduce the level of detail necessary for coding to
+commence. She confirmed that quality reviews were included on the activity
+plan but was not aware of the Programme Office QA Checklists.
+
+4.3.3 Date Warehouse
+
+The OSD Dublin development team were visited as part of the audit. A separate
+report will be issued under reference IA/REP/017.
+
+COMMERCIAL IN CONFIDENCE Page 24 of 48
+FUJ00079782
+FUJ00079782
+
+. Ref: IA/REP/
+
+ICL CSR+ Development Audit Version: 10
+P Date: 28/10/99
+
+4.4 Systems Infrostructure
+
+This Unit is providing a wide range of products and services for CSR+ and, as its
+name suggests, this is mainly in the field of infrastructure software including
+operating systems (NT, Dynix), messaging software (Riposte) and scheduling
+(Maestro). It is also delivering three products that are key to the operation of
+Horizon, namely Audit, AutoConfig and FTMS.
+
+Stage
+
+No. No. No.
+Management Plan
+Product No. Yes. Informal list Yes.
+Breakdown maintained by Team
+Structure Leader.
+High Level Design | Yes (1) Yes (5) Yes (1)
+OLS Compliant. OLS Compliant. OLS Compliant.
+Low Level Design | Yes (1) being developed | Yes (8) Yes (1)
+in parallel to code OLS Compliant. OLS Compliant.
+production.
+Other No Yes (1) Yes (1)
+Specification OLS Compliant. OLS Compliant.
+Specification Email comment cycle Email comment cycle. Email comment cycle.
+Reviews for HLD. No evidence available. | Evidence available.
+QA Checklists No. No. No.
+(Specifications)
+Code & Code No. No. Planned to be done
+Reviews against FTMS Code
+Review Checklist.
+QA Checklists No. No. No.
+(Code)
+Test Yes. Will be produced Test Specification Unit Test Plan and
+
+Documentation
+
+in parallel to testing
+cycle.
+
+containing Scripts
+available.
+
+A Link test Report has
+been produced and was
+seen.
+
+Scripts on
+documentation list.
+
+QA Checklist
+(Test
+
+Documentation)
+
+No.
+
+COMMERCIAL IN CONFIDENCE
+
+Page 25 of 48
+FUJ00079782
+
+FUJ00079782
+
+. Ref: IA/REP/o15,
+ICL CSR+ Development Audit Version: 1.0
+? Date: 28/10/99
+4.5 Security
+
+Commentary
+
+There are three security products being developed for CSR+, the Key
+Management System (KMS), Virtual Private Networks (VPN) and Secure Build.
+Both KMS and VPN are new for CSR+.
+
+The products were originally being developed by A&TC under a development
+contract with ICL Pathway and a Pathway Project Manager, and commenced as
+a PRINCE based project producing a Project Initiation Document that
+identified the organisational, resource and procedural controls that would be
+applied to the development. It also identified the documentation structure that
+would be delivered and the quality control activities that would be present in
+the lifecycle.
+
+Following the re-organisation the project came completely within the control of
+Pathway and a revised Roles and Responsibilities document produced to reflect
+the changes. The Unit enjoys the services of a dedicated Project Control Officer,
+with the full agreement of the Programme Office and this has resulted in a Plan
+that is, in the opinion of the Project manager, more detailed and flexible than
+that enjoyed by his peers.
+
+The pervasive nature of this development demands the highest level of
+management control and the evidence presented during the audit, albeit not
+exhaustively tested, suggests that this control is present and being exercised.
+
+COMMERCIAL IN CONFIDENCE Page 26 of 48
+FU.
+
+CSR+ Development Audit Ref: IA/REP/o15
+Version: 1.0
+Date: 28/10/99
+
+Pathwoy
+
+Stage Management
+Plan
+
+Yes. A Project Initiation Document was been produced.
+
+Product Breakdown
+Structure
+
+No, but all documentation deliverables are on Plan.
+
+High Level Design
+
+Yes (2).
+OLS Compliant - subject to changes agreed with TDA.
+
+Low Level Design
+
+Yes (17 KMS) (7 VPN) (? SB).
+OLS Compliant - subject to changes agreed with TDA.
+
+Other Specification
+
+Yes.
+OLS Compliant.
+
+Specification Reviews
+
+Informal email comment cycles followed by formal design
+walkthroughs using results of email comment cycle.
+
+Comment Sheets and Walkthrough Comments retained and seen.
+
+FUJ00079782
+|J00079782
+
+QA Checklists No.
+(Specifications)
+Code & Code Reviews | 58 KMS. 5 VPN
+
+Code reviews carried out and statistical analysis of results (16 module}
+so far) maintained. Evidence shows some 22% logic errors, 25%
+standards non-compliance and 7& design errors. Considered by the
+Project Manager to be high value activity.
+
+QA Checklists (Code)
+
+No.
+
+Test Documentation
+
+Test Strategy produced. OLS Complaint.
+
+Testing guidelines established that defined the method for Unit and
+Link Testing. Test Specification produced and reviewed internally.
+Full regression carried out when all problems solved.
+
+Unit Test Reports produced (46 KMS) (3 VPN).
+
+Link Test conducted over two phases. Phi to ensure that components
+held together, Ph2 to run full E2E, ~290 scripts.
+
+Internal bug database maintained for all unit and link test errors foun
+and used to monitor error resolution prior to system test.
+
+QA Checklist (Test
+Documentation)
+
+No.
+
+COMMERCIAL IN CONFIDENCE
+
+Page 27 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+s
+
+S14
+
+5.1d
+
+5.13
+
+Detailed Findings — Other Areas
+
+Functional Requirementy Capture
+
+A considerable amount of effort was expended into ensuring that where
+feasible, CSR+ requirements were captured, understood, documented and
+approved prior to the commencement of work. Requirements workshops were
+held during 1998 for a number of discrete areas and Requirement catalogues
+produced. In POCL Infrastructure an extra Requirements Summary was
+developed to accommodate the central role of Reference Data and _ its
+relationship with EPOSS, the objective being to eliminate any overlap of the
+separate areas and ensure that there were no gaps between them. These were
+presented to the Management Team and ratified for inclusion into the Release
+Content Definition.
+
+A Release Content Definition has been compiled although its status as the
+definitive description has not yet been assured through approval by POCL. If
+the CSR example is anything to go by it is highly unlikely that any formal
+approval will be obtained prior to the Release being implemented.
+
+Unfortunately, any stability in the requirements baseline is fast being eroded by
+the continual stream of CPs being received for CSR+ and those for CSR which
+will have to be carried forward. Between June 4" and October 15‘ 126 CPs were
+processed by Change Management for CSR and 88 for CSR+. This problem was
+further exacerbated during Acceptance when concessions were given during the
+negotiations I understand that further concessions have been offered during the
+recent CSR+ re-planning exercise. The current re-plan takes into account all
+known concessions (in the form of CRs raised by POCL and CPs raised by
+Pathway) and an aggressive delivery date has been arrived at.
+
+The proposed Release Management process (see para 5.11) identifies the concept
+of a fixed size requirements ‘bucket’ once a delivery and resource schedule has
+been established. Changes to the ‘bucket’ has to be time and resource neutral
+insofar that requirements added must be balanced by others being sacrificed.
+However, the principle cannot be implemented until such time as the process is
+deployed across the programme.
+
+In order to protect the revised delivery date it is imperative that no further
+changes are accepted to the CSR+ requirements baseline and I recommend that
+the principles enshrined in the Release Management process be applied to the
+current CSR+ requirements baseline.
+
+COMMERCIAL IN CONFIDENCE Page 28 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+5.2 Now Functional Requirementy Capture
+
+5.24
+
+5.2.2
+
+5.2.3
+
+5.3
+
+5.3
+
+A Non Functional Requirements Catalogue had been developed by B&TC
+during 1999. This was based on an earlier 1996 NFR document, itself derived
+from the Business Portfolio and other documents that related to the original
+contract. Its delivery to the TDA identified that a revised NFR catalogue, that
+reflected the revised contract, needed to be developed. An action has now been
+accepted to produce a revised NFR Catalogue based on the revised contract and
+work is currently underway within the TDA to deliver this document.
+
+At the same time, B&TC already have a number of test scripts for NFRs, some
+based on the Technical Test Register, an inheritance from NR2 Technical
+Testing, and some carried forward directly from NRz testing activity. The extent
+to which these scripts relate to or map onto the requirements currently being
+collated within the TDA is not clear.
+
+Following the Programme Plan revision, there will be a 25% increased in the
+user population at the point of CSR+ Release Approval as follows:
+
+e Plan V8.0 : RAB Approval 26/05/00 : Outlets live ~8,500
+e Plan Vg.o : RAB Approval 25/08/00 : Outlets live ~10,680
+
+By December 2000, when PONU’s busy season starts, some 15,000 outlets are
+forecast to be live and a high level of assurance that the NFRs, in particular
+those that relate to systems performance and capacity, is essential.
+
+The design and development work for CSR+ is largely complete. B&TC’s proposed
+testing of NFRs is currently based on old, potentially superseded requirements
+although the delivery a revised NFR Catalogue is imminent. It is imperative that
+the existing scripts are validated against the NFRs in the new Catalogue at the
+earliest opportunity.
+
+There is am implied risk that the NFR Catalogue may highlight deficiencies in the
+CSR+ products delivered that will require re-work.
+
+Security Management Requivementy
+
+The Requirements authority for KMS is QRM, who also are one of the prime
+users.
+
+It was noted that :
+
+¢ There is an informal agreement between QRM and Secure Development for a
+User Acceptance Test to be conducted by QRM during February 2000. There
+is no evidence that this agreement is supported by a committed, resourced
+plan in QRM.
+
+COMMERCIAL IN CONFIDENCE Page 29 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+5.3.2
+
+5.4
+
+5.41
+
+5.4.2
+
+e The size of the KMS user role within QRM is not yet determined - though
+the additional head count requirement is small (possibly one person full
+time).
+
+¢ There is uncertainty whether the current contracts with OSD include the
+operational services expected to be provided by them in operating the KMS.
+
+The agreements and commitments to conduct the KMS User Acceptance Tests
+should be formalised and reflected in the Security Manager's workplan for 2000.
+
+At NR2 there was a jointly agreed approach to penetration testing which was
+frustrated by a lack of hardware resource. There remains an expectation on
+both sides of the Agreement that Penetration Testing will be performed for
+CSR+ in or about the 1 Quarter of 2000 although there is no committed
+ownership and plan that supports this activity.
+
+Assuming that the requirement for penetration testing remains the approach
+agreed for NR2 should be reviewed for continued suitability. Ownership of the
+activity should be assigned and the necessary resources committed and reflected
+in the Programme Plan.
+
+Ruk Management
+
+A new Risk Management process is currently being developed using the Predict!
+tool at its core. To this end Delivery Managers had been asked to develop Risk
+Registers appropriate to their areas and make this information available to the
+Pathway Risk Manager. The formats of the various Registers are not consistent
+although this should not present a problem given that all information will be
+input to the tool and will emerge in a standard format for future use. The Risk
+Manager has also developed a manual register format, consistent with the
+Predict! format for those areas that would not benefit from using the tool
+directly.
+
+It was noted that difficulties are being experienced in the integration of the
+Predict! Tool with the AMS planning tool. While maintaining full integration as
+the ultimate goal the Risk Manager should not delay in introducing the revised
+RM process across the programme.
+
+It was noted that at least one other Risk Register was in common use across the
+Programme. This is maintained by the Director, Quality and Risk Management
+and is used by him to monitor ‘high level risks’ with members of the
+Management Team and senior managers. Once the Predict! Risk Management
+
+COMMERCIAL IN CONFIDENCE Page 30 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+tool has been implemented there is no benefit to maintaining a separate and
+parallel register. Duplication of effort to review and maintain separate registers,
+and inconsistent analysis and measurement methods compromises the integrity
+of the Predict! based process and the benefits that should accrue from a single
+programme wide approach to risk management.
+
+COMMERCIAL IN CONFIDENCE Page 31 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+5.43
+
+5.4.4
+
+SS
+
+5.51
+
+It is anticipated that the Predict! register will form the sole repository and source
+of risk information, providing a common and consistent view of risk, and the use
+of all other registers, lists and matrices should cease once this has been fully
+implemented.
+
+Scrutiny of the available risk registers shows that Migration and related issues
+figure highly in Delivery Unit Manager's minds. The proposed Release
+Management process assigns specific responsibilities to the B&TC Release
+Manager in the area of migration and early visibility and deployment of that
+process may address some of the concerns expressed by the DMs.
+
+Para 5. addresses the lack of management action in appointing a Project
+Manager to implement and deploy the proposed Release Management process.
+
+As an entirely independent initiative the Programme Office have generated
+their own risk register that plays into the Quality Improvement Plans
+(identified in para 5.9) and the underlying requirements of ISOgoo1 (see para
+5.10), It is interesting to note that without exception the risks identified on the
+PO risk register have their basis in development lifecycle and project
+management activities, whereas the risks on the Delivery Units are almost
+without exception business and time based.
+
+The risks identified on the PO risk register apply in whole or in part to all
+Delivery Units. In order to ensure that Delivery Managers and Team Leaders
+address the detail of these risks they should be incorporated into each DU'’s risk
+register and the risks managed alongside those already identified.
+
+Planning Procesy
+
+During the audit a number of observations were raised, particularly at Team
+Leader level, about the current planning process and the provision of ‘actuals’
+via the TARs. Their concerns were in the following areas :
+
+¢ The plans that they were originally presented with by the Programme Office
+bore little comparison to their individual work plans which they originally
+submitted.
+
+« Because the plans were baselined they were unable to change the plan
+details other than adding new activities via the TAR.
+
+COMMERCIAL IN CONFIDENCE Page 32 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+5.5.2
+
+5.6
+
+5.6.1
+
+5.6.2
+
+¢ As time went by the plans moved further away from what was actually
+happening on the shop floor and as a result became less useful to the Team
+Leaders in their day to day management of activities. Some have reverted to
+maintaining their own individual work schedules to cater for this deficiency.
+
+¢ Poor return rate of updated plans in exchange for completed TARs.
+
+« There is a view that the plans as they stand are being maintained for
+management reporting purposes and not to help Team Leaders in their daily
+duties.
+
+From the audit perspective the main concern in the unnecessary duplication of
+effort in maintaining multiple and informal plans and schedules. There is also a
+question over the basis of review between Delivery Manager and Team Leader,
+especially when this review informs management on progress through weekly
+reports.
+
+I understand that there is a review already underway into the planning process
+and I do not propose to pursue this further in this audit. [Note : It was pointed
+out during the draft report that this review would not address the issues
+identified above - the recommendation has been changed as a result].
+
+For the Planning Process to be accepted and used positively by the Team Leaders
+it is imperative that it meets their needs as well as management’s. I recommend
+that a full review is carried out of the Planning Process that confirms or refutes
+the concerns raised by the Team Leaders and establishes a process that is
+acceptable to, and used by, all interested parties.
+
+Procesy & Standards
+
+Following the reorganisation of Development the responsibility for the
+maintenance and development of the Pathway Online Standards passed to the
+Chief Software Engineer (CSE). The approach taken was to consider process
+development from the tactical - what can we do for CSR+ - and the strategic -
+what must Pathway do to conform with the overall ICL requirements -
+perspectives. Tactically, the decision was to transfer the ascertain the degree of
+compliance in the Delivery Units, transfer the OLS from the existing helpfile
+technology to an intranet and then re-launch them during CSR+ timescales.
+Unfortunately the task was more complex than originally thought, progress has
+not been as rapid as anticipated, and the intranet site is unlikely to be rolled out
+before the end of the month.
+
+The CSE is part of the Technical Design Authority (TDA) and in a scoping
+document declared that non Development Directorate areas of responsibility
+and activity were explicitly outside. However, the scope of the original OLS
+extended beyond Development and included programme wide processes, eg
+
+COMMERCIAL IN CONFIDENCE Page 33 of 48
+FUJ00079782
+
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+5.6.3
+
+5.6.4
+
+5.6.4
+
+Document Management and Change Management. Not to include these areas
+at this stage would, in my opinion, be retrograde and leave a potential hole in
+the Pathway wide deployment of processes. Other areas of Pathway are
+developing and implementing their processes in an entirely discrete manner
+and this could result in problems, especially at the interfaces between
+departments, and could ultimately mitigate against Pathway’s ability to obtain
+certification to ISOgoo1.
+
+In Section 5.10 there is a recommendation that a Project Manager is appointed
+to manage the ISO Certification exercise.
+
+To have any chance of success I believe that a similar singular resource should be
+appointed to take overall responsibility for the co-ordination of process
+development and deployment across the whole of Pathway and that this resource
+and the ISO Project Manager should be organisationally co-located.
+
+In Section 4.2 the audit described how the APS Counter application had been
+re-coded to deal with serious weaknesses in code quality identified by the
+incoming development team. Under normal circumstances this would be a
+sensible and practical response to an untenable situation. Unfortunately the
+absence of effective development standards in Counter development, coupled
+with the absence of appropriate technical review, has resulted in an
+implementation that does not function or operate as effectively as it should.
+This is resulting in rework.
+
+The Host Application Database Design and Interface Standards were developed
+to provide definitive technical standards for host development teams. Arguably
+out of date since it deals specifically with Oracle development, there are no
+known equivalents for Counter or Agent Development. I recommend that the
+HADDIS is updated to reflect the current host development environments and the
+equivalents for Counter and Agent development be produced.
+
+It was also noted that there was no established coding standard for C or Visual
+Basic, the principal programming languages used. A number of Team Leaders
+had established de facto standards within their teams and had, to some extent,
+shared this around with other teams.
+
+However, to improve coding quality and ensure a consistent basis for code review
+coding standards for C and VB must be developed and deployed via the Intranet
+OLS. These standards should then be used.
+
+COMMERCIAL IN CONFIDENCE Page 34 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+S.7
+
+S.8
+
+5.8.1
+
+CSR+ Documentation
+
+The NR2 Design MSQA identified a number of problems with documentation
+numbers, baselines and identification although at that time it was almost
+impossible to quantify the scale. The Programme Office generates and
+distributes a weekly Documentation Status Report to senior management in the
+Development Directorate. The report indicates the current status of CSR (NR2)
+and CSR+ documents, whether they are registered and present in PVCS and
+whether they are approved or not.
+
+Scrutiny of the latest issue of the Report shows that the number of documents
+expected to be generated for CSR+ by Pathway is ~346. That there are only 107
+registered in PVCS and 46 approved suggests that significant effort has to be
+expended to register, develop, review and approve the expected suite. However,
+the total number of documents expected may be overstated since the CSR+
+worksets include products that are not being delivered by CSR+, for example,
+worksets exist for Common Charging System (CCS) and Fraud Risk
+Management Service (FRMS). Equally there is the possibility that the content of
+worksets may have changed since first agreed earlier this year.
+
+The Programme Office has instigated a review of CSR+ worksets that has
+already resulted in the removal of some 440 documents.
+
+Release 17 of the OLS introduced a revised documentation lifecycle including
+the concept of worksets and defined the responsibilities of workset owners in
+the continuing review of workset content.
+
+In order to present a more accurate reflection of CSR+ documentation status,
+thus improving the reporting to and monitoring of this by management, two
+review cycles should be undertaken/completed :
+
+a The Programme Office should complete their review the totality of the
+PVCS documentation worksets for CSR+.
+
+b. Workset owners should review their worksets and confirm the current
+content or provide details of changes to the Programme Office.
+
+CSR Documentation
+
+The position at CSR+ is of nothing compared to that of CSR. Scrutiny of the
+Documentation Activity Report for 22"4 October 1999 indicates that there are
+1,643 documents identified in documentation worksets as being potentially
+deliverable for CSR. Of these, 1,027 are to be generated by Pathway and 616 by
+3° parties (NB. there may be some movement between these number but not a
+
+COMMERCIAL IN CONFIDENCE Page 35 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+lot). There are only 190 documents actually registered in PVCS yet there are 323
+currently approved.
+
+COMMERCIAL IN CONFIDENCE Page 36 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+S.F
+
+5.9.1
+
+5.9.2
+
+59:3
+
+5.9.4
+
+The size of this task is significant and should be included within the proposed ‘Get
+Well Plans’ identified in 3.2. In order to size the job the Programme Office should
+undertake a review of the worksets to ensure that they are all required and
+workset owners should review their content to confirm their accuracy, as
+required in Documentation Management, OLS Release 17.
+
+Quelity Improvement Initiatiey
+
+A number of strategic appointments were made during 1999. One of these was
+an external consultant into the Programme Office as a Quality Assurance
+Manager. His role was to ensure that the quality and review processes
+embedded in the existing delivery lifecycle processes were in use and effective
+and to achieve a PinICL reduction for CSR+. He was also asked to review the
+existing processes and to present Team his findings and recommendations for
+the future to the recently formed Development Li Management Team.
+
+He also developed two Quality Improvement Plans; one short term that
+addressed CSR+ and one long term that looked to Release 3 and beyond. Both
+of these were presented to the Development Director in early August 1999
+seeking approval to proceed. To date no formal approval has been given and
+consequently the initiative has stalled with many of the benefits of the QIP
+being lost or compromised as a result.
+
+The audit identified a number of elements of the CSR+ QIP that are being
+progressed but these are as a result of individual Team Leader actions, outside a
+managed programme of activities linked to the QIP, and not what was
+originally envisaged by the QAM when putting the QIPs together. There is little
+or no evidence to suggest that any of the long term improvements are being
+actioned.
+
+The Quality Assurance Manager should be given the authority to proceed with
+the role that he was recruited to undertake. This will require the acceptance of,
+and agreement to, the Quality Improvement Plans by the Development Director
+and formal approval by him to proceed.
+
+Following on from the production of the Quality Improvement Plans the QAM
+was asked to prepare a separate report on the current status of the project
+management and development lifecycle process within Development against
+the requirements of ISOgo00-3, the TickIT interpretation of ISOgoo1. A
+comprehensive report was produced and delivered to the Development
+Director in August 1999. To date there has been no action to address the
+weaknesses identified and this work has stalled. The report has not been widely
+
+COMMERCIAL IN CONFIDENCE Page 37 of 48
+FU.
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pi wag Date: 28/10/99
+
+5:95
+
+5.9.6
+
+59-7
+
+5.9.8
+
+circulated and at the time of the audit the Pathway Quality Manager has not
+received a copy to assist him in his job of steering Pathway towards
+Certification.
+
+FUJ00079782
+|J00079782
+
+This report provides a valuable insight into the state of Developments processes
+and the weaknesses that exist. It should be given a wider circulation, especially to
+the Pathway Quality Manager, and any corrective work identified should be
+authorised.
+
+During July a series of Quality Review Checklists were developed and
+distributed to the Delivery Unit Managers. The objective of the exercise was for
+Team Leaders to complete the Checklists for documents and code already
+reviewed up to that time, and to continue to use the Checklists for other
+reviews from that point forward. The information was to be used to ‘understand
+the extent and nature of reviews conducted thus far on CSR+ and hence identify
+areas of risk,’ [John Hemington memorandum 29/07/99].
+
+It was accepted that the Checklists would only act as information gathering
+vehicles since any benefit from carrying out design reviews is only achieved if
+the review is conducted before coding starts.
+
+The response has, to date, been poor and the analysis prepared by the Quality
+Assurance Manager confirms the detailed findings presented earlier in this
+report. As at 20" August the figures were :
+
+POCL 2 ° ° ° All documents email review with
+Products review criteria unknown.
+
+POCL 7 1 2 2 Checklists used to review overall
+Infrastructure product status (EPOSS & RDMC) and
+
+not possible to identify specific
+deliverables.
+
+Systems ° ° ° °
+
+Infrastructure
+
+Security N/a N/a N/a Nia
+
+Internal ° ° ° °
+
+Infrastructure
+
+Data 3 ° ° ° Interface specification. Review criteria
+Warehouse has been identified.
+
+During the audit the Development Director reminded the Delivery Unit
+Managers of the requirement to complete these Checklists as they help to
+establish a current position from which corrective work can be instigated. The
+Resolution Plan for Acceptance Incident 298 establishes a series of corrective
+
+COMMERCIAL IN CONFIDENCE Page 38 of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+59-9
+
+actions to be put into place during CSR+ including the use of Checklists,
+particularly for code. This is a commitment made to the customer and subject
+to review by them to confirm that they have been applied.
+
+Many of the Delivery Unit teams are planning retrospective review sessions for
+their documents. This should be extended across all Units and the use of the
+Checklists mandated during those reviews.
+
+Formal quality planning for CSR+ was found to be virtually non-existent other
+than review activities being included on the Plans delivered by the Programme
+Office. The production of a Quality Plan, or at least a document that contains
+the generally accepted elements of a Quality Plan, is a vital early step in project
+planning and management. The Stage Management Plan defined in the OLS
+provides much of the required detail and during early 1999 this was enhanced
+by the QAM with the ultimate aim of having each Delivery Manager complete
+one for their stream. The revised SMP was to be piloted within POCL
+Infrastructure and although a draft plan was prepared it was not completed and
+the concept was not rolled out to the other streams.
+
+It is questionable whether there is any benefit in producing Quality Plans at this
+stage of CSR+ development. However, the value of the document in bringing
+together details of the resources, organisation, processes, reviews, risks,
+assumptions and other contributory factors must be realised in future Release
+and its production by Delivery Managers made mandatory.
+
+5.10 ISOVOO1 Registration
+
+5.10.1
+
+Under the revised contractual agreements Pathway are obliged to have obtained
+registration to ISOgo001 for the full scope of business 12 months after
+Acceptance, i.e. by 24'* September 2000. The scope of business is deemed to
+include :
+
+¢ Software design, development and delivery services.
+
+¢ Programme control and assurance services.
+
+« Implementation services delivered through national Roll Out.
+
+e Operations and operational support services.
+
+e Customer services.
+
+« Business development services including customer requirements.
+
+¢ Organisational support including HR, IT infrastructure, etc.
+
+COMMERCIAL IN CONFIDENCE Page 39 of 48
+FU.
+
+ICL CSR+ Development Audit Ref: TA/REP/o15
+Version: 1.0
+Pothway Date: 28/10/99
+Currently the responsibility for managing the attainment of registered firm
+status rests with the Pathway Quality Manager, part of the Quality and Risk
+Management Directorate.
+5.10.2. The Quality Manager is currently looking after a number of other initiatives and
+
+cannot give the time to this contractually binding work.
+
+FUJ00079782
+|J00079782
+
+Having personally steered three separate companies through the rigours of ISO
+9000 registration, including one to ISOgoo1/TickIT, I believe that the breadth of
+scope of the proposed certification, and the time remaining in which to achieve it,
+demands that a full time Project Manager is assigned to the task. Either the
+Quality Manager should be able to transfer any non-essential initiatives or a
+resource should be assigned to him specifically to manage the registration
+commitment.
+
+Notwithstanding the appointment of dedicated resource to drive this project, and
+to assist when one is appointed, an activity should take place to produce an
+inventory of all processes, developed or under development, and their deployment
+status within Pathway. This activity should build on the work undertaken for
+Development and the inventory mapped onto the requirements of ISOgoo1 to
+identify shortcomings.
+
+5.11 Release Management
+
+5d
+
+5.1.2
+
+5.3
+
+At the request of the Managing Director a considerable amount of work was
+carried out during July and August to define and document a Pathway
+programme-wide Release Management process. This was in response to
+concerns that the re-organisation of Development had removed the ‘Release
+Manager’ role and as a result there was lack of clarity as to how a Release was to
+be populated, co-ordinated and made visible to the programme. In particular
+the MD did not know who he should approach to obtain an overall picture of
+progress.
+
+On Thursday 18" August a presentation was made to members of the
+Management Team where the proposed process was ratified and an action
+placed on those attending to appoint a Project Manager to implement and
+deploy the process across the programme. Speed was of the essence so that
+CSR+ could take advantage of any controls and improvements that the revised
+process might provide.
+
+The audit found evidence where those elements of the process that would
+benefit CSR+ directly have not been applied and as a result problems have
+arisen :
+
+e The introduction of the B&TC Acceptance Checklist by B&TC was achieved
+without consulting the Delivery Unit Managers. This is a B&TC document
+
+COMMERCIAL IN CONFIDENCE Page 4o of 48
+ICL
+
+FUJ00079782
+
+FUJ00079782
+
+CSR+ Development Audit Ref: IA/REP/o15
+
+Version: 1.0
+
+Pothway Date: 28/10/99
+
+5.14
+
+that provides a formal checkpoint from Development to B&TC and
+agreement to its content and use is a pre-requisite to its acceptance by
+Development.
+
+« A key principle within Release Management is that the delivery of a Release
+involves more than just Development and the delivery of software products.
+Other parts of Pathway have to deliver their specific elements, including the
+ability to support the Release in the field. This is particularly true where a
+new product is being introduced and Customer Services may have to design
+and develop a new support strategy. LFS is such a new product and the
+auditor was unable to satisfy himself that appropriate actions were being
+taken by CS in this area.
+
+It is ten weeks since the August presentation and a Project Manager has not
+been appointed. As a result there has not been any deployment action and any
+benefit that might accrue to CSR+ is diminishing rapidly.
+
+A Project Manager should be appointed without delay and he/she must
+concentrate their initial efforts into identifying those areas that will benefit CSR+
+and implementing them.
+
+5.12 Intranet Development
+
+5.12.1
+
+5.12.2
+
+There are at least five different Intranet developments currently underway in
+Pathway. The ones that the auditors became aware of were :
+
+« Architecture, including the online TED.
+* Online Standards replacement site.
+
+e Key Management development site.
+
+¢ SSC tool support site.
+
+¢ B&TC general information site
+
+Each of these sites is being developed independently and each presents in an
+entirely unique way.
+
+Pathway Infrastructure have confirmed that there are no development
+standards for Pathway intranet sites and that there is no formal strategy for
+their use or deployment within the organisation. There can be no doubting the
+value of using intranet technology to make information widely available to
+others but the approach to development currently underway displayed lacks co-
+ordination and is unlikely to obtain the best possible return for the effort
+expended. There is the risk of duplication as evidenced by a section within the
+B&TC site, not yet populated, that will provide details of processes that should
+be published via the revised Online Standards. Support for these sites can also
+
+COMMERCIAL IN CONFIDENCE Page 41 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+become an issue if their exploitation rests entirely with an individual operating
+independently rather than within a general development framework for this
+type of output.
+
+Pathway IT Infrastructure should established a policy and strategy for the
+development and deployment of intranet sites within Pathway. It should also
+conduct a review of existing activity, identify standards for their content and
+presentation values, and ensure that future intranets developed for use within
+Pathway conform to the strategy.
+
+COMMERCIAL IN CONFIDENCE Page 42 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+6 Review of NR2 MSQA Recommendations
+
+6.1 Introduction
+
+The (N)R2 Mid Stage Quality Audits (MSQA) were introduced at the request of
+the Programme Director (MJBC) in October 1997. Their objectives were :
+
+* To demonstrate to ICL Pathway’s Management Team that compliance with
+standards and procedures had improved since Release 1.
+
+e To demonstrate that the corrective actions put in place by ICL Pathway, in
+response to the PA Consulting Programme Review Report, were being
+carried out.
+
+¢ To provide an assurance to the PDA that ICL Pathway was complying with
+its own standards and procedures.
+
+Four audits were planned, Design, Development, Technical Integration and
+Test & Integration, and the audit programme concluded in June 1998 when a
+‘Report of Reports’ was produced and the main points presented to the
+Management Team.
+
+6.2 Audit of Design
+
+62.1 Summary of Findings
+
+¢ Inconsistent application of document structures and contents.
+
+¢ Inconsistent application of document titling and reference numbers.
+e Difficulty in linking formal plans to documents or CPs.
+
+¢ No document baselines or recognised groupings (sets).
+
+Many of the audit findings were originally raised as early as February 1997.
+6.2.2 Pathway Response
+
+Two separate initiatives were put in place to address these problems. One,
+which looked at document baselines, involved external consultancy from HPS
+and contributed in the development of the Document and Change
+Management processes and the PVCS CM tool to its current state. The other,
+involved external consultancy from Openframework Consultancy, looked at
+how some of the underlying principles of Openframework could be
+incorporated into the emerging Pathway standards. Changes to the Pathway
+OLS were made to bring some of the recommendations to bear.
+
+COMMERCIAL IN CONFIDENCE Page 43 of 48
+FUJ00079782
+
+FUJ00079782
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+6.2.3 Current View
+
+The CSR+ audit has identified that issues of inconsistent documentation form
+and content remains, particularly at Low Level Design. It would also be
+extremely difficult to guarantee being able to identify what a particular
+document was addressing simply by looking at its reference number.
+
+6.3 Audit of Development
+
+6.3.1 Summary of Finding,
+
+e Effectiveness of unit and link testing.
+¢ Protection of IPR contained in documentation and source code.
+© No causal analysis of PinICLs.
+
+e Sub-contractor control.
+6.3.2 Pathway Response
+
+Essentially there were two responses. The effectiveness of the unit and link test
+procedures on Pathway Online Standards were reviewed and standards for
+documentation introduced. In addition, procedures to manage 3" party
+development were defined and introduced. Causal analysis for PinICLs was
+introduced and is now available. A Metrics study was sponsored by the
+Programme Office and a report produced and distributed during November
+1998. Key recommendations have been extracted and either have been or are
+currently being implemented.
+
+6.3.3 Current View
+Based on the evidence offered during this audit there has been a considerable
+improvement in unit and link testing for CSR+. However, this must be balanced
+
+against the lack of evidence offered to support the assertions, and the
+differences between the product teams.
+
+6.4 Audit of Technical Integration
+
+6.4.1 Summary of Findingy
+
+¢ No PIT handover Checklist.
+e Improved PCMS status reporting and checking.
+e Little or no analysis of failed (software) drops.
+
+¢ Plans not linked (Development, TI and T&1), particularly Test Rig Plan.
+
+COMMERCIAL IN CONFIDENCE Page 44 of 48
+FU
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+6.4.2 Pathway Response
+
+Checklist eventually introduced and in use. The analysis of drops was
+incorporated into the Metrics study identified above. Plans were linked
+although the test rig plan was considered too volatile so not included. PCMS
+status check rejected in favour of per reviews.
+
+6.4.3 Current View
+
+As identified in the Section 2 : Scope & Conduct, TI was not included in the
+audit.
+
+6.5 Audit of Test & Integration
+
+6.5.1 Summary of Findingy
+
+¢ Relationship and linkage between T & I and Design.
+© Coverage of TSC work and the (then) new ICL trading rules.
+
+e Rework at system & integration test that should have been uncovered at
+unit or link test.
+
+¢ Improvements required in testing environments available to unit and link
+testing if testing effectiveness is to be improved.
+
+e One dimensional measures where only progress was measured to the
+exclusion of others, eg. quality or resource utilisation.
+
+6.5.2 Pathway Response
+
+6.6
+
+It was agreed that design reviews and reviews of test documentation would be
+entered onto the NR2+ plan. The problems with the TSC were to do with agreed
+scope and coverage or work that were addressed through a Gap Analysis Matrix.
+Arguably the recent re-organisation of Development has contributed to
+improvement in testing effectiveness by making improved test rig facilities
+available to the earlier testing stages than previously was the case.
+
+Conclusiow
+
+The NR2 MSQA’s were introduced to address specific concerns raised by PDA
+and PA. Almost all of the recommendations were accepted and in many cases
+corrective actions put in place to address the shortcoming identified.
+
+Where I believe Pathway has been less than successful is in addressing the
+fundamental problems identified during the Design MSQA, that of baseline
+management and gaining control over the masses of documentation being
+developed in an uncontrolled manner. There is a continuing problem of
+
+COMMERCIAL IN CONFIDENCE Page 45 of 48
+
+FUJ00079782
+|J00079782
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+involvement and notification of documentation between Development and
+B&TC and I was notified of one area where a dedicated individual spent
+between 3 and 4 weeks collating and obtaining the relevant documentation to
+allow test scripts to be updated/created.
+
+COMMERCIAL IN CONFIDENCE Page 46 of 48
+FUJ00079782
+FUJ00079782
+
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+7 AnnewdA — Termy of Reference
+
+ICL PATHWAY
+
+INTERNAL AUDIT : Terms of Reference
+
+AUDIT TITLE : ICL Pathway Development Directorate
+Mid Stage Quality Audit : CSR+
+
+File Reference : AUD/3/4/9
+
+Date : 8 September 1999
+
+Aim
+
+The main aim of the audit is to provide assurance to Pathway Management
+about the status of the CSR+ design, development and testing activities within
+the Development Directorate. Principally a review of process and compliance it
+will also consider management processes, including communication,
+organisation and resource planning and will include a review of the status and
+deployment of the corrective actions that emerged from the previous NR2
+(CSR) Mid Stage Quality Audit.
+
+Objectives
+
+1 To review the scoping of CSR+, in particular the identification of
+business and technical requirements.
+
+2. To review the controls being exercised within the Development
+Directorate leading to the delivery of a high quality software product for
+CSR+. This will include a review of the risks associated with CSR+ and
+their current status and management.
+
+3. To demonstrate to ICL Pathway’s Management Team that compliance
+with standards and procedures has improved since NR2.
+
+4. To demonstrate that the corrective actions put in place by ICL Pathway,
+following the Design MSQA in 1998, are being carried out.
+
+5. To assess the implementation and deployment of the recent
+departmental re-organisation. This will include a review of the interfaces
+between Development and other related parts of Pathway, eg. QRM.
+
+Dates
+
+The audit will commence during September with completion and draft report
+production targeted for week ending 8" October. A final report will be issued
+by Friday 15** October.
+
+Audit Resources
+
+The audit will be conducted by Jan Holmes, Pathway Audit Manager. Other
+members of QRM may be co-opted where necessary.
+
+COMMERCIAL IN CONFIDENCE Page 47 of 48
+FUJ00079782
+
+FUJ00079782
+ICL CSR+ Development Audit Ref; IA/REP/o15
+Version: 1.0
+Pathway Date: 28/10/99
+
+Reporting
+
+At the conclusion of the audit a draft report will be produced and discussed
+with the auditees. A final report will be produced and distributed to the
+Director and Senior Managers of the Development Directorate, as well as the
+Managing, Deputy Managing and QRM Directors.
+
+Further distribution will be at the discretion of the Development Director.
+
+Based on the report content a series of Corrective Actions will be agreed and
+documented in a Corrective Action Plan. This will be subsequently issued and
+the agreed actions monitored on a regular basis.
+
+TOR Distribution
+
+Terry Austin : Development Director
+
+Mike Coombs : Deputy Managing Director
+
+Martyn Bennett : Director of Quality and Risk Management
+Peter Jeram : Projects Manager
+
+Graham Chatten —: Programme Office Manager
+
+Stephen Doyle : Delivery Manager : POCL Products
+
+Chris Humphries — : Delivery Manager : DW & Internal Infrastructure
+Chris Wannell : Delivery Manager : Systems Infrastructure
+Alan D’Alvarez : Delivery Manager : Security
+
+Lorraine Holt: Delivery Manager : POCL Infrastructure
+
+Alan Ward : Chief System Architect
+
+John Hunt : Chief Software Engineer
+
+Gill Jackson : Business & Technical Conformance
+
+David Groom : Quality Manager
+
+Graham King : Risk Manager
+
+COMMERCIAL IN CONFIDENCE Page 48 of 48

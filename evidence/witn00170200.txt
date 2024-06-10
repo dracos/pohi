@@ -1,0 +1,1604 @@
+WITNO0170200
+WITNO0170200
+
+Witness Name: Anne Olivia Chambers
+
+Statement No: WITN00170200
+
+Dated: 11 July 2023
+
+POST OFFICE HORIZON IT INQUIRY
+
+SECOND WITNESS STATEMENT OF ANNE CHAMBERS
+
+|, Anne Olivia Chambers, will say as follows:
+
+1. This is my second witness statement to the Inquiry and is provided in response
+to a request dated 28 April 2003 made pursuant to Rule 9 of the Inquiry Rules
+
+2006.
+
+2. lam asked questions about the workings of the System Support Centre (SSC)
+and its relationship with other departments within Fujitsu and with the Post
+Office's NBSC. | have provided answers more broadly on these topics in my
+
+first witness statement but here address the following points.
+
+3. Postmasters could telephone the Post Office’s National Business Support
+Centre (NBSC) or Fujitsu’s Horizon Service Desk (HSD; also HSH). Where
+there was a report of a discrepancy the protocol was that NBSC were
+supposed to investigate the possibility of user error before Fujitsu were to be
+asked to investigate a possible system error. HSD could generate a
+PinICL/PEAK and refer a problem to us at SSC. If there was a specific piece
+
+of information that we needed from the postmaster we had the ability to
+
+Page 1 of 38
+WITNO0170200
+WITNO0170200
+
+telephone them but otherwise there was no expectation that we would. We in
+SSC could pass problems on to Development if we had identified or suspected
+
+a system problem but they would not speak directly with postmasters.
+
+. Lam asked what system information | had access to, and how much of it was
+unavailable to other helplines used by branch staff. For Legacy Horizon, SSC
+could look at the full message store for each branch: a repository containing
+all transactions carried out in the previous 34 (or possibly 42) days, numerous
+other messages including for example declarations, reports, user logon/logoff,
+and reference data controlling many aspects of the system. This full
+information was not available to any other team, though each branch could
+
+print off a variety of reports including transaction logs.
+
+. |recall that Post Office received transaction information each night but | do not
+remember the level of detail nor know who within Post Office had access to
+
+this.
+
+. SSC could also retrieve audit logs, psstandard (peripheral server) logs and
+Windows NT event logs from the counters for diagnostic purposes. The NT
+events were also fed back via the Tivoli system to SMC whose role included
+monitoring for any unexpected critical events. HSD could also inspect those
+
+events.
+
+. SSC could interrogate the central databases in which data was stored before
+being passed to various external clients, for example regarding banking
+
+transactions and bill payments.
+
+. | do not know what information was available to those who worked on NBSC.
+
+Page 2 of 38
+WITNO0170200
+WITNO0170200
+
+Involvement in relation to Marine Drive Post Office and the litigation against Lee
+
+Castleton
+
+9. Nineteen years later, | have no clear memory of individual investigations
+undertaken. The following is based upon what | recorded on PC0099954
+[FUJ00146165] at the time and expanded upon in my witness statement dated
+14 September 2006 [LCAS0000112]; the associated exhibits, mostly
+Powerhelp calls [FUJ00122322]; my Afterthoughts document [FUJ00152299]
+
+and upon my memory of my normal procedure for such calls.
+
+10.1 have now been provided with a copy of the NBSC call log for Marine Drive
+[LCAS0000365]. This is not something that was ever available to me during
+my time at Fujitsu. As | have explained in my first statement, there was a clear
+division between business investigations conducted by NBSC and system
+investigations conducted by SSC. | can see now from this document that there
+was a call about a discrepancy at Marine Drive on 14 January 2004 and
+another a week later on 21 January 2004, and the record shows NBSC as
+
+assisting the postmaster to make checks at that time.
+
+1
+
+.| can see that on 28 January 2004 the NBSC call handler suggested the
+postmaster call the HSH and indeed the first relevant call to the Horizon
+Helpdesk [E-0401280325] [FUJ00122322] relates to a call on 28 January 2004
+regarding three weeks of discrepancies which the caller stated had related to
+the level of stock held. | see the caller was told that the matter would have to
+be thoroughly investigated by NBSC before it could be investigated as a
+software problem. | was not involved at this stage and there was no PinICL
+
+generated for SSC at this time. When | came to carry out my investigation on
+
+Page 3 of 38
+WITNO0170200
+WITNO0170200
+
+26 February 2004, | did see the limited information on the Powerhelp call for
+28 January 2004 [FUJ00122322, page 1] and the subsequent calls in
+[FUJ00122322], which were exhibited to my witness statement AC/1. | see
+there are further calls to NBSC up until 26 February 2004 which | would not
+
+have seen at the time.
+
+12.On 29 January 2004 [E-0401290358] [FUJ00122322, page 2], a caller from
+Marine Drive told the Horizon Helpdesk that he had a problem when he
+remmed something in which resulted in a discrepancy and that he had been
+back and forth to NBSC and wanted the software investigating. | see he was
+
+told that he needed NBSC to authorise that and was referred back to them.
+
+13.Call E-0402020111 (exhibited in Andrew Dunks’ evidence at [POL00073280])
+was not obviously relevant to discrepancies. It was logged when Mr Castleton
+found the message ‘Desktop initialisation failed’ on the counter 2 screen on the
+Monday morning. Attempts to clear the problem by rebooting, and by deleting
+the training messagestore, were not successful so an engineer was sent to
+replace the base unit with a new one. As part of the standard base unit
+replacement process, a zipped copy of the previous night’s messagestore was
+copied from counter 1 to the new counter 2, then all subsequent messages
+were replicated across. This was completed by around 14:20 and then LCA001
+was able to log on to counter 2. It was not possible to carry out transactions on
+
+counter 2 before then (though see below).
+
+14.Looking at the February event messages in [POL00072839], there are none
+written on counter 2 between 1 February 2004 and 14:24 2 February 2004. All
+
+counters at each branch regularly exchanged handshake messages to check
+
+Page 4 of 38
+WITNO0170200
+WITNO0170200
+
+that they were all up and running; counter 1 realised that it could not
+communicate with counter 2 and so wrote an event (and also displayed a
+message to the user) that it was disconnected from the network. | think the
+message that it was disconnected is slightly confusing; the network was ok
+(and counter 1 was in communication with the data centre and could do online
+
+banking transactions) but counter 2 was effectively dead.
+
+15.The counter 1 event and message were repeated at 12:41. | suspect this may
+be because a new user logged on, who might be unaware of the problem, so
+Riposte reported it again. At 14:03 the counters were able to communicate
+again and so counter 1 reported that it was no longer disconnected. Counter 2
+did not report this because it did not know it had been disconnected, having
+
+not been in a state where it could send handshake messages.
+
+16.1 was not expecting to be asked questions about this topic at the trial in
+2006. As | said in my evidence at the time, | was not 100% sure exactly how
+and when Riposte decided to report disconnection and reconnection. However,
+| did not assume that counters were communicating correctly just because
+
+there were no such messages.
+
+17.\s it possible that any transactions were carried out on counter 2 that never
+reached counter 1 or the data centre? | can see from sheet 1 of spreadsheet
+[FUJ00152293] that an e-topup transaction was done at 19:05 on Saturday 31
+January on counter 2, and from the January 2004 Riposte event log
+[POL00082270, page 89] that user LCA001 logged off (or was automatically
+logged off due to inactivity) at 20:19. From the complete messagestore | could
+have established whether the counter was usable but unused for the remainder
+
+Page 5 of 38
+WITNO0170200
+WITNO0170200
+
+of Saturday and Sunday, since it would continue to write some information
+messages even while dormant. | am just about certain | made these checks
+
+around the time of the trial. The branch did not normally trade on Sundays.
+
+18.In my view it is extremely unlikely (bordering impossible) that any transactions
+were lost as a result of the counter replacement. There is no indication of any
+problem with the physical connection between the counters. Even if there were,
+they could only impact CAP45 and could not cause losses in subsequent
+
+periods.
+
+19.1 see from the partial transcript [LCAS0000252_109] and the Claimant's Note
+of the Castleton trial [LCAS0000444] that Andrew Wise was asked about this
+issue, and it was suggested to him by Mr Castleton that the material showed a
+transaction being entered when nobody was logged on. The transaction in
+question was recorded with Id 2, but was started at 14:21:12 before LCA001
+
+logged on to counter 2 at 14:24:56.
+
+20.1 cannot remember if anyone asked me about this in 2006, although | see Mr
+Castleton did ask me some questions about the replacement of the base unit.
+Looking at the matter now | can see from the event log [POL00072839] that Mr
+Castleton did not log out of counter 1 before logging on to counter 2. If there
+was anything in the basket on counter 1, it would be transferred over to counter
+2 for settlement. If | could see the transaction log or full set of messages for 2
+February 2004, | could establish this one way or the other (the Session Id would
+
+include branchcode-1- instead of -2- if this had happened).
+
+21.As a general observation, counter replacement, though it could potentially
+
+result in transactions being lost if the broken counter had been operational but
+
+Page 6 of 38
+WITNO0170200
+WITNO0170200
+
+disconnected prior to replacement, would not be a cause of losses occurring
+
+two or three weeks later.
+
+22.1 see that the next call to the Horizon Helpdesk was on 13 February 2004 [E-
+0402130267] [FUJ00122322, page 3]. This was a call from Marie at NBSC in
+respect of Marine Drive and records “PM adv[ises] his system is doubling up
+cash declarations and cutting off cheques they still appear the next day [NBSC
+have] checked that he is cutting everything off properly, cash figures are being
+done properly”. The postmaster had insisted on a system check. It also
+records that there has been a problem for five weeks; every time stock has
+been remmed in they have a loss that night. It records that snapshots and
+transaction logs agree with the postmaster’s figures. The postmaster advised
+that NBSC had checked transaction logs, girobank logs, reconciliations, rems
+
+in and out and stock holding.
+
+23.The matter was “escalated” to Heather Dryden after which the call handler,
+Tony Law, appears to have addressed the question of the cheques with the
+postmaster. Cheques for the 10 February were showing on the 11 February,
+although the postmaster insisted that he had run the cut-off on the 10". The
+postmaster said it had happened more than once, but the helpdesk established
+it was just once. He was told to call back if it happened again. A failure to cut-
+
+off cheques would not be connected to the cash discrepancy issue.
+
+24.The next call involving the Horizon Helpdesk was on 25 February 2004 [E-
+0402250454] [FUJ00122322, page 8] and again reports problems with
+balancing that seem to be related to stock remmed in during the week. Itis a
+
+report of losses over seven weeks. The clerk reported that she printed a stock
+
+Page 7 of 38
+WITNO0170200
+WITNO0170200
+
+snapshot on Monday and it all looked OK but since then they had remmed in
+some stock which seemed to have given a loss. Helpdesk “advised the clerk
+that she will need to check her stock position for last week and then check her
+rems in summary, this will give her the stock she should be holding, this figure
+can then be compared with the stock showing in adjust stock and this will
+highlight any problems with stock on hand ... clerk reports that they were told
+that checks would be made on the system but she is unsure if this information
+came from nbsc or hsh as she has no names of ref numbers ... advised the
+clerk that we need her to take the unit to trial balance this evening and come
+back before she rolls over so we can take down any details she can give us.”
+The call was closed with a note that if the clerk called back it should be handed
+
+on to someone more senior such as Heather Dryden.
+
+25.1 note that shortly after that call, NBSC called the Horizon helpdesk saying that
+the branch had just called them [E-0402250553] [FUJ00122322, page 10].
+The log reports that NBSC were told that the caller had been told to call back
+
+that evening with the net discrepancy on the cash account.
+
+26. There was then a call at 16:55 raised by SMC [E-0402251011] [FUJ00122322,
+page 12], querying a Windows NT event from counter 1 at Marine Drive on 18
+February 2004. | think this was raised because HSD had noticed the NT event
+when looking into the reported balancing problems and had asked SMC about
+it. This had been investigated at the time [E-0402180803] [FUJ00122322, page
+5] and related to the generation of a single event from a large number of
+branches within a short period. This had no connection with the discrepancy
+problem identified at Marine Drive and was a freestanding issue that was
+resolved.
+
+Page 8 of 38
+WITNO0170200
+WITNO0170200
+
+27.There was then a further call at 17:33 on the same day, 25 February 2004 [E-
+0402251077] [FUJ00122322, page 14]. The postmaster advised that the
+problem with the cash account had started weeks previously when a BT
+engineer moved the broadband box. It is recorded that NBSC had said there
+was no user error. The call was assigned to SSC which generated a PinICL
+[PC0099954] [FUJ00146165], referring the matter from HSD to SSC for the
+first time, and, on the morning of 26 February 2004, the call was assigned to
+
+me.
+
+28.On 26 February 2004 | looked at the HSD-raised calls for the branch on the
+Powerhelp system. Some of these had been specifically mentioned in
+PC0099954, but | would have been able to see all calls raised by the branch
+for at least a couple of months, and | would have looked at them to see if they
+might be relevant. | cannot now remember how far back the calls went but |
+do not recall that it was ever an issue that we could not see enough history on
+
+Powerhelp.
+
+29.1 would also have looked for any other PinICL calls raised by or for this branch,
+searching against the branch FAD code. This would have found any calls
+raised for reconciliation report entries, as well as any branch-raised calls
+previously investigated by SSC. My recollection is that there were no such
+
+calls.
+
+30.1 checked whether the branch had appeared in any of the reconciliation reports,
+in case there was an entry for which no PinICL had been raised for further
+
+investigation. | cannot now remember but my 2006 witness statement suggests
+
+Page 9 of 38
+WITNO0170200
+WITNO0170200
+
+that two weeks of reports were available to me. | think the checks of particular
+
+interest in 2004 included:
+
+a. Accheck to see whether the branch was in contact with the data centre
+at the end of the day (non-polling) — or possibly had not been in contact
+
+for over a day.
+
+b. Acheck as to whether the branch transaction totals for number, absolute
+quantity and absolute value, calculated on the gateway counter (counter
+1) at the end of each day, matched the same calculation on the data held
+
+at the data centre.
+
+c. Whether at the end of the Cash Account Period (each Wednesday or
+Thursday) the cash account lines calculated and printed at the branch
+matched the recalculated cash account constructed from the
+transactions held at the data centre, and the totals of the daily cash
+account data calculated on the gateway counter (solely for reconciliation
+
+purposes) at the end of each day.
+
+d. Whether the total Receipts for a stock unit, or the whole branch, matched
+
+the Payments when a balance report or cash account was produced.
+
+e. Whether a transaction was malformed in some way when it reached the
+
+data centre and could not be harvested.
+
+31.There were separate daily reports for each of these checks. Branches where
+the checks succeeded were not listed, so commonly the reports were empty
+or had very few entries. Some errors would result in entries for a branch on
+more than one report. The reports were text files, so | used a ‘find in files’ tool
+
+to look for the branch code.
+
+Page 10 of 38
+WITNO0170200
+WITNO0170200
+
+32.1 found no reconciliation report entries relating to Marine Drive in the two weeks
+prior to my investigation, indicating that all transactions recorded at the branch
+had reached the data centre and had been included in the cash accounts
+produced and printed at the branch. If there had been entries before my search
+period, | would have expected to find PinICLs raised for them (unless caused
+by a known error that did not impact branch accounts in any way). | note
+however that the 26"" was a Thursday so Cash Account checks relating to the
+most recent balance would not have been made until that night after | had
+finished my investigation, but again if the checks failed that week for Marine
+Drive they should have been picked up subsequently as reconciliation errors
+
+as part of the normal process.
+
+33.To investigate fully, | retrieved the branch messagestore, described in
+paragraph 4 above. | made some specific checks for cheque handling,
+declarations and remittances, described in my 2006 witness statement
+[LCAS0000112] at paragraphs 11, 12 and 15, as Mr Castleton had mentioned
+
+these as being areas of concern.
+
+34.As well as examining the messagestore using a text file viewer, | probably
+extracted all the transaction messages into a spreadsheet so they could be
+more easily examined. | certainly did this for the cash lines (product 1). | cannot
+remember whether this was for a week or longer, nor which week(s) | checked.
+| then calculated the system cash position after each transaction and compared
+it with the declarations made by the SPM or clerk at the branch — both the
+Overnight Cash Holdings (ONCH) declared at the end of each day, and the
+
+Cash Declaration made during the weekly balance.
+
+Page 11 of 38
+WITNO0170200
+WITNO0170200
+
+35.The loss calculated by the system during the balancing process at the end of
+the week was correct, based on the transactions recorded on the system and
+the Cash Declaration (and other declaration of stock etc) made by a user at
+the branch. The daily check showed a surprising variation between my
+calculation of what the system expected, based on the transactions recorded,
+and what the branch declared. | had done the same check for other branches
+when trying to track down discrepancies, and | was used to seeing small
+variances of perhaps a few pounds. A sudden change in variance one day
+would mean that the error was likely to have occurred on that day, and then
+the increased variance would remain more or less constant for the rest of the
+week. This was not the pattern at Marine Drive and | could not tie any part of
+
+the loss to a particular day.
+
+36.1 concluded that either the transactions recorded on the system for Marine
+Drive were not a true reflection of the business carried out at the branch, or the
+cash was not being declared accurately. The branch had to print reports at the
+end of each day and check that what was recorded on the system matched all
+their paper records. | did not know how much of their business could be cross-
+checked in this way, but they had not mentioned any concerns about any
+specific transactions being incorrectly recorded. This checking should have
+helped the branch to identify any incorrect, missing or duplicated transactions,
+
+whether caused by user or system error.
+
+37.It may assist if | set out some context for the comments made in several of the
+calls that losses occurred after stock had been remmed in. When a postmaster
+received stock from Post Office it came in pouches and, as | recall, the
+postmaster had to enter the items by product onto the system to rem the stock
+
+Page 12 of 38
+WITNO0170200
+WITNO0170200
+
+in. Although | do not recall any specific incident, one could hypothesise either
+a software error or a user error which might result in there being a higher figure
+for stock recorded on the system than was in fact the reality. If that happened,
+then when the postmaster counted and adjusted his stock at the end of a period
+
+there would be less stock than the system expected.
+
+38.However, if there was such a discrepancy in stock the system would record a
+Stock Adjust Positive or Stock Adjust Negative (SAP/SAN) in the transaction
+log settled to cash, thus correcting the stock holdings but causing a cash
+discrepancy. Looking at the Marine Drive transaction log for January 2004
+[FUJ00152293] and filtering it for SAN and SAP entries, in the Mode column
+of Sheet 1, | can see that the largest positive entry was a Postal Order and fee
+to the value of £63.80 (line 10230) and there is a negative entry of -£63.80 a
+week later (line 13436). If there had been a problem with remming-in stock |
+would expect to see a much more significant adjustment. In other words, if an
+error in respect of remming in stock had caused a discrepancy it would have
+been identifiable as the cause by reference to the transaction log, yet the log
+
+shows no support for that.
+
+39. Although | have no specific recollection of checking the SAN and SAP entries
+in 2004, | am confident it is something | would have done, particularly against
+
+the background of the call records.
+
+40.1 had found no indication of any system error which might affect the accounts
+at this branch. The losses were correctly calculated based on the transactions
+recorded and the declarations of cash and stock holdings made by the branch
+
+users.
+
+Page 13 of 38
+WITNO0170200
+WITNO0170200
+
+41.1 felt that the only way to progress the investigation was at the branch, to check
+that they were following the correct business processes and correctly recording
+everything that was done. Fujitsu did not have staff who were allowed to go to
+branches to investigate business or financial problems; this was Post Office’s
+
+responsibility.
+
+42.At this point, having not found any evidence of a system error, the correct
+process was for me to close PC0099954 with my findings, and HSH would
+communicate them to the SPM. However, given the number of calls that Mr
+Castleton had already raised, | felt this was not in his best interests, as the
+problem persisted, and so | contacted Julie Welsh in Customer Services,
+knowing that she had a route to Post Office and hoping that this would help Mr
+Castleton to find the cause of the losses. Then | closed PC0099954 ‘Advice
+and guidance given’, stating what | had found and that | had contacted Julie
+
+Welsh.
+
+43.The PinlICL [PC0099954] records my findings. | had followed up the system
+event raised at around 13:00 on Wednesday 18/02/04, checking on PinICL
+(PC0099159 which | do not have), Powerhelp (e-0402180803 on page 5 of
+[FUJ00122322]) and probably the KEL database, to ensure | understood the
+cause of the event and any effect it might have on branch accounts. | agreed
+with the conclusion already drawn, that it had no impact on the accounts nor
+
+on the operation of the counter.
+
+44. At 15:16 | recorded on the PinICL:
+
+“Category 94 - Advice and guidance given | have checked various things on the
+
+system. All the internal reconciliation checks are ok. Cheques are being
+
+Page 14 of 38
+WITNO0170200
+WITNO0170200
+
+handled correctly (except for 10th Feb when the clerk forgot to cut off the report
+- but this didn't cause a discrepancy). Cash declarations look ok, they usually
+use drawer id 11. Occasionally they have used a different drawer id, this can
+lead to amounts apparently doubling on the cash flow report, and should be
+avoided. But again it will not cause a discrepancy. Checking the cash
+transactions on the system against the declarations shows that they are not
+working particularly accurately (i.e. at the end of the day the cash they declare
+in the drawer is tens, hundreds or thousands of pounds astray from what has
+been recorded on the system). It is possible that they are not accurately
+recording all transactions on the system. There is no evidence whatsoever of
+any system problem. I've mentioned this outlet to Julie Welsh (Customer
+Services) who will try to get POL to follow it up, but in the meantime please tell
+the PM that we have investigated and the discrepancies are caused by the
+difference between the transactions they have recorded on the system and the
+cash they have declared, and are not being caused by the software or
+
+hardware.”
+
+45. It is recorded on the Powerhelp Call E-0402251077 [FUJ00122322, page 15]
+at 15:34 on 27 February 2004, that the postmaster was directly informed, by
+Suzzanna, that there was no evidence to suggest the discrepancies had been
+caused by a software problem or by a hardware problem and that he was also
+told that Julie Welsh from customer services had been made aware of the
+
+branch and that she will try to get the Post Office to follow it up.
+
+46.It appears that at some point Julie Welsh then contacted me because | see
+from [FUJ00122322], page 16 which was part of an email to Richard Benton
+at Post Office in which she says that she had a chat with me and that | had
+
+Page 15 of 38
+WITNO0170200
+WITNO0170200
+
+used the messagestore to investigate and that if the Post Office wanted copies
+of extracts of the messagestore for the particular incorrect declarations they
+were requested to submit ad hoc requests. | see she also copied my findings
+
+from the PINICL to Richard Benton [FUJ00122322].
+
+47.The NBSC call log [LCAS0000365], which | have not previously seen, shows
+calls through March 2004 which include reference to an auditor being sent to
+the branch. It appears therefore that Post Office recommenced a business
+
+investigation.
+
+48.1 am asked to consider pages 112 and 113 of the Claimant's note of my oral
+evidence [LCAS0000444]. | was referring to the Windows NT application event
+log, which exists | believe on every Windows NT PC and which would be
+retrieved from the counter and checked as a standard part of any investigation.
+Various processes running on the counter, including the Horizon application
+and the underlying Riposte software, would write events to this log —
+sometimes just progress messages for example as applications stopped or
+started, but also if something unexpected happened — this might be a critical
+(red) event. In addition, these NT events were streamed from counters via
+
+Tivoli for SMC to monitor as part of their day-to-day work.
+
+49.NT events for the branch would have been checked by HSH and SMC before
+passing a call to SSC but | also would have checked the NT event logs in
+February 2004. The event on 18 February 2004 for Marine Drive detailed in e
+0402251011 [FUJ00122322, page 12] and discussed above is one such and
+
+was the only event of any interest noticed at the time.
+
+Page 16 of 38
+WITNO0170200
+WITNO0170200
+
+50. After 26 February 2004 | did not carry out any further investigations into Marine
+Drive that year. As far as | am aware, no further calls were passed to SSC,
+nor was | was aware of further calls to the helplines. As | have said above, |
+now believe Julie Welsh spoke to me to confirm what | had found, and it is
+possible that there were further emails or queries relating to the investigation
+described above in the months or years following, but | was not asked to make
+
+any further checks on Marine Drive.
+
+5
+
+.| did consider the issues that Mr Castleton was reporting to be unusual, and
+that he needed assistance to get to the bottom of it. | was not in a position to
+
+give or organise that assistance.
+
+52.1 am asked whether | considered whether any known bugs, errors or defects
+(“BEDs”) might be causing the discrepancies. | did not work my way through a
+list of known errors. That was not my method of working, nor that of my
+colleagues. Once | had examined the available evidence and found something
+wrong, then | would consider whether it might be caused by a known system
+
+error, a user error or whether it was a new system problem.
+
+53.1n this instance the difficulty was that there was no evidence of any sort of error
+(human or computer) save for the fact that the cash declared by the postmaster
+did not match what was expected in accordance with the transactions that he
+had entered and checked on the system and hence a loss was evident at the
+
+end of the financial week.
+
+54.1 have now considered those BEDs identified by Mr Justice Fraser (which as |
+have previously explained, is not an exhaustive list of Horizon BEDs) and none
+
+of those appear to be possible causes of the discrepancies and losses at
+
+Page 17 of 38
+WITNO0170200
+WITNO0170200
+
+Marine Drive, nor of the variance between the overnight cash declarations and
+the system cash position. As | have said before, | am not aware of any BEDs
+which would cause week-on-week discrepancies and losses without leaving
+
+evidence.
+
+55.1 am specifically asked if | considered whether discrepancies might have been
+caused by as yet unknown bugs - or whether my method of working as
+described precluded that. A discrepancy, in itself, is not an indication of a
+system problem. If it has been calculated incorrectly (from the individual
+transactions and the declarations made by the branch) then there is a system
+problem. | recalculated the discrepancy from the recorded cash transactions
+and declarations, using Excel, and got the same result as Horizon. If there are
+transactions recorded incorrectly, or omitted, then this could be a system
+problem or a user problem. | looked for any obvious anomalies in the
+transactions but could not spot any. | had no way of knowing whether what had
+been recorded actually matched the business done at the branch, nor whether
+
+the cash declarations were correct.
+
+Post Office Limited -v- Lee Castleton
+
+56.1 have not been involved in any other proceedings against sub-postmasters
+involving the Horizon IT system before or since the Castleton case. Before
+2006 | had never taken part in any legal proceedings of any kind. It had never
+been suggested to me or my SSC colleagues that we might be expected to
+
+become involved in such proceedings as a result of the work we were doing.
+
+Page 18 of 38
+WITNO0170200
+WITNO0170200
+
+57.On a few occasions over the subsequent years Gareth Jenkins asked me to
+double check his figures or to help him locate KELs or reports. | was aware he
+was giving evidence in various trials but | do not think | ever knew the details
+of those trials and the assistance | provided to him would have been limited. |
+
+have no specific recollection of any particular instances of this occurring.
+
+58.1 am asked who asked me to provide a witness statement in the case against
+Mr Castleton. Sometime in 2006, a man | did not know came into our secure
+office area, introduced himself as the Post Office Account Security Manager,
+Brian Pinder, mentioned a call that | had dealt with over two years earlier and
+asked if | would mind having a quick chat with a solicitor about it. No mention
+
+was made of a witness statement at that point, nor, as | recall, of a court case.
+
+59.1 informed my manager Mik Peach of this conversation. He was extremely
+unhappy that | had been approached directly and said that no member of SSC
+should ever be involved in litigation. He then talked to higher levels of
+management, but my name was now in the frame and | seemed to have no
+option but to talk to the solicitor which led to them requesting a witness
+
+statement and my subsequent appearance in court.
+
+60.1 am asked about the individuals | had contact with during the drafting of my
+witness statement, the nature of any discussions and the drafting process. |
+have very little recollection of this, but the various emails supplied
+[POL00071093, POL00071051, POLO0069608, POL00069622 and
+
+FUJ00122321] have helped fill in some of the gaps in my memory.
+
+61.1 think there was an initial meeting with a solicitor, presumably Stephen Dilley,
+
+in a Fujitsu office in Bracknell. Mik Peach’s manager, Naomi Elliott, was
+
+Page 19 of 38
+WITNO0170200
+WITNO0170200
+
+present at that meeting or a subsequent one. It was explained to me, | think in
+the initial meeting, that | would be a Witness of Fact, not an Expert Witness,
+and the purpose of my witness statement was to document my investigation of
+
+26'" February 2004.
+
+62.1 can see from the documents provided to me that on 8 August 2006
+[FUJ00152291] | was emailed a copy of a letter written by the solicitor then
+acting for Mr Castleton [LCAS0000974] and that Fujitsu was being asked to
+provide a reasoned analysis of the points made in that letter. | can see this
+involved a comparison between the transaction logs, which it is apparent | took
+to be a reference to the archived messagestore extract, and the cash account.
+| can see that | had requested sight of the letter on 7 August 2006
+[FUJ00152290] on the basis that | would start the analysis then Gareth Jenkins
+would review and present a report to POL. | believe it would have been
+suggested that | undertake the task; | do not believe | would have offered to do
+it. | note that | remarked that SSC resources were very stretched towards the
+end of August. | see that on 8 August 2006 | asked Peter Sewell and then
+
+Gareth Jenkins for the transaction logs.
+
+63.1 see that | produced a document dated 17 August 2006 [FUJ00152295]
+accompanied by spreadsheets [FUJ00152293, FUJ00152294 and
+FUJ00152296] which addressed the contents of paragraphs in the solicitor’s
+
+letter [LCAS0000974].
+
+64. To provide some background information: the Cash Account was a
+complicated document of 2 or 3 pages, summarising all the financial data for a
+
+branch for a week (Cash Account Period or CAP). | was under the impression
+
+Page 20 of 38
+WITNO0170200
+WITNO0170200
+
+that before Horizon, the SPMs had had to fill in this form manually. It was not
+
+easy to read or understand.
+
+65.When each stock unit in a branch was balanced at the end of the CAP, a Trial
+Balance and then Final Balance were carried out and a Balance Report printed.
+These were, in my view, easier to comprehend. It was at this stage that
+
+discrepancies were calculated and reported.
+
+66. Once all stock units were balanced, the Cash Account was produced. This did
+not use the totals accumulated for each stock unit but went through the
+transaction data again, mapping each transaction to a particular Cash Account
+Line and Table. If there had been an error in the calculation of a discrepancy
+for a stock unit, | think this would show on the Cash Account (for example as
+
+a Receipts and Payments mismatch).
+
+67.1 had previously checked and reconstructed Balance Reports but | had never
+tried to manually construct a Cash Account. | started with the transaction data,
+in an Excel spreadsheet, extracted from Audit as part of an ARQ data retrieval.
+| had all the transactions carried out at Marine Drive during January 2004. This
+can be seen at Sheet1 [FUJ00152293]. The section at the top details the
+Riposte Query which was used to extract the transaction data from the
+
+archived messagestore. | note that the extract was made in November 2005.
+
+68.Columns of interest in Sheet 1 are: Id branch counter; User the branch user;
+Date/Time the date and time the transaction was started; Sessionld the
+unique session identifier (this should be the transactions relating to a single
+customer, each session should net to zero); Txnld the unique transaction
+
+identifier within the session; Mode SC is Serve Customer for normal business,
+
+Page 21 of 38
+WITNO0170200
+WITNO0170200
+
+Rxxx remittances in or out of the branch, SAP/SAN stock adjustments,
+DDN/DDP acceptance of discrepancies, several others; ProductNo each
+product that can be transacted has a unique number, 1 is cash; Qty quantity;
+SaleValue. The transactions are ordered by date/time which means that
+
+sessions on the two counters are sometimes interleaved.
+
+69. Sheet2 was also produced by the ARQ extract and | believe shows that in the
+full messagestore archive, there are no gaps in the message sequence for
+each counter, and that the messages are all in ascending time order. This is
+important as it shows that everything committed to the messagestore on the
+
+counters has reached the data centre and the Audit archive.
+
+70. The total sale values on Sheet1 should be equal to zero but actually come to
+-£2.47. The sheet SummarybySession was used to identify two non-zero
+
+sessions:
+
+44-213337-2-1163818-2 -0.92 12th Jan (Week 42)
+
+44-213337-1-880853-2 £-1.55 15th Jan (Week 43)
+
+7
+
+.| looked in the full messagestore archive at the first of these and found the
+missing transaction was a postage sale within a Smartpost session, and the
+Start information had not been included in the message. This was a not
+uncommon problem with SmartPost at the time. There should have been a
+KEL for it, and a PinICL with development for investigation. The transaction
+was included in the branch accounts (otherwise there would have been a
+receipts and payments mismatch) and did not cause any discrepancy at the
+branch. The message was included in the full set of archived messages but
+
+was not retrieved from the archive by the data retrieval, since that required
+
+Page 22 of 38
+WITNO0170200
+WITNO0170200
+
+Start Date to be present. So this was a system fault which has affected the
+
+integrity of the ARQ extract but in my view did not affect the branch directly.
+
+72.1 then looked specifically at CAP42. This covered transactions carried out in
+the period 8th Jan 2004 08:59:11 to 15th Jan 07:36:14 (these times can be
+confirmed from the January event log [POL00082270)). | worked out the Cash
+Account Line and Table to which each transaction belonged then produced the
+totals for each line / table entry, for comparison with the Cash Account printed
+at the branch. While the numbers matched, | did not fully understand how some
+
+of the entries were derived so passed my findings to Gareth with a caveat.
+
+73.In summary:
+
+(a)! was able to find the transactions (“the other halves” as Mr Castleton
+described them) for the only two apparently incomplete sessions in January
+and so show that the discrepancy in week 42 was not attributable to
+
+partial/missing transactions.
+
+(b) | conducted my own semi-manual reconciliation of all transactions recorded
+in the log for Week 42. | do not think | saw the details of Mr Castleton’s
+analysis of the transaction logs, so | could not explain why his totals for
+receipts and payments (paragraphs 3 and 4 of the solicitor’s letter) were
+different from Horizon. My reconciliation matched Horizon. If any products
+were wrongly categorised (for example, as receipts instead of payments)
+
+this would have affected every branch transacting those products.
+
+74.On 17 August 2006 [FUJ00152292] | wrote to Gareth in the following terms:
+
+Page 23 of 38
+WITNO0170200
+WITNO0170200
+
+I've spent some time recalculating the CAP42 cash account for Marine
+Drive and addressing the points in the letter from the solicitor. | hope it
+makes enough sense to provide you with a starting point not quite at the
+very beginning. Subsequent cash accounts, if needed, should be much
+easier now | have the mappings set up and some idea of what numbers
+
+need to go where.
+
+I'm now going to look at the loss made in week 42 and demonstrate that
+it was due to the difference between system holdings and declared
+
+holdings.
+
+If this isn't at all what you wanted, please let me know - | don't really know
+
+what I'm doing!
+
+This hasn't had my full attention, lots of people are on leave and Martin
+landed me with a tricky POLFS/FP issue. Also, yesterday | got my witness
+statement which is (as | expect you found) full of things | didn't say or do,
+
+including all those Powerhelp calls.
+
+75.This was not a finished report. Gareth was far more familiar with the Cash
+Account structure than | was. He produced the report that was sent to Post
+Office [WBON0000027] which referred to the work | undertook as described in
+
+paragraphs 62-74 above.
+
+76.1 thought at the time, and still think, that this was a job for an accountant. | was
+surprised that Post Office thought Fujitsu should do it. The BDO Draft Report
+that | have only seen recently [POLO0069955] does appear to show that a
+
+forensic accountant did subsequently check the Cash Accounts over a 3 month
+
+Page 24 of 38
+WITNO0170200
+WITNO0170200
+
+period and found only the very small inconsistencies that | have mentioned
+
+above.
+
+77.1 did not draft my initial witness statement for the Castleton trial but spent some
+time (in a meeting, | cannot remember where or who was present) talking
+through and attempting to explain what | had done, based on the information
+in the call log. | assume Stephen Dilley made notes and produced the first draft,
+
+which | received 16 August 2006.
+
+78.There were various inaccuracies in the technical details, unsurprisingly, so |
+corrected those to ensure that the statement was a true reflection of what | had
+done. | was not prepared to include in my statement Powerhelp calls of which
+| had no direct knowledge. | felt | should include only calls which | knew | had
+
+looked at the time.
+
+79.Looking back at the matter now | see that the process of taking my statement
+was effectively going on in parallel to the task | had been assigned of
+investigating the points raised in Mr Castleton’s solicitor’s letter. | certainly did
+
+not know, or consider at the time, whether this was appropriate.
+
+80. As the trial approached, | also conducted some revision and checks on my own
+initiative, using the full set of messages retrieved from the audit server,
+because | wanted to be accurate and absolutely sure in my own mind that |
+had not missed anything and because originally | had not looked at anything
+since 26 February 2004 and the losses had continued. | stress that from my
+perspective, if | had ever found evidence of a bug, error or defect or any
+explanation for the losses | would have pointed that out and done so gladly
+
+because it would have solved the mystery.
+
+Page 25 of 38
+WITNO0170200
+WITNO0170200
+
+81.It appears that by 23 August my witness statement was drafted almost to my
+
+satisfaction [POL00071051].
+
+82.1 remember going up to London for a meeting with Counsel Richard Morgan
+on 11 September 2006. | can remember almost nothing about the content of
+the meeting and the attendance note [POL00069622] makes very little sense
+to me. It appears that we did discuss complaints about the system, and |
+explained that there were BEDs which had indeed affected branches, but | was
+
+not aware of any system problem causing continual losses.
+
+83.1 have now seen my draft witness statement dated 22/8/06
+[POL00083319_033] which was discussed at the meeting on 11" September
+2006. | had not written the statement in paragraph 16 and | did not feel it
+accurately summarised the investigation that | had undertaken. Hence the
+
+paragraph was removed.
+
+84.1 see that | was provided with an amended version of my witness statement on
+13 September 2006. | was happy to sign the statement on 14'" September,
+
+believing that the facts stated in it were true.
+
+85.1 am asked why | did not mention any of these known BEDs in my witness
+statement. My witness statement covered the investigation undertaken, which
+had found no evidence that any error, known or otherwise, had affected the
+branch. It did not occur to me, nor did anyone discuss with me, that | should
+include or omit references to any BEDs which were not, in my opinion, relevant
+
+to the investigation.
+
+86.Indeed, though | was unaware of it at the time, | see that the question of the
+
+relevance of problems at other branches was specifically addressed by the
+
+Page 26 of 38
+WITNO0170200
+WITNO0170200
+
+Court. It is referred to in The Claimant’s Note of Evidence [LCAS0000444, at
+pages 12-13] and is also reflected in HHJ Havery QC’s judgment at paragraph
+22. My attention has been drawn to the fact that at [LCAS0000444], at page
+12 Mr Morgan is recorded as having made the submission “[Mr Castleton is]
+perfectly at liberty to put it to my witnesses. If it's admitted for those purposes,
+the court has a piece of paper showing somebody in Scotland has a computer
+problem in 2006.” As | refer to below, | was indeed asked questions about
+what is known as the Callendar Square Bug which occurred at the Falkirk
+branch. My answers can be seen in the partial transcript at
+[LCAS0000252_109] at transcript pages 44 to 45. | explained in my evidence
+at trial what the Callendar Square bug was and why | could be confident it had
+
+not occurred at Marine Drive.
+
+87.1 have no recollection of being made aware of Mr Castleton’s Defence and
+
+Counterclaim.
+
+88.1 have no recollection of seeing the correspondence and reports in
+[LCAS0000945] before May 2023. | can explain that Balance Snapshots did
+not recalculate the discrepancy, hence the Discrepancies section at the top of
+each Balance Snapshot remained unchanged until a Trial Balance was
+
+undertaken.
+
+89.1 had not seen the BDO draft report [POL00069955] and appendices
+[POL00069951] prior to May 2023, and did not know it had been produced. |
+have always been concerned that no independent forensic accountant had
+been instructed by POL to check the accounts, though | think | was aware, and
+
+know now, that Mr Castleton had had the data for a single week checked
+
+Page 27 of 38
+WITNO0170200
+WITNO0170200
+
+[LCAS0000974]. | am not an accountant and | consider that interpretation and
+checking of the accounts was Post Office’s responsibility, not Fujitsu’s, but |
+felt | had ended up doing a lot of things beyond just checking Horizon for errors.
+
+| do not know whether this report was used in the trial.
+
+90.The BDO draft report appears to support what | had said in 2004 but is a full
+check over a much longer period. The report also explains some of the
+apparent anomalies in [LCAS0000945]. The author of the BDO report did not
+appear to realise that the postings to product codes 222 (Shortage) and 145
+(Surplus) were made by Horizon during the Stock Unit balancing process,
+when the SPM accepted the loss/gain, so in my view section 5.5 of the BDO
+report is not quite accurate. The SPM could clear the loss by putting the cash
+in the drawer, declaring the increased amount and undertaking another trial
+balance. This was done in CAP42 where the loss of £1,103.13 was made good
+(see 8.3.3 of the BDO report). In subsequent weeks the loss was not made
+good but was carried forward, and on two occasions the loss was posted to
+product code 223 Table 2A, which | think was what was referred to as the
+
+Suspense Account.
+
+9
+
+.| can see now that in November 2006 | received confirmation that the trial was
+going ahead and that | forwarded that to Gareth Jenkins, and later that month
+| and the other witnesses were informed that Mr Castleton was now
+representing himself and we would likely all be required for questioning
+
+[FUJ00152297].
+
+92.1 recall that shortly before the trial | was told that | might be asked about the
+
+Callendar Square bug. | would have done some revision in preparation for that.
+
+Page 28 of 38
+WITNO0170200
+WITNO0170200
+
+| have given a summary of the Callendar Square bug in my first witness
+statement. | can see from the trial note that | was indeed asked questions
+
+about it and | gave answers which were accurate.
+
+BEDs, including Callendar Square
+
+93.1 am asked what evidence | gave about known errors, bugs and defects which
+had affected or were affecting the functioning of the Horizon IT system at the
+Castleton trial. The only errors | had identified which had impacted Marine
+Drive were the probable hardware error which resulted in counter 2 being
+replaced on 2 February (which | had not included in my witness statement) and
+the Windows NT event on 18 February. | answered questions about both of
+these. Neither of these errors affected the branch accounts. | do not recall that
+any other questions were put to me where any BED could or should have been
+included in the answer, apart from Callendar Square in respect of which |
+
+answered questions.
+
+94.1 am asked what evidence | gave about the Callendar Square bug at the
+Castleton trial. | was aware of the specific problems at the Callendar Square
+branch which had caused a very significant loss in the autumn of 2006 and |
+was familiar with the underlying bug, which could have various consequences.
+| did not consider it to be relevant to the Castleton case because it had not
+occurred at Marine Drive, but as | had been told shortly before the trial that Mr
+Castleton was intending to ask questions about it, | was not surprised when it
+
+arose.
+
+95.1 attempted to explain that this bug was not the cause of the losses at Marine
+
+Drive:
+
+Page 29 of 38
+WITNO0170200
+WITNO0170200
+
+a. As Mr Castleton operated a single stock unit, he could not have had the
+same manifestation of the problem which was caused by cash being
+Transferred Out of one stock unit then Transferred In twice to the
+
+receiving stock unit.
+
+b. Callendar Square had a Receipts and Payments mismatch reported via
+the reconciliation reports. There was no such report entry for Marine
+
+Drive.
+
+c. The Windows NT application event log (which | referred to as the system
+event log) would have contained hundreds of events reporting that a lock
+
+was held. These were not present for Marine Drive.
+
+d. Transactions done on the other counter after the events started might
+not be included in the balance, but would instead be included in the
+following accounting period. | had found no evidence of transactions not
+
+being included when the Marine Drive stock unit was balanced.
+
+96.When Mr Morgan asked me about events in connection with the Callendar
+Square problem it became obvious that there was a misunderstanding. Mr
+Morgan was taking me to the exhibit of Riposte event messages, which had
+been extracted from the messagestore archive as part of the ARQ data
+retrieval. These event messages recorded things like branch users logging on
+and off, printing reports declaring cash etc. There is an example extract in
+[POL00072839]. | and my colleagues would not normally refer to these as
+events, and these were not where the Riposte Lock events would be, if they
+
+existed.
+
+Page 30 of 38
+WITNO0170200
+WITNO0170200
+
+97.1 was referring initially to the Windows NT application event logs which had
+been retrieved from the counters and checked in 2004. | knew these counter
+logs only held events for a few weeks and were not normally retrieved from
+counters or retained. Two weeks before the trial, when trying to answer a
+query from Stephen Dilley [POL00070104, referenced in email of 16/12/06], |
+had asked my colleague Steve Parker whether the NT events streamed from
+all the counters via Tivoli, for SMC to inspect, were archived anywhere. He did
+not know, but on investigation found they were. So when Mr Morgan asked
+
+whether the information still existed, | confirmed that it did.
+
+98.Mr Castleton asked to see these Tivoli event logs. | believe it was a significant
+amount of work to unpack the files (containing all the events for 3 months from
+all branches and all the central systems) and extract the events from Marine
+
+Drive. | was not involved in this process.
+
+99.The logs showed thousands of different NT events, mostly just progress
+messages, generated as expected by the various applications running on the
+counters. | cannot now remember any detail, but there were none of the
+
+Riposte Lock critical events.
+
+100.1 have reviewed the attendance note dated 22"7 December 2006
+[POLO0069659] and | am asked whether it properly characterises my
+evidence. Although the attendance note is not very clearly expressed, | think
+| agree with it. My evidence was that the document (Tivoli event log) showed
+the 18"" February event which did not affect the branch accounts, and did not
+show any of the repeated Riposte Lock events indicative of the Callendar
+
+Square type error.
+
+Page 31 of 38
+WITNO0170200
+WITNO0170200
+
+101.1 was recalled to answer further questions on 11" January 2007. Mr Castleton
+asked me about various Tivoli event log entries, which | answered as best |
+could. | cannot recall any specific questions but | think they were about events
+generated by some of the background processes, not Riposte or the counter
+
+application.
+
+102.1 am asked for my view on how the proceedings were conducted by POL. | am
+not in a position to judge the conduct of the litigation but did make a number of
+points in a document that | discuss below. No pressure was put on me to
+present my evidence in a particular way, or to conceal anything, but there was
+
+nothing found by me to be concealed.
+
+103. After the trial | saw the judgment of HHJ Havery QC and in particular paragraph
+23 which | set out here for convenience. This correctly reflected that | had
+been able to answer questions about the Callendar Square bug. The judge
+accepted my evidence that | had been unable to identify any basis upon which
+the Horizon system could have caused the losses at Marine Drive. | think it is
+clear that the judge did not take my evidence to be that that there were never
+any BEDs within Horizon. My evidence was that | could not find a system error
+
+to explain these losses. Paragraph 23 reads as follows:
+
+“| heard evidence from Anne Chambers, a system specialist employed by
+Fujitsu, the company that provides the Horizon service. She has a working
+knowledge of the Horizon computer system used by the claimant. She
+said that calls from postmasters relating to potential system problems are
+initially taken and logged by the Horizon system Helpdesk. | accept
+
+evidence of Mr. Castleton that he contacted the Helpdesk over problems
+
+Page 32 of 38
+WITNO0170200
+WITNO0170200
+
+with discrepancies in balancing accounts at Marine Drive on a number of
+occasions. If the helpdesks are unable to resolve the problem, calls may
+be passed to the System Support Centre, where Mrs. Chambers works.
+In this case, her first involvement with Marine Drive was on 26th February
+2004. Mrs. Chambers examined the questions raised and concluded that
+there was no evidence whatsoever of any problem with the system. She
+was unable to identify any basis upon which the Horizon system could
+have caused the losses. Mr. Castleton cross-examined her about
+complaints from another branch, which he did not identify. She
+immediately recognized the branch with confidence as being a branch at
+Callender Square in Falkirk. The problem at Callender Square had, she
+said, arisen from an error in the Horizon system, but there was no
+evidence of such a thing at Mr. Castleton’s branch. | found Mrs. Chambers
+to be a clear, knowledgeable and reliable witness, and | accept her
+
+evidence.”
+
+104.1 am reminded that in January 2007 | produced a document entitled
+“Afterthoughts on the Castleton Case” [FUJ00152299], giving my thoughts and
+comments on the way in which | had been put forward as a witness in the
+Castleton trial. | was not concerned about the evidence | had given but rather
+about the way the matter had been dealt with. Mik Peach supplied that note
+to Brian Pinder, but | was not invited to any meeting to discuss its contents
+[FUJ00152300]. Looking at this note now | see that | raised issues within four
+
+topics, namely:
+
+a. the use of me, and potentially other SSC staff, as effectively an expert
+witness at trial.
+
+Page 33 of 38
+WITNO0170200
+WITNO0170200
+
+b. the absence of any formal plan for a technical review before a matter
+
+reached court.
+
+¢. concerns around disclosure of evidence. This was not something which
+| had any experience of, or responsibility for, either before my
+
+involvement with the Castleton trial or in preparation for it. ‘
+
+d. the division of responsibility between NBSC and the Horizon Helpdesk
+which could result in no-one taking ownership of some problems,
+
+especially regarding unresolved discrepancies.
+
+105.1 wish | could have found the cause of Mr Castleton’s problems, but sadly |
+could not then, despite investigation in 2004 and many hours of further
+
+checks in 2006, and | still cannot now.
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+Dated: we Tuohy 2023
+
+Page 34 of 38
+Index to Second Witness Statement of ANNE CHAMBERS
+
+WITNO0170200
+WITNO0170200
+
+No
+
+URN
+
+Document Description
+
+Control Number
+
+FUJ00146165
+
+Peak Incident Management
+Pco099954
+
+POINQ0152359F
+
+LCAS0000112
+
+Anne Chambers Witness
+Statement in Castleton trial dated
+14 September 2006
+
+VIS00010352
+
+FUJ00122322
+
+Anne Chambers Exhibit to above
+Witness statement comprising
+
+series of Powerhelp Calls
+
+POINQ0128536F
+
+FUJ00152299
+
+Document entitled Afterthoughts
+on the Castleton case prepared
+by Anne Chambers dated 29
+January 2007
+
+POINQ0158602F
+
+LCAS0000365
+
+NBSC Call Log for Marine Drive
+attached to Castleton Trial
+Bundle Index (p18-59)
+
+VIS00010605
+
+POL00073280
+
+POL v Lee Castleton
+Ex APD/1 to witness statement of
+A. Dunks 27092006
+
+POL-0069843
+
+POL00072839
+
+Extract from the Riposte Event
+messages for Marine Drive for
+period 2" to 3" February 2004
+
+POL-0069402
+
+FUJ00152293
+
+Transaction Logs for Marine
+
+Drive for period January 2004
+
+POINQ0158596F
+
+POL00082270
+
+January 2004 Riposte Event log
+
+POL-0078833
+
+10
+
+LCAS0000252_109
+
+Extract of the Transcript of the
+
+Castleton Trial
+
+VIS00010492_109
+
+Page 35 of 38
+WITNO0170200
+WITNO0170200
+
+11
+
+LCAS0000444
+
+Claimant's Note of the Castleton
+
+Trial
+
+VIS00010684
+
+12
+
+POL00071093
+
+Email chain from Stephen Dilley
+to Brian Pinder and others
+including Anne Chambers
+between 8 August 2006 and 17
+August 2006 Re First Draft
+Witness statement of Anne
+
+Chambers
+
+POL-0067656
+
+13
+
+POL00071051
+
+Email from Stephen Dilley to
+Anne Chambers re her draft
+Witness Statement 22 August
+2006, and her reply
+
+POL-0067614
+
+14
+
+POL00069608
+
+Email from Stephen Dilley to
+various people including Anne
+Chambers Re Conference on 11
+September 2006
+
+POL-0066171
+
+15
+
+POL00069622
+
+Attendance Note — Stephen Dilley
+dated 11 September 2006 Re
+Conference in Chambers on 11
+September 2006
+
+POL-0066185
+
+16
+
+FUJ00122321
+
+Email from Stephen Dilley to
+Anne Chambers dated 13
+September 2006 attaching an
+amended version of her witness
+
+statement and exhibit
+
+POINQ0128535F
+
+17
+
+FUJ00152291
+
+Email from Anne Chambers to
+Gareth Jenkins dated 8 August
+2006 requesting copies of
+
+transaction logs
+
+POINQ0158594F
+
+18
+
+LCASo000974
+
+Letter from Lee Castleton’s
+Solicitors to POL solicitors dated
+
+ViISo0011214
+
+Page 36 of 38
+WITNO0170200
+WITNO0170200
+
+25 July 2006 Re issues with
+
+Transaction Logs
+
+19
+
+FUJ00152290
+
+Email from Anne Chambers to
+Peter Sewell dated 7 August
+2006 requesting copy of
+solicitor’s letter above
+
+POINQ0158593F
+
+20
+
+FUJ00152295
+
+Document produced by Anne
+Chambers dated 17 August 2006
+Initial Comments on Marine Drive
+
+letter
+
+POINQ0158598F
+
+21
+
+FUJ00152294
+
+Transaction Logs referred to in
+Anne Chambers document 17
+August 2006 and above
+
+correspondence
+
+POINQ0158597F
+
+22
+
+FUJ00152296
+
+Transaction Logs referred to in
+Anne Chambers document 17
+August 2006 and above
+
+correspondence
+
+POINQ0158599F
+
+23
+
+FUJ00152292
+
+Email from Anne Chambers to
+Gareth Jenkins re. Marine Drive
+dated 17 August 2006
+
+POINQ0158595F
+
+24
+
+WBONO000027
+
+Report from Gareth Jenkins
+dated 6/9/06 entitled Analysis of
+Marine Drive Transactions
+
+WBONO000027
+
+25
+
+POL00083319_033
+
+Anne Chambers Draft Witness
+Statement for Castleton Trial
+dated 22/8/06
+
+POL-0079882_033
+
+26
+
+POL00069955
+
+BDO Draft Report prepared on
+behalf of POL and dated 29
+November 2006
+
+POL-0066518
+
+27
+
+LCAS0000945
+
+Letter from Lee Castleton’s
+solicitors to POL solicitors dated
+30 September 2005 enclosing
+
+VIS00011185
+
+Page 37 of 38
+WITNO0170200
+WITNO0170200
+
+document review prepared by
+Bentley Jennison (Litigation
+Support) dated 23 September
+2005
+
+28
+
+FUJ00152297
+
+Email from Anne Chambers to
+Gareth Jenkins re: FW: Trial
+Date: Post Office Limited -v- Mr L
+Castleton dated 20 November
+2006
+
+POINQ0158600F
+
+29
+
+POL00069951
+
+Appendices to BDO Draft Report
+dated 29 November 2006
+(POLO0069955)
+
+POL-0066514
+
+30
+
+POL00070104
+
+Email chain re Tivoli logs
+including email from Anne
+Chambers to Stephen Dilley
+dated 16 December 2006 which
+refers to one of his queries the
+
+week before last
+
+POL-0066667
+
+31
+
+POLO0069659
+
+Telephone Attendance Note of
+Stephen Dilley dated 22
+December 2006 re his call to
+
+Counsel Richard Morgan
+
+POL-0066222
+
+32
+
+FUJ00152300
+
+Email from Mik Peach to Brian
+Pinder dated 29 January 2007 re
+Mop Up on the Castleton case,
+
+and Brian Pinder's reply
+
+POINQ0158603F
+
+Page 38 of 38

@@ -1,0 +1,65 @@
+FUJ00117480
+FUJ00117480
+
+Rollover Issues at Warwick
+
+Ref: __r:\hng plan x\architecture\end to end assurance\0129.warwicksuspense.doc
+Author: Gareth I Jenkins
+Date: 29/01/2010 17:41:00
+
+1. Introduction
+
+The purpose of this note is to describe the issues found at Warwick (FAD 506246)
+when attempting to roll over the Branch on 27/01/10 and the analysis that has been
+carried out as to their root cause.
+
+2. The Problem
+
+The problem was that when balancing the last Stock Unit, the User was not prompted
+to clear their Local Suspense. This subsequently meant that attempting to rollover the
+Branch failed due to Local Suspense not being clear.
+
+Subsequent attempts to create further Stock Units to clear local suspense appeared to
+fail.
+
+3. The Cause
+
+The root cause of the problem is a Stock Unit Z which was deleted during the Trading
+Period. In particular, this Stock Unit had at some stage included a Bureau Product
+5131(Australian Dollars). Due to the differences between how Opening Figures are
+generated on Horizon and HNG-X, this Stock Unit included an Opening Figure for 0
+Australian Dollars. HNG-X’s test for the last Stock Unit to roll, erroneously
+considered this Stock Unit to still be active and so didn’t consider the last real Stock
+Unit to roll over as being the last Stock Unit and hence didn’t prompt for Local
+Suspense to be cleared.
+
+The attempts to create further Stock Units and manually clear Local Suspense were
+not successful. However it is believed that this mechanism can be used to clear the
+Local Suspense.
+
+It is recommended that Fujitsu talk the Branch through the process to confirm that this
+resolves the issue.
+
+4. Future actions
+
+Since the scope of this issue is very specific, namely:
+
+1) A Branch has a Stock Unit which at some point has held Foreign Currency on
+Horizon
+
+2) That Branch Migrates to HNG-X
+
+3) That Stock Unit is Deleted before attempting to first balance the SU or Branch
+on HNG-X
+
+r:\hng plan x\architecture\end to end assurance\0129.warwicksuspense.doc _ Printed at 8:14 AM on 26/8/2022
+Page 1 of 2
+FUJ00117480
+FUJ00117480
+
+Also the fact that there is believed to be an avoidance action — namely manually
+clearing Local Suspense, then it is recommended that a KEL is raised associated with
+the issue and no attempt is made to change the related code.
+
+r\hng plan x\architecture\end to end assurance\0129.warwicksuspense.doc _ Printed at 8:14 AM on 26/8/2022
+Page 2 of 2

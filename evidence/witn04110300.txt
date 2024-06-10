@@ -1,584 +1,367 @@
-                                                                                     WITNO4110300
-                                                                                   WITNO4110300
+WITNO04110300
+WITNO04110300
 
+Witness Name: John Graeme Simpkins
+Statement No.: WITN04110300
 
+Dated: 19 December 2023
 
+POST OFFICE HORIZON IT INQUIRY
 
-                                              Witness Name: John Graeme Simpkins
+THIRD WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
 
-                                                      Statement No.: WITNO4110300
-
-                                                           Dated: 19 December 2023
-
-
-
-                      POST OFFICE HORIZON IT INQUIRY
-
-
-
-
-         THIRD WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
-
-
-
-I, MR JOHN GRAEME SIMPKINS, will say as follows:
-
+1, MR JOHN GRAEME SIMPKINS, will say as follows:
 
 INTRODUCTION
 
-1.    As noted in my first witness statement dated 4 August 2022, I am currently
+1. As noted in my first witness statement dated 4 August 2022, | am currently
+employed by Fujitsu Services Limited (“Fujitsu”) as a Team Leader within the
+Software Support Centre for the Horizon IT System (the “SSC”), a position |
 
-      employed by Fujitsu Services Limited ("Fujitsu") as a Team Leader within the
+have held since 2010.
 
-      Software Support Centre for the Horizon IT System (the "SSC'"), a position I
+2. This third witness statement is made to assist the Post Office Horizon IT Inquiry
+(the “Inquiry”) with the matters set out in the Rule 9 Requests provided to
+Fujitsu on 16 June 2023 and 31 July 2023 (together, the “Requests”), to the
+extent | have or had direct knowledge of such matters. This third witness
+statement is intended to supplement the information provided in my second
 
-      have held since 2010.
+witness statement dated 30 August 2023 (“Second Witness Statement”).
 
+3. The nature and potential significance of the matters set out in this statement
+came to light on 6 December 2023, and there is an ongoing operational
 
-2.    This third witness statement is made to assist the Post Office Horizon IT Inquiry
+investigation with which | am assisting. In order to bring this matter to the
 
-      (the "Inquiry") with the matters set out in the Rule 9 Requests provided to
+Page 1 of 11
+WITNO04110300
+WITNO04110300
 
-      Fujitsu on 16 June 2023 and 31 July 2023 (together, the "Requests"), to the
+attention of the Inquiry as soon as possible, this statement was drafted with
+assistance from Morrison Foerster, the recognised legal representatives for
+Fujitsu in the Inquiry, in a limited timeframe. It may be necessary to further
+supplement the information provided in this statement, as my knowledge and
 
-      extent I have or had direct knowledge of such matters. This third witness
+understanding of the issues develop.
 
-      statement is intended to supplement the information provided in my second
+4. Where | have referred to documents to assist my preparation of responses to
 
-      witness statement dated 30 August 2023 ("Second Witness Statement").
-
-
-3.    The nature and potential significance of the matters set out in this statement
-
-      came to light on 6 December 2023, and there is an ongoing operational
-
-      investigation with which I am assisting. In order to bring this matter to the
-
-
-
-                                    Page 1 of 11
-                                                                                     WI TN04110300
-                                                                                   WITNO4110300
-
-
-
-
-     attention of the Inquiry as soon as possible, this statement was drafted with
-
-     assistance from Morrison Foerster, the recognised legal representatives for
-
-     Fujitsu in the Inquiry, in a limited timeframe. It may be necessary to further
-
-     supplement the information provided in this statement, as my knowledge and
-
-     understanding of the issues develop.
-
-
-4.   Where I have referred to documents to assist my preparation of responses to
-
-     the Requests, the URNs of the relevant documents are set out in this statement.
-
+the Requests, the URNs of the relevant documents are set out in this statement.
 
 BACKGROUND
 
+5. In the Requests, the Inquiry asked Fujitsu for confirmation of whether it was
+aware of any cases where an ARQ log was provided to Post Office Limited
+(“POL”) or Royal Mail for court or disciplinary proceedings or an investigation
+in relation to an SPM, manager or assistant that was, or may be, unreliable. In
+paragraph 7 of my Second Witness Statement, | stated that | was not in a
+position to respond to the Inquiry’s questions surrounding the reliability of the
+audit archive or the ARQ data provided to POL over time because, for security
+reasons, the SSC was and continues to be segregated from the audit function.
+Further, the SSC has no direct access to (i) the audit data held in data centres,
+(ii) the audit tools, or (iii) which files, logs messagestore information etc. are
 
-5.   In the Requests, the Inquiry asked Fujitsu for confirmation of whether it was
+collected for audit. Neither has the SSC ever supported the audit platform.
 
-     aware of any cases where an ARQ log was provided to Post Office Limited
+6. While this remains the case, since providing my Second Witness Statement |
+have become aware of an incident whereby ARQ data which was recently
+provided to POL for the Apex Corner branch (with FAD code 097005) (“Apex
+Corner’) did not contain a complete record of the transactions that took place
 
-     ("POL") or Royal Mail for court or disciplinary proceedings or an investigation
+in that branch (the “Apex Corner Incident”).
 
-     in relation to an SPM, manager or assistant that was, or may be, unreliable. In
+Page 2 of 11
+WITNO04110300
+WITNO04110300
 
-     paragraph 7 of my Second Witness Statement, I stated that I was not in a
+7. The circumstances which gave rise to the Apex Corner Incident require
+specialist knowledge of the operation of the system and, in particular, the
+lifecycle of transactions from the counter to the audit archive. Given my role in
+the SSC, | am working with other technical and operational staff within Fujitsu
+to investigate the causes of the Apex Corner Incident and to understand as far
 
-     position to respond to the Inquiry's questions surrounding the reliability of the
+as possible the nature and extent of its impact.
 
-     audit archive or the ARQ data provided to POL over time because, for security
+8. My knowledge of the Apex Corner Incident as at the date of this third witness
 
-     reasons, the SSC was and continues to be segregated from the audit function.
-
-     Further, the SSC has no direct access to (i) the audit data held in data centres,
-
-     (ii) the audit tools, or (iii) which files, logs messagestore information etc. are
-
-     collected for audit. Neither has the SSC ever supported the audit platform.
-
-
-6.   While this remains the case, since providing my Second Witness Statement I
-
-     have become aware of an incident whereby ARQ data which was recently
-
-     provided to POL for the Apex Corner branch (with FAD code 097005) ("Apex
-
-     Corner") did not contain a complete record of the transactions that took place
-
-     in that branch (the "Apex Corner Incident").
-
-                                   Page 2 of 11
-                                                                                        WITNO4110300
-                                                                                      WITN04110300
-
-
-
-
-7.   The circumstances which gave rise to the Apex Corner Incident require
-
-     specialist knowledge of the operation of the system and, in particular, the
-
-     lifecycle of transactions from the counter to the audit archive. Given my role in
-
-     the SSC, I am working with other technical and operational staff within Fujitsu
-
-     to investigate the causes of the Apex Corner Incident and to understand as far
-
-     as possible the nature and extent of its impact.
-
-
-8.   My knowledge of the Apex Corner Incident as at the date of this third witness
-
-     statement is set out below.
-
+statement is set out below.
 
 LIFECYCLE OF A TRANSACTION IN LEGACY HORIZON
 
-9.   Under Legacy Horizon, messages (including transaction messages) were
+9. Under Legacy Horizon, messages (including transaction messages) were
+written to the Riposte message store on the local counter disk. They were then
+replicated locally to other counters within the branch or, in single counter
+branches (such as Apex Corner), to internal removeable mirror disks. Legacy
+Horizon was primarily an offline system, so the messages would be sent to the
+Correspondence Servers periodically or immediately depending upon the
+network configuration. Every branch was assigned to one of four ‘Clusters’, and
+this controlled which Correspondence Server messages from that branch
+replicated to. There were 16 Correspondence Servers, and each one only
+contained messages for a single Cluster. Once in the Correspondence Servers,
+the Audit Harvester program would copy all messages from the
+Correspondence Server (i.e. a single Cluster) to a series of flat text files labelled
+by Data Center, Cluster and date. For ease, these are referred to in this
 
-     written to the Riposte message store on the local counter disk. They were then
+statement as “TMS Cluster Files” but this is not a term | would use day to day.
 
-     replicated locally to other counters within the branch or, in single counter
+Page 3 of 11
+WITNO04110300
+WITNO04110300
 
-     branches (such as Apex Corner), to internal removeable mirror disks. Legacy
+Depending on the number of messages in each Correspondence Server, there
 
-     Horizon was primarily an offline system, so the messages would be sent to the
+may be more than one TMS Cluster File for each day.
 
-     Correspondence Servers periodically or immediately depending upon the
+10. From conversations | had during the course of the weeks commencing 4 and
+11 December 2023 with members of the audit team, including Gerald Barnes, |
+understand that the TMs Cluster Files would be stored in the audit archive
+according to the date they were securely copied and accepted (“sealed”) by the
+audit archive. For the reasons | state in paragraph 5 above, this process is
 
-     network configuration. Every branch was assigned to one of four `Clusters', and
-
-     this controlled which Correspondence Server messages from that branch
-
-     replicated to. There were 16 Correspondence Servers, and each one only
-
-     contained messages for a single Cluster. Once in the Correspondence Servers,
-
-     the   Audit   Harvester    program    would    copy    all   messages     from   the
-
-     Correspondence Server (i.e. a single Cluster) to a series of flat text files labelled
-
-     by Data Center, Cluster and date. For ease, these are referred to in this
-
-     statement as "TMS Cluster Files" but this is not a term I would use day to day.
-
-
-
-
-                                    Page 3 of 11
-                                                                                    WITNO4110300
-                                                                                  WITNO4110300
-
-
-
-
-      Depending on the number of messages in each Correspondence Server, there
-
-      may be more than one TMS Cluster File for each day.
-
-
-10.   From conversations I had during the course of the weeks commencing 4 and
-
-      11 December 2023 with members of the audit team, including Gerald Barnes, I
-
-      understand that the TMs Cluster Files would be stored in the audit archive
-
-      according to the date they were securely copied and accepted ("sealed") by the
-
-      audit archive. For the reasons I state in paragraph 5 above, this process is
-
-      outside my area of knowledge.
-
+outside my area of knowledge.
 
 THE APEX CORNER INCIDENT
 
-11.   On 3 November 2023, 1 was informed by Morrison Foerster and members of
+11. On 3 November 2023, | was informed by Morrison Foerster and members of
+Fujitsu’s legal team that Peters & Peters Solicitors LLP (“Peters & Peters”) had
+raised some questions regarding some transactions that took place at Apex
 
-      Fujitsu's legal team that Peters & Peters Solicitors LLP ("Peters & Peters") had
+Corner in March/April 2008.
 
-      raised some questions regarding some transactions that took place at Apex
+12. | was shown the following documents, which | understand were provided to
 
-      Corner in March/April 2008.
+Morrison Foerster by Peters & Peters:
 
+a. aspreadsheet containing an extract from the messagestore for Apex Corner
+for the period 1 January 2008 to 31 October 2008 (FUJ00234830). | have
+since been made aware by Morrison Foerster that this spreadsheet was a
+compilation of ARQ data that was provided by Fujitsu on 4 September 2023,
+in response to an ARQ Request issued by POL on 11 August 2023 (the
 
-12.   I was shown the following documents, which I understand were provided to
+“September 2023 ARQ data”) (FUJ00234843).
 
-      Morrison Foerster by Peters & Peters:
+b. a document titled “Sathyan — KSO6” (FUJ00234827) which appears to be a
 
+girocheque report dated 10 April 2008 (the “April 2008 girocheque
 
-      a. a spreadsheet containing an extract from the messagestore for Apex Corner
+Page 4 of 11
+13.
 
-         for the period 1 January 2008 to 31 October 2008 (FUJ00234830). I have
+14.
 
-         since been made aware by Morrison Foerster that this spreadsheet was a
+15.
 
-         compilation of ARQ data that was provided by Fujitsu on 4 September 2023,
+WITNO04110300
+WITNO04110300
 
-         in response to an ARQ Request issued by POL on 11 August 2023 (the
+report”). | was informed that the first 13 transactions listed in this report
+were missing from the September 2023 ARQ data (the “13 Missing
 
-         "September 2023 ARQ data") (FUJ00234843).
+Girocheque Transactions’).
 
+In paragraph 22 of my Second Witness Statement, | explained the individual
+components of transaction IDs, including the counter position where the
+relevant transaction took place. The 13 Missing Girocheque Transactions each
+contain a counter position which is stated to be “11”. It was usual practice for
+the SSC to use ‘virtual’ counter numbers when recovering transactions to
+ensure that the Session and Transaction identifiers remained unique. It was my
+view that the use of counter position “11”, when there had been very few
+branches with more than 10 counters, indicated that these transactions
 
-      b. a document titled "Sathyan — KS06" (FUJ00234827) which appears to be a
+appeared to have been ones which were manually reinserted by the SSC.
 
-         girocheque report dated 10 April 2008 (the "April 2008 girocheque
+While | was able to identify the 13 Missing Girocheque Transactions as ones
+which had likely been reinserted, for the reasons set out in paragraphs 4 and
+12 above it was not clear to me why they did not appear in the September 2023
 
+ARQ data.
 
-                                    Page 4 of 11
-                                                                                     WITNO4110300
-                                                                                   WITNO4110300
+Based on a review of operational records for the relevant period, | now
 
+understand that:
 
+a. The counter in use at Apex Corner suffered a network failure on 13 March
+2008 and was non-polling until a replacement counter base unit was
 
+installed on 20 March 2008 (FUJ00234847; FUJ00234850).
 
-         report"). I was informed that the first 13 transactions listed in this report
+b. For the period that Apex Corner was non-polling, transaction messages
 
-         were missing from the September 2023 ARQ data (the "13 Missing
+were stored locally on the counter disk and mirror disk but were not
 
-         Girocheque Transactions").
+Page 5 of 11
+WITNO04110300
+WITNO04110300
 
+replicated to the Correspondence Server. When the counter was replaced,
+the mirror disk should have been removed from the original counter and
+swapped to the replacement counter. If this was done, transactions stored
+on this mirror disk would replicate to the new counter disk and the
+Correspondence Server when the replacement counter was connected to
 
-13.   In paragraph 22 of my Second Witness Statement, I explained the individual
+the Horizon network, and the branch records would be brought up to date.
 
-      components of transaction IDs, including the counter position where the
+. However, when the base unit was replaced, the engineer failed to swap the
+mirror disk. This resulted in just under 8,000 messages dating from the
+period the branch was non-polling (i.e. 13 to 20 March 2008) being
+‘marooned’ on the mirror disk and therefore never entered into the counter
+or Data Center (FUJ00234852). Of these messages, 1,964 related to
 
-      relevant transaction took place. The 13 Missing Girocheque Transactions each
+transactions (the “Marooned Transactions”) (FUJ00234850).
 
-      contain a counter position which is stated to be "11' . It was usual practice for
+. The mirror disk was physically delivered to the SSC on 28 March 2008
+(FUJ00234848) so that the Marooned Transactions could be recovered and
+manually inserted to the Correspondence Server. This was the only way the
+Marooned Transactions could be recovered and branch records brought up
+to date. Once the counter was replaced and recovered to an operational
+state from the messages held in the Data Centre, it would have started to
+reuse the unique Counter message numbers (NUM) and potentially the
+Session and Transaction identifiers of the Marooned Transactions, for new
+transactions. Therefore, the mirror disk could not be swapped to the
+replacement counter once that counter was operational. The original
+counter, with the mirror disk and a PMMC card, would need to be sent to
 
-      the SSC to use `virtual' counter numbers when recovering transactions to
+the SSC in order to extract the Marooned Transactions. From these, the
 
-      ensure that the Session and Transaction identifiers remained unique. It was my
+Page 6 of 11
+16.
 
-      view that the use of counter position "11", when there had been very few
+WITNO04110300
+WITNO04110300
 
-      branches with more than 10 counters, indicated that these transactions
+SSC would modify the unique identifiers in order to enable them to be re-
+inserted into the Correspondence Server successfully, which would allow
+them to replicate down to the branch. This process would correct the branch
+accounts, however any recovered APS transactions would fail to be
+harvested because they have a digital signature and modification of the
+transaction attributes would cause the APS Harvester to reject them. These
+transactions would be sent manually to POL using the BIMS process
+(FUJ00234853) for onward transmission to AP Clients — this would delay
+the customer payments reaching the AP Clients, but would not affect branch
 
-      appeared to have been ones which were manually reinserted by the SSC.
+accounts.
 
+e. The Marooned Transactions were “Discussed with PM” and reinserted by
 
-14.   While I was able to identify the 13 Missing Girocheque Transactions as ones
+the SSC on 4 April 2008 (FUJ00234852; FUJ00234850).
 
-      which had likely been reinserted, for the reasons set out in paragraphs 4 and
+As | mention in paragraph 13 above, when transactions were recovered in this
+way, the SSC typically used a virtual branch counter number in the Riposte
+message attributes to avoid conflict with newly entered transactions re-using
+the same unique attributes. For Apex Corner, the SSC incremented the real
+counter node number in the Counter, Session and Transaction identifiers
+(counter 1) by 10 (to counter 11). The original message number, Session and
+Transaction identifiers for the recovered transactions would have been re-used
+by the replacement counter when it was connected to the Horizon network, as
+it would have followed sequentially from the last transaction copied to the
 
-      12 above it was not clear to me why they did not appear in the September 2023
+Correspondence Server by the original counter. Other than this, transactions
 
-      ARQ data.
+Page 7 of 11
+WITNO04110300
+WITNO04110300
 
+which were reinserted retained their original attributes, including the date they
 
-15.   Based on a review of operational records for the relevant period, I now
+took place in the branch.
 
-      understand that:
+17. The Marooned Transactions (including the 13 Missing Girocheque
+Transactions) were inserted to the Correspondence Server on 4 April 2008 and
 
-
-      a. The counter in use at Apex Corner suffered a network failure on 13 March
-
-         2008 and was non-polling until a replacement counter base unit was
-
-         installed on 20 March 2008 (FUJ00234847; FUJ00234850).
-
-
-      b. For the period that Apex Corner was non-polling, transaction messages
-
-         were stored locally on the counter disk and mirror disk but were not
-
-
-                                    Page 5 of 11
-                                                                           WI TN04110300
-                                                                         WITNO4110300
-
-
-
-
-   replicated to the Correspondence Server. When the counter was replaced,
-
-   the mirror disk should have been removed from the original counter and
-
-   swapped to the replacement counter. If this was done, transactions stored
-
-   on this mirror disk would replicate to the new counter disk and the
-
-   Correspondence Server when the replacement counter was connected to
-
-   the Horizon network, and the branch records would be brought up to date.
-
-
-c. However, when the base unit was replaced, the engineer failed to swap the
-
-   mirror disk. This resulted in just under 8,000 messages dating from the
-
-   period the branch was non-polling (i.e. 13 to 20 March 2008) being
-
-   `marooned' on the mirror disk and therefore never entered into the counter
-
-   or Data Center (FUJ00234852). Of these messages, 1,964 related to
-
-   transactions (the "Marooned Transactions") (FUJ00234850).
-
-
-d. The mirror disk was physically delivered to the SSC on 28 March 2008
-
-   (FUJ00234848) so that the Marooned Transactions could be recovered and
-
-   manually inserted to the Correspondence Server. This was the only way the
-
-   Marooned Transactions could be recovered and branch records brought up
-
-   to date. Once the counter was replaced and recovered to an operational
-
-   state from the messages held in the Data Centre, it would have started to
-
-   reuse the unique Counter message numbers (NUM) and potentially the
-
-   Session and Transaction identifiers of the Marooned Transactions, for new
-
-   transactions. Therefore, the mirror disk could not be swapped to the
-
-   replacement counter once that counter was operational. The original
-
-   counter, with the mirror disk and a PMMC card, would need to be sent to
-
-   the SSC in order to extract the Marooned Transactions. From these, the
-
-
-                            Page 6 of 11
-                                                                                  WITNO4110300
-                                                                                WITN04110300
-
-
-
-
-         SSC would modify the unique identifiers in order to enable them to be re-
-
-         inserted into the Correspondence Server successfully, which would allow
-
-         them to replicate down to the branch. This process would correct the branch
-
-         accounts, however any recovered APS transactions would fail to be
-
-         harvested because they have a digital signature and modification of the
-
-         transaction attributes would cause the APS Harvester to reject them. These
-
-         transactions would be sent manually to POL using the BIMS process
-
-         (FUJ00234853) for onward transmission to AP Clients — this would delay
-
-         the customer payments reaching the AP Clients, but would not affect branch
-
-         accounts.
-
-
-      e. The Marooned Transactions were "Discussed with PM" and reinserted by
-
-         the SSC on 4 April 2008 (FUJ00234852; FUJ00234850).
-
-
-16.   As I mention in paragraph 13 above, when transactions were recovered in this
-
-      way, the SSC typically used a virtual branch counter number in the Riposte
-
-      message attributes to avoid conflict with newly entered transactions re-using
-
-      the same unique attributes. For Apex Corner, the SSC incremented the real
-
-      counter node number in the Counter, Session and Transaction identifiers
-
-      (counter 1) by 10 (to counter 11). The original message number, Session and
-
-      Transaction identifiers for the recovered transactions would have been re-used
-
-      by the replacement counter when it was connected to the Horizon network, as
-
-      it would have followed sequentially from the last transaction copied to the
-
-      Correspondence Server by the original counter. Other than this, transactions
-
-
-
-
-                                   Page 7 of 11
-                                                                                       WI TN04110300
-                                                                                      WITNO4110300
-
-
-
-
-      which were reinserted retained their original attributes, including the date they
-
-      took place in the branch.
-
-
-17.   The   Marooned      Transactions      (including   the   13   Missing    Girocheque
-
-      Transactions) were inserted to the Correspondence Server on 4 April 2008 and
-
-      were harvested into the TMS Cluster Files for that date.
-
+were harvested into the TMS Cluster Files for that date.
 
 ARQ EXTRACTION PROCESS
 
-18.   My understanding of the process for extracting ARQ data is primarily based on
+18. | My understanding of the process for extracting ARQ data is primarily based on
+conversations | have had recently with other members of the team investigating
+the Apex Corner ARQ Incident, such as Gerald Barnes. In particular, |
+understand from conversations during the week commencing 4 December
 
-      conversations I have had recently with other members of the team investigating
+2023 that:
 
-      the Apex Corner ARQ Incident, such as Gerald Barnes. In particular, I
+a. the Fast ARQ process for extracting one calendar month of ARQ data, which
+has been in place since the transition from Legacy Horizon to HNG-X in
+2010, does not always account for transactions that are sealed to the audit
+archive more than a few days after the end of the calendar month during
+which the transactions took place. Consequently, the Marooned
+Transactions (which were sealed on 4 April 2008) were not retrieved by the
 
-      understand from conversations during the week commencing 4 December
+process that was run when extracting the ARQ data for March 2008.
 
-      2023 that:
+b. the Fast ARQ process filters transactions that were sealed within each
+calendar month by the ‘start date’ of the transaction (i.e. the date the
+transaction took place in the branch). As the Marooned Transactions had a
+start date of 13-20 March 2008, they were not retrieved by the process that
 
+was run when extracting the ARQ data for April 2008.
 
-      a. the Fast ARQ process for extracting one calendar month of ARQ data, which
+Page 8 of 11
+19.
 
-         has been in place since the transition from Legacy Horizon to HNG-X in
+20.
 
-         2010, does not always account for transactions that are sealed to the audit
+21.
 
-         archive more than a few days after the end of the calendar month during
+WITNO04110300
+WITNO04110300
 
-         which     the   transactions    took   place.   Consequently,   the    Marooned
+| now understand it is for these reasons that the 13 Missing Girocheque
 
-         Transactions (which were sealed on 4 April 2008) were not retrieved by the
+Transactions were not included in the September 2023 ARQ data.
 
-         process that was run when extracting the ARQ data for March 2008.
+In general, a delay between (i) the date a transaction was carried out, and (ii)
+the date it was sealed to the Audit Archive could be caused by a number of
+things, such as counter hardware problems (as was the case at Apex Corner)
+or network connectivity problems. If these delays extended beyond two or three
+days into the next calendar month, it is possible that they would not be identified
+in ARQ returns that are prepared following the Fast ARQ process that has been
+in place since 2010. The Apex Corner Incident is the only such incident | am
 
+aware of, but it is possible that the reliability of other historic ARQs is affected.
 
-      b. the Fast ARQ process filters transactions that were sealed within each
+As | mention above, | am currently working with relevant technical and
+operational staff at Fujitsu to understand the nature and extent of the impact of
+the Apex Corner Incident. The focus of our investigations to date has been on
+transactions that took place under Legacy Horizon, as this is the system that
+was in operation at Apex Corner in March and April 2008. There has been only
+one instance of a transaction requiring a correction by the SSC under HNG-X.
+| have checked the attributes of this transaction, and it has an insert date equal
+to the transaction start date. Further, the HNG-X system, as an online system,
+does not have the potential for delays in the same way that Legacy Horizon did,
+as a predominantly offline system. | do not have any knowledge of the audit
+process under HNG-X, but these are relevant considerations in the
+investigation that is being undertaken into whether the Apex Corner Incident
 
-         calendar month by the `start date' of the transaction (i.e. the date the
+may also affect HNG-X transactions.
 
-         transaction took place in the branch). As the Marooned Transactions had a
+Page 9 of 11
+WITN04110300
 
-         start date of 13-20 March 2008, they were not retrieved by the process that
+INDEX TO THIRD WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
 
-         was run when extracting the ARQ data for April 2008.
+WITNO04110300
+WITNO04110300
 
-
-
-                                        Page 8 of 11
-                                                                                          WITNO4110300
-                                                                                       WITNO4110300
-
-
-
-
-19.   I now understand it is for these reasons that the 13 Missing Girocheque
-
-      Transactions were not included in the September 2023 ARQ data.
-
-
-20.   In general, a delay between (i) the date a transaction was carried out, and (ii)
-
-      the date it was sealed to the Audit Archive could be caused by a number of
-
-      things, such as counter hardware problems (as was the case at Apex Corner)
-
-      or network connectivity problems. If these delays extended beyond two or three
-
-      days into the next calendar month, it is possible that they would not be identified
-
-      in ARQ returns that are prepared following the Fast ARQ process that has been
-
-      in place since 2010. The Apex Corner Incident is the only such incident I am
-
-      aware of, but it is possible that the reliability of other historic ARQs is affected.
-
-
-21.   As I mention above, I am currently working with relevant technical and
-
-      operational staff at Fujitsu to understand the nature and extent of the impact of
-
-      the Apex Corner Incident. The focus of our investigations to date has been on
-
-      transactions that took place under Legacy Horizon, as this is the system that
-
-      was in operation at Apex Corner in March and April 2008. There has been only
-
-      one instance of a transaction requiring a correction by the SSC under HNG-X.
-
-      I have checked the attributes of this transaction, and it has an insert date equal
-
-      to the transaction start date. Further, the HNG-X system, as an online system,
-
-      does not have the potential for delays in the same way that Legacy Horizon did,
-
-      as a predominantly offline system. I do not have any knowledge of the audit
-
-      process under HNG-X, but these are relevant considerations in the
-
-      investigation that is being undertaken into whether the Apex Corner Incident
-
-      may also affect HNG-X transactions.
-
-
-
-
-                                     Page 9 of 11
-                                                       WITNO4110300
-                                                      WITNO4110300
-
-
-
-
-Statement of Truth
-
-
-I believe the content of this statement to be true.
-
-Signed:          G RO           ----.-
-           ~Cf
-Dated:            1'Z 2.©
-
-
-
-
-                                     Page 10 of 11
-                                                                      W I TN04110300
-                                                                     WITNO4110300
-
-
-
-
-   INDEX TO THIRD WITNESS STATEMENT OF JOHN GRAEME SIMPKINS
-
-Exhibit   Description                 Control Number   URN
+Exhibit Description Control Number URN
 No.
-   1.     Spreadsheet titled "Apex    POINQ0240972F
-          Corner downloaded ARQ"                       FUJ00234830
-          dated 24 October 2023
-   2.     'ARQ Apex Corner' dated     POINQ0240985F
-                                                       FUJ00234843
-          11 August 2023
-   3.     'Sathyan - KS06' dated 10   POINQ0240969F
-                                                       FUJ00234827
-          April 2008
-   4.     HSD RMGA Incident           POINQ0240989F
-          Export 161338 dated 13                       FUJ00234847
-          March 2008
-   5.     OCR 18618 dated 4 April     POINQ0240992F
-                                                       FUJ00234850
-          2008
-   6.     PC0156078 dated 20          POINQ0240994F
-                                                       FUJ00234852
-          March 2008
-   7.     HSD RMGA Incident           POINQ0240990F
-          Export 173358 dated 20                       FUJ00234848
-          March 2008
-   8.     PC0156836 dated 10 April    POINQ0240995F
-                                                       FUJ00234853
-          2008
+1. Spreadsheet titled "Apex POINQ0240972F
+Corner downloaded ARQ" FUJ00234830
+dated 24 October 2023
+2. ‘ARQ Apex Corner' dated =| POINQ0240985F
+14 August 2023 FUJ00234843
+3. ‘Sathyan - KS06' dated 10 | POINQ0240969F
+April 2008 FUJ00234827
+4. HSD RMGA Incident POINQ0240989F
+Export 161338 dated 13 FUJ00234847
+March 2008
+5. ons 18618 dated 4 April POINQ0240992F FUJ00234850
+6. PC0156078 dated 20 POINQ0240994F
+March 2008 FUJ00234852
+7. HSD RMGA Incident POINQ0240990F
+Export 173358 dated 20 FUJ00234848
+March 2008
+8. PC0156836 dated 10 April | POINQ0240995F FUJ00234853
 
+2008
 
-
-
-                               Page 11 of 11
-
+Page 11 of 11

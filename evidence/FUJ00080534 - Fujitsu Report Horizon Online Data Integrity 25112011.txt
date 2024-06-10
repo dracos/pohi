@@ -1,0 +1,954 @@
+FUJ00080534
+
+FUJ00080534
+Horizon Online Data Integrity
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+Document Title: Horizon Online Data Integrity
+Document Reference: ARC/GEN/REP/1229
+Release: N/A
+Abstract: This document describes the measures that are built into Horizon
+Online to ensure data integrity.
+Document Status: Approved
+Author & Dept: Gareth | Jenkins
+External Distribution:
+Security Risk YES, security risks have been assessed, see section 0.10 for
+
+Assessment Confirmed details.
+
+Approval Authorities:
+
+Name Role Signature Date
+Amit Apte CTO
+lan Howard CcISO
+
+Note: See Post Office Account HNG-X Reviewers/Approvers Role Matrix (PGM/DCM/ION/0001) for guidance.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: tof 1
+FUJ00080534
+
+FUJ00080534
+Horizon Online Data Integrity
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+0 Document Control
+0.1 Table of contents
+0 DOCUMENT CONTROL. wed
+0.1 Table of contents. 2
+0.2 Figures and Tables.. 2
+
+0.2.1 Table of Figures. .2
+
+0.2.2 Table of Table: 3
+0.3 Document History. 3
+
+0.4 Review Detail
+0.5 Associated Documents (Interna’
+0.6 Abbreviations.
+0.7. Glossary...
+
+0.8 Changes Expecte
+
+0.9
+
+0.10
+
+1
+
+141
+
+1.2
+
+1.3
+
+1.4 Stake Holders, Roles and Responsibilitie:
+
+1.5 Constraints, Assumptions and Risks. .8
+2 PURPOSE. a)
+3 HORIZON ONLINE DATA INTEGRITY.........scscssssssseseseesensserersesstessssssesneenseeesnees 10
+
+3.1. Overview of Normal Operation.
+3.2 Recoverable Transactions.
+3.3 Failures...
+3.4 Time Out:
+3.5 Forced Log Out.
+3.6 Terminal Failure
+3.7. Recovery...
+3.8 Database Characteristic:
+
+4 AUDIT SYSTEM..
+
+0.2 Figures and Tables
+
+0.2.1 Table of Figures
+
+Figure 1 — Primary message flowS.............0.00ccceeeee
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+0.2.2 Table of Tables
+
+None.
+
+0.3 Document History
+
+Version No. Date Summary of Changes and Reason for Issue Associated Change -
+CP/PEAK/PPRR
+
+Reference
+
+on 18/01/2011 First informal Draft. Changes from version 0.ta in red (like this)
+with etrikeout where appropriate. Minor changes in response to
+feedback from Torstein Godeseth and Graham Allen. Changes
+from version 0.1b in purple (like this) with strikeout where
+appropriate. Minor changes in response to feedback from Penny
+
+Thomas.
+
+1.0 24/08/2011 Version for approval (coloured fonts removed). Minor
+amendments to the template
+
+14 03/11/2011 Changes from version 1.0 in red (like this) with strikeout where
+
+appropriate. Scope extended to consider Integrity of Central
+systems and data passed to Post Office Ltd backend systems.
+Changes from version 1.1a in purple (like this) with etrikeout
+where appropriate. Changes from version 1.1b in green (like
+this) with etrikeout where appropriate.
+
+12 09/11/2011 Changes from version 1.1 in red (like this) with strikeout where
+appropriate.
+
+Significant changes are
+
+Updating review details in section 0.4
+Rewording of section 2
+
+Correction in section 3.4 to handle Cancel option
+Addition of a para to section3.8 to highlight
+differences from old Horizon audit trail
+
+© Minor clarifications
+
+2.0 09/11/2011 Change markings removed and status updated to Approved.
+24 21/11/2011 Changes from version 2.0 in red (like this) with strikeout where
+appropriate.
+
+Significant changes are
+© Change of Scope to restrict it to the Integrity of the
+Audit Trail
+© Removal of old sections 3 & 4
+* Addition of Section 4 on the Audit System
+
+Changes from version 2.1a in purple (like this) with strikeout
+Where appropriate, Minor clarifications in response to comments.
+
+3.0 21/11/2011 Change markings removed and status updated to Approved.
+34 24/11/2011 Changes from version 3.0 in red (like this) with stikeout where
+appropriate.
+
+Significant changes are
+* Addition of new section 1
+
+Changes from version 2.1a in purple (like this) with strikeout
+where appropriate. Minor clarifications in response to comments.
+
+4.0 25/11/2011 Change markings removed, typo corrected and minor change to
+Objective and status updated to Approved
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo:  3of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+Fe)
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+0.4 Review Details
+
+Review Comments by
+Review Comments to
+Mandatory Review
+
+Role Name
+CTO Amit Apte (t)
+Architect Torstein Godeseth (*)
+‘Commercial Director Tim Healy (*)
+
+CIsO lan Howard (t)
+
+Role Name
+
+RMGA Account Director Gavin Bell
+
+RMGA Operations Director James Davidson (f )
+RMGA Business Change & Development | Mike Deaton
+
+Director
+
+Legal Ed Phillips (*)
+
+RMGA Security Penny Thomas (*)
+RMGA Security Donna Munro
+
+RMGA Operations Pete Thompson (t )
+Architect Pete Jobson
+Applications Development Manager lan Turner
+
+Issued for Information — Please restrict
+this distribution list to a minimum
+Position/Role Name
+
+(* ) = Reviewers that returned comments
+(t ) = Reviewers that returned no comments
+
+0.5 Associated Documents (Internal & External)
+
+Reference Version Date Title Source
+
+PGM/DCM/TEM/0001 Fujitsu Services Post Office Account | Dimensions
+(00 NOT REMOVE) HNG-X Document Template
+
+ARC/GEN/REP/0001 HNG-X Glossary Dimensions
+
+Unless a specific version is referred to above, reference should be made to the current approved
+versions of the documents.
+
+0.6 Abbreviations
+
+Abbreviation Definition
+AP-ADC Automated Payments — Advanced Data Capture. A mechanism that allows
+Post Office Ltd to produce scripts for specific transaction processing.
+APS. Automated bill Payments Service
+© Copyright Fujitsu Services Ltd 2011 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARCIGENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date: 25/11/2011
+
+PageNo: 4of 1
+FUJ00080534
+
+FUJ00080534
+Horizon Online Data Integrity
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+BAL Branch Access Layer. The component that handles the interface from the
+counter and updated BRDB
+BRDB Branch Database
+DRS Data Reconciliation Service. A system used to reconcile transactions
+carried out with Financial Institutions.
+FAD Financial Accounting District
+FL Financial Institution
+HNG-X Horizon Next Generation — Plan X. Also known as Horizon Online
+HR SAP An SAP system used by Royal Mail Group to remunerate sub-postmasters
+LFS Logistics Feeder System. A System used to interface with Post Office Ltd’s
+Cash and Stock Management services in POL SAP.
+jsn Journal Sequence Number. Unique identifier for an audited message from
+a specific Branch and Counter Position.
+ONCH OverNight Cash on Hand. The amount of Cash held in a Post Office
+Branch overnight. This is used to predict future cash requirements for the
+Branch.
+POL SAP. An SAP system that carries out Post Office Ltd’s accounting and cash
+management functions.
+RAC Real Application Cluster
+Or
+Request, Authorisation, Confirmation. The mechanism used for interfacing to
+Financial Institutions
+TCP/IP The standard communications protocol used for communications between
+the Counter and the Data Centre.
+TPS Transaction Processing System
+
+0.7 Glossary
+
+See also document ARC/GEN/REP/0001.
+
+Term inition
+
+Back Office Administrative Functions carried out in a Post Office Ltd Branch such as Remitting
+In Cash / Stock
+Basket The set of transactions which are processed together. For example all the
+transactions associated with a single Customer (including those used for
+Settlement).
+Client An organisation for which Post Office Ltd acts as an Agent, for example DVLA
+where Post Office Ltd provides Motor Vehicle licences to customers on behalf of
+DVLA.
+FAD Code Unique identifier for a Post Office Ltd Branch
+© Copyright Fujitsu Services Ltd 2011 FUJITSU RESTRICTED - COMMERCIAL IN Ref. ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date: 25/11/2011
+
+PageNo: Sof 1
+FUJ00080534
+
+FUJ00080534
+Horizon Online Data Integrity
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+Settlement Those transactions that represent the payment by the Customer for goods or
+Services or to the customer in respect of Out Pay transactions such as Cash
+Withdrawals.
+
+0.8 Changes Expected
+
+Review comments et
+
+0.9 Accuracy
+
+Fujitsu Services endeavours to ensure that the information contained in this document is correct but, whilst every
+effort is made to ensure the accuracy of such information, it accepts no liability for any loss (however caused)
+sustained as a result of any error or omission in the same.
+
+0.10 Security Risk Assessment
+
+No identified security risks.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 6 of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+1. Terms of Reference
+
+Fujitsu would like to instigate an independent audit of the HNG-X environment currently
+delivered to Post Office Limited to provide confidence that the solution has intrinsic security
+controls commensurate with the requirement for legal admissibility. This will enable a legal
+review of contract compliance.
+
+1.1 Objective
+
+Now that Horizon Online has been operational for 12 months, Fujitsu is undertaking a legal review of its
+compliance with its contract obligations and in order to enable that, would like to undertake an
+Independent assessment to demonstrate the adequacy of the security controls that have been designed
+into the system to provide assurance in the robustness of the audit of the transactional data that may be
+used as evidence in court.
+
+The purpose of this document is to define the Terms of Reference for the project and to provide a
+technical description of measures that are built into Horizon Online to ensure data integrity.
+
+“The focus of the assessment will reflect how, from the initial design of Horizon Online, Fujitsu have built
+in integrity of transactions as a requirement.
+
+The assessment will demonstrate that the audit data is absolutely reflective of the transactions that have
+taken place.
+
+1.2 Scope
+
+The scope of this assessment is only to include the current iteration of Horizon Online (also known as
+HNG-X).
+
+The focus will be to ensure the integrity through examination of controls and testing of the audit trail from
+point of entry at the counter, while transitory through the system to storage at the commit stage and then
+reconcile that audit data against the actual transactional data, ensuring the appropriateness of the
+various integrity checks along the way
+
+The integrity of Oracle RAC (Real Application Clusters) is to be assumed and it not in the scope of this
+project.
+
+The assessment shall provide a list of security controls, some of which will reference wider aspects of
+the system - process, procedure and policy - Fujitsu will respond to these wider controls referencing
+existing industry recognised certification to legislative standards that Fujitsu have achieved on behalf of
+Post Office Ltd e.g. 1S027001, |ISO20000, ISO9001, PCI DSS, etc. This assessment is to recognize the
+independent assessment undertaken as part of adherence to these standards, while concentrating on the
+technical assurance of the audit of transactions. The resulting report will also summarize the scope of
+the audits undertaken by Fujitsu to demonstrate capability of the overall service offered,
+
+Documented guidance is required on an adequate method of self-assessment with the aim to maintain
+this level on confidence on an on-going basis, throughout changes to the system.
+
+1.3 Deliverables
+
+An audit report demonstrating the security controls required to assure the integrity of the audit process
+are in place and that Fujitsu has provided sufficient evidence that these controls are being adequately
+met. This report should be created with the expectation that this report may be submitted in court to
+demonstrate adequacy of the controls in place.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+1.4 Stake Holders, Roles and Responsibilities
+
+Stephen Long — Project Sponsor
+
+James Davidson — Service Operations Director
+Torstein Godeseth — Architecture
+
+Gareth Jenkins — Architect
+
+Mike Deaton — Project Leader
+
+Tim Healy - Commercial
+
+Edward Phillips - Legal
+
+lan Howard - Security
+
+eee ercecee
+
+1.5 Constraints, Assumptions and Risks
+All work will be undertaken under an agreed and signed Non-Disclosure Agreement.
+
+Access to the system may be limited in accordance to the Data Protection Act and PCI DSS standards,
+special consideration should be given to the handling of data that may contain card holder data.
+
+All communication with Post Office should be undertaken by Fujitsu Services through the project leader.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 8 of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+2 Purpose
+
+This document has been prepared for KPMG to enable scoping for an independent assessment of data
+integrity controls around Horizon Online in order that legal advice can be obtained from in-house counsel
+about Fujitsu's contractual liability.
+
+This document is a technical description of the measures that are built into Horizon Online (also known
+as HNG-X) to ensure data integrity and descriptions as to how those measures apply in each case.
+
+Note that this document only covers Horizon Online (HNG-X). It does not cover the original Horizon
+system, which is specifically excluded from this exercise.
+
+Section 3 describes the measures taken in the design of the Counter, Branch Access Layer (BAL) and
+Branch Database (BRDB) to ensure integrity. Section 4 describes the audit system used to preserve the
+auditable messages sent from the counter to the Data Centre for use in Litigation Support.
+
+The scope of this paper is restricted to showing the Integrity of the Audit trail and that it accurately
+reflects the transactions entered at the counter.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 9of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+3 Horizon Online Data Integrity
+
+3.1. Overview of Normal Operation
+
+Horizon Online is designed to store all data in an online database known as the Branch Database
+(BRDB). This database is a highly resilient Oracle database implemented using Oracle Real Application
+Cluster RAC (see also section 3.8). In particular no data concerning Business Transactions is retained at
+the counter other than in the memory of the Counter Business Application.’
+
+Data] Copy
+
+Oracle
+Write
+
+Audit
+Write
+
+Audit |Store
+
+‘Audit System
+
+BAL | Message Audit |Retrieval
+
+Counter
+
+Figure 1 —- Primary message flows
+
+Transactions are carried out locally on the Horizon Online counters and a Basket is built up during a
+Customer Session. Each transaction will result in a Basket Entry consisting of one or more Accounting
+Lines. At the end of a Customer Session when the Basket has been completed and all Settlement items
+(or Tender lines) have been processed and added into the Basket as further Accounting Lines, such that
+the total value of the Basket is zero, the entire Basket is sent to the Data Centre as a BAL Message
+where the Branch Access Layer (BAL) processes the message and all the Accounting Lines are recorded
+and committed to the BRDB as part of a single Oracle Commit. This means that either all the
+transactions within a Basket are successfully written or none of them are. Once the Accounting Lines
+have been successfully committed a response is returned to the counter indicating this success and this
+then allows any receipts to be printed. The Basket is deemed to be fully completed once all relevant
+receipts have been successfully printed. Note that if there are no receipts to be printed, then the screen
+is updated to show the top level menu indicating successful completion of the previous Basket.
+
+The Oracle Commit also includes an Audit of the data originally transmitted from the counter to the
+BRDB. This data is digitally signed at the counter using a key generated as part of the Log On process.
+It is this audit record that is used to provide the extract of transactions used for Litigation support.
+Section 4 describes how this audit record is managed after it is committed to BRDB.
+
+‘ In order to support recovery as described in section 2.7, the identifier of the last successfully completed
+Basket is recorded on the Hard disk at the counter. However this is not classed as Business Data.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED.
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 10 of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+The audit record may also include application events that have been accumulated at the counter since
+the last auditable message was sent to the Data Centre. All major activities that affect the Branch also
+have an audit of the data sent from the counter to the Data Centre included in the audit log. Such
+activities include:
+
+e Log On/ Log Off of Users at the counter
+e Creation / modification of User Accounts (including change of password)
+e Attaching Users to Stock Units
+« Balancing a Stock Unit
+e Producing the Branch Trading Statement.
+Each Audit record includes the following identification:
+e Branch identifier (i.e. FAD Code)
+* Counter identifier
+e Sequence Number (known as a Journal Sequence Number or jsn)
+e Counter timestamp
+
+Within any counter (i.e. for a given Branch Id / Counter Id combination), the jsn will always increase by
+exactly one for each successive audit record. This enables a check to be made that there are no records
+missing from the audit trail when they are retrieved.
+
+The transactions in a basket are constructed using the principle of double-entry bookkeeping. This
+means that in addition to the Accounting Lines that relate to the actual business transactions, separate
+Accounting Lines are also generated for the tender items (such as Cash, Cheques or Credit / Debit
+Cards), resulting in the total value of all Accounting Lines in a Basket adding up to zero. When the
+contents of a Basket are written to BRDB a check is made that the net value of all the accounting lines is
+indeed zero and should it not be, then an alert is raised and the basket is discarded and an error
+response retumed to the counter.
+
+Note that this could only happen as a result of a bug in the code and this check is included
+specifically to check for any such bugs
+
+Baskets are also built up during Back Office Sessions and such Back Office baskets are handled in a
+similar way to Customer Baskets.
+
+3.2 Recoverable Transactions
+
+Simplistically it could be assumed that if a Basket fails to commit then the content of that basket can just
+be discarded.
+
+This is similar to the normal model presented with on-line shopping, in that if your browser fails after
+trying to commit the basket, you are uncertain as to whether your purchase has been processed or not.
+You then need to carry out some other activity (e.g. phone the provider or check your Credit Card
+account the next day) before knowing whether or not to re-attempt the transaction.
+
+However this is not really appropriate in a Post Office environment. For many transactions it can be
+assumed that the Basket has failed to commit and so the transactions in the basket are discarded and
+they can be re-attempted at some later date. However in some cases this is not appropriate since the
+Transaction may have had an impact on some external system. An example of this is a Banking Cash
+Withdrawal. In this case the Bank has been informed of the Transaction during the processing of the
+Banking Transaction and has removed the funds from the Customer's account. Therefore it is important
+that this transaction is completed. Such transactions are considered to be Recoverable Transactions.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 11 0f 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+If a transaction is to be Recoverable, then information about that transaction is recorded in the BRDB
+when the transaction is first initiated (and before the transaction is sent to the Fl) allowing the transaction
+to be recovered should there be a failure. Note that this recovery information is not audited.
+
+There are many types of Recoverable Transaction:
+e All Banking transactions
+« All Credit / Debit Card transactions
+e All E-Top up transactions
+« All Reversals
+
+e Selected AP-ADC transactions (as defined in the transaction script)
+
+3.3 Failures
+
+Any failures in committing Auditable activities at the Data Centre will result in an error response being
+returned to the counter. Such an error response will be displayed to the User, thus informing them of the
+situation. The next action then depends upon the Auditable activity:
+
+«If it relates to a basket settlement where the basket that contains 1 or more Recoverable
+Transactions, then a Forced Log Out is initiated and the normal Recovery process will tidy things
+up
+
+e If it relates to a basket settlement where the basket doesn’t contain any Recoverable
+Transactions, then the content of the basket is discarded and the User is returned to the Menu to
+continue working
+
+e If it relates to a non-basket activity, then activity is abandoned and the User is returned to the
+Menu to continue working
+
+In all cases the User is informed of what is happening.
+Such failures will not be visible in the transaction audit, but may be visible in the system Event Log.
+
+3.4 Time Outs
+
+Should there be no response from the Data Centre following an attempted commit of an auditable
+activity within a timeout period (currently set to 30 seconds), an automatic retry is invoked. This sends
+identical business data to the Data Centre where a check is made to see if the Audit data has already
+been committed to BRDB.
+
+e If it has been committed, then this means that the original activity was successful, but the
+response did not reach the counter in time. Therefore no action is taken in terms of updating the
+BRDB and a Success response is returned to the counter.
+
+«If it has not been committed, then the original activity either didn’t reach the Data Centre, or it
+failed to be processed. In either case it is safe to re-process the data and the appropriate
+response is returned to the counter after the data has been processed which will be handled as if
+it was from the original request. Note that re-processing the data will include recording an audit
+of the data if the reprocessing is successful.
+
+Should the retry also timeout, then the User is prompted and asked whether they wish to Retry or Cancel
+the Activity.
+
+e Selecting Retry results in the Activity being retried once more as described above. If this also
+times out, then a further automatic retry is attempted and if this is still unsuccessful, then the
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 12of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+User is again prompted as to whether to Retry or Cancel. This cycle then continues until either
+there is success, or the User finally gives up and selects Cancel.
+
+e Selecting Cancel results in a Forced Log Out being invoked.
+
+Such time-outs and any retries will not be visible in the transaction audit, but may be visible in the
+system Event Log.
+
+3.5 Forced Log Out
+
+Continual failures to Update the Database at the Data Centre mean that it is not clear at the counter
+whether or not the database accurately reflects the situation in the Branch. Therefore the safest thing is
+to force a Log Off at the counter and ensure that when communications are re-established, that the
+Recovery process is invoked to reconcile the counter view with that on BRDB.
+
+If there is a basket currently being processed, then a special Disconnected Session Receipt will be
+produced showing which transactions have been discarded and which are to be recovered making it
+clear what money needs to be exchanged with the Customer.
+
+3.6 Terminal Failure
+
+Clearly a counter terminal can fail at any time. However the situation is not very different from that
+where a failure to contact the Data Centre has occurred as described above. Therefore the behaviour of
+the User needs to be as follows:
+
+1. Work out the value of any Recoverable Transactions (there ought to be printed receipts
+associated with all of these)
+
+From this work out what is owed to, or due from the customer
+Consider whether any Credit / Debit Card payments may have been successful
+
+From this work out any cash due to / from the customer.
+
+oF ON
+
+Write out any necessary receipts by hand
+6. Keep a record of exactly what happened to be used at Recovery time.
+
+Clearly in this case the system is unable to assist the User in guiding them as to what to do.
+
+3.7 Recovery
+
+Recovery after a failure must always take place on the same counter position. Note that if the terminal
+has failed and needs to be replaced by an engineer, then recovery cannot be carried out until the
+replacement terminal is working correctly.
+
+At every Log On a check is made in the Central Database to see if any Recovery is required. The
+following checks are carried out:
+
+1. Is there any outstanding Recovery Data associated with this terminal?
+
+If so return the outstanding Recovery Data to the counter so that the transactions can be
+recovered using Rollforward Recovery
+
+2. Did the last session carried out on this terminal have a tidy Log Off?
+
+If not, return details of the last Basket (if any) that was successfully written from the last Log On
+session to the counter so that further recovery checks can be made
+
+Otherwise all is well and No Recovery is required (i.e. the normal case).
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 13 0f 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+During the Log On process, if the counter receives an indication that recovery may be required (i.e. one
+of the two cases described above), then the following occurs before the Log On is completed:
+
+1. If Rollforward Recovery is requested, then for each Transaction with associated Recovery Data,
+then the appropriate Recovery script is executed, which will result in a Rollforward Recovery
+Basket being produced which is then settled to the Branch Database as normal and this will
+generate a recovery Receipt. This will normally match any Disconnected Session receipt (or
+other information recorded at the time of failure).
+
+2. If there was no Basket Details of a Last successful Basket returned, then No Recovery is
+required
+
+3. If further checks are requested, then the following checks are made at the counter:
+a. What was the identifier of the last successful Basket sent from the counter?
+
+The identifier of the last successful Basket is written to the Counter Hard Disk at the
+completion of the basket (i.e. after all Receipts have been successfully printed).
+
+Therefore, provided that the Terminal has not been replaced, then this is available to be
+checked for automatically.
+
+Where the terminal has been physically replaced, a dialogue is invoked to get the user
+to confirm the identity of the last Successful session which may involve displaying the
+last basket known to the Data Centre.
+
+b. If this matches the identifier of the Last Successful Basket that was returned from the
+Data Centre, then No Recovery is required and all is well.
+
+c. If they don’t match (i.e. the Basket returned from the Data Centre was the one that the
+counter was trying to save at the time of failure), then the Forced Log Off process will
+have assumed that the Basket failed. Therefore the Recovery process needs to
+generate a Basket that reverses any non-recoverable transactions in that basket (since
+the forced Log Off would have discarded them). This is known as Rollback Recovery.
+This will also produce a Receipt. However it will not match the Disconnected Session
+Receipt exactly.
+
+3.8 Database Characteristics
+
+The database uses Oracle version 10gR2. It uses an Oracle Real Application Cluster (RAC), which runs
+the database over multiple nodes (servers). In practice there are normally 4 such database nodes
+
+Partitioned tables store branch specific data. This provides high performance and scalability.
+Applications need to know in which partitions data is stored and which nodes manage these partitions.
+They use a convention based on Branch codes.
+
+The design of the Branch Database supports non-stop trading during core hours.
+
+e Oracle RAC is resilient. If one node fails, the remaining nodes carry on running and the
+database remains available for use. The database can meet its performance targets if one node
+fails.
+
+e The standby database allows very fast recovery if there is a data corruption that takes the live
+database offline. The maintenance of the standby database is automatic.
+
+A disaster recovery site remotely mirrors the data. The mirroring of data is synchronous. This guarantees
+that no data is lost if there is a catastrophic site failure.
+
+Data associated with a Basket is stored in 3 separate areas of the Branch database:
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 140f 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+1. A copy of the actual Basket data as transmitted from the counter together with the associated
+digital signature is held in a table known as the message journal.
+
+Use of the data in the message journal is described further in section 4.
+
+2. Individual accounting lines are extracted from the basket and each accounting line is written to
+two separate tables:
+
+a) Detailed transaction information for passing to Post Office Ltd Back end systems
+
+This data is retained for sufficient time to ensure it has been successfully passed to Post
+Office Ltd's back end systems (in practice it is held for about 4 days)
+
+b) Summary transaction information to support reporting and Branch accounts
+
+This data is retained to allow it to be used for any reporting and accounting period within
+the branch (in practice it is held for about 60 days)
+
+Each night the reporting data is summarised within the branch database to provide daily totals for
+transactions based on product, mode, stock unit and accounting period. This summarised data is used
+(together with transactions for the current day) when balancing a stock unit, thus minimising the amount
+of data that needs to be considered.
+
+Although the data used for generating the counter reports and passing to Post Office Ltd’s back end
+systems is taken from the tables described in point 2 above, any data provided by Fujitsu in order to
+support litigation is based on the Audit taken at point 1 above. Since the processing for producing any
+report is based on the same source of data (ie the audited data sent from the counter) it is asserted that
+any report could be regenerated based solely on the audited data. As described in section 3.1, the
+audited data consists not only of the Basket information, but also any other significant events and in
+particular the Opening Figures (ie cash and stock levels) calculated at the start of a new period based on
+the balancing of an accounting period.
+
+It should be noted that such data is not presented as evidence as part of the normal litigation
+support service. Similarly we do not have tools that extract data such as Opening Figures into a
+readable form or to be able to re-generate reports based on the audit trail. However such data is
+available in the audit trail, and if required, such tools could technically be developed to resolve any
+dispute in that area. (Though there are clearly commercial considerations in terms of the cost and
+effort involved in doing so.)
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 15 of 1
+FUJ00080534
+FUJ00080534
+
+Horizon Online Data Integrity
+
+FUJITSU FUJITSU RESTRICTED - COMMERCIAL IN CONFIDENCE
+AND LEGALLY PRIVILIDGED
+
+4 Audit System
+
+As outlined in section 3.1 and described in section 3.8, any auditable message from the counter is
+stored, together with its Digital Signature and other key attributes in an “Audit table” (known as the
+Message Journal) in BRDB.
+
+To ensure that the message is not tampered with after being sent from the counter, each message has
+an associated Digital Signature. The mechanism for creating this Digital Signature is as follows:
+
+1. AtLog On, the Counter creates an RSA Public / Private key pair.
+
+2. The Public key is sent to the BAL as part of the audited Log On message
+
+3. The Log On message is concatenated with the Digital Signature and the BAL’s signing certificate
+for its Public Key and signed by a BAL Private key (held in the data Centre Key Store) and
+added to the audit trail with a BAL generated jsn
+
+4. All subsequent messages are digitally signed by the counter using the private key established at
+Log On.
+
+5. Digitally Signing a message involves taking a SHA-1 Hash of the message and digitally signing
+the Hash value using RSA.
+
+6. The Digital signature is stored alongside the message in the Journal table and is extracted with it
+into the Audit file as described below
+
+Each night after midnight, the contents of this table for the previous day are copied from the BRDB to a
+number of serial files.
+
+A number of files are generated due to the volume of data processed each day. All data from a
+given Branch will be concentrated into a small number of these files for ease of retrieval.
+
+At this point a check is made that indeed there are no missing or duplicate jsns for any counter and
+should any be found an alert is raised.
+
+Note that this could only happen as a result of a bug in the code or by somebody tampering with the
+data in BRDB and this check is included specifically to check for any such bugs / tampering.
+
+These files are then copied to the Audit system where they are sealed with digital seals. They are held
+there for a period of 7 years during which time they may be retrieved and filtered to produce the relevant
+audit data for a particular Branch.
+
+The Digital Seal is calculated using an MD5 hash of the entire content of the file being sealed. This
+value is stored in a separate “Seals Database” held on the Audit Server.
+
+Whenever data is retrieved for audit enquiries a number of checks are carried out:
+
+a) The audit files have not been tampered with (i.e. the Seals on the audit files are correct)
+b) The individual Baskets (and other records) have their digital signatures checked to ensure that
+they have not been corrupted.
+
+This involves finding the Public Key which has been saved with the Log On message and also
+checking the integrity of the Log On message using the Public Key Certificate of the BAL’s signing
+key which is stored as part of the Log On audit message.
+
+c) Accheck is made that no records are missing or duplicated. |.e. a check is made that there are
+no gaps or duplicates in the jsn sequence for any counter.
+
+It should be noted that this same Audit system was used to hold similar data from the old Horizon
+system. However on the old Horizon system the audit point was the message journal on the Riposte
+Correspondence Servers and thus the technology used for producing the audit of data is completely
+different between the old Horizon system and Horizon Online.
+
+© Copyright Fujitsu Services Ltd 2017 FUJITSU RESTRICTED - COMMERCIAL IN Ref: ARC/GENIREP/1229
+CONFIDENCE AND LEGALLY Version: 4.0
+PRIVILIDGED
+Uncontrolled if Printed or Distributed Date’ 25/11/2011
+
+PageNo: 16 of 1

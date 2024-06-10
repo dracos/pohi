@@ -1,16 +1,18 @@
-                                                                                                                                                                                   POL00029728
-                                                                                                                                                                             POL00029728
-
-
+POL00029728
+POL00029728
 
 Message
-From:          Westbrook, Mark \(UK Manchester\)                                                                    ^ RO
-on behalf of   Westbrook, Mark \(UK Manchester\) _._._._._._._._._._._._._._._._._._._._._._._._._._._.V._._._.R._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._..
-Sent:          20/05/2014 12:44:04
-To:            Rodric Williams!               GRO                I• James, Gareth \(UK - Manchester                                           \)L               GRO
-CC:            Chris Aujard -_ --_---_..--- -GRO ------ -__---
-Subject:       RE: Follow Up to Board Update - Subject to Legal Privilege
 
+From: Westbrook, Mark \(UK - Manchester\)!
+
+on behalf of | Westbrook, Mark \(UK - Manchester\) G RO
+
+Sent: 20/05/2014 12
+
+To: Rodric Williat James, Gareth \(UK - Manchester\)
+cc: Chris Aujard |
+
+Subject: RE: Follow Up to Boar
 
 Hi Rodric,
 
@@ -19,196 +21,190 @@ just want to skip down to my analysis below this):
 
 Centera provides content authenticity and WORM, which means that once written, customer data is immutable and
 cannot be modified. If the original file is modified, a new object is created and the original file is not overwritten. To
-our customers, "compliance" means many different things. It could mean that no data can be deleted by the
+our customers, “compliance” means many different things. It could mean that no data can be deleted by the
 application. It can mean that the storage platform needs to be locked down. Since the definition of compliance means
 many different things to our customers, Centera supports 4 modes or editions of compliance: Basic, Governance Edition
 (GE), and Compliance Edition Plus (CE+). Each mode provides different capabilities so that customers can tailor features
 to meet their specific compliance needs.
 
-    1. Basic: in its Basic edition, Centera delivers the full power of content addressed storage (CAS) and WORM
-       capability. Self-configuring, self-managing, and self-healing, it captures and preserves original content,
-       protecting the structure of electronic records. However, data retention is NOT enforced and advanced features
-       such as shredding and advanced retention management are NOT available. Data can be deleted at any time,
-       provided the application has the required access rights.
+1. Basic: in its Basic edition, Centera delivers the full power of content addressed storage (CAS) and WORM
+capability. Self-configuring, self-managing, and self-healing, it captures and preserves original content,
+protecting the structure of electronic records. However, data retention is NOT enforced and advanced features
+such as shredding and advanced retention management are NOT available. Data can be deleted at any time,
+provided the application has the required access rights.
 
-    2. Governance Edition (GE): Governance Edition is specifically designed for organizations not governed by the US
-       Securities and Exchange Commission (SEC) to responsibly manage electronic records. Deploy Governance Edition
-       for policy-based retention and disposition of electronic records.
+2. Governance Edition (GE): Governance Edition is specifically designed for organizations not governed by the US
+Securities and Exchange Commission (SEC) to responsibly manage electronic records. Deploy Governance Edition
+for policy-based retention and disposition of electronic records.
 
-    3. Compliance Edition Plus (CE+): Compliance Edition Plus is designed to meet the most stringent requirements for
-       electronic storage media as established by regulations from the US Securities and Exchange Commission (SEC)
-       and other national and international regulatory groups. It draws on the core strengths of the Centera platform
-       while adding extensive compliance capabilities. Compliance Edition Plus brings Write Once, Read Many (WORM)
-       protection to critical digital information.
+3. Compliance Edition Plus (CE+): Compliance Edition Plus is designed to meet the most stringent requirements for
+electronic storage media as established by regulations from the US Securities and Exchange Commission (SEC)
+and other national and international regulatory groups. It draws on the core strengths of the Centera platform
+while adding extensive compliance capabilities. Compliance Edition Plus brings Write Once, Read Many (WORM)
+protection to critical digital information.
 
-    4. Advanced Retention Management (ARM): Advanced Retention Management is an add-on license to GE or CE+
-       compliance modes. Three additional features are enabled via ARM: event-based retention (EBR), litigation hold
-       (LH), and min/max governor per pool. We will describe these features on the next slide.
+4, Advanced Retention Management (ARM): Advanced Retention Management is an add-on license to GE or CE+
+compliance modes. Three additional features are enabled via ARM: event-based retention (EBR), litigation hold
+(LH), and min/max governor per pool. We will describe these features on the next slide.
 
 Here is a chart that identifies differences between Centera compliance models
 
+POL-0026210
+POL00029728
+POL00029728
 
+Features 3 (Bi a
+Retention Mgmt del. ¥ Y :
+Enforce Retention i « i ~
+Delete ian a
+A slentoincen 4
+7 Purge
 
+Set Defautt Retention i
+Shredding bc ~
+Remote Mgmt ® an ae
+Advanced Retention Lo $ 8s
 
-                                                                                                                                                                              POL-002621 0
-                                                                                                                      POL00029728
-                                                                                                                   POL00029728
+On CE* Default Retention is always infinite
 
+® On CE* Remote Management can only be
+enabled over a dedicated management
 
+network and never on the application / access
 
-
- R et 'ction tsrt9€xat
- Enforce Retention                                          .,              ....
- t    tatr
-                                                      .... .. '              '
- Privilege Deletes                                                           I
-                         ......:»»::::::,............:.e»».:::::.»::... ..... :.... ..... :.::::.
- Purge                                                 i I
-
- Sat tefauatt Retest                    t *R                            4
-
-     ltr ldata
-                                                  r
- Remote M9mt
-        Mg   raa
-
-     Ivan .........
-               xi Retery        rr
-                                                                 «i
-;' Ore        .+ [   ($t l           tent €r a
-
-" a On C  + R mow Nt nage~mc nt ew only be
- nab adover a dodie tc 8'#"s;i-anxa rnont
-n t orta and newer on tt a pplivat.ion I o s s
 network
 
-
 So the key difference for our purposes is that accounts with the correct access rights would be able to delete (but not
-modify existing) Audit Store records on the Centera box.
 
-This risk should be largely mitigated by the unique sequence numbers (JSN's) recorded against each basket transferred
+modify existing} Audit Store records on the Centera box.
+
+This risk should be largely mitigated by the unique sequence numbers (JSN’s) recorded against each basket transferred
 to the Audit Store, and the digital seals applied to protect them.
 
-There remains a small risk (that can only really be discounted by detailed testing) that someone with the requisite access
-rights to the `digital keys' used in the sealing process and admin access on the Audit Store could theoretically:
+There remains a small risk (that can only really be discounted by detailed testing} that someone with the requisite access
+rights to the ‘digital keys’ used in the sealing process and admin access on the Audit Store could theoretically:
 
+* Delete an audit store record (after extracting it to review the specific JSNs it contained);
 
-      •      Delete an audit store record (after extracting it to review the specific.iSNss it contained);
-      *      Recreate the transactional data that was originally within that Audit Store file to suit whatever purpose they
-             might have (using the JSNs in the original file they have subsequently deleted).
-             Seal it using the correct key to generate a valid seal value.
-      •      Reinsert it into the database (you would need to alter the database of seal values as well to make this change
-             undetectable).
+* Recreate the transactional data that was originally within that Audit Store file to suit whatever purpose they
+might have (using the JSNs in the original file they have subsequently deleted).
 
-There is an additional complexity that the transactions themselves (within a sealed Audit: Store file) are also digitally
+* Seal it using the correct key to generate a valid seal value.
+
+©  Reinsert it into the database (you would need to alter the database of seal values as well to make this change
+
+undetectable}.
+
+There is an additional complexity that the transactions themselves (within a sealed Audit Store file) are also digitally
 sealed via digital signature.
 
-The cuestion therefore becomes does anyone have the requisite acess rights to the Centera boxes and rights to key
-management to be able to exploit this? This question is currently with Bill Menabery at Fujitsu for clarification (i.e. the
+The question therefore becomes does anyone have the requisite acess rights to the Centera boxes and rights to key
+management to be able to exploit this? This question is currently with Bill Membery at Fujitsu for clarification (ie. the
 key control is having the requisite segregation of duties between key management and the Centera boxes).
 
-Let me know if that doesn't give you what you need.
+Let me know if that doesn’t give you what you need.
 
 Thanks,
 
 Mark
 
+POL-0026210
+POL00029728
+POL00029728
 
+UK Futures
 
+How can UK business d
 
-                                                                                                                    POL-0026210
-                                                                                                                                                                         POL00029728
-                                                                                                                                                                     POL00029728
+o JK 3 drive
+http:/Avww.deloitte.co.uk/ukfutures
 
+IMPORTANT NOTICE
 
-
-
-UK F tttdres
-
-How cen UK busirese       riv rro ,th
-httD://www.deloitte.co. uklukfutures
-
-HTAIZO Itr_111i   G]I[P:
-
-
-This communication is from Deloitte LLP, a limited liability partnership registered in England and Wales with registered number 00303675. Its registered office is 2, New Street
-Square, London EC4A 3BZ, United Kingdom. Deloitte LLP is the United Kingdom member firm of Deloitte Touche Tohmatsu Limited ("DTTL"), a UK private company limited by
-guarantee, whose member firms are legally separate and independent entities. Please see www.deloitte.co.uk/about for a detailed description of the legal structure of DTTL and
+This communication is from Deloitte LLP, a limited liability partnership registered in England and Wales with registered number OC30367S. Its registered office is 2, New Street
+‘Square, London EC4A 382, United Kingdom. Deloitte LLP is the United Kingdom member firm of Deloitte Touche Tohmatsu Limited (“DTTL”), a UK private company limited by
+guarantee, whose member firms are legally separate and independent entities. Please see www deloitte.co.uk/about for a detailed description of the legal structure of DTTL and
 its member firms.
 
-
-This communication containsirif0LmetiRn.wi ictus.coofldential and may also be privileged. It is for the exclusive use of the intended recipient(s). If you are not the intended
-recipient(s), please (1) notifyl         GRO               ; by forwarding this email and delete all copies from your system and (2) note that disclosure, distribution, copying or
-use of this communication is strictly prohibited. Email communications cannot be guaranteed to be secure or free from error or viruses. All emails sent to or from a Deloitte UK
+This communication contains information which s.confidential and may also be privileged. its for the exclusive use of the intended recipient{s}. If you are not the intended
+recipient(s), please (1) notify, GRO y forwarding this email and delete all copies from your system and (2) note that disclosure, distribution, copying or
+Use of this communication is strictly prohibited. Email Communications cannot be guaranteed to be secure or free from error or viruses. All emails sent to or from a Deloitte UK
 email account are securely archived and stored by an external supplier within the European Union.
-
 
 To the extent permitted by law, Deloitte LLP does not accept any liability for use of or reliance on the contents of this email by any person save by the intended recipient(s) to
 the extent agreed in a Deloitte LLP engagement contract.
 
-
 Opinions, conclusions and other information in this email which have not been delivered by way of the business of Deloitte LLP are neither given nor endorsed by it.
 
- rot t. .                                                      GRO
-Sertt
-T R 'W ectbro. V, ,:  <. - Manchester;, James, Ga ci . i~:k MancheS-: ~r;
-Cc hr€s Aujard
-Subject Follow Up to Board Urx:: to _ Subject to Legal Privilege
+From: Rodi
+Sent: 26 May 201
+tbraok, Mark (
+es Chris Auk
 
-(ar'eth, .:'ark
+~ Manchester); lar {UK - Manchester}
 
-In the course of preparing Your Board Update, you identified
-                                                          ied an exan-mpie ;where
-                                                                                  "a
-                                                                                     [Horizon] control ovas not
-implemented as understood', namely that the audit store> Centera box is configured only to "Basic" settings, not the
-more secure "CF," Setting as we seemingly unit                                stood.
+Subject: F
 
+y Up to Board Unde
 
-i understand you have since done some further work to Netter understand the risk that this may present to the integrity
-of the data held in the audit store, including identifying= time existence of other" complementary controls,
+to Legal Privik
 
-Can you please send me a. surr.mary of this specific technical issue and the controls that are in place? At this tin , i do
-not need a narrative on how the issue carne to be identified or investigated. iust a stateimment of the current position.
+in the cou
+
+ng your Board
+as understood”, namely that the auc
+more secure “ ¥
+
+, you identified an example where “a [Horizon] cor
+ore Cen
+
+re
+
+Was NOt
+tings, not the
+
+ra boxis configured only to “Basic”
+
+E+” setting as we nderstood.
+
+done some further work to better understand the ri
+
+d you have si < that
+
+of the data held in the audit store, includin
+
+entifying the exister
+
+ther, compl
+
+this spe
+
+‘© be identified or inve
+
+ne ti
 
 Kind regards, Rod
 
+Ligation Lawyer
 
+148 Old Street, LONDON, ECIV 9HQ
 
+BOOO®
 
-RodrIc       WiihDlTi5     I. utumiion Lawuer
+©
 
+postofficenews
 
-
-
-                                          148 Old Street, LONDON. ECIV 9HQ
-
-         C 2                          !      GRO            lPostline:L _GRO_ -.
-                                       _._._._._GRO
-                                      ,_._._._._._._._._._._._GRO-.-.-.-.-. -.-.-.
-                                          Post Office stories
-                                          (ipostofClcenews
-
-
-
-
-                                                                                                                                                                      POL-0026210
-                                                                                                                    POL00029728
-                                                                                                                 POL00029728
-
-
-
+POL-0026210
+POL00029728
+POL00029728
 
 This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
 you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
 error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
-expressed within this emai l are solely those of the sender, unless otherwise specifically stated.
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
 
 POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
 LONDON EC1V 9HQ.
 
-
-
-
-                                                                                                                 POL-002621 0
-
+POL-0026210

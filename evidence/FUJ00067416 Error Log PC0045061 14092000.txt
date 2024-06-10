@@ -1,0 +1,700 @@
+FUJ00067416
+FUJ00067416
+
+Peak Incident Management System
+
+Call Reference PC0045061 Call Logger
+Release Targeted At -- M1Clone Top Ref
+Call Type Live Incidents Priority
+Contact EDSC Call Status
+Target Date 19/05/2000 Effort (Man Days)
+Summary THe host generated cash account line comparisons r
+All References Type Value
+Other (e:
+
+: PowerHelp E-0005 160543
+
+Progress Narrative
+
+_ Customer Call_
+Cc
+
+B -- Business restricted
+
+Closed -- Reconciliation - resolved
+0
+
+EDSC
+
+[bate:16-May-2000 15:46:00 User: Customer Call_
+
+CALL PC0045061:Priority B:CallType L - Target 19/05/00 16:46:43
+
+16/05/00 10:43 THe host generated cash account line comparisons report dated
+5/5 where post office 169207 has a difference in the recipts and payments
+total for cap 06.Please investiagte
+
+lf) call details
+
+lpiagnostician name:
+
+customer opened date 16/05/2000 10:43:08
+
+CALL Pc0045061 opened
+
+lDate:16-May-2000 16:19:00 Uscr:Barbara Longley
+target Release updated to CSR-CI3R
+Product General/Other/Misc Reconciliation added
+
+jDate:18-May-2000 14:26:00 User:John Simpkins
+
+{the Call record has been assigned to the Team Member: Diane Rowe
+Defect cause updated to 99:General - Unknown
+
+ours spent since call received: 0 hours
+
+jbat¢:19-May-2000 07:55:00 Uscr:Diane Rowe
+If} Response =
+
+[this office did not have a migration discrepancy.
+
+[END OF REFERENCE 18250403]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: PowerHelp
+
+39-May-2000 09:42:00 Uscr:Diane Rowe
+lew evidence added - complete messagestore
+Ir) Response :
+
+[7 did not match. The differences are:
+
+cAPS 16284.72
+
+care -19296.15
+
+caP7 14526.08.
+
+[fhe office has already reported problems balancing which are being
+investigated by development - see pc43811 (E-0004271707).
+
+IK have attached the complete messagestore.
+
+[END OF REFERENCE 18255820]
+
+lkesponded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: Powertielp
+
+[the Call record has been transferred to the Team: OFP
+
+jours spent since call received: 0 hours
+
+{this office has had big problems with its receipts and payments. Cap 5, 6 and
+
+Date:19-May-2000 09:45:00 Uscr:Lionel Higman
+[the Call record has been assigned to the Team Member: Steve Warwick
+licurs spent since call received: 0 hours
+
+JDate:19-May-2000 10:59:00 User:Roger Donato
+lew evidence added - Payments vs Receipts Report CAP 7 (15/05/00)
+lew evidence added - Payements versus Receipts CAP 5 02/05/2000
+
+|Date: 23-May-2000 17:09:00 User:Steve Warwick
+target Release updated to NFR - No Fix Reqd
+IF} Response :
+
+FUJ00067416
+FUJ00067416
+
+finis is a duplicate of Pinichs 43611 and 45061 which are already under
+investigation
+
+[END OF REFERENCE 18372320]
+
+lkesponded to call type L as Category 72 -Duplicate Call
+
+fours spent since call received: .1 hours
+
+[fhe Call record has been transferred to the Team: EDSC
+
+|Date:23-May-2000 17:10:00 User:Steve Warwick
+the response has been routed to the gateway team for validation
+
+Ir} Response :
+
+ly apologies, this 1$ 45061!
+
+[END OF REFERENCE 18372352]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+[the response has been flagged to the gateway team for validation
+
+[the Call record has been transferred to the Team: QFP
+
+Hours spent since call received: 0 hours
+
+Jbate:23-May-2000 17:11:00 User:Steve Warwick
+the Call record has been assigned to the Team Member: Steve Warwick
+fours spent since call received: 0 hours
+
+|Date:24-May-2000 10:32:00 User:Steve Warwick
+IF} Response :
+
+lhe cause of the problems in all three CAPs at this outlet was the fact that
+stock Unit DD's rollover records from CAP 5 to CAP 6 represented a ‘nil’
+balance (the total stock holding was nil, no receipts or payment transactions
+ere recorded) despite the fact that the stock unit had been trading normally
+luring the period. This issue was raised in PinICL 43811 and is still under
+investigation within the EPOSS Development team.
+
+he fact that Stock Unit DDs transactions and stock holdings were omitted
+from the CAP 5 Cash Account meant that the Brought Forward value for the
+ffice in CAP 6 was incorrect. This caused the CAP 6 Cash Account to
+nisbalance.
+
+it am still investigating why the CAP 7 Cash Account misbalanced, but I note
+that the office returned to a balanced position in CAP 8.
+
+[END OF REFERENCE 18392228]
+
+responded to call type L as Category 40 -Incident Under Investigation
+
+the response has been flagged to the gateway team for validation
+
+lbate: 30-May-2000 1.
+I} Response :
+30/5/00: On further investigation, the same problem that affected stock unit
+ID in CAPS affected Stock Unit TT in CAP 6, i.e. at balancing time the system
+failed to record the correct stock holding for the stock unit and failed to
+rite the summary totals for the Receipts and Payments products. The only
+records written were the declared Cash and Stamp holdings with a discrepancy
+lcquivalent to these amounts. This failure will have compounded the CAP 6
+jproblem with stock unit DD and then generated a further discrepancy in CAP 7.
+It am passing the call to EPOSS-FP so that the message store evidence of the
+problem in both these CAPs can be examined.
+
+[END OF REFERENCE 18540105]
+
+lkesponded to call type L as Category 40 -Incident Under Investigation
+
+fhe response has been flagged to the gateway team for validation
+
+4:00 Uscr:Steve Warwick
+
+lbaté: 30-May-2000 13:46:00 User:John Simpkins
+lew evidence added - Counter 1 application event log
+
+bat c:30-May-2000 14:02:00 User:Steve Warwick
+[the Call record has been transferred to the Team: EPOSS-FP
+tours spent since call received: .1 hours
+
+oate:04-gul-2000 14:17:00 User:Lionel Higman
+fhe call references have been updated. They are now:-
+RIGINATOR : Phelp
+
+It PowerHlelp : E-0005160543
+
+ther : L1HOT
+
+lDate:04-dul-2000 16:07:00 User:Barbara Longley
+IF} Response :
+
+call currently with EPOSS-FP
+
+[END OF REFERENCE 19740228]
+
+Responded to call type L as Category 40 —Incident Under Investigation
+[the response was delivered to: Powerllelp
+
+Date: 04-Jul-2000 17:57:00 User:Les Ong
+JF} Response :
+
+FUJ00067416
+FUJ00067416
+
+his problem 4s the same as that already resolved on Pinlchs 37804 @ 37663,
+Inamely that of DataServer not tree building & populating correctly. A
+diagnostic has been put into DataServer to detect any such problems.
+
+[END OF REFERENCE 19743912]
+
+Responded to call type Las Category 72 -Duplicate Call
+
+Hours spent since call received: 0.5 hours
+
+the Call record has been transferred to the Team: EDSC
+
+|The response has been routed to the gateway team for validation
+
+jbate:05-dul-2000 08:16:00 Uscr:Richard Coleman
+the Call record has been assigned to the Team Member: Diane Rowe
+ours spent since call received: 0 hours
+
+Date:05-gul-2000 1:
+IF} Response :
+Please can we agree closure on this now? See previous updates for details.
+(END OF REFERENCE 19771313]
+
+kesponded to call type L as Category 40 Incident Under Investigation
+
+[fhe response was delivered to: Powerlielp
+
+the Call record has been transferred to the Team: MSU-Indt Mgt
+
+Hours spent since call received: 0 hours
+
+3:00 User:Diane Rowe
+
+[Date: 05-Jul-2000 16:09:00 User:John Moran
+Ir} Response
+
+It thought diagnostic code was delivered in early May to alert the PO to do
+the roll over again and also to aid in tracking the fault. theis incident
+Ihappened in mid may. What was the point of the code delivered in 5 2?
+
+[END OF REFERENCE 19789698]
+
+lkesponded to call type L as Category 40 -Incident Under Investigation
+
+the response has been flagged to the gateway team for validation
+
+fhe Call record has been transferred to the Team: QFP
+
+fours spent since call received: .1 hours
+
+jDate:05-Jul-2000 16:20:00 User:Lionel Higman
+[fhe Call record has been assigned to the Team Member: Steve Warwick
+ours spent since call received: 0 hours
+
+[Date:06-Jul-2000 1
+IF} Response :
+Passing to EPOSS-FP to explain to John exactly what has been delivered to
+IcI3R in the way of diagnostic code for this issue.
+
+[END OF REFERENCE 19857086]
+
+Responded to call type L as Category 44 -Fix in Progress
+
+[the response has been flagged to the gateway team for validation
+
+7:00 User:Steve Warwick
+
+JDate:06-dul-2000 16:18:00 User:Steve Warwick
+Ihe Call record has been transferred to the Team: EPOSS-FP
+Hours spent since call received: 0 hours
+
+jDate:10-Jul-2000 10:45:00 User:Walter Wright
+Ihe Call record has been transferred to the Team: EPOSS-Pre-Dev
+Hours spent since call received: .1 hours
+
+bate:10-ul-2000 10:52:00 User:Walter Wright
+the Call record has been assigned to the Team Member: David Linten
+Hours spent since call received: .1 hours
+
+[Date:10-Jul-2000 13:26:00 User:Deleted User (David Linten Oct/00)
+
+Ir} Response
+
+this validation was release in WP 7865 on the 4th April 2000 from development.
+[END OF REFERENCE 19951938]
+
+Responded to call type L as Category 68 -Administrative Response
+
+Hours spent since call received: 0 hours
+
+Defect cause updated to 26:Integration - Build
+
+the Call record has been transferred to the Team: EDSC
+
+[fhe response has been routed to the gateway team for validation
+
+bate:10-gul-2000 13:41:00 User:Barbara Longley
+the Call record has been assigned to the Team Member: David Seddon
+Hours spent since call received: 0 hours
+
+JDate:12-Jul-2000 07:20:00 User:David Seddon
+
+FUJ00067416
+FUJ00067416
+
+ff think Barbara meant to send this to you:
+the Call record has been assigned to the Team Member: Diane Rowe
+#ours spent since call received: 0 hours
+
+bate:12-gul-2000 09:12:00 User:Diane Rowe
+IF} Response =
+
+Development have given you an answer, but I'm not sure that it helps.
+what do you think?
+
+[END OF REFERENCE 20015159]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: PowerHelp
+
+fhe Call record has been transferred to the Team: MSU-Indt Mgt
+
+Hours spent since call received: 0 hours
+
+Daté:12-Sul-2000 09:47:00 User:John Moran
+If} Response :
+
+h. T need to know what the correct Cash Account figures should have been were
+iit not for the Dataserver failure. Can these be derived from the transactios
+lin the message store, or the trial cash account.
+
+2. The diagnostic code which was delivered before this incident happened was
+romised to aid in investigating the cause of this problem. Has this code
+helped? How?
+
+3. At some point a WP was delivered that would alert the user that there was
+la problem with the SU roll over and the user woulf be promted with a message
+to re do the roll over. Has this been delivered? If so why did the roll
+
+lover process not cease and promt the user to try again?
+
+[END OF REFERENCE 20017370]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+
+the response has been flagged to the gateway team for validation
+
+the Call record has been transferred to the Team: EDSC
+
+tours spent since call received: .1 hours
+
+Date:12-Jul-2000 10:36:00 Uscr:Barbara Longley
+[fhe Call record has been assigned to the Team Member: Diane Rowe
+
+Date:12-gul-2000 10:37:00 User:Barbara Longley
+liicurs spent since call received: 0 hours
+
+JDate:42-dul-2000 10:39:00 User:Paul Steed
+the Call record has been assigned to the Team Member: Diane Rowe
+Hours spent since call received: 0 hours
+
+pate:12-Jul-2000 12:29:00 User:Martin McConnell
+It have been asked by Walter Wright to submit more detail and I also note
+\iohn's queries; in response to these first:
+
+hl. We can reconstruct the Cashaccount at some point but I do not believe this
+to be an 'L1HOT' issue, I think this will have to queued up and reprioritised
+(or cloned specifcally for this issue).
+
+2. The diagnostics have been useful for PINICLs such as this becuase have
+ave confirmed what we have suspected, in that records have failed to be
+lretrieved from Riposte calls (when they work perfectly well in development).
+3. Code has been issued at C14 which will back the user out from key phases
+lof rolover should the system detect that rposte readied retrievals have
+failed to yield data.
+
+jt don't think I'm being premature in revealing that we think we know know why
+these failures with Dataserver are occrring. Steve Warwick experienced such a
+failure on a rig he was testing against and found the root cause was that
+larchiving was active during a riposte query; this only occurs ‘out-of-hours!
+Jat the end of each working day. Archiving will occur 'in-hours' should the
+counter have been switch off over night for 7 condecutive days and hence the
+lsprordic nature of these incidents (or where PM's do their balancing near the
+archiving time at 10pm.)
+
+joate:14-Jul-2000 15:28:00 User:Barbara Longley
+If) Response :
+
+[the Call record has been assigned to EDSC Team Member: Diane Rowe
+[END OF REFERENCE 20142952]
+
+esponded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: Powerllelp
+
+|Date:18-dul-2000 0
+If} Response :
+steve Warwick is looking at this.
+
+[END OF REFERENCE 20184722]
+
+lkesponded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: PowerHelp
+
+5:00 User:Diane Rowe
+
+FUJ00067416
+FUJ00067416
+
+[bate:28-sul-2000 19:12:00 User:QFP -Administrator
+target Release updated to CSR-CI4L1
+
+lOFP authorised categorisation AA
+
+the call references have been updated. They are now:-
+RIGINATOR : Phelp
+
+PowerHelp : E-0005160543
+
+ther : L1HOT
+
+jr Other : AA
+
+JDate:08-Aug-2000 14:07:00 User:dim Anscomb
+Ir) Response
+
+PRESCAN: Diane's away, Steve Warwick is definitely not looking at this call,
+Inced to check out what to be done as corrected CA details may be required.
+lany problems contact L. Higman.
+
+[END OF REFERENCE 20886475]
+
+Responded to call type L as Category 40 Incident Under Investigation
+
+[the response was delivered to: Powertelp
+
+fhe Call record has been assigned to the Team Member: John Ballantyne
+
+Hours spent since call received: 0 hours
+
+[Date:08-Aug-2000 1.
+If) Response :
+
+the Call record has been assigned to EDSC Team Membe
+[END OF REFERENCE 20886605]
+
+9:00 User:Barbara Longley
+
+: John Ballantyne
+
+Date: 08-Aug-2000 14:10:00 User:Barbara Longley
+Responded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: Powertlelp
+
+[Date:08-Aug-2000 14:35:00 User:John Ballantyne
+lr) Response :
+
+It have spoken to Martin McConnell who advised call to be routed to EPOSS-FP
+for assistance to re-produce the Cash account as per John Moran's
+jrequirements.
+
+[END OF REFERENCE 20888215]
+
+lesponded to call type L as Category 40 -Incident Under Investigation
+
+bate:08-Aug-2000 14:36:00 User:dohn Ballantyne
+[the response was delivered to: Powerllelp
+
+{fhe Call record has been transferred to the Team: QFP
+Defect cause updated to 41:General - in Procedure
+Hours spent since call received: 0 hours
+
+jbate:08-Aug-2000 15:07:00 User:del (05/01 John McLean)
+
+fhe call references have been updated. They are now:-
+
+RIGINATOR : Phelp
+
+IT FowerHelp : E-0005160543
+
+the Call record has been assigned to the Team Member: Nam Pandher
+Hours spent since call received: 0 hours
+
+Dat c:08-Aug-2000 1:
+IF) Response
+
+[fhe Call record has been assigned to QFP Team Member: Nam Pandher
+[END OF REFERENCE 20890813]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+[the response was delivered to: PowerHelp
+
+1:00 User:Barbara Longley
+
+jDatc:08-Aug-2000 21:35:00 Uscr:Les Ong
+fhe Call record has been transferred to the Team: EPOSS-FP
+Hours spent since call received: 0 hours
+
+[Date:09-Aug-2000 1:
+IF} Response :
+
+the Call record has been transferred to the Team: EPOSS-FP
+
+[END OF REFERENCE 20913864]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+fhe response was delivered to: PowerHelp
+
+7:00 Uscr:Barbara Longley
+
+Date:40-Aug-2000 12:59:00 User:del (01/01 Denise Jackson)
+FP authorised categorisation C
+
+ffarget Release updated to M1
+
+lhe call references have been updated. They are now:-
+RIGINATOR : Phelp
+
+powerHelp : £-0005160543
+
+FUJ00067416
+FUJ00067416
+
+fr other 2c
+
+pate:16-Aug-2000 1.
+If} Response
+
+[the Call record has been transferred to the Team: EPOSS-FP
+
+(END OF REFERENCE 21106398]
+
+lkesponded to call type L as Category 40 -Incident Under Investigation
+[fhe response was delivered to: PowerHelp
+
+3:00 User:Barbara Longley
+
+Jbate:31-Aug-2000 15:58:00 User:Walter Wright
+fhe Call record has been transferred to the Team: EPOSS-Dev
+
+Hours spent since call received: .1 hours
+
+[fhe Call record has been assigned to the Team Member: Gerald Barnes
+fours spent since call received: .1 hours
+
+|bate:05-Sep-2000 15:06:00 Uscr:del (01/01 Denise Jackson)
+ffarget Release updated to MiClone
+
+|Date:13-Sep-2000 14:18:00 User:Gerald Barnes
+lew evidence added - Resurrected CAP 5 cash account data.
+
+I} Response =
+
+It proved to be very difficult to resurrect the cash account data for week 5.
+steve Warwick's analysis tool showed that not only was stock unit DD corrupt
+ut also stock unit XXX. EPOSS nodes 91579999 and 90029999 were missing and
+had to be resurrected.
+
+In the end the reconciliation code was adapted to give data for every
+cashAccLine with the exception of 99990001 which is the receipts balance
+bought forward; but that can be calculated by looking at the receipts total
+lérom the previous CAP CashAccLine 99990700.
+
+fhe resurrected figures are given in the attached file CAPS.
+
+the lines containing <Application:EPOSSWeek1yDump><DumpOf :AccumulatedFigures>
+lgive the recalculated values for each CashAccLine. They contain the
+asbAccLine number with a prefix giving the table number. Note that lines
+189990701 and 99990702 can not be trusted absolutely but their sum will be
+correct for the overall discrepancy table value.
+
+lan alternative way of looking at the results is to look at the lines
+containing
+
+App] icat ion: EPOSSWeek1yRecon><EPOSSTransact ion: <TranType:WeeklyCAErr>. They
+give the original and r
+wong ~ all other lines in the cash account would have been correct. Note
+that lines 99990701 and 99990702 are not included in this set.
+
+[END OF REFERENCE 21667943]
+
+Responded to call type L as Category 40 ~Incident Under Investigation
+
+[fhe response has been flagged to the gateway team for validation
+
+Jbate:13-Sep-2000 1
+I} Response :
+
+It am not sure it is worth spending time trying to resurect the other CAPs.
+[the method I have derived assumes that the CashAccLines for the previous CAP.
+II see from Steve Warwicks's analysis that CAP 6 was not correct as well. Now
+if I rerun the tool I have developed on CAP 6 it will use as its base line
+the CashAcchine figures in CAP 5 which we know are wrong and I have just
+lrecalculated. I think therefore that enough time has been spent on this
+problem and it is not cost effective to proceed further. However in future
+here there is a problem with just one CAP we should be able to resurect the
+figures more easily.
+
+[END OF REFERENCE 21668688]
+
+Responded to call type L as Category 68 -Administrative Response
+
+tours spent since call received: 76.0 hours
+
+lbefect cause updated to 14:Development - Code
+
+[the Call record has been transferred to the Team: EDSC
+
+[the response has been routed to the gateway team for validation
+
+3:00 Uscr:Gerald Barnes
+
+jbate:13-Sep-2000 14:58:00 User:Deleted User (Anna Croft Sep/00)
+fhe Call record has been assigned to the Team Member: John Ballantyne
+jours spent since call received: 0 hours
+
+Date:13-Sep-2000 15:38:00 User:John Ballantyne
+If} Response :
+
+John can we kill this one off?
+
+[END OF REFERENCE 21670348]
+
+Responded to call type L as Category 40 -Incident Under Investigation
+[fhe response was delivered to: PowerHelp
+
+lthe Call record has been transferred to the Team: MSU-Indt Mgt
+
+befect cause updated to 41:General - in Procedure
+
+Hours spent since call received: 0 hours
+
+[Date:14-Sep-2000 1:
+
+4:00 User:dohn Moran
+
+FUJ00067416
+FUJ00067416
+
+[Fy Response =
+thanks for all the effort. For the time being I have agreed that
+heconstructed cash accounts will not be needed all the time, but only by
+lspecial request of POCL.
+
+Ii have already issued the final BIM report.
+
+should make this type of incident very rare.
+(END OF REFERENCE 21684339]
+
+lkesponded to call type L as Category 68 -Administrative Response
+Hours spent since call received: .3 hours
+
+the Call record has been transferred to the Team: EDSC
+
+the response has been routed to the gateway team for validation
+
+lAs such please close this call, and hope for the best with the CI4 code which
+
+jbate:14-Sep-2000 11:15:00 User:Deleted User (Anna Croft Sep/00)
+[the Call record has been assigned to the Team Member: John Ballantyne
+Hours spent since call received: 0 hours
+
+Date:14-Sep-2000 12:30:00 User:John Ballantyne
+IF} Response
+las per Johns comments closing call
+
+{END OF REFERENCE 21687334]
+
+Responded to call type L as Category 90 -Reconciliation - resolved
+Hours spent since call received: 0 hours
+
+CALL PC0045061 closed: Category 90, Type L
+
+the response was delivered to: PowerHelp
+
+Date:14-Sep-2000 12:49:00 User: Customer Call_
+pate and time complete: 14/09/2000 13:34:45
+service Complete (Confirmation) Received
+
+Root Cause General - in Procedure
+
+Logger _Customer Call_ -- EDSC
+
+Subject Product General/Other/Misc -- Reconciliation (version unspecified)
+Assignee Deleted User -- EDSC
+
+Last Progress 14-Sep-2000 12:49 -- Customer Call_

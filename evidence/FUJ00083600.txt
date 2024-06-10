@@ -1,0 +1,478 @@
+FUJ00083600
+FUJ00083600
+
+To: ‘Mark Jarosz’
+From: Jenkins Gareth Gk
+Sent: Fri 5/11/2001 8:49:19 AM (UTC)
+
+Subject: FW: PCO065665: PinICL - call transferred to Escher-Dev
+Mark,
+
+I've received this PinICL.
+
+| know I've raised with you before the question of Error 82, though in the past its been on counters. I'm also aware that the error itself
+is benign, though it could result in other errors to agents (for example).
+
+As well as the occurrence reported, | am aware of 2 other occurrences over the last 2 months.
+
+In this case there are the following events in the event log :-
+
+02/05/01 10:52:07 Riposte Error MessageProcessor 89 N/A MWICORO2 An unexpected error
+occurred while attempting to insert a message. Timeout occurred waiting for lock. (0xC1090003).
+
+02/05/01 10:52:07 Riposte Error MessageProcessor 82 N/A MWICORO2 An unexpected error
+occurred while attempting to modify an entry in the run map. Timeout occurred waiting for lock. (0xC1090003)
+
+02/05/01 10:51:55 Riposte Error MessageProcessor 89 N/A MWICORO2 = An unexpected error
+occurred while attempting to insert a message. Timeout occurred waiting for lock. (0xC 1090003).
+
+02/05/01 10:51:55 Riposte Error MessageProcessor 82 N/A MWICORO2 = An unexpected error
+occurred while attempting to modify an entry in the run map. Timeout occurred waiting for lock. (0xC1090003)
+
+02/05/01 10:51:51 Riposte Warning MessageProcessor 150 N/A MWICORO2__Lock timeout
+
+occurred while update an index within an index build or maintenance thread. The operation will be retried.
+ie the problem has occurred twice in quick succession and in each case is followed by Error 89.
+
+It also happened on MBOCOR(1 earlier the same day with similar events :-
+
+02/05/01 02:19:55 Riposte Error MessageProcessor 89 N/A MBOCORO1 An unexpected error
+occurred while attempting to insert a message. Timeout occurred waiting for lock. (0xC 1090003).
+
+02/05/01 02:19:55 Riposte Error MessageProcessor 82 N/A MBOCORO1 An unexpected error
+occurred while attempting to modify an entry in the run map. Timeout occurred waiting for lock. (0xC1090003)
+
+02/05/01 02:19:34 Riposte Warning MessageProcessor 78 N/A MBOCOR01 An incoming request
+was discarded due to an overflow condition on the incoming request queue.
+
+02/05/01 02:18:29 Riposte Warning MessageProcessor 78 N/A MBOCORO1 An incoming request
+was discarded due to an overflow condition on the incoming request queue.
+
+02/05/01 02:17:25 Riposte Warning MessageProcessor 78 N/A MBOCORO1 An incoming request
+
+was discarded due to an overflow condition on the incoming request queue.
+
+Again it was followed by an Error 89 and it would appear that the CS was somewhat busy, (replicating Ref Data to the counters |
+assume given the time of day)
+
+The 3rd occurrence was somewhat different :-
+
+08/03/01 15:09:05 Riposte Error Riposte 7 N/A MWICORO1 An unhandled exception occurred in
+Riposte API function RiposteStartTransaction. Exception 0xC0000005 occurred at program address 0x00476B5A. There were 2
+excpetion arguments: Ox00000000 0x00000010
+
+08/03/01 15:09:05 Riposte Error MessageProcessor 82 N/A MWICORO1 An unexpected error
+occurred while attempting to modify an entry in the run map. Timeout occurred waiting for lock. (0xC1090003)
+
+08/03/01 15:07:03 Riposte Warning CacheManager 65 N/A MWICORO1 An i/o wait event occurred
+while invalidating a cache item in the Block cache. This may occur periodically under normal operation however if this event occurs
+frequently it indicataes a need to increase the configured cache size.
+
+In this case it was followed by Error 7. | seem to remember mentioning that Error 7 to you at the time, but | can't find any emails about
+it.
+
+What I'm really asking is for confirmation that the associated errors are indeed benign, in which case | can ensure that KELs are raised
+so as to suppress the reporting of them in future. It worries me that messages are failing to be inserted, however if they are being
+replicated, then | guess it doesn't matter!
+
+Regards
+
+Gareth Jenkins
+ICL Distinguished Engineer
+Riposte and Counter TDA; ICL Pathway
+
+email: i Hl
+Internal Phone (until 23/5/01):
+External Phone (until 23/5/01): }
+Internal Phone (from 24/5/01): }
+External Phone (from 24/5/01
+Internal Mobile Phone:
+
+External Mobile Phone:
+
+=
+A
+0.
+
+ICL
+Lovelace Road, Bracknell, Berkshire, RG12 8SN
+Website : http://www.icl.com
+
+This e-mail is intended only for the addressee named above. As this
+e-mail may contain confidential or privileged information if you are
+
+not, or suspect that you are not, the named addressee or the person
+responsible for delivering the message to the named addressee, please
+telephone us immediately. Please note that we cannot guarantee that this
+message or any attachment is virus free or has not been intercepted and
+amended. The views of the author may not necessarily reflect those of
+the Company.
+
+International Computers Limited, Registered in England no 96056,
+Registered Office 26, Finsbury Square, London, EC2A 1SL
+
+> -----Original Message-
+> From: pinicl€
+
+- call transferred to Escher-Dev
+
+>
+
+> Title: PinICL - call transferred to Escher-Dev
+
+>
+
+> Call Number : PCO065665
+
+> Systemname : PinICL
+
+> Event : Call arrived on team
+
+> Summary : Critical NT_Error occurred on MWICORO2,
+> ‘An unexpe
+
+> Priority :B
+
+> Target Date : 11/05/01 15:27:09
+
+> Assigned Team : Escher-Dev [Escher Development preview team]
+> Assignee : No Assignee
+
+> Subject Product : NT-NT agent
+
+> Product Group : Infrastructure
+
+> Call Type : Live use error
+
+> Contact Surname : EDSC
+
+> Actioned Team : Not Actioned
+
+> Actionee : No Actionee
+
+> Response Category _: Incident Under Investigation
+> Target Release :CI4M1R
+
+> Call Logger : Customer Call
+
+> Call Loggers Team : EDSC [EDSC support team]
+> Top Reference : E-0105021896
+
+> Contact Details : EDSC
+
+> Pathway
+
+> Gateway. contact...
+
+> Barbara Longley ;
+
+> References RIGINATOR TPhelp
+>
+
+> ORIGREF : E-0105021896
+>
+
+> CONSUMERREF : E-0105021896
+>
+
+> PowerHelp : E-0105021896
+>
+
+FUJ00083600
+FUJ00083600
+>
+>
+
+> Call Progress
+>
+
+> 03/05/01 15:18:32 - By Customer Call
+
+> CALL PC0065665 opened
+
+>
+
+> 03/05/01 15:18:55 - By Customer Call
+
+> CALL PC0065665:Priority B:CallType L - Target 09/05/01 15:18:32
+>
+
+> 03/05/01 15:18:57 - By Customer Call
+
+> 02/05/01 16:01 Critical NT_Error occurred on MWICORO2, 'An
+
+> unexpected error
+
+> occurred while attempting to modify an entry in the run map. Timeout
+> occurred waiting for (0xC 1090003)’.
+
+> 02/05/01 16:05 uk082042
+
+> Information: 'An unexpected error occurred while attempting
+
+> to modify an
+
+> entry in the run map’.
+
+> No exact KEL Ref: can be found, although AChambers330S
+
+> refers to these events on counters.
+
+> Please investigate or advise SMC as appropriate.
+
+> 02/05/01 16:43 uk060170
+
+> Information: This is not a counter, therefore this KEL will not apply.
+> This call should be forwarded to PinICL for the attention of
+
+> SSC.
+
+> 03/05/01 13:54 uk082042
+
+> Information: This call should be forwarded to PinICL for the attention
+> of SSC, as advised (above).
+
+> Event Log File (All events), 94989
+
+> Please investigate or advise SMC As appropriate.
+
+> 03/05/01 15:22 GB082641
+
+> OTIReturn: SMC Filter
+
+>
+
+> 03/05/01 15:19:07 - By Customer Call
+> F} Call details
+
+>
+
+> 03/05/01 15:19:09 - By Customer Call
+
+> Diagnostician name:
+> Customer opened date 02/05/2001 16:01:14
+>
+
+> 03/05/01 15:31:17 - By Barbara Longley
+> Target Release updated to Cl4M1R
+
+>
+
+> 03/05/01 15:31:17 - By Barbara Longley
+> Product Infrastructure NT-NT agent added
+
+>
+
+> 04/05/01 11:01:00 - By Diane Rowe
+
+> F} Response :
+
+>
+
+> 04/05/01 11:01:00 - By Diane Rowe
+
+> PRESCAN
+
+> | am unable to find this error in file 94989.
+
+> Please supply the date and time of the error.
+
+> [END OF REFERENCE 25973876]
+
+>
+
+> 04/05/01 11:01:01 - By Diane Rowe
+
+> Responded to call type L as Category 96 -Insufficient evidence
+>
+
+> 04/05/01 11:01:01 - By Diane Rowe
+
+> Hours spent since call received: 0 hours
+
+> Defect cause updated to 99:General - Unknown
+>
+
+> 04/05/01 11:01:04 - By Diane Rowe
+
+> CALL PC0065665 closed: Category 96, Type L
+>
+
+> 04/05/01 11:01:04 - By Diane Rowe
+
+> The response was delivered to: PowerHelp
+
+FUJ00083600
+FUJ00083600
+>
+
+> 04/05/01 11:03:02 - By Customer Call
+> Date and time complete: 04/05/2001 11:10:47
+> Service Complete (Confirmation) Received
+
+>
+
+> 08/05/01 15:27:09 - By Customer Call
+
+> CALL PC0065665 Reopened: This incident has been reopened
+
+>
+
+> 08/05/01 15:27:09 - By Customer Call
+
+> CALL PC0065665:Priority B:CallType L - Target 11/05/01 15:27:09
+>
+
+> 08/05/01 15:27:09 - By Customer Call
+
+> EMPTY
+
+> 08/05/01 15:25 uk082042
+
+> Information: This error occurred on MWICORO2 at 10:51:55 and 10:52:07
+> May 02 (event time) and 10:52 May 2nd (reception time).
+
+> (The data and time of the event as requested by SSC)
+
+> 08/05/01 15:32 UK052512
+
+> Information: Kel checked
+
+> 08/05/01 15:32 UK052512
+
+> ReOpen OTI: * NULL TEXT SUPPLIED *
+
+>
+
+> 08/05/01 15:27:10 - By Customer Call
+
+> F} Call details
+
+>
+
+> 08/05/01 15:27:12 - By Customer Call
+
+> Diagnostician name:
+
+>
+
+> 09/05/01 09:23:30 - By John Simpkins
+
+> F} Response :
+
+>
+
+> 09/05/01 09:23:30 - By John Simpkins
+
+> This may be related to an existing kel JBallantyne1359R
+> (PC0058199) however
+
+> this was never fully investigated, attach event logs and
+> check the agent
+
+> events for an error like Jon reported.
+
+> [END OF REFERENCE 26007984]
+
+>
+
+> 09/05/01 09:23:30 - By John Simpkins
+
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 09/05/01 09:23:32 - By John Simpkins
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 09/05/01 09:23:33 - By John Simpkins
+
+> The Call record has been assigned to the Team Member: Richard Roll
+>
+
+> 09/05/01 09:23:33 - By John Simpkins
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 09/05/01 15:38:45 - By Barbara Longley
+
+> The Call record has been transferred to the Team: EDSC
+>
+
+> 09/05/01 15:38:45 - By Barbara Longley
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 09/05/01 16:07:42 - By John Simpkins
+
+> The Call record has been assigned to the Team Member: Richard Coleman
+>
+
+> 09/05/01 16:07:42 - By John Simpkins
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 10/05/01 11:56:06 - By Richard Coleman
+
+> New evidence added - Application Event log for MWICORO2
+>
+
+> 10/05/01 11:56:08 - By Richard Coleman
+> F} Response :
+
+FUJ00083600
+FUJ00083600
+>
+> 10/05/01 11:56:08 - By Richard Coleman
+
+> The events occurred on MWICORO2 at 2/5/2001 10:51:55 and 10:52:07.
+
+> There are no events on the Agents at these times.
+> Passing to development for investigation.
+> [END OF REFERENCE 26026876]
+
+>
+
+> 10/05/01 11:56:08 - By Richard Coleman
+
+> Responded to call type L as Category 40 -Incident Under Investigation
+>
+
+> 10/05/01 11:56:50 - By Richard Coleman
+
+> The response was delivered to: PowerHelp
+
+>
+
+> 10/05/01 11:56:53 - By Richard Coleman
+
+> The Call record has been transferred to the Team: QFP
+>
+
+> 10/05/01 11:56:54 - By Richard Coleman
+
+> Hours spent since call received: 0 hours
+
+>
+
+> 10/05/01 12:14:52 - By Lionel Higman
+
+> The Call record has been transferred to the Team: Escher-Dev
+>
+
+> 10/05/01 12:14:52 - By Lionel Higman
+
+> Hours spent since call received: 0 hours
+
+>
+
+FUJ00083600
+FUJ00083600
