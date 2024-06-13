@@ -86,7 +86,7 @@ def parse_speech(speech):
 
     # Link to some judgments
     text = re.sub('(Horizon Issues [Jj]udgment)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_', text)
-    text = re.sub('(Common Issues [Jj]udgment)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_', text)
+    text = re.sub('(Common Issues [Jj]udgments?)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_', text)
     text = re.sub('(Hamilton [Jj]udgment|Hamilton (&|and) [Oo]thers)', r'`\1 <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_', text)
 
     for e in META['evidence'].keys():
