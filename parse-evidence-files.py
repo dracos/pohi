@@ -7,11 +7,7 @@ os.chdir('evidence/process')
 
 def process_evidence():
     for file in sorted(glob.glob('*.pdf')):
-        if file == 'POL00174423.pdf': continue  # corrupt
-
         file_base = file.replace(".pdf", "")
-        file_txt = file_base + ".txt"
-
         if not os.path.exists(file_base + '-1.png') and not os.path.exists(file_base + '-01.png') and not os.path.exists(file_base + '-001.png'):
             print(f"Running pdftocairo on {file}")
             subprocess.run(['pdftocairo', '-png', file])
@@ -34,7 +30,6 @@ def process_evidence():
     for file in sorted(glob.glob('*.pdf')):
         file_base = file.replace(".pdf", "")
         file_rst = '../' + file_base + ".rst"
-
         file_txt = '../' + file_base + ".txt"
         if os.path.exists(file_txt):
             with open(file_rst, 'w') as out:
@@ -44,8 +39,6 @@ def process_evidence():
                 out.write(f'.. literalinclude:: {file_base}.txt\n')
 
     for file in sorted(glob.glob('*.pdf')):
-        if file == 'POL00174423.pdf': continue  # corrupt
-
         file_base = file.replace(".pdf", "")
         file_txt = '../' + file_base + ".txt"
         file_rst = '../' + file_base + ".rst"
