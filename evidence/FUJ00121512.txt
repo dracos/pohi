@@ -1,0 +1,271 @@
+FUJITSU SERVICES
+
+Forest
+
+20 February 2004
+
+Keith Baines
+
+Contract Manager (FS)
+Post Office Limited
+Change & IS
+Calthorpe House
+15-20 Phoenix Place
+London WC1 ODA
+
+Dear Keith
+
+Re: Post Office Counters Ltd. vy Mrs Julie Wolstenholme
+
+FUJ00121512
+FUJ00121512
+
+Our Ref: CLS/jla/528
+
+I am writing in response to your letter of 6 February 2004 and note Post Office’s concern in
+respect of the Expert’s opinion that the Horizon system installed at Cleveleys branch was
+defective and that the HSH was more concerned with closing call than preventing
+
+recurrence of faults.
+
+An Appendix is attached which sets out Fujitsu Services’ view of and responses to the main
+
+points in the Expert’s report.
+
+In respect of the earlier correspondence between Jan Holmes (Fujitsu Services) and Jim
+Cruise (Post Office Ltd), we would be prepared to discuss this further if this would help
+
+progress the situation.
+
+Yours sincerely,
+
+Colin Lenton-Smith
+Director, Commercial and Finance
+FUJ00121512
+FUJ00121512
+
+FUJITSU SERVICES
+
+Appendix
+Response to Expert’s Opinion
+
+Re: Post Office Counters Ltd v Mrs Julie Wolstenholme: Claim number CR101947
+
+Basis Of Response
+
+Before addressing individual points from the Expert’s report there are two key areas of
+understanding to be established; the first is the function and objectives of the Fujitsu
+Services Horizon System Helpdesk (HSH), the second is the way that the Horizon system
+handles transactions should a reboot be required part way through a customer session.
+
+Horizon System Helpdesk
+
+The HSH represents the 1“ line of support to Post Masters. It operates under strict
+contractual Service Level Agreements (SLA) covering aspects such as pick-up time, first
+time fix, and time to close. These measures designed to ensure that Post Masters receive a
+quick response to their call and, to the extent possible over the ‘phone, a timely return to
+normal business operations.
+
+Depending on the nature of the call the HSH operator would work with the Post Master to
+solve the problem and return the Outlet to normal operation as soon as possible, in line with
+the prevailing SLAs. If this could not be achieved the call would be escalated up the
+support channel to 2**, 3 or 4" line depending on the severity of problem. Whilst the
+primary objective of the HSH is to return the Outlet to normal operation as soon as
+possible, and rebooting the Counter often meets that objective, this does not mean that a
+problem is closed at that point in time, as a detailed scrutiny of overall problem
+management process would reveal.
+
+Transaction Handling on Reboot
+
+The primary interface between the Post Office Clerk and the external customer is the
+Customer Session. Any transactions that are undertaken within a Customer Session are
+stored on a Session Stack pending a Settlement transaction whereby goods and services
+provided by Post Office to the customer are paid for. Only after the Settlement has been
+confirmed and a receipt printed, will the totality of transactions on the stack be transferred
+from the Session Stack to the transaction log (TMS Journal) and a record maintained of the
+Stock Unit movements. Once the Stock Unit is ‘rolled over’ (balanced) the various pending
+movements will be finalised and reflected in new Stock Unit balances.
+
+It is at this point that any discrepancies and imbalances between Stock Units are identified
+and handled through reconciliation and Post Master manual intervention. It this context a
+discrepancy is in fact a balancing entry to ensure the Cash Accounts receipts and payments
+tables agree. A discrepancy could occur, for example, if the Post Master incorrectly
+declared the cash or stock position to the system against which the system compares its
+own record.
+
+If a Session is interrupted pre-Settlement, perhaps through a fault that requires a reboot, the
+Session — and consequently the Session Stack - is not maintained and has to be re-started
+
+once the system has been returned to the Post Master. In 2000 the only exception to this
+1
+FUJ00121512
+FUJ00121512
+
+FUJITSU SERVICES
+
+Forest Road, Feltham, Middlesex TW43.21
+Fax:!
+
+jitsu.com Web: services.fujitsu.com
+
+Tel: 4 Gi
+Email aeKngisig
+
+were Automated Payment (AP) transactions where a smart device may have already been
+charged before the payment was made. In this instance the system will, on reboot, prompt
+the Post Master to complete the transaction through to Settlement. All other transactions
+that may have been on the Session Stack will be lost.
+
+Simply put, the design of the system precludes the possibility of a Session Stack being
+partially, or doubly committed and thus accounting errors cannot be introduced through a
+system crash or forced reboot.
+
+The Expert’s Opinion
+
+‘Reasonableness' of calls to HSH
+
+The Expert was unable to make direct comparisons between similar Outlets due to the
+absence of records. While this was true of audit data formally available to Post Office Ltd,
+Fujitsu Services (Post Office Account) are able to review an unregulated archive of records
+of the other installed 6 Counter Outlets over a comparable period. The table below shows
+the output from that analysis:
+
+FAD | POName Install Total A FH K M NiO|S T X Non | %
+Date Calls A&G _| Soft
+
+005323 | Headingly 06/10/99 | 74 | 20 5 7 3 |27|4/6 2 | 73% | 36%
+
+005715 | Dungannon | 18/10/99 | 25 | 8 2 1] 4 | 10 3 68% | 40%
+
+009116 | Halstead 2gig99 | 16 «| 3 1 afafz7[1}2 81% | 44%
+
+013613 | Haverfordwest | 04/11/99 | 48 | 7 34 2|2 | 22 3 85% | 46%
+
+153405 | Cleveleys [1] | 09/02/00 | 101 | 15/1 | 6 5}1 15 |1 |} 35] 2) 14 | 16 85% | 35%
+
+153405 | Cleveleys [2] | 09/02/00} 85 | 15/1 /6 5/1 |5|1]35]2| 14 82% | 41%
+
+176323 | Armley 13/1099 | 87 | 23 8 |2)4 7 | 29] 1/12 74% | 33%
+
+185611 | Penarth og/io/99 | 58 | 15 5 1 315] 2| 14 74% | 26%
+
+250704 | Yorkgate 2aiogi99 | 32. | 5 4 3 | 16]1/3 84% | 50%
+
+292323 | Otley o7/10/99 | 34 | 10 1[2/5 1] a1]2}2 71% | 32%
+
+333427 | Darwen 2inoss | 55 | 13 8 |6|2 1[5]13/3/3 76% | 24%
+
+345432 | Wilmslow 25ios9 | 29 | 4 2 6 4|7 6 86% | 24%
+
+431614 | ColwynBay | 05/11/99 | 89 | 19 2|7/3 2 | 38] 5| 13 79% | 43%
+
+Call gend
+
+Type
+
+A Advice and Guidance
+
+F Reference Data
+
+H Hardware
+
+j implementation
+
+K Cash Account
+
+M Customer Complaint
+
+N Network
+
+° Operational
+
+s Software
+
+T Training
+
+FUJ00121512
+FUJ00121512
+
+FUJITSU SERVICES
+
+Forest Road, Feltham, Middiese» Tutt 26 J.
+
+} Web: services fujitsu.com
+
+Other
+
+Rollout Helpdesk
+
+Security
+
+[1] Cleveleys complete HSH call count including Rollout calls
+[2] Cleveleys HSH call count without Rollout calls and the basis for comparison.
+
+Analysis of the comparable Outlets shows that in terms of total calls made (3 from highest
+out of 12), the %ge that were non Advice & Guidance (4" from highest) and the %ge that
+were Software based (5'" from highest), Cleveleys numbers are broadly comparable with
+the group of Outlets.
+
+It is worth noting that Fujitsu Services is not aware of similar complaints or claims being
+made from the other Outlets in the above list, some of which have higher call profiles than
+Cleveleys.
+
+Operator advice to ‘Reboot’
+
+In this context the opinion of the Expert, that “this instruction treats the effect and not the
+cause” is correct.
+
+However, it would be incorrect to assume that no further work is carried out by Fujitsu
+Services to address the various blue screen/system freeze/screen lock problems. Regular
+maintenance updates are made to address these problems within the normal Release
+programme.
+
+Summary: Defective Equipment
+
+The criticism that the technology installed at Cleveleys was ‘clearly defective’ is subjective
+and based on the raising of 70 HSH calls over a 10-month period. There is no attempt to
+substantiate the claim nor to draw any comparisons with external benchmarks.
+
+Summary: Closing Calls
+
+As already stated the HSH is targeted at returning Outlets to normal working as fast as
+possible and is not in a position to analyse system error messages displayed on screens.
+This is governed by contractual SLAs which are monitored by Post Office Ltd. So while
+the Expert’s statement is fact it does not take into account the objectives of the HSH or the
+manner in which it operates.
+
+Summary: Worrying Discrepancies
+
+It is difficult to comment on the statement made by the Expert in this part of the Summary
+although he is alluding to the fact that system errors may be responsible for this. I have
+explained why this cannot happen earlier in this report. The argument has been put forward
+by a number of Post Masters in the past when challenged by Post Office Limited for
+unacceptable losses and each time it has fallen when confronted by transaction data that
+demonstrates that the system was operating normally during the disputed time period.
+
+Unfortunately Fujitsu Services is unable to provide archived transaction data in respect of
+Cleveleys for the disputed period as, under the terms of the contract in force with Post
+Office Ltd at that time, it would have been deleted from the archive 18 months after it was
+FUJ00121512
+FUJ00121512
+
+FUJITSU SERVICES
+
+Forest Road, Feltham, Middlesex TW13.7Ey.
+
+originally stored. Thus transactions written up to 20" November 2000 would have been
+deleted on or just after 20 May 2002.
+
+Conclusion
+
+The report presented by the Expert is based on a simple analysis of HSH records and not a
+detailed understanding of how the Horizon system works, or even the prime objectives of
+the Horizon System Helpdesk. Consequently the opinions expressed in the report, while not
+always incorrect, do not present the whole story and are presented from a single
+perspective.
+
+We have identified where we could not argue against an opinion or where the opinion is
+correct as a statement of fact but lacking in context. We have also identified where we
+disagree with the opinion expressed.
+
+20 February 2004

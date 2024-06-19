@@ -1,0 +1,1847 @@
+Pe or R0'p
+
+FUJ00155181
+FUJ00155181
+
+Dur lay lonovok.
+
+AUDIT RECORD QUERY
+
+Originator: | Graham Ward Date: | 24/10/05
+Post Office Ltd Security |. oe
+Casework Manager c |
+PO Box 1 | |) |
+CROYDON : |
+CR9 1WN :  POH-6309D -_)
+Telephone: “GRO
+Witness NO REF NO. | ARQ
+Statement (delete 0506/401
+as applicable)
+Information Requested
+Date range: 14/09/05 — 13/10/05 Post Office | GAERWEN
+160604 So
+2 Vv
+GENERAL Please conduct an analysis of all'Helpdesk calls for the above
+DESCRIPTION period.
+FORMAT
+REQUIREMENTS: | Also please conduct a thorough examination of the system In
+general with a view to refuting the Postmaster’s allegation that
+And od bui‘aan | there is a fault with the ‘nil’ transactions on card account/on
+Poi loZaw 2w line banking transactions.
+St> 20 0 OX_| Please bare in mind we are investigating a substantial
+ad arivio0€ shortage in the accounts and should this proceed to
+- prosecution we may be asking for a supporting witness
+Aor te h-oS statement
+Ae QW ONT
+Specific Details: | (PAN or equivalent identifier)
+Signed Graham Wa rd Date | 24/10/05
+
+foerzat ZOOL”
+
+Wetted (8 Set Qoco
+
+FUJ00155181
+
+FUJ00155181
+
+*~ . ¢ PCO127820 Complete petails Page 1 of 3
+
+(Call Reference [PC0127820 (Call Logger [Penny Thomas -- SecurityPolicy
+
+‘Target Release |BI_3S82R Top Ref
+
+Call Type IE -- Enhancement Request [Priority IC -- Progress restricted
+
+Contact Penny Thomas (Call Status [Incident Under Investigation
+
+End Customer fone Specified
+
+Summary [Require SSC to analyse the attached messagestore
+
+[Progress Narrative
+
+Date:27 Oct 2005 11:57:53 User:Penny Thomas
+CALL PC0127820 opened
+
+Details entered are:-
+
+Summary:Require SSC to analyse the attached messagestore
+call Type:E
+
+call Priority:c
+
+Target Release:BI_3S82R
+
+Routed to:SecurityPolicy - Penny Thomas
+
+Date:27 Oct 2005 11:57:53 User:Penny Thomas
+Please could you
+
+Date:27 Oct 2005 12:05:35 User:Penny Thomas
+Please could you analyse the attached messagestore and report all instances of
+Inil transactions on card account/on line banking transactions.
+
+Ithis request follows a recent investigators visit to the outlet and the PM
+claiming that some on-line banking pin withdrawals are zero value on the on*line
+banking report and a large sum of money cannot be accountéd for.
+
+Please call me if you require any further information.
+
+Date:27 Oct 2005 12:14:57 User:Penny Thomas
+Evidence Added - ARQ 401 - request details
+
+Date:27 Oct 2005 12:17:06 User:Penny Thomas
+Evidence Added - Messagestore for FAD 160604 - 14 Sep to 13 Oct 05
+
+Date:27 Oct 2005 12:36:06 User:Penny Thomas
+This request was the subject of an e-mail, which was viewed, and commented on by
+Richard Craig on 17 October 05 (sent from Odette Moronfolu) .
+
+IDate:27 Oct 2005 12:37:56 User:Penny Thomas
+The Call record has been transferred to the team: EDSC
+
+Date:27 Oct 2005 14:03:20 User:John Simpkins
+The Call record has been assigned to the Team Member: John Ballantyne
+
+IDate:28 Oct ‘2005 12:15:12 User:John Ballantyne
+Analysis of Data for outlet 160604.
+
+Time period 14 September 2005 to 13 October 2005
+
+Selected data Card Account at Post Office transactions Request and Confirmation
+records
+
+file://C:\WINNT\Profiles\ThomasP\Temporary%20Internet%20F iles\CompleteAlert_51905 01/11/05
+FUJ00155181
+
+FUJ00155181
+
++ PCO127820 Complete petails Page 2 of 3
+
+Total of 898 transaction
+Total value of Transactions ?98,773.92
+
+Transactions with zero value (Confirmed)
+
+iNodeId UserId TranType Count
+
+1 ETHOO1 Balance Enq 12
+1 ETHOO] Withdrawal 2
+1 ETHOO] Withdraw Limit 10
+
+1 JEVOO1 Withdraw Limit 1
+2 NTHOO1 Balance Eng 26
+
+2 NTHOO1 Withdrawal 6
+
+2 NTHOO1 Withdraw Limit 25
+
+2 ZAUD99 Withdraw Limit 1
+
+IDate:28 Oct:2005 12:20:27 User: John Ballantyne
+The Call record has been transferred to the team: SecurityPolicy
+
+Date:28 Oct 2005 13:13:15 User:Pete Sewell
+The Call record has been assigned to the Team Member: Penny Thomas
+
+Date:31 Oct 2005 10:54:17 User:Penny Thomas
+Evidence Added -
+
+Date:31 Oct 2005 11:00:23 User:Penny Thomas
+
+Thank you for your response, but I need further comment, please. My apologies
+for not attaching the original correspondence, but I have now. As you can see,
+we. need detailed analysis of these occurences.
+
+Date:31 Oct 2005 11:04:10 User:Penny Thomas
+The Call record has been transferred to the team: EDSC
+
+Date:31 Oct 2005 11:08:09 User:Lorraine Elliott
+The Call record has been assigned to the Team Member: John Ballantyne
+
+IDate:31 Oct 2005 14:22:32 User: John Ballantyne
+Evidence Added - Details for zero value transactions
+
+Date:31 Oct 2005 14:22:59 User:John Ballantyne
+The Call record has been transferred to the team: SecurityPolicy
+
+Date:31 Oct 2005 14:31:53 User:Pete Sewell
+The Call record has been assigned to the Team Member: Penny Thomas
+
+Date:01 Nov 2005 09:04:22 User:Penny Thomas
+Many thanks. Could you please define'Usage Violation' RespCd 6 and advise how
+
+file://C:\WINNT\Profiles\ThomasP\Temporary%20Internet%20Files\CompleteA lert_51905 01/11/05
+FUJ00155181
+FUJ00155181
+
++ PC0127820 Complete Petails Page 3 of 3
+
+long before 'Timeout' RespCd 23 occurs.
+
+[Date:01 Nov 2005 09:05:41 User:Penny Thomas
+The Call record has been transferred to the team: EDSC
+
+Date:01 Nov 2005 09:14:26 User:Lorraine Elliott
+Ithe Call record has been assigned to the Team Member: John Ballantyne
+
+Date:01 Nov 2005 10:03:52 User:John Ballantyne
+
+[Start of Response]
+
+Usage Violation: This is a reponse from the autorising Bank CAPO in this case
+lwherby the expected (daily or maybe weekly) amount of monies withdrawn would
+lexceed the contracted limit.
+
+Timeout for response 23 is where our Authorisation agent- has not had a reply
+from the banking authority within 18 seconds.
+
+You may note that the response 23's have duplicated in the spreadsheet as there
+lare infact 2 Confirmations in this scenario. So there are actually 80 zero value
+transactions and not 83.
+
+[End of Response]
+
+Response code to call type E as Category 40 -- Pending -- Incident Under
+Investigation
+
+Hours spent since call received: 0 hours
+
+Date:01 Nov 2005 10:05:05 User:John Ballantyne
+The Call record has been transferred to the team: SecurityPolicy
+
+IDate:01 Nov 2005 15:02:32 User:Pete Sewell
+The Call record has been assigned to the Team Member: Penny Thomas
+
+[Root Cause JNone Specified
+
+Subject Product General/Other/Misc --
+
+Assignee Penny Thomas -- SecurityPolicy
+Last Progress (01 Nov 2005 15:02:32 -- Pete Sewell
+
+file://C:\WINNT\Profiles\ThomasP\Temporary%20Internet%20Files\CompleteA lert_51905 01/11/05
+Nodeld = Userld
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+1 ETHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+4 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2. NTHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+
+Date
+14/09/05
+14/09/05
+14/09/05
+14/09/05
+15/09/05
+17/09/05
+19/09/05
+19/09/05
+19/09/05
+19/09/05
+20/09/05
+20/09/05
+20/09/05
+21/09/05
+21/09/05
+21/09/05
+22/09/05
+22/09/05
+23/09/05
+24/09/05
+24/09/05
+26/09/05
+26/09/05
+26/09/05
+26/09/05
+26/09/05
+27/09/05
+27/09/05
+27/09/05
+27/09/05
+27/09/05
+27/09/05
+27/09/05
+
+Time TranType Description
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 64 - Withdrawal
+00/01/00 64 - Withdrawal
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 64 - Withdrawal
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 64 - Withdrawal
+
+Zero_Txn_details
+
+Amount
+
+eeoeooCeCC COO COCO OCC COCO OC OCC OOOO C CCD
+
+Page 1
+
+HTxnNum
+
+44-160604-2-1203158
+'-1203171
+-1111317
+-1111322
+
+44-160604-2-1204806
+44-160604-2-1206085
+-1114996
+
+44-160604-2-1207173
+44-160604-2-1208161
+
+44-160604-2-1209971
+44-160604-2-1209976
+44-160604-2-1210691
+44-160604-2-1210935
+44-160604-2-1212140
+44-160604-1-1119808
+44-160604-1-1119814
+44-160604-2-1212981
+44-160604-2-1213046
+44-160604-2-1213051
+44-160604-2-1213056
+44-160604-2-1214092
+44-160604-2-1214451
+44-160604-2-1214560
+44-160604-2-1214565
+
+44-160604-2-1214807
+
+RespCd Description
+1-OK
+
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+1-OK
+
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+1-OK
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+1-OK
+
+6 - UsageViolation —
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+
+4 - Insufficient Funds
+1-OK
+
+4 - Insufficient Funds
+3- Invalid PIN _
+
+3 - Invalid PIN -
+
+3- Invalid PIN.
+1-OK
+
+3 - Invalid PIN
+1-OK
+
+3 - Invalid PIN
+
+FUJ00155181
+FUJ00155181
+1 ETHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+1 ETHOO1
+1 ETHOO1
+1 ETHOO1
+41 ETHOO1
+41 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+4 ETHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+
+27/09/05
+27/09/05
+28/09/05
+28/09/05
+28/09/05
+28/09/05
+28/09/05
+28/09/05
+28/09/05
+28/09/05
+28/09/05
+29/09/05
+29/09/05
+29/09/05
+01/10/05
+03/10/05
+03/10/05
+03/10/05
+03/10/05
+03/10/05
+03/10/05
+04/10/05
+04/10/05
+04/10/05
+04/10/05
+04/10/05
+04/10/05
+04/10/05
+05/10/05
+05/10/05
+06/10/05
+06/10/05
+06/10/05
+08/10/05
+
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance. Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 64 - Withdrawal
+
+Zero_Txn_details
+
+SSOCODDC OCOD OOOO ODOC OO COCO OOOO O OOOO COO
+
+Page 2
+
+44-160604-1-1121601
+44-160604-1
+
+1121780
+
+-1122174
+44-160604-1-1122239
+44-160604-1-1122311
+
+44-160604-2-1216742
+44-160604-2-1216931
+44-160604-
+44-160604-2-1217533
+44-160604-1-1125666
+44-160604-2-1220768
+44-160604-2-1221020
+44-160604-1-1126711
+44-160604-1-1126716
+44-160604-2-1221082
+44-160604-2-1221482
+44-160604-1-1127972
+44-160604-2-1223527
+44-160604-2-1223527
+44-160604-2-1223532
+44-160604-2-1223532
+44-160604-2-1223537
+44-160604-2-1223537
+44-160604-1-1128684
+44-160604-2-1225045
+
+44-160604-2-1227873
+
+1-OK
+
+1-OK
+
+1-OK
+
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+
+4 - Insufficient Funds
+4 - Insufficient Funds
+3 - Invalid PIN
+
+4 - Insufficient Funds
+1-OK
+
+1-OK
+
+3 -Invalid PIN
+1-OK
+
+1-OK
+
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+1-OK
+
+1-OK
+
+23 - Timeout ~~
+
+23 - Timeout
+
+23 - Timeout
+
+23 - Timeout
+
+23 - Timeout
+
+23 - Timeout
+
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+
+3 - Invalid PIN
+1-OK
+
+4 - Insufficient Funds
+
+FUJ00155181
+FUJ00155181
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+1 ETHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+2 NTHOO1
+4 ETHOO1
+2 NTHOO1
+2 NTHOO1
+1 JEVO01
+2 ZAUD99
+
+08/10/05
+08/10/05
+10/10/05
+10/10/05
+10/10/05
+10/10/05
+10/10/05
+11/10/05
+11/10/05
+11/10/05
+12/10/05
+12/10/05
+12/10/05
+12/10/05
+13/10/05
+13/10/05
+
+00/01/00 65 - Withdrawal Limit
+00/01/00 64 - Withdrawal
+
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 64 - Withdrawal
+
+00/01/00 65 - Withdrawal Limit
+00/01/00 61 - Balance Enquiry
+00/01/00 64 - Withdrawal
+
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 61 - Balance Enquiry
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+00/01/00 65 - Withdrawal Limit
+
+Zero_Txn_details
+
+eeCCOC COO OOO OOO OD
+
+44-160604-2-1227913
+44-160604-2-1227960
+44-160604-2-1228514
+44-160604-2-1228686
+44-160604-1-1132228
+44-160604-2-1228827
+44-160604-2-1228987
+
+44-160604-2-1231650
+44-160604-1-1133728
+44-160604-2-1231819
+44-160604-2-1232051
+44-160604-1-1135887
+44-160604-2-1232702
+
+Page 3
+
+FUJ00155181
+FUJ00155181
+
+3 - Invalid PIN
+3.- Invalid PIN
+3 - Invalid PIN
+3 - Invalid PIN
+1-OK
+
+3 - Invalid PIN
+3 - Invalid PIN
+1-OK
+
+4 - Insufficient Funds
+1-OK
+
+1-OK
+
+1-OK
+
+1-OK
+
+3 - Invalid PIN
+3 - Invalid PIN
+3 - Invalid PIN
+
+o
+FUJ00155181
+FUJ00155181
+
+‘ woo Page 1 of 4
+\
+
+Thomas Penny
+
+From: Thomas Penny
+Sent: — 31 October 2005 11:10
+To: Ballantyne John
+Subject: FW: Gaerwen Fad code
+
+Hi John
+Here is the original correspondence associated with PCO127820.
+
+Kind regards
+Penny
+
+aeeel Original Message-----
+
+From: Craig Richard
+
+“Sent: 17 October 2005 16:01
+
+To: Moronfolti Oddette S
+
+Ce: Pinder Brian; Sewell Peter (FELO1); Lowther Neneh
+Subject: RE: Gaerwen Fad code 160604
+
+Oddette,
+
+the original email makes reference to an audit. To answer your question definitively I'd need to know what data they are FS
+auditing that defines a “nil transaction". Is it zero transaction values in the R or A messages? Or are they auditing data in
+
+some host database or log? This matters because for example, the counter doesn't send up an amount value in the R-
+
+message for "Withdraw to limit", but that may be represented as a zero value in a log or database field. The same might
+
+be true for Change PIN and Balance Enquiry.
+
+All banking transactions are approved on-line with the acquirer. The-acquirer may decline for reasons other than
+incorrect PIN entry (for example a stolen/cancelled card was used). These other reasons might also cause a nil
+transaction.
+
+Nil transactions could also be caused by errors in PIN Pad, counter, agents.or host code depending on what constitutes a
+“nil transaction". This cannot be determined without access to the appropriate system logs. I understand that it is not felt
+to be appropriate at this stage for those logs to be examined by development staff. I'd recommend however that counter
+logs are harvested now before potential evidence is lost.
+
+Regards,
+Ric.
+
+oo Original Message-----
+
+From: Moronfolu Oddette S
+
+Sent: 17 October 2005 13:51
+
+To: Craig Richard
+
+Cc: Pinder Brian; Sewell Peter (FELO1); Lowther Neneh
+Subject: FW: Gaerwen Fad code 160604
+
+Hi Ric,
+Can you have a look at this?
+They really need to know if there is anything else that could have caused the nil transactions.
+
+Many Thanks,
+Oddette
+
+31/10/05
+FUJ00155181
+____FUJ00155181
+‘ . Page 2 of 4
+
+-----Original Message-----
+
+From: Lowther Neneh
+
+Sent: 17 October 2005 13:22
+
+To: Moronfolu Oddette S
+
+Subject: FW: Gaerwen Fad code 160604
+
+Hi, Odette,
+Could you advise us on.this please.
+
+I'm on a course tomorrow so hoping Penny would pick it up.
+Kind regards,
+
+Neneh
+
+-----Original Message-----
+
+From: Pinder Brian
+
+Sent: 14 October 2005 17:09
+
+To: Thomas Penny; Lowther Neneh; Dunks Andy; Membery William; Sewell Peter (FELO!)
+Subject: FW: Gaerwen Fad code 160604
+
+All
+
+Obviously this has not come our way yet, but meanwhile any thoughts comments?
+I guess we just wait for an ARQ, but do we (security) have anything in our arsenal, to go back to Graham with at all?
+
+Regds Brian
+
+'s; charles. leighton@,.
+Subject: Re: Gaerweni Fad code 16604
+
+All
+The email below from one of our investigators says it all  ......
+is there a check that can be made to ensure there are / were'no serious errors on the system at this: Post Office. We already
+have details of calls made to the helpdesk (sée spreadsheet below), which do not highlight anything obvious......... are
+there general error type reports that will tell you when there is a problem with the system, which the Post Offic ice ‘may not
+necessarily be aware of, particularly in relation to the highlighted paragraph....have there been similar problems
+elsewhere ?
+
+(I've heard of Tivoli event logs.........
+
+could these be-relevant ?)
+
+This case is in it's early stages, but if it were to proceed to a prosecution, we'd likely need a statement which outlines how
+you can confirm that there were no operating errors with this office's system. I haven't submitted an ARQ yet but can do
+so if you feel it's needed.
+
+Happy to discuss if needs be
+
+Regards
+
+Graham
+
+Casework Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, cR9 1WN
+
+Postline: N
+N/A, Mobé.
+
+31/10/05
+
+FUJ00155181
+
+FUJ00155181
+
+a Page 3 of 4
+
+(Charles - can you offer your thoughts)
+
+— Forwarded by Graham C Ward, GRO___ bn 14/10/2005 14:39
+
+Diane Matthews
+
+To: Graham C War
+14/10/2005 14:37 ce:
+
+Subject: Re: Gaerwen Fad code 160604
+
+Graham,
+
+Just to clarify, the Subpostmaster has not made any calls to HSH or NBSC prior to yesterdays audit, and is now voicing,
+
+his concerns over the nil transactions on card account/on line banking transactions.
+
+I believe there are at least 2 scenarios where a nil value will be recorded. These are.
+If a customer places a card into the pinpad and enters an incorrect pin
+number, the system will decline the transaction and request the customer
+to remove their card. This transaction was undertaken at the branch
+using a Post Office card account operated by the auditor. The report was
+printed with a nil value showing
+If a customer places a POCA card into the pinpad, enters a correct PIN
+and asks to withdraw cash, if there are no funds in the-account, the
+transaction will be declined and the customer requested to remover their
+card. The summary would again show a nil value against the transaction
+
+Please can you check any other possibilities of nil values.on these types of transactions with Fujitsu.
+
+Also as the Subpostmaster is blaming the system on his losses, please could we check there are no problems with the
+Horizon kit at the branch.
+
+To confirm, the branch will remain closed until we are happy that the Horizon system is fully operational.
+Thanks
+Diane
+
+Investigation Manager
+
+Post Office Ltd
+
+POL Capacity 7 7
+
+Management Info To: Paul Dawk '
+
+Sent by: Jay ce: Andrew Harley/e/ GRO - 3
+
+O'Laogun Subject: Re: Gaerwen Fad code 160604(Document link: POL Capacity Management
+Info)
+
+14/10/2005 11:15
+
+(See attached file: fad 160604 calls.xls)
+
+31/10/05
+FUJ00155181
+FUJ00155181
+
+‘ Page 4 of 4
+
+Preretererertrrterecervecererettetececertertertctsrtccretertettrrtetsr4
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then delete this email from your system.
+PerererrreecrsteretrrrcerttirtetrTttrer ir ricrre terri terre terri etter
+
+31/10/05
+
+fo
+Thomas Penny
+
+FUJ00155181
+
+____FUJ00155181
+
+From: Thomas Penny
+
+Sent: 25 October 2005 10:24
+
+To: Pinder Brian; Sewell Peter (FELO1)
+Subject: FW: Gaerwen Fad code 160604
+
+w)
+
+(0506401 GW.doc
+
+Hi
+
+Here's a copy of Grahams request concerning Gaerwen outlet.
+
+The ‘thorough analysis’ | have agreed with Graham is the analysis of all nil transactions on card account/on line
+
+banking transactions.
+
+We need to identify now how we request the analysis from SSC. Presumably we have to use audit data for this
+analysis: If | down load the messagestore can we do a peak request? - if so, could we do this together so | know for
+
+future how to do it?
+
+As you can see, | have also suggested that PO log a helpdesk call and request that the system is checked for error.
+
+Kind regards
+Penny
+
+To: diane.matthews(_
+Cc: paul.dawkins@”~
+Subject: RE: Gaenwér Fai
+
+Diane
+
+I've spoken with the Fujitsu security team and have agreed the following
+course of action.
+
+Fujitsu will instigate a thorough analysis of the system at the office
+
+going back one month from the date of the audit (if we need to go back
+further we will do). | do not see a need to remove hardware at this point
+to conduct any specialist examination of the processors, particularly given
+the Postmaster did not report any faults with the system to the HSH. I
+would suggest that a call is logged with the HSH (by you or the CS&M)
+outlining the "alleged" fault and asking them to send an engineer to the
+site to conduct a test of the equipment prior to the office being
+
+re-opened. I'm sure they can also perform a few test transactions.
+
+Any queries please shout.
+
+Penny - please find attached the relevant ARQ
+(See attached file: 0506401 GW.doc)
+Regards
+
+Graham
+
+Casework Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+
+Postline:
+N/A, Mobei.
+External Email: graham.c.ward@ GRO |
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+
+disclose, reproduce, copy or distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then
+delete this email from your system.
+
+FUJ00155181
+_Fus001s6181
+FUJ00155181
+
+FUJ00155181
+tote
+Thomas Penny
+From: graham.c.ward¢_
+Sent: 25 October 200! “OBS.
+To: diane.matthews@_
+Ce: paul.dawkins@}
+Subject: RE: Gaerwen
+w |
+0506401 GW.doc °
+Diane
+
+I've spoken with the Fujitsu security team and have agreed the following
+course of action.
+
+Fujitsu will instigate a thorough analysis of the system at the office
+
+going back one month from the date of the audit (if we need to go back
+further we will do). | do not see a need to remove hardware at this point
+to conduct any specialist examination of the processors, particularly given
+the Postmaster did not report any faults with the system to the HSH. |
+would suggest that a call is logged with the HSH (by you or the CS&M)
+outlining the "alleged" fault and asking them to send an engineer to the
+site to conduct a test of the equipment prior to the office being
+
+re-opened. I'm sure they can also perform a few test transactions.
+
+Any queries please shout.
+
+Penny - please find attached the relevant ARQ
+(See attached file: 0506401 GW.doc)
+Regards
+
+Graham
+
+Casework Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+
+Postline: N/Z
+N/A, Mobex::
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then
+delete this email from your system:
+FUJ00155181
+
+FUJ00155181
+rary 45 _
+‘ xo Onn OE Mor fan 8
+* Thomas Penny
+From: graham.c.ward@..
+Sent: 21 October 2005 08:55
+To: Thomas Penny __
+Ce: diane.matthews
+Subject: RE: Gaerwen Fat
+
+Penny
+thanks....but you've confused me +!
+
+what is an R&A message ? .
+
+what is a host database ? .......... (I believe the nil transactions.
+
+were identified on a transaction log)
+| think it best that the system logs are examined in the first instance (do
+you need an ARQ for this ?), going back to the 1 April 2005. Is it possible
+for you to run a report to show 'nil' values for the transaction examples
+described below, so we can see how often it has happened ?
+Cheers
+
+Graham
+
+To: “graham.c.ward!”
+
+Naeeseeeseeeteensesesnensaemngenrmininenemansnennnininennniniaenneniad ce +
+° Subject: RE: Gaerwen Fad code 160604
+20/10/2005 17:35
+
+Hi Graham.
+As you know, nothing is ever straightforward! Here's some feedback -
+
+‘The original email makes reference to an audit. To answer your question
+~vefinitively I'd need to know what data they are auditing that defines a
+
+nil transaction”. Is it zero transaction values in the R or A messages? Or
+are they auditing data in some host database or log? This matters because
+for example, the counter doesn't send up an amount value in the R message
+for "Withdraw to limit", but that may be represented as a zero value ina
+
+log or database field. The same might be true for Change PIN and Balance
+Enquiry.
+
+All banking transactions are approved on-line with the acquirer. The
+acquirer may decline for reasons other than incorrect PIN entry (for
+example
+
+a stolen/cancelled card was used). These other reasons might also cause a
+nil transaction.
+
+Nil transactions could also be caused by errors in PIN Pad, counter, agents
+or host code depending on what constitutes a "nil transaction". This cannot
+be determined without access to the appropriate system logs."
+
+In other words, we need to check the system logs. How would you like to
+proceed?
+
+Kind regards
+Penny
+* [mailto:graham.c.ward
+
+From: graham.c. ward¢
+
+‘
+GRO
+
+Sent: 14 October 2005'16:15'
+
+To: Fujitsu@ .
+
+Cc: diane.matthews@_ k, charles. leighton¢
+
+Subject: Re: Gaerwen Fad code 760604
+
+All
+
+The e mail below from one of our investigators says it all
+
+is there a check that can be made to ensure there are / were no serious
+errors on the system at this Post Office. We already have details of calls
+made to the helpdesk (see spreadsheet below), which do not highlight
+anything obvious ......... are there general error type reports that will
+
+tell you when there is a problem with the system, which the Post Office may
+not necessarily be aware of, particularly in relation to.the highlighted
+paragraph....have there been similar problems elsewhere ?
+
+(I've heard of Tivoli event logs......... could these be relevant ?)
+
+This case is in it's early stages, but if it were to proceed to a
+prosecution, we'd likely need a statement which outlines how you can
+confirm that there were no operating errors with this office's system. |
+haven't submitted an ARQ yet but can do so if you feel it's needed.
+Happy to discuss if needs be
+
+Regards
+
+Sraham
+
+Casework Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+
+Postline: N/A; > 227, VoiceMail
+N/A, Mobex: & GRO P
+
+(Charles - can you offer your thoughts)
+
+----- Forwarded by Graham C Ward Jon 14/10/2005 14:39 —---
+
+Diane Matthews
+
+Ward/e/POSTOFFIC.____ B
+14/10/2005 14:37 cc:
+
+Subject: Re: Gaerwen Fad
+code
+160604
+
+Graham,
+
+Just to clarify, the Subpostmaster has not made any calls to HSH or NBSC
+prior to yesterdays audit, and is now voicing his concerns over the nil
+transactions on card account/on line banking transactions.
+
+| believe there are at least 2 scenarios where a nil value will be
+
+recorded. These are
+If a customer places a card into the pinpad and enters an incorrect pin
+number, the system will decline the transaction and request the customer
+to remove their card. This transaction was undertaken at the branch
+using a Post Office card account operated by the auditor. The report was
+printed with a nil value showing
+If a customer places a POCA card into the pinpad, enters a correct PIN
+and asks to withdraw cash, if there are no funds in the account, the
+transaction will be declined and the customer requested to remover their
+card. The summary would again show a nil value against the transaction
+
+2
+
+FUJ00155181
+
+FUJO0155181
+ote ew
+
+» Please can you check any other possibilities of nil values on these types
+of transactions with Fujitsu.
+
+Also as the Subpostmaster is blaming the system on his losses, please could
+
+we check’there are no problems with the Horizon kit at the branch.
+
+To confirm, the branch will remain closed until we are happy that the
+Horizon system is fully operational.
+
+Thanks
+Diane
+
+Investigation Manager
+Post Office Ltd
+
+POL Capacity
+
+-Management Info To: Paul
+GRO :
+
+Dawkinsi_.
+
+Andrew
+
+Harley/e/f_ a
+Subject: Re: Gaerwen Fad
+sode
+
+160604(Document link: POL Capacity Management Info)
+
+14/10/2005 11:15
+
+(See attached file: fad 160604 calls.xls)
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then
+delete this email from your system.
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+
+disclose, reproduce, copy or distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then
+delete this email from your system.
+
+FUJ00155181
+
+FUJ00155181
+FUJ00155181
+FUJ00155181
+
+Page 1 of 4
+
+Thomas Penny
+
+From: — Pinder Brian 7 202 3 363
+
+Sent: 17 October 2005 17:01
+
+To: Moronfolu Oddette S
+
+Ce: Sewell Peter (FELO1); Lowther Neneh; Thomas
+Subject: RE: Gaerwen Fad code 160604
+
+Thanks and agreed lets leave it at that.
+
+Brian
+
+From: Moronfolu Oddette S
+
+Sent: 17 October 2005 16:59
+
+To: Pinder Brian
+
+Cc: Sewell Peter (FELO1); Lowther Neneh; Thomas Penny
+Subject: RE: Gaerwen Fad code 160604
+
+Brain, at
+We have nothing to go back. to Graham with unless a call is raised to investigate. Which Ric suggests
+happens sooner rather than later.
+
+Hope this clarifies.
+
+Regards,
+
+Oddette
+
+From: Pinder Brian
+
+Sent: 17 October 2005 16:57
+
+To: Moronfolu Oddette S
+
+Cc: Sewell Peter (FELO1); Lowther Neneh; Thomas Penny
+Subject: RE: Gaerwen Fad code 160604
+
+Oddette
+
+Thanks for your input here and I note Richards reply but without wanting to cause any further unnecessary work (on our
+part) have we exhausted all reasonable avenues of enquiry on this.
+Grahams initial email last para states .....
+
+This case is in it's early stages, but if it were to proceed to a prosecution, we'd likely need.a statement which outlines how
+you can confirm that there were no operating errors with this-office's system. I haven't submitted an ARQ yet but can do
+so if you feel it's needed.
+
+Do we need to follow this up elsewhere or can we leave it at that, is there anyting to go back to Graham with?
+
+Please advise
+Regds Brian
+
+oe Original Message-----
+
+From: Craig Richard
+
+Sent: 17 October 2005 16:01
+
+To: Moronfolu Oddette $
+
+Cc: Pinder Brian; Sewell Peter (FELO1); Lowther Neneh
+Subject: RE: Gaerwen Fad code 160604
+
+Oddette,
+
+19/10/05
+FUJ00155181
+
+FUJ00155181
+‘ cea Page 2 of 4
+f the original ‘email makes reference to an audit. To answer your question definitively I'd need to know what data they are
+é auditing that defines a “nil transaction". Is it zero transaction values in the R or A messages? Or are they auditing data in
+
+| sore host database or log? This matters because for example, the counter doesn't send up an amount value in.the R
+message for "Withdraw to limit", but that may be represented as a zero value in a log or database field. The same might
+be true for Change PIN and Balance Enquiry.
+
+All banking transactions are approved on-line with the acquirer. The acquirer may decline for reasons other than
+incorrect PIN entry (for example a stolen/cancelled card was used). These other reasons might also cause a nil
+transaction.
+
+Nil transactions could also be caused by errors in PIN Pad, counter, agents or host.code depending on what constitutes a
+
+“nil transaction". This cannot be determined without access to the appropriate system logs. I understand that it is not felt
+
+to be appropriate at this stage for those logs to be examined by development staff. I'd recommend however that counter
+te logs are harvested now before potential evidence is lost.
+
+Regards,
+Ric.
+
+Original Message-----
+From: Moronfolu Oddette S
+
+Sent: 17 October 2005 13:51
+
+To: Craig Richard
+
+Cc: Pinder Brian; Sewell Peter (FELO1); Lowther Neneh
+
+Subject: FW: Gaerwen Fad code 160604
+
+Hi Ric,
+
+Can you have a look at this?
+
+They really need to know if there is anything else that could have caused the nil transactions:
+Many Thanks,
+
+Oddette
+
+From: Lowther Neneh
+
+Sent: 17 October 2005 13:22
+
+To: Moronfolu Oddette S
+
+Subject: FW: Gaerwen Fad code 160604
+
+Hi, Odette,
+
+Could you advise us on this please.
+
+I'm on a course tomorrow so hoping Penny would pick it up.
+Kind regards,
+
+Neneh
+
+From: Pinder Brian
+
+Sent: 14 October 2005 17:09
+
+To: Thomas Penny; Lowther Neneh; Dunks Andy; Membery William; Sewell Peter (FELO1)
+Subject: FW: Gaerwen Fad code 160604
+
+All
+
+Obviously this has not.come our way yet, but meanwhile any thoughts comments?
+I guess we just wait for an ARQ, but do we (security) have anything in our arsenal, to go back to Graham with at all?
+
+Regds Brian
+
+19/10/05
+FUJ00155181
+FUJ00155181
+
+Page 3 of 4
+
+Original Message-.
+From: graham.c.ward¢
+Sent: 14 October 2005 1
+
+To: Fujitsu@
+Cc: diane.matthews(~"""““GRo""~"""s; charles. leighton
+Subject: Re: Gaerwen Fad code 160604
+
+All
+The e mail below from one of our investigators says itll ..
+is there a check that can be made to ensure there are / were no serious errors on the system at this Post Office. We already
+have details of calls made to the helpdesk (see spreadsheet below), which do not highlight anything obvious are
+there general error type reports that will tell you when there is a problem with the system, which the Post Office may not
+necessarily be aware of, particularly in relation to the highlighted paragraph....have there been similar problems
+elsewhere ? .
+{I've heard of Tivoli event logs.
+
+could these be relevant ?)
+
+This case is in it's early, stages, but if it were to proceed to a prosecution, we'd likely need a statement which outlines how
+you can confirm that there were no operating errors with this office's system. I haven't submitted an ARQ yet but can do
+so if you feel it's needed.
+
+Happy to discuss if needs be
+
+Regards
+
+Graham
+
+Casework Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+
+‘oiceMail:
+: graham.c.wardt>
+
+Postline: N/A, STD Phone:
+N/A, Mobex: !
+
+(Charles - can you offer your thoughts)
+
+~---- Forwarded by Graham C Ward,
+
+in 14/10/2005 14:39 -----
+
+Diane Matthews
+
+To: Graham C Ward
+14/10/2005 14:37 ce:
+
+Subject: Re: Gaerwen Fad code 160604
+
+Graham,
+
+Just to clarify, the Subpostmaster has not made any calls to HSH or NBSC prior to yesterdays audit, and is now voicing
+his concerns over the nil trarisactions on card account/on line banking transactions.
+
+I believe there are at least 2 scenarios where a nil value will be recorded. These are
+If a customer places a card into the pinpad and enters an incorrect pin
+number, the system will decline the transaction and request the customer
+to remove their card. This transaction was undertaken at the branch
+using a Post Office card account operated by the auditor. The report was
+printed with a nil value showing
+If a customer places a POCA card into the pinpad, enters a correct PIN
+and asks to withdraw cash, if there are no funds in the account, the
+transaction will be declined and the customer requested to remover their
+card. The summary would again show a.nil value against the transaction
+
+19/10/05
+FUJ00155181
+FUJ00155181
+
+Page 4 of 4
+
+Please can you check any other possibilities of nil values on these types of transactions with Fujitsu.
+
+Also as the Subpostmaster is blaming the system on his losses, please could we check there are no problems with the |
+Horizon kit at the branch. |
+i
+
+To confirm, the branch will remain closed until we are happy that the Horizon system is fully operational.
+Thanks
+Diane
+
+Investigation Manager
+Post Office Ltd
+
+POL Capacity .
+Management Info To: _—_-Paul Dawkinshorrerox
+
+Sent by: Jay cc: Andrew Harley/ei. pre ee
+
+O'Laogun Subject: Re: Gaerwen Fad code 160604(Document link: POL Capacity Management
+
+Info)
+
+14/10/2005 11:15
+
+(See attached file: fad 160604 calls.xls)
+
+peeeeter tier itrrttrieer itretrreter it riecttetretrr tr retrretreerrerre ss
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then delete this email from your system.
+JRO IIIA SII IORI IDI TOFS IE IO IDEA ISO I IO I TO III II aA
+
+19/10/05
+FUJ00155181
+FUJ00155181
+
+‘Thomas Penny
+
+From: graham.c.ward@..
+Sent: 14 Octobs
+
+To: Fujitsu@. a
+Ce: diane.matthews¢ _ !, charles.leighton@
+Subject: Re: Gaerwen Fad code 160604 i
+
+x |
+fad 160604 calls xs
+All
+The e mail below from one of our investigators says it all
+is there a check that can be made to ensure there are / were no serious
+errors on the system at this Post Office. We already have details of calls
+made to the helpdesk (see spreadsheet below), which do not highlight
+anything obvious are there general error type reports that will
+tell you when the: problem with the system, which the Post Office may
+not necessarily be aware of, particularly in relation to the highlighted
+paragraph....have there been similar problems elsewhere ?
+(I've heard of Tivoli event logs......... could these be relevant ?)
+
+This case is in it's early stages, but if it were to proceed to a
+prosecution, we'd likely need a statement which outlines how you can
+sonfirm that there were no operating errors with this office's system. |
+raven't submitted an ARQ yet but can do so if you feel it's needed.
+Happy to discuss if needs be
+
+Regards
+
+Graham
+
+Casework Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+Postline: N/A, S’
+
+N/A, Mobex:
+External Email: graham.c:ward¢”
+
+] VoiceMail:
+
+(Charles - can you offer your thoughts)
+
+----- Forwarded by Graham C Ward:
+Diane Matthews
+
+To:
+14/10/2005 14:37 cc:
+Subject: Re: Gaerwen Fad code 160604
+
+Graham,
+
+Just to clarify, the Subpostmaster has not made-any calls to HSH or NBSC
+prior to yesterdays audit, and is now voicing his concerns over the nil -
+transactions on card accounton line banking transactions.
+
+| believe there are at least 2 scenarios where a nil value will be
+
+recorded. These are
+If a customer places a card into the pinpad and enters an incorrect pin
+number, the system will decline the transaction and request the customer
+to remove their card. This transaction was undertaken at the branch
+using a Post Office card account operated by the auditor. The report was
+printed with a nil value showing
+If a customer places a POCA card into the pinpad, enters a correct PIN
+and asks to withdraw cash, if there are no funds in the account, the
+transaction will be declined and the customer requested to remover their
+card. The summary would again show a nil value against the transaction
+
+1
+eree
+
+Please can you check any other possibilities of nil values on these types
+of transactions with Fujitsu
+
+Also as the Subpostmaster is blaming the system on his losses, please could
+we check there are no problems with the Horizon kit at the branch
+
+To confirm, the branch will remain closed until we are happy that the
+Horizon system is fully operational.
+
+Thanks
+Diane
+
+Investigation Manager
+Post Office Ltd
+
+POL Capacity
+
+Management Info To: Paul Dawkins/é
+
+Sent by: Jay cc: Andrew Harley/e/i,
+
+O'Laogun Subject: Re: Gaerwen Fad code 460608(Document link: POL Capacity
+
+Management Info)
+
+14/10/2005 11:15
+
+(See attached file: fad 160604 calls.xls)
+
+This email and any attachments are confidential and intended for the
+addressee only. If you are not the named recipient, you must not use,
+disclose, reproduce, copy or distribute the contents of this communication.
+If you have received this in error, please contact the sender and then
+delete this email from your system
+
+FUJ00155181
+FUJ00155181
+
+FUJ00155181
+FUJ00155181
+
+FAD 160604
+
+H1407958] Gaerwen System Problems AP AP RECOVERY E- 0110 WHAT IS THE 02/07/200) 160604} .
+9 Recovery PROCEEDURE 5 :
+Screen .
+1411290] Gaerwen | Parcelfor | Inland Guaranteed | Service | 30 PM WANTED TO KNOW 19/07/200} 160604}
+6 ce Services Document]PARCELFORCE |HOW HE CHARGES FOR 5
+ation & CONSIGNMENTS INLAND
+Labels
+1416568] Gaerwen Telephone Numbers | Royal MON Royal Mail | PM WANTED TO KNOW 12/08/200 160604}
+2 Mail National IWHERE AND HOW MUCH_ [5
+FOR PREPAID 2ND CLASS
+ENVELOPES ARE?
+H1417832] Gaerwen | Administr | Contact AlO/SAM Office Page AlO COULD SOMEONE CALL 19/08/200} 160604)
+8 ation PM GIVING HIM AN UPDATE |5
+ON THE SALE OF THE
+OFFICE
+H1420630] Gaerwen | Administr | Contact AlIO/SAM Office Page AIO CAN PM HAVE A RING 01/09/200] 160604
+5 ation REGARDING SALE OF 5
+OFFICE UPDATE
+H1430411] Gaerwen | Administr | Auditor Visit Notificatio) AUDIT AUDIT NOTIFICATION 13/10/200} 160604)
+9 ation n Process {NOTIFICATION 5
+H1430422} Gaerwen | Administr | Unplanned Closure | Closure - | REOPEN CLOSED DUE TO AUDIT BY | 13/10/200] 160604
+6 ation Audit MR RAMARD No 207 5
+H1430501] Gaerwen | Horizon/R} OSP Request from | Auditor | OSP ALISON EDWARDS - 13/10/200] 160604)
+2 emedy Other Staff request AUDITOR Ey
+H1430531| Gaerwen | Administr | Unplanned Closure | Reopenin| OFFICE OPEN OFFICE IS NOW OPEN 13/10/200) 160604)
+4 ation lg - Tier 1 5
+
+H2173710
+1
+
+Gaerwen
+
+Reversals
+
+Remittan
+ce
+Reversal
+
+REM REVERSAL.
+
+HOW TO REVERSE A REM.
+
+06/04/200
+5
+
+160604}
+
+H2178895
+5
+
+Gaerwen
+
+Parcelfor
+ce
+
+Inland Guaranteed
+Services
+
+Examinati
+lon Papers
+
+EXAM PAPERS
+
+PM WANTED COUNTER
+PROCEDURE FOR EXAM
+PAPERS
+
+27/05/200
+5
+
+160604}
+
+H2188855
+4
+
+Gaerwen
+
+Administr
+ation
+
+Contact AlO/SAM
+
+Office
+
+PAGE AIO
+
+PM NEEDS TO DISCUSS
+SALE OF OFFICE
+URGENTLY AS HE IS DUE
+TO FINISH ON TUES 04/10
+AND HAS NO IDEA WHAT IS
+HAPPENING
+
+30/09/200|
+5
+
+160604)
+
+H2188877
+0
+
+Gaerwen
+
+All
+Branches
+
+Go Live Dates
+
+Go Live
+Dates
+
+BRANCH
+TRADING
+
+PM WANTS TO KNOW
+WHEN THIS OFFICE WILL
+BE BRANCH TRADING AND
+WHAT GROUP AS SHE HAS
+RECEIVED NO INFO, | HAVE
+CHECKED THE GROUPS ON
+THE | DRIVE
+SPREADSHEET AND THIS
+OFFICE IS NOT LISTED AT
+ALL, PLS ADV, ***SORRY
+LOGGED INCORRECT
+OFFICE, PLS IGNORE***
+
+30/09/200)
+5
+
+160604)
+
+H2190361
+2
+
+Gaerwen
+
+On-line
+Banking
+
+Accounting and
+Despatch
+
+Accountin
+g and
+Despatch
+
+SHRS ON-LINE-
+BANKING
+
+SOME ON-LINE-BANKING
+PIN WITHDRAWLS ARE
+ZERO VALUE ON THE ON
+LINE BANKING REPORT BY
+PIN AND PM WANTS
+SOMEONE TO EXPLAIN
+THIS
+
+13/10/200
+5
+
+160604
+
+FUJ00155181
+FUJ00155181

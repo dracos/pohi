@@ -1,0 +1,778 @@
+POL00134909
+
+POL00134909
+
+ATTENDANCE NOTE
+
+CLIENT: Post Office
+
+MATTER: The Post Office Group Litigation
+MATTER NO: 31026612
+
+DATE: Friday 4 October 2019
+
+PERSON ENGAGED: Antony de Garr Robinson QC ("Tony"), Simon Henderson (Counsel)
+
+Andrew Parsons ("Andy"), Katie Simmonds (WBD)
+Alan Watts, Alex Lerner, Kate Emmanuel, Fiona Lin (HSF)
+
+TIME ENGAGED: 14:30-15:55 (1 hour 25 minutes)
+
+Alex's question list
+
+1.
+
+To what extent can we use the expert evidence on bugs from the Horizon trial to eliminate shortfalls
+in individual cases? What | would like to understand is whether there is any scope for Post Office to
+apply the expert evidence to particular claimant cases and essentially conclude that [x] bug could
+not have caused [y] shortfall. If so, how might | go about this? Just so you know, the reason | would
+like to know the answer to this question is (i) it may inform our work on assessing quantum in the
+context of producing merits/settlement advice (ii) it may assist us in identifying suitable/unsuitable
+test claimants for the next trial and (iii) this analysis could be important if Fraser J concludes that
+Post Office will need to prove shortfalls (in circumstances where it has very little by way of records
+for the period prior to 2007).
+
+How can we quickly identify which branches / claimants have reported KELs?
+
+Which bugs left a ‘footprint’ in the software? Questions (2) and (3) both go to the point about
+identifying suitable/unsuitable test claimants.
+
+At trial, did the Claimants advance a case that Post Office supressed evidence regarding the
+existence of bugs? If so, please can you point me to the relevant parts of the closings / the trial
+transcripts? | want to have read up on this issue if it is something that you think might get raised in
+the judgment.
+
+Any other steps you think we should be taking to prepare for the judgment. Just so you know, | am
+in the process of reading your closings — same number of pages as certain editions of Crime and
+Punishment — and Fiona is preparing a table to help us quickly pull out and identify the key points
+from the judgment when it is handed down. However, | suspect the judgment will be long, so any
+pointers on what | can do to prepare / what to look out for when it is handed down would be
+gratefully received. (And don't worry, | don't plan to send you the table - | remember how much you
+dislike tables!).
+
+Call note
+
+Preliminary points
+
+Tony
+
+(1) The obvious issue is that none of this will be of great utility until judgment. There are so many
+ways that judge can write the case. There is one way that we could do quite well, and infinite
+ways that we can lose. There are no end of ways in which he could put us down.
+
+How he approaches it could have a massive effect on how we approach the questions you raise.
+
+(2) Another point that is important to recognise is that it would be wrong to assume that the only
+bugs that are relevant, that we need to know about, are the known bugs.
+
+‘An important part of the Claimants’ case is that there are lots of bugs lurking in the system,
+anguishing poor sub post masters ("SPMs"). In other words, there are lots of bugs beyond the
+known bugs.
+
+Every claim and witness statement has been drafted in such wide and vague terms that it is
+difficult to identify which bugs they are referring to. On that basis, | don't think the Claimants will
+restrict themselves to known bugs
+
+11/58298263_21
+
+POL00134909
+POL00134909
+
+Whatever we talk about for the next hour or so, we will talk about known bugs. Bugs detected by
+Fujitsu processes, systems identified and they have been fixed — and hopefully consequences
+compensated for.
+
+A large part of the other side's case is that there are lots of other bugs.
+Please be aware that we can do lots of work, but we cannot be home and dry with known bugs
+
+Their approach and judge's approach — is Horizon generally reliable or not? It is not going to be:
+“where there isn't a known bug, Horizon is reliable, but where there is, not reliable". Those words
+won't come out of his mouth. Judge won't give clear/bright lines, and he won't say [x] bug did
+this/did not do this because he is not intellectually honest.
+
+| would be surprised if the judge thinks that. If he were intellectually honest (which | don't think
+he is), then he might say "Horizon is reliable 99.5% of the time, but the 0.5%... That number is
+consistent with the number of Claimants in front of me.”
+
+(3) A third point consistent with what I've made, we've possibly invited the judge not to make
+findings that dispose of individual Claimants. He initially wanted to look at bugs, and how they
+affected Claimants. But that did not happen.
+
+Our closings had an appendix of bugs. We ended up dealing with the 28 issues, and we had
+more on those, and we had 50-60 bugs and submissions — fuller detail. So in the end we actually
+went further in trying to get the judge to make findings on the scope and operation of the bugs,
+but | would be surprised if he did in fact make findings on the 50-60 bugs.
+
+Question 1
+
+Tony | It would surprise me if we got something in the judgment which said “this bug did this, this bug
+did that...". Maybe with 3-4 of the big bugs, the known bugs, but not the other bugs.
+
+‘Andy | Will he not go through the 29 bugs and if they have financial impact? | think he might.
+
+Tony | He might — | think he will do it in general terms. He will not draw circles of problem areas for
+Post Office ("PO"). He will just say that there are clouds of problems in the sky, so many of
+them, so diverse — and you can't see what they are. He'll say my strong impression is that
+Horizon is not reliable.
+
+Andy | But he likes working through the evidence, he might churn through it.
+
+Tony | He may, but... What | would say is that the trial was bizarre. The bugs were identified by the
+experts — half were identified by Dr Worden. Their expert's treatment of it was superficial in the
+extreme. Our expert's treatment was less superficial, but wayward, and frankly casual.
+
+The Claimants said hardly anything about them. Except "this is awful".
+
+The only people who said anything coherent about it was us. We did it in our appendix — and the
+Claimants can't and won't make any responsive submissions.
+
+It would be consistent with his approach to life. The only material in front of him is our
+submissions, but he would take great glee in going through and telling us that it's not reliable, it's
+wrong: in other words, he may seek to assassinate our evidence.
+
+Andy _| | think he will like to cover all bases so the judgment is not appealed.
+
+‘Simo | If he does help us, in going through detail and slicing and dicing — in highlighting claims more or
+
+n less vulnerable — but that will be entirely accidental. He will be careful to not give anything useful
+
+Alex Can | ask a stupid question? What use will the trial have been?
+
+Tony Both the Claimants and the Defendant told judge that there was no right in doing an a priori trial
+
+on the reliability of Horizon over 20 years. There are no specific pleadings. It was bound to be
+impressionistic.
+
+11/58298263_22
+
+POL00134909
+POL00134909
+
+You need test cases — 3 from early 2000s, 3 from late 2000s, 3 from early teens — that way we
+can see how Horizon operates.
+
+The judge said no. He just said that he wanted to be quicker. He just wanted to do it within a
+year. That's how we ended up with a trial that has no utility whatsoever.
+
+In that case, if it is trial on generic reliability, then we have got to win. Because in any view,
+Horizon is reliable in the vast majority of cases — and that has been our case the entire trial
+
+All their case is — is that Horizon is reliable the vast majority of time, but there are cases where it
+is not reliable, and we represent those small portion of cases. Horizon isn't so reliable that it is
+unlikely that we don't have viable claims. You can't rely on Horizon to show that there is a
+genuine shortfall
+
+iaiteoumne ‘lcs >the { 2 wrong. The
+judge is unlikely to say particular bugs cause particular shortfalls because the Claimants never
+gave him enough information to do that.
+
+Andy | The judge misunderstood the degree of dispute between the parties. He got the impression —
+which the Claimants wanted to convey — that they thought Horizon was a bad system. They
+could have only got out of the trial by disabusing them of the notion that they think Horizon is a
+bad system.
+Now that he can't do that, he'll have to do something else.
+
+Simo | This is why it is difficult to get the analysis you want, Alex — judge will say that it is “likely” or
+
+n “unlikely” that bugs will affect. But can't show what bug would have what effect. He won't paint
+himself into that corner.
+He'll just say he's satisfied that there's all sort of problems — he will go into the breach trials
+thinking that it is likely that the bugs caused issues.
+In your question 1, the analysis will be difficult to carry out.
+
+Tony Now the good news. There are things that we can do. I'll give you one thing on question 1 — to
+
+what extent can we use expert evidence?
+
+We can't use expert evidence. Coyne's evidence was superficial and wayward. Our expert's
+evidence was better — but still a bit wayward. Both were wayward.
+
+However, we do have a resource which is much greater and better than in most cases. We have
+a series of KELs and PEAKs — known error logs, which is a big database of issues — once Fujitsu
+identifies issue with Horizon, they create a log in what is known as KEL, describing the issue. As
+time goes on they'll amend KEL, they'll show the resolution.
+
+We'll have KELs — we should have a pretty good correlation between KELs and known bugs.
+There should be link between KELs and bugs causing known financial loss.
+
+Unfortunately we don't’ have complete list of KELs — we don't have some from early days of
+Horizon (this is a flipping nightmare — this only scratches the surface) - 9500 KELs, probably
+1500 KELs missing from the early days that we don't have anymore. Those KELs capture the
+vast majority of bugs that have been identified. Small proportion of KELs existing — but if you go.
+through KELs, you will find the vast majority of the ki 18 causing losses fo branches.
+
+As well as the KELs — such an important thing to understand — we have 220,000 odd PEAKs.
+These are not complete — my heart sinks when | talk about how (in)complete they are — there are
+a vast number of PEAKs that have been phoned in or brought to the attention of Fujitsu. Every
+time problems were notified to Fujitsu, there was a work stream created. For every bug, you
+expect to have a PEAK — when it was first brought to Fujitsu's attention.
+
+Itis often phoned into PO — but sometimes system might notice (e.g. duplications, mismatch in
+payments, receipts — all sort of automatic checks) — automatic reports, SPMs phoning into the
+hotline and then getting passed on to Fujitsu. Every time that happens, the person opens a new
+
+11/58298263_23
+
+POL00134909
+POL00134909
+
+PEAK — a new problem. Invariably that PEAK will name at least one branch affected — unless of
+sort not affecting branches. Sometimes branch refers to great number of branches — but often 1,
+2or3.
+
+Often you have same problem raised in 5, 10 or 20 branches — but that is reported separately.
+There should be a lead PEAK — but often separate.
+
+There are a vast number of PEAKs — which chart in accurate and comprehensive way — which
+show all the issues raised with Fujitsu, who raised these with Fujitsu, when these were raised
+with Fujitsu — and in perhaps half of cases, they explain symptoms. And it will be possible to tell
+if this is capable of causing losses at branches.
+
+And the supplemental expert report which Robert Worden produced — which he wasn't allowed to
+rely on — that supplemental report took an approach to the documents which we ourselves can
+take.
+
+Rather than looking at system at whole and trying to figure out which caused losses, I'm going to
+look at PEAKs and KELs and figure out which relate to Claimants. We now have codes for each
+branch ~ Robert wrote programme allowing us to search all PEAKs and KELs - anid analys6)
+
+It was so sophisticated that it could exclude branches when they weren't run by Claimants. We
+can use the programme to (1) identify which problems arose in Claimant branches when they
+were running it (2) what problems/symptoms where identified by Claimants and were they the
+type of bugs that could cause shortfalls? And (3) what period is covered by them?
+
+Andy | Do you mean the branches which are Claimant-run? Isn't this what Worden did?
+
+Tony It's more — it's getting it to tell us all PEAKs and KELs that relate to claimant branches (it will
+take some time), then get someone intelligent (not Worden — as he is not reliable) — you want
+someone who understands the case and the documents (someone with experience — not trainee,
+not 1st year qualified, not someone cold to the case) - likely from WBD.
+
+Andy | Katie is sat with me right now.
+
+Tony It is a boring job, it will take days and days. The questions to answer are: (1) for each claimant
+branch, have there been PEAKs or KELs that refer to them? (2) Is there sufficient detail to
+identify the bugs?
+
+Andy | | think there is a fundamental flaw in the process. Your view is that you can (1) take a claimant
+(2) what years they were in a branch (3) identify all PEAKs and KELs raised in that period...
+
+Tony | We have 601 Claimants...
+
+Andy | No, 551 Claimants.
+
+Tony
+
+The third point - then you identify the period in which it was extant. All the KELs which would
+have been identified would have been fixed.
+
+Do that with the KELs. Do the same thing with the PEAKs. Then you have fairly comprehensive
+analysis of whether any Claimant branch experienced any kind of potentially relevant problem
+during which the Claimant would be running it.
+
+That analysis would be fantastically useful for choice of test Claimants — so you know how to
+avoid — and also useful for settlement. E.g. why is that person reporting £150k loss when they
+had no relevant problems that they reported to Fujitsu. We're not going to give you lots of money
+for almost no problem.
+
+We would need Worden's help. We need his software.
+
+11/58298263_24
+
+POL00134909
+POL00134909
+
+Andy _| Maybe we don't, we reverse-engineered using our software.
+
+Tony | And you can do the analysis by periods?
+
+Andy | Yes. The only issue is that KELs don't name branches, rarely, so anyway PEAKs will, but this
+gives a small pool — not that helpful. That's what Worden did on the PEAKs. From memory, we
+only found 3-4 hits?
+
+Katie | Yes, we found a few.
+
+Tony | This would be a valuable exercise for us as it (a) would help us choose test cases and (b) be
+helpful for mediation meeting.
+
+Yeah, you could keep arguing that there were squirrel bugs that had an effect. But we know there
+are thousands of branches which did not experience any issues,.
+
+We will have a story regarding the unknown bugs - that it is unlikely that these would have
+come up. And we will also have a story to tell regarding the known bugs — they are not worth
+anything and we can prove it based on our analysis.
+
+‘Andy | | think that's the thing — we need to expand our search - it will generate noise, but we need to
+filter the noise.
+
+Tony | Exactly, and you need people who know the case to do this.
+
+That was the first piece of discrete work. But now the second piece — this is more difficult. The
+Claimants would say that the helpline was actually called the "hell line" (even our own
+witnesses).
+
+The problem is that there were people with employment incentives not to pass problems on to
+first tier. And then people were left to sink on their own. The Claimants would say that it's
+understandable lots of people did not raise an issue to Fujitsu — that is our entire case — they
+weren't reported to Fujitsu.
+
+The only way that we can address that — and | don't have enough knowledge of system (as not
+directly part of Horizon) — and the only way to tackle that, because we have records of helpline
+calls, we can do a similar analysis with the helpline.
+
+That could be big — | don't know what records we have, | don't know what was recorded, | don't
+know about the detail — the spreadsheet doesn't make much sense.
+
+This is more of a question not a statement. Andy — could we do a similar exercise for such
+helpline records that we've got?
+
+Andy | Yes, we could. We'd have to flag limitations — e.g. lines changing over the years, etc. Are HSF
+going through call logs for individual case reviews?
+
+Kate Yes we are — we are trying to figure out what we should extract.
+
+We can tell you what we are currently trying to extract, what PO says, what we think it is
+significant — but makes sense to dovetail with us as to what is useful.
+
+Andy | You should track it to the WBD Horizon team, who did the trial
+
+Tony | think you should do an initial sift to see what is irrelevant, then a second sift by someone who
+knows what they're doing, to identify what is relevant.
+
+Kate Let's discuss offline to make sure we are capturing all relevant information.
+
+Tony | That is my answer to question 1. Don't look at the expert evidence — look at PEAKs, KELs, call
+logs. Then what you'd have is a table setting out all hits we've got in enough detail to analyse
+whether each Claimant is making a plausible case as to shortfalls.
+
+Andy | Yes, that makes sense to me. Let's get back and work out how to break it down.
+
+11/58298263_25
+
+POL00134909
+POL00134909
+
+Question 2
+
+Tony
+
+Question 2 — how can we quickly identify which PEAKs/KELs relate to Claimants?
+
+We have sort of answered that. Most KELs only identify the first branch who deals with it. So the
+first tier deals with it, they can pass on to second tier. Then a PEAK is raised. Then it could be
+passed on to the third tier.
+
+When it gets to the third tier (Fujitsu) — then that is when supposedly the new KEL is raised.
+
+Most KELs — at least some — will identify particular branches. What is very rare, however —
+perhaps unprecedented (save for the Canada Square bug) - maybe 1 KEL... To do with... when
+the system breaks down, when there are crashes and so on. That has got 300 branches referred
+to. But most KELs only relate to 1, 2, 3 branches — that is by no mean a proper reflection of all
+branches affected; it is more of a reflection of the way in which KELs are recorded.
+
+In order to identify all branches affected. First of all — and primarily — look at PEAKs, as Andrew
+has explained. There will be PEAKs that have involved branches calling in, where it affects
+branches. The problem is that when there is a known error that hasn't been resolved the Fujitsu
+system is such — once they have realised that (after a PEAK or KEL has been opened) - if the
+same problem gets phoned in to Fujitsu, the new person will not create a new PEAK or KEL.
+
+And when they realise that lots of PEAKs deal with same problem — then you have master PEAK
+— it sounds byzantine but it works. But all of that would suggest that PEAKs are more important.
+
+But — as Andy said — they had this policy, they didn't want a proliferation of PEAKs — often
+problems would be held back, and they wouldn't make it into PEAKs, where there is a master
+PEAK. | just don't know where those held back PEAKs are — no point asking Fujitsu as they are
+idiotic.
+
+Simo
+
+| think all the exercises are good, but you shouldn't be too confident in completeness once it is
+done. None of the records are perfect, once the analysis is done...
+
+Tony
+
+In answer to question 2, there is a simple analysis, then you should use KELs not PEAKs — you
+can do it by a word search. Look at branch name, post master — do a search along those lines,
+and then you will get a number of hits. Then you'll have to read PEAKs themselves.
+
+E.g. if you do name search of SPM, you get 10 PEAKs ~ may be irrelevant. You need to read
+PEAKs.
+
+The exercise won't be perfect as problems would be held back. Seems to be this must be
+recorded — but unclear to me where.
+
+There's an exercise ('m repeating what | said) — they would say that they never had chance to
+speak with Fujitsu, as they were held back by uncooperative helpline people. In addition to
+searching PEAKs and KELs, you need to look at helpline
+
+On the helpline, one additional point. We spoke about it as one coherent thing. But there were in
+fact 2 different lines and also a further ad hoc line. Calls to the ad hoc line were not captured by
+NBSC.
+
+Andy
+
+We can get the PO line and Horizon line. But otherwise, it's like dialling other phone lines — there
+are no records.
+
+Tony
+
+The answer to question 2 is like the answer I've given to your question 1. But tell me your other
+point.
+
+Andy
+
+Do we look at BIMs? Because it might show Fujitsu showing PO to make change.
+
+Tony
+
+Let me explain what BIMs are. One of the great frustrations of trial — because there weren't
+pleadings, we didn't know what the Claimants were saying
+
+We were anxious to demonstrate what bugs were raised, the nature.
+
+11/58298263_26
+
+POL00134909
+POL00134909
+
+Coyne suddenly went on that there was no evidence that the branches were given compensation.
+But disclosure was not done on that basis. By the time the point came up, hard to get evidence
+etc.
+
+This was unfair — another example that trial should not have occurred in this way — we
+discovered at a late stage that if Fujitsu identified bug that would cause problem, then they would
+write a report a BIMs, which stands for...
+
+Andy
+
+Business Incident Management...
+
+Tony
+
+It was a little form that went from Fujitsu to PO and it told PO that there was this problem, that it
+affected this branch, it should be corrected and compensated like this.
+
+Simo
+
+I don't know if we have all of them, but we have a lot of BIMs and we disclosed them at a late
+stage. Some affected some of the branches with bugs
+
+We got them at a late stage, but Andy correct me if I'm wrong, | think our records are complete.
+But correct me if I'm wrong, there will be lots of branches affected by bugs — and useful to word
+‘search through BIMs and to see if there are any BIMs referring to relevant Claimant branches in
+
+the relevant branches
+
+If there are any — but there might not be any — it could be incredibly useful.
+
+Andy
+
+We'll have to work through what we get. There are lots of BIMs generated as a result of business
+as usual (BAU) practices. Some will just be BAU BIMs, some are bugs BIMs — but let's get that
+down first.
+
+Tony
+
+Once we've got that corpus of BIMs, once we have it — the use could be quite multi-various. I'd
+be surprised if we used it to show that Claimant A was affected and then compensated — if we
+could, that could be great.
+
+But, more to the point, e.g. claimant 56 might say that | had a problem in April — and nobody
+returns my calls, and | had to pay for loss — if in fact that there was BIMs showing that there
+were problems with ATMs and then the Claimants were made good, that would be ideal.
+
+The Claimants are definitely capable of only telling their side of the story. And then we can show
+the impressions for which they hotly complain are completely unfounded
+
+That brings me to the point | made before you chipped in — once we got this analysis of what
+Claimants might be affected by relevant problem in Horizon, when affected, and the nature of the
+effect. What we should do, is that we should then compare it with the schedules of information.
+In the schedules of information they don't give much information, but they will show dates of
+when they suffered it from.
+
+We have bitter experience that the Claimants plead one claim, give evidence on another slightly
+different claim, then fundamental evidence on a completely different claim. They shift goalposts.
+But nonetheless, may be helpful to reconcile information we get with what the Claimants say to
+show that their claims don't stack up.
+
+It may be the case that for a large portion of the claims made, then a large number of the claims
+don't generate records in PO or Fujitsu to have been made based on what we expect how
+problem should have been.
+
+Andy
+
+We know the schedules of information are bad, but we can try.
+
+Question 3
+
+Tony
+
+Moving onto the third question — what footprint did the bugs leave in the software?
+| don't know. | thought the trial would be about software — opining on software.
+
+But it wasn't really about it. It was about PEAKs/KELs. Therefore the experts weren't helpful, as
+the lawyers were just as able to do this.
+
+The answer was there was no consideration as to what footprint there was in the software.
+
+11/58298263_27
+
+POL00134909
+POL00134909
+
+There were footprints... not to do with bugs, but to do with remote access. You will remember
+that there are a number of different categories of claim made.
+
+There are two types of claim. One — the paradigm claim — (1) bugs causing shortfalls
+Another claim — (2) the remote access caused shortfall in accounts. For reasons that | won't bore
+you with, it is there in 50-75 pages in opening submissions — but it is our strong view that remote
+
+access is the biggest red herring in the world.
+
+We don't think Fujitsu substantively fiddled with branch accounts, although they did do it
+sometimes.
+
+And in that context, there were footprints in the snow. If you break into a system you have
+footprints, and if you do a proper analysis then the system will tell you.
+
+But that can only be determined if you do a proper analysis
+
+‘Andy | But we can cross-rely on a paper trail for remote access, but that relies on Fujitsu
+
+Tony | For HSF's benefit — up to now the conversation is about bugs causing shortfalls. But there is also
+discussion about remote access and false TCs causing shortfalls.
+Looking at false transaction corrections, each case should be analysed on merits. Nothing we
+can do a priori now. Correct me if I'm wrong, most Claimants haven't reported anything in detail.
+But looking at remote access — we had pretty good evidence that when it was extremely rare that
+PMs weren't told about it. We have records of OCRs/OTPs and MSCs [logs/tickets relating to
+Horizon change proposals and changes made]
+Worden, in his supplemental report which he was not allowed to rely on — he did a similar
+analysis of OCRs... He did a similar analysis to that on PEAKs and KELs. As Andy suggested,
+we could do the same on these.
+It will show how and to what extent Fujitsu has record of what Fujitsu has done in relation to
+SPM data. This comes to a relatively small number of cases. It may be worth doing that.
+
+Andy | Goon Tony.
+
+Tony | All would say is that if you look at underlying OCRs and OTPs then it may show that it is not
+clear if there has been manipulation of branch data or not. Those things are not very important.
+
+Andy | Yes, the relevant thing is that they look at control documents — remote access was a rare thing,
+it was inconsistently documented — the reality is that we're trying to prove a negative with
+imperfect information which is impossible, but we can remove evidential risk.
+
+Tony | Yes, | agree.
+
+Andy | Just on the footprints of bugs — it might not exist on a software level, but may exist in accounts.
+
+E.g. on remming in bugs - if we are looking at particular set of accounts — for PMs claiming
+remming in, we can sort by date, duplication. E.g. we can say that there would not be duplicated
+entries. But to get there..
+
+So for a number of bugs falling within 28 bugs in issue. So we could knock out a number
+(particularly remming issues) on that basis.
+
+But you'd have to do it on a bug-by-bug basis, branch-by-branch — it would probably take 6
+months for each of the 560 something Claimants.
+
+So if we want to get into the weeds of the bugs, then that is the kind of work we would do.
+
+For the purposes of the call, that kind of work is beyond us.
+
+11/58298263_28
+
+POL00134909
+POL00134909
+
+Tony Before we move on, can | ask you one question Alex?
+You give 3 reasons for why you'd like to know the answer for this: (1) quantum for settlement
+negotiations (2) you say that it is good for choosing test Claimants and (3) this analysis could be
+relevant for if PO has to prove shortfalls for where it has little records.
+We can have a discussion for how useful that process would be — I'm not sure how useful that
+process would be for question (3)
+| don't think this is that useful. Fraser likely to make generic findings. The above exercise is likely
+helpful for settlement, but not proving shortfalls:
+
+Alex _| Okay.
+
+Question 4
+Tony Moving onto your question 4 Alex, the answer is yes. They did it in a number of different ways.
+
+Gareth Jenkins
+
+First of all, they made huge complaints that we didn't call Gareth Jenkins, who is a god but an
+unreliable god. They say that the fact we didn't call Gareth Jenkins is suppression.
+
+And you know what, that might be right. They would have killed him at trial.
+
+The judge will love it — he is likely to go large on it. By all accounts he would have been
+disastrous. Anyone who has dealt with Gareth would say that he would kill our case.
+
+Also, Gareth Jenkins was the expert used for the criminal cases. And unfortunately he seems to
+have given expert evidence to say that they were no bugs in Horizon whatsoever.
+
+And | can't even imagine... Fujitsu seems to have the extraordinary ability to say what is
+opposite to the case. For example, on remote access, Andy had a meeting where Fujitsu tried to
+say there was no remote access.
+
+Anyway, Gareth has given evidence, and criminal solicitors who used him said do not use
+Gareth as expert
+
+Approach to disclosure
+
+They also made huge complaints as to disclosure. And that was about us trying to hold back
+damaging evidence. | think, from my own perspective, we held the line on that and a fair-minded
+judge would accept our position on that. But we don't’ have a fair-minded judge. So we can
+expect thumping.
+
+Suppression of evidence about bugs
+
+There were also lots of complaints about false evidence about bugs and remote access. At the
+very least, they may say that we were economical with the truth.
+
+Response to their LBA
+
+They complained about our response to LBA. In our LBA we say that we only told them about 3
+bugs. But now we know that there are more than a dozen, 20 bugs that may cause false
+shortfalls.
+
+But the Claimants’ position misrepresents the response to the LBA because, in fact, the
+response to the LBA purported to give them examples of bugs and did not close off the
+possibility of other bugs.
+
+Their case is that we know a lot more about bugs causing shortfalls, that we know more about
+remote access, and we're quite happy to give people the impression (e.g. in Parliamentary Select
+Committees, press releases) that Horizon is reliable.
+
+11/58298263_29
+
+POL00134909
+POL00134909
+
+We say Horizon is reliable — which by the way it is (says Tony) — but the Claimants will say that
+there was suppression
+
+So the answer to your question, Alex, at the trial — what was at the forefront of the case. It wasn't
+what the case is about. They haven't pleaded a fraud claim. But they have tried to establish the
+building blocks of such a claim. And | wouldn't be surprised if | saw this in the future.
+
+Simo | And you ask for relevant parts of trial transcripts. | wouldn't worry about it. | would read their
+
+n closings carefully. They signal well — they signal them very hard.
+| won't’ give you page references. But if you read their closings carefully, then you can see where
+they establish blocks.
+
+Alex | will read with interest. Are they longer or shorter than ours?
+
+Tony | They are shorter. Because they didn't address the 28 bugs at all. Their entire strategy is not to
+deal with individual bugs, just to make it scattergun — the point that they are trying to make is
+that when you look at everything in the round it is "really bad”
+We were the ones who said that there were 28 bugs identified, 60 odd bugs, then we identified
+and addressed each one. We were the only people who did that. We'll see if it did us any good —
+probably won't, but we'll see.
+The Claimants have taken a rather American approach to this case. Don't try to tell judge
+comprehensively what you want them to find. Just point out best prejudicial points and then let
+judge fill in rest.
+And so far they've had 100% success with it.
+
+Alex Thank you, I'll read that.
+
+Question 5
+Tony | Then your 5" and last question — any other steps to prepare for judgment?
+
+There is nothing, but just do the above. The steps above should be done as soon as possible.
+
+In terms of preparing for judgment, it could take a number of different forms. The only thing |
+know is that he will do us down, but it's how he will do it that really matters.
+
+He is in the best possible position to put us down in a way that can't be appealed.
+
+- Firstly, the issues here are purely factual. No legal points. Just generic issues. What's
+more, the issues are not precisely formulated. He's got a lot of flexibility in terms of
+dealing with the issues. That means it's difficult to predict... Forget predict — it's hard to
+criticise him for how to deal with particular issues — as there are no rules for how to deal
+with it.
+
+- What's more, because they're facts in a TCC-style trial, then the Court of Appeal ("CA")
+will be even slower to challenge TCC-style facts. Then he'll be feeling particularly
+confident that he can screw us in a way that is unimpeachable and un-appealable in
+CA.
+
+- That said... two points he will likely address are (1) evidence and (2) disclosure. On (1),
+the extraordinary point is that their most important witnesses became the best for us
+and vice versa — | have never done a case like that.
+
+- When they closed their case, we thought that we had won, our tails were up.
+
+- But then our factual witnesses came up — and they didn’t come up to proof. The
+important ones didn't know what they said in evidence or contradicted their own
+evidence. Occasionally, the even said that we only said what the lawyers had told them
+to say
+
+- They just threw themselves and the lawyers under the bus, and they did it blissfully
+
+11/58298263_210
+
+POL00134909
+POL00134909
+
+= unaware.
+
+-  Godeseth was unspeakably bad and completely collapsed in cross-examination. He
+simply did not have detailed knowledge of a number of the issues he had tried to
+address in evidence.
+
+- Parker actually stood up reasonably well to cross-examination. Everything else being
+equal, we were okay with him, but everything isn't equal — so we're not okay.
+
+- There's enough to be scathing for factual evidence, just within our own witnesses.
+
+- Also, with disclosure, there were issues (which are unfair) but points he could tak
+
+- aan is spoilt for choice to do us down in ways that CA can't challenge and
+
+All of this is bad news, but having said that — bearing in mind Common Issues trial:
+
+- The judge is very ambitious, very vain — he has this tendency not just to find against a
+particular party. Once he's decided who's going to lose, he goes on to make findings
+against the experts, witnesses, lawyers — he's done this in nearly every judgment he's
+made. He doesn't restrict it just to parties — he goes to find bad faith in everyone who's
+worked for the losing side. This is dispiriting.
+
+- But perhaps he might overreach himself — that might offer crumbs for complaints.
+
+The most important is that if he does do it down — he's got the crumbs — and if he does it
+smartly, there's almost nothing we can do to protect ourselves.
+
+And | still think if he was intellectually honest then he must give something in our favour — but he
+won't give that judgment — he clearly doesn’t want to. Assuming he doesn't want to give that
+judgment, then we won't be able to appeal it - appealing is difficult at the best of times, but here
+we might not be able to say anything at all.
+
+Outside of appealing, what steps can we take to prepare? There are two other options(neither of
+which | can opine on): (1) steps on how to communicate to press and then (2) steps on how to
+improve business processes surrounding the operation of Horizon.
+
+| can't advise on either, but we have done some of this — Andy?
+
+Andy | Yes, there is an entire programme of work on both points.
+
+Tony | Is there anything you want to ask me, anything you want?
+
+Alex | need to digest that, do more reading — I'm sure I'll have more questions — but that is extremely
+helpful for now.
+
+Tony | Ifyou want a reading list, | would start with their closing submissions — it is a painful read, it is
+
+not organised in clear way — but then they're organised in slightly unfair way, different points
+merged together to make it look like they're bigger points.
+
+But if you're stripping that away, then actually, if you read their submissions — a pen and piece of
+paper beside you — then you can see their key themes. And that's a good way of getting in to
+their side of the case.
+
+The ironic thing is that | think that the judge won't take their course, so he could do anything —
+and as a result, it is difficult to predict what course he will take.
+
+11/58298263_211
+

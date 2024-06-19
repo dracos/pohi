@@ -1,0 +1,170 @@
+FUJ00152582
+FUJ00152582
+
+From: Pinder Brian{/O=ICLIOU=UKSOUTH FEL01/CN=RECIPIENTS/CN=PINDERB]
+44 AM (UTC)
+
+Sent: Wed 22/03/2006 8:
+To: Jenkins Gareth Gli
+Subject: | RE: Fujitsu Statements Gaerwen
+
+Gareth
+
+Grateful for your quick response, | will ask Neneh will put it into statement form today for your perusal and signature on Thursday
+if thats ok.
+
+Once again many thanks.
+
+Kind Regds Brian
+
+From: Jenkins Gareth GI
+
+Sent: 21 March 2006 16:58
+
+To: Pinder Brian
+
+Subject: RE: Fujitsu Statements Gaerwen
+
+Brian,
+
+I've had a look at the ARQs and | think there is sufficient info there to explain in most cases why there are zero value
+transactions. | suggest the following as a brief explanation:
+
+There are three main reasons why a zero value transaction may be generated as part of the banking system:
+1. The transaction has no financial effect (ie a Balance Enquiry or a PIN Change)
+2. The transaction has been declined by the Bank
+3. There has been some sort of System Failure
+
+Each transaction has associated with it a Response Code field which identifies what has happened. These
+values are included (together with their descriptions) in the ARQs. In summary:
+
+e RespCd = 1, means that the transaction was Authorised by the Bank. If it is for zero value, then this
+means it had no Financial effect. In all the example, such transactions were PIN Changes or Balance
+Enquiries where this is indeed the case.
+
+e  RespCd has a value between 2 and 10 means that the transaction was Declined by the Bank. The
+actual value indicates why (eg 3 means that the PIN was invalid and 4 means Insufficient funds)
+
+e RespCd with a value greater than 10 implies some sort of system failure.
+
+Does that provide you with enough detail? Identifying exactly why a given response code was generated in each case
+and the exact circumstances under which each one can be generated is much harder, but | suspect that is
+unnecessary in this case.
+
+From the examples the following are the Response Code values that occur:
+1 - Authorised OK
+3 - Declined - Invalid PIN
+4 - Declined - Insufficient Funds
+6 - Declined - Usage (amount)
+8 - Declined - Other
+23 - Timeout
+26 - Failed by Fl: System Unavailable - Return Card
+
+Note that the text varies in the ARQs, but the meaning is basically the same.
+
+Regards
+FUJ00152582
+FUJ00152582
+
+Gareth
+
+This e-mail is only for the use of its intended recipient. Its contents are confidential and may be privileged. Fujitsu Services does not guarantee that this e-mail
+has not been intercepted and amended or that it is virus-free.
+
+Gareth Jenkins
+Distinguished Engineer
+Applications TDA
+
+Post Office Account
+
+Fujitsu Services
+Lovelace Road, Bracknell, Berkshire, RG12 8S!
+
+Tel: } Internal:
+Mobile: GRO
+
+email: Gareth.
+
+Web: http://uk. fujitsu.com
+
+Fujitsu Services Limited, Registered in England no 96056, Registered Office 26, Finsbury Square, London, EC2A 1SL
+
+From: Pinder Brian
+
+Sent: 21 March 2006 16:32
+
+To: Jenkins Gareth GI
+
+Subject: FW: Fujitsu Statements Gaerwen
+
+Gareth
+
+Re Tel-con
+
+As discussed please see extract from a recent email below in italics from Graham Ward......regarding
+providing a statement about nil transactions and online banking. If you are able to put something
+together for us I would be very grateful. If you send it bak I will arrange for Neneh or Penny
+
+to write into a statement for your signature.
+
+On a separate matter, I also require a witness statement in respect of the following ARQ's 0506/401,
+459 and 460, all of which relate to Gaerwen SPSO.
+
+We need the usual (leave out para's H(b) and J, but we do need para K (call
+
+logs) covering an analysis over the period 01/11/04 - 30/11/05, Penny - you may recall this one which
+relates to nil transactions, my previous e mails dated 14th, 21st and 25th October refer. Can you add
+an extra paragraph in your statement explaining how on-line banking transactions are processed
+and the data downloaded and how nil transactions can occur.
+
+Once again Many thanks for your assistance in this.
+Regds Brian
+
+-----Original Message-----
+
+From: Thomas Penny
+
+Sent: 21 March 2006 15:33
+
+To: Pinder Brian
+
+Subject: FW: Fujitsu Statements Gaerwen
+
+Brian
+
+Please see attached note from Graham.
+Kind regards
+Penny
+
+-----Original Messagi
+_From: graham.c.wardi
+i GRO
+
+Sent: 21 March 2006 15:10
+
+To: Thomas Penny
+
+Subject: Re: Fujitsu Statements Gaerwen
+
+these are the Nil transactions you sent us.......... and will need to be
+produced and explained within your (Brian's) statement
+
+(See attached file: ARQ459 Analysis Nov 04.xls)(See attached file: ARQ 460
+Analysis May 05.xls)(See attached file: ARQ401 Analysis.xls)
+
+speak soon
+
+JESS SS SESS SASSO SIE ISG ADEE EGCG CCC SSIES II AGIA
+This email and any attachments are confidential and intended for the
+
+addressee only. If you are not the named recipient, you must not use,
+
+disclose, reproduce, copy or distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then
+
+delete this email from your system.
+JSS SSHHGddddiidcecedcddckcbbbbbbcr adler i icc
+
+FUJ00152582
+FUJ00152582
