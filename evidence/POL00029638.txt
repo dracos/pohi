@@ -1,0 +1,180 @@
+POL00029638
+POL00029638
+
+Message
+
+From: Alwen Lyons},
+
+Sent: 03/07/2013 21:
+
+To: Lesley J Sewell { “"y; Susan Crichton! GRO
+Subject: Re: Callendar square
+
+Thanks
+
+Thanks
+
+Alwen
+
+Alwen Lyons
+
+Sent from Blackberry
+
+From: Lesley J Sewell
+
+Sent: Wednesday, July 03, 2013 09:01 PM
+To: Susan Crichton
+
+Cc: Alwen Lyons
+
+Subject: Re: Callendar square
+
+Yep that's right
+
+Sent from my iPad
+
+On 3 Jul 2013, at 21:40, "Susan Crichton" fo
+
+Hi Alwen - think that this is Falkirk... Referred to in the Misra case.
+
+From: Alwen Lyons
+
+Sent: Wednesday, July 03, 2013 08:05 PM
+To: Lesley J] Sewell; Susan Crichton
+Subject: Fwd: Callendar square
+
+Is this another anomaly it does worry me that the number seems to be going up
+
+Thanks
+Alwen
+
+Alwen Lyons
+Company Secretary
+
+Begin forwarded message:
+
+From: Lesley J Sewell >
+Date: 3 July 2013 13:43:08 BST.
+
+usan Crichton <7
+
+POL-0026120
+Ce: Simon Baker <}
+
+Subject: Fwd: Callendar square
+
+FYI
+
+Sent from my iPad
+
+Begin forwarded message:
+
+From: Simon Baker <i
+Date: 3 July 2013 13:2.
+To: Lesley J Sewell <} GRO >
+Subject: FW: Callendar square
+
+fyi
+
+From: Jenkins Gareth GI |
+Sent: 03 July 2013 09:51
+To: Simon Baker
+
+Cc: Davidson James
+Subject: Callendar square
+
+Simon,
+
+I've found some details on the problem. It is described in Peak
+PCO126376 (and others).
+
+It was first raised in September 2005. The fix was applied as part of S90
+which was rolled out February / March 2006.
+
+The root cause of the issue was that data {ie transactions} was not being
+copied correctly between counters in certain circumstances, so
+transactions or transfers carried out on one counter were not visible on
+reports produced on another counter in the same branch. The
+avoidance was to restart the failing counter (which happened
+automatically at about 3am each day}, at which point all the missing
+transactions were successfully copied. The problem in business terms
+was that due to the transactions not being visible, SMPRs considered
+that they had not been input and so re-input the transactions thus
+ending up with duplicate transactions and so when the originals came
+through the following day, the accounts would be in a mess. [In
+particular if a Transfer of cash / stock was accepted more than once on
+different counters then that would result in a Receipts / Payments
+mismatch when the Stock Unit was next Balanced.
+
+We reported the problem to POL, but | don't know how much of an
+investigation was carried out into the scope and the number of affected
+braches. | was not involved in the issue at the time and only really
+become aware of it a part of the Misra case in 2010.
+
+This problem was evidenced by a large number of events in the event
+logs. | remember searching through the event logs for the Misra case
+
+POL00029638
+POL00029638
+
+POL-0026120
+with the Defence Expert to show that there was no such pattern of
+events in the Misra logs.
+
+These events were visible to our 2” line support staff and there were
+instructions for them to phone the affected branch and recommend
+that they rebooted the affected counter if such events were seen.
+
+Regards
+
+Gareth
+
+Gareth Jenkins
+Distinguished Engineer
+Business Applications Architect
+Post Office Account
+
+“Gareth Jenianst GRO
+http:/fuk fujitsu, cory
+
+= =| =
+
+Fujitsu is proud to partner with Shelter, the housing and homeless charity
+
+Reshaping ICT, Reshaping Business in partnership with FT.com
+
+ey Please consider the environment - do yor
+
+edi to print this emali?
+
+Unless otherwise stated, this email has been sent from Fujitsu
+Services Limited, from Fujitsu (FTS) Limited, or from Fujitsu
+Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents
+are subject to a duty of confidence and may be privileged. Fujitsu
+does not guarantee that this email has not been intercepted and
+amended or that it is virus-free.
+
+Fujitsu Services Limited, registered in England No 96056,
+registered office 22 Baker Street, London W1U 3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613,
+registered office 22 Baker Street, London W1U 3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No
+1578652, registered office Hayes Park Central, Hayes End Road,
+Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in
+England No 2548187, registered office Solihull Parkway,
+Birmingham Business Park, Birmingham, B37 7YU.
+
+POL00029638
+POL00029638
+
+POL-0026120
+POL00029638
+POL00029638
+
+POL-0026120

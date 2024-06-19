@@ -1,0 +1,272 @@
+POL00140216
+POL00140216
+
+From: Parsons, Andrew,
+Sent: Wed 01/06/2016 3:20:59 PM (UTC)
+To: Anthony de Garr Robinsoni
+Ce: Loraine, Pai 7 :
+Rob Smith;
+Subject: RE: Bates v POL - Commentary on Counsel's Bundles [BD-4A.FID26859284]
+Attachment: _DOC_32205054(1)_Chronology_ Advice on Balancing Transactions (2).docx
+Tony
+
+Comments in red below.
+
+A
+
+Andrew Parsons
+Partner
+
+Follow Bond Dickinson:
+
+Blin
+
+www.bonddickinson.com
+
+From: Anthony de Garr Robinson{ GRO __
+Sent: 01 June 2016 13:24
+
+To: Parsons, Andrew
+
+Ce: Loraine, Paul; Porter, Tom; Rob Smith
+
+Subject: RE: Bates v POL - Commentary on Counsel's Bundles [BD-4A.FID26859284]
+
+Thanks, Andy. The second box of files you sent to my chambers has just arrived here in Oxfordshire (it’s half term this
+week). However, I’m still hard at work reading the two files you sent last week — it is much slower going than I
+expected.
+
+T already have lots of questions and will have more by the time my reading is all done. A pre-conference meeting or call
+is a necessity, I think. I will revert with suggestions as to timing when I’ve reviewed had a look at the amount of further
+reading I have to do. My current thinking is that we have a (possibly quite ling) telecon or meeting on Monday or
+Tuesday of next week, with a con following towards the end of the week. Would that work for you and the client’?
+
+Works for me. I'll speak to people about fixing dates.
+
+One issue I think the clerks have raised with you is whether to bring in a junior at this stage. I would certainly benefit
+from someone who can do some targeted research into the implied term issues and maybe some GLO issues too. I would
+particularly like someone with the time to look for cases considering (1) whether and to what extent, in cases relating to
+contracts involving the design, supply and/or sale of complex products and/or training, there are implied terms requiring
+the products and/or training to be idiot proof or designed for idiots, (2) whether and to what extent the “fitness for
+purpose” standard implied term in sale of goods/supply of goods and services cases requires the relevant products or
+services to be idiot proof or designed for idiots and (3) whether and to what extent such requirements have been implied
+in long term agency or franchising or other similar agreements (e.g. through the standard implied term requiring
+cooperation or requiring the state of affairs necessary for performance to be maintained to enable the contract to be
+POL00140216
+POL00140216
+
+performed). If a junior is to be brought in, now is the best time to do it. Sooner or later, a lot of foot-slogging research
+will be required into these and other questions. It would save me time and effort to have someone super-clever here in
+chambers who can work under my close direction, and it could well improve the quality of the judgments the client
+ultimately makes on important issues.
+
+I'll speak to Rob about a junior.
+
+Best wishes,
+
+Tony
+
+PS. In the meantime, I have a few questions:
+
+Ti
+
+Is it possible that there are cases where human errors at branches cause Horizon to record losses which do not
+really exist but for which postmasters are then held to be liable (e.g. because — perhaps as a result of the
+postmaster’s failure to do all the reconciliations he or she was required to do when required to do them, or
+perhaps because the helpline told the postmaster to accept an incorrect balance — it is not now possible to tell
+whether the loss is real? If so, does that raise a question as to the propriety of our basic approach to recovering
+losses from postmasters and summarily terminating their contracts? If not, why not?
+
+The "real" loss question gets raised a lot by postmasters.
+
+Save for the handful of small bugs found in the system (see the example at tab 121 of your bundle), I've not
+come across a case where an accounting loss in a branch has not reflected a real genuine loss to Post Office.
+Sometimes however the "real" loss to Post Office is not that obvious.
+
+The key point to note is that it is not possible to make a one sided change to the accounts. For example, if a
+branch was to manually, but accidentally, increase the amount of stamps recorded in the branch accounts
+(which would create a shortage of stamps vs the amount of stamps actually on hand), Horizon automatically
+assumes that the stamps have not been sold and decreases the cash holdings to reflect this (thereby creating
+a surplus of cash). In this way, errors are balanced out.
+
+The other point to note is that the double entry to a transaction may be against a third party. For example, a
+customer wishes to deposit £200 into their bank account. They physically pass £200 in cash to the branch, but
+through a typo the branch records a deposit of £300. This would show as a loss of £100 in the branch (as the
+accounts would record the receipt of £300 but the branch would only hold £200 in cash). On first blush one
+could say that there was no real loss to Post Office as the £100 difference is just an accounting error.
+However, that accounting error will be passed through to the customer's bank and the bank will expect a credit
+of £300 from Post Office. Unless the branch or the customer spots the error, Post Office (who has no way of
+knowing that there has been a typo) will pay £300 to the bank and will expect the branch to hold £300 in cash.
+The £100 loss is therefore "real" (unless the error is spotted and corrected).
+
+I’m conscious that this question raises the much bigger issue as to how Horizon and/or our helpline and/or our
+training caused postmasters or their staff to do things that ultimately resulted in losses being recorded for which
+they were held to be liable. As is often the case with practical issues of this sort, the armchair reports and other
+documents I have read so far have not enabled me to get on top of that issue at all, and it’s hard to formulate
+questions which would enable me to do so.
+
+Understood. This rabbit hole goes pretty deep!
+
+What you'll probably find is that general answers about what Horizon does or does not do are not often
+possible. One has to look at the detail of how a specific transaction is processed on Horizon in order to
+validate / challenge a particular point
+
+When did we become aware of the possibility of remotely altering branch data on Horizon, and why did we not
+become aware of it long ago? Is the fact that we consistently claimed the opposite our fault, or Fujitsu’s? Does
+it mean that the expert evidence that we have previously relied on from Fujitsu was wrong/misleading? And
+have we already embarked on an exercise to determine whether this makes any or all of the previous convictions
+POL00140216
+POL00140216
+
+unsafe, as we did with the previous exercise with the previous revelation about the Fujitsu bugs”? If not, why
+not?
+
+We (being POL and BD) were not at the outset aware of the ability of FJ to remotely alter branch data (by use
+of balancing transactions) until relatively late in the day. The BT process is used so infrequently that POL IT
+and FJ just overlooked it in their discussions.
+
+It was only when Deloitte was commissioned to undertake their review of Horizon that the BT issue came to
+light (tab 119). This was in May 2014. Even then the full significance of this issue was not understood.
+
+During late 2014, Second Sight began to focus more and more on the question of remote access. This was
+largely triggered by them discovering the Winn-Lusher email (tab 122) — they'd actually had this email for
+some time but had overlooked it.
+
+In 2015, the pressure came to a head and POL began seeking advice from its criminal lawyers on the
+consequences of the BT process. I've attached a chronology of this advice. At the end, you'll see the advice
+from Brian Altman which essentially says that POL does not need to disclose the "remote access" issues in
+relation to any prosecution.
+
+Our current understanding is that a BT has only been used once since 2010 (in a branch that has not raised a
+complaint nor subject to a prosecution). Before 2010, the situation is more opaque as before 2010 Horizon
+did not automatically log the use of BTs. We therefore don't know whether a BT was used before this point.
+
+There is an open question about whether Deloitte should conduct more work in relation to this point — see para
+130 of JSQC's report at tab 116. This is something we'll need to discuss in more detail.
+
+T understand that, for 42/60 days, postmasters had the ability on Horizon to check each and every transaction
+done from his or her branch in order to explain discrepancies. But what about discrepancies appearing after that
+period, eg. as a result of late transaction corrections? On what basis do we claim that postmasters had the data
+they needed to explain those discrepancies, even though they could no longer do line by line transaction checks?
+
+As postmasters are required to close their accounts every month, the only situation that | am aware of where a
+postmaster may need to look back further than 42/60 days is the late Transaction Correction (TC) situation.
+
+| have been told repeatedly that the evidence needed to dispute a TC is the paper based record that should be
+kept in the branch, not data held on Horizon. It is the data held on Horizon that has generated the TC - put
+another way, the Horizon data will only validate the TC and not help challenge it. For example, if there was a
+TC saying that there had been more ATM cash withdrawals than stated in the accounts, the evidence for this is
+not the accounts (which will only show the discrepancy that generated the TC). The evidence needed is the
+paper receipt generated by the ATM showing the cash withdrawals. If the postmaster provides the paper
+receipt to challenge the accounting position, then POL will withdraw the TC.
+
+The devil is in the detail on this one as you need to pick apart the operational steps for each transaction type in
+order to show that the Horizon data is not needed.
+
+I've not yet found a TC that actually needs the Horizon data to be available for the TC to be challenged — that
+said the 42/60 days limit on data has always been an unattractive feature of Horizon in my view.
+
+Why did we refuse to mediate some cases the working group recommended for mediation? Would I be right in
+inferring that, in the working group we were in a minority of one and everyone else tended to take the Second
+Sight view of things?
+
+JFSA and SS voted in favour of mediation on most cases so we were in a minority and were out voted a lot.
+
+The difficult cases were those where there was criminal activity as the advice from the criminal lawyers was
+that unless there was evidence that a conviction was unsafe (which we never found in any case) then simply
+mediating those cases could unsettle the conviction for no good reason. There was also a practical issue that
+if POL was standing by the conviction then POL took the view that it was justified in terminating the postmaster
+and any claim for losses was hopeless, so mediation was pointless.
+POL00140216
+POL00140216
+
+JFSA and SS did not accept this point and pushed POL to mediate criminal cases.
+
+5. I’m biased, but it does seem to me that Second Sight’s final report is one-sided. How high can we/should we/do
+we dare go in our criticisms of Second Sight? This may depend on the extent to which the conclusions in its
+final report dependent on fundamental errors that are demonstrably wrong — what is your view about that? And
+what are those errors, exactly?
+
+The factual errors in SS's work are outlined in POL's response to SS' report (tab 49). | agree that SS lost all
+sense of perspective and at times they were clearly biased against POL. The root cause of this however was,
+in my view, not bad faith but incompetence — | don't think they even realised how bad / biased their work was.
+
+Thus far, POL has resisted attacking SS's credibility and impartiality. They have stuck with a purely factual
+response to allegations put by SS. The reason for this is that they have paid SS over £1m and there's
+something unattractive about criticising the expert that POL picked and paid £1m to!
+
+Whether we now need to attack SS head on is a tactical call for POL (my view is that we will need to do this in
+order to undermine their reports).
+
+6. In their final report, Second Sight claim that we stopped them completing their investigation, partly by not
+providing documents and info they wanted and partly because we cut their work short by requiring their report
+by 10/04/15. Did we know we were doing that but carried on regardless? If so, why?
+
+POL did stop SS accessing the three categories of documents set out in section 2 of the POL Reply to SS’
+final report. However, these documents were a drop in the ocean. In fact, POL actively encouraged SS to
+come and meet with key people at POL but SS consistently refused / failed to turn up. We would have loved
+(genuinely) to have spent more time with them explaining issues but we could just not get SS to engage — they
+were swamped with work and under-resourced.
+
+Questions 5 and 6 may be answered in our response to Second Sight’s final report, which I have yet to read. If so,
+my apologies.
+
+From: Parsons, Andre\ . GRO
+Sent: 01 June 2016 12:14
+To: Anthony de Garr Robinson
+
+Cc: Loraine, Paul; Porter, Tom; Rob Smith
+
+Subject: Bates v POL - Commentary on Counsel's Bundles [BD-4A.FID26859284]
+
+Tony
+
+Please find attached a short commentary on the documents in your bundles which you should have hopefully received
+this morning. This is just to place some of the documents in context.
+
+Once you've had a chance to quickly review the bundles, please could you let me know approximately when you might
+be available for a con with the client (as per my email attached)? | can then speak to POL about fixing a date.
+
+Kind regards
+Andy
+
+Andrew Parsons
+Partner
+
+POL00140216
+POL00140216
+
+Follow Bond
+
+www.bonddickinson.com
+
+Please consider the environment! Do you need to print this email?
+
+The information in this e-mail
+mail and any attachments. If you are not arobinsoni fy
+dissemination, distribution, publication or copying of this communication ot attachments is prohib
+
+id any attachments is nly is authorised to access this e~
+
+anid delete any copies. Unauthorised use,
+
+as Soon as possibl
+lawful.
+
+Any files attached to this e-mail will have been checked by us with virus detection software before transmission. Bond Dickinson LLP accepts no liability for any loss or dam:
+which may be caused by software viruses and you should carry out your own virus checks before opening any attachment.
+
+Content of this email which does not relate to the official business of Bond Dickinson LLP, is neither given nor endorsed by it
+
+This email is sent by Bond Dickinson LLP which is a limited liability partnership registered in England and Wales under number 0C317661. Our registered office is 4 More London
+Riverside, London, SE1 2AU, where a list of members’ names is open to inspection. We use the term partner to refer to a member of the LLP, or an employee or consultant who is
+of equivalent standing. Our VAT registration number is GB123393627.
+
+Bond Dickinson LLP is authorised and regulated by the Solicitors Regulation Authority
+
+This email has been scanned by the Symantec Email Security.cloud service.
+For more information please visit http://www.symanteccloud.com
+
+This email has been scanned by the Symantec Email Security.cloud service.
+For more information please visit http://www.symanteccloud.com
+

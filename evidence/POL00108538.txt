@@ -1,0 +1,277 @@
+POL00108538
+POL00108538
+
+Message
+
+From: Rodric Williams
+
+on behalf of — Rodric Williams i]
+Sent: 22/04/2014 11 ”
+To: ‘Parsons, Andrew’ [i
+
+Subject: FW: Strictly Private & Confidential - Subject to Privilege
+
+Andy ~ please see FJ response to the questions we put to them on the “Andy Winn/Alan Lusher email”.
+Where does this take us?
+
+Kind regards, Rodric
+
+Rodric Williams [Litigation Lawyer
+
+@
+S
+©
+i)
+Se
+©
+
+LONDON, ECIV 9HQ
+
+From: Davidson James:
+Sent: 17 April 2014 16:2
+To: Rodric Williams
+
+Cc: Harvey Michael; Newsome Pete
+
+Subject: RE: Strictly Private & Confidential - Subject to Privilege
+
+Rodric,
+Please see Fujitsu's response below.
+Summary:
+
+*® There is no ability to delete or change records a branch creates in either old Horizon or Horizon online.
+Transactions in both systems are created in a secure and auditable way to assure integrity, and have either
+a checksum (Old Horizon) or a digital signature (Horizon Online), are time stamped, have a unique sequential
+number and are securely stored via the core audit process in the audit vault
+
+e Whilst a facility exists to ‘inject’ additional transactions in the event of a system error, these transactions would
+have a signature that is unique, sub-postmaster id’s are not used and the audit log would house a record of
+these. As above, this does not delete or amend original transactions but creates a new and additional
+transactions
+
+@ This facility is built into the system to enable corrections to be made if a system error / bug is identified and the
+master database needs updating as a result, this is not a unique feature of Horizon
+
+e Approvals to ‘inject’ new transactions are governed by the change process, 2 factor authentications and a ‘four
+eyes’ process. A unique identifier is created and can be audited for this type of transaction within HNGX, Horizon
+would require more extensive work to investigate as explained below.
+
+POL-0106634
+POL00108538
+POL00108538
+
+1. Can Post Office change branch transaction data without a subpostmaster being aware of the change? No
+2. Can Fujitsu change branch transaction data without a subpostmaster being aware of the change? Once created,
+branch transaction data cannot be changed, only additional data can be inserted. If this is required, the
+additional transactions would be visible on the trading statements but would not require acknowledgement /
+approval by a sub-postmaster, the approval is given by Post Office via the change process. in response toa
+previous query Fujitsu checked last year when this was done on Horizon Online and we found only one
+occurrence in March 2010 which was early in the pilot for Horizon Online and was covered by an appropriate
+change request from Post Office and an auditable log. For Old Horizon, a detailed examination of archived
+data would have to be undertaken to look into this across the lifetime of use. This would be a significant and
+complex exercise to undertake and discussed previously with Post Office but discounted as too costly and
+impractical.
+3. If not, where is the evidence for this conclusion? See Answer 2
+4. If so:
+a) How does this happen? See above
+b) Why was this functionality built into the system design? To allow for data to be corrected if there were
+any defects found in the system
+c) Why would Fujitsu need to use this functionality? As above and under instructions from Post Office Ltd.
+d) What controls are in place to prevent the unauthorised use of this method of access? This is achieved
+through a number of industry standard controls (RBAC, 2 factor authentication etc) which are robustly
+audited under ISO 27001 / IAS 3402, Link, PCI.
+e) When has branch data been accessed in this way in the past? See above
+5. Inrelation to the Winn/Lusher email:
+a) What is "message store"? This is the repository {or database) where all transactions were written to in
+the old Horizon system
+b) Can this be used to access and change branch records? /t can be used to access the records. Data
+cannot be changed, but new data could be inserted into it. Any such inserted data would be tightly
+controlled by operational processes explained above.
+c) What is the "impact" of this change on branch records? The impact would depend on exactly what
+records were inserted.
+d) Would the subpostmaster be aware of this change? Yes, via the trading statement but spm’s are not
+required to approve the change, this is provided by Post Office.
+e) Why would this method of access be used? To correct errors if a software defect is identified.
+ff} What controls are in place to prevent misuse of this method of access? As above.
+Regards,
+James Davidson
+Post Office
+
+POL-0106634
+POL00108538
+POL00108538
+
+Email: james.davidsoni
+Web: http://uk.fujitsu.com
+
+ai S
+
+Fujitsu is proud to partner with Shelter, the housing and homeless charity
+
+Reshaping ICT, Reshaping Business in partnership with FT.com
+
+Bai Please consider the environment -
+
+From: Rodric Williams
+Sent: 17 April 2014 15:25
+
+To: Davidson James
+
+Subject: RE: Strictly Private & Confidential - Subject to Privilege
+
+Thanks James.
+
+Rodric Williams Litigation La
+
+@ 148 Old Street, LONDON, ECTV 9HQ
+©
+
+©
+
+© rodric.williamsé
+
+@ Post Office stori
+
+®© @postofficenews
+
+Sent: 17 April 2014 14:02
+To: Rodric Williams
+Subject: RE: Strictly Private & Confidential - Subject to Privilege
+
+Rodric,
+
+Just to update, | have a response in draft following a review the technical guys. | have passed this to legal for review and
+expect this back this pm. Will advise as soon as | have the go ahead to release.
+
+Regards,
+
+James Davidson
+Post Office
+
+fl
+
+Fujitsu is proud to partner with Shelter, the housing and homeless charity
+
+s
+
+Reshaping ICT, Reshaping Business in partnership with FT.com
+
+POL-0106634
+POL00108538
+POL00108538
+
+wa Please consider the environment - do you really need te print thie email?
+
+From: Rodric Williams
+Sent: 14 April 2014 15:
+To: Davidson James
+
+Subject: Strictly Private & Confidential - Subject to Privilege
+
+James,
+
+Could Fujitsu please answer the questions below so that we can respond to a specific challenge put to us by Second
+Sight in connection with a Mediation Scheme complaint, namely that:
+
+"the Andy Winn/Alan Lusher email in the case of Ward [...] explicitly states that Fujitsu can remotely change the figures in
+the branches without the SPMs’ knowledge or authority".
+
+The Winn/Lusher email is attached. The part of the email in question is:
+“Fujitsu have the ability to impact branch records via the message store but have extremely rigorous procedures in place
+to prevent adjustments being made without prior authorisation - within POL and Fujitsu these controls form the core of
+our court defence if we get to that stage.”
+Questions:
+6. Can Post Office change branch transaction data without a subpostmaster being aware of the change?
+7. Can Fujitsu change branch transaction data without a subpostmaster being aware of the change?
+8. If not, where is the evidence for this conclusion?
+9. Ifso:
+a) How does this happen?
+b) Why was this functionality built into the system design?
+c) Why would Fujitsu need to use this functionality?
+d) What controls are in place to prevent the unauthorised use of this method of access?
+e) When has branch data been accessed in this way in the past?
+10. In relation to the Winn/Lusher email:
+a) What is "message store"?
+b) Can this be used to access and change branch records?
+c) What is the "impact" of this change on branch records?
+d) Would the subpostmaster be aware of this change?
+e) Why would this method of access be used?
+f) What controls are in place to prevent misuse of this method of access?
+Please let me know if it would be easier to address these in a phone call in the first instance.
+
+Kind regards, Rodric
+
+Rodric Williams I Litigation Lawyer
+
+POL-0106634
+POL00108538
+POL00108538
+
+® Post Offi
+
+JOH EIEIO DIDO IO IIA ISI IIIA IOI III ISO ADI DISA IIAIAIA
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
+
+errr etree terete tree ret tre treet rte tre terest rec err terete rere Ty
+
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U.
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+JOTI O ROTI IDO IO IIIa IOI SO IID IIIT OI IAI IIIA IAAI AIA
+
+This email and any attachments are confidential and intended for the addressee only. If you are not the named recipient,
+you must not use, disclose, reproduce, copy or distribute the contents of this communication. If you have received this in
+error, please contact the sender by reply email and then delete this email from your system. Any views or opinions
+expressed within this email are solely those of the sender, unless otherwise specifically stated.
+
+POST OFFICE LIMITED is registered in England and Wales no 2154540. Registered Office: 148 OLD STREET,
+LONDON EC1V 9HQ.
+
+Unless otherwise stated, this email has been sent from Fujitsu Services Limited, from Fujitsu (FTS) Limited, or
+
+POL-0106634
+POL00108538
+POL00108538
+
+from Fujitsu Telecommunications Europe Limited, together "Fujitsu".
+
+This email is only for the use of its intended recipient. Its contents are subject to a duty of confidence and may
+be privileged. Fujitsu does not guarantee that this email has not been intercepted and amended or that it is virus-
+free.
+
+Fujitsu Services Limited, registered in England No 96056, registered office 22 Baker Street, London W1U
+3BW.
+
+Fujitsu (FTS) Limited, registered in England No 03808613, registered office 22 Baker Street, London W1U
+3BW.
+
+PFU Imaging Solutions Europe Limited, registered in England No 1578652, registered office Hayes Park
+Central, Hayes End Road, Hayes, Middlesex, UB4 8FE.
+
+Fujitsu Telecommunications Europe Limited, registered in England No 2548187, registered office Solihull
+Parkway, Birmingham Business Park, Birmingham, B37 7YU.
+
+POL-0106634
