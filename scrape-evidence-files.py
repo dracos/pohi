@@ -38,9 +38,10 @@ def fetch_evidence_page(item):
             continue
 
         print('Noting evidence', url, note, href, link.a['type'])
-        with open(filename_out, 'wb') as fp:
-            content = session.get(href).content
-            fp.write(content)
+        content = session.get(href).content
+        if len(content):
+            with open(filename_out, 'wb') as fp:
+                fp.write(content)
 
 META = {}
 fetch_evidence()
