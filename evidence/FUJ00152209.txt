@@ -1,0 +1,1814 @@
+o
+FUJITSU
+
+FUJITSU SERVICES
+
+FUJ00152209
+
+FUJ00152209
+NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+PROSECUTION SUPPORT Version: 2,0
+(Security Classification) Date: 29/02/2005
+
+Document Title:
+
+Document Type:
+
+Release:
+
+Abstract:
+
+Document Status:
+
+Originator & Dept:
+
+Contributors:
+
+Internal Distribution:
+
+External Distribution:
+
+Approval Authorities:
+
+NETWORK BANKING MANAGEMENT OF PROSECUTION
+SUPPORT
+
+Procedure
+N/A
+
+This document outlines the end-to-end procedures required to
+manage and deliver the Network Banking Prosecution Support
+Service
+
+APPROVED
+
+Neneh Lowther (CS Security)
+
+Neneh Lowther, Bill Mitchell, Penny Thomas, Jan Holmes, Alan
+Holmes
+
+Review List
+
+Review List
+
+(See PA/PRO/010 for Approval roles)
+
+Name
+
+Position Signature Date
+
+Dave Baldwin
+
+CS Director
+
+Bill Mitchell
+
+CS Security Manager
+
+Jan Holmes
+
+Audit
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 1 of 40
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+foo] NETWORK BANKING MANAGEMENT OF
+FUJITSU PROSECUTION SUPPORT
+FUJITSU SERVICES
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+Ref: NB/PRO/003
+Version: 2,0
+
+Date: 29/02/2005
+
+0.0 Document Control
+0.1 Document History
+
+Version No. | Date Reason for Issue Associated
+CP/Peak
+
+0.1 11/02/02 Initial Draft
+
+0.2 24/10/02 Incorporation of comments after initial review.
+Amendment to signed contract.
+
+0.3 15/11/02 Incorporate comments after review
+
+1.0 26/11/02 Version for approval
+
+Ll 02/02/05 Update to reflect current changes
+
+2.0 29/02/05 Version for approval
+
+0.2 Review Details
+
+Review Comments by : | Date
+
+Review Comments to: | Originator
+
+Mandatory Review
+
+CS Director Dave Baldwin
+
+CS Security Manager Bill Mitchell
+
+Optional Review
+
+Quality Assurance Manager Jan Holmes
+
+Audit Alan Holmes
+
+Principle Consultant Tony Haywood
+
+Commercial and Contract Manager Hilary Forrest
+
+Issued for Information ~ Please restrict this
+
+distribution list to a minimum
+
+Position Name
+
+(* ) = Reviewers that returned comments
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 2 of 40
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+FUJ00152209
+FUJ00152209
+
+oO NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES
+(Security Classification) Date: 29/02/2005
+
+0.3. Associated Documents
+Reference Version | Date Title Source
+PA/TEM/001 8.0 19/12/02 Fujitsu Services Document PVCS
+
+Template
+CR/FSP/006 Audit Trail Functional
+
+Specification
+NB/SDS/004 System Design Specification
+
+for Network Banking
+
+Reconciliation
+TA/PRO/004 Audit Data Extractions Process
+
+Unless a specific version is referred to above, reference should be made to the current
+approved versions of the document
+
+0.4 Abbreviations/Definitions
+
+Abbreviation
+
+Definition
+
+Audit Record Queries
+
+A Record Query that is not a Banking Transaction Record Query
+and which relates to Transactions.
+
+cs Customer Services
+
+Banking Transaction | A Record Query in respect of a Banking Transaction which the Data
+
+Record Query Reconciliation Service has reconciled or has reported as an
+exception, the result or records of which are subsequently queried or
+disputed by Post Office Ltd or a third party
+
+FAD A Post Office outlet unique identifier.
+
+HSH Horizon System Helpdesk
+
+Prosecution Civil or criminal court or statutory tribunal proceedings related to
+Banking Transactions
+
+NB Network Banking
+
+Old Format Queries
+
+The extraction of records created before commencement of Network
+Banking Pilot (Soft Launch) relating to Transactions (other than
+Banking Transactions) meeting the Search Criteria, such extraction
+being limited to the following specific types of information/data
+fields: the ID for the user logged-on, Counter Position ID, stock
+unit reference, Transaction ID, Transaction start time and date,
+Customer Session ID, mode (e.g. serve customer), product number
+and quantity, and sales value;
+
+PO Ltd.
+
+Post Office Limited
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 3 of 40
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+FUJ00152209
+
+FUJ00152209
+oO NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES
+(Security Classification) Date: 29/02/2005
+PSS Post Office account Prosecution Support Section
+PSS Day Between 09:00 and 17:30 Monday to Friday excluding English Bank
+Holidays.
+Record Query The extraction of records created after commencement of Network
+
+Banking Pilot (Soft Launch) in accordance with the terms paragraph
+7.3 of NOI relating to Banking Transactions (and, in the case of
+Audit Record Queries relating to all Transactions) meeting the
+Search Criteria, such extraction being limited to specific types of
+information/data fields.
+
+Audit Record Query | Audit Record Query Form (ARQ). A single Audit Record Query
+Form Form must relate to a single outlet.
+
+Rolling Year Any Record Queries received over the yearly limit shall be seen as
+the following years requests and as such will not be processed until
+the following year. In other words it will be rolled over in to the
+following years requests.
+
+Search Criteria Means either of:
+
+(a) date range (not exceeding 31 consecutive days), time-'
+range, Outlet and PAN(or equivalent identifier); or
+
+(b) date range(not exceeding 31 consecutive days), time-'
+range and Outlet,
+
+which may be specified for a Record Query.
+
+NB this is different from the criteria used for Banking Transactions
+Record Queries
+
+0.5 Changes in this Version
+
+Version Changes
+
+2.0 Update to reflect new ARQ contract details
+Minor typo errors
+
+Minor changes to internal work processes
+
+0.6 Changes Expected
+
+Changes
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 4 of 40
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+0.7 Table of Contents
+
+1.0 | INTRODUCTION...
+
+2.0
+
+3.0
+
+3.1
+3.2
+3.3
+3.4 FORMAT FOR AUDIT RECORD QUERY REQUEST:
+3.5 EXCLUSIONS.
+
+3.6 AUDIT RECORD QUERY RESOLUTION TIME SCALES.
+3.6.1 Record Query Resolution Time Scales..
+3.6.2. Old Format Query Resolution Time Scale:
+3.6.3 Contention and Court Appearance...
+
+4.0 | PROSECUTION SUPPORT.
+
+41 SCOPE
+4.2. EXCLUSION!
+
+5.0 NOTIFICATION PROCESS.
+
+5.1 CONTACT POINTS.
+5.1.1 Post Office Ltd.
+5.1.2 Post Office accour
+
+5.2 REQUEST PROCES:
+6.0 MANAGEMENT PROCESG.....
+
+6.1 | ALLOCATION OF AUDIT RECORD QUERIES
+6.1.1 Continuity of Evidenc .
+
+6.2 PROSECUTION SUPPORT DATABASE.
+
+6.3. PROCESS FOR CANCELLATIONS...
+
+7.0 | PROSECUTION SUPPORT PROCES:
+
+7.1. AUDIT RECORD QUERY.
+. Identify Search Criteri
+
+1
+
+2 Create Audit trail of request.
+3 Search for files required to complete reques'
+4 Select and retrieve files
+5
+6
+
+. Generate message store..
+.6 query to spreadsheet
+.7 Burn closed CD.
+8
+
+7.2 PROSECUTION SUPPORT.
+Check Horizon System Helpdesk Logs.
+Analysis Non-polling reports.
+Analysis of Fault logs.
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification)
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+7.2.4 Complete Witness Statement of Fact.....
+
+T7241 Witness Statement of Fact.
+
+7.24.2 Court attendance in support of Witness Statement of Fact.
+7.2.5 Provision of exhibits.
+7.2.6 — Exhibit Labels.
+7.2.7 Despatch..
+
+7.3. PROSECUTION SUPPORT RESOLUTION TIME SCALES.
+8.0 ADDITIONAL PROSECUTION SUPPORT....
+
+8.1 AUDIT RECORD QUERIES .26
+8.2 EXPERT WITNESS STAT
+8.3. COURT ATTENDANCE IN SUPPORT OF EXPERT WITNESS STATEMENT...
+
+9.0 APPENDICES...
+APPENDIX |
+10.0 START.DATE - DATE OF TRANSACTION......
+
+11.0 DATE - DATE OF TRANSACTION.
+APPENDIX 3 — EXHIBIT LABEL
+
+©Copyright Fujitsu Services Ltd 2005 (Security Classification) Page: 6 of 40
+
+(CONTRACT CONTROLLED - Leave Blank if Not Applicable)
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+1.0 Introduction
+
+The Network Banking Prosecution Support Service has been introduced in response to
+Network Banking Requirements 260 and 315. The scope of the Service is outlined in Schedule
+NOI of the Codified Agreement in the Section entitled “Information Retrieval and Audit”.
+
+This document is intended to assist the management and delivery of the service necessary to
+support Post Office Ltd in respect of criminal prosecution or civil litigation for the Horizon
+solution.
+
+It is intended that the management of prosecution support process is generic for all services.
+Audit Record Query requests are received, documented, extracted from the Audit Archive and
+progressed to resolution in the same manner. The production of evidence and witness
+statements in support of prosecution also utilises the same processes.
+
+This document is without prejudice to any of the parties and nothing contained herein shall be
+deemed or construed as affecting contractual obligations or creating new contractual
+obligations between any of the parties.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 7 of 40
+FUJ00152209
+
+FUJ00152209
+co NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+2.0 Scope
+
+This document sets out the procedures to be adopted by Post Office account’s Prosecution
+Support Section (PSS) for managing and dealing with Audit Record Queries for Investigation
+and Prosecution support purposes including the:
+
+© Undertaking of Audit Record Queries;
+
+¢ Presentation of Transaction records extracted by Audit Record Queries;
+
+e Analysis of appropriate records and logs;
+
+¢ Preparation of witness statements of fact in relation to Audit Record Queries;
+
+e Attendance at Court by relevant employees to give evidence in respect of witness
+statements;
+
+e Undertaking of additional litigation/prosecution support activities as may be requested on
+a case-by-case basis on the instruction of Legal Counsel.
+
+It is recognised that it is not possible to deliver a standardised response to all prosecution
+related Audit Record Queries. The type of information requested for an Audit Record Query
+is heavily dependent upon the requirements of the particular case in question and the demands
+of the Legal System. These procedures therefore provide a flexible approach to the provision
+of prosecution support.
+
+ARQs in support of potential prosecution will be obtained solely from the Horizon System
+Audit Archive / Server. The method by which the integrity of this data is protected is
+described in the Audit Trail Functional Specification. Evidence in support of data integrity will
+be sourced from Audit Archive / Server and Post Office account Business logs. All access to
+audit data is restricted to named individuals via dedicated workstations located in a secure
+environment. This is consistent with the security controls employed for the existing service.
+Supporting evidence is sourced from relevant business records and logs.
+
+Requests for Information will fall into two general categories:
+a Audit Record Query only.
+
+This involves the extraction from the audit archive of records relating to data for a
+particular outlet.
+
+a Audit Record Query plus associated witness statement.
+
+This involves the extraction for the audit archive of records relating to data for a particular
+outlet plus the provision of a witness statement of fact in support of the data extracted.
+
+This document and the limits on Audit Record Queries and Search Criteria it contains relate to
+information retrievals and audit for the Network Banking System and the Existing Service.
+The Existing Service ceases to be applicable 18 calendar months after Network Banking Pilot
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 8 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+(Soft Launch). This document and the limits set out in this document will be updated at this
+time to reflect the removal of the Existing Service.
+
+Provision of prosecution support for the existing service has been agreed under contract.
+Prior to Network Banking contract signing this provision was supported under a CR received
+to request such a facility. Provision of the old format data retrieval support service before
+contract signing was based upon an informal agreement between the Director of Horizon
+Commercial and the Director of Post Office account Quality. CCN 759, submitted to
+formalise this agreement was not subsequently ratified. The agreement provided for the
+provision of up to 50 audit data extractions per annum for audit and security purposes, with a
+maximum of 7 in any calendar month. The annual target measured over a rolling 12 month
+period. Additional extractions were catered for on the basis of Time and Material costs
+equivalent to 1.5 days at senior consultant rate.
+
+The provision of prosecution support (specifically the provision of witness statements of fact)
+was similarly not formalised and was provided on a “without prejudice subject to contract”
+basis pending the receipt of the aforementioned Change Request. Prosecution support for the
+existing system is now provided as part of the Prosecution Support Service. This document
+outlines the operational approach to this service.
+
+This document does not cover the requirements or procedures for the Data Reconciliation
+Service i.e. Banking Transaction Record Queries which are handled by BSU.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 9 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+3.0 Audit Record Queries
+3.1 Scope
+
+An Audit Record Query is an extraction from the Audit Archive of records relating to
+Transactions, which meet specific search criteria. Audit Record Queries may be undertaken to
+provide transaction and other details required to facilitate an investigation or in support of
+prosecution.
+
+Through out this document the generic term to Audit Record Query is used collectively to
+refer to an extraction of data from the Audit Archive. There are three types of Audit Record
+Query as defined under contract:
+
+“Audit Record Query” means a Record Query, which is not a Banking Transaction Record
+Query and which relates to Transactions.
+
+“Record Query” the extraction of records created after commencement of Network Banking
+Pilot (Soft Launch) in accordance with the terms of paragraph 7.3 in NOI relating to Banking
+Transactions (and, in the case of Audit Record Queries relating to all Transactions) meeting
+the Search Criteria, such extraction being limited to specific types of information/data fields.
+
+“Old Format Query” the extraction of records created before commencement of Network
+Banking Pilot (Soft Launch) relating to Transactions (other than Banking Transactions)
+meeting the Search Criteria, such extraction being limited to the following specific types of
+information/data fields.
+
+3.2 Limits on Audit Record Queries.
+
+The number of Audit Record Queries requested by Post Office Ltd in connection with
+investigation or prosecution shall be the first to be met per year of;
+
+¢ no more than 720 queries ( old and new) or
+
+« 15,000 query days on a rolling year basis
+
+With no more than the first to be met in any calendar month of
+e 60 queries (old and new) or
+
+e 1250 query days.
+
+Any Audit Record Queries over and above the 720 maximum will be rolled-over to the next
+12-month period and count towards the total for the next year.
+
+Post Office may at any time on three months’ notice vary the aggregate limits of Audit Record
+Queries which Fujitsu Services is required to carry out between
+
+a) the limits specified in paragraph 3.2; and
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 10 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+b) the following substitutes for those limits (applicable on the same basis): 1020 Audit
+Record Queries or 21250 Query Days per year on a rolling year basis, and a maximum,
+allowing a ‘burst rate’ of 14%, of 142 Audit Record Queries or 2975 Query Days per
+calendar month and between
+
+c) the substitute limits set out above, and;
+
+d) the following substitutes for those limits (applicable on the same basis): 1500 Audit
+Record Queries or 31250 Query Days per year on a rolling year basis, and a maximum,
+allowing a ‘burst rate’ of 14%, of 210 Audit Record Queries or 4375 Query Days per calendar
+month
+
+3.3. Search Criteria
+
+The search criteria for Audit Record Queries in support of prosecution are either:
+
+(a) Date or dates (not exceeding 31 consecutive days), time-range, Outlet and PAN (or
+equivalent identifier)
+
+Or;
+(b) Date or dates (not exceeding 31 consecutive days), time-range, and Outlet.
+which may be specified for an Audit Record Query.
+
+Each Audit Record Query shall cover a date range of up to and including 31 consecutive days.
+Individual dates or multiple date ranges can be accommodated provided that the maximum
+number of days requested does not exceed 31 consecutive days for each Audit Record Query.
+
+If a request is received for a date range greater than 31 consecutive days then an additional
+Audit Record Query or Audit Record Queries from the agreed annual maximum will be
+required to facilitate the request. Additional Audit Record Queries will be required for each
+subsequent period of 31 consecutive days or part thereof. Multiple Audit Record Queries for
+prosecution will equate to faster consumption of the maximum Audit Record Queries per year.
+
+Each Audit Record Query shall relate only to an individual Outlet.
+Audit Record Queries are limited to specific types of information/data fields these are:
+the ID for the user logged-on,
+Counter Position ID,
+stock unit reference,
+Transaction ID,
+Transaction start time and date,
+Customer Session ID,
+mode (e.g. serve customer),
+product number,
+2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE, Page: 11 of 40
+
+ejo ooo ooo Go
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+a product quantity,
+a sales value.
+
+Post Office account will consider reasonable requests from Post Office Ltd. for a variation to
+the requested information/data fields. Such variation requests should be specified in the
+relevant ARQ form.
+
+3.4 Format for Audit Record Query Requests
+
+Audit Record Queries in connection with prosecution shall be made via the Audit Record
+Query Form.
+
+Post Office Ltd will specify the following details for each Audit Record Query:
+a Date of request;
+
+a Outlet FAD and address to which the Audit Record Query relates. Each Audit Record
+Query shall relate to a single FAD;
+
+a Date range/times. The maximum date range for each Audit Record Query is 31
+consecutive days.
+
+a General requirements. This includes the required attributes associated with the Audit
+Record Query.
+
+a Output Format required. This is normally a standard Excel 95 version with separate
+columns for each attribute requested.
+
+Alternatively Post Office account will provide information in native format if requested. Post
+Office account will provide details in other formats on receipt of an appropriate Change
+Request.
+
+Each Audit Record Query shall be allocated a unique identifier to facilitate the logging and
+monitoring of work carried out. The identifier shall be “ARQ” followed by a sequential
+number starting from 1 (1 to nnnn). This will provide the audit trail information necessary to
+ensure continuity of evidence if required later at a court or tribunal.
+
+The agreed Audit Record Query (ARQ) Form is at Appendix 1.
+
+3.5 Exclusions
+
+Audit Record Queries in connection with Disputed Banking Transactions are not covered in
+this document. Refer to NB/PRO/002.
+
+3.6 Audit Record Query Resolution Time Scales
+
+The time scales are measured from the time and date that the Audit Record Query is received
+by PSS from Post Office Ltd. Casework Manager as outlined in section 5.2. Completion is
+defined as the work identified at 7.1.1 to 7.1.9.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 12 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+3.6.1 Record Query Resolution Time Scales
+
+The time-scale for completion of each Record Query is seven working days for queries of
+fourteen or less days duration and fourteen for queries of greater than fourteen days duration.
+3.6.2 Old Format Query Resolution Time Scales
+
+Time-scales for completion of old format queries shall be fourteen working days for queries of
+fourteen or less days duration and twenty-eight working days for queries greater than fourteen
+days duration.
+
+3.6.3 Contention and Court Appearance
+
+Resolution time scales specified in 3.6.1 and 3.6.2 shall not apply to Audit Record Query in
+the following situations;
+
+(a) anew Audit Record Query or Old Format Query is received by the PSS or Post Office
+Ltd require analysis of an existing Audit Record Query or Old Format Query; and
+
+(b) a member of the PSS is needed to deal with that new or existing Audit Record Query
+or Old Format Query; but
+
+(c) that person is unavailable due to his or her attendance at court or other proceedings in
+connection with an Audit Record Query or Old Format Query.
+
+The PSS shall instead deal with such Audit Record Queries as soon as reasonably practicable.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 13 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+4.0 Prosecution Support
+
+In addition to the details at 3.4 above, Post Office Ltd shall wherever possible, advise on the
+relevant section of the Audit Record Query Form whether an associated witness statement is
+required. (See Appendix 1.)
+
+4.1 Scope
+
+Post Office account shall, in relation to an Audit Record Query, at the request of Post Office
+Ltd:
+
+a Analyse appropriate Horizon Help Desk and Non-polling reports for the specific search
+criteria on the Audit Record Query in order to check the integrity of Transactions
+extracted for that Audit Record Query;
+
+a Analyse fault logs for the devices from which the records of transactions were obtained to
+check the integrity of Transactions extracted by that Audit Record Query;
+
+a Provide witness statements of fact in relation to that Audit Record Query. This will be
+based on the above analysis and be prepared by the relevant member PSS.
+
+a The above analyses and witness statements will be undertaken in respect of a maximum of
+250 Audit Record Queries per year;
+
+a Provide for the attendance at Court by the person who has provided a witness statement as
+identified above in order to give evidence in support of that witness statement. Post
+Office account shall provide a maximum of 100 days attendance in court per year.
+
+The work undertaken as part of prosecution support is further detailed in section 7.2
+Prosecution Support.
+4.2 Exclusions
+
+The provision of additional prosecution support is excluded from the service detailed above.
+Additional prosecution support is covered in Section 8 (Additional Prosecution Support).
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 14 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+5.0 Notification Process
+
+5.1 Contact Points
+
+5.1.1 Post Office Ltd
+
+All Audit Record Queries in conjunction with investigation and or prosecution must be
+authorised by the Post Office Ltd Security and Network Audit Team.
+
+Requests will be accepted only from the Post Office Ltd.’s Casework Manager.
+
+The Post Office Ltd. Casework Manager will advise the Post Office account Prosecution
+Support Manager of one named deputy, who is authorised to request record queries in his
+absence.
+
+Other parts of the Post Office (e.g. Security and Network Audit Team) requiring Queries must
+channel these requests through this single point of contact. All Queries from these sources
+shall count toward the maximum for the year.
+
+5.1.2 Post Office account
+
+The Post Office Ltd. Casework Manager shall submit all requests for Audit Record Queries in
+connection with investigation and prosecution to:
+
+Customer Service Prosecution Support Section,
+Fujitsu Services
+
+Forest Road,
+
+Feltham
+
+Middlesex TW13 7EJ
+
+The Audit Record Query will be sent via email to both Post Office account’s Prosecution
+Support Manager and also to one named deputy who shall be advised to the Post Office Ltd.
+Casework Manager.
+
+Post Office account and Post Office Ltd will agree the e-mail address of the operational single
+point of contact within both organisations.
+
+5.2 Request Process
+
+Post Office Ltd Casework Manager shall receive audit Record Query requests using an
+internal process of the Post Office Ltd. The Casework Manager or deputy shall complete an
+Audit Record Query form and email it to both the Post Office account Prosecution Support
+Manager and to one nominated individual from PSS. This will provide the contingency
+arrangements. The details of the request and the date and time of the request shall be recorded
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 15 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+in the Prosecution Support Database. The PSS Manager shall determine which member of the
+PSS shall carry out the request from analysis of current workloads per team member.
+
+Post Office Ltd Casework Manager shall also keep a log of all requests made to the PSS.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 16 of 40
+FUJ00152209
+FUJ00152209
+
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+6.0 Management Process
+
+6.1 Allocation of Audit Record Queries
+
+Post Office account Prosecution Support Manager shall allocate and monitor all requests
+within PSS. Allocation will be determined on current workloads of each member of PSS.
+Each individual in the section has the responsibility for updating their log daily. This will
+ensure an even spread of workload across PSS, making sure all requests are completed in
+accordance with agreed time scales. Status of Audit Record Queries shall be maintained in the
+Prosecution Support Database.
+
+6.1.1 Continuity of Evidence
+
+One member of PSS will generally undertake the entire end to end prosecution support
+process (as detailed in section 7.0). This enables one individual to attest to all elements of the
+retrieval process and facilitate provision of a single witness statement thereby minimising
+service impact.
+
+6.2 Prosecution Support Database
+
+The Database shall track all work carried out, by date and time, on every Audit Record Query.
+The database shall be used for allocating requests and tracking the request through the audit
+extraction process. An audit trail of date and time of processes carried out on the Horizon
+Audit System is recorded by Audit Record Query unique identifier on the Extractor Client
+GUL. Date and time of exporting messages to excel, details of anti virus checks used, date and
+time of burning to CD and posting shall not be recorded on the Extractor Client GUI. These
+shall be recorded in the Prosecution Support Database.
+
+6.3 Process for Cancellations
+
+Once an identifier has been attached to a request it shall not be reused even if the request is
+later withdrawn. This ensures the integrity of the request log for requests that require
+prosecution support at the time of request or at a future date. The log shall also ensure that
+Post Office Ltd and Post Office account meet contractual requirements on the number of
+requests and the turn around of requests.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 17 of 40
+FUJ00152209
+
+FUJ00152209
+oo NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Vers}
+FUJITSU SERVICES ‘Audit record Query
+(Security Classification) ieceived by PO Ltd.
+
+Casework Managers
+Cancellation,
+
+An Audit Record |
+
+a .
+eee at any Pee Mapes |___Confirmation _y|_ PO Ltd fill in Audit Record
+tHese ~ Record Query a Form
+Cancelled Audit I Form emailed
+
+Record Query will
+not be
+
+from thé
+Prosecution
+
+Suppordatabase
+They will be Databi
+marked Allocated to PSS sia
+
+Cancelled
+
+Logged on Prosecution
+Se Databas
+
+Work carried out and recorde
+
+ifan Audit Record : Datbas
+
+Query has started,
+
+ean be cancelled
+
+will still count
+
+the animual CD Processed, checked and
+. posted to PO_Ltd
+
+COMMERCIAL IN-CONFIDENCE Page: 18 of 40
+
+o
+FUJITSU
+
+FUJITSU SERVICES
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+PROSECUTION SUPPORT
+
+Version: 2.0
+Date: 29/02/2005
+
+7.0 Prosecution Support Process
+
+Identify Search Criteria
+
+Create Audit Trail of Request.
+
+orm
+
+Audit Record Query
+Fe
+
+Check Horizon system Helpdesk
+Logs
+
+i
+
+Search for files required to complete
+request
+
+‘System automatically
+logs date and time of
+each process to an
+“Audit Trail’
+
+‘Analysis Non-polling reports
+
+I
+
+I
+
+Select and retrieve files
+
+I
+
+Generate Message Store
+
+Rquery to spreadsheet
+
+I
+
+Bum ‘closed’ CD
+
+I
+
+Anti Virus and check CD.
+
+I
+
+Despatch of CD
+
+7.1 Audit Record Query
+
+TAA Identify Search Criteria
+
+The team member allocated to the request shall identify the search criteria from the Audit
+
+Record Query
+
+Analysis appropriate Peak logs
+
+[
+
+Complete witness statement of fact.
+
+I
+
+‘Complete Exhibit Labels
+
+Despatch to PO Lid
+
+© 2002 Fujitsu Services
+
+COMMERCIAL IN-CONFIDENCE
+
+Page: 19 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+7A2 Create Audit trail of request
+
+The Horizon Audit System provides an audit trail. The audit trail records the date and time of
+every process carried out on the Horizon Audit System to complete each Audit Record Query.
+The search criteria and Audit Record Query identifier shall be used to create the directory
+structure of each audit trail. An audit trail is produced only when an Audit Record Query is
+marked as completed on the Extractor Client. (The audit trail is not the Prosecution Support
+Database). The Prosecution Support Database holds information on when the Audit Record
+Query is received, the search criteria and whether any Audit Record Queries are cancelled
+
+The Prosecution Support Database is used to monitor workloads and ensure Audit Record
+Queries are completed in a timely fashion. The audit trail is used to attest to the integrity of
+data held on the Horizon Audit System and data extracted for Audit Record Queries.
+
+7A Search for files required to complete request
+
+A search for files required to complete the request shall then be initiated using the audit
+extractor GUI.
+
+71.4 Select and retrieve files
+
+Once the search has completed and returned the results each required file shall be marked for
+selection and then selection will be initiated. Files extracted to the server shall be seal checked
+as they are extracted. This check is intended to confirm that the data has not been altered
+from the time the transaction first originated to the time it was stored. After the files have been
+extracted the operator shall check the seal status and ensure all seals match.
+
+TAS Generate message store
+
+A message store of the selected files shall be initiated on the operator’s local machine using
+the files extracted to the audit server.
+
+7.1.6 Rquery to spreadsheet
+
+Once the message store has been successfully generated, the Rquery tool shall be used to
+select the files as per the search criteria set out in the Audit Record Query. (VB: Banking
+Transaction details are still in refinement and until documentation is prepared on Network
+Banking Transaction data, data attributes available cannot be identified. When
+documentation is available Post Office Ltd. Casework Manager and Post Office account PSS
+Manager shall agree requirements).
+
+The Transaction records extracted for the Audit Record Query shall be exported by the
+Rquery tool to an Excel 95 Format or native format if requested
+
+Sensitive Data included in records of Banking transactions are held in encrypted form by the
+Network Banking System. Therefore, sensitive data included in a Audit Record Query will be
+provided to Post Office Ltd. Casework Manager in its encrypted form. Post Office account
+will not be supplying any decryption routes.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 20 of 40
+
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+TAT Burn closed CD
+
+Once the data is complete and formatted it shall be burnt to ‘closed’ CD-W along with a word
+document that shall provide an explanation of the format in which the data is provided. The
+CD-W will be labelled with the Audit Record Query reference number, the Fad name and
+code, the due date, name of Fujitsu employee who compiled the data and date compilation
+was completed, the date range requested and the name of the Fujitsu employee who checked
+the data on the CD. The audit trail will complete date and times of access and events and
+record seal check values. The audit trail is saved as a text file to the user directory on the audit
+server.
+
+7.18 Virus check
+
+The word document that is attached to the CD shall also contain reference to the anti virus
+software used to check the CD. It shall state the engine and virus definition files used. The
+CD shall be checked for viruses after the data has been written to it and before sending it to
+Post Office Ltd. In order to adopt ‘best practice’ processes all data retrieval completed by Security
+Department staff is to be checked by another prior to despatch. (See IA PRO 004 12.0 for details).
+
+719 Despatch
+
+The CD shall be sent to Casework Manager by Special Delivery. Appropriate packaging for
+the CD will be used to help protect against damage in transit.
+
+Files extracted to the audit server shall then be closed in order for the next Audit Record
+Query to be undertaken. The message store on the operator’s local workstation shall be
+cleared of messages.
+
+7.2 Prosecution Support
+
+7.21 Check Horizon System Helpdesk Logs
+
+Problems or faults at a Post Office outlet logged with the Horizon System Helpdesk will be
+examined using the search criteria specified in an Audit Record Query to assess whether the
+outlet was functioning effectively.
+
+The logs are accessed through the web-based program, Powerhelp. All PSS members shall
+have access to Powerhelp. They shall use the specified outlet and date range as requested in
+the Audit Record Query search criteria to search Powerhelp for any calls logged for the outlet
+in the date range required. The log of calls to the Horizon System Helpdesk detail incidents of
+error, inaccuracy or malfunction pertaining to the sites, equipment, services and individuals
+concerned.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 21 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+7.2.2 Analysis Non-polling reports
+
+Non-polling reports shall be reviewed for the outlet in question, for all days within the date
+range specified, to identify if the outlet in question had any problems receiving polls. Non-
+polled reports are stored by date. The file consists of all non-polls for a particular day. For
+the date range in question, the reports with the corresponding date shall be retrieved and
+searched through, by outlet. This will ensure whether during the date range in question the
+outlet received all polls.
+
+7.2.3 Analysis of Fault logs
+
+Any relevant PinICLs identified in Powerhelp logs will be reviewed through Peak to identify
+any recorded faults, that might affect the integrity or admissibility of the audit archive from
+which the Audit Record Queries are extracted.
+
+The Peak log will detail the error relating to the site, equipment and or service in question.
+
+7.24 Complete Witness Statement of Fact
+
+PSS will provide a witness statement of fact in respect of 250 Audit Record Queries per
+annum. This will as far as possible be undertaken by the person responsible for the actioning
+of the work at 7.1 so as to retain continuity of evidence and obviate the need for additional
+statements.
+
+7.2.4.1 Witness Statement of Fact
+
+Any material or otherwise pertinent information shall be recorded and included in the relevant
+witness statement of fact.
+
+Requirements for witness statements explaining the extraction of audit data from Horizon in
+response to an Audit Record Query shall be completed by the individual from PSS who
+completed the request.
+
+The statement shall follow the standard format and layout for witness statements of fact
+provided in evidence. Contents of witness statements of fact are flexible depending on specific
+requirements of each case and the knowledge of the witness giving the statement. An example
+of a witness statement of fact is provided in Appendix 2. For each request, Post Office Ltd
+and PSS will agree relevant matters (such as those listed below) which should be covered in
+the witness statement of fact (based on the knowledge of the witness):
+
+a Identification information about the author of the witness statement of fact.
+A summary of the previous manual system used by the Post Office before Horizon.
+A summary of Horizon and what information is recorded.
+
+How consistent time is recorded within the Horizon system.
+
+ooooso
+
+The types of reports that can be generated on a counter by a clerk.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 22 of 40
+FUJ00152209
+
+FUJ00152209
+oO NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES .
+(Security Classification) Date: 29/02/2005
+a The transfer of accounts information to Post Offices main accounts department.
+a_ A brief overview of all applications, OBCS, EPOSS, APS, LFS, NBS.
+a _ How data is passed from the counter to archive media.
+a The process for extracting information for Audit Record Queries and the controls in place
+
+to protect and ensure the integrity of that data.
+
+a An analysis of the Audit Record Query, when the Audit Record Query form was received
+and the dates when the audit data extraction took place. This shall be taken from the
+Prosecution Support Database and audit trail file.
+
+a Asummary of the evidence provided for the request
+
+Any Network Banking specific witness statement of fact requirements shall be incorporated as
+agreed by Post Office Ltd. Casework Manager and Post Office account CS Security Manager.
+7.2.4.2 Court attendance in support of Witness Statement of Fact
+
+The author of a witness statement of fact may be required to attend Court in order to bear
+testimony to the facts. A maximum of 100 days has been anticipated for Court attendance.
+Any days over this maximum shall be subject to a Change Request.
+
+7.2.5. Provision of exhibits.
+
+Evidence provided in support of prosecutions will generally compromise of one or more of the
+following:
+
+a CD of transaction data,
+a HSH logs,
+
+a Non-polling reports,
+
+a
+
+fault logs.
+
+7.2.6 Exhibit Labels
+
+All evidence referred to in the witness statement of fact will require an Exhibit Label. This
+allows for the evidence to be clearly identified.
+
+7.2.7 Despatch
+
+Evidence from HSH logs, Non-polling reports, fault and event logs shall be given an exhibit
+number and along with the witness statements of fact, shall be posted to Post Office Ltd.
+Casework Manager by first class post. Appropriate packaging of the statements, reports etc.
+will be used to help protect against damage in transit.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 23 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+7.3 Prosecution Support Resolution Time Scales
+
+Prosecution support is not subject to resolution times but Post Office account shall use
+reasonable endeavours to meet dates notified by Post Office for the production of this
+material.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 24 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+8.0 Additional Prosecution Support
+
+There may be occasions when information is requested which exceeds that provided for as
+part of the standard Prosecution Support Service. This shall be dealt with on a case by case
+basis and in accordance with the Change Control Procedure.
+
+8.1 Audit Record Queries
+
+ARQ retrievals beyond that specified under contract shall be agreed on a case-by-case basis
+and shall be dealt with in accordance with Change Control Procedures.
+
+8.2 Expert Witness Statement
+
+To offer all the available evidence without it being requested would only serve to flood the
+courtroom with documentation. For this reason expert in depth analysis and detailed “expert”
+witness statements (as opposed to witness statements of fact) are rarely required.
+
+It is however conceivable that, given the size and complexity of the Horizon system, the
+integrity of the witness statements of fact may be challenged by Defence Counsel in order to
+discredit a prosecution. In these cases additional, granular detail about the technical working
+and integrity of various systems that constitute the Horizon system may be required if only for
+“unused material”.
+
+Expert witnesses could comprise anyone within Post Office account or its approved
+contractors who could be called upon to provide and testify to this additional evidence.
+
+Expert witnesses could be called upon to provide for example:
+
+a Operational logs and shift hand over documentation to demonstrate consistent operation
+and availability of the service;
+
+a Secure NT, Dynix and SecurID definitions;
+a Details of information flows throughout the system;
+
+a Details of cryptographic key controls and other confidentiality, integrity and availability
+issues;
+
+a Provision of specific Tivoli and other system security event files;
+a Subsequent analysis of this data.
+
+Whilst this type of detail is specifically excluded from the standard evidential requirements
+included at paragraphs 7.2.1 to 7.2.4, Post Office account will endeavour to provide support
+of this granular level of evidence on an agreed case by case basis and shall be dealt with in
+accordance with the Change Control Procedure. The production of this evidence shall not be
+subject to the time-scales at 7.3 but Post Office account shall use reasonable endeavours to
+meet dates notified by Post Office for the production of this material.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 25 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+8.3. Court Attendance in support of Expert Witness Statement
+
+Support provided for attendance at Court in support of expert witness shall also be considered
+on production of an appropriate Change Request. Post Office account’s charges for
+assistance in this respect shall be calculated on the basis of the rates set out in Schedule A12.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 26 of 40
+food NETWORK BANKING MANAGEMENT OF
+FUJITSU PROSECUTION SUPPORT
+FUJITSU SERVICES
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+Ref: NB/PRO/003
+Version: 2.0
+Date: 29/02/2005
+
+9.0 Appendices
+
+Appendix 1 Audit Record Query
+Appendix 2 Witness Statement of Fact
+Appendix 3 Exhibit Labels
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE
+
+Page: 27 of 40
+o
+FUJITSU
+
+FUJITSU SERVICES
+
+NETWORK BANKING MANAGEMENT OF
+PROSECUTION SUPPORT
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+Ref: NB/PRO/003
+Version: 2.0
+Date: 29/02/2005
+
+Appendix 1
+
+AUDIT RECORD QUERY
+
+Originator: | Post Office Ltd
+
+Casework Manager
+The 4" Floor,
+Impact House,
+Edridge Road,
+Croydon CR9 IP.
+
+Date: | dd/mm/ccyy
+
+Telephone: r GRO
+
+Witness Statement
+
+(delete as applicable)
+
+YES/NO
+
+REF NO.
+
+ARQ
+HHHH/OO
+
+Information Requested
+
+Date range:
+
+Post Office
+
+Name and FAD
+
+GENERAL
+DESCRIPTION
+FORMAT
+REQUIREMENTS:
+
+/
+
+Specific Details:
+
+(PAN or equivalent identifier)
+
+Signed
+
+Date | dd/mm/ccyy
+
+62 Fupitse Service
+
+Page. 28 ott
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+Witness Statement
+
+(CJ Act 1967, 9; MC Act 1980, ss 54(3)(a)
+and 5B, MC Rules 1981, r 70)
+
+Statement of
+
+Age if under 18 (If over 18 insert ‘over 18")
+
+This statement (consisting of pages each signed by me) is true to the best of my knowledge and
+belief and | make it knowing that, if it is tendered in evidence, | shall be liable to prosecution if | have
+wilfully stated in it anything which | know to be false or do not believe true.
+
+Dated the day of 20
+
+Signature
+A
+
+I have been employed by Fujitsu Services, Post Office Account, formally ICL Pathway Ltd., for ????
+months as an Information Technology (IT) Security Analyst responsible for audit data extractions and IT
+Security. I have working knowledge of the computer system known as Horizon, which is a computerised.
+accounting system used by Post Office Ltd. I am authorised by Fujitsu Services to undertake extractions
+of audit data held on the Horizon system and to obtain information regarding system transaction
+
+information processed on the Horizon system.
+B
+
+Within each Post Office, there are counter positions which each have a computer terminal, a visual display
+unit and a keyboard and printer. This individual system records all transactions input by the counter clerk
+working at that counter position. Each clerk logs on to the system by using their own unique password.
+The transactions performed by each clerk, and the associated cash and stock level information are
+
+recorded by the computer system in a stock unit. Once logged on, any transactions performed by the clerk
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 29 of 40
+FUJ00152209
+
+FUJ00152209
+co NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+must be recorded and entered on the computer and are accounted for within the user's allocated stock unit.
+Cc
+
+The Horizon system provides a number of daily and weekly records of all transactions input into it. It
+enables Post Office users to obtain computer summaries for individual clients of Post Office Limited e.g.
+National Savings Bank, Girobank, Driving Vehicle Licence Agency and the Department of Working
+Pensions (DWP). The Horizon system also enables the clerk to produce a weekly balance of cash and
+
+stock on hand combined with the other transactions performed in that accounting period.
+D
+
+Where local reports are required these are accessed from an icon on the desktop menu. The user is
+presented with a parameter driven menu, which enables the report to be customised to requirements. The
+report is then populated from transaction data that is held in the local database and is printed out on the
+tally roll printer. The system also allows for information to be transferred to the main accounting
+
+department at Chesterfield in order for the office accounts to be balanced.
+E
+
+The Post Office counter processing functions are provided through a series of counter applications: the
+Order Book Control Service (OBCS) that ascertains the validity of DWP order books before payment is
+made; the Electronic Point of Sale Service (EPOSS) that enables Postmasters to conduct general retail
+trade at the counter and sell products on behalf of their clients; the Automated Payments Service (APS)
+provides support for utility companies and others who provide incremental in-payment mechanisms based
+on the use of cards and other tokens and the Logistics Feeder Service (LFS) which supports the
+management of cash and value stock movements to and from the outlet, principally to minimise cash held
+overnight in outlets. The counter desktop service and the office platform service on which it runs provides.
+various common functions for transaction recording and settlement as well as user access control and
+
+session management.
+F
+
+Information from counter transactions is written into a local database and then replicated automatically to
+databases on all other counters within a Post Office outlet. The information is then forwarded over ISDN
+(or other communication service) to databases on a set of central Correspondence Servers at the Fujitsu
+
+Services data centres. This is undertaken by a messaging transport system within the Transaction
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 30 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES
+(Security Classification) Date: 29/02/2005
+
+Management Service (TMS). Various systems then transfer information to Central Servers that control the
+flow of information to various support services. Details of outlet transactions are normally sent at least
+daily via the system. Details relating to the outlet's stock holding and cash account are sent weekly. Details
+are then forwarded daily via a file transfer service to the Post Office accounting department at Chesterfield
+
+and also, where appropriate, to other Post Office Clients.
+G
+
+An audit of all information handled by the TMS is taken daily by copying all new messages to archive
+media. This creates a record of all original outlet transaction details including its origin - outlet and
+counter, when it happened, who caused it to happen and the outcome. The TMS journal is maintained at
+each of the Fujitsu Services Data Centre sites and is created by securely replicating all transaction records
+that occurred in every Outlet. They therefore provide the ability to compare the audit track record of the
+same transaction recorded in two places to verify that systems were operating correctly. All exceptions are
+
+investigated and reconciled. Records of all transactions are written to audit archive media.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 31 of 40
+FUJ00152209
+
+FUJ00152209
+co NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+The Order Book Control System (OBCS) software, linked to the Horizon system was developed in
+conjunction with the DWP. OBCS provides details of DWP order books on the national stop payment list,
+and, enables data regarding the movement of order books, and, encashments to be captured on their behalf.
+Each Horizon terminal at a Post Office counter has access to the national stop list through OBCS, when a
+barcoded DWP order book is scanned at the Post Office counter, or the order book details are manually
+keyed into Horizon at the Post Office counter. Each night, the national stop payment list is updated from
+information supplied electronically from the DWP computer centre. National stop payment list data is held
+centrally within the Horizon system, and is available to all Post Offices. However, certain information from
+the national stop payment list is also downloaded to individual Post Offices for faster access; this download
+process is called polling. The polling of individual Post Offices also involves receiving details of order
+book movements and encashments at Post Offices, centrally within Horizon, for onward transmission to the
+DWP.
+
+K
+
+I have access to reports that monitor faults, polling failures, equipment failures and calls for advice and
+guidance logged by the Horizon System Helpdesk. During the ??? to ??? , there were ?? calls from name
+& fad code to the Helpdesk. None of these calls relate to faults which would have had an effect on the
+
+integrity of the information held on the system.
+L
+
+When information relating to individual transactions is requested, the data is extracted from the audit
+archive media via the Audit Workstations (AW’s). Information is presented in exactly the same way as the
+data held in the archive although it can be filtered depending upon the type of information requested. The
+integrity of audit data is guaranteed at all times from its origination, storage and retrieval to subsequent
+despatch to the requester. Controls have been established that provide assurances to Post Office Internal
+
+Audit (POIA) that this integrity is maintained.
+During audit data extractions the following controls apply :
+
+1. Extractions can only be made through the AWs, which exist at Fujitsu Services, Forest Road, Feltham,
+Middlesex, Fujitsu Services, Lovelace Lane, Bracknell, Berkshire and the two Fujitsu Services Data
+Centres. These are all subject to rigorous physical security controls appropriate to that location.
+
+Specifically, the Feltham and Bracknell AWs — where most extractions take place — are located in a
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 32 of 40
+FUJ00152209
+
+FUJ00152209
+O NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+secure room subject to proximity pass access within a secured Fujitsu Services site.
+
+2. Logical access to the AW and its functionality is managed in accordance with the Fujitsu Services, Post
+Office Account Security Policy and the principles of ISO 17799. This includes dedicated Logins,
+
+password control and the use of Microsoft Windows NT security features.
+
+3. All extraction’s are logged on the AW and supported by documented Audit Record Queries (ARQ’s),
+
+authorised by nominated persons within Post Office Ltd. This log can be scrutinised on the AW.
+4. Extractions are only made by authorised individuals.
+
+5. Upon receipt of an ARQ from Post Office Ltd they are interpreted by CS Security. The details are
+checked and the printed request filed.
+
+6. The required files are identified and marked using the dedicated audit tools.
+
+7. Checksum seals are calculated for audit data files when they are written to audit archive media and re-
+
+calculated when the files are retrieved.
+
+8. To assure the integrity of the audit data while on the audit archive media the checksum seal for the file
+is re-calculated by the Audit Track Sealer and compared to the original value calculated when the file
+
+was originally written to the audit archive media. The result is maintained in a Check Seal Table.
+9. The specific ARQ details are used to obtain the specific data.
+
+10.The files are copied to the AW where they are checked and converted into the file type required by Post
+Office Ltd.
+
+H-The-requested information is-copied-ont CD -medi Hed-to-p t-modifieati dvi
+hecked-usine the latest-soft It is-then-despatched-to-the Post Office Ltd-C kM,
+s
+Reyal Mail Special Deli Thi that iotd ided-te-Fuijitsu-Servi fi
+P ¥ ptis-pi if
+M
+
+between ?? ?
+in accordance with the requirements of
+produce the resultant CD as Exhibit ???
+
+N
+
+? to?
+
+The report is formatted with the following headings:
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 33 of 40
+FUJ00152209
+
+FUJ00152209
+co NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+FUJITSU SERVICES °
+(Security Classification) Date: 29/02/2005
+
+ID — relates to counter position
+User — Person Logged on to System
+
+SU — Stock Unit
+
+10.0 start. Date — Date of transaction
+
+Start.Time — Time of transaction
+
+SessionId — A unique string relating to current customer session
+TxnlId — A unique string relating to current transaction
+
+Mode — e.g. SC which translates to Serve Customer
+
+ProductNo — Product Item Sold
+
+Qty — Quantity of items sold
+
+SaleValue — Value of items sold
+
+Entry method - Method of data capture for OBCS Transactions (0 = barcode, 1 = manually keyed, 2 =
+
+magnetic card, 3 = smartcard, 4 = smart key)
+
+State — Method of manual keyed Entry Method (4 = encash, 5 = non-barcode)
+
+IOP - Order Book Number
+
+Result — Order Book Transaction Result (1 = OK, 2 = impound, 3 = unreadable, 4 = invalid
+State — Method of manual keyed Entry Method.
+
+IOP - Order Book Number
+
+Result — Order Book Transaction Result
+
+Foreign Indicator — Indicates whether OBCS payment was made at a local or foreign outlet (0- Local, 1-
+
+Foreign). The foreign indicator defaults to a ‘0’ for all manually entered transactions.
+
+The Event report is formatted with the following headings:
+
+Groupid — FAD code
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 34 of 40
+FUJ00152209
+FUJ00152209
+
+oO NETWORK BANKING MANAGEMENT OF Ref: NB/PRO/003
+FUJITSU PROSECUTION SUPPORT Version: 2.0
+
+FUJITSU SERVICES
+(Security Classification) Date: 29/02/2005
+
+ID — relates to counter position
+
+11.0 Date - Date of transaction
+Time — Time of transaction
+User — Person Logged on to System
+SU — Stock Unit
+EPOSSTransaction.T — Event Description
+EPOSSTransaction.Ti — Event Result
+P
+eet
+
+The CD (Exhibit ????) was sent to the Post Office Investigation section by Special Delivery on ?
+
+Q
+
+There is no reason to believe that the information in this statement is inaccurate because of the improper
+use of the computer. To the best of my knowledge and belief at all material times the computer was
+operating properly, or if not, any respect in which it was not operating properly, or was out of operation
+was not such as to effect the information held on it. I hold a responsible position in relation to the working
+
+of the computer.
+
+Any records to which I refer in my statement form part of the records relating to the business of Fujitsu
+Services. These were compiled during the ordinary course of business from information supplied by
+persons who have or may reasonably be supposed to have personal knowledge of the matter dealt with in
+the information supplied, but are unlikely to have any recollection of the information or cannot be traced.
+
+As part of my duties, I have access to these records.
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE Page: 35 of 40
+food NETWORK BANKING MANAGEMENT OF
+FUJITSU PROSECUTION SUPPORT
+FUJITSU SERVICES
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+Ref: NB/PRO/003
+Version: 2.0
+Date: 29/02/2005
+
+NOTE: This side B to be completed only when the original statement is overleaf. When this form is used to make a
+
+copy of a statement side B is to be left blank.
+Forest Road, Feltham, Middlesex TW13 7EJ
+
+Address
+Mobile Tel No: (GRO! Business telephone No:
+Occupation:. Date and place of birth:
+
+Maiden name.:
+
+Identity code:
+
+Dates to be avoided. Delete dates of non availability of witness
+
+September 2004 October 2004 November 2004
+
+December 2004
+
+IM [re [v [me FF Bape
+
+IM [re v [me EF Sse M ew [fH EF SABe M ju Iv [mH F
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE
+
+Page: 36 of 40
+f-2] NETWORK BANKING MANAGEMENT OF
+FUJITSU PROSECUTION SUPPORT
+
+FUJITSU SERVICES
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+Ref: NB/PRO/003
+Version: 2.0
+
+Date: 29/02/2005
+
+IM |TU
+
+Contact point, if different from above: Security Manager, Post Office Account, Fujitsu Services
+
+Address: Forest Road, Feltham, Middlesex TW13 7EJ
+
+Telephone Nor ~
+Mobile No: GRO
+
+STATEMENT TAKEN BY (print name)
+
+Office
+
+Appendix 3 — Exhibit Label
+
+Fujitsu Services
+Identifying Mark: 2.0.0.0... eeeee cece
+Signature of Witness:
+
+Description of Item: .........
+
+Version 2.0 04/02
+
+Fujitsu Services, Registered in England no 96056,
+
+Lab Ref .........eceeeee Exhibit No ..............0005
+
+Registered Office 26, Finsbury Square, London, ECZA TST
+
+© 2002 Fujitsu Services COMMERCIAL IN-CONFIDENCE
+
+Page: 37 of 40
+o
+FUJITSU
+
+FUJITSU SERVICES
+
+NETWORK BANKING MANAGEMENT OF
+PROSECUTION SUPPORT
+
+(Security Classification)
+
+FUJ00152209
+FUJ00152209
+
+Ref: NB/PRO/003
+Version: 2.0
+Date: 29/02/2005
+
+© 2002 Fujitsu Services
+
+COMMERCIAL IN-CONFIDENCE
+
+Page: 38 of 40

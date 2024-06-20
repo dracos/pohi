@@ -1,0 +1,118 @@
+FUJ00122229
+FUJ00122229
+
+Analysis of Zero Value Transactions
+
+Ref: _ d:\profiles\jenkinsgareth\my documents\gij documents\notes\gaerwen.doc
+Author: Gareth I Jenkins
+Date: 30/03/2006 17:42:00
+
+1. Introduction
+
+This note is provided as input to a Witness Statement regarding Gaerwen.
+
+2. What I’ve Done
+
+Penny Thomas provided me with extracts from Audited Data for 3 separate periods.
+
+T have taken this Data and extracted details of all Banking Transactions and analysed
+the zero value transactions. The following table provides a summary of the data that
+has been analysed:
+
+ns
+
+14/09/2005 | 13/10/2005 _| 1166 119
+
+401
+
+459 18/11/2004 | 26/11/2004 | 231 70
+460 19/05/2005 | 27/05/2005 _| 407 47
+Totals 1804 236
+
+I have produced a separate
+
+Transactions.
+
+Each Spreadsheet has the following Columns:
+
+Counter Position that the Transaction took place on
+
+User logged in at that Counter
+
+Transaction Date in GMT
+
+<Time:
+
+Transaction Time in GMT
+
+<SaleValue:_| Amount of the transaction (always zero)
+
+<TranType: _| Transaction Type (see table below for meanings)
+
+<RespCd: _ | Result of the Transaction (see table below for meanings)
+
+The “<TranType:” column indicates the Type of Transaction.
+are used in the 3 spreadsheets with the meanings shown:
+
+01 Balance Enquiry — Mag Stripe
+
+03 Cash Withdrawal — Mag Stripe
+
+04 Cash Withdrawal with Balance — Mag Stripe
+06 Change PIN — Mag Stripe
+
+61 Balance Enquiry — Chip and PIN
+
+62 Cash Deposit — Chip and PIN
+
+63 Cash Withdrawal — Chip and PIN
+
+64 Cash Withdrawal with Balance — Chip and PIN
+65 Cash Withdraw Limit — Chip and PIN
+
+spreadsheet for each of the sets of Zero Value
+
+The following Types
+
+Similarly, the “<RespCd:” column indicates the Response to the transaction. The
+following Types are used in the 3 spreadsheets with the meanings shown:
+
+document32
+
+Printed at | TIME ] on [ DATE \@ "d/M/yyyy" \* MERGEFORMAT | Page 1 of 2
+FUJ00122229
+FUJ00122229
+
+01 Authorised OK
+
+03 Declined - Invalid PIN
+
+04 Declined - Insufficient Funds
+
+06 Declined - Usage Violation (amount)
+
+08 Declined - Other
+
+23 Failed by Fl: Unexpected Resp Code
+
+26 Fail by Fl: System Unavailable - Return Card
+32 Failed by Agent: Fl Timeout
+
+In all cases where the Response was “Authorised OK” (152 transactions), the
+Transaction was either a Balance Enquiry or Change of PIN (Transaction Types 01,
+06 or 61), where no Cash is expected to have changed hands.
+
+Response Codes 03, 04, 06 and 08, indicate that the Financial Institution has decline
+the Transaction, and so no Cash should change hands.
+
+Response Codes 23 and 26 indicate an unusual Response from the Financial
+Institution and again no Cash should change hands.
+
+Finally, Response Code 32 indicates that Horizon’s Central system has received no
+response from the Financial Institution within a timeout period, and so no Cash should
+change hands.
+
+All these are perfectly normal occurrences and should result in clear instructions
+being passed to the Counter Clerk to ensure that no Cash should change hands.
+
+document32 Printed at | TIME ] on [ DATE \@ "d/M/yyyy" \* MERGEFORMAT | Page 2 of 2
