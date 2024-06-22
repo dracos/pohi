@@ -24,13 +24,15 @@ def fetch_hearing_page(item):
     title = title.replace('/', '-') # Can't have a slash in the name
     date = datetime.datetime.strptime(item.time.text, '%d %B %Y').date()  # e.g. 25 November 2022
     filename_out = f'data/{date}-{title}.txt'
+
+    url = urllib.parse.urljoin(BASE, link)
+    META['urls'][str(date)] = url
+
     if os.path.exists(filename_out):
         return
-    url = urllib.parse.urljoin(BASE, link)
+
     r = session.get(url)
     soup = bs4.BeautifulSoup(r.content, "html.parser")
-
-    META['urls'][str(date)] = url
 
     for vid in soup.find_all('iframe'):
         yt_id = re.search('(?:v%3D|youtu.be/)(.*?)(?:&|%26)', vid['src']).group(1)

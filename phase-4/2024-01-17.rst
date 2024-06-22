@@ -1778,7 +1778,7 @@ So, essentially, technical decisions were being taken on what could or could not
 
 **John Simpkins**: We did add new checks -- sorry, we added -- I mean we added information back to Gerald about the new events, yes.
 
-**Mr Beer**: Can we turn, please, to FUJ00228917.  This is an email exchange of a year later.  You'll see that it again involves you.  It's a one-page email exchange.  It's quite difficult to ascertain what's happening, certainly to an outsider, but, if we look at the bottom of the page, please, an email from John Rogers, who is described as the test lead for Horizon Online.  What's "LST"?
+**Mr Beer**: Can we turn, please, to `FUJ00228917 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00228917-email-john-rogers-steve-parker-cc-kevin-miller-john-simpkins-and-mark-wright>`_.  This is an email exchange of a year later.  You'll see that it again involves you.  It's a one-page email exchange.  It's quite difficult to ascertain what's happening, certainly to an outsider, but, if we look at the bottom of the page, please, an email from John Rogers, who is described as the test lead for Horizon Online.  What's "LST"?
 
 .. rst-class:: indented
 
@@ -3368,7 +3368,7 @@ Can you help, please, with what you mean by a "memory leak"?
 
 **Gerald Barnes**: Oh, well, I don't think the figures were that big a memory leak.  So as long as it's small, you can get away with it.  It's only if you have a big memory leak that you have real serious issues.  As long as it's just some small problem, then you can get away with that.
 
-**Ms Price**: Could we have on screen, please, FUJ00154684.  This is a PEAK log relating to a call from the National Business Support Centre on 20 December 2007.  The log reference is PC0152376.  You have dealt with this PEAK at paragraphs 29 to 33 of your first statement.  About halfway down the page, we can see a summary of the issue being raised.  Starting with "Ibrahim":
+**Ms Price**: Could we have on screen, please, `FUJ00154684 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00154684-peak-incident-management-system-log-pc0152376-fad-005948-bm-stock-unit-was>`_.  This is a PEAK log relating to a call from the National Business Support Centre on 20 December 2007.  The log reference is PC0152376.  You have dealt with this PEAK at paragraphs 29 to 33 of your first statement.  About halfway down the page, we can see a summary of the issue being raised.  Starting with "Ibrahim":
 
 "Ibrahim from the NBSC has asked that an issue be investigated by our software team regarding discrepancies still showing when the MIS stock unit is rolled to clear the local suspense account."
 
@@ -3476,7 +3476,7 @@ This is substantially the same point, is it not, as the point which arose in the
 
 **Gerald Barnes**: Yes, that's right, yes.  It's the same sort of thing.
 
-**Ms Price**: It is arising now in 2007, into 2008.  Could we have back on screen, please, FUJ00154684, page 3, please. You proposed a fix to the problem on 2 January 2008, and you explained it in this way, starting 4 paragraphs down in your entry:
+**Ms Price**: It is arising now in 2007, into 2008.  Could we have back on screen, please, `FUJ00154684 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00154684-peak-incident-management-system-log-pc0152376-fad-005948-bm-stock-unit-was>`_, page 3, please. You proposed a fix to the problem on 2 January 2008, and you explained it in this way, starting 4 paragraphs down in your entry:
 
 "For the time being I propose a much cheaper solution than rewriting a lot of EPOSS error handling.
 
@@ -3534,7 +3534,7 @@ Should we take it from this that a decision was made that, despite your recommen
 
 **Gerald Barnes**: That's right.  That is correct.
 
-**Ms Price**: Could we have on screen, please, FUJ00155261.  This is an email chain from September 2008.  The first email in the chain starts on page 2, could we turn to that, please.  Towards the bottom of the page, this is an email from Gareth Jenkins to Roy Birkinshaw, copied to you, Steve Evans, John Burton and Anne Chambers.  It is dated 4 September 2008 and reads as follows:
+**Ms Price**: Could we have on screen, please, `FUJ00155261 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00155261-email-john-budworth-steve-evans-cc-gerald-barnes-adrian-chambers-and-others-re>`_.  This is an email chain from September 2008.  The first email in the chain starts on page 2, could we turn to that, please.  Towards the bottom of the page, this is an email from Gareth Jenkins to Roy Birkinshaw, copied to you, Steve Evans, John Burton and Anne Chambers.  It is dated 4 September 2008 and reads as follows:
 
 "Roy,
 
@@ -3858,7 +3858,7 @@ Is it right that you were not personally involved in responding to ARQs that wer
 
 **Gerald Barnes**: Exactly.  That was the problem, yes.
 
-**Ms Price**: Could we have on screen, please, FUJ00172183.  This is a PEAK with reference PC0200468.  The summary reads:
+**Ms Price**: Could we have on screen, please, `FUJ00172183 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00172183-peak-incident-management-system-pc0200468-horizon-audit-spreadsheet-producing>`_.  This is a PEAK with reference PC0200468.  The summary reads:
 
 "Horizon Audit Spreadsheet Producing Duplicate Transactions."
 
@@ -3938,7 +3938,7 @@ So it seems from this PEAK that, although the issue was being raised in June 201
 
 **Gerald Barnes**: Well, that's certainly when Penny could see it was successfully deployed.  Well, roughly speaking, yes. It's the -- you've got 30 July, John Rogers tested successfully, completed and documented in LST.  Yeah, it takes -- after it gets tested in LST, it doesn't usually take long before it's deployed to live, so from 30 July to 1 September, um, sounds a bit of a long time, but anyway that sort of thing, yes.  That sort of thing.
 
-**Ms Price**: Can we have on screen please FUJ00171848.  The reference on this PEAK is PC0205805.  The summary is:
+**Ms Price**: Can we have on screen please `FUJ00171848 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00171848-peak-incident-management-system-log-pc0205805-re-audit-duplicate-message>`_.  The reference on this PEAK is PC0205805.  The summary is:
 
 "Audit -- Duplicate Message sequences and not recorded by Fast :abbr:`ARQ (Audit Record Query)` retrieval."
 
@@ -4106,7 +4106,7 @@ Was this the entry which led you to believe that the duplicate transactions issu
 
 **Gerald Barnes**: Yes, I think so, I mean, I get a bit confused with the exact timescale but what happens right now is that spreadsheets we send to the -- and that has been for a long time -- is that the spreadsheets we send always have in a summary sheet details of all the duplicates and gaps.  So each spreadsheet we submit has all that information in the spreadsheet.  That's the present and been that way for a while, but getting there has been a slightly not so -- we haven't got there in one go, as it were.  That is the way it's been for a long while.
 
-**Ms Price**: The last entry we looked at in this was on page 4. Apologies, if we can have back on screen, please, FUJ00171848.  Looking at page 4, please.  Going back to Andrew Mansfield's entry dated 24 November 2010, that was the last entry that we looked at.
+**Ms Price**: The last entry we looked at in this was on page 4. Apologies, if we can have back on screen, please, `FUJ00171848 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00171848-peak-incident-management-system-log-pc0205805-re-audit-duplicate-message>`_.  Looking at page 4, please.  Going back to Andrew Mansfield's entry dated 24 November 2010, that was the last entry that we looked at.
 
 Going, please, to the top of the next page to page 5.  There's an entry from you, dated 3 December 2010, saying:
 
@@ -4184,7 +4184,7 @@ Can you help with whether there was a further fix in relation to this issue, in 
 
 **Gerald Barnes**: Well, I assume this is a separate issue.  I assume this is a separate one.
 
-**Ms Price**: In your first statement you addressed a number of other PEAKs which you consider may have had an impact on the audit log.  I don't propose to take you to all of those, but one of these relates to an issue arising in April 2013.  Could we have on screen, please, FUJ00226106. About two-thirds of the way down the page, there's an email from you to CSPOA Security.  Can you just explain please which team that was?
+**Ms Price**: In your first statement you addressed a number of other PEAKs which you consider may have had an impact on the audit log.  I don't propose to take you to all of those, but one of these relates to an issue arising in April 2013.  Could we have on screen, please, `FUJ00226106 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00226106-email-gerald-barnes-andy-dunks-cspoa-security-cc-rajbinder-bains-steve-goddard>`_. About two-thirds of the way down the page, there's an email from you to CSPOA Security.  Can you just explain please which team that was?
 
 .. rst-class:: indented
 
