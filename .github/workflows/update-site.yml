@@ -39,7 +39,6 @@ jobs:
     - name: Scrape transcript data
       run: |
         python scrape-hearings.py
-        python scrape-evidence.py
 
     - name: Parse transcript data
       run: python parse.py
