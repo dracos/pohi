@@ -1,0 +1,627 @@
+WITNO0460100
+WITNO00460100
+
+Witness Name: GARETH IDRIS JENKINS
+Statement No.: WITN00460100
+Dated: 6 FEBRUARY 2023
+
+POST OFFICE HORIZON IT INQUIRY
+
+FIRST WITNESS STATEMENT OF GARETH IDRIS JENKINS
+
+|, Gareth Idris Jenkins, will say as follows:
+
+1. | make this witness statement in response to a request under Rule 9 of the
+Inquiry Rules 2006 regarding Phases 2 and 3 of the Post Office Horizon IT
+Inquiry (“the Inquiry”). Time was extended for my response to this request.
+
+2. | want to make clear (as has previously been stated on my behalf) that | support
+the work of the Inquiry and | wish to assist it. To that end, | asked the Inquiry
+to consider seeking an undertaking so that | could provide the Inquiry with
+evidence whilst at the same time being subject to an ongoing criminal
+investigation. That criminal investigation overlaps, to the best of my
+understanding, with the same issues that this Inquiry is investigating, in
+particular in Phase 4. | understand that the Inquiry is not minded to seek an
+undertaking at the present time, but rather has adopted a ‘wait and see’
+approach.
+
+3. | was made a Core Participant to this Inquiry on 16 November 2002. Since
+then, | understand that my lawyers have been provided with access to the
+evidence which the Inquiry has disclosed to Core Participants. However, | also
+understand that, as matters stand, there is not much evidence that relates to
+
+Phase 4 which has currently been disclosed. | understand that this is because
+
+Page 1 of 15
+WITNO0460100
+WITNO00460100
+
+disclosure is on a rolling basis and that witnesses are not due to be called in
+Phase 4 until later in 2023.
+
+The position that | find myself in is that | am subject to a criminal investigation
+which is continuing. | have attended voluntarily for interviews but | understand
+that | will continue to be asked to do so as the police continue to analyse
+evidence. | do not yet know the totality of the police investigation into my
+conduct, the totality of the allegations that | face or the totality of the evidence
+the police may have gathered. At the same time, | am asked to give evidence
+to the Inquiry but without having seen all of the evidence which the Inquiry
+
+holds (or is seeking) particularly in relation to Phase 4.
+
+The Inquiry asked me a number of questions, many of which contained detailed
+sub-questions. | wish to maintain my reliance upon the privilege against self-
+incrimination in relation to certain of these questions for the time being, but I
+want to make clear my reasons for doing so. As matters stand, my lawyers are
+working their way through the evidence disclosed to Core Participants by the
+Inquiry and will continue to do so. | understand that, at the present time, they
+are unable to advise me fully on the privilege against self-incrimination,
+particularly in relation to Phase 4 because their review is ongoing and because,
+as explained above, the existing evidence disclosed in relation to Phase 4 is
+limited.
+
+| therefore wish to ensure that it is understood (as | also understand my lawyers
+will communicate in correspondence to the Inquiry) that | will continue to keep
+the question of whether | waive my rights under consideration. My lawyers
+have undertaken to the Inquiry to notify it in good time when they are in a
+position to advise me fully. | want to emphasise how seriously | take these
+issues. | am simply asking that | be permitted the opportunity to understand
+better what allegations are made against me or what evidence relates to me
+
+(and how either relates to the criminal investigation | am currently subject to).
+
+| will continue to prepare for the Inquiry so as to ensure that when my lawyers
+
+are in a position to advise me, that it is not a cause for delay.
+
+Page 2 of 15
+10.
+
+11.
+
+WITNO0460100
+WITNO00460100
+
+The Inquiry has also provided me with 93 documents (“the Documents’) to
+inform the basis of my answers and/or invited my comment on them. Many of
+the Documents consist of lengthy and detailed technical data. Whilst this is a
+significant volume of material to consider and comment on, it is only a small
+snapshot of the material which | saw at the time, and which may be relevant to
+
+the Inquiry’s questions.
+
+The events that | am asked to recall occurred between 10 and 20 years ago.
+Many will have assumed a greater importance as time has passed and events
+have unfolded, than they did at the time. My memory of them is far from perfect
+and | am relying to a large degree upon the Documents to assist my recall. |
+am not certain what | knew or understood at particular points in time. This is
+made more difficult without a complete documentary record and because | only
+
+learned of certain events after they happened.
+
+In light of the above, and the fact that the events in question span a period of
+over twenty years, | have approached this statement, as | have been asked,
+by answering the Inquiry’s questions in light of the Documents specifically put
+to me and by relying on my memory of the relevant events. | think it is important
+to be clear that | have written this statement adhering to this approach, as
+requested by the Inquiry. As noted above, my solicitors and | are working
+through the Inquiry’s disclosure to all Core Participants and if there is evidence
+which touches upon my answers set out below, | will draw that to the Inquiry’s
+attention.
+
+| have sought, where possible, to indicate when my knowledge or recollection
+is not contemporaneous but is based on subsequent events or what | have
+learned after those events. Where it is possible to do so, | have indicated what
+other material would assist me in recalling what the position was at a given
+time. Again, if there is further material that supplements or changes my
+understanding of the events, or my recollection of them, | may wish or need to
+
+supplement or amend what | have said in this witness statement.
+
+Page 3 of 15
+WITNO0460100
+WITNO00460100
+
+Relevant background
+
+12. | graduated with a degree in Mathematics from the University of Cambridge in
+1973 and started work for International Computers Ltd (“ICL”) in September of
+that year. | continued working for ICL, which became Fujitsu Services Ltd
+(‘Fujitsu’) in 2002, until | retired in 2015. From my retirement until August
+2022, | was on a retainer with Fujitsu to provide ad hoc consultancy services.
+Throughout all of this time, | worked on the design and development of
+
+computer software.
+
+13. ICL introduced a Distinguished Engineer scheme in the 1980s. | became a
+Distinguished Engineer at some point in the mid-1990s, at which point | believe
+there were approximately 100 employees who held that title. | believe it was a
+purely honorific title designed to recognise the key technicians within the
+company. Of the Distinguished Engineers employed by ICL/Fujitsu, | believe
+that at least six worked on Horizon at any one time.
+
+14. The Inquiry has asked me to provide an overview of my involvement with the
+design, testing, implementation and operation of the Horizon IT system.
+Horizon was a bespoke product designed by ICL/Fujitsu specifically for Post
+Office Ltd ("POL”). It was a huge, multi-layered processing system that acted
+as a conduit for data between POL branch counters (which initially relied on
+software called ‘Riposte’) and the various back office functions and third party
+agencies (which relied on software based on ‘Oracle’).
+
+15. There were two main versions of Horizon. The original version, now called
+Legacy Horizon, was first piloted in 1996 and installed throughout POL
+branches between 1999 and 2002. The replacement version, Horizon Online
+(also referred to as HNG-X), was piloted in early 2010 and installed throughout
+POL branches during the middle of 2010. Legacy Horizon and Horizon Online
+
+were completely different systems as far as POL’s branches were concerned.
+
+16. | hope it is helpful if | clarify that, as far as | can recall, during my employment
+
+by ICL/Fujitsu, there were six main departments within the POL account:
+
+Page 4 of 15
+17.
+
+18.
+
+WITNO0460100
+WITNO00460100
+
+customer services, requirements, development, testing, program office and
+sales & commercial (this later became five teams when requirements merged
+with development). From around 1996 to around 2000, | was part of the agent
+team, which sat within the development department, along with other teams
+including architecture & design, host, counter, security and systems
+management. In around 2000, | moved to the architecture & design team within
+the development department, until its later merger with the requirements
+department, where | remained until | retired in 2015. Throughout all of this time,
+my involvement in relation to both Legacy Horizon and Horizon Online was
+
+technical and not managerial or supervisory in nature.
+
+| never held or exercised line management responsibilities for other Fujitsu
+staff, whether within or outside the teams in which | worked. Within the POL
+account team in ICL/Fujitsu — which comprised hundreds of staff working on
+the many facets of the Horizon systems — | was never in a leadership role either
+managerially or technically. Throughout this time, there would always have
+been one or two people senior to me on the technical side (the Chief Architect
+and sometimes a Team Leader below them and above me). | recall that Dave
+Hollingsworth was the original Chief Architect, succeeded by Alan Ward, then
+Dick Long (although | think he had a different title), then Tony Drahota. After
+Tony Drahota left in around 2005, he was replaced by other Chief Architects
+whose main focus was on Horizon Online. | recall someone named Giacomo
+being in charge, but cannot remember his surname. From the early days of
+Legacy Horizon until shortly after the rollout of Horizon Online, | was one of a
+team of 10-20 architects working on the project, each with a specific focus on
+a particular component or process. This number reduced to three or four by
+the time | left. On the management side, | recall there were two or three
+
+gradually increasing levels of seniority between the Account Manager and me.
+
+| started work on Legacy Horizon in 1996. My initial role was to try to integrate
+Riposte and the Oracle-based software. | formed a team that developed an
+“agent layer” that would allow these two types of software to communicate with
+each other. | continued as both the chief designer of this agent layer and as
+
+one of the technical interfaces to Escher (the designers of Riposte) until around
+
+Page 5 of 15
+19.
+
+20.
+
+21.
+
+22.
+
+WITNO0460100
+WITNO00460100
+
+2002. During this time, extensive testing of Legacy Horizon took place. |
+supported ICL/Fujitsu’s testing teams and assisted in identifying and resolving
+
+technical problems that they found.
+
+Between about 2000 and 2002, | was involved — with teams of individuals at
+Fujitsu, POL and IBM — in specifying the interface between Riposte and the
+online banking engine provided by IBM, as well as enhancing the agent layer
+so that it could handle banking transactions. Shortly after the introduction of
+network banking (which went live around 2003), | performed a similar role to
+enable Legacy Horizon to interface to Streamline, the merchant acquirer that
+POL chose to support payments by debit card.
+
+Once these major systems went live, | moved away from the agent team and
+took on the role of defining the technical changes required by Project Impact,
+which was the name POL gave to the programme to replace their back-end
+accounting system. After Project Impact went live in around 2005, | worked on
+smaller changes to Legacy Horizon such as the implementation of bureau de
+change and the acceptance of credit cards.
+
+In about 2008, | commenced work with POL analysts in defining the technical
+requirements for Horizon Online. Horizon Online retained many of the back-
+end systems and interfaces from Legacy Horizon, but was otherwise an
+entirely new counter system, e.g. it removed all use of Riposte. | supported
+POL’s requirements team in specifying “use cases” for the counter functionality
+(i.e. distinct functions that the software was required to perform, such as selling
+a stamp or making a withdrawal from a bank account), and then worked with
+the Fujitsu counter development team in implementing those use cases and
+
+testing Horizon Online.
+
+A further element to my role at this time was assisting in producing the
+mechanism by which a counter would transition from Legacy Horizon at the
+end of one business day to running Horizon Online the next. Once migration
+from Legacy Horizon to Horizon Online was well under way, | worked with POL
+
+on developing further enhancements to Horizon Online to support POL’s
+
+Page 6 of 15
+23.
+
+24.
+
+25.
+
+WITNO0460100
+WITNO00460100
+
+business requirements. | continued working on these matters until my
+
+retirement in 2015.
+
+| was one of a group of anywhere between around 20 and 100 software
+designers and developers who would provide “fourth line” support for Legacy
+Horizon and Horizon Online, alongside their day-to-day roles developing new
+functionality. The first line of support comprised two helpdesks. SPMs could
+phone a helpdesk at POL for any business related issues, whereas for
+technical issues, they could phone a helpdesk at ICL/Fujitsu. The second line
+of support was an ICL/Fujitsu data centre (the Systems Management Centre,
+“SMC”) that received automatically generated reports concerning significant
+technical events affecting Horizon, e.g. server failure. The third line of support
+was the ICL/Fujitsu System Support Centre (“SSC”), which resolved
+operational problems and investigated potential software faults. If the SSC
+concluded that the problem was one that they could not resolve or it required
+a code fix, only then would they escalate it to fourth line support, which is where
+| worked.
+
+The first three lines of support were staffed by dedicated employees whose
+sole role was to provide the relevant level of support. Fourth line support was
+different; for the software designers and developers who provided support at
+this level, this was only a small adjunct to their main day-to-day roles in
+producing new functionality for Legacy Horizon or Horizon Online. | estimate
+that my responsibilities in fourth line support comprised no more than 10% of
+
+my overall workload, although this varied over time.
+
+As ageneral principle, at the time, | would only have been aware of those bugs,
+errors and defects specifically allocated to me by third line support, or where |
+was asked to route the issue to the correct person in fourth line support, or
+where | was asked for specific input on the problem because of my particular
+expertise. Over time, | was gradually allocated more bugs, errors and defects
+in my role in fourth line support. However, as noted above, there were about
+20 to 100 software designers and developers working in fourth line support at
+
+any one time; all of them were allocated bugs, errors and defects depending
+
+Page 7 of 15
+26.
+
+27.
+
+28.
+
+29.
+
+WITNO0460100
+WITNO00460100
+
+on their own experience with, and technical knowledge of, the component parts
+of the Horizon system architecture. The software designers and developers in
+fourth line support did not check or quality assure each other's work. | would
+not have been aware of many of the problems referred to, and addressed by,
+
+fourth line support.
+
+In my role in fourth line support, my main functions (which varied in their
+intensity over time) were as follows. First, when third line support allocated a
+bug, error or defect to me, it appeared in ICL/Fujitsu’s systems as a so-called
+PEAK (or before that as a so-called “PinICL”), which was a computerised report
+that allowed ICL/Fujitsu to review and track progress on fixing the problem. |
+was responsible for addressing and closing the PEAKs allocated to me (unless
+| re-allocated them to someone else). Secondly, on occasions, | assisted
+ICL/Fujitsu’s Release Management Forum in explaining the nature and impact
+of certain bugs, errors and defects, as well as the corresponding fixes. Thirdly,
+when asked to, | joined conference calls with POL where | explained to them
+the nature and impact of certain bugs, errors and defects, as well as the
+corresponding fixes. | address these matters in more detail below.
+
+This fourth line support infrastructure existed throughout my time working on
+Legacy Horizon and Horizon Online, both in their testing and operational
+phases. PiniCLs and PEAKs were generated and allocated to specific fourth
+line software engineers to investigate and address. Pin|CLs and PEAKs
+generated during the testing phases were retained on the system once Legacy
+Horizon and Horizon Online went live. | understand that there was an archiving
+
+process for PinICLs and PEAKs but | was not involved in this process.
+
+For the purposes of this statement, | thought it would assist if | addressed the
+evidence given to the Inquiry in writing and orally by David McDonnell that
+relates to me. | do not have a clear recollection of Mr McDonnell but | was able
+
+to watch his evidence and he looked familiar.
+
+He is in error, in his witness statement, when he attributes to me the role of
+Chief Architect. At the time he describes (around 1998), the Chief Architect
+
+Page 8 of 15
+WITNO0460100
+WITNO00460100
+
+was Alan Ward. As stated above, | have never been a chief architect in relation
+
+to Horizon.
+
+30. It is also important that | make clear that, during the period he refers to, | did
+not have a direct role in relation to EPOSS. In his oral evidence, Mr McDonnell
+stated that in 1998 my responsibility was specifically for the EPOSS counter
+system. This is not correct. | had no responsibility for the EPOSS counter
+system (| was just responsible for the Agents). | do not recall that | had anything
+to do with EPOSS at that time. | had no responsibility for any concerns arising
+about EPOSS nor for responding to such concerns. | do not recall knowing
+anything about the formal concerns Mr McDonnell states were raised in
+
+relation to it.
+
+31. In his oral evidence, Mr McDonnell expressed surprise that | was based at
+Bracknell. | assume that this is because he is under a misapprehension as to
+my role. | was based at Bracknell because that is where the Agent team was
+based. However, | probably visited Feltham a couple of times each week to
+meet with other senior designers.
+
+RMF
+
+32. RMF stands for Release Management Forum. | never held any formal position
+on the RMF and was not a regular attendee. However, | probably received
+emails about which issues they were discussing and outputs from the
+meetings. | do not know the period during which it operated. My understanding
+is that the RMF was an ICL/Fujitsu management forum that examined the
+severity of bugs, errors and defects within Legacy Horizon and Horizon Online,
+defined the work involved in producing fixes, and scheduled the release of fixes
+for those bugs, errors and defects (together with any new functionality) at
+regular intervals. | attended the RMF occasionally — either when | wanted to
+argue for a particular bug fix to be given a high priority in the scheduling of
+fixes being released, or alternatively when | was asked to attend by a member
+of the RMF in order to provide technical explanations of bugs, errors and
+
+defects, or to make recommendations as to the prioritisation of certain fixes.
+
+Page 9 of 15
+WITNO0460100
+WITNO00460100
+
+Relationship between the Post Office and Fujitsu
+
+33. As explained above, | believe that my involvement with POL technical staff
+commenced in around 2000. | always felt that our relationship was positive and
+productive. We worked collaboratively as a team without much regard to the
+distinction between “POL” and “Fujitsu.” Information was shared between us
+as and when needed to resolve any particular issue we were working on
+together. If there were any political difficulties at more senior levels in the
+relationship between Fujitsu and POL, | had no direct knowledge of them and
+
+they did not seem to affect us.
+
+34. | believe that my involvement with POL business staff commenced with Project
+Impact in around 2002. Project Impact began with a number of “requirements
+workshops”, which POL organised in order to define the specifications of the
+changes that they wished to implement. | explain my involvement in Project
+Impact in further detail below.
+
+35. As explained above, | also worked with POL technical and business staff during
+the design, testing and implementation of Horizon Online.
+
+36. Alongside these development roles, | had a support role which | believe | took
+on once Project Impact went live in around 2005; this involved my talking to
+POL occasionally about the nature and impact of certain bugs, errors and
+
+defects, as well as the corresponding fixes.
+
+37. The Inquiry is also aware that | had contact with individuals in POL in relation
+to prosecutions brought by POL. | have assumed that | am not being asked in
+
+this statement to explain this role given that it will be explored in phase 4 of the
+
+Inquiry.
+
+38. My experience was that ICL/Fujitsu and POL (at least at the level | was working
+
+at) seemed to have a good and professional working relationship.
+
+Page 10 of 15
+WITNO0460100
+WITNO00460100
+
+39. The Inquiry has asked me to describe the processes by which any “issues”
+were raised and shared between the teams, either by POL or ICL/Fujitsu. | am
+not entirely clear what is meant by “issues” in this context given the potential
+scope of that term and in the context of a very longstanding commercial and
+technical relationship. If the question is intended to be specific to how
+ICL/Fujitsu shared with POL information about bugs, errors and defects within
+Legacy Horizon or Horizon Online, my understanding is that the ICL/Fujitsu
+customer services team — in particular the so-called “problem managers’ within
+this team — handled these matters. They would be alerted to problems by the
+SSC or (for operational issues) by the Ops team in Belfast. | was never a part
+of the customer service team. | had no understanding of their interfacing
+processes. | was one of a number of sources occasionally called upon to assist
+when the customer services team wanted technical explanations of the bugs,
+errors and defects, or where it wanted a software engineer to talk to POL about
+these bugs, errors and defects, and the corresponding fixes. However, | would
+not do any of these things of my own initiative. | would only talk to POL about
+these issues if ICL/Fujitsu’s customer services team specifically asked me to
+do so, or if POL contacted me directly. My understanding is that |CL/Fujitsu’s
+customer services team and POL also asked other software engineers to
+speak to POL about issues on which they had particular expertise.
+
+40. My understanding is that POL had to sign off each new release of fixes and
+functionality for Legacy Horizon or Horizon Online. These releases occurred at
+regular intervals. If that understanding is correct, POL would have received
+details about the bugs, errors and defects that ICL/Fujitsu had identified and
+fixed.
+
+The IMPACT Programme
+
+41. The Inquiry has asked me to describe the background to the IMPACT
+programme, including its main business objectives. | do not recall the exact
+date when the changes proposed by Project Impact were first raised. However,
+my understanding is that it was an initiative generated by POL in around 2002.
+
+As far as | remember, the main business objective was to replace POL’s back-
+
+Page 11 of 15
+42.
+
+43.
+
+44.
+
+WITNO0460100
+WITNO00460100
+
+end accounting system. | understood that this would have the effect of reducing
+POL’s staff costs.
+
+| do not know precisely how POL created the concepts and designs for Project
+Impact. | probably contributed some technical ideas that | thought would assist
+in implementing POL’s objectives, but | was not involved in taking the final
+decisions about these concepts and designs. POL had a team that analysed
+the business and held a number of “requirements workshops” to define the
+specifications of the changes that they wished to implement. In order to
+understand what POL wanted and what the technical feasibility of
+implementing those changes was, | attended many of these workshops. Those
+workshops led to POL inviting bids from various suppliers for different parts of
+the project. | understood that Fujitsu bid for all parts of the project, but the only
+work it actually received concerned changes to Legacy Horizon that would
+
+enable it to interface with the new back-end system.
+
+The Inquiry has asked me to explain the process that led to the decision to
+remove the ability of branch staff to post discrepancies to a suspense account
+and then roll into a new trading period. | believe that POL took this decision. |
+do not know who within POL was involved in the decision-making process or
+what factors they took into consideration. | do not know what tests POL carried
+out to determine the business effect of implementing this change. The
+relationship was not such that | could submit or dictate to POL what changes
+in functionality should be made; that was a business decision for POL to make.
+Rather, it was my job to understand what POL, as the customer, wanted and
+
+to work out how to achieve those objectives on a technical level.
+
+The Inquiry has asked me whether there were any technical reasons relating
+to the changes to POL’s back-end systems that prevented branch staff from
+posting discrepancies to a suspense account and then rolling into a new
+trading period. | do not recall any. POL took what | assume was a business
+decision that this practice should be stopped.
+
+Page 12 of 15
+WITNO0460100
+WITNO00460100
+
+45. As explained above, | believe that ICL/Fujitsu was only involved in one aspect
+of Project Impact, which was implementing changes to Legacy Horizon that
+would enable it to interface with the new back-end system. This was
+implemented in two phases as part of the S60 release in 2004 and the S80
+release in 2005. My involvement was to design the changes which POL
+
+wanted.
+
+46. | remember that these phases of the work required a major re-engineering of
+the accounting processes in each POL branch, e.g. removing the cash account
+
+and introducing the branch trading statement.
+
+PEAKs and PinlCLs
+
+47. The Inquiry has asked me whether the PEAK and PinlCL systems as designed
+were effective. In my opinion, they were effective, because they allowed
+ICL/Fujitsu to understand, prioritise, monitor and remedy bugs, errors and
+defects in a timely fashion. However, it is difficult to state definitively that a
+system is “effective” when that system necessarily relies on humans inputting
+and processing the information in it. Used properly, | believed that it was a
+good tool, but only as good as the users handling it. | cannot account for the
+effectiveness of every PinICL and PEAK. | should also point out that | cannot
+compare it to any other system because | have not worked with any other
+system over the past 25 years. | have no point of comparison to offer the
+
+Inquiry.
+
+48. The Inquiry has asked me what pressures there were to resolve or close
+issues, or attribute them to user error. | recall that there were periods where
+ICL/Fujitsu management would consider the statistics on open PinICLs and
+PEAKs, and would encourage us to spend more time investigating and closing
+those that could be closed. However, as far as | am aware, we only closed
+PEAKs if satisfied that we had investigated the problem. | do not recall any
+examples where | was involved in closing PEAKs without investigation and
+
+simply attributing the underlying problem to user error.
+
+Page 13 of 15
+WITNO0460100
+WITNO00460100
+
+Reflections
+
+49. The Inquiry has asked me whether | think | could have done anything differently,
+and whether Fujitsu or POL could have done anything differently. In the context
+of the questions | have addressed in this statement, | cannot think of anything
+that | could have done differently, but | am happy to respond to specific
+
+suggestions.
+
+50. Again, in the context of the questions | have addressed in this statement, |
+cannot think what Fujitsu could have done differently, but | am happy to respond
+
+to specific suggestions.
+
+51. In relation to what POL could have done differently, it is difficult for me to
+comment because | have little direct knowledge of exactly what they did and
+why. However, my impression is that POL did not provide enough support to
+SPMs when they were struggling to use Legacy Horizon and Horizon Online.
+Instead of investigating the issues that the SPMs reported (and trying to assist
+them), my impression is that POL blamed them instead.
+
+52. The Inquiry has asked me who was to blame for the problems that have arisen
+from the Horizon IT project. Again, it is difficult for me to comment because | do
+not have the full picture in front of me and | am not sure that there is an easy
+answer to this question. The demands on the Legacy Horizon and Horizon
+Online systems (in terms of what they had to deliver) were substantial. Their
+scale was significant. They were not perfect computer systems. No computer
+system is perfect. However, | believed at the time — and | still believe now — that
+
+ICL/Fujitsu did a good job in investigating and fixing bugs, errors and defects.
+
+53. Finally, the Inquiry has asked me whether there is anything | would wish to add
+to assist the Chair. In the context of this witness statement and the questions
+which | have answered, | do not think that there is more that | can say which
+
+would be of assistance. | would like to say however that | was shocked to read
+
+Page 14 of 15
+WITNO0460100
+WITNO00460100
+
+the judgments that quashed the wrongful convictions of the SPMs. As | have
+stated at the outset of this statement, at this time, and pending the ability of my
+lawyers to advise me, | will revisit the question of whether | will rely upon the
+privilege against self-incrimination related to those matters connected to POL’s
+prosecution of SPMs.
+
+Statement of Truth
+
+| believe the content of this statement to be true.
+
+s | GRO
+
+Dated: 06/02/2023
+
+Page 15 of 15
