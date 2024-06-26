@@ -1,0 +1,1881 @@
+FUJ00152573
+
+FUJ00152573
+
+= ‘Ww
+
+7 Dec 05
+Re: Letter from Bond Pearce Solicitors Dated 18 Nov 05 PO Vs Mr Castleton
+
+In response to your email request dated 28 Nov 05 concerning the questions raised at para (3)
+of the above document;
+
+QI. We need to explain to a Judge who will know nothing about Horizon exactly how it
+works, what precisely happens when a customer goes into a Post Office to buy an item? How
+is this recorded? Is it manually recorded into the Horizon system at the same time or later in
+the day? Is the cash register linked to Honzon?
+
+This should be directed to the POL IT probably Bob Booth
+
+Q2. Precisely what steps Fujitsu took to examine the Horizon system at the Marine Drive
+Post Office in 2004 and what their conclusions were.
+Ann Chambers response: attached.
+
+Q3. Whether there have been any similar or serious problems with the Horizon system at the
+Marine Drive Post Office since Mr Castleton's suspension and dismissal.
+No comment however Steve Holbert should be able to assist here
+
+Q4. Whether you believe that the suggestion put forward by Mr Castleton's experts is likely
+to be correct and your reasons, either way (if you are able to comment on this).
+No comment.
+
+QS. If there have been human errors in recording the transactions, could an explanation be
+that:
+(a) There was nothing wrong with Horizon, because it simply reflected the
+information entered 6n to it; but
+(b) If staff entered the wrong numbers into Horizon there may have been no
+real loss (even though Horizon would show a loss), because there could be a
+human error in accurately recording transactions.
+If so, would that be a likely explanation?
+
+Gareth Jenkins response :attached.
+Q6. Any other Information, that you believe may be relevant.
+No comment
+
+Kind Regds
+
+Brian Pinder
+Security Manager PO Account
+FUJITSU Services i. 5
+
+FUJ00152573
+FUJ00152573
+
+Details of investigation by Ann Chambers
+
+I looked at the reconciliation reports for any entries for this outlet for two weeks preceding
+the date of the query (25/2/2005). There were none. This indicates that:
+
+e the transactions completed on the Horizon system were correctly formed and written
+
+e the value and quantity of transactions completed on the Horizon system at the outlet
+matched the value and quantity of transactions copied to the Horizon central systems
+
+e the Cash Account produced at the outlet at the end of each week included all transactions
+completed on the Horizon system at the outlet
+
+e the payments and receipts balanced on the Cash Account
+
+I examined the messagestore - this holds, amongst other things, all transactions completed on
+the Horizon system, also the stock, stamp and cash declarations entered by the clerk.
+
+Firstly I checked the cheques recorded on the system during the week, to make sure that they
+had been removed correctly from the system via the Remit Out process. There had been one
+error in process on 10th Feb when the clerk forgot to cut off the report, but this didn't cause a
+discrepancy.
+
+Then IJ added up all cash components of transactions for an accounting week plus the cash
+brought forward, and found that the difference between this system total, and the end of week
+Cash Declaration, matched the discrepancy generated when the stock unit was balanced.
+
+I then.repeated the process on a daily basis, comparing the system totals with the overnight
+cash holding declarations, to see if I could identify a particular day when the discrepancy had
+occurred. I found that there were varying and large differences between the system totals and
+the declared amounts each day, and it was not possible to pin down the discrepancy to a
+particular day.
+
+Anne Chambers
+FUJ00152573
+
+FUJ00152573
+
+Comments from Gareth Jenkins:
+
+If there have been human errors in recording the transactions, could an explanation be
+that:
+
+(a) There was nothing wrong with Horizon, because it simply reflected the
+information entered on to it; but
+
+This is certainly True (ie Horizon simply reflects the information entered into it).
+
+(b) If staff entered the wrong numbers into Horizon there may have
+been no real loss (even though Horizon would show a loss), because
+there could be a human error in accurately recording transactions.
+
+Again, this could be True. However if there is some sort of miss-entering of data into
+Horizon, then there would be another corresponding error which should be picked up eg as a
+Stock Error or some AP Client being credited with an incorrect amount. Also, any such error
+should show up as part of the Balancing Process.
+
+If so, would that be a likely explanation?
+Not able to comment on this.
+
+Gareth Jenkins
+Distinguished Engineer
+Applications TDA
+
+Post Office Account
+FUJ00152573
+
+FUJ00152573
+
+Graham
+
+7 Dec 05
+
+Re: Letter from Bond Pearce Solicitors Dated 18 Nov 05 PO Vs Mr Castleton
+
+In response to your email request dated 28 Nov 05 concerning the questions raised at para (3)
+of the above document;
+
+QI. We need to explain to a Judge who will know nothing about Horizon exactly how it
+works, what precisely happens when a customer goes into.a Post Office to buy an item? How
+is this recorded? Is it manually recorded into the Horizon system at the same time or later in
+the day? Is the cash register linked to Honzon?
+
+This should be directed to the POL IT probably Bob Booth
+
+Q2. Precisely what steps Fujitsu took to examine the Horizon system at'the Marine Drive
+Post Office in 2004 and what their conclusions were.
+Ann Chambers response: attached.
+
+Q3. Whether there have been any similar or serious problems with the Horizon system at the
+Marine Drive Post Office since Mr Castleton’s suspension and dismissal.
+No comment however Steve Holbert should be able to assist here
+
+Q4. Whether you believe that the suggestion put forward by Mr Castleton’s experts is likely
+to be correct and your reasons, either way (if you are able to comment on this).
+No comment.
+
+QS. If there have been human errors in recording the transactions, could an explanation be
+that:
+(a) There was nothing wrong with Horizon, because it simply reflected the
+information entered on to it; but
+(b) If staff entered the wrong numbers into Horizon there may have been no
+real loss (even though Horizon would show a loss), because there could be a
+human error in accurately recording transactions.
+Tf so, would that be a likely explanation?
+
+Gareth Jenkins response :attached.
+
+Q6. Any other Information that you believe may be relevant.
+No comment .
+T hope this is helpful
+
+Kind Regds
+
+Brian Pinder
+Security Manager PO Account
+FUJ00152573
+FUJ00152573
+
+Details of investigation by Ann Chambers
+
+I looked at the reconciliation reports for any entries for this outlet for two weeks preceding
+the date of the query (25/2/2005). There were none. This indicates that:
+
+e the transactions completed on the Horizon system were correctly formed and written
+
+e the value and quantity of transactions completed on the Horizon system at the outlet
+matched the value and quantity of transactions copied to the Horizon central systems
+
+e the Cash Account produced at the outlet at the end of each week included all transactions
+completed on the Horizon system at the outlet
+
+e the payments and receipts balanced on the Cash Account
+
+Texamined the messagestore - this holds, amongst other things, all transactions completed on
+the Horizon system, also the stock, stamp and cash declarations entered by the clerk.
+
+Firstly I checked the cheques recorded on the system during the week, to make sure that they
+had been removed correctly from the system via the Remit Out process. There had been one
+error in process on 10th Feb when the clerk forgot to cut off the report, but this didn’t cause a
+discrepancy.
+
+Then I added up all cash components of transactions for an accounting week plus the cash
+brought forward, and found that the difference between this system total, and the end of week
+Cash Declaration, matched the discrepancy generated when the stock unit was balanced.
+
+I then repeated the process on a daily basis, comparing the system totals with the overnight
+cash holding declarations, to see if I could identify a particular day when the discrepancy had
+occurred. I found that there were varying and large differences between the system totals and
+the declared amounts each day, and it was not possible to pin down the discrepancy to a
+particular day.
+
+Anne
+FUJ00152573
+FUJ00152573
+
+Comments from Gareth Jenki
+
+If there have been human errors in recording the transactions, could an explanation be
+that:
+
+(a) There was nothing wrong with Horizon, because it simply reflected the
+information entered on to.it; but
+
+This is certainly True (ie Horizon simply reflects the information entered into it).
+
+(b) If staff entered the wrong numbers into Horizon there may have
+been no real loss (even though Horizon would show a loss), because
+there could be a human error in accurately recording transactions.
+
+Again, this could be True. However if there is some sort of miss-entering of data into
+Horizon, then there would be another corresponding error which should be picked up eg as a
+Stock Error or some AP Client being credited with an incorrect amount. Also, any such error
+should show up as part of the Balancing Process.
+
+If so, would that be a likely explanation?
+Not able to comment on this.
+
+Gareth Jenkins
+Distinguished Engineer
+Applications TDA
+
+Post Office Account
+29 Nov 05
+David
+
+Ref A: Letter from Bond Pearce Solicitors Dated 18 Nov 05 PO Vs Mr Castleton
+Ref B: Email ref two cases; Marine Drive and Torquay Road. ARQ Ref No 405 & 421 - 423
+
+I have received a copy of a letter regarding Marine Drive, from Bond Pearce
+Solicitors Ref A refers, which concerns the loss of some £27,115.83 from Marine
+Drive sub PO between 18 July 03 and 25 Mar 04 of which Mr Castleton was the Sub
+Postmaster. Mr Castleton was suspended 23 Mar 04 and dismissed 17 May 04. The
+PO have now issued a claim against him to recover these losses and he in turn has
+issued a counter claim stating that any shortfall is entirely the fault of problems with
+the Horizon computer and accounting system at the Marine Drive Post Office.
+
+The process for the security team in dealing with all routine PO Investigations is
+always initiated by an ARQ issued by Graham Ward from the PO Fraud
+Investigations team. Both these cases were initiated within the last two months by an
+ARQ from Graham and the details were forwarded to him on CD. After an initial
+discussion with Graham on this matter he acknowledged the request and has asked us
+(FJ) to formally respond through him to the solicitors concerned Ref B refers.
+
+The letter (ref A) is directed at FUJITSU requesting answers to 6 questions which are
+fundamentally outside of the scope of the POA Security Team and also outside the.
+scope of the ARQ process. It is clear that some investigatory work has already been
+undertaken by FUJITSU dated 5 May 04 by Julie Welsh (SDM) of which all parties
+seem aware and for this reason I would recommend caution before any comment is
+made without reference to any previous report and would also recommend that this
+letter is re-directed through our Legal and Commercial team at the earliest opportunity
+for guidance and-way forward. I am still awaiting requirements re Torquay Road
+from Graham Ward.
+
+Brian
+
+Microsoft Word
+Document
+
+FUJ00152573
+FUJ00152573
+AUDIT RECORD QUERY
+
+REQUIREMENTS:
+
+Originator: | Graham Ward Date: | 04/11/05
+Post Office Ltd Security +
+Casework Manager
+PO Box 1
+CROYDON
+CR9 1WN
+Telephone:
+Witness NO REFNO. | ARQ
+Statement (delete 0506/4211 -
+as applicable) 423
+Information Requested
+Date range: 01/01/04 — 31/03/04 Post Office | Marine Drive
+213337
+GENERAL
+DESCRIPTION A report of all transactions and events for the office for the
+FORMAT . relevant days (See attached list), including remittances
+
+received, transfers between stock units and error notices.
+
+We would like the following format for logs (in Excel format
+with each category in a separate column):
+
+Balancing Period; Cash Accounting Period;
+
+Session Type - i.e. Serve Customer, Reversal. Rem In etc
+Transaction No; Session Indicator; Date; Time; Stock; User
+ID; Transaction Type; Amount £p
+
+2 columns specifying whether an OBCS (& state) of scan
+accompanied the transaction
+
+(Session Indicator is whatever way the system has of
+indicating that individual transactions are linked)
+
+Specific Details:
+
+(PAN or equivalent identifier)
+
+Signed
+
+Date | 04/11/05
+
+Graham Ward
+
+FUJ00152573
+FUJ00152573
+AUDIT RECORD QUERY
+
+Originator: | Graham Ward Date: | 26/10/05
+Post Office Ltd Security
+Casework Manager
+PO Box 1
+CROYDON
+CR9 1WN
+Telephone: |) GRO
+Witness NO REFNO. | ARQ
+Statement (delete 0506/405
+as applicable)
+Information Requested
+Date range: 1 Jan 2004 — 31 March Post Office | Marine Drive
+2004 inclusive 213337
+GENERAL Please also conduct an analysis of all Helpdesk calls for the
+DESCRIPTION above period, commenting on any calls that may indicate
+FORMAT faults / problems with the system
+REQUIREMENTS:
+
+Please also supply a report of all transactions and events for
+the office for the relevant days, including remittances
+received, transfers between stock units and error notices.
+
+We would like the following format for logs (in Excel format
+with each category in a separate column):
+
+Balancing Period; Cash Accounting Period;
+
+Session Type - i.e. Serve Customer, Reversal. Rem In etc
+Transaction No; Session Indicator; Date; Time; Stock; User
+ID; Transaction Type; Amount £p
+
+2 columns specifying whether an OBCS (& state) of scan
+accompanied the transaction
+
+(Session Indicator is whatever way the system has of
+indicating that individual transactions are linked)
+
+Specific Details:
+
+(PAN or equivalent identifier)
+
+Signed
+
+Date | 26/10/05
+
+Graham Ward
+
+FUJ00152573
+FUJ00152573
+FUJ00152573
+FUJ00152573
+
+Brian
+
+As discussed by phone this morning, could I please ask that the request
+below be expedited.
+
+Both the ARQ requests detailed in the Subject title are Civil matters
+where there is a suggestion that the losses incurred at the offices are
+as a result of faults with the Horizon software.
+
+Marine Drive - In this case Bond Pearce Solicitors acting on our behalf
+have asked for an investigation into the workings of the system (their
+letter dated 18/11/05 refers, copy posted back to you today details
+exactly what analysis is required ). Could I ask that you deal with the
+questions raised and prepare a formal response to be returned via me as
+soon as possible.
+
+Torquay Road - The same scenario as above applies. I am awaiting
+details from our Solicitors dealing with the matter, outlining exactly
+what is required and as soon as I receive this information, I will be
+asking for a formal response from you, much the same as with Marine
+Drive.
+
+I am assuming that in both cases, you have copies of the ARQ
+information already supplied.
+
+Regards
+Graham
+
+Casework, Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+
+i VoiceMail:
+
+External Email:
+FUJ00152573
+
+FUJ00152573
+Pinder Brian
+= —_ —
+From: graham.c.ward___
+Sent: 28 November 200:
+To: Pinder Brian ‘
+Ce: Lowther Neneh; Thomas Penny; Sewell Peter (FELO1)
+Subject: Re: Marine Drive Post Office - ARQ 0506/405 & 421-423 & Torquay Road ARQ
+0506/368
+Brian
+
+As discussed by phone this morning, could I please ask that the request below be
+expedited.
+
+Both the ARQ requests detailed in the Subject title are Civil matters where there is a
+suggestion that the losses incurred at the offices are as a result of faults with the
+Horizon software.
+
+Marine Drive - In this case Bond Pearce Solicitors acting on our behalf have asked for
+an investigation into the workings of the system (their letter dated 18/11/05 refers,
+copy posted back to you today details exactly what analysis is required ). Could I ask
+that you deal with the questions raised and prepare a formal response to be returned via
+me as soon as possible.
+
+Torquay Road - The same scenario as above applies. I am awaiting details from our
+Solicitors dealing with the matter, outlining exactly what is requiréd and as soon as I
+receive this information, I will be asking for a formal response from you, much the same
+as with Marine Drive. .
+
+I. am assuming that in both cases, you have copies of the -ARQ information already
+supplied. . :
+
+Regards
+Graham
+
+Casework. Manager
+Post Office Ltd Investigation Team
+
+PO BOX 1, CROYDON, CR9 1WN
+
+Postline: N/a--gmp. GRO | Voicemail:
+
+N/A, Mobe PExternal Ema
+graham.c.war,
+
+Pinder Brian { 1
+<Brian. Pinder, GRO graham.c.wardé
+
+poe saditea com> ce: Thomas Penny
+<Penny . Thoma! GRO |, "Sewell Peter (FELO1)" :
+
+— <Peter.Sewel}
+
+Neneh <Neneh.Lowthe}_
+
+Subject: Marine Drive Post Office - ARQ
+405/ 05/06 .
+
+Graham
+FUJ00152573
+FUJ00152573
+
+Please be advised I am sending you a FAX (today) for your attention re Mr Castleton.
+I believe this refers to the helpdesk calls which we sent to you on CD on 2nd Nov 05.
+Kind Regds
+
+Brian
+
+Security Manager
+
+PO Account
+
+FUJITSU
+
+c/o FUJITSU Services, Lovelace Road, Bracknell. Berkshire RG12 8SN
+
++ Email brian.pindert,
+
+Web http: //uk. fujitsu.com
+
+Fujitsu Services Limited, Registered in England no 96056, Registered Ofice
+26 Finsbury Square, London EC2A 1SL
+
+This email is only for the use of its intended recipient. Its contents are subject to a
+duty of confidence and may be privilaged. Fujitsu Services does not. gurantee that this
+email has not been intercepted and amended or that it is virus free.
+
+JESS ISIS ISIS ISIISI ISIS IEI ISI ISI ISI IOI IOSIS CISTI IIIS II IOI II II III II III I Ir
+This email and any attachments are confidential and intended for the addressee only. If
+you are not the named recipient, you must not use, disclose, reproduce, copy or
+distribute the contents of this communication.
+
+If you have received this in error, please contact the sender and then delete this email
+from your system.
+
+FOSS IIIS SI SII IOI OIG SII ISIS IIIS T IGS IIE SIS III SII I II IEE
+FUJ00152573
+
+FUJ00152573
+S 21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM @o1
+4 :
+Bond Pearce LLP
+18 November 200S 01 ranrce
+West Hoe Road
+
+Plymouth PL1 3AE
+
+Tel: +
+: rx:i GRO |
+Fujitsu Services . DX azsx-Pryne@ :
+‘stepneni
+
+Direct: 4.
+Our ref:
+‘SID3/ABG1/348035,134
+Your ref;
+i
+i
+| URGENT
+\
+ear Sirs,
+
+Post Office Limited -v- Mr L Castleton
+14 South Marine Drive, Bridlington, WY15 3DB ("the Marine Drive Post Office")
+
+‘ (1) Background
+
+We act on behalf of the Post Office Limited (“PO”). From approximately 18 July 2003 to 23 March 2004, Mr
+Castleton was a Sub Postmaster at the Marine Drive Post Office. He was strictly responsible for the safe
+custody of cash and stock and was obliged to make good all losses caused through his own negligence,
+
+1 carelessness or error and losses of any kind caused by his assistants.
+
+Between 18 July 2003 and 25 March 2004, net losses of £27,115.83 occurred at the Sub Post Office. Mr
+H Castleton was suspended on 23 March 2004 and dismissed on 17 May 2004. The Post Office has now
+' issued a claim against him to try and recover these net losses. Mr Castleton has issued a Counterclaim
+i claiming wrongful termination of his contract.
+
+(2) Mr Castieton’s Defence
+
+Mr Castleton’s case is that any shortfall {s entirely the fault of problems with the Horizon computer and
+accounting system at the Marine Drive Post Office and that the PO wrongfully terminated his Sub
+: Pastmaster contract in respect of which has suffered loss not exceeding £250,000.
+
+We attach copies of the following:
+A. Without prejudice letter dated 30 September from Mr Castleton‘s solicitors to Bond Pearce LLP.
+B. Bentley Jennison’s Report dated 23 September and attachments;
+
+C. White & Hoggard’s Report dated 18 August.
+
+Bentley Jennison state that deficiencies have probably been brought forward despite the fact that they
+
+have been entered onto the suspense account entry. They suspect this is because the Horizon system,
+despite the suspense account entry, has failed to recognise the entry on the daily snapshots. They have
+drawn this conclusion through looking at the discrepancy of £3,509.18 on Thursday 26 February 2004, -
+They then suggest that this double accounting could have continued over a number of weeks and that as
+such, Mr Castletan’s Defence, “appears to hold potential merit based on the limited documentation” they
+have so far reviewed. White & Hoggard reach a similar conclusion in thelr Report.
+
+Mr Castleton belleves that if he can obtain further documents, such as the daily snapshots, he will be able
+to undertake a manual reconciliation of the cash account In order to substantiate his belief that the losses
+are not real but attributable to computer error. We attach an email from Fujitsu to Richard Benton at the
+Post Office dated 5 May 2004 In which Fujitsu state “It is possible that they are not accurately recording all
+transactions on the system” and that there was no evidence whatsoever of any system problem.
+
+v
+
+Bond Pearce LLP, & Limited Liability Partnership. red in England end Wales numner OC}114:
+
+Ragietered otfce: Brac Sridge House 134 tat Redeemer bristol bet aes WaT number Geis G2g2 07.
+
+A list of members of Bond Pearce ls open for inspection at the ragistered office. Regulated by the Law Society, www.bondpeatce.com
+
+1A_1090832_2
+
+FUJ00152573
+FUJ00152573
+
+Zayh4 (UD 44:Z2D KAA 02075416286 COMMERCIAL TEAM @o2
+
+‘ (3) Report
+
+" Please could you review Mr Castleton’s experts’ Reports and prepare-a formal Repart dealing with the
+following points (to the extent you are able):
+
+1. We need to explain to a Judge who will know nothing about Horizon exactly how It works. What
+precisely happens when a customer goes into a Post Office to buy an item? How Is this recorded? Is it
+manually recorded Into the Horizon system at the same time ar later in the day? Is the cash register
+linked to Horizon?
+
+2. Precisely what steps Fujitsu took to examine the Horizon system at the Marine Drive Post Office in
+2004 and what their conclusions were.
+
+3. Whether there have been any similar or serlous problems with the Horizon system at the Marine Drive
+Post Office since Mr Castleton’s suspension and dismissal,
+
+4. Whether you believe that the suggestion put forward by Mr Castleton’s experts is likely to be correct
+| and your reasons, either way (if you are able to comment on this).
+
+5. If there have been human errors In recording the transactions, could an explanation be that:
+
+(a) There was nothing wrong with Horizon, because it simply reflected the information entered on to
+It; but
+
+(b) If staff entered the wrong numbers into Horizon there may have been no real loss (even though
+Horizon would show a loss), because there could be a human error in accurately recording
+transactions.
+
+If so, would that be a likely explanation?
+
+6. Any other information that you believe may be relevant.
+
+(4) Duty to the Court
+
+As a result of the instruction you may be asked to give evidence before the Court. Whilst the PO will be
+liable to pay your fees, in preparing your Report and giving evidence; your over riding duty will be to help
+the Court on the matters within your expertise.
+
+You agree to meet the requirements of the Civil Procedure Rules Part 35 Practice Direction (copy enclosed)
+and that your Report will:-
+
+1. Be addressed to the Court and not to the Post Office (but it should be sent to Mr Dilley of this firm).
+
+2. Confirm that you understand your duty to the Court and that you have complied and will continue to
+comply with that duty;
+
+3. Contain a statement'setting out the substance of all material facts and instructions (whether written or
+oral) on the basis on which your Report is written. This.statement should summarize the facts and
+instructions given to you which are material to the opinions expressed in the Report or upon which
+those opinions are based and if any of the facts are within your own knowledge which they ara;
+
+4. Contain a chronology of the relevant events;
+
+5. Contain a Statement of Truth in the following form:
+
+“I confirm that insofar as the facts stated in my Report are within my own knowledge I have made
+clear which they are and I belleve them to be true and that the opinions I have expressed represent
+my true and complete professional opinion”.
+
+6. You should nor that proceedings for contempt of Court may be brought against you if you make a false
+' statement.and Report verified by a Statement of Truth without an honest belief it was true;
+
+7, Contain a declaration that the Report has been prepared In accordance with the Code of Guidance on
+| Expert Evidence (enclosed),
+
+8. Give details of your qualifications;
+
+wow.bondpearce.com Pus
+1A_1090832_2
+
+FUJ00152573
+FUJ00152573
+
+Z1/11 °U5 11:25 FAX 02078416286 COMMERCIAL TEAM os
+
+9, Give details of any literature or other material which you rely on in making the Report;
+
+10. So who carried out any test or experiment which you use for the Report and whether or not the test or
+experiment has been carried out under your supervision;
+
+11. Give the qualifications of the pérson who carried out any such test or experiment;
+
+12. Where there is a range of opinion on the matters dealt with in the Report - sub-paragraph 11.1
+summarises the range of opinion.
+
+13. Give reasons for your own opinion.
+
+14, Contain a summary of the conclusions reached including any qualifications to the same;
+
+Given the fundamental Importance of meeting these requirements, you shauld endeavour In your Report
+to be not only accurate but complete. You should mention all matters which you regard as being material
+to the opinions you express and draw the Court's attention to any matter to which you are aware which
+might adversely affect the validity of those opinions. This applies in relation to the factual matters to which
+you refer and also to the opinions which you express.
+
+You should not Include In your Report anything that Is suggested to you by anyone withaut forming your
+own independent view.
+
+If, on reading the Report of any other expert in this matter, or for any reason, you consider, at any stage,
+that any existing report of yours requires correction or qualification you will Immediately notify us in
+writing of that fact.
+
+(5) Duty to the Post Office
+
+In performing all your duties for which the client will pay, you will owe a duty to the client to act with the
+professional standards of skill, care and dillgence adhered to by experienced and competent consultants
+acting as expert witnesses.
+
+You will take reasonable care of any documents, materials or samples sent to you by the clients and shall
+return them immediately (together with any copies taken) to the clients upon request.
+
+In complying with your duties to the Court, you will not, without having first obtained prior written
+approval of the client, divulge to any third party any information relating to the dispute.
+
+You confirmed that you:
+
+1. Are an independent party and not the client's employee or agent, ather than at the material time
+Fujitsu was responsible for looking after the Horizon system;
+
+2. Know of no reason why you should not act as a witness for the Post Office in relation to the dispute;
+
+3. WIIl advise us in writing immediately If any conflict between your Interests and the Post Office’s
+interests should arise In relation to the dispute.
+
+We would be grateful If you could treat this matter as urgent, because Mr Castleton’s solicitors have
+applied for Judgment against the Post Office, so we will need to obtain your report quickly.
+
+We look forward to hearing from you.
+
+Yours faithfully
+
+Bonch Powe Lio?
+
+Bond Pearce LLP
+
+taa0s0as3 4 werw.bondpearce.com 3/3
+
+FUJ00152573
+FUJ00152573
+
+21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM Goa
+
+Date: 30 September 2005
+
+Your ref: DEG1/NIM1/348035.134
+Our ref: MDT.113969
+
+Please ask for: Mark Tamer...
+Direct dial: i i
+Direct fax :. G RO
+
+E-mail: m.tumei
+
+RECEIVED (
+03 SEP 2005 |S) pevecony
+
+SONO PEARCE LLP
+oh PLYMOUTH
+
+Bond Pearce
+Solicitors
+DX 8251
+PLYMOUTH
+
+Without Prejudice
+Dear Sirs
+
+Our cent: Mr L Casticton — Marine Drive Post Office, Bridlington
+Your ellant: Post Office Limited
+
+We refer to our recent without prejudice telephone discussions (Mark Tumer/Denise Gammack).
+
+As we mentioned when we spoke, we have instructed an expert accounting witneas, Chris Hine of Bentley
+Jennison, to review the documentation that your client has made avnilable to date. His brief was to consider
+certain of those documents in light of our client’s pleaded defence to the effect that the alleged shortfall is (at
+least in part — nd we cannot be any more specific than that given the incomplete disclosure which has been
+given) attributable to problema with the Horizon system.
+
+In order to assist you and your client in understanding our client’s position, we are prepared to disclose to you
+on a without prejudice basis the report which Mr Hine has prepared. Since the report refers to a report
+prepared by Andrew Richardson of White & Hoggard, a copy of his report together with supporting
+documentation is also enclosed.
+
+By way of explanation, Mr Richardson acts as auditor to the business owned by our client’s father in law. His
+Teport was obtained directly by our client as a “second opinion” on the methodology that our client had used
+in reviewing the available documentation, To avoid any question of partiality, we commissioned Bentley
+Jennison to consider the same documentation ax had been available to Mr Richardson, as well as his report,
+and to comment on whether they agreed with its findings.
+
+For the complete avoidance of doubt, both documents are made available to you and your client on an entirely
+without prejudice basis. Whilst the substance of the Bentley Jennison report is likely to form the core of any
+formal report prepared for uze in court, we reserve the right to rely on a report which may differ in form to
+that which we have presently disclosed.
+
+As you will see, both Mr Richardson and Mr Hine concur with our client’s position that there, at the very
+least, discrepancies in the way in which the Horizon system appears to treat weekly balances. This simply
+serves to reinforce what both we and our client have seid from the outset, namely that the daily balance
+snepshots which have not yet been disclosed will be of fundamental importance is enalysing whether there is a
+problem caused by the way in which the Horizon system operated during our client’s tenure as sub-postmnaster
+as Marine Drive Post Office.
+
+(Quay Howse « Quay Sermer » Marcramr 3 2JE + Tal +44 (O)161 O30 4600 « Fax +44 (0161 034 7582
+DX MAREMG + Eyal lmdromexhen,com = \Watate wemyrowensher.con
+‘Pactusa: BA, Calan + 1 Bows © DAS Harpich + LM Lowis « BOY Hyoanumy « O,P Send» A Denki # 1.7 Gogh = JX De + . on
+MCN = RJ Bye + he + Gar Mor pH Deere Li eg" Oma BE ae he ae Cees MT Herth ( )
+TROND PEARCE
+
+Thnfrm b phere La ig
+
+en QUAN ENARBEYCASTLETONSONEDS Fo Bonn
+
+FUJ00152573
+FUJ00152573
+
+21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM Gos
+
+We look forward to hearing from you once you and your client have had an opportunity to review the
+enclosures to this letter.
+
+“GRO |
+
+“ROWE COBEN”
+
+Enc
+
+G.vaRITABBEYCASTLETON\OOMS LETTER TO BOND FenRCH
+
+FUJ00152573
+FUJ00152573
+21/11 ‘05 11:26 FAX 02078416286 COMMERCIAL TEAM oe
+
+Ourref:  CH/PIB/C1024 Litigation Support
+Your ref; © MDT.113969 26 Pall Mall
+
+Manchester
+
+M2 YR
+
+DX 14418 Manchescer2__”
+Rowe Cohen Telephone i
+Quay House Facsimile ‘=
+Quay Street
+Manchester www bendey-jennison.co.uk
+M3 3JE
+23 September 2005
+Dear Sirs
+
+The Post Office -v- Lee Castleton
+
+Further to your letter of instruction dated 6 September 2005 in the above matter, I set out
+below my thoughts on the papers provided for my review.
+
+Thave reviewed the following documentation:
+
+® Various correspondence between Rowe Cohen and Bond Pearce, between 8 February
+and 3 August 2005
+
+© Daily ‘snapshots’ for the Marine Drive Post Office, from Thursday 26 Febmary 2004
+to Wednesday 3 March 2004, representing week 49 of the accounting year
+
+© Letter dated 18 August 2005 from Andrew Richardson, principal at accountants White
+& Hoggard, to Mr Lee Castleton
+
+© Copy of final audit, dated 25 March 2004, as carried out by Miss Helen Hollingworth
+(and az attached to the letter dated 25 May 2005, from Bond Pearce to Rowe Cohen)
+
+e Horizon Cash Account (Final) for Week 49
+© Statement of Claim, dated 9 June 2005
+
+e Defence and Counterclaim, dated 15 August 2005
+
+Offices ae, Birmingham Brinol Cardi’ Haroge Leeds Landon Milton Reyne Nottingham Sroke-on-Trent Swindon Telford
+4 list Gf Parepen' names is available for inspection ar 26 Pall Mall, Manchester M2 WR,
+
+Bendey Jennizon is registered wo carry on audir work by che Instirave of Chartered Accountana in Bpgland and Waler and
+
+authorised and regulated by che Fimmeial Servicer Authority for Trvermment Business
+
+A member of “Egg [AIG] EBAMOME An Auociation of Independent Profasional firms in Rurope
+FUJ00152573
+FUJ00152573
+
+21/11 ‘06 11:25 FAX 02078416286 COMMERCIAL TEAM oz
+
+Rowe Cohen 23 September 2005
+Page 2 of 5
+
+Daily snapshots for week 49
+
+At Document 1 is a copy of the daily snapshot printed at the end of Thursday 26 February
+2004, being Day One of the week. ‘This shows a discrepancy of £3,509.18.
+
+I note that this an identical amount to that recorded by the Horizon system as having been
+deficient in week 48, as identified in the audit undertaken by Helen Hollingworth, the
+schedule for which is set out at Document 2.
+
+This schedule also shows that cumulative deficiencies of £8,243,10 were put into a suspense
+account relating to weeks 43-46, although I note that no figure appears to be disclosed
+specifically for the following week, week 47.
+
+The identical amounts of £3,509,18 point to two possible scenarios, either that (a) there has
+been a deficiency suffered on day one of week 49 that exactly matches the sum of the
+deficiency for the whole of week 48, or (b) the figure is the brought forward deficiency from
+week 48. I consider it reasonable to assume that option (b) is the most likely scenario.
+
+On Day Two of Weck 49, being Friday 27 February 2004, an entry for £3,509,6B is shown as
+“Loss 2 2a in”, per Document 3.
+
+J am unable to explain the difference of 50 pence between the suspense account figure and the
+daily snapshot deficiency, although I note that in White & Hoggard’s report they explain that
+Mr Castleton informed them this was a manual entry following instructions from Horizon
+technical support.
+
+‘The £3,509.68 appears to represent the entry on the suspense account (Document 4) for the
+Same amount, processed on 27 February 2004, which I would expect given the daily snapshot
+entry.
+
+Suspense account
+
+A suspense account is generally used by accountants to ‘park’ transactions that have either
+been erroneously posted and are pending correction, or which, as is the case here, are
+transactions that are either unreconciled or unexplainable.
+
+From my experience, the impact of a suspense posting would allow a line to be drawn under
+the cumulative deficiencies on the daily prints, effectively resetting the figure to zero, which
+should be reflected as such on the end of day print,
+
+However, it is evident that on the end of day print (Document 5) there is still a deficiency of
+£3,509,18, notwithstanding the suspense account entry.
+
+Bentley Jennison
+FUJ00152573
+FUJ00152573
+
+21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM Qos
+
+Rowe Cohen 23 September 2005
+Page 3 of 5
+
+This again Jeads to two possible scenarios, either thar (a) following the suspense account
+entry an identical shortage of £3,509.18 was again borne by the branch during the course of
+the day, or (b) the Horizon system, despite the sispense account entry, has failed to recognise
+the entry on the daily snapshot, leaving the figure of £3,509.18 unchanged,
+
+Again, after considered reflection, it is more probable that scenario (b) has occurred.
+
+For Days 3, 4, 5 and 6 (Saturday 28 February 2004 - Tuesday 2 March 2004), identical entries
+occur in relation to the figure of £3,509.68, with a cumulative deficiency of £3,509.18 being
+shown at the end of each day.
+
+For the final day of week 49, Wednesday 3 March 2004, the entry of £3,509.68 again is
+recorded, however the total deficiency now shows £3,512.26 (Document 6), an increase of
+£3.08, and supported by the final Horizon Cash Account print (Document 7).
+
+I note that in weck 49 the cost of a first class stamp was 28 pence. The increase of £3.08
+could, therefore, represent (and in line with Andrew Richardson’s opinion) a scenario
+whereby a book of 12 first class stamps was sold, but only money for one single stamp was
+taken (ie (12 x 0.28) — 0,28).
+
+Having already concluded that the system should have no longer been recognising the
+£3,509.18 (posted to suspense) on a daily basis, the only discrepancy for the week should, in
+my opinion, have been the £3.08 deficiency apparently borne on Wednesday 3 March 2004.
+
+The system has, therefore, appeared to overstate the deficiency for the week by the amount of
+the deficiency in week 48, being £3,509.18.
+
+The report of White & Hoggard essentially appears to reach the same conclusion, in thet this
+sum has been erroneously double counted.
+
+Cwnulative deficiencies
+
+I would note that the Horizon aystem, from the documentation I have reviewed, appears to
+tecord deficiencies on a cumulative basis, hence the running total of £8,243.10 up to the end
+of week 46 being rolled into week 47's suspense account and carried forward to week 49
+(Document 4),
+
+Based on this approach, the integrity of the system is heavily dependent upon weekly figures
+being both accurate, and carried forward correctly,
+
+In the isolated case of week 49 thia appears not to have taken place, with the implication that
+errors could, theoretically, have been double counted: over a number of weeks,
+
+Bentley Jenniaon
+FUJ00152573
+
+FUJ00152573
+21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM @oo
+Rowe Cohen 23 September 2005
+Page 4 of S
+
+As such, Mr Castleton’s defence, that the root of the problem lies with the inaccurate figures
+produced by Horizon, appears to hold potential merit based on the limited documentation I
+have so far reviewed.
+
+Clearly, however, I have only had sight of the daily snapshots for week 49, which although
+appearing to indicate an error within the Horizon system for that short period, does not
+necessarily mean that it has been replicated for other weeks. This can only be checked
+through an analysis of the daily snapshots for all relevant periods,
+
+Andrew Richardson’s conclusion that “the balance of probabilities would suggest that it is
+quite likely that this has also happened in earlier periods” is, I suspect, a little premature and
+can only be proven following a more detailed review.
+
+Equally, other issues aside from the discrete problems evident in Week 49 maybe uncovered,
+upon a more detailed inspection of relevant Horizon documentation.
+
+Disclosure
+
+The documentation I would ideally need sight of (further to that listed in your letter dated 11
+April 2005, and presuming such papers were used in the normal course of business at the
+branch) to gain a clearer picture of bow Horizon worked, and whether it was working as
+intended, is as follows:
+
+« Daily snapshots for the period preceding, during, and following the alleged
+deficiencies borne under the management of Mr Castleton, which as suggested in copy
+correspondence might be from weeks 39-52 inclusive, although for completeness (and
+if considered cost effective) it may be appropriate to analyse the period from when
+Horizon was first used in the branch to gauge the effectivencss of the system from
+Day One
+
+s Copy of the full audit report following the inspection made by Helen Hollingworth
+and Chris Taylor, on 25 Marth 2004, to include a breakdown of the week 51 balance
+of £11,210.56 (Document 2)
+
+° P&A reports produced for weeks 39-52, summarising sums paid to customers in
+allowances through vouchers, and any vouchers supporting the reports
+
+© Cash and stock count at the points in time when Mr Castleton began/left his post as.
+subpostmaster
+
+© Events log produced by the Post Office centrally, summarising which individuals are
+working on the Horizon system, and when the various reports were produced within
+the branch - for weeks 39-52 inclusive
+
+Bentley Jennison
+FUJ00152573
+
+FUJ00152573
+21/11 .'05 11:25 FAX 02078416286 COMMERCIAL TEAM Mio
+Rowe Cohen 23 September 2005
+Page S of 5
+
+e Transaction log produced by the Post Office, which should summarise all financial
+transactions undertaken by the branch - weeks 39-52 inclusive
+
+e Any contemporaneous notes made by Mr Castleton in relation to the Horizon system,
+or by any other etnployees, or by anyone who may have been assisting Mr Castleton in
+the initial period following his appointment as subpostmaster
+
+T trust the contents of this letter are self-explanatory, but if you should require clarification on
+any of the matters raised herein, please do not hesitate to contact me.
+
+Yours faithfully
+
+tt Chris Hine
+National Litigation Support Partner
+Enc.
+chris.hing GRO!
+
+Bentley Jennison
+FUJ00152573
+FUJ00152573
+
+.
+a LL& w\.
+su? ve
+Bg ,
+aR UU ETT
+ite "wm ain
+a eee
+Call + & ea
+ae
+* Hd 1 mo uP
+re
+; # ods
+i og | F
+on ee:
+ee eee
+erm ‘orm ts
+wor ge
+eur E “tot
+#; OE
+; ia
+e f JF
+a i de
+ee “uae
+aa el
+‘i Ps .
+i eg OS.
+" a ee aH
+j 193 elena oa
+i @ of Je
+op ae
+> Fh ec
+i Ee : Mela a
+alt sayy argsag
+: BS of we
+oF
+Be agai
+at ye wNeTS PD
+ie tx “tage te a
+we mee
+i.» igs
+ole au Los} ri 2 1
+a
+bf =
+im mame al) Dos
+sraneaeseimnny
+= cuedvanyp y
+ou Aga Lamidaianydy
+talib on aflame ;
+bath wat HP ea a
+Tamamns0q a
+
+© 6 _ @e @
+
+ad] RVAL ‘TVTo¥aNEAD agzaTHoingn ws a7:TT aq oTt/Te
+21/11
+
+"O05 11:25 FAX 02078416286 COMMERCIAL TEAM
+
+To: From: co:
+Cath Oglesby Helen Hollingworth
+Inspector
+
+Date: 25" March 2004
+
+Audit of Post Office ® Marine Drive branch, FAD 213337
+
+An audit took place at Marine Drive Post Office on the 25” March 2004.
+Helen Hollingworth led the audit and in attendance was Chris Taylor. The audit -
+commenced at 8.00am and on our arrival the sub postmaster was very pleased to
+see us. He explained problems he had been having at the office regarding
+balancing. His problems with balancing started in week 43 with a mis-balanca of
+4230.97. He was adamant that no members of staff could be committing theft
+and felt that the mls-balances were due to a computer problem. He had been in
+cantact with the Retail Line Manager Cath Oglesby and the Horizon help line
+regularly since the problems began. The following table gives further weeks
+balance declarations on the cash account .
+
+48 3509.18
+
+46 = -8243.10
+
+45° -8730,01
+
+44 875409
+
+43 4230.97 .
+
+48 3509.78 This amount put Into suspense week 49
+AG  -8243,10 This amount put Into. suspense week 47
+
+45 = -8730.0t Rolled loss
+. 4 -BT54.09
+43. 4230.97
+
+In week 47 £8243.10 was put info suspense. Although horizon had been
+
+contacted and tbe Reteil Line was aware of this figure, this was not authorised. Jn.
+
+wesk.49 £3509.68 was added to’ make the amoynt carried i in the suspense
+account totel £11752.78. This waa also not suthorised?
+
+week 51 balance ”5£14210.58
+suspense account - * ~£11752.78
+expected audit result + £22563.34
+difference at audit + £2795.41 (-£1769.00 lottery +£1026.41 cash)
+audit result ~ £25758.75
+
+On the completion of the audit the Retail Line Manager Cath Oglesby was
+contacted, along with the Investigation team and the Audit Line Manager. The
+sub postmaster was suspended pending enquiries and an interim postmaster w was
+put in charge at the office.
+
+FUJ00152573
+FUJ00152573
+
+@12
+
+Document 2
+FUJ00152573
+
+FUJ00152573
+
+is
+
+COMMERCIAL TEAM
+
+FAX 02078416286
+
+‘O05 11:25
+
+2a/il
+
+3
+3
+35
+
+a
+
+Snuge fy
+
+100,13
+WSL
+
+wr 09 EOS
+
+2
+Sissi pe sxe 1 1
+ssg2¥02358 #433 7 3
+
+SRL, PATENTS
+
+‘ote eleerypacicn
+Blew Uru
+
+FUJ00152573
+FUJ00152573
+
+21/11 ‘05 11:25 FAX 02078416286 COMMERCIAL TEAM Gia
+
+Document 4
+
+ap 7133377 a
+1738700 03/03/2004 oP
+Suspense Account - Office Copy
+‘WARNDIG - Check the C/Pad column for negetive volues. If present refer to the
+Horizon User Guide for {natruetions en hoy to procecd
+= date = Preaict volume Volun* Byrrea crea
+RD Cheques A
+TOTAL ° 9.00 ‘9.00 9,99
+
+TOTAL 0.00 0.00 0.00
+Vouchere
+TOTAL 0.09 0.00 0.00,
+
+Ghortagus in Reas ate
+
+TOTAL 9 0.09 0.00 9.00
+Burglary stc looses
+
+TOTAL : ° 0.00 0.00 0.00
+FOL cheques
+
+‘Tora o 0.00 0.00
+igretion UP . .
+
+‘TOTAL o 0,00 0.00 0.00
+
+ash shortages A
+
+AA 21/02/06 Loan ) to Table 2a 2 3,809.68
+TOTAL 1 @,243.10 14, 752.78
+Cash Shortages B
+TOTAL ° 0.00 9.00 2.00
+
+Caan gportages Cc
+
+TOTAL ° 0.00 0.00
+Cash Shortages D
+
+TOIL ° 0.00 0.00 0.00
+Propurchases
+
+TOTAL ° 0.00 9.00 9.00
+
+Cash Surpluaes pot yer adjusted A
+
+TOTAL ° 00 0.00 0.00
+
+Cash Burpluces not yet adjusted B
+
+FUJ00152573
+
+FUJ00152573
+
+is
+
+Document'$
+
+COMMERCIAL TEAM
+
+FAX 02078416286
+
+"OB 11:25
+
+21/11
+
+: | Le ee asses ggeyaztnamrergsgmatresaspreng essa
+a 5
+a i z S| 4g =" = ggseas aes ~ peareareass praresremses aoa
+5 ia ge La ale ie savef cenit : , 2088 ae
+a ir Fh debatiied lapainbetith Te tcccnooestahgctsseenall? Bean
+aan Bo pec ed cldy fetta spre acse a cartsa: Ly poet I
+Sed GME | 5 ssgiplbenisndeeeclay Vallis? tree
+
+FUJ00152573
+FUJ00152573
+
+930amn20q
+
+91 WVAL ‘IVIOSRWOD GRZATHRLOZA YW GZ5TT Gn. TT/TZ
+21/11 '05 11:25 FAX 02078416286
+
+Pager —F-UlEice code: 2133277 Week No: 49 Weak Ending: 03/03/2004
+
+‘
+OFFIC Ppl
+
+TELEPHONE:
+OFFICE CODE:
+
+2133377
+
+ial
+DATE STAMP:
+
+FUJ00152573
+FUJ00152573
+
+COMMERCIAL TEAM @i7
+
+Date
+
+Week No
+
+03/2004 Time: 07:46
+
+Document 7
+
+| 2003/2004
+' HORIZON
+
+Cash Account (Final)
+
+30 (
+
+TQ BE SIGNED BEFORE DESPATCH OF CASH ACCOUN!
+
+EXAMINED IN TP:
+TABLE 2 UNCLAIBED PAYMENTS ‘TABLE 10g) NUMBER OF TRANSACTIONS
+50 tp Rete
+. 260~C~S Unpaid Orgs A 11 Corti
+6 27 Opes Ongar B 08 Chge
+2a guid gat SISA Gach Crocs Ee
+29 e2 ‘Giherk M Otay
+30 \ostere a1
+31 ‘Seraph RBAB ee 23 Prrcetaro by 9 8 10
+32 Bogiry ot Loree 65" Pareto 148
+33 POL Che porn bores 66 ‘ried Delage
+34 71 Low Qner
+35 Mon a3 edun oer
+36 75 Woh oer
+37 80 (Opraract Perera beret
+38 67 (Gener Perce heart
+- 96 eee edn ‘Speci Debary Bars
+BB UNPA Gringmey
+a 14. “0. ue
+‘TABLE 2fa) AUTHORISED CASH BHORTAGES .yi* - 2 Hienind domi (
+50 a4 So .
+46 ++-+11,752. Qtr Bert A Prrcatcrcoby oxen
+a7 Och Setar 8
+48 Cub Sertags C (Oise vent Packs
+49 Gan Sere erry Pogrars Pontes:
+6a RN
+69 8Gey Renin
+92 (Cnmit Vache
+e ‘TABLE $ UNCHARGED RECOPTS: 53 TWLUTS Prodppieats
+0. .
+50 3 Procrter Bay Bact
+4
+60 erry Home Sep Rokr .
+ee 59 Sct Lis SP gp
+9
+63 Popréan 60 POL Srencard Appicione
+6a Cab ano A 61 eA. Pont Appian
+65 Gen arioB 62
+66 ‘Srpltaa Rens et 86
+67
+66 Mercier
+7 SVELEB
+72
+{UND Baten Eoeples
+(Cord Accord tatores ereptites
+DISCREPANCIES TABLE ABL Beers Enger
+Shure Cafery by tne
+07
+o1 Says 26
+OZ +++++3,512,26 Sere 27
+28
+29
+
+FUJ00152573
+FUJ00152573
+
+21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM gis
+
+— White y Hoggard
+
+Chartered Cxrtified Aecountarts
+
+Registered to cary on 19 Whepole
+
+audds work and regulated for a Mallon
+range of Inastmant Business Narth Yorkshire
+activities by the sociation of YOU, IAF
+lartored Cortified Semuntants
+
+PRIVATE & CONFIDENTIAL
+
+Encik White Haggard LGCAN t com
+
+Mr Lee Castleton
+
+Marine Drive Post Office Our Ret: AWR/GL/1/F031
+
+14 South Merine Drive Your Rel:
+
+Bridlington
+
+East Yorkshire Dale: 18" August 2005
+
+YOIS 3DB
+
+Dear Lee
+
+‘You have asked me to produce a report on my findings following my examination of the
+documents presented to me for Marine Drive Post Office in respect of the week ended 3% March
+2004 and the apparent discrepsncy claimed by the Post Office which I understand at 4% March
+2004 amounted to £15,265.04,
+
+have therefore examined the daily balance printouts that you produced covering the period 26"
+February 2004 to 4" March 2004 and also the report marked “Horizon Cash Account (Final)”
+dated 4" March 2004 in relation to the week ended 3 March 2004,
+
+My conclusions are as follows:~ ~
+
+a) The Horizon Cash Account (Final) Report for week 49 (week ended 3% March 2004)
+produced on 4" March 2004 (time 07:46) indicates the following:
+
+Table 2 (a) authorised cash shortages (A) 11,752.78
+Discrepancies Table 3,512.26
+Total £15,265.04
+
+b) The Suspense Account summary attached to the report — office copy dated 3 March 2004
+(time 17:38) produces the following under the heading “Cash Shortages A”
+
+AA 27" February 2004 Loss A to Table 2a 3,509.68
+Brought forward 8,243.10
+Total £ 11,752.78
+
+PRINCIPAL: Andrew W. Richardson F.C.C.a.
+MANAGERS: Kolth A. Rhodes F.C.C,A,
+Mfrs Lesley R. Richardeon
+
+21/11
+
+d)
+
+e)
+
+8)
+
+"05 11:25 FAX 02078416286 COMMERCIAL TEAM
+
+‘The difference between the above two reports is £3,512.26 (I will refer to this figure later in
+my observations).
+
+The Horizon Cash Account (Final) Report for weelc no.49 (week ended 3 March 2004) dated
+4" March 2004 (time 07:46) indicates the following:
+Balance Due to Post Office 97,014.07
+Less Stock (Table A) (9,036.41)
+Less Cash (Table 5) (72,712.62)
+Shortfall . £15,265,04
+The above entry at (d) above appears to me to comprise the following:
+1. Discrepancies Table 3,512.26
+2. AA 21" February 2004 Loss A to Table 2a 3,509.68
+3. Brought forward from earlier periods 8,243.10
+Total £15,265,04
+
+It follows, therefore, that we need to ascertain how each of the above apparent discrepancies
+at paragraph (ce) have arisen:
+
+In order to attempt to explain the apparent discrepancies I have prepared a detailed analysis of
+the daily balance printouts covering the period 26” February 2004 (time 17:30) to 4° March
+2004 (time 07:46). 1 have used the Horizon Cash Account (Final) Report for the analysis of
+the movements on 4" March 2004. My conclusions are as follows:
+
+1. Discrepancies Table - £3,512.26
+
+This figure is not on the Suspense Account Summary dated 3" March 2004 but appears to
+comprise part of the overall shortfall (see a and c above). This figure appears to include the
+“discrepancies in this account” summary on the “final balance” sheet dated 26" February
+2004 but is recorded as £3,509. 18 increasing by £3.08 (which I believe is a book of stamps) to
+£3,512.26 on 3 March 2004. It is understood that the sum of £3,509.18 is a discrepancy
+from en earlier period. I have seen no evidence to reveal how this discrepancy from the
+earlier period has been arrived at.
+
+2. AA 27" February 2004 Loss A to Table 2 a - £3,509.68
+On the “final balance” sheet dated 26" February 2004 (time 17:30) there is an entry for “net
+
+discrepencies” of £3,509.18 which equates to the “discrepancies in this account” entry — sce g
+(above.
+
+On the “balance snapshot ~ office copy” sheet dated 27 February 2004 (time 17:31) there is
+an entry “OTHER PAYMENTS” loss a — 2a amounting to £3,509.68. This entry is then
+repeated daily. .
+
+(understand from my telephone conversation with you that this amount was input manually
+under instructions from Horizon technical support which probably explains the difference of
+50p from the previously mentioned sum of £3,509, 18.
+
+If the sum of £3,509.68 is indeed the same entry as the sum of £3,509.18 recorded in g 1
+
+above, and it seems highly likely that this is the case, there is a duplication in the apparent
+shortfall.
+
+FUJ00152573
+FUJ00152573
+
+@19
+21/11
+
+h)
+
+‘05 11:25 FAX 02078416286 COMMERCIAL TEAM
+
+Ic follows that a retional explanation is needed for this apparent double counting in the
+Post Office records,
+
+3. Brought forward from Earlier Period - £8,243.10
+
+In addition to having no documentary evidence to support the discrepancy of £3,509.18,
+which appears to be duplicated by the further entry of £3,509.68, there is no documentation to
+support the discrepancies from earlier periods amounting to £8,243.10. It is therefore
+absolutely essential to obtain documentary evidence supporting the discrepancies that
+are claimed to have arisen in the earlier periods of £3,S09.18 and £8,243,10.
+
+Conclusion .
+
+From the limited available evidence of one weeks tunsactions referred to above my
+conclusion is that it is highly likely that the sum of £3,509.18 has been recorded twice
+increasing the apparent discrepancy during the week ended 3% March 2004. On the
+assumption that I am correct in this conclusion, and there seems to be no rational explanation
+for this amount appearing twice other than my conclusion, then there has to be doubt as to
+whether or not the discrepancies brought forward from earlier periods of £3,509.18 and
+£8,243.10 can be substantiated. Ik is therefore absolutely imperative that the Post Office
+produce documentation to justify their claim for the earlier periods in order to produce
+evidence that the system is operating correctly, At the present time it would eppear to me that
+during the week ended 4" March 2004 an incomplete instruction to input a manual entry of
+
+£3,509,18 (incorrectly entered as £3,509.68) bas created a double counting of this amount in-
+
+the calculations produced by the Post Office of shortfall. If this has happened for the one
+week where we have documentary evidence then the balance of probabilities would suggest
+that it is quite likely that this has also heppened in earlier periods and has to cast doubt on the
+credibility of the claim made by the Post office which therefore needs to be examined in some
+further detail with the benefit of supporting documentation.
+
+Thope that the above report is of sore assistance.
+
+Kind regards
+
+Yours sincerely
+
+Andrew W Ri habdson ;
+
+FUJ00152573
+FUJ00152573
+
+@20
+Vv
+
+FUJ00152573
+FUJ00152573
+
+21/11 ‘06 11:25 FAX 02078416286 COMMERCIAL TEAM @a1
+
+05/05/2004 12:32 Subject:
+
+Richard,
+
+T have had a chat with Anne, she used the message store viewing to
+
+investigate this. If you want coples of extracts for the particular
+
+Incorrect declarations please submit an ad hoc request requesting this
+
+Information. Hope this heips, see below:
+
+NO TRANSACTION DATE AND TIME WAS PROVIDED FOR THIS ACTION USING CURRENT
+DATE
+
+AND TIME By Anne Chambers at 26-fab-2004 15:16:00 Category 94 - Advice and
+guidance given I have checked various things on the system, All the
+
+Internal
+
+reconciliation checks are ok. Cheques are being handled correctly (except
+
+for 10th Fab when the clerk forgot to cut off the report - but this didn't
+
+cause a discrepancy). Cash declarations look ok, they usually use drawer Id
+
+11. Occasionally they have used a different drawer Id, this can lead to
+
+amounts apparently doubling on the cash flow report, and should be avoided,
+
+But again It will not cause a discrepancy, Checking the cash transactions
+
+on
+
+the system against the declarations shows that they are not working
+
+particularly accurately (i.e, at the end of the day the cash they declare
+
+In .
+
+the drawer Is tens, hundreds or thousands of pounds astray from what has
+been recorded on the system). It Is possible that they are not accurately
+recording all transactions on the system. There Is no evidence whatsoever
+of
+
+any system problem. I've mentioned this outlet to Julle Welsh (Customer
+Services) who will try to get POL to follow It up, but In the meantime
+please tell the PM that we have Investigated and the discrepancies are
+caused by the difference between the transactions they have recorded on the
+system and the cash they have declared, and are not being caused by the
+software or hardware.
+
+Julle Welsh
+Service Delivery Manager HSH
+Business Service Management, Post Office Account
+
+FUJITSU SERVICES
+Lovelace Road
+Bracknell
+
+Berks
+
+RG12 8SN .
+
+Tel: Internal: |
+
+flle://C:\Documents%20and%20Settings\administrator\Local%2... 01/02/2005
+
+ron ee
+
+FUJ00152573
+FUJ00152573
+
+21/11 '05 11:25 FAX 02078416286 COMMERCIAL TEAM B22
+PRACTICE DIRECTION - EXPERTS AND ASSESSORS - This Practice Direction... Page 1 of 4
+
+BB AICO BEE Pin
+
+Justcovrghtsanddemccrcy Civil Procedure
+Rules
+What's Updates & Current ‘Statutory Consultation Commentaries Contact Search
+New? Zips Versions Instruments
+wigs & Practice Directions Schedule 1-.RSC Schedule 2-CCR Pres Glessaw Forms CoutGuides Index
+See also Part 35
+
+PRACTICE DIRECTION — EXPERTS AND
+
+ASSESSORS
+THIS PRACTICE DIRECTION SUPPLEMENTS CPR
+PART 35
+
+Contents of this Practice Direction
+EXPERT EVIDENCE ~ GENERAL
+
+QUESTIONS TO EXPERTS
+SINGLE EXPERT
+QRBDERS
+
+ASSESSORS
+
+ANNEX
+
+Part 35 Is Intended to limit the use of oral expert evidence to that which is reasonably required.
+In addition, where possible, matters requiring expert evidence should be dealt with by a single
+expert. Permission of the court is always required either to call an expert or to put an expert’s
+report in evidence. There is annexed to this Practice Direction a protocol for the instruction of
+experts to give evidence in civil claims, Experts and those Instructing them are expected to have
+regard to the guidance contained in the protocol,
+
+EXPERT EVIDENCE — GENERAL REQUIREMENTS
+
+1.1. It is the duty of an expert to help the court on matters within his own
+expertise: rule 35.3(1). This duty Is paramount and overrides any obligation
+to the person from whom the expert has received instructions or by whom he
+is paid: rule 35.3(2),
+
+http://wunw,dea.gov.uk/civil/procrules_fin/contents/practice_directions/pd_part35.htm —_ 18/11/2005
+
+FUJ00152573
+FUJ00152573
+
+Gand UD 14:40 FAA UEUTO4LOZB0 COMMEKCIAL TEAM Bes
+
+PRACTICE DIRECTION — EXPERTS AND ASSESSORS - This Practice Direction... Page 2 of 4
+
+1.2 Expert.evidence should be the independent product of the expert uninfluenced
+by the pressures of litigation.
+
+1.3 An expert should assist the court by providing objective, unbiased opinion on
+matters within his expertise, and should not assume the role of an advocate.
+
+1.4 An expert should consider all material facts, Including those which might
+detract from his opinion.
+
+1.5 An expert should make it clear:
+(a) when a question or Issue falls outside his expertise; and
+
+(b) when he Is not able to reach a definite opinion, for example because he
+has insufficient information.
+
+1.6 If, after producing a report, an expert changes his view on any material
+
+matter, such change of view should be communicated to all the parties
+without delay, and when appropriate to the court.
+
+FORM AND CONTENT OF EXPERT'S REPORTS
+
+2.1 An expert's report should be addressed to the court and not to the party from
+whom the expert has received his instructions.
+
+2.2 An expert's report must:
+(1) give detalls of the expert's qualifications;
+
+(2) give details of any literature or other materlal which the expert has relied
+‘on In making the report;
+
+(3) contaln a statement setting out the substance of all facts and instructions
+given to the expert which are material to the opinions expressed in the
+report or upon which those opinions are based;
+
+(4) make clear which of the facts stated In the report are within the expert's
+own knowledge;
+
+(5) say who carried out any examination, measurement, test or experiment
+which the expert has used for the report, give the qualifications of that
+Person, and say whether or not the test or experiment has been carried
+out under the expert's supervision;
+
+(6
+
+where there Is a range of opinion on the matters dealt with in the report —
+(8) summarise the range of opinion, and
+
+(b) give reasons for his own opinion;
+
+(7) contain a summary of the conclusions reached;
+
+(8) if the expert Is not able to give his opinion without qualification, state the
+qualification; and .
+
+(3) contain a statement that the expert understands his duty to the court, and
+has compiled and will continue to comply with that duty.
+
+http:/Awww.dea.gov.ul/civiV/procrules_fin/contents/practice_directions/pd_part3S.htm 18/11/2005
+
+FUJ00152573
+FUJ00152573
+
+£4742 U0 LLizD FAA UZU/3416288 COMMERCIAL TEAM Mea
+PRACTICE DIRECTION — EXPERTS AND ASSESSORS - This Practice Direction... Page 3 of 4
+
+2.3 An expert's report must be verified by a statement of truth as well as
+containing the statements required in paragraph 2.2(8) and (9) above.
+
+2.4 The form of the statement of truth is as follows;
+"I confirm that Insofar as the facts stated in my report are within my own
+knowledge I have made clear which they are and I belleve them to be true,
+and that the opinions I have expressed represent my true and complete
+professional opinion.”
+
+2.5 Attention is drawn to rule 32.14 which sets out the consequences of verifying
+a document containing a false statement without an honest belief in its truth.
+
+(For information about statements of truth see Part 22 and the practice
+direction which supplements It.)
+
+INFORMATION
+
+3 Under Rule 35.9 the court may direct a party with access to Information which
+Is not reasonably available to another party to serve on that other party a
+document which records the information. The dacument served must include
+sufficient details of all the facts, tests, experiments and assumptions which
+underlie any part of the information to enable the party on whom it is served
+to make, or to obtain, a proper interpretation of the information and an
+assessment of its significance.
+
+a
+
+INSTRUCTIONS
+
+4 The Instructions referred to In paragraph 2.2(3) will not be protected by
+privilege (see rule 35,10(4)), But cross-examination of the expert on the
+contents of his instructions will not be allowed unless the court permits it (or
+unless the party who gave the instructions consents to it). Before it gives
+permission the court must be satisfied that there are reasonable grounds to
+consider that the statement in the report of the substance of the instructions
+is inaccurate or Incomplete, If the court Is so satisfled, It will allow the cross-
+examination where It appears to be in the interests of justice to do so.
+
+a
+
+QUESTIONS TO EXPERTS
+
+5.1 Questions asked for the purpose of clarifying the expert’s report (see rule
+35,6) should be put, In writing, to the expert not later than 28 days after
+receipt of the expert’s report (see paragraphs 1.2 to 1.5 above as to
+verification).
+
+5.2 Where a party sends a written question or questions direct to an expert, a
+copy of the questions should, at the same time, be sent to the other party or
+parties,
+
+5.3 The party or parties instructing the expert must pay any fees charged by that
+expert for answering questions put under rule 35.6. This does not affect any
+decision of the court as to the party who is ultimately to bear the expert’s
+costs.
+
+http://www, dea. gov.uk/civil/procrules_fin/contents/practice_directions/pd_part3S.htm 18/11/2005
+
+FUJ00152573
+FUJ00152573
+Za/4h (U5 11:25 FAA UZU78416286 COMMERCIAL TEAM M25
+
+.’ PRACTICE DIRECTION ~- EXPERTS AND ASSESSORS - This Practice Direction... Page 4 of 4
+
+a
+
+SINGLE EXPERT
+
+6 Where the court has directed that the evidence on a particular Issue Is to be
+given by one expert only (rule 35.7) but there are a number of disciplines
+relevant to that issue, a leading expert in the dominant discipline should be
+identified as the single expert. He should prepare the general part of the
+report and be responsible for annexing or incorporating the contents of any
+reports from experts In other disciplines.
+
+a
+ORDERS
+6A Where an order requires an act to be done by an expert, or otherwise affects
+an expert, the party Instructing that expert must serve a copy of the order on
+the expert instructed by him. In the case of a jointly instructed expert, the
+claimant must serve the order.
+a
+ASSESSORS
+
+7.1 An assessor may be appointed to assist the court under rule 35.15. Not less
+than 21 days before making any such appointment, the court will notify each
+party in writing of the name of the proposed assessor, of the matter In respect
+of which the assistance of the assessor will be sought and of the qualifications
+of the assessor to give that assistance.
+
+7.2 Where any person has been proposed for appointment as an assessor,
+objection to him, either personally or in respect of his qualification, may be
+taken by any party.
+
+7.3. Any such objection must be made in writing and filed with the court within 7
+days of receipt of the notification referred to In paragraph 6.1 and will be
+taken Into account by the court in deciding whether or not to make the
+appointment (section 63(5) of the County Courts Act 1984).
+
+74 Coples of any report prepared by the assessor will be sent to each of the
+partles but the assessor will not give oral evidence or be open to cross-
+examination or questioning.
+
+ANNEX
+
+Protocol for the Instruction of Experts to give Evidence in Civil
+Claims
+
+PDE
+Civil Matters Page DCA Homepage CPR Homepage Search
+
+© Crown Copyright 2001
+
+http://www.dca.gov.uk/civil/procrules_fin/contents/practice_directions/pd_part35.htm —_ 18/11/2005
+
