@@ -298,7 +298,8 @@ def parse_transcript(url, text):
 
         # Questions
         m = re.match('(?:Further question|Question|Examin)(?:s|ed) (?:from|by) (.*?)(?: \(continued\))?$', line.strip())
-        if m:
+        ignore = ('Questions from MPs on this issue.  None of these seemed',)
+        if m and line.strip() not in ignore:
             yield speech
             speech = Section( heading=fix_heading(line), level=2)
             interviewer = fix_name(m.group(1))
@@ -386,8 +387,8 @@ def parse_transcript(url, text):
 def fix_name(name):
     name = name.title()
     name = name.replace('Qc', 'QC').replace('Kc', 'KC')
-    name = name.replace(' Of ', ' of ') # .replace(' And ', ' and ').replace('Dac ', 'DAC ') \
-    #     .replace('Ds ', 'DS ')
+    name = name.replace(' Of ', ' of ')
+    name = name.replace('The Right Honourable ', '').replace(' Mp', '')
     # Deal with the McNames
     name = re.sub('Mc[a-z]', lambda mo: mo.group(0)[:-1] + mo.group(0)[-1].upper(), name)
     #s = name_fixes.get(s, s)
