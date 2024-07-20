@@ -3,6 +3,12 @@
     line-height: 1.5;
 }
 
+/* Correct colouring */
+.wy-side-nav-search label {
+    color: #fcfcfc;
+    display: inline;
+}
+
 /* My sign-off */
 .right {
     text-align: right;
