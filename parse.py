@@ -143,7 +143,7 @@ def parse_transcripts():
                 level1_heading = []
                 for speech in speeches:
                     if isinstance(speech, Section) and speech.level == 1 and sect != 'human-impact-focus-group':
-                        words = [s for s in speech.heading.split(' ') if s not in ('Mr', 'Mrs', 'Ms', 'Dr', 'Sir', 'Lord')]
+                        words = [s for s in speech.heading.split(' ') if s not in ('Mr', 'Mrs', 'Ms', 'Dr', 'Sir', 'Lord', 'Baroness')]
                         if (len(words) == 2 or (len(words) == 4 and words[2] == 'of')) and 'Housekeeping' not in words:
                             level1_heading.append(' '.join(words))
                 if level1_heading:
@@ -402,6 +402,7 @@ def fix_name(name):
     name = name.replace('Richard Atkinson', 'Duncan Atkinson')
     name = name.replace('William Patterson', 'Paul Patterson')
     name = name.replace('Angela Bogerd', 'Angela van den Bogerd')
+    name = name.replace('Sir John Cable', 'Sir Vince Cable')
     return name
 
 def fix_heading(s):
