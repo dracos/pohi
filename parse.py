@@ -307,7 +307,7 @@ def parse_transcript(url, text):
 
         # Headings
         m = re.match('Focus Group Session [34]$|Housekeeping$|([A-Z ]*)$|Announcement re |Decision$', line.strip())
-        ignore = ('IDENTIFYING THE UNDERLYING ROOT CAUSE OF THE',)
+        ignore = ('IDENTIFYING THE UNDERLYING ROOT CAUSE OF THE', 'ASK FOR HIS MEDIA STATEMENT WITHOUT OFFERING TO SHARE')
         if m and line.strip() not in ignore:
             yield speech
             speech = Section( heading=fix_heading(line) )
