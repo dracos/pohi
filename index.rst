@@ -41,6 +41,7 @@ Contents
 .. toctree::
    :maxdepth: 3
 
+   phase-7/index.rst
    phases-5-6/index.rst
    phase-4/index.rst
    disclosure-issues-hearing/index.rst
