@@ -87,7 +87,7 @@ def parse_speech(speech):
     text = re.sub('(So Andrew Wise had accessed an email in order to answer a )(Freedom of Information request)', r'\1`\2 <https://www.whatdotheyknow.com/request/post_office_investigations_compl>`_', text)
 
     # Link to some judgments
-    text = re.sub('(Horizon Issues [Jj]udgment)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_', text)
+    text = re.sub('(Horizon Issues [Jj]udgments?)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_', text)
     text = re.sub('(Common Issues [Jj]udgments?)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_', text)
     text = re.sub('(Hamilton [Jj]udgment|Hamilton (&|and) [Oo]thers)', r'`\1 <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_', text)
 
