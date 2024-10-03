@@ -1,0 +1,2036 @@
+.. raw:: html
+
+   <a id="hearing-link" href="https://www.postofficehorizoninquiry.org.uk/hearings/phase-7-2-october-2024">Official hearing page</a>
+
+2 October 2024  – Christopher Brocklesby
+========================================
+
+*(10.04 am)*
+
+**Ms Price**: Good morning, sir, can you see and hear us?
+
+**Sir Wyn Williams**: Yes, thank you.
+
+**Ms Price**: Sir, before we proceed to call Mr Brocklesby, there's just one short matter of evidence I wonder if I might raise.
+
+**Sir Wyn Williams**: Yes.
+
+**Ms Price**: There are two short statements from witnesses who will not be required to give oral evidence but which relate to the evidence of Mr Staunton, and which I'd like to read into the record, please.
+
+**Sir Wyn Williams**: Yes.
+
+**Ms Price**: The first is from Benjamin Tidswell, a Non-Executive Director of Post Office Limited, and the reference for that is `WITN11290100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11290100-benjamin-tidswell-witness-statement>`_.
+
+The second is from Marianne Tutin, a barrister.  The reference is `WITN11620100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11620100-marianne-tutin-witness-statement>`_.
+
+**Sir Wyn Williams**: Thanks very much.
+
+**Ms Price**: Thank you, sir.  With those documents read in, may we please call Mr Brocklesby.
+
+**Sir Wyn Williams**: Of course.
+
+Christopher Brocklesby
+----------------------
+
+*CHRISTOPHER WILLIAM BROCKLESBY (affirmed).*
+
+Questioned by Ms Price
+^^^^^^^^^^^^^^^^^^^^^^
+
+**Ms Price**: Can you confirm your full name please, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Christopher William Brocklesby.
+
+**Ms Price**: Thank you for coming to the Inquiry to assist it in its work.  As you know, my name is Emma Price and I ask questions on behalf of the Inquiry.
+
+You should have in front of you a hard copy of a statement provided by you to the Inquiry; do you have that?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I do.
+
+**Ms Price**: It is dated 16 August this year.  If you could turn please to page 25, do you have a copy with a visible signature?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I do.
+
+**Ms Price**: Is that your signature?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It is.
+
+**Ms Price**: Are the contents of that statement true to the best of your knowledge and belief?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: They are.
+
+**Ms Price**: That witness statement, for which the reference is `WITN11350100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11350100-chris-brocklesby-witness-statement>`_, is now in evidence and will be published on the Inquiry's website in due course.
+
+I'd like to start, please, with your professional background and the role you held with the Post Office until recently.  As you set out in you statement, you have a first class BSc in chemical engineering; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: Upon graduating you embarked upon a career in IT?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: That career has spanned 26 years to date?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Unfortunately, 36 years, I think!
+
+**Ms Price**: 36 years, forgive me.  That is my error.  And has included Chief Information Officer roles for companies including Tesco Bank, easyJet, Vodafone UK, and Dunelm; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: Is it right that at Vodafone UK in particular, your IT responsibilities included a large transformation programme to consolidate multiple legacy systems?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That is correct, yes.
+
+**Ms Price**: Is it right that you joined the Post Office in August 2023 as Chief Transformation Officer?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: You were in this role until 6 September this year?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: Is it right that in this role you were a member of the Strategic Executive Group responsible for IT, including the delivery of the subpostmaster programme which is to replace the Horizon system?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: The new system intended to replace the Horizon system will be known as the New Branch IT System; is that correct?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: As CTO, you were accountable for the day-to-day operation of Horizon from a Post Office perspective --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: -- although you say the service is still mostly outsourced to Fujitsu?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: You explain at paragraph 9 of your statement that you were also responsible for all change activities on the Horizon system?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Could we have that paragraph on screen, please.  It's page 3 of `WITN11350100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11350100-chris-brocklesby-witness-statement>`_.
+
+So those change activities you list in this way:
+
+"a) the regular Horizon software releases which include defect fixes and enhancements for postmasters
+
+"b) implementation of the `Horizon Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ recommendations and improvements
+
+"c) infrastructure upgrades to reduce operational risk (known as Datacentre Fortification), and
+
+"d) projects to re-architect components of the Horizon system to bring them into [Post Office Limited] control and support."
+
+Starting with (d), please, are the components being brought under Post Office control and support those which you identify at paragraph 8 of your statement, so namely those which interface with third party partners, such as banks and the Royal Mail Group.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct, yes.
+
+**Ms Price**: Is it right that one of the reasons for this work was to minimise the impact of migrating from Horizon to the new system?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: So it was progressing, was it, alongside the work to delivery the New Branch IT System?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: Turning, then, to (b), at the top of this page, and just for the moment in terms of the parameters of your responsibility in this area, what type of recommendations and improvements arising from the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ fell within your remit?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Most of the HIJ Remediation Programme, which had been running for a number of years, had been completed by the time I arrived at the Post Office.  There was still Phase 3 of that programme running but to call out a couple of specific items that were left, there was an improvement for postmasters called autostop rem in, which was an improvement allow a much better process for postmasters to accept stamps into their branches and hence removing one of the causes of defects when those stamps are booked in incorrectly.
+
+.. rst-class:: indented
+
+And another was bringing the transactional database, which is used for some data enquiries, under the -- re-architecting it and bringing it under Post Office control.
+
+**Ms Price**: You describe the team structure for Horizon work at the Post Office at paragraph 10 of your statement.  You had a full-time IT Director reporting to you --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: -- Simon Oldnall --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: -- who you say was responsible for all Horizon work at the Post Office; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: He had a team of 45 people who managed the service provided by Fujitsu through six different functions, which you set out here in the paragraph (a) to (f); is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: To what extent were you involved in the actual work of those functions, as opposed to Mr Oldnall reporting to you on that work?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Most of the work was delegated to Simon Oldnall.  I had fortnightly one-to-ones with Simon to review the progress of the work that was being undertaken on Horizon but, as it was only one component of my responsibilities, it was -- that was my main interaction with the work.
+
+**Ms Price**: You address the monthly governance meeting between the Post Office and Fujitsu at paragraph 12 of your statement.  These were led by Mr Oldnall from the Post Office side and Dan Walton from the Fujitsu side; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's right.
+
+**Ms Price**: Did you attend those meetings?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Not as a matter of course.  I did attend, I think, one or two meetings when I first joined the Post Office, to make sure I understood what was being discussed.
+
+**Ms Price**: Were there any times when you were requested to attend those meetings for any specific issues?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't believe so, no.
+
+**Ms Price**: Did Mr Oldnall report back to you on key points from the meetings?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: That statement can come down now.  Thank you.
+
+Is it right that you joined the Post Office Strategic Executive Group as soon as you started as Chief Transformation Officer?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: You also became a member of the Improvement Delivery Group, which you address at paragraph 22 of your statement.  Can we have that on screen, please, it's page 7.  You, say there that the group had the remit of:
+
+"... addressing past failings, responding to current issues, driving operation and cultural change and rebuilding trust with postmasters.  The committee assessed progress on topics such as postmaster induction and training, shortfall in discrepancies, suspensions and terminations.  It also assessed the progress of addressing the [`Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_] findings within Horizon.  This gave me insight into the issues of the past and the action plans to address those issues."
+
+You say you were also the SEG sponsor for the HIJ Remediation Programme, which had the remit of implementing changes to the Horizon system in order to address specific recommendations, and that was a fortnightly meeting for that group chaired by the CEO. You say there that this was:
+
+"... a challenging environment in which [Post Office] leaders were challenged on progress and pace."
+
+Who was doing the challenging and who was being challenged?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Each individual component that was being scrutinised was led by a member of the leadership team and they presented their progress.  Most of the challenging was coming from Nick Read, the Chief Executive.
+
+**Ms Price**: What was your impression when you took up the two roles we've just looked at of progress which had been made by the Post Office, in addressing specific recommendations from the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: My impression was that the scope was very broad, clearly a lot of individual topics that were being discussed, and that lot of change was being made and had been made to the way that Post Office operated, and that was making a material difference.
+
+**Ms Price**: Can you recall an example of a point on which Post Office leaders were challenged at meetings?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I can't.
+
+**Ms Price**: Although the remit of the `Horizon Issues Judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ Remediation Programme went wider, is it right that your role was limited to ensuring the implementation of the judgment in so far as it applied to the operation of Horizon?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: With that in mind, I'd like to ask you, please, about some of the changes you deal with at paragraph 38 of your statement.  Could we go to that, please.  It's page 12.  Focusing on the changes which are, on their face, directly relevant to the operation of Horizon, and starting with (e), you say:
+
+"There is now much more support for postmasters with discrepancies.  This includes a 'Dispute button' which postmasters use to relied that they need help and a 3-tier support process to analyse and identify the root cause of discrepancies.  My team work with the [Post Office] Retail to support Postmasters during these investigations."
+
+How does the Dispute button work?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: My understanding is it's an opportunity for postmasters to ask for help.  So it is literally a part of the Horizon application, which they can -- one they can press and basically say, "I need help with what I -- either my weekly or monthly reconciliation".
+
+**Ms Price**: Who is alerted to the need for help once the button is used?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: The Branch Support Team within the Retail area of Post Office.
+
+**Ms Price**: Is that a Post Office support function?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: How is the dispute resolved?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's not an area directly within my remit, so I can't give a lot of detail on the process that team go through to resolve the discrepancies.
+
+**Ms Price**: You say at paragraph 6 of your statement that support is largely outsourced to Fujitsu.  Can you help, please, with the three tiers and which aspects of that are held by Post Office and which aspects are held by Fujitsu?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I believe all three tiers are held by Post Office, the branch support team, the Network Support Team, which I believe is a more expert function in terms of trying to resolve discrepancies, and the third tier would involve my team trying to work with the Retail team to resolve anything that remains after those first two investigations.
+
+**Ms Price**: In what sort of circumstances would your team be asked to get involved?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: When the root cause of a discrepancy hadn't been discovered or understood by the previous two teams.
+
+**Ms Price**: How frequently, in the year you were there, were your team called on in those circumstances?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know.
+
+**Ms Price**: Are there any different helplines or lines of support run by Fujitsu available to postmasters?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't believe so.
+
+**Ms Price**: I should ask first: is there a Post Office helpline that is utilised as part of this support for subpostmasters?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, the Branch Support Team.  There's also -- for IT issues, there is an IT Helpdesk that postmasters can call.
+
+**Ms Price**: Are regular reports produced summarising the issues being raised by postmasters on the helplines?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I understand they are included in the retail dashboard which is something -- a report that is put together by the Retail Team on a monthly basis and it goes to both the Executive and the Board.
+
+**Ms Price**: How is that retail dashboard considered or analysed at those levels?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I can't speak for the Board because I'm not a member of the Board.  At the Exec Team it's part of our monthly agenda and it's open to scrutiny by the Executive Team and they can ask any questions during that meeting.
+
+**Ms Price**: You say at paragraph 12(b) of your statement that:
+
+"Defect reporting was a standing agenda item at the monthly Post Office and Fujitsu governance meetings."
+
+Does discussion of this topic at those meetings include an analysis of the subpostmaster issues raised with either Post Office or Fujitsu regarding software?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I'm not sure I understand the question.  There is a review of any new defects that have been raised -- defects can be raised by either Post Office or Fujitsu -- and a review of where there are changes to be made as a consequence of that defect being raised, a review of progress to resolve that defect.
+
+**Ms Price**: My question is really where the issue is raised by a subpostmaster but it hasn't necessarily been reported as a defect or recognised as such by Fujitsu or Post Office.  Is that something that would come to the table to be discussed?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't believe so, no.
+
+**Ms Price**: Can you help at all with who is responsible for helpline oversight; would that have been Mr Oldnall or someone else?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: So the Business Support Team has oversight from the Retail function and the IT support line has oversight from IT.  I have a separate IT -- I did have a separate IT Director, Mark Nash, who is responsible for the IT Helpdesk.
+
+**Ms Price**: Looking again, please, at the changes you list at paragraph 38 of your statement towards the bottom of page 12, and this time at (h), you say there is:
+
+"More openness on Horizon directs.  Any defect with a possibility of having financial impact to postmasters is posted on Branch Hub (the postmaster communication portal) and resolution is updated.  This area is something which sits directly within my remit.  There is also monthly SEG and Board reporting on Horizon defects."
+
+Dealing with the Hub, first of all, how do you measure, if at all, subpostmaster engagement with the Hub?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: We have stats on a monthly basis, in terms of the number of log-ins to Branch Hub, which has been consistently going up since it was introduced.
+
+**Ms Price**: Are subpostmasters able to feed into the Branch Hub when they have relevant experiences of problems with Horizon?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I believe that they can raise an incident on Branch Hub, yes.
+
+**Ms Price**: Is the Branch Hub and the information on it looked at by those involved in suspensions, terminations and recovery of shortfalls, as far as you can say?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I am not aware of whether they look at that or not.
+
+**Ms Price**: Is any learning from the Hub used to inform the development of the New Branch IT System?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I can't see an obvious correlation.  I mean, in terms of specific defects, yes, they are analysed to make sure that clearly that they're not -- nothing equivalent to them is included in the design of NBIT.  So specifically related to defects, yes.
+
+**Ms Price**: The statement can come down now.  Thank you.
+
+You refer in your statement to monthly Strategic Executive Group and Board meetings reporting on Horizon defects.  Who provides the reports on this topic at SEG and Board level?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Ultimately, it was myself that provided the information from the Horizon team but I provided that into the -- I would review it and then provide it to CoSec for the inclusion in the SEG meetings.
+
+**Ms Price**: To what extent were these reports discussed or challenged at SEG and board meetings?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Again, I wasn't a member of the Board meeting but I've never been asked specifically, I don't believe, at a board meeting.  But, now and again, I would be asked a question on the -- it wasn't just about defects.  The tech dashboard had a number of pieces of information in terms of remote and privileged access, defects, number of incidents, et cetera.  So I would receive some questions from fellow SEG members on a monthly basis.
+
+**Ms Price**: You say in your statement that there is nobody on the Board with IT experience.  How does this impact upon the ability of the Board, critically, to assess reports on Horizon defects, in your view?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't think it would -- on that specific topic, it would have much impact because they, I'm sure, are able to analyse a trend in terms of whether there was a material increase in defects and/or -- or progress in terms of resolving those defects based on the data that they were presented on a monthly basis.  So I don't think, in terms of that aspect, that it would have had an impact.
+
+**Ms Price**: What aspects did it have an impact on?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I think in terms of the broader discussions on technology, specifically on progress, on projects and programmes such as the SPM programme, which is delivering the new NBIT application, it's quite difficult to engage the Board in a detailed conversation, and I think the consequences would typically be -- and I refer to this in my statement -- a risk aversion to how that progress is being made.
+
+**Ms Price**: When you say "risk aversion", how does that manifest?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Well, I think, whether it be Board or ARC, if you're not familiar with systems development and IT programme delivery, when it comes to topics, such as -- the current status of NBIT is that it's been piloted in a small number, I think five directly managed branches. I think in a discussion as to progress and readiness, people who are not used to the topic tend to want a level of perfection that is actually detrimental to the ultimate quality of the product because a beta version of software or a pilot of software is there to test the software in the real world and, by definition, it won't be perfect.
+
+.. rst-class:: indented
+
+It needs to be good enough but it won't be perfect and that level of real-world experience means that the ultimate end product would be of higher quality and better for postmasters.  So those types of topics are difficult to engage in, if you've not been involved in project delivery before.
+
+.. rst-class:: indented
+
+Also, there's expert domain such as security, which is a hot topic in any organisation, which relies on IT systems, which, again, it's a technical topic.  So getting that balance -- the discussion as to how quickly to remediate security issues, how much money to spend is a difficult one to engage when people who are not familiar with that topic.
+
+**Ms Price**: Given the history of the issues being investigated by the Chair in this Inquiry, do you think there should be someone on the Board with IT experience?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I think in other boards that I've interacted with, that's been more and more of a theme, where there's been a specific NED role which has been a digital or data NED, that's been recruited to various boards.
+
+**Ms Price**: I'd like to turn, please, to the current Post Office approach to the recovery of shortfalls.  Could we have on screen, please, paragraph 73 of Mr Brocklesby's statement, that's page 22.  At paragraph 73, you are commenting on an article in The Times from February of this year, and you say this:
+
+"Specifically in relation to the suggestion that 'there is a prevailing culture that postmasters continue to be "guilty"', this is, again, not a culture that I recognise.  For example, the way that discrepancies are now handled by [Post Office] is unrecognisable from the procedures of the past.  Postmasters are given the benefit of the doubt and unexplained losses are not pursued by [Post Office Limited]."
+
+With that in mind, I'd like to ask you, please, about a document from July of this year.  It's POL00448520.  Could we have that on screen, please.
+
+These are the minutes of a Post Office Limited SEG tactical meeting, dated 17 July 2024, which record you having been in attendance.  The minutes noted discussion regarding branch discrepancies and loss recovery.  Some background is given, starting at the third sub-bullet point down:
+
+"By way of background, SEG noted that following the recommendations made in the GLO and CIJ in 2018/19, [Post Office Limited] had ceased action to recover established losses from postmasters."
+
+Then the next bullet down:
+
+"This activity had been hold since this time, except where a postmaster both agreed to repay the established loss and proceeded to repay under a process established in 2021 to identify and resolve discrepancies arising mainly during trading period balancing; this process was documented and regularly assured by the Assurance and Complex Investigation Team."
+
+The bullet under that:
+
+"A key consideration was whether Horizon transaction data might be a cause to of the discrepancy."
+
+Then, going over the page, please, there is an explanation of the thinking behind the voluntary recovery/repayment process, and that's the third bullet down.  It says:
+
+"The voluntary recovery/repayment process was predicated on Horizon data being robust and that [Post Office Limited] could rely on the data; [Post Office Limited] was currently awaiting confirmation from both [Post Office Limited] IT and Fujitsu and that this was the case and this would be a key prerequisite to any process that sought recovery in circumstances where the postmaster did not voluntarily agree."
+
+The minutes then record the SEG considering the options for the process going forward:
+
+"SEG considered the options ... and the associated pros and cons.  The options were to:
+
+"Maintain the current situation.
+
+"Maintain the current situation and communicate this as a policy decision to postmasters.
+
+"Cease all future recovery of losses.
+
+"Seek recovery of established losses via a civil means/deduction from remuneration, following an agreed, defined process with an external review board that would make the final recovery decision."
+
+The prerequisites included the process involving an external board, on this representative postmasters would sit, and, towards the bottom of the page, the penultimate line the prerequisites would include, critically, "assurance on Horizon data"; do you see that, highlighted there?
+
+With your insight gained from your role in implementing the recommendations of the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_, do you think that Post Office's voluntary recovery/repayment process should be predicated on Horizon data being robust?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I do.
+
+**Ms Price**: Can you explain why?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Well, it provides the foundation for the -- for the discussion and investigation around whether there's a discrepancy and the size of that discrepancy.  All of that information comes from Horizon.
+
+**Ms Price**: The prerequisite for the proposed recovery plan was said to be assurance on Horizon data.  Is that referring to a general assurance that Horizon data is reliable?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I believe so, yes.
+
+**Ms Price**: From whom was that being sought?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Specifically, Simon Oldnall.
+
+**Ms Price**: Was Simon Oldnall in a position to give that kind of assurance?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Clearly, this is a topic that we've discussed around the SEG table many times.  I don't think any IT professional can give a guaranteed assurance of the integrity of data on any IT system, but what Simon can do -- and I think this meeting particularly included a couple of new members of the Executive Team that hadn't been previously involved in discussions around discrepancies, and were unaware of the work that had previously been done around the HIJ Remediation Programme.
+
+.. rst-class:: indented
+
+So what Simon was being asked to do was to restate and remind SEG of all the work that had been done to improve the Horizon system, to remove known defects and, therefore, improve the quality of the underlying data.
+
+**Ms Price**: Given the history of Horizon issues and, in particular, assurances given in the past that Horizon was robust in a number of contexts, did you have any concerns about this prerequisite or general assurance and what that might lead to?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I didn't have any concerns about the data itself. These conversations can be frustrating when some members of SEG want an absolute guarantee provided by IT, because I -- as I've just previously stated, it's very difficult to provide an absolute guarantee, but to assert all the work that's been done to improve the situation, to assert the remaining defects that are outstanding and how they don't impact postmasters specifically, or only impact a small number of kind of edge cases, and the fact that the system supports a very large branch network, 7 million transactions a day, which are concluded successfully.
+
+**Ms Price**: Did you agree that the correct way forward was to seek recovery of established losses by civil means or deduction from remuneration, with the prerequisites that were set out in the minutes?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I did.  I mean, I -- clearly within my role, I am not responsible for the processes around those investigations, discussions with postmasters, so I don't have full insight in terms of the process of reviewing discrepancies but, based on what I'd heard and the confidence I had in Horizon, yes.
+
+**Ms Price**: What was your view on the alternative option that was listed of a form of losses pool to which all postmasters contributed, and from which repayments would be made?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Sorry, could you ask me that question again?
+
+**Ms Price**: Yes, well, we can look at it.  So there was reference underneath the bullet points we've just looked at:
+
+"SEG discussed a number of other alternatives including:
+
+"Some form of 'losses' pool, to which all postmasters contributed and from which repayments would be made."
+
+What was your view on that, as to whether that was an appropriate recovery method?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Again, it's somewhat outside of my experience and responsibilities but it appeared to me that that wouldn't be a fair way forward in terms of all postmasters contributing.  There's obviously a range of postmasters, their experience and the status of their accounts.  So it didn't feel as though that was a fair way forward, to me.
+
+**Ms Price**: By the time you left the Post Office, what stage had decision making reached on the way forward in terms of loss recovery?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't believe this had come back to SEG for further discussion.
+
+**Ms Price**: Had any assurance been given on Horizon data in general terms by that point?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I'm not aware.  There is a working group that was pulled together -- Simon Oldnall was the IT representative on that Working Group -- but I'm not aware of the progress that was being made.
+
+**Ms Price**: Do you remain of the view that the way discrepancies are now handled by the Post Office is unrecognisable from the procedures of the past?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, based on what I've heard reported at the Group Executive, yes.
+
+**Ms Price**: That document can come down now.  Thank you.
+
+I'd like to ask you, please, about some clauses in the subpostmaster contract, as amended in August 2020. Could we have that on screen, please.  It's POL00000254. It's page 32, please.  We can see, towards the bottom of the page, there are Post Office duties, and this is towards the bottom of page 32, please.  If we can go over the page, please.  Just towards the bottom there. Thank you.
+
+So this section deals with Post Office duties and, going over the page, please, starting at clause 20.3, this duty is set out:
+
+"Properly and accurately effect, record, maintain and keep records of all transactions effected using Horizon ..."
+
+Does a mechanism exist for monitoring the identification of, and payment of, shortfalls by subpostmasters?  So I'm not asking you about the interpretation of this clause but, just in terms of what this promises to do, is there a mechanism for monitoring the identification of, and payment of, shortfalls by postmasters?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I'm not aware of that level of detail.
+
+**Ms Price**: Just looking the next two clauses:
+
+"Properly and accurately produce all relevant records and/or explain all relevant transactions and/or any alleged or apparent shortfalls attributed to the Subpostmaster ..."
+
+Then 20.5:
+
+"Cooperate in seeking to identify the possible or likely causes of any apparent or alleged shortfalls and/or whether or not there was indeed any shortfall at all ..."
+
+Is the reason for all shortfalls, as a matter of practice, identified by the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Is your question is every single shortfall that's experienced from a postmaster --
+
+**Ms Price**: Well, starting with any that have been raised, that in issue.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Again, this is something that is the responsibility of the Business Support Team, rather than IT, but my understanding is not every shortfall is -- has a root cause.
+
+**Ms Price**: That document can come down now.  Thank you.
+
+Moving, please, to the role played currently by the Post Office in prosecutions.  Between May and July of this year, the CEOs of Post Office Limited and Fujitsu exchanged correspondence regarding the conduct of Post Office's investigations function.  I think you've had that correspondence sent to you by the Inquiry; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: You've had a chance to review that?  Could we have on screen, please, FUJ00243204.  This is a letter from Paul Patterson to Nick Read, dated 8 July 2024, seeking to bring to Mr Read's attention concerns concerning conduct exhibited by members of Post Office Limited.  The second paragraph says this:
+
+"I am glad that we both share a commitment to learn lessons from the Post Office Horizon scandal and to ensure that the appalling treatment of postmasters, and the miscarriages of justice that occurred, could never happen again.  That was the reason for my writing to you.  I was seeking to bring your attention concerning conduct exhibited by members of your organisation.
+
+"In simple terms, the Post Office is requesting that [Fujitsu Services Limited] give expert opinion evidence to be used in criminal proceedings against postmasters and post office workers."
+
+Enclosed to Mr Patterson's letter is an email chain between Simon Oldnall, so your direct report, John Bartlett and Fujitsu, dated between 11 April and 1 May. Could we have that on screen, please.  It's FUJ00243158. Starting on page 4, please, on 11 April, Mr Oldnall emailed Daniel Walton of Fujitsu, saying:
+
+"Dan
+
+"I understand from John that there have been some challenges with supporting an ongoing police investigation that involves a large sum of money.
+
+"I obviously understand broader context, but wanted reassure [sic] that [Post Office Limited] is supporting the police investigation and offering any and all assistance we can.  Can I ask that you help with any conversation that City of London Police need to have with Fujitsu Services Limited."
+
+Then on 19 April, Mr Bartlett replied in the chain. That's page 2, please.  Scrolling down, please.  The third paragraph down:
+
+"As the potential victim in this case, [Post Office Limited] would be grateful if you can provide me with contact details for either the equivalent person in Fujitsu (in the UK) to my role (ie in overall charge of investigations, or perhaps the Head of Security if you do not have a dedicated Investigation Team) or an appropriate person in your UK Legal Team.  I will then pass those details on to [City of London Police] who are looking to have a trilateral conversation with Fujitsu, [Post Office Limited] and [City of London Police].
+
+"It is impossible to overstate how important this is: I need to advise both the police and [Post Office Limited] as to the evidentially-established reliability (or not) of data that is being used every day in establishing outcomes with postmasters and, potentially, to be presented to the criminal justice system by the police and the three public prosecuting agencies.  The non-provision of relevant witness statements from [Post Office Limited] and Fujitsu will rightly be interpreted by the police and prosecutors as [Post Office Limited] and Fujitsu not having faith in the reliability of the data with the obvious outcome resulting."
+
+That document can come down now.  Thank you.
+
+Simon Oldnall reported to you.  Before it was sent to you by the Inquiry were you aware of this correspondence?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No.
+
+**Ms Price**: If you had seen it at the time you were in your role, would it have concerned you?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.  I mean, there are politics at play, clearly, in terms of people being careful about what they said and did with regards to Horizon.  But, yeah, it would have concerned me if Fujitsu were not able to provide some level of assurance, although I understood, as I said, that there are politics at play here, so they may not want to be providing that level of detail and assurance to law enforcement.
+
+**Ms Price**: Would it have concerned you that it was being requested by Post Office, that is, Fujitsu were being asked to give, in essence, expert evidence as to the reliability of a system with the history that this has?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It was probably naive to get involved but I think, you know, with the best of intent, people were trying to help the police force in their investigations.  So, with hindsight, probably should have let the police get on with it with Fujitsu.
+
+**Ms Price**: Were you aware at the time of Mr Oldnall's role in assisting the police with ongoing prosecutions of subpostmasters?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, not specifically.
+
+**Ms Price**: Do you think you should have been aware of that aspect of Mr Oldnall's work?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: From what I understand from the email conversation, this is one specific, significant case that the Met Police were pursuing.  I don't think -- I'm comfortable that Simon didn't feel it was necessary to raise this with me.
+
+**Ms Price**: I'd like to move, please, to progress on the New Branch IT System.  The Inquiry has received evidence that, although it was initially proposed that the New Branch IT System would be rolled out to enable the Post Office to exit its contract with Fujitsu for Horizon Support services by March 2025, delays in the development in rollout of the system have meant that the proposed start date for deployment of the system is now June 2026. Does that accord with your understanding at the point you left the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct, yes.
+
+**Ms Price**: Could we have on screen, please, BEIS0000776.  These are the minutes of a :abbr:`UKGI (UK Government Investments)` Post Office Limited quarterly shareholder meeting, dated 14 September 2023.  You were in attendance and are abbreviated to "CB" in the minutes.  Going to page 4, please.  Under item 5, "NBIT", so that's the New Branch IT System, isn't it?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: The fifth bullet point there:
+
+"CC asked about negotiations with Fujitsu.  CB ..."
+
+So is that you -- is that a reference to you, the initials "CB" there?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: "... outlined current arrangements with Fujitsu: support runs to March '25 while infrastructure expires in March '24.  A request to extent infrastructure to March '25 will come to the October Board.  The procurement strategy beyond March '25 will kick off early next year to extend those two contracts.  To date [Post Office Limited] has told Fujitsu that they would like a flexible agreement going forward without a precise end date, but Fujitsu would like to see a funded and well-planned SPMP so they know [Post Office Limited] is serious about replacement.  In short Fujitsu is happy to collaborate if they know [Post Office Limited] is working to get out."
+
+Just keeping that in mind, could we have on screen, please, FUJ00243299.  This is a letter from Fujitsu to you, dated 15 December 2023, and it refers to a request from Post Office Limited in November 2023 to extend the Horizon contract.  Fujitsu explains the various challenges to the feasibility of the continued delivery of the Horizon system and associated services.
+
+There was then a further letter on 3 July this year, from Fujitsu to Mr Oldnall.  Could we have that on screen, please.  It's FUJ00243301.  Starting at the third paragraph down, please.  There is this:
+
+"We have seen limited formal engagement from [Post Office Limited] to meaningfully progress the planning of exit at the Exit Date.  Post Office is instead focused on seeking to secure an extension and planning for exit to occur before the end of extended contract term."
+
+Then underneath:
+
+"The purpose of this letter is to escalate the position so that [Post Office Limited] engages proactively with [Fujitsu] to plan and prepare for [Post Office Limited] to take over the services that [Fujitsu] is due to cease providing on the Exit Date.  As discussed, [Post Office Limited] needs to assign an Exit Manager to prepare with [Fujitsu] an exit plan."
+
+Forgive me for going through that in some detail but it sets out a little the chronology of the piece.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: What was the status of the development of the replacement for the Horizon system on your departure from Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: So we had developed some software that was live in five branches supporting a subset of postmaster transactions, a pilot of the ultimate end software.  There was still a lot of software to be built and, hence, a two-year timescale, just under two-year timescale, to build out a full solution, that is not only across all of the transactions but includes a system that's performance secure, et cetera.
+
+.. rst-class:: indented
+
+But the fact that there was pilot software running in a branch used to serve real customers was a great start, but a long way to go in terms of the ultimate end goal of retiring Horizon.
+
+**Ms Price**: Do you think that the Post Office had in place a realistic plan for delivery of a replacement system on your arrival?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: On my arrival?
+
+**Ms Price**: Mm.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No.
+
+**Ms Price**: Can you elaborate as to why you say that's the case?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: On my arrival, the plan of record was that NBIT would be delivered and fully deployed by March 2025, and there was a lot of assumptions included in, yes, the Fujitsu relationship, other procurement deals, et cetera, that were built on the back of a March 2025 assumption.  But clearly, based on what I could see when I arrived, namely there was little to no software that had been delivered to date, that the software that had been built had a lot of work still to be done in terms of defects, an awful lot of work in terms of things like security, and, given the fact that there was a plan to deploy that software to 11,700 branches that would have taken two to two and a half years, if you work back from March '25 and if it takes two to two and a half years to deploy the software, then the software needs to have been ready by the time -- at the time when I arrived, and it clearly was not even close to being ready.
+
+.. rst-class:: indented
+
+So no, there was no credible plan to deliver a March '25 outcome.
+
+**Ms Price**: Did you encounter any challenges in delivering the replacement to Horizon programme?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I'm not sure I understand the question.  It's a complex, difficult programme to deliver.  So it's --
+
+**Ms Price**: Breaking it down as to what those challenges might have been, or starting from this position: did you put in place a plan for delivery of the replacement system on your arrival?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, there was a lot to do.  I think, as we've heard from previous witnesses, there wasn't one programme; there were two programmes: one that was building the software; and another programme that was looking at how to train postmasters to deploy the software into branch. That wasn't a credible and realistic set-up because the two programmes weren't interacting, talking, communicating and there was no integrated plan.
+
+.. rst-class:: indented
+
+The leadership of both of those programmes had left the Post Office, so there was a vacuum in terms of credible leadership and governance.  There was lots of issues in terms of the quality of the software that had been produced to date.  So there was lots to do.
+
+.. rst-class:: indented
+
+This was a remediation, this was a complete rebaselining of the programme plan.  This was a restructuring of the team.  This was removing 70 per cent of the people that are on the programme in order to regain control.  So, as part of that, there was a lot of remediation work to do but, in early 2024, we did then start to build out a new plan based on an understanding of where the programme was at that stage, which was the plan that you previously referred to, which has the software being built, tested, in real life, with postmasters, and ready to be deployed by the middle of 2026 and, ultimately, all postmasters and all branches being online by the end of 2028.
+
+**Ms Price**: That plan, having been put in place in early 2024, did you find any obstacles in relation to that plan, either because of issues with the governance of Post Office or otherwise?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Look, these things are hard to deliver, and that was always going to be my expectation that there would be issues along the way.  It's never going to be an easy ride.  I think we had subsequent reviews of the programme.  I think governance was an issue, in terms of too much governance.  There are a lot of stakeholders at Post Office, so getting quick decisions made at the right level is always a challenge.  I've already referred to risk aversion, which is difficult when you're trying to take considered risks as part of the development and ongoing deployment of the software.  And just finding out more issues from the past, which have to be remediated, along the way.
+
+.. rst-class:: indented
+
+So yes, there continually things that we needed to address as part -- and they will continue, in order for the programme to be successful.
+
+.. rst-class:: indented
+
+The other thing, I think, is the ongoing funding of the programme, which is very incremental, and so, you know, there's always a sense that the programme is funded for another few months, and then there's a lot of work to be done to get another piece of funding through from DBT, and ultimately HM Treasury.  That is a very difficult way to progress, when you're trying to motivate people for a two, three-year journey, when people know that we're only really formally funded for another few months, and then who knows what might happen?
+
+**Ms Price**: Were you aware of the challenges to the feasibility of the continued delivery of Horizon, which was referenced in the Fujitsu letter of 15 December, that we looked at when looking at that --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: -- chain of correspondence?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Were you aware of that at the time?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Was the Post Office Board aware of that at the time?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Was it right that, at that point, the Post Office had not assigned an Exit Manager to prepare an exit plan with Fujitsu?  So you will recall the later letter.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That is correct but Fujitsu were aware, and had been aware for some time, that we needed an extension.  There was no option but to extend Fujitsu Services because NBIT wasn't ready.  So, you know, we had been working with them on the ground at that stage for many months, working through what an extension would look like at a very detailed level, in terms of working through all the contract schedules and some of the terms and conditions.  So they knew that we were going to be asking for an extension, and those were ongoing conversations.
+
+.. rst-class:: indented
+
+So it was kind of, again, seen as slight game playing by Fujitsu to ask for an Exit Manager when they were very clear that there wouldn't be an exit in March '25.
+
+**Ms Price**: Were there any risks, from an IT perspective, arising from Horizon's end of service live status?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, there are risks of having infrastructure that is out of support or nearing, in terms of resilience, in terms of the risk of failure.  There had been a programme called "Datacentre fortification", which had spent a lot of money previously, and was, during my tenure, continuing to spend money to improve the standard of the infrastructure, to upgrade many components, but there were still specific components that needed further investment.
+
+.. rst-class:: indented
+
+That investment was understood, had been worked through with Fujitsu in terms of the cost -- potential costs and timescales, and all of those costs were included in the business case that we put forward to Treasury.
+
+.. rst-class:: indented
+
+So, alongside the costs for the delivery of NBIT, we were also asking for investment in the Horizon infrastructure in line with the risks and the requirements of Fujitsu, as they had identified.
+
+**Ms Price**: Was investment related to or to mitigate those risks forthcoming?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I mean, the conversations -- when we had approvals during my tenure, they included all the components that we sought and that included Fujitsu infrastructure.  The reason I hesitated was, of course, ultimately, because of this incremental nature of funding, not all of the investment that we were required, to mitigate those risks was ultimately -- you know, this is an ongoing process over discussions and incrementality.  So it was included in the approvals that we had been given to date but, ultimately, that wouldn't have funded full risk mitigation because there are future business cases that need to be approved to address those risks.
+
+**Ms Price**: Moving, please, to Project Willow.  Is it right that Project Willow relates to concerns which were raised about the New Branch IT System?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: The Inquiry understands that there are three strands to the investigation; is that your understanding?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I've only been aware of Willow2 and Willow3, I'm not aware of what Willow1 was.
+
+**Ms Price**: But there were three parts to it?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, that was my understanding.
+
+**Ms Price**: Could we have on screen, please, POL00448907.  This is an ad hoc A&CI Team report prepared by John Bartlett for the Board in August 2024.  This is a document that you've only seen very recently and, is it right, that you've only seen this for the first time this morning?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: We'll take this as slowly as we need to and, if you need any time to consider the text that I'm asking to look at, please do say?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Thank you.
+
+**Ms Price**: Could we go, please, to page 6.  This provides the background to Willow2.  It says:
+
+"Multiple sources of information indicated that there were potentially two heads of alleged concerns relating to the NBIT teams:
+
+"That information provided to GE and the CEO was presented in a skewed manner to prompt certain outcomes and so past decision making was flawed; and
+
+"[Secondly] That infosec elements of design and testing were 'turned off' due to pressure from contractors on those responsible for infosec in order to improve the speed of progression irrespective of the long-term impact on the reliability of the system."
+
+So just taking those two parts in turn, is that an accurate description of the first aspect of concern: that information provided to GE and the CEO was presented in a skewed manner, so past decision making was flawed; is that an accurate summary of what the concern was?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: What can you tell us about the circumstances in which that concern was raised and the response to it?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I was led to believe it was a whistleblower allegation. I know no more detail than that.
+
+**Ms Price**: In relation to the second aspect of this, was that raised in the same way; was that part of the same concern?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know.
+
+**Ms Price**: Okay.  Can you help, please, with what this concern might have been referring to, specifically in relation to turning off of some aspects of the design and testing to improve the speed of progression?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.  So when you're developing software, there is obviously aspects of the software that can be seen and can be demonstrated, ie the screens that a postmaster would use to serve a customer.  So they can be demonstrated to postmasters, to whomever would like to see them.  But, in order to provide a fully resilient piece of software that is fit for purpose to deploy to a very large retail network, there are a lot of unseen requirements.  Those would be things like security; performance, that it can not just work on one computer but indeed works on 25,000 counters; that it can be monitored so that the IT Team know when it's working and when it isn't.  So there are what would be called non-functional requirements that are behind the scene that are a very important part of delivering a full software solution.
+
+**Ms Price**: Can you help, please, with what aspect of the reliability of the system the concern related to; what was the concern about the impact?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Well, software, both the developed software and software -- the party software that is used has -- can have -- vulnerabilities, ie weaknesses that could be exploited in order to initiate some kind of cyber attack on the Post Office.  So it's important that those vulnerabilities are understood, and they are addressed before the software is rolled out to a material number of postmasters and is relied upon by Post Office, or else clearly there is an inherent risk of cyber threat.
+
+**Ms Price**: So the risk here, you're saying, is one of cyber threat?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Is there anything about that reference to the reliability of the system and the concern that was being raised that was relevant to accounting discrepancies or their potential?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I don't believe so, no.
+
+**Ms Price**: In terms of what was done about the concerns that were raised, it appears from the bullet below Pinsents and Grant Thornton were engaged to independently investigate; is that what happened?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, that's my understanding.  Grant -- Grant Thornton, I recognise.  Pinsents, I do not.
+
+**Ms Price**: Do you know what stage investigation had got to by the point at which you left the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, and I think I need to point out that the bullet point underneath suggests that I had SEG oversight of this investigation.  That wasn't my understanding.  So I certainly didn't -- I was aware of the investigation, I was interviewed by Grant Thornton as part of the investigation, but I certainly wasn't aware that I was the SEG owner.  I certainly didn't receive any status reports.  I see in the document later on that there are issues with Grant Thornton and their engagement. I wasn't aware of that.
+
+.. rst-class:: indented
+
+So on a number of occasions I would ask HR specifically what the status was and when it was due to complete, and was told that investigations were ongoing. So I don't recognise the statement that I had oversight in some way for the investigation, and I'm not sure it would have been appropriate.
+
+**Ms Price**: We'll come on to what may have been being referred to here in terms of you being conflicted.  We'll come back to that point but I just want to deal, first of all, with the substance of what was being said in that concern dealt with under background.  Do you consider that past decision making had been flawed because of the way that evidence or information had been presented?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't have specific reports in mind where I know for sure that there's a report to a Board or any other governance meeting where the reporting was overly positive or incorrect, or ignoring of issues with the programme.  However, as I already stated, the fact that the programme was continuing to report progress against a March 2025 date in early 2023 wasn't credible, in my mind, and therefore I can imagine that must have been the case but I don't have access to specific reports that would confirm that.
+
+**Ms Price**: Going, please, to page 8 of this document, this deals with Willow3, so the third limb of it, and it sets out the background in this way:
+
+"A&CI were asked to investigate an allegation that:
+
+"During a briefing to the Board on alternatives to the in-house built NBIT, that Chris Brocklesby allegedly misrepresented a possible alternative offered by a company called Escher; and
+
+"The true extent and completeness of the bid/offer by Escher to [Post Office Limited] was incorrectly discounted and suppressed as a viable alternative without broader consideration."
+
+Was this concern that had been raised discussed with you before you left Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, it was.
+
+**Ms Price**: Who discussed it with you?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: The third party that was investigating: Grant Thornton.
+
+**Ms Price**: Did you misrepresent an alternative proposal to the Board?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I didn't.
+
+**Ms Price**: Has an independent external investigator been engaged to support that Willow3 investigation; is that the company you were just referring to?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Do you know when it is anticipated to conclude its investigation?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I do not, no.
+
+**Ms Price**: That document can come down now.  Thank you.
+
+Sir, I have reached the end of a topic and I am about to turn to another.  Would that be a convenient moment for the morning break, please?
+
+**Sir Wyn Williams**: Certainly, yes.
+
+**Ms Price**: If we could have 15 minutes, I think that takes us to 11.35.
+
+**Sir Wyn Williams**: Certainly, fine.
+
+**Ms Price**: Thank you, sir.
+
+*(11.21 am)*
+
+*(A short break)*
+
+*(11.36 am)*
+
+**Ms Price**: Good morning, sir.  Can you still see and hear us?
+
+**Sir Wyn Williams**: Yes, thank you.
+
+**Ms Price**: Mr Brocklesby, I'd like to come next, please, to Project Phoenix and to Past Roles.  Could we have on screen, please, POL00448864.  These are the minutes of an SEG meeting which took place in March 2024, which you attended.
+
+Going to page 3, please.  Under the heading "3.1 Past Roles", there is this at the first two bullet points:
+
+"SR and NM spoke to the paper which set out a recommendation on the approach to be taken in relation to the Past Roles Review and staffing in the RU in the light of the change in operational context and political environment.
+
+"As a reminder, the Past Roles Review had been commissioned to look at the roles and activities of current employees who may have previously undertaken a role related to the subject of the POHIT Inquiry, to examine whether any conflicts, or perception of conflict, arose."
+
+Did the Past Roles Review arise out of the Project Phoenix work?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I don't believe so.  I believe they were happening in parallel.  They were a separate scope.
+
+**Ms Price**: Were you involved in the Past Roles work, which was happening and is referred to here?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No.
+
+**Ms Price**: Having been present at this meeting, what was your understanding of what the change in operational context and political environment, referred to in the first bullet point, was a reference to?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I think this referred to the fact that this had been highlighted in the press and/or raised as an issue at Board meetings that there were still members of Post Office, particularly those in the RU, that had previously been involved in postmaster investigations.
+
+**Ms Price**: Were it not for the change in operational context at political environment, would this work have been progressed?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's difficult for me to say, as I really wasn't involved in the RU or discussions around those roles.
+
+**Ms Price**: There was a vote on how to proceed recorded on page 4, over the page, please.  About halfway down the page, the penultimate bullet point there:
+
+"The SEG discussed the difficult trade-offs at play, with the majority voting for the 'many to few' recommendation.  The inevitability of delays to redress claim processing times was not, however, accepted and SEG noted a number of different resourcing approaches and models, including those adopted in other industries, such as insurance and claims processing."
+
+Then there's a footnote at the bottom of the page, please, which says this:
+
+"NR, CB and KS ..."
+
+Was "CB" a reference to you?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, it was.
+
+**Ms Price**: "... voted for Option 3, 'many to few'; OW voted for Option 2, 'no further action', KMcE abstained on the basis Option 3 had the majority vote."
+
+Then it goes on to give another reference to non-voting members, noting they supported Option 2.
+
+You voted for the "many to few" option, over no further action; what did this mean?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It meant that those members -- we'd seek to redeploy those members of the RU team that were in scope, ie I think there was a reference to red roles, ie those people that were in the RU that had been involved in previous investigation work.
+
+**Ms Price**: Just pausing there, RU, that's the remediation work, is it?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Remediation Unit, yes.
+
+**Ms Price**: Okay.  Please continue.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Pardon?
+
+**Ms Price**: I didn't mean to interrupt, just to clarify that?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I think I was done.  That's what it was.  It was considered to be -- considering the pressure to make sure that there was no conflict of interest, that, even though there was no implication that there was any wrongdoing on behalf of those individuals, it was -- the best outcome for both Post Office but also for the individuals concerned, was that they were, as it were, taken out the firing line and there were other roles sought for them elsewhere in Post Office.
+
+**Ms Price**: Could we have on screen, please, paragraph 32 of Mr Brocklesby's statement.  That's page 10.  At paragraph 32, you say that:
+
+"... my observation is that the culture has been significantly influenced by the historic issues being addressed by the Horizon Inquiry which has resulted in risk aversion and a tendency to defer decisions to senior management."
+
+That risk aversion you've already referred to.  You go on at paragraph 33 to say:
+
+"I would say that there is a positive culture of constructive challenge with a good level of constructive challenge in the organisation."
+
+With that in mind, I'd like to go, please, to an email from Owen Woodley to the Post Office Board from February this year, which you were copied into.  Could we have on screen, please, `POL00448309 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448309-email-elliot-jacobs-karen-mcewan-amanda-burton-owen-woodley-and-others-re>`_, page 2, please. Scrolling down a bit, please.  This email here of 9 February 2024 from Owen Woodley forwarded on an email from Elliot Jacobs, and we see that over the next page, please, page 4 -- two pages on, forgive me.  That email is there from Elliot Jacobs, also 9 February, to Nick Read and others.  In this email there is frustration expressed about the progress of Project Phoenix.
+
+It's right, isn't it, that Project Phoenix is a review of all historical investigations where allegations have been made by postmasters of wrongdoing on the part of the Post Office or Post Office employees, as part of the Human Impact Hearings for the Inquiry.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Ms Price**: Mr Jacobs started his email in this way:
+
+"Following on from our meeting almost 2 weeks ago where I expressed in the strongest of terms my frustration and utter disbelief that the matter of Project Phoenix was still nowhere resolved I am concerned we have not received any update on the activity since."
+
+Then the third paragraph of his email says this:
+
+"The claim that this is 'difficult' will simply not cut it.  If it was easy someone might that have done it by now; but it is the fact that it is hard that we must grasp the nettle and get it done.  It is both optically and morally wrong that this has not been dealt with before.  This not a 'witch hunt' (as it has been advertiser by light previously) -- this is about making certain the culture and frankly the future of this business is not mired in the wrongdoing of bad people who did truly awful things, some of whom -- to this very day -- believe they did the right thing!"
+
+There is a further email in this email chain after the email forwarding this one, on 10 February, and that's on page 1.  In the third paragraph here he says:
+
+"It does however seem odd that not a single one is suspended whilst this is ongoing?  Why is that?  We seem to suspend people on a rejected basis when investigations are ongoing?  Why not on this matter?"
+
+First of all, can you help with who is now responsible for oversight of the Investigations Team? If you can't help, just say.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I don't know, I'm afraid.
+
+**Ms Price**: Can you help with why you were a copied recipient of the email chain we've just looked at?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Because I was the Chair of the Project Phoenix Panel.
+
+**Ms Price**: Do you share Mr Jacobs' view as expressed about the pace and the nature of decision making on Project Phoenix?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, I don't.
+
+**Ms Price**: Why not?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Given the scope of the panel, which, to recap, was to review investigations that had been conducted into approximately -- on approximately 50 cases and make a decision as to what action to take, namely to -- that there is no further action, or more investigative work is required, or indeed to pass that case or those individuals to the HR team for a misconduct investigation.
+
+.. rst-class:: indented
+
+There were 50 cases to get through.  We prioritised the 20 or so cases that referred to current members of staff.  But each case needed to be investigated by a qualified investigator, required going through old material, finding the recordings of previous interviews with postmasters, offering postmasters the opportunity to be interviewed again, specifically by those case reviewers, and to come up with recommendations in each case.
+
+.. rst-class:: indented
+
+Given that quantity of work and the limited number of investigators, it wasn't clear how we could go any faster.  We took the role very seriously.  We, the panel, was available immediately when cases had been completed and we quickly made decisions on everything that was put before us.  But it wasn't clear how we could go any faster, given the workload.
+
+**Ms Price**: Who, within the Post Office, had referred to Project Phoenix as a "witch hunt"?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I'm not aware.
+
+**Ms Price**: Is that how Project Phoenix was viewed by some employees within the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't think many people were aware of what Project Phoenix was, so I can't answer that question.  I think it was a small number of people that were even aware that this was ongoing.
+
+**Sir Wyn Williams**: Over what period of time, approximately, were you chairing this panel, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: From memory, Sir Wyn, the panel started at the beginning of 2024, so January or February, through to my departure on 6 September.
+
+**Sir Wyn Williams**: So it was still functioning in its role in September, and we're looking at Mr Jacobs' email in February, yes?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct, sir.
+
+**Sir Wyn Williams**: Yes.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's coming to -- it is very close to the end.  I think a number -- the conclusions have been drawn on, I believe now, all seven current members of staff and the kind of thematic review document has also been produced in terms of lessons learnt through the -- as a consequence of all of the investigations.  So I expect it to be closing soon.
+
+**Sir Wyn Williams**: On the face of it -- well, not on the face of it.  Can you explain to me, you know, in summary, why you were thought appropriate to chair this panel?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Um --
+
+**Sir Wyn Williams**: Obviously you'd had nothing to do with past so that helped.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Nothing to do with the past, nothing to do with investigations.  I think there were -- Nick Read asked me to chair it.  I think it was felt that a member of the Executive Team should sit on the panel considering its importance.  My understanding is a number of other members of the Executive Team were conflicted because of their role, and others were also chairing other panels. So I was asked by Nick to chair Project Phoenix.
+
+**Ms Price**: Thinking back to your comments at paragraph 33 about there being a positive culture of constructive challenge in the Post Office, the reference to the verbalised view, of at least some, that this was a "witch hunt", is that an example of resistance to challenge within the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Well, I don't recognise the phrase "witch hunt"; I've never heard it being used.  So I couldn't say, really.
+
+**Ms Price**: That document can come down now.  Thank you.
+
+I'd like to come, please, to whistleblowing culture at the Post Office.  At paragraph 67 of your statement you say that at Post Office whistleblowing is encouraged much more than other organisations you've worked in, and you also explain at paragraph 68 that you had chaired an investigation into a whistleblower's accusation, there were many more investigations under way than elsewhere that you have worked and, in your view, these investigations are taken seriously and confidentiality is respected; does that remain your view?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: Could we have on screen, please, POL00448519.  This is a letter from Post Office Limited Whistleblowers, dated 28 May 2024 to Nigel Railton, a number of MPs, the Chair of this Inquiry and lead Counsel to the Inquiry.  The first paragraph of the letter says this:
+
+"We are writing to you as a group of highly disenfranchised [Post Office Limited] employees, to seek your support in addressing the ongoing intolerable leadership and cover up within [Post Office Limited]. We represent a significant group from all levels of [Post Office Limited], who are sick and tired of being lied to and watching certain managers being favoured and protected, because they are part of the inner circle of Nick Read.  The culture is terrible, there has never been a plan in place to address the wrongs of the past (recent key indicators are showing significantly declining trends in our culture and trust between senior leaders and the rest of the business).  Worse still, the current flawed leadership is not being appropriately and objectively held accountable."
+
+Were you aware, when you were at the Post Office, that there were Post Office employees with this strength of feeling about their place of work?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, not -- this is particularly an emotional letter, so look, you know, we could see the results of various engagement surveys, so, as an Executive Team, we were aware that there's a lot more work to be done in terms of the trust in leadership and overall morale of the team, but I hadn't seen this particular letter until it was given to me last week.
+
+**Ms Price**: Having read through the letter now and without going through them one by one, were you aware of the particular allegations contained within it?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I mean, it covers a lot of different points, but specifically, no.  No.
+
+**Ms Price**: That document can come down now.  Thank you.
+
+Do you believe that the Post Office's whistleblowing policy has been effective in remedying past issues within Post Office's culture?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's difficult for me to answer that because the very nature of whistleblowing investigations are confidential.  So, in terms of the nature of the allegations, the findings, whether they're upheld or not, and the subsequent lessons learnt, it's difficult to answer that question because those aren't available to me.
+
+**Ms Price**: You appear in your statement to interpret a significant number of whistleblowing investigations to be reflective of a changed culture, one that's receptive to whistleblowing; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I think that's fair.
+
+**Ms Price**: Might a significant number of investigations also be reflective of a reaction to the current culture?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, it might.
+
+**Ms Price**: I'd like to come, please, to Post Office governance and effectiveness.  Could we have on screen, please, paragraph 25 of Mr Brocklesby's statement.  That's page 8.  You say:
+
+"In terms of Board structure, decision making responsibility lies with the Board across a wide range of areas.  In my opinion, the CEO does not have sufficient delegated financial authority, which means that many decisions need to be signed off by the Board as a whole.  Any business case or procurement activity over £5 million must be signed off by the Board. Although this a large figure, given the size of [Post Office Limited], there is a significant number of spends which meet this threshold.  Procurement activity typically requires two Board visits; the first to agree a procurement strategy and the second to agree the contract award.  The Board agenda is often full of procurement and business case approvals due to the lack of delegated authority to the CEO or SEG, as well as updates on remediation matters."
+
+You go on to say at paragraph 26 that the Post Office Board spends more time on operational rather than strategic issues.
+
+In your view, what is the impact of these features you discuss, in terms of longer-term planning?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's exactly that: that the Board doesn't spend a lot of time thinking ahead, in my view, in terms of how the Post Office needs to build on the future.  It's always looking at what's -- you know, the current operational matters that are before it.  So my expectation and my previous experience of boards is that their role is to be able to take a step back and to challenge the exec in terms of medium and long-term strategy and whether an organisation is on the right trajectory, rather than constantly being drawn into the details of the operation of the organisation as it is today.
+
+**Ms Price**: Going to page 11, please, and paragraph 35, you discuss here a significant change in the SEG and Board membership over the year you were at Post Office Limited:
+
+"... which obviously has had an impact on corporate knowledge and direction ... for an organisation of this scale and complexity and in view of the current challenges it is dealing with (including the Inquiry), it is less than optimal that [Post Office] is, and has been for some period, operating with a large proportion of 'interim' senior managers and leaders.  It is important for the stability of [Post Office Limited] that permanent appointments are made through the appropriate rigorous recruitment processes."
+
+The high turnover point is one you return to at paragraph 59, that's page 17, please.  You explain that:
+
+"One of the major issues with SEG has been the high turnover.  When [you] joined in August 2023 there were ten members.  Of those, only three remain in the current team, with five new members.  Owen Woodley retires ... in August, leaving the Chief of Staff and myself as the only remaining members of the team from August 2023 ... this means there is a lack of corporate knowledge and understanding of context although this does mean that there is new experience available."
+
+Why do you think there has been such a high turnover of staff at the senior level?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: There are lots of reasons why there have been -- people have come and gone.  Clearly some people have resigned. It's a difficult place to work.  It's been an organisation that's been in crisis management during my tenure.  Clearly, with the arrival of our new interim Chair, he has decided to bring in a number of new members of the Executive Team as well.  So I don't think there's one underlying reason, but there has been a lot of change.
+
+**Ms Price**: Is high turnover something which applies at the middle management level in Post Office or is it really an Executive and Board level issue?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I think it is mainly an Executive and Board level issue.
+
+**Ms Price**: You conclude in this way at paragraph 62 over the page, please:
+
+"It is too early to know whether these individuals [that's new individuals to the team] can work effectively together to create a strong SEG team something that has been lacking due to the high turnover and constant crisis management which has been a recurring theme of 2024.  In my view SEG members have been working at an unsustainable intensity and pressure for some time."
+
+Do you consider that the Post Office Board, as it was when you left the Post Office last month, to be effective?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's a difficult one to answer succinctly. Ultimately, I think there's lots of improvements that need to be made in the way that the Post Office is governed, the way that the Board operates, what they focused their time on, the proportionality of different topics and themes, the way that the Board engages with the rest of the Post Office, postmasters and the Executive Team, where there isn't much engagement from the Board.
+
+.. rst-class:: indented
+
+So I think there are lots of ways that the way the Board operates needs to be improved.
+
+**Ms Price**: That document can come down now.  Thank you.
+
+In terms of your own appointment and the way your contract was handled, you say in your statement that the mutual intent was for you to join as a full-time employee as Chief Transformation Officer and the terms of your employment were negotiated on that basis; is that right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: It's right, though, isn't it, that you commenced as a contractor instead?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: Why was that?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: What I was told was that, despite RemCo having approved my appointment, it was subsequently considered necessary for the Department to also sign off on my appointment, and my understanding is that approval was never received.  So I continued on a contract basis.
+
+**Ms Price**: How long did you expect that you would be working on a contractor-based contract when you started?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: A matter of weeks.
+
+**Ms Price**: But one was not approved at all in your tenure?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Correct.
+
+**Ms Price**: What do you think accounts for that state of affairs?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know.  I asked on a number of occasions as to what was happening, and whether that was going to ultimately be approved.  But it was unclear why that approval hadn't been given.
+
+**Ms Price**: You say at paragraph 80 of your statement that you were told in July of this year, by the acting CEO, that your contract was not going to be extended as he and the interim Chair wanted to bring in someone with a fresh perspective.  You had been there for only a year?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Price**: What was your reaction to this reason for not extending your contract?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I was disappointed, I was fully committed to Post Office.  When I was recruited by Nick Read, I absolutely committed to him that it was something like a three-year tenure, to make sure that I could make a difference, and particularly break the back of the NBIT deployment.  But by then a number of new SEG members were being brought in, particularly from Camelot, that were known to the new interim Chair.  So that had happened previously with other roles, and now that was happening with the Chief Transformation Officer role.
+
+**Ms Price**: Sir, those are all the questions that I have for Mr Brocklesby.  There may be some CP questions.  There's at least two sets of CP questions -- three sets of CP questions, sir.
+
+Questioned by Sir Wyn Williams
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Sir Wyn Williams**: All right.
+
+Let me just ask: when you departed, who took over your role?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: A gentleman named Andy Nice, who was the former Chief Transformation Officer at Camelot.
+
+**Sir Wyn Williams**: So it was someone brought in?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Sir Wyn Williams**: Not at the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: On an interim basis.
+
+**Sir Wyn Williams**: Yes, he's on an interim basis as well?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Sir Wyn Williams**: Right, fine.  Thank you.  Let the CPs ask their questions, then.
+
+**Ms Price**: Thank you, sir.  Starting with Ms Page.
+
+Questioned by Ms Page
+^^^^^^^^^^^^^^^^^^^^^
+
+**Ms Page**: Mr Brocklesby, thank you.  Can I just ask about Project Phoenix again very briefly.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Page**: It started in January of this year.  Why did it start then?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know, I'm afraid.
+
+**Ms Page**: Was it because there was a furore after Steve Bradshaw gave evidence at this Inquiry and it was revealed that he was still effectively working in a post he should not have been?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know that for sure.  You know, he was clearly named in a number of the cases within scope for Project Phoenix so it is definitely any part of the investigation.
+
+**Ms Page**: Do you have any light to shed on why nothing was done about that between, let's say, the Hamilton rulings and January this year?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No.
+
+**Ms Page**: Thank you.  Those are my questions.
+
+**Sir Wyn Williams**: Next, please.
+
+Questioned by Ms Patrick
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Ms Patrick**: Thank you, sir.
+
+Good morning, Mr Brocklesby.  My name is Angela Patrick and I act for a number of subpostmasters who were convicted and have since had their convictions overturned.
+
+I have a couple of questions about one document, and if we could go to `POL00448648 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448648-post-office-minutes-board-director-post-office-limited-tuesday-4th-june-2024>`_, I'd be grateful.  I want to look at one issue and it's going back and picking up again the question of NBIT and the Fujitsu extension. We'll just wait until the document comes up.
+
+It should appear, it's going to be the minutes of the Board from 4 June this year.  Thank you.
+
+Can you see that there, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I do.
+
+**Ms Patrick**: If we can see your name, you were in attendance at this meeting; can you see that there?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I do.
+
+**Ms Patrick**: I want to ask about a few items in the minutes.  Can we look at page 5 at the bottom, please, under section 3.5, please.  Now, this is June this year, shortly before you left, I think, in September.  We can see here there's a section on the Investment Committee and the Inquiry has heard a little bit about the Investment Committee and its oversight of NBIT.  It says here:
+
+"The IC met on 16 May and focused on SPM."
+
+Now, first, "SPM", is that Strategic Platform Modernisation?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.  It's the programme name that is delivering the NBIT --
+
+**Ms Patrick**: Thank you, that's it.  So it's the overarching programme which is responsible for NBIT?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: Great.  It goes on:
+
+"There were uncertainties in respect of the project across a number of issues including funding.  Two external reviews had been completed in respect of the project and both concluded red ratings.  The build/buy point had been considered, although the build approach without the necessary in-house expertise seemed flawed. NRa [I think that's Nigel Railton] shared his view that the conversation on buy/built was the wrong question and thought that the question was build/build and then the question was whether to build internally or externally. There needed to be a number of conditions met for a successful internal build however such as a staple business, good governance and quick decision making. With the Company not fulfilling these conditions the view of NRa was that a third party should be commissioned to build.  NRa advised that he saw 3 options, firstly, SPM could carry on as was, secondly a third party could be engaged to build the new system, and thirdly that Horizon could be brought in house.  All of these options needed to be carefully considered."
+
+It talks about the dashboard reporting up to IC, and then the last paragraph:
+
+"The Chair noted that the paper ... included in the pack seemed surprisingly positive", and so on.
+
+So this is June this year --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: -- almost a year after you've come into post and quite some considerable time after of the judgments in the `Common Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_ and the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_. Now, were there still conversations going on in the business as to whether the replacement Horizon would be bought or built, in June this year?
+
+Sorry, you're nodding, Mr Brocklesby.  If you're saying yes or no, you have to say so for the transcript.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: This was not a conversation that I was included within, so this is a report from the Chair of the Investment Committee, so I am reading the paper and nodding because clearly it's a report of a conversation at the Board that I wasn't included in.  So, yes, there was a conversation at a Board Meeting.
+
+**Ms Patrick**: I only ask you because, at this point, as I understand it, you would have been responsible for oversight of NBIT still?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: Were there still conversations going on about what the replacement would look like, whether it was being bought from somebody else, built in-house, built by somebody else or, as a third option: bringing Horizon as it stood back in-house at the Post Office, as late as this year, in June?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: Thank you.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I think the logic here is somewhat confused.  The point about Horizon insourcing, I think, is a separate point because, clearly, it doesn't get you to the same outcome, which is a replacement for Horizon.  The new interim Chair came in with a very clear view that he thought that Horizon should be insourced, and that is being considered, I understand, as we speak, and there may well have been a decision at the September Board meeting after my departure, and I think that's completely separate from how to progress with SPM.
+
+.. rst-class:: indented
+
+I would say I find the debate about -- in a kind of build ourselves or build with a third party, also slightly odd, in as much that we aren't just building -- I say "we" -- sorry, I've left, I revert to that, I can't help myself -- the Post Office has two very material partners in Accenture and Coforge, so they're not trying to build the system completely on its own. It's got two expert development partners working alongside it in order to build the new NBIT application.
+
+**Ms Patrick**: We may come back to that issue about whether to build, buy or bring in-house in a moment.  But there, when it says, "The Chair noted the paper seemed surprisingly positive", were you involved in whether there was any response to the Chair's question mark about whether the paper was surprisingly positive?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Well, clearly, it refers to the fact that there is a separate paper to be presented later in the meeting.
+
+**Ms Patrick**: Okay.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: So I presume would have responded to any questions that the Chair had at that time.
+
+**Ms Patrick**: Okay.  Thank you.  There is at least a part of the meeting I would like us to look at and, unfortunately, I have to find the page reference, so if you could bear with me for a moment.
+
+I'd like to look next at the section on transforming technology, which starts on page 10.  If we could scroll down to that, I'd be very grateful.  It's section 7.1.
+
+I think we can see there you do join the meeting at a later point --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: -- and you speak to a paper entitled "SPMP Update Paper", and that you're going to be talking about the last update to the Board and updating on progress sense. You're talking about the spectrum of services available. You say that there's ongoing engagement with postmasters and it had been well received.
+
+At that point, you said it had been remaining within budget and there was progress being made on recruitment, and you going on to contractors working on the programme, and so on and so forth.  You wanted to talk about some details there.  I don't want to ask about that; I want to ask about the next page.  So if we could scroll down, and we see there "SI", who I think is Saf Ismail?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: Yes:
+
+"... referenced the recent articles in Computer Weekly and queried the mood in the team.  CB [which I think is you] outlined the 2 articles which had covered the potential Fujitsu contract extension and the IPA review.  [You] advised that the articles had not been well received and a number of questions had come in from Fujitsu and the banks ..."
+
+You say, in relation to the IPA review, you were asked by SJ whether you were confident and whether it would go through and answer all the points in the review satisfactorily, and you answered that.
+
+If we go on a little bit further, at the bottom -- I apologise for this, I'm trying to find the relevant section -- if you then go to the bottom, you say, the next section after that, that SO spoke to a paper outlining the proposal for a five-year exit plan for Fujitsu.
+
+Now "SO", would that be Simon Oldnall.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Ms Patrick**: He's your direct report?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: He is.
+
+**Ms Patrick**: It says:
+
+"SO advised that the Board were being asked to include in the strategy a stage where if NBIT was not completed within the term of the extension that the Company would put in place an alternative approach to supporting the Horizon platform to make sure that Fujitsu was still able to exit at the 5-year point.  SJ queried what the alternative approach would constitute. [Simon Oldnall] advised that the Horizon platform could be brought inhouse or procurement undertaken for external support for the platform.  SO estimated that it would be 18 months to 2 years when a decision would need to be taken on this point ..."
+
+So just to take all of that on board, this sounds as though planning is going on for Horizon still to be in place, even after the prospect of an extension for five years with Fujitsu; is that fair?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No.  So may I explain?
+
+**Ms Patrick**: Yes, please do.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: So when we approached Fujitsu for an extension, one of their immediate responses was, "This has to be the last time, we don't want to extend our arrangements with Post Office but we understand you're reliant on us and, ultimately, we will need to and we will extend".
+
+.. rst-class:: indented
+
+We then talked about a proposal for up to five years, which covered the plan to build NBIT and deploy it by the end of 2028, and gave us contingency if there were further delays.  This was a request from Fujitsu to say, "Based on the fact that this has to be the last time you extend the contract, we, Fujitsu, want to include in the terms of that extension a guarantee that, if for whatever reason NBIT is not fully deployed by the end of the five-year term, that you will instigate an alternative strategy to make sure that you are no longer reliant on us to support Horizon".
+
+.. rst-class:: indented
+
+So it was us responding to requests from Fujitsu rather than us undertaking in any way a plan to extend Horizon after that time period.
+
+**Ms Patrick**: Indeed.  It's being requested by Fujitsu but this is now some time on.  As you said, you came in in mid-2023, we're talking, several years after the judgments in the `Common Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_ and the `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_, when some of our clients had been raising problems with Horizon for near decades.
+
+Now, we are now here and the prospect of a drift where Horizon would stay in place, albeit brought in-house under the Post Office's auspices, that's a conversation that's on the table with the Board, isn't it?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's a response to a request from our supplier.
+
+**Ms Patrick**: Is it a realistic request from your supplier, noticing that perhaps there has been some considerable drift in this project already?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't believe it was realistic to assume that Horizon would be operating past March 2030.
+
+**Ms Patrick**: Okay, thank you, Mr Brocklesby.  That's all the questions I have for you.
+
+**The Witness**: Okay, thank you.
+
+Questioned by Mr Stein
+^^^^^^^^^^^^^^^^^^^^^^
+
+**Mr Stein**: Sir, could the document remain on the screen that we currently have.  Could we go, please, to page 12 of the document, middle of the page, please.
+
+If we look there and highlight "The Board RESOLVED that"; do you see that entry, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I do.
+
+**Mr Stein**: I think this is what you've been trying to say.  First of all, let's just understand, for the Chair's note, that the Board resolved at this June meeting that:
+
+"Subject to seeking a 3-year break provision, the proposed strategy for an extension of up to 5 years of the Horizon Support contract with Fujitsu from 1 April 2025 [written with no irony] until 31 March 2030 be and is hereby APPROVED ..."
+
+So that's the first part, yes?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: So what this is essentially saying is that the Board is approving the extension until 2030 of the contract with Fujitsu and then, point (ii), there is reference to:
+
+"The inclusion of a binding commitment to Fujitsu that an alternative approach to supporting the Horizon platform through commencement of a programme to insource/reprocure elements [other corporate speak] be activated if there is not sufficient time within the term extension to fully migrate from Horizon to NBIT ..."
+
+So that's what I think you've been trying to say: essentially the extension is approved for five years and, within that time, frankly, fingers crossed, hopefully you can sort it out in-house?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: The second point is: if during the intervening period between now and 31 March, it becomes apparent that Horizon is required before 31 March, we will commit to initiating an insource project in sufficient time so that we don't have to go back to Fujitsu and ask them to extend yet again past 31 March 2030.
+
+**Mr Stein**: So the crux of this is that the Board has approved the extension of the Horizon system and its use by subpostmasters until 2030; do you agree?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: If required.  But the contract is such that it's up to five years, so we can terminate earlier, when and if NBIT is deployed.  So it might be up to five years, but if the plan sticks as it is today, then that would be terminated earlier, namely at the end of 2028.
+
+**Mr Stein**: Right, and things always go extremely well at the Post Office in terms of meeting timings, requirement and output; do you agree?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: We have a plan --
+
+**Mr Stein**: Yes.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: -- I think a well-constructed plan to get the system delivered by the end of '28.
+
+**Mr Stein**: All right.  Let's have a look at something else. POL00000254, page 34.  We can see there, page 1, "Standard Subpostmasters Contract".  There may be different versions of this, I'm aware they exist on our document system, but this is the one that I think will at least help us with what happened after the Fraser judgments and, therefore, what happened in relation to at least the drafting of contracts and subpostmasters in that regard.  Page 34, please.
+
+I'm going to take us to paragraphs 20.4, 20.5 and 20.6.  If those three could be highlighted, I'd be grateful.
+
+So Mr Brocklesby, these are contracts that have been looked at, considered, after the Horizon High Court judgments, okay?  Right.  Now I'm assuming that when you came into post you must have read those judgments?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: The judgments, not the contract, yes.
+
+**Mr Stein**: Right, well, you read the judgments, and then one of your jobs, if not the main job, was to implement, if you like, the result of those judgments; is that correct?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, many of those judgments had already been implemented --
+
+**Mr Stein**: Right.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: -- by my arrival.
+
+**Mr Stein**: You're aware, having read those judgments, that, if you like, the starting point for all of the scandal is that subpostmasters were being blamed for shortfalls and told to pay up, and all too often prosecuted; you're aware of that background, it's a simple background?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I am aware of that.
+
+**Mr Stein**: Okay, let's have a look then at 20.4 and see what the contract was saying then about matters after the judgment.  So 20.4:
+
+"Properly and accurately produce all relevant records and/or explain all relevant transactions and/or any alleged or apparent shortfalls attributed to the subpostmaster ..."
+
+Then 20.5:
+
+"Cooperate in seeking to identify the possible or likely causes of any apparent or alleged shortfalls ..."
+
+In 20.6, there's a kind of cover-all, I'll read this one more slowly:
+
+"Seek to identify the causes of any apparent or alleged shortfalls, in any event ..."
+
+Okay?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: Right.  So you understand the historic background.  High Court judgments, shortfalls, problematic subpostmasters, people being prosecuted, contract being amended to try and make sure that shortfalls are looked at and considered carefully.
+
+Right.  Now, you answered a question of Ms Price's earlier about shortfall matters and investigation.  Your answer was this: you're not aware of that level of detail, in other words what is going on to investigate shortfalls.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I'm not aware of, yes, the investigation into individual shortfalls with postmasters.
+
+**Mr Stein**: Well, how, then, is this contractual term being maintained, and I use the cover-all one, because that's the simplest one to look at here:
+
+"Seeking to identify the causes of any apparent or alleged shortfalls, in any event ..."
+
+Now, that's to say to people, subpostmasters, that, "Look, we're taking this seriously.  We're going to look at shortfalls.  If you've got a shortfall, don't worry, we're going to cover it".  How is that being maintained in terms of a contractual requirement?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: By the Business Support Team and the Network Support Team --
+
+**Mr Stein**: That's who; how?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: People in the Retail Team, people are -- that man the business support phone lines that respond to postmasters' queries, people who respond to postmasters when they hit the Review and Dispute button.
+
+**Mr Stein**: Right.  So the Dispute button and the phone lines, who is maintaining the monitoring of the phone line and where is that reported to?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Into the Retail Team at Post Office.
+
+**Mr Stein**: Right.  Is that reported to the Board?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It reports into the SEG -- who are responsible and, ultimately, of course, everything reports in to the Board, yes.
+
+**Mr Stein**: As an example, are issues that are commonly occurring in relation to the helplines summarised, given maybe percentage number, sent up to the Board for the Board to review, so they can keep an eye on this?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's not my part of my responsibility, was not part of my responsibility.  I'm aware that there's a retail dashboard that's quite a detailed dashboard, with a lot of data in terms of how those teams are operating, and that is a dashboard that's reviewed by SEG and the Board on a monthly basis.
+
+**Mr Stein**: Is that a long way of saying, "I don't know whether it's summarised and put to the Board in a way that analyses the commonly occurring issues"?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It's not -- it wasn't part of my responsibilities to run those teams.
+
+**Mr Stein**: So you don't know.  Right.
+
+Now, you were referred to the letter from Mr Patterson, dated 17 May '24.  I'll have that on screen, please, FUJ00243199.  I'm grateful.  Scroll down, please, and stop there if you would.  What it says there, second paragraph:
+
+"To be clear FSL [Fujitsu] will not support the Post Office to act against postmasters.  We will not provide support for any enforcement actions, taken by the Post Office against postmasters, whether civil or criminal, for alleged shortfalls, fraud or false accounting."
+
+Then continue down to "pursuit of Shortfalls from Postmasters", please, section, at point (ii) of that page.  We've looked at this before, Mr Brocklesby, so I'm going to cut this down to the last sentence.  So this is from Fujitsu, this is Mr Patterson, who, if I remember correctly, European Manager of Fujitsu.  This is some that should know his stuff.  It's saying this, "Pursuit of Shortfalls from Postmasters":
+
+"It should not be relying on Horizon data as the basis for such shortfall enforcement."
+
+Then further down, please -- I don't think I need take it any further on that.
+
+This appears to be Mr Patterson saying, not just about criminal matters, it's about shortfalls, it's about enforcement, it's about analysis or provide -- or use of Horizon system data, and it's essentially saying, this is Fujitsu, "Given the history of this matter, given problems with systems, don't use our data". That's Fujitsu saying that.
+
+Now, when we go back in time to look at this contractual requirement that I've been discussing with you about shortfalls, to analyse, look into, consider those shortfalls, how on earth is that being done with Fujitsu being involved, if they're not prepared to play ball?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I was very surprised by this letter when I was shown it by Nick Read.  My initial reaction was to check whether anything had changed, whether any new defects had been raised by either ourselves or Fujitsu, and they hadn't. I didn't understand the fact that they were prepared to provide detailed data in paragraph 3 here to assist with postmaster redress, but weren't then suggesting that exactly the same data could be relied upon for shortfall enforcement.  It didn't strike me as consistent.
+
+.. rst-class:: indented
+
+I believed at the time this letter was written specifically to be discovered by this Inquiry, and I could see no other reason why, at this particular time, considering that this version of Horizon has been supported by Fujitsu for many years, they have hundreds of technical experts supporting Horizon, they know that it's used by postmasters on a daily basis to run every aspect of their business, and we have an open book in terms of the outstanding defects on the system, and they know that none of those branch affecting defects would materially impact any of the data on the system, that I didn't understand why this statement had been made.
+
+**Mr Stein**: Let me test that in two different ways.  First of all, in your answers to Ms Price earlier you were saying that you believed that this letter related to a particular criminal case.  That's my summary of what you appeared to be saying.  So you seemed to be saying that it was connected with a criminal matter.  One of the reasons why I've raised it with you Mr Brocklesby -- you can speak in a moment, forgive me for putting it that way -- is because I just wanted to make sure that you are aware that letter covered more than just criminal matters: it covered civil matters, it covered shortfalls.  So your understanding of this letter was it based upon what you thought at the time, in your recollection, were criminal matters only?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, when I answered the previous question from Ms Price, I was responding to a question about the first paragraph.
+
+**Mr Stein**: My second point, in terms of testing what you're saying about this.  We've gone to the 2020 version of a contract that is post-Mr Justice Fraser's judgments, so it is one that is clearly designed to try to say that "Shortfalls are not to be tolerated, we're going to look into them".
+
+That's 2020.  This letter is four years after that. How on earth has a situation arisen whereby, from 2020 to 2024, it's taken all that time that Fujitsu don't believe you can rely on their data from the Horizon system to look at these things like shortfalls?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Well, I think that is a question for Fujitsu.
+
+**Mr Stein**: Well, it isn't, Mr Brocklesby, because one of the things that you were brought in to do --
+
+**Sir Wyn Williams**: Mr Stein, he hasn't been there for three of the four years.  So I think it's a question that's too wide in its current form.
+
+**Mr Stein**: I'll cut it down.
+
+You were there for about a year, Mr Brocklesby.  One of the issues, it relates to what's going on with the system, trying to implement the changes that were put forward through the judgments at the High Court.  You started in, I think, May 2023.  Why, between May '23 until the time whereby you're essentially being asked to leave the company, why did you not look into the question of what support is Fujitsu playing in terms of looking at this data question?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: So I started in August '23.  There was no equivalent issue raised by Fujitsu until this letter, later in 2024.  So there was nothing to respond to, in terms of their question.
+
+**Mr Stein**: Why didn't Post Office check to see what support Fujitsu was prepared to supply?  I mean, I accept entirely you came in in '23, that's years later.  But it seems as though nobody has looked at this and said to Fujitsu "Hang on, everybody, will you provide support for this function?"
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It was providing support for this function, it was --
+
+**Sir Wyn Williams**: Well, that's the question I wanted to ask you, Mr Brocklesby.  Until this exchange of correspondence, which I accept began with a request by the Post Office that Fujitsu should facilitate a police investigation, and then it widened out in the way that Mr Stein has drawn attention to, until this exchange of correspondence, had Fujitsu said anything along the lines that they'd said in this correspondence, or failed to provide support?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Not to my knowledge, no, sir.
+
+**Sir Wyn Williams**: Right.
+
+**Mr Stein**: The question I've got that arises out of that is this: what protocols, guidance, agreements were put in place, to your knowledge, post-the Horizon judgment and the High Court, with Fujitsu, to ensure that they provided such data for shortfall consideration?  So what guidance, protocols, or documents or agreements were put in place with Fujitsu, so that they were providing the material?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know in any level of detail but, for example, there's an :abbr:`ARQ (Audit Record Query)` process, which -- whereby we could request specific data, transactional level data from Fujitsu to help with various investigations.  That was something that was common practice.
+
+**Mr Stein**: Okay, Mr Brocklesby.  Let's try one more time on this. So 2024, revision of contract.  You would have thought that the Post Office would have checked with Fujitsu in some form of agreement, a document, a protocol, guidance, some way of judging that Fujitsu were on board with this type of investigation looked at in the contract.  Are you aware of any such of a discussion document, agreement protocol?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No.
+
+**Mr Stein**: Fine.  I'm going to take you to the YouGov document, please, which is EXPG0000007, page 4, please.  Grateful. Can that be expanded?  Yes, thank you very much.
+
+If you can just go down the page, this is the "Executive summary", as you can see, Mr Brocklesby.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: Okay, let's look at the second paragraph:
+
+"The vast majority (92%) of SPMs surveyed reported experiencing some form of issue with the Horizon IT system in the last 12 months.  This most commonly took the form of screen freezes (70%) and/or loss of connection ..."
+
+Moving on:
+
+"Over half (57%) said that they have experienced unexplained discrepancies, with lower but still significant proportions mentioning unexplained transactions ... missing transactions", and so on.
+
+Then further down under "Discrepancies in the Horizon IT System", if we look, then, at the second paragraph again:
+
+"Almost all (98%) of the SPMs surveyed who have experienced a discrepancy reported that they were shortfalls, whilst around a third (34%) had also experienced surpluses."
+
+Then perhaps crucially:
+
+"When asked how these discrepancies were typically resolved, it was most common for SPMs to report using their branch's money or to have resolved it themselves (74%)."
+
+Now, one additional fact, the numbers of subpostmasters surveyed, if I recall correctly, was just under 1,000; it was 950 people that responded from the subpostmaster group, okay?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Okay.
+
+**Mr Stein**: Now, look, I'm no mathematician, I think anyone will agree with that, but this still seems to me to be a large number of people out of group of subpostmasters who were experiencing still the same problems with shortfalls, discrepancies, difficulties, people talking about surpluses as well.  So it's missing money and it's too much money, and they can't resolve it, and people still paying out themselves.
+
+Now, I've got two real questions that arise out of this: what on earth is going on with this system that, in 2024, by the time of this report in September 2024, that these issues are still going on, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know how to answer that.  I mean, it's something that I think the Post Office would need to look into further, in terms of the -- particularly the number of postmasters in this survey that experienced discrepancies.  I mean, discrepancies can be created for a whole host of reasons, and it's something that we'd have to deal with -- people would have to do some more analysis on, in terms of making sure that they understood why these were being created.
+
+**Mr Stein**: My second point about this is culture, okay?  There's a lot of talk about culture and we're going to get further witnesses talking about culture within the Post Office.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yeah.
+
+**Mr Stein**: What work has been done on the culture within the subpostmaster branches?  You've got people that have run these branches for ages, under essentially a system that's broken, that's poor, that has sometimes tyrannised them within their branches, people are afraid to come forward, even out of the group of people working in the branches, and that culture is no doubt repelling people, when they're getting discrepancies to still pay up, not use the button that says there's a problem, not use the helpline to say to them there's a problem. People are still paying up for shortfalls.
+
+Do you agree that there's a culture problem that has yet to be addressed with the people running the branches?  Not their fault, it's what's happened to them that's causing it; do you agree with that, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't recognise a culture problem that remains, no.
+
+**Mr Stein**: What, you don't recognise a culture problem with people within the branches of the Post Office still paying up for shortfalls out of their own pocket or branch money?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That may be valid.
+
+**Mr Stein**: Project Phoenix, Mr Brocklesby, just so that you can help a little bit further with that.  We have some information because some of our clients are affected by this; they've essentially been at the centre of investigations.  Is it Project Phoenix, the project that's employed ex-police officers to look into and conduct investigations?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I think --
+
+**Mr Stein**: Have they completed something like 18 internal reviews or is it more?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: In terms of the cases --
+
+**Mr Stein**: Individual cases.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: -- I think it's more.
+
+**Mr Stein**: It's more.  Have they been provided to the Inquiry?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know.
+
+**Mr Stein**: Have they been provided to the individuals who were the subject of those reviews?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know for sure.  Certainly postmasters were -- the postmasters affected were offered an interview, so that they could provide more colour and clarity around their original evidence to the Inquiry.
+
+**Mr Stein**: Are the people, to your knowledge, who are the subject of these reviews going to be provided with a copy of the review about their issue?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I don't know.
+
+**Mr Stein**: Do you not think that's a good idea, Mr Brocklesby?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I do think it's a good idea.
+
+**Mr Stein**: You were engaged with some of the meetings with our clients.  These are restorative justice meetings; correct?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: You took part in the meetings, I think, in July this year; is that correct?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: I may get the numbers wrong: five, six, seven meetings, something like that?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, it was over two days.  It may be a little more than that but something like that, yes.
+
+**Mr Stein**: These meetings, you're aware, I think, Mr Brocklesby are difficult for the people that come to the restorative justice meetings?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Very difficult, yes.
+
+**Mr Stein**: You'll understand when I say that people actually have to summon up the courage to actually attend at all?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I really did -- I didn't understand that before but, as a consequence of going, I understand that many people had suffered so much that they find it difficult to travel and, in some cases, have found it very difficult to talk about what they've been through and they were very brave in my opinion in coming to those meetings.
+
+**Mr Stein**: You'll understand that sometimes some people frankly can't come to the meetings at all, don't want to take up the offer --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yeah, I understand that.
+
+**Mr Stein**: -- or the other way round, too angry --
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: -- not wanting to engage; you understand that?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: I do understand that.
+
+**Mr Stein**: Mr Brocklesby, I don't know whether the right word is "pleased" but you may be interested to learn that people's reports about those meetings that included you were very positive, that you listened, appeared to listen, you appeared to gain information and you appeared to be affected by the meetings and what people said; is that a fair summary of how it came across to you?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It is a fair summary.  I found them enlightening but very, very difficult.
+
+**Mr Stein**: Do you understand also that, as we know from your statement and the evidence you've given with Ms Price that, therefore, when you leave the Post Office, you take with you that memory, your personal memory, of those meetings, the lessons you've learnt, and that that part of your, if you like, corporate involvement on behalf of the Post Office largely goes with you when you leave the Post Office?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Mr Stein**: Do you understand that goes?  Others that have taken part in those meetings, I think Mr Read, who sits behind me today, has also been engaged in those meetings and also, we believe, has been affected by them, and he is also leaving the Post Office.  Did you see that what is happening is that this corporate churn, these individuals that are, for you, just what, about a year or so at the Post Office, other individuals, longer term like Mr Read at the Post Office, engaging in these meetings -- I don't know whether our clients are going to say it was a waste of time but it does feel a deep -- there seems to be a real shame that this understanding, this knowledge, this emotional memory of what has happened with subpostmasters through these discussions is going to be lost from those people like yourself that are leaving; do you agree?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, I hope the new members of the Executive Team engage in the whole process, and I certainly tried to share my experiences when I returned to make sure people understood, that hadn't done those sessions, just how those postmasters and, I think, for me most importantly, their families, had been so impacted and in ways that I hadn't previously understood, and the fact that that impact was still being felt today, in some cases decades after the events that actually impacted them and their families.
+
+**Mr Stein**: One moment, Mr Brocklesby.
+
+Thank you, Mr Brocklesby.
+
+Further Questioned by Sir Wyn Williams
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Sir Wyn Williams**: Mr Brocklesby, I'm sorry to go back over one or two things that you've been asked about but I want to get as clearly in my mind as possible where the Post Office had reached in terms of the new system, as I'll call it, at the date you left.  All right?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Sir Wyn Williams**: Because we've looked at lots of minutes, and all the rest of it, but I want your understanding, if I may, of where we had got to or where the Post Office, rather, had got to.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.  So --
+
+**Sir Wyn Williams**: First of all, can I work backwards?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.
+
+**Sir Wyn Williams**: As of the date you left, were there, so far as you were aware, any concluded contracts with Fujitsu which related to any kind of extensions?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, there were not.
+
+**Sir Wyn Williams**: Right.  So when we're looking at minutes and resolutions, that's any one side of the story.  So far as you know, by September 2024, there were no concluded agreements?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.  That's correct.
+
+**Sir Wyn Williams**: Right.  That's clear in my mind.
+
+Second thing I want to be clear in my mind is your view of what will occur if things go to plan. I appreciate things may not go to plan but I'd like you to tell me what you think will happen if things go to plan.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes.  Let me try and summarise.  If things go to plan, between now and June 2026, this new system will be built.  It's being built incrementally starting with a certain number of the transactions that postmasters use and, building on that, more and more and more transactions.  In parallel with that, the system will be piloted in up to 50 branches, so that we get postmaster feedback and experience of the new system.
+
+.. rst-class:: indented
+
+If that all goes to plan, then from June 2026, then the system will actually be starting to be deployed into branches.  That means starting to turn off Horizon in that branch and move to that branch fully relying on NBIT by postmasters to serve its customers.
+
+.. rst-class:: indented
+
+That process of training postmasters in the new system, cutting over from the old to the new, will take the period of time between the middle of 2026 and the end of 2028.
+
+.. rst-class:: indented
+
+Through that period, the Post Office will then start to be able to turn off some of the services provided by Fujitsu, until the end of 2028 when it will be able to turn off the final of those services and cease to rely on Fujitsu to support Horizon because every branch will then be using the new system to serve its customers.
+
+**Sir Wyn Williams**: My last question is: so far as you know, as of September 2024, was the necessary finance for those things to happen approved?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: No, it was not.  Because of this incremental nature to funding --
+
+**Sir Wyn Williams**: Can I just ask you, and you tell me if this is too simplistic, but which part, if any, of that plan did have approved finance?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It was being approved in slices, in terms of timing.  So all of those activities, ie activities on Horizon and activities for the new system, have been approved up to the early months of next calendar year.  So something like January and February 2025.  So new funding to move forward past those dates will be required in short order to make sure all of those activities can continue.
+
+**Sir Wyn Williams**: Would I be correct in thinking that, if finance is approved, in effect, in tranches, as it is going along, we are talking about approving finance for a period of work which covers months only, not years into the future?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: Yes, that is correct.  The funding discussions have clearly been complicated by a general election and a spending review from the new government.  So the expectation is that, at best, the next tranche of funding would be for another year, to take it, I think, through to March 2026.  So again, that would just be another tranche and other tranches would be subsequently needed.
+
+**Sir Wyn Williams**: Again, if I am being too simplistic, please tell me, but, ultimately, this is not the Post Office funding things from its own generated funds; this is all roads lead to the Treasury, yes?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.  There are some projects that -- the project is able to fund itself but, certainly, there are a bundle of transformation projects, including the SPM programme, which need to be funded outside of Post Office's finances.
+
+**Sir Wyn Williams**: One last question: I have heard from other witnesses that there is, as we speak, a strategy review being undertaken.
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: That's correct.
+
+**Sir Wyn Williams**: Does that have any impact or potential impact on the progress or otherwise of the plan that you've explained to me in summary?
+
+.. rst-class:: indented
+
+**Christopher Brocklesby**: It absolutely does have potential impact in terms of the size of the branch network -- products that will be continued to be sold or discontinued would all impact the scope and timelines of the project.  So that does deliver a certain amount of uncertainty to the programme.
+
+**Sir Wyn Williams**: Well, on that note -- I won't say happy or unhappy -- thank you very much for your evidence, Mr Brocklesby.  I am grateful to you for your witness statement and for your oral evidence.
+
+**The Witness**: Thank you.
+
+**Sir Wyn Williams**: Right, Ms Price.  We have a day off tomorrow, do we?  When I say a day off, we are not having a hearing tomorrow, I think is a more accurate way of putting it, and we resume again on Friday, yes?
+
+**Ms Price**: That is correct, sir.
+
+**Sir Wyn Williams**: Thank you very much.
+
+**Ms Price**: Thank you.
+
+*(12.59 pm)*
+
+*(The hearing adjourned until 10.00 am on Friday, 4 October 2024)*
+
