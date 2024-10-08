@@ -32,9 +32,9 @@ html_theme = 'sphinx_rtd_theme'
 html_show_sphinx = False
 
 html_theme_options = {
-    'analytics_anonymize_ip': True,
     'logo_only': False,
-    'display_version': False,
+    'language_selector': False,
+    'version_selector': False,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'style_nav_header_background': '#48466d',
