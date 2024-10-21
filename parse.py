@@ -41,11 +41,13 @@ META = {
 def load_data():
     meta = json.load(open('data/metadata.json'))
     for name in sorted(glob.glob('evidence/*.rst')):
-        if m := re.match('evidence/([A-Za-z]{3,4}[0-9_]+r?)', name):
+        if m := re.match('evidence/([A-Za-z]{3,4}[0-9_]+(r|ds)?)', name):
             key = m.group(1).upper().replace('_', '\_')
             contents = open(name).read()
             m = re.search('Evidence on official site <(.*?)>`', contents)
             url = m.group(1)
+            if 'DS' in key:
+                META['evidence'][key.replace('DS', 'ds')] = url
             META['evidence'][key] = url
     META['evidence']['FUJ00077884'] = 'https://www.postofficehorizoninquiry.org.uk/evidence/fuj00077884-consolidated-risk-register-may-1998-april-2000'
     META['urls'].update(meta['urls'])
