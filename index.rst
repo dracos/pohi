@@ -41,6 +41,7 @@ Contents
 .. toctree::
    :maxdepth: 3
 
+   closing-statements/index.rst
    phase-7/index.rst
    phases-5-6/index.rst
    phase-4/index.rst
