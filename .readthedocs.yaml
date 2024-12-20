@@ -6,6 +6,7 @@ build:
     python: "3.11"
 
 sphinx:
+  configuration: conf.py
   builder: dirhtml
   fail_on_warning: true
 
