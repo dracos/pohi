@@ -50,5 +50,8 @@ html_static_path = ['_static']
 html_css_files = ['custom.css', 'lite-yt-embed.css']
 html_js_files = ['lite-yt-embed.js']
 
+footnote_references = "superscript"
+trim_footnote_reference_space = True
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
