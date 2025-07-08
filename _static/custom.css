@@ -19,10 +19,12 @@ h2 {
     position: sticky;
     top: 0;
     background-color: #fcfcfc;
+    z-index: 1; /* So footnote numbers don’t appear */
 }
 /* Bug? in safari if overflow on a parent is set */
 body, html {
     overflow-x: visible;
+    scroll-padding-top: 4em;
 }
 
 /* Index page list */
