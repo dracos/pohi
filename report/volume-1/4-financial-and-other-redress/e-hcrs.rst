@@ -96,18 +96,18 @@ respect of Fixed Sum Offers and preliminary awards. [232]_ It had paid £152,315
 Addleshaw Goddard. [233]_
 
 
-.. [220]		[RLIT0000307].
+.. [220]		[`RLIT0000307 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000307-horizon-convictions-redress-scheme-applying-financial-redress-guidance-govuk>`_].
 .. [221]		Mr Creswell made his witness statements on 2 October 2024, 22 October 2024, 12 November 2024 and 7 May 2025.
-.. [222]		 The current version of the assessment framework is [RLIT0000363].
-.. [223]		[RLIT0000362].
-.. [224]		 Transcript, 06/11/2024, Carl Creswell [INQ00001202].
-.. [225]		[RLIT0000565].
-.. [226]		[RLIT0000580].
-.. [227]		[RLIT0000600].
-.. [228]		[RLIT0000620].
+.. [222]		 The current version of the assessment framework is [`RLIT0000363 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000363-horizon-convictions-redress-scheme-hcrs-assessment-framework>`_].
+.. [223]		[`RLIT0000362 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000362-horizon-convictions-redress-scheme-hcrs-legal-cost-framework-report>`_].
+.. [224]		 Transcript, 06/11/2024, Carl Creswell [`INQ00001202 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001202-transcript-06112024-post-office-horizon-it-inquiry-kevin-hollinrake-mp>`_].
+.. [225]		[`RLIT0000565 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000565-transparency-data-post-office-horizon-financial-redress-data-29-november-2024>`_].
+.. [226]		[`RLIT0000580 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000580-post-office-horizon-financial-redress-data-28th-february-2025-updated-7th>`_].
+.. [227]		[`RLIT0000600 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000600-department-business-trade-post-office-horizon-financial-redress-data-31-march>`_].
+.. [228]		[`RLIT0000620 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000620-post-office-horizon-financial-redress-data-30-april-2025-updated-7-may-2025>`_].
 .. [229]		I note that there are approximately 90 claimants who have received a preliminary payment who have not yet opted for the Fixed Sum Offer. There is therefore at least a reasonable possibility that some requests for assessed claims will be forthcoming.
-.. [230]		 Carl Creswell 1st [WITN11730100] at [65/194] to [68/203].
+.. [230]		 Carl Creswell 1st [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_] at [65/194] to [68/203].
 .. [231]		I assume that those claimants within OCS who were prosecuted but not convicted will remain claimants in the merged scheme.
-.. [232]		[RLIT0000620] at [3].
-.. [233]		 Carl Creswell 4th [WITN11730400] at [3/6].
+.. [232]		[`RLIT0000620 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000620-post-office-horizon-financial-redress-data-30-april-2025-updated-7-may-2025>`_] at [3].
+.. [233]		 Carl Creswell 4th [`WITN11730400 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730400-fourth-witness-statement-carl-creswell-witn11730400>`_] at [3/6].
 

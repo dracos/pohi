@@ -31,5 +31,5 @@ Volume 1 – 6. Conclusions and recommendations relating to redress
 6.11.	In order to answer that question sufficiently, there are sub-questions to be considered and answered. How should the phrase full fair and prompt be understood by claimants and the public at large. Considered objectively, what did the Post Office, the Department and Ministers intend the phrase to mean? Once the meaning of the phrase has been established, has the aim of providing redress which is full and fair in that sense been achieved? Has redress been delivered promptly?
 
 .. [310]   [RLIT0000010] at [182 to 183] and FN 6.
-.. [311]   [SUBS0000064] at [75/262] regarding full and fair and at [77/265] regarding promptness.
-.. [312]   [SUBS0000075] at [85/228].
+.. [311]   [`SUBS0000064 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000064-closing-submissions-post-office-limited>`_] at [75/262] regarding full and fair and at [77/265] regarding promptness.
+.. [312]   [`SUBS0000075 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000075-closing-submissions-department-business-and-trade-dbt>`_] at [85/228].

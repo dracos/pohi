@@ -191,7 +191,7 @@ directors. The Department is the only shareholder of the Post Office; one of the
 executive directors appointed to the Board is “the shareholder representative”. Between
 March 2018 and May 2023, the shareholder non-executive director was Mr Thomas Cooper.
 At the material time, he was an employee of United Kingdom Government Investments
-(“UKGI”) and he led a team (known as the Shareholder Team) of fellow employees of UKGI
+(“:abbr:`UKGI (UK Government Investments)`”) and he led a team (known as the Shareholder Team) of fellow employees of UKGI
 who provided assistance to the Department in (a) obtaining funding for HSS from HM
 Treasury, (b) designing governance arrangements for the Department’s oversight of HSS,
 (c) monitoring progress in HSS, and (d) attending a steering committee established by the
@@ -1262,108 +1262,108 @@ relating to suggested improvements to HSS. It read as follows:
     the cause of certain delays or information about how cases were progressing. Some
     applicants surveyed believed that the amount of compensation received or offered
     was not sufficient, in particular to compensate for additional stress caused. However,
-    other applicants appreciated that the Scheme meant that POL acknowledged their fault,
+    other applicants appreciated that the Scheme meant that :abbr:`POL (Post Office Limited)` acknowledged their fault,
     brought the issues to light, and was an avenue to receive some compensation.” [138]_
 
 
-.. [38]    [INQ00002032] at [10/13] to [17/45].
-.. [39]    [RLIT0000315] and [POL00448026].
-.. [40]    The most important of the eligibility criteria are described in paragraphs 15 and 16 of the Progress Update on Issues relating to Compensation, 15/08/2022 [INQ00002032] at [11/15] to [11/16].
+.. [38]    [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [10/13] to [17/45].
+.. [39]    [`RLIT0000315 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000315-pol-horizon-shortfall-scheme-template-application-join-scheme>`_] and [`POL00448026 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448026-terms-reference-horizon-shortfall-scheme-independent-advisory-panel>`_].
+.. [40]    The most important of the eligibility criteria are described in paragraphs 15 and 16 of the Progress Update on Issues relating to Compensation, 15/08/2022 [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [11/15] to [11/16].
 .. [41]    There was an exception to this general rule. Claimants in the Group Litigation who had been or were in contractual relations with the Post Office were not eligible to make a claim. No doubt, this was because at this early stage the thinking was that their contractual claims had been compromised as a result of the settlement of the Group Litigation.
-.. [42]    For details of the parts of the Terms of Reference which governed a panel’s decision-making see paragraphs 32 to 36 of the Progress Update on Issues relating to Compensation, 15/08/2022 [INQ00002032] at [14/32] to [15/36].
+.. [42]    For details of the parts of the Terms of Reference which governed a panel’s decision-making see paragraphs 32 to 36 of the Progress Update on Issues relating to Compensation, 15/08/2022 [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [14/32] to [15/36].
 .. [43]    Ibid at [14/32].
-.. [44]    At the time of writing no offer to a claimant has ever been made which is less than a recommendation from a panel; on occasions first offers made by the Post Office have exceeded the recommendation of a panel. Simon Recaldin 6th [WITN09890600] at [29/92].
+.. [44]    At the time of writing no offer to a claimant has ever been made which is less than a recommendation from a panel; on occasions first offers made by the Post Office have exceeded the recommendation of a panel. Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [29/92].
 .. [45]    See paragraphs 4.56 and 4.98 below.
-.. [46]    The salient features of the Dispute Resolution Procedure are described in paragraphs 29 and 30 of the Progress Update: [INQ00002032] at [13/29] to [13/30].
+.. [46]    The salient features of the Dispute Resolution Procedure are described in paragraphs 29 and 30 of the Progress Update: [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [13/29] to [13/30].
 .. [47]    Ibid at [17/46].
 .. [48]    Ibid at [19/61] to [19/63] and [33/136] to [34/137].
 .. [49]    The first director was Mr Declan Salter.
-.. [50]    [UKGI00049044].
+.. [50]    [`UKGI00049044 <https://www.postofficehorizoninquiry.org.uk/evidence/ukgi00049044-remediation-committee-duties-and-responsibilities>`_].
 .. [51]    I will provide a full explanation of the function, structure and management of UKGI in a later volume of my Report.
-.. [52]    Thomas Cooper 3rd [WITN00200300].
-.. [53]    These discussions are described in paragraphs 19 to 22 of [WITN00200300] at [8/19] to [9/22].
-.. [54]    [INQ00002032] at [33/132].
-.. [55]    Transcript, 06/07/2022, POHITI Compensation Issues Hearing, [INQ00001057] at [72/5] to [72/9].
+.. [52]    Thomas Cooper 3rd [`WITN00200300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn00200300-thomas-cooper-third-witness-statement>`_].
+.. [53]    These discussions are described in paragraphs 19 to 22 of [`WITN00200300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn00200300-thomas-cooper-third-witness-statement>`_] at [8/19] to [9/22].
+.. [54]    [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [33/132].
+.. [55]    Transcript, 06/07/2022, POHITI Compensation Issues Hearing, [`INQ00001057 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001057-transcript-06072022-post-office-horizon-it-inquiry-post-office-ltd-uk>`_] at [72/5] to [72/9].
 .. [56]      [SUBS0000005] at [6/26].
-.. [57]      [RLIT0000626].
-.. [58]    	Chair’s Statement on Issues relating to Compensation, 09/01/2023, [INQ00002033] at [7/14] to [8/17].
-.. [59]    First Interim Report: Compensation, 17/07/2023, [INQ00002027] at [34/145], Recommendation 8.
+.. [57]      [`RLIT0000626 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000626-govuk-government-supports-postmasters-impacted-horizon-scandal-providing>`_].
+.. [58]    	Chair’s Statement on Issues relating to Compensation, 09/01/2023, [`INQ00002033 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002033-chairs-statement-issues-relating-compensation>`_] at [7/14] to [8/17].
+.. [59]    First Interim Report: Compensation, 17/07/2023, [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_] at [34/145], Recommendation 8.
 .. [60]    I mean by that there is no date yet announced by which claims must be made and that after that date no further claims will be considered.
-.. [61]    Transcript, 08/11/2024, Gareth Thomas [INQ00001204] at [34/1] to [35/1].
-.. [62]    Simon Recaldin 6th [WITN09890600] at [10/25].
-.. [63]    [BEIS0000906].
-.. [64]    First Interim Report: Compensation, 17/07/2023, [INQ00002027] at [9/22].
-.. [65]    [RLIT0000624].
-.. [66]    First Interim Report: Compensation, 17/07/2023, [INQ00002027] at [33/143].
-.. [67]    [RLIT0000588] at [6].
-.. [68]    Mr Creswell has made four witness statements [WITN11730100], [WITN11730200], [WITN11730300] and [WITN11730400] and he gave oral evidence on 6 November 2024. He is the Director, Post Office Policy and Business Engagement, within the Department.
-.. [69]    [UKGI00037433] at [2/10].
-.. [70]    Simon Recaldin 6th [WITN09890600] at [20/58].
-.. [71]    See paragraph 4.99 below. I have assumed that Mr. Creswell’s use of the word “exceptional”, as referred to in that paragraph, is a reference to the most difficult of the complex cases.  Carl Creswell 1st [WITN11730100] at [23/54].
-.. [72]    Simon Recaldin 6th [WITN09890600] at [38/126] and [SUBS0000005] at [7/28]. However, a claimant who opts to accept a fixed sum offer is not entitled to claim the legal fees paid to the lawyer if they instruct a lawyer to advise upon whether a fixed sum offer should be accepted.
-.. [73]    [RLIT0000390] at [2].
-.. [74]    Gareth Thomas 1st [WITN11490100] at [5/21].
-.. [75]    Simon Recaldin 6th [WITN09890600] at [7/15] to [7/16].
-.. [76]    Simon Recaldin 10th [WITN09891000] at [5].
+.. [61]    Transcript, 08/11/2024, Gareth Thomas [`INQ00001204 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001204-transcript-08112024-post-office-horizon-it-inquiry-gareth-thomas-mp-witn1149>`_] at [34/1] to [35/1].
+.. [62]    Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [10/25].
+.. [63]    [`BEIS0000906 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000906-post-office-horizon-compensation-and-infected-blood-interim-compensation>`_].
+.. [64]    First Interim Report: Compensation, 17/07/2023, [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_] at [9/22].
+.. [65]    [`RLIT0000624 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000624-uk-parliament-post-office-compensation-update-statement-made-tuesday-19-june>`_].
+.. [66]    First Interim Report: Compensation, 17/07/2023, [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_] at [33/143].
+.. [67]    [`RLIT0000588 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000588-dbt-response-post-office-horizon-it-inquirys-first-interim-report-compensation>`_] at [6].
+.. [68]    Mr Creswell has made four witness statements [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_], [`WITN11730200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730200-carl-creswell-second-witness-statement>`_], [`WITN11730300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730300-carl-creswell-third-witness-statement>`_] and [`WITN11730400 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730400-fourth-witness-statement-carl-creswell-witn11730400>`_] and he gave oral evidence on 6 November 2024. He is the Director, Post Office Policy and Business Engagement, within the Department.
+.. [69]    [`UKGI00037433 <https://www.postofficehorizoninquiry.org.uk/evidence/ukgi00037433-working-doc-post-office-ltd-historical-shortfall-scheme-response-hmt-approval>`_] at [2/10].
+.. [70]    Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [20/58].
+.. [71]    See paragraph 4.99 below. I have assumed that Mr. Creswell’s use of the word “exceptional”, as referred to in that paragraph, is a reference to the most difficult of the complex cases.  Carl Creswell 1st [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_] at [23/54].
+.. [72]    Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [38/126] and [SUBS0000005] at [7/28]. However, a claimant who opts to accept a fixed sum offer is not entitled to claim the legal fees paid to the lawyer if they instruct a lawyer to advise upon whether a fixed sum offer should be accepted.
+.. [73]    [`RLIT0000390 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000390-post-office-legislation-volume-747-debated-13th-march-2024>`_] at [2].
+.. [74]    Gareth Thomas 1st [`WITN11490100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11490100-gareth-thomas-mp-witness-statement>`_] at [5/21].
+.. [75]    Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [7/15] to [7/16].
+.. [76]    Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [5].
 .. [77]    Ibid at [5].
-.. [78]    Transcript, 08/11/2024, Gareth Thomas, [INQ00001204] at [19/15] to [22/21] and Gareth Thomas 2nd, [WITN11490200] at [5/17] to [6/23].
+.. [78]    Transcript, 08/11/2024, Gareth Thomas, [`INQ00001204 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001204-transcript-08112024-post-office-horizon-it-inquiry-gareth-thomas-mp-witn1149>`_] at [19/15] to [22/21] and Gareth Thomas 2nd, [`WITN11490200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11490200-gareth-thomas-mp-witness-statement>`_] at [5/17] to [6/23].
 .. [79]    See paragraph 4.59 above.
-.. [80]    See Simon Recaldin 6th [WITN09890600] at [32/102].
-.. [81]    [RLIT0000613].
-.. [82]    [RLIT0000250].
-.. [83]    [RLIT0000267] at [1/3] to [2/13].
+.. [80]    See Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [32/102].
+.. [81]    [`RLIT0000613 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000613-new-appeals-process-provide-independent-assurance-about-horizon-redress-awards>`_].
+.. [82]    [`RLIT0000250 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000250-horizon-compensation-advisory-board-report-fifth-meeting-14062023>`_].
+.. [83]    [`RLIT0000267 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000267-horizon-compensation-advisory-board-report-eighth-meeting-held-25-october-2023>`_] at [1/3] to [2/13].
 .. [84]    Ibid at [2/13].
-.. [85]    Gareth Thomas MP 1st [WITN11490100] at [6/23].
-.. [86]    [RLIT0000614].
-.. [87]    [RLIT0000616] and [RLIT0000617].
+.. [85]    Gareth Thomas MP 1st [`WITN11490100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11490100-gareth-thomas-mp-witness-statement>`_] at [6/23].
+.. [86]    [`RLIT0000614 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000614-horizon-shortfall-scheme-appeals-process-statement-gareth-thomas>`_].
+.. [87]    [`RLIT0000616 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000616-how-apply-horizon-shortfall-scheme-appeals-hssa-process-guidance-postmasters>`_] and [`RLIT0000617 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000617-horizon-shortfall-scheme-appeals-process-guidance-and-principles-guidance>`_].
 .. [88]    The person receiving the ex-gratia payment will be under an obligation to reach an agreement with any other shareholders, directors or partners as to how any payment is split between them.
-.. [89]    [INQ00002027] at [10/27] to [19/68].
+.. [89]    [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_] at [10/27] to [19/68].
 .. [90]      “DRP” is the acronym used by the Post Office for Dispute Resolution Procedure.
-.. [91]      Carl Creswell 1st [WITN11730100].
-.. [92]      [BEIS0000900].
-.. [93]      [UKGI00017881].
-.. [94]      Thomas Cooper 3rd [WITN00200300] at [9/23].
-.. [95]	Lorna Gratton 1st [WITN11310100] at [83/179] to [84/181]; Transcript, 7/11/2024, Lorna Gratton [INQ00001203] at [38/15] to [42/11].
-.. [96]  [WITN11310100] at [87/187].
+.. [91]      Carl Creswell 1st [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_].
+.. [92]      [`BEIS0000900 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000900-historical-shortfall-scheme-beisukgi-steering-committee-terms-reference>`_].
+.. [93]      [`UKGI00017881 <https://www.postofficehorizoninquiry.org.uk/evidence/ukgi00017881-historical-shortfall-scheme-pol-beis-hss-operations-agreement>`_].
+.. [94]      Thomas Cooper 3rd [`WITN00200300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn00200300-thomas-cooper-third-witness-statement>`_] at [9/23].
+.. [95]	Lorna Gratton 1st [`WITN11310100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11310100-lorna-gratton-witness-statement>`_] at [83/179] to [84/181]; Transcript, 7/11/2024, Lorna Gratton [`INQ00001203 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001203-transcript-07112024-post-office-horizon-it-inquiry-lorna-gratton-witn1131-and>`_] at [38/15] to [42/11].
+.. [96]  [`WITN11310100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11310100-lorna-gratton-witness-statement>`_] at [87/187].
 .. [97]  Ibid.
-.. [98]  Lorna Gratton 1st [WITN11310100] at [87/188]; Transcript, 7/11/2024, Lorna Gratton [INQ00001203] at [39/4] to [39/9].
-.. [99]  Lorna Gratton 1st [WITN11310100] at [87/188].
+.. [98]  Lorna Gratton 1st [`WITN11310100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11310100-lorna-gratton-witness-statement>`_] at [87/188]; Transcript, 7/11/2024, Lorna Gratton [`INQ00001203 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001203-transcript-07112024-post-office-horizon-it-inquiry-lorna-gratton-witn1131-and>`_] at [39/4] to [39/9].
+.. [99]  Lorna Gratton 1st [`WITN11310100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11310100-lorna-gratton-witness-statement>`_] at [87/188].
 .. [100] Ibid at [89/190].
-.. [101] See Professor Christopher Hodges 1st [WITN11710100] at [62/74].
-.. [102]     First Interim Report: Compensation 17/07/2023 [INQ00002027] at [20/74].
+.. [101] See Professor Christopher Hodges 1st [`WITN11710100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11710100-professor-christopher-hodges-first-witness-statement>`_] at [62/74].
+.. [102]     First Interim Report: Compensation 17/07/2023 [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_] at [20/74].
 .. [103]     Ibid at [21/81].
-.. [104]     Simon Recaldin 6th [WITN09890600] and Simon Recaldin 8th [WITN09890800].
-.. [105]   Simon Recaldin 6th [WITN09890600] at [4/13] to [5/13] and Simon Recaldin 8th [WITN09890800] at [3/11].
-.. [106]   Simon Recaldin 6th [WITN09890600] at [5/13].
+.. [104]     Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] and Simon Recaldin 8th [`WITN09890800 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890800-simon-recaldin-eighth-witness-statement>`_].
+.. [105]   Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [4/13] to [5/13] and Simon Recaldin 8th [`WITN09890800 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890800-simon-recaldin-eighth-witness-statement>`_] at [3/11].
+.. [106]   Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [5/13].
 .. [107]   Ibid.
 .. [108]   Ibid at [19/53].
-.. [109]   Simon Recaldin 8th [WITN09890800] at [2/7].
-.. [110]   Simon Recaldin 6th [WITN09890600] at [69/187].
+.. [109]   Simon Recaldin 8th [`WITN09890800 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890800-simon-recaldin-eighth-witness-statement>`_] at [2/7].
+.. [110]   Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [69/187].
 .. [111]   Ibid.
 .. [112]   Ibid at [70/188] and [70/189].
-.. [113]   Simon Recaldin 7th [WITN09890700] at [11/31].
-.. [114]   Simon Recaldin 8th [WITN09890800] at [2/6].
+.. [113]   Simon Recaldin 7th [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [11/31].
+.. [114]   Simon Recaldin 8th [`WITN09890800 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890800-simon-recaldin-eighth-witness-statement>`_] at [2/6].
 .. [115]   Ibid.
 .. [116]   Ibid.
-.. [117]   Transcript, 04/11/2024, Simon Recaldin, [INQ00001200] at [69/22] to [70/9].
+.. [117]   Transcript, 04/11/2024, Simon Recaldin, [`INQ00001200 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001200-transcript-04112024-post-office-horizon-it-inquiry-simon-recaldin-witn0989>`_] at [69/22] to [70/9].
 .. [118]   Ibid at [70/12] to [72/7].
-.. [119]		[SUBS0000075] at [82/217].
-.. [120]		 Simon Recaldin 10th [WITN09891000] at [5/8].
+.. [119]		[`SUBS0000075 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000075-closing-submissions-department-business-and-trade-dbt>`_] at [82/217].
+.. [120]		 Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [5/8].
 .. [121]		 Ibid at [3/8].
 .. [122]		That seems reasonable given the total numbers of claims, the number ruled ineligible and the number yet to be assessed for eligibility.
-.. [123]		 Transcript, 04/11/2024, Simon Recaldin, [INQ00001200] at [70/21] to [71/9].
+.. [123]		 Transcript, 04/11/2024, Simon Recaldin, [`INQ00001200 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001200-transcript-04112024-post-office-horizon-it-inquiry-simon-recaldin-witn0989>`_] at [70/21] to [71/9].
 .. [124]		 Ibid at [116/9] to [116/16].
-.. [125]   Simon Recaldin 7th [WITN09890700] at [40/133] to [41/134].
-.. [126]   Simon Recaldin 9th [WITN09890900] at [2/6].
-.. [127]   Simon Recaldin 10th [WITN09891000].
+.. [125]   Simon Recaldin 7th [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [40/133] to [41/134].
+.. [126]   Simon Recaldin 9th [`WITN09890900 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890900-simon-recaldin-ninth-witness-statement>`_] at [2/6].
+.. [127]   Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_].
 .. [128]   This figure does not correspond, exactly, with the information provided to me at the hearings which preceded the Progress Update.
-.. [129]     Simon Recaldin 10th [WITN09891000] at [5/FN7].
-.. [130]   [RLIT0000620] at [6].
-.. [131]   [RLIT0000599] at [1].
-.. [132]   [EXPG0000007] and [EXPG0000009].
+.. [129]     Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [5/FN7].
+.. [130]   [`RLIT0000620 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000620-post-office-horizon-financial-redress-data-30-april-2025-updated-7-may-2025>`_] at [6].
+.. [131]   [`RLIT0000599 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000599-letter-simon-recaldin-rt-hon-liam-byrne-mp-re-post-office-fast-and-fair>`_] at [1].
+.. [132]   [`EXPG0000007 <https://www.postofficehorizoninquiry.org.uk/evidence/expg0000007-horizon-inquiry-phase-7-surveys-report-produced-yougov-behalf-post-office>`_] and [`EXPG0000009 <https://www.postofficehorizoninquiry.org.uk/evidence/expg0000009-horizon-inquiry-phase-7-surveys-report-addendum-produced-yougov-behalf-post>`_].
 .. [133]   The questionnaire was partially completed by 53 claimants.
-.. [134]   Transcript, 23/09/2024, Gavin Ellison, [INQ00001185] at [7/8] to [7/11].
+.. [134]   Transcript, 23/09/2024, Gavin Ellison, [`INQ00001185 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001185-transcript-23092024-post-office-horizon-it-inquiry-gavin-ellison-witn1168-and>`_] at [7/8] to [7/11].
 .. [135]		In paragraphs 4.139 to 4.146 the word “claimants” means those claimants who responded to the questionnaire unless I say otherwise in the text.
-.. [136]		[EXPG0000007] at [5].
+.. [136]		[`EXPG0000007 <https://www.postofficehorizoninquiry.org.uk/evidence/expg0000007-horizon-inquiry-phase-7-surveys-report-produced-yougov-behalf-post-office>`_] at [5].
 .. [137]		 Ibid at [49/100].
 .. [138]   Ibid at [6/100].

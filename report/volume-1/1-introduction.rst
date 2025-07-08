@@ -55,17 +55,17 @@ E03395555 07/2025
 
 .. rubric:: Footnotes
 
-.. [1] The phrase “the Post Office” means Post Office Limited and all predecessor and subsidiary companies as the context requires. The phrase “the Horizon IT System” and the word “Horizon” have the same meaning as attributed to the phrase the Horizon System in the judgment of Fraser J (as he then was) in Alan Bates and Others v Post Office Limited (No.6: Horizon Issues) [2019] EWHC 3408 (QB) (“Horizon Issues judgment”).
+.. [1] The phrase “the Post Office” means Post Office Limited and all predecessor and subsidiary companies as the context requires. The phrase “the Horizon IT System” and the word “Horizon” have the same meaning as attributed to the phrase the Horizon System in the judgment of Fraser J (as he then was) in Alan Bates and Others v Post Office Limited (No.6: Horizon Issues) [2019] EWHC 3408 (QB) (“`Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_”).
 .. [2] Henceforth, the term “Fujitsu” will be used to refer not just to ICL Pathway Limited, but also the compa- ny known as Fujitsu Services Limited, all its subsidiary and controlling companies and all its predeces- sor companies as the context requires. The focus of this volume of my report will necessarily be on the entities that operate in the UK and, where that is not the case in future volumes, it will be clear from the relevant context and any accompanying wording.
 .. [3] I will summarise and explain the evidence which justifies this statement in a later volume of my Report.
 .. [4] Ibid.
 .. [5] Ibid.
-.. [6] Horizon Issues judgment [936]; Horizon Issues judgment [963].
+.. [6] `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ [936]; `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_ [963].
 .. [7] In all volumes of my Report the word “postmaster” is used to describe the person (either actual or legal) who/which is the party to a contract with the Post Office to operate a Post Office branch. Where a postmaster has described themself either in writing or orally as “postmistress” that term is used instead of the term postmaster.
 .. [8] I have chosen to use the phrase “wholly unacceptable behaviour” since it is apt to describe behaviour which is worthy of condemnation. However, the phrase does not necessarily, mean that persons or the Post Office committed crimes or would be liable in civil proceedings. I am precluded by section 2 Inquiries Act 2005 from determining criminal or civil liability.
 .. [9] Most of the persons prosecuted were convicted of offences of dishonesty. An unknown percentage of those prosecuted were acquitted (probably somewhere in the region of 7.5%) but the impact of prosecution was invariably disastrous even for those acquitted.
-.. [10] Alan Bates and Others v Post Office Limited Judgment (No.3) (Common Issues) [2019] EWHC 606 (QB) and Horizon Issues judgment.
+.. [10] Alan Bates and Others v Post Office Limited Judgment (No.3) (Common Issues) [2019] EWHC 606 (QB) and `Horizon Issues judgment <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_.
 .. [11] The phrase “the Minister”, depending upon its context, means any Minister of the Department for Business and Trade and any predecessor department and any relevant Minister of HM Government and previous Governments from 1997 to the present. “Department” means the Department of Business and Trade and any predecessor department from about 1995 to the present.
-.. [12] [INQ00002032].
-.. [13] [INQ00002033].
-.. [14] [INQ00002027].
+.. [12] [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_].
+.. [13] [`INQ00002033 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002033-chairs-statement-issues-relating-compensation>`_].
+.. [14] [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_].

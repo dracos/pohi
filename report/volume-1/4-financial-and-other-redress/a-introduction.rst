@@ -76,7 +76,7 @@ were able to submit claims to those administering it.
 
 
 
-4.8.	Following the success of Ms Josephine Hamilton and others in the Court of Appeal, a
+4.8.	Following the success of Ms Josephine `Hamilton and others <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_ in the Court of Appeal, a
 number of persons who had been convicted of offences of dishonesty in prosecutions
 brought against them by the Post Office appealed against their convictions. Most of the
 appeals were considered by the Court of Appeal (Criminal Division) and a much smaller
@@ -153,13 +153,13 @@ below as and when appropriate.
 
 .. [26]    As a matter of fact, there are seven schemes in being under which postmasters can claim financial redress for losses. However, the four schemes identified in this paragraph and considered in this volume of my Report are those which allow postmasters to claim for losses specifically caused by Horizon and/or the use of data from Horizon. The other three schemes are the Suspension Remuneration Review, the Post Office Process Review and the Stamp Compensation Scheme which are not necessarily related to losses caused by Horizon.
 .. [27]    Over time, OCS has morphed into a remediation scheme. The process/scheme has been described variously. I use the word “scheme” throughout this volume of my Report even though, more accurately at given moments in time, the word “process” should be used. In the Interim Report this scheme was known as the Overturned Historic Convictions Scheme but the word Historic is no longer used in connection with the scheme.
-.. [28]    [POL00006304] at [7/9.4] to [7/9.5] and Schedule 6 at [46].
+.. [28]    [`POL00006304 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00006304-confidential-settlement-deed-alan-bates-others-v-post-office-limited>`_] at [7/9.4] to [7/9.5] and Schedule 6 at [46].
 .. [29]    Ibid.
-.. [30]    See Hamilton and others v Post Office Limited [2021] EWCA Crim 577.
-.. [31]    [RLIT0000625] at [3].
-.. [32]    [RLIT0000618] at [1].
+.. [30]    See `Hamilton and others <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_ v Post Office Limited [2021] EWCA Crim 577.
+.. [31]    [`RLIT0000625 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000625-uk-parliament-business-update-statement-made-22-july-2021>`_] at [3].
+.. [32]    [`RLIT0000618 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000618-post-office-update-statement-made-paul-scully-minister-small-business>`_] at [1].
 .. [33]    I understand that on 1 June 2025 HSF merged with Kramer Levin Naftalis & Frankel LLP, a law firm based in the United States of America. Notwithstanding this merger, it is convenient to continue to use the acronym HSF in my Report.
 .. [34]    I understand that the Post Office appointed Pinsent Mason LLP to replace HSF in 2024, but that they are still providing their services to the Post Office under a “Transitional Contract”. I presume that HSF will cease to have any role in OCS on or before 3 June 2025 – see paragraph 4.13 above.
 .. [35]    The operational costs of the scheme are also provided by the Department although the Post Office has contributed to those costs from its own reserves.
-.. [36]    [RLIT0000623].
+.. [36]    [`RLIT0000623 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000623-uk-parliament-changes-responsibilities-horizon-overturned-conviction-redress>`_].
 .. [37]    As the word suggests facilitators seek to promote settlements of claims made by claimants which are disputed in whole or in part by the Department.

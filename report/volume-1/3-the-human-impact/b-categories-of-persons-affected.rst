@@ -112,9 +112,9 @@ Impacts on the immediate family
 
 .. rubric:: Footnotes
 
-.. [17]      [POL00462746].
-.. [18]    [POL00462747].
+.. [17]      [`POL00462746 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00462746-letter-bsff-solicitor-inquiry-re-post-office-horizon-inquiry-rule-9-request-68>`_].
+.. [18]    [`POL00462747 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00462747-letter-bsff-solicitor-inquiry-re-post-office-horizon-inquiry-rule-9-request-68>`_].
 .. [19]    I have not been provided with the medical and other evidence which would allow conclusions to be reached. That is entirely appropriate since I am not permitted to determine civil liability.
-.. [20]    [POL00462746] and [POL00462747].
+.. [20]    [`POL00462746 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00462746-letter-bsff-solicitor-inquiry-re-post-office-horizon-inquiry-rule-9-request-68>`_] and [`POL00462747 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00462747-letter-bsff-solicitor-inquiry-re-post-office-horizon-inquiry-rule-9-request-68>`_].
 .. [21]    I am here referring to having to wear an electronic tag, abiding by a curfew and/or complying with onerous reporting restrictions following their release from prison.
 .. [22]    This figure is derived from the evidence given as to the numbers of claimants in HSS, OCS and GLOS who were prosecuted but acquitted. It is by no means clear that all the persons who were acquitted of criminal charges in England and Wales have made claims to these schemes so the number of claim- ants may not reflect the actual numbers of acquitted persons in England and Wales. I am aware that there were acquitted people in Northern Ireland and Scotland. The numbers in context are likely to have been small.

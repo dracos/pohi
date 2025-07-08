@@ -62,7 +62,7 @@ HSS
 
 6.52.	What is the justification for this inflexible approach? I have scrutinised paragraphs 233 to 240 of the written closing submissions made on behalf of the Department with care, but I can find no reasoned justification for the current approach. Paragraph 274 of the closing submissions of the Post Office is more instructive:
 
-   “274. … it is POL’s view that leaving the fixed sum offer open for acceptance while the
+   “274. … it is :abbr:`POL (Post Office Limited)`’s view that leaving the fixed sum offer open for acceptance while the
    Postmaster proceeded down the full assessment route would defeat the purpose of the
    new offer. It is more likely than not that, understandably, a number of applicants would
    proceed to individual assessment given the potential to receive an amount higher than
@@ -293,17 +293,17 @@ HCRS
 
 6.128.	From time to time, I have become aware that voices have been raised to suggest that more should be done to bring HCRS to the attention of those whose convictions have been quashed by legislation. It has also been suggested that not enough is being done to alert persons to the fact of the quashing of their convictions. It is true that the number of claims made to HCRS may be significantly less than the number of persons whose convictions have been quashed. There have been suggestions that the Inquiry should assist in alerting potential claimants of their rights by making recommendations as to how such claimants should be alerted to their rights or informed that their convictions have been quashed. I do not accept that such activity would fall within the Terms of Reference of the Inquiry. More importantly, I cannot believe that the Post Office, the Department and the Ministry of Justice together are incapable of (a) ascertaining the names of all those persons who fall within the terms of the legislation which quashes their convictions (or at least as many as can be identified reasonably with appropriate efforts) and (b) do what is reasonable to inform those persons that their convictions have been quashed and that they are entitled to financial redress.
 
-.. [313]   Simon Recaldin 10th [WITN09891000] at [3/8]. I do not know the breakdown between those accepting a first or subsequent offers.
-.. [314]   Phase 7 Surveys - Report produced by YouGov on behalf of the Post Office Horizon IT Inquiry [EXPG0000007] at [49/5.2].
+.. [313]   Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [3/8]. I do not know the breakdown between those accepting a first or subsequent offers.
+.. [314]   Phase 7 Surveys - Report produced by YouGov on behalf of the Post Office Horizon IT Inquiry [`EXPG0000007 <https://www.postofficehorizoninquiry.org.uk/evidence/expg0000007-horizon-inquiry-phase-7-surveys-report-produced-yougov-behalf-post-office>`_] at [49/5.2].
 .. [315]   Outlined at paragraph 4.103 above.
-.. [316]   [SUBS0000013] at [2/6] to [3/9].
-.. [317]   Simon Recaldin 10th [WITN09891000] at [3/8].
+.. [316]   [`SUBS0000013 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000013-hudgell-solicitors-submissions-8-december-2022-compensation-hearing>`_] at [2/6] to [3/9].
+.. [317]   Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [3/8].
 .. [318]   Ibid at [5].
-.. [319]   [SUBS0000075] at [88/237].
-.. [320]   I understand that the vast majority of this cohort have received top up payments. Simon Recaldin 10th [WITN09891000] at [5].
-.. [321]  [RLIT0000620] This data was published by the Department on 7 May 2025.
-.. [322]      [SUBS0000064] at [79/274].
-.. [323]     [SUBS0000064] at [80/275].
+.. [319]   [`SUBS0000075 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000075-closing-submissions-department-business-and-trade-dbt>`_] at [88/237].
+.. [320]   I understand that the vast majority of this cohort have received top up payments. Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [5].
+.. [321]  [`RLIT0000620 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000620-post-office-horizon-financial-redress-data-30-april-2025-updated-7-may-2025>`_] This data was published by the Department on 7 May 2025.
+.. [322]      [`SUBS0000064 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000064-closing-submissions-post-office-limited>`_] at [79/274].
+.. [323]     [`SUBS0000064 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000064-closing-submissions-post-office-limited>`_] at [80/275].
 .. [324]   See paragraphs 4.89 to 4.91 above.
-.. [325]     Simon Recaldin 11th [WITN09891100] at [2].
+.. [325]     Simon Recaldin 11th [`WITN09891100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891100-eleventh-witness-statement-simon-recaldin>`_] at [2].
 .. [326]     It is not credible that more than a handful of unresolved claims relate to the Fixed Sum Offer.

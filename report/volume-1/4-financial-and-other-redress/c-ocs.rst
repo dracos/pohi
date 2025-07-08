@@ -36,7 +36,7 @@ quashed with three exceptions to which I return to at paragraphs 4.165 to 4.168 
 4.152.	The Board constituted by the Department in August 2021 was chaired by Mr Creswell. Its
 other members were a deputy chair, officials who were members of the Department’s
 financial and legal teams, a non-executive director of the Department and the member
-of the Post Office Board who was also an official within UKGI. [143]_ It has remained in
+of the Post Office Board who was also an official within :abbr:`UKGI (UK Government Investments)`. [143]_ It has remained in
 existence ever since although its name and membership has changed. Currently, it is
 known as the Horizon Redress Convictions Board, and it is still chaired by Mr Creswell.
 
@@ -66,7 +66,7 @@ provision for the funding of offers in settlement to claimants who had been pros
 for Horizon-related offences, but who had not been convicted. Such persons were
 eligible to make a claim under OCS provided that they could demonstrate that had they
 been convicted, their convictions would have been quashed under the principles which
-were formulated in the judgment in Hamilton and others in the Court of Appeal. As of
+were formulated in the judgment in `Hamilton and others <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_ in the Court of Appeal. As of
 December 2021, however, there was a lacuna. Financial redress under OCS was available
 to claimants in the Group Litigation who had been convicted of criminal offences because
 their right to bring proceedings for malicious prosecution had been reserved, specifically,
@@ -466,36 +466,36 @@ information.
 
 
 
-.. [139]   The evidence available to me about this comes from three sources. In his 7th Witness Statement [WITN09890700] at [12/34] Mr Recaldin raised the possibility that there may have been 8 such persons. In his 10th Witness Statement [WITN09891000] at [7/10], Mr Recaldin specified that there are two eligible claimants in that category. In his 11th Witness Statement [WITN09891100] at [2/8] he specified that there are three eligible claimants. I have taken the last of his statements to be accurate.
+.. [139]   The evidence available to me about this comes from three sources. In his 7th Witness Statement [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [12/34] Mr Recaldin raised the possibility that there may have been 8 such persons. In his 10th Witness Statement [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [7/10], Mr Recaldin specified that there are two eligible claimants in that category. In his 11th Witness Statement [`WITN09891100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891100-eleventh-witness-statement-simon-recaldin>`_] at [2/8] he specified that there are three eligible claimants. I have taken the last of his statements to be accurate.
 .. [140]   The quashing of convictions by the courts is now extremely unlikely given the coming into force of the Post Office (Horizon System) Offences Act 2024 and the equivalent legislation in Scotland. However, there remains a possibility that there are still persons who were acquitted of criminal offences in the courts who are eligible to claim under OCS who have not yet done so.
-.. [141]		See the judgment of the court in Josephine Hamilton and others v Post Office Limited [2021] EWCA Crim 577.
-.. [142]   [POL00448914].
-.. [143]   [UKGI00049063].
-.. [144]   [POL00448915].
-.. [145]   [BEIS0000899] at [7/22] to [7/24].
+.. [141]		See the judgment of the court in Josephine `Hamilton and others <https://www.bailii.org/ew/cases/EWCA/Crim/2021/577.html>`_ v Post Office Limited [2021] EWCA Crim 577.
+.. [142]   [`POL00448914 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448914-letter-tom-taylor-post-office-board-re-funding-commitment-letter-confidence>`_].
+.. [143]   [`UKGI00049063 <https://www.postofficehorizoninquiry.org.uk/evidence/ukgi00049063-uk-government-investment-pol-overturn-criminal-convictions-pocc-board-terms>`_].
+.. [144]   [`POL00448915 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448915-beis-letter-tom-taylor-pol-board-directors-re-funding-commitment-letter>`_].
+.. [145]   [`BEIS0000899 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000899-department-business-energy-and-industrial-strategy-submissions-july-2022>`_] at [7/22] to [7/24].
 .. [146]		Fortunately, this lacuna was short-lived because an announcement heralding the development of GLOS was made in March 2022. See, too, paragraph 3.194 above in respect of Ms Hazzleton.
-.. [147]		Compensation Progress Update 15/08/2024 [INQ00002032] at [26/96] – 11 claims in total in various stages of quantification.
-.. [148]		[SUBS0000039] at [3/12].
-.. [149]		 The agreement was approved and implemented in November 2022. See [SUBS0000009] at [11/28].
-.. [150]		[BEIS0000902].
-.. [151]		 Compensation Progress Update 15/08/2024 [INQ00002032] at [7/8.5].
-.. [152]		Chair’s Statement on issues relating to Compensation 09/01/2023 [INQ00002033] at [11/35]; First Interim Report: Compensation 17/07/2023 [INQ00002027] at [29/120].
-.. [153]		For a fuller explanation of the rationale see Simon Recaldin 7th Witness Statement [WITN09890700] at [12/35] and [POL00333298] at [3/8] to [4/11].
-.. [154]		[POL00448914] at [2].
+.. [147]		Compensation Progress Update 15/08/2024 [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [26/96] – 11 claims in total in various stages of quantification.
+.. [148]		[`SUBS0000039 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000039-further-submissions-behalf-post-office-limited-july-2022-compensation-hearings>`_] at [3/12].
+.. [149]		 The agreement was approved and implemented in November 2022. See [`SUBS0000009 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000009-post-office-limited-submissions-8-december-2022-compensation-hearing>`_] at [11/28].
+.. [150]		[`BEIS0000902 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000902-department-business-and-trade-overturned-convictions-pol-dbt-oc-operations>`_].
+.. [151]		 Compensation Progress Update 15/08/2024 [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [7/8.5].
+.. [152]		Chair’s Statement on issues relating to Compensation 09/01/2023 [`INQ00002033 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002033-chairs-statement-issues-relating-compensation>`_] at [11/35]; First Interim Report: Compensation 17/07/2023 [`INQ00002027 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002027-post-office-horizon-it-inquiry-first-interim-report-compensation>`_] at [29/120].
+.. [153]		For a fuller explanation of the rationale see Simon Recaldin 7th Witness Statement [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [12/35] and [`POL00333298 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00333298-pol-v-parmod-kalia-oyeteju-adedayo-crown-court-southwark-respondents-note>`_] at [3/8] to [4/11].
+.. [154]		[`POL00448914 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448914-letter-tom-taylor-post-office-board-re-funding-commitment-letter-confidence>`_] at [2].
 .. [155]		These two settlements are two of the four settlements in which pecuniary losses were finalised prior 27 April 2023.
-.. [156]		 Simon Recaldin 7th [WITN09890700] at [28/78].
+.. [156]		 Simon Recaldin 7th [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [28/78].
 .. [157]		 Ibid.
 .. [158]		The substance of the neutral evaluation and the pecuniary principles were revealed once HCRS came into being.
-.. [159]		The fixed sum offer of £600,000 was and is not open for acceptance by claimants who were prose- cuted but not convicted – see Simon Recaldin’s 11th Witness Statement [WITN09891100] at [2/FN3].
-.. [160]   Claimants receive a letter setting out the options and the process. [POL00448913] at [4/6.2].
-.. [161]		There is a separate document setting out, in detail, the process for pecuniary claims, [POL00448916].
+.. [159]		The fixed sum offer of £600,000 was and is not open for acceptance by claimants who were prose- cuted but not convicted – see Simon Recaldin’s 11th Witness Statement [`WITN09891100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891100-eleventh-witness-statement-simon-recaldin>`_] at [2/FN3].
+.. [160]   Claimants receive a letter setting out the options and the process. [`POL00448913 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448913-template-letter-herbert-smith-freehills-claimant-representative-re-interim>`_] at [4/6.2].
+.. [161]		There is a separate document setting out, in detail, the process for pecuniary claims, [`POL00448916 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448916-post-office-overturned-convictions-pecuniary-compensation-assessment-process>`_].
 .. [162]   It remains the case that there is no internal process for resolving disputes about non-pecuniary loss.
-.. [163]		Simon Recaldin 10th [WITN09891000] at [6/9] Table at paragraph 9; Simon Recaldin 11th [WITN09891100] at [4/12] and [4/FN5].
+.. [163]		Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [6/9] Table at paragraph 9; Simon Recaldin 11th [`WITN09891100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891100-eleventh-witness-statement-simon-recaldin>`_] at [4/12] and [4/FN5].
 .. [164]		[POL00462749].
-.. [165]		 Simon Recaldin 7th [WITN09890700] at [13/37].
-.. [166]		 Carl Creswell 1st [WITN11730100] at [27/64].
+.. [165]		 Simon Recaldin 7th [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [13/37].
+.. [166]		 Carl Creswell 1st [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_] at [27/64].
 .. [167]		 Ibid at [12/27.6].
-.. [168]		[RLIT0000595].
-.. [169]		[SUBS0000075] at [82/217].
-.. [170]		The evidence set out in this, and the following paragraphs, is to be found in Simon Recaldin’s 10th Witness Statement [WITN09891000] at [6/10].
+.. [168]		[`RLIT0000595 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000595-press-release-department-business-and-trade-government-take-over-redress>`_].
+.. [169]		[`SUBS0000075 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000075-closing-submissions-department-business-and-trade-dbt>`_] at [82/217].
+.. [170]		The evidence set out in this, and the following paragraphs, is to be found in Simon Recaldin’s 10th Witness Statement [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [6/10].
 .. [171]		I have been made aware of the submission of the pecuniary claim since the provision of Mr Recaldin’s 11th Witness Statement. I do not consider it necessary to seek a further witness on this point.
