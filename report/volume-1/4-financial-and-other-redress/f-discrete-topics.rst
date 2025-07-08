@@ -133,17 +133,17 @@ Reference. They are:
     “1.	The Board’s aim is to help DBT to ensure fair and prompt compensation to Postmasters
     affected by the Horizon scandal and related issues.
 
-    2.	It will advise DBT Ministers on how best to manage the delivery of the GLO Compensation
-    Scheme announced in December 2022, with the aim of ensuring that it:
+    2.	It will advise DBT Ministers on how best to manage the delivery of the **GLO Compensation
+    Scheme** announced in December 2022, with the aim of ensuring that it:
 
-        •		 provides fair compensation to GLO Postmasters
+        •		 provides **fair compensation to GLO Postmasters**
 
-        •		 does so promptly – and certainly before the deadline of August 2024; and
+        •		 does so **promptly** – and certainly before the deadline of August 2024; and
 
-        •		does so consistently with the expectations of Parliament that public money is spent in line with the Accounting Officer’s Duties.
+        •		does so consistently with the expectations of Parliament that public money is spent in line with the **Accounting Officer’s Duties**.
 
-    3. 	It will advise DBT Ministers in respect of DBT’s oversight of other strands of Horizon-
-    related compensation by the Post Office, including the Historical Shortfall Scheme,
+    3. 	It will advise DBT Ministers in respect of **DBT’s oversight of other strands of Horizon-
+    related compensation** by the Post Office, including the Historical Shortfall Scheme,
     arrangements for compensation in respect of overturned historic convictions and
     compensation for Postmaster detriment.
 
@@ -190,7 +190,7 @@ claimants should be full and fair. [243]_
 
 4.271.	In the Interim Report, I made the following recommendations:
 
-  “Recommendation 1: The Horizon Compensation Advisory Board should not be
+  “**Recommendation 1**: The Horizon Compensation Advisory Board should not be
 
   prevented from monitoring individual cases in which compensation has been or is to be
   determined by paragraph 4 of its Terms of Reference. It must be one of the core duties of
@@ -198,7 +198,7 @@ claimants should be full and fair. [243]_
 
  		         […]
 
-  Recommendation 3: The Horizon Compensation Advisory Board shall, as part of its
+  **Recommendation 3:** The Horizon Compensation Advisory Board shall, as part of its
 		
   advisory role, consider whether, in its view, full and fair compensation is being paid out
   to applicants under the three schemes, and shall advise the Minister and the Post Office
@@ -212,7 +212,7 @@ was an exchange of correspondence between the Board and me. [245]_
 the Department wrote:
 
 
-    “3. Recommendations accepted in part
+    “**3. Recommendations accepted in part**
 
     The Advisory Board’s aim is to help the department to ensure fair and prompt
     compensation to postmasters affected by the Horizon scandal and related issues. The
@@ -251,6 +251,7 @@ suggesting that such an aim should be implemented “as far as possible”. [247
 
 
 Parliamentary Oversight – Select Committees
+-------------------------------------------
 
 4.276.	The Business and Trade Committee has issued two recent reports relating to the financial
 redress schemes under consideration in the Inquiry.
@@ -500,6 +501,7 @@ Post Office should stall or delay the delivery of compensation.
 
 
 Full and Fair Compensation
+--------------------------
 
 4.299.	Paragraph 9 of Mr Creswell’s First Witness Statement reads as follows:
 

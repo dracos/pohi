@@ -3,9 +3,9 @@ Introduction
 
 6.1.	As is obvious from the heading above, this section contains my conclusions and recommendations relating to redress. It is vitally important in my view, that these matters are addressed as soon as can be. No purpose would be served by HM Government or the Department delaying consideration of my recommendations until the remainder of my Report is delivered. The whole reason for delivering this volume of my Report in advance of the remaining volume is that appropriate action in relation to the schemes for redress can be taken as soon as is reasonably possible. Accordingly, the first recommendation which I make is that:
 
-  1. HM Government and/or the Department and where appropriate the Post
+  **1. HM Government and/or the Department and where appropriate the Post
   Office and Fujitsu shall provide written responses to my recommendations by 10
-  October 2025.
+  October 2025.**
 
 6.2.	The Terms of Reference of the Inquiry, as I have interpreted them, require me to assess whether the schemes for providing financial redress described above have “properly” delivered financial redress to all eligible claimants. In the revised List of Issues which I published on 10 January 2022, I made it clear that such an assessment would involve considering (i) whether, and if so, to what extent, the schemes provided an adequate means for providing financial redress and (ii) whether in fact, claimants were being compensated adequately. [310]_
 
@@ -25,8 +25,8 @@ Introduction
 
 6.10.	Accordingly, in order to undertake the assessment required of me by the Inquiry’s Terms of Reference and my List of Issues, and in order to assess whether the Post Office, the Department and Ministers have fulfilled their stated aims, I propose to answer the following question:
 
-            “Have the Post Office, the Department and Ministers delivered financial redress
-            to claimants which is full and fair, and have they done so promptly?”
+            **“Have the Post Office, the Department and Ministers delivered financial redress
+            to claimants which is full and fair, and have they done so promptly?”**
 
 6.11.	In order to answer that question sufficiently, there are sub-questions to be considered and answered. How should the phrase full fair and prompt be understood by claimants and the public at large. Considered objectively, what did the Post Office, the Department and Ministers intend the phrase to mean? Once the meaning of the phrase has been established, has the aim of providing redress which is full and fair in that sense been achieved? Has redress been delivered promptly?
 

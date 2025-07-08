@@ -21,13 +21,13 @@ he envisaged would include:
 
     b) bursaries to assist with the retraining of postmasters and for the education of their children whose education was disrupted by this scandal;
 
-    c) a tangible memorial scheme to mark what he described as the largest miscarriage of justice in British legal history; such a scheme should sympathetically record the experiences of postmasters and how profoundly they and their communities were failed by the Post Office and others;
+    c) a tangible memorial scheme to mark what he described as the largest miscarriage of justice in British legal history; **such a scheme should sympathetically record the experiences of postmasters and how profoundly they and their communities were failed by the Post Office and others;**
 
-    d) restitution and restoration of reputation: in many cases postmasters’ reputations were traduced in their local communities and regionally; postmasters’ reputations must also be restored within their own local communities through engagement with those communities and the local press;
+    d) restitution and restoration of reputation: **in many cases postmasters’ reputations were traduced in their local communities and regionally; postmasters’ reputations must also be restored within their own local communities through engagement with those communities and the local press;**
 
     e) an entrepreneurial fund; and,
 
-    f) a fund for affected family members. [298]_
+    f) **a fund for affected family members.** [298]_
 
 4.322.	Mr Stein KC further submitted that I should not close the Inquiry until it has received and
 considered the proposals of the Post Office and Fujitsu on restorative justice and Core

@@ -578,37 +578,33 @@ is necessary to explore the relevant background.
 4.75. The prospect of an appeal process within HSS has been under consideration since it was
 recommended by the Advisory Board on 14 June 2023. [82]_ I quote from the minutes of the
 Board:
-“10. 	They concluded that if the Scheme was to be seen to be fair, individuals who
-were unhappy about the settlements which they had received needed to have
-recourse to an assessment which was wholly independent of the Post Office.
-This should come at the end of the process, on similar lines to the role of the
-GLO Independent Panel. They recommended that the Minister should con-
-sider how such an appeal process could be introduced. It should focus on
-assessing whether settlements were fair based on the evidence provid-
-ed, whilst allowing consideration of elements of a claim which had been
-missed or not included on the original form.
-11.   …
-12.   …
-13. 	The Board       was therefore not convinced that the application of existing
-principles and precedents would lead to consistently fair results. They noted
-that postmasters who had been prosecuted by the Post Office would receive
-exemplary damages. While such damages were intended to punish the Post
-Office, they also had the effect of acknowledging the sustained impact which
-the actions had had on individuals. They recommended that the ap-
-peal process recommended above should put particular weight on
-securing a fair outcome in respect of the issues described in the preceding
-paragraphs.”
 
-
-
-
-
+    “10. 	They concluded that if the Scheme was to be seen to be fair, individuals who
+    were unhappy about the settlements which they had received needed to have
+    recourse to an assessment which was wholly independent of the Post Office.
+    This should come at the end of the process, on similar lines to the role of the
+    GLO Independent Panel. **They recommended that the Minister should con-
+    sider how such an appeal process could be introduced. It should focus on
+    assessing whether settlements were fair based on the evidence provid-
+    ed, whilst allowing consideration of elements of a claim which had been
+    missed or not included on the original form.**
+    11.   …
+    12.   …
+    13. 	The Board       was therefore not convinced that the application of existing
+    principles and precedents would lead to consistently fair results. They noted
+    that postmasters who had been prosecuted by the Post Office would receive
+    exemplary damages. While such damages were intended to punish the Post
+    Office, they also had the effect of acknowledging the sustained impact which
+    the actions had had on individuals. **They recommended that the ap-
+    peal process recommended above should put particular weight on
+    securing a fair outcome in respect of the issues described in the preceding
+    paragraphs.**”
 
 4.76. At its meeting on 25 October 2023, the Advisory Board addressed the issue of whether
 “a reviewer” should be appointed in HSS to mirror the activities of the reviewer in GLOS. [83]_
 The Board’s discussion was in the following context:
 
-    “Assuring fairness and consistency between schemes.
+    “**Assuring fairness and consistency between schemes.**
 
     3. The Board’s aim was to ensure fair and prompt compensation for postmasters,
     including consistency between the HSS, GLO and overturned convictions arrangements.
@@ -627,9 +623,9 @@ The relevant minute reads as follows: [84]_
 
     •	Noted the Inquiry’s recommendation that the Board should regularly advise the Minister as to whether full and fair compensation was being paid to applicants under the three schemes; but accepted Sir Ross’s advice that a full review of the HSS, including sampling of representative number of cases, would take too long and require substantial amounts of money to be spent on lawyers and consultants which would be better directed to postmasters themselves;
 
-    •	Recommended the appointment by government of a Reviewer for the HSS to follow the GLO model. The HSS Reviewer would consider cases which met similar criteria to those which will apply to the GLO Reviewer.
+    •	**Recommended the appointment by government of a Reviewer for the HSS to follow the GLO model.** The HSS Reviewer would consider cases which met similar criteria to those which will apply to the GLO Reviewer.
 
-    •	Recommended that the GLO and proposed HSS Reviewers and the OC Assessor should regularly report to the Department and the Board any systematic concerns about the fairness of the schemes, and believed that such reports represented the most effective way of securing the assurance which the Inquiry had recommended;
+    •	**Recommended that the GLO and proposed HSS Reviewers and the OC Assessor should regularly report to the Department and the Board any systematic concerns about the fairness of the schemes,** and believed that such reports represented the most effective way of securing the assurance which the Inquiry had recommended;
 
     •    Agreed to keep this mechanism under review as it was developed and operated.”
 
@@ -718,7 +714,7 @@ related to the appeal must be submitted within the same nine-month period.
 4.88. The HSSA process guidance and principles is, in my view, unclear about whether decision
 makers can extend the time for appealing. At one point in the documentation, claimants
 are told “If for any reason there are issues with these timelines being met, email …. to discuss
-further.” A few lines later, under the heading “Making a late claim”, claimants are informed
+further.” A few lines later, under the heading “**Making a late claim**”, claimants are informed
 “Unfortunately, DBT will not be able to accept any HSSA appeals made after these timescales”.
 I interpret that as meaning that the Department may extend the time for appealing
 provided that any extension is sought before the expiry of the nine-month period.
@@ -739,8 +735,8 @@ provides:
     Resolution Procedure] there is no risk of receiving less redress than the best offer received
     during [that process].”
 
-4.90. At a later point in the same document under the heading Referral to an Independent
-Panel the following appears:
+4.90. At a later point in the same document under the heading **Referral to an Independent
+Panel** the following appears:
 
     “The Independent Panel may make an award which is less than any earlier offer made by
     DBT for your appeal. DBT will be bound by the Independent Panel’s decision and once the
