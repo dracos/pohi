@@ -81,9 +81,8 @@ Restorative Justice
        For the avoidance of any doubt, the word Fujitsu in this recommendation is
        intended to include both Fujitsu Services Limited and Fujitsu Limited.
 
-Sir Wyn Willams
-
-6 June 2025
+| Sir Wyn Willams
+| 6 June 2025
 
 
 .. [342]   I have used the phrase public bodies quite deliberately so as to allow those considering this issue the maximum flexibility about the meaning which that phrase is meant to convey. I do not have the evidence to make a specific recommendation about whether the phrase should be confined to the con- stituent departments of central government and the arms’ length bodies which they control or whether it should also be concerned with public bodies such as local authorities.

@@ -3,11 +3,11 @@ Volume 1 – 1. Introduction
 
 HC 1119
 
-Presented to Parliament pursuant to Section 26 of the Inquiries Act 2005
-Ordered by the House of Commons to be printed on 8 July 2025
+| Presented to Parliament pursuant to Section 26 of the Inquiries Act 2005
+| Ordered by the House of Commons to be printed on 8 July 2025
 
-ISBN 978-1-5286-5867-6
-E03395555 07/2025
+| ISBN 978-1-5286-5867-6
+| E03395555 07/2025
 
 1.1. Post Office Counters Limited (“the Post Office”) began rolling out the Horizon IT System (“Horizon”) to branches and Crown Offices in about September 1999. [1]_ By about the end of 2001/early 2002 the process was complete, since which time and to this day all Post Office branches and Crown Offices have used a version of Horizon as an integral part of their business.
 
