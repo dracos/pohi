@@ -1,5 +1,5 @@
-Volume 1 – 3. The Human Impact, c. Case Illustrations
-=====================================================
+c. Case Illustrations
+=====================
 
 Martin Griffiths (Deceased)
 ---------------------------

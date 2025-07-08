@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, g. Restorative Justice
-=================================================================
+g. Restorative Justice
+======================
 
 4.320.	
 The idea of restorative justice has been in the contemplation of postmasters and

@@ -1,5 +1,5 @@
-Volume 1 – 2. Recommendations
-=============================
+2. Recommendations
+==================
 
 #. HM Government and/or the Department and where appropriate the Post Office and Fujitsu shall provide written responses to my recommendations by 10 October 2025.
 #. The Minister and/or the Department in conjunction with the Post Office shall make a public announcement explaining what is meant by the phrase “full and fair financial redress”. Such an explanation should indicate that claimants should be awarded sums which are equivalent to those which they would receive in civil litigation brought before a judge in England and Wales, assuming that the judge hearing the civil claims awarded damages at the top end of the appropriate range of damages. The explanation should also include a statement to the effect that, if fairness demands it in a particular case, a decision maker may depart from the established legal principles which would normally govern the assessment of damages in civil litigation.

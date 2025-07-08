@@ -1,5 +1,5 @@
-Volume 1 – 6. Conclusions and recommendations relating to redress, b. Has “Full and Fair Redress” been delivered to Claimants in all schemes?
-=============================================================================================================================================
+b. Has “Full and Fair Redress” been delivered to Claimants in all schemes?
+==========================================================================
 
 6.24.	I deal with this issue scheme by scheme.
 

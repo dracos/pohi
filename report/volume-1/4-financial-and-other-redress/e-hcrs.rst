@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, e. The Horizon Conviction Redress Scheme - HCRS
-==========================================================================================
+e. The Horizon Conviction Redress Scheme - HCRS
+===============================================
 
 4.236.	This Scheme was launched on 30 July 2024. Those whose convictions have been quashed
 by the Post Office (Horizon System) Offences Act 2024 in England, Wales and Northern

@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, a. Introduction
-==========================================================
+a. Introduction
+===============
 
 4.1.	Until 3 June 2025 there were four schemes in being under which claimants could seek
 financial redress as a consequence of being affected by Horizon. [26]_ They were (i) the

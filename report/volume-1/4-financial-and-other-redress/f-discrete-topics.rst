@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, f. Discrete topics relevant to all schemes
-=====================================================================================
+f. Discrete topics relevant to all schemes
+==========================================
 
 Insolvency
 ----------

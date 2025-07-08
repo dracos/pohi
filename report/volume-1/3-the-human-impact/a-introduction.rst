@@ -1,5 +1,5 @@
-Volume 1 – 3. The Human Impact, a. Introduction
-===============================================
+a. Introduction
+===============
 
 3.1. It is almost impossible to ascertain, with any degree of accuracy, the number of persons who have suffered as a result of the misplaced reliance upon data produced by Horizon.  I can say, however, with a degree of confidence that there are currently about 10,000 eligible claimants in the schemes providing financial redress and that number is likely to rise at least by hundreds, if not more, over the coming months.
 

@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, b. The Horizon Shortfall Scheme - HSS
-================================================================================
+b. The Horizon Shortfall Scheme - HSS
+=====================================
 
 4.16.	In the Progress Update, I provided a detailed description of HSS as it was at its launch in
 May 2020 and as it evolved over the following 30 months. [38]_ I also referred to aspects of

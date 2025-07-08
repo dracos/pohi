@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, c. The Overturned Conviction Scheme - OCS
-====================================================================================
+c. The Overturned Conviction Scheme - OCS
+=========================================
 
 4.148.	There are currently 111 persons whose convictions have been quashed by the courts
 who have made claims for financial redress under OCS. There are three persons who

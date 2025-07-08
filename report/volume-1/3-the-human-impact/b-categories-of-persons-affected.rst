@@ -1,5 +1,5 @@
-Volume 1 – 3. The Human Impact, b. Categories of persons affected
-=================================================================
+b. Categories of persons affected
+=================================
 
 Persons who died by suicide or attempted suicide or suffered significant ill health
 -----------------------------------------------------------------------------------

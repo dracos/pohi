@@ -1,5 +1,5 @@
-Volume 1 – 5. Submissions on behalf of core participants and others
-===================================================================
+5. Submissions on behalf of core participants and others
+========================================================
 
 5.1. Oral and written evidence relating to the schemes for financial redress was adduced before me as part of Phase 7 of the Inquiry. Following the completion of the evidence relating to that phase of the Inquiry, I invited Core Participants to make closing written submissions about Phase 7 (and earlier phases). I also permitted the legal representatives of Core Participants to make oral submissions, thereby providing an opportunity for them to emphasise issues which particularly concerned their clients, and/or to amplify points which they had made in writing. I received written and oral submissions ranging over a number of issues considered at the Inquiry (i) on behalf of the Core Participants represented by Hodge Jones & Allen (ii) on behalf of the Core Participants represented by Howe+Co and (iii) on behalf of the Core Participants represented by Hudgell Solicitors. I also received written and oral submissions in relation to a range of topics on behalf of (iv) Ms Susan Sinclair (v) :abbr:`NFSP (National Federation of SubPostmasters)` (vi) :abbr:`UKGI (UK Government Investments)` (vii) the Post Office (viii) Ms Paula Vennells (ix) Mr Gareth Jenkins (x) Fujitsu and xi) the Department. I received written submissions on behalf of the Communications Workers Union.
 

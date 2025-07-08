@@ -1,5 +1,5 @@
-Volume 1 – 6. Conclusions and recommendations relating to redress, d. Other Issues and Recommendations
-======================================================================================================
+d. Other Issues and Recommendations
+===================================
 
 6.206.	During the course of evidence and more particularly, in written and oral closing submissions, I have been asked to make a number of recommendations which have been formulated on behalf of postmasters and others adversely affected by Horizon.
 

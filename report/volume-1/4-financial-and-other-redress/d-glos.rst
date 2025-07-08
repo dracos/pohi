@@ -1,5 +1,5 @@
-Volume 1 – 4. Financial and other redress, d. The Group Litigation Scheme - GLOS
-================================================================================
+d. The Group Litigation Scheme - GLOS
+=====================================
 
 4.199.	I have already referred to the announcement made by the Minister on 22 March 2022. [172]_
 On 30 June 2022, a further announcement was made to Parliament that

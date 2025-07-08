@@ -1,5 +1,5 @@
-Volume 1 – 6. Conclusions and recommendations relating to redress
-=================================================================
+Introduction
+============
 
 6.1.	As is obvious from the heading above, this section contains my conclusions and recommendations relating to redress. It is vitally important in my view, that these matters are addressed as soon as can be. No purpose would be served by HM Government or the Department delaying consideration of my recommendations until the remainder of my Report is delivered. The whole reason for delivering this volume of my Report in advance of the remaining volume is that appropriate action in relation to the schemes for redress can be taken as soon as is reasonably possible. Accordingly, the first recommendation which I make is that:
 

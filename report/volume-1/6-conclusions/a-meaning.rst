@@ -1,5 +1,5 @@
-Volume 1 – 6. Conclusions and recommendations relating to redress, a. The meaning of the phrase ‘Full and Fair Redress’
-=======================================================================================================================
+a. The meaning of the phrase ‘Full and Fair Redress’
+====================================================
 
 6.12.	At paragraphs 4.303 and 4.304 above I expressed the view that the phrase full and fair redress might mean different things to different people, and that it would be most unfortunate if the awards made to claimants were dependent upon how the phrase was interpreted by different decision makers in particular claims. In my view, there is a clear and compelling need for consistency in the interpretation of the phrase given its centrality in this redress process. I also take the view that such consistency can be achieved only by there being a common understanding of the phrase full and fair.
 

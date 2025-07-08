@@ -1,5 +1,5 @@
-Volume 1 – 6. Conclusions and recommendations relating to redress, c. Has financial redress been delivered promptly?
-====================================================================================================================
+c. Has financial redress been delivered promptly?
+=================================================
 
 6.129.	There can be no doubt that financial redress has been delivered promptly to those claimants who have, to date, submitted claims within HCRS. The scheme was launched almost one year ago and all, or virtually all those who claimed and have accepted the Fixed Sum Offer of £600,000 have been paid. What follows therefore, is concerned only with HSS, OCS and GLOS unless I make an express reference to HCRS.
 
