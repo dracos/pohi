@@ -87,6 +87,6 @@ Restorative Justice
 
 .. [342]   I have used the phrase public bodies quite deliberately so as to allow those considering this issue the maximum flexibility about the meaning which that phrase is meant to convey. I do not have the evidence to make a specific recommendation about whether the phrase should be confined to the con- stituent departments of central government and the arms’ length bodies which they control or whether it should also be concerned with public bodies such as local authorities.
 .. [343]   [`SUBS0000079 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000079-closing-submissions-howe-and-co>`_] at [5/13].
-.. [344]  Transcript 11/11/2024 William Paul Patterson [`INQ00001205 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001205-transcript-11112024-post-office-horizon-it-inquiry-jonathan-reynolds-mp>`_] at [228/23] to [231/10].
-.. [345]   Transcript, 04/11/2024, Simon Recaldin [`INQ00001201 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001201-transcript-05112024-post-office-horizon-it-inquiry-simon-recaldin-witn0989-and>`_] at [51/20] to [52/4].
+.. [344] :ref:`Transcript, 11/11/2024 William Paul Patterson [INQ00001205] at [228/23] to [231/10] <volume1-footnote344>`.
+.. [345] :ref:`Transcript, [05]/11/2024, Simon Recaldin [INQ00001201] at [51/20] to [52/4] <volume1-footnote345>`.
 

@@ -211,11 +211,10 @@ Delay in GLOS
 .. [329]   Sir Alex Chisholm KCB 1st [`WITN00180100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn00180100-sir-alex-chisholm-kcb-witness-statement>`_] at [59/226].
 .. [330]   Chair’s Statement on issues relating to Compensation 09/01/2023, [`INQ00002033 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002033-chairs-statement-issues-relating-compensation>`_] at [14/52]. The last sentence was written at a time when the Department was maintaining that all claimants within GLOS would receive financial redress by 7 August 2024 which was then the end date for providing such redress.
 .. [331]   [`SUBS0000089 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000089-closing-submissions-hudgell-solicitors>`_] at [81/6.21].
-.. [332]   Transcript, 09/10/2024, Nick Read, [`INQ00001193 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001193-transcript-09102024-post-office-horizon-it-inquiry-nick-read-witn0076>`_] at [101/6] to [102/20].
+.. [332] :ref:`Transcript, 09/10/2024, Nick Read, [INQ00001193] at [101/6] to [102/20] <volume1-footnote332>`.
 .. [333]   [`UKGI00047550 <https://www.postofficehorizoninquiry.org.uk/evidence/ukgi00047550-report-re-pol-response-pol-ceo-regarding-administration-compensation-arising>`_].
 .. [334]   [`SUBS0000064 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000064-closing-submissions-post-office-limited>`_] at [78/271].
-.. [335]   Transcript, 11/10/2024, Nick Read, [INQ00001195] at [1/10] to [6/24] and Transcript
-      9/10/2024, Nick Read [`INQ00001193 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001193-transcript-09102024-post-office-horizon-it-inquiry-nick-read-witn0076>`_] at [101/10] to [102/20].
+.. [335] :ref:`Transcript, 11/10/2024, Nick Read, [INQ00001195] at [1/10] to [6/24] <volume1-footnote335a>` and :ref:`Transcript, 9/10/2024, Nick Read [INQ00001193] at [101/10] to [102/20] <volume1-footnote335b>`.
 .. [336]   The Post Office cannot escape all responsibility for this legalistic approach. At all material times the Post Office was the client and its lawyers must act in accordance with its instructions.
 .. [337]   See paragraph 4.141 above.
 .. [338]   [SUBS0000095] at [2/5].

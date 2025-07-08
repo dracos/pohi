@@ -806,7 +806,7 @@ above. [293]_
 .. [265]		 Henry Staunton 1st [`WITN11410100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11410100-henry-staunton-witness-statement>`_].
 .. [266]		The relevant documents are [`RLIT0000254 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000254-email-henry-staunton-nick-read-re-henry-stauntons-note-meeting-sarah-munby-5>`_] (Mr Staunton’s note); [`RLIT0000255 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000255-letter-sarah-munby-rt-hon-kemi-badenoch>`_] (a note made by Ms Munby approximately one year after the meeting) and [`BEIS0000752 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000752-email-rebecca-stockbridge-brooks-white-and-ed-baird-re-fw-briefing-request>`_] (a note made on 6 January 2023 by Ms Munby’s private secretary who attended the meeting with Ms Munby).
 .. [267]		 Henry Staunton 1st [`WITN11410100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11410100-henry-staunton-witness-statement>`_] at [11/20].
-.. [268]		 Transcript, 01/10/2024, Henry Staunton, [`INQ00001189 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001189-transcript-01102024-post-office-horizon-it-inquiry-henry-staunton-witn1141-and>`_].
+.. [268] :ref:`Transcript, 01/10/2024, Henry Staunton, [INQ00001189] <volume1-footnote268>`.
 .. [269]		 Sarah Munby 1st [`WITN11520100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11520100-sarah-munby-first-witness-statement>`_] and 2nd [`WITN11520200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11520200-sarah-munby-second-witness-statement>`_].
 .. [270]		 Sarah Munby 1st [`WITN11520100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11520100-sarah-munby-first-witness-statement>`_] at [6/17].
 .. [271]   Carl Creswell 1st [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_] at [4/9].
@@ -817,20 +817,20 @@ above. [293]_
 .. [276]     Nick Read 3rd [`WITN00760300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn00760300-nick-read-third-witness-statement>`_] at [87/164].
 .. [277]     [`SUBS0000064 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000064-closing-submissions-post-office-limited>`_] at [80/275].
 .. [278]     [`POL00413475 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00413475-hm-treasury-report-managing-public-money>`_].
-.. [279]     Transcript, 05/11/2024, Sarah Munby [`INQ00001201 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001201-transcript-05112024-post-office-horizon-it-inquiry-simon-recaldin-witn0989-and>`_] at [122/18] to [124/21].
+.. [279] :ref:`Transcript, 05/11/2024, Sarah Munby [INQ00001201] at [122/18] to [124/21] <volume1-footnote279>`.
 .. [280]     Ibid at [126/4] to [130/4].
 .. [281]     Ibid at [127/7] to [128/14].
 .. [282]     Ibid at [142/9] to [177/12].
 .. [283]   Former ministers: The Rt Hon Kemi Badenoch MP, Kevin Hollinrake MP, Current ministers: The Rt Hon Jonathan Reynolds MP and Gareth Thomas MP.
 .. [284]   Carl Creswell 2nd [`WITN11730200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730200-carl-creswell-second-witness-statement>`_] at [9/30 to [10/35].
 .. [285]   Carl Creswell 2nd [`WITN11730200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730200-carl-creswell-second-witness-statement>`_] at [9/30 to [10/35]; [`BEIS0000888 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000888-email-secretary-state-dbt-minister-thomas-and-harry-fallowfield-re-ministerial>`_], [`BEIS0000707 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000707-letter-jeremy-hunt-kemi-badenoch-mp-re-accelerating-post-office-horizon>`_], [`BEIS0000727 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000727-letter-kevin-hollinrake-john-glen-mp-re-horizon-compensation>`_], [`BEIS0001189 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0001189-email-jenny-chaplin-jones-oliver-ps-lord-chancellor-rob-brightwell-and-others>`_].
-.. [286]   Transcript, 6/11/2024, Carl Creswell [`INQ00001202 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001202-transcript-06112024-post-office-horizon-it-inquiry-kevin-hollinrake-mp>`_] [204/16] to [205/13].
+.. [286] :ref:`Transcript, 6/11/2024, Carl Creswell [INQ00001202] [204/16] to [205/13] <volume1-footnote286>`.
 .. [287]   [`SUBS0000064 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000064-closing-submissions-post-office-limited>`_] at [76/263] to [76/264].
 .. [288]   [`BEIS0000903 <https://www.postofficehorizoninquiry.org.uk/evidence/beis0000903-horizon-redress-overturned-convictions-hroc-board-terms-reference-report>`_].
 .. [289]   Alisdair Cameron 2nd [`WITN09840200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09840200-alisdair-cameron-second-witness-statement>`_] at [6/22].
 .. [290]   Ibid at [15/50].
 .. [291]   Alisdair Cameron 1st [`WITN09840100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09840100-alisdair-cameron-witness-statement>`_] at [34/142].
-.. [292]   Transcript, 01/10/2024, Henry Staunton [`INQ00001189 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001189-transcript-01102024-post-office-horizon-it-inquiry-henry-staunton-witn1141-and>`_] at [168/4] to [168/9].
+.. [292] :ref:`Transcript, 01/10/2024, Henry Staunton [INQ00001189] at [168/4] to [168/9] <volume1-footnote292>`.
 .. [293]   [`WITN11460200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11460200-kevin-hollinrake-second-witness-statement>`_] at [1/2] to [1/3] and [`WITN11730300 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730300-carl-creswell-third-witness-statement>`_] at [1/2] to [3/6].
 
 

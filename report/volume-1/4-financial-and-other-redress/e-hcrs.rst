@@ -100,7 +100,7 @@ Addleshaw Goddard. [233]_
 .. [221]		Mr Creswell made his witness statements on 2 October 2024, 22 October 2024, 12 November 2024 and 7 May 2025.
 .. [222]		 The current version of the assessment framework is [`RLIT0000363 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000363-horizon-convictions-redress-scheme-hcrs-assessment-framework>`_].
 .. [223]		[`RLIT0000362 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000362-horizon-convictions-redress-scheme-hcrs-legal-cost-framework-report>`_].
-.. [224]		 Transcript, 06/11/2024, Carl Creswell [`INQ00001202 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001202-transcript-06112024-post-office-horizon-it-inquiry-kevin-hollinrake-mp>`_].
+.. [224] :ref:`Transcript, 06/11/2024, Carl Creswell [INQ00001202] <volume1-footnote224>`.
 .. [225]		[`RLIT0000565 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000565-transparency-data-post-office-horizon-financial-redress-data-29-november-2024>`_].
 .. [226]		[`RLIT0000580 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000580-post-office-horizon-financial-redress-data-28th-february-2025-updated-7th>`_].
 .. [227]		[`RLIT0000600 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000600-department-business-trade-post-office-horizon-financial-redress-data-31-march>`_].

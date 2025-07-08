@@ -61,13 +61,13 @@ commitment from the Government and Fujitsu to the effect that they would publish
 final monetary contribution made by Fujitsu to the Department/Government, and/or the
 Post Office and any other relevant commitments made by Fujitsu.
 
-.. [294]   Transcript, 13/10/2022, Sam Stein KC [`INQ00001046 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001046-transcript-13102022-pohiti-howe-co-hudgells-solicitors-and-hodge-jones-allen>`_] at [63/11] to [64/3].
+.. [294] :ref:`Transcript, 13/10/2022, Sam Stein KC [INQ00001046] at [63/11] to [64/3] <volume1-footnote294>`.
 .. [295]   Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [15/38] “at the time of writing 64 (of which 12 in HSS, 44 in the GLO Scheme and eight in the OC Process) restorative Justice meetings have taken place...”.
-.. [296]   Transcript, 02/10/2024, Chris Brocklesby [`INQ00001190 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001190-transcript-02102024-post-office-horizon-it-inquiry-chris-brocklesby-witn1135>`_] at [90/4] to [91/19].
-.. [297]   Transcript, 05/11/2024, Simon Recaldin [`INQ00001201 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001201-transcript-05112024-post-office-horizon-it-inquiry-simon-recaldin-witn0989-and>`_] at [48/1] to [48/19].
-.. [298]   I note that measures (a)-(e) were included in Submissions 02/12/2024, Howe & Co [`SUBS0000014 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000014-howe-co-submissions-8-december-2022-compensation-hearing>`_] at [34/101] to which the Post Office took the position that such a programme was outside my terms of reference. See Transcript, 08/12/2022, Kate Gallafent KC [`INQ00001055 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001055-transcript-08122022-pohiti-post-office-limited-department-business-energy-and>`_] at [40/15] to [40/24].
-.. [299]   Transcript, 05/11/2024, Simon Recaldin [`INQ00001201 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001201-transcript-05112024-post-office-horizon-it-inquiry-simon-recaldin-witn0989-and>`_] at [51/6] to [52/3].
+.. [296] :ref:`Transcript, 02/10/2024, Chris Brocklesby [INQ00001190] at [90/4] to [91/19] <volume1-footnote296>`.
+.. [297] :ref:`Transcript, 05/11/2024, Simon Recaldin [INQ00001201] at [48/1] to [48/19] <volume1-footnote297>`.
+.. [298]   I note that measures (a)-(e) were included in Submissions 02/12/2024, Howe & Co [`SUBS0000014 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000014-howe-co-submissions-8-december-2022-compensation-hearing>`_] at [34/101] to which the Post Office took the position that such a programme was outside my terms of reference. See :ref:`Transcript, 08/12/2022, Kate Gallafent KC [INQ00001055] at [40/15] to [40/24] <volume1-footnote298>`.
+.. [299] :ref:`Transcript, 05/11/2024, Simon Recaldin [INQ00001201] at [51/6] to [52/3] <volume1-footnote299>`.
 .. [300]   Submissions, 09/12/2024, Fujitsu [`SUBS0000067 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000067-closing-submissions-fujitsu-services-limited>`_] at [42/76] “Fujitsu will engage with Government on contribution to the Government’s compensation costs. The timing of this engagement will commence once this Inquiry has published its findings.”.
-.. [301]   Transcript, 11/11/2024, Kemi Badenoch MP [`INQ00001205 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001205-transcript-11112024-post-office-horizon-it-inquiry-jonathan-reynolds-mp>`_] at [159/3] to [162/3].
-.. [302]   Transcript, 11/11/2024, William Paul Patterson [`INQ00001205 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00001205-transcript-11112024-post-office-horizon-it-inquiry-jonathan-reynolds-mp>`_] at [227/6] to [232/13].
+.. [301] :ref:`Transcript, 11/11/2024, Kemi Badenoch MP [INQ00001205] at [159/3] to [162/3] <volume1-footnote301>`.
+.. [302] :ref:`Transcript, 11/11/2024, William Paul Patterson [INQ00001205] at [227/6] to [232/13] <volume1-footnote302>`.
 .. [303]   [RLIT0000633].
