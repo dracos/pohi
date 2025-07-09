@@ -217,7 +217,7 @@ Delay in GLOS
 .. [335] :ref:`Transcript, 11/10/2024, Nick Read, [INQ00001195] at [1/10] to [6/24] <volume1-footnote335a>` and :ref:`Transcript, 9/10/2024, Nick Read [INQ00001193] at [101/10] to [102/20] <volume1-footnote335b>`.
 .. [336]   The Post Office cannot escape all responsibility for this legalistic approach. At all material times the Post Office was the client and its lawyers must act in accordance with its instructions.
 .. [337]   See paragraph 4.141 above.
-.. [338]   [SUBS0000095] at [2/5].
+.. [338]   [`SUBS0000095 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000095-submissions-hss-appeals-process-behalf-department-business-and-trade>`_] at [2/5].
 .. [339]     Except in the public interest cases.
 .. [340]   I understand that the 13 claimants who have yet to submit a claim are adopting that course of action quite deliberately. They have decided to await the ending of the Inquiry and/or my Report to the Minis- ter before submitting a claim.
 .. [341]   It may be that these claimants are awaiting the end of the Inquiry and my Report like some of the claimants in OCS.

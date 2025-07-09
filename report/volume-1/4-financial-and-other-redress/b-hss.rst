@@ -1302,7 +1302,7 @@ relating to suggested improvements to HSS. It read as follows:
 .. [75]    Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [7/15] to [7/16].
 .. [76]    Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [5].
 .. [77]    Ibid at [5].
-.. [78] :ref:`Transcript, 08/11/2024, Gareth Thomas, [INQ00001204] at [19/15] to [22/21] <volume1-footnote78>` and Gareth Thomas 2nd, [WITN11490200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11490200-gareth-thomas-mp-witness-statement>`_] at [5/17] to [6/23].
+.. [78] :ref:`Transcript, 08/11/2024, Gareth Thomas, [INQ00001204] at [19/15] to [22/21] <volume1-footnote78>` and Gareth Thomas 2nd, [`WITN11490200 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11490200-gareth-thomas-mp-witness-statement>`_] at [5/17] to [6/23].
 .. [79]    See paragraph 4.59 above.
 .. [80]    See Simon Recaldin 6th [`WITN09890600 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890600-simon-recaldin-sixth-witness-statement>`_] at [32/102].
 .. [81]    [`RLIT0000613 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000613-new-appeals-process-provide-independent-assurance-about-horizon-redress-awards>`_].

@@ -491,7 +491,7 @@ information.
 .. [161]		There is a separate document setting out, in detail, the process for pecuniary claims, [`POL00448916 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00448916-post-office-overturned-convictions-pecuniary-compensation-assessment-process>`_].
 .. [162]   It remains the case that there is no internal process for resolving disputes about non-pecuniary loss.
 .. [163]		Simon Recaldin 10th [`WITN09891000 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891000-simon-recaldin-tenth-witness-statement>`_] at [6/9] Table at paragraph 9; Simon Recaldin 11th [`WITN09891100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09891100-eleventh-witness-statement-simon-recaldin>`_] at [4/12] and [4/FN5].
-.. [164]		[POL00462749].
+.. [164]		[`POL00462749 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00462749-overturned-convictions-independent-compensation-assessment-panel-pecuniary>`_].
 .. [165]		 Simon Recaldin 7th [`WITN09890700 <https://www.postofficehorizoninquiry.org.uk/evidence/witn09890700-simon-recaldin-seventh-witness-statement>`_] at [13/37].
 .. [166]		 Carl Creswell 1st [`WITN11730100 <https://www.postofficehorizoninquiry.org.uk/evidence/witn11730100-carl-creswell-first-witness-statement>`_] at [27/64].
 .. [167]		 Ibid at [12/27.6].

@@ -35,5 +35,5 @@ They should, rather, give claimants the benefit of the doubt. Seventh, in HSS, c
 .. [305] I am sure that many and perhaps all of the members of the legal team who act for the Core Participants represented by Hudgell Solicitors contributed to the writing of submissions. However, for convenience only, I attribute the submissions to Mr Moloney KC since it was he who made the oral submissions.
 .. [306] Mr Stein KC represents the Core Participants represented by Howe & Co. See the previous footnote which applies equally to the writing submissions made on behalf of his lay clients.
 .. [307] [`SUBS0000079 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000079-closing-submissions-howe-and-co>`_] at [5/13] to [5/17].
-.. [308] [SUBS0000096] at [1].
+.. [308] [`SUBS0000096 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000096-submissions-hss-appeals-process-behalf-core-participants-represented-hodge>`_] at [1].
 .. [309] Progress Update on issues relating to Compensation 15/08/2024 [`INQ00002032 <https://www.postofficehorizoninquiry.org.uk/evidence/inq00002032-chairs-progress-update-issues-relating-compensation>`_] at [31/127].

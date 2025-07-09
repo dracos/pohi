@@ -70,4 +70,4 @@ Post Office and any other relevant commitments made by Fujitsu.
 .. [300]   Submissions, 09/12/2024, Fujitsu [`SUBS0000067 <https://www.postofficehorizoninquiry.org.uk/evidence/subs0000067-closing-submissions-fujitsu-services-limited>`_] at [42/76] “Fujitsu will engage with Government on contribution to the Government’s compensation costs. The timing of this engagement will commence once this Inquiry has published its findings.”.
 .. [301] :ref:`Transcript, 11/11/2024, Kemi Badenoch MP [INQ00001205] at [159/3] to [162/3] <volume1-footnote301>`.
 .. [302] :ref:`Transcript, 11/11/2024, William Paul Patterson [INQ00001205] at [227/6] to [232/13] <volume1-footnote302>`.
-.. [303]   [RLIT0000633].
+.. [303]   [`RLIT0000633 <https://www.postofficehorizoninquiry.org.uk/evidence/rlit0000633-joint-statement-business-secretary-rt-hon-jonathan-reynolds-mp-and-fujitsu>`_].
