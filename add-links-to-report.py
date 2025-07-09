@@ -23,6 +23,7 @@ def load_data():
     for name in sorted(glob.glob('evidence/*.rst')):
         if m := re.match('evidence/([A-Za-z]{3,4}[0-9_]+(r|R|ds)?)', name):
             key = m.group(1).upper().replace('_', '\_')
+            if key[0:8] == 'INQ00001': continue # Ignore transcript URNs
             contents = open(name).read()
             m = re.search('Evidence on official site <(.*?)>`', contents)
             url = m.group(1)
@@ -32,6 +33,9 @@ def load_data():
     META['evidence']['FUJ00077884'] = 'https://www.postofficehorizoninquiry.org.uk/evidence/fuj00077884-consolidated-risk-register-may-1998-april-2000'
 
 def parse_content(text):
+    # Reset, to re-add
+    text = re.sub('`([^`]*?) <[^>]*>`_', r'\1', text)
+
     # Link to some judgments
     text = re.sub('(Horizon Issues [Jj]udgments?)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html>`_', text)
     text = re.sub('(Common Issues [Jj]udgments?)', r'`\1 <https://www.bailii.org/ew/cases/EWHC/QB/2019/606.html>`_', text)
@@ -40,12 +44,9 @@ def parse_content(text):
     for e in META['evidence'].keys():
         text = text.replace(e, f'`{e} <{META["evidence"][e]}>`_')
 
-    # Manually fix any issues
-    #text = text.replace('>`_and', '>`_ and')
-
     # Deal with some acronyms
-    for acronym, meaning in ACRONYMS.items():
-        text = re.sub(fr'\b{acronym}\b', f':abbr:`{acronym} ({meaning})`', text, count=1)
+    #for acronym, meaning in ACRONYMS.items():
+    #    text = re.sub(fr'\b{acronym}\b', f':abbr:`{acronym} ({meaning})`', text, count=1)
 
     return text
 
