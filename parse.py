@@ -40,8 +40,8 @@ META = {
 
 def load_data():
     meta = json.load(open('data/metadata.json'))
-    for name in sorted(glob.glob('evidence/*.rst')):
-        if m := re.match('evidence/([A-Za-z]{3,4}[0-9_]+(r|R|ds)?)', name):
+    for name in sorted(glob.glob('evidence/*.rst') + glob.glob('evidence-2/*.rst')):
+        if m := re.match('evidence(?:-2)?/([A-Za-z]{3,4}[0-9_]+(r|R|ds)?)', name):
             key = m.group(1).upper().replace('_', '\_')
             contents = open(name).read()
             m = re.search('Evidence on official site <(.*?)>`', contents)

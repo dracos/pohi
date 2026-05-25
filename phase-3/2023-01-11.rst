@@ -183,7 +183,7 @@ Does this mean that you didn't train end users on how to use the EPOSS applicati
 
 **Steve Bansal**: I received on-the-job training.  As I say, initially I was there to support but then I ended up shadowing the testers and gradually built my level of experience and knowledge.
 
-**Mr Stevens**: I'd like to turn to a document.  The reference is FUJ00058375.  This document is titled "Direct Interface Testing Specification Pathway to HAPS".  We will come to the acronyms in a moment.
+**Mr Stevens**: I'd like to turn to a document.  The reference is `FUJ00058375 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00058375-direct-interface-testing-specification-pathway-haps-version-40>`_.  This document is titled "Direct Interface Testing Specification Pathway to HAPS".  We will come to the acronyms in a moment.
 
 If we could just move down slightly on the screen, please -- thank you -- at the bottom you'll see you are the author.  Do you recall writing this document first?
 
@@ -327,7 +327,7 @@ So just to take it in stages, were you involved in passing on any information ab
 
 **Mr Stevens**: Now, the Inquiry will be considering the design, development and testing of Horizon Online in greater detail in due course.  I want to limit what we discuss to a few small points, starting with testing, if I may.
 
-Please could we bring up POL00029327.  So this document, and I'll ask you for your held with the title, is "HNG-X: ITU V&I Business Continuity High Level Test Plan".  It says you are the author at the bottom.  Could you please provide a summary of what this document is describing?
+Please could we bring up `POL00029327 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00029327-hng-x-itu-vi-business-continuity-high-level-test-plan-version-02>`_.  So this document, and I'll ask you for your held with the title, is "HNG-X: ITU V&I Business Continuity High Level Test Plan".  It says you are the author at the bottom.  Could you please provide a summary of what this document is describing?
 
 .. rst-class:: indented
 
@@ -411,7 +411,7 @@ Moving on from Horizon Online, your witness statement states that you became a p
 
 **Mr Stevens**: Again, the Inquiry will be investigating the identification and rectification of bugs, errors and defects in the Horizon IT System in due course but I'd like to explore some general points on the problem management system with you first.
 
-Please can I bring up the following document FUJ00080043.  This is titled the "RMGA Customer Service Problem Management Process" and it's the second version. Does "RMGA" stand for "Royal Mail Group Account"?
+Please can I bring up the following document `FUJ00080043 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00080043-fujitsu-report-rmga-customer-service-problem-management-process-v2>`_.  This is titled the "RMGA Customer Service Problem Management Process" and it's the second version. Does "RMGA" stand for "Royal Mail Group Account"?
 
 .. rst-class:: indented
 
@@ -783,7 +783,7 @@ Do you know to what that refers?
 
 **Steve Bansal**: I think, historically, Post Office did have a number of sites that they determined as VIP and -- yes, I'll say no more.
 
-**Mr Stevens**: Could we look at an actual problem report.  It's POL00029568.  We see this is a problem report.  It says it affects 14 branches.  It was reported by Steve Parker and you're listed as the problem manager.
+**Mr Stevens**: Could we look at an actual problem report.  It's `POL00029568 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00029568-post-office-fujitsu-problem-report-re-local-suspense-report>`_.  We see this is a problem report.  It says it affects 14 branches.  It was reported by Steve Parker and you're listed as the problem manager.
 
 Now, this concerns a bug in the system described by Mr Justice Fraser as bug number 3, the suspense account bug and, in essence, what this document shows or suggests is, in some branches, there was data entered into the local suspense account that was relevant to balancing in trading periods 9 and 10 in 2010 and '11 and this data in the suspense account was retained in the database.  Therefore, when the branches came to balance in the corresponding trading periods 9 and 10 in later years, that 2010 data was reused incorrectly.
 
@@ -813,7 +813,7 @@ Now, this was given an urgency score by you of 2. Could you explain why this had
 
 **Steve Bansal**: So I think I can't hand on heart say that I looked that appendix for this one.  I think I may have done; I may not have done.  So I can't comment.  But, normally, I think the advice to the problem management team is to look at the appendix.
 
-**Mr Stevens**: Please could we go back to the appendix -- it's FUJ00080043 -- and turn to page 23.  On what you just said, the paragraph below the table does say:
+**Mr Stevens**: Please could we go back to the appendix -- it's `FUJ00080043 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00080043-fujitsu-report-rmga-customer-service-problem-management-process-v2>`_ -- and turn to page 23.  On what you just said, the paragraph below the table does say:
 
 "For example, if the agent decides that the Urgency score is 3, and the Impact has been calculated as 2, then from the Priority table, the final Priority will be automatically generated as 2.  The assigned priority can be overridden if the problem is serious and discussed with the Service Delivery Team Leader, but the Problem Management process must be followed."
 
@@ -829,7 +829,7 @@ Now, in the problem record there that we just looked at, the priority score give
 
 **Steve Bansal**: On this occasion, I don't think an awful lot.  Having read through the rest of the pack, I know that that particular issue was dealt with by a number of people and I think there were a number of high priority PEAKs that were raised and the investigation was quite intensive.
 
-**Mr Stevens**: You have raised it.  Let's look at that.  It's POL00029671.  Can we turn to page 6, please.
+**Mr Stevens**: You have raised it.  Let's look at that.  It's `POL00029671 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00029671-peak-incident-management-system-report>`_.  Can we turn to page 6, please.
 
 There's an entry, 6 March 2013.  I should say, for the record, that this PEAK is the PEAK referred to in the problem report we've just seen but the entry on 6 March 2013 at 4.05 says:
 
@@ -883,9 +883,9 @@ So do you recall how this problem was resolved thereafter following this call?
 
 **Sir Wyn Williams**: Yes, I can.  Thank you.
 
-**Mr Stevens**: Thank you.  Mr Bansal, we will continue.  Can you please bring up on the screen POL00029671.
+**Mr Stevens**: Thank you.  Mr Bansal, we will continue.  Can you please bring up on the screen `POL00029671 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00029671-peak-incident-management-system-report>`_.
 
-That's my error in the reference.  It's FUJ00080043.
+That's my error in the reference.  It's `FUJ00080043 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00080043-fujitsu-report-rmga-customer-service-problem-management-process-v2>`_.
 
 Thank you.  If you could turn to page 13.  Sorry, page 14.  Thank you.
 
@@ -1033,7 +1033,7 @@ How were these columns updated; can you recall?
 
 **Mr Stevens**: Thank you.  We can take that document down now.
 
-Could we please bring up FUJ00085175.  We were previously looking at version 2 of the "Customer Service Problem Management Procedure" before the break.  This is, if we go to the bottom, version 2.3, which I understand means it's in draft form; is that right? It's a draft, not approved version?
+Could we please bring up `FUJ00085175 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00085175-post-office-and-fujitsu-document-re-account-customer-service-problem>`_.  We were previously looking at version 2 of the "Customer Service Problem Management Procedure" before the break.  This is, if we go to the bottom, version 2.3, which I understand means it's in draft form; is that right? It's a draft, not approved version?
 
 .. rst-class:: indented
 
@@ -1097,7 +1097,7 @@ Is that referring to the spreadsheet or the types of spreadsheet we were seeing 
 
 **Steve Bansal**: I believe so.
 
-**Mr Stevens**: Please could we move to a different document.  It's FUJ00085985.  We see from it there's a note on the second paragraph of the substance:
+**Mr Stevens**: Please could we move to a different document.  It's `FUJ00085985 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00085985-fujitsu-ip-handover-post-office-account-service-delivery-problem-major>`_.  We see from it there's a note on the second paragraph of the substance:
 
 "Note Jan 2018: Document updated to reflect the changes on the POA Account."
 
@@ -1275,7 +1275,7 @@ So in respect of major incidents, you were the sort of final point of call or th
 
 **Steve Bansal**: Apologies.  I was going to say that, while the report is being produced and while the major incident is ongoing, I would have open dialogue with my Post Office counterpart and I would be providing them with updates. That's before and after a major incident.  So the technical written would support everything I'd been saying to him.
 
-**Mr Stevens**: Can we please go back to FUJ00085175 and can we please turn to page 9.  This was a document we were looking at a moment ago, version 2.3 of the problem management process.  1.4 refers to metrics to be reported monthly, which will be used to measure effectiveness of the process and drive performance of the process and overall service in general.  That included things such as number and end impact of incidents occurring before root problem is identified and resolved.
+**Mr Stevens**: Can we please go back to `FUJ00085175 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00085175-post-office-and-fujitsu-document-re-account-customer-service-problem>`_ and can we please turn to page 9.  This was a document we were looking at a moment ago, version 2.3 of the problem management process.  1.4 refers to metrics to be reported monthly, which will be used to measure effectiveness of the process and drive performance of the process and overall service in general.  That included things such as number and end impact of incidents occurring before root problem is identified and resolved.
 
 Do you know who was responsible for including this in this document?
 
@@ -1353,7 +1353,7 @@ As I say, some of those points, I think, are discussed but is it there for anyon
 
 **Steve Bansal**: With hindsight, yes.
 
-**Mr Stevens**: Please can we move to another document.  It's FUJ00085953.  This is a 2015 "[Post Office Account] Problem Management -- Problem Review" and the abstract says:
+**Mr Stevens**: Please can we move to another document.  It's `FUJ00085953 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00085953-2015-poa-problem-management-problem-review>`_.  This is a 2015 "[Post Office Account] Problem Management -- Problem Review" and the abstract says:
 
 "This report contains the trend analysis of the 34 problem records raised in the [Post Office Account] Problem Management TfS database during 2015."
 
@@ -1479,7 +1479,7 @@ Why do you think it is that a senior member of Fujitsu's front line staff was no
 
 I think thereafter there were multiple conversations which Gareth and occasionally I was also party to.
 
-**Mr Stevens**: Can we leave that there then thank you and move to one final -- sorry, penultimate point, and it concerns a briefing to the :abbr:`NFSP (National Federation of SubPostmasters)`.  Please can we bring up POL00002091.  This is a Fujitsu NFSP briefing on 4 July. If we turn to page 2, you see in the right-hand column that you're there to talk about capacity management, transaction monitoring and event management as well as major incident history.
+**Mr Stevens**: Can we leave that there then thank you and move to one final -- sorry, penultimate point, and it concerns a briefing to the :abbr:`NFSP (National Federation of SubPostmasters)`.  Please can we bring up `POL00002091 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00002091-nfsp-briefing-horizon-history-key-deliverables>`_.  This is a Fujitsu NFSP briefing on 4 July. If we turn to page 2, you see in the right-hand column that you're there to talk about capacity management, transaction monitoring and event management as well as major incident history.
 
 Do you recall why you were asked to give this talk to the NFSP?
 
@@ -1565,7 +1565,7 @@ So is it a fair summary that this problem that's been picked here is that transa
 
 **Steve Bansal**: Yes, so I don't think the presentation would have gone back two years.
 
-**Mr Stevens**: That's what I want to deal with on problem management. Just before I finish, I wanted to go back to a document I took you to right at the start.  It's FUJ00058375. Forgive me for the jumping around in the chronology.
+**Mr Stevens**: That's what I want to deal with on problem management. Just before I finish, I wanted to go back to a document I took you to right at the start.  It's `FUJ00058375 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00058375-direct-interface-testing-specification-pathway-haps-version-40>`_. Forgive me for the jumping around in the chronology.
 
 It's the "Direct Interface Testing Specification". Please could I ask that we turn to page 11.  So I took you earlier to what it said about PinICLs, PinICLs being recorded.  This says "IT SERVICES", at the top.  This is the next paragraph:
 
@@ -1652,7 +1652,7 @@ Questions by Mr Henry
 
 **Steve Bansal**: It was the role, it was the job.
 
-**Mr Henry**: Now, in 2010 -- there's a document that I'd like to put up which is FUJ00084531.  Now, can we just have a look at this.  Page 1 we can see -- and thank you.  Could you scroll so that we can see the -- yes, thank you, just there.
+**Mr Henry**: Now, in 2010 -- there's a document that I'd like to put up which is `FUJ00084531 <https://www.postofficehorizoninquiry.org.uk/evidence/fuj00084531-email-chain-pat-lywood-sheila-bamber-steve-bansal-dave-paddon-and-others-re>`_.  Now, can we just have a look at this.  Page 1 we can see -- and thank you.  Could you scroll so that we can see the -- yes, thank you, just there.
 
 Can you just make the screen a little bit smaller, please?  That's fine.  Maybe a little bit bigger to your previous position -- forgive me.  I just wanted to be sure that nothing had been cut out yes.  Thank you.
 
@@ -1780,7 +1780,7 @@ I just want to ask you, please, just very -- were you aware that this was a retr
 
 **Mr Henry**: You weren't told that, fine.
 
-Could we move on, please, to POL00029460.  This is a major incident report and you're the owner.  And could I ask you, please, to help me.  Was that data -- familiarise yourself, please, with the document.  Has it been shown to you in advance?
+Could we move on, please, to `POL00029460 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00029460-major-incident-report>`_.  This is a major incident report and you're the owner.  And could I ask you, please, to help me.  Was that data -- familiarise yourself, please, with the document.  Has it been shown to you in advance?
 
 .. rst-class:: indented
 
@@ -1824,7 +1824,7 @@ Was the data update in fact actually a fix because of the problem identified wit
 
 **Steve Bansal**: I couldn't say at this moment in time.
 
-**Mr Henry**: Fair enough.  Don't worry.  I now have permission, sir, to refer to POL00028830.  We can see the date of this. This is 28 September 2010 and it relates to PEAKs PC024765 and PC0204263 and then 64 and 63 is again mentioned.
+**Mr Henry**: Fair enough.  Don't worry.  I now have permission, sir, to refer to `POL00028830 <https://www.postofficehorizoninquiry.org.uk/evidence/pol00028830-note-re-correcting-accounts-lost-discrepancies-gareth-i-jenkins>`_.  We can see the date of this. This is 28 September 2010 and it relates to PEAKs PC024765 and PC0204263 and then 64 and 63 is again mentioned.
 
 Can I just ask you, please, to look at this document which I have permission to put to you.  So, again, if you could inform the officer who is presenting it.  (Pause)
 
