@@ -1,10 +1,14 @@
 Searchable transcripts of the Post Office Horizon IT Inquiry hearings
 =====================================================================
 
-.. note::
+.. important::
 
    The official Inquiry site can be found at
    https://www.postofficehorizoninquiry.org.uk
+
+.. note::
+
+   Latest update: 25th May 2026, adding over 4,000 new pieces of evidence from the official site.
 
 The Post Office Horizon IT Inquiry was established in 2020, led by retired high
 court judge Sir Wyn Williams, to investigate the “failings which occurred with
@@ -14,7 +18,8 @@ of subpostmasters’ contracts, prosecution and conviction of subpostmasters”.
 This site takes a copy of the `official transcripts
 <https://www.postofficehorizoninquiry.org.uk/hearings>`_, which are available
 in PDF or text format, parses them into reStructuredText, and uploads them to
-ReadTheDocs for **display and searching**. It also auto-links `evidence </projects/evidence/>`_ IDs to
+ReadTheDocs for **display and searching**. It also auto-links evidence IDs
+(`list 1 </projects/evidence/>`_, `list 2 </projects/evidence-2/>`_) to
 the relevant page on the official site.
 
 I hope this may be useful to people following the Inquiry, and to anyone who
